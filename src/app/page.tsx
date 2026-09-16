@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { GoogleLoginButton } from "@/components/ui/GoogleLoginButton";
+import { UserStatus } from "@/components/ui/UserStatus";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
             center.
           </p>
         </div>
+        <UserStatus />
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <GoogleLoginButton />
           <a
