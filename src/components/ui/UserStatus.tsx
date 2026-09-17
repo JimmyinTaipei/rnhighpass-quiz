@@ -8,16 +8,12 @@ export async function UserStatus() {
   const user = data.user
 
   if (!user) {
-    return (
-      <p className="text-sm text-zinc-500 dark:text-zinc-400">尚未登入</p>
-    )
+    return <p className="text-sm text-muted">尚未登入</p>
   }
 
   return (
     <div className="flex items-center gap-3 text-sm">
-      <span className="text-zinc-700 dark:text-zinc-300">
-        已登入:{user.email}
-      </span>
+      <span className="text-body">已登入:{user.email}</span>
       <LogoutButton />
     </div>
   )

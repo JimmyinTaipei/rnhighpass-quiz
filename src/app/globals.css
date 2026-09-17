@@ -5,6 +5,32 @@
   --foreground: #171717;
 }
 
+/* 設計 token，比照 多保命-護理線上國考/frontend 的莫蘭迪藍色階。
+   一定要放在這個檔案(有 @import "tailwindcss" 的檔案)裡的 @theme 才會被
+   Tailwind v4 掃到並產生 bg-deep / text-accent / rounded-card 這些 utility
+   class——放在另外 import 進來的 tokens.css 裡不會生效。 */
+@theme {
+  --color-light: #D7E1F2;
+  --color-mid: #B6CCF0;
+  --color-accent: #6592CD;
+  --color-deep: #2C5A96;
+
+  --color-correct: #639922;
+  --color-incorrect: #E24B4A;
+  --color-warning: #EF9F27;
+
+  --color-body: #444441;
+  --color-muted: #888780;
+  --color-on-accent: #FFFFFF;
+  --color-page: #F6F9FD;
+  --color-sidebar: #EDF2FA;
+  --color-card: #FFFFFF;
+  --color-card-border: #D7E1F2;
+
+  --radius-card: 12px;
+  --radius-btn: 8px;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
