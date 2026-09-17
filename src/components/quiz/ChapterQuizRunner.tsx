@@ -136,12 +136,19 @@ export function ChapterQuizRunner({
   const question = questions[state.index];
   const lastResult = state.results.at(-1);
   const showNextButton = lastResult?.questionId === question.id && !lastResult.correct;
+  const progress = ((state.index + (lastResult?.questionId === question.id ? 1 : 0)) / questions.length) * 100;
 
   return (
     <div>
       <p className="mb-1 text-sm text-muted">
         {subject?.name} / {chapter.chapter_no} {chapter.title}
       </p>
+      <div className="mb-3 h-1.5 w-full overflow-hidden rounded-full bg-light">
+        <div
+          className="h-full rounded-full bg-accent transition-all duration-300 ease-out"
+          style={{ width: `${progress}%` }}
+        />
+      </div>
       <QuestionCard
         key={cardKey}
         question={question}

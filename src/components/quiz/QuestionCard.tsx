@@ -64,16 +64,16 @@ export function QuestionCard({
         : "bg-white border-card-border text-body hover:bg-gray-50";
     }
     if (accepted.length === 0 || accepted.includes(key)) {
-      return "bg-[#EAF3DE] border-correct text-[#27500A] font-medium";
+      return "bg-correct-bg border-correct text-correct-text font-medium";
     }
     if (selected === key) {
-      return "bg-[#FCEBEB] border-incorrect text-[#791F1F]";
+      return "bg-incorrect-bg border-incorrect text-incorrect-text";
     }
     return "bg-white border-card-border text-muted opacity-60";
   }
 
   return (
-    <div className="mb-4 rounded-card border border-card-border bg-card p-5 shadow-sm">
+    <div className="mb-4 rounded-card border border-card-border bg-card p-5 shadow-md">
       <div className="mb-3 flex items-start justify-between gap-2">
         <span className="rounded bg-gray-100 px-2 py-1 text-xs font-medium text-muted">
           {question.source_text}
@@ -93,17 +93,19 @@ export function QuestionCard({
               type="button"
               disabled={isAnswered}
               onClick={() => handleSelect(key)}
-              className={`flex w-full items-center justify-between rounded-btn border p-3 text-left transition-colors ${optionStyle(key)}`}
+              className={`flex w-full items-center justify-between rounded-btn border p-3 text-left transition-all duration-200 ${optionStyle(key)} ${
+                !isAnswered ? "hover:-translate-y-0.5 hover:shadow-sm" : ""
+              }`}
             >
               <div className="flex items-center gap-3">
                 <span className="w-6 font-bold">{key}.</span>
                 <span>{options[key]}</span>
               </div>
               {isAnswered && (accepted.length === 0 || accepted.includes(key)) && (
-                <CheckCircle2 size={18} className="text-correct shrink-0" />
+                <CheckCircle2 size={18} className="icon-pop shrink-0 text-correct" />
               )}
               {isAnswered && selected === key && !accepted.includes(key) && accepted.length > 0 && (
-                <XCircle size={18} className="text-incorrect shrink-0" />
+                <XCircle size={18} className="icon-pop shrink-0 text-incorrect" />
               )}
             </button>
           );

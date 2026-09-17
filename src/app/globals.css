@@ -29,6 +29,20 @@
 
   --radius-card: 12px;
   --radius-btn: 8px;
+
+  --color-correct-bg: #EAF3DE;
+  --color-correct-text: #27500A;
+  --color-incorrect-bg: #FCEBEB;
+  --color-incorrect-text: #791F1F;
+}
+
+@keyframes icon-pop {
+  0%   { transform: scale(0);    opacity: 0; }
+  60%  { transform: scale(1.2); }
+  100% { transform: scale(1);    opacity: 1; }
+}
+.icon-pop {
+  animation: icon-pop 220ms ease-out;
 }
 
 @theme inline {
@@ -46,7 +60,7 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--color-page);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), "Noto Sans TC", Arial, Helvetica, sans-serif;
 }
