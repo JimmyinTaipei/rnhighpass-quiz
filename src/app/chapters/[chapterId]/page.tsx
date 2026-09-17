@@ -50,7 +50,16 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
         <BookOpen className="text-accent" />
         {chapter.chapter_no} {chapter.title}
       </h1>
-      <p className="mb-8 text-sm text-muted">單頁捲動：筆記卡在上、相關考題緊接在下</p>
+      <p className="mb-4 text-sm text-muted">單頁捲動：筆記卡在上、相關考題緊接在下</p>
+
+      {questions.length > 0 && (
+        <Link
+          href={`/chapters/${chapter.id}/quiz`}
+          className="mb-8 inline-block rounded-btn bg-accent px-4 py-2 font-medium text-white transition-colors hover:opacity-90"
+        >
+          開始測驗
+        </Link>
+      )}
 
       {cards.length > 0 && (
         <section className="mb-10">

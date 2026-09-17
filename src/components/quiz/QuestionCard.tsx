@@ -13,14 +13,22 @@ interface QuestionCardProps {
   question: Question;
   mode?: string;
   isLoggedIn: boolean;
+  onAnswered?: (selected: string, correct: boolean) => void;
+  hideExplanationWhenCorrect?: boolean;
+  revealAnswer?: string;
 }
 
 export function QuestionCard({
   question,
   mode = "practice",
   isLoggedIn,
+  onAnswered,
+  hideExplanationWhenCorrect = false,
+  revealAnswer,
 }: QuestionCardProps) {
-  const [selected, setSelected] = useState<OptionKey | null>(null);
+  const [selected, setSelected] = useState<OptionKey | null>(
+    (revealAnswer as OptionKey | undefined) ?? null,
+  );
   const [saveNote, setSaveNote] = useState<string | null>(null);
   const [isPending, startTransition] = useTransition();
 
@@ -39,6 +47,7 @@ export function QuestionCard({
     if (isAnswered) return;
     setSelected(key);
     const correct = isAnswerCorrect(question.answer, key);
+    onAnswered?.(key, correct);
 
     if (isLoggedIn) {
       startTransition(async () => {
@@ -101,7 +110,7 @@ export function QuestionCard({
         })}
       </div>
 
-      {isAnswered && (
+      {isAnswered && !(hideExplanationWhenCorrect && isCorrect) && (
         <div className="mt-4 border-t border-card-border pt-4">
           <div className="mb-2 flex items-center gap-2 font-bold text-deep">
             <BookOpenCheck size={18} />

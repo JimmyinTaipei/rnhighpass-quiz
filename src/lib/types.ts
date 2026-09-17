@@ -78,7 +78,7 @@ export interface QuestionImage {
   storage_path: string | null;
 }
 
-export type QuizMode = "practice" | "chapter" | "tag" | "mistakes";
+export type QuizMode = "practice" | "chapter" | "tag" | "mistakes" | "quiz";
 
 export interface UserAnswer {
   id: number;
