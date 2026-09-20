@@ -14,6 +14,7 @@
   "env": {
     "exam": {
       "name": "rnhighpass-exam",
+      "account_id": "966575298a7a680846a981e76ecbf7d4",
       "vars": { "SITE_MODE": "mock" },
       "routes": [{ "pattern": "exam.rnhighpass.com", "custom_domain": true }],
       "assets": {

@@ -9,8 +9,8 @@
     "lint": "eslint",
     "cf:preview": "opennextjs-cloudflare build && wrangler dev",
     "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "cf:preview:exam": "SITE_MODE=mock opennextjs-cloudflare build && SITE_MODE=mock wrangler dev --env exam",
-    "cf:deploy:exam": "SITE_MODE=mock opennextjs-cloudflare build && SITE_MODE=mock opennextjs-cloudflare deploy -- --env exam"
+    "cf:preview:exam": "SITE_MODE=mock opennextjs-cloudflare build && SITE_MODE=mock CLOUDFLARE_ACCOUNT_ID=966575298a7a680846a981e76ecbf7d4 wrangler dev --env exam",
+    "cf:deploy:exam": "SITE_MODE=mock opennextjs-cloudflare build && SITE_MODE=mock CLOUDFLARE_ACCOUNT_ID=966575298a7a680846a981e76ecbf7d4 opennextjs-cloudflare deploy -- --env exam"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
