@@ -5,6 +5,43 @@
   --foreground: #171717;
 }
 
+/* ===== 各科色票 =====
+   使用者在分章題本用的五科顏色。原色票是粉彩色，當文字對比不足
+   (#EE8B9C 2.38:1、#EB986A 2.27:1、#72B68B 2.39:1、#B481BB 3.09:1，
+   WCAG AA 正文需 4.5:1)，所以每組多推一階 --subj-deep 專給文字用。
+
+   規則：accent 只用於邊框/色塊/pill 底/選中態；文字一律用 deep。
+
+   機制：這些是「純 CSS 變數」，由下面的 @theme inline 包成
+   bg-subj-light / text-subj-deep 等 utility。因為 @theme inline 產生的是
+   var() 參照，會在元素上才解析，所以同一組 class 在不同 [data-group]
+   祖先底下會自動拿到不同顏色——不需要動態 class 名(Tailwind v4 的 JIT
+   掃不到 `bg-${group}-light` 這種寫法)。*/
+:root {
+  /* 沒有 data-group 包裹時的 fallback = 沿用現有品牌藍 */
+  --subj-light: #D7E1F2;
+  --subj-mid: #B6CCF0;
+  --subj-accent: #6592CD;
+  --subj-deep: #2C5A96;
+}
+
+/* deep 欄位後面標的是白底對比值 */
+[data-group="BM"] { /* 基礎醫學 */
+  --subj-light: #FDE8EC; --subj-mid: #F8BDC9; --subj-accent: #EE8B9C; --subj-deep: #B4485C; /* 5.22 */
+}
+[data-group="FA"] { /* 基本護理學與護理行政 */
+  --subj-light: #F9EBE3; --subj-mid: #F8D2B5; --subj-accent: #EB986A; --subj-deep: #AD5C28; /* 4.84 */
+}
+[data-group="MS"] { /* 內外護理學 */
+  --subj-light: #DAF0E5; --subj-mid: #B8E0C8; --subj-accent: #72B68B; --subj-deep: #3E7C57; /* 4.97 */
+}
+[data-group="OP"] { /* 產兒科護理學 */
+  --subj-light: #D7E1F2; --subj-mid: #B6CCF0; --subj-accent: #6592CD; --subj-deep: #2C5A96; /* 6.98 */
+}
+[data-group="PC"] { /* 精神與社區衛生護理學 */
+  --subj-light: #EADEF4; --subj-mid: #D8BEF0; --subj-accent: #B481BB; --subj-deep: #7A4E86; /* 6.44 */
+}
+
 /* 設計 token，比照 多保命-護理線上國考/frontend 的莫蘭迪藍色階。
    一定要放在這個檔案(有 @import "tailwindcss" 的檔案)裡的 @theme 才會被
    Tailwind v4 掃到並產生 bg-deep / text-accent / rounded-card 這些 utility
@@ -20,12 +57,16 @@
   --color-warning: #EF9F27;
 
   --color-body: #444441;
-  --color-muted: #888780;
+  --color-strong: #26262B;   /* 詳解區塊內文用，對比 ~14:1 */
+  --color-muted: #888780;    /* ~3.4:1，只可用於非必要的輔助字，不可用於正文 */
   --color-on-accent: #FFFFFF;
-  --color-page: #F6F9FD;
-  --color-sidebar: #EDF2FA;
+  /* 中性、極淡藍調(不再是明顯藍底，讓五科粉彩色不互相打架) */
+  --color-page: #F7F8FB;
+  --color-sidebar: #F1F3F8;
   --color-card: #FFFFFF;
-  --color-card-border: #D7E1F2;
+  /* 關鍵：原本等於 --color-light(#D7E1F2 藍)，會讓紅/橘/綠/紫科目的卡片
+     被藍框包住，所以改成中性灰 */
+  --color-card-border: #E3E6EC;
 
   --radius-card: 12px;
   --radius-btn: 8px;
@@ -46,18 +87,18 @@
 }
 
 @theme inline {
+  /* 各科色：解析發生在元素上 → 繼承最近的 [data-group] */
+  --color-subj-light: var(--subj-light);
+  --color-subj-mid: var(--subj-mid);
+  --color-subj-accent: var(--subj-accent);
+  --color-subj-deep: var(--subj-deep);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   background: var(--color-page);

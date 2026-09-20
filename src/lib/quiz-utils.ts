@@ -137,3 +137,27 @@ export function computeChapterStats(
     accuracy: s.answered === 0 ? 0 : Math.round((s.correct / s.answered) * 100),
   }));
 }
+
+// ===== 選項打亂 =====
+
+export const OPTION_KEYS = ["A", "B", "C", "D"] as const;
+export type OptionKey = (typeof OPTION_KEYS)[number];
+
+type OptionFields = Pick<Question, "option_a" | "option_b" | "option_c" | "option_d">;
+
+/**
+ * 產生一組打亂後的選項順序(陣列內容是「原始」字母，陣列位置是顯示位置)。
+ *
+ * 選項有空白的題目不打亂：那是整題(含選項)都印在掃描圖裡的題目，
+ * 圖上的 A–D 位置是固定的，打亂會讓顯示字母跟圖對不起來。
+ */
+export function shuffledOptionOrder(question: OptionFields): OptionKey[] {
+  const order: OptionKey[] = [...OPTION_KEYS];
+  const texts = [question.option_a, question.option_b, question.option_c, question.option_d];
+  if (texts.some((t) => !t || !t.trim())) return order;
+  for (let i = order.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  return order;
+}

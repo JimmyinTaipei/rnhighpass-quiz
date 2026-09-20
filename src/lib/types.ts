@@ -43,7 +43,14 @@ export interface Question {
   option_d: string;
   answer: string;
   explanation_text: string;
+  key_point: string | null;
+  correct_reason: string | null;
+  wrong_options_reason: string | null;
+  extra_notes: string | null;
   ref: string | null;
+  /** migration 0005：被網頁 dev mode 手動編輯過的欄位，sync 時不會被覆蓋 */
+  edited_fields?: string[] | null;
+  edited_at?: string | null;
 }
 
 export interface QuestionTag {
@@ -65,6 +72,22 @@ export interface CardBullet {
   card_node_id: string;
   ordinal: number;
   bullet_text: string;
+}
+
+/**
+ * 比較表(DB 的 tables_)。來源是 0_護理國考分章/tables/<科目>/*.json，
+ * 由 sync_all.py 匯入；headers/rows 在 DB 是 jsonb，形狀是矩形字串矩陣。
+ *
+ * scope='shared' 代表放在 tables/00_共用/ 底下的跨科表，此時 subject_id 為 null。
+ */
+export interface ComparisonTable {
+  id: string;                 // 'tbl_acid_base_disorders'
+  title: string;
+  reason: string | null;      // 為何值得比較的說明，適合直接當敘述文字顯示
+  scope: "shared" | "subject";
+  subject_id: string | null;  // scope='subject' 時等於 subjects.id，如 '07_內外'
+  headers: string[];
+  rows: string[][];
 }
 
 export interface QuestionImage {

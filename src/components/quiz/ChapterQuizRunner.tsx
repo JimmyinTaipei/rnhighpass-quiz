@@ -3,13 +3,18 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { QuestionCard } from "./QuestionCard";
-import type { Chapter, Question, Subject } from "@/lib/types";
+import type { Question } from "@/lib/types";
 
 const AUTO_ADVANCE_DELAY_MS = 700;
 
 interface ChapterQuizRunnerProps {
-  chapter: Chapter;
-  subject: Subject | null;
+  /**
+   * 麵包屑顯示的範圍描述，例如「生解 / Ch09 消化系統」或「生解 / 3 章・50 題」。
+   *
+   * 原本這裡收的是 chapter + subject 兩個物件，但整支 runner 只用它們組這一行字。
+   * 改成傳字串後，跨章節測驗(沒有單一章節可言)也能沿用同一個 runner。
+   */
+  scopeLabel: string;
   questions: Question[];
   isLoggedIn: boolean;
 }
@@ -25,8 +30,7 @@ type RunnerState =
   | { phase: "finished"; results: AnswerResult[] };
 
 export function ChapterQuizRunner({
-  chapter,
-  subject,
+  scopeLabel,
   questions,
   isLoggedIn,
 }: ChapterQuizRunnerProps) {
@@ -140,9 +144,7 @@ export function ChapterQuizRunner({
 
   return (
     <div>
-      <p className="mb-1 text-sm text-muted">
-        {subject?.name} / {chapter.chapter_no} {chapter.title}
-      </p>
+      <p className="mb-1 text-sm text-muted">{scopeLabel}</p>
       <div className="mb-3 h-1.5 w-full overflow-hidden rounded-full bg-light">
         <div
           className="h-full rounded-full bg-accent transition-all duration-300 ease-out"

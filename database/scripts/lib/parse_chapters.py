@@ -1,5 +1,6 @@
 import re
 from .common import CHAPTERED_BOOKS_DIR, list_subject_dirs, subject_short_name
+from .explanation_split import split_explanation
 
 ID_PATTERN = re.compile(r'^(\d+-\d+)(_makeup)?_([A-Z]+)_(\d+)$')
 CHAPTER_FILENAME_PATTERN = re.compile(r'^(Ch\d+)_(.+)\.md$')
@@ -107,6 +108,7 @@ def parse_question_block(lines: list[str]) -> dict:
         xchap = [chap] + xchap
 
     table_path = joined("table: ") or None
+    explanation_text = joined("sol: ")
 
     return {
         "id": qid,
@@ -121,7 +123,8 @@ def parse_question_block(lines: list[str]) -> dict:
         "option_d": options.get("D", ""),
         "answer": joined("ans: "),
         "ref": joined("ref: ") or None,
-        "explanation_text": joined("sol: "),
+        "explanation_text": explanation_text,
+        **split_explanation(explanation_text),
         "table_path": table_path,
         **id_parts,
     }

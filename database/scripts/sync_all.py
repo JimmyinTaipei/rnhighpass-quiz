@@ -174,10 +174,26 @@ def main():
                 "option_d": occ["option_d"],
                 "answer": occ["answer"],
                 "explanation_text": occ["explanation_text"],
+                "key_point": occ["key_point"],
+                "correct_reason": occ["correct_reason"],
+                "wrong_options_reason": occ["wrong_options_reason"],
+                "extra_notes": occ["extra_notes"],
                 "ref": occ["ref"],
             })
+        # 網頁 dev mode 改過的欄位不要被 markdown 蓋回去。
+        # questions.edited_fields 記錄了哪些欄位被手動編輯過(見 migration 0005)，
+        # db.upsert 會針對這些欄位改用 CASE WHEN 保留資料庫現值。
+        # 沒被標記的欄位、以及不在這份清單裡的結構性欄位(exam_sitting、
+        # primary_chapter_id、topic_id 等)，一律照舊以來源檔案為準。
         counts["questions"] = upsert(
             cur, "questions", question_rows, conflict_cols=["id"],
+            protect_columns=(
+                "stem",
+                "option_a", "option_b", "option_c", "option_d",
+                "answer",
+                "explanation_text",
+                "key_point", "correct_reason", "wrong_options_reason", "extra_notes",
+            ),
         )
 
         # ---------- question_chapters / question_tags / question_tables (from table:) ----------

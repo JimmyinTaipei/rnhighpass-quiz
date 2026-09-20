@@ -2,14 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, ListChecks, AlertCircle, BarChart3 } from "lucide-react";
-
-const NAV_ITEMS = [
-  { href: "/subjects", label: "科目", icon: BookOpen },
-  { href: "/quiz", label: "測驗", icon: ListChecks },
-  { href: "/mistakes", label: "錯題本", icon: AlertCircle },
-  { href: "/stats", label: "統計", icon: BarChart3 },
-] as const;
+import { NAV_ITEMS } from "@/lib/nav-items";
 
 export function NavLinks() {
   const pathname = usePathname();
