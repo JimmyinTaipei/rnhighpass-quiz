@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { House } from "lucide-react";
 import { SITE_HOME } from "@/lib/mock-exam/labels";
+import { isMockOnly } from "@/lib/site-mode";
 
 export const metadata: Metadata = {
   title: "多保命 護理師線上模擬考",
@@ -11,6 +11,9 @@ export const metadata: Metadata = {
 // 模擬考專用外框：刻意不放主站導覽列，只留一個「回主畫面」連結(SITE_HOME)，
 // 讓這個資料夾之後可以整包搬到獨立網站(見 src/lib/mock-exam/README.md)。
 export default function MockExamLayout({ children }: { children: React.ReactNode }) {
+  // 模擬考站沒有其他頁面，「回主畫面」改成連回多保命主站
+  const home = isMockOnly() ? { href: "https://rnhighpass.com", label: "多保命首頁" } : SITE_HOME;
+
   return (
     <>
       <header className="border-b border-card-border bg-card">
@@ -19,14 +22,14 @@ export default function MockExamLayout({ children }: { children: React.ReactNode
             <span className="shrink-0 text-lg font-bold tracking-wide text-deep">多保命</span>
             <span className="truncate text-sm text-body">護理師線上模擬考・電腦化測驗練習</span>
           </div>
-          {SITE_HOME && (
-            <Link
-              href={SITE_HOME.href}
+          {home && (
+            <a
+              href={home.href}
               className="flex shrink-0 items-center gap-1.5 rounded-full border border-card-border px-3 py-1.5 text-sm text-body transition-colors hover:border-accent hover:text-deep"
             >
               <House size={16} />
-              {SITE_HOME.label}
-            </Link>
+              {home.label}
+            </a>
           )}
         </div>
       </header>

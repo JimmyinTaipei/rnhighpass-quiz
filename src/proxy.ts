@@ -1,10 +1,21 @@
 import { createServerClient } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
 import { isProtectedPath, loginRedirectPath } from '@/lib/routes'
+import { isMockOnly } from '@/lib/site-mode'
 
 // Next.js 16 把 middleware.ts 改名為 proxy.ts(export 函式名稱也改成 proxy)。
 // 這裡負責每個請求前刷新 Supabase session,維持登入狀態。
 export async function proxy(request: NextRequest) {
+  // 模擬考站：只有 /mock-exam 存在，其餘路徑一律導回模擬考。
+  // 這個模式沒有登入功能，也就不需要刷新 Supabase session。
+  if (isMockOnly()) {
+    const { pathname } = request.nextUrl
+    if (pathname === '/mock-exam' || pathname.startsWith('/mock-exam/')) {
+      return NextResponse.next({ request })
+    }
+    return NextResponse.redirect(new URL('/mock-exam', request.url))
+  }
+
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 

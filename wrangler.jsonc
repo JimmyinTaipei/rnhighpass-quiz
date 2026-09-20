@@ -8,5 +8,18 @@
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
+  },
+  // 模擬考站(exam.rnhighpass.com)：同一份程式碼，但 SITE_MODE=mock 只露出 /mock-exam。
+  // 部署指令 pnpm cf:deploy:exam。主站 rnhighpass.com 與 quiz.rnhighpass.com 不受影響。
+  "env": {
+    "exam": {
+      "name": "rnhighpass-exam",
+      "vars": { "SITE_MODE": "mock" },
+      "routes": [{ "pattern": "exam.rnhighpass.com", "custom_domain": true }],
+      "assets": {
+        "directory": ".open-next/assets",
+        "binding": "ASSETS"
+      }
+    }
   }
 }
