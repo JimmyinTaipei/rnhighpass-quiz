@@ -3,38 +3,51 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node scripts/build-knowledge.mjs && next dev",
+    "build": "node scripts/build-knowledge.mjs && next build",
     "start": "next start",
     "lint": "eslint",
     "cf:preview": "opennextjs-cloudflare build && wrangler dev",
     "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf:preview:exam": "SITE_MODE=mock opennextjs-cloudflare build && SITE_MODE=mock CLOUDFLARE_ACCOUNT_ID=966575298a7a680846a981e76ecbf7d4 wrangler dev --env exam",
-    "cf:deploy:exam": "SITE_MODE=mock opennextjs-cloudflare build && SITE_MODE=mock CLOUDFLARE_ACCOUNT_ID=966575298a7a680846a981e76ecbf7d4 opennextjs-cloudflare deploy -- --env exam"
+    "cf:deploy:exam": "SITE_MODE=mock opennextjs-cloudflare build && SITE_MODE=mock CLOUDFLARE_ACCOUNT_ID=966575298a7a680846a981e76ecbf7d4 opennextjs-cloudflare deploy -- --env exam",
+    "knowledge:build": "node scripts/build-knowledge.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.116.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "hast-util-to-jsx-runtime": "^2.3.6",
     "lucide-react": "^1.46.0",
     "motion": "^13.4.0",
     "next": "16.3.5",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "tailwind-merge": "^3.7.0"
+    "tailwind-merge": "^3.7.0",
+    "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
     "@opennextjs/cloudflare": "^1.20.6",
     "@tailwindcss/postcss": "^4",
+    "@types/hast": "^3.0.5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.5",
+    "hast-util-to-string": "^3.0.1",
+    "mdast-util-to-string": "^4.0.0",
+    "remark-cjk-friendly": "^2.3.1",
+    "remark-directive": "^4.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "wrangler": "^4.131.2"
+    "unified": "^11.0.5",
+    "wrangler": "^4.131.2",
+    "yaml": "^2.9.1"
   },
   "packageManager": "pnpm@12.4.2"
 }

@@ -1,0 +1,303 @@
+[
+  {
+    "qkey": "diabetes#physiology-drug-map",
+    "tag": null,
+    "keyword": "^(?=.*血糖).*(升糖素|glucagon|糖質新生|反調節|皮質醇|生長激素|腎上腺素|抑制素)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "diabetes#hyperglycemia-damage",
+    "tag": "糖尿病|第一型糖尿病|第1型糖尿病|第二型糖尿病",
+    "keyword": "(致病|機轉|自體免疫|β ?細胞|蘭氏小島|HLA|遺傳模式|過敏反應|類澱粉(沉積|蛋白)|胰島素(抗性|阻抗)|接受器)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "diabetes#type1",
+    "tag": "第一型糖尿病|第1型糖尿病",
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "diabetes#type2",
+    "tag": "糖尿病|第二型糖尿病",
+    "keyword": "第 ?(2|二) ?型",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "diabetes#gdm",
+    "tag": "妊娠糖尿病",
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "diabetes#diagnosis",
+    "tag": null,
+    "keyword": "(診斷標準|診斷依據|可診斷為糖尿病|確定診斷.*糖尿病|代謝症候群)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "diabetes#hypoglycemia",
+    "tag": "低血糖|低血糖症",
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "diabetes#dka",
+    "tag": "糖尿病酮酸中毒|酮酸中毒",
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "diabetes#hhs",
+    "tag": "高滲透壓高血糖狀態|高血糖高滲透壓狀態|高滲透度高血糖狀態|高血糖高滲透壓症候群",
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "diabetes#somogyi",
+    "tag": null,
+    "keyword": "(蘇莫吉|Somogyi|黎明現象)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "diabetes#retinopathy",
+    "tag": "糖尿病視網膜病變",
+    "keyword": "視網膜",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "diabetes#nephropathy",
+    "tag": "糖尿病腎病變",
+    "keyword": "腎",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "diabetes#diabetic-foot",
+    "tag": "糖尿病足|糖尿病足部病變|糖尿病",
+    "keyword": "(足部|足趾|趾甲|雞眼|糖尿病足)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "diabetes#smbg",
+    "tag": null,
+    "keyword": "(自我監測血糖|監測血糖|血糖機)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "diabetes#school-community",
+    "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "keyword": "(學童|學校|學生|社區|個案管理|家訪|長照)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "diabetes#glycemic-index",
+    "tag": null,
+    "keyword": "(升糖指數|glycemic index|GI 值|低升糖)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "diabetes#glycemic-index~2",
+    "tag": "糖尿病",
+    "keyword": "(飲食|總熱量|碳水化合物|脂肪|膽固醇|蛋白質)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "diabetes#exercise",
+    "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "keyword": "運動",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "diabetes#prevention",
+    "tag": "糖尿病",
+    "keyword": "(三段五級|代謝症候群|整合性篩檢|篩檢|非傳染)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "alpha-glucosidase-inhibitors#questions",
+    "tag": null,
+    "keyword": "(acarbose|miglitol|voglibose|glucosidase|糖苷酶|醣苷酶|減少糖分的吸收)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "dpp4-inhibitors#questions",
+    "tag": null,
+    "keyword": "(gliptin|DPP-? ?4)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "glp1-receptor-agonists#exam-points",
+    "tag": null,
+    "keyword": "(glutide|exenatide|GLP-? ?1|incretin|腸泌素)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "insulin#types",
+    "tag": null,
+    "keyword": "(RI|NPH|短效|中效|速效|長效|glulisine|lispro|aspart|glargine|premix|預混)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "insulin#mixing",
+    "tag": null,
+    "keyword": "(抽取|抽藥|先抽|混合).*(胰島素|RI|NPH)|(RI|NPH).*(抽取|混合|搖)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "insulin#injection-sites",
+    "tag": null,
+    "keyword": "(胰島素).*(注射|部位|吸收|角度|針頭|按摩)|(注射|吸收).*(胰島素)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "insulin#storage",
+    "tag": null,
+    "keyword": "(胰島素).*(保存|冷藏|室溫|冰箱|行李)|(保存|冷藏).*(胰島素)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "insulin#questions",
+    "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "keyword": "胰島素",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "meglitinides#questions",
+    "tag": null,
+    "keyword": "(repaglinide|nateglinide|meglitinide)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "metformin#exam-points",
+    "tag": null,
+    "keyword": "(metformin|雙胍|biguanide|glucophage)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "sglt2-inhibitors#exam-points",
+    "tag": null,
+    "keyword": "(gliflozin|SGLT|從尿液排除)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "sulfonylureas#exam-points",
+    "tag": null,
+    "keyword": "(glyburide|glibenclamide|glipizide|glimepiride|gliclazide|sulfonylurea|sulphonylurea|磺醯脲|磺胺尿素)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "tzd#questions",
+    "tag": null,
+    "keyword": "(pioglitazone|rosiglitazone|thiazolidinedione|TZD)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "abg#interpretation",
+    "tag": null,
+    "keyword": "(代謝性(酸|鹼)中毒|呼吸性(酸|鹼)中毒|動脈血(液)?(氣體|氧)|碳酸根|重碳酸|酸鹼)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "abg#questions",
+    "tag": "糖尿病酮酸中毒",
+    "keyword": "(pH|碳酸|動脈|滲透壓|酸中毒)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "blood-glucose#questions",
+    "tag": null,
+    "keyword": "(空腹血糖|飯前血糖|血糖值|血糖為|血糖檢查|飯後兩小時血糖|隨意抽血|血漿葡萄糖)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "hba1c#targets",
+    "tag": null,
+    "keyword": "(糖化血|HbA1c|醣化血)",
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "ketones#questions",
+    "tag": "糖尿病酮酸中毒|酮酸中毒|酮尿症",
+    "keyword": "(酮體|尿酮|ketone|酮)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "ogtt#gdm-timing",
+    "tag": "妊娠糖尿病",
+    "keyword": "(葡萄糖耐|OGTT|篩檢|週數)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "ogtt#questions",
+    "tag": null,
+    "keyword": "(葡萄糖耐|OGTT|耐受試驗|耐量試驗|耐性試驗)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "uacr#questions",
+    "tag": "糖尿病|糖尿病腎病變",
+    "keyword": "(微量(白)?蛋白|白蛋白尿|尿蛋白|蛋白尿)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "glucose-homeostasis#incretin",
+    "tag": null,
+    "keyword": "(腸泌素|incretin|GLP|前饋)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "glucose-homeostasis#insulin-deficiency",
+    "tag": null,
+    "keyword": "胰島素.*(受體|接受器)|β ?細胞被破壞|(葡萄糖|血糖)進入(脂肪|腦|肌肉)|血漿葡萄糖進入",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "glucose-homeostasis#questions",
+    "tag": null,
+    "keyword": "^(?=.*(血糖|葡萄糖|胰島素|糖尿)).*(糖質新生|升糖素|glucagon|皮質醇|生長激素|甲狀腺素|醛固酮|抑制素|最大運輸|transport maximum)",
+    "ids": [],
+    "limit": 8
+  }
+]

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" width="760" height="520" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+  <title>降血糖藥物作用部位總覽</title>
+  <rect width="760" height="520" fill="#FFFFFF"/>
+
+  <!-- 中央:血糖 -->
+  <circle cx="380" cy="265" r="74" fill="#D7E1F2" stroke="#2C5A96" stroke-width="2"/>
+  <text x="380" y="258" text-anchor="middle" font-size="22" font-weight="bold" fill="#2C5A96">血糖</text>
+  <text x="380" y="284" text-anchor="middle" font-size="14" fill="#2C5A96">plasma glucose</text>
+
+  <defs>
+    <marker id="a-in" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/>
+    </marker>
+    <marker id="a-out" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3E7C57"/>
+    </marker>
+  </defs>
+
+  <!-- 胰臟 (上中) -->
+  <g>
+    <rect x="270" y="20" width="220" height="112" rx="12" fill="#FDF6E3" stroke="#AD5C28" stroke-width="1.5"/>
+    <text x="380" y="46" text-anchor="middle" font-size="17" font-weight="bold" fill="#AD5C28">胰臟 β 細胞 / α 細胞</text>
+    <text x="284" y="72" font-size="13.5" fill="#26262B">• 磺醯脲類、Meglitinide:↑胰島素分泌</text>
+    <text x="284" y="93" font-size="13.5" fill="#26262B">• DPP-4i、GLP-1 RA:↑胰島素、↓升糖素</text>
+    <text x="284" y="114" font-size="13.5" fill="#26262B">• 胰島素製劑:直接補充</text>
+    <line x1="380" y1="132" x2="380" y2="186" stroke="#3E7C57" stroke-width="2.5" marker-end="url(#a-out)"/>
+    <text x="388" y="166" font-size="12" fill="#3E7C57">胰島素 ↓血糖</text>
+  </g>
+
+  <!-- 肝臟 (左上) -->
+  <g>
+    <rect x="20" y="150" width="210" height="96" rx="12" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+    <text x="125" y="176" text-anchor="middle" font-size="17" font-weight="bold" fill="#B4485C">肝臟</text>
+    <text x="34" y="200" font-size="13.5" fill="#26262B">產糖(糖質新生、肝醣分解)</text>
+    <text x="34" y="224" font-size="13.5" fill="#26262B">• Metformin:↓肝臟產糖</text>
+    <line x1="230" y1="215" x2="306" y2="245" stroke="#B4485C" stroke-width="2.5" marker-end="url(#a-in)"/>
+    <text x="236" y="252" font-size="12" fill="#B4485C">釋出葡萄糖</text>
+  </g>
+
+  <!-- 腸道 (左下) -->
+  <g>
+    <rect x="20" y="300" width="210" height="118" rx="12" fill="#F9EBE3" stroke="#AD5C28" stroke-width="1.5"/>
+    <text x="125" y="326" text-anchor="middle" font-size="17" font-weight="bold" fill="#AD5C28">小腸</text>
+    <text x="34" y="350" font-size="13.5" fill="#26262B">雙醣 → 單醣後吸收</text>
+    <text x="34" y="373" font-size="13.5" fill="#26262B">• α-葡萄糖苷酶抑制劑:</text>
+    <text x="48" y="393" font-size="13.5" fill="#26262B">延緩醣類分解吸收</text>
+    <text x="34" y="410" font-size="12" fill="#7A4E86">(L 細胞分泌 GLP-1)</text>
+    <line x1="230" y1="330" x2="308" y2="298" stroke="#B4485C" stroke-width="2.5" marker-end="url(#a-in)"/>
+    <text x="236" y="342" font-size="12" fill="#B4485C">吸收</text>
+  </g>
+
+  <!-- 肌肉/脂肪 (右上) -->
+  <g>
+    <rect x="530" y="150" width="210" height="96" rx="12" fill="#DAF0E5" stroke="#3E7C57" stroke-width="1.5"/>
+    <text x="635" y="176" text-anchor="middle" font-size="17" font-weight="bold" fill="#3E7C57">肌肉、脂肪組織</text>
+    <text x="544" y="200" font-size="13.5" fill="#26262B">經 GLUT4 攝取葡萄糖</text>
+    <text x="544" y="224" font-size="13.5" fill="#26262B">• TZD:↑胰島素敏感性</text>
+    <line x1="454" y1="245" x2="528" y2="215" stroke="#3E7C57" stroke-width="2.5" marker-end="url(#a-out)"/>
+    <text x="462" y="210" font-size="12" fill="#3E7C57">攝取</text>
+  </g>
+
+  <!-- 腎臟 (右下) -->
+  <g>
+    <rect x="530" y="300" width="210" height="96" rx="12" fill="#EADEF4" stroke="#7A4E86" stroke-width="1.5"/>
+    <text x="635" y="326" text-anchor="middle" font-size="17" font-weight="bold" fill="#7A4E86">腎臟近曲小管</text>
+    <text x="544" y="350" font-size="13.5" fill="#26262B">SGLT2 回收過濾的葡萄糖</text>
+    <text x="544" y="374" font-size="13.5" fill="#26262B">• SGLT2i:↑尿糖排出</text>
+    <line x1="452" y1="292" x2="528" y2="330" stroke="#3E7C57" stroke-width="2.5" marker-end="url(#a-out)"/>
+    <text x="470" y="330" font-size="12" fill="#3E7C57">排出</text>
+  </g>
+
+  <!-- 腦/胃 (下中) -->
+  <g>
+    <rect x="270" y="400" width="220" height="92" rx="12" fill="#F7F8FB" stroke="#6592CD" stroke-width="1.5"/>
+    <text x="380" y="426" text-anchor="middle" font-size="17" font-weight="bold" fill="#2C5A96">胃、下視丘</text>
+    <text x="284" y="450" font-size="13.5" fill="#26262B">• GLP-1 RA:延緩胃排空、</text>
+    <text x="298" y="472" font-size="13.5" fill="#26262B">增加飽足感 → 體重下降</text>
+  </g>
+
+  <text x="20" y="510" font-size="12" fill="#888780">紅色箭頭:葡萄糖進入血液;綠色箭頭:讓血糖下降的方向。原創圖解(多保命知識庫)</text>
+</svg>

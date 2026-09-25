@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Stethoscope } from "lucide-react";
+import { Library, Stethoscope } from "lucide-react";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import { ViewControls } from "@/components/reading/ViewControls";
 import {
@@ -11,6 +11,7 @@ import {
   getTablesForQuestions,
 } from "@/lib/data";
 import { getDevMode } from "@/lib/dev-mode";
+import { articlesForDiseaseTag } from "@/lib/knowledge";
 import { parseViewMode } from "@/lib/view-mode";
 import { QuestionBriefCard } from "@/components/reading/QuestionBriefCard";
 
@@ -44,6 +45,11 @@ export default async function DiseaseTagPage(props: PageProps<"/diseases/[tag]">
       getDiseaseTagsForQuestions(questionIds),
     ]);
 
+  // 同一個 dz 標籤常被疾病頁與多篇藥物/檢驗頁共同宣告;按鈕只給疾病頁,其餘收成一行
+  const kbArticles = articlesForDiseaseTag(tag);
+  const kbMain = kbArticles.filter((a) => a.category === "disease");
+  const kbOther = kbArticles.filter((a) => a.category !== "disease");
+
   const view = parseViewMode(
     typeof searchParams.view === "string" ? searchParams.view : undefined,
   );
@@ -61,6 +67,25 @@ export default async function DiseaseTagPage(props: PageProps<"/diseases/[tag]">
         <Stethoscope className="text-subj-accent" />
         {tag}
       </h1>
+
+      {kbMain.length + kbOther.length > 0 && (
+        <div className="mb-4 flex flex-wrap items-center gap-2">
+          {kbMain.map((a) => (
+            <Link
+              key={a.slug}
+              href={`/learn/${a.slug}`}
+              className="inline-flex items-center gap-1.5 rounded-full bg-light px-3 py-1 text-sm font-medium text-deep hover:bg-mid"
+            >
+              <Library size={14} /> 知識庫:{a.title}
+            </Link>
+          ))}
+          {kbOther.length > 0 && (
+            <Link href="/learn" className="text-sm text-muted hover:text-deep hover:underline">
+              另有 {kbOther.length} 篇相關知識頁(藥物、檢驗)
+            </Link>
+          )}
+        </div>
+      )}
 
       <div className="mb-6 flex flex-wrap items-center gap-3">
         <ViewControls view={view} reveal={reveal} />

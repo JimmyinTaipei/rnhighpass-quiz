@@ -75,7 +75,7 @@ export interface CardBullet {
 }
 
 /**
- * 比較表(DB 的 tables_)。來源是 0_護理國考分章/tables/<科目>/*.json，
+ * 比較表(DB 的 tables_)。來源是 多保命護理分章/tables/<科目>/*.json，
  * 由 sync_all.py 匯入；headers/rows 在 DB 是 jsonb，形狀是矩形字串矩陣。
  *
  * scope='shared' 代表放在 tables/00_共用/ 底下的跨科表，此時 subject_id 為 null。

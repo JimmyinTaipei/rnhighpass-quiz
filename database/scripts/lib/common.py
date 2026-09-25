@@ -3,7 +3,7 @@ from pathlib import Path
 
 SOURCE_ROOT = Path(os.environ.get(
     "SOURCE_ROOT",
-    "/Users/jimmy/Downloads/0_護理國考分章",
+    "/Users/jimmy/Projects/多保命護理分章",
 ))
 
 CHAPTERED_BOOKS_DIR = SOURCE_ROOT / "05_chaptered_books"

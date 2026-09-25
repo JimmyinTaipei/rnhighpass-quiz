@@ -3,6 +3,7 @@ import {
   BarChart3,
   BookOpen,
   Flag,
+  Library,
   ListChecks,
   Search,
   Table2,
@@ -20,6 +21,7 @@ export interface NavItem {
 // 原本 NavLinks 與 MobileTabBar 各自維護一份一模一樣的陣列，改成共用一份。
 export const NAV_ITEMS: NavItem[] = [
   { href: "/subjects", label: "科目", icon: BookOpen, mobile: true },
+  { href: "/learn", label: "知識庫", icon: Library, mobile: true },
   { href: "/quiz", label: "測驗", icon: ListChecks, mobile: true },
   { href: "/search", label: "搜尋", icon: Search, mobile: true },
   { href: "/tables", label: "比較表", icon: Table2, mobile: false },

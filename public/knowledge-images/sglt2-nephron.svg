@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+  <title>SGLT2 抑制劑在腎小管的作用</title>
+  <rect width="760" height="430" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2C5A96"/>
+    </marker>
+    <marker id="arr-g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3E7C57"/>
+    </marker>
+  </defs>
+
+  <!-- 腎絲球 -->
+  <circle cx="80" cy="120" r="46" fill="#FDE8EC" stroke="#B4485C" stroke-width="2"/>
+  <path d="M58,112 q10,-18 22,0 t22,0" fill="none" stroke="#B4485C" stroke-width="2"/>
+  <path d="M58,130 q10,-18 22,0 t22,0" fill="none" stroke="#B4485C" stroke-width="2"/>
+  <text x="80" y="190" text-anchor="middle" font-size="15" font-weight="bold" fill="#B4485C">腎絲球過濾</text>
+  <text x="80" y="210" text-anchor="middle" font-size="12.5" fill="#26262B">每天約 180 g 葡萄糖</text>
+
+  <!-- 腎小管 -->
+  <path d="M126,120 H690" stroke="#6592CD" stroke-width="54" stroke-linecap="round" fill="none" opacity="0.18"/>
+  <path d="M126,93 H690 M126,147 H690" stroke="#6592CD" stroke-width="2" fill="none"/>
+  <text x="140" y="80" font-size="13" fill="#2C5A96">近曲小管管腔(原尿)</text>
+  <line x1="150" y1="120" x2="680" y2="120" stroke="#2C5A96" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+
+  <!-- S1/S2 SGLT2 -->
+  <rect x="200" y="147" width="210" height="84" fill="#DAF0E5" stroke="#3E7C57" stroke-width="1.5"/>
+  <text x="305" y="170" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E7C57">S1–S2 段:SGLT2</text>
+  <text x="305" y="192" text-anchor="middle" font-size="13" fill="#26262B">回收約 90% 葡萄糖</text>
+  <text x="305" y="212" text-anchor="middle" font-size="12.5" fill="#26262B">Na⁺ : 葡萄糖 = 1 : 1</text>
+  <line x1="260" y1="125" x2="260" y2="258" stroke="#3E7C57" stroke-width="2.5" marker-end="url(#arr-g)"/>
+  <line x1="350" y1="125" x2="350" y2="258" stroke="#3E7C57" stroke-width="2.5" marker-end="url(#arr-g)"/>
+
+  <!-- 抑制符號 -->
+  <g>
+    <circle cx="305" cy="104" r="16" fill="#FCEBEB" stroke="#C0392B" stroke-width="2"/>
+    <line x1="294" y1="93" x2="316" y2="115" stroke="#C0392B" stroke-width="3"/>
+    <text x="330" y="100" font-size="14" font-weight="bold" fill="#9B2C2C">SGLT2 抑制劑(-gliflozin)</text>
+  </g>
+
+  <!-- S3 SGLT1 -->
+  <rect x="450" y="147" width="170" height="84" fill="#F7F8FB" stroke="#888780" stroke-width="1.5"/>
+  <text x="535" y="170" text-anchor="middle" font-size="15" font-weight="bold" fill="#444441">S3 段:SGLT1</text>
+  <text x="535" y="192" text-anchor="middle" font-size="13" fill="#26262B">回收剩下約 10%</text>
+  <text x="535" y="212" text-anchor="middle" font-size="12.5" fill="#26262B">(用藥後代償上升)</text>
+  <line x1="535" y1="125" x2="535" y2="258" stroke="#888780" stroke-width="2" marker-end="url(#arr-g)"/>
+
+  <!-- 血液 -->
+  <rect x="190" y="262" width="440" height="36" rx="18" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+  <text x="410" y="286" text-anchor="middle" font-size="14" fill="#B4485C">回到血液(管周微血管)</text>
+
+  <!-- 尿 -->
+  <text x="700" y="100" font-size="14" font-weight="bold" fill="#2C5A96">尿液</text>
+  <text x="700" y="120" font-size="12.5" fill="#26262B">正常:</text>
+  <text x="700" y="137" font-size="12.5" fill="#26262B">幾乎無糖</text>
+
+  <!-- 結果說明 -->
+  <rect x="20" y="318" width="720" height="100" rx="10" fill="#F7F8FB" stroke="#E3E6EC"/>
+  <text x="36" y="344" font-size="14.5" font-weight="bold" fill="#2C5A96">抑制 SGLT2 的結果</text>
+  <text x="36" y="368" font-size="13.5" fill="#26262B">• 每天多排出約 60–80 g 葡萄糖(約 240–320 kcal)→ 降血糖、體重下降;不靠胰島素,單用低血糖風險低</text>
+  <text x="36" y="390" font-size="13.5" fill="#26262B">• 同時排 Na⁺ 與水(滲透性利尿)→ 血壓下降、心衰竭與腎臟保護;但易脫水、姿勢性低血壓</text>
+  <text x="36" y="410" font-size="13.5" fill="#26262B">• 尿糖 ↑ → 生殖泌尿道感染(黴菌);胰島素不足時可發生「血糖正常的酮酸中毒」(euglycemic DKA)</text>
+</svg>

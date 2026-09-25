@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+  <title>腸泌素、DPP-4 與相關藥物</title>
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <defs>
+    <marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2C5A96"/>
+    </marker>
+    <marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C0392B"/>
+    </marker>
+  </defs>
+
+  <!-- 進食 -->
+  <rect x="20" y="40" width="150" height="70" rx="12" fill="#F9EBE3" stroke="#AD5C28" stroke-width="1.5"/>
+  <text x="95" y="70" text-anchor="middle" font-size="16" font-weight="bold" fill="#AD5C28">進食</text>
+  <text x="95" y="93" text-anchor="middle" font-size="13" fill="#26262B">營養素進入小腸</text>
+
+  <!-- 腸道細胞 -->
+  <rect x="220" y="30" width="190" height="90" rx="12" fill="#F7F8FB" stroke="#6592CD" stroke-width="1.5"/>
+  <text x="315" y="58" text-anchor="middle" font-size="15" font-weight="bold" fill="#2C5A96">腸道內分泌細胞</text>
+  <text x="315" y="82" text-anchor="middle" font-size="13" fill="#26262B">L 細胞 → GLP-1</text>
+  <text x="315" y="103" text-anchor="middle" font-size="13" fill="#26262B">K 細胞 → GIP</text>
+  <line x1="170" y1="75" x2="216" y2="75" stroke="#2C5A96" stroke-width="2" marker-end="url(#m)"/>
+
+  <!-- 血中 GLP-1 -->
+  <circle cx="315" cy="215" r="44" fill="#D7E1F2" stroke="#2C5A96" stroke-width="2"/>
+  <text x="315" y="210" text-anchor="middle" font-size="16" font-weight="bold" fill="#2C5A96">GLP-1</text>
+  <text x="315" y="230" text-anchor="middle" font-size="12" fill="#2C5A96">(血中)</text>
+  <line x1="315" y1="120" x2="315" y2="167" stroke="#2C5A96" stroke-width="2" marker-end="url(#m)"/>
+
+  <!-- DPP-4 -->
+  <rect x="20" y="180" width="200" height="74" rx="12" fill="#FCEBEB" stroke="#C0392B" stroke-width="1.5"/>
+  <text x="120" y="206" text-anchor="middle" font-size="15" font-weight="bold" fill="#9B2C2C">DPP-4 酵素</text>
+  <text x="120" y="228" text-anchor="middle" font-size="12.5" fill="#26262B">數分鐘內分解 GLP-1</text>
+  <text x="120" y="246" text-anchor="middle" font-size="12.5" fill="#26262B">(半衰期約 2 分鐘)</text>
+  <line x1="271" y1="215" x2="224" y2="215" stroke="#C0392B" stroke-width="2" marker-end="url(#mr)"/>
+
+  <!-- 藥物 -->
+  <g>
+    <rect x="20" y="276" width="200" height="72" rx="12" fill="#EAF3DE" stroke="#3E7C57" stroke-width="1.5"/>
+    <text x="120" y="300" text-anchor="middle" font-size="14" font-weight="bold" fill="#27500A">DPP-4 抑制劑(-gliptin)</text>
+    <text x="120" y="321" text-anchor="middle" font-size="12.5" fill="#26262B">抑制分解 → 自身 GLP-1</text>
+    <text x="120" y="339" text-anchor="middle" font-size="12.5" fill="#26262B">濃度提高約 2–3 倍</text>
+    <line x1="120" y1="276" x2="120" y2="258" stroke="#3E7C57" stroke-width="3"/>
+    <line x1="108" y1="258" x2="132" y2="258" stroke="#3E7C57" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="240" y="300" width="200" height="72" rx="12" fill="#EAF3DE" stroke="#3E7C57" stroke-width="1.5"/>
+    <text x="340" y="324" text-anchor="middle" font-size="14" font-weight="bold" fill="#27500A">GLP-1 受體促效劑</text>
+    <text x="340" y="345" text-anchor="middle" font-size="12.5" fill="#26262B">(-glutide)不被 DPP-4 分解,</text>
+    <text x="340" y="363" text-anchor="middle" font-size="12.5" fill="#26262B">藥理濃度遠高於生理值</text>
+    <line x1="340" y1="300" x2="338" y2="263" stroke="#3E7C57" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#m)"/>
+  </g>
+
+  <!-- 作用 -->
+  <line x1="359" y1="215" x2="466" y2="215" stroke="#2C5A96" stroke-width="2" marker-end="url(#m)"/>
+  <text x="372" y="206" font-size="12" fill="#2C5A96">GLP-1 受體</text>
+  <rect x="470" y="30" width="270" height="380" rx="12" fill="#F7F8FB" stroke="#E3E6EC"/>
+  <text x="486" y="58" font-size="15" font-weight="bold" fill="#2C5A96">GLP-1 的作用</text>
+  <text x="486" y="92" font-size="14" font-weight="bold" fill="#26262B">胰臟 β 細胞</text>
+  <text x="486" y="113" font-size="13" fill="#26262B">↑胰島素分泌——只在血糖高時</text>
+  <text x="486" y="132" font-size="13" fill="#26262B">(葡萄糖依賴 → 單用少低血糖)</text>
+  <text x="486" y="166" font-size="14" font-weight="bold" fill="#26262B">胰臟 α 細胞</text>
+  <text x="486" y="187" font-size="13" fill="#26262B">↓升糖素 → 肝臟產糖減少</text>
+  <text x="486" y="221" font-size="14" font-weight="bold" fill="#26262B">胃</text>
+  <text x="486" y="242" font-size="13" fill="#26262B">延緩胃排空 → 餐後血糖平緩;</text>
+  <text x="486" y="261" font-size="13" fill="#26262B">噁心、嘔吐最常見</text>
+  <text x="486" y="295" font-size="14" font-weight="bold" fill="#26262B">下視丘</text>
+  <text x="486" y="316" font-size="13" fill="#26262B">↑飽足感、↓食慾 → 體重下降</text>
+  <text x="486" y="350" font-size="14" font-weight="bold" fill="#26262B">心血管</text>
+  <text x="486" y="371" font-size="13" fill="#26262B">部分藥物證實減少心血管事件</text>
+  <text x="486" y="398" font-size="11.5" fill="#888780">DPP-4i 效果較溫和:體重中性、腸胃副作用少</text>
+
+  <text x="20" y="428" font-size="12" fill="#888780">原創圖解(多保命知識庫)</text>
+</svg>

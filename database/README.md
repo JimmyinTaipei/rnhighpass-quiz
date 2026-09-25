@@ -1,14 +1,14 @@
 # database
 
-把 `0_護理國考分章`（章節題庫 / 知識卡 / 表格 / 圖片索引）匯入 Supabase Postgres 的 schema 與同步腳本。
+把 `多保命護理分章`（章節題庫 / 知識卡 / 表格 / 圖片索引）匯入 Supabase Postgres 的 schema 與同步腳本。
 
 ## 資料來源與資料庫的關係
 
-來源資料夾（預設 `/Users/jimmy/Downloads/0_護理國考分章`，可用 `SOURCE_ROOT` 環境變數覆寫）目前是唯一真實來源（single source of truth）。這裡的腳本是**單向**匯入：讀來源檔案 → upsert 進 Supabase。目前還沒有反向（從網站寫回來源檔案）的機制。
+來源資料夾（預設 `/Users/jimmy/Projects/多保命護理分章`，可用 `SOURCE_ROOT` 環境變數覆寫）目前是唯一真實來源（single source of truth）。這裡的腳本是**單向**匯入：讀來源檔案 → upsert 進 Supabase。目前還沒有反向（從網站寫回來源檔案）的機制。
 
 同步策略是「全量重建 + upsert」：每次執行都會重新讀取全部來源檔案，並用資料本身自帶的穩定 ID（題目 ID、`table_id`、知識卡 `node_id` 等）做 `ON CONFLICT DO UPDATE`。這代表：
 - 重複執行是安全的（冪等），不會產生重複資料。
-- 之後你在 `0_護理國考分章` 修改/新增章節、題目、表格、圖片，只要重新執行 `sync_all.py` 就會自動反映到資料庫（新增的會 insert，改過的會 update）。
+- 之後你在 `多保命護理分章` 修改/新增章節、題目、表格、圖片，只要重新執行 `sync_all.py` 就會自動反映到資料庫（新增的會 insert，改過的會 update）。
 - 目前**不會刪除**資料庫裡「來源已經移除」的資料（例如你砍掉一個章節檔案，資料庫裡舊的題目不會自動消失）——這是刻意先求簡單安全；如果之後需要偵測「來源已刪除」的情況，可以在 `sync_runs` 記錄的基礎上再加一個 diff 報表。
 
 ## 第一次設定

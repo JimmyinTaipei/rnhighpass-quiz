@@ -130,3 +130,41 @@ body {
     -webkit-print-color-adjust: exact;
   }
 }
+
+/* ===== 知識庫(/learn) =====
+   內文排版。沒有引入 @tailwindcss/typography:只需要少數元素,
+   而且表格/清單要跟站內既有 token 一致。 */
+.kb-prose { color: var(--color-strong); line-height: 1.85; }
+.kb-prose > * + *, .kb-callout-body > * + * { margin-top: 0.75rem; }
+.kb-prose p, .kb-callout-body p { margin-top: 0.6rem; }
+.kb-prose ul, .kb-callout-body ul { list-style: disc; padding-left: 1.4rem; margin-top: 0.5rem; }
+.kb-prose ol, .kb-callout-body ol { list-style: decimal; padding-left: 1.4rem; margin-top: 0.5rem; }
+.kb-prose li + li { margin-top: 0.25rem; }
+.kb-prose li > ul, .kb-prose li > ol { margin-top: 0.25rem; }
+.kb-prose strong { color: var(--color-deep); font-weight: 600; }
+.kb-prose code { font-size: 0.9em; background: var(--color-page); padding: 0.05rem 0.3rem; border-radius: 4px; }
+.kb-table-wrap table { width: 100%; border-collapse: collapse; font-size: 0.925rem; line-height: 1.6; }
+.kb-table-wrap th { background: var(--color-sidebar); color: var(--color-deep); font-weight: 600; text-align: left; white-space: nowrap; }
+.kb-table-wrap th, .kb-table-wrap td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-card-border); vertical-align: top; }
+.kb-table-wrap tr:last-child td { border-bottom: 0; }
+.kb-table-wrap td:first-child { font-weight: 500; }
+
+/* 行內知識點連結:點線底線,和一般外部連結區分 */
+.kb-link {
+  color: var(--color-deep);
+  text-decoration: underline dotted var(--color-accent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.kb-link:hover { background: var(--color-light); text-decoration-style: solid; border-radius: 2px; }
+
+/* 跳到段落時閃一下 */
+@keyframes kb-flash {
+  0%, 50% { background: var(--color-light); }
+  100%    { background: transparent; }
+}
+.kb-heading[data-flash] { animation: kb-flash 1.8s ease-out; border-radius: 6px; }
+@media (prefers-reduced-motion: reduce) {
+  .kb-heading[data-flash] { animation: none; }
+}

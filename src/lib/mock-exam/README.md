@@ -18,7 +18,7 @@
 ### 之後上線完整站要做的事
 1. `pnpm cf:deploy`（不帶 SITE_MODE），在 Cloudflare 綁 quiz.rnhighpass.com
 2. Supabase → Authentication → URL Configuration 加入該網域（Site URL 與 `/auth/callback`），Google OAuth 也要加
-3. 完整站若要顯示題目附圖，把 `~/Downloads/0_護理國考分章/images/*.png` 複製回 `public/exam-images/`
+3. 完整站若要顯示題目附圖，把 `~/Downloads/多保命護理分章/images/*.png` 複製回 `public/exam-images/`
 4. 模擬考併回 quiz 站後，exam 子網域可以關掉或轉址
 
 ## 流程
@@ -37,7 +37,7 @@
 | `src/components/mock-exam/` | 作答介面元件 |
 | `src/lib/mock-exam/` | 資料讀取、計分、作答保存（localStorage）、科目名稱 |
 | `src/data/mock-exam/` | 打包的考卷 JSON（由 `database/scripts/export_mock_papers.py` 產生） |
-| `public/exam-images/` | 考卷掃描圖（來源：`0_護理國考分章/images/*.png`） |
+| `public/exam-images/` | 考卷掃描圖（來源：`多保命護理分章/images/*.png`） |
 | `database/migrations/0007_exam_papers_view.sql` | 考卷清單 view（同一個 Supabase 就不用重跑） |
 
 ## 對主站的依賴（新網站要一起帶過去或重寫）

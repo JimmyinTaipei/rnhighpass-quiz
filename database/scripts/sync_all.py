@@ -1,7 +1,7 @@
 """
 全量重建 + upsert 同步腳本。
 
-從 0_護理國考分章 讀取所有來源檔案，用穩定 ID（題目 ID、table_id、node_id 等）
+從 多保命護理分章 讀取所有來源檔案，用穩定 ID（題目 ID、table_id、node_id 等）
 對 Supabase Postgres 做 ON CONFLICT DO UPDATE，可安全重複執行。
 
 用法：
