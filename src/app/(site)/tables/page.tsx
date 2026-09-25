@@ -1,68 +1,75 @@
 import Link from "next/link";
-import { getAllTables, getSubjects } from "@/lib/data";
+import { FileDown } from "lucide-react";
+import { getAllChapters, getAllTables, getSubjects, getTableChapterCounts } from "@/lib/data";
 import { subjectGroup } from "@/lib/subject-groups";
-import type { ComparisonTable } from "@/lib/types";
+import { busiestSubject, UNCATEGORIZED } from "@/lib/notebook";
+import { placeTables, sectionsForSubject, tableCountsBySubject } from "@/lib/table-placement";
+import { Panel } from "@/components/ui/Panel";
+import { SubjectPicker } from "@/components/subjects/SubjectPicker";
+import { TablesBrowser } from "@/components/tables/TablesBrowser";
 
 export const metadata = { title: "比較表 | 多保命" };
 
-export default async function TablesPage() {
-  const [tables, subjects] = await Promise.all([getAllTables(), getSubjects()]);
+export default async function TablesPage(props: PageProps<"/tables">) {
+  const [searchParams, tables, subjects, chapters, counts] = await Promise.all([
+    props.searchParams,
+    getAllTables(),
+    getSubjects(),
+    getAllChapters(),
+    getTableChapterCounts(),
+  ]);
 
-  const subjectById = new Map(subjects.map((s) => [s.id, s]));
-  const shared = tables.filter((t) => t.scope === "shared");
-  const bySubject = new Map<string, ComparisonTable[]>();
-  for (const t of tables) {
-    if (t.scope === "shared" || !t.subject_id) continue;
-    const list = bySubject.get(t.subject_id) ?? [];
-    list.push(t);
-    bySubject.set(t.subject_id, list);
-  }
-
-  const card = (t: ComparisonTable) => (
-    <Link
-      key={t.id}
-      href={`/tables/${encodeURIComponent(t.id)}`}
-      className="rounded-card border border-card-border border-l-4 border-l-subj-accent bg-card p-3 text-sm font-medium text-subj-deep shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
-    >
-      {t.title}
-    </Link>
-  );
+  const placed = placeTables(tables, counts, chapters, subjects);
+  const countBySubject = tableCountsBySubject(placed);
+  const requested = typeof searchParams.subject === "string" ? searchParams.subject : null;
+  const subjectId =
+    requested && (countBySubject.get(requested) ?? 0) > 0
+      ? requested
+      : (busiestSubject(countBySubject, subjects) ?? UNCATEGORIZED);
+  const subject = subjects.find((s) => s.id === subjectId);
+  const subjectName = (id: string) =>
+    id === UNCATEGORIZED ? "跨科共用" : (subjects.find((s) => s.id === id)?.name ?? id);
 
   return (
-    <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
-      <h1 className="mb-2 text-3xl font-bold text-body">比較表</h1>
-      <p className="mb-8 text-sm text-muted">
-        共 {tables.length} 張，把容易混淆的考點整理成對照表。
-      </p>
-
-      {shared.length > 0 && (
-        <section className="mb-10">
-          <div className="mb-4 flex items-center gap-3">
-            <span className="h-6 w-1.5 rounded-full bg-subj-accent" />
-            <h2 className="text-xl font-bold text-subj-deep">跨科共用</h2>
-            <span className="text-sm text-muted">{shared.length} 張</span>
-          </div>
-          <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">{shared.map(card)}</div>
-        </section>
-      )}
-
-      {/* 依科目順序列出，並掛上該科的 data-group 讓顏色跟著換 */}
-      {subjects.map((s) => {
-        const list = bySubject.get(s.id);
-        if (!list || list.length === 0) return null;
-        return (
-          <section key={s.id} data-group={subjectGroup(s)} className="mb-10">
-            <div className="mb-4 flex items-center gap-3">
-              <span className="h-6 w-1.5 rounded-full bg-subj-accent" />
-              <h2 className="text-xl font-bold text-subj-deep">
-                {subjectById.get(s.id)?.name ?? s.id}
-              </h2>
-              <span className="text-sm text-muted">{list.length} 張</span>
-            </div>
-            <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">{list.map(card)}</div>
-          </section>
-        );
-      })}
+    <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 py-8">
+      <Panel className="flex-1">
+        <h1 className="mb-2 text-3xl font-bold text-body">比較表</h1>
+        <p className="mb-6 text-sm text-muted">
+          共 {tables.length} 張，依「最常出題的章節」歸類；其他相關章節會以
+          <span className="mx-1 rounded border border-dashed border-card-border px-1">連結卡</span>
+          連回主要位置。
+        </p>
+        <div className="mb-6 flex flex-col gap-3">
+          <Link
+            href={`/print/tables?subject=${encodeURIComponent(subjectId)}`}
+            target="_blank"
+            className="flex items-center gap-1 self-end rounded-btn border border-card-border bg-card px-3 py-1.5 text-xs font-medium text-body transition-colors hover:border-accent hover:text-deep"
+          >
+            <FileDown size={12} />
+            匯出本科比較表 PDF
+          </Link>
+          <SubjectPicker
+            subjects={subjects}
+            counts={countBySubject}
+            selected={subjectId}
+            hrefFor={(id) => `/tables?subject=${encodeURIComponent(id)}`}
+            unit="張"
+          />
+        </div>
+        <div data-group={subject ? subjectGroup(subject) : undefined}>
+          <TablesBrowser
+            key={subjectId}
+            subjectId={subjectId}
+            sections={sectionsForSubject(placed, subjectId, chapters)}
+            allTables={placed.map((t) => ({
+              id: t.id,
+              title: t.title,
+              subjectId: t.subjectId,
+              subjectName: subjectName(t.subjectId),
+            }))}
+          />
+        </div>
+      </Panel>
     </main>
   );
 }

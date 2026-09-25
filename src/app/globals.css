@@ -67,6 +67,9 @@
   /* 關鍵：原本等於 --color-light(#D7E1F2 藍)，會讓紅/橘/綠/紫科目的卡片
      被藍框包住，所以改成中性灰 */
   --color-card-border: #E3E6EC;
+  /* 側邊樹與去框化元件的 hover/選中底色。刻意是中性灰而非科目色——
+     hover 只是回饋「這一列可以點」，不該每滑過一列就閃一次科目色。 */
+  --color-surface-hover: #ECEEF3;
 
   --radius-card: 12px;
   --radius-btn: 8px;
@@ -104,4 +107,26 @@ body {
   background: var(--color-page);
   color: var(--foreground);
   font-family: var(--font-sans), "Noto Sans TC", Arial, Helvetica, sans-serif;
+}
+
+/* 比較表頁：從次要章節的連結卡跳過來時，短暫高亮主要位置那張卡。
+   用 data-flash 而不是 :target(Next 的 Link 用 pushState，:target 不會更新) */
+@keyframes target-flash {
+  0%, 60% { box-shadow: 0 0 0 3px var(--subj-accent); }
+  100%    { box-shadow: 0 0 0 0 transparent; }
+}
+.table-card[data-flash] {
+  animation: target-flash 2.4s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .table-card[data-flash] { animation: none; box-shadow: 0 0 0 3px var(--subj-accent); }
+}
+
+/* 列印(匯出 PDF)：白底、保留表格底色 */
+@media print {
+  body {
+    background: #fff;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
 }

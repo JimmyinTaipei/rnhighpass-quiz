@@ -27,8 +27,8 @@ def upsert(
 
     protect_columns：這些欄位如果已經被網頁端手動編輯過，就不要用來源檔案覆蓋。
     判斷依據是資料庫該列的 protect_flag_col（預設 questions.edited_fields，
-    內容是被改過的欄位名稱陣列）。目前只有 questions 會傳這個參數，
-    其他表維持「一律以來源檔案為準」的行為。
+    內容是被改過的欄位名稱陣列）。目前 questions(migration 0005)與
+    tables_(migration 0010)會傳這個參數，其他表維持「一律以來源檔案為準」。
 
     這個機制是必要的：同步是從 markdown 全量 upsert，沒有它的話網頁上改的東西
     下一次跑 sync_all.py 就會消失。

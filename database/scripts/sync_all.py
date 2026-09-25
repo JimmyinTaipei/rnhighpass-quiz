@@ -254,6 +254,9 @@ def main():
                 "headers": t["headers"], "rows": t["rows"],
             } for t in tables],
             conflict_cols=["id"], json_cols=("headers", "rows"),
+            # 網頁 dev mode 改過的比較表欄位(tables_.edited_fields，見 migration 0010)
+            # 不要被來源 JSON 蓋回去；scope / subject_id 仍以來源檔案為準。
+            protect_columns=("title", "reason", "headers", "rows"),
         )
         counts["question_tables"] = upsert(
             cur, "question_tables", question_table_rows,

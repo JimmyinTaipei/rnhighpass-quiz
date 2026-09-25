@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { Suspense } from "react";
+import { HomeDashboardCard } from "@/components/dashboard/HomeDashboardCard";
 import { GoogleLoginButton } from "@/components/ui/GoogleLoginButton";
 import { getCurrentUser } from "@/lib/data";
 import { safeNextPath } from "@/lib/routes";
@@ -19,7 +21,7 @@ export default async function Home(props: PageProps<"/">) {
     <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-6 px-4 py-16 text-center">
       <h1 className="text-3xl font-bold text-deep">多保命 護理國考題庫</h1>
       <p className="max-w-md text-muted">
-        分章筆記 + 線上測驗，答錯自動收錄錯題本，可依章節查看正確率。
+        分章筆記 + 線上測驗，答錯自動收錄到我的題本，可依章節查看正確率。
       </p>
 
       {wasRedirected && (
@@ -44,6 +46,16 @@ export default async function Home(props: PageProps<"/">) {
         </Link>
         {!user && <GoogleLoginButton next={wasRedirected ? nextPath : undefined} />}
       </div>
+
+      {user && !wasRedirected && (
+        <Suspense fallback={null}>
+          <HomeDashboardCard />
+        </Suspense>
+      )}
+
+      <Link href="/privacy" className="text-xs text-muted hover:text-deep">
+        隱私說明
+      </Link>
     </main>
   );
 }

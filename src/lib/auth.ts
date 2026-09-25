@@ -1,3 +1,4 @@
+import { cache } from "react";
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "./data";
 import { createClient } from "./supabase-server";
@@ -26,8 +27,11 @@ export async function requireUser(nextPath: string) {
  * 注意：這只用來決定「要不要渲染編輯介面」。真正的授權在
  * updateQuestion action 內部再驗一次，而且 Postgres 的 RLS 還會再守一層。
  * Next 16 的 Server Actions 文件明講渲染層 gating 不是安全邊界。
+ *
+ * 用 React cache() 包起來：同一次 request 裡 NavBar、頁面、dev mode 判斷都會問，
+ * 只需要查一次資料庫。cache 的範圍只有單一 request，不會跨使用者共用。
  */
-export async function isAdmin(): Promise<boolean> {
+export const isAdmin = cache(async (): Promise<boolean> => {
   const supabase = await createClient();
   const { data: userData } = await supabase.auth.getUser();
   if (!userData.user) return false;
@@ -40,4 +44,4 @@ export async function isAdmin(): Promise<boolean> {
   // migration 0005 還沒套用時 admins 表不存在 -> 當作沒有 admin，不要讓整頁掛掉
   if (error) return false;
   return !!data;
-}
+});

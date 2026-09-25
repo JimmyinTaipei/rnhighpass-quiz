@@ -14,6 +14,8 @@ import {
 import { useIsClient } from "@/lib/use-is-client";
 import { TableModalLink } from "@/components/tables/TableModalLink";
 import { QuestionEditForm } from "@/components/admin/QuestionEditForm";
+import { FavoriteButton } from "@/components/favorites/FavoriteButton";
+import { ReportButton } from "@/components/report/ReportButton";
 import type { ChapterRef } from "@/lib/data";
 import type { ComparisonTable, Question } from "@/lib/types";
 
@@ -38,8 +40,11 @@ interface QuestionCardProps {
   otherChapters?: ChapterRef[];
   /** 疾病標籤(tag_type='dz') */
   diseaseTags?: string[];
-  /** dev mode：是 admin 時顯示編輯介面(實際授權在 updateQuestion action 內) */
-  isAdmin?: boolean;
+  /**
+   * dev mode：由 server 端 getDevMode()(admin 且開關打開)決定。
+   * 只影響要不要渲染編輯工具，實際授權在 updateQuestion action 與 RLS。
+   */
+  devMode?: boolean;
   /**
    * 作答前打亂選項順序(預設開)。作答後一律排回原始 A–D 順序，方便對照詳解。
    * 瀏覽模式與 revealAnswer(已作答的回顧)本來就是作答後狀態，不會打亂。
@@ -58,7 +63,7 @@ export function QuestionCard({
   tables,
   otherChapters,
   diseaseTags,
-  isAdmin = false,
+  devMode = false,
   shuffleOptions = true,
 }: QuestionCardProps) {
   const [selected, setSelected] = useState<OptionKey | null>(
@@ -122,7 +127,7 @@ export function QuestionCard({
     if (!isAnswered) {
       return selected === key
         ? "bg-light border-accent text-deep"
-        : "bg-card border-card-border text-body hover:bg-page";
+        : "bg-card border-card-border text-body hover:bg-surface-hover";
     }
     if (accepted.length === 0 || accepted.includes(key)) {
       return "bg-correct-bg border-correct text-correct-text font-medium";
@@ -134,11 +139,15 @@ export function QuestionCard({
   }
 
   return (
-    <div className="mb-4 rounded-card border border-card-border bg-card p-5 shadow-md">
+    <div className="mb-4 rounded-card border border-card-border bg-page p-5">
       <div className="mb-3 flex items-start justify-between gap-2">
-        <span className="rounded bg-page px-2 py-1 text-xs font-medium text-muted">
+        <span className="rounded bg-card px-2 py-1 text-xs font-medium text-muted">
           {question.source_text}
         </span>
+        <div className="flex shrink-0 items-center gap-0.5">
+          <ReportButton questionId={question.id} targetLabel={question.source_text} />
+          <FavoriteButton questionId={question.id} />
+        </div>
       </div>
 
       <p className="mb-4 whitespace-pre-wrap font-medium leading-relaxed text-body">
@@ -203,7 +212,7 @@ export function QuestionCard({
                   className={`rounded-btn border-l-4 p-3 ${
                     section.emphasis
                       ? "border-l-subj-accent bg-subj-light/50"
-                      : "border-l-card-border bg-page"
+                      : "border-l-card-border bg-card"
                   }`}
                 >
                   <h4 className="mb-1 text-xs font-bold tracking-wide text-subj-deep">
@@ -236,7 +245,7 @@ export function QuestionCard({
                   <Link
                     key={c.id}
                     href={`/chapters/${c.id}`}
-                    className="flex items-center gap-1 rounded-full bg-page px-2.5 py-1 text-xs text-body transition-colors hover:bg-subj-light hover:text-subj-deep"
+                    className="flex items-center gap-1 rounded-full bg-card px-2.5 py-1 text-xs text-body transition-colors hover:bg-subj-light hover:text-subj-deep"
                   >
                     <BookOpen size={12} className="text-subj-accent" />
                     {c.subjectName} {c.chapter_no} {c.title}
@@ -265,7 +274,17 @@ export function QuestionCard({
         </div>
       )}
 
-      {isAdmin && <QuestionEditForm question={question} />}
+      {devMode && (
+        <div className="mt-3 flex flex-wrap gap-x-3 gap-y-1 border-t border-dashed border-warning/50 pt-2 font-mono text-[11px] text-muted">
+          <span>id={question.id}</span>
+          <span>topic={question.topic_id ?? "—"}</span>
+          <span>chapter={question.primary_chapter_id ?? "—"}</span>
+          {question.edited_fields && question.edited_fields.length > 0 && (
+            <span className="text-warning">已手改：{question.edited_fields.join(", ")}</span>
+          )}
+        </div>
+      )}
+      {devMode && <QuestionEditForm question={question} />}
     </div>
   );
 }

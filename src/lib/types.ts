@@ -88,6 +88,9 @@ export interface ComparisonTable {
   subject_id: string | null;  // scope='subject' 時等於 subjects.id，如 '07_內外'
   headers: string[];
   rows: string[][];
+  /** migration 0010：被網頁 dev mode 手動編輯過的欄位，sync 時不會被覆蓋 */
+  edited_fields?: string[] | null;
+  edited_at?: string | null;
 }
 
 export interface QuestionImage {

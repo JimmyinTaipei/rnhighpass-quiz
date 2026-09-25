@@ -19,8 +19,8 @@ export function ComparisonTableView({
         </p>
       )}
       {/* 比較表通常有 5~6 欄中文，手機一定放不下 → 水平捲動而不是硬擠 */}
-      <div className="overflow-x-auto rounded-card border border-card-border">
-        <table className="w-full min-w-[720px] border-collapse text-left text-sm">
+      <div className="overflow-x-auto rounded-card border border-card-border print:overflow-visible">
+        <table className="w-full min-w-[720px] border-collapse text-left text-sm print:min-w-0 print:text-xs">
           <thead>
             <tr className="bg-subj-light">
               {table.headers.map((h, i) => (
@@ -35,7 +35,7 @@ export function ComparisonTableView({
           </thead>
           <tbody>
             {table.rows.map((row, ri) => (
-              <tr key={ri} className="align-top even:bg-page">
+              <tr key={ri} className="break-inside-avoid align-top even:bg-page">
                 {row.map((cell, ci) => (
                   <td
                     key={ci}

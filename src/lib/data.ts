@@ -1,4 +1,6 @@
+import { buildTreeNodesFromRefs, type TreeNode } from "./reading-nav";
 import { createClient } from "./supabase-server";
+import type { ErrorReport, ReportStatus } from "./report-fields";
 import type {
   CardBullet,
   Chapter,
@@ -54,11 +56,16 @@ export async function getAllChapters(): Promise<Chapter[]> {
 }
 
 /**
- * 各章節的題數，用於科目頁的章節卡。
+ * 各章節的題數，用於科目頁的章節卡與閱讀頁側邊欄的 Ch 列表。
  *
- * 刻意透過 topic_id 內聯 topics 來數，而不是用 questions.primary_chapter_id——
- * 因為章節閱讀頁與測驗頁都是以 topic_id 取題(見 getQuestionsByTopicIds)，
- * 用 primary_chapter_id 數出來的數字會跟使用者實際看到的題數不一致。
+ * 走 chapter_question_counts view(migration 0008)。原本是「一題抓一列」再用
+ * JS 數，但 PostgREST 預設一次最多回 1000 列(全庫 8960 題)，題目多的科目會被
+ * 靜默截斷、數字是錯的。view 在資料庫端 group by，一章只回一列。
+ *
+ * view 本身刻意透過 topic_id 內聯 topics 來數，而不是用 questions.
+ * primary_chapter_id——因為章節閱讀頁與測驗頁都是以 topic_id 取題(見
+ * getQuestionsByTopicIds)，用 primary_chapter_id 數出來的數字會跟使用者
+ * 實際看到的題數不一致。
  */
 export async function getQuestionCountsByChapter(
   chapterIds: number[],
@@ -66,18 +73,75 @@ export async function getQuestionCountsByChapter(
   if (chapterIds.length === 0) return new Map();
   const supabase = await createClient();
   const { data, error } = await supabase
-    .from("questions")
-    .select("id, topics!inner(chapter_id)")
-    .in("topics.chapter_id", chapterIds);
+    .from("chapter_question_counts")
+    .select("chapter_id, question_count")
+    .in("chapter_id", chapterIds);
   if (error) throw error;
 
   const counts = new Map<number, number>();
-  for (const row of data ?? []) {
-    // 內聯的 topics 在型別上是 object|array，取值前先收斂
-    const topic = (row as { topics?: { chapter_id: number } | { chapter_id: number }[] }).topics;
-    const chapterId = Array.isArray(topic) ? topic[0]?.chapter_id : topic?.chapter_id;
-    if (chapterId == null) continue;
-    counts.set(chapterId, (counts.get(chapterId) ?? 0) + 1);
+  for (const row of (data ?? []) as { chapter_id: number; question_count: number }[]) {
+    counts.set(row.chapter_id, row.question_count);
+  }
+  return counts;
+}
+
+/**
+ * 各章節的筆記數，用於側邊欄 Ch 列表。走 chapter_card_counts view(0008)。
+ *
+ * 只有「整章」的數字。單一主題底下的筆記數要靠 card-topic-match 的路徑比對，
+ * 算不出 SQL，所以側邊欄只有展開中的那一章才有 per-topic 筆記數。
+ */
+export async function getCardCountsByChapter(
+  chapterIds: number[],
+): Promise<Map<number, number>> {
+  if (chapterIds.length === 0) return new Map();
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("chapter_card_counts")
+    .select("chapter_id, card_count")
+    .in("chapter_id", chapterIds);
+  if (error) throw error;
+
+  const counts = new Map<number, number>();
+  for (const row of (data ?? []) as { chapter_id: number; card_count: number }[]) {
+    counts.set(row.chapter_id, row.card_count);
+  }
+  return counts;
+}
+
+/**
+ * 全站所有章節的題數 / 筆記數。
+ *
+ * 閱讀頁的側邊欄已經提到 chapters/layout.tsx(不含動態參數的共用段,換章不重繪),
+ * 那一層拿不到 chapterId,所以無法先算出「這一科有哪些章」再去查計數 ——
+ * 乾脆一次把全站的計數撈回來,由 client 端依 pathname 取用。
+ *
+ * 走 0008 的兩支 view,一章一列(全站 162 章),遠低於 PostgREST 的 1000 列上限。
+ */
+export async function getAllChapterQuestionCounts(): Promise<Map<number, number>> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("chapter_question_counts")
+    .select("chapter_id, question_count");
+  if (error) throw error;
+
+  const counts = new Map<number, number>();
+  for (const row of (data ?? []) as { chapter_id: number; question_count: number }[]) {
+    counts.set(row.chapter_id, row.question_count);
+  }
+  return counts;
+}
+
+export async function getAllChapterCardCounts(): Promise<Map<number, number>> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("chapter_card_counts")
+    .select("chapter_id, card_count");
+  if (error) throw error;
+
+  const counts = new Map<number, number>();
+  for (const row of (data ?? []) as { chapter_id: number; card_count: number }[]) {
+    counts.set(row.chapter_id, row.card_count);
   }
   return counts;
 }
@@ -117,17 +181,48 @@ export async function getQuestionsByTopicIds(
   return data ?? [];
 }
 
+/**
+ * 只拿「題目掛在哪個 topic」這件事,不含題幹與詳解。
+ *
+ * 側邊欄的節點樹只需要計數,而整章的 Question 全文(題幹 + 四個選項 + 詳解)
+ * 動輒上百列的長文字。節點樹現在是獨立的平行路由 slot(chapters/@tree),
+ * 每次換章都會重跑,用全文查詢等於把最重的那份資料抓兩遍。
+ */
+export interface QuestionRef {
+  id: string;
+  topic_id: number | null;
+}
+
+export async function getQuestionRefsByTopicIds(
+  topicIds: number[],
+): Promise<QuestionRef[]> {
+  if (topicIds.length === 0) return [];
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("questions")
+    .select("id, topic_id")
+    .in("topic_id", topicIds)
+    .order("id");
+  if (error) throw error;
+  return (data ?? []) as QuestionRef[];
+}
+
 export async function getTagsForQuestions(
   questionIds: string[],
 ): Promise<QuestionTag[]> {
   if (questionIds.length === 0) return [];
   const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("question_tags")
-    .select("*")
-    .in("question_id", questionIds);
-  if (error) throw error;
-  return data ?? [];
+  const batches = await Promise.all(
+    chunk([...new Set(questionIds)]).map(async (batch) => {
+      const { data, error } = await supabase
+        .from("question_tags")
+        .select("*")
+        .in("question_id", batch);
+      if (error) throw error;
+      return (data ?? []) as QuestionTag[];
+    }),
+  );
+  return batches.flat();
 }
 
 export async function getCardsByChapter(
@@ -165,28 +260,76 @@ export async function getCurrentUser() {
   return data.user;
 }
 
+/**
+ * 使用者全部作答紀錄(新到舊)。
+ *
+ * PostgREST 預設一次最多回 1000 列，常用的使用者很快就會超過，
+ * 所以用 .range() 分頁抓到底。沒分頁的話錯題本與統計會靜默少算。
+ */
 export async function getUserAnswers(): Promise<UserAnswer[]> {
   const supabase = await createClient();
   const { data: userData } = await supabase.auth.getUser();
   if (!userData.user) return [];
-  const { data, error } = await supabase
-    .from("user_answers")
-    .select("*")
-    .eq("user_id", userData.user.id)
-    .order("answered_at", { ascending: false });
-  if (error) throw error;
-  return data ?? [];
+  const PAGE = 1000;
+  const all: UserAnswer[] = [];
+  for (let from = 0; ; from += PAGE) {
+    const { data, error } = await supabase
+      .from("user_answers")
+      .select("*")
+      .eq("user_id", userData.user.id)
+      // id 當第二排序鍵，確保分頁邊界上同一時間的紀錄不會重複或漏掉
+      .order("answered_at", { ascending: false })
+      .order("id", { ascending: false })
+      .range(from, from + PAGE - 1);
+    if (error) throw error;
+    all.push(...(data ?? []));
+    if (!data || data.length < PAGE) break;
+  }
+  return all;
+}
+
+/** .in() 的 id 清單會被放進 URL，太長會被拒絕，所以切批查詢 */
+const IN_CHUNK = 200;
+
+function chunk<T>(items: T[], size = IN_CHUNK): T[][] {
+  const out: T[][] = [];
+  for (let i = 0; i < items.length; i += size) out.push(items.slice(i, i + size));
+  return out;
 }
 
 export async function getQuestionsByIds(ids: string[]): Promise<Question[]> {
   if (ids.length === 0) return [];
   const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("questions")
-    .select("*")
-    .in("id", ids);
-  if (error) throw error;
-  return data ?? [];
+  const batches = await Promise.all(
+    chunk([...new Set(ids)]).map(async (batch) => {
+      const { data, error } = await supabase.from("questions").select("*").in("id", batch);
+      if (error) throw error;
+      return (data ?? []) as Question[];
+    }),
+  );
+  return batches.flat();
+}
+
+/** 統計/儀表板只需要的題目欄位，避免把整題(含詳解)全部抓回來 */
+export type QuestionMeta = Pick<
+  Question,
+  "id" | "primary_chapter_id" | "topic_id" | "source_text" | "stem"
+>;
+
+export async function getQuestionMetaByIds(ids: string[]): Promise<QuestionMeta[]> {
+  if (ids.length === 0) return [];
+  const supabase = await createClient();
+  const batches = await Promise.all(
+    chunk([...new Set(ids)]).map(async (batch) => {
+      const { data, error } = await supabase
+        .from("questions")
+        .select("id, primary_chapter_id, topic_id, source_text, stem")
+        .in("id", batch);
+      if (error) throw error;
+      return (data ?? []) as QuestionMeta[];
+    }),
+  );
+  return batches.flat();
 }
 
 // ===== 比較表 (tables_) =====
@@ -293,17 +436,20 @@ export interface ChapterRef {
  */
 export async function getOtherChaptersForQuestions(
   questionIds: string[],
-  excludeChapterId: number,
+  /** 要扣掉的章節。疾病標籤頁沒有「當前章節」可扣，傳 null 代表全列 */
+  excludeChapterId: number | null,
 ): Promise<Map<string, ChapterRef[]>> {
   const result = new Map<string, ChapterRef[]>();
   if (questionIds.length === 0) return result;
 
   const supabase = await createClient();
-  const { data, error } = await supabase
+  let query = supabase
     .from("question_chapters")
     .select("question_id, chapters(id, chapter_no, title, subjects(name))")
-    .in("question_id", questionIds)
-    .neq("chapter_id", excludeChapterId);
+    .in("question_id", questionIds);
+  if (excludeChapterId !== null) query = query.neq("chapter_id", excludeChapterId);
+
+  const { data, error } = await query;
   if (error) throw error;
 
   // PostgREST 的巢狀關聯在型別推斷上是陣列，實際上這裡是 to-one，
@@ -362,6 +508,65 @@ export async function getDiseaseTagsForQuestions(
     result.set(t.question_id, list);
   }
   return result;
+}
+
+// ===== 疾病標籤(demo) =====
+
+export interface DiseaseTagSummary {
+  tag: string;
+  questionCount: number;
+}
+
+/**
+ * 疾病標籤的「示範清單」。
+ *
+ * 刻意不是全庫精確結果:question_tags 的 dz 列遠超過 PostgREST 一次能回的
+ * 1000 列,這裡抓到的是前 1000 列的樣本,聚合出來的次數只夠拿來排序與展示。
+ * 要做成正式的索引軸(全部 1636 種疾病 + 正確題數)時,照 0007/0008 的作法加一支
+ *   create view disease_tag_counts as
+ *     select tag_value, count(*) from question_tags where tag_type='dz' group by 1;
+ * 再把這支函式改成查 view 即可,呼叫端不用動。
+ */
+export async function getDiseaseTagSample(limit = 30): Promise<DiseaseTagSummary[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("question_tags")
+    .select("tag_value")
+    .eq("tag_type", "dz")
+    .limit(1000);
+  if (error) throw error;
+
+  const counts = new Map<string, number>();
+  for (const row of (data ?? []) as { tag_value: string }[]) {
+    counts.set(row.tag_value, (counts.get(row.tag_value) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([tag, questionCount]) => ({ tag, questionCount }))
+    .sort((a, b) => b.questionCount - a.questionCount || a.tag.localeCompare(b.tag, "zh-Hant"))
+    .slice(0, limit);
+}
+
+/**
+ * 某個疾病標籤底下的題目。
+ *
+ * max 是給 demo 用的天花板:熱門標籤(如「糖尿病」)題數可能上百,一頁塞不下
+ * 也沒人會一路讀完。正式版應該改成分頁。
+ */
+export async function getQuestionsByDiseaseTag(
+  tag: string,
+  max = 60,
+): Promise<Question[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("question_tags")
+    .select("question_id")
+    .eq("tag_type", "dz")
+    .eq("tag_value", tag)
+    .limit(max);
+  if (error) throw error;
+
+  const ids = (data ?? []).map((r) => (r as { question_id: string }).question_id);
+  return getQuestionsByIds(ids);
 }
 
 // ===== 搜尋 =====
@@ -579,4 +784,182 @@ export async function getExamYearRange(): Promise<{ minYear: number; maxYear: nu
  */
 export function yearToSittingBounds(fromYear: number, toYear: number) {
   return { sittingFrom: `${fromYear}-1`, sittingTo: `${toYear}-9` };
+}
+
+/**
+ * 章節的側邊樹節點。
+ *
+ * 側邊欄的 @tree slot 與 /api/chapters/[chapterId]/tree 共用這一支 —— 前者給
+ * 當前章節(server render、可 stream)，後者給「同時展開的其他章節」按需抓。
+ * 兩邊走同一個函式，樹的組法才不會漂移。
+ *
+ * 只查 topic 參照不查題目全文：側邊樹只需要標題與計數，用 select('*')
+ * 等於把整章最重的那份資料再抓一遍。
+ */
+export async function getChapterTreeNodes(
+  chapterId: number,
+): Promise<TreeNode[] | null> {
+  const chapter = await getChapter(chapterId);
+  if (!chapter) return null;
+
+  const [topics, cards] = await Promise.all([
+    getTopics(chapterId),
+    getCardsByChapter(chapterId),
+  ]);
+  const refs = await getQuestionRefsByTopicIds(topics.map((t) => t.id));
+  return buildTreeNodesFromRefs(chapter, topics, refs, cards);
+}
+
+// ===== 錯誤回報(migration 0011) =====
+
+/** 目前使用者自己的回報(RLS 只會回自己的列；多加 user_id 條件是為了 admin 也只看自己的) */
+export async function getMyReports(): Promise<ErrorReport[]> {
+  const supabase = await createClient();
+  const { data: userData } = await supabase.auth.getUser();
+  if (!userData.user) return [];
+  const { data, error } = await supabase
+    .from("error_reports")
+    .select("id, question_id, table_id, category, message, page_path, status, admin_note, resolved_at, created_at")
+    .eq("user_id", userData.user.id)
+    .order("created_at", { ascending: false })
+    .limit(100);
+  // migration 還沒套用時不要讓頁面掛掉
+  if (error) return [];
+  return (data ?? []) as ErrorReport[];
+}
+
+/** admin：全部回報(非 admin 呼叫時 RLS 只會回他自己的，呼叫端另外有 dev mode 門檻) */
+export async function getAllReports(status?: ReportStatus): Promise<ErrorReport[]> {
+  const supabase = await createClient();
+  let query = supabase
+    .from("error_reports")
+    .select("id, question_id, table_id, category, message, page_path, status, admin_note, resolved_at, created_at")
+    .order("created_at", { ascending: false })
+    .limit(300);
+  if (status) query = query.eq("status", status);
+  const { data, error } = await query;
+  if (error) return [];
+  return (data ?? []) as ErrorReport[];
+}
+
+// ===== 收藏(migration 0009) =====
+
+export interface FavoriteRow {
+  question_id: string;
+  created_at: string;
+}
+
+/** 目前使用者的收藏(新到舊)。migration 還沒套用時回空陣列 */
+export async function getFavorites(): Promise<FavoriteRow[]> {
+  const supabase = await createClient();
+  const { data: userData } = await supabase.auth.getUser();
+  if (!userData.user) return [];
+  const { data, error } = await supabase
+    .from("user_favorites")
+    .select("question_id, created_at")
+    .eq("user_id", userData.user.id)
+    .order("created_at", { ascending: false })
+    .limit(5000);
+  if (error) return [];
+  return data ?? [];
+}
+
+/** topic_id -> chapter_id。統計頁的章節歸屬要和 chapter_question_counts 一樣走 topics */
+export async function getTopicChapterMap(topicIds: number[]): Promise<Map<number, number>> {
+  const map = new Map<number, number>();
+  if (topicIds.length === 0) return map;
+  const supabase = await createClient();
+  const batches = await Promise.all(
+    chunk([...new Set(topicIds)]).map(async (batch) => {
+      const { data, error } = await supabase.from("topics").select("id, chapter_id").in("id", batch);
+      if (error) throw error;
+      return data ?? [];
+    }),
+  );
+  for (const row of batches.flat()) map.set(row.id, row.chapter_id);
+  return map;
+}
+
+// ===== 站長匿名統計(migration 0012) =====
+// 這些 RPC 在資料庫端先驗 admin，只回彙總數字、不含任何使用者身分。
+
+export interface SiteTotals {
+  registered_users: number;
+  users_with_answers: number;
+  total_answers: number;
+  active_users_7d: number;
+  active_users_30d: number;
+  answers_7d: number;
+}
+export interface UsageDay {
+  day: string;
+  active_users: number;
+  answers: number;
+  new_users: number;
+}
+export interface ChapterHeat {
+  chapter_id: number;
+  answers: number;
+  users: number;
+  accuracy: number;
+}
+export interface AnonUserSummary {
+  user_no: number;
+  answers: number;
+  accuracy: number;
+  active_days: number;
+  top_subject: string | null;
+  first_active: string;
+  last_active: string;
+}
+export interface HardQuestion {
+  question_id: string;
+  users: number;
+  wrong_users: number;
+  wrong_rate: number;
+}
+
+export async function getAdminAnalytics(days: number) {
+  const supabase = await createClient();
+  const [totals, usage, heat, users, hardest] = await Promise.all([
+    supabase.rpc("admin_site_totals"),
+    supabase.rpc("admin_usage_daily", { days }),
+    supabase.rpc("admin_content_heat", { days }),
+    supabase.rpc("admin_user_summary"),
+    supabase.rpc("admin_hardest_questions", { min_users: 5, lim: 30 }),
+  ]);
+  const error = totals.error ?? usage.error ?? heat.error ?? users.error ?? hardest.error;
+  return {
+    error: error ? error.message : null,
+    totals: ((totals.data ?? [])[0] ?? null) as SiteTotals | null,
+    usage: (usage.data ?? []) as UsageDay[],
+    heat: (heat.data ?? []) as ChapterHeat[],
+    users: (users.data ?? []) as AnonUserSummary[],
+    hardest: (hardest.data ?? []) as HardQuestion[],
+  };
+}
+
+/**
+ * 每張比較表在各章節被引用幾次(migration 0010 的 table_chapter_counts view)。
+ * 一列 = (表, 章)；全站幾百張表 × 少數章節，可能超過 1000 列，所以分頁抓。
+ */
+export async function getTableChapterCounts(): Promise<
+  { table_id: string; chapter_id: number; question_count: number }[]
+> {
+  const supabase = await createClient();
+  const PAGE = 1000;
+  const all: { table_id: string; chapter_id: number; question_count: number }[] = [];
+  for (let from = 0; ; from += PAGE) {
+    const { data, error } = await supabase
+      .from("table_chapter_counts")
+      .select("table_id, chapter_id, question_count")
+      .order("table_id")
+      .order("chapter_id")
+      .range(from, from + PAGE - 1);
+    // migration 0010 還沒套用時退回空結果(比較表頁會改用科目分組)
+    if (error) return [];
+    all.push(...(data ?? []));
+    if (!data || data.length < PAGE) break;
+  }
+  return all;
 }

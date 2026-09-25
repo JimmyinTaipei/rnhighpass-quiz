@@ -7,6 +7,7 @@ import {
   getTopics,
 } from "@/lib/data";
 import { requireUser } from "@/lib/auth";
+import { getDevMode } from "@/lib/dev-mode";
 
 export default async function ChapterQuizPage(
   props: PageProps<"/chapters/[chapterId]/quiz">,
@@ -19,9 +20,10 @@ export default async function ChapterQuizPage(
   const chapter = await getChapter(chapterIdNum);
   if (!chapter) notFound();
 
-  const [subject, topics] = await Promise.all([
+  const [subject, topics, devMode] = await Promise.all([
     getSubject(chapter.subject_id),
     getTopics(chapterIdNum),
+    getDevMode(),
   ]);
 
   const questions = await getQuestionsByTopicIds(topics.map((t) => t.id));
@@ -42,6 +44,7 @@ export default async function ChapterQuizPage(
         scopeLabel={`${subject?.name ?? ""} / ${chapter.chapter_no} ${chapter.title}`}
         questions={orderedQuestions}
         isLoggedIn={!!user}
+        devMode={devMode}
       />
     </main>
   );

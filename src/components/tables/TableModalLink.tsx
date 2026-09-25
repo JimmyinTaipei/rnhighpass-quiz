@@ -65,7 +65,7 @@ export function TableModalLink({ tableId, title, variant = "inline" }: TableModa
         onClick={() => setOpen(true)}
         className={
           variant === "card"
-            ? "flex w-full items-start gap-2 rounded-card border border-card-border border-l-4 border-l-subj-accent bg-card p-3 text-left text-sm font-medium text-subj-deep shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+            ? "flex w-full items-start gap-2 rounded-card border border-card-border border-l-4 border-l-subj-accent bg-page p-3 text-left text-sm font-medium text-subj-deep transition-all hover:-translate-y-0.5 hover:shadow-sm"
             : "mt-2 flex items-center gap-1.5 rounded-btn border border-card-border bg-card px-3 py-1.5 text-xs font-medium text-subj-deep transition-colors hover:border-subj-accent"
         }
       >

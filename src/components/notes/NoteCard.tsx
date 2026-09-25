@@ -7,7 +7,7 @@ interface NoteCardProps {
 
 export function NoteCard({ card }: NoteCardProps) {
   return (
-    <div className="mb-6 rounded-card border border-card-border bg-card p-5 shadow-sm">
+    <div className="mb-3 rounded-card border border-card-border bg-page p-4">
       <div className="mb-3 flex items-center gap-2">
         <div className="flex items-center gap-1 rounded-full bg-light px-3 py-1 text-xs font-medium text-deep">
           <BookOpen size={14} />

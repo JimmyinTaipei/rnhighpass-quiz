@@ -8,6 +8,7 @@ import {
   yearToSittingBounds,
 } from "@/lib/data";
 import { requireUser } from "@/lib/auth";
+import { getDevMode } from "@/lib/dev-mode";
 import { subjectGroup } from "@/lib/subject-groups";
 
 export default async function QuizRunPage(props: PageProps<"/quiz/[subjectId]/run">) {
@@ -39,6 +40,7 @@ export default async function QuizRunPage(props: PageProps<"/quiz/[subjectId]/ru
   const count = Number(str(searchParams.count));
   const order = str(searchParams.order) === "original" ? "original" : "random";
 
+  const devMode = await getDevMode();
   const questions = await getQuestionsForScope({
     chapterIds,
     ...bounds,
@@ -76,6 +78,7 @@ export default async function QuizRunPage(props: PageProps<"/quiz/[subjectId]/ru
           scopeLabel={scopeLabel}
           questions={questions}
           isLoggedIn={!!user}
+          devMode={devMode}
         />
       )}
     </main>

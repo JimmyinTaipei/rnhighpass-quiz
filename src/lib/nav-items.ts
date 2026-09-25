@@ -2,6 +2,7 @@ import {
   AlertCircle,
   BarChart3,
   BookOpen,
+  Flag,
   ListChecks,
   Search,
   Table2,
@@ -22,6 +23,7 @@ export const NAV_ITEMS: NavItem[] = [
   { href: "/quiz", label: "測驗", icon: ListChecks, mobile: true },
   { href: "/search", label: "搜尋", icon: Search, mobile: true },
   { href: "/tables", label: "比較表", icon: Table2, mobile: false },
-  { href: "/mistakes", label: "錯題本", icon: AlertCircle, mobile: true },
+  { href: "/mistakes", label: "我的題本", icon: AlertCircle, mobile: true },
   { href: "/stats", label: "統計", icon: BarChart3, mobile: true },
+  { href: "/report", label: "回報", icon: Flag, mobile: false },
 ];

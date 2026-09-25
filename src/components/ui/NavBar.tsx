@@ -4,10 +4,15 @@ import { NavLinks } from "./NavLinks";
 import { MobileTabBar } from "./MobileTabBar";
 import { UserStatus } from "./UserStatus";
 import { Skeleton } from "./Skeleton";
+import { DevBanner } from "@/components/admin/DevBanner";
 
 export function NavBar() {
   return (
     <>
+      {/* 讀 cookie，同樣包 Suspense 避免擋住各頁的 loading.tsx */}
+      <Suspense fallback={null}>
+        <DevBanner />
+      </Suspense>
       <header className="border-b border-card-border bg-card">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3">
           <div className="flex items-center gap-4">

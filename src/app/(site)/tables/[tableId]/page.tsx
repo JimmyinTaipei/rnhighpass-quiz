@@ -1,18 +1,24 @@
 import Link from "next/link";
+import { FileDown } from "lucide-react";
 import { notFound } from "next/navigation";
 import { ComparisonTableView } from "@/components/tables/ComparisonTableView";
+import { TableEditForm } from "@/components/admin/TableEditForm";
+import { ReportButton } from "@/components/report/ReportButton";
+import { getDevMode } from "@/lib/dev-mode";
 import { getAllChapters, getQuestionsForTable, getSubjects, getTable } from "@/lib/data";
 import { subjectGroup } from "@/lib/subject-groups";
+import { Panel } from "@/components/ui/Panel";
 
 export default async function TablePage(props: PageProps<"/tables/[tableId]">) {
   const { tableId } = await props.params;
   const table = await getTable(decodeURIComponent(tableId));
   if (!table) notFound();
 
-  const [questions, chapters, subjects] = await Promise.all([
+  const [questions, chapters, subjects, devMode] = await Promise.all([
     getQuestionsForTable(table.id),
     getAllChapters(),
     getSubjects(),
+    getDevMode(),
   ]);
 
   const chapterById = new Map(chapters.map((c) => [c.id, c]));
@@ -32,15 +38,30 @@ export default async function TablePage(props: PageProps<"/tables/[tableId]">) {
     .sort((a, b) => b.count - a.count);
 
   return (
-    <main data-group={group} className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+    <main data-group={group} className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 flex flex-col">
+      <Panel className="flex-1">
       <p className="mb-1 text-sm text-muted">
         <Link href="/tables" className="hover:text-subj-deep">
           比較表
         </Link>{" "}
         / {table.scope === "shared" ? "跨科共用" : (ownSubject?.name ?? table.subject_id)}
       </p>
-      <h1 className="mb-6 text-2xl font-bold text-subj-deep">{table.title}</h1>
+      <div className="mb-6 flex flex-wrap items-start justify-between gap-3">
+        <h1 className="text-2xl font-bold text-subj-deep">{table.title}</h1>
+        <div className="flex items-center gap-2">
+          <Link
+            href={`/print/tables/${encodeURIComponent(table.id)}`}
+            target="_blank"
+            className="flex items-center gap-1 rounded-btn border border-card-border bg-card px-3 py-1.5 text-xs font-medium text-body transition-colors hover:border-subj-accent hover:text-subj-deep"
+          >
+            <FileDown size={12} />
+            匯出 PDF
+          </Link>
+          <ReportButton tableId={table.id} targetLabel={`比較表：${table.title}`} variant="text" />
+        </div>
+      </div>
 
+      {devMode && <TableEditForm key={table.edited_at ?? "orig"} table={table} />}
       <ComparisonTableView table={table} />
 
       {chapterRows.length > 0 && (
@@ -53,7 +74,7 @@ export default async function TablePage(props: PageProps<"/tables/[tableId]">) {
               <Link
                 key={chapter!.id}
                 href={`/chapters/${chapter!.id}`}
-                className="flex items-center justify-between gap-2 rounded-card border border-card-border bg-card p-3 text-sm shadow-sm transition-colors hover:border-subj-accent"
+                className="flex items-center justify-between gap-2 rounded-card border border-card-border bg-page p-3 text-sm shadow-sm transition-colors hover:border-subj-accent"
               >
                 <span className="min-w-0">
                   <span className="block text-xs text-muted">
@@ -71,6 +92,7 @@ export default async function TablePage(props: PageProps<"/tables/[tableId]">) {
           </div>
         </section>
       )}
+    </Panel>
     </main>
   );
 }

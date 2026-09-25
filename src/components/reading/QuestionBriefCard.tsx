@@ -17,8 +17,8 @@ export function QuestionBriefCard({ question }: { question: Question }) {
   };
 
   return (
-    <div className="rounded-card border border-card-border bg-card p-4 shadow-sm">
-      <span className="rounded bg-page px-2 py-0.5 text-xs font-medium text-muted">
+    <div className="rounded-card border border-card-border bg-page p-4">
+      <span className="rounded bg-card px-2 py-0.5 text-xs font-medium text-muted">
         {question.source_text}
       </span>
       <p className="mt-2 mb-3 whitespace-pre-wrap text-sm font-medium leading-relaxed text-strong">

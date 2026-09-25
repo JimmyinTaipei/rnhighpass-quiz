@@ -17,6 +17,12 @@ interface ChapterQuizRunnerProps {
   scopeLabel: string;
   questions: Question[];
   isLoggedIn: boolean;
+  /** 由 server 端 getDevMode() 決定，只影響是否顯示編輯工具 */
+  devMode?: boolean;
+  /** 結束頁「回去複習」的連結，預設是我的題本 */
+  reviewHref?: string;
+  /** 寫進 user_answers.quiz_mode；重做錯題時是 "mistakes" */
+  mode?: string;
 }
 
 interface AnswerResult {
@@ -33,6 +39,9 @@ export function ChapterQuizRunner({
   scopeLabel,
   questions,
   isLoggedIn,
+  devMode = false,
+  reviewHref = "/mistakes",
+  mode = "quiz",
 }: ChapterQuizRunnerProps) {
   const [state, setState] = useState<RunnerState>({
     phase: "running",
@@ -113,6 +122,7 @@ export function ChapterQuizRunner({
                   mode="quiz"
                   isLoggedIn={false}
                   revealAnswer={result?.selectedOption}
+                  devMode={devMode}
                 />
               );
             })}
@@ -127,10 +137,10 @@ export function ChapterQuizRunner({
             重測一次
           </button>
           <Link
-            href="/mistakes"
+            href={reviewHref}
             className="rounded-btn bg-accent px-4 py-2 font-medium text-white transition-colors hover:opacity-90"
           >
-            回錯題本複習
+            回我的題本複習
           </Link>
         </div>
       </div>
@@ -154,10 +164,11 @@ export function ChapterQuizRunner({
       <QuestionCard
         key={cardKey}
         question={question}
-        mode="quiz"
+        mode={mode}
         isLoggedIn={isLoggedIn}
         onAnswered={(selected, correct) => handleAnswered(question, selected, correct)}
         hideExplanationWhenCorrect
+        devMode={devMode}
       />
       <p className="mb-4 text-center text-sm text-muted">
         第 {state.index + 1} / {questions.length} 題
