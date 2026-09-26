@@ -3,11 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { visit } from "unist-util-visit";
 import type { Root } from "hast";
-import { FilePenLine, Stethoscope } from "lucide-react";
+import { ChevronRight, FilePenLine, Stethoscope } from "lucide-react";
 import { ArticleShell } from "@/components/learn/ArticleShell";
 import { ArticleToc } from "@/components/learn/ArticleToc";
 import { renderHast, SectionView, type RenderContext } from "@/components/learn/ArticleRenderer";
-import { RelatedRail, type SectionRelations } from "@/components/learn/RelatedRail";
+import { SeeAlso, type CitingArticle } from "@/components/learn/SeeAlso";
 import { buildToc } from "@/components/learn/toc";
 import {
   getCurrentUser,
@@ -17,11 +17,20 @@ import {
   getTablesForQuestions,
 } from "@/lib/data";
 import { getDevMode } from "@/lib/dev-mode";
-import { knowledgeIndex, loadArticle, previewFor, questionIdsFor } from "@/lib/knowledge";
+import {
+  getDomain,
+  getGroup,
+  knowledgeIndex,
+  loadArticle,
+  previewFor,
+  questionIdsFor,
+  siblingArticles,
+} from "@/lib/knowledge";
 import {
   CATEGORY_LABELS,
   type KnowledgePreview,
   type KnowledgeSection,
+  type TaxonomyDomain,
 } from "@/lib/knowledge/types";
 
 export async function generateMetadata(props: PageProps<"/learn/[slug]">): Promise<Metadata> {
@@ -45,12 +54,38 @@ function questionKeys(root: Root): string[] {
   return keys;
 }
 
-const toPreviews = (keys: string[] | undefined) =>
-  (keys ?? []).map(previewFor).filter((p): p is KnowledgePreview => p !== null);
+/**
+ * 別頁引用本頁的地方(連結到整頁或任一段落、或嵌入任一段落),依來源頁分組。
+ * 同一頁內的互相連結不算——那是本頁自己的結構。
+ */
+function citingArticles(slug: string, sections: KnowledgeSection[]): CitingArticle[] {
+  const places = new Map<string, KnowledgePreview & { embedded: boolean }>();
+  const add = (sources: string[] | undefined, embedded: boolean) => {
+    for (const src of sources ?? []) {
+      if (src === slug || src.startsWith(`${slug}#`)) continue;
+      const prev = places.get(src);
+      if (prev) {
+        prev.embedded ||= embedded;
+        continue;
+      }
+      const p = previewFor(src);
+      if (p) places.set(src, { ...p, embedded });
+    }
+  };
+  add(knowledgeIndex.backlinks[slug], false);
+  walk(sections, (s) => {
+    add(knowledgeIndex.backlinks[`${slug}#${s.id}`], false);
+    add(knowledgeIndex.embeds[`${slug}#${s.id}`], true);
+  });
 
-function uniqueByKey(list: KnowledgePreview[]) {
-  const seen = new Set<string>();
-  return list.filter((p) => (seen.has(p.key) ? false : (seen.add(p.key), true)));
+  const bySource = new Map<string, CitingArticle>();
+  for (const p of places.values()) {
+    const src = p.key.split("#")[0];
+    const entry = bySource.get(src) ?? { slug: src, title: p.articleTitle, places: [] };
+    entry.places.push(p);
+    bySource.set(src, entry);
+  }
+  return [...bySource.values()];
 }
 
 export default async function LearnArticlePage(props: PageProps<"/learn/[slug]">) {
@@ -89,54 +124,57 @@ export default async function LearnArticlePage(props: PageProps<"/learn/[slug]">
     embedDepth: 0,
   };
 
-  // ---- 右欄關聯:子段落的關聯併進祖先 ----
-  const relations: Record<string, SectionRelations> = {};
-  const sectionTitles: Record<string, string> = {};
-  const otherArticle = (p: KnowledgePreview) => !p.key.startsWith(`${slug}#`) && p.key !== slug;
-  walk(article.sections, (s, ancestors) => {
-    const key = `${slug}#${s.id}`;
-    sectionTitles[s.id] = `${s.number}${s.title}`;
-    const own: SectionRelations = {
-      outgoing: toPreviews(knowledgeIndex.links[key]),
-      incoming: toPreviews(knowledgeIndex.backlinks[key]).filter(otherArticle),
-      embeddedIn: toPreviews(knowledgeIndex.embeds[key]),
-    };
-    for (const target of [s, ...ancestors]) {
-      const r = (relations[target.id] ??= { outgoing: [], incoming: [], embeddedIn: [] });
-      r.outgoing = uniqueByKey([...r.outgoing, ...own.outgoing]);
-      r.incoming = uniqueByKey([...r.incoming, ...own.incoming]);
-      r.embeddedIn = uniqueByKey([...r.embeddedIn, ...own.embeddedIn]);
-    }
-  });
-  const articleIncoming = uniqueByKey(
-    [
-      ...toPreviews(knowledgeIndex.backlinks[slug]),
-      ...Object.values(relations).flatMap((r) => [...r.incoming, ...r.embeddedIn]),
-    ].filter(otherArticle),
-  );
+  // ---- 分類與參見 ----
+  const domain = getDomain(article.system);
+  const group = getGroup(article.group);
+  const alsoIn = article.alsoIn.map(getDomain).filter((d): d is TaxonomyDomain => d !== undefined);
+  const citing = citingArticles(slug, article.sections);
+  const siblings = siblingArticles(article);
+  const summaryBits = [
+    citing.length > 0 && `被 ${citing.length} 頁引用`,
+    group && siblings.length > 0 && `其他${group.name} ${siblings.length} 頁`,
+    alsoIn.length > 0 && `也見於 ${alsoIn.map((d) => d.name).join("、")}`,
+  ].filter((x): x is string => !!x);
 
   const toc = buildToc(article.sections);
 
   return (
-    <ArticleShell
-      key={slug}
-      slug={slug}
-      toc={toc}
-      tocPanel={<ArticleToc toc={toc} title={article.title} />}
-      railPanel={
-        <RelatedRail relations={relations} articleIncoming={articleIncoming} sectionTitles={sectionTitles} />
-      }
-    >
+    <ArticleShell key={slug} slug={slug} toc={toc} tocPanel={<ArticleToc toc={toc} title={article.title} />}>
       <article className="rounded-card border border-card-border bg-card p-4 shadow-sm sm:p-8">
-        <p className="mb-2 text-sm text-muted">
+        <nav aria-label="麵包屑" className="mb-2 flex flex-wrap items-center gap-1 text-sm text-muted">
           <Link href="/learn" className="hover:text-deep">
             知識庫
-          </Link>{" "}
-          / {CATEGORY_LABELS[article.category]}
-        </p>
+          </Link>
+          {domain && (
+            <>
+              <ChevronRight size={14} />
+              <Link href={`/learn/system/${domain.id}`} className="hover:text-deep">
+                {domain.name}
+              </Link>
+            </>
+          )}
+          <ChevronRight size={14} />
+          <span>{CATEGORY_LABELS[article.category]}</span>
+          {group && domain && (
+            <>
+              <ChevronRight size={14} />
+              <Link href={`/learn/system/${domain.id}#group-${group.id}`} className="hover:text-deep">
+                {group.name}
+              </Link>
+            </>
+          )}
+        </nav>
         <header className="mb-6">
           <h1 className="text-3xl font-bold text-deep">{article.title}</h1>
           {article.subtitle && <p className="mt-1 text-lg text-body">{article.subtitle}</p>}
+          {summaryBits.length > 0 && (
+            <p className="mt-2 text-sm text-muted">
+              {summaryBits.join("・")}・
+              <a href="#see-also" className="font-medium text-accent hover:text-deep hover:underline">
+                參見 ↓
+              </a>
+            </p>
+          )}
           <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
             {!article.reviewed && (
               <span
@@ -168,6 +206,8 @@ export default async function LearnArticlePage(props: PageProps<"/learn/[slug]">
             <SectionView key={s.id} section={s} ctx={ctx} />
           ))}
         </div>
+
+        <SeeAlso citing={citing} group={group} siblings={siblings} alsoIn={alsoIn} />
 
         {article.references.length > 0 && (
           <footer className="mt-10 border-t border-card-border pt-5 text-sm text-body">

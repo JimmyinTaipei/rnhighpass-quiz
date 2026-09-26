@@ -3,6 +3,8 @@ title: α-葡萄糖苷酶抑制劑
 subtitle: Alpha-glucosidase inhibitors(AGI)
 aliases: [Acarbose, Miglitol, Voglibose, α-glucosidase inhibitor, 醣苷酶抑制劑, 糖苷酶抑制劑]
 dzTags: [糖尿病]
+system: endocrine
+group: antidiabetics
 reviewed: false
 updated: 2026-09-25
 references:

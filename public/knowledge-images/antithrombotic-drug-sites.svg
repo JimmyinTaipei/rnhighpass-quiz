@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" width="760" height="600" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+  <title>抗血小板、抗凝血與血栓溶解劑的作用位置</title>
+  <rect width="760" height="600" fill="#FFFFFF"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555A66"/>
+    </marker>
+  </defs>
+
+  <!-- 頂部:血管受損 -->
+  <rect x="230" y="14" width="300" height="42" rx="10" fill="#F7F8FB" stroke="#6592CD" stroke-width="1.5"/>
+  <text x="380" y="41" text-anchor="middle" font-size="17" font-weight="bold" fill="#2C5A96">血管內皮受損 / 斑塊破裂</text>
+  <line x1="300" y1="56" x2="130" y2="84" stroke="#555A66" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="460" y1="56" x2="380" y2="84" stroke="#555A66" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- 左欄:血小板 -->
+  <rect x="14" y="88" width="236" height="332" rx="12" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+  <text x="132" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#B4485C">① 血小板活化與凝集</text>
+  <text x="132" y="134" text-anchor="middle" font-size="12.5" fill="#26262B">(動脈血栓的主角:白色血栓)</text>
+  <text x="26" y="162" font-size="13.5" fill="#26262B">COX-1 → 血栓素 A₂(TXA₂)</text>
+  <text x="34" y="182" font-size="13" fill="#B4485C" font-weight="bold">✕ Aspirin(不可逆)</text>
+  <text x="26" y="210" font-size="13.5" fill="#26262B">ADP → P2Y12 受體</text>
+  <text x="34" y="230" font-size="13" fill="#B4485C" font-weight="bold">✕ Clopidogrel、Prasugrel、</text>
+  <text x="48" y="248" font-size="13" fill="#B4485C" font-weight="bold">Ticagrelor</text>
+  <text x="26" y="276" font-size="13.5" fill="#26262B">血小板內 cAMP 分解</text>
+  <text x="34" y="296" font-size="13" fill="#B4485C" font-weight="bold">✕ Dipyridamole、Cilostazol</text>
+  <text x="26" y="324" font-size="13.5" fill="#26262B">GP IIb/IIIa 受體接上纖維蛋白原</text>
+  <text x="26" y="342" font-size="13.5" fill="#26262B">→ 血小板彼此相連(最後共同路徑)</text>
+  <text x="34" y="362" font-size="13" fill="#B4485C" font-weight="bold">✕ Eptifibatide、Tirofiban、</text>
+  <text x="48" y="380" font-size="13" fill="#B4485C" font-weight="bold">Abciximab(靜脈)</text>
+  <text x="26" y="406" font-size="12" fill="#555A66">監測:出血;不看 PT/aPTT</text>
+
+  <!-- 中欄:凝血瀑布 -->
+  <rect x="262" y="88" width="236" height="332" rx="12" fill="#D7E1F2" stroke="#2C5A96" stroke-width="1.5"/>
+  <text x="380" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#2C5A96">② 凝血因子瀑布</text>
+  <text x="380" y="134" text-anchor="middle" font-size="12.5" fill="#26262B">(靜脈血栓的主角:紅色血栓)</text>
+  <text x="274" y="160" font-size="13" fill="#26262B">肝臟用維生素 K 製造 II、VII、IX、X</text>
+  <text x="282" y="179" font-size="13" fill="#2C5A96" font-weight="bold">✕ Warfarin(監測 PT/INR)</text>
+  <text x="274" y="206" font-size="13" fill="#26262B">內在路徑(aPTT)、外在路徑(PT)</text>
+  <line x1="380" y1="212" x2="380" y2="232" stroke="#555A66" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="380" y="250" text-anchor="middle" font-size="15" font-weight="bold" fill="#26262B">第十因子 Xa</text>
+  <text x="282" y="270" font-size="12.5" fill="#2C5A96" font-weight="bold">✕ -xaban 類(Rivaroxaban 等)</text>
+  <text x="282" y="288" font-size="12.5" fill="#2C5A96" font-weight="bold">✕ LMWH、Fondaparinux(經 AT)</text>
+  <line x1="380" y1="294" x2="380" y2="312" stroke="#555A66" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="380" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#26262B">凝血酶 IIa</text>
+  <text x="282" y="350" font-size="12.5" fill="#2C5A96" font-weight="bold">✕ Dabigatran、Argatroban</text>
+  <text x="282" y="368" font-size="12.5" fill="#2C5A96" font-weight="bold">✕ Heparin(經抗凝血酶 AT:IIa+Xa)</text>
+  <line x1="380" y1="374" x2="380" y2="392" stroke="#555A66" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="380" y="410" text-anchor="middle" font-size="13.5" fill="#26262B">纖維蛋白原 → 纖維蛋白</text>
+
+  <!-- 右欄:纖維蛋白溶解 -->
+  <rect x="510" y="88" width="236" height="332" rx="12" fill="#DAF0E5" stroke="#3E7C57" stroke-width="1.5"/>
+  <text x="628" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#3E7C57">③ 纖維蛋白溶解</text>
+  <text x="628" y="134" text-anchor="middle" font-size="12.5" fill="#26262B">(溶掉「已經形成」的血栓)</text>
+  <text x="628" y="170" text-anchor="middle" font-size="15" font-weight="bold" fill="#26262B">胞漿素原 plasminogen</text>
+  <line x1="548" y1="180" x2="548" y2="236" stroke="#3E7C57" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="558" y="200" font-size="12.5" fill="#3E7C57" font-weight="bold">＋ Alteplase(rt-PA)</text>
+  <text x="558" y="216" font-size="12.5" fill="#3E7C57" font-weight="bold">＋ Tenecteplase</text>
+  <text x="558" y="232" font-size="12.5" fill="#3E7C57" font-weight="bold">＋ Streptokinase、Urokinase</text>
+  <text x="628" y="256" text-anchor="middle" font-size="15" font-weight="bold" fill="#26262B">胞漿素 plasmin</text>
+  <line x1="628" y1="264" x2="628" y2="290" stroke="#555A66" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="628" y="308" text-anchor="middle" font-size="13.5" fill="#26262B">分解纖維蛋白</text>
+  <text x="628" y="328" text-anchor="middle" font-size="13.5" fill="#26262B">→ FDP、D-dimer 上升</text>
+  <text x="524" y="362" font-size="12.5" fill="#26262B">最大風險:出血(顱內出血)</text>
+  <text x="524" y="382" font-size="12.5" fill="#26262B">STEMI 症狀 12 小時內;</text>
+  <text x="524" y="400" font-size="12.5" fill="#26262B">缺血性中風 4.5 小時內</text>
+
+  <!-- 底部:血栓 -->
+  <line x1="132" y1="420" x2="300" y2="462" stroke="#555A66" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="380" y1="420" x2="380" y2="460" stroke="#555A66" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="230" y="464" width="300" height="56" rx="12" fill="#F9EBE3" stroke="#AD5C28" stroke-width="1.5"/>
+  <text x="380" y="488" text-anchor="middle" font-size="17" font-weight="bold" fill="#AD5C28">血栓 = 血小板團塊 + 纖維蛋白網</text>
+  <text x="380" y="509" text-anchor="middle" font-size="12.5" fill="#26262B">抗血小板、抗凝血:預防形成或變大;不會溶解血栓</text>
+  <line x1="628" y1="420" x2="532" y2="486" stroke="#3E7C57" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#ar)"/>
+
+  <text x="20" y="556" font-size="12.5" fill="#555A66">✕ = 抑制;＋ = 活化。解毒:Heparin → Protamine;Warfarin → 維生素 K(＋凝血酶原複合物 PCC);</text>
+  <text x="20" y="576" font-size="12.5" fill="#555A66">Dabigatran → Idarucizumab;Xa 抑制劑 → Andexanet alfa 或 PCC。圖:多保命(原創)</text>
+</svg>

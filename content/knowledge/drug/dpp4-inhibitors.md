@@ -3,6 +3,8 @@ title: DPP-4 抑制劑
 subtitle: Dipeptidyl peptidase-4 inhibitors(gliptins)
 aliases: [DPP-4i, DPP4, Sitagliptin, Saxagliptin, Linagliptin, Alogliptin, Vildagliptin, gliptin]
 dzTags: [糖尿病]
+system: endocrine
+group: antidiabetics
 reviewed: false
 updated: 2026-09-25
 references:

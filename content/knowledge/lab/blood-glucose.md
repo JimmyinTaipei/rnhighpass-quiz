@@ -3,6 +3,8 @@ title: 血糖
 subtitle: Plasma glucose(空腹、隨機、飯後)
 aliases: [血糖, 空腹血糖, FPG, AC, PC, 飯前血糖, 飯後血糖, 隨機血糖, 指尖血糖, Glucose]
 dzTags: [糖尿病, 低血糖, 高血糖]
+system: endocrine
+group: glucose-labs
 reviewed: false
 updated: 2026-09-25
 references:

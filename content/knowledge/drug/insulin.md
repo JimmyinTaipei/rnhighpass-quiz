@@ -3,6 +3,8 @@ title: 胰島素製劑
 subtitle: Insulin preparations
 aliases: [Insulin, RI, NPH, Regular insulin, 速效胰島素, 短效胰島素, 中效胰島素, 長效胰島素, Glargine, Lispro, Aspart]
 dzTags: [糖尿病]
+system: endocrine
+group: antidiabetics
 reviewed: false
 updated: 2026-09-25
 references:

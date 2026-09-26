@@ -41,6 +41,9 @@ export interface KnowledgeArticle {
   category: KnowledgeCategory;
   aliases: string[];
   dzTags: string[];
+  system: string;
+  alsoIn: string[];
+  group: string | null;
   reviewed: boolean;
   updated: string | null;
   references: KnowledgeReference[];
@@ -56,6 +59,9 @@ export interface ArticleSummary {
   category: KnowledgeCategory;
   aliases: string[];
   dzTags: string[];
+  system: string;
+  alsoIn: string[];
+  group: string | null;
   reviewed: boolean;
   summary: string;
   sectionCount: number;
@@ -102,3 +108,58 @@ export interface ImageCredit {
   sourceUrl?: string;
   modified?: string;
 }
+
+// ===== 分類(對應 content/knowledge/taxonomy.yml,由建置腳本輸出 taxonomy.json) =====
+
+export type DomainKind = "system" | "cross" | "subject";
+
+export const DOMAIN_KIND_LABELS: Record<DomainKind, string> = {
+  system: "器官系統",
+  cross: "跨系統主題",
+  subject: "依科目",
+};
+
+export interface TaxonomyGroup {
+  id: string;
+  name: string;
+  type: KnowledgeCategory;
+  count: number;
+}
+
+export interface TaxonomyDomain {
+  id: string;
+  name: string;
+  kind: DomainKind;
+  blockTag: string | null;
+  /** 以此為主系統的頁數 */
+  primaryCount: number;
+  /** 以此為次系統(alsoIn)的頁數 */
+  alsoCount: number;
+  groups: TaxonomyGroup[];
+}
+
+export interface Taxonomy {
+  types: Record<KnowledgeCategory, string>;
+  domains: TaxonomyDomain[];
+}
+
+/** 首頁搜尋索引的一筆:整篇文章(k = slug)或一個知識點(k = slug#id) */
+export interface SearchEntry {
+  k: string;
+  /** 標題 */
+  t: string;
+  /** 副標與別名(文章)或麵包屑(知識點) */
+  s: string;
+  c: KnowledgeCategory;
+  /** 主系統 */
+  d: string;
+  /** 知識點編號;文章沒有 */
+  n?: string;
+  /** 內文純文字(只在 server 端的全文搜尋使用) */
+  b: string;
+}
+
+/** 搜尋結果:不帶整段內文,只帶命中片段(前文、命中字、後文) */
+export type SearchResult = Omit<SearchEntry, "b"> & {
+  snippet: [string, string, string] | null;
+};

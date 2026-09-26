@@ -3,6 +3,8 @@ title: 雙胍類(Metformin)
 subtitle: Biguanides
 aliases: [Metformin, Glucophage, 雙胍類, Biguanide, 庫魯化]
 dzTags: [糖尿病]
+system: endocrine
+group: antidiabetics
 reviewed: false
 updated: 2026-09-25
 references:

@@ -1,7 +1,137 @@
 [
   {
+    "qkey": "coronary-artery-disease#oxygen-balance",
+    "tag": null,
+    "drug": null,
+    "keyword": "(冠狀動脈).*(發出|分支|供應|舒張期)|(升主動脈|左前降|迴旋支|右冠狀)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "coronary-artery-disease#pathology-timeline",
+    "tag": "心肌梗塞|急性心肌梗塞|動脈粥狀硬化|動脈硬化",
+    "drug": null,
+    "keyword": "(病理|病因|機轉|粥狀|斑塊|壞死|嗜中性|巨噬|肉芽|纖維化|危險因子)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "coronary-artery-disease#acs",
+    "tag": "心絞痛|狹心症|不穩定型心絞痛|急性冠心症|急性冠狀動脈症候群",
+    "drug": null,
+    "keyword": "(穩定型|不穩定型|變異型|Prinzmetal|痙攣|ST ?(上升|下降))",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "coronary-artery-disease#angina-vs-mi",
+    "tag": "心肌梗塞|急性心肌梗塞|心絞痛|狹心症",
+    "drug": null,
+    "keyword": "(症狀|胸痛|放射|轉移痛|冒冷汗|典型|持續)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "coronary-artery-disease#other-tests",
+    "tag": "心肌梗塞|急性心肌梗塞|急性冠心症",
+    "drug": null,
+    "keyword": "(Troponin|troponin|旋轉蛋白|CK-MB|肌酸激酶|LDH|肌紅素|心肌酵素|運動心電圖|鉈|Thallium|灌注)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "coronary-artery-disease#in-hospital",
+    "tag": "心肌梗塞|急性心肌梗塞|急性冠心症|急性冠狀動脈症候群",
+    "drug": null,
+    "keyword": "(MONA|嗎啡|morphine|氧氣|aspirin|Aspirin|血栓溶解|再灌流|PCI|緊急|優先|處置)",
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "coronary-artery-disease#complications",
+    "tag": "心肌梗塞|急性心肌梗塞",
+    "drug": null,
+    "keyword": "(併發症|心律不整|破裂|乳突肌|Dressler|心包膜炎|心因性休克)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "coronary-artery-disease#drug-classes",
+    "tag": null,
+    "drug": [
+      "心絞痛用藥",
+      "抗心絞痛用藥",
+      "狹心症用藥"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "coronary-artery-disease#drug-classes~2",
+    "tag": null,
+    "drug": [
+      "抗凝血用藥",
+      "抗凝血劑",
+      "抗凝血劑用藥",
+      "抗血小板用藥",
+      "抗血小板藥物",
+      "抗血栓用藥",
+      "血栓溶解劑",
+      "血栓溶解用藥"
+    ],
+    "keyword": "(心肌梗塞|心絞痛|冠狀動脈|支架)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "coronary-artery-disease#cabg",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_024",
+      "112-3_MS_022",
+      "112-2_OP_065",
+      "111-2_MS_032",
+      "111-2_MS_028",
+      "111-1_OP_066",
+      "111-1_MS_028",
+      "110-1_OP_064",
+      "109-2_MS_035",
+      "109-1_OP_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "coronary-artery-disease#exercise",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_018",
+      "114-2_MS_017",
+      "114-1_MS_016",
+      "113-1_MS_017",
+      "112-2_MS_027",
+      "111-1_MS_026",
+      "110-2_MS_028",
+      "109-1_MS_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "coronary-artery-disease#prevention-levels",
+    "tag": "高血脂|高血脂症|冠狀動脈疾病|動脈粥狀硬化",
+    "drug": null,
+    "keyword": "(膽固醇|LDL|HDL|三酸甘油|血脂|代謝症候群|預防|飲食|纖維)",
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "diabetes#physiology-drug-map",
     "tag": null,
+    "drug": null,
     "keyword": "^(?=.*血糖).*(升糖素|glucagon|糖質新生|反調節|皮質醇|生長激素|腎上腺素|抑制素)",
     "ids": [],
     "limit": 6
@@ -9,6 +139,7 @@
   {
     "qkey": "diabetes#hyperglycemia-damage",
     "tag": "糖尿病|第一型糖尿病|第1型糖尿病|第二型糖尿病",
+    "drug": null,
     "keyword": "(致病|機轉|自體免疫|β ?細胞|蘭氏小島|HLA|遺傳模式|過敏反應|類澱粉(沉積|蛋白)|胰島素(抗性|阻抗)|接受器)",
     "ids": [],
     "limit": 8
@@ -16,6 +147,7 @@
   {
     "qkey": "diabetes#type1",
     "tag": "第一型糖尿病|第1型糖尿病",
+    "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 8
@@ -23,6 +155,7 @@
   {
     "qkey": "diabetes#type2",
     "tag": "糖尿病|第二型糖尿病",
+    "drug": null,
     "keyword": "第 ?(2|二) ?型",
     "ids": [],
     "limit": 8
@@ -30,6 +163,7 @@
   {
     "qkey": "diabetes#gdm",
     "tag": "妊娠糖尿病",
+    "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 10
@@ -37,6 +171,7 @@
   {
     "qkey": "diabetes#diagnosis",
     "tag": null,
+    "drug": null,
     "keyword": "(診斷標準|診斷依據|可診斷為糖尿病|確定診斷.*糖尿病|代謝症候群)",
     "ids": [],
     "limit": 8
@@ -44,6 +179,7 @@
   {
     "qkey": "diabetes#hypoglycemia",
     "tag": "低血糖|低血糖症",
+    "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 10
@@ -51,6 +187,7 @@
   {
     "qkey": "diabetes#dka",
     "tag": "糖尿病酮酸中毒|酮酸中毒",
+    "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 12
@@ -58,6 +195,7 @@
   {
     "qkey": "diabetes#hhs",
     "tag": "高滲透壓高血糖狀態|高血糖高滲透壓狀態|高滲透度高血糖狀態|高血糖高滲透壓症候群",
+    "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 10
@@ -65,6 +203,7 @@
   {
     "qkey": "diabetes#somogyi",
     "tag": null,
+    "drug": null,
     "keyword": "(蘇莫吉|Somogyi|黎明現象)",
     "ids": [],
     "limit": 4
@@ -72,6 +211,7 @@
   {
     "qkey": "diabetes#retinopathy",
     "tag": "糖尿病視網膜病變",
+    "drug": null,
     "keyword": "視網膜",
     "ids": [],
     "limit": 6
@@ -79,6 +219,7 @@
   {
     "qkey": "diabetes#nephropathy",
     "tag": "糖尿病腎病變",
+    "drug": null,
     "keyword": "腎",
     "ids": [],
     "limit": 6
@@ -86,13 +227,26 @@
   {
     "qkey": "diabetes#diabetic-foot",
     "tag": "糖尿病足|糖尿病足部病變|糖尿病",
+    "drug": null,
     "keyword": "(足部|足趾|趾甲|雞眼|糖尿病足)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "diabetes#drug-classes",
+    "tag": null,
+    "drug": [
+      "糖尿病用藥",
+      "降血糖用藥"
+    ],
+    "keyword": null,
     "ids": [],
     "limit": 10
   },
   {
     "qkey": "diabetes#smbg",
     "tag": null,
+    "drug": null,
     "keyword": "(自我監測血糖|監測血糖|血糖機)",
     "ids": [],
     "limit": 4
@@ -100,6 +254,7 @@
   {
     "qkey": "diabetes#school-community",
     "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "drug": null,
     "keyword": "(學童|學校|學生|社區|個案管理|家訪|長照)",
     "ids": [],
     "limit": 10
@@ -107,6 +262,7 @@
   {
     "qkey": "diabetes#glycemic-index",
     "tag": null,
+    "drug": null,
     "keyword": "(升糖指數|glycemic index|GI 值|低升糖)",
     "ids": [],
     "limit": 6
@@ -114,6 +270,7 @@
   {
     "qkey": "diabetes#glycemic-index~2",
     "tag": "糖尿病",
+    "drug": null,
     "keyword": "(飲食|總熱量|碳水化合物|脂肪|膽固醇|蛋白質)",
     "ids": [],
     "limit": 6
@@ -121,6 +278,7 @@
   {
     "qkey": "diabetes#exercise",
     "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "drug": null,
     "keyword": "運動",
     "ids": [],
     "limit": 8
@@ -128,20 +286,417 @@
   {
     "qkey": "diabetes#prevention",
     "tag": "糖尿病",
+    "drug": null,
     "keyword": "(三段五級|代謝症候群|整合性篩檢|篩檢|非傳染)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "heart-failure#ejection-fraction",
+    "tag": null,
+    "drug": null,
+    "keyword": "(前負荷|後負荷|心搏出量|心輸出量|Frank|Starling|射出分率)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "heart-failure#edema-mechanism",
+    "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "drug": null,
+    "keyword": "(代償|機轉|交感|腎素|醛固酮|利鈉|BNP|靜水壓|水腫)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "heart-failure#left-vs-right",
+    "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "drug": null,
+    "keyword": "(左心|右心|端坐|夜間陣發|頸靜脈|肝腫大|水腫|早期)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "heart-failure#physical-assessment",
+    "tag": null,
+    "drug": null,
+    "keyword": "(頸靜脈壓|頸靜脈怒張|S3|第三心音|肺微血管楔壓|PCWP|中心靜脈壓|CVP)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "heart-failure#staging",
+    "tag": null,
+    "drug": null,
+    "keyword": "(NYHA|紐約心臟|功能分級|心衰竭.*(分期|分級))",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "heart-failure#diagnosis",
+    "tag": null,
+    "drug": null,
+    "keyword": "(BNP|利鈉|心胸比|胸部 ?X 光.*心衰|心臟超音波)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "heart-failure#acute-management",
+    "tag": "肺水腫",
+    "drug": null,
+    "keyword": "(肺水腫|粉紅色泡沫|端坐|嗎啡|morphine|輸液過量|循環負荷)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "heart-failure#cardiogenic-shock",
+    "tag": "心因性休克",
+    "drug": null,
+    "keyword": "(心因性休克|主動脈內氣球|IABP)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "heart-failure#other-drugs",
+    "tag": null,
+    "drug": [
+      "心衰竭用藥",
+      "心臟衰竭用藥",
+      "強心劑用藥",
+      "強心劑",
+      "強心配醣體",
+      "毛地黃製劑",
+      "強心升壓藥物",
+      "升壓藥"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "heart-failure#activity",
+    "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "drug": null,
+    "keyword": "(護理|姿勢|半坐臥|高坐臥|限水|限鈉|體重|輸出入量|活動)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "heart-failure#prevent-exacerbation",
+    "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "drug": null,
+    "keyword": "(衛教|出院|居家|飲食|體重|疫苗)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "hypertension#influencing-factors",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_FA_040",
+      "105-1_FA_044",
+      "107-1_BM_026",
+      "106-1_BM_027",
+      "110-1_MS_033",
+      "107-1_FA_041",
+      "112-3_FA_025",
+      "106-2_FA_044",
+      "110-2_FA_045",
+      "106-1_MS_078"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypertension#secondary-causes",
+    "tag": "高血壓",
+    "drug": null,
+    "keyword": "(原發性|本態性|續發性|嗜鉻|醛固酮|腎動脈狹窄|自主神經反射)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "hypertension#home-bp",
+    "tag": null,
+    "drug": null,
+    "keyword": "(壓脈帶|血壓計|測量血壓|量血壓|柯氏音|Korotkoff|聽診間隙|膕動脈|下肢血壓|雙手.*血壓|血壓.*(偏高|偏低|誤差))",
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "hypertension#target-organ-damage",
+    "tag": "高血壓|左心室肥大",
+    "drug": null,
+    "keyword": "(中風|左心室肥大|視網膜|腎|合併症|併發症|心尖)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "hypertension#hypertensive-crisis",
+    "tag": "高血壓危象|高血壓",
+    "drug": null,
+    "keyword": "(危象|急症|nitroprusside|Nipride|惡性高血壓|180 ?/ ?120|舌下)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "hypertension#pregnancy",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_021",
+      "106-1_OP_032",
+      "109-2_OP_032",
+      "105-2_PC_066",
+      "113-3_OP_023",
+      "109-2_OP_008",
+      "114-2_OP_023",
+      "106-2_OP_036",
+      "105-1_OP_013",
+      "108-2_BM_054",
+      "106-2_makeup_BM_050",
+      "115-1_OP_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypertension#drug-classes",
+    "tag": null,
+    "drug": [
+      "抗高血壓用藥",
+      "高血壓用藥",
+      "降血壓用藥"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "hypertension#medication-education",
+    "tag": "高血壓",
+    "drug": null,
+    "keyword": "(護理|衛教|自行停藥|服藥|低血鉀|排便)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "hypertension#other-lifestyle",
+    "tag": "高血壓",
+    "drug": null,
+    "keyword": "(飲食|鈉|鹽|DASH|運動|三溫暖|等長|酒)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "hypertension#prevention",
+    "tag": "高血壓",
+    "drug": null,
+    "keyword": "(三段五級|篩檢|社區|代謝症候群|預防保健|評值)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "hypotension#physiology",
+    "tag": "低血壓",
+    "drug": null,
+    "keyword": "(血壓下降|低血壓).*(原因|因素|機轉)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "hypotension#orthostatic-management",
+    "tag": "姿勢性低血壓|姿位性低血壓|姿態性低血壓",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "hypotension#orthostatic-management~2",
+    "tag": null,
+    "drug": null,
+    "keyword": "(坐浴|溫泉|熱療|用熱).*(頭暈|血壓|脈搏)|(頭暈|血壓|脈搏).*(坐浴|溫泉|熱療|用熱)|(第一次下床|漸進式下床)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "hypotension#neuraxial-anesthesia",
+    "tag": "仰臥低血壓症候群|仰臥位低血壓綜合症",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "hypotension#neuraxial-anesthesia~2",
+    "tag": null,
+    "drug": null,
+    "keyword": "(硬膜外|脊髓麻醉|減痛分娩).*(低血壓|血壓)|(低血壓|血壓).*(硬膜外|脊髓麻醉|減痛分娩)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "hypotension#shock",
+    "tag": "低血壓|休克",
+    "drug": null,
+    "keyword": "(休克|升壓|dopamine|晶體液|輸液).*(血壓)|(血壓).*(休克|升壓)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "ace-inhibitors#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": "(pril|ACEI|ACE inhibitor|血管(收縮|張力|緊縮|加壓)素.{0,2}轉換)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "alpha-blockers#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": "(azosin|tamsulosin|phentolamine|phenoxybenzamine|α.{0,2}(型)?(阻斷|拮抗)|alpha.{0,3}(blocker|阻斷))",
     "ids": [],
     "limit": 8
   },
   {
     "qkey": "alpha-glucosidase-inhibitors#questions",
     "tag": null,
+    "drug": null,
     "keyword": "(acarbose|miglitol|voglibose|glucosidase|糖苷酶|醣苷酶|減少糖分的吸收)",
     "ids": [],
     "limit": 4
   },
   {
+    "qkey": "anticoagulants#exam-points",
+    "tag": null,
+    "drug": [
+      "抗凝血用藥",
+      "抗凝血劑",
+      "抗凝血劑用藥",
+      "抗血小板用藥",
+      "抗血小板藥物",
+      "抗血栓用藥",
+      "血栓溶解劑",
+      "血栓溶解用藥"
+    ],
+    "keyword": "(heparin|肝素|warfarin|coumadin|enoxaparin|clexane|protamine|rivaroxaban|apixaban|dabigatran|edoxaban|argatroban|抗凝血|INR|aPTT)",
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "anticoagulants#exam-points~2",
+    "tag": null,
+    "drug": null,
+    "keyword": "(深層靜脈|深部靜脈|肺栓塞).*(warfarin|heparin|抗凝)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "antiplatelets#exam-points",
+    "tag": null,
+    "drug": [
+      "抗凝血用藥",
+      "抗凝血劑",
+      "抗凝血劑用藥",
+      "抗血小板用藥",
+      "抗血小板藥物",
+      "抗血栓用藥",
+      "血栓溶解劑",
+      "血栓溶解用藥"
+    ],
+    "keyword": "(aspirin|阿斯匹|阿司匹|clopidogrel|ticagrelor|prasugrel|dipyridamole|cilostazol|abciximab|tirofiban|eptifibatide|血小板凝集)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "antiplatelets#exam-points~2",
+    "tag": null,
+    "drug": null,
+    "keyword": "(Reye|雷氏症候群)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "arb#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": "(sartan|AT1|angiotensin II 受體|血管(收縮|張力)素 ?II 受體)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "arni#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_016",
+      "114-2_BM_033",
+      "112-3_BM_036",
+      "110-2_BM_059",
+      "109-1_BM_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "beta-blockers#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_037",
+      "114-3_BM_032",
+      "114-2_OP_041",
+      "114-2_BM_033",
+      "113-3_BM_031",
+      "112-3_BM_034",
+      "112-2_BM_032",
+      "111-2_BM_036",
+      "111-2_BM_032",
+      "111-1_BM_059",
+      "111-1_BM_051",
+      "110-2_MS_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "calcium-channel-blockers#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": "(dipine|verapamil|diltiazem|Adalat|鈣離子(通道)?(阻斷|拮抗))",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "central-alpha2-agonists#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": "(clonidine|methyldopa|Aldomet|Catapres|α2)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "digoxin#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": "(digoxin|毛地黃|lanoxin)",
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "direct-vasodilators#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": "(hydralazine|minoxidil|nitroprusside|Nipride|diazoxide|Apresoline)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "dpp4-inhibitors#questions",
     "tag": null,
+    "drug": null,
     "keyword": "(gliptin|DPP-? ?4)",
     "ids": [],
     "limit": 4
@@ -149,13 +704,31 @@
   {
     "qkey": "glp1-receptor-agonists#exam-points",
     "tag": null,
+    "drug": null,
     "keyword": "(glutide|exenatide|GLP-? ?1|incretin|腸泌素)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "inotropes#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": "(多巴胺.*(劑量|休克|心衰竭)|dopamine.*(μg|ug|mcg|休克|心衰竭|低血壓|pump)|dobutamine|milrinone|norepinephrine|levophed|強心劑|升壓劑)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "inotropes#exam-points~2",
+    "tag": null,
+    "drug": null,
+    "keyword": "(心因性休克|cardiogenic shock)",
     "ids": [],
     "limit": 6
   },
   {
     "qkey": "insulin#types",
     "tag": null,
+    "drug": null,
     "keyword": "(RI|NPH|短效|中效|速效|長效|glulisine|lispro|aspart|glargine|premix|預混)",
     "ids": [],
     "limit": 8
@@ -163,6 +736,7 @@
   {
     "qkey": "insulin#mixing",
     "tag": null,
+    "drug": null,
     "keyword": "(抽取|抽藥|先抽|混合).*(胰島素|RI|NPH)|(RI|NPH).*(抽取|混合|搖)",
     "ids": [],
     "limit": 6
@@ -170,6 +744,7 @@
   {
     "qkey": "insulin#injection-sites",
     "tag": null,
+    "drug": null,
     "keyword": "(胰島素).*(注射|部位|吸收|角度|針頭|按摩)|(注射|吸收).*(胰島素)",
     "ids": [],
     "limit": 10
@@ -177,6 +752,7 @@
   {
     "qkey": "insulin#storage",
     "tag": null,
+    "drug": null,
     "keyword": "(胰島素).*(保存|冷藏|室溫|冰箱|行李)|(保存|冷藏).*(胰島素)",
     "ids": [],
     "limit": 4
@@ -184,13 +760,34 @@
   {
     "qkey": "insulin#questions",
     "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "drug": null,
     "keyword": "胰島素",
     "ids": [],
     "limit": 10
   },
   {
+    "qkey": "loop-diuretics#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_009",
+      "114-3_BM_036",
+      "114-2_BM_037",
+      "114-1_OP_040",
+      "113-2_BM_035",
+      "113-1_MS_043",
+      "112-3_FA_008",
+      "111-2_MS_028",
+      "111-2_BM_032",
+      "110-1_BM_052"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "meglitinides#questions",
     "tag": null,
+    "drug": null,
     "keyword": "(repaglinide|nateglinide|meglitinide)",
     "ids": [],
     "limit": 4
@@ -198,27 +795,121 @@
   {
     "qkey": "metformin#exam-points",
     "tag": null,
+    "drug": null,
     "keyword": "(metformin|雙胍|biguanide|glucophage)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "nitrates#exam-points",
+    "tag": null,
+    "drug": [
+      "心絞痛用藥",
+      "抗心絞痛用藥",
+      "狹心症用藥"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "nitrates#exam-points~2",
+    "tag": null,
+    "drug": null,
+    "keyword": "(nitroglycerin|NTG|硝酸甘油|硝化甘油|硝酸鹽類|isosorbide)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "potassium-sparing-diuretics#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": "(spironolactone|aldactone|eplerenone|amiloride|triamterene|保鉀|醛固酮拮抗|醛固酮受體)",
     "ids": [],
     "limit": 10
   },
   {
     "qkey": "sglt2-inhibitors#exam-points",
     "tag": null,
+    "drug": null,
     "keyword": "(gliflozin|SGLT|從尿液排除)",
     "ids": [],
     "limit": 6
   },
   {
+    "qkey": "statins#exam-points",
+    "tag": null,
+    "drug": [
+      "降血脂用藥",
+      "高血脂用藥"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "statins#exam-points~2",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_PC_049",
+      "114-1_PC_049",
+      "113-3_PC_045",
+      "113-3_MS_018",
+      "112-2_PC_079",
+      "112-2_FA_043",
+      "112-2_BM_036",
+      "112-1_PC_061",
+      "112-1_BM_037",
+      "111-2_PC_077"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "sulfonylureas#exam-points",
     "tag": null,
+    "drug": null,
     "keyword": "(glyburide|glibenclamide|glipizide|glimepiride|gliclazide|sulfonylurea|sulphonylurea|磺醯脲|磺胺尿素)",
     "ids": [],
     "limit": 10
   },
   {
+    "qkey": "thiazide-diuretics#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_036",
+      "114-3_BM_036",
+      "114-2_BM_037",
+      "114-1_MS_037",
+      "113-2_BM_035",
+      "108-1_MS_026",
+      "106-1_BM_056"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thrombolytics#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_034",
+      "113-3_MS_005",
+      "112-2_MS_028",
+      "111-1_MS_057",
+      "110-1_BM_058",
+      "108-2_MS_051",
+      "108-1_MS_025"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "tzd#questions",
     "tag": null,
+    "drug": null,
     "keyword": "(pioglitazone|rosiglitazone|thiazolidinedione|TZD)",
     "ids": [],
     "limit": 6
@@ -226,6 +917,7 @@
   {
     "qkey": "abg#interpretation",
     "tag": null,
+    "drug": null,
     "keyword": "(代謝性(酸|鹼)中毒|呼吸性(酸|鹼)中毒|動脈血(液)?(氣體|氧)|碳酸根|重碳酸|酸鹼)",
     "ids": [],
     "limit": 6
@@ -233,6 +925,7 @@
   {
     "qkey": "abg#questions",
     "tag": "糖尿病酮酸中毒",
+    "drug": null,
     "keyword": "(pH|碳酸|動脈|滲透壓|酸中毒)",
     "ids": [],
     "limit": 6
@@ -240,13 +933,122 @@
   {
     "qkey": "blood-glucose#questions",
     "tag": null,
+    "drug": null,
     "keyword": "(空腹血糖|飯前血糖|血糖值|血糖為|血糖檢查|飯後兩小時血糖|隨意抽血|血漿葡萄糖)",
     "ids": [],
     "limit": 10
   },
   {
+    "qkey": "bnp#reference-range",
+    "tag": null,
+    "drug": null,
+    "keyword": "(BNP|利鈉|排鈉利尿胜肽)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "cardiac-biomarkers#troponin",
+    "tag": null,
+    "drug": null,
+    "keyword": "(旋轉素|攜鈣素)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "cardiac-biomarkers#timeline",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_017",
+      "112-1_MS_026",
+      "110-1_MS_031",
+      "106-1_MS_031",
+      "105-2_MS_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cardiac-catheterization#post-care",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_024",
+      "113-2_MS_020",
+      "112-2_OP_065",
+      "112-2_MS_052",
+      "111-1_OP_066",
+      "111-1_MS_028",
+      "110-1_OP_064",
+      "110-1_MS_032",
+      "109-2_MS_035",
+      "109-1_OP_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ecg#rv-infarction",
+    "tag": "心肌梗塞|急性心肌梗塞|急性冠心症|心絞痛",
+    "drug": null,
+    "keyword": "(心電圖|ST ?段|ST ?間段|Q ?波|導程|EKG|ECG)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "ecg#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_034",
+      "113-3_BM_017",
+      "113-1_MS_019",
+      "112-2_MS_029",
+      "112-1_MS_026",
+      "111-2_FA_058",
+      "111-1_MS_028",
+      "110-2_MS_030",
+      "110-1_MS_032",
+      "110-1_MS_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ecg#exam-points~2",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_017",
+      "112-1_MS_026",
+      "110-2_MS_030",
+      "109-2_MS_034",
+      "108-1_MS_027",
+      "107-2_BM_053"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "echocardiography#ef",
+    "tag": "心臟衰竭|心衰竭|冠狀動脈疾病|心肌梗塞|心絞痛",
+    "drug": null,
+    "keyword": "(超音波|射出(分)?率|EF)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "echocardiography#related",
+    "tag": null,
+    "drug": null,
+    "keyword": "(鉈|Tl-201|心輸出量)",
+    "ids": [],
+    "limit": 4
+  },
+  {
     "qkey": "hba1c#targets",
     "tag": null,
+    "drug": null,
     "keyword": "(糖化血|HbA1c|醣化血)",
     "ids": [],
     "limit": 12
@@ -254,13 +1056,51 @@
   {
     "qkey": "ketones#questions",
     "tag": "糖尿病酮酸中毒|酮酸中毒|酮尿症",
+    "drug": null,
     "keyword": "(酮體|尿酮|ketone|酮)",
     "ids": [],
     "limit": 8
   },
   {
+    "qkey": "lipid-profile#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_PC_049",
+      "114-1_PC_049",
+      "113-3_PC_045",
+      "113-3_PC_032",
+      "113-3_MS_018",
+      "112-3_BM_026",
+      "112-2_PC_079",
+      "112-2_FA_043",
+      "112-2_BM_036",
+      "112-1_PC_061",
+      "112-1_PC_038",
+      "112-1_BM_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lipid-profile#exam-points~2",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_PC_050",
+      "114-3_PC_049",
+      "113-3_PC_045",
+      "113-3_PC_031",
+      "112-2_PC_040",
+      "112-1_PC_038"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "ogtt#gdm-timing",
     "tag": "妊娠糖尿病",
+    "drug": null,
     "keyword": "(葡萄糖耐|OGTT|篩檢|週數)",
     "ids": [],
     "limit": 6
@@ -268,20 +1108,230 @@
   {
     "qkey": "ogtt#questions",
     "tag": null,
+    "drug": null,
     "keyword": "(葡萄糖耐|OGTT|耐受試驗|耐量試驗|耐性試驗)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "potassium#exam-points",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_040",
+      "115-1_MS_037",
+      "115-1_MS_023",
+      "114-3_MS_043",
+      "114-2_OP_041",
+      "114-2_MS_027",
+      "114-1_MS_039",
+      "114-1_MS_037",
+      "114-1_BM_035",
+      "113-3_MS_042",
+      "113-3_MS_017",
+      "113-2_FA_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "potassium#exam-points~2",
+    "tag": "高血鉀|高血鉀症|高鉀血症|低血鉀|低血鉀症|低鉀血症",
+    "drug": null,
+    "keyword": null,
     "ids": [],
     "limit": 8
   },
   {
     "qkey": "uacr#questions",
     "tag": "糖尿病|糖尿病腎病變",
+    "drug": null,
     "keyword": "(微量(白)?蛋白|白蛋白尿|尿蛋白|蛋白尿)",
     "ids": [],
     "limit": 6
   },
   {
+    "qkey": "blood-pressure-regulation#determinants",
+    "tag": null,
+    "drug": null,
+    "keyword": "(影響血壓|維持血壓|血壓.*因素|舒張壓.*(因素|決定)|周邊(血管)?阻力|半徑|阻力最大)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "blood-pressure-regulation#map",
+    "tag": null,
+    "drug": null,
+    "keyword": "(平均動脈壓|脈搏壓|脈壓|pulse pressure|MAP)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "blood-pressure-regulation#chemoreceptor",
+    "tag": null,
+    "drug": null,
+    "keyword": "(壓力(感受|接受)|頸動脈竇|化學(感受|接受)|延腦|姿位性低血壓|姿勢性低血壓)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "blood-pressure-regulation#raas",
+    "tag": null,
+    "drug": null,
+    "keyword": "(腎素|renin|血管(收縮|緊縮|張力)素|angiotensin|醛固酮|aldosterone)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "blood-pressure-regulation#adh",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_043",
+      "114-3_BM_039",
+      "113-2_BM_018",
+      "113-1_MS_043",
+      "113-1_BM_008",
+      "112-3_MS_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-pressure-regulation#pressure-natriuresis",
+    "tag": null,
+    "drug": null,
+    "keyword": "(利鈉|natriuretic|心衰竭.*代償|代償.*心衰竭)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "blood-pressure-regulation#autonomic-receptors",
+    "tag": null,
+    "drug": null,
+    "keyword": "(α1|α2|β1|β2|alpha|beta).*(受體|接受器|receptor)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "blood-pressure-regulation#questions",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_025",
+      "115-1_FA_026",
+      "115-1_FA_016",
+      "113-3_PC_017",
+      "113-3_FA_024",
+      "111-2_FA_041",
+      "111-1_FA_042",
+      "110-2_FA_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cardiac-output#cardiac-cycle",
+    "tag": null,
+    "drug": null,
+    "keyword": "(心動週期|等容|半月瓣|房室瓣.*(開|關)|收縮期.*舒張期|舒張期.*收縮期)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "cardiac-output#heart-sounds",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_014",
+      "114-3_BM_008",
+      "114-1_MS_018",
+      "113-2_FA_024",
+      "112-2_OP_013",
+      "112-2_BM_017",
+      "112-1_MS_025",
+      "111-1_MS_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cardiac-output#determinants",
+    "tag": null,
+    "drug": null,
+    "keyword": "(心輸出量|心搏出量|心搏量|stroke volume|cardiac output)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "cardiac-output#afterload",
+    "tag": null,
+    "drug": null,
+    "keyword": "(前負荷|後負荷|preload|afterload)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "cardiac-output#frank-starling",
+    "tag": null,
+    "drug": null,
+    "keyword": "(Starling|史達林|法蘭克)",
+    "ids": [],
+    "limit": 4
+  },
+  {
+    "qkey": "cardiac-output#conduction",
+    "tag": null,
+    "drug": null,
+    "keyword": "(竇房結|房室結|希氏束|蒲金氏|浦金氏|傳導系統|節律點|pacemaker)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "cardiac-output#autonomic",
+    "tag": null,
+    "drug": null,
+    "keyword": "(交感神經|副交感|迷走神經|乙醯膽鹼|acetylcholine).*(心跳|心臟|收縮力|傳導)|(心跳|心臟).*(交感|迷走)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "coronary-circulation#anatomy",
+    "tag": null,
+    "drug": null,
+    "keyword": "(冠狀動脈.*(源自|分支|直接)|前心室間|迴旋|冠狀溝|冠狀竇|升主動脈)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "coronary-circulation#antianginal",
+    "tag": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_016",
+      "115-1_BM_038",
+      "114-2_MS_020",
+      "112-2_MS_030",
+      "112-1_MS_078",
+      "110-2_MS_028",
+      "109-2_OP_064",
+      "109-1_BM_056"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "coronary-circulation#questions",
+    "tag": null,
+    "drug": null,
+    "keyword": "(冠狀動脈|心肌梗塞|心絞痛).*(舒張期|耗氧|需氧|側枝|結締組織|下壁|前壁|側壁)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "glucose-homeostasis#incretin",
     "tag": null,
+    "drug": null,
     "keyword": "(腸泌素|incretin|GLP|前饋)",
     "ids": [],
     "limit": 4
@@ -289,6 +1339,7 @@
   {
     "qkey": "glucose-homeostasis#insulin-deficiency",
     "tag": null,
+    "drug": null,
     "keyword": "胰島素.*(受體|接受器)|β ?細胞被破壞|(葡萄糖|血糖)進入(脂肪|腦|肌肉)|血漿葡萄糖進入",
     "ids": [],
     "limit": 6
@@ -296,6 +1347,7 @@
   {
     "qkey": "glucose-homeostasis#questions",
     "tag": null,
+    "drug": null,
     "keyword": "^(?=.*(血糖|葡萄糖|胰島素|糖尿)).*(糖質新生|升糖素|glucagon|皮質醇|生長激素|甲狀腺素|醛固酮|抑制素|最大運輸|transport maximum)",
     "ids": [],
     "limit": 8

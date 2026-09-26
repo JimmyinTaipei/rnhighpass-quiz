@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 730" width="760" height="730" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>RAAS 與降血壓藥作用點</title>
+<rect width="760" height="730" fill="#FFFFFF"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E7C57"/></marker></defs>
+<text x="380" y="32" font-size="22" text-anchor="middle" font-weight="bold" fill="#26262B">RAAS 與降血壓藥的作用點</text>
+<rect x="150" y="52" width="250" height="50" rx="10" fill="#D7E1F2" stroke="#2C5A96" stroke-width="1.5"/>
+<text x="275" y="74" font-size="17" text-anchor="middle" font-weight="bold" fill="#2C5A96">血管張力素原</text>
+<text x="275" y="94" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">angiotensinogen(肝臟製造)</text>
+<line x1="275" y1="102" x2="275" y2="162" stroke="#26262B" stroke-width="2" marker-end="url(#a)"/>
+<text x="265" y="128" font-size="14" text-anchor="end" font-weight="bold" fill="#AD5C28">腎素 renin</text>
+<rect x="150" y="162" width="250" height="40" rx="10" fill="#D7E1F2" stroke="#2C5A96" stroke-width="1.5"/>
+<text x="275" y="188" font-size="17" text-anchor="middle" font-weight="bold" fill="#2C5A96">血管張力素 I</text>
+<line x1="275" y1="202" x2="275" y2="268" stroke="#26262B" stroke-width="2" marker-end="url(#a)"/>
+<text x="285" y="232" font-size="14" text-anchor="start" font-weight="bold" fill="#AD5C28">ACE</text>
+<text x="285" y="250" font-size="12.5" text-anchor="start" font-weight="normal" fill="#26262B">(肺微血管內皮)</text>
+<rect x="22" y="222" width="122" height="30" rx="8" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+<text x="30" y="242" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ ACEI(-pril)</text>
+<rect x="150" y="268" width="250" height="40" rx="10" fill="#D7E1F2" stroke="#2C5A96" stroke-width="1.5"/>
+<text x="275" y="294" font-size="17" text-anchor="middle" font-weight="bold" fill="#2C5A96">血管張力素 II</text>
+<line x1="275" y1="308" x2="275" y2="348" stroke="#26262B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="205" y="348" width="140" height="34" rx="10" fill="#FDF6E3" stroke="#AD5C28" stroke-width="1.5"/>
+<text x="275" y="371" font-size="15" text-anchor="middle" font-weight="bold" fill="#AD5C28">AT1 受體</text>
+<rect x="22" y="340" width="176" height="50" rx="8" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+<text x="30" y="360" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ ARB(-sartan)</text>
+<text x="30" y="380" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E"> ARNI 也含 ARB</text>
+<rect x="440" y="52" width="300" height="92" rx="10" fill="#F9EBE3" stroke="#AD5C28" stroke-width="1.5"/>
+<text x="590" y="74" font-size="15" text-anchor="middle" font-weight="bold" fill="#AD5C28">腎臟 近腎絲球細胞 分泌腎素</text>
+<text x="452" y="96" font-size="12.5" text-anchor="start" font-weight="normal" fill="#26262B">刺激:腎灌流壓↓(低血壓、失血、脫水)</text>
+<text x="452" y="115" font-size="12.5" text-anchor="start" font-weight="normal" fill="#26262B">   交感神經 β1、緻密斑偵測 NaCl↓</text>
+<text x="452" y="134" font-size="12.5" text-anchor="start" font-weight="normal" fill="#26262B">抑制:血壓↑、ANP/BNP、Ang II 負回饋</text>
+<line x1="440" y1="140" x2="280" y2="140" stroke="#AD5C28" stroke-width="2" marker-end="url(#a)"/>
+<rect x="440" y="152" width="300" height="50" rx="8" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+<text x="448" y="172" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ β 阻斷劑:阻斷腎臟 β1 → 腎素分泌↓</text>
+<text x="448" y="192" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ Aliskiren:直接抑制腎素</text>
+<rect x="440" y="218" width="300" height="62" rx="10" fill="#F3F3F5" stroke="#6B6B75" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="452" y="240" font-size="13" text-anchor="start" font-weight="bold" fill="#26262B">ACE 同時分解緩激肽(bradykinin)</text>
+<text x="452" y="260" font-size="12.5" text-anchor="start" font-weight="normal" fill="#26262B">ACEI → 緩激肽累積 → 乾咳、血管性水腫</text>
+<text x="452" y="276" font-size="12" text-anchor="start" font-weight="normal" fill="#26262B">(ARB 不影響緩激肽,咳嗽少)</text>
+<line x1="330" y1="236" x2="440" y2="248" stroke="#6B6B75" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="440" y="292" width="300" height="106" rx="10" fill="#E6F2EA" stroke="#3E7C57" stroke-width="1.5"/>
+<text x="590" y="313" font-size="14" text-anchor="middle" font-weight="bold" fill="#3E7C57">利鈉胜肽 ANP / BNP(對抗 RAAS)</text>
+<text x="452" y="334" font-size="12.5" text-anchor="start" font-weight="normal" fill="#26262B">心房/心室被撐大時分泌;排鈉利尿、血管擴張</text>
+<text x="452" y="353" font-size="12.5" text-anchor="start" font-weight="normal" fill="#26262B">抑制腎素與醛固酮;被 neprilysin 分解</text>
+<rect x="452" y="362" width="276" height="30" rx="8" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+<text x="460" y="382" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ ARNI 的 sacubitril 抑制 neprilysin</text>
+<line x1="275" y1="382" x2="102.5" y2="446" stroke="#26262B" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="20" y="446" width="165" height="78" rx="10" fill="#D7E1F2" stroke="#2C5A96" stroke-width="1.5"/>
+<text x="102.5" y="468" font-size="14.5" text-anchor="middle" font-weight="bold" fill="#2C5A96">小動脈收縮</text>
+<text x="102.5" y="490" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">全身血管阻力 SVR↑</text>
+<text x="102.5" y="510" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">(後負荷↑)</text>
+<line x1="275" y1="382" x2="287.5" y2="446" stroke="#26262B" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="205" y="446" width="165" height="78" rx="10" fill="#D7E1F2" stroke="#2C5A96" stroke-width="1.5"/>
+<text x="287.5" y="468" font-size="14.5" text-anchor="middle" font-weight="bold" fill="#2C5A96">腎上腺皮質</text>
+<text x="287.5" y="490" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">醛固酮↑</text>
+<text x="287.5" y="510" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">保 Na⁺、水;排 K⁺</text>
+<line x1="275" y1="382" x2="472.5" y2="446" stroke="#26262B" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="390" y="446" width="165" height="78" rx="10" fill="#D7E1F2" stroke="#2C5A96" stroke-width="1.5"/>
+<text x="472.5" y="468" font-size="14.5" text-anchor="middle" font-weight="bold" fill="#2C5A96">下視丘→垂體後葉</text>
+<text x="472.5" y="490" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">ADH↑、口渴</text>
+<text x="472.5" y="510" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">集尿管保水</text>
+<line x1="275" y1="382" x2="657.5" y2="446" stroke="#26262B" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="575" y="446" width="165" height="78" rx="10" fill="#D7E1F2" stroke="#2C5A96" stroke-width="1.5"/>
+<text x="657.5" y="468" font-size="14.5" text-anchor="middle" font-weight="bold" fill="#2C5A96">交感神經活性↑</text>
+<text x="657.5" y="490" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">心跳、收縮力↑</text>
+<text x="657.5" y="510" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">心肌/血管重塑</text>
+<rect x="20" y="532" width="165" height="70" rx="8" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+<text x="28" y="552" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ CCB(-dipine 等)</text>
+<text x="28" y="572" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ 直接血管擴張劑</text>
+<text x="28" y="592" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ α1 阻斷劑(-zosin)</text>
+<rect x="205" y="532" width="165" height="50" rx="8" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+<text x="213" y="552" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ MRA(spironolactone)</text>
+<text x="213" y="572" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E"> 阻斷醛固酮受體</text>
+<rect x="205" y="586" width="350" height="30" rx="8" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+<text x="213" y="606" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ 利尿劑:Thiazide、Loop 在腎小管排 Na⁺ 與水 → 血量↓</text>
+<rect x="575" y="532" width="165" height="70" rx="8" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+<text x="583" y="552" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ 中樞 α2 促效劑</text>
+<text x="583" y="572" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E"> (clonidine)↓交感輸出</text>
+<text x="583" y="592" font-size="13" text-anchor="start" font-weight="normal" fill="#8E2A3E">⊘ β 阻斷劑:↓心跳/收縮</text>
+<text x="472" y="556" font-size="12" text-anchor="middle" font-weight="normal" fill="#6B6B75">(ADH 無常規</text>
+<text x="472" y="572" font-size="12" text-anchor="middle" font-weight="normal" fill="#6B6B75">降壓藥作用點)</text>
+<rect x="20" y="642" width="720" height="70" rx="12" fill="#FDF6E3" stroke="#AD5C28" stroke-width="1.5"/>
+<text x="380" y="668" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">血量↑(前負荷↑)→ 心輸出量 CO↑  ;  血管收縮 → SVR↑</text>
+<text x="380" y="696" font-size="14" text-anchor="middle" font-weight="normal" fill="#AD5C28">血壓 = CO × SVR ↑ ——每一類降壓藥都是在降低 CO 或 SVR 其中之一(或兩者)</text>
+</svg>

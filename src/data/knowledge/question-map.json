@@ -1,4 +1,122 @@
 {
+  "coronary-artery-disease#oxygen-balance": {
+    "auto": [
+      "114-2_BM_004",
+      "109-2_BM_011",
+      "109-1_BM_009",
+      "106-2_BM_007"
+    ]
+  },
+  "coronary-artery-disease#pathology-timeline": {
+    "auto": [
+      "115-1_BM_025",
+      "114-3_BM_024",
+      "113-3_BM_025",
+      "112-3_BM_026",
+      "112-2_MS_030",
+      "112-2_BM_023",
+      "112-1_MS_026",
+      "109-1_BM_079",
+      "109-1_BM_026",
+      "108-1_FA_007"
+    ]
+  },
+  "coronary-artery-disease#acs": {
+    "auto": [
+      "114-1_BM_036",
+      "112-1_BM_036",
+      "108-1_MS_028",
+      "106-2_makeup_MS_027"
+    ]
+  },
+  "coronary-artery-disease#angina-vs-mi": {
+    "auto": [
+      "115-1_BM_038",
+      "114-2_FA_013",
+      "114-1_MS_016",
+      "113-3_MS_017",
+      "111-2_FA_058",
+      "111-1_MS_030",
+      "110-2_MS_028",
+      "109-1_BM_056",
+      "108-1_MS_028",
+      "107-2_MS_029"
+    ]
+  },
+  "coronary-artery-disease#other-tests": {
+    "auto": [
+      "113-3_MS_017",
+      "112-1_MS_026",
+      "110-1_MS_031",
+      "106-1_MS_031",
+      "105-2_MS_030"
+    ]
+  },
+  "coronary-artery-disease#in-hospital": {
+    "auto": [
+      "114-3_MS_034",
+      "114-1_MS_019",
+      "112-2_MS_028",
+      "111-2_FA_058",
+      "110-2_MS_028",
+      "108-2_MS_025",
+      "107-2_MS_029",
+      "106-2_MS_025",
+      "105-2_MS_026"
+    ]
+  },
+  "coronary-artery-disease#complications": {
+    "auto": [
+      "114-1_MS_019",
+      "114-1_MS_016",
+      "113-3_MS_017",
+      "111-1_MS_034",
+      "111-1_MS_030"
+    ]
+  },
+  "coronary-artery-disease#drug-classes": {
+    "auto": [
+      "115-1_BM_038",
+      "112-1_BM_036",
+      "110-1_BM_059",
+      "109-2_MS_031",
+      "109-1_BM_056",
+      "108-2_MS_025",
+      "107-2_MS_030",
+      "107-2_FA_020"
+    ]
+  },
+  "coronary-artery-disease#drug-classes~2": {
+    "auto": [
+      "114-3_MS_034",
+      "114-1_BM_036",
+      "113-1_MS_018",
+      "112-3_MS_022",
+      "110-1_BM_058",
+      "106-2_makeup_MS_031",
+      "105-2_MS_027"
+    ]
+  },
+  "coronary-artery-disease#cabg": {
+    "auto": []
+  },
+  "coronary-artery-disease#exercise": {
+    "auto": []
+  },
+  "coronary-artery-disease#prevention-levels": {
+    "auto": [
+      "113-3_PC_032",
+      "112-3_BM_026",
+      "112-2_PC_079",
+      "112-1_BM_037",
+      "111-2_PC_077",
+      "111-1_PC_080",
+      "110-1_PC_054",
+      "109-2_BM_027",
+      "109-1_PC_080",
+      "109-1_MS_031"
+    ]
+  },
   "diabetes#physiology-drug-map": {
     "auto": [
       "115-2_BM_015",
@@ -148,6 +266,20 @@
       "110-2_FA_040"
     ]
   },
+  "diabetes#drug-classes": {
+    "auto": [
+      "115-1_OP_044",
+      "114-3_OP_044",
+      "114-3_MS_045",
+      "114-2_BM_038",
+      "114-1_MS_042",
+      "113-2_MS_045",
+      "113-1_MS_044",
+      "113-1_BM_038",
+      "112-3_BM_033",
+      "112-2_MS_071"
+    ]
+  },
   "diabetes#smbg": {
     "auto": [
       "112-1_OP_069",
@@ -212,12 +344,438 @@
       "107-1_PC_064"
     ]
   },
+  "heart-failure#ejection-fraction": {
+    "auto": [
+      "115-2_MS_016",
+      "115-1_MS_019",
+      "115-1_BM_038",
+      "114-3_MS_037",
+      "114-3_MS_024",
+      "114-3_BM_011",
+      "114-1_MS_019",
+      "113-3_FA_024"
+    ]
+  },
+  "heart-failure#edema-mechanism": {
+    "auto": [
+      "115-2_MS_016",
+      "115-1_MS_020",
+      "114-3_BM_036",
+      "114-2_MS_020",
+      "114-2_MS_016",
+      "114-2_BM_036",
+      "114-2_BM_022",
+      "114-1_MS_018"
+    ]
+  },
+  "heart-failure#left-vs-right": {
+    "auto": [
+      "115-1_MS_020",
+      "114-2_MS_016",
+      "114-2_BM_022",
+      "114-1_MS_018",
+      "111-2_MS_053",
+      "111-1_FA_039",
+      "110-2_MS_029",
+      "110-1_MS_049",
+      "109-2_MS_030",
+      "109-1_BM_039"
+    ]
+  },
+  "heart-failure#physical-assessment": {
+    "auto": [
+      "115-2_FA_016",
+      "114-2_MS_016",
+      "114-1_MS_018",
+      "113-3_FA_015",
+      "113-2_MS_020",
+      "113-2_MS_017"
+    ]
+  },
+  "heart-failure#staging": {
+    "auto": [
+      "115-2_MS_017",
+      "108-2_MS_026",
+      "105-1_MS_033"
+    ]
+  },
+  "heart-failure#diagnosis": {
+    "auto": [
+      "115-2_OP_040",
+      "115-2_OP_019",
+      "115-2_MS_016",
+      "113-2_BM_017",
+      "112-1_BM_019",
+      "110-2_BM_059"
+    ]
+  },
+  "heart-failure#acute-management": {
+    "auto": [
+      "114-2_BM_022",
+      "112-2_MS_052",
+      "111-2_MS_053",
+      "111-1_MS_053",
+      "110-2_MS_058",
+      "110-2_MS_056",
+      "110-1_MS_049",
+      "109-2_MS_030",
+      "109-1_MS_055",
+      "109-1_FA_048"
+    ]
+  },
+  "heart-failure#cardiogenic-shock": {
+    "auto": [
+      "115-1_MS_019",
+      "114-3_MS_024",
+      "114-1_MS_019",
+      "113-2_MS_048",
+      "113-1_BM_022",
+      "111-1_MS_030"
+    ]
+  },
+  "heart-failure#other-drugs": {
+    "auto": [
+      "114-3_OP_040",
+      "114-2_BM_036",
+      "114-1_BM_035",
+      "113-1_MS_016",
+      "113-1_BM_037",
+      "112-3_MS_020",
+      "112-3_MS_019",
+      "111-1_FA_040",
+      "111-1_BM_058",
+      "111-1_BM_049"
+    ]
+  },
+  "heart-failure#activity": {
+    "auto": [
+      "115-2_MS_017",
+      "114-3_MS_024",
+      "114-1_OP_040",
+      "113-2_FA_024",
+      "112-3_MS_020",
+      "112-1_MS_057",
+      "111-1_OP_065",
+      "110-2_OP_064",
+      "110-1_MS_049",
+      "110-1_FA_021"
+    ]
+  },
+  "heart-failure#prevent-exacerbation": {
+    "auto": [
+      "108-2_MS_027",
+      "108-1_MS_026",
+      "107-2_MS_033"
+    ]
+  },
+  "hypertension#influencing-factors": {
+    "auto": []
+  },
+  "hypertension#secondary-causes": {
+    "auto": [
+      "114-3_BM_017",
+      "113-3_MS_018",
+      "109-1_BM_049",
+      "107-2_BM_060",
+      "106-2_makeup_MS_028"
+    ]
+  },
+  "hypertension#home-bp": {
+    "auto": [
+      "115-1_FA_026",
+      "115-1_FA_024",
+      "114-3_PC_050",
+      "114-3_FA_006",
+      "114-1_FA_029",
+      "114-1_FA_026",
+      "114-1_FA_006",
+      "113-2_PC_050",
+      "113-2_OP_030",
+      "113-1_FA_025",
+      "112-3_FA_025",
+      "112-2_OP_045"
+    ]
+  },
+  "hypertension#target-organ-damage": {
+    "auto": [
+      "114-2_BM_033",
+      "113-3_MS_018",
+      "112-3_BM_040",
+      "111-2_BM_035",
+      "110-2_BM_059",
+      "109-1_MS_062",
+      "109-1_FA_040",
+      "107-1_MS_025"
+    ]
+  },
+  "hypertension#hypertensive-crisis": {
+    "auto": [
+      "113-3_MS_018",
+      "113-1_FA_012",
+      "112-3_FA_011",
+      "111-1_MS_033",
+      "109-1_BM_049",
+      "106-2_makeup_MS_028",
+      "106-1_BM_058"
+    ]
+  },
+  "hypertension#pregnancy": {
+    "auto": []
+  },
+  "hypertension#drug-classes": {
+    "auto": [
+      "115-2_PC_049",
+      "115-2_BM_036",
+      "114-3_MS_017",
+      "114-3_BM_037",
+      "114-3_BM_032",
+      "114-3_BM_017",
+      "114-2_BM_033",
+      "114-1_MS_037",
+      "113-3_BM_035",
+      "113-3_BM_031"
+    ]
+  },
+  "hypertension#medication-education": {
+    "auto": [
+      "115-2_PC_049",
+      "114-3_MS_023",
+      "113-3_PC_032",
+      "113-2_PC_050",
+      "113-1_PC_035",
+      "112-3_FA_011",
+      "112-2_PC_079",
+      "110-2_MS_027",
+      "110-1_PC_077",
+      "110-1_PC_054"
+    ]
+  },
+  "hypertension#other-lifestyle": {
+    "auto": [
+      "115-2_PC_049",
+      "114-3_MS_017",
+      "113-3_MS_018",
+      "113-2_PC_050",
+      "110-2_MS_027",
+      "110-2_FA_045",
+      "110-2_BM_059",
+      "110-1_PC_077",
+      "110-1_PC_054",
+      "110-1_MS_027"
+    ]
+  },
+  "hypertension#prevention": {
+    "auto": [
+      "113-2_PC_050",
+      "111-1_PC_080",
+      "110-1_PC_077",
+      "110-1_PC_054",
+      "109-2_PC_078",
+      "108-2_PC_079",
+      "108-2_PC_045"
+    ]
+  },
+  "hypotension#physiology": {
+    "auto": [
+      "115-2_FA_025"
+    ]
+  },
+  "hypotension#orthostatic-management": {
+    "auto": [
+      "115-1_FA_023",
+      "115-1_FA_016",
+      "114-2_OP_015",
+      "106-2_OP_021"
+    ]
+  },
+  "hypotension#orthostatic-management~2": {
+    "auto": [
+      "115-1_FA_016",
+      "115-1_FA_015",
+      "114-2_OP_015",
+      "111-1_FA_025",
+      "108-2_FA_015",
+      "107-2_FA_025",
+      "106-2_OP_021",
+      "106-2_MS_028"
+    ]
+  },
+  "hypotension#neuraxial-anesthesia": {
+    "auto": [
+      "113-3_OP_002",
+      "105-2_OP_009"
+    ]
+  },
+  "hypotension#neuraxial-anesthesia~2": {
+    "auto": [
+      "112-2_OP_013",
+      "111-1_OP_012",
+      "110-1_OP_002",
+      "109-1_OP_020",
+      "107-2_OP_013"
+    ]
+  },
+  "hypotension#shock": {
+    "auto": [
+      "115-2_FA_025",
+      "114-2_FA_026",
+      "113-1_BM_022",
+      "112-2_MS_078",
+      "111-2_MS_078",
+      "109-1_OP_016"
+    ]
+  },
+  "ace-inhibitors#exam-points": {
+    "auto": [
+      "114-3_BM_017",
+      "114-2_BM_036",
+      "114-1_MS_037",
+      "113-3_BM_035",
+      "112-3_BM_036",
+      "111-2_MS_060",
+      "111-2_BM_035",
+      "111-1_MS_063",
+      "111-1_BM_058",
+      "109-2_BM_059"
+    ]
+  },
+  "alpha-blockers#exam-points": {
+    "auto": [
+      "115-1_BM_034",
+      "114-3_BM_032",
+      "113-3_BM_031",
+      "111-2_BM_032",
+      "111-1_BM_059",
+      "109-2_BM_059",
+      "109-1_BM_050",
+      "109-1_BM_049"
+    ]
+  },
   "alpha-glucosidase-inhibitors#questions": {
     "auto": [
       "114-2_BM_038",
       "110-2_BM_051",
       "109-1_MS_067",
       "108-2_BM_054"
+    ]
+  },
+  "anticoagulants#exam-points": {
+    "auto": [
+      "115-2_MS_035",
+      "115-2_FA_012",
+      "115-1_MS_017",
+      "114-3_MS_036",
+      "114-3_MS_034",
+      "114-3_MS_024",
+      "114-3_MS_016",
+      "114-2_OP_021",
+      "113-3_MS_020",
+      "113-3_BM_036",
+      "113-2_BM_016",
+      "113-1_MS_020"
+    ]
+  },
+  "anticoagulants#exam-points~2": {
+    "auto": [
+      "115-2_MS_035",
+      "114-3_MS_036",
+      "114-3_MS_016",
+      "114-2_OP_021",
+      "113-1_MS_020",
+      "108-2_MS_051"
+    ]
+  },
+  "antiplatelets#exam-points": {
+    "auto": [
+      "114-3_MS_034",
+      "114-3_BM_031",
+      "114-1_BM_036",
+      "113-3_BM_036",
+      "113-2_BM_036",
+      "113-1_MS_018",
+      "111-1_MS_038",
+      "110-1_BM_051",
+      "109-2_MS_006",
+      "109-1_MS_003"
+    ]
+  },
+  "antiplatelets#exam-points~2": {
+    "auto": [
+      "112-2_OP_078",
+      "112-1_OP_078",
+      "110-1_OP_049",
+      "107-1_OP_054"
+    ]
+  },
+  "arb#exam-points": {
+    "auto": [
+      "114-3_BM_037",
+      "114-2_BM_033",
+      "113-3_BM_035",
+      "112-3_BM_036",
+      "111-2_BM_035",
+      "108-1_BM_061",
+      "107-2_BM_055"
+    ]
+  },
+  "arni#exam-points": {
+    "auto": []
+  },
+  "beta-blockers#exam-points": {
+    "auto": []
+  },
+  "calcium-channel-blockers#exam-points": {
+    "auto": [
+      "114-3_BM_032",
+      "113-3_FA_020",
+      "113-3_BM_035",
+      "113-2_OP_010",
+      "113-2_FA_013",
+      "113-1_FA_012",
+      "112-3_FA_011",
+      "112-3_BM_036",
+      "112-1_BM_036",
+      "111-2_FA_020"
+    ]
+  },
+  "central-alpha2-agonists#exam-points": {
+    "auto": [
+      "114-3_BM_037",
+      "114-3_BM_032",
+      "113-3_BM_035",
+      "113-3_BM_031",
+      "109-2_BM_054",
+      "109-1_BM_053",
+      "108-2_BM_060",
+      "106-2_BM_050"
+    ]
+  },
+  "digoxin#exam-points": {
+    "auto": [
+      "114-3_OP_040",
+      "114-3_FA_011",
+      "114-2_OP_041",
+      "114-1_OP_040",
+      "114-1_BM_035",
+      "113-3_OP_040",
+      "113-2_FA_024",
+      "113-2_FA_017",
+      "113-1_MS_016",
+      "112-2_OP_065",
+      "112-2_MS_059",
+      "112-1_OP_065"
+    ]
+  },
+  "direct-vasodilators#exam-points": {
+    "auto": [
+      "114-3_BM_037",
+      "111-2_MS_028",
+      "111-2_BM_032",
+      "111-1_MS_033",
+      "111-1_BM_059",
+      "109-1_BM_049",
+      "108-2_BM_060",
+      "108-1_BM_051"
     ]
   },
   "dpp4-inhibitors#questions": {
@@ -230,6 +788,30 @@
       "112-2_BM_020",
       "109-1_MS_067",
       "108-1_BM_063"
+    ]
+  },
+  "inotropes#exam-points": {
+    "auto": [
+      "115-2_BM_013",
+      "114-2_FA_007",
+      "114-2_BM_034",
+      "114-1_MS_019",
+      "113-1_BM_037",
+      "112-3_MS_019",
+      "112-3_BM_015",
+      "111-2_MS_028",
+      "111-1_MS_033",
+      "111-1_BM_049"
+    ]
+  },
+  "inotropes#exam-points~2": {
+    "auto": [
+      "115-1_MS_019",
+      "114-1_MS_019",
+      "113-2_MS_048",
+      "113-1_BM_022",
+      "112-3_MS_049",
+      "111-1_MS_034"
     ]
   },
   "insulin#types": {
@@ -289,6 +871,9 @@
       "112-2_FA_017"
     ]
   },
+  "loop-diuretics#exam-points": {
+    "auto": []
+  },
   "meglitinides#questions": {
     "auto": [
       "108-2_BM_054",
@@ -309,6 +894,46 @@
       "105-1_BM_062"
     ]
   },
+  "nitrates#exam-points": {
+    "auto": [
+      "115-1_BM_038",
+      "112-1_BM_036",
+      "110-1_BM_059",
+      "109-2_MS_031",
+      "109-1_BM_056",
+      "108-2_MS_025",
+      "107-2_MS_030",
+      "107-2_FA_020"
+    ]
+  },
+  "nitrates#exam-points~2": {
+    "auto": [
+      "114-2_FA_013",
+      "114-1_MS_019",
+      "113-1_MS_017",
+      "111-2_MS_028",
+      "111-2_FA_018",
+      "111-1_MS_033",
+      "110-2_MS_028",
+      "110-1_BM_059",
+      "109-2_MS_031",
+      "109-1_MS_048"
+    ]
+  },
+  "potassium-sparing-diuretics#exam-points": {
+    "auto": [
+      "115-1_BM_039",
+      "115-1_BM_009",
+      "114-3_BM_036",
+      "114-2_OP_041",
+      "114-2_BM_033",
+      "114-1_MS_037",
+      "113-2_BM_035",
+      "111-1_MS_075",
+      "110-1_BM_052",
+      "109-2_FA_046"
+    ]
+  },
   "sglt2-inhibitors#exam-points": {
     "auto": [
       "113-1_BM_038",
@@ -316,6 +941,15 @@
       "110-2_BM_051",
       "108-1_BM_063"
     ]
+  },
+  "statins#exam-points": {
+    "auto": [
+      "112-2_BM_036",
+      "112-1_BM_037"
+    ]
+  },
+  "statins#exam-points~2": {
+    "auto": []
   },
   "sulfonylureas#exam-points": {
     "auto": [
@@ -326,6 +960,12 @@
       "106-2_makeup_MS_068",
       "106-1_BM_062"
     ]
+  },
+  "thiazide-diuretics#exam-points": {
+    "auto": []
+  },
+  "thrombolytics#exam-points": {
+    "auto": []
   },
   "tzd#questions": {
     "auto": [
@@ -373,6 +1013,65 @@
       "114-2_MS_002"
     ]
   },
+  "bnp#reference-range": {
+    "auto": [
+      "115-2_MS_016",
+      "113-2_BM_017",
+      "112-1_BM_019",
+      "110-2_BM_059",
+      "110-1_MS_032",
+      "105-1_BM_035"
+    ]
+  },
+  "cardiac-biomarkers#troponin": {
+    "auto": [
+      "114-2_BM_012",
+      "112-1_BM_014",
+      "108-1_BM_026",
+      "106-2_BM_019"
+    ]
+  },
+  "cardiac-biomarkers#timeline": {
+    "auto": []
+  },
+  "cardiac-catheterization#post-care": {
+    "auto": []
+  },
+  "ecg#rv-infarction": {
+    "auto": [
+      "114-3_MS_034",
+      "112-1_MS_026",
+      "111-2_FA_058",
+      "111-1_MS_028",
+      "110-1_MS_031",
+      "106-2_MS_031",
+      "106-2_MS_025",
+      "106-2_makeup_MS_027"
+    ]
+  },
+  "ecg#exam-points": {
+    "auto": []
+  },
+  "ecg#exam-points~2": {
+    "auto": []
+  },
+  "echocardiography#ef": {
+    "auto": [
+      "113-1_BM_020",
+      "109-1_BM_039",
+      "108-2_MS_027",
+      "107-2_MS_032",
+      "106-2_MS_077"
+    ]
+  },
+  "echocardiography#related": {
+    "auto": [
+      "115-1_MS_019",
+      "115-1_BM_038",
+      "114-3_MS_037",
+      "114-1_MS_019"
+    ]
+  },
   "hba1c#targets": {
     "auto": [
       "115-2_PC_036",
@@ -401,6 +1100,12 @@
       "110-1_MS_072"
     ]
   },
+  "lipid-profile#exam-points": {
+    "auto": []
+  },
+  "lipid-profile#exam-points~2": {
+    "auto": []
+  },
   "ogtt#gdm-timing": {
     "auto": [
       "113-2_OP_023",
@@ -423,10 +1128,181 @@
       "108-1_MS_069"
     ]
   },
+  "potassium#exam-points": {
+    "auto": []
+  },
+  "potassium#exam-points~2": {
+    "auto": [
+      "115-1_MS_040",
+      "114-3_MS_043",
+      "114-3_MS_023",
+      "114-2_MS_027",
+      "114-1_MS_037",
+      "113-3_MS_042",
+      "113-2_FA_015",
+      "112-3_FA_012"
+    ]
+  },
   "uacr#questions": {
     "auto": [
       "110-2_PC_078",
       "106-2_makeup_MS_064"
+    ]
+  },
+  "blood-pressure-regulation#determinants": {
+    "auto": [
+      "115-2_FA_025",
+      "113-3_MS_038",
+      "113-3_FA_024",
+      "112-3_MS_020",
+      "112-2_PC_039",
+      "112-2_MS_074",
+      "112-1_BM_036",
+      "111-2_FA_041"
+    ]
+  },
+  "blood-pressure-regulation#map": {
+    "auto": [
+      "114-2_MS_016",
+      "113-3_FA_024",
+      "113-2_MS_020",
+      "113-2_BM_017",
+      "112-3_PC_041",
+      "112-3_FA_025",
+      "112-3_BM_030",
+      "112-2_MS_077"
+    ]
+  },
+  "blood-pressure-regulation#chemoreceptor": {
+    "auto": [
+      "115-2_MS_019",
+      "115-2_MS_005",
+      "115-1_FA_023",
+      "115-1_FA_016",
+      "113-2_MS_018",
+      "112-1_FA_039"
+    ]
+  },
+  "blood-pressure-regulation#raas": {
+    "auto": [
+      "115-1_BM_009",
+      "114-3_MS_043",
+      "114-3_BM_036",
+      "114-3_BM_017",
+      "114-2_MS_032",
+      "114-2_BM_037",
+      "114-2_BM_036",
+      "114-2_BM_033"
+    ]
+  },
+  "blood-pressure-regulation#adh": {
+    "auto": []
+  },
+  "blood-pressure-regulation#pressure-natriuresis": {
+    "auto": [
+      "115-2_MS_016",
+      "114-2_MS_020",
+      "113-2_BM_017",
+      "112-1_BM_019"
+    ]
+  },
+  "blood-pressure-regulation#autonomic-receptors": {
+    "auto": [
+      "114-3_BM_037",
+      "114-3_BM_013",
+      "114-2_BM_034",
+      "113-3_BM_031",
+      "113-2_BM_012",
+      "112-1_BM_036"
+    ]
+  },
+  "blood-pressure-regulation#questions": {
+    "auto": []
+  },
+  "cardiac-output#cardiac-cycle": {
+    "auto": [
+      "114-3_BM_008",
+      "112-2_BM_017",
+      "111-1_MS_031",
+      "109-2_BM_020",
+      "108-1_BM_030",
+      "107-2_MS_036"
+    ]
+  },
+  "cardiac-output#heart-sounds": {
+    "auto": []
+  },
+  "cardiac-output#determinants": {
+    "auto": [
+      "115-1_MS_019",
+      "115-1_BM_038",
+      "114-3_MS_037",
+      "114-1_MS_019",
+      "113-3_FA_024",
+      "113-2_MS_020",
+      "113-1_OP_005",
+      "112-3_FA_025"
+    ]
+  },
+  "cardiac-output#afterload": {
+    "auto": [
+      "115-2_MS_016",
+      "115-1_BM_038",
+      "114-3_MS_024",
+      "114-1_MS_019",
+      "113-1_MS_016",
+      "112-3_MS_020",
+      "111-2_MS_053",
+      "111-2_MS_028"
+    ]
+  },
+  "cardiac-output#frank-starling": {
+    "auto": [
+      "114-3_BM_011"
+    ]
+  },
+  "cardiac-output#conduction": {
+    "auto": [
+      "109-2_BM_010",
+      "108-1_BM_060",
+      "107-2_BM_006",
+      "107-1_BM_027",
+      "106-2_BM_057",
+      "106-2_BM_026"
+    ]
+  },
+  "cardiac-output#autonomic": {
+    "auto": [
+      "115-2_BM_016",
+      "113-2_BM_012",
+      "112-2_OP_034",
+      "112-1_BM_019",
+      "110-1_MS_079",
+      "108-2_FA_038"
+    ]
+  },
+  "coronary-circulation#anatomy": {
+    "auto": [
+      "114-2_BM_004",
+      "111-1_BM_008",
+      "110-1_BM_004",
+      "109-2_BM_011",
+      "109-1_BM_009",
+      "107-2_BM_006"
+    ]
+  },
+  "coronary-circulation#antianginal": {
+    "auto": []
+  },
+  "coronary-circulation#questions": {
+    "auto": [
+      "115-1_BM_038",
+      "110-2_MS_028",
+      "109-1_BM_056",
+      "109-1_BM_026",
+      "108-1_MS_029",
+      "107-2_MS_029",
+      "105-2_MS_025"
     ]
   },
   "glucose-homeostasis#incretin": {

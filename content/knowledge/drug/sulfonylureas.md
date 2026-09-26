@@ -3,6 +3,8 @@ title: 磺醯脲類
 subtitle: Sulfonylureas(SU)
 aliases: [SU, Sulfonylurea, 磺胺尿素劑, Glyburide, Glibenclamide, Glipizide, Gliclazide, Glimepiride]
 dzTags: [糖尿病]
+system: endocrine
+group: antidiabetics
 reviewed: false
 updated: 2026-09-25
 references:

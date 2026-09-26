@@ -2,7 +2,10 @@
 title: SGLT2 抑制劑
 subtitle: Sodium-glucose cotransporter 2 inhibitors(gliflozins)
 aliases: [SGLT2i, SGLT2, Empagliflozin, Dapagliflozin, Canagliflozin, Ertugliflozin, gliflozin]
-dzTags: [糖尿病, 糖尿病腎病變]
+dzTags: [糖尿病, 糖尿病腎病變, 心臟衰竭]
+system: endocrine
+alsoIn: [cardiovascular, renal]
+group: antidiabetics
 reviewed: false
 updated: 2026-09-25
 references:

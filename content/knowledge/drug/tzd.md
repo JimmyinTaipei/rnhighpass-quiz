@@ -3,6 +3,8 @@ title: TZD 類(胰島素增敏劑)
 subtitle: Thiazolidinediones(glitazones)
 aliases: [TZD, Pioglitazone, Rosiglitazone, Thiazolidinedione, 胰島素增敏劑, PPAR-γ]
 dzTags: [糖尿病]
+system: endocrine
+group: antidiabetics
 reviewed: false
 updated: 2026-09-25
 references:

@@ -8,7 +8,7 @@ import {
   useMemo,
   useState,
 } from "react";
-import { List, Network, X } from "lucide-react";
+import { List, X } from "lucide-react";
 import type { TocNode } from "./toc";
 
 interface ArticleContextValue {
@@ -40,21 +40,21 @@ interface ArticleShellProps {
   slug: string;
   toc: TocNode[];
   tocPanel: React.ReactNode;
-  railPanel: React.ReactNode;
   children: React.ReactNode;
 }
 
 /**
- * 知識頁的三欄外框:左目錄 / 中文章 / 右相關知識點。
+ * 知識頁的兩欄外框:左目錄 / 右文章。
+ * (原本的右欄「相關知識點」已拿掉:內文已有連結,引用關係改放在頁尾「參見」。)
  *
  * 摺疊狀態放這裡而不是各段落自己記:「全部收合」與「跳到某段要先展開祖先」
  * 都需要一個看得到整棵樹的地方。
  */
-export function ArticleShell({ slug, toc, tocPanel, railPanel, children }: ArticleShellProps) {
+export function ArticleShell({ slug, toc, tocPanel, children }: ArticleShellProps) {
   const parentOf = useMemo(() => flatten(toc, null, new Map()), [toc]);
   const [collapsed, setCollapsed] = useState<Set<string>>(() => new Set());
   const [activeId, setActiveId] = useState<string | null>(null);
-  const [drawer, setDrawer] = useState<"toc" | "rail" | null>(null);
+  const [drawer, setDrawer] = useState(false);
 
   const ancestorsOf = useCallback(
     (id: string) => {
@@ -78,7 +78,7 @@ export function ArticleShell({ slug, toc, tocPanel, railPanel, children }: Artic
         for (const a of ancestorsOf(id)) next.delete(a);
         return next;
       });
-      setDrawer(null);
+      setDrawer(false);
       if (opts?.push) history.pushState(null, "", `#${id}`);
       // 等展開後的版面算好再捲
       requestAnimationFrame(() => {
@@ -150,56 +150,43 @@ export function ArticleShell({ slug, toc, tocPanel, railPanel, children }: Artic
 
   return (
     <ArticleContext.Provider value={value}>
-      <div className="mx-auto grid w-full max-w-7xl flex-1 gap-6 px-4 py-6 lg:grid-cols-[220px_minmax(0,1fr)] xl:grid-cols-[230px_minmax(0,1fr)_270px]">
+      <div className="mx-auto grid w-full max-w-6xl flex-1 gap-6 px-4 py-6 lg:grid-cols-[240px_minmax(0,1fr)]">
         <aside className="hidden lg:block">
           <div className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto pr-1">{tocPanel}</div>
         </aside>
 
         <main className="min-w-0">{children}</main>
-
-        <aside className="hidden xl:block">
-          <div className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto pl-1">{railPanel}</div>
-        </aside>
       </div>
 
-      {/* 窄螢幕:目錄與相關知識點改成底部抽屜。bottom-20 讓開手機的底部頁籤 */}
-      <div className="fixed right-4 bottom-20 z-30 flex flex-col gap-2 md:bottom-6 xl:hidden">
-        <button
-          type="button"
-          onClick={() => setDrawer("rail")}
-          className="flex items-center gap-1.5 rounded-full border border-card-border bg-card px-3.5 py-2 text-sm font-medium text-deep shadow-md hover:bg-surface-hover"
-        >
-          <Network size={16} /> 相關
-        </button>
-        <button
-          type="button"
-          onClick={() => setDrawer("toc")}
-          className="flex items-center gap-1.5 rounded-full bg-deep px-3.5 py-2 text-sm font-medium text-on-accent shadow-md hover:opacity-90 lg:hidden"
-        >
-          <List size={16} /> 目錄
-        </button>
-      </div>
+      {/* 窄螢幕:目錄改成底部抽屜。bottom-20 讓開手機的底部頁籤 */}
+      <button
+        type="button"
+        onClick={() => setDrawer(true)}
+        className="fixed right-4 bottom-20 z-30 flex items-center gap-1.5 rounded-full bg-deep px-3.5 py-2 text-sm font-medium text-on-accent shadow-md hover:opacity-90 md:bottom-6 lg:hidden"
+      >
+        <List size={16} /> 目錄
+      </button>
 
       {drawer && (
-        <div className="fixed inset-0 z-40 xl:hidden" role="dialog" aria-modal="true">
+        <div className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true">
           <button
             type="button"
             aria-label="關閉"
             className="absolute inset-0 bg-black/30"
-            onClick={() => setDrawer(null)}
+            onClick={() => setDrawer(false)}
           />
           <div className="absolute inset-x-0 bottom-0 max-h-[75vh] overflow-y-auto rounded-t-2xl bg-card p-4 pb-8 shadow-xl">
             <div className="mb-2 flex justify-end">
               <button
                 type="button"
-                onClick={() => setDrawer(null)}
+                onClick={() => setDrawer(false)}
                 className="rounded p-1 text-muted hover:bg-surface-hover"
                 aria-label="關閉"
               >
                 <X size={18} />
               </button>
             </div>
-            {drawer === "toc" ? tocPanel : railPanel}
+            {tocPanel}
           </div>
         </div>
       )}

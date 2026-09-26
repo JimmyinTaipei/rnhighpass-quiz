@@ -3,6 +3,8 @@ title: 糖化血色素
 subtitle: Hemoglobin A1c(HbA1c)
 aliases: [HbA1c, A1c, 糖化血紅素, 醣化血色素, Glycated hemoglobin, Glycohemoglobin]
 dzTags: [糖尿病]
+system: endocrine
+group: glucose-labs
 reviewed: false
 updated: 2026-09-25
 references:

@@ -3,6 +3,9 @@ title: 尿液白蛋白/肌酸酐比值
 subtitle: Urine albumin-to-creatinine ratio(UACR)
 aliases: [UACR, ACR, 微量白蛋白尿, 白蛋白尿, Microalbuminuria, Albuminuria, 尿蛋白]
 dzTags: [糖尿病腎病變]
+system: renal
+alsoIn: [endocrine]
+group: renal-labs
 reviewed: false
 updated: 2026-09-25
 references:

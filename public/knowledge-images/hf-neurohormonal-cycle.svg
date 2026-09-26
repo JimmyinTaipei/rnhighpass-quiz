@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 670" width="760" height="670" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+  <title>心衰竭神經荷爾蒙惡性循環與藥物作用點</title>
+  <rect width="760" height="670" fill="#FFFFFF"/>
+
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/>
+    </marker>
+    <marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7A4E86"/>
+    </marker>
+  </defs>
+
+  <!-- 第 1 層:心輸出量下降 -->
+  <rect x="250" y="16" width="260" height="62" rx="12" fill="#D7E1F2" stroke="#2C5A96" stroke-width="2"/>
+  <text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#2C5A96">心輸出量 ↓</text>
+  <text x="380" y="66" text-anchor="middle" font-size="12.5" fill="#26262B">起因:心肌梗塞、高血壓、心肌病變、瓣膜病</text>
+
+  <line x1="320" y1="78" x2="170" y2="113" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+  <line x1="380" y1="78" x2="380" y2="113" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+  <line x1="440" y1="78" x2="590" y2="113" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+  <text x="372" y="100" text-anchor="end" font-size="11.5" fill="#B4485C">壓力感受器偵測灌流不足</text>
+
+  <!-- 第 2 層:三個代償系統 -->
+  <rect x="60" y="115" width="190" height="100" rx="10" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+  <text x="155" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#B4485C">交感神經活化</text>
+  <text x="155" y="162" text-anchor="middle" font-size="12.5" fill="#26262B">正腎上腺素 ↑(β1、α1)</text>
+  <rect x="95" y="178" width="120" height="26" rx="13" fill="#DAF0E5" stroke="#3E7C57" stroke-width="1.5"/>
+  <text x="155" y="196" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6446">β 阻斷劑</text>
+
+  <rect x="285" y="115" width="190" height="100" rx="10" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+  <text x="380" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#B4485C">RAAS 活化</text>
+  <text x="380" y="162" text-anchor="middle" font-size="12.5" fill="#26262B">Ang II ↑ → 醛固酮 ↑</text>
+  <rect x="292" y="178" width="120" height="26" rx="13" fill="#DAF0E5" stroke="#3E7C57" stroke-width="1.5"/>
+  <text x="352" y="196" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#2E6446">ACEI/ARB/ARNI</text>
+  <rect x="417" y="178" width="52" height="26" rx="13" fill="#DAF0E5" stroke="#3E7C57" stroke-width="1.5"/>
+  <text x="443" y="196" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#2E6446">MRA</text>
+
+  <rect x="510" y="115" width="190" height="100" rx="10" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.5"/>
+  <text x="605" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#B4485C">ADH(抗利尿激素)↑</text>
+  <text x="605" y="162" text-anchor="middle" font-size="12.5" fill="#26262B">集尿管再吸收自由水</text>
+  <text x="605" y="182" text-anchor="middle" font-size="11.5" fill="#6B6B73">→ 稀釋性低血鈉</text>
+  <text x="605" y="200" text-anchor="middle" font-size="11.5" fill="#6B6B73">(tolvaptan 為 V2 拮抗劑)</text>
+
+  <!-- 第 2 → 3 層箭頭 -->
+  <line x1="155" y1="215" x2="155" y2="253" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+  <text x="161" y="238" font-size="11" fill="#B4485C">β1</text>
+  <line x1="232" y1="215" x2="302" y2="253" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+  <text x="252" y="230" font-size="11" fill="#B4485C">α1</text>
+  <line x1="380" y1="215" x2="380" y2="253" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+  <text x="386" y="238" font-size="11" fill="#B4485C">Ang II</text>
+  <line x1="458" y1="215" x2="528" y2="253" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+  <text x="478" y="230" font-size="11" fill="#B4485C">醛固酮</text>
+  <line x1="605" y1="215" x2="605" y2="253" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+
+  <!-- 第 3 層:效應 -->
+  <rect x="60" y="255" width="190" height="90" rx="10" fill="#FDF6E3" stroke="#AD5C28" stroke-width="1.5"/>
+  <text x="155" y="280" text-anchor="middle" font-size="16" font-weight="bold" fill="#AD5C28">心搏過速</text>
+  <text x="155" y="302" text-anchor="middle" font-size="12.5" fill="#26262B">心肌耗氧 ↑</text>
+  <text x="155" y="322" text-anchor="middle" font-size="12.5" fill="#26262B">舒張期縮短、充填 ↓</text>
+
+  <rect x="285" y="255" width="190" height="90" rx="10" fill="#FDF6E3" stroke="#AD5C28" stroke-width="1.5"/>
+  <text x="380" y="280" text-anchor="middle" font-size="16" font-weight="bold" fill="#AD5C28">血管收縮</text>
+  <text x="380" y="302" text-anchor="middle" font-size="12.5" fill="#26262B">周邊阻力 ↑</text>
+  <text x="380" y="322" text-anchor="middle" font-size="12.5" fill="#26262B">→ 後負荷 ↑</text>
+
+  <rect x="510" y="255" width="190" height="90" rx="10" fill="#FDF6E3" stroke="#AD5C28" stroke-width="1.5"/>
+  <text x="605" y="278" text-anchor="middle" font-size="16" font-weight="bold" fill="#AD5C28">水鈉滯留</text>
+  <text x="605" y="298" text-anchor="middle" font-size="12.5" fill="#26262B">血容積 ↑ → 前負荷 ↑</text>
+  <rect x="520" y="310" width="78" height="26" rx="13" fill="#DAF0E5" stroke="#3E7C57" stroke-width="1.5"/>
+  <text x="559" y="328" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6446">利尿劑</text>
+  <rect x="606" y="310" width="86" height="26" rx="13" fill="#DAF0E5" stroke="#3E7C57" stroke-width="1.5"/>
+  <text x="649" y="328" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6446">SGLT2i</text>
+
+  <!-- 第 3 → 4 層箭頭 -->
+  <line x1="170" y1="345" x2="250" y2="383" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+  <line x1="380" y1="345" x2="380" y2="383" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+  <line x1="590" y1="345" x2="510" y2="383" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+
+  <!-- 第 4 層:負荷與重塑 -->
+  <rect x="120" y="385" width="520" height="88" rx="12" fill="#F9EBE3" stroke="#AD5C28" stroke-width="1.8"/>
+  <text x="380" y="410" text-anchor="middle" font-size="16" font-weight="bold" fill="#AD5C28">前、後負荷增加 → 心室壁張力 ↑、耗氧 ↑</text>
+  <text x="380" y="432" text-anchor="middle" font-size="13" fill="#26262B">長期:心肌肥厚、纖維化、心室擴大 = 心肌重塑(remodeling)</text>
+  <text x="380" y="457" text-anchor="middle" font-size="12" fill="#2E6446">β 阻斷劑、ACEI/ARB/ARNI、MRA、SGLT2i 皆可減緩重塑、降低死亡率</text>
+
+  <!-- 惡性循環回饋箭頭 -->
+  <path d="M120,430 H34 V47 H248" fill="none" stroke="#B4485C" stroke-width="2.6" marker-end="url(#ar)"/>
+  <text transform="translate(21,240) rotate(-90)" text-anchor="middle" font-size="14" font-weight="bold" fill="#B4485C">惡性循環:心輸出量更差</text>
+
+  <!-- 第 5 層:利鈉胜肽 -->
+  <line x1="380" y1="473" x2="380" y2="503" stroke="#7A4E86" stroke-width="2.2" marker-end="url(#ap)"/>
+  <text x="386" y="493" font-size="11.5" fill="#7A4E86">心室/心房牽張</text>
+  <rect x="120" y="505" width="520" height="112" rx="12" fill="#EFE6F4" stroke="#7A4E86" stroke-width="1.5"/>
+  <text x="380" y="529" text-anchor="middle" font-size="15" font-weight="bold" fill="#7A4E86">身體的對抗系統:利鈉胜肽(BNP、ANP)</text>
+  <text x="136" y="552" font-size="12.5" fill="#26262B">• 作用:排鈉利尿、血管擴張、抑制 RAAS 與交感 → 減輕前後負荷</text>
+  <text x="136" y="573" font-size="12.5" fill="#26262B">• neprilysin(腦啡肽酶)會分解利鈉胜肽,使保護作用變短</text>
+  <rect x="136" y="583" width="488" height="26" rx="13" fill="#DAF0E5" stroke="#3E7C57" stroke-width="1.5"/>
+  <text x="380" y="601" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#2E6446">ARNI 中的 sacubitril 抑制 neprilysin → 利鈉胜肽 ↑(valsartan 同時阻斷 AT1)</text>
+
+  <!-- 對抗箭頭(虛線) -->
+  <path d="M640,560 H728 V300 H704" fill="none" stroke="#7A4E86" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ap)"/>
+  <text transform="translate(742,430) rotate(-90)" text-anchor="middle" font-size="12.5" fill="#7A4E86">對抗水鈉滯留與血管收縮</text>
+
+  <!-- 圖例 -->
+  <line x1="60" y1="645" x2="96" y2="645" stroke="#B4485C" stroke-width="2.2" marker-end="url(#ar)"/>
+  <text x="104" y="649" font-size="12" fill="#26262B">促進/導致</text>
+  <line x1="200" y1="645" x2="236" y2="645" stroke="#7A4E86" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ap)"/>
+  <text x="244" y="649" font-size="12" fill="#26262B">對抗</text>
+  <rect x="300" y="634" width="54" height="22" rx="11" fill="#DAF0E5" stroke="#3E7C57" stroke-width="1.5"/>
+  <text x="327" y="650" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#2E6446">藥物</text>
+  <text x="362" y="649" font-size="12" fill="#26262B">阻斷或抑制該步驟的藥物(綠色標籤貼在其作用位置)</text>
+</svg>

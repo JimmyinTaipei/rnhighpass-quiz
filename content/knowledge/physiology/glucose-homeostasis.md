@@ -3,6 +3,7 @@ title: 血糖恆定與胰島素作用
 subtitle: Glucose homeostasis
 aliases: [胰島素, 升糖素, GLUT4, GLUT2, 腸泌素, 糖質新生, insulin, glucagon, incretin]
 dzTags: []
+system: endocrine
 reviewed: false
 updated: 2026-09-25
 references:

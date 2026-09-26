@@ -27,5 +27,131 @@
     "title": "腸泌素、DPP-4 與相關藥物",
     "author": "多保命",
     "license": "原創"
+  },
+  "diuretic-sites-nephron.svg": {
+    "title": "利尿劑在腎元的作用部位",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "potassium-ecg-changes.svg": {
+    "title": "高血鉀與低血鉀的心電圖變化",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "cardiac-biomarker-curve.svg": {
+    "title": "急性心肌梗塞後心肌生化標記的時間變化",
+    "author": "多保命",
+    "license": "原創"
+  },
+  "blausen-angioplasty-stent.png": {
+    "title": "Stent in Coronary Artery(Blausen 0034 Angioplasty Stent 01)",
+    "author": "Blausen.com staff (2014). Medical gallery of Blausen Medical 2014. WikiJournal of Medicine 1(2). doi:10.15347/wjm/2014.010",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blausen_0034_Angioplasty_Stent_01.png"
+  },
+  "antithrombotic-drug-sites.svg": {
+    "title": "抗血小板、抗凝血與血栓溶解劑的作用位置",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "ecg-ptbxl-normal.svg": {
+    "title": "正常 12 導程心電圖(PTB-XL #7)",
+    "author": "Wagner P. et al., PTB-XL (PhysioNet)",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://physionet.org/content/ptb-xl/1.0.3/",
+    "modified": "依原始訊號重新繪製,多保命"
+  },
+  "ecg-ptbxl-imi.svg": {
+    "title": "急性下壁心肌梗塞 12 導程心電圖(PTB-XL #12899)",
+    "author": "Wagner P. et al., PTB-XL (PhysioNet)",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://physionet.org/content/ptb-xl/1.0.3/",
+    "modified": "依原始訊號重新繪製,多保命"
+  },
+  "ecg-ptbxl-ami.svg": {
+    "title": "前壁心肌梗塞 12 導程心電圖(PTB-XL #3177)",
+    "author": "Wagner P. et al., PTB-XL (PhysioNet)",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://physionet.org/content/ptb-xl/1.0.3/",
+    "modified": "依原始訊號重新繪製,多保命"
+  },
+  "ecg-normal-complex.svg": {
+    "title": "正常心電圖波形與間期",
+    "author": "多保命",
+    "license": "原創"
+  },
+  "ecg-st-patterns.svg": {
+    "title": "ST 上升、ST 下降與病理性 Q 波",
+    "author": "多保命",
+    "license": "原創"
+  },
+  "ecg-mi-evolution.svg": {
+    "title": "心肌梗塞心電圖五階段演變",
+    "author": "多保命",
+    "license": "原創"
+  },
+  "ecg-territory.svg": {
+    "title": "冠狀動脈與 12 導程分區對照",
+    "author": "多保命",
+    "license": "原創"
+  },
+  "ecg-pericarditis.svg": {
+    "title": "STEMI 與心包膜炎的 ST 上升比較",
+    "author": "多保命",
+    "license": "原創"
+  },
+  "frank-starling.svg": {
+    "title": "Frank–Starling 曲線與心衰竭用藥",
+    "author": "多保命",
+    "license": "原創"
+  },
+  "raas-drug-sites.svg": {
+    "title": "RAAS 與降血壓藥作用點",
+    "author": "多保命",
+    "license": "原創"
+  },
+  "heart-blood-flow.svg": {
+    "title": "Blausen 0452 Heart BloodFlow",
+    "author": "Blausen Medical Communications, Inc.(BruceBlaus, Wikimedia Commons)",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blausen_0452_Heart_BloodFlow.png",
+    "modified": "轉為 JPEG 嵌入 SVG,英文標籤改為繁中,並加註心腔與瓣膜名稱"
+  },
+  "heart-conduction-system.svg": {
+    "title": "Conduction system of the heart",
+    "author": "Madhero88(Wikimedia Commons)",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conductionsystemoftheheart.png",
+    "modified": "縮圖後嵌入 SVG,英文標籤改為繁中,加上各節律點固有速率說明"
+  },
+  "coronary-arteries.svg": {
+    "title": "Coronary vessels, with annotated arteries",
+    "author": "Servier Medical Art;annotations by Mikael Häggström(Wikimedia Commons)",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coronary_vessels,_with_annotated_arteries.svg",
+    "modified": "標籤譯為繁中並加註縮寫"
+  },
+  "lipoprotein-pathways.svg": {
+    "title": "脂蛋白的來源與去向",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "hf-neurohormonal-cycle.svg": {
+    "title": "心衰竭神經荷爾蒙惡性循環與藥物作用點",
+    "author": "多保命",
+    "license": "原創"
+  },
+  "mi-referred-pain.svg": {
+    "title": "心肌缺血疼痛常見部位(轉移痛)",
+    "author": "多保命",
+    "license": "原創"
   }
 }

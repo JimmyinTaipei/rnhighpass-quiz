@@ -3,6 +3,9 @@ title: 口服葡萄糖耐受試驗
 subtitle: Oral glucose tolerance test(OGTT)
 aliases: [OGTT, 葡萄糖耐受試驗, 葡萄糖耐量試驗, GCT, 50 g 葡萄糖篩檢, 75 g OGTT, 100 g OGTT, 妊娠糖尿病篩檢]
 dzTags: [糖尿病, 妊娠糖尿病]
+system: endocrine
+alsoIn: [reproductive]
+group: glucose-labs
 reviewed: false
 updated: 2026-09-25
 references:

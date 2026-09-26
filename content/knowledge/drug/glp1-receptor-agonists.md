@@ -3,6 +3,9 @@ title: GLP-1 受體促效劑
 subtitle: GLP-1 receptor agonists(GLP-1 RA)與 GIP/GLP-1 雙重促效劑
 aliases: [GLP-1 RA, GLP1, 腸泌素類似物, Incretin mimetics, Exenatide, Liraglutide, Dulaglutide, Semaglutide, Tirzepatide, 瘦瘦針]
 dzTags: [糖尿病]
+system: endocrine
+alsoIn: [cardiovascular]
+group: antidiabetics
 reviewed: false
 updated: 2026-09-25
 references:

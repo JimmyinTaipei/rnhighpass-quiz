@@ -3,6 +3,7 @@ title: 糖尿病
 subtitle: Diabetes mellitus(DM)
 aliases: [DM, 第一型糖尿病, 第二型糖尿病, 妊娠糖尿病, T1DM, T2DM, GDM]
 dzTags: [糖尿病, 第一型糖尿病, 第二型糖尿病, 妊娠糖尿病, 糖尿病酮酸中毒]
+system: endocrine
 reviewed: false
 updated: 2026-09-25
 references:
@@ -310,6 +311,8 @@ references:
 | [[sglt2-inhibitors\|SGLT2 抑制劑]] | Empagliflozin、Dapagliflozin | ↑尿糖排出 | 少 | ↓ |
 | [[glp1-receptor-agonists\|GLP-1 受體促效劑]] | Liraglutide、Semaglutide、Dulaglutide | ↑胰島素、↓升糖素、延緩胃排空 | 少 | **↓↓** |
 | [[insulin\|胰島素]] | RI、NPH、Glargine 等 | 直接補充 | **高** | ↑ |
+
+::questions{group="antidiabetics" limit="10"}
 
 各類藥物重點(內容來自各藥物頁,點標題可前往):
 

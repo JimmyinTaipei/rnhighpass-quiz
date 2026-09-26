@@ -1,0 +1,166 @@
+# 知識庫受控分類表
+#
+# 這是知識庫「分類」的唯一來源。每篇文章的 frontmatter 只能引用這裡有的 id:
+#   system: <domain id>        必填,主分類
+#   alsoIn: [<domain id>, ...] 選填,次分類(會出現在該分類清單並標「也見於」)
+#   group:  <group id>         選填,必須是主分類底下、且 type 與文章資料夾相符的群組
+# 寫錯或不存在時 `pnpm knowledge:build` 會失敗並列出可用的 id——這是防止 junk tag 的機制。
+#
+# ── 怎麼選 system ─────────────────────────────────────────────
+# 1. 先看器官系統(kind: system,對應題庫十大 block: 標籤)。
+# 2. 精神疾病與精神科用藥 → psychiatric;體液/電解質/酸鹼 → fluid-acid-base;
+#    病原體與抗微生物藥 → infection(即使感染部位在某器官,如肺炎仍放 respiratory,
+#    但「抗生素」「結核病藥」這類以病原為中心的內容放 infection)。
+# 3. 分不出器官系統的護理技術、行政、社區內容 → 用科目(kind: subject)。
+# 4. 跨多系統時選「國考最常從哪個系統考」為主,其他放 alsoIn。
+#
+# ── 新增 domain 或 group 的流程 ────────────────────────────────
+# - 先確認現有的放不下,再新增;id 用小寫英文與 -,一旦有文章使用就不要改名。
+# - group 的 drugTags 列出題庫 drug 標籤(Tag_List_and_Statistics.md 第三節)中
+#   所有同義詞,::questions{group="..."} 會用它們查題。
+# - 沒有文章的 domain/group 會在首頁顯示成「即將加入」或不顯示,不影響使用。
+#
+# ── 分章題本 → domain 對照(依 hierarchy_question_counts.md) ─────
+# 生解 Ch05 神經、Ch06 感覺 → neuro;Ch07 血液心血管淋巴 → cardiovascular / hematology-immunology
+# 生解 Ch08 → respiratory;Ch09 → digestive;Ch10 → renal;Ch11 → fluid-acid-base
+# 生解 Ch12 → endocrine;Ch13、Ch14 → reproductive;Ch02 → integumentary;Ch03、Ch04 → musculoskeletal
+# 病理 Ch09~Ch18 依器官;Ch05 免疫、Ch10 血液 → hematology-immunology;Ch08 感染 → infection
+# 藥理 Ch02 自主神經、Ch04 止痛麻醉 → neuro;Ch03 中樞與精神科 → neuro(抗癲癇、巴金森)/ psychiatric(抗精神病、抗憂鬱等)
+# 藥理 Ch05 → respiratory;Ch06 → digestive;Ch07 → renal;Ch08 → cardiovascular;Ch09 → hematology-immunology
+# 藥理 Ch10 → endocrine;Ch11 → infection;Ch12 → hematology-immunology(癌症藥暫放此,量多時再開 oncology)
+# 微免 → infection(Ch02、Ch03 免疫 → hematology-immunology)
+# 內外 Ch04 → fluid-acid-base;Ch05 → infection;其餘依器官;Ch03 癌症、Ch06 急重症 → 依主要器官或 fundamentals
+# 產科 → reproductive;兒科依器官(Ch02 生長發展 → fundamentals)
+# 精神 → psychiatric;社區 → community;基護 → fundamentals;行政 → administration
+
+types:
+  disease: 疾病
+  physiology: 生理機轉
+  drug: 藥物
+  lab: 檢驗
+
+domains:
+  # ===== 器官系統(對應題庫 block: 十大系統) =====
+  - id: neuro
+    name: 神經系統
+    kind: system
+    blockTag: 神經
+    groups:
+      - { id: antiepileptics, name: 抗癲癇藥, type: drug, drugTags: [抗癲癇用藥, 癲癇用藥] }
+      - { id: antiparkinson, name: 巴金森氏症用藥, type: drug, drugTags: [巴金森氏症用藥, 巴金森氏病用藥, 帕金森氏症用藥, 抗帕金森氏症用藥] }
+      - { id: analgesics-anesthetics, name: 止痛與麻醉藥, type: drug, drugTags: [止痛用藥, 止痛藥, 止痛藥物, 鎮痛藥, 麻醉用藥, 麻醉藥物, 麻醉止痛用藥, 鴉片類止痛劑, 鴉片類止痛藥, 局部麻醉藥, 局部麻醉用藥, 局部麻醉劑] }
+      - { id: autonomic-drugs, name: 自主神經藥物, type: drug, drugTags: [自主神經系統用藥, 自主神經用藥, 抗膽鹼酯酶藥物, 乙醯膽鹼酯酶抑制劑, 神經肌肉阻斷劑] }
+
+  - id: hematology-immunology
+    name: 血液與免疫系統
+    kind: system
+    blockTag: 血液免疫
+    groups:
+      - { id: antithrombotics, name: 抗凝血與抗血栓藥, type: drug, drugTags: [抗凝血用藥, 抗凝血劑, 抗凝血劑用藥, 抗血小板用藥, 抗血小板藥物, 抗血栓用藥, 血栓溶解劑, 血栓溶解用藥] }
+      - { id: antianemics, name: 貧血用藥, type: drug, drugTags: [貧血用藥, 抗貧血用藥] }
+      - { id: immunomodulators, name: 免疫製劑與免疫抑制劑, type: drug, drugTags: [免疫製劑, 免疫抑制劑, 免疫抑制用藥] }
+      - { id: antineoplastics, name: 抗腫瘤藥, type: drug, drugTags: [抗腫瘤用藥, 抗腫瘤藥物, 化學治療藥物, 化學治療用藥, 癌症用藥, 癌症化學治療用藥] }
+      - { id: coagulation-labs, name: 凝血與血球檢驗, type: lab }
+
+  - id: reproductive
+    name: 生殖系統(含產科)
+    kind: system
+    blockTag: 生殖
+    groups:
+      - { id: obstetric-drugs, name: 產科用藥, type: drug, drugTags: [子宮收縮劑, 子宮收縮用藥, 催產用藥, 安胎藥物, 婦產科用藥, 婦科用藥] }
+      - { id: contraceptives, name: 避孕藥, type: drug, drugTags: [避孕用藥, 避孕藥] }
+
+  - id: digestive
+    name: 消化系統
+    kind: system
+    blockTag: 消化
+    groups:
+      - { id: gi-drugs, name: 消化系統用藥, type: drug, drugTags: [消化性潰瘍用藥, 消化系統用藥, 制酸劑, 便秘用藥, 瀉劑, 止吐劑, 肝病用藥, 降血氨用藥] }
+
+  - id: cardiovascular
+    name: 心臟血管系統
+    kind: system
+    blockTag: 心血管
+    groups:
+      - { id: antihypertensives, name: 抗高血壓藥, type: drug, drugTags: [抗高血壓用藥, 高血壓用藥, 降血壓用藥] }
+      - { id: heart-failure-drugs, name: 心衰竭用藥, type: drug, drugTags: [心衰竭用藥, 心臟衰竭用藥, 強心劑用藥, 強心劑, 強心配醣體, 毛地黃製劑, 強心升壓藥物, 升壓藥] }
+      - { id: antianginals, name: 抗心絞痛藥, type: drug, drugTags: [心絞痛用藥, 抗心絞痛用藥, 狹心症用藥] }
+      - { id: antiarrhythmics, name: 抗心律不整藥, type: drug, drugTags: [抗心律不整用藥, 心律不整用藥] }
+      - { id: lipid-lowering, name: 降血脂藥, type: drug, drugTags: [降血脂用藥, 高血脂用藥] }
+      - { id: cardiac-labs, name: 心臟相關檢驗, type: lab }
+
+  - id: respiratory
+    name: 呼吸系統
+    kind: system
+    blockTag: 呼吸
+    groups:
+      - { id: respiratory-drugs, name: 氣喘與呼吸道用藥, type: drug, drugTags: [抗氣喘用藥, 呼吸系統用藥, 呼吸道用藥, 支氣管擴張劑, 呼吸刺激劑] }
+
+  - id: endocrine
+    name: 內分泌與代謝
+    kind: system
+    blockTag: 內分泌
+    groups:
+      - { id: antidiabetics, name: 降血糖藥, type: drug, drugTags: [糖尿病用藥, 降血糖用藥] }
+      - { id: glucose-labs, name: 血糖相關檢驗, type: lab }
+      - { id: thyroid-drugs, name: 甲狀腺用藥, type: drug, drugTags: [甲狀腺疾病用藥, 甲狀腺用藥] }
+      - { id: corticosteroids, name: 類固醇, type: drug, drugTags: [類固醇用藥, 類固醇製劑, 腎上腺皮質類固醇, 腎上腺皮質類固醇用藥] }
+
+  - id: renal
+    name: 泌尿系統(腎臟)
+    kind: system
+    blockTag: 泌尿
+    groups:
+      - { id: diuretics, name: 利尿劑, type: drug, drugTags: [利尿劑, 利尿劑用藥] }
+      - { id: renal-labs, name: 腎功能檢驗, type: lab }
+
+  - id: musculoskeletal
+    name: 骨骼肌肉系統
+    kind: system
+    blockTag: 骨骼肌肉
+    groups:
+      - { id: gout-drugs, name: 痛風用藥, type: drug, drugTags: [痛風用藥] }
+
+  - id: integumentary
+    name: 皮膚系統
+    kind: system
+    blockTag: 皮膚
+
+  # ===== 跨系統 =====
+  - id: psychiatric
+    name: 精神疾病
+    kind: cross
+    blockTag: 神經
+    groups:
+      - { id: antipsychotics, name: 抗精神病藥, type: drug, drugTags: [抗精神病藥物, 抗精神病用藥, 抗精神病藥] }
+      - { id: antidepressants, name: 抗憂鬱藥, type: drug, drugTags: [抗憂鬱用藥, 抗憂鬱藥物, 抗憂鬱劑, 憂鬱症用藥] }
+      - { id: mood-stabilizers, name: 情緒穩定劑, type: drug, drugTags: [情緒穩定劑] }
+      - { id: anxiolytics-hypnotics, name: 抗焦慮與鎮靜安眠藥, type: drug, drugTags: [抗焦慮用藥, 鎮靜安眠藥, 鎮靜催眠藥, 鎮靜安眠用藥, 鎮靜催眠用藥, 安眠鎮靜用藥] }
+
+  - id: fluid-acid-base
+    name: 體液、電解質與酸鹼
+    kind: cross
+    groups:
+      - { id: acid-base-labs, name: 酸鹼與電解質檢驗, type: lab }
+
+  - id: infection
+    name: 感染
+    kind: cross
+    groups:
+      - { id: antibiotics, name: 抗生素, type: drug, drugTags: [抗生素用藥, 抗感染用藥, 泌尿道感染用藥] }
+      - { id: antituberculars, name: 抗結核藥, type: drug, drugTags: [抗結核病用藥, 抗結核用藥, 抗結核藥物] }
+      - { id: antivirals, name: 抗病毒藥, type: drug, drugTags: [抗病毒用藥, 抗病毒藥物] }
+      - { id: antifungals, name: 抗黴菌藥, type: drug, drugTags: [抗真菌用藥, 抗黴菌用藥, 抗黴菌藥物] }
+
+  # ===== 科目(分不出器官系統時使用) =====
+  - id: fundamentals
+    name: 基本護理
+    kind: subject
+
+  - id: administration
+    name: 護理行政
+    kind: subject
+
+  - id: community
+    name: 社區衛生
+    kind: subject

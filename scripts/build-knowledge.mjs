@@ -8,7 +8,9 @@
 //   ## 標題 {#id}             每個標題都是可被連結的知識點
 //   [[slug]] / [[slug#id|文字]] 行內連結
 //   ![[slug#id]]              嵌入(獨立一行),內容只存在來源頁
-//   ::questions{tag="" keyword="" ids="" limit=""}   相關考題
+//   ::questions{tag="" keyword="" drug="" group="" ids="" limit=""}   相關考題
+//
+// 分類(system / alsoIn / group)只能用 content/knowledge/taxonomy.yml 裡定義的 id。
 //   :::tip[標題] ... :::       提示框(tip / exam / warning / note)
 
 import fs from "node:fs";
@@ -29,6 +31,9 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT_DIR = path.join(ROOT, "content/knowledge");
 const OUT_DIR = path.join(ROOT, "src/data/knowledge");
 const CREDITS_FILE = path.join(ROOT, "public/knowledge-images/credits.json");
+const TAXONOMY_FILE = path.join(CONTENT_DIR, "taxonomy.yml");
+// 與 /learn 底下的靜態路由撞名的 slug
+const RESERVED_SLUGS = new Set(["system"]);
 
 const CATEGORIES = ["disease", "physiology", "drug", "lab"];
 const CALLOUTS = ["tip", "exam", "warning", "note"];
@@ -62,7 +67,8 @@ function listMarkdown(dir) {
   if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((d) => {
     const p = path.join(dir, d.name);
-    if (d.isDirectory()) return listMarkdown(p);
+    // _templates 等底線開頭的資料夾是寫作範本,不是文章
+    if (d.isDirectory()) return d.name.startsWith("_") ? [] : listMarkdown(p);
     return d.name.endsWith(".md") && d.name !== "README.md" ? [p] : [];
   });
 }
@@ -129,6 +135,8 @@ function transformDirectives(file, tree) {
           hProperties: {
             tag: a.tag ?? "",
             keyword: a.keyword ?? "",
+            drug: a.drug ?? "",
+            group: a.group ?? "",
             ids: a.ids ?? "",
             limit: a.limit ?? "",
           },
@@ -215,6 +223,7 @@ function parseArticle(file) {
   const category = path.basename(path.dirname(file));
 
   if (!/^[a-z0-9][a-z0-9-]*$/.test(slug)) fail(file, `slug 只能用小寫英數與 -:${slug}`);
+  if (RESERVED_SLUGS.has(slug)) fail(file, `slug「${slug}」是保留字(與 /learn/${slug}/ 路由衝突)`);
   if (!CATEGORIES.includes(category)) fail(file, `資料夾必須是 ${CATEGORIES.join("/")}`);
   if (!data.title) fail(file, "frontmatter 缺 title");
 
@@ -287,6 +296,9 @@ function parseArticle(file) {
     subtitle: data.subtitle ?? null,
     aliases: data.aliases ?? [],
     dzTags: data.dzTags ?? [],
+    system: data.system ?? null,
+    alsoIn: data.alsoIn ?? [],
+    group: data.group ?? null,
     reviewed: data.reviewed === true,
     updated: data.updated ? String(data.updated) : null,
     references: data.references ?? [],
@@ -305,7 +317,8 @@ function walkSections(sections, fn, ancestors = []) {
 }
 
 /** 摘要:純文字,略過嵌入與考題區塊 */
-function summarize(hast) {
+/** 純文字(略過嵌入與考題);預覽摘要與全文搜尋共用 */
+function plainText(hast) {
   const clone = structuredClone(hast);
   visit(clone, "element", (node, index, parent) => {
     if (["k-embed", "k-questions"].includes(node.tagName)) {
@@ -317,7 +330,11 @@ function summarize(hast) {
   visit(clone, "element", (node) => {
     if (BLOCK_SEPARATORS.has(node.tagName)) node.children.push({ type: "text", value: node.tagName === "td" || node.tagName === "th" ? " " : ";" });
   });
-  const text = hastToString(clone).replace(/\s+/g, " ").replace(/\s*;/g, ";").replace(/([。;:!?])\s*;/g, "$1").replace(/^[;\s]+|[;\s]+$/g, "").trim();
+  return hastToString(clone).replace(/\s+/g, " ").replace(/\s*;/g, ";").replace(/([。;:!?])\s*;/g, "$1").replace(/^[;\s]+|[;\s]+$/g, "").trim();
+}
+
+function summarize(hast) {
+  const text = plainText(hast);
   return text.length > SUMMARY_LEN ? text.slice(0, SUMMARY_LEN) + "…" : text;
 }
 
@@ -336,6 +353,9 @@ function buildIndex(articles) {
       category: a.category,
       aliases: a.aliases,
       dzTags: a.dzTags,
+      system: a.system,
+      alsoIn: a.alsoIn,
+      group: a.group,
       reviewed: a.reviewed,
       summary: "", // 連結文字補完後才算,見函式最後
       sectionCount: count,
@@ -468,7 +488,7 @@ function collectEmbeds(article, articlesBySlug, index) {
 
 // ---------- 考題欄位 ----------
 
-function assignQuestionSlots(article) {
+function assignQuestionSlots(article, taxonomy) {
   const slots = [];
   const handle = (hast, key) => {
     let n = 0;
@@ -478,10 +498,21 @@ function assignQuestionSlots(article) {
       const qkey = n === 1 ? key : `${key}~${n}`;
       node.properties.qkey = qkey;
       const p = node.properties;
-      if (!p.tag && !p.keyword && !p.ids) fail(article.file, `::questions 至少要有 tag/keyword/ids 其一(${qkey})`);
+      if (!p.tag && !p.keyword && !p.ids && !p.drug && !p.group) {
+        fail(article.file, `::questions 至少要有 tag/keyword/drug/group/ids 其一(${qkey})`);
+      }
+      // group 展開成該群組在 taxonomy 登記的所有 drug 標籤同義詞
+      let drug = p.drug ? String(p.drug).split("|").map((t) => t.trim()).filter(Boolean) : [];
+      if (p.group) {
+        const g = taxonomy.groups.get(String(p.group));
+        if (!g) fail(article.file, `::questions 的 group「${p.group}」不存在於 taxonomy.yml`);
+        else if (!g.drugTags?.length) fail(article.file, `group「${p.group}」沒有登記 drugTags,無法查題`);
+        else drug = [...new Set([...drug, ...g.drugTags])];
+      }
       slots.push({
         qkey,
         tag: p.tag || null,
+        drug: drug.length ? drug : null,
         keyword: p.keyword || null,
         ids: p.ids ? String(p.ids).split(",").map((s) => s.trim()).filter(Boolean) : [],
         limit: p.limit ? Number(p.limit) : null,
@@ -516,15 +547,120 @@ function checkImages(articles) {
   return credits;
 }
 
+// ---------- 分類 ----------
+
+function loadTaxonomy() {
+  if (!fs.existsSync(TAXONOMY_FILE)) {
+    fail(TAXONOMY_FILE, "找不到分類表");
+    return { types: {}, domains: [], byId: new Map(), groups: new Map() };
+  }
+  const raw = YAML.parse(fs.readFileSync(TAXONOMY_FILE, "utf8"));
+  const domains = raw.domains ?? [];
+  const byId = new Map();
+  const groups = new Map();
+  for (const d of domains) {
+    if (byId.has(d.id)) fail(TAXONOMY_FILE, `domain id 重複:${d.id}`);
+    if (!["system", "cross", "subject"].includes(d.kind)) fail(TAXONOMY_FILE, `domain ${d.id} 的 kind 必須是 system/cross/subject`);
+    byId.set(d.id, d);
+    for (const g of d.groups ?? []) {
+      if (groups.has(g.id)) fail(TAXONOMY_FILE, `group id 重複:${g.id}`);
+      if (!CATEGORIES.includes(g.type)) fail(TAXONOMY_FILE, `group ${g.id} 的 type 必須是 ${CATEGORIES.join("/")}`);
+      groups.set(g.id, { ...g, domain: d.id });
+    }
+  }
+  return { types: raw.types ?? {}, domains, byId, groups };
+}
+
+function validateClassification(articles, taxonomy) {
+  const ids = [...taxonomy.byId.keys()].join(", ");
+  for (const a of articles) {
+    if (!a.system) {
+      fail(a.file, `frontmatter 缺 system(可用:${ids})`);
+      continue;
+    }
+    if (!taxonomy.byId.has(a.system)) fail(a.file, `system「${a.system}」不存在(可用:${ids})`);
+    for (const d of a.alsoIn) {
+      if (!taxonomy.byId.has(d)) fail(a.file, `alsoIn「${d}」不存在(可用:${ids})`);
+      if (d === a.system) fail(a.file, `alsoIn 不需要重複主系統 ${d}`);
+    }
+    if (a.group) {
+      const g = taxonomy.groups.get(a.group);
+      const allowed = (taxonomy.byId.get(a.system)?.groups ?? [])
+        .filter((x) => x.type === a.category)
+        .map((x) => x.id)
+        .join(", ") || "(無)";
+      if (!g || g.domain !== a.system || g.type !== a.category) {
+        fail(a.file, `group「${a.group}」不屬於 ${a.system} 的 ${a.category} 群組(可用:${allowed})`);
+      }
+    }
+  }
+}
+
+/** 給前端的分類表:名稱、排序、每個 domain / group 的頁數 */
+function taxonomyOutput(taxonomy, articles) {
+  const count = (pred) => articles.filter(pred).length;
+  return {
+    types: taxonomy.types,
+    domains: taxonomy.domains.map((d) => ({
+      id: d.id,
+      name: d.name,
+      kind: d.kind,
+      blockTag: d.blockTag ?? null,
+      primaryCount: count((a) => a.system === d.id),
+      alsoCount: count((a) => a.alsoIn.includes(d.id)),
+      groups: (d.groups ?? []).map((g) => ({
+        id: g.id,
+        name: g.name,
+        type: g.type,
+        count: count((a) => a.group === g.id),
+      })),
+    })),
+  };
+}
+
+/**
+ * 全文搜尋索引(只在 server 端使用):每篇與每個知識點的標題、別名/麵包屑、內文純文字。
+ * 內文只取該段自己的內容(不含子段落),命中時才能準確指到那一段。
+ */
+function searchOutput(articles, index) {
+  const out = [];
+  for (const a of articles) {
+    out.push({
+      k: a.slug,
+      t: a.title,
+      s: [a.subtitle, ...a.aliases].filter(Boolean).join(" "),
+      c: a.category,
+      d: a.system,
+      b: plainText(a.intro),
+    });
+    walkSections(a.sections, (sec) => {
+      const key = `${a.slug}#${sec.id}`;
+      const meta = index.sections[key];
+      out.push({
+        k: key,
+        t: sec.title,
+        s: [meta.articleTitle, ...meta.path].join(" › "),
+        c: a.category,
+        d: a.system,
+        n: sec.number,
+        b: plainText(sec.content),
+      });
+    });
+  }
+  return out;
+}
+
 // ---------- main ----------
 
 function main() {
   const files = listMarkdown(CONTENT_DIR);
   const articles = files.map(parseArticle);
+  const taxonomy = loadTaxonomy();
+  validateClassification(articles, taxonomy);
   const articlesBySlug = new Map(articles.map((a) => [a.slug, a]));
   const index = buildIndex(articles);
   const credits = checkImages(articles);
-  const slots = articles.flatMap(assignQuestionSlots);
+  const slots = articles.flatMap((a) => assignQuestionSlots(a, taxonomy));
 
   const outputs = articles.map((a) => ({
     slug: a.slug,
@@ -535,6 +671,9 @@ function main() {
       category: a.category,
       aliases: a.aliases,
       dzTags: a.dzTags,
+      system: a.system,
+      alsoIn: a.alsoIn,
+      group: a.group,
       reviewed: a.reviewed,
       updated: a.updated,
       references: a.references,
@@ -558,6 +697,8 @@ function main() {
   fs.writeFileSync(path.join(OUT_DIR, "index.json"), JSON.stringify(index));
   fs.writeFileSync(path.join(OUT_DIR, "question-slots.json"), JSON.stringify(slots, null, 2) + "\n");
   fs.writeFileSync(path.join(OUT_DIR, "credits.json"), JSON.stringify(credits));
+  fs.writeFileSync(path.join(OUT_DIR, "taxonomy.json"), JSON.stringify(taxonomyOutput(taxonomy, articles)));
+  fs.writeFileSync(path.join(OUT_DIR, "search.json"), JSON.stringify(searchOutput(articles, index)));
 
   const mapFile = path.join(OUT_DIR, "question-map.json");
   if (!fs.existsSync(mapFile)) fs.writeFileSync(mapFile, "{}\n");
