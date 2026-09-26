@@ -7,12 +7,12 @@ system: cardiovascular
 alsoIn: [neuro, renal]
 group: antihypertensives
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: 2022 Guidelines of the Taiwan Society of Cardiology and the Taiwan Hypertension Society for the Management of Hypertension(台灣心臟學會/台灣高血壓學會 2022 高血壓治療指引). Acta Cardiol Sin 2022;38:225–325
-    url: https://pubmed.ncbi.nlm.nih.gov/35673334/
+    url: https://doi.org/10.6515/ACS.202205_38%283%29.20220321A
   - title: 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults. Circulation 2025
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
+    url: https://doi.org/10.1161/CIR.0000000000001356
   - title: Endocrine Society Clinical Practice Guideline — Pheochromocytoma and Paraganglioma(2014)
     url: https://academic.oup.com/jcem/article/99/6/1915/2537399
   - title: OpenStax. Pharmacology for Nurses, Adrenergic Antagonists(CC BY-NC-SA 4.0)
@@ -45,11 +45,11 @@ references:
 | **Terazosin**(Hytrin) | 一天一次;高血壓與 BPH |
 | Tamsulosin(Harnalidge)、Silodosin | **α1A 選擇性**,主要作用在前列腺,**只用於 BPH、不當降壓藥**;較少低血壓,但會造成射精異常、白內障手術的「虹膜鬆弛症候群」 |
 | Phenoxybenzamine | **非選擇性、不可逆** α 阻斷;**嗜鉻細胞瘤術前**準備 |
-| Phentolamine | 非選擇性、可逆、靜脈注射;嗜鉻細胞瘤高血壓危象、**正腎上腺素等升壓劑外滲**時局部浸潤注射 |
+| Phentolamine | 非選擇性、可逆、靜脈注射;兒茶酚胺過多引起的高血壓急症(嗜鉻細胞瘤、MAO 抑制劑交互作用、古柯鹼/安非他命、clonidine 戒斷)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e182)、**正腎上腺素等升壓劑外滲**時局部浸潤注射 |
 
 ## 適應症 {#indications}
 
-- **高血壓**:2022 台灣指引與 2025 AHA/ACC 指引都**不列為第一線**(ALLHAT 試驗中 doxazosin 組心衰竭較多);用於頑固型高血壓的附加藥,或**合併 BPH** 的男性(見 [[hypertension]])。
+- **高血壓**:2022 台灣指引與 2025 AHA/ACC 指引都**不列為第一線**(ALLHAT 試驗中 doxazosin 組心衰竭較多)(來源:[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.274);用於頑固型高血壓無法使用 MRA 時的附加藥(2025 AHA/ACC COR 2a),或**合併症狀性 BPH** 的男性作為第二線藥(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e151、e176)(見 [[hypertension]])。
 - **良性前列腺肥大(BPH)**:改善頻尿、尿流細弱、排尿困難(注意:治療膀胱過動、急迫性尿失禁的是抗膽鹼藥如 oxybutynin,不是 α 阻斷劑)。
 - **嗜鉻細胞瘤**:術前 10–14 天先用 α 阻斷劑(phenoxybenzamine 或 doxazosin 等)並補充體液與鹽分,**α 阻斷充分後才加 β 阻斷劑**(見 [[beta-blockers]])。
 - 其他:prazosin 用於 PTSD 惡夢(仿單外)。
@@ -62,7 +62,7 @@ references:
 
 | 副作用 | 說明與處置 |
 |---|---|
-| **首劑現象**(first-dose phenomenon) | 第一次服藥或加量後 30–90 分鐘內出現**姿勢性低血壓、頭暈、暈厥**;已用利尿劑、β 阻斷劑、脫水、老人風險較高 → **低劑量開始、睡前服用**、起身慢 |
+| **首劑現象**(first-dose phenomenon) | 第一次服藥或加量後 30–90 分鐘內出現**姿勢性低血壓、頭暈、暈厥**;已用利尿劑、β 阻斷劑、脫水、**老人**風險較高(2025 AHA/ACC 特別提醒老人首劑血壓降幅較大)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e151) → **低劑量開始、睡前服用**、起身慢 |
 | 持續性姿勢性低血壓、頭暈 | 老人跌倒風險 ↑ |
 | 反射性心搏過速、心悸 | 血壓下降所致(比非選擇性 α 阻斷劑輕) |
 | 鼻塞、頭痛、倦怠 | 血管擴張 |

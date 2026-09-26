@@ -9,8 +9,10 @@ group: antithrombotics
 reviewed: false
 updated: 2026-09-25
 references:
+  - title: 臺中榮民總醫院埔里分院藥劑科:抗凝血藥與抗血小板藥手術前後停用時間建議表(2026.06.19 修訂)
+    url: https://www.pulivh.gov.tw/UploadFiles/WebFiles/WebPagesFiles/Files/0fb9c2db-631c-4590-9c69-929ac822d1e7/抗凝血藥與抗血小板藥手術前後停用時間建議表%2020260619.pdf
   - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001309
+    url: https://doi.org/10.1161/CIR.0000000000001309
   - title: 2025 American Heart Association Guidelines for CPR and Emergency Cardiovascular Care
     url: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines
   - title: 2023 ESC Guidelines for the management of acute coronary syndromes
@@ -27,10 +29,10 @@ references:
 ## 重點摘要 {#summary}
 
 - 機轉:抑制**血小板活化與凝集** → 預防**動脈血栓**(冠狀動脈、腦動脈、支架)。**不會溶解**已形成的血栓,也不降低心肌耗氧量。
-- **Aspirin**:**不可逆**抑制 COX-1 → 血栓素 A₂(TXA₂)↓;懷疑 ACS 時**嚼碎 162–325 mg**,之後每日低劑量 75–100 mg。
-- **P2Y12 抑制劑**(clopidogrel、ticagrelor、prasugrel)+ aspirin = **雙重抗血小板(DAPT)**;放支架後**不可自行停藥**(支架血栓)。
+- **Aspirin**:**不可逆**抑制 COX-1 → 血栓素 A₂(TXA₂)↓;懷疑 ACS 時**嚼碎 162–325 mg**,之後每日低劑量 75–100 mg(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
+- **P2Y12 抑制劑**(clopidogrel、ticagrelor、prasugrel)+ aspirin = **雙重抗血小板(DAPT)**,ACS 預設**至少 12 個月**(可依出血風險在 1 個月後改單一藥物,見 [[#dapt]]);放支架後**不可自行停藥**(支架血栓)。
 - 副作用:**出血**、**腸胃道潰瘍出血**;兒童病毒感染時用 aspirin 可致 **Reye 症候群**。
-- 手術、拔牙前告知醫師,由醫師決定是否及何時停藥(aspirin、clopidogrel 約 5–7 天)。
+- 手術、拔牙前告知醫師,由醫師決定是否及何時停藥(參考:aspirin 3–10 天、clopidogrel 5 天,見 [[#nursing]])。
 
 ## 作用機轉 {#mechanism}
 
@@ -58,9 +60,9 @@ references:
 
 | 項目 | 內容 |
 |---|---|
-| 懷疑 ACS 時 | **嚼碎** 162–325 mg(**非腸溶錠**,嚼碎吸收最快);無過敏、近期無腸胃出血者,EMS 或派遣員可指導先嚼服 |
-| 長期 | 75–100 mg 每日一次(台灣常用 100 mg),**終身**用於冠心病、缺血性中風/TIA、周邊動脈疾病的次級預防 |
-| 併用 ticagrelor | aspirin 維持劑量須 **≤ 100 mg** |
+| 懷疑 ACS 時 | **嚼碎** 162–325 mg(**非腸溶錠**,嚼碎吸收最快),不論之後採侵入或非侵入治療都儘快給;**已在服用 aspirin 者仍要給負荷劑量**;無法口服者可肛門塞劑或靜脈(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309));無過敏、近期無腸胃出血者,EMS 或派遣員可指導先嚼服 |
+| 長期 | 75–100 mg 每日一次(台灣常用 100 mg;ACS 後維持高劑量 300–325 mg 無益反增出血,同上來源),傳統上**終身**用於冠心病、缺血性中風/TIA、周邊動脈疾病的次級預防(2025 ACS 指引:部分病人 1–3 個月後可改為停 aspirin、保留 P2Y12 抑制劑,同上來源) |
+| 併用 ticagrelor | aspirin 維持劑量須 **≤ 100 mg**(同上來源) |
 | 腸溶錠 | 減少直接刺激胃,但**不能**完全避免潰瘍(抑制前列腺素是全身性的);不可咬碎 |
 | 兒童 | 除**川崎氏症**等特殊醫囑外,**18 歲以下病毒感染(流感、水痘)發燒時不可使用** → Reye 症候群 |
 
@@ -70,9 +72,9 @@ references:
 
 | 藥物 | 特色 |
 |---|---|
-| **Clopidogrel**(Plavix) | **前驅藥**,須經肝臟 **CYP2C19** 活化 → 此酵素活性低(弱代謝者)者效果差;不可逆;負荷 300–600 mg,維持 75 mg 每日一次;**omeprazole、esomeprazole 會降低活化**,需胃保護時改用 pantoprazole |
-| **Ticagrelor**(Brilinta) | **不是**前驅藥、**可逆**;每日兩次;副作用**呼吸困難**、心跳過慢、尿酸↑;ACS 首選之一 |
-| **Prasugrel**(Efient) | 前驅藥、不可逆、作用強;**曾中風/TIA 者禁用**;≥ 75 歲或體重 < 60 kg 小心或減量 |
+| **Clopidogrel**(Plavix) | **前驅藥**,須經肝臟 **CYP2C19** 活化 → 此酵素活性低(弱代謝者)者效果差;不可逆;ACS 負荷 300 或 600 mg,維持 75 mg 每日一次;**合併血栓溶解劑**時 ≤ 75 歲負荷 300 mg、> 75 歲首劑只給 75 mg(同上來源,僅供參考,以醫囑為準);**omeprazole、esomeprazole 會降低活化**,需胃保護時改用 pantoprazole |
+| **Ticagrelor**(Brilinta) | **不是**前驅藥、**可逆**;負荷 180 mg,維持 90 mg **每日兩次**;副作用**呼吸困難**(ACS 後約 10–15%,多為短暫)、心跳過慢、尿酸↑;ACS 首選之一(同上來源) |
+| **Prasugrel**(Efient) | 前驅藥、不可逆、作用強;用於**要做 PCI** 的 ACS;負荷 60 mg,維持 10 mg 每日一次(≥ 75 歲或體重 < 60 kg 減為 5 mg 並小心);**曾中風/TIA 者禁用**(淨臨床結果較差)(同上來源) |
 | Ticlopidine | 舊藥,嗜中性球減少、TTP,現已少用 |
 | Cangrelor | 靜脈、可逆、數分鐘內起效與消退,PCI 時使用 |
 
@@ -80,7 +82,7 @@ references:
 
 - **Dipyridamole**:PDE 抑制劑;與 aspirin 的複方用於缺血性中風預防;副作用頭痛、臉潮紅。
 - **Cilostazol**(Pletaal):PDE3 抑制劑,擴張周邊動脈,用於**間歇性跛行**;**心衰竭病人禁用**。
-- **GP IIb/IIIa 抑制劑**(eptifibatide、tirofiban;abciximab 為單株抗體,已少用):靜脈給予,用於 PCI 中血栓負荷大或無再流等「救援」情況,不再常規使用;副作用**出血**、**血小板減少**(需監測血小板)。
+- **GP IIb/IIIa 抑制劑**(eptifibatide、tirofiban;abciximab 為單株抗體,已少用):靜脈給予,用於 PCI 中血栓負荷大或無再流等「救援」情況,不再常規使用(同上來源);副作用**出血**、**血小板減少**(需監測血小板)。
 
 ## 適應症 {#indications}
 
@@ -95,12 +97,16 @@ references:
 
 | 情境 | 建議時間(依 2025 AHA/ACC ACS 指引、2023 ESC) |
 |---|---|
-| **ACS**(不論是否放支架) | aspirin + P2Y12 抑制劑,預設 **12 個月**;出血風險高者可在 1 個月後改為單一 P2Y12 抑制劑(常用 ticagrelor)或縮短 |
+| **ACS**(不論是否放支架) | 非高出血風險者:aspirin + P2Y12 抑制劑**至少 12 個月**(第 1 級建議)(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) |
+| ACS 做 PCI、能耐受 ticagrelor DAPT | **≥ 1 個月後停 aspirin,改 ticagrelor 單一治療**,以減少出血(第 1 級,**不限高出血風險者**)(同上來源) |
+| ACS 做 PCI、**高出血風險** | 1 個月後改**單一抗血小板**(aspirin 或 P2Y12 抑制劑)可考慮(第 2b 級)(同上來源) |
+| ACS 做 PCI | 1 個月後把 ticagrelor/prasugrel **降階**為 clopidogrel 可考慮(第 2b 級);clopidogrel 單一治療個體反應差異大,可能增加事件(同上來源) |
 | 穩定冠心病放支架(選擇性 PCI) | 通常 **6 個月**(出血風險高者 1–3 個月) |
 | DAPT 結束後 | 單一抗血小板(aspirin 或 clopidogrel)**長期** |
 
-- ACS 時 P2Y12 抑制劑以 **ticagrelor 或 prasugrel** 優於 clopidogrel(出血風險高或須合用口服抗凝劑時用 clopidogrel)。
-- 需要同時服用口服抗凝劑(如心房顫動)的人,放支架後通常只短期三合一,之後 **抗凝劑 + clopidogrel**,盡快停 aspirin,以減少出血。
+- ACS 時 P2Y12 抑制劑以 **ticagrelor 或 prasugrel** 優於 clopidogrel:要做 PCI 者兩者皆可;NSTE-ACS 不打算做導管者用 **ticagrelor**;**接受血栓溶解劑者用 clopidogrel**;ticagrelor/prasugrel 無法取得、不耐受或禁忌時用 clopidogrel(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
+- 腸胃出血高風險者,DAPT 或合用抗凝劑時**加 PPI**(第 1 級,同上來源)。
+- 需要同時服用口服抗凝劑(如心房顫動)的人,三合一只維持 **1–4 週**,之後停 aspirin,改 **口服抗凝劑(多數優先 DOAC)+ P2Y12 抑制劑(優先 clopidogrel)**,以減少出血(同上來源)。
 
 :::warning[支架後不可自行停藥]
 放了支架(尤其**藥物塗層支架**)後,在內皮覆蓋支架前**自行停用 P2Y12 抑制劑或 aspirin**,會引發**支架內血栓** → 急性心肌梗塞甚至猝死。
@@ -143,7 +149,21 @@ references:
 - Aspirin **飯後**配水服用,腸溶錠整粒吞;觀察腸胃不適、**黑便**、吐咖啡色物。
 - **出血衛教**:軟毛牙刷、電動刮鬍刀、避免碰撞;注意瘀青、牙齦出血、血尿、黑便;傷口加壓止血時間延長。
 - **不可自行停藥**(特別是支架後);漏吃想起來盡快補,接近下一次就跳過,不要吃兩倍。
-- 看牙、做侵入性檢查或手術前主動告知醫師;是否停藥由醫師決定。一般參考(CHEST 2022、2024 ACC/AHA 圍手術期指引):aspirin 約 **7 天**、clopidogrel、ticagrelor 約 **5 天**、prasugrel 約 **7 天**;冠心病病人小手術多半**不停 aspirin**。
+- 看牙、做侵入性檢查或手術前主動告知醫師;**是否停藥、停多久由開刀醫師與處方醫師共同決定**,先評估手術出血風險與停藥後的血栓風險(例如半年內放支架者)。參考時間(術前停用,手術當天不算):
+
+  | 藥物 | 中低出血風險手術 | 高出血風險手術 | 術後止血良好後恢復 |
+  |---|---|---|---|
+  | Aspirin | 3–7 天 | 7–10 天 | ≤ 48 小時 |
+  | Clopidogrel | 5 天 | 5 天 | 24–48 小時 |
+  | Ticagrelor | 3–5 天 | 3–5 天 | 24–48 小時 |
+  | Prasugrel | 7 天 | 7 天 | 24–48 小時 |
+  | Ticlopidine | 10–14 天 | 10–14 天 | 未有明確建議 |
+  | Cilostazol | 2–3 天 | 2–3 天 | 未有明確建議 |
+  | Dipyridamole | 2 天 | 2 天 | 未有明確建議 |
+
+  (來源:[臺中榮民總醫院埔里分院藥劑科:抗凝血藥與抗血小板藥手術前後停用時間建議表(2026.06.19 修訂)](https://www.pulivh.gov.tw/UploadFiles/WebFiles/WebPagesFiles/Files/0fb9c2db-631c-4590-9c69-929ac822d1e7/抗凝血藥與抗血小板藥手術前後停用時間建議表%2020260619.pdf))
+  - 極低出血風險處置(白內障、小型皮膚科或牙科處置)的高心血管風險病人,aspirin 可考慮**不停藥**(同上來源)。
+  - 對照:2025 ACC/AHA ACS 指引對**選擇性 CABG** 的建議與上表一致(clopidogrel 停 5 天、prasugrel 7 天、ticagrelor 3–5 天;緊急 CABG 至少停 24 小時即可考慮手術),術後出血風險不高時一般 **24–72 小時**恢復 P2Y12 抑制劑(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
 - **不要自行加買** aspirin 或 NSAID 止痛藥;兒童發燒不用 aspirin。
 - 出血性疾病(血友病、ITP、再生不良性貧血、化療後血小板低下)、登革熱、G-6-PD 缺乏症、痛風:止痛退燒改用 **acetaminophen**。
 - 心臟術後(CABG)發燒不要用 aspirin 退燒,以免加重引流出血,改用 acetaminophen。

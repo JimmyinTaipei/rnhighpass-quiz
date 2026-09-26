@@ -6,13 +6,17 @@ dzTags: []
 system: cardiovascular
 alsoIn: [renal]
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: OpenStax. Anatomy and Physiology 2e, Ch.20 The Cardiovascular System - Blood Vessels and Circulation(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考
   - title: Guyton and Hall Textbook of Medical Physiology, Nervous Regulation of the Circulation; Role of the Kidneys in Long-Term Control of Arterial Pressure
   - title: 2022 台灣高血壓學會/台灣心臟學會《高血壓治療指引》
-    url: https://www.tsoc.org.tw/
+    url: https://doi.org/10.6515/ACS.202205_38%283%29.20220321A
+  - title: 2025 AHA/ACC/Multisociety Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults
+    url: https://doi.org/10.1161/CIR.0000000000001356
+  - title: 2025 AHA Guidelines for CPR and ECC(指引摘要與心跳停止後照護流程圖)
+    url: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines
   - title: Surviving Sepsis Campaign - International Guidelines for Management of Sepsis and Septic Shock 2021
     url: https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines
 ---
@@ -55,7 +59,7 @@ references:
   - 140/80 mmHg:MAP = 80 + 60/3 = **100**。
   - 收縮壓 120、脈搏壓 30 → 舒張壓 90 → MAP = 90 + 10 = **100**。
 - 脈搏壓通常**小於**舒張壓;血壓由主動脈往小動脈逐漸下降,小動脈的壓力**明顯低於**主動脈,壓力降最大的就是小動脈段。
-- **MAP ≥ 65 mmHg 的意義**:腦、腎、冠狀動脈的自動調節大約在 MAP 60–150 mmHg 之間有效;MAP 低於約 60–65 時,器官血流會隨血壓下降 → 尿量減少、意識改變、乳酸上升。Surviving Sepsis Campaign 2021 建議敗血性休克以 **MAP ≥ 65 mmHg** 為初始目標,低灌流時第一小時內給予晶體溶液 **30 mL/kg**(不是 40 mL/kg、也不是 MAP ≥ 60)。
+- **MAP ≥ 65 mmHg 的意義**:腦、腎、冠狀動脈的自動調節大約在 MAP 60–150 mmHg 之間有效;MAP 低於約 60–65 時,器官血流會隨血壓下降 → 尿量減少、意識改變、乳酸上升。Surviving Sepsis Campaign 2021 建議敗血性休克以 **MAP ≥ 65 mmHg** 為初始目標,敗血症引起低灌流時在復甦的**前 3 小時內**給予至少 **30 mL/kg** 晶體溶液(2018 年的「1 小時組合照護」則要求 1 小時內**開始**快速輸注)(不是 40 mL/kg、也不是 MAP ≥ 60)。心跳停止恢復自發循環(ROSC)後,2025 AHA 同樣要求 **MAP 至少 65 mmHg**(來源:[2025 AHA CPR/ECC 指引摘要與心跳停止後照護流程圖](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines))。
 - 心跳速率下降、心搏量減少、周邊阻力下降 → 三者同向 → MAP 下降。
 
 **脈搏壓異常**:
@@ -154,7 +158,7 @@ references:
 - 只要腎臟功能與鹽分攝取不變,這個機制可以在數天內把血壓拉回同一個設定點,**力量沒有上限**,因此長期血壓主要由腎臟決定(Guyton 模型)。
 - 高血壓的本質可以理解成「腎臟需要更高的壓力才能排出同樣的鈉」——慢性腎臟病、高鹽飲食、RAAS 過度活化都會把設定點往上推。
 
-**藥物對應**:[[thiazide-diuretics|Thiazide]] 與 [[loop-diuretics|Loop 利尿劑]]直接增加排鈉;限鈉飲食(每日鈉 < 2 g)同樣作用在這個機制。
+**藥物對應**:[[thiazide-diuretics|Thiazide]] 與 [[loop-diuretics|Loop 利尿劑]]直接增加排鈉;限鈉飲食同樣作用在這個機制(2025 AHA/ACC:鈉 < 2,300 mg/天、理想 < 1,500 mg/天(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e141);2022 台灣指引:鈉 2–4 g/天(來源:[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.258))。
 **臨床對應**:[[hypertension]]、慢性腎臟病。
 
 ::questions{keyword="(利鈉|natriuretic|心衰竭.*代償|代償.*心衰竭)" limit="4"}
@@ -213,7 +217,7 @@ references:
 | **年齡** | 動脈彈性隨年齡下降 → **收縮壓上升**、脈搏壓變寬(不是變低);兒童血壓較低 |
 | **晝夜** | 睡眠時最低,清晨起床後快速上升(晨間高峰,心血管事件好發於早晨),傍晚較高 |
 | **姿勢** | 平躺、坐、站之間差異通常不大;由臥突然站起會暫時下降(姿位性低血壓)。測量時固定姿勢與手臂高度(與心臟同高) |
-| **運動** | 運動當下收縮壓上升;**規律有氧運動**長期可降血壓並提高 HDL。**等長運動**(舉重、用力閉氣)使血壓陡升,高血壓與心臟病人應避免 |
+| **運動** | 運動當下收縮壓上升;**規律有氧運動**長期可降血壓並提高 HDL。**等長運動**(舉重、用力閉氣)使血壓陡升,高血壓與心臟病人應避免(國考答案);新指引補充:低強度、不閉氣、有規劃的等長握力訓練長期反而可降收縮壓約 5–10 mmHg(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e142、e144) |
 | **情緒與疼痛** | 焦慮、生氣、疼痛、壓力 → 交感↑ → 血壓上升 |
 | **性別** | 停經前女性血壓通常低於同齡男性,停經後差距縮小 |
 | **溫度** | 寒冷 → 血管收縮 → 血壓上升;泡溫泉、熱水浴 → 周邊血管擴張 → 血壓下降、頭部血流減少而頭暈 |

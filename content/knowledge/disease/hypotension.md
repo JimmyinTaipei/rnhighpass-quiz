@@ -6,14 +6,18 @@ dzTags: [低血壓, 姿勢性低血壓, 姿位性低血壓, 姿態性低血壓, 
 system: cardiovascular
 alsoIn: [fundamentals]
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: Freeman R, et al. Consensus statement on the definition of orthostatic hypotension, neurally mediated syncope and the postural tachycardia syndrome(2011)
     url: https://doi.org/10.1007/s10286-011-0119-5
   - title: 2018 ESC Guidelines for the diagnosis and management of syncope
     url: https://www.escardio.org/Guidelines
-  - title: 2025 American Heart Association Guidelines for CPR and Emergency Cardiovascular Care(ACLS)
-    url: https://cpr.heart.org/
+  - title: 2025 American Heart Association Guidelines for CPR and Emergency Cardiovascular Care(指引摘要、心跳停止後照護與孕婦心跳停止流程圖)
+    url: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines
+  - title: 2025 AHA/ACC/Multisociety Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults
+    url: https://doi.org/10.1161/CIR.0000000000001356
+  - title: 2022 Taiwan Hypertension Guidelines(台灣心臟學會/台灣高血壓學會)
+    url: https://doi.org/10.6515/ACS.202205_38%283%29.20220321A
   - title: "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021"
     url: https://www.sccm.org/survivingsepsiscampaign
   - title: OpenStax. Fundamentals of Nursing; Medical-Surgical Nursing; Maternal-Newborn Nursing(CC BY-NC-SA 4.0)
@@ -64,7 +68,7 @@ references:
 ### 評估:姿勢性生命徵象 {#orthostatic-vitals}
 
 1. 病人**平躺 5 分鐘**後量血壓與脈搏。
-2. 協助**站起**(無法站可坐起),在 **1 分鐘與 3 分鐘**時各量一次。
+2. 協助**站起**(無法站可坐起),在 **1 分鐘與 3 分鐘**時各量一次(分別偵測典型與延遲型姿勢性低血壓)(來源:[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.238)。
 3. 比較:符合上述下降幅度即為陽性;若心跳增加 ≥ 30 次/分但血壓未降,需考慮體位性心搏過速症候群(POTS)或血量不足。
 4. 過程中有頭暈、要暈倒就立即讓病人躺下。
 
@@ -74,8 +78,8 @@ references:
 - 第一次下床前(產後、術後)先評估**生命徵象**與出血量,最好有人陪伴。
 - 發生頭暈:立即**坐下或躺下**,**頭部放低、抬高下肢**;在坐浴或泡澡時頭暈 → **停止坐浴**,協助身體前傾、頭低於心臟,不要讓病人直接站起走動。
 - 熱療/泡溫泉:時間勿過長(溫泉每次 ≤ 15 分鐘;溫水坐浴 15–20 分鐘、40–43 °C),起身要慢。全身用熱比局部用熱更容易造成低血壓。
-- 藥物:α₁ 阻斷劑**低劑量、睡前**開始;硝化甘油舌下含服時**坐下或躺下**;利尿劑早上服用;檢視並調整造成低血壓的藥物。
-- 慢性病人:足夠水分(無心衰竭、腎衰竭限水時)、適度增加鹽分(無高血壓時);穿**彈性襪**或腹帶;睡覺時床頭抬高約 10°;起床前先在床上活動手腳;避免長時間站立、飽餐後立刻起身與大量飲酒。
+- 藥物:α₁ 阻斷劑**低劑量、睡前**開始;硝化甘油舌下含服時**坐下或躺下**;利尿劑早上服用;檢視並調整造成低血壓的藥物。高血壓病人方面,2025 AHA/ACC 指出隨機試驗中積極降壓反而**降低**姿勢性低血壓風險,無症狀的姿勢性低血壓不必因此放寬收縮壓 < 130 的目標,開始或加藥後評估有無**症狀**即可(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e179–e180)。
+- 慢性病人:足夠水分(無心衰竭、腎衰竭限水時)、適度增加鹽分(無高血壓時;2025 AHA/ACC 也註明嚴重症狀性姿勢性低血壓者不宜限鈉(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e141));穿**彈性襪**或腹帶;睡覺時床頭抬高約 10°;起床前先在床上活動手腳;避免長時間站立、飽餐後立刻起身與大量飲酒。
 - 藥物治療(簡述):midodrine(α₁ 促效劑,升壓)、fludrocortisone(礦物皮質素,增加血量);會造成**臥位高血壓**,睡前不服用。
 - **跌倒**屬病人安全事件,除了記錄,還要依規定**通報**。
 
@@ -92,7 +96,7 @@ references:
 - **表現**:平躺數分鐘後頭暈、臉色蒼白、冒冷汗、噁心、心悸、血壓下降;胎心率可能變慢。
 - **處置**:**立即改為左側臥**(或以楔形枕把右臀墊高、手推子宮向左)——這是解決原因的第一步;給氧、蓋毯子都沒有解決壓迫問題。
 - **衛教**:懷孕後期避免長時間平躺,睡覺以**左側臥**為佳;產檢、胎心監測、做超音波時注意姿勢。
-- 孕婦心肺復甦時,同樣要**以手將子宮推向左側**,解除下腔靜脈壓迫(2025 AHA 指引)。
+- 孕婦心肺復甦時,同樣要**持續以手將子宮推向左側**(left lateral uterine displacement),解除主動脈與下腔靜脈壓迫、讓胸外按壓有效(來源:[2025 AHA CPR/ECC 指引摘要與流程圖](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines),孕婦心跳停止流程圖)。
 
 ### 區域麻醉後低血壓 {#neuraxial-anesthesia}
 
@@ -132,12 +136,12 @@ references:
 |---|---|---|
 | 低血容性 | 出血、脫水 | **晶體液**(生理食鹽水、乳酸林格氏液)以**大管徑周邊靜脈**快速輸注;出血者止血與輸血 |
 | 心因性 | 大面積心肌梗塞 | 謹慎給液體,[[inotropes|強心/升壓劑]]、緊急再灌流(見 [[coronary-artery-disease]]) |
-| 分布性 | 敗血性、過敏性、神經性 | 敗血症:1 小時內抽血液培養後給抗生素,低血壓或乳酸 ≥ 4 mmol/L 給晶體液 **30 mL/kg**,目標 **MAP ≥ 65 mmHg**,仍低則給 **norepinephrine** |
+| 分布性 | 敗血性、過敏性、神經性 | 敗血症:1 小時內抽血液培養後給抗生素,低血壓或乳酸 ≥ 4 mmol/L 給晶體液 **30 mL/kg**(Surviving Sepsis 2021:前 3 小時內給完;1 小時組合照護:1 小時內開始),目標 **MAP ≥ 65 mmHg**,仍低則給 **norepinephrine** |
 | 阻塞性 | 心包膜填塞、張力性氣胸、肺栓塞 | 解除阻塞(心包膜穿刺、胸管、溶栓) |
 
 - **姿勢**:平躺並**被動抬高下肢**約 30–45°(增加回心血量);傳統的頭低腳高(Trendelenburg)會使腹腔臟器壓迫橫膈、影響呼吸,現行已不建議作為常規。
 - **升壓藥機轉**:α₁ 促效(norepinephrine、phenylephrine)↑周邊阻力;β₁ 促效(dobutamine)↑心跳與收縮力;中劑量 dopamine 同時增加心輸出量,高劑量增加血管阻力。詳見 [[inotropes]]。
-- 心跳停止後恢復自發循環(ROSC)的血壓目標:依 2025 AHA ACLS,避免低血壓,維持收縮壓 ≥ 90 mmHg、**MAP ≥ 65 mmHg**。
+- 心跳停止後恢復自發循環(ROSC)的血壓目標:2025 AHA 要求避免低血壓,**MAP 至少維持 65 mmHg**,以輸液或升壓劑調整;2025 版流程圖**已不再列**舊版(2020)的「收縮壓 ≥ 90 mmHg」,也沒有指定哪一種升壓劑(來源:[2025 AHA CPR/ECC 指引摘要與流程圖](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines),心跳停止後照護流程圖)。國考舊題若考「收縮壓 ≥ 90」,是依 2020 版作答。
 
 ::questions{tag="低血壓|休克" keyword="(休克|升壓|dopamine|晶體液|輸液).*(血壓)|(血壓).*(休克|升壓)" limit="6"}
 

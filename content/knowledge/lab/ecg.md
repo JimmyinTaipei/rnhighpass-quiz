@@ -10,10 +10,12 @@ updated: 2026-09-25
 references:
   - title: 多保命 RN High Pass《心電圖教學》:基礎與判圖、缺血與梗塞(本頁文字與示意圖改寫自同一作者的網站)
     url: https://rnhighpass.com/resources/ekg/
-  - title: American Heart Association. 2025 AHA Guidelines for CPR and Emergency Cardiovascular Care(ACLS:急性冠心症)
+  - title: American Heart Association. 2025 AHA Guidelines for CPR and Emergency Cardiovascular Care(2025 版未另列急性冠心症流程)
     url: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines
   - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes. Circulation. 2025
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001309
+    url: https://doi.org/10.1161/CIR.0000000000001309
+  - title: 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction(door-to-needle 30 分鐘)
+    url: https://doi.org/10.1161/CIR.0b013e3182742cf6
   - title: Thygesen K, et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138:e618–e651
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000000617
   - title: "Wagner P, Strodthoff N, Bousseljot R, Samek W, Schaeffter T. PTB-XL, a large publicly available electrocardiography dataset (version 1.0.3). PhysioNet. 2022. https://doi.org/10.13026/kfzx-aw45(CC BY 4.0)"
@@ -300,12 +302,12 @@ V1–V6 的正極就是胸前那顆電極,由右前(V1)排到左側(V6)。V1 面
 | 處置重點 | 抗血小板、抗凝、風險分層 | 同左,依風險決定心導管時機 | **立即再灌流**(PCI 或血栓溶解劑) |
 
 - **UA 與 NSTEMI 的心電圖可以一模一樣**,要靠 troponin 區分;**STEMI 看到 ST 上升就立刻啟動再灌流,不必等酵素**。
-- **STEMI 的 ST 上升標準**(Fourth Universal Definition of MI):**相鄰 2 個導程** J point 新發生上升
+- **STEMI 的 ST 上升標準**(Fourth Universal Definition of MI;2025 ACC/AHA ACS 指引 Table 3 沿用(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))):**相鄰 2 個導程** J point 新發生上升
   - V2–V3 以外的導程:**≥ 1 mm**
   - V2–V3:男性 ≥ 40 歲 ≥ 2 mm、男性 < 40 歲 ≥ 2.5 mm、女性 ≥ 1.5 mm
-- **缺血性 ST 下降**:相鄰 2 個導程新發生水平或下斜型 ST 下降 ≥ 0.5 mm。
-- **新發生的 LBBB**:教科書與國考常列為「視同 STEMI」;現行指引已不再把「單獨新發生 LBBB」自動視為 STEMI,而是依臨床表現與特殊判準(如 Sgarbossa)決定,但疑似 ACS 合併新 LBBB 仍要緊急處理。
-- 後壁 MI(V1–V3 ST 下降、R 變高)屬於「看不到 ST 上升的 STEMI」,見 [[#localization]]。
+- **缺血性 ST 下降**:相鄰 2 個導程新發生水平或下斜型 ST 下降 ≥ 0.5 mm,和/或 T 波倒置 > 1 mm(同上來源)。
+- **新發生的 LBBB**:國考答案與舊教科書(2004 ACC/AHA)列為「視同 STEMI」;現行指引:新或推測為新的 LBBB **不應單獨作為急性心肌梗塞的診斷**,需配合臨床判斷;**無症狀者的新 LBBB 不是 STEMI 等同**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。實務上依臨床表現與特殊判準(如 Sgarbossa)決定,疑似 ACS 合併新 LBBB 且血行動力不穩者仍要緊急處理。
+- 後壁 MI(V1–V3 ST 下降、R 變高)屬於「看不到 ST 上升的 STEMI」:V1–V3 單獨 ST 下降 ≥ 0.5 mm 時加做 **V7–V9**(同上來源),見 [[#localization]]。
 
 ## 心肌梗塞的演變 {#mi-evolution}
 
@@ -379,18 +381,18 @@ MI 後最可能**永遠不會消失**的是**不正常 Q 波**;ST 上升與 T �
 
 ## 護理重點:疑似 STEMI {#stemi-nursing}
 
-時間目標依 2025 AHA ACLS 急性冠心症流程:
+時間目標依 2025 ACC/AHA 急性冠心症指引(2025 AHA CPR/ECC 指引已不另列急性冠心症流程):
 
 | 項目 | 時間目標 |
 |---|---|
-| 首次醫療接觸 → **完成並判讀 12 導程** | **≤ 10 分鐘** |
-| 首次醫療接觸 → 氣球擴張(**PCI**) | **≤ 90 分鐘**(需轉院者 ≤ 120 分鐘) |
-| 到院 → **血栓溶解劑** | **≤ 30 分鐘**(無法及時 PCI 時;症狀發生 **12 小時內**) |
+| 首次醫療接觸 → **完成並判讀 12 導程** | **≤ 10 分鐘**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) |
+| 首次醫療接觸 → 器械通過/氣球擴張(**PCI**) | **≤ 90 分鐘**(需轉院者 ≤ 120 分鐘)(同上來源) |
+| 到院 → **血栓溶解劑** | **≤ 30 分鐘**(預估 PCI > 120 分鐘時;症狀發生 **12 小時內**)(時間目標來源:[2013 ACCF/AHA STEMI 指引](https://doi.org/10.1161/CIR.0b013e3182742cf6)) |
 
-- **胸痛病人優先做 12 導程**:主訴胸悶痛、放射至肩膀、臉色蒼白,比常規給藥、止痛、胰島素更緊急。第一張沒有診斷意義而臨床仍高度懷疑,要**重複做**(每 15–30 分鐘或症狀變化時)。
+- **胸痛病人優先做 12 導程**:主訴胸悶痛、放射至肩膀、臉色蒼白,比常規給藥、止痛、胰島素更緊急。第一張沒有診斷意義而臨床仍高度懷疑,要**重複做**(傳統教學每 15–30 分鐘;2025 指引:依症狀、胸痛再發與臨床變化決定,同上來源)。
 - **連續心電監測、備好去顫器**:急性 MI 最常見的死因是**心律不整**(尤其心室顫動)。
-- 依醫囑給 **Aspirin 162–325 mg 嚼碎**、舌下 **Nitroglycerin**;血氧 **< 90% 才需給氧**;Nitroglycerin 無效的胸痛可給 Morphine 或 Fentanyl。
-- **Nitroglycerin 前先量血壓**:收縮壓過低、**右心室梗塞**(下壁 MI 要加做右胸導程)、24–48 小時內用過 **PDE5 抑制劑**(如 Sildenafil)者不可給([[nitrates]])。
+- 依醫囑給 **Aspirin 162–325 mg 嚼碎**、舌下 **Nitroglycerin**;血氧 **< 90% 才需給氧**;其他抗缺血藥無效的胸痛才給 Morphine 或 Fentanyl(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))(劑量僅供參考,以醫囑為準)。
+- **Nitroglycerin 前先量血壓**:收縮壓 < 90 mmHg 或比基準下降 > 30 mmHg、**右心室梗塞**(下壁 MI 要加做右胸導程)、近期用過 **PDE5 抑制劑**(sildenafil 24 小時、tadalafil 48 小時內)者不可給(同上來源;[[nitrates]])。
 - 建立靜脈管路、抽血追蹤 **troponin**([[cardiac-biomarkers]]),但**不可因等待酵素或胸部 X 光延誤再灌流**。
 - 焦慮的胸痛病人以解釋、陪伴為主;鎮靜劑(如 Lorazepam 靜注)不是急性冠心症的常規處置,可能掩蓋症狀、抑制呼吸。
 - 再灌流藥物見 [[antiplatelets]]、[[anticoagulants]]、[[thrombolytics]];PCI 前後照護見 [[cardiac-catheterization]]。

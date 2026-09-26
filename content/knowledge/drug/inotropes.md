@@ -6,8 +6,14 @@ dzTags: [心臟衰竭, 心衰竭, 休克, 心因性休克, 低血壓]
 system: cardiovascular
 group: heart-failure-drugs
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
+  - title: 2026 ESC Guidelines for the management of heart failure
+    url: https://doi.org/10.1093/eurheartj/ehag100
+  - title: 2025 AHA ACLS(Part 9 成人高級救命術)
+    url: https://doi.org/10.1161/CIR.0000000000001376
+  - title: 2025 ACC/AHA 急性冠心症指引
+    url: https://doi.org/10.1161/CIR.0000000000001309
   - title: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care(Adult Advanced Life Support、Post–Cardiac Arrest Care)
     url: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure
@@ -48,13 +54,14 @@ references:
 
 | 劑量(mcg/kg/min) | 主要受體 | 效果 |
 |---|---|---|
-| **低劑量 < 3(約 0.5–2)** | 多巴胺受體 | 腎、腸繫膜血管擴張 → **腎血流與尿量增加**(但研究證實**沒有腎臟保護作用**,已不建議為此使用) |
+| **低劑量 < 3(約 0.5–2;教科書數值,僅供參考)** | 多巴胺受體 | 腎、腸繫膜血管擴張 → **腎血流與尿量增加**(但研究證實**沒有腎臟保護作用**,已不建議為此使用) |
 | **中劑量 3–10(約 5–10)** | **β₁** | **收縮力↑、心輸出量↑**、心跳↑;國考:6 mcg/kg/min 的目的 → **增加心肌收縮力** |
 | **高劑量 > 10** | **α₁** | **周邊血管收縮**、血壓↑;腎與肢端灌流下降 |
 
 - 劑量間有重疊、個體差異大;中劑量同時增加心輸出量與部分血管阻力。
 - 心律不整比 norepinephrine 多;**心因性休克時 dopamine 的死亡率高於 norepinephrine**(SOAP II 次分析)→ 已不是休克首選升壓劑。
-- 仍用於:**症狀性心搏過緩**(atropine 無效時)的替代藥,劑量 **5–20 mcg/kg/min**(2025 AHA ACLS)。
+- 心因性休克時 dopamine 的心律不整較多、死亡率傾向較高,ESC 建議升壓劑以 **norepinephrine 為首選**(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.50)。
+- 仍用於:**症狀性心搏過緩**(atropine 無效時)的替代藥,劑量 **5–20 mcg/kg/min**,依反應調整、慢慢減量(來源:[2025 AHA 成人心搏過緩流程圖](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/algorithms))。
 - 與鹼性溶液(**碳酸氫鈉**)不相容。
 
 ### Dobutamine {#dobutamine}
@@ -75,14 +82,14 @@ references:
 
 - **α₁ 為主 + 少許 β₁** → 強力血管收縮、血壓升高,心跳變化不大。
 - **敗血性休克首選**升壓劑;**心因性休克合併低血壓**時也偏好 norepinephrine 而非 dopamine。
-- 常用 0.05–0.5 mcg/kg/min(成人約從 2–4 mcg/min 起始,依目標血壓調整);過量導致肢端、腸道、腎臟缺血。
+- 常用 0.05–0.5 mcg/kg/min(成人約從 2–4 mcg/min 起始,依目標血壓調整;教科書參考值,本機指引未列劑量,僅供參考,以醫囑為準);過量導致肢端、腸道、腎臟缺血。
 
 ### Epinephrine(Bosmin®) {#epinephrine}
 
 - **α + β₁ + β₂** 全部作用:低劑量以 β 為主(強心、支氣管擴張),高劑量 α 作用明顯(血管收縮)。
-- **心跳停止**:1 mg IV/IO,**每 3–5 分鐘**;不可電擊心律(asystole/PEA)儘早給。
+- **心跳停止**:1 mg IV/IO,**每 3–5 分鐘**;不可電擊心律(asystole/PEA)儘早給(來源:[2025 AHA 成人心跳停止流程圖](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/algorithms))。
 - **過敏性休克**:0.5 mg(1 mg/mL)**肌肉注射**大腿前外側(成人),必要時 5–15 分鐘重複。
-- **症狀性心搏過緩**:持續輸注 **2–10 mcg/min**(atropine 無效時,與 dopamine 同為選項)。
+- **症狀性心搏過緩**:持續輸注 **2–10 mcg/min**(atropine 無效時,與 dopamine 同為選項)(同上來源)。
 - 休克輸注 0.01–0.5 mcg/kg/min;副作用:心搏過速、心律不整、高血糖、乳酸上升。
 
 ### Vasopressin 與其他 {#others}
@@ -98,17 +105,18 @@ references:
 心因性休克 = 心臟幫浦衰竭 → 心輸出量不足、**低血壓(收縮壓 < 90 mmHg)、組織灌流不足**(意識改變、四肢濕冷、少尿、乳酸上升),中心靜脈壓/肺微血管楔壓**上升**(見 [[hypotension]]、[[heart-failure]])。
 
 - **2022 AHA/ACC/HFSA**:心因性休克應給予**靜脈強心劑及/或升壓劑**維持器官灌流(Class 1),藥物無效時考慮**機械循環輔助**(IABP、Impella、ECMO)。
-- **2021 ESC**:低血壓(SBP < 90)且低灌流時考慮短期強心劑(IIb);需要升壓時**norepinephrine 優先於 dopamine**。
+- **2026 ESC**:收縮壓 < 90 mmHg 且有低灌流、標準治療(含輸液試驗)無效時,可考慮強心劑(不常規使用);低血壓需升壓劑時**norepinephrine 優先於 dopamine 或 epinephrine**(epinephrine 在心肌梗塞休克試驗中頑固性休克較多)(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.50–51)。
+- **2025 ACC/AHA 急性冠心症指引**:急性心肌梗塞合併心因性休克,**不建議常規使用 IABP 或 VA-ECMO**(無存活好處);嚴重者可考慮微軸流幫浦(Impella)(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309) p.46)。
 - 沒有低血壓或低灌流的心衰竭**不應常規使用強心劑**(增加心律不整與死亡);長期門診輸注僅作為**心臟移植/左心室輔助器的過渡**或安寧緩和。
-- 常見組合:**norepinephrine(維持血壓)+ dobutamine(增加心輸出量)**;必要時加 IABP。
+- 常見組合:**norepinephrine(維持血壓)+ dobutamine(增加心輸出量)**;必要時加機械循環輔助。
 
 ### 其他休克與心跳停止後照護 {#other-shock}
 
 - **低血容積性休克**:首要是**補充體液/輸血**;升壓劑只作為補液後仍低血壓的輔助(國考選項「dopamine 可治療低血容積性休克」視為正確,前提是已補液)。
 - 敗血性休克:輸液後 norepinephrine 為首選,MAP 目標 ≥ 65 mmHg。
 - 過敏性休克:epinephrine IM 為第一線。
-- **2025 AHA ACLS 心跳停止後照護(ROSC 後)**:避免低血壓,維持**收縮壓 ≥ 90 mmHg、MAP ≥ 65 mmHg**,以輸液及升壓劑(norepinephrine、epinephrine、dopamine 等)達成;同時找出並治療可逆原因(Hs & Ts)。
-- **2025 AHA ACLS 心搏過緩**:atropine 1 mg IV,每 3–5 分鐘,總量 3 mg;無效時**經皮心律調節**或 **dopamine 5–20 mcg/kg/min**、**epinephrine 2–10 mcg/min** 輸注。
+- **2025 AHA ACLS 心跳停止後照護(ROSC 後)**:以輸液及升壓劑維持 **MAP ≥ 65 mmHg**(2025 流程圖只列 MAP 目標;2020 版另寫「收縮壓 ≥ 90 mmHg」)(來源:[2025 AHA 心跳停止後照護流程圖](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/algorithms));同時找出並治療可逆原因(Hs & Ts)。
+- **2025 AHA ACLS 心搏過緩**:atropine 1 mg IV,每 3–5 分鐘,總量 3 mg;無效時**經皮心律調節**或 **dopamine 5–20 mcg/kg/min**、**epinephrine 2–10 mcg/min** 輸注(來源:[2025 AHA 成人心搏過緩流程圖](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/algorithms);僅供參考,以醫囑為準)。
 
 ## 副作用與禁忌 {#adverse-effects}
 

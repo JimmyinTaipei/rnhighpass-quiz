@@ -6,11 +6,17 @@ dzTags: [糖尿病, 低血糖, 高血糖]
 system: endocrine
 group: glucose-labs
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: American Diabetes Association. Standards of Care in Diabetes(最新年度版)
     url: https://diabetesjournals.org/care
   - title: 中華民國糖尿病學會《糖尿病臨床照護指引》
+    url: https://www.endo-dm.org.tw/
+  - title: ADA. 2. Diagnosis and Classification of Diabetes. Standards of Care in Diabetes—2026
+    url: https://doi.org/10.2337/dc26-S002
+  - title: ADA. 6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises. Standards of Care in Diabetes—2026
+    url: https://doi.org/10.2337/dc26-S006
+  - title: 中華民國糖尿病學會:2026 第 1 型糖尿病臨床照護指引(DAROC)
     url: https://www.endo-dm.org.tw/
   - title: OpenStax. Clinical Nursing Skills; Fundamentals of Nursing(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考
@@ -19,33 +25,35 @@ references:
 
 ## 參考值 {#reference-range}
 
+診斷與前期切點來源:[ADA Standards of Care 2026 第 2 章](https://doi.org/10.2337/dc26-S002) Table 2.1–2.2;低血糖分級來源:[ADA Standards of Care 2026 第 6 章](https://doi.org/10.2337/dc26-S006) Table 6.4(台灣 DAROC 相同)。
+
 | 項目 | 正常 | 糖尿病前期 | 糖尿病 |
 |---|---|---|---|
 | **空腹血漿血糖**(禁食 ≥ 8 小時)(AC) | 70–99 mg/dL(3.9–5.5 mmol/L) | **100–125**(空腹血糖偏高 IFG) | **≥ 126**(7.0 mmol/L) |
 | 飯後 2 小時 / OGTT 2 小時 | < 140 mg/dL(7.8) | 140–199(IGT) | **≥ 200**(11.1) |
-| **隨機血糖** | — | — | **≥ 200** 且有高血糖症狀 |
-| 低血糖 | — | — | **< 70 mg/dL**(3.9);< 54 為顯著低血糖 |
+| **隨機血糖** | — | — | **≥ 200** 且有高血糖症狀或高血糖危象 |
+| 低血糖 | — | — | **< 70 mg/dL**(3.9)為第 1 級;< 54(3.0)為第 2 級(臨床顯著);需他人協助為第 3 級 |
 
 新生兒血糖本來就偏低;出生後數小時內一般以 **< 40–45 mg/dL** 作為需要處理的界線(各院標準不同)。
 
-**糖尿病病人的控制目標**:餐前 80–130 mg/dL、餐後 1–2 小時 < 180 mg/dL(詳見 [[diabetes#labs]])。
+**糖尿病病人的控制目標**:餐前 80–130 mg/dL、餐後 1–2 小時(從開始進食算)< 180 mg/dL(來源:[ADA Standards of Care 2026 第 6 章](https://doi.org/10.2337/dc26-S006) Table 6.3;詳見 [[diabetes#labs]])。
 
 ### 空腹血糖 {#fasting}
 
-- 禁食(可喝白開水)至少 **8 小時**後抽血,通常清晨。
+- 禁食(無熱量攝取,可喝白開水)至少 **8 小時**後抽血,通常清晨(來源:[ADA Standards of Care 2026 第 2 章](https://doi.org/10.2337/dc26-S002))。
 - 反映**肝臟夜間產糖**與基礎胰島素分泌。
-- 診斷糖尿病需**另一天重複**確認(除非有典型症狀或同次其他檢驗也異常)。
-- **代謝症候群**的判定標準是空腹 **≥ 100 mg/dL**。
+- 診斷糖尿病需**另一天重複**確認(除非有典型症狀/高血糖危象,或同次抽血另一項檢驗如 HbA1c 也異常)(同上來源)。
+- **代謝症候群**的判定標準是空腹 **≥ 100 mg/dL**(來源:[台灣成人肥胖臨床照護指引](https://www.endo-dm.org.tw/) PDF 第 79 頁)。
 
 ### 隨機血糖 {#random}
 
 - 不論上一餐時間的任一時間抽血。
-- **≥ 200 mg/dL + 典型症狀(多渴、多尿、多食、體重減輕)**即可診斷。
+- **≥ 200 mg/dL + 典型症狀(多渴、多尿、多食、體重減輕)或高血糖危象**即可診斷(來源:[ADA Standards of Care 2026 第 2 章](https://doi.org/10.2337/dc26-S002))。
 - 沒有症狀時,隨機 200 mg/dL 以上需再以空腹血糖、OGTT 或 [[hba1c]] 確認。
 
 ### 飯後血糖 {#postprandial}
 
-- 從**第一口**開始計時,1–2 小時後測量。
+- 從**第一口**開始計時,1–2 小時後測量(糖尿病人餐後高峰多在此時,來源:[ADA Standards of Care 2026 第 6 章](https://doi.org/10.2337/dc26-S006) Table 6.3 註)。
 - 反映餐後胰島素分泌與周邊利用;[[alpha-glucosidase-inhibitors|α-葡萄糖苷酶抑制劑]]、[[meglitinides|Meglitinide]]、速效胰島素主要改善這一項。
 - 飯後 2 小時 **210 mg/dL** 已屬過高,需就醫進一步檢查(不是「少吃甜食就好」)。
 
@@ -77,9 +85,9 @@ references:
 
 | 因素 | 影響 |
 |---|---|
-| 檢體放置未處理 | 血球持續**糖解**,每小時下降約 5–7% → **假性偏低**;需用含氟化鈉(NaF)的灰頭管並儘快送驗 |
+| 檢體放置未處理 | 血球持續**糖解**,每小時下降約 5–7% → **假性偏低**;需用含氟化鈉(NaF)的灰頭管、儘快分離血漿或冰存送驗(ADA:血糖檢體前分析穩定性差,來源:[ADA Standards of Care 2026 第 2 章](https://doi.org/10.2337/dc26-S002) Table 2.3) |
 | 由**輸注葡萄糖的點滴端**抽血 | **假性偏高** |
-| 未禁食 | 空腹值偏高 |
+| 未禁食;近期活動、急性疾病、壓力 | 空腹值偏高或波動(同上來源) |
 | **指尖血糖 vs 靜脈血漿** | 全血值比血漿低約 10–15%(多數血糖機已換算成血漿值) |
 | 血比容 | 血比容高 → 血糖機讀值偏低;貧血 → 偏高 |
 | 手指有酒精、糖分殘留 | 酒精未乾稀釋血液;手指沾果汁 → 偏高 |
@@ -88,7 +96,7 @@ references:
 
 ## 檢體採集與護理 {#nursing}
 
-- 空腹血糖:前一晚起禁食 **8 小時以上**,可喝水;抽血前**暫緩**降血糖藥與胰島素(依醫囑,抽完再用、並儘快進食)。
+- 空腹血糖:前一晚起禁食 **8 小時以上**,可喝水(ADA 第 2 章);抽血前**暫緩**降血糖藥與胰島素(依醫囑,抽完再用、並儘快進食)。
 - 不需禁食的檢驗與需禁食的(血糖、血脂)同時抽時,依最嚴格者準備。
 - 抽血後將血液沿試管壁緩慢注入,抗凝劑管輕輕倒轉混勻、不要用力搖。
 - 指尖血糖技巧見 [[diabetes#smbg]]。
@@ -98,7 +106,7 @@ references:
 
 - [[ogtt]]:空腹血糖正常但懷疑葡萄糖耐受不良、妊娠篩檢。
 - [[hba1c]]:長期平均。
-- [[ketones]]:血糖 > 250 mg/dL 且有症狀時。
+- [[ketones]]:血糖偏高且有不適症狀時(DAROC:第 1 型血糖 > 200 mg/dL 合併不適,來源:[2026 DAROC 第 1 型糖尿病照護指引](https://www.endo-dm.org.tw/) PDF 第 45 頁;教科書常寫 > 250)。
 - 血漿滲透壓:懷疑 [[diabetes#hhs|HHS]] 時(公式見 [[abg#osmolality]])。
 
 ## 相關考題 {#questions}

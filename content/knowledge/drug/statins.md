@@ -8,12 +8,14 @@ group: lipid-lowering
 reviewed: false
 updated: 2026-09-25
 references:
+  - title: 李貽恒、石崇良等:2025 台灣血脂管理臨床路徑共識(九大醫學會與健保署,內科學誌 2024;35:426-430)
+    url: https://doi.org/10.6314/JIMT.202412_35%286%29.04
   - title: 2018 AHA/ACC/Multisociety Guideline on the Management of Blood Cholesterol
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000000625
   - title: 2019 ESC/EAS Guidelines for the management of dyslipidaemias
     url: https://academic.oup.com/eurheartj/article/41/1/111/5556353
   - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001309
+    url: https://doi.org/10.1161/CIR.0000000000001309
   - title: 台灣脂質暨動脈硬化學會/中華民國心臟學會 台灣血脂異常治療指引(高風險族群 2017、初級預防 2022)
     url: https://www.tas-lipid.org.tw/
   - title: U.S. FDA. Statin labeling changes on liver monitoring(2012)and use in pregnancy(2021)
@@ -24,7 +26,7 @@ references:
 ## 重點摘要 {#summary}
 
 - 機轉:抑制肝臟合成膽固醇的關鍵酵素 **HMG-CoA 還原酶** → 肝細胞增加 **LDL 受體** → 血中 **LDL-C 大幅下降**;並**穩定斑塊**、抗發炎 → 降低心肌梗塞、中風與死亡。
-- 用途:**降 LDL 的第一線藥**;所有 ACS 與冠心病病人用**高強度 statin**,LDL 目標依風險(ACS/冠心病 < 70,更嚴格 < 55 mg/dL,見 [[lipid-profile#targets]])。
+- 用途:**降 LDL 的第一線藥**;所有 ACS 與冠心病病人用**高強度 statin**,LDL 目標依風險:台灣 2025 血脂管理臨床路徑為非常高風險(已確診動脈硬化心血管疾病)**< 70**、極高風險(如 ACS 合併糖尿病、1 年內心肌梗塞)**< 55** mg/dL(來源:[2025 台灣血脂管理臨床路徑共識(李貽恒、石崇良等,內科學誌 2024;35:426-430)](https://doi.org/10.6314/JIMT.202412_35%286%29.04);詳見 [[lipid-profile#targets]])。
 - 短效者(simvastatin、lovastatin、pravastatin、fluvastatin)**晚上服用**;atorvastatin、rosuvastatin 任何時間皆可。
 - 副作用:**肌肉痠痛**、罕見**橫紋肌溶解**(茶色尿 → 驗 **CK**)、肝指數上升;避免大量**葡萄柚汁**。
 - **懷孕、哺乳不使用**;活動性肝病禁用。
@@ -71,12 +73,12 @@ references:
 
 依 2018 AHA/ACC 與 2019 ESC/EAS 指引,以下族群**應使用 statin**:
 
-1. **已有動脈硬化心血管疾病**(ACS、心肌梗塞、冠心病、缺血性中風/TIA、周邊動脈疾病):**高強度 statin**;ACS 病人**住院時就開始**,不論 LDL 基礎值。
+1. **已有動脈硬化心血管疾病**(ACS、心肌梗塞、冠心病、缺血性中風/TIA、周邊動脈疾病):**高強度 statin**;ACS 病人**住院時就開始**,不論 LDL 基礎值(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
 2. **LDL-C ≥ 190 mg/dL**(多為家族性高膽固醇血症):高強度。
 3. **糖尿病** 40–75 歲:至少中強度。
 4. 40–75 歲、10 年心血管風險中等以上者:依風險評估與共同決策。
 
-**加藥順序**(極高風險者 LDL 仍未達標,依 2025 AHA/ACC ACS 指引):最大耐受量 statin → 加 **ezetimibe** 和/或 **PCSK9 抑制劑**(ACS 後 LDL ≥ 70 應加藥;55–69 可考慮)。TG 很高(≥ 500 mg/dL)時先處理 TG 以預防**急性胰臟炎**(fibrate、omega-3、限酒限醣)。
+**加藥順序**(極高風險者 LDL 仍未達標,依 2025 AHA/ACC ACS 指引):最大耐受量 statin → 加 **ezetimibe**、**PCSK9 抑制劑**(evolocumab、alirocumab、inclisiran)和/或 bempedoic acid(ACS 後 LDL **≥ 70 應加藥**〔第 1 級〕;**55–69 可考慮**〔第 2a 級〕;statin 不耐受者直接用非 statin 藥;ACS 時也可考慮一開始就 statin + ezetimibe 併用〔第 2b 級〕)(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。與台灣 2025 血脂路徑比較:台灣把 1 年內心肌梗塞、ACS 合併糖尿病等列為極高風險、目標 **< 55**,一般 ACS 病史為非常高風險 **< 70**;美國以 55 與 70 作為近期(12 個月內)ACS 加藥門檻,兩者數字相同,差別在台灣依次族群分級,美國則對近期 ACS 一律以 55 為較積極門檻。TG 很高(≥ 500 mg/dL)時先處理 TG 以預防**急性胰臟炎**(fibrate、omega-3、限酒限醣)。
 
 LDL 目標值與各國指引比較見 [[lipid-profile#targets]]。
 
@@ -117,7 +119,7 @@ LDL 目標值與各國指引比較見 [[lipid-profile#targets]]。
 - 出現**黃疸、茶色尿、右上腹痛、極度倦怠** → 就醫驗肝功能。
 - 避免**大量葡萄柚汁**;限制飲酒。
 - 育齡婦女避孕;計畫懷孕或懷孕時告知醫師。
-- 定期追蹤:開始或調整劑量後 **4–12 週**驗血脂評估反應,之後每 3–12 個月(抽血準備見 [[lipid-profile#nursing]])。
+- 定期追蹤:開始或調整劑量後 **4–12 週**驗血脂評估反應(2018 AHA/ACC;ACS 後為 **4–8 週**驗空腹血脂(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309));台灣路徑為 6–8 週),之後每 3–12 個月(抽血準備見 [[lipid-profile#nursing]])。
 - 告訴所有醫師、藥師自己在吃 statin(交互作用多)。
 
 ### 生活型態(所有高血脂病人的基礎) {#lifestyle}

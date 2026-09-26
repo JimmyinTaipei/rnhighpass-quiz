@@ -11,7 +11,7 @@ references:
   - title: "Thygesen K, et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation 2018;138:e618–e651"
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000000617
   - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001309
+    url: https://doi.org/10.1161/CIR.0000000000001309
   - title: 2023 ESC Guidelines for the management of acute coronary syndromes
     url: https://academic.oup.com/eurheartj/article/44/38/3720/7243210
   - title: 中華民國心臟學會(TSOC)治療指引
@@ -127,13 +127,13 @@ references:
 | **急性心肌梗塞** | 急性心肌損傷 + **心肌缺血的臨床證據**(缺血症狀、新的缺血性 ECG 變化、新出現病理性 Q 波、影像顯示新的壁運動異常、血管攝影見冠狀動脈血栓)之一 |
 
 - **看「動態變化」比看單一數值重要**:慢性腎病、心衰竭的人 troponin 可以長期穩定地輕度偏高(慢性心肌損傷),**不是**心肌梗塞;急性梗塞則會在數小時內明顯升或降。
-- **0/1 小時或 0/2 小時演算法**(2023 ESC ACS、2025 ACC/AHA ACS 皆列為建議):到院時(0 h)抽一次、1 或 2 小時後再抽一次。
+- **0/1 小時或 0/2 小時演算法**(2023 ESC ACS、2025 ACC/AHA ACS 皆列為建議):疑似 ACS **儘快**抽 troponin、優先用高敏感度檢驗;到院時(0 h)抽一次、1 或 2 小時後再抽一次(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
   - **排除(rule-out)**:0 h 值極低(胸痛已 > 3 小時),或 0 h 低且 1–2 小時內幾乎沒變化 → 可安全出院或門診追蹤。
   - **納入(rule-in)**:0 h 值很高,或 1–2 小時內上升幅度超過該試劑切點 → 按 NSTEMI 處理。
-  - **觀察區**:兩者都不符 → 3 小時後再抽,並配合心臟超音波等評估。
-  - 切點**依試劑廠牌而不同**(例:hs-cTnT 0 h < 5 ng/L 可排除、≥ 52 ng/L 可納入),護理人員要知道的是「**時間點要抽準**」。
-- 無法取得 hs-cTn 時,傳統 troponin 採 **0/3–6 小時**重複抽血。
-- **STEMI 不等 troponin**:心電圖符合 [[ecg#acs-ecg|ST 上升型心肌梗塞]]就立即啟動再灌流,抽血結果不能延誤導管或血栓溶解治療。
+  - **觀察區**:兩者都不符 → 3 小時後再抽(ESC 演算法),並配合心臟超音波等評估。
+  - 切點**依試劑廠牌而不同**,男女切點也可能不同(例:hs-cTnT 0 h < 5 ng/L 可排除、≥ 52 ng/L 可納入,為 ESC 演算法數值);只抽一次 hs-cTn 就判斷的流程,必須在**症狀開始至少 3 小時後**抽(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。護理人員要知道的是「**時間點要抽準**」。
+- 無法取得 hs-cTn 時,傳統 troponin 採 **0/3–6 小時**重複抽血(同上來源)。
+- **STEMI 不等 troponin**:心電圖符合 [[ecg#acs-ecg|ST 上升型心肌梗塞]]就立即啟動再灌流,抽血結果不能延誤導管或血栓溶解治療(同上來源)。
 - 其他定義用到的門檻:PCI 相關梗塞(4a 型)為 cTn > 5 倍 URL;CABG 相關梗塞(5 型)為 > 10 倍 URL。
 
 ### 再梗塞的判斷 {#reinfarction}

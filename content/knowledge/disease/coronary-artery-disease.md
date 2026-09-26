@@ -7,14 +7,18 @@ system: cardiovascular
 reviewed: false
 updated: 2026-09-25
 references:
+  - title: 李貽恒、石崇良等:2025 台灣血脂管理臨床路徑共識(九大醫學會與健保署,內科學誌 2024;35:426-430)
+    url: https://doi.org/10.6314/JIMT.202412_35%286%29.04
   - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes
-    url: https://www.ahajournals.org/journal/circ
+    url: https://doi.org/10.1161/CIR.0000000000001309
   - title: 2023 ESC Guidelines for the management of acute coronary syndromes
     url: https://www.escardio.org/Guidelines
   - title: 2023 AHA/ACC Guideline for the Management of Patients With Chronic Coronary Disease
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001168
-  - title: 2025 American Heart Association Guidelines for CPR and Emergency Cardiovascular Care(ACLS 急性冠心症流程)
-    url: https://cpr.heart.org/
+  - title: 2025 AHA Guidelines for CPR and ECC, Part 9 Adult Advanced Life Support(2025 版未另列急性冠心症流程,ACS 內容見 2025 ACC/AHA ACS 指引)
+    url: https://doi.org/10.1161/CIR.0000000000001376
+  - title: 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction(door-to-needle 30 分鐘)
+    url: https://doi.org/10.1161/CIR.0b013e3182742cf6
   - title: Fourth Universal Definition of Myocardial Infarction(2018)
     url: https://doi.org/10.1161/CIR.0000000000000617
   - title: 台灣心臟學會 急性冠心症治療指引;台灣脂質暨動脈硬化學會 血脂異常臨床治療指引
@@ -60,7 +64,7 @@ references:
 |---|---|
 | **年齡**(男 ≥ 45 歲、女 ≥ 55 歲或停經後) | **高血脂**(LDL↑、HDL↓、TG↑) |
 | **男性**(停經前女性有雌激素保護) | **高血壓** |
-| **早發性冠心病家族史**(一等親男 < 55、女 < 65 歲發病) | **吸菸**(含二手菸、電子菸) |
+| **早發性冠心病家族史**(男 ≤ 55、女 ≤ 65 歲發病,來源:[2025 台灣血脂管理臨床路徑共識](https://doi.org/10.6314/JIMT.202412_35%286%29.04)) | **吸菸**(含二手菸、電子菸) |
 | | **糖尿病**、代謝症候群、肥胖(尤其腹部肥胖) |
 | | 缺乏運動、不健康飲食、過量飲酒、心理壓力、慢性腎臟病 |
 
@@ -192,7 +196,7 @@ references:
 
 ### 12 導程心電圖 {#ecg}
 
-胸痛病人**首次醫療接觸後 10 分鐘內**完成並判讀 12 導程心電圖;第一張無法確診而臨床仍懷疑時,每 15–30 分鐘重複。完整判讀見 [[ecg]]。
+胸痛病人**首次醫療接觸後 10 分鐘內**完成並判讀 12 導程心電圖(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309));第一張無法確診而臨床仍懷疑時要**重複做**(傳統教學每 15–30 分鐘;2025 指引改為依症狀、胸痛再發與臨床變化決定時機,同上來源)。下壁 MI 加做右胸導程,V1–V3 ST 下降要加做 V7–V9 找後壁 STEMI(同上來源)。完整判讀見 [[ecg]]。
 
 ![[ecg#mi-evolution]]
 
@@ -205,7 +209,7 @@ references:
 ![[cardiac-biomarkers#timeline]]
 
 - 心肌梗塞的診斷(第四版全球定義):**troponin 上升和/或下降**且至少一次高於第 99 百分位,**加上**缺血的證據(症狀、新的心電圖變化、病理性 Q 波、影像顯示新的心肌壞死、或冠狀動脈攝影看到血栓)。
-- 高敏感度 troponin 採 **0 小時/1–2 小時**重複抽血,看**動態變化**。
+- 高敏感度 troponin 採 **0 小時/1–2 小時**重複抽血(傳統 troponin 0/3–6 小時),看**動態變化**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
 - 其他:心肌梗塞後白血球與 CRP 上升、紅血球沉降速率上升(發炎反應);電解質(**鉀、鎂**過低增加心律不整);血脂、血糖、HbA1c、腎功能(準備顯影劑)。
 - 國考仍考的舊標記:**LDH**(24–48 小時上升、持續 10–14 天;心肌梗塞時 **LDH1 > LDH2**,稱「翻轉」)、AST。
 
@@ -229,22 +233,22 @@ references:
 
 ### 院外處理(一般民眾,僅供參考) {#prehospital}
 
-以下為衛教民眾的原則,依 2025 AHA 指引整理;實際處置以救護人員與醫師為準。
+以下為衛教民眾的原則,依 2025 ACC/AHA 急性冠心症指引與 AHA 民眾衛教整理;實際處置以救護人員與醫師為準。
 
-1. 胸痛或胸悶**超過 5 分鐘**、或合併冒冷汗、呼吸困難 → **立即撥打 119**,不要自行開車就醫(救護車可沿途做心電圖、事先通知醫院啟動心導管室,也能處理心跳停止)。
+1. 胸痛或胸悶**超過 5 分鐘**、或合併冒冷汗、呼吸困難 → **立即撥打 119**,不要自行開車就醫(救護車可沿途做心電圖、事先通知醫院啟動心導管室,也能處理心跳停止;指引建議疑似 ACS 由救護車送醫、STEMI 直送可做 PCI 的醫院並預先通知(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)))。
 2. 停止活動,**坐下或半躺**休息,鬆開衣物。
 3. 醫師曾開立**舌下硝化甘油**者:坐下後含 1 顆;**5 分鐘仍未緩解或更痛 → 立即撥 119**,之後可每 5 分鐘再含 1 顆,**最多 3 顆**(舊衛教是「3 顆無效才就醫」,現行強調第一顆無效就叫救護車)。見 [[nitrates#sublingual]]。
-4. 無過敏、無出血問題、未被醫師禁止者,救護人員或醫師可能請病人**嚼服 aspirin**(160–325 mg;嚼碎吸收較快)。民眾不宜在未經指示下自行給藥。
+4. 無過敏、無出血問題、未被醫師禁止者,救護人員或醫師可能請病人**嚼服 aspirin**(162–325 mg 非腸溶錠;嚼碎吸收較快(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309));僅供參考,以醫囑為準)。民眾不宜在未經指示下自行給藥。
 5. 病人**失去意識、沒有正常呼吸** → 立即 **CPR** 並使用 **AED**。
 
 ### 院內處理:急性冠心症流程 {#in-hospital}
 
-依 2025 AHA ACLS 急性冠心症流程與 2025 ACC/AHA ACS 指引:
+依 2025 ACC/AHA 急性冠心症指引(2025 AHA CPR/ECC 指引已不另列急性冠心症流程,相關內容回歸 ACS 指引):
 
 **到院後 10 分鐘內**
 
-- **12 導程心電圖**(10 分鐘內完成判讀)、連續心電監測、備妥**去顫器**。
-- 生命徵象、SpO₂;建立**靜脈輸液管路**;抽血(troponin、電解質、凝血功能、CBC、腎功能)。
+- **12 導程心電圖**(10 分鐘內完成判讀(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)))、連續心電監測、備妥**去顫器**。
+- 生命徵象、SpO₂;建立**靜脈輸液管路**;抽血(troponin 儘快抽、優先用高敏感度檢驗;電解質、凝血功能、CBC、腎功能;**血脂儘早抽**,因發病 24 小時後 LDL 會暫時下降,同上來源)。
 - 簡短病史與身體評估:胸痛特徵與**開始時間**(決定再灌流方式)、血栓溶解劑禁忌症、**24–48 小時內有無使用 PDE5 抑制劑**(sildenafil 等)。
 - **胸部 X 光**可做但**不可延誤**送心導管室。
 
@@ -252,14 +256,14 @@ references:
 
 | 處置 | 現行建議 | 舊觀念(MONA) |
 |---|---|---|
-| **Aspirin** | **162–325 mg 嚼服**(非腸溶或嚼碎),之後每日低劑量 | 同 |
-| **氧氣** | 只在 **SpO₂ < 90%**、呼吸窘迫或心衰竭時給 | 所有病人鼻導管 2–4 L/min |
-| **硝化甘油** | 舌下每 5 分鐘一次、最多 3 次,持續胸痛、高血壓、心衰竭可改靜脈;**收縮壓 < 90 mmHg、心跳 < 50 或 > 100、右心室梗塞、24–48 小時內用過 PDE5 抑制劑者禁用** | 同 |
-| **嗎啡** | NTG 無效的胸痛**才考慮**(可延遲口服 P2Y12 抑制劑吸收、掩蓋症狀),也可用 fentanyl | 常規給予:止痛、減焦慮、擴張靜脈降前負荷、減少心肌耗氧 |
-| **P2Y12 抑制劑** | ticagrelor、clopidogrel、prasugrel,與 aspirin 合用(雙重抗血小板) | — |
-| **抗凝血劑** | heparin(監測 **aPTT**)、enoxaparin、bivalirudin、fondaparinux | — |
-| **β 阻斷劑** | 無心衰竭、低心輸出、休克、心搏過緩或傳導阻滯時,24 小時內開始口服 | — |
-| **高強度 statin** | 儘早開始(atorvastatin 40–80 mg、rosuvastatin 20–40 mg) | — |
+| **Aspirin** | **162–325 mg 嚼服**(非腸溶),已在服用者仍要給;之後每日 **75–100 mg**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) | 同 |
+| **氧氣** | 只在 **SpO₂ < 90%** 時給,目標 ≥ 90%;SpO₂ ≥ 90% **不建議常規給氧**(無益,可能加重心肌損傷)(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) | 所有病人鼻導管 2–4 L/min |
+| **硝化甘油** | 舌下 0.3–0.4 mg 每 5 分鐘一次、最多 3 次;持續胸痛、高血壓、肺水腫可改靜脈(10 μg/min 起調);**收縮壓 < 90 mmHg 或比基準下降 > 30 mmHg、右心室梗塞、近期用過 PDE5 抑制劑(avanafil 12 小時、sildenafil/vardenafil 24 小時、tadalafil 48 小時內)者禁用**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309));心跳 < 50 或 > 100 為 2013 版列出的注意事項。劑量僅供參考,以醫囑為準 | 同 |
+| **嗎啡** | 其他抗缺血藥用到最大仍無效的胸痛**才考慮**:morphine 靜注 2–4 mg,必要時每 5–15 分鐘重複;或 fentanyl 25–50 μg(可延遲口服 P2Y12 抑制劑作用;不應只用來掩蓋症狀,NTG 無效的持續缺血應儘速再灌流);止痛藥只緩解症狀、不改善預後;**避免 NSAIDs**(非 aspirin)(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。劑量僅供參考,以醫囑為準 | 常規給予:止痛、減焦慮、擴張靜脈降前負荷、減少心肌耗氧 |
+| **P2Y12 抑制劑** | 與 aspirin 合用(雙重抗血小板):做 PCI 者優先 **ticagrelor 或 prasugrel**;NSTE-ACS 不打算做導管者用 ticagrelor;**接受血栓溶解劑者用 clopidogrel**;曾中風/TIA 者**禁用 prasugrel**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) | — |
+| **抗凝血劑** | heparin(監測 **aPTT**,ACS 目標 60–80 秒)、enoxaparin、bivalirudin(PCI 時)、fondaparinux(**不可用於支持 PCI**,導管內血栓)(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) | — |
+| **β 阻斷劑** | 無禁忌者 **24 小時內開始低劑量口服**;禁忌:急性心衰竭(Killip II–IV)、低心輸出或休克高風險、PR > 0.24 秒、二/三度房室阻滯(無節律器)、嚴重心搏過緩、活動性支氣管痙攣;有禁忌者 24 小時後再評估;**不建議 PPCI 前常規靜脈給**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) | — |
+| **高強度 statin** | 儘早開始(atorvastatin 40–80 mg、rosuvastatin 20–40 mg),不論 LDL 基礎值(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) | — |
 
 - **MONA**(Morphine、Oxygen、Nitroglycerin、Aspirin)是傳統口訣,國考仍常出現;目前指引已**不再**以此作為常規,答題時注意題目要的是傳統還是現行觀念。
 - **鎮靜劑**:焦慮的急性胸痛病人,先做心電圖、給氧(需要時)與止痛,不應自行給 lorazepam 等靜脈鎮靜劑。
@@ -268,11 +272,12 @@ references:
 
 | 方式 | 時間目標 |
 |---|---|
-| **直接經皮冠狀動脈介入治療(Primary PCI)**——首選 | **首次醫療接觸到導管打通 ≤ 90 分鐘**(需轉院者 ≤ 120 分鐘) |
-| **血栓溶解劑**——無法在 120 分鐘內做 PCI、症狀開始 **12 小時內** | **到院到給藥(door-to-needle)≤ 30 分鐘**;給藥後 3–24 小時內仍應轉送做心導管 |
+| **直接經皮冠狀動脈介入治療(Primary PCI)**——首選(症狀 < 12 小時) | **首次醫療接觸(FMC)到器械通過(first device)≤ 90 分鐘**(需轉院者 ≤ 120 分鐘)(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) |
+| **血栓溶解劑**——預估 FMC 到 PCI **> 120 分鐘**、症狀開始 **12 小時內**、無禁忌(同上來源) | **到院到給藥(door-to-needle)≤ 30 分鐘**(來源:[2013 ACCF/AHA STEMI 指引](https://doi.org/10.1161/CIR.0b013e3182742cf6);2025 指引未另訂數字,強調儘快);給藥後**立即轉送**可做 PCI 的醫院,**2–24 小時內**做冠狀動脈攝影,再灌流失敗則立即救援性 PCI(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) |
 
-- 症狀超過 12 小時但仍有缺血、心因性休克者,仍考慮 PCI。
-- NSTEMI/UA:依風險分層,高風險(血行動力不穩定、持續胸痛、致命心律不整)**立即**(2 小時內)心導管,其他多在 24–72 小時內。
+- 症狀 12–24 小時:PCI 仍合理;> 24 小時但仍有缺血或致命心律不整:PCI 合理;> 24 小時、血管已完全阻塞且穩定無缺血者**不做** PCI;**心因性休克或血行動力不穩定:不論發病多久都緊急再灌流**(PCI 或 CABG)(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
+- NSTEMI/UA:頑固性胸痛、血行動力或電氣不穩定 → **立即**心導管(2023 ESC 定義為 2 小時內);高風險 → **24 小時內**;非高風險 → **出院前**完成(同上來源;舊教材寫的「24–72 小時」已不再使用)。
+- 只有 ST 下降(除非懷疑真正的後壁 STEMI)**不可給血栓溶解劑**(同上來源)。
 - 血栓溶解劑的禁忌與護理見 [[thrombolytics]]。
 
 ![[ecg#stemi-nursing]]
@@ -295,7 +300,7 @@ references:
 |---|---|---|
 | **心律不整** | **最早、最常見**(發病數小時內) | 心室早期收縮、**心室心搏過速/顫動**(早期死亡主因)、下壁 MI 合併**心搏過緩、房室傳導阻滯**(RCA 供應 SA/AV 結) |
 | **心衰竭、肺水腫** | 數小時到數天 | 大範圍前壁 MI;呼吸困難、囉音、S3。見 [[heart-failure]] |
-| **心因性休克** | 多在 24–48 小時內 | 左心室 ≥ 40% 壞死;低血壓、濕冷、少尿;CVP、PCWP 上升;緊急 PCI、升壓強心劑、IABP。見 [[heart-failure#cardiogenic-shock]] |
+| **心因性休克** | 多在 24–48 小時內(約 10% STEMI,早期死亡率 40–50%) | 左心室 ≥ 40% 壞死;低血壓、濕冷、少尿;CVP、PCWP 上升;**不論發病多久都緊急再灌流**(只處理罪犯血管,不常規同時處理其他血管)、升壓強心劑;國考答案常為 **IABP**,但 2025 指引**不建議常規使用 IABP 或 VA-ECMO**(無存活益處),經篩選的嚴重 STEMI 休克可考慮微軸流幫浦(Impella)(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。見 [[heart-failure#cardiogenic-shock]] |
 | **右心室梗塞** | 與下壁 MI 同時 | 低血壓、頸靜脈怒張、**肺音清澈**;需要**足夠輸液**維持前負荷,**避免 NTG、嗎啡、利尿劑** |
 | **乳突肌斷裂** | **3–5 天** | 突發**急性二尖瓣逆流** → 新的收縮期雜音、急性肺水腫 |
 | **心室中膈破裂** | 3–5 天 | 新的全收縮期雜音、心因性休克 |
@@ -321,10 +326,10 @@ references:
 | | [[calcium-channel-blockers\|鈣離子阻斷劑]] | Amlodipine、Diltiazem、Verapamil | 擴張冠狀動脈、**變異型心絞痛首選** |
 | 防止血栓 | [[antiplatelets\|抗血小板]] | Aspirin、Clopidogrel、Ticagrelor | 支架後**雙重抗血小板**,不可自行停藥 |
 | | [[anticoagulants\|抗凝血劑]] | Heparin、Enoxaparin | heparin 監測 **aPTT**、解毒劑 protamine |
-| 溶解血栓 | [[thrombolytics\|血栓溶解劑]] | Alteplase、Tenecteplase | 12 小時內、door-to-needle ≤ 30 分鐘;出血 |
+| 溶解血栓 | [[thrombolytics\|血栓溶解劑]] | Alteplase、Tenecteplase | 12 小時內且預估 PCI > 120 分鐘、door-to-needle ≤ 30 分鐘;出血 |
 | 穩定斑塊、降 LDL | [[statins\|Statin]] | Atorvastatin、Rosuvastatin | 高強度;肌肉痛 |
-| 抑制重塑 | [[ace-inhibitors\|ACEI]]/[[arb\|ARB]] | Ramipril、Lisinopril、Valsartan | 前壁 MI、EF ≤ 40%、高血壓、糖尿病、CKD |
-| | MRA | Eplerenone | MI 後 EF ≤ 40% 合併心衰竭或糖尿病 |
+| 抑制重塑 | [[ace-inhibitors\|ACEI]]/[[arb\|ARB]] | Ramipril、Lisinopril、Valsartan | 高風險 ACS(前壁 STEMI、EF ≤ 40%、高血壓、糖尿病)必用,其他 ACS 也合理(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) |
+| | MRA | Eplerenone | MI 後 EF ≤ 40% 合併心衰竭症狀或糖尿病(同上來源) |
 
 ::questions{group="antianginals" limit="8"}
 
@@ -368,7 +373,7 @@ references:
 
 術前準備與術後護理(穿刺部位、遠端循環、制動時間)見 [[cardiac-catheterization#preparation]] 與 [[cardiac-catheterization#post-care]]。
 
-- **支架置放後**需持續服用**雙重抗血小板**(aspirin + P2Y12 抑制劑,一般約 12 個月,之後通常終身 aspirin 或單一抗血小板);**不可自行停藥**(支架內血栓 → 再梗塞)。病人想停藥時,先**傾聽原因**、個別化說明,不要責備或恐嚇。
+- **支架置放後**需持續服用**雙重抗血小板**(aspirin + P2Y12 抑制劑;ACS 預設**至少 12 個月**,之後長期單一抗血小板;為減少出血,ACS 做 PCI 且能耐受 ticagrelor DAPT 者 **1 個月後可停 aspirin 改 ticagrelor 單一治療**,高出血風險者 1 個月後可改單一抗血小板(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309));詳見 [[antiplatelets#dapt]]);**不可自行停藥**(支架內血栓 → 再梗塞)。病人想停藥時,先**傾聽原因**、個別化說明,不要責備或恐嚇。
 - 拔牙、手術前需與心臟科醫師討論能否停藥。
 
 ### 冠狀動脈繞道手術(CABG) {#cabg}
@@ -409,7 +414,7 @@ references:
 
 ## 心臟復健 {#cardiac-rehab}
 
-心臟復健是**多專業整合**的計畫(運動訓練、危險因子控制、營養、心理支持、衛教、戒菸),能降低死亡與再住院;心肌梗塞、PCI、CABG、穩定型心絞痛、心衰竭病人都應轉介。
+心臟復健是**多專業整合**的計畫(運動訓練、危險因子控制、營養、心理支持、衛教、戒菸),能降低死亡、再梗塞與再住院並改善生活品質;心肌梗塞、PCI、CABG、穩定型心絞痛、心衰竭病人都應轉介。ACS 病人應在**出院前**就轉介門診心臟復健;無法到院者,**居家心臟復健**是合理替代(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
 
 ### 分期 {#rehab-phases}
 
@@ -477,7 +482,7 @@ references:
 
 ### 次級預防:已有冠心病 {#secondary-prevention}
 
-- 藥物:**抗血小板**(終身 aspirin 或 P2Y12)、**高強度 statin**(LDL 目標 < 70,極高風險 < 55 mg/dL)、β 阻斷劑(EF 下降或心衰竭者)、ACEI/ARB(EF ≤ 40%、高血壓、糖尿病、CKD)。
+- 藥物:**抗血小板**(終身 aspirin 或 P2Y12)、**高強度 statin**(LDL 目標:已確診冠心病屬非常高風險 **< 70**;1 年內心肌梗塞、≥ 2 次心肌梗塞、多支血管阻塞或 ACS 合併糖尿病屬極高風險 **< 55** mg/dL,來源:[2025 台灣血脂管理臨床路徑共識](https://doi.org/10.6314/JIMT.202412_35%286%29.04);美國 2025 ACS 指引不分台灣的五級,而是針對 12 個月內的 ACS:最大耐受 statin 後 LDL **≥ 70 應加** ezetimibe/PCSK9 抑制劑等非 statin 藥、**55–69 可考慮加藥**,開始或調藥後 4–8 週驗空腹血脂(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)),實際上等於把近期 ACS 的目標推向 < 55)、β 阻斷劑(EF 下降或心衰竭者)、ACEI/ARB(EF ≤ 40%、高血壓、糖尿病、CKD)。
 - 隨身攜帶**舌下 NTG**並知道使用方法。
 - 參加**心臟復健**。
 - 血壓 < 130/80、糖尿病 HbA1c 約 < 7%。

@@ -12,8 +12,8 @@ references:
   - title: Guyton and Hall Textbook of Medical Physiology, Muscle Blood Flow and Cardiac Output During Exercise; the Coronary Circulation and Ischemic Heart Disease
   - title: 2023 AHA/ACC Guideline for the Management of Patients With Chronic Coronary Disease
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001168
-  - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes(Circulation)
-    url: https://www.ahajournals.org/journal/circ
+  - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes
+    url: https://doi.org/10.1161/CIR.0000000000001309
 ---
 心肌 24 小時不停收縮,幾乎完全靠**有氧代謝**,主要燃料是**脂肪酸**。靜息時心肌已經從冠狀動脈血中抽取約 **70–75% 的氧**(其他組織約 25%),所以需求增加時**不能再多抽氧,只能增加冠狀動脈血流**。一旦血流跟不上需求,就會缺血——心絞痛與心肌梗塞的共同起點。
 
@@ -71,7 +71,7 @@ references:
 :::
 
 **藥物對應**:[[beta-blockers|β 阻斷劑]]延長舒張期;[[nitrates|硝酸鹽]]擴張心外膜大冠狀動脈並解除痙攣;[[calcium-channel-blockers|CCB]] 擴張冠狀動脈,是變異型心絞痛首選。
-**臨床對應**:**主動脈內氣球幫浦(IABP)**在**舒張期充氣**,把主動脈舒張壓推高 → 增加冠狀動脈灌流;收縮期前放氣 → 降低後負荷。
+**臨床對應**:**主動脈內氣球幫浦(IABP)**在**舒張期充氣**,把主動脈舒張壓推高 → 增加冠狀動脈灌流;收縮期前放氣 → 降低後負荷。(原理仍是考點;但 2025 指引**不建議**心肌梗塞合併心因性休克**常規**使用 IABP,因未改善存活(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。)
 
 ## 心肌耗氧量的決定因素 {#oxygen-demand}
 
@@ -95,7 +95,7 @@ references:
 | [[nitrates\|硝酸鹽]](NTG、ISDN) | **擴張靜脈 → 前負荷↓** → 心室半徑與壁張力↓(主要機轉);較高劑量擴張動脈 → 後負荷↓ | 擴張心外膜冠狀動脈、解除痙攣、促進側枝血流 |
 | [[beta-blockers\|β 阻斷劑]] | **心跳↓、收縮力↓**、運動時血壓↓ | 舒張期延長 → 灌流時間↑ |
 | [[calcium-channel-blockers\|CCB]] | DHP 類:後負荷↓;verapamil、diltiazem:另外心跳↓、收縮力↓ | 冠狀動脈擴張(痙攣首選) |
-| 氧氣 | — | 低血氧時提高血氧含量(SpO₂ < 90% 才給) |
+| 氧氣 | — | 低血氧時提高血氧含量(SpO₂ < 90% 才給;≥ 90% 不建議常規給(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))) |
 | 嗎啡 | 止痛、降焦慮、前負荷↓ | — |
 | 半坐臥、臥床休息、軟便劑 | 回心血量↓、活動與用力↓ | — |
 | 血管再通(PCI、CABG、[[thrombolytics\|血栓溶解劑]]) | — | 恢復血流(根本治療) |
@@ -127,7 +127,7 @@ references:
 | 數小時到數天 | 肌鈣蛋白等細胞內物質釋入血液(見 [[cardiac-biomarkers]]);嗜中性球、巨噬細胞清除壞死組織,第 3–7 天心肌最脆弱、易破裂 | — |
 | 約 6–8 週 | 壞死心肌由**結締組織(纖維疤痕)**取代 | 心肌細胞幾乎不能再生 |
 
-- 「**時間就是心肌**」:搶救的目標是在不可逆損傷擴展前恢復血流——STEMI 首選直接 PCI(到院至氣球擴張 ≤ 90 分鐘),無法及時 PCI 時到院 30 分鐘內給予[[thrombolytics|血栓溶解劑]](詳見 [[coronary-artery-disease]])。
+- 「**時間就是心肌**」:搶救的目標是在不可逆損傷擴展前恢復血流——STEMI 首選直接 PCI(首次醫療接觸至器械通過 ≤ 90 分鐘,需轉院者 ≤ 120 分鐘(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))),預估 PCI > 120 分鐘時到院 30 分鐘內給予[[thrombolytics|血栓溶解劑]](詳見 [[coronary-artery-disease]])。
 - 心肌梗塞的心電圖演變(ST 上升 → 病理性 Q 波 → T 波倒置)見 [[ecg#mi-evolution]]。
 - 疤痕組織不能收縮也不能正常傳導 → 心衰竭、心律不整、室壁瘤。
 

@@ -6,8 +6,14 @@ dzTags: [心臟衰竭, 心衰竭]
 system: cardiovascular
 group: cardiac-labs
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
+  - title: 2026 ESC Guidelines for the management of heart failure
+    url: https://doi.org/10.1093/eurheartj/ehag100
+  - title: 2023 台灣心臟學會 慢性心衰竭藥物治療共識
+    url: https://doi.org/10.6515/ACS.202305_39%283%29.20230301A
+  - title: 2024 台灣心臟學會 HFpEF 診斷與治療指引
+    url: https://doi.org/10.6515/ACS.202403_40%282%29.20240206A
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
   - title: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure(含 2023 Focused Update)
@@ -56,9 +62,11 @@ BNP 的作用剛好與 RAAS 相反,目的都是**降低心臟負荷**(詳見 [[b
 | 情境 | BNP | NT-proBNP | 意義 |
 |---|---|---|---|
 | **急性**呼吸困難(急診) | **< 100 pg/mL** | **< 300 pg/mL** | **可排除急性心衰竭** |
-| 急性:高度懷疑心衰竭 | > 400 pg/mL(100–400 為灰色地帶) | 依年齡:< 50 歲 > 450;50–75 歲 > 900;> 75 歲 > 1800 pg/mL | 支持急性心衰竭 |
+| 急性:高度懷疑心衰竭 | > 400 pg/mL(100–400 為灰色地帶;傳統教科書數值) | 依年齡:< 50 歲 > 450;50–74 歲 > 900;> 74 歲 > 1800 pg/mL | 支持急性心衰竭 |
 | **慢性/門診**(非急性症狀) | **< 35 pg/mL** | **< 125 pg/mL** | 不太可能是心衰竭 |
 
+- 急性排除切點與依年齡的 NT-proBNP 納入切點(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.42)。慢性排除切點 35/125 來自 2021 ESC;**2026 ESC** 另建議門診 NT-proBNP 依年齡判斷「可能是心衰竭」:< 50 歲 ≥ 125、50–75 歲 ≥ 250、> 75 歲 ≥ 500 pg/mL(80 歲以上健康人有 75% 超過 125)(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.22)。
+- **台灣**:2023 共識以 BNP ≥ 35 / NT-proBNP ≥ 125 pg/mL 作為 HFpEF「利鈉胜肽上升」的條件(來源:[2023 台灣心臟學會慢性心衰竭藥物治療共識](https://doi.org/10.6515/ACS.202305_39%283%29.20230301A) p.4);2024 HFpEF 指引為減少過度診斷,建議**竇性心律 NT-proBNP > 300 或 BNP > 100 pg/mL**、**心房顫動 NT-proBNP > 600 或 BNP > 150 pg/mL** 才考慮心衰竭(Class I)(來源:[2024 台灣心臟學會 HFpEF 指引](https://doi.org/10.6515/ACS.202403_40%282%29.20240206A) p.10)。
 - 單位:pg/mL(= ng/L)。
 - 切點的主要用途是**排除**(陰性預測值高);數值高時要配合症狀、身體檢查與[[echocardiography]]確認。
 - 國考最常出:**BNP > 100 pg/mL 提示心衰竭**。
@@ -107,7 +115,7 @@ BNP 的作用剛好與 RAAS 相反,目的都是**降低心臟負荷**(詳見 [[b
 
 | 原因 | 機轉 |
 |---|---|
-| **肥胖**(BMI ≥ 30) | 脂肪組織的 NPR-C 受體多、清除快,合成也較少;數值可低約 **30–50%**,判讀時切點要下修 |
+| **肥胖**(BMI ≥ 30) | 脂肪組織的 NPR-C 受體多、清除快,合成也較少;數值可低約 **30–50%**,判讀時切點要下修(肥胖使利鈉胜肽偏低:來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.22、65) |
 | **急性肺水腫剛發生**(flash pulmonary edema,1 小時內) | BNP 還來不及合成 |
 | 縮窄性心包膜炎、心包填塞 | 心室被外力限制、無法被撐大 |
 | 二尖瓣狹窄、急性二尖瓣逆流 | 壓力在心房,心室未擴大 |

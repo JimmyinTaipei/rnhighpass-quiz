@@ -6,8 +6,16 @@ dzTags: [心臟衰竭, 心衰竭, 心房顫動, 毛地黃中毒, 先天性心臟
 system: cardiovascular
 group: heart-failure-drugs
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
+  - title: 2026 ESC Guidelines for the management of heart failure
+    url: https://doi.org/10.1093/eurheartj/ehag100
+  - title: 2023 台灣心臟學會 慢性心衰竭藥物治療共識
+    url: https://doi.org/10.6515/ACS.202305_39%283%29.20230301A
+  - title: 2024 台灣心臟學會 HFpEF 診斷與治療指引
+    url: https://doi.org/10.6515/ACS.202403_40%282%29.20240206A
+  - title: "Mayo Clinic: Digoxin (oral route) – Proper use(漏服處理)"
+    url: https://www.mayoclinic.org/drugs-supplements/digoxin-oral-route/proper-use/drg-20072646
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
   - title: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure
@@ -41,13 +49,13 @@ references:
 
 | 藥物 | 特色 |
 |---|---|
-| **Digoxin(Lanoxin®)** | 臨床唯一常用者;口服錠 0.25 mg、0.125 mg,也有兒童糖漿與注射劑 |
+| **Digoxin(Lanoxin®)** | 臨床唯一常用者;口服錠 0.25 mg、0.125 mg,也有兒童糖漿與注射劑;心衰竭起始 62.5 µg、目標 250 µg 一天一次(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.37;僅供參考,以醫囑為準) |
 | Digitoxin | 經肝代謝、半衰期很長,台灣少用 |
 
 ## 適應症 {#indications}
 
-- **HFrEF**:已使用 [[arni]]/ACEI/ARB、[[beta-blockers]]、[[potassium-sparing-diuretics|MRA]]、[[sglt2-inhibitors]] 等最佳治療後**仍有症狀**者,可考慮加上 digoxin 以**減少心衰竭住院**(2022 AHA/ACC/HFSA Class 2b;2021 ESC IIb)。DIG 試驗顯示**對死亡率沒有影響**。因此今天它**不是心衰竭的首選藥**,國考舊題寫「CHF 首選」是傳統教科書的說法。
-- **心房顫動/心房撲動控制心室速率**:尤其合併心衰竭、低血壓不能用太多 β 阻斷劑者;靜態心率控制好,但**活動時控制較差**,常與 β 阻斷劑合用。
+- **HFrEF**:已使用 [[arni]]/ACEI/ARB、[[beta-blockers]]、[[potassium-sparing-diuretics|MRA]]、[[sglt2-inhibitors]] 等最佳治療後**仍有症狀**者,可考慮加上 digoxin 以**減少心衰竭住院**(2022 AHA/ACC/HFSA Class 2b;2021 ESC IIb)。DIG 試驗顯示**對死亡率沒有影響**。**2026 ESC 升為 IIa**(「強心配醣體 digoxin 或 digitoxin」,LVEF ≤ 40%),依據是 DIGIT-HF 試驗(digitoxin 使「死亡或心衰竭住院」合併終點下降)(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.34、37)。台灣共識:**末期腎病與心跳 < 60 次/分者不宜使用**(來源:[2023 台灣心臟學會慢性心衰竭藥物治療共識](https://doi.org/10.6515/ACS.202305_39%283%29.20230301A) p.12)。因此今天它**不是心衰竭的首選藥**,國考舊題寫「CHF 首選」是傳統教科書的說法。
+- **心房顫動/心房撲動控制心室速率**:尤其合併心衰竭、低血壓不能用太多 β 阻斷劑者(HFpEF 合併心房顫動時 β 阻斷劑、非 DHP 類 CCB 或 digoxin 皆可控速,IIa;來源:[2024 台灣心臟學會 HFpEF 指引](https://doi.org/10.6515/ACS.202403_40%282%29.20240206A) p.15);靜態心率控制好,但**活動時控制較差**,常與 β 阻斷劑合用。
 - 兒童先天性心臟病合併心衰竭(如心室中膈缺損)。
 
 **不適用/禁忌**:心室頻脈或心室顫動、未裝節律器的**二度/三度房室傳導阻滯**、病竇症候群、**WPW 症候群合併心房顫動**(會加速經旁路傳導)、肥厚性阻塞性心肌病變、毛地黃中毒。
@@ -57,7 +65,7 @@ references:
 - 口服吸收 60–80%;口服 0.5–2 小時起效,**半衰期約 36–48 小時**(一天一次即可;停藥後需多天才排除)。
 - **主要經腎臟原型排出** → **腎功能不全、老人**容易蓄積中毒,需減量(例如 0.125 mg 或隔日給藥)。
 - 分布到骨骼肌,**不分布到脂肪** → 依理想體重給藥;肌肉量少的老人濃度較高。
-- **血中濃度**:心衰竭建議維持約 **0.5–0.9 ng/mL**(2022 AHA;ESC 為 < 1.2 ng/mL);傳統教科書治療範圍 **0.5–2.0 ng/mL**,**> 2.0 ng/mL** 視為中毒。濃度需在**給藥後 6–8 小時以上**(通常是下一劑前)抽血,否則會假性偏高。
+- **血中濃度**:心衰竭建議維持約 **0.5–0.9 ng/mL**(2022 AHA,待原文核對);ESC 建議治療中目標 **< 1.2 ng/mL**,並依血中濃度調整劑量(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.34、37);傳統教科書治療範圍 **0.5–2.0 ng/mL**,**> 2.0 ng/mL** 視為中毒。濃度需在**給藥後 6–8 小時以上**(通常是下一劑前)抽血,否則會假性偏高。
 - 劑量換算範例:醫囑 digoxin 125 mcg,錠劑 0.25 mg(= 250 mcg)→ 給**半顆**。
 
 ## 副作用與禁忌 {#adverse-effects}
@@ -122,7 +130,11 @@ references:
 - 口服糖漿用**有刻度的注射針筒**精確量取;嬰兒劑量以 mcg 計,**劑量計算需兩人核對**。
 - **不要與奶、果汁、食物混合**(沒喝完就不知道吃了多少);最好在**飯前 1 小時或飯後 2 小時**給,每天固定時間。
 - 服藥後嘔吐**不要再補一劑**。
-- **漏服**:在原定時間後 **4 小時內**(部分教科書為 6 小時內)發現可補服,下一劑照原時間;超過則**跳過**,**絕不加倍**;連續漏服 2 劑以上要聯絡醫師。
+- **漏服**:按一般「忘記服藥」的原則處理——想起來就儘快補服;但若已**接近下一次服藥時間**,就跳過這一劑、下一劑照原時間,**絕不加倍**;連續 2 天以上漏服要聯絡醫師(來源:[Mayo Clinic:Digoxin (oral route) – Proper use](https://www.mayoclinic.org/drugs-supplements/digoxin-oral-route/proper-use/drg-20072646))。
+  - 「接近下一次」的實用判斷:**還沒超過兩次給藥間隔的中點 → 可補;超過中點 → 不補**。
+    - 每 12 小時一次(兒童常見 BID):**6 小時內**可補。
+    - 每天一次:**12 小時內**可補。
+  - 國考題的解析有「4 小時」與「6 小時」兩種寫法,是不同教科書的數字;以題目的給藥頻次套用上面的中點原則最不容易錯,兩種說法的共同核心是「**接近下一劑就不補、不可加倍**」。
 - 教家屬在家量心尖脈、辨識中毒症狀(**噁心嘔吐、食慾差、心跳變慢**)並就醫;藥物放兒童拿不到的地方(誤食很危險)。
 
 ### 成人衛教 {#education}
@@ -143,7 +155,7 @@ references:
 - 中毒時**低血鉀要補鉀**、房室阻斷用 **atropine**;毛地黃中毒的心室性心律不整/VF 首選(傳統答案)**phenytoin**。
 - 與 thiazide 併用**不能**避免中毒;甘草 + 毛地黃 → **低血鉀**。
 - 醫囑判讀:125 mcg ÷ 0.25 mg 錠 = **半顆**;**QOD = 隔天一次**;S.L. = 舌下。
-- 兒童漏服 4(至 6)小時內補服、下一劑照原時間;超過不補、不加倍。
+- 漏服:未超過給藥間隔中點可補服(BID 約 6 小時內),超過就跳過、下一劑照原時間,**不可加倍**(題目解析有 4 或 6 小時兩種寫法,見 [[#pediatric]])。
 - 服用 digoxin 可能造成**惡夢**等睡眠問題。
 :::
 

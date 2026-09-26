@@ -7,12 +7,12 @@ system: cardiovascular
 alsoIn: [neuro]
 group: antihypertensives
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: 2022 Guidelines of the Taiwan Society of Cardiology and the Taiwan Hypertension Society for the Management of Hypertension(台灣心臟學會/台灣高血壓學會 2022 高血壓治療指引). Acta Cardiol Sin 2022;38:225–325
-    url: https://pubmed.ncbi.nlm.nih.gov/35673334/
+    url: https://doi.org/10.6515/ACS.202205_38%283%29.20220321A
   - title: 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults. Circulation 2025
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
+    url: https://doi.org/10.1161/CIR.0000000000001356
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. Circulation 2022
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
   - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes. Circulation 2025
@@ -73,6 +73,7 @@ references:
 | **Metoprolol** | β1 選擇性;**succinate 緩釋劑型**用於心衰竭,tartrate 為短效 |
 | **Bisoprolol** | β1 選擇性高;心衰竭實證藥 |
 | **Carvedilol** | α1 + 非選擇性 β;心衰竭實證藥;與食物併服減少姿勢性低血壓 |
+| Nebivolol | β1 選擇性並促進 NO 釋放擴張血管;2025 AHA/ACC 指出它較少造成勃起功能障礙(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e151、e181) |
 | **Labetalol** | α1 + 非選擇性 β;口服與靜脈;**妊娠高血壓第一線**、**高血壓急症** |
 | **Esmolol** | β1 選擇性、**超短效**(半衰期約 9 分鐘,被紅血球酯酶分解);只能靜脈滴注,用於手術中/急性心搏過速、主動脈剝離 |
 | **Nadolol** | 非選擇性、水溶性、**半衰期最長**(約 20–24 小時),腎排除;食道靜脈曲張 |
@@ -81,9 +82,10 @@ references:
 
 ### Labetalol 與孕婦 {#labetalol-pregnancy}
 
-Labetalol 是**妊娠高血壓與子癲前症**的第一線口服藥(與長效 nifedipine 並列),也用於**孕期急性重度高血壓**(靜脈,與 hydralazine、口服速效 nifedipine 並列)。注意:
+Labetalol 是**妊娠高血壓與子癲前症**的第一線口服藥(與長效 nifedipine 並列,2025 AHA/ACC COR 1),也用於**孕期急性重度高血壓**(靜脈,與 hydralazine、口服速效 nifedipine 並列);2022 台灣指引建議孕期高血壓危象用**靜脈 labetalol 或 nicardipine** 加硫酸鎂(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e171、e175;[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.293)。注意:
 
 - 氣喘孕婦避免(非選擇性 β)。
+- **Atenolol 孕期禁用**(與胎兒生長遲滯、體重較低有關;2025 AHA/ACC COR 3:有害),這不是整類的效果,metoprolol 未見相同問題(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e171、e173–e174)。
 - 可能造成新生兒心搏過緩、低血糖 → 出生後觀察新生兒。
 - 其他孕期可用降壓藥見 [[central-alpha2-agonists]]、[[direct-vasodilators]]、[[calcium-channel-blockers]];ACEI/ARB 禁用。
 
@@ -91,7 +93,7 @@ Labetalol 是**妊娠高血壓與子癲前症**的第一線口服藥(與長效 n
 
 | 適應症 | 說明 |
 |---|---|
-| **高血壓** | 2022 台灣指引將 β 阻斷劑列入可用的第一線藥物,特別是合併心絞痛、心肌梗塞後、心衰竭、心搏過速或需控制心率者;2025 AHA/ACC 指引則以 thiazide、ACEI/ARB、CCB 為一般第一線,β 阻斷劑用於有上述**強適應症**者(見 [[hypertension]]) |
+| **高血壓** | 2022 台灣指引將 β 阻斷劑與 ACEI/ARB、CCB、thiazide 並列為**五大第一線**降壓藥(COR I, LOE B)(來源:[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A)),特別適合合併心絞痛、心肌梗塞後、心衰竭、心搏過速或需控制心率者;2025 AHA/ACC 指引則以 thiazide、ACEI/ARB、長效 DHP 類 CCB 為一般第一線,β 阻斷劑預防中風效果較差、副作用較多,**除非有冠心病或心衰竭等強適應症,不建議作為第一線**(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e149、e151)(見 [[hypertension]]) |
 | **穩定型心絞痛** | 第一線抗心絞痛藥;與硝酸鹽合用可**抵銷硝酸鹽的反射性心搏過速**(見 [[nitrates]]、[[coronary-artery-disease]]) |
 | **急性冠心症/心肌梗塞後** | 無禁忌(心衰竭徵象、低心輸出、休克風險、心搏過緩、傳導阻滯、氣喘發作)時早期開始口服;**LVEF ≤ 40% 者長期使用證據最強** |
 | **HFrEF** | **Carvedilol、bisoprolol、metoprolol succinate** 三者有降低死亡率證據;需在**病情穩定、無明顯鬱血**時從**低劑量開始,每 2 週左右加倍**到目標劑量(見 [[heart-failure]]) |
@@ -138,7 +140,7 @@ Labetalol 是**妊娠高血壓與子癲前症**的第一線口服藥(與長效 n
 | β2 致效劑(salbutamol、terbutaline) | 互相抵銷 |
 | NSAIDs | 降壓效果 ↓ |
 | DHP 類 CCB、硝酸鹽 | 良好組合:β 阻斷劑抵銷其反射性心搏過速 |
-| 其他降壓藥、麻醉藥 | 加成低血壓;手術前**不需停藥**(長期服用者持續服用以免反彈) |
+| 其他降壓藥、麻醉藥 | 加成低血壓;手術前**不需停藥**(長期服用者整個手術期間持續服用,COR 1;術前驟停可能反彈,COR 3:有害);但從未使用者**不可在手術當天才開始**(COR 3:有害)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e183) |
 
 ## 護理重點與衛教 {#nursing}
 

@@ -7,12 +7,12 @@ system: cardiovascular
 alsoIn: [renal]
 group: antihypertensives
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: 2022 Guidelines of the Taiwan Society of Cardiology and the Taiwan Hypertension Society for the Management of Hypertension(台灣心臟學會/台灣高血壓學會 2022 高血壓治療指引). Acta Cardiol Sin 2022;38:225–325
-    url: https://pubmed.ncbi.nlm.nih.gov/35673334/
+    url: https://doi.org/10.6515/ACS.202205_38%283%29.20220321A
   - title: 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults. Circulation 2025
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
+    url: https://doi.org/10.1161/CIR.0000000000001356
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. Circulation 2022
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
   - title: KDIGO 2021 Clinical Practice Guideline for the Management of Blood Pressure in CKD
@@ -45,7 +45,7 @@ Angiotensin II 主要透過 **AT1 受體**造成:小動脈收縮、醛固酮與 
 | Angiotensin II 濃度 | ↓ | ↑(但受體被阻斷) |
 | **Bradykinin** | **↑** | 不變 |
 | **乾咳** | 常見(5–20%) | 少(與安慰劑相近) |
-| 血管性水腫 | 較多 | 很少;有 ACEI 血管性水腫病史者仍需謹慎 |
+| 血管性水腫 | 較多 | 很少;曾因 ACEI 血管性水腫者,2025 AHA/ACC 表列可在停 ACEI **6 週後**改用 ARB(仍需謹慎);曾因 ARB 本身發生者禁用(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e150) |
 | 高血鉀、腎功能下降、低血壓 | 有 | 有(程度相近) |
 | 孕婦 | 禁用 | 禁用 |
 | 心衰竭/腎臟保護證據 | 有 | 有(兩者大致相當) |
@@ -65,7 +65,7 @@ Angiotensin II 主要透過 **AT1 受體**造成:小動脈收縮、醛固酮與 
 
 ## 適應症 {#indications}
 
-- **高血壓**:第一線藥物(2022 台灣指引、2025 AHA/ACC 指引);合併糖尿病、CKD 蛋白尿、心衰竭、冠心病者尤佳(見 [[hypertension]])。
+- **高血壓**:第一線藥物(2022 台灣指引、2025 AHA/ACC 指引)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e149;[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.225);合併糖尿病、CKD 蛋白尿、心衰竭、冠心病者尤佳(見 [[hypertension]])。2025 AHA/ACC 另指出 ARB 對男女性功能的影響最小(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e181)。
 - **ACEI 無法耐受(乾咳)**的替代。
 - **HFrEF**:無法使用 ARNI 或 ACEI 時;ARNI 已成為優先選擇(見 [[heart-failure]]、[[arni]])。
 - **糖尿病腎病變、CKD 合併白蛋白尿**。
@@ -83,11 +83,11 @@ Angiotensin II 主要透過 **AT1 受體**造成:小動脈收縮、醛固酮與 
 |---|---|
 | **高血鉀** | 醛固酮 ↓;腎功能差、糖尿病、併用保鉀藥時風險高(見 [[potassium]]) |
 | 低血壓、頭暈 | 已用利尿劑或脫水者首劑較明顯 |
-| 腎功能暫時下降 | 肌酸酐上升 < 30% 可接受;雙側腎動脈狹窄者可致急性腎衰竭 |
+| 腎功能暫時下降 | eGFR 下降 ≤ 30% 屬預期,不必停藥(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e158);雙側腎動脈狹窄者可致急性腎衰竭 |
 | 血管性水腫 | 罕見 |
 | **胎兒毒性** | 同 ACEI:羊水過少、胎兒腎衰竭、顱骨發育不全 |
 
-**禁忌**:懷孕、雙側腎動脈狹窄、嚴重高血鉀;**與 ACEI 或 aliskiren 合併使用**(雙重 RAAS 阻斷增加高血鉀、低血壓、急性腎損傷,沒有額外好處)。
+**禁忌**:懷孕(2025 AHA/ACC COR 3:有害)、雙側腎動脈狹窄、嚴重高血鉀;**與 ACEI 或 aliskiren 合併使用**(雙重 RAAS 阻斷增加高血鉀、低血壓、急性腎損傷,沒有額外好處;COR 3:有害)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e149、e171)。
 
 ## 交互作用 {#interactions}
 
@@ -100,7 +100,7 @@ Angiotensin II 主要透過 **AT1 受體**造成:小動脈收縮、醛固酮與 
 ## 護理重點與衛教 {#nursing}
 
 - 給藥前量血壓;首劑後注意姿勢性低血壓。
-- 用藥初期與加量後 1–2 週追蹤**血鉀、肌酸酐**。
+- 用藥初期與加量後追蹤**血鉀、肌酸酐**(教科書常寫 1–2 週;2025 AHA/ACC 寫 2–4 週內量 eGFR)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e158)。
 - 避免含鉀代鹽、鉀補充劑;腎功能差者限制高鉀食物。
 - 育齡女性避孕,發現懷孕立即回診換藥。
 - 嘔吐、腹瀉、脫水時依醫囑暫停。

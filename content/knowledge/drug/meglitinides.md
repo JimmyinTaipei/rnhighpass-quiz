@@ -6,10 +6,14 @@ dzTags: [糖尿病]
 system: endocrine
 group: antidiabetics
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: American Diabetes Association. Standards of Care in Diabetes(最新年度版)
     url: https://diabetesjournals.org/care
+  - title: ADA. 9. Pharmacologic Approaches to Glycemic Treatment - Standards of Care in Diabetes—2026
+    url: https://doi.org/10.2337/dc26-S009
+  - title: ADA. 13. Older Adults - Standards of Care in Diabetes—2026
+    url: https://doi.org/10.2337/dc26-S013
   - title: OpenStax. Pharmacology for Nurses, Antidiabetic Drugs(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考
 ---
@@ -17,7 +21,7 @@ references:
 
 - 機轉與[[sulfonylureas|磺醯脲類]]相同(關閉 K-ATP → 促進胰島素分泌),但**作用快、時間短**。
 - 主要降低**餐後血糖**;**餐前 0–30 分鐘**服用,**不吃飯就不吃藥**。
-- 仍可能低血糖(比 SU 少)與體重增加。
+- 仍可能低血糖(比 SU 少)與體重增加;在老人會增加低血糖與骨折風險(來源:[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013))。新增其他降血糖藥時需重新評估劑量(來源:[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 建議 9.17)。
 
 ## 作用機轉 {#mechanism}
 
@@ -34,8 +38,8 @@ references:
 
 ## 副作用與交互作用 {#adverse-effects}
 
-- 低血糖(較 SU 少)、體重增加、上呼吸道感染。
-- **Repaglinide 與 gemfibrozil(降血脂藥)併用**:gemfibrozil 抑制 CYP2C8 → repaglinide 濃度大增 → 嚴重低血糖,**禁止併用**。
+- 低血糖(較 SU 少)、體重增加、上呼吸道感染;老人低血糖與骨折風險增加(來源:[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013))。
+- **Repaglinide 與 gemfibrozil(降血脂藥)併用**:gemfibrozil 抑制 CYP2C8 → repaglinide 濃度大增 → 嚴重低血糖,**禁止併用**(依 repaglinide 仿單禁忌)。
 - 其他 CYP3A4 抑制劑(clarithromycin、azole 類)也會增加濃度。
 
 ## 護理重點與衛教 {#nursing}

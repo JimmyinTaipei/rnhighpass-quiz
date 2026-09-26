@@ -7,8 +7,12 @@ system: renal
 alsoIn: [cardiovascular]
 group: diuretics
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
+  - title: 2026 ESC Guidelines for the management of heart failure
+    url: https://doi.org/10.1093/eurheartj/ehag100
+  - title: 2024 台灣心臟學會 HFpEF 診斷與治療指引
+    url: https://doi.org/10.6515/ACS.202403_40%282%29.20240206A
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
   - title: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure
@@ -51,8 +55,8 @@ references:
 
 ## 適應症 {#indications}
 
-- **急性心衰竭/急性肺水腫**:有體液滯留徵象者立即靜脈給予(與氧氣、端坐、血管擴張劑並用)。ESC 建議已在口服者的起始靜脈劑量約為平日口服量的 **1–2.5 倍**;新診斷者 furosemide 20–40 mg IV。之後依尿量、尿鈉調整(2 小時尿鈉 < 50–70 mEq/L 或 6 小時尿量 < 100–150 mL/h 表示反應不足)。
-- **慢性心衰竭有體液滯留**:2022 AHA/ACC/HFSA 與 2021 ESC 皆為 Class I——用來**緩解鬱血症狀**,用「能維持乾體重的最低劑量」;**不降低死亡率**,改善預後要靠 [[arni]]/ACEI、β 阻斷劑、[[potassium-sparing-diuretics|MRA]]、[[sglt2-inhibitors]] 四大支柱(見 [[heart-failure]])。
+- **急性心衰竭/急性肺水腫**:有體液滯留者都建議靜脈給予(Class I),與氧氣、端坐、血管擴張劑並用。**2026 ESC**:未用過利尿劑者 **furosemide 40 mg IV**;已在口服者給**每日口服劑量的 2 倍**;2 小時點尿鈉 ≥ 70 mmol/L 或 6 小時尿量 ≥ 100 mL/h 表示反應足夠(每 12 小時重複到完全消腫),反應不足則**劑量加倍**或加 acetazolamide/thiazide(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.49、51)。(2021 ESC 寫法為口服量的 1–2.5 倍、新診斷者 20–40 mg。)劑量僅供參考,以醫囑為準。
+- **慢性心衰竭有體液滯留**:2022 AHA/ACC/HFSA 與 ESC 皆為 Class I——用來**緩解鬱血症狀**,依體液狀態**動態調整劑量**、用「能維持乾體重的最低劑量」(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.37);HFpEF 有鬱血時也以 loop 利尿劑為第一線(Class I;來源:[2024 台灣心臟學會 HFpEF 指引](https://doi.org/10.6515/ACS.202403_40%282%29.20240206A) p.15);**不降低死亡率**,改善預後要靠 [[arni]]/ACEI、β 阻斷劑、[[potassium-sparing-diuretics|MRA]]、[[sglt2-inhibitors]] 四大支柱(見 [[heart-failure]])。
 - 腎病症候群、肝硬化腹水(與 spironolactone 併用,常用比例 spironolactone 100 : furosemide 40)。
 - **腎功能不全**(eGFR 低、thiazide 無效時)的水腫與高血壓;AKI 少尿期可用來試圖增加尿量(但**不能**治療 AKI 本身)。
 - **急性高血鈣**:先**充分補液**,再給 loop 增加鈣排泄。
@@ -110,7 +114,7 @@ references:
 
 ### 監測 {#monitoring}
 
-- **每日同一時間、同一磅秤、相似衣著量體重**;1 天增加 > 1 kg(或 1 週 > 2 kg)要通報——比輸出入量更可靠。
+- **每日同一時間、同一磅秤、相似衣著量體重**;1 天增加 > 1 kg(或 1 週 > 2 kg)要通報——比輸出入量更可靠(ESC 將體重增加 > 2 kg/週列為心衰竭徵象;來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.22)。
 - 記錄輸出入量;急性期觀察給藥後尿量(靜脈給藥後 30–60 分鐘應出現明顯利尿)、呼吸困難與囉音是否改善。
 - 追蹤 K⁺、Na⁺、Mg²⁺、BUN/Cr;**心電圖出現 U 波**或病人肌肉無力、心悸 → 懷疑低血鉀。
 - 觀察脫水(口乾、皮膚彈性差、姿勢性低血壓)與耳毒性(耳鳴、聽力改變)。

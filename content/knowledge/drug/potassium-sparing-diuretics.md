@@ -7,8 +7,14 @@ system: renal
 alsoIn: [cardiovascular]
 group: diuretics
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
+  - title: 2026 ESC Guidelines for the management of heart failure
+    url: https://doi.org/10.1093/eurheartj/ehag100
+  - title: 2023 台灣心臟學會 慢性心衰竭藥物治療共識
+    url: https://doi.org/10.6515/ACS.202305_39%283%29.20230301A
+  - title: 2024 台灣心臟學會 HFpEF 診斷與治療指引
+    url: https://doi.org/10.6515/ACS.202403_40%282%29.20240206A
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
   - title: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure
@@ -46,7 +52,7 @@ references:
 |---|---|
 | **Spironolactone(Aldactone®)** | 最常用 MRA;選擇性低,也拮抗雄性素、影響黃體素受體 → **男性女乳**、乳房觸痛、陽痿、月經不規則、多毛改善(用於女性多毛症、痤瘡) |
 | **Eplerenone** | **選擇性** MRA,幾乎不作用於性荷爾蒙受體 → 較少男性女乳症;經 CYP3A4 代謝,避免併用強效 CYP3A4 抑制劑(clarithromycin、ketoconazole) |
-| Finerenone | 非類固醇 MRA;用於第二型糖尿病合併 CKD 以保護腎臟與心血管,近年研究也用於 HFmrEF/HFpEF |
+| Finerenone | 非類固醇 MRA;用於第二型糖尿病合併 CKD 以保護腎臟與心血管;FINEARTS-HF 試驗後,2026 ESC 將 MRA(含 finerenone)列為 **HFpEF 的 Class I**(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.37–38);劑量依 eGFR:≤ 60 起始 10 mg、目標 20 mg;> 60 起始 20 mg、目標 40 mg(同上來源 p.37) |
 | **Amiloride** | ENaC 阻斷劑;常與 thiazide 做成複方;可治療鋰鹽引起的腎因性尿崩症 |
 | **Triamterene** | ENaC 阻斷劑;常與 HCTZ 複方;可能造成**腎結石**、干擾葉酸代謝、尿液呈藍色螢光 |
 
@@ -54,10 +60,11 @@ references:
 
 ### 心衰竭 {#heart-failure}
 
-- **HFrEF(LVEF ≤ 40%)NYHA II–IV**:2022 AHA/ACC/HFSA 與 2021 ESC 皆為 **Class I**,降低死亡與住院。條件:**eGFR > 30 mL/min/1.73m²、血鉀 < 5.0 mEq/L**。
+- **HFrEF(LVEF ≤ 40%)NYHA II–IV**:2022 AHA/ACC/HFSA 與 ESC 皆為 **Class I**,降低死亡與住院(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.37)。條件:**eGFR > 30 mL/min/1.73m²、血鉀 < 5.0 mEq/L**(AHA);ESC:eGFR < 25 未經試驗、血鉀 ≥ 5.0 mmol/L 時開始要謹慎(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.32)。
 - 心肌梗塞後 LVEF ≤ 40% 合併心衰竭或糖尿病(eplerenone)。
-- HFmrEF / HFpEF:可考慮(AHA 2b),以減少住院。
-- 劑量:spironolactone 12.5–25 mg 起始,目標 25–50 mg/天;eplerenone 25 → 50 mg/天。
+- HFmrEF / HFpEF:2022 AHA 為 2b(可考慮,以減少住院);**2024 台灣 HFpEF 指引 IIa**(特定病人,尤其 EF 偏低端;收縮壓 < 100 mmHg 時可先 SGLT2i + MRA)(來源:[2024 台灣心臟學會 HFpEF 指引](https://doi.org/10.6515/ACS.202403_40%282%29.20240206A) p.16);**2026 ESC 為 Class I**(不論 EF,類固醇或非類固醇 MRA;來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.37)。
+- 劑量:spironolactone 12.5–25 mg 起始,目標 50 mg/天;eplerenone 25 → 50 mg/天(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.37;僅供參考,以醫囑為準)。
+- 台灣共識建議 HFrEF 可**先 SGLT2i + MRA 一起開始**(SGLT2i 能降低 MRA 造成的高血鉀),再加 ARNI 與 β 阻斷劑(來源:[2023 台灣心臟學會慢性心衰竭藥物治療共識](https://doi.org/10.6515/ACS.202305_39%283%29.20230301A) p.15–17)。
 - 台灣心臟學會指引同樣將 MRA 列為 HFrEF 基礎治療之一(見 [[heart-failure]])。
 
 ### 其他 {#other-uses}
@@ -72,7 +79,7 @@ references:
 
 | 副作用 | 說明與處置 |
 |---|---|
-| **高血鉀** | 最危險:肌肉無力、感覺異常、心搏過緩、**T 波高尖**、心律不整。高危險:腎功能差、老人、糖尿病、併用 ACEI/ARB/ARNI、NSAID、鉀補充劑。ESC:**K⁺ > 5.5 減半劑量,> 6.0 停藥** |
+| **高血鉀** | 最危險:肌肉無力、感覺異常、心搏過緩、**T 波高尖**、心律不整。高危險:腎功能差、老人、糖尿病、併用 ACEI/ARB/ARNI、NSAID、鉀補充劑。ESC:K⁺ **> 5.5** 先複驗,考慮減量或暫停;**> 5.5–6.0** 暫時減量或停用 MRA 及 RAAS 抑制劑,血鉀恢復後再開始(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.32、35)。傳統教科書寫法「> 5.5 減半、> 6.0 停藥」 |
 | 腎功能惡化 | 尤其脫水、腹瀉嘔吐時;Cr 大幅上升時減量或暫停 |
 | **男性女乳症**、乳房觸痛 | spironolactone 的抗雄性素作用;可改用 eplerenone |
 | 月經不規則、陽痿、性慾下降 | 同上 |

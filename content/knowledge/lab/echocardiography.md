@@ -6,8 +6,12 @@ dzTags: [心臟衰竭, 心衰竭, 冠狀動脈疾病, 心肌梗塞]
 system: cardiovascular
 group: cardiac-labs
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
+  - title: 2026 ESC Guidelines for the management of heart failure
+    url: https://doi.org/10.1093/eurheartj/ehag100
+  - title: 2023 台灣心臟學會 慢性心衰竭藥物治療共識
+    url: https://doi.org/10.6515/ACS.202305_39%283%29.20230301A
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
   - title: "Bozkurt B, et al. Universal Definition and Classification of Heart Failure (2021)"
@@ -65,10 +69,11 @@ references:
 | **HFrEF**(射出分率降低) | **≤ 40%** | 收縮功能不良;藥物證據最完整(ARNI/ACEI/ARB、β 阻斷劑、MRA、SGLT2i) |
 | **HFmrEF**(輕度降低) | **41–49%** | 介於中間 |
 | **HFpEF**(射出分率保留) | **≥ 50%** | 舒張功能不良、心室僵硬;需有充填壓上升證據(如 BNP 升高、E/e′ 高) |
-| **HFimpEF**(射出分率改善) | 原本 **≤ 40%**,追蹤時 **> 40%** 且上升 ≥ 10 個百分點 | 仍需持續原治療 |
+| **HFimpEF**(射出分率改善) | 原本 **≤ 40%**,追蹤時 **> 40%**(ESC、台灣另要求上升 ≥ 10 個百分點) | 仍需持續原治療 |
 
-- 依據:2021 心衰竭通用定義、2022 AHA/ACC/HFSA、2021 ESC。舊教科書曾以 EF < 35–40% 為收縮性心衰竭、40–49% 為「灰色地帶」,國考以上表為準。
-- EF 越低,越容易有心律不整與猝死;**EF ≤ 35%** 持續 3 個月以上是考慮植入式去顫器(ICD)的條件之一。
+- 依據:2021 心衰竭通用定義、2022 AHA/ACC/HFSA(HFimpEF = 先前 ≤ 40%、追蹤 > 40%,經 [ACC Key Perspectives 摘要](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/03/29/19/53/2022-aha-acc-hfsa-heart-failure-guideline-gl-hf)核對)。舊教科書曾以 EF < 35–40% 為收縮性心衰竭、40–49% 為「灰色地帶」,國考以上表為準。
+- **新分類不同處**:2023 台灣共識把 LVEF < 50% 都稱 HFrEF(再分 HFsrEF ≤ 40%、HFmrEF 41–49%),50–59% 為 HFpEF、≥ 60% 為 HFnEF(來源:[2023 台灣心臟學會慢性心衰竭藥物治療共識](https://doi.org/10.6515/ACS.202305_39%283%29.20230301A) p.4–5);2026 ESC **取消 HFmrEF**,只分 HFrEF(< 50%)與 HFpEF(≥ 50%),HFimpEF 定義為 EF 上升 ≥ 10 個百分點且 > 40%(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.16)。
+- EF 越低,越容易有心律不整與猝死;最佳藥物治療 **≥ 3 個月**後 **EF 仍 ≤ 35%** 是考慮植入式去顫器(ICD)的條件之一(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.39)。
 - 題目中「EF 12%」代表極嚴重的收縮功能不良。
 
 :::exam[國考重點]

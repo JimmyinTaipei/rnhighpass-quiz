@@ -5,8 +5,12 @@ aliases: [心輸出量, 心搏出量, 心搏量, 前負荷, 後負荷, 收縮力
 dzTags: []
 system: cardiovascular
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
+  - title: 2026 ESC Guidelines for the management of heart failure
+    url: https://doi.org/10.1093/eurheartj/ehag100
+  - title: 2023 台灣心臟學會 慢性心衰竭藥物治療共識
+    url: https://doi.org/10.6515/ACS.202305_39%283%29.20230301A
   - title: OpenStax. Anatomy and Physiology 2e, Ch.19 The Cardiovascular System - The Heart(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考
   - title: Guyton and Hall Textbook of Medical Physiology, Heart Muscle; The Heart as a Pump; Rhythmical Excitation of the Heart
@@ -201,14 +205,14 @@ references:
 **射出分率(EF)= 心搏量(SV)÷ 舒張末期容積(EDV)× 100%**
 
 - 正常左心室 EF 約 **50–70%**(多以心臟超音波測量)。
-- 心衰竭依 EF 分類(2021 ESC、2022 AHA/ACC/HFSA 一致):
+- 心衰竭依 EF 分類(2021 ESC、2022 AHA/ACC/HFSA 一致;國考以此為準。2026 ESC 已取消 HFmrEF、以 EF < 50% 為 HFrEF,台灣 2023 共識也把 < 50% 通稱 HFrEF,詳見 [[echocardiography#ef]]):
 
 | 分類 | 左心室 EF |
 |---|---|
 | **HFrEF**(射出分率降低) | **≤ 40%** |
 | HFmrEF(射出分率輕度降低) | 41–49% |
 | **HFpEF**(射出分率保留) | **≥ 50%** |
-| HFimpEF(射出分率改善) | 原本 ≤ 40%,追蹤時上升 > 10 個百分點且 > 40% |
+| HFimpEF(射出分率改善) | 原本 ≤ 40%,追蹤時 > 40%(AHA);ESC 與台灣另要求上升 **≥ 10** 個百分點(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.16;[2023 台灣心臟學會慢性心衰竭藥物治療共識](https://doi.org/10.6515/ACS.202305_39%283%29.20230301A) p.4) |
 
 - HFrEF 是收縮功能差;HFpEF 多為舒張功能差(心室僵硬,常見於高血壓、高齡),EF 正常但充填壓高。
 - EF 極低(如 12%)的心衰竭病人:半坐臥、限水限鈉、每日量體重與輸出入量;**不要**把雙腳抬高 30 度以上(會增加回心血量、加重肺充血)。

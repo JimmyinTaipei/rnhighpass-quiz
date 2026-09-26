@@ -6,18 +6,22 @@ dzTags: [糖尿病]
 system: endocrine
 group: antidiabetics
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: American Diabetes Association. Standards of Care in Diabetes(最新年度版)
     url: https://diabetesjournals.org/care
+  - title: ADA. 9. Pharmacologic Approaches to Glycemic Treatment - Standards of Care in Diabetes—2026
+    url: https://doi.org/10.2337/dc26-S009
+  - title: ADA. 13. Older Adults - Standards of Care in Diabetes—2026
+    url: https://doi.org/10.2337/dc26-S013
   - title: OpenStax. Pharmacology for Nurses, Antidiabetic Drugs(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考
 ---
 ## 重點摘要 {#summary}
 
 - 結合 β 細胞 **SUR1**、關閉 K-ATP 通道 → **促進胰臟 β 細胞分泌胰島素**(需要還有功能的 β 細胞,第一型無效)。
-- 分泌**不受血糖高低控制** → **低血糖風險是口服藥中最高**(Glyburide 最明顯);**體重增加**。
-- 一般於**飯前約 30 分鐘**服用;老人、腎功能不佳者特別小心低血糖。
+- 分泌**不受血糖高低控制** → **低血糖風險是口服藥中最高**(Glyburide 最明顯);**體重增加**(來源:[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 表 9.2)。
+- 一般於**飯前約 30 分鐘**服用(glimepiride、gliclazide 緩釋錠常於早餐時服用,依各藥仿單);老人、腎功能不佳者特別小心低血糖,**老人應避免 glyburide**(來源:[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013))。
 - 便宜、降 HbA1c 效果強,但長期效果會隨 β 細胞衰退而下降。
 
 ## 作用機轉 {#mechanism}
@@ -31,14 +35,14 @@ references:
 | 世代 | 藥物 | 特色 |
 |---|---|---|
 | 第一代 | Chlorpropamide、Tolbutamide | 已少用;chlorpropamide 半衰期長、與酒精有戒酒劑樣反應 |
-| 第二代 | **Glyburide(Glibenclamide)** | 作用強、低血糖風險最高,老人避免 |
-| | **Glipizide** | 短效,早餐前服用 |
+| 第二代 | **Glyburide(Glibenclamide)** | 作用長、有多個活性代謝物,低血糖風險最高 → **老人避免**、CKD 一般不建議(來源:[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013);[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 表 9.2) |
+| | **Glipizide** | 短效,早餐前服用;老人若需用 SU 可優先選短效者如 glipizide(來源:[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013)) |
 | | **Gliclazide** | 低血糖較少,有緩釋劑型 |
-| | **Glimepiride** | 每日一次 |
+| | **Glimepiride** | 每日一次;已證實心血管安全(來源:[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009)) |
 
 ## 適應症 {#indications}
 
-第二型糖尿病,metformin 單用控制不佳時的合併用藥(特別是考量費用時)。
+第二型糖尿病,metformin 單用控制不佳時的合併用藥(特別是考量費用時;ADA 將 SU 列為低成本選項之一,來源:[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 建議 9.30)。開始使用其他新降血糖藥時,應重新評估 SU 是否需要減量或停用,以減少低血糖(同上來源,建議 9.17)。
 
 ## 副作用與禁忌 {#adverse-effects}
 
@@ -46,6 +50,7 @@ references:
 |---|---|
 | **低血糖** | 最重要;可持續很久(長效製劑、腎功能差時),可能需住院觀察;**過量服用 glipizide 等是造成低血糖的典型原因** |
 | **體重增加** | 胰島素增加的合成作用 |
+| 骨質流失、骨折 | 老人使用 SU 與骨折風險增加有關(來源:[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013)) |
 | 腸胃不適、皮疹、光敏感 | 少見 |
 | 溶血 | G6PD 缺乏者 |
 
@@ -68,7 +73,7 @@ references:
 
 :::exam[國考重點]
 - 機轉:**促進胰臟 β 細胞分泌胰島素**(不是促進升糖素、不是增加肝臟釋糖、不是減少受體)。
-- 「單獨使用時最可能造成低血糖」→ **Glyburide**。
+- 「單獨使用時最可能造成低血糖」→ **Glyburide**;ADA 2026 也建議**老人避免 glyburide**(來源:[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013))。
 - 「會增加體重」的口服藥:SU、Meglitinide、TZD;**不會增加體重:Metformin**。
 :::
 

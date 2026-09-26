@@ -7,8 +7,14 @@ system: fluid-acid-base
 alsoIn: [cardiovascular, renal]
 group: acid-base-labs
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
+  - title: 2025 AHA ACLS(Part 9 成人高級救命術)
+    url: https://doi.org/10.1161/CIR.0000000000001376
+  - title: 2026 ESC Guidelines for the management of heart failure
+    url: https://doi.org/10.1093/eurheartj/ehag100
+  - title: 童綜合醫院 藥品查詢系統:氯化鉀注射液 15%
+    url: https://zh-tw.sltung.com.tw/tung/OPD/DGDF/ST/IKCL/index.html
   - title: 2025 American Heart Association Guidelines for CPR and Emergency Cardiovascular Care(Adult Advanced Life Support;Special Circumstances of Resuscitation)
     url: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines
   - title: UK Kidney Association. Clinical Practice Guideline:Treatment of Acute Hyperkalaemia in Adults(2023)
@@ -93,7 +99,7 @@ references:
 |---|---|
 | **[[ace-inhibitors]]、[[arb]]、[[arni]]** | 血管收縮素 II ↓ → **醛固酮 ↓** → 集尿管排鉀減少 |
 | **[[potassium-sparing-diuretics|保鉀利尿劑]]**(spironolactone、eplerenone、amiloride、triamterene) | 直接阻斷醛固酮或 ENaC |
-| **心衰竭合併 CKD**,同時用 RAAS 抑制劑 + MRA | 最常見的心衰竭高血鉀情境 |
+| **心衰竭合併 CKD**,同時用 RAAS 抑制劑 + MRA | 最常見的心衰竭高血鉀情境;ESC:K⁺ > 5.5–6.0 mmol/L 時暫時減量或停用 MRA 及 ARNI/ACEI/ARB(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.35) |
 | [[beta-blockers|β 阻斷劑]](尤其非選擇性) | K⁺ 進入細胞減少 |
 | **[[digoxin|Digoxin]] 急性大量中毒** | 鈉鉀幫浦被抑制,K⁺ 留在細胞外 |
 | Heparin | 抑制醛固酮合成 |
@@ -182,13 +188,17 @@ references:
 
 ### 靜脈補鉀(KCl)規則 {#iv-replacement}
 
-氯化鉀是**高警訊藥物**:
+氯化鉀是**高警訊藥物**。最重要的只有兩件事:**絕對不可 IV push**,以及**濃度與速率以醫囑和醫院規範為準**——下表的數字僅供參考。
 
-| 規則 | 內容 |
+:::warning[KCl 絕對不可 IV push]
+直接靜脈推注會使血鉀瞬間升高,造成致命心律不整與心跳停止。KCl 只能**稀釋後以輸液幫浦靜脈輸注**(IV infusion),也不可 IM、SC。醫囑寫「IV push」或**沒寫途徑**,都要**先向醫師確認劑量與途徑**。
+:::
+
+| 規則 | 內容(參考值,依醫囑與機構規範) |
 |---|---|
-| **絕對不可 IV push**(靜脈推注),也不可 IM、SC | 直接推注會造成致命心律不整、心跳停止;醫囑寫「IV push」或**沒寫途徑**,都要**先向醫師確認劑量與途徑** |
-| **一定要稀釋** | 周邊靜脈濃度一般 **≤ 40 mEq/L**(部分機構至 60);更高濃度需中心靜脈 |
-| **速率** | 一般病房 **≤ 10 mEq/h**;加護單位、中心靜脈並有心電圖監測時可至 20 mEq/h(依機構規範) |
+| **一定要稀釋** | 周邊靜脈最大稀釋濃度 **40 mEq/L**;中央靜脈最大稀釋濃度 **60 mEq/L**(來源:[童綜合醫院 藥品查詢系統:氯化鉀注射液 15%](https://zh-tw.sltung.com.tw/tung/OPD/DGDF/ST/IKCL/index.html)) |
+| **速率** | 血鉀 > 2.5 mEq/L:**≤ 10 mEq/h**,每日最多 200 mEq;血鉀 < 2 mEq/L(緊急):**≤ 20 mEq/h**,每日最多 400 mEq,需依血鉀濃度與心電圖決定後續速率(來源:[童綜合醫院 藥品查詢系統:氯化鉀注射液 15%](https://zh-tw.sltung.com.tw/tung/OPD/DGDF/ST/IKCL/index.html))。加護單位、中心靜脈並有心電圖監測時,依機構規範可能不同 |
+| **稀釋後保存** | 稀釋液於 24 小時內使用完畢(來源:[童綜合醫院 藥品查詢系統:氯化鉀注射液 15%](https://zh-tw.sltung.com.tw/tung/OPD/DGDF/ST/IKCL/index.html)) |
 | **有尿才補**(no pee, no K) | 補鉀前確認腎功能與尿量 **≥ 0.5 mL/kg/h(約 ≥ 30 mL/h)**;DKA 也是確認有尿後才補 |
 | **使用輸液幫浦** | 不以重力滴注控制速率 |
 | 加藥後**充分混勻** | 翻轉點滴袋數次,避免 KCl 沉在底部一次大量輸入;不在**正在滴注中**的點滴直接加藥 |
@@ -218,7 +228,7 @@ references:
 | | **血液透析** | 最確實;腎衰竭、藥物無效或危及生命時(**急性高血鉀是緊急透析適應症**) |
 | **同時** | 停止所有鉀來源(含 KCl 點滴、保鉀藥物、ACEI/ARB)、找出原因 | **限制高鉀食物**,絕不是「多吃香蕉柳丁」 |
 
-**心跳停止時**(2025 AHA ACLS):以高品質 CPR、電擊、epinephrine 等標準流程為主;高/低血鉀屬可逆原因 **Hs & Ts** 之一,懷疑高血鉀時依醫囑加上鈣劑、胰島素葡萄糖、碳酸氫鈉,並盡快安排透析。低張 0.3% NaCl 與降鉀無關。
+**心跳停止時**(2025 AHA ACLS):以高品質 CPR、電擊、epinephrine(每 3–5 分鐘 1 mg)等標準流程為主;高/低血鉀屬可逆原因 **Hs & Ts** 之一(來源:[2025 AHA 成人心跳停止流程圖](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/algorithms))。一般心跳停止**不建議常規**給鈣劑或碳酸氫鈉(來源:[2025 AHA ACLS 指引](https://doi.org/10.1161/CIR.0000000000001376) p.13);**懷疑高血鉀造成的心跳停止**,2025 年更新指出靜脈鈣劑的療效**尚未充分證實**,給鈣前要權衡是否會耽誤 CPR、電擊與 epinephrine(來源:[2025 AHA CPR/ECC 指引摘要(繁中)](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines) p.17)。實務上仍可依醫囑給鈣劑、胰島素葡萄糖、碳酸氫鈉,並盡快安排透析。國考答案「鈣劑、RI + 葡萄糖、碳酸氫鈉、透析」仍正確。低張 0.3% NaCl 與降鉀無關。
 
 ### 低血鉀的處理 {#hypokalemia-treatment}
 

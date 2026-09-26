@@ -9,8 +9,10 @@ reviewed: false
 updated: 2026-09-25
 references:
   - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001309
-  - title: 2025 American Heart Association Guidelines for CPR and Emergency Cardiovascular Care — Adult Advanced Life Support / ACS
+    url: https://doi.org/10.1161/CIR.0000000000001309
+  - title: 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction
+    url: https://doi.org/10.1161/CIR.0b013e3182742cf6
+  - title: 2025 American Heart Association Guidelines for CPR and Emergency Cardiovascular Care(2025 版未另列 ACS 流程)
     url: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines
   - title: 2023 AHA/ACC Guideline for the Management of Patients With Chronic Coronary Disease
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001168
@@ -27,7 +29,7 @@ references:
 - 用途:心絞痛急性發作(**舌下 NTG**)與預防(長效 ISMN、貼片);ACS 持續胸痛、急性心衰竭肺水腫(靜脈滴注)。
 - 舌下 NTG:**先坐下或躺下**,1 顆含舌下;**5 分鐘未改善或變嚴重就立刻打 119**,每 5 分鐘 1 顆,**最多 3 顆**。
 - 副作用:**頭痛**、臉潮紅、**姿勢性低血壓**、反射性心搏過速、耐受性(長效製劑需留**無藥期**)。
-- 禁忌:**48 小時內用過 PDE5 抑制劑**(威而鋼類)、收縮壓 < 90 mmHg、**右心室梗塞**。
+- 禁忌:**近期用過 PDE5 抑制劑**(sildenafil/vardenafil 24 小時、tadalafil 48 小時、avanafil 12 小時內)、收縮壓 < 90 mmHg 或比基準下降 > 30 mmHg、**右心室梗塞**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
 - 保存:**原裝深色玻璃瓶、蓋緊、避光避熱避潮**,不可分裝到紙包或藥盒。
 
 ## 作用機轉 {#mechanism}
@@ -50,10 +52,10 @@ references:
 
 | 藥物 / 劑型 | 起效 | 作用時間 | 用途與特色 |
 |---|---|---|---|
-| **Nitroglycerin 舌下錠**(0.4 或 0.6 mg) | **1–3 分鐘** | 約 30 分鐘 | 急性發作首選;也可在已知會誘發胸痛的活動前 5–10 分鐘預防性使用 |
+| **Nitroglycerin 舌下錠**(指引劑量 0.3 或 0.4 mg(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309));台灣另有 0.6 mg 錠,依醫囑) | **1–3 分鐘** | 約 30 分鐘 | 急性發作首選;也可在已知會誘發胸痛的活動前 5–10 分鐘預防性使用 |
 | NTG 舌下噴劑 | 1–3 分鐘 | 約 30 分鐘 | 噴在舌下或舌上,不吸入、不立即吞;不怕開瓶失效 |
 | **NTG 經皮貼片** / 軟膏 | 30–60 分鐘 | 貼著時持續 | 預防;每日貼上並**移除**,留 10–12 小時無藥期 |
-| **NTG 靜脈滴注**(Tridil) | 立即 | 停藥數分鐘即消失 | ACS 持續胸痛、急性心衰竭肺水腫、高血壓急症;依血壓調速 |
+| **NTG 靜脈滴注**(Tridil) | 立即 | 停藥數分鐘即消失 | ACS 持續胸痛、急性心衰竭肺水腫、高血壓急症;ACS 從 **10 μg/min** 起依胸痛與血壓調速,約 24 小時後可能出現快速耐受(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))(僅供參考,以醫囑為準) |
 | **Isosorbide dinitrate(ISDN,Isordil)** | 舌下 2–5 分鐘;口服 30–60 分鐘 | 4–6 小時 | 舌下可治療發作;口服用於預防;在肝臟代謝成 ISMN |
 | **Isosorbide mononitrate(ISMN,Imdur)** | 30–60 分鐘 | 長效錠約 12–24 小時 | **沒有首渡效應**,口服吸收完全;每日早上一次(長效錠)預防心絞痛,**不可咬碎** |
 
@@ -72,7 +74,7 @@ NTG 口服後在肝臟**首渡效應**(first-pass effect)極高,大部分在到�
 
 - **穩定型心絞痛**:發作時舌下 NTG;活動前預防性含服;長效硝酸鹽作為第二線預防(先用 β 阻斷劑或 CCB)。
 - **變異型(Prinzmetal)心絞痛**:冠狀動脈痙攣,休息或清晨發作、ECG 可見短暫 ST 上升;硝酸鹽與 CCB 可緩解。
-- **急性冠心症**(ACS):仍有缺血性胸痛時舌下 NTG,持續胸痛、高血壓或心衰竭可靜脈滴注(見 [[coronary-artery-disease]])。硝酸鹽**只緩解症狀,不降低死亡率**,不能因此延誤再灌流治療。
+- **急性冠心症**(ACS):仍有缺血性胸痛時舌下 NTG(0.3–0.4 mg 每 5 分鐘、最多 3 次,限收縮壓 ≥ 90 mmHg 的穩定病人),持續胸痛、高血壓或肺水腫可靜脈滴注(見 [[coronary-artery-disease]])。止痛與硝酸鹽**只緩解症狀,不改善預後**;NTG 無效的持續缺血要儘速再灌流,不能因此延誤(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
 - **急性心衰竭/肺水腫**:靜脈 NTG 降低前負荷,減輕肺充血(見 [[heart-failure]])。CABG 術後也常用來控制血壓、預防移植血管痙攣。
 - 長效硝酸鹽合併 hydralazine(見 [[direct-vasodilators]])可用於心衰竭。
 
@@ -91,10 +93,10 @@ NTG 口服後在肝臟**首渡效應**(first-pass effect)極高,大部分在到�
 ### 禁忌與須暫緩 {#contraindications}
 
 :::warning[禁忌]
-- **PDE5 抑制劑**(勃起功能障礙或肺高壓用藥):sildenafil(威而鋼)、vardenafil **24 小時內**,tadalafil(犀利士)**48 小時內** → 併用 cGMP 大量堆積,**嚴重低血壓**甚至死亡。ACS 病人給 NTG 前一定要問。Riociguat 也禁止併用。
-- **低血壓**:收縮壓 < 90 mmHg,或比平時下降 ≥ 30 mmHg。
-- **右心室梗塞**:右心室靠足夠前負荷維持輸出,降前負荷會使血壓崩跌。下壁梗塞(II、III、aVF ST 上升,見 [[ecg#territory]])要加做右側導程(V4R)確認。
-- 心跳過慢(< 50 次/分)或沒有心衰竭卻明顯過快(> 100 次/分)時小心。
+- **PDE5 抑制劑**(勃起功能障礙或肺高壓用藥):sildenafil(威而鋼)、vardenafil **24 小時內**,tadalafil(犀利士)**48 小時內**,avanafil **12 小時內**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) → 併用 cGMP 大量堆積,**嚴重低血壓**甚至死亡。ACS 病人給 NTG 前一定要問。Riociguat 也禁止併用。
+- **低血壓**:收縮壓 < 90 mmHg,或比平時下降 > 30 mmHg(同上來源)。
+- **右心室梗塞**(同上來源):右心室靠足夠前負荷維持輸出,降前負荷會使血壓崩跌。下壁梗塞(II、III、aVF ST 上升,見 [[ecg#territory]])要加做右側導程(V4R)確認。
+- 心跳過慢(< 50 次/分)或沒有心衰竭卻明顯過快(> 100 次/分)時小心(2013 ACCF/AHA STEMI 指引列出;2025 ACS 指引未列)。
 - 嚴重主動脈瓣狹窄、肥厚性阻塞性心肌病變:前負荷依賴,小心使用。
 :::
 
@@ -113,7 +115,7 @@ NTG 口服後在肝臟**首渡效應**(first-pass effect)極高,大部分在到�
 
 - **血壓**(與心跳):給藥前確認收縮壓 ≥ 90 mmHg;給藥後 5 分鐘再測。
 - **胸痛的部位、性質、程度**(疼痛量表):評估療效。
-- 詢問 48 小時內是否使用過 PDE5 抑制劑;下壁梗塞確認有無右心室梗塞。
+- 詢問 48 小時內是否使用過 PDE5 抑制劑(tadalafil 48 小時、sildenafil 24 小時、avanafil 12 小時);下壁梗塞確認有無右心室梗塞。
 - 瞳孔、體溫不是 NTG 的評估重點。
 
 ### 舌下 NTG 的使用步驟 {#sublingual}
@@ -121,13 +123,13 @@ NTG 口服後在肝臟**首渡效應**(first-pass effect)極高,大部分在到�
 1. 停止活動,**坐下或躺下**(預防姿勢性低血壓跌倒)。
 2. 將 **1 顆**藥放在**舌下**讓它溶解,**不要吞、不要嚼**,含藥時不要喝水;口乾時可先含一口水潤濕。
 3. 藥物溶解時舌下常有**麻刺、灼熱、辣辣的感覺**,屬正常。新劑型這種感覺可能不明顯,不代表藥沒效。
-4. **5 分鐘後胸痛沒有改善或變得更嚴重 → 立刻撥 119**(不要等吃完 3 顆,也不要自己開車就醫)。
+4. **5 分鐘後胸痛沒有改善或變得更嚴重 → 立刻撥 119**(不要等吃完 3 顆,也不要自己開車就醫;依 AHA 民眾衛教,2025 ACS 指引亦建議疑似 ACS 由救護車送醫(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)))。
 5. 依醫囑可**每 5 分鐘再含 1 顆,總共最多 3 顆**;絕不可一次含 3 顆。
 6. 記錄發作時間、誘因、用了幾顆與效果。
 
 :::exam[國考重點]
 - 醫囑「NTG 0.4 mg 1# S.L. q5min × 3 p.r.n.」= 胸痛時**每次 1 顆舌下**,5 分鐘後沒改善可再 1 顆,**最多 3 顆**。「一次含 3 顆」「連續 5 顆無效才就醫」都是錯的。
-- 2025 AHA 的就醫時機是「**第 1 顆後 5 分鐘仍未改善就叫救護車**」,比舊教學「3 顆無效才就醫」更早;國考選項兩種說法都出現過,「3 顆後仍痛不可再含、必須就醫」一定對,「3 顆以上」一定錯。
+- AHA 現行衛教的就醫時機是「**第 1 顆後 5 分鐘仍未改善就叫救護車**」,比舊教學「3 顆無效才就醫」更早;國考選項兩種說法都出現過,「3 顆後仍痛不可再含、必須就醫」一定對,「3 顆以上」一定錯。
 - 心肌梗塞的胸痛**休息或含 NTG 都無法緩解**,持續 > 20–30 分鐘,這是和心絞痛最大的鑑別點。
 :::
 

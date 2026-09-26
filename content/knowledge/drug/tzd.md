@@ -6,10 +6,14 @@ dzTags: [糖尿病]
 system: endocrine
 group: antidiabetics
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: American Diabetes Association. Standards of Care in Diabetes(最新年度版)
     url: https://diabetesjournals.org/care
+  - title: ADA. 9. Pharmacologic Approaches to Glycemic Treatment - Standards of Care in Diabetes—2026
+    url: https://doi.org/10.2337/dc26-S009
+  - title: ADA. 10. Cardiovascular Disease and Risk Management - Standards of Care in Diabetes—2026
+    url: https://doi.org/10.2337/dc26-S010
   - title: OpenStax. Pharmacology for Nurses, Antidiabetic Drugs(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考
 ---
@@ -17,7 +21,7 @@ references:
 
 - 活化 **PPAR-γ** → **增加肌肉、脂肪、肝臟對胰島素的敏感性**(直接對抗胰島素阻抗)。
 - 單用低血糖少;起效慢(數週)。
-- 副作用:**體液滯留、水腫、體重增加** → **心衰竭(NYHA III–IV)禁用**;骨折風險增加;需監測肝功能。
+- 副作用:**體液滯留、水腫、體重增加** → **心衰竭禁用**(仿單:NYHA III–IV 禁用;ADA 2026:**有心衰竭者都不要使用**,來源:[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 表 9.2、[ADA Standards of Care 2026 第 10 章](https://doi.org/10.2337/dc26-S010));骨折風險增加;需監測肝功能。
 
 ## 作用機轉 {#mechanism}
 
@@ -38,18 +42,18 @@ TZD 是細胞核受體 **PPAR-γ**(過氧化體增殖活化受體 γ)的促效�
 
 ## 適應症 {#indications}
 
-第二型糖尿病,特別是胰島素阻抗明顯者;pioglitazone 對非酒精性脂肪肝炎(MASH)也有改善。
+第二型糖尿病,特別是胰島素阻抗明顯者;pioglitazone 對代謝功能障礙相關脂肪肝炎(MASH)可能有益,ADA 建議可考慮用於合併 MASH 或肝纖維化高風險者(來源:[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 建議 9.13a、9.13b)。價格低,是 ADA 列出的低成本選項之一(同上來源,建議 9.30)。
 
 ## 副作用與禁忌 {#adverse-effects}
 
 | 副作用 | 說明 |
 |---|---|
-| **體液滯留、水腫** | 腎臟集尿管鈉水再吸收增加;與胰島素併用更明顯 |
-| **心衰竭惡化** | **NYHA III–IV 心衰竭禁用**;使用中注意體重突然增加、下肢水腫、呼吸喘 |
+| **體液滯留、水腫** | 腎臟集尿管鈉水再吸收增加;與胰島素併用更明顯;腎功能不佳者一般不建議使用(來源:[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 表 9.2) |
+| **心衰竭惡化** | 仿單:**NYHA III–IV 心衰竭禁用**;ADA 2026:TZD 與心衰竭風險增加關係強且一致,**有心衰竭者應避免使用**(來源:[ADA Standards of Care 2026 第 10 章](https://doi.org/10.2337/dc26-S010);[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 表 9.2「do not use in setting of HF」);使用中注意體重突然增加、下肢水腫、呼吸喘 |
 | **體重增加** | 水分滯留 + 脂肪增加 |
-| 骨折 | 停經婦女的遠端肢體骨折風險上升 |
+| 骨折 | 骨折風險上升,停經婦女的遠端肢體最明顯(來源:[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 表 9.2) |
 | 肝功能異常 | 早期同類藥 troglitazone 因肝毒性下市;使用前與使用中監測肝功能 |
-| 膀胱癌 | Pioglitazone 長期使用疑慮,有膀胱癌病史者避免 |
+| 膀胱癌 | Pioglitazone 與較高累積劑量有關;**活動性膀胱癌不可使用**,曾有膀胱癌病史者小心使用(來源:[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 表 9.2) |
 | 排卵恢復 | 停經前胰島素阻抗婦女可能恢復排卵,需注意避孕 |
 
 ## 護理重點與衛教 {#nursing}

@@ -7,12 +7,12 @@ system: cardiovascular
 alsoIn: [renal]
 group: antihypertensives
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: 2022 Guidelines of the Taiwan Society of Cardiology and the Taiwan Hypertension Society for the Management of Hypertension(台灣心臟學會/台灣高血壓學會 2022 高血壓治療指引). Acta Cardiol Sin 2022;38:225–325
-    url: https://pubmed.ncbi.nlm.nih.gov/35673334/
+    url: https://doi.org/10.6515/ACS.202205_38%283%29.20220321A
   - title: 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults. Circulation 2025
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
+    url: https://doi.org/10.1161/CIR.0000000000001356
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. Circulation 2022
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
   - title: KDIGO 2021 Clinical Practice Guideline for the Management of Blood Pressure in CKD
@@ -60,10 +60,10 @@ references:
 
 ## 適應症 {#indications}
 
-- **高血壓**:2022 台灣指引與 2025 AHA/ACC 指引都列為第一線藥物(與 ARB、CCB、thiazide 類並列);特別適合合併**糖尿病、慢性腎臟病(有蛋白尿)、心衰竭、心肌梗塞後**者(見 [[hypertension]])。
+- **高血壓**:2022 台灣指引與 2025 AHA/ACC 指引都列為第一線藥物(與 ARB、CCB、thiazide 類並列)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e149;[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.225);特別適合合併**糖尿病、慢性腎臟病(有蛋白尿)、心衰竭、心肌梗塞後**者(見 [[hypertension]])。
 - **心衰竭(HFrEF)**:降低死亡與住院;現行指引優先使用 ARNI,無法使用時用 ACEI(或 ARB)(見 [[heart-failure]]、[[arni]])。
 - **急性心肌梗塞後**,特別是 LVEF ≤ 40%、前壁梗塞、合併高血壓或糖尿病者:抑制心室重塑。
-- **糖尿病腎病變、慢性腎臟病合併白蛋白尿**:降低蛋白尿([[uacr]])、延緩腎功能惡化——這是「糖尿病高血壓病人首選 ACEI/ARB」的依據。
+- **糖尿病腎病變、慢性腎臟病合併白蛋白尿**:降低蛋白尿([[uacr]])、延緩腎功能惡化——這是「糖尿病高血壓病人首選 ACEI/ARB」的依據。2025 AHA/ACC:糖尿病合併 eGFR < 60 或 UACR ≥ 30 mg/g,以及 CKD(eGFR < 60 且 UACR ≥ 30 mg/g)者建議用 ACEI **或** ARB(COR 1,舊版只是 2b)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e117、e163)。
 
 :::tip[為什麼糖尿病合併高血壓常選 ACEI]
 ACEI 降低腎絲球內壓、減少蛋白尿,且**不影響血糖與血脂**;相對地非選擇性 β 阻斷劑會遮蔽低血糖症狀,thiazide 高劑量可能升高血糖。
@@ -77,17 +77,17 @@ ACEI 降低腎絲球內壓、減少蛋白尿,且**不影響血糖與血脂**;相
 | **血管性水腫**(angioedema) | 少見但可致命;bradykinin 使血管通透性 ↑ → 嘴唇、舌頭、臉、喉頭腫脹,可阻塞呼吸道;可發生在用藥數年後;**立即停藥、評估呼吸道**,必要時插管;腎上腺素、抗組織胺與類固醇效果有限(不是組織胺引起)。曾發生者**終身禁用** ACEI |
 | **高血鉀** | 醛固酮 ↓ → 腎臟排鉀減少;腎功能差、糖尿病、老人、併用保鉀利尿劑/鉀補充劑/NSAID 時風險高(見 [[potassium]]) |
 | **首劑低血壓** | 開始用藥或加量時,特別是**已用利尿劑、脫水、低血鈉、心衰竭**者(RAAS 被高度活化);由低劑量開始、首劑後臥床觀察 |
-| 腎功能下降 | 出球小動脈擴張 → GFR 小幅下降,**肌酸酐上升 < 30% 屬可接受**;上升更多要找原因(脫水、腎動脈狹窄) |
+| 腎功能下降 | 出球小動脈擴張 → GFR 小幅下降,**eGFR 下降(或肌酸酐上升)≤ 30% 屬預期**,不必停藥;持續下降 > 30% 要找原因(脫水、腎動脈狹窄)並考慮轉介腎臟科(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e158) |
 | 味覺改變、皮疹、白血球減少 | 多見於 captopril |
 | **胎兒毒性** | 懷孕中後期影響胎兒腎臟 → 胎兒腎衰竭、**羊水過少**、顱骨發育不全、肺發育不全、生長遲滯甚至死亡 |
 
 **禁忌**
 
-- **懷孕**(發現懷孕立即停藥改藥);育齡女性須衛教避孕並告知計畫懷孕。
+- **懷孕**(發現懷孕立即停藥改藥);育齡女性須衛教避孕並告知計畫懷孕(2025 AHA/ACC COR 3:有害;2022 台灣指引 COR III)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e171;[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.294)。
 - 曾因 ACEI 或遺傳性血管性水腫發作者。
 - **雙側腎動脈狹窄**(或獨腎的腎動脈狹窄):此時腎絲球過濾靠 angiotensin II 收縮出球小動脈維持,阻斷後會**急性腎衰竭**。
 - 高血鉀。
-- 與 **ARB 或 aliskiren 合併**(糖尿病或腎病者禁用 aliskiren 併用);與 **ARNI 需間隔 36 小時**。
+- 與 **ARB 或 aliskiren 合併**(2025 AHA/ACC:ACEI、ARB、腎素抑制劑同時併用 COR 3:有害)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e149);與 **ARNI 需間隔 36 小時**。
 
 ## 交互作用 {#interactions}
 
@@ -104,13 +104,14 @@ ACEI 降低腎絲球內壓、減少蛋白尿,且**不影響血糖與血脂**;相
 ## 護理重點與衛教 {#nursing}
 
 - **給藥前量血壓**;首劑或加量後觀察姿勢性低血壓,起身動作放慢。
-- 開始用藥或加量後 1–2 週**抽血追蹤血鉀與肌酸酐**,之後定期追蹤。
+- 開始用藥或加量後**抽血追蹤血鉀與肌酸酐**(教科書常寫 1–2 週;2025 AHA/ACC 寫 **2–4 週**內量 eGFR),之後至少每年追蹤(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e128、e158)。
 - 飲食:一般**不需額外補鉀**,避免高鉀代鹽、鉀補充劑;腎功能差者限制高鉀食物(香蕉、柳丁、楊桃另有神經毒素)。
 - Captopril 飯前 1 小時空腹服用;其他多數不受食物影響。
 - 出現**嘴唇、舌頭、臉部腫脹或吞嚥、呼吸困難**時停藥並立即就醫。
 - 乾咳是常見副作用,不要自行停藥,回診與醫師討論改 ARB。
 - 育齡女性:避孕;發現懷孕立即回診換藥。
 - 腹瀉、嘔吐、脫水時(sick day)依醫囑暫停 ACEI,避免急性腎損傷與低血壓。
+- 大手術前:醫師可能請病人術前暫停 ACEI/ARB,以免麻醉中低血壓(2025 AHA/ACC COR 2b)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e183)。
 - 不自行服用 NSAIDs 止痛藥。
 
 ## 國考常考點 {#exam-points}

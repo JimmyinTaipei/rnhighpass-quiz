@@ -5,15 +5,21 @@ aliases: [胰島素, 升糖素, GLUT4, GLUT2, 腸泌素, 糖質新生, insulin, 
 dzTags: []
 system: endocrine
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: OpenStax. Anatomy and Physiology 2e, Ch.17 The Endocrine System(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考
   - title: Guyton and Hall Textbook of Medical Physiology, Insulin, Glucagon, and Diabetes Mellitus
   - title: American Diabetes Association. Standards of Care in Diabetes(最新年度版)
     url: https://diabetesjournals.org/care
+  - title: ADA. 2. Diagnosis and Classification of Diabetes. Standards of Care in Diabetes—2026
+    url: https://doi.org/10.2337/dc26-S002
+  - title: ADA. 6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises. Standards of Care in Diabetes—2026
+    url: https://doi.org/10.2337/dc26-S006
+  - title: 中華民國糖尿病學會:2026 第 1 型糖尿病臨床照護指引(DAROC)
+    url: https://www.endo-dm.org.tw/
 ---
-血糖(血漿葡萄糖)空腹時維持在約 **70–99 mg/dL**,飯後一般不超過 140 mg/dL。腦部幾乎只能用葡萄糖當能量,所以身體有多重機制防止血糖過低;而**降血糖的激素只有胰島素一種**。
+血糖(血漿葡萄糖)空腹時維持在約 **70–99 mg/dL**(空腹 ≥ 100 即屬空腹血糖偏高;< 70 為低血糖警戒值),飯後(OGTT 2 小時)一般 < 140 mg/dL(來源:[ADA Standards of Care 2026 第 2 章](https://doi.org/10.2337/dc26-S002) Table 2.2;[第 6 章](https://doi.org/10.2337/dc26-S006) Table 6.4)。腦部幾乎只能用葡萄糖當能量,所以身體有多重機制防止血糖過低;而**降血糖的激素只有胰島素一種**。
 
 每一段最後的「**藥物對應**」說明哪一類降血糖藥是在放大或阻斷這個機制。
 
@@ -127,7 +133,7 @@ references:
 
 | 激素 | 主要作用 | 臨床意義 |
 |---|---|---|
-| **升糖素** | 肝醣分解、糖質新生、生酮 | 低血糖急救(1 mg 肌肉/皮下注射) |
+| **升糖素** | 肝醣分解、糖質新生、生酮 | 低血糖急救:肌肉/皮下注射 1 mg(兒童 < 20 kg 0.5 mg)或鼻噴 3 mg(來源:[2026 DAROC 第 1 型糖尿病照護指引](https://www.endo-dm.org.tw/) PDF 第 125、134、320 頁;[ADA Standards of Care 2026 第 6 章](https://doi.org/10.2337/dc26-S006) Table 6.6;僅供參考,以醫囑為準) |
 | **腎上腺素** | 肝醣分解、抑制胰島素分泌 | 低血糖時的冒汗、心悸、手抖來源;壓力性高血糖 |
 | **皮質醇** | **糖質新生**、降低周邊葡萄糖利用 | 長期使用**類固醇**的副作用:高血糖;重症壓力性高血糖 |
 | **生長激素** | 糖質新生;**減少胰島素受體數目**、拮抗胰島素 | 黎明現象;肢端肥大症可合併糖尿病 |
@@ -146,7 +152,7 @@ references:
 ### 腎臟的葡萄糖回收 {#renal-glucose}
 
 - 腎絲球每天過濾約 180 g 葡萄糖,正常幾乎全部在近曲小管回收(SGLT2 約 90%、SGLT1 約 10%)。
-- 回收有上限(**最大運輸速率 Tm**);血糖超過約 **180 mg/dL(腎閾值)** 時,過濾量超過回收能力 → **尿糖** → 帶走水分(滲透性利尿)。
+- 回收有上限(**最大運輸速率 Tm**);血糖超過約 **180 mg/dL(腎閾值)**(來源:[2026 DAROC 第 1 型糖尿病照護指引](https://www.endo-dm.org.tw/) PDF 第 27 頁)時,過濾量超過回收能力 → **尿糖** → 帶走水分(滲透性利尿)。
 - 懷孕時腎閾值下降,可能出現尿糖但血糖正常。
 - **藥物對應**:[[sglt2-inhibitors|SGLT2 抑制劑]]刻意阻斷回收,把腎閾值降到約 40–120 mg/dL,讓葡萄糖從尿液排出。
 

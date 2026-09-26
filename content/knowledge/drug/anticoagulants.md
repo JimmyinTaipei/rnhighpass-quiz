@@ -9,6 +9,8 @@ group: antithrombotics
 reviewed: false
 updated: 2026-09-25
 references:
+  - title: 臺中榮民總醫院埔里分院藥劑科:抗凝血藥與抗血小板藥手術前後停用時間建議表(2026.06.19 修訂)
+    url: https://www.pulivh.gov.tw/UploadFiles/WebFiles/WebPagesFiles/Files/0fb9c2db-631c-4590-9c69-929ac822d1e7/抗凝血藥與抗血小板藥手術前後停用時間建議表%2020260619.pdf
   - title: American College of Chest Physicians. Antithrombotic Therapy for VTE Disease — Second Update of the CHEST Guideline(2021)
     url: https://journal.chestnet.org/article/S0012-3692(21)01506-3/fulltext
   - title: American College of Chest Physicians. Perioperative Management of Antithrombotic Therapy(CHEST Guideline, 2022)
@@ -18,7 +20,7 @@ references:
   - title: 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000000923
   - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001309
+    url: https://doi.org/10.1161/CIR.0000000000001309
   - title: American Society of Hematology 2018 Guidelines for Management of VTE — Heparin-Induced Thrombocytopenia
     url: https://ashpublications.org/bloodadvances/article/2/22/3360/16134
   - title: OpenStax. Pharmacology for Nurses, Anticoagulant, Antiplatelet and Thrombolytic Drugs(CC BY-NC-SA 4.0)
@@ -61,7 +63,7 @@ references:
 |---|---|
 | 途徑 | **靜脈**(持續滴注,治療血栓)或**皮下**(預防);**不可口服**(腸道不吸收)、**不可肌肉注射**(血腫) |
 | 起效 | 靜脈立即;皮下 20–60 分鐘;半衰期約 1–1.5 小時,停藥後數小時內作用消失 |
-| 監測 | 治療劑量維持 **aPTT 為正常(對照)的 1.5–2.5 倍**;每天驗**血小板**(HIT) |
+| 監測 | 治療劑量維持 **aPTT 為正常(對照)的 1.5–2.5 倍**;ACS 劑量為負荷 60 IU/kg(最多 4000 IU)、滴注 12 IU/kg/h(最多 1000 IU/h),aPTT 目標 **60–80 秒**(合併血栓溶解劑時 50–70 秒);PCI 中改看 **ACT 250–300 秒**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))(僅供參考,以醫囑為準);每天驗**血小板**(HIT) |
 | 解毒劑 | **Protamine sulfate**(強鹼性蛋白與肝素結合中和);約 1 mg 中和 100 單位肝素,**緩慢靜脈注射**(過快會低血壓、過敏) |
 | 懷孕 | **不通過胎盤**,懷孕期抗凝首選(與 LMWH) |
 | 其他用途 | 低濃度肝素生理食鹽水沖洗導管(如 Port-A);動脈血氧分析(ABG)專用空針含肝素防凝 |
@@ -72,7 +74,7 @@ references:
 Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 
 - 劑量依體重,**皮下**每 12 或 24 小時;效果可預期,**一般不需驗 aPTT**;HIT 比 UFH 少。
-- 經**腎臟**排除 → CrCl < 30 mL/min 要減量或改用 UFH。
+- 經**腎臟**排除 → CrCl < 30 mL/min 要減量或改用 UFH(ACS:enoxaparin 1 mg/kg 皮下每 12 小時,CrCl < 30 改每 24 小時;合併血栓溶解劑且 < 75 歲先 30 mg 靜脈推注,≥ 75 歲不推注、0.75 mg/kg 每 12 小時(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309));僅供參考,以醫囑為準)。
 - Protamine 只能**部分**中和。
 - 硬脊膜外/脊髓麻醉前後使用 → **硬膜外血腫**導致癱瘓,需依時間間隔給藥並觀察下肢感覺運動。
 - 用途:DVT/PE 預防與治療、ACS、懷孕期與癌症相關血栓。
@@ -109,7 +111,7 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 ### 其他注射型 {#parenteral-others}
 
 - **Argatroban**(靜脈,直接凝血酶抑制劑,經肝代謝)、**bivalirudin**(靜脈,經腎,PCI 時用)— **HIT 病人**的替代抗凝劑;不需要 AT 就有作用。
-- **Fondaparinux**(皮下,每日一次):只抑制 Xa,幾乎不引起 HIT;protamine 無效。
+- **Fondaparinux**(皮下,每日一次,ACS 用 2.5 mg):只抑制 Xa,幾乎不引起 HIT;protamine 無效;CrCl < 30 禁用;**不可單獨用於 PCI**(導管內血栓)(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
 
 ## 適應症 {#indications}
 
@@ -120,7 +122,7 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 | **心房顫動**預防中風 | 依 CHA₂DS₂-VASc 評分;**DOAC 優先**,機械瓣膜或中重度二尖瓣狹窄用 warfarin(見 [[ecg]]);**heparin 只作短期,不能口服長期預防** |
 | **機械性人工瓣膜** | **終身 warfarin**(DOAC 禁用) |
 | **生物性人工瓣膜** | 術後約 3–6 個月 warfarin,之後通常改 aspirin,**不需終身抗凝** |
-| **急性冠心症** | 在抗血小板之外加 UFH、enoxaparin 或 bivalirudin(住院急性期,見 [[coronary-artery-disease]]) |
+| **急性冠心症** | 在抗血小板之外加注射型抗凝劑,持續到血管重建(住院急性期,見 [[coronary-artery-disease]]):NSTE-ACS 用**靜脈 UFH**,不打算早期導管者可用 enoxaparin 或 fondaparinux;PCI 時用 UFH(STEMI 可用 bivalirudin);**fondaparinux 不可用於支持 PCI**(導管內血栓);接受血栓溶解劑者抗凝最多 8 天或到血管重建,不做導管者**首選 enoxaparin**(來源:[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)) |
 | 心導管、體外循環、血液透析 | UFH |
 | 腎病症候群 | 預防腎靜脈血栓(高凝狀態) |
 
@@ -201,7 +203,18 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 - 觀察**瘀青、出血點、牙齦出血、流鼻血、血尿、黑便、月經過多**;劇烈頭痛、意識改變、背痛立即就醫。**血尿不是正常現象**。
 - 避免**肌肉注射**、不必要的抽血與侵入性處置;抽血或注射後加壓止血時間延長(至少 5 分鐘),用較細的針頭。
 - 不要自行服用 aspirin、NSAID;止痛退燒用 acetaminophen(仍需告知劑量)。
-- 拔牙、內視鏡、手術前告知醫師正在服用抗凝劑;術前停藥時間由醫師決定(依 CHEST 2022:warfarin 約術前 **5 天**停、INR 回到正常;DOAC 依腎功能與出血風險約 **1–4 天**;高血栓風險者可能需要「橋接」肝素)。
+- 拔牙、內視鏡、手術前告知醫師正在服用抗凝劑;**停藥時間由醫師依手術出血風險、血栓風險與腎功能決定**,高血栓風險者可能需要「橋接」肝素。參考時間(術前停用,手術當天不算):
+
+  | 藥物 | 中低出血風險手術 | 高出血風險手術 |
+  |---|---|---|
+  | Warfarin | INR ≤ 2:術前 3–4 天;INR 2–3:術前 5 天;INR ≥ 3:至少 5 天;術前 24 小時驗 INR,**< 1.5** 才手術 | 同左 |
+  | Dabigatran | CrCl ≥ 80:24 小時;50–79:36 小時;30–49:48 小時 | CrCl ≥ 80:48 小時;50–79:72 小時;30–49:96 小時 |
+  | Rivaroxaban(> 10 mg/天)、Apixaban、Edoxaban | CrCl ≥ 30:24 小時;15–29:36 小時 | 48 小時 |
+  | Heparin(靜脈) | 4–6 小時 | 4–6 小時 |
+  | Enoxaparin | 24 小時 | 24 小時 |
+  | Fondaparinux | 24 小時 | 24 小時 |
+
+  術後止血良好後恢復:warfarin 中低出血風險手術可持續服用、高出血風險 ≤ 24 小時;DOAC 中低風險 24 小時、高風險 48–72 小時(來源:[臺中榮民總醫院埔里分院藥劑科:抗凝血藥與抗血小板藥手術前後停用時間建議表(2026.06.19 修訂)](https://www.pulivh.gov.tw/UploadFiles/WebFiles/WebPagesFiles/Files/0fb9c2db-631c-4590-9c69-929ac822d1e7/抗凝血藥與抗血小板藥手術前後停用時間建議表%2020260619.pdf))。
 - 隨身攜帶**抗凝血藥物識別卡**;不可自行停藥。
 - 抗凝劑是「**預防血栓形成或擴大**」,**不會溶解**已形成的血栓;已形成的血栓靠身體自己的纖維蛋白溶解系統慢慢溶掉。
 

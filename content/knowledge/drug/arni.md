@@ -7,8 +7,14 @@ system: cardiovascular
 alsoIn: [renal]
 group: heart-failure-drugs
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
+  - title: 2026 ESC Guidelines for the management of heart failure
+    url: https://doi.org/10.1093/eurheartj/ehag100
+  - title: 2023 台灣心臟學會 慢性心衰竭藥物治療共識
+    url: https://doi.org/10.6515/ACS.202305_39%283%29.20230301A
+  - title: 2024 台灣心臟學會 HFpEF 診斷與治療指引
+    url: https://doi.org/10.6515/ACS.202403_40%282%29.20240206A
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
   - title: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure
@@ -23,7 +29,7 @@ references:
 - **Sacubitril**(抑制腦啡肽酶 neprilysin → **利鈉胜肽增加**:利尿、利鈉、血管擴張、抗纖維化)+ **valsartan**(ARB,阻斷血管收縮素 II)。
 - **HFrEF 四大支柱**之一,比 ACEI(enalapril)更能**降低死亡與住院**;新指引建議 HFrEF 優先使用。
 - 副作用:**低血壓**(最常見)、**高血鉀**、腎功能變差、**血管性水腫**;懷孕禁用。
-- **與 ACEI 至少間隔 36 小時**;用藥後 **BNP 會上升**,追蹤要看 **NT-proBNP**。
+- **與 ACEI 至少間隔 36 小時**(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.33);用藥後 **BNP 會上升**,追蹤要看 **NT-proBNP**。
 
 ## 作用機轉 {#mechanism}
 
@@ -42,17 +48,17 @@ references:
 
 | 藥物 | 劑量 |
 |---|---|
-| **Sacubitril/valsartan(Entresto®,健安心)** | 24/26 mg、49/51 mg、97/103 mg,**一天兩次**;每 2–4 週倍增至目標 97/103 mg bid(依血壓、血鉀、腎功能) |
+| **Sacubitril/valsartan(Entresto®,健安心)** | 24/26 mg、49/51 mg、97/103 mg,**一天兩次**;一般起始 49/51 mg bid,每 2–4 週倍增至目標 **97/103 mg bid**(依血壓、血鉀、腎功能)(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.36) |
 
-低起始劑量(24/26 mg bid)用於:未曾用過 ACEI/ARB 或原本劑量低、eGFR < 30、中度肝功能不全、**老人**、收縮壓偏低者。
+低起始劑量(24/26 mg bid)用於:未曾用過 ACEI/ARB 或原本劑量低、eGFR 30–60(ESC)或 < 30(仿單)、中度肝功能不全、**老人**、曾有症狀性低血壓者(同上來源)。劑量僅供參考,以醫囑為準。
 
 ## 適應症 {#indications}
 
 - **HFrEF(LVEF ≤ 40%)NYHA II–III**:
   - **2022 AHA/ACC/HFSA**:建議使用 ARNI 降低罹病率與死亡率(Class 1);已在用 ACEI/ARB 且可耐受者,**換成 ARNI**(Class 1);新診斷者**可直接使用 ARNI**,不必先試 ACEI。
-  - **2021 ESC**:ARNI 建議作為 ACEI 的替代(Class I),新診斷者可考慮直接使用(IIb)。
-  - **台灣心臟學會指引**同樣將 ARNI 列為 HFrEF 的優先選擇(見 [[heart-failure]])。
-- **HFmrEF / HFpEF**(LVEF 偏低端者可能受益):AHA 2b,可考慮以減少住院。
+  - **2026 ESC**:有症狀 HFrEF 建議使用 **ACEI 或 ARNI**(Class I A);由 ACEI/ARB **換成 ARNI**(I);新診斷者可直接用 ARNI(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.33、37)。(2021 ESC 時新診斷者直接用 ARNI 只有 IIb。)
+  - **2023 台灣共識**:**ARNI 取代 ACEI/ARB** 以得到更好療效;ARNI 需收縮壓 ≥ 100 mmHg 再開始,住院中開始的條件為收縮壓 ≥ 90 mmHg 且病情穩定(來源:[2023 台灣心臟學會慢性心衰竭藥物治療共識](https://doi.org/10.6515/ACS.202305_39%283%29.20230301A) p.16–19)。
+- **HFmrEF / HFpEF**(LVEF 偏低端者可能受益):AHA 2b,可考慮以減少住院;2024 台灣 HFpEF 指引 IIa(特定病人),無法使用 ARNI 時以 ARB 替代(來源:[2024 台灣心臟學會 HFpEF 指引](https://doi.org/10.6515/ACS.202403_40%282%29.20240206A) p.16);2026 ESC 為 IIb(來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.38)。
 - 國外部分地區也核准用於兒童心衰竭;單純高血壓不是其主要適應症。
 
 ## 副作用與禁忌 {#adverse-effects}
@@ -86,7 +92,7 @@ references:
 ## 護理重點與衛教 {#nursing}
 
 - 給藥前量**血壓**;收縮壓 < 100 mmHg 或有頭暈、姿勢性低血壓時通報醫師(不要自行停用)。
-- 從 ACEI 換成 ARNI:確認**最後一劑 ACEI 時間已過 36 小時**。
+- 從 ACEI 換成 ARNI:確認**最後一劑 ACEI 時間已過 36 小時**(避免血管性水腫;來源:[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.33)。
 - 開始或調高劑量後約 **1–2 週**追蹤**血鉀與腎功能**。
 - 衛教**血管性水腫**警訊(嘴唇、舌頭、臉腫、吞嚥或呼吸困難)→ 立即就醫。
 - 起身放慢;避免高鉀食物過量、低鈉鹽、自行服 NSAID。

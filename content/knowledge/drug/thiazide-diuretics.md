@@ -7,12 +7,12 @@ system: renal
 alsoIn: [cardiovascular]
 group: diuretics
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
-  - title: 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults
-    url: https://www.ahajournals.org/journal/hyp
+  - title: 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults(Circulation 2025;152:e114-e218)
+    url: https://doi.org/10.1161/CIR.0000000000001356
   - title: 2022 Taiwan Hypertension Guidelines(台灣心臟學會/台灣高血壓學會)
-    url: https://www.tsoc.org.tw/
+    url: https://doi.org/10.6515/ACS.202205_38%283%29.20220321A
   - title: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
   - title: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure(含 2023 Focused Update)
@@ -23,7 +23,7 @@ references:
 ## 重點摘要 {#summary}
 
 - 抑制**遠曲小管**的 Na⁺-Cl⁻ 共同運輸 → 中等強度利尿;長期降壓主要靠**血管阻力下降**。
-- **高血壓第一線藥物**之一(chlorthalidone、indapamide 證據最好);也用於輕度水腫、**鈣結石預防**、腎因性尿崩症。
+- **高血壓第一線藥物**之一;2025 AHA/ACC 認為 HCTZ、chlorthalidone、indapamide 一般**可任選**,只有**頑固性高血壓**才偏好 chlorthalidone 或 indapamide;也用於輕度水腫、**鈣結石預防**、腎因性尿崩症。
 - 電解質「三低一高」:**低血鉀、低血鈉、低血鎂、高血鈣**;代謝面「三高」:**高血糖、高尿酸(痛風)**、高血脂。
 - eGFR < 30 時效果變差(chlorthalidone 例外仍有效);低血鉀會**加重毛地黃中毒**、會**升高鋰鹽濃度**。
 - 早上服用、監測血鉀與血鈉、起身放慢、適量攝取高鉀食物(依醫囑)。
@@ -50,15 +50,19 @@ references:
 | **Indapamide** | Thiazide-like | 兼具血管擴張作用,對血糖、血脂影響較小 |
 | Metolazone | Thiazide-like | eGFR 低時仍有效;與 loop 併用做「**序列腎元阻斷**」,處理利尿劑阻抗 |
 
-Thiazide 型與 thiazide-like 化學結構不同,但作用位置相同;新版高血壓指引偏好 **chlorthalidone 或 indapamide**。
+Thiazide 型與 thiazide-like 化學結構不同,但作用位置相同。兩份指引怎麼說:
+
+- **2025 AHA/ACC**:把 HCTZ、chlorthalidone、indapamide 統稱「thiazide-type diuretics」,**大多數情況可任選**;chlorthalidone 半衰期較長、同毫克數效力較強,但大型實用性試驗中把 HCTZ 25 mg 換成 chlorthalidone 12.5 mg **並未減少**主要心血管事件(只有動脈硬化心血管疾病的次族群可能較好);**頑固性高血壓**因效果較強而**偏好 thiazide-like(chlorthalidone、indapamide)**(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e145、e149、e176)。表列劑量:chlorthalidone 12.5–25 mg、HCTZ 25–50 mg、indapamide 1.25–2.5 mg,每日一次(同上來源,p.e150;僅供參考,以醫囑為準)。
+- **2022 台灣指引**:thiazide 與 thiazide-like 都是第一線;chlorthalidone 在部分研究降壓較多,但在頭對頭隨機試驗出現前,**還不能斷定哪一種較好**;建議用**低劑量**以減少電解質異常(來源:[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.273)。
+- 舊版說法「新指引偏好 chlorthalidone 或 indapamide」只適用於頑固性高血壓。
 
 ## 適應症 {#indications}
 
-- **原發性高血壓**:與 ACEI/ARB、CCB 並列第一線;**單方初始治療**的合理選擇,也是最常見的複方成分。與 ACEI/ARB 合用可互相抵銷鉀的變化。
+- **原發性高血壓**:與 ACEI/ARB、長效 DHP 類 CCB 並列第一線(2025 AHA/ACC COR 1, LOE A;頭對頭比較中,長效 thiazide 類預防心衰竭優於 CCB 或 ACEI)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e149);**單方初始治療**的合理選擇,也是最常見的複方成分。與 ACEI/ARB 合用可互相抵銷鉀的變化(同上來源,p.e159)。
 - **輕至中度水腫**:心衰竭、肝硬化、腎病症候群;心衰竭主要仍以 loop 為主,thiazide 用於合併高血壓或與 loop 併用克服利尿劑阻抗(見 [[heart-failure]])。
 - **高尿鈣、反覆含鈣腎結石**的預防;對骨質疏鬆有保護作用。
 - **腎因性尿崩症**(含鋰鹽誘發者),配合限鹽。
-- 腎功能:傳統上 **eGFR < 30 mL/min/1.73m²** 時效果差,需改用 loop;chlorthalidone 在 CKD 第 4 期仍有研究支持。
+- 腎功能:傳統上 **eGFR < 30 mL/min/1.73m²** 時效果差,需改用 loop(2025 AHA/ACC、2022 台灣指引都寫 GFR < 30 時 loop 優先)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e150;[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.273);chlorthalidone 在 CKD 第 4 期仍有研究支持(本機兩份指引未討論)。
 
 ## 藥動重點 {#pharmacokinetics}
 
@@ -81,7 +85,7 @@ Thiazide 型與 thiazide-like 化學結構不同,但作用位置相同;新版高
 | **光敏感**、皮疹 | 含磺胺結構;HCTZ 長期使用與非黑色素皮膚癌風險上升有關,外出防曬 |
 | 磺胺過敏 | 有交叉過敏的可能,須詢問過敏史(實際交叉率低) |
 
-**禁忌/慎用**:無尿、對磺胺類嚴重過敏、痛風發作中、嚴重低血鉀或低血鈉未矯正。懷孕中不建議用來治療子癇前症的水腫。
+**禁忌/慎用**:無尿、對磺胺類嚴重過敏、痛風發作中(2025 AHA/ACC:有急性痛風病史者除非已在用降尿酸藥,否則要監測)、嚴重低血鉀或低血鈉未矯正(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e150)。懷孕中不建議用來治療子癇前症的水腫;孕期用藥兩份指引寫法不同:2022 台灣指引把 **chlorothiazide 列為致畸**、應避免(來源:[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.294),2025 AHA/ACC 引用 ACOG 表把 HCTZ 列為孕期**第二、三線**口服藥(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e175)——懷孕仍以 labetalol、nifedipine 為主。
 
 ## 交互作用 {#interactions}
 

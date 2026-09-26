@@ -6,12 +6,12 @@ dzTags: [高血壓, 心絞痛, 心律不整, 妊娠高血壓]
 system: cardiovascular
 group: antihypertensives
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: 2022 Guidelines of the Taiwan Society of Cardiology and the Taiwan Hypertension Society for the Management of Hypertension(台灣心臟學會/台灣高血壓學會 2022 高血壓治療指引). Acta Cardiol Sin 2022;38:225–325
-    url: https://pubmed.ncbi.nlm.nih.gov/35673334/
+    url: https://doi.org/10.6515/ACS.202205_38%283%29.20220321A
   - title: 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults. Circulation 2025
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
+    url: https://doi.org/10.1161/CIR.0000000000001356
   - title: 2023 AHA/ACC Guideline for the Management of Patients With Chronic Coronary Disease. Circulation 2023
     url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001168
   - title: ACOG Practice Bulletin No. 222 Gestational Hypertension and Preeclampsia(2020)
@@ -50,9 +50,9 @@ references:
 | **Nifedipine**(Adalat) | 短效膠囊作用快、反射性心搏過速明顯;**長效錠**(GITS/OROS/XL)一天一次,**不可咬碎或剝半**;妊娠高血壓與**安胎**(抑制子宮收縮) |
 | **Amlodipine**(Norvasc) | 半衰期 30–50 小時,一天一次,作用平穩;下肢水腫常見 |
 | Felodipine | 受**葡萄柚汁**影響最大 |
-| **Nicardipine**(Perdipine) | **靜脈滴注**,用於高血壓急症、急性中風與術後血壓控制 |
+| **Nicardipine**(Perdipine) | **靜脈滴注**,用於高血壓急症、急性中風與術後血壓控制;2025 AHA/ACC 表列起始 5 mg/h、每 5 分鐘加 2.5 mg/h、最高 15 mg/h,**嚴重主動脈瓣狹窄禁用**(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e182;僅供參考,以醫囑為準) |
 | **Nimodipine** | 容易進入腦部;**蜘蛛網膜下腔出血後預防腦血管痙攣**(不是一般降壓藥) |
-| Clevidipine | 超短效靜脈劑型(台灣較少) |
+| Clevidipine | 超短效靜脈劑型(台灣較少);脂肪乳劑型,**對大豆、蛋過敏者禁用**(同上來源) |
 
 ### 非 DHP 類 {#non-dhp}
 
@@ -63,16 +63,16 @@ references:
 
 ## 適應症 {#indications}
 
-- **高血壓**:第一線(2022 台灣指引、2025 AHA/ACC 指引,使用**長效** DHP);老人、單純收縮期高血壓效果好;常與 ACEI/ARB 做成複方(見 [[hypertension]])。
+- **高血壓**:第一線(2022 台灣指引、2025 AHA/ACC 指引,使用**長效** DHP);2025 AHA/ACC 把 verapamil、diltiazem 列為**替代藥**而非第一線(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e149–e150);老人、單純收縮期高血壓效果好;常與 ACEI/ARB 做成複方,ACEI/ARB 還能減少 DHP 引起的下肢水腫(來源:同上,p.e159)(見 [[hypertension]])。
 - **心絞痛**:穩定型心絞痛(β 阻斷劑無法使用或效果不足時);**變異型(Prinzmetal)心絞痛——冠狀動脈痙攣——首選 CCB**(β 阻斷劑可能讓 α 受體作用相對增強而加重痙攣)(見 [[coronary-artery-disease]])。
 - **心律不整**(verapamil、diltiazem):PSVT 終止與預防、心房顫動/撲動的心室速率控制。
-- **妊娠高血壓**:口服 nifedipine 與 labetalol 並列第一線;也可用於急性重度高血壓。
+- **妊娠高血壓**:口服**長效** nifedipine 與 labetalol 並列首選(2025 AHA/ACC COR 1);**速效口服** nifedipine 可用於住院孕婦的急性重度高血壓(10–20 mg,20 分鐘後可重複;僅供參考,以醫囑為準),但**不可舌下**(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e171–e175)。2022 台灣指引同樣以 methyldopa、labetalol、nifedipine 為孕期用藥(來源:[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.293)。
 - **安胎**:nifedipine(Adalat)抑制子宮平滑肌收縮(屬 CCB,不是 α 或 β 阻斷劑)。
 - **蜘蛛網膜下腔出血**:nimodipine。
 - 其他:雷諾氏現象(DHP)。
 
 :::warning[短效 nifedipine 舌下給藥]
-國考題仍出現「nifedipine S.L. STAT」「nifedipine SL Q6H PRN」的給藥判讀(SL = 舌下含服;Q6H PRN = 需要時給、兩次至少間隔 6 小時)。但臨床上**短效 nifedipine 舌下/咬破給藥可能使血壓驟降,引發中風或心肌缺血**,現行指引不建議用於高血壓急迫症,急性冠心症也應避免。作答依題意,臨床依醫囑並密切監測血壓。
+國考題仍出現「nifedipine S.L. STAT」「nifedipine SL Q6H PRN」的給藥判讀(SL = 舌下含服;Q6H PRN = 需要時給、兩次至少間隔 6 小時)。但臨床上**短效 nifedipine 舌下/咬破給藥可能使血壓驟降,引發中風或心肌缺血**,現行指引不建議用於高血壓急迫症或急症(來源:[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.272),2025 AHA/ACC 也寫明「不可使用舌下劑型」(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e175),急性冠心症也應避免。作答依題意,臨床依醫囑並密切監測血壓。
 :::
 
 ## 副作用與禁忌 {#adverse-effects}
@@ -90,7 +90,7 @@ references:
 
 **禁忌或避免**
 
-- 非 DHP:**HFrEF**、病竇症候群、**二度以上房室傳導阻滯**(未裝節律器)、低血壓、心房顫動合併 **WPW 症候群**(加速旁路傳導)。
+- 非 DHP:**HFrEF**(2025 AHA/ACC:不可用)、病竇症候群、**二度以上房室傳導阻滯**(未裝節律器)、低血壓、心房顫動合併 **WPW 症候群**(加速旁路傳導)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e150)。
 - 短效 nifedipine:急性心肌梗塞、不穩定型心絞痛(反射性心搏過速增加耗氧)。
 - DHP 在 HFrEF:amlodipine、felodipine 可安全用於降壓,但對心衰竭無益。
 

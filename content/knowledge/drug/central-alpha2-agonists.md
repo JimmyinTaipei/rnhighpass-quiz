@@ -7,12 +7,12 @@ system: cardiovascular
 alsoIn: [neuro]
 group: antihypertensives
 reviewed: false
-updated: 2026-09-25
+updated: 2026-09-26
 references:
   - title: 2022 Guidelines of the Taiwan Society of Cardiology and the Taiwan Hypertension Society for the Management of Hypertension(台灣心臟學會/台灣高血壓學會 2022 高血壓治療指引). Acta Cardiol Sin 2022;38:225–325
-    url: https://pubmed.ncbi.nlm.nih.gov/35673334/
+    url: https://doi.org/10.6515/ACS.202205_38%283%29.20220321A
   - title: 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults. Circulation 2025
-    url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
+    url: https://doi.org/10.1161/CIR.0000000000001356
   - title: ACOG Practice Bulletin No. 222 Gestational Hypertension and Preeclampsia(2020)
     url: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia
   - title: OpenStax. Pharmacology for Nurses, Adrenergic Agonists / Cardiovascular Drugs(CC BY-NC-SA 4.0)
@@ -52,8 +52,8 @@ references:
 
 ## 適應症 {#indications}
 
-- **高血壓**:2022 台灣指引與 2025 AHA/ACC 指引都**不列為第一線**,用於多種藥物仍控制不佳的**頑固型高血壓**(見 [[hypertension]])。
-- **妊娠高血壓**:methyldopa 使用歷史最久、對胎兒長期追蹤資料最多;現行 ACOG 以 labetalol、長效 nifedipine 為一線,methyldopa 仍為可用選擇(降壓較弱、嗜睡多)。**產後**因可能加重**產後憂鬱**,常改用其他藥物。
+- **高血壓**:2022 台灣指引與 2025 AHA/ACC 指引都**不列為第一線**,用於多種藥物仍控制不佳的**頑固型高血壓**(見 [[hypertension]])。台灣指引列為**第二線**,在 A、B、C、D 四類加上 MRA、α 阻斷劑後仍未達標才考慮(來源:[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.274);2025 AHA/ACC 則因中樞副作用(老人尤其明顯)把它們列為**最後選擇**(last-line)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e152)。
+- **妊娠高血壓**:methyldopa 使用歷史最久、對胎兒長期追蹤資料最多(子代追蹤到 7 歲);2022 台灣指引仍把 methyldopa 與 labetalol、nifedipine 並列孕期用藥(來源:[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.293),2025 AHA/ACC 與 ACOG 則以 labetalol、長效 nifedipine 為首選,methyldopa 為可用選擇(降壓較弱、嗜睡、憂鬱、頭暈)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e173、e175)。**產後**因可能加重**產後憂鬱**,常改用其他藥物。
 - Clonidine 其他用途:鴉片類與尼古丁戒斷、ADHD、Tourette 症候群。
 
 ## 副作用與禁忌 {#adverse-effects}
@@ -64,7 +64,7 @@ references:
 | **口乾** | 唾液分泌 ↓;非常常見 |
 | 心搏過緩、姿勢性低血壓 | 交感 ↓ |
 | 便秘、性功能障礙、憂鬱 | |
-| **反彈性高血壓**(clonidine) | 突然停藥;需**2–4 天以上逐漸減量** |
+| **反彈性高血壓**(clonidine) | 突然停藥可引發高血壓危象;必須**逐漸減量**(教科書常寫 2–4 天以上)(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e152);手術前也不可驟停(COR 3:有害)(同上來源,p.e183) |
 | 貼片部位皮膚炎 | clonidine 貼片 |
 | **直接 Coombs 試驗陽性**(methyldopa) | 約 10–20% 長期使用者出現紅血球表面抗體;**大多數沒有溶血**,少數(< 1%)發生**自體免疫溶血性貧血** → 停藥;配血(交叉試驗)可能困難,輸血前要告知血庫 |
 | **肝毒性**(methyldopa) | 肝炎、黃疸;用藥初期追蹤肝功能 |
@@ -75,7 +75,7 @@ references:
 ## 交互作用 {#interactions}
 
 - **β 阻斷劑 + clonidine**:併用加重心搏過緩;要停藥時**先逐步停 β 阻斷劑,數天後再逐步停 clonidine**,避免 clonidine 反彈時 α 作用失去 β 對抗而血壓飆高(見 [[beta-blockers]])。
-- 酒精、鎮靜安眠藥、抗組織胺:加重中樞抑制。
+- 酒精、鎮靜安眠藥(如 zolpidem、alprazolam)、抗組織胺:加重中樞抑制(來源:[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e159)。
 - 三環抗憂鬱劑:減弱 clonidine 降壓效果。
 - Methyldopa + **MAO 抑制劑**:高血壓危象;+ 鋰鹽:鋰中毒;+ 鐵劑:吸收 ↓。
 - 其他降壓藥:加成低血壓。
