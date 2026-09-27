@@ -3,7 +3,18 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChevronDown, Library } from "lucide-react";
-import { DOMAIN_KIND_LABELS, type DomainKind, type TaxonomyDomain } from "@/lib/knowledge/types";
+import {
+  DOMAIN_KIND_LABELS,
+  type DomainKind,
+  type KnowledgeCategory,
+  type TaxonomyDomain,
+} from "@/lib/knowledge/types";
+
+export interface SidebarTypeLink {
+  type: KnowledgeCategory;
+  label: string;
+  count: number;
+}
 
 const KIND_ORDER: DomainKind[] = ["system", "cross", "subject"];
 
@@ -50,15 +61,53 @@ function DomainList({ domains, current }: { domains: TaxonomyDomain[]; current: 
   );
 }
 
+/** 依類型瀏覽(藥理、檢驗):跨所有器官系統列出同一類型的頁面 */
+function TypeList({ types, current }: { types: SidebarTypeLink[]; current: string | null }) {
+  if (types.length === 0) return null;
+  return (
+    <div className="mb-3">
+      <p className="px-2 py-1 text-xs font-semibold tracking-wide text-muted">依類型</p>
+      <ul>
+        {types.map((t) => {
+          if (t.count === 0) {
+            return (
+              <li key={t.type} className="flex items-center gap-2 px-2 py-1.5 text-sm text-muted/70" title="即將加入">
+                <span className="min-w-0 flex-1 truncate">{t.label}</span>
+              </li>
+            );
+          }
+          const active = current === t.type;
+          return (
+            <li key={t.type}>
+              <Link
+                href={`/learn/type/${t.type}`}
+                className={`flex items-center gap-2 rounded px-2 py-1.5 text-sm transition-colors duration-150 motion-reduce:transition-none ${
+                  active ? "bg-light font-semibold text-deep" : "text-body hover:bg-surface-hover"
+                }`}
+              >
+                <span className="min-w-0 flex-1 truncate">{t.label}</span>
+                <span className="shrink-0 text-xs font-normal text-muted">{t.count}</span>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+}
+
 /**
- * 知識庫的分類側欄:器官系統 / 跨系統 / 科目。
+ * 知識庫的分類側欄:器官系統 / 跨系統 / 科目,另有「依類型」(藥理、檢驗)。
  * 手機上收成一個可展開的區塊,避免把內容推到很下面。
  */
-export function LearnSidebar({ domains }: { domains: TaxonomyDomain[] }) {
+export function LearnSidebar({ domains, types }: { domains: TaxonomyDomain[]; types: SidebarTypeLink[] }) {
   const pathname = usePathname();
   const match = pathname.match(/^\/learn\/system\/([^/]+)/);
   const current = match ? decodeURIComponent(match[1]) : null;
-  const currentName = domains.find((d) => d.id === current)?.name;
+  const typeMatch = pathname.match(/^\/learn\/type\/([^/]+)/);
+  const currentType = typeMatch ? decodeURIComponent(typeMatch[1]) : null;
+  const currentName =
+    domains.find((d) => d.id === current)?.name ?? types.find((t) => t.type === currentType)?.label;
 
   const header = (
     <Link
@@ -80,6 +129,7 @@ export function LearnSidebar({ domains }: { domains: TaxonomyDomain[] }) {
         </summary>
         <div className="mt-2">
           {header}
+          <TypeList types={types} current={currentType} />
           <DomainList domains={domains} current={current} />
         </div>
       </details>
@@ -87,6 +137,7 @@ export function LearnSidebar({ domains }: { domains: TaxonomyDomain[] }) {
       <aside className="hidden lg:block">
         <nav aria-label="知識庫分類" className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto pr-1">
           {header}
+          <TypeList types={types} current={currentType} />
           <DomainList domains={domains} current={current} />
         </nav>
       </aside>

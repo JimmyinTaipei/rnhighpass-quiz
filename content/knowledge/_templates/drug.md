@@ -1,5 +1,5 @@
 ---
-# 範本:藥物頁(以「藥物類別」為單位,例:loop-diuretics、beta-blockers)。
+# 範本：藥物頁(以「藥物類別」為單位，例：loop-diuretics、beta-blockers)。
 # 複製到 content/knowledge/drug/<slug>.md 後改寫。
 title: 藥物類別中文名
 subtitle: English class name(字尾 -xxx)
@@ -7,7 +7,7 @@ aliases: [代表藥英文名, 商品名, 縮寫]
 dzTags: [主要適應症的 dz 標籤]
 system: cardiovascular              # 必填
 alsoIn: []                          # 選填
-group: antihypertensives            # 選填但建議填:taxonomy.yml 該 system 底下 type: drug 的群組
+group: antihypertensives            # 選填但建議填：taxonomy.yml 該 system 底下 type: drug 的群組
 reviewed: false
 updated: 2026-01-01
 references:
@@ -16,16 +16,16 @@ references:
 ---
 ## 重點摘要 {#summary}
 
-<!-- 這一段會被疾病頁嵌入,保持 3–5 點:機轉一句、主要用途、最重要副作用、最重要護理重點 -->
+<!-- 這一段會被疾病頁嵌入，保持 3–5 點：機轉一句、主要用途、最重要副作用、最重要護理重點 -->
 
-- 機轉:
-- 用途:
-- 主要副作用:
-- 護理重點:
+- 機轉：
+- 用途：
+- 主要副作用：
+- 護理重點：
 
 ## 作用機轉 {#mechanism}
 
-說明作用在哪個生理步驟,並連到生理頁:[[生理頁slug#段落id]]。
+說明作用在哪個生理步驟，並連到生理頁：[[生理頁slug#段落id]]。
 
 ## 代表藥物 {#agents}
 

@@ -35,7 +35,7 @@ const TAXONOMY_FILE = path.join(CONTENT_DIR, "taxonomy.yml");
 // 與 /learn 底下的靜態路由撞名的 slug
 const RESERVED_SLUGS = new Set(["system"]);
 
-const CATEGORIES = ["disease", "physiology", "drug", "lab"];
+const CATEGORIES = ["disease", "physiology", "drug", "lab", "care"];
 const CALLOUTS = ["tip", "exam", "warning", "note"];
 const SUMMARY_LEN = 110;
 const BLOCK_SEPARATORS = new Set(["p", "li", "tr", "td", "th", "k-callout"]);

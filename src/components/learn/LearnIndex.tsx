@@ -12,7 +12,7 @@ import {
   type TaxonomyDomain,
 } from "@/lib/knowledge/types";
 
-const TYPE_ORDER: KnowledgeCategory[] = ["disease", "physiology", "drug", "lab"];
+const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "physiology", "drug", "lab"];
 const OVERVIEW_LIMIT = 12;
 const DEBOUNCE_MS = 250;
 
@@ -30,7 +30,7 @@ function hrefOf(key: string) {
   return id ? `/learn/${slug}#${id}` : `/learn/${slug}`;
 }
 
-export function LearnIndex({ articles, domains, query, type, results }: LearnIndexProps) {
+export function LearnIndex({ articles = [], domains = [], query = "", type = null, results = [] }: LearnIndexProps) {
   const router = useRouter();
   const pathname = usePathname();
   const [q, setQ] = useState(query);

@@ -132,6 +132,11 @@ export function articlesInDomain(id: string): { primary: ArticleSummary[]; also:
   };
 }
 
+/** 某類型(藥物、檢驗…)的所有頁面,跨所有分類 */
+export function articlesOfType(type: KnowledgeCategory): ArticleSummary[] {
+  return getArticleSummaries().filter((a) => a.category === type);
+}
+
 /** 同群組的其他頁(參見用) */
 export function siblingArticles(article: { slug: string; group: string | null }): ArticleSummary[] {
   if (!article.group) return [];

@@ -1,5 +1,6 @@
 import { LearnSidebar } from "@/components/learn/LearnSidebar";
-import { taxonomy } from "@/lib/knowledge";
+import { articlesOfType, taxonomy } from "@/lib/knowledge";
+import { BROWSE_TYPES } from "@/lib/knowledge/types";
 
 /**
  * 知識庫「瀏覽」頁(首頁、系統頁)的外框:左側分類清單。
@@ -8,7 +9,10 @@ import { taxonomy } from "@/lib/knowledge";
 export default function LearnBrowseLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="mx-auto grid w-full max-w-6xl flex-1 gap-6 px-4 py-8 lg:grid-cols-[220px_minmax(0,1fr)]">
-      <LearnSidebar domains={taxonomy.domains} />
+      <LearnSidebar
+        domains={taxonomy.domains}
+        types={BROWSE_TYPES.map((t) => ({ ...t, count: articlesOfType(t.type).length }))}
+      />
       <div className="min-w-0">{children}</div>
     </div>
   );

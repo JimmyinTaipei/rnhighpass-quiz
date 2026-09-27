@@ -1,12 +1,12 @@
 ---
-# 範本:疾病頁。複製到 content/knowledge/disease/<slug>.md 後改寫。
-# slug 用英文小寫與 -(例:heart-failure、schizophrenia),發布後不要改名。
+# 範本：疾病頁。複製到 content/knowledge/disease/<slug>.md 後改寫。
+# slug 用英文小寫與 -(例：heart-failure、schizophrenia)，發布後不要改名。
 title: 疾病中文名
 subtitle: English name(縮寫)
 aliases: [縮寫, 別名, 英文名]
 dzTags: [題庫的 dz 標籤,可多個]   # 見 Tag_List_and_Statistics.md;疾病標籤頁會反向連到本頁
-system: cardiovascular              # 必填,taxonomy.yml 的 domain id
-alsoIn: []                          # 選填,次分類
+system: cardiovascular              # 必填，taxonomy.yml 的 domain id
+alsoIn: []                          # 選填，次分類
 reviewed: false
 updated: 2026-01-01
 references:
@@ -19,7 +19,7 @@ references:
 
 ## 相關生理 {#physiology}
 
-只寫與本病、用藥直接相關的重點;細節連到生理頁或嵌入:
+只寫與本病、用藥直接相關的重點;細節連到生理頁或嵌入：
 ![[生理頁slug#段落id]]
 
 ## 病因與病理生理 {#pathophysiology}

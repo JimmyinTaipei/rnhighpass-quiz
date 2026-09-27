@@ -1,4 +1,151 @@
 {
+  "cancer-treatment-toxicities#exam-points": {
+    "auto": []
+  },
+  "cancer-treatment-toxicities#questions-radiation": {
+    "auto": []
+  },
+  "cancer-treatment-toxicities#questions-emergencies": {
+    "auto": []
+  },
+  "cancer-treatment-toxicities#questions-emergencies~2": {
+    "auto": [
+      "114-2_MS_027",
+      "114-2_MS_024",
+      "114-1_MS_021",
+      "113-3_OP_042",
+      "113-3_MS_032",
+      "113-2_OP_044",
+      "112-3_MS_026",
+      "112-2_OP_070",
+      "112-2_MS_041",
+      "111-1_MS_040"
+    ]
+  },
+  "end-of-life-care#exam-points": {
+    "auto": []
+  },
+  "end-of-life-care#questions-psych-law": {
+    "auto": []
+  },
+  "end-of-life-care#questions-postmortem-children": {
+    "auto": []
+  },
+  "end-of-life-care#questions-postmortem-children~2": {
+    "auto": [
+      "115-1_OP_036",
+      "113-1_FA_035",
+      "112-1_OP_058",
+      "111-1_OP_053",
+      "110-1_FA_054",
+      "109-2_FA_056",
+      "109-2_FA_055",
+      "109-1_OP_046",
+      "108-2_FA_056",
+      "108-1_OP_066"
+    ]
+  },
+  "pain-management#exam-points": {
+    "auto": []
+  },
+  "pain-management#exam-points~2": {
+    "auto": [
+      "115-2_OP_033",
+      "115-2_FA_032",
+      "114-3_OP_032",
+      "114-3_FA_017",
+      "114-3_BM_033",
+      "114-2_FA_018",
+      "114-2_FA_009",
+      "114-1_PC_017",
+      "114-1_OP_032",
+      "114-1_FA_033"
+    ]
+  },
+  "stem-cell-transplant#exam-points": {
+    "auto": []
+  },
+  "stem-cell-transplant#exam-points~2": {
+    "auto": [
+      "112-2_OP_072",
+      "112-2_MS_033",
+      "112-1_MS_036",
+      "111-1_MS_037",
+      "110-1_MS_041",
+      "110-1_BM_073",
+      "108-2_MS_035",
+      "105-1_MS_038"
+    ]
+  },
+  "bipolar-disorder#defense-mechanisms": {
+    "auto": []
+  },
+  "bipolar-disorder#hypomania-depression": {
+    "auto": []
+  },
+  "bipolar-disorder#types": {
+    "auto": []
+  },
+  "bipolar-disorder#maintenance": {
+    "auto": []
+  },
+  "bipolar-disorder#nursing-communication": {
+    "auto": []
+  },
+  "bipolar-disorder#nursing-discharge": {
+    "auto": []
+  },
+  "breast-cancer#exam-points": {
+    "auto": []
+  },
+  "breast-cancer#exam-points~2": {
+    "auto": [
+      "115-2_MS_026",
+      "114-2_BM_040",
+      "114-1_PC_042",
+      "114-1_BM_029",
+      "113-2_MS_033",
+      "113-2_FA_015",
+      "113-2_BM_024",
+      "113-1_MS_021",
+      "113-1_BM_028",
+      "112-3_MS_024"
+    ]
+  },
+  "cancer#exam-points": {
+    "auto": []
+  },
+  "cancer#exam-points~2": {
+    "auto": [
+      "115-2_MS_025",
+      "115-2_MS_023",
+      "115-2_MS_022",
+      "115-2_MS_021",
+      "115-1_MS_025",
+      "115-1_BM_048",
+      "114-3_MS_022",
+      "114-3_MS_019",
+      "114-2_MS_024",
+      "114-2_MS_022"
+    ]
+  },
+  "colorectal-cancer#exam-points": {
+    "auto": []
+  },
+  "colorectal-cancer#exam-points~2": {
+    "auto": [
+      "115-2_BM_040",
+      "114-2_PC_036",
+      "114-2_BM_025",
+      "114-1_MS_007",
+      "114-1_BM_027",
+      "113-3_OP_047",
+      "112-3_FA_034",
+      "112-2_PC_044",
+      "112-2_MS_036",
+      "112-2_MS_009"
+    ]
+  },
   "coronary-artery-disease#oxygen-balance": {
     "auto": [
       "114-2_BM_004",
@@ -116,6 +263,36 @@
       "109-1_PC_080",
       "109-1_MS_031"
     ]
+  },
+  "depressive-disorder#social": {
+    "auto": []
+  },
+  "depressive-disorder#manifestations": {
+    "auto": []
+  },
+  "depressive-disorder#assessment-tools": {
+    "auto": []
+  },
+  "depressive-disorder#postpartum": {
+    "auto": []
+  },
+  "depressive-disorder#late-life": {
+    "auto": []
+  },
+  "depressive-disorder#youth": {
+    "auto": []
+  },
+  "depressive-disorder#ect": {
+    "auto": []
+  },
+  "depressive-disorder#nursing-discharge": {
+    "auto": []
+  },
+  "depressive-disorder#suicide-death": {
+    "auto": []
+  },
+  "depressive-disorder#disaster": {
+    "auto": []
   },
   "diabetes#physiology-drug-map": {
     "auto": [
@@ -342,6 +519,40 @@
       "109-1_PC_045",
       "107-1_PC_080",
       "107-1_PC_064"
+    ]
+  },
+  "gynecologic-cancers#exam-points": {
+    "auto": []
+  },
+  "gynecologic-cancers#exam-points~2": {
+    "auto": [
+      "115-2_OP_024",
+      "115-1_OP_025",
+      "114-3_OP_024",
+      "114-2_OP_024",
+      "114-2_BM_028",
+      "113-3_FA_027",
+      "113-2_OP_025",
+      "113-2_BM_024",
+      "113-1_BM_049",
+      "112-3_BM_047"
+    ]
+  },
+  "head-neck-cancers#exam-points": {
+    "auto": []
+  },
+  "head-neck-cancers#exam-points~2": {
+    "auto": [
+      "115-2_MS_015",
+      "115-2_BM_025",
+      "115-1_MS_014",
+      "115-1_MS_008",
+      "114-3_PC_030",
+      "114-3_MS_008",
+      "114-1_PC_036",
+      "114-1_FA_027",
+      "113-2_FA_026",
+      "112-3_MS_016"
     ]
   },
   "heart-failure#ejection-fraction": {
@@ -625,6 +836,134 @@
       "109-1_OP_016"
     ]
   },
+  "leukemia#exam-points": {
+    "auto": []
+  },
+  "leukemia#exam-points~2": {
+    "auto": [
+      "114-3_MS_018",
+      "114-2_OP_044",
+      "114-1_OP_043",
+      "114-1_MS_025",
+      "113-3_MS_024",
+      "113-3_BM_023",
+      "113-2_OP_044",
+      "113-2_OP_041",
+      "113-2_MS_025",
+      "113-1_OP_034"
+    ]
+  },
+  "liver-cancer#exam-points": {
+    "auto": []
+  },
+  "liver-cancer#exam-points~2": {
+    "auto": [
+      "115-2_BM_050",
+      "114-3_PC_041",
+      "114-3_MS_009",
+      "113-3_MS_008",
+      "111-2_MS_011",
+      "110-2_FA_056",
+      "109-1_BM_076",
+      "108-2_MS_040",
+      "107-1_MS_015",
+      "106-2_makeup_MS_033"
+    ]
+  },
+  "lung-cancer#exam-points": {
+    "auto": []
+  },
+  "lung-cancer#exam-points~2": {
+    "auto": [
+      "115-2_MS_033",
+      "115-2_BM_024",
+      "114-3_PC_044",
+      "114-1_FA_023",
+      "113-3_MS_032",
+      "113-2_MS_031",
+      "112-1_PC_049",
+      "112-1_PC_043",
+      "112-1_FA_055",
+      "112-1_FA_054"
+    ]
+  },
+  "lymphoma-myeloma#exam-points": {
+    "auto": []
+  },
+  "lymphoma-myeloma#exam-points~2": {
+    "auto": [
+      "115-1_MS_026",
+      "115-1_MS_024",
+      "115-1_MS_022",
+      "114-3_BM_025",
+      "114-1_BM_026",
+      "113-3_MS_026",
+      "113-3_BM_023",
+      "113-2_MS_022",
+      "112-2_BM_022",
+      "112-1_MS_034"
+    ]
+  },
+  "pediatric-cancers#exam-points": {
+    "auto": []
+  },
+  "pediatric-cancers#exam-points~2": {
+    "auto": [
+      "115-2_MS_005",
+      "115-1_OP_042",
+      "114-3_OP_045",
+      "114-3_FA_033",
+      "114-2_OP_045",
+      "114-2_OP_042",
+      "114-2_MS_002",
+      "114-1_OP_044",
+      "114-1_MS_023",
+      "113-3_OP_043"
+    ]
+  },
+  "schizophrenia#psychosocial": {
+    "auto": []
+  },
+  "schizophrenia#insight": {
+    "auto": []
+  },
+  "schizophrenia#holistic-assessment": {
+    "auto": []
+  },
+  "schizophrenia#delusional-disorder": {
+    "auto": []
+  },
+  "schizophrenia#drugs": {
+    "auto": [
+      "113-1_PC_012",
+      "113-1_PC_002",
+      "112-2_PC_039",
+      "112-2_PC_021",
+      "111-1_PC_038",
+      "110-2_PC_014"
+    ]
+  },
+  "schizophrenia#psychosocial-treatment": {
+    "auto": []
+  },
+  "schizophrenia#communication-theories": {
+    "auto": []
+  },
+  "schizophrenia#nursing-delusion": {
+    "auto": []
+  },
+  "schizophrenia#nursing-negative": {
+    "auto": []
+  },
+  "schizophrenia#restraint": {
+    "auto": []
+  },
+  "schizophrenia#community-resources": {
+    "auto": []
+  },
+  "schizophrenia#patient-rights": {
+    "auto": []
+  },
   "ace-inhibitors#exam-points": {
     "auto": [
       "114-3_BM_017",
@@ -685,6 +1024,47 @@
       "108-2_MS_051"
     ]
   },
+  "antidepressants#nursing-education": {
+    "auto": []
+  },
+  "antidepressants#exam-points": {
+    "auto": [
+      "115-2_PC_004",
+      "115-2_BM_034",
+      "115-1_BM_035",
+      "114-3_PC_013",
+      "114-2_OP_026",
+      "114-1_BM_034",
+      "113-2_PC_021",
+      "112-2_PC_033",
+      "112-2_BM_034",
+      "111-2_PC_032",
+      "111-2_PC_009",
+      "111-1_PC_024"
+    ]
+  },
+  "antineoplastics#exam-points": {
+    "auto": []
+  },
+  "antineoplastics#questions-extravasation": {
+    "auto": []
+  },
+  "antineoplastics#questions-extravasation~2": {
+    "auto": [
+      "115-2_MS_026",
+      "115-2_MS_025",
+      "115-2_BM_040",
+      "115-1_MS_025",
+      "114-3_MS_019",
+      "114-2_MS_022",
+      "114-2_BM_040",
+      "114-1_MS_023",
+      "114-1_BM_040",
+      "114-1_BM_039",
+      "113-3_MS_021",
+      "113-3_BM_040"
+    ]
+  },
   "antiplatelets#exam-points": {
     "auto": [
       "114-3_MS_034",
@@ -705,6 +1085,43 @@
       "112-1_OP_078",
       "110-1_OP_049",
       "107-1_OP_054"
+    ]
+  },
+  "antipsychotics#eps": {
+    "auto": []
+  },
+  "antipsychotics#nms": {
+    "auto": []
+  },
+  "antipsychotics#metabolic": {
+    "auto": []
+  },
+  "antipsychotics#other-effects": {
+    "auto": []
+  },
+  "antipsychotics#clozapine-interactions": {
+    "auto": []
+  },
+  "antipsychotics#lai-technique": {
+    "auto": []
+  },
+  "antipsychotics#nursing-education": {
+    "auto": []
+  },
+  "antipsychotics#exam-points": {
+    "auto": [
+      "115-1_PC_006",
+      "114-3_PC_025",
+      "114-1_PC_004",
+      "113-1_PC_012",
+      "113-1_PC_002",
+      "112-3_PC_013",
+      "112-3_PC_008",
+      "112-2_PC_040",
+      "112-2_PC_039",
+      "112-2_PC_021",
+      "112-2_PC_005",
+      "112-1_PC_035"
     ]
   },
   "arb#exam-points": {
@@ -788,6 +1205,23 @@
       "112-2_BM_020",
       "109-1_MS_067",
       "108-1_BM_063"
+    ]
+  },
+  "immunosuppressants#exam-points": {
+    "auto": []
+  },
+  "immunosuppressants#exam-points~2": {
+    "auto": [
+      "115-1_MS_030",
+      "115-1_FA_013",
+      "114-3_BM_040",
+      "113-2_MS_030",
+      "113-2_MS_029",
+      "113-2_MS_026",
+      "113-2_BM_040",
+      "112-3_MS_042",
+      "112-3_MS_032",
+      "112-3_FA_009"
     ]
   },
   "inotropes#exam-points": {
@@ -894,6 +1328,28 @@
       "105-1_BM_062"
     ]
   },
+  "mood-stabilizers#lithium-nursing": {
+    "auto": []
+  },
+  "mood-stabilizers#carbamazepine": {
+    "auto": []
+  },
+  "mood-stabilizers#exam-points": {
+    "auto": [
+      "115-2_PC_012",
+      "113-3_PC_004",
+      "113-3_BM_033",
+      "112-3_PC_016",
+      "112-3_PC_012",
+      "112-2_PC_020",
+      "112-1_PC_009",
+      "112-1_PC_008",
+      "111-1_PC_016",
+      "109-2_PC_019",
+      "109-2_PC_003",
+      "109-1_PC_013"
+    ]
+  },
   "nitrates#exam-points": {
     "auto": [
       "115-1_BM_038",
@@ -918,6 +1374,40 @@
       "110-1_BM_059",
       "109-2_MS_031",
       "109-1_MS_048"
+    ]
+  },
+  "nsaids-acetaminophen#exam-points": {
+    "auto": []
+  },
+  "nsaids-acetaminophen#exam-points~2": {
+    "auto": [
+      "111-2_OP_049",
+      "111-2_FA_018",
+      "111-1_OP_050",
+      "111-1_BM_057",
+      "110-1_BM_051",
+      "109-1_BM_058",
+      "108-2_MS_017",
+      "108-1_BM_059",
+      "106-2_OP_054",
+      "106-2_makeup_FA_022"
+    ]
+  },
+  "opioids#exam-points": {
+    "auto": []
+  },
+  "opioids#exam-points~2": {
+    "auto": [
+      "115-2_MS_007",
+      "115-2_FA_032",
+      "114-3_OP_011",
+      "114-3_BM_033",
+      "114-1_PC_017",
+      "113-2_MS_009",
+      "113-2_FA_019",
+      "113-1_MS_009",
+      "112-3_OP_031",
+      "112-2_OP_013"
     ]
   },
   "potassium-sparing-diuretics#exam-points": {
@@ -1037,6 +1527,9 @@
   "cardiac-catheterization#post-care": {
     "auto": []
   },
+  "complete-blood-count#exam-points": {
+    "auto": []
+  },
   "ecg#rv-infarction": {
     "auto": [
       "114-3_MS_034",
@@ -1106,6 +1599,9 @@
   "lipid-profile#exam-points~2": {
     "auto": []
   },
+  "lithium-level#exam-points": {
+    "auto": []
+  },
   "ogtt#gdm-timing": {
     "auto": [
       "113-2_OP_023",
@@ -1142,6 +1638,9 @@
       "113-2_FA_015",
       "112-3_FA_012"
     ]
+  },
+  "tumor-markers#exam-points": {
+    "auto": []
   },
   "uacr#questions": {
     "auto": [
@@ -1338,5 +1837,23 @@
       "114-3_MS_043",
       "113-2_BM_015"
     ]
+  },
+  "neoplasia#exam-points": {
+    "auto": []
+  },
+  "neoplasia#questions-carcinogens": {
+    "auto": []
+  },
+  "neurotransmitters-psychiatry#dopamine-pathways": {
+    "auto": []
+  },
+  "neurotransmitters-psychiatry#serotonin-clinical": {
+    "auto": []
+  },
+  "neurotransmitters-psychiatry#hpa-axis": {
+    "auto": []
+  },
+  "neurotransmitters-psychiatry#brain-regions": {
+    "auto": []
   }
 }

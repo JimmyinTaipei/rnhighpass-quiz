@@ -1,13 +1,14 @@
 // 對應 scripts/build-knowledge.mjs 的輸出格式。改其中一邊時兩邊要一起改。
 import type { Root } from "hast";
 
-export type KnowledgeCategory = "disease" | "physiology" | "drug" | "lab";
+export type KnowledgeCategory = "disease" | "physiology" | "drug" | "lab" | "care";
 
 export const CATEGORY_LABELS: Record<KnowledgeCategory, string> = {
   disease: "疾病",
   physiology: "生理機轉",
   drug: "藥物",
   lab: "檢驗",
+  care: "護理主題",
 };
 
 export interface KnowledgeReference {
@@ -112,6 +113,12 @@ export interface ImageCredit {
 // ===== 分類(對應 content/knowledge/taxonomy.yml,由建置腳本輸出 taxonomy.json) =====
 
 export type DomainKind = "system" | "cross" | "subject";
+
+/** 側欄「依類型」列出的類型與顯示名稱(/learn/type/[type]) */
+export const BROWSE_TYPES: { type: KnowledgeCategory; label: string }[] = [
+  { type: "drug", label: "藥理" },
+  { type: "lab", label: "檢驗" },
+];
 
 export const DOMAIN_KIND_LABELS: Record<DomainKind, string> = {
   system: "器官系統",

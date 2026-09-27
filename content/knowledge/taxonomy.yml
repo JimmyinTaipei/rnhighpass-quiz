@@ -27,7 +27,9 @@
 # 病理 Ch09~Ch18 依器官;Ch05 免疫、Ch10 血液 → hematology-immunology;Ch08 感染 → infection
 # 藥理 Ch02 自主神經、Ch04 止痛麻醉 → neuro;Ch03 中樞與精神科 → neuro(抗癲癇、巴金森)/ psychiatric(抗精神病、抗憂鬱等)
 # 藥理 Ch05 → respiratory;Ch06 → digestive;Ch07 → renal;Ch08 → cardiovascular;Ch09 → hematology-immunology
-# 藥理 Ch10 → endocrine;Ch11 → infection;Ch12 → hematology-immunology(癌症藥暫放此,量多時再開 oncology)
+# 藥理 Ch10 → endocrine;Ch11 → infection;Ch12 癌症藥 → oncology,免疫製劑 → hematology-immunology
+# 病理 Ch04 腫瘤、內外 Ch03 癌症、兒科 Ch18 兒童癌症 → oncology(器官癌以 oncology 為主,器官系統放 alsoIn)
+# 不屬於單一疾病或藥物的護理內容(疼痛、臨終、治療副作用照護)→ 類型 care(護理主題)
 # 微免 → infection(Ch02、Ch03 免疫 → hematology-immunology)
 # 內外 Ch04 → fluid-acid-base;Ch05 → infection;其餘依器官;Ch03 癌症、Ch06 急重症 → 依主要器官或 fundamentals
 # 產科 → reproductive;兒科依器官(Ch02 生長發展 → fundamentals)
@@ -38,6 +40,7 @@ types:
   physiology: 生理機轉
   drug: 藥物
   lab: 檢驗
+  care: 護理主題
 
 domains:
   # ===== 器官系統(對應題庫 block: 十大系統) =====
@@ -48,7 +51,7 @@ domains:
     groups:
       - { id: antiepileptics, name: 抗癲癇藥, type: drug, drugTags: [抗癲癇用藥, 癲癇用藥] }
       - { id: antiparkinson, name: 巴金森氏症用藥, type: drug, drugTags: [巴金森氏症用藥, 巴金森氏病用藥, 帕金森氏症用藥, 抗帕金森氏症用藥] }
-      - { id: analgesics-anesthetics, name: 止痛與麻醉藥, type: drug, drugTags: [止痛用藥, 止痛藥, 止痛藥物, 鎮痛藥, 麻醉用藥, 麻醉藥物, 麻醉止痛用藥, 鴉片類止痛劑, 鴉片類止痛藥, 局部麻醉藥, 局部麻醉用藥, 局部麻醉劑] }
+      - { id: analgesics-anesthetics, name: 止痛與麻醉藥, type: drug, drugTags: [止痛用藥, 止痛藥, 止痛藥物, 鎮痛藥, 麻醉用藥, 麻醉藥物, 麻醉止痛用藥, 鴉片類止痛劑, 鴉片類止痛藥, 局部麻醉藥, 局部麻醉用藥, 局部麻醉劑, 止痛劑用藥, 止痛藥用藥, 麻醉性止痛藥, 麻醉性止痛劑, 類鴉片止痛藥, 類鴉片止痛用藥, 鴉片類藥物, 癌症疼痛用藥, 疼痛用藥, 止痛麻醉用藥, 非類固醇消炎止痛藥, 止痛消炎用藥, 消炎止痛藥, 止痛解熱消炎藥, 止痛退熱藥, 止痛藥與麻醉藥物] }
       - { id: autonomic-drugs, name: 自主神經藥物, type: drug, drugTags: [自主神經系統用藥, 自主神經用藥, 抗膽鹼酯酶藥物, 乙醯膽鹼酯酶抑制劑, 神經肌肉阻斷劑] }
 
   - id: hematology-immunology
@@ -58,8 +61,7 @@ domains:
     groups:
       - { id: antithrombotics, name: 抗凝血與抗血栓藥, type: drug, drugTags: [抗凝血用藥, 抗凝血劑, 抗凝血劑用藥, 抗血小板用藥, 抗血小板藥物, 抗血栓用藥, 血栓溶解劑, 血栓溶解用藥] }
       - { id: antianemics, name: 貧血用藥, type: drug, drugTags: [貧血用藥, 抗貧血用藥] }
-      - { id: immunomodulators, name: 免疫製劑與免疫抑制劑, type: drug, drugTags: [免疫製劑, 免疫抑制劑, 免疫抑制用藥] }
-      - { id: antineoplastics, name: 抗腫瘤藥, type: drug, drugTags: [抗腫瘤用藥, 抗腫瘤藥物, 化學治療藥物, 化學治療用藥, 癌症用藥, 癌症化學治療用藥] }
+      - { id: immunomodulators, name: 免疫製劑與免疫抑制劑, type: drug, drugTags: [免疫製劑, 免疫抑制劑, 免疫抑制用藥, 免疫調節用藥, 自體免疫用藥] }
       - { id: coagulation-labs, name: 凝血與血球檢驗, type: lab }
 
   - id: reproductive
@@ -132,10 +134,17 @@ domains:
     kind: cross
     blockTag: 神經
     groups:
-      - { id: antipsychotics, name: 抗精神病藥, type: drug, drugTags: [抗精神病藥物, 抗精神病用藥, 抗精神病藥] }
-      - { id: antidepressants, name: 抗憂鬱藥, type: drug, drugTags: [抗憂鬱用藥, 抗憂鬱藥物, 抗憂鬱劑, 憂鬱症用藥] }
-      - { id: mood-stabilizers, name: 情緒穩定劑, type: drug, drugTags: [情緒穩定劑] }
+      - { id: antipsychotics, name: 抗精神病藥, type: drug, drugTags: [抗精神病藥物, 抗精神病用藥, 抗精神病藥, 思覺失調症用藥] }
+      - { id: antidepressants, name: 抗憂鬱藥, type: drug, drugTags: [抗憂鬱用藥, 抗憂鬱藥物, 抗憂鬱劑, 憂鬱症用藥, 抗憂鬱藥] }
+      - { id: mood-stabilizers, name: 情緒穩定劑, type: drug, drugTags: [情緒穩定劑, 躁鬱症用藥] }
       - { id: anxiolytics-hypnotics, name: 抗焦慮與鎮靜安眠藥, type: drug, drugTags: [抗焦慮用藥, 鎮靜安眠藥, 鎮靜催眠藥, 鎮靜安眠用藥, 鎮靜催眠用藥, 安眠鎮靜用藥] }
+
+  - id: oncology
+    name: 腫瘤
+    kind: cross
+    groups:
+      - { id: antineoplastics, name: 抗腫瘤藥, type: drug, drugTags: [抗腫瘤用藥, 抗腫瘤藥物, 化學治療藥物, 化學治療用藥, 化療藥物, 癌症用藥, 癌症化學治療用藥, 抗癌藥物, 抗癌用藥, 抗腫瘤化學治療用藥, 乳癌用藥, 癌症支持性用藥, 癌症支持治療用藥, 癌症支持療法用藥, 標靶治療藥物] }
+      - { id: oncology-labs, name: 腫瘤相關檢驗, type: lab }
 
   - id: fluid-acid-base
     name: 體液、電解質與酸鹼

@@ -11,7 +11,7 @@ import {
   type KnowledgeCategory,
 } from "@/lib/knowledge/types";
 
-const TYPE_ORDER: KnowledgeCategory[] = ["disease", "physiology", "drug", "lab"];
+const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "physiology", "drug", "lab"];
 
 export async function generateMetadata(props: PageProps<"/learn/system/[id]">): Promise<Metadata> {
   const { id } = await props.params;
