@@ -35,7 +35,10 @@ export default async function MockExamHome(props: PageProps<"/mock-exam/select">
   return (
     <div className="space-y-6">
       <section>
-        <h1 className="mb-2 text-2xl font-bold text-deep">護理師線上模擬考</h1>
+        <h1 className="mb-2 text-2xl font-bold text-deep">
+          護理師線上模擬考
+          <span className="ml-1 text-base font-medium text-warning">（考試當天不會有此頁面）</span>
+        </h1>
         <p className="max-w-3xl text-sm leading-relaxed text-body">
           以國考歷屆試題模擬電腦化測驗：一次一題、可註記、可瀏覽作答情形，每科 60 分鐘。
           不需要登入，作答進度保存在這台裝置的瀏覽器。
@@ -106,6 +109,9 @@ export default async function MockExamHome(props: PageProps<"/mock-exam/select">
       <section className="rounded-card border border-card-border bg-card p-5 text-sm leading-relaxed text-body">
         <h2 className="mb-2 font-bold text-deep">作答說明</h2>
         <ol className="list-decimal space-y-1 pl-5">
+          <li>
+            畫面將提供勾選顯示成績選項，請選擇每節考試結束後是否顯示當節成績，或當次考試結束後是否顯示各科成績，選擇後請按【確定】鈕。
+          </li>
           <li>試題以一次一題方式顯示，可用「上一題／下一題」或下拉選單跳題。</li>
           <li>每位應考人的選項順序不同，本系統同樣會打亂 (A)(B)(C)(D) 的順序。</li>
           <li>沒把握的題目可以點選「輔助作答註記」，之後在「瀏覽作答情形」中快速找到。</li>

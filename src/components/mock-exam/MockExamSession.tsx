@@ -29,6 +29,7 @@ import { PageLoader } from "@/components/ui/PageLoader";
 import { AnswerSheet } from "./AnswerSheet";
 import { ConfirmDialog } from "./ConfirmDialog";
 import { MARK_OPTIONS } from "./marks";
+import { NoteBox } from "./NoteBox";
 import { QuestionView } from "./QuestionView";
 import { ResultView } from "./ResultView";
 import { ScoreOptionsScreen } from "./ScoreOptionsScreen";
@@ -322,6 +323,10 @@ function ExamRunner({ paperSlug, groupId, title, subjectName, questions }: MockE
         <div className="bg-light px-4 py-2 text-sm font-bold text-deep">考試名稱：{title}</div>
         <div className="flex flex-wrap items-start justify-between gap-3 px-4 py-3">
           <div className="space-y-2 text-sm text-body">
+            <p className="flex flex-wrap gap-x-8 gap-y-1">
+              <span>姓名：{MOCK_CANDIDATE.name}</span>
+              <span>應試座位：{MOCK_CANDIDATE.seat}</span>
+            </p>
             <p>
               科目：<span className="font-medium text-strong">{subjectName}</span>
             </p>
@@ -450,7 +455,6 @@ function ExamRunner({ paperSlug, groupId, title, subjectName, questions }: MockE
                 {questions.map((q, i) => (
                   <option key={q.id} value={i}>
                     {i + 1}
-                    {session.answers[q.id] ? "" : "（未答）"}
                   </option>
                 ))}
               </select>
@@ -598,11 +602,22 @@ function ConfirmScreen({
           <dd className="text-sm text-muted">60 分鐘</dd>
         </dl>
 
-        <ul className="mt-6 list-disc space-y-1 pl-5 text-sm text-body">
-          <li>選項順序已打亂，與題本不同（正式考試每位應考人的選項順序也不同）。</li>
+        {/* 考選部模擬系統的操作說明(文字稍作改寫，意思不變) */}
+        <ol className="mt-6 list-decimal space-y-1 pl-5 text-sm leading-relaxed text-body">
+          <li>
+            應試作答時，每位應考人電腦螢幕畫面顯示的題號、選項順序均不相同（即 (A)、(B)、(C)、(D)
+            四個選項次序不同）。<span className="text-muted">（選項順序已打亂，與題本不同）</span>
+          </li>
+          <li>應考人以滑鼠逐題點選試題選項作答。</li>
+          <li>試題每次顯示一題，題目較長時可使用螢幕捲軸瀏覽。</li>
+          <li>沒把握或想之後再作答的題目，可以點選註記，事後再回來作答。</li>
           <li>全部題目作答完才能按「結束作答」；時間到會自動交卷。</li>
-          <li>作答進度會自動保存在這台裝置的瀏覽器，重新整理不會遺失，但計時不會暫停。</li>
-        </ul>
+          <li>正式考試時，應試系統將於考試開始後 45 分鐘才顯示「結束作答」按鈕。</li>
+        </ol>
+
+        <NoteBox className="mt-4">
+          <p>作答進度會自動保存在這台裝置的瀏覽器，重新整理不會遺失，但計時不會暫停。</p>
+        </NoteBox>
 
         {saved && (
           <div className="mt-6 rounded-btn border border-accent bg-light/60 p-4 text-sm text-body">

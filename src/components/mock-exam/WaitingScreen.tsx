@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { Play } from "lucide-react";
 import { MOCK_CANDIDATE, WAITING_DURATION_MS } from "@/lib/mock-exam/labels";
 
+const REMINDER_BEFORE_MS = 30 * 1000;
+
 function formatClock(ms: number) {
   const total = Math.ceil(ms / 1000);
   const h = Math.floor(total / 3600);
@@ -30,6 +32,9 @@ export function WaitingScreen({
   const [startedAt] = useState(() => Date.now());
   const [now, setNow] = useState(startedAt);
   const remaining = Math.max(0, startedAt + WAITING_DURATION_MS - now);
+  /** 剩 30 秒的提醒是否已被關掉(正式考試可能關不掉，本站讓它可以關) */
+  const [reminderDismissed, setReminderDismissed] = useState(false);
+  const showReminder = remaining > 0 && remaining <= REMINDER_BEFORE_MS && !reminderDismissed;
 
   useEffect(() => {
     const deadline = startedAt + WAITING_DURATION_MS;
@@ -51,11 +56,12 @@ export function WaitingScreen({
         <div className="grid gap-x-6 gap-y-1 px-4 py-3 text-sm text-body sm:grid-cols-3">
           <p>姓名：{MOCK_CANDIDATE.name}</p>
           <p>應試座位：{MOCK_CANDIDATE.seat}</p>
-          <p>類科：護理師（{subjectName}）</p>
+          <p>類科：護理師</p>
           <p>
             座號：<span className="font-bold text-incorrect">{MOCK_CANDIDATE.seatNo}</span>
           </p>
-          <p className="sm:col-span-2">
+          <p className="sm:col-span-2">科目：{subjectName}</p>
+          <p className="sm:col-span-3">
             離開考時間：
             <span className="font-mono text-base font-bold tabular-nums text-incorrect" aria-live="off">
               {formatClock(remaining)}
@@ -100,6 +106,29 @@ export function WaitingScreen({
           前往考選部網站
         </a>
       </section>
+
+      {showReminder && (
+        <div
+          role="alertdialog"
+          aria-modal="true"
+          aria-labelledby="waiting-reminder"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 px-4"
+        >
+          <div className="w-full max-w-md rounded-card border border-card-border bg-card p-6 text-center shadow-xl">
+            <p id="waiting-reminder" className="text-lg font-bold text-deep">
+              三十秒內即將開始考試，請稍候...
+            </p>
+            <p className="mt-2 text-xs text-warning">（正式考試可能無法關閉此提醒・本站可關閉）</p>
+            <button
+              type="button"
+              onClick={() => setReminderDismissed(true)}
+              className="mt-5 min-w-24 rounded-btn border border-card-border bg-card px-5 py-2 text-sm font-medium text-body hover:bg-page"
+            >
+              關閉
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
