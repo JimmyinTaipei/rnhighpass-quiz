@@ -1,7 +1,7 @@
 // 對應 scripts/build-knowledge.mjs 的輸出格式。改其中一邊時兩邊要一起改。
 import type { Root } from "hast";
 
-export type KnowledgeCategory = "disease" | "physiology" | "drug" | "lab" | "care";
+export type KnowledgeCategory = "disease" | "physiology" | "drug" | "lab" | "care" | "pathogen";
 
 export const CATEGORY_LABELS: Record<KnowledgeCategory, string> = {
   disease: "疾病",
@@ -9,6 +9,7 @@ export const CATEGORY_LABELS: Record<KnowledgeCategory, string> = {
   drug: "藥物",
   lab: "檢驗",
   care: "護理主題",
+  pathogen: "病原體",
 };
 
 export interface KnowledgeReference {

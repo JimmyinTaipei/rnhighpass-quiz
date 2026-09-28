@@ -12,7 +12,7 @@ import {
   type TaxonomyDomain,
 } from "@/lib/knowledge/types";
 
-const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "physiology", "drug", "lab"];
+const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "physiology", "pathogen", "drug", "lab"];
 const OVERVIEW_LIMIT = 12;
 const DEBOUNCE_MS = 250;
 

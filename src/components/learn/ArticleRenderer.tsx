@@ -9,6 +9,7 @@ import { hrefFor, imageCredits, knowledgeIndex, previewFor } from "@/lib/knowled
 import type { KnowledgeArticle, KnowledgeSection, KnowledgePreview } from "@/lib/knowledge/types";
 import type { ComparisonTable, Question } from "@/lib/types";
 import { CollapsibleSection } from "./CollapsibleSection";
+import { SectionBodyEditor, SectionTitleEditor } from "./KnowledgeEditors";
 import { EmbedBadge } from "./EmbedBadge";
 import { KnowledgeLink } from "./KnowledgeLink";
 
@@ -20,6 +21,8 @@ export interface RenderContext {
   diseaseTagsByQuestion: Map<string, string[]>;
   isLoggedIn: boolean;
   devMode: boolean;
+  /** 本機 dev mode 可編輯時為本頁 slug(寫回 .md);否則 null */
+  editSlug: string | null;
   /** 0 = 本文;>0 = 正在渲染嵌入內容 */
   embedDepth: number;
 }
@@ -189,8 +192,16 @@ export function renderHast(root: Root, ctx: RenderContext) {
 }
 
 export function SectionView({ section, ctx }: { section: KnowledgeSection; ctx: RenderContext }) {
+  const slug = ctx.embedDepth === 0 ? ctx.editSlug : null;
   return (
-    <CollapsibleSection id={section.id} depth={section.depth} number={section.number} title={section.title}>
+    <CollapsibleSection
+      id={section.id}
+      depth={section.depth}
+      number={section.number}
+      title={section.title}
+      titleEditor={slug ? <SectionTitleEditor key={section.title} slug={slug} id={section.id} /> : undefined}
+    >
+      {slug && <SectionBodyEditor slug={slug} id={section.id} />}
       <div className="kb-prose">{renderHast(section.content, ctx)}</div>
       {section.children.map((c) => (
         <SectionView key={c.id} section={c} ctx={ctx} />

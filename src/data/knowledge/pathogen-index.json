@@ -1,0 +1,16 @@
+[
+  {
+    "id": "mycobacterium-tuberculosis",
+    "name": "結核分枝桿菌",
+    "names": [
+      "結核分枝桿菌",
+      "Mycobacterium tuberculosis",
+      "M. tuberculosis",
+      "結核桿菌",
+      "結核菌",
+      "人型結核菌",
+      "MTB"
+    ],
+    "target": "tuberculosis#mycobacterium-tuberculosis"
+  }
+]

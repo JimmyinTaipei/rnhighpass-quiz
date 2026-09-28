@@ -30,7 +30,8 @@
 # 藥理 Ch10 → endocrine;Ch11 → infection;Ch12 癌症藥 → oncology,免疫製劑 → hematology-immunology
 # 病理 Ch04 腫瘤、內外 Ch03 癌症、兒科 Ch18 兒童癌症 → oncology(器官癌以 oncology 為主,器官系統放 alsoIn)
 # 不屬於單一疾病或藥物的護理內容(疼痛、臨終、治療副作用照護)→ 類型 care(護理主題)
-# 微免 → infection(Ch02、Ch03 免疫 → hematology-immunology)
+# 微免 → infection(Ch02、Ch03 免疫 → hematology-immunology);病原體本身(菌、病毒、黴菌、寄生蟲)→ 類型 pathogen
+# 感控、無菌技術、消毒滅菌、預防接種、法定傳染病 → 類型 care(system 依國考科目:基護 fundamentals、社區 community)
 # 內外 Ch04 → fluid-acid-base;Ch05 → infection;其餘依器官;Ch03 癌症、Ch06 急重症 → 依主要器官或 fundamentals
 # 產科 → reproductive;兒科依器官(Ch02 生長發展 → fundamentals)
 # 精神 → psychiatric;社區 → community;基護 → fundamentals;行政 → administration
@@ -41,6 +42,7 @@ types:
   drug: 藥物
   lab: 檢驗
   care: 護理主題
+  pathogen: 病原體
 
 domains:
   # ===== 器官系統(對應題庫 block: 十大系統) =====
@@ -156,10 +158,16 @@ domains:
     name: 感染
     kind: cross
     groups:
-      - { id: antibiotics, name: 抗生素, type: drug, drugTags: [抗生素用藥, 抗感染用藥, 泌尿道感染用藥] }
+      - { id: antibiotics, name: 抗生素, type: drug, drugTags: [抗生素用藥, 抗感染用藥, 抗感染藥物, 泌尿道感染用藥] }
       - { id: antituberculars, name: 抗結核藥, type: drug, drugTags: [抗結核病用藥, 抗結核用藥, 抗結核藥物] }
-      - { id: antivirals, name: 抗病毒藥, type: drug, drugTags: [抗病毒用藥, 抗病毒藥物] }
+      - { id: antivirals, name: 抗病毒藥, type: drug, drugTags: [抗病毒用藥, 抗病毒藥物, 肝炎用藥] }
       - { id: antifungals, name: 抗黴菌藥, type: drug, drugTags: [抗真菌用藥, 抗黴菌用藥, 抗黴菌藥物] }
+      - { id: antiparasitics, name: 抗寄生蟲藥, type: drug, drugTags: [抗寄生蟲用藥, 抗瘧疾用藥] }
+      - { id: vaccines, name: 疫苗, type: drug, drugTags: [疫苗製劑, 疫苗, 疫苗用藥, 疫苗與免疫製劑] }
+      - { id: infection-labs, name: 感染相關檢驗, type: lab }
+      - { id: bacteria, name: 細菌, type: pathogen }
+      - { id: viruses, name: 病毒, type: pathogen }
+      - { id: fungi-parasites, name: 真菌與寄生蟲, type: pathogen }
 
   # ===== 科目(分不出器官系統時使用) =====
   - id: fundamentals

@@ -9,6 +9,7 @@
 //   [[slug]] / [[slug#id|文字]] 行內連結
 //   ![[slug#id]]              嵌入(獨立一行),內容只存在來源頁
 //   ::questions{tag="" keyword="" drug="" group="" ids="" limit=""}   相關考題
+//   frontmatter pathogens: [{ id, name, names }]   病原體索引(id 必須是本頁的標題 id)
 //
 // 分類(system / alsoIn / group)只能用 content/knowledge/taxonomy.yml 裡定義的 id。
 //   :::tip[標題] ... :::       提示框(tip / exam / warning / note)
@@ -35,7 +36,7 @@ const TAXONOMY_FILE = path.join(CONTENT_DIR, "taxonomy.yml");
 // 與 /learn 底下的靜態路由撞名的 slug
 const RESERVED_SLUGS = new Set(["system"]);
 
-const CATEGORIES = ["disease", "physiology", "drug", "lab", "care"];
+const CATEGORIES = ["disease", "physiology", "drug", "lab", "care", "pathogen"];
 const CALLOUTS = ["tip", "exam", "warning", "note"];
 const SUMMARY_LEN = 110;
 const BLOCK_SEPARATORS = new Set(["p", "li", "tr", "td", "th", "k-callout"]);
@@ -302,9 +303,46 @@ function parseArticle(file) {
     reviewed: data.reviewed === true,
     updated: data.updated ? String(data.updated) : null,
     references: data.references ?? [],
+    pathogens: data.pathogens ?? [],
     intro: toHast(intro),
     sections: roots,
   };
+}
+
+// ---------- 病原體索引 ----------
+
+// 名稱 → 病原體錨點。讓題目頁能用題幹比對出「相關病原體」並連過去,
+// 所以 id 與名稱都必須全站唯一,且 id 一定要是該頁真的存在的標題。
+function buildPathogenIndex(articles) {
+  const entries = [];
+  const seenIds = new Map();
+  const seenNames = new Map();
+  for (const a of articles) {
+    if (!Array.isArray(a.pathogens)) {
+      fail(a.file, "pathogens 必須是陣列");
+      continue;
+    }
+    const ids = new Set();
+    walkSections(a.sections, (s) => ids.add(s.id));
+    for (const p of a.pathogens) {
+      if (!p || !p.id || !p.name) {
+        fail(a.file, "pathogens 每一項都要有 id 與 name");
+        continue;
+      }
+      if (!ids.has(p.id)) fail(a.file, `pathogens 的 id「${p.id}」不是本頁的標題 id`);
+      if (seenIds.has(p.id)) fail(a.file, `病原體 id「${p.id}」與 ${seenIds.get(p.id)} 重複`);
+      seenIds.set(p.id, a.slug);
+      const names = [p.name, ...(p.names ?? [])].map((n) => String(n).trim()).filter(Boolean);
+      for (const n of names) {
+        const key = n.toLowerCase();
+        const owner = seenNames.get(key);
+        if (owner && owner !== p.id) fail(a.file, `病原體名稱「${n}」同時屬於 ${owner} 與 ${p.id}`);
+        seenNames.set(key, p.id);
+      }
+      entries.push({ id: p.id, name: p.name, names: [...new Set(names)], target: `${a.slug}#${p.id}` });
+    }
+  }
+  return entries;
 }
 
 // ---------- 全域索引 ----------
@@ -661,6 +699,7 @@ function main() {
   const index = buildIndex(articles);
   const credits = checkImages(articles);
   const slots = articles.flatMap((a) => assignQuestionSlots(a, taxonomy));
+  const pathogenIndex = buildPathogenIndex(articles);
 
   const outputs = articles.map((a) => ({
     slug: a.slug,
@@ -699,6 +738,7 @@ function main() {
   fs.writeFileSync(path.join(OUT_DIR, "credits.json"), JSON.stringify(credits));
   fs.writeFileSync(path.join(OUT_DIR, "taxonomy.json"), JSON.stringify(taxonomyOutput(taxonomy, articles)));
   fs.writeFileSync(path.join(OUT_DIR, "search.json"), JSON.stringify(searchOutput(articles, index)));
+  fs.writeFileSync(path.join(OUT_DIR, "pathogen-index.json"), JSON.stringify(pathogenIndex, null, 2) + "\n");
 
   const mapFile = path.join(OUT_DIR, "question-map.json");
   if (!fs.existsSync(mapFile)) fs.writeFileSync(mapFile, "{}\n");

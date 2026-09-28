@@ -8,11 +8,24 @@
 | `physiology/` | 生理機轉 |
 | `drug/` | 藥物(以藥物類別為單位) |
 | `lab/` | 檢驗 |
+| `care/` | 護理主題(不屬於單一疾病或藥物的護理內容) |
+| `pathogen/` | 病原體(微生物、寄生蟲) |
 
 新頁面請從 `_templates/` 複製對應範本開始(`_` 開頭的資料夾不會被建置)。
 
 改完內容後執行 `pnpm knowledge:build`(`pnpm dev` / `pnpm build` 會自動執行)。
 壞連結、重複 id、嵌入循環、缺圖片出處、分類 id 不存在都會讓建置失敗並列出位置。
+
+## 在網頁上編輯(本機 dev mode)
+
+在本機執行 `pnpm dev`(或 `node scripts/build-knowledge.mjs && next dev`)，以 admin 登入並開啟 dev mode 後，知識頁會出現：
+
+- 頁首「編輯頁面標題」：改 frontmatter 的 `title`、`subtitle`。
+- 每個段落標題旁的鉛筆：改標題文字，`{#id}` 會自動保留(別頁的連結不會斷)。
+- 每個段落開頭「編輯內文」：改該段自己的 Markdown 原文(不含子段落)；不能在這裡新增標題。
+
+儲存時會直接改寫 `content/knowledge/**/<slug>.md` 並重跑建置；建置失敗(壞連結、YAML 錯誤)會自動還原原檔並顯示錯誤。
+正式站不會出現這些按鈕(`NODE_ENV` 不是 development 時 server action 一律拒絕)，改完記得用 git 提交 .md。
 
 ## 分類(system / alsoIn / group)
 
@@ -46,6 +59,21 @@ references:
     url: https://www.endo-dm.org.tw/
 ---
 ```
+
+### 病原體索引(`pathogens`)
+
+提到病原體的頁面(pathogen 頁,以及把病原寫在疾病頁的情況,例如結核菌寫在 `tuberculosis`)要登記病原體,
+讓題目頁能用名稱比對出「相關病原體」並連到該段落:
+
+```yaml
+pathogens:
+  - id: staphylococcus-aureus          # 必須是本頁某個標題的 {#id},全站唯一,發布後不要改
+    name: 金黃色葡萄球菌
+    names: [Staphylococcus aureus, S. aureus, 金黃葡萄球菌, MRSA]
+```
+
+- id 用學名小寫加 `-`。名稱(不分大小寫)全站唯一,重複時建置會失敗。
+- 建置輸出 `src/data/knowledge/pathogen-index.json`(名稱 → `slug#id`)。
 
 ## 階層與知識點
 

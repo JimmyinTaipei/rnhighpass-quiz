@@ -7,6 +7,7 @@ import { ChevronRight, FilePenLine, Stethoscope } from "lucide-react";
 import { ArticleShell } from "@/components/learn/ArticleShell";
 import { ArticleToc } from "@/components/learn/ArticleToc";
 import { renderHast, SectionView, type RenderContext } from "@/components/learn/ArticleRenderer";
+import { ArticleMetaEditor } from "@/components/learn/KnowledgeEditors";
 import { SeeAlso, type CitingArticle } from "@/components/learn/SeeAlso";
 import { buildToc } from "@/components/learn/toc";
 import {
@@ -121,6 +122,8 @@ export default async function LearnArticlePage(props: PageProps<"/learn/[slug]">
     diseaseTagsByQuestion,
     isLoggedIn: !!user,
     devMode,
+    // 知識庫來源是 repo 的 .md，只有本機 next dev 能改(見 knowledge-edit-actions.ts)
+    editSlug: devMode && process.env.NODE_ENV === "development" ? slug : null,
     embedDepth: 0,
   };
 
@@ -167,6 +170,11 @@ export default async function LearnArticlePage(props: PageProps<"/learn/[slug]">
         <header className="mb-6">
           <h1 className="text-3xl font-bold text-deep">{article.title}</h1>
           {article.subtitle && <p className="mt-1 text-lg text-body">{article.subtitle}</p>}
+          {ctx.editSlug && (
+            <div className="mt-2">
+              <ArticleMetaEditor key={`${article.title}|${article.subtitle ?? ""}`} slug={ctx.editSlug} />
+            </div>
+          )}
           {summaryBits.length > 0 && (
             <p className="mt-2 text-sm text-muted">
               {summaryBits.join("・")}・

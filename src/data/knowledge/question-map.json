@@ -998,6 +998,12 @@
       "108-2_BM_054"
     ]
   },
+  "aminoglycosides#exam-points": {
+    "auto": []
+  },
+  "antibiotics-overview#exam-points": {
+    "auto": []
+  },
   "anticoagulants#exam-points": {
     "auto": [
       "115-2_MS_035",
@@ -1141,6 +1147,9 @@
   "beta-blockers#exam-points": {
     "auto": []
   },
+  "beta-lactams#exam-points": {
+    "auto": []
+  },
   "calcium-channel-blockers#exam-points": {
     "auto": [
       "114-3_BM_032",
@@ -1200,12 +1209,18 @@
       "112-3_BM_033"
     ]
   },
+  "fluoroquinolones-sulfonamides#exam-points": {
+    "auto": []
+  },
   "glp1-receptor-agonists#exam-points": {
     "auto": [
       "112-2_BM_020",
       "109-1_MS_067",
       "108-1_BM_063"
     ]
+  },
+  "glycopeptides#exam-points": {
+    "auto": []
   },
   "immunosuppressants#exam-points": {
     "auto": []
@@ -1424,6 +1439,9 @@
       "109-2_FA_046"
     ]
   },
+  "protein-synthesis-inhibitors#exam-points": {
+    "auto": []
+  },
   "sglt2-inhibitors#exam-points": {
     "auto": [
       "113-1_BM_038",
@@ -1530,6 +1548,9 @@
   "complete-blood-count#exam-points": {
     "auto": []
   },
+  "culture-and-sensitivity#exam-points": {
+    "auto": []
+  },
   "ecg#rv-infarction": {
     "auto": [
       "114-3_MS_034",
@@ -1580,6 +1601,9 @@
       "109-2_PC_079",
       "108-1_MS_069"
     ]
+  },
+  "inflammatory-markers#exam-points": {
+    "auto": []
   },
   "ketones#questions": {
     "auto": [
@@ -1837,6 +1861,9 @@
       "114-3_MS_043",
       "113-2_BM_015"
     ]
+  },
+  "microbial-pathogenesis#exam-points": {
+    "auto": []
   },
   "neoplasia#exam-points": {
     "auto": []
