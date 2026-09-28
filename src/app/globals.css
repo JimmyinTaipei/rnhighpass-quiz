@@ -122,6 +122,81 @@ body {
   .table-card[data-flash] { animation: none; box-shadow: 0 0 0 3px var(--subj-accent); }
 }
 
+/* ===== 首頁背景(HomeBackdrop) =====
+   御守主題：天空漸層、遠山、祥雲、青海波、漂浮封面，配色同社群圖(多保命/social)。
+   圖層順序照 DOM：遠山 → 祥雲 → 封面 → 海浪(封面下半會沉在海裡)。
+   動畫一律只動 transform，減少動態偏好時全部停住。 */
+.home-backdrop {
+  position: absolute; inset: 0; z-index: -10;
+  overflow: hidden; pointer-events: none;
+  background: linear-gradient(180deg, #D7E1F2 0%, #EEF3FB 55%, #F7F9FD 100%);
+  animation: hb-fade 900ms ease-out;
+  --hb-wave-h: 140px;
+}
+@media (min-width: 768px) { .home-backdrop { --hb-wave-h: 190px; } }
+
+.hb-mountains {
+  position: absolute; left: 0; right: 0; width: 100%;
+  bottom: calc(var(--hb-wave-h) - 36px);
+  height: 130px;
+}
+@media (min-width: 768px) { .hb-mountains { height: 220px; } }
+
+.hb-cloud { position: absolute; height: auto; animation: hb-drift var(--cd, 22s) ease-in-out infinite alternate; }
+.hb-cloud--a { width: 150px; top: 7%; right: -30px; --cd: 24s; --dx: -56px; }
+.hb-cloud--b { width: 110px; top: 30%; left: -24px; --cd: 28s; --dx: 48px; opacity: .85; }
+.hb-cloud--c { width: 90px; top: 50%; right: 12%; --cd: 20s; --dx: -40px; opacity: .7; display: none; }
+@media (min-width: 768px) {
+  .hb-cloud--a { width: 220px; top: 9%; right: 3%; }
+  .hb-cloud--b { width: 160px; top: 24%; left: 2%; }
+  .hb-cloud--c { display: block; top: 56%; right: 24%; width: 110px; }
+}
+
+.hb-cover {
+  position: absolute; display: none;
+  transform: rotate(var(--r));
+  animation: hb-float var(--d) ease-in-out var(--delay) infinite;
+  will-change: transform;
+}
+.hb-cover img {
+  display: block; width: 100%; height: auto;
+  border-radius: 8px; border: 3px solid #fff;
+  box-shadow: 0 10px 24px rgba(31, 68, 116, .22);
+}
+/* 平板：左右各一本，縮小貼邊 */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hb-cover[data-tier="md"] { display: block; width: 84px !important; }
+}
+@media (min-width: 1024px) { .hb-cover { display: block; } }
+/* 手機：兩本從左右下角的海裡探出頭(蓋掉桌機的 inline 位置) */
+@media (max-width: 767px) {
+  .hb-cover[data-peek] {
+    display: block; width: 74px !important;
+    top: auto !important; bottom: calc(var(--hb-wave-h) - 48px);
+  }
+  .hb-cover[data-peek="left"] { left: 10px !important; --r: -10deg; }
+  .hb-cover[data-peek="right"] { right: 10px !important; --r: 9deg; }
+}
+
+.hb-waves {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  height: var(--hb-wave-h); overflow: hidden;
+}
+.hb-waves-svg { display: block; animation: hb-wave 16s linear infinite; }
+
+@keyframes hb-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes hb-drift { from { transform: translateX(0); } to { transform: translateX(var(--dx, 48px)); } }
+@keyframes hb-float {
+  0%, 100% { transform: translateY(0) rotate(var(--r)); }
+  50%      { transform: translateY(-12px) rotate(calc(var(--r) + 2.5deg)); }
+}
+/* 一次平移一個青海波週期(120px)，無縫循環 */
+@keyframes hb-wave { from { transform: translateX(0); } to { transform: translateX(-120px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .home-backdrop, .home-backdrop * { animation: none !important; }
+}
+
 /* 列印(匯出 PDF)：白底、保留表格底色 */
 @media print {
   body {
