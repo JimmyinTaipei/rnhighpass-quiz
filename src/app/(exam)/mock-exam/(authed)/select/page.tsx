@@ -106,7 +106,7 @@ export default async function MockExamHome(props: PageProps<"/mock-exam/select">
         </div>
       </section>
 
-      <section className="rounded-card border border-card-border bg-card p-5 text-sm leading-relaxed text-body">
+      <section className="rounded-card border border-card-border bg-card px-5 py-4 text-base leading-relaxed text-body">
         <h2 className="mb-2 font-bold text-deep">作答說明</h2>
         <ol className="list-decimal space-y-1 pl-5">
           <li>

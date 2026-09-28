@@ -48,11 +48,17 @@ export function ScoreOptionsScreen({ onConfirm }: { onConfirm: (showScore: boole
           ))}
         </div>
 
+        <div className="mt-5 space-y-1 text-center text-sm">
+          <p className="font-bold text-incorrect">提醒您！</p>
+          <p className="text-body">*1. 如果選擇不顯示考試成績，事後不得要求提供！</p>
+          <p className="text-body">*2. 正式考試成績將以考選部榜示後之成績通知為準！</p>
+        </div>
+
         <NoteBox className="mt-5">
           <p>實際流程請以考試當天為主。</p>
           <ul className="mt-1 list-disc space-y-1 pl-5">
             <li>
-              <b>每節考試</b>：考完一科就公布該科成績。適合心臟夠強大，或很需要知道分數以便拉分的人。
+              <b>每節考試</b>：考完一科就公布該科成績。適合心臟夠強大，或很需要知道分數以便拉分的同學。
             </li>
             <li>
               <b>當次考試</b>：當天所有科目考完才公布成績。注意：兩個都選「否」，就要等到放榜才知道成績。
@@ -60,12 +66,6 @@ export function ScoreOptionsScreen({ onConfirm }: { onConfirm: (showScore: boole
             <li>只有第一節考試可以選擇是否公布成績，需要在一開始就決定。</li>
           </ul>
         </NoteBox>
-
-        <div className="mt-6 space-y-1 text-center text-sm">
-          <p className="font-bold text-incorrect">提醒您！</p>
-          <p className="text-body">*1. 如果選擇不顯示考試成績，事後不得要求提供！</p>
-          <p className="text-body">*2. 正式考試成績將以考選部榜示後之成績通知為準！</p>
-        </div>
 
         <div className="mt-6 flex justify-center">
           <button

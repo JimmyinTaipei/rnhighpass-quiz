@@ -54,13 +54,13 @@ export function WaitingScreen({
       <header className="overflow-hidden rounded-card border border-card-border bg-card shadow-sm">
         <div className="bg-light px-4 py-2 text-sm font-bold text-deep">考試名稱：{title}</div>
         <div className="grid gap-x-6 gap-y-1 px-4 py-3 text-sm text-body sm:grid-cols-3">
+          <p>類科：護理師</p>
           <p>姓名：{MOCK_CANDIDATE.name}</p>
           <p>應試座位：{MOCK_CANDIDATE.seat}</p>
-          <p>類科：護理師</p>
-          <p>
+          <p>科目：{subjectName}</p>
+          <p className="sm:col-span-2">
             座號：<span className="font-bold text-incorrect">{MOCK_CANDIDATE.seatNo}</span>
           </p>
-          <p className="sm:col-span-2">科目：{subjectName}</p>
           <p className="sm:col-span-3">
             離開考時間：
             <span className="font-mono text-base font-bold tabular-nums text-incorrect" aria-live="off">
