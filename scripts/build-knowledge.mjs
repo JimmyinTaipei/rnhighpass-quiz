@@ -8,12 +8,13 @@
 //   ## 標題 {#id}             每個標題都是可被連結的知識點
 //   [[slug]] / [[slug#id|文字]] 行內連結
 //   ![[slug#id]]              嵌入(獨立一行),內容只存在來源頁
+//   ![[slug#id|basics]]       嵌入成「想打好基礎」(預設收合);![[slug|basics]] 整頁引用時顯示該頁 frontmatter summary
 //   ::questions{tag="" keyword="" drug="" group="" ids="" limit=""}   相關考題
 //   frontmatter pathogens: [{ id, name, names }]   病原體索引(id 必須是本頁的標題 id)
 //
 // 分類(system / alsoIn / group)只能用 content/knowledge/taxonomy.yml 裡定義的 id。
 // 章節對照(chapters)只能寫 src/data/knowledge/chapter-outline.json 裡有的 H2 / 可獨立的 H3。
-//   :::tip[標題] ... :::       提示框(tip / exam / warning / note)
+//   :::tip[標題] ... :::       提示框(tip / exam / warning / note / basics;basics = 只有本頁用到的「想打好基礎」)
 
 import fs from "node:fs";
 import path from "node:path";
@@ -44,12 +45,21 @@ const RESERVED_SLUGS = new Set(["system"]);
 
 // procedure(護理技術)先預留:還沒有任何頁面,但資料夾 content/knowledge/procedure/ 可直接使用
 const CATEGORIES = ["disease", "physiology", "drug", "lab", "care", "pathogen", "admin", "procedure"];
-const CALLOUTS = ["tip", "exam", "warning", "note"];
+const CALLOUTS = ["tip", "exam", "warning", "note", "basics"];
 const SUMMARY_LEN = 110;
+// frontmatter summary:3–5 行。上限以 5 行估(內文寬度一行約 40 字),不比卡片顯示的 3–4 行嚴
+const SUMMARY_MAX_LINES = 5;
+const SUMMARY_MAX_CHARS = 220;
+// 被 |basics 引用的段落超過約 8 行(一行約 40 字)時警告:收合區塊太長就失去「補一下背景」的意義
+const BASICS_SECTION_WARN_CHARS = 320;
+const EMBED_MODES = ["basics"];
 const BLOCK_SEPARATORS = new Set(["p", "li", "tr", "td", "th", "k-callout"]);
 
 const errors = [];
 const fail = (file, msg) => errors.push(`${path.relative(ROOT, file)}: ${msg}`);
+// 警告:不讓建置失敗,只印出來提醒
+const warnings = [];
+const warn = (file, msg) => warnings.push(`${path.relative(ROOT, file)}: ${msg}`);
 
 // ---------- 編號:一、 → (一) → 1. → (1) ----------
 
@@ -107,7 +117,9 @@ function preprocessWikilinks(body, slug) {
     return (t.startsWith("#") ? slug + t : t).replace(/"/g, "&quot;");
   };
   return body
-    .replace(/^[ \t]*!\[\[([^\]]+?)\]\][ \t]*$/gm, (_, t) => `::kembed{target="${esc(t)}"}`)
+    .replace(/^[ \t]*!\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\][ \t]*$/gm, (_, t, mode) =>
+      `::kembed{target="${esc(t)}"${mode ? ` mode="${mode.trim()}"` : ""}}`,
+    )
     // 緊接在冒號後的連結(「重點:[[x]]」)會變成 ::klink,被當成 leaf directive;
     // 中間補一個零寬空白隔開
     .replace(/:(?=\[\[)/g, ":\u200B")
@@ -135,7 +147,9 @@ function transformDirectives(file, tree) {
     }
     if (node.type === "leafDirective") {
       if (node.name === "kembed") {
-        node.data = { hName: "k-embed", hProperties: { target: node.attributes?.target ?? "" } };
+        const mode = node.attributes?.mode ?? "";
+        if (mode && !EMBED_MODES.includes(mode)) fail(file, `嵌入的顯示模式「${mode}」不存在(可用:${EMBED_MODES.join("、")})`);
+        node.data = { hName: "k-embed", hProperties: { target: node.attributes?.target ?? "", mode } };
       } else if (node.name === "questions") {
         const a = node.attributes ?? {};
         node.data = {
@@ -310,6 +324,7 @@ function parseArticle(file) {
     alsoIn: data.alsoIn ?? [],
     group: data.group ?? null,
     related: data.related ?? null,
+    summaryText: typeof data.summary === "string" ? data.summary.trim() : null,
     field: data.field ?? null,
     method: data.method ?? null,
     peds: data.peds === true,
@@ -386,16 +401,41 @@ function plainText(hast) {
   return hastToString(clone).replace(/\s+/g, " ").replace(/\s*;/g, ";").replace(/([。;:!?])\s*;/g, "$1").replace(/^[;\s]+|[;\s]+$/g, "").trim();
 }
 
+/** 去掉引用括號,例如「(來源:ADA Standards of Care 2026 第 9 章)」 */
+function stripCitations(text) {
+  return text
+    .replace(/\s*[(（]\s*(?:來源|資料來源|參考)\s*[:：][^()（）]*[)）]/g, "")
+    .replace(/\s+([。;;,，])/g, "$1")
+    .trim();
+}
+
+/** 預覽摘要:去引用、在 SUMMARY_LEN 內最後一個句末截斷(找不到合適的句末才硬切加「…」) */
 function summarize(hast) {
-  const text = plainText(hast);
-  return text.length > SUMMARY_LEN ? text.slice(0, SUMMARY_LEN) + "…" : text;
+  const text = stripCitations(plainText(hast));
+  if (text.length <= SUMMARY_LEN) return text;
+  const head = text.slice(0, SUMMARY_LEN + 1);
+  let cut = -1;
+  for (const m of head.matchAll(/[。!?！？;；]/g)) cut = m.index;
+  if (cut >= SUMMARY_LEN * 0.4) return head.slice(0, cut + 1).replace(/[;；]$/, "。");
+  return text.slice(0, SUMMARY_LEN) + "…";
+}
+
+/** frontmatter summary:3–5 行、不超過 SUMMARY_MAX_CHARS 字 */
+function validateSummary(articles) {
+  for (const a of articles) {
+    if (a.summaryText == null) continue;
+    const lines = a.summaryText.split("\n").filter((l) => l.trim());
+    if (lines.length > SUMMARY_MAX_LINES) fail(a.file, `summary 最多 ${SUMMARY_MAX_LINES} 行(目前 ${lines.length} 行)`);
+    if (a.summaryText.length > SUMMARY_MAX_CHARS)
+      fail(a.file, `summary 最多 ${SUMMARY_MAX_CHARS} 字(目前 ${a.summaryText.length} 字),細節請寫在內文`);
+  }
 }
 
 const PEDS_TITLE = /小兒|兒童|嬰幼兒|新生兒/;
 const PEDS_TITLE_EXCLUDE = /小兒麻痺/;
 
 function buildIndex(articles) {
-  const index = { articles: {}, sections: {}, links: {}, backlinks: {}, embeds: {}, related: {}, relatedExplicit: [], usedBy: {} };
+  const index = { articles: {}, sections: {}, links: {}, backlinks: {}, embeds: {}, related: {}, relatedExplicit: [], usedBy: {}, basicsUsedBy: {} };
   const bySlug = new Map(articles.map((a) => [a.slug, a]));
 
   for (const a of articles) {
@@ -468,12 +508,23 @@ function buildIndex(articles) {
           const back = (index.backlinks[target] ??= []);
           if (!back.includes(fromKey)) back.push(fromKey);
         } else if (node.tagName === "k-embed") {
+          const basics = node.properties?.mode === "basics";
           if (!target.includes("#")) {
-            fail(a.file, `嵌入必須指到段落:![[${target}]]`);
+            // 整頁嵌入只用在「想打好基礎」:顯示該頁 frontmatter summary
+            const t = bySlug.get(target);
+            if (!basics) fail(a.file, `嵌入必須指到段落:![[${target}]](整頁引用請寫 ![[${target}|basics]])`);
+            else if (!t) fail(a.file, `壞嵌入 ![[${target}|basics]](在 ${fromKey})`);
+            else if (t.category !== "physiology") fail(a.file, `![[${target}|basics]] 整頁引用的基礎頁必須是解剖&生理頁(physiology/)`);
+            else if (!t.summaryText) fail(t.file, `被 ![[${target}|basics]] 整頁引用的基礎頁必須有 frontmatter summary`);
+            else (index.embeds[target] ??= []).push(fromKey);
           } else if (!index.sections[target]) {
             fail(a.file, `壞嵌入 ![[${target}]](在 ${fromKey})`);
           } else {
             (index.embeds[target] ??= []).push(fromKey);
+          }
+          if (basics && bySlug.has(target.split("#")[0])) {
+            const used = (index.basicsUsedBy[target.split("#")[0]] ??= []);
+            if (!used.includes(a.slug)) used.push(a.slug);
           }
         }
       });
@@ -483,8 +534,11 @@ function buildIndex(articles) {
   }
 
   // 摘要要等 [[連結]] 的文字補好才算,否則會出現「見 。」這種空洞
+  // 頁面摘要:frontmatter summary → intro → 第一個段落(藥理頁多半沒有 intro,直接從「重點摘要」開始)
   for (const a of articles) {
-    index.articles[a.slug].summary = summarize(a.intro);
+    index.articles[a.slug].summary =
+      a.summaryText ?? (summarize(a.intro) || (a.sections[0] ? summarize(a.sections[0].content) : ""));
+    index.articles[a.slug].hasSummary = !!a.summaryText;
     walkSections(a.sections, (s) => {
       // 只有標題沒有內文的段落(例如只放子標題),摘要改用第一個子段落
       const firstChild = s.children[0];
@@ -592,6 +646,20 @@ function collectEmbeds(article, articlesBySlug, index) {
       fail(article.file, `嵌入循環:${[...stack, target].join(" → ")}`);
       return;
     }
+    if (!target.includes("#")) {
+      // 整頁引用(![[slug|basics]]):只帶 frontmatter summary
+      const page = articlesBySlug.get(target);
+      if (page && !result[target]) {
+        result[target] = {
+          target,
+          articleTitle: page.title,
+          section: null,
+          summary: page.summaryText ?? "",
+          embedCount: index.embeds[target]?.length ?? 0,
+        };
+      }
+      return;
+    }
     const section = findSection(articlesBySlug, target);
     if (!section) return;
     if (!result[target]) {
@@ -617,6 +685,27 @@ function collectEmbeds(article, articlesBySlug, index) {
   });
   for (const t of top) visitTarget(t, []);
   return result;
+}
+
+/** 被 |basics 引用的段落太長(超過約 8 行)時警告 */
+function checkBasicsLength(articles, articlesBySlug) {
+  const sectionText = (s) => plainText(s.content) + s.children.map(sectionText).join("");
+  const seen = new Set();
+  for (const a of articles) {
+    const check = (hast) =>
+      visit(hast, "element", (n) => {
+        if (n.tagName !== "k-embed" || n.properties.mode !== "basics") return;
+        const target = n.properties.target;
+        if (!target.includes("#") || seen.has(target)) return;
+        seen.add(target);
+        const section = findSection(articlesBySlug, target);
+        const len = section ? stripCitations(sectionText(section)).length : 0;
+        if (len > BASICS_SECTION_WARN_CHARS)
+          warn(a.file, `![[${target}|basics]] 引用的段落約 ${len} 字(超過 ${BASICS_SECTION_WARN_CHARS} 字、約 8 行),考慮縮短或改用整頁 summary`);
+      });
+    check(a.intro);
+    walkSections(a.sections, (s) => check(s.content));
+  }
 }
 
 // ---------- 考題欄位 ----------
@@ -1012,10 +1101,12 @@ function main() {
   validateClassification(articles, taxonomy);
   validateField(articles);
   validateLabMethod(articles);
+  validateSummary(articles);
   const outline = loadChapterOutline();
   validateChapterRefs(articles, outline);
   const articlesBySlug = new Map(articles.map((a) => [a.slug, a]));
   const index = buildIndex(articles);
+  checkBasicsLength(articles, articlesBySlug);
   const credits = checkImages(articles);
   const slots = articles.flatMap((a) => assignQuestionSlots(a, taxonomy));
   const pathogenIndex = buildPathogenIndex(articles);
@@ -1084,6 +1175,7 @@ function main() {
   ].join("\n");
   fs.writeFileSync(path.join(OUT_DIR, "loaders.ts"), loader);
 
+  for (const w of warnings) console.warn("  ⚠ " + w);
   const linkCount = Object.values(index.links).reduce((n, l) => n + l.length, 0);
   const embedCount = Object.values(index.embeds).reduce((n, l) => n + l.length, 0);
   console.log(

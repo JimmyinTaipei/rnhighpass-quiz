@@ -1,8 +1,12 @@
 import Link from "next/link";
 import { ExamPill } from "@/components/learn/ExamPill";
+import { ExpandableSummary } from "@/components/learn/ExpandableSummary";
 import type { ArticleSummary } from "@/lib/knowledge/types";
 
-/** 文章卡(疾病頁的相關卡片用):保留摘要,題數在右上膠囊。note 用來標主系統名稱 */
+/**
+ * 文章卡(疾病頁的相關藥理、檢驗等):標題連到該頁、右上題數膠囊、
+ * summary 預設 3–4 行可展開(不離開頁面)。note 用來標主系統名稱
+ */
 export function ArticleCard({
   article,
   note,
@@ -17,22 +21,23 @@ export function ArticleCard({
   showDraft?: boolean;
 }) {
   return (
-    <Link
-      href={`/learn/${article.slug}`}
-      className="block rounded-card bg-card p-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow duration-150 hover:shadow-md active:opacity-70 motion-reduce:transition-none"
-    >
+    <div className="rounded-card bg-card p-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)]">
       <div className="flex items-start gap-2">
-        <p className="min-w-0 flex-1 text-[17px] font-semibold text-strong">{article.title}</p>
+        <Link href={`/learn/${article.slug}`} className="group min-w-0 flex-1">
+          <span className="block text-[17px] font-semibold text-strong group-hover:text-deep group-hover:underline">
+            {article.title}
+          </span>
+          {article.subtitle && <span className="block text-sm text-body">{article.subtitle}</span>}
+        </Link>
         <ExamPill count={article.examCount} />
       </div>
-      {article.subtitle && <p className="text-sm text-body">{article.subtitle}</p>}
-      {article.summary && <p className="mt-2 line-clamp-2 text-sm text-muted">{article.summary}</p>}
+      {article.summary && <ExpandableSummary text={article.summary} />}
       <p className="mt-2 text-xs text-muted">
         {article.sectionCount} 個知識點
         {showDraft && !article.reviewed && "・草稿"}
         {groupLabel && `・${groupLabel}`}
         {note && `・${note}`}
       </p>
-    </Link>
+    </div>
   );
 }

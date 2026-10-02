@@ -41,7 +41,10 @@ export interface KnowledgeSection {
 export interface KnowledgeEmbed {
   target: string;
   articleTitle: string;
-  section: KnowledgeSection;
+  /** 段落嵌入的內容;整頁引用(![[slug|basics]])時為 null,改用 summary */
+  section: KnowledgeSection | null;
+  /** 整頁引用時:該頁 frontmatter summary */
+  summary?: string;
   /** 全站有幾處嵌入這一段 */
   embedCount: number;
 }
@@ -117,7 +120,10 @@ export interface ArticleSummary {
   pedsSections?: { id: string; title: string }[];
   reviewed: boolean;
   chapters: string[];
+  /** 預覽摘要:frontmatter summary → intro → 第一個段落(去引用、句末截斷) */
   summary: string;
+  /** summary 是否來自 frontmatter(完整,可展開);否則是自動截取 */
+  hasSummary?: boolean;
   sectionCount: number;
   /** 相關考題數(article-questions.json)，由 getArticleSummaries 合併進來 */
   examCount?: number;
@@ -149,6 +155,8 @@ export interface KnowledgeIndex {
   relatedExplicit: string[];
   /** 檢驗/藥物/病原體/生理頁 → 用到它的疾病頁(related 的反向,自動產生) */
   usedBy: Record<string, string[]>;
+  /** 基礎頁 slug → 以 |basics 引用它(或它的段落)的頁面 */
+  basicsUsedBy: Record<string, string[]>;
 }
 
 export type RelatedKey = "lab" | "drug" | "pathogen" | "physiology";

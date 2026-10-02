@@ -5,6 +5,9 @@ title: 生理主題中文名
 subtitle: English name
 aliases: []
 dzTags: []
+summary: |                          # 選填,3–5 行(最多 220 字):預覽卡、疾病頁卡片、|basics 整頁引用會用
+  一句話講它是什麼、做什麼。
+  國考最常考的一兩點。
 system: cardiovascular              # 必填
 alsoIn: []
 chapters: []                        # 選填：對到的分章題本段落，見 README「章節對照」

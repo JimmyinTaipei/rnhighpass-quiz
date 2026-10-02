@@ -157,6 +157,11 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
     alsoIn.length > 0 && `也見於 ${alsoIn.map((d) => d.name).join("、")}`,
   ].filter((x): x is string => !!x);
 
+  // 基礎頁:哪些頁面以 |basics 引用了這頁或它的段落
+  const basicsUsers = (knowledgeIndex.basicsUsedBy[slug] ?? [])
+    .map((s) => knowledgeIndex.articles[s])
+    .filter((a) => a !== undefined);
+
   const isPanel = variant === "panel";
 
   return (
@@ -232,6 +237,19 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
           ))}
         </div>
         {examStats && <ExamPresence slug={slug} stats={examStats} links={topicLinks} />}
+        {basicsUsers.length > 0 && (
+          <p className="mt-3 text-sm text-muted">
+            這頁是以下頁面的「想打好基礎」：
+            {basicsUsers.map((a, i) => (
+              <span key={a.slug}>
+                {i > 0 && "、"}
+                <Link href={`/learn/${a.slug}`} className="font-medium text-accent hover:text-deep hover:underline">
+                  {a.title}
+                </Link>
+              </span>
+            ))}
+          </p>
+        )}
       </header>
 
       <div className="kb-prose">{renderHast(article.intro, ctx)}</div>

@@ -10,6 +10,7 @@ import type { KnowledgeArticle, KnowledgeSection, KnowledgePreview } from "@/lib
 import type { ComparisonTable, Question } from "@/lib/types";
 import { CollapsibleSection } from "./CollapsibleSection";
 import { SectionBodyEditor, SectionTitleEditor } from "./KnowledgeEditors";
+import { BasicsBox } from "./BasicsBox";
 import { EmbedBadge } from "./EmbedBadge";
 import { KnowledgeLink } from "./KnowledgeLink";
 
@@ -37,9 +38,11 @@ const CALLOUT_STYLE = {
   note: { icon: Info, label: "補充", cls: "border-card-border bg-page" },
 } as const;
 
-type CalloutKind = keyof typeof CALLOUT_STYLE;
+/** basics(只有本頁用到的「想打好基礎」)不是提示框外觀,改由 BasicsBox 呈現 */
+type CalloutKind = keyof typeof CALLOUT_STYLE | "basics";
 
 function Callout({ kind, title, children }: { kind: CalloutKind; title?: string; children: React.ReactNode }) {
+  if (kind === "basics") return <BasicsBox title={title || "背景補充"}>{children}</BasicsBox>;
   const style = CALLOUT_STYLE[kind] ?? CALLOUT_STYLE.note;
   const Icon = style.icon;
   return (
@@ -119,10 +122,25 @@ function RelatedQuestions({ qkey, ctx }: { qkey: string; ctx: RenderContext }) {
   );
 }
 
-function EmbeddedBlock({ target, ctx }: { target: string; ctx: RenderContext }) {
+function EmbeddedBlock({ target, mode, ctx }: { target: string; mode?: string; ctx: RenderContext }) {
   const embed = ctx.article.embeds[target];
   const preview = previewFor(target);
   if (!embed || !preview) return null;
+
+  // 「想打好基礎」:段落引用顯示整段,整頁引用顯示該頁 summary;預設收合
+  if (mode === "basics") {
+    const inner: RenderContext = { ...ctx, embedDepth: ctx.embedDepth + 1 };
+    return (
+      <BasicsBox title={embed.section?.title ?? embed.articleTitle} fullHref={hrefFor(target)}>
+        {embed.section && ctx.embedDepth < MAX_EMBED_DEPTH ? (
+          <EmbeddedSection section={embed.section} ctx={inner} root />
+        ) : (
+          <p className="whitespace-pre-line">{embed.summary || preview.summary}</p>
+        )}
+      </BasicsBox>
+    );
+  }
+  if (!embed.section) return null;
 
   if (ctx.embedDepth >= MAX_EMBED_DEPTH) {
     return (
@@ -173,7 +191,9 @@ export function renderHast(root: Root, ctx: RenderContext) {
         {children}
       </KnowledgeLink>
     ),
-    "k-embed": ({ target }: { target: string }) => <EmbeddedBlock target={target} ctx={ctx} />,
+    "k-embed": ({ target, mode }: { target: string; mode?: string }) => (
+      <EmbeddedBlock target={target} mode={mode} ctx={ctx} />
+    ),
     "k-questions": ({ qkey }: { qkey: string }) => <RelatedQuestions qkey={qkey} ctx={ctx} />,
     "k-callout": ({ kind, title, children }: { kind: CalloutKind; title?: string; children: React.ReactNode }) => (
       <Callout kind={kind} title={title}>

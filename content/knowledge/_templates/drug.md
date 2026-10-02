@@ -5,6 +5,9 @@ title: 藥物類別中文名
 subtitle: English class name(字尾 -xxx)
 aliases: [代表藥英文名, 商品名, 縮寫]
 dzTags: [主要適應症的 dz 標籤]
+summary: |                          # 選填,3–5 行(最多 220 字):預覽卡、疾病頁卡片、|basics 整頁引用會用
+  一句話講它是什麼、做什麼。
+  國考最常考的一兩點。
 system: cardiovascular              # 必填
 alsoIn: []                          # 選填
 group: antihypertensives            # 選填但建議填：taxonomy.yml 該 system 底下 type: drug 的群組
