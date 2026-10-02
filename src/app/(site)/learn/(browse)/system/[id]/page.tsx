@@ -5,6 +5,8 @@ import { ChevronRight } from "lucide-react";
 import { isAdmin } from "@/lib/auth";
 import { ArticleRow, ArticleRowList } from "@/components/learn/ArticleRow";
 import { ComingSoon } from "@/components/learn/ComingSoon";
+import { OrganGroups } from "@/components/learn/OrganGroups";
+import { groupByOrgan } from "@/lib/knowledge/grouping";
 import { articlesInDomain, byExamCount, getDomain, relatedCountsFor } from "@/lib/knowledge";
 import { DOMAIN_KIND_LABELS, SYSTEM_TYPE_CHIPS, type ArticleSummary } from "@/lib/knowledge/types";
 
@@ -47,6 +49,7 @@ const chipClass = (active: boolean) =>
  * 系統:上方類型 chips(?type=)與右上排序切換(預設依類型分區塊;?sort=exam 混成一個清單)。
  *   區塊與 chips 順序同 SYSTEM_TYPE_CHIPS;沒有頁面的類型隱藏;病原體不出現。
  * 護理專業:沒有 chips、切換與區塊標題,單一清單依題數排序。
+ * 跨系統(腫瘤、感染):依器官系統分組(lib/knowledge/grouping.ts),沒有 chips 與切換。
  * 區塊內與混合清單都依相關題數由高到低、同題數依名稱(byExamCount)。
  */
 export default async function LearnSystemPage(props: PageProps<"/learn/system/[id]">) {
@@ -55,6 +58,32 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
   if (!domain) notFound();
   const showDraft = await isAdmin();
   const { primary, also } = articlesInDomain(id);
+
+  // 跨系統(腫瘤、感染):不顯示 chips 與切換,依器官系統分組,病原體也列出
+  if (domain.kind === "cross") {
+    const all = [...primary, ...also];
+    const mainNote = (a: ArticleSummary) =>
+      a.system === id ? undefined : `主分類:${getDomain(a.system)?.name ?? a.system}`;
+    return (
+      <div>
+        <nav aria-label="麵包屑" className="mb-1 flex items-center gap-1 text-sm text-muted">
+          <Link href="/learn" className="hover:text-deep">
+            知識庫
+          </Link>
+          <ChevronRight size={14} />
+          <span>{DOMAIN_KIND_LABELS.cross}</span>
+        </nav>
+        <h1 className="mb-1 text-3xl font-bold text-strong">{domain.name}</h1>
+        {domain.description && <p className="mb-1 text-sm text-body">{domain.description}</p>}
+        <p className="mb-6 text-sm text-muted">{primary.length} 篇</p>
+        {all.length === 0 ? (
+          <ComingSoon description={domain.description} />
+        ) : (
+          <OrganGroups groups={groupByOrgan(all, byExamCount, mainNote)} showDraft={showDraft} />
+        )}
+      </div>
+    );
+  }
 
   const items: Item[] = [
     ...primary.map((article) => ({ article })),
