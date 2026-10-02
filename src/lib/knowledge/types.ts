@@ -132,6 +132,19 @@ export const BROWSE_TYPES: { type: KnowledgeCategory; label: string }[] = [
   { type: "pathogen", label: "病原體" },
 ];
 
+/** 系統頁上方的類型篩選(?type=<key>)。疾病、護理主題、護理行政都併在「疾病與護理」 */
+export const SYSTEM_TYPE_CHIPS: { key: string; label: string; categories: KnowledgeCategory[] }[] = [
+  { key: "disease", label: "疾病與護理", categories: ["disease", "care", "admin"] },
+  { key: "lab", label: "檢驗", categories: ["lab"] },
+  { key: "drug", label: "藥理", categories: ["drug"] },
+  { key: "pathogen", label: "病原體", categories: ["pathogen"] },
+  { key: "physiology", label: "生理機轉", categories: ["physiology"] },
+];
+
+export function chipKeyOf(category: KnowledgeCategory): string {
+  return SYSTEM_TYPE_CHIPS.find((c) => c.categories.includes(category))?.key ?? "disease";
+}
+
 export const DOMAIN_KIND_LABELS: Record<DomainKind, string> = {
   system: "系統",
   nursing: "護理專業",

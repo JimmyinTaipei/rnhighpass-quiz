@@ -2,7 +2,16 @@ import Link from "next/link";
 import type { ArticleSummary } from "@/lib/knowledge/types";
 
 /** 知識庫清單用的文章卡。note 用來標「也見於」時的主系統名稱 */
-export function ArticleCard({ article, note }: { article: ArticleSummary; note?: string }) {
+export function ArticleCard({
+  article,
+  note,
+  groupLabel,
+}: {
+  article: ArticleSummary;
+  note?: string;
+  /** 群組名稱(例:抗高血壓藥),顯示成小標籤 */
+  groupLabel?: string;
+}) {
   return (
     <Link
       href={`/learn/${article.slug}`}
@@ -17,6 +26,7 @@ export function ArticleCard({ article, note }: { article: ArticleSummary; note?:
         )}
         {article.sectionCount} 個知識點
         {!article.reviewed && "・草稿"}
+        {groupLabel && `・${groupLabel}`}
         {note && `・${note}`}
       </p>
     </Link>

@@ -3,15 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { ArticleCard } from "@/components/learn/ArticleCard";
-import { articlesInDomain, byExamCount, getDomain } from "@/lib/knowledge";
-import {
-  CATEGORY_LABELS,
-  DOMAIN_KIND_LABELS,
-  type ArticleSummary,
-  type KnowledgeCategory,
-} from "@/lib/knowledge/types";
-
-const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "admin", "physiology", "pathogen", "drug", "lab"];
+import { articlesInDomain, byExamCount, getDomain, getGroup, HIGH_FREQ_MIN } from "@/lib/knowledge";
+import { DOMAIN_KIND_LABELS, SYSTEM_TYPE_CHIPS, type ArticleSummary } from "@/lib/knowledge/types";
 
 export async function generateMetadata(props: PageProps<"/learn/system/[id]">): Promise<Metadata> {
   const { id } = await props.params;
@@ -19,29 +12,56 @@ export async function generateMetadata(props: PageProps<"/learn/system/[id]">): 
   return { title: d ? `${d.name}|知識庫` : "知識庫" };
 }
 
-const byTitle = (a: ArticleSummary, b: ArticleSummary) => a.title.localeCompare(b.title, "zh-Hant");
-
 function CardGrid({ articles, note }: { articles: ArticleSummary[]; note?: (a: ArticleSummary) => string }) {
   return (
     <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
       {articles.map((a) => (
-        <ArticleCard key={a.slug} article={a} note={note?.(a)} />
+        <ArticleCard key={a.slug} article={a} note={note?.(a)} groupLabel={getGroup(a.group)?.name} />
       ))}
     </div>
   );
 }
 
+function SectionHeading({ title, count }: { title: string; count: number }) {
+  return (
+    <h2 className="mb-3 border-b border-card-border pb-1 text-xl font-bold text-deep">
+      {title} <span className="text-sm font-normal text-muted">{count}</span>
+    </h2>
+  );
+}
+
 /**
- * 一個分類(器官系統 / 跨系統 / 科目)底下的所有頁面:
- * 依類型(疾病、生理、藥物、檢驗)分區,區內再依 taxonomy.yml 的群組分組。
+ * 一個系統(或護理專業科目)底下的所有頁面。
+ * 上方用 ?type= 篩選類型(與「跨系統速查」同一份資料,只做 filter);
+ * 清單依相關國考題數排序,題數 ≥ HIGH_FREQ_MIN 的列為「高頻」,其餘為「其他」。
+ * 沒有任何一篇達標(或全部達標)時不分段,直接單一清單。
  */
 export default async function LearnSystemPage(props: PageProps<"/learn/system/[id]">) {
   const [{ id }, searchParams] = await Promise.all([props.params, props.searchParams]);
   const domain = getDomain(id);
   if (!domain) notFound();
   const { primary, also } = articlesInDomain(id);
-  const byExam = searchParams.sort === "exam";
-  const order = byExam ? byExamCount : byTitle;
+
+  // 護理專業(基護、行政、社區)全是護理主題與行政頁,不套用類型篩選
+  const showChips = domain.kind === "system";
+  const rawType = typeof searchParams.type === "string" ? searchParams.type : null;
+  const chip = showChips ? SYSTEM_TYPE_CHIPS.find((c) => c.key === rawType) ?? null : null;
+  const inChip = (a: ArticleSummary) => !chip || chip.categories.includes(a.category);
+  const list = primary.filter(inChip).sort(byExamCount);
+  const alsoList = also.filter(inChip).sort(byExamCount);
+
+  const chipOptions = [
+    { key: null, label: "全部", n: primary.length + also.length },
+    ...SYSTEM_TYPE_CHIPS.map((c) => ({
+      key: c.key,
+      label: c.label,
+      n: [...primary, ...also].filter((a) => c.categories.includes(a.category)).length,
+    })).filter((c) => c.n > 0),
+  ];
+
+  const high = list.filter((a) => (a.examCount ?? 0) >= HIGH_FREQ_MIN);
+  const rest = list.filter((a) => (a.examCount ?? 0) < HIGH_FREQ_MIN);
+  const split = high.length > 0 && rest.length > 0;
 
   return (
     <div>
@@ -53,67 +73,55 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
         <span>{DOMAIN_KIND_LABELS[domain.kind]}</span>
       </nav>
       <h1 className="mb-1 text-3xl font-bold text-strong">{domain.name}</h1>
-      <div className="mb-6 flex flex-wrap items-center justify-between gap-2">
-        <p className="text-sm text-muted">
-          {primary.length} 篇{also.length > 0 && `・另有 ${also.length} 篇也與此相關`}
-        </p>
-        <nav aria-label="排序" className="segmented">
-          {[
-            { label: "依名稱", href: `/learn/system/${id}`, active: !byExam },
-            { label: "依考題數", href: `/learn/system/${id}?sort=exam`, active: byExam },
-          ].map((o) => (
-            <Link
-              key={o.label}
-              href={o.href}
-              scroll={false}
-              aria-current={o.active ? "true" : undefined}
-            >
-              {o.label}
-            </Link>
-          ))}
+      <p className="mb-4 text-sm text-muted">{primary.length} 篇</p>
+
+      {showChips && chipOptions.length > 2 && (
+        <nav aria-label="類型篩選" className="mb-6 flex flex-wrap gap-2 text-sm">
+          {chipOptions.map((o) => {
+            const active = (chip?.key ?? null) === o.key;
+            return (
+              <Link
+                key={o.label}
+                href={o.key ? `/learn/system/${id}?type=${o.key}` : `/learn/system/${id}`}
+                scroll={false}
+                aria-current={active ? "true" : undefined}
+                className={`rounded-full px-3 py-1 ${
+                  active ? "bg-deep text-on-accent" : "border border-card-border bg-card text-body hover:bg-surface-hover"
+                }`}
+              >
+                {o.label}
+              </Link>
+            );
+          })}
         </nav>
-      </div>
+      )}
 
       {primary.length === 0 && also.length === 0 && (
         <p className="rounded-card bg-card p-6 text-sm text-muted">此分類的內容即將加入。</p>
       )}
 
-      {TYPE_ORDER.map((type) => {
-        const list = primary.filter((a) => a.category === type);
-        if (list.length === 0) return null;
-        const groups = domain.groups.filter((g) => g.type === type);
-        const grouped = groups
-          .map((g) => ({ g, items: list.filter((a) => a.group === g.id).sort(order) }))
-          .filter((x) => x.items.length > 0);
-        const ungrouped = list.filter((a) => !a.group || !groups.some((g) => g.id === a.group)).sort(order);
-
-        return (
-          <section key={type} className="mb-8">
-            <h2 className="mb-3 border-b border-card-border pb-1 text-xl font-bold text-deep">
-              {CATEGORY_LABELS[type]} <span className="text-sm font-normal text-muted">{list.length}</span>
-            </h2>
-            {ungrouped.length > 0 && <CardGrid articles={ungrouped} />}
-            {grouped.map(({ g, items }) => (
-              <div key={g.id} id={`group-${g.id}`} className="mt-4 scroll-mt-4 first:mt-0">
-                <h3 className="mb-2 text-base font-semibold text-strong">
-                  {g.name} <span className="text-sm font-normal text-muted">{items.length}</span>
-                </h3>
-                <CardGrid articles={items} />
-              </div>
-            ))}
+      {list.length > 0 &&
+        (split ? (
+          <>
+            <section className="mb-8">
+              <SectionHeading title="高頻" count={high.length} />
+              <CardGrid articles={high} />
+            </section>
+            <section className="mb-8">
+              <SectionHeading title="其他" count={rest.length} />
+              <CardGrid articles={rest} />
+            </section>
+          </>
+        ) : (
+          <section className="mb-8">
+            <CardGrid articles={list} />
           </section>
-        );
-      })}
+        ))}
 
-      {also.length > 0 && (
+      {alsoList.length > 0 && (
         <section className="mb-8">
-          <h2 className="mb-3 border-b border-card-border pb-1 text-xl font-bold text-deep">
-            也與此相關 <span className="text-sm font-normal text-muted">{also.length}</span>
-          </h2>
-          <CardGrid
-            articles={[...also].sort(order)}
-            note={(a) => `主分類:${getDomain(a.system)?.name ?? a.system}`}
-          />
+          <SectionHeading title="也與此相關" count={alsoList.length} />
+          <CardGrid articles={alsoList} note={(a) => `主分類:${getDomain(a.system)?.name ?? a.system}`} />
         </section>
       )}
     </div>

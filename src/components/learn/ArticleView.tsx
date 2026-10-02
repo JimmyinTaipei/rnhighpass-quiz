@@ -26,6 +26,7 @@ import {
 import { examStatsFor } from "@/lib/knowledge/exam";
 import {
   CATEGORY_LABELS,
+  chipKeyOf,
   type KnowledgeArticle,
   type KnowledgePreview,
   type KnowledgeSection,
@@ -175,7 +176,7 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
         {group && domain && (
           <>
             <ChevronRight size={14} />
-            <Link href={`/learn/system/${domain.id}#group-${group.id}`} className="hover:text-deep">
+            <Link href={`/learn/system/${domain.id}?type=${chipKeyOf(article.category)}`} className="hover:text-deep">
               {group.name}
             </Link>
           </>
