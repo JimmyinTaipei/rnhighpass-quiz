@@ -4,6 +4,10 @@ subtitle: Diabetes mellitus(DM)
 aliases: [DM, 第一型糖尿病, 第二型糖尿病, 妊娠糖尿病, T1DM, T2DM, GDM]
 dzTags: [糖尿病, 第一型糖尿病, 第二型糖尿病, 妊娠糖尿病, 糖尿病酮酸中毒]
 system: endocrine
+related:
+  lab: [blood-glucose, hba1c, ogtt, ketones, uacr, abg]
+  drug: [insulin, metformin, sulfonylureas, meglitinides, alpha-glucosidase-inhibitors, tzd, dpp4-inhibitors, glp1-receptor-agonists, sglt2-inhibitors]
+  physiology: [glucose-homeostasis]
 chapters:
   - 病理-Ch16內分泌系統疾病 > 胰島與腎上腺疾病
   - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥

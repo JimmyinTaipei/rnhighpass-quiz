@@ -13,12 +13,14 @@ import type {
   KnowledgeIndex,
   KnowledgePreview,
   KnowledgeCategory,
+  RelatedKey,
   SearchEntry,
   SearchResult,
   Taxonomy,
   TaxonomyDomain,
   TaxonomyGroup,
 } from "./types";
+import { RELATED_GROUPS } from "./types";
 
 // 索引只在 server 端使用:整包含所有段落摘要,不該送到瀏覽器。
 // 需要的預覽資料由 page 挑出來、以 props 傳給 client component。
@@ -154,6 +156,32 @@ export function articlesInDomain(id: string): { primary: ArticleSummary[]; also:
     primary: all.filter((a) => a.system === id),
     also: all.filter((a) => a.alsoIn.includes(id)),
   };
+}
+
+/** 疾病頁的相關頁面,依 RELATED_GROUPS 分組(空組不回傳),組內題數多的在前 */
+export function relatedGroupsFor(slug: string): { key: RelatedKey; label: string; articles: ArticleSummary[] }[] {
+  const rel = knowledgeIndex.related[slug];
+  if (!rel) return [];
+  return RELATED_GROUPS.map(({ key, label }) => ({
+    key,
+    label,
+    articles: (rel[key] ?? [])
+      .map((s) => summaryBySlug(s))
+      .filter((a): a is ArticleSummary => !!a)
+      .sort(byExamCount),
+  })).filter((g) => g.articles.length > 0);
+}
+
+/** 檢驗/藥物/病原體/生理頁:用到它的疾病(related 的反向) */
+export function usedByFor(slug: string): ArticleSummary[] {
+  return (knowledgeIndex.usedBy[slug] ?? [])
+    .map((s) => summaryBySlug(s))
+    .filter((a): a is ArticleSummary => !!a)
+    .sort(byExamCount);
+}
+
+function summaryBySlug(slug: string): ArticleSummary | undefined {
+  return getArticleSummaries().find((a) => a.slug === slug);
 }
 
 /** 某類型(藥物、檢驗…)的所有頁面,跨所有分類 */

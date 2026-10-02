@@ -308,6 +308,7 @@ function parseArticle(file) {
     system: data.system ?? null,
     alsoIn: data.alsoIn ?? [],
     group: data.group ?? null,
+    related: data.related ?? null,
     reviewed: data.reviewed === true,
     updated: data.updated ? String(data.updated) : null,
     references: data.references ?? [],
@@ -386,7 +387,7 @@ function summarize(hast) {
 }
 
 function buildIndex(articles) {
-  const index = { articles: {}, sections: {}, links: {}, backlinks: {}, embeds: {} };
+  const index = { articles: {}, sections: {}, links: {}, backlinks: {}, embeds: {}, related: {}, usedBy: {} };
   const bySlug = new Map(articles.map((a) => [a.slug, a]));
 
   for (const a of articles) {
@@ -471,7 +472,68 @@ function buildIndex(articles) {
     });
   }
 
+  resolveRelated(articles, index, bySlug);
+
   return index;
+}
+
+// ---------- 關聯(疾病 → 檢驗/藥物/病原體/生理) ----------
+
+// frontmatter 的 related: { lab: [slug], drug: [...], pathogen: [...], physiology: [...] } 只寫在疾病頁;
+// 鍵就是目標頁的類型,build 時驗證 slug 存在且類型相符。反向(用於哪些疾病)由這裡自動產生。
+// 還沒寫 related 的疾病頁,暫時由內文 [[連結]] 依目標類型推導(遷移期 fallback,不改內容)。
+const RELATED_KEYS = ["lab", "drug", "pathogen", "physiology"];
+
+function resolveRelated(articles, index, bySlug) {
+  for (const a of articles) {
+    if (a.related == null) continue;
+    if (a.category !== "disease") {
+      fail(a.file, "related 只能寫在疾病頁(disease/)");
+      continue;
+    }
+    if (typeof a.related !== "object" || Array.isArray(a.related)) {
+      fail(a.file, "related 必須是物件:{ lab: [...], drug: [...], pathogen: [...], physiology: [...] }");
+      continue;
+    }
+    for (const [key, slugs] of Object.entries(a.related)) {
+      if (!RELATED_KEYS.includes(key)) {
+        fail(a.file, `related 的鍵「${key}」不存在(可用:${RELATED_KEYS.join("、")})`);
+        continue;
+      }
+      if (!Array.isArray(slugs)) {
+        fail(a.file, `related.${key} 必須是 slug 清單`);
+        continue;
+      }
+      for (const s of slugs) {
+        const target = bySlug.get(s);
+        if (!target) fail(a.file, `related.${key}「${s}」不存在`);
+        else if (target.category !== key) fail(a.file, `related.${key}「${s}」是 ${target.category} 頁,不是 ${key}`);
+      }
+    }
+  }
+
+  for (const a of articles) {
+    if (a.category !== "disease") continue;
+    const resolved = Object.fromEntries(RELATED_KEYS.map((k) => [k, []]));
+    if (a.related) {
+      for (const k of RELATED_KEYS) resolved[k] = [...new Set(a.related[k] ?? [])].filter((s) => bySlug.has(s));
+    } else {
+      const targets = new Set();
+      for (const [from, outs] of Object.entries(index.links)) {
+        if (from.split("#")[0] !== a.slug) continue;
+        for (const to of outs) targets.add(to.split("#")[0]);
+      }
+      for (const s of targets) {
+        const cat = bySlug.get(s)?.category;
+        if (s !== a.slug && RELATED_KEYS.includes(cat)) resolved[cat].push(s);
+      }
+    }
+    if (RELATED_KEYS.every((k) => resolved[k].length === 0)) continue;
+    index.related[a.slug] = resolved;
+    for (const k of RELATED_KEYS) {
+      for (const s of resolved[k]) (index.usedBy[s] ??= []).push(a.slug);
+    }
+  }
 }
 
 // ---------- 嵌入:打包來源段落 + 循環檢查 ----------

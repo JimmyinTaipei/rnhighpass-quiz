@@ -5,6 +5,7 @@ import { ChevronRight, FilePenLine, Stethoscope } from "lucide-react";
 import { ExamPresence } from "@/components/learn/ExamPresence";
 import { renderHast, SectionView, type RenderContext } from "@/components/learn/ArticleRenderer";
 import { ArticleMetaEditor } from "@/components/learn/KnowledgeEditors";
+import { RelatedCards } from "@/components/learn/RelatedCards";
 import { SeeAlso, type CitingArticle } from "@/components/learn/SeeAlso";
 import {
   getCurrentUser,
@@ -22,7 +23,9 @@ import {
   knowledgeIndex,
   previewFor,
   questionIdsFor,
+  relatedGroupsFor,
   siblingArticles,
+  usedByFor,
 } from "@/lib/knowledge";
 import { examStatsFor } from "@/lib/knowledge/exam";
 import {
@@ -231,6 +234,8 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
           <SectionView key={s.id} section={s} ctx={ctx} />
         ))}
       </div>
+
+      <RelatedCards groups={relatedGroupsFor(slug)} usedBy={usedByFor(slug)} showDraft={admin} />
 
       <SeeAlso citing={citing} group={group} siblings={siblings} alsoIn={alsoIn} />
 

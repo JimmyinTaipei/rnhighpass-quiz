@@ -42,6 +42,23 @@
 怎麼選、以及分章題本各章對應到哪個分類,寫在 `taxonomy.yml` 開頭的註解。
 現有分類放不下時,**先在 taxonomy.yml 新增**再使用。
 
+## 關聯(related)
+
+疾病頁用 `related` 記錄它連到哪些檢驗、藥物、病原體、生理機轉頁,**只寫在疾病頁、只寫一次**:
+
+```yaml
+related:
+  lab: [hba1c, ogtt]
+  drug: [insulin, metformin]
+  physiology: [glucose-homeostasis]
+```
+
+鍵就是目標頁的類型(`lab`/`drug`/`pathogen`/`physiology`),slug 不存在或類型不符時建置會失敗。
+疾病頁會顯示「相關檢驗/藥物/病原體/生理機轉」分組卡片;被連到的頁面會**自動**出現「用於哪些疾病」,不必在檢驗或藥物頁另外寫。
+
+還沒寫 `related` 的疾病頁,暫時由內文的 `[[連結]]` 依目標類型推導(遷移期 fallback)。一旦寫了 `related` 就只用它。
+候選清單用 `node scripts/suggest-related.mjs` 產生到 `docs/related-review/<系統>.md`,審閱後再抄進 frontmatter。
+
 ## 章節對照(chapters)
 
 `chapters` 列出這篇文章對到分章題本的哪些段落。章節頁會用它把段落連到知識頁，知識頁也會反過來顯示「出現在哪些章節」與題數。

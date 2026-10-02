@@ -7,6 +7,7 @@ aliases: [縮寫, 別名, 英文名]
 dzTags: [題庫的 dz 標籤,可多個]   # 見 Tag_List_and_Statistics.md;疾病標籤頁會反向連到本頁
 system: cardiovascular              # 必填，taxonomy.yml 的 domain id
 alsoIn: []                          # 選填，次分類
+related: {}                         # 選填，相關頁面(只寫在疾病頁):{ lab: [slug], drug: [slug], pathogen: [slug], physiology: [slug] }
 chapters: []                        # 選填：對到的分章題本段落，見 README「章節對照」
 reviewed: false
 updated: 2026-01-01

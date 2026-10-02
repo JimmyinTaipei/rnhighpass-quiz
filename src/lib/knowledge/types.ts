@@ -99,7 +99,21 @@ export interface KnowledgeIndex {
   backlinks: Record<string, string[]>;
   /** 被嵌入的段落 → 嵌入它的段落 */
   embeds: Record<string, string[]>;
+  /** 疾病頁 → 相關的檢驗/藥物/病原體/生理頁(frontmatter related;沒寫的由內文連結推導) */
+  related: Record<string, Record<RelatedKey, string[]>>;
+  /** 檢驗/藥物/病原體/生理頁 → 用到它的疾病頁(related 的反向,自動產生) */
+  usedBy: Record<string, string[]>;
 }
+
+export type RelatedKey = "lab" | "drug" | "pathogen" | "physiology";
+
+/** 疾病頁「相關…」分組的順序與標題 */
+export const RELATED_GROUPS: { key: RelatedKey; label: string }[] = [
+  { key: "lab", label: "相關檢驗" },
+  { key: "drug", label: "相關藥物" },
+  { key: "pathogen", label: "相關病原體" },
+  { key: "physiology", label: "相關生理機轉" },
+];
 
 /** 滑過預覽卡與側欄共用的資料 */
 export interface KnowledgePreview {
