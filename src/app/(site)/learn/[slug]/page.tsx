@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleShell } from "@/components/learn/ArticleShell";
 import { ArticleToc } from "@/components/learn/ArticleToc";
+import { TrackVisit } from "@/components/learn/TrackVisit";
 import { ArticleView } from "@/components/learn/ArticleView";
 import { buildToc } from "@/components/learn/toc";
 import { knowledgeIndex, loadArticle } from "@/lib/knowledge";
@@ -21,6 +22,7 @@ export default async function LearnArticlePage(props: PageProps<"/learn/[slug]">
 
   return (
     <ArticleShell key={slug} slug={slug} toc={toc} tocPanel={<ArticleToc toc={toc} title={article.title} />}>
+      <TrackVisit slug={slug} />
       <ArticleView slug={slug} article={article} />
     </ArticleShell>
   );

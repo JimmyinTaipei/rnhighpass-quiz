@@ -3,26 +3,25 @@
 import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { ArrowRight, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import {
   CATEGORY_LABELS,
-  type ArticleSummary,
   type KnowledgeCategory,
   type SearchResult,
   type TaxonomyDomain,
 } from "@/lib/knowledge/types";
 
 const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "admin", "physiology", "pathogen", "drug", "lab"];
-const OVERVIEW_LIMIT = 12;
 const DEBOUNCE_MS = 250;
 
 interface LearnIndexProps {
-  articles: ArticleSummary[];
   domains: TaxonomyDomain[];
   /** 目前網址上的搜尋詞與類型;結果由 server 端全文搜尋算好傳進來 */
   query: string;
   type: KnowledgeCategory | null;
   results: SearchResult[];
+  /** 沒有搜尋詞時顯示的內容(繼續閱讀與各分類清單,由 server 端組好) */
+  children?: React.ReactNode;
 }
 
 function hrefOf(key: string) {
@@ -30,7 +29,7 @@ function hrefOf(key: string) {
   return id ? `/learn/${slug}#${id}` : `/learn/${slug}`;
 }
 
-export function LearnIndex({ articles = [], domains = [], query = "", type = null, results = [] }: LearnIndexProps) {
+export function LearnIndex({ domains = [], query = "", type = null, results = [], children }: LearnIndexProps) {
   const router = useRouter();
   const pathname = usePathname();
   const [q, setQ] = useState(query);
@@ -126,58 +125,7 @@ export function LearnIndex({ articles = [], domains = [], query = "", type = nul
           )}
         </>
       ) : (
-        <div className="mt-6 grid gap-4 md:grid-cols-2">
-          {domains
-            .filter((d) => d.primaryCount > 0)
-            .map((d) => {
-              // 最常考的主題排前面：總覽只列前 OVERVIEW_LIMIT 篇，先讀高頻的
-              const list = articles
-                .filter((a) => a.system === d.id)
-                .sort(
-                  (a, b) =>
-                    (b.examCount ?? 0) - (a.examCount ?? 0) ||
-                    TYPE_ORDER.indexOf(a.category) - TYPE_ORDER.indexOf(b.category) ||
-                    a.title.localeCompare(b.title, "zh-Hant"),
-                );
-              const counts = TYPE_ORDER.map((t) => [t, list.filter((a) => a.category === t).length] as const).filter(
-                ([, n]) => n > 0,
-              );
-              return (
-                <section key={d.id} className="rounded-card bg-card p-4 shadow-sm">
-                  <Link href={`/learn/system/${d.id}`} className="group flex items-center justify-between gap-2">
-                    <h2 className="text-lg font-semibold text-deep group-hover:underline">{d.name}</h2>
-                    <ArrowRight size={16} className="text-muted group-hover:text-deep" />
-                  </Link>
-                  <p className="mb-3 text-xs text-muted">
-                    {counts.map(([t, n]) => `${CATEGORY_LABELS[t]} ${n}`).join("・")}
-                    {d.alsoCount > 0 && `・另有 ${d.alsoCount} 篇相關`}
-                  </p>
-                  <ul className="flex flex-wrap gap-1.5">
-                    {list.slice(0, OVERVIEW_LIMIT).map((a) => (
-                      <li key={a.slug}>
-                        <Link
-                          href={`/learn/${a.slug}`}
-                          className="inline-flex items-baseline gap-1 rounded-full bg-fill px-3 py-1 text-sm text-strong transition-colors hover:bg-light hover:text-deep"
-                        >
-                          {a.title}
-                          {(a.examCount ?? 0) > 0 && (
-                            <span className="text-xs tabular-nums text-muted">{a.examCount}</span>
-                          )}
-                        </Link>
-                      </li>
-                    ))}
-                    {list.length > OVERVIEW_LIMIT && (
-                      <li>
-                        <Link href={`/learn/system/${d.id}`} className="inline-block px-2 py-0.5 text-sm text-accent">
-                          還有 {list.length - OVERVIEW_LIMIT} 篇 →
-                        </Link>
-                      </li>
-                    )}
-                  </ul>
-                </section>
-              );
-            })}
-        </div>
+        <div className="mt-6">{children}</div>
       )}
     </div>
   );

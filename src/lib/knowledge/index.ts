@@ -5,7 +5,7 @@ import questionSlotsJson from "@/data/knowledge/question-slots.json";
 import taxonomyJson from "@/data/knowledge/taxonomy.json";
 import searchJson from "@/data/knowledge/search.json";
 import { ARTICLE_LOADERS } from "@/data/knowledge/loaders";
-import { examCountFor } from "./exam";
+import { examCountFor, examStatsFor } from "./exam";
 import type {
   ArticleSummary,
   ImageCredit,
@@ -67,6 +67,16 @@ export function getArticleSummaries(): ArticleSummary[] {
 /** 考題多的在前，同題數依標題 */
 export const byExamCount = (a: ArticleSummary, b: ArticleSummary) =>
   (b.examCount ?? 0) - (a.examCount ?? 0) || a.title.localeCompare(b.title, "zh-Hant");
+
+/**
+ * 一組頁面的相關國考題數:各頁題號的聯集(同一題被多頁引用只算一次),
+ * 所以不等於各頁 examCount 相加。
+ */
+export function questionCountOf(articles: { slug: string }[]): number {
+  const ids = new Set<string>();
+  for (const a of articles) for (const id of examStatsFor(a.slug)?.ids ?? []) ids.add(id);
+  return ids.size;
+}
 
 /** 系統頁「高頻」的門檻:相關國考題數 ≥ 此值 */
 export const HIGH_FREQ_MIN = 20;
