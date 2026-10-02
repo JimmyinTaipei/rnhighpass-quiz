@@ -5,6 +5,12 @@ aliases: [頭頸癌, 頭頸部癌, Head and neck cancer, 鼻咽癌, Nasopharynge
 dzTags: [鼻咽癌, 口腔癌, 喉癌, 下咽癌, 舌癌, 頭頸癌, 口腔癌前病變, 唾液腺腫瘤]
 system: oncology
 alsoIn: [respiratory, digestive, community]
+chapters:
+  - 病理-Ch11呼吸系統疾病 > 上呼吸道疾病
+  - 病理-Ch12消化道疾病 > 口腔與唾液腺疾病
+  - 微免-Ch11病毒學總論與DNA病毒 > 疱疹病毒
+  - 內外-Ch17感覺機能與眼耳鼻喉科疾病 > 鼻科疾病與護理
+  - 內外-Ch17感覺機能與眼耳鼻喉科疾病 > 喉部疾病與護理
 reviewed: false
 updated: 2026-09-27
 references:

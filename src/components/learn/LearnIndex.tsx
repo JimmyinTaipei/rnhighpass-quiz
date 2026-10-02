@@ -12,7 +12,7 @@ import {
   type TaxonomyDomain,
 } from "@/lib/knowledge/types";
 
-const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "physiology", "pathogen", "drug", "lab"];
+const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "admin", "physiology", "pathogen", "drug", "lab"];
 const OVERVIEW_LIMIT = 12;
 const DEBOUNCE_MS = 250;
 
@@ -66,7 +66,7 @@ export function LearnIndex({ articles = [], domains = [], query = "", type = nul
           value={q}
           onChange={(e) => onChange(e.target.value)}
           placeholder="搜尋疾病、藥名、檢驗或知識點(如 Kussmaul、SGLT2、HbA1c)"
-          className="w-full rounded-btn border border-card-border bg-card py-2 pr-3 pl-9 text-sm text-strong outline-none focus:border-accent"
+          className="w-full rounded-btn bg-fill py-2 pr-3 pl-9 text-[15px] text-strong outline-none placeholder:text-muted focus:ring-2 focus:ring-accent/40"
         />
       </label>
 
@@ -79,7 +79,7 @@ export function LearnIndex({ articles = [], domains = [], query = "", type = nul
                 type="button"
                 onClick={() => navigate(q, t)}
                 className={`rounded-full px-3 py-1 ${
-                  type === t ? "bg-deep text-on-accent" : "border border-card-border bg-card text-body hover:border-accent"
+                  type === t ? "bg-deep text-on-accent" : "border border-card-border bg-card text-body hover:bg-surface-hover"
                 }`}
               >
                 {t ? CATEGORY_LABELS[t] : "全部"}
@@ -90,7 +90,7 @@ export function LearnIndex({ articles = [], domains = [], query = "", type = nul
             <p className="text-sm text-muted">找不到符合「{query}」的頁面或知識點。</p>
           ) : (
             <ul
-              className={`divide-y divide-card-border rounded-card border border-card-border bg-card transition-opacity ${
+              className={`divide-y divide-card-border rounded-card bg-card transition-opacity ${
                 pending ? "opacity-60" : ""
               }`}
             >
@@ -130,10 +130,12 @@ export function LearnIndex({ articles = [], domains = [], query = "", type = nul
           {domains
             .filter((d) => d.primaryCount > 0)
             .map((d) => {
+              // 最常考的主題排前面：總覽只列前 OVERVIEW_LIMIT 篇，先讀高頻的
               const list = articles
                 .filter((a) => a.system === d.id)
                 .sort(
                   (a, b) =>
+                    (b.examCount ?? 0) - (a.examCount ?? 0) ||
                     TYPE_ORDER.indexOf(a.category) - TYPE_ORDER.indexOf(b.category) ||
                     a.title.localeCompare(b.title, "zh-Hant"),
                 );
@@ -141,7 +143,7 @@ export function LearnIndex({ articles = [], domains = [], query = "", type = nul
                 ([, n]) => n > 0,
               );
               return (
-                <section key={d.id} className="rounded-card border border-card-border bg-card p-4 shadow-sm">
+                <section key={d.id} className="rounded-card bg-card p-4 shadow-sm">
                   <Link href={`/learn/system/${d.id}`} className="group flex items-center justify-between gap-2">
                     <h2 className="text-lg font-semibold text-deep group-hover:underline">{d.name}</h2>
                     <ArrowRight size={16} className="text-muted group-hover:text-deep" />
@@ -155,9 +157,12 @@ export function LearnIndex({ articles = [], domains = [], query = "", type = nul
                       <li key={a.slug}>
                         <Link
                           href={`/learn/${a.slug}`}
-                          className="inline-block rounded-full border border-card-border px-2.5 py-0.5 text-sm text-body hover:border-accent hover:text-deep"
+                          className="inline-flex items-baseline gap-1 rounded-full bg-fill px-3 py-1 text-sm text-strong transition-colors hover:bg-light hover:text-deep"
                         >
                           {a.title}
+                          {(a.examCount ?? 0) > 0 && (
+                            <span className="text-xs tabular-nums text-muted">{a.examCount}</span>
+                          )}
                         </Link>
                       </li>
                     ))}

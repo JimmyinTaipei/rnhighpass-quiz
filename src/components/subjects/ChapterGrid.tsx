@@ -54,7 +54,7 @@ export function ChapterGrid({
             <Link
               key={c.id}
               href={hrefFor(c)}
-              className="flex items-start justify-between gap-3 rounded-card border border-card-border border-l-4 border-l-subj-accent bg-card p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-subj-accent hover:shadow-md"
+              className="flex items-start justify-between gap-3 rounded-card bg-card p-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow hover:shadow-md active:opacity-70"
             >
               <span className="min-w-0">
                 <span className="block text-xs font-medium text-subj-accent">

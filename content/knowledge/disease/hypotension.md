@@ -4,6 +4,9 @@ subtitle: Hypotension
 aliases: [姿勢性低血壓, 姿位性低血壓, 姿態性低血壓, 直立性低血壓, Orthostatic hypotension, 仰臥低血壓症候群, Supine hypotensive syndrome]
 dzTags: [低血壓, 姿勢性低血壓, 姿位性低血壓, 姿態性低血壓, 仰臥低血壓症候群, 仰臥位低血壓綜合症]
 system: cardiovascular
+chapters:
+  - 基護-Ch10生命徵象 > 血壓
+  - 病理-Ch03代謝、體液與循環障礙 > 循環障礙 > 休克
 alsoIn: [fundamentals]
 reviewed: false
 updated: 2026-09-26
@@ -136,7 +139,7 @@ references:
 |---|---|---|
 | 低血容性 | 出血、脫水 | **晶體液**(生理食鹽水、乳酸林格氏液)以**大管徑周邊靜脈**快速輸注;出血者止血與輸血 |
 | 心因性 | 大面積心肌梗塞 | 謹慎給液體，[[inotropes|強心/升壓劑]]、緊急再灌流(見 [[coronary-artery-disease]]) |
-| 分布性 | 敗血性、過敏性、神經性 | 敗血症：1 小時內抽血液培養後給抗生素，低血壓或乳酸 ≥ 4 mmol/L 給晶體液 **30 mL/kg**(Surviving Sepsis 2021：前 3 小時內給完;1 小時組合照護：1 小時內開始)，目標 **MAP ≥ 65 mmHg**，仍低則給 **norepinephrine** |
+| 分布性 | 敗血性、過敏性、神經性 | 敗血症(詳見 [[sepsis]])：1 小時內抽血液培養後給抗生素，低血壓或乳酸 ≥ 4 mmol/L 給晶體液 **30 mL/kg**(Surviving Sepsis 2021：前 3 小時內給完;1 小時組合照護：1 小時內開始)，目標 **MAP ≥ 65 mmHg**，仍低則給 **norepinephrine** |
 | 阻塞性 | 心包膜填塞、張力性氣胸、肺栓塞 | 解除阻塞(心包膜穿刺、胸管、溶栓) |
 
 - **姿勢**：平躺並**被動抬高下肢**約 30–45°(增加回心血量);傳統的頭低腳高(Trendelenburg)會使腹腔臟器壓迫橫膈、影響呼吸，現行已不建議作為常規。

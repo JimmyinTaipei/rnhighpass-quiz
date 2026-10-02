@@ -5,6 +5,11 @@ aliases: [心電圖, ECG, EKG, 12 導程, 十二導程心電圖, 12-lead ECG, ST
 dzTags: [心肌梗塞, 急性冠心症, 心絞痛, 心律不整]
 system: cardiovascular
 group: cardiac-labs
+chapters:
+  - 藥理-Ch08心血管藥物 > 抗心律不整藥物
+  - 藥理-Ch08心血管藥物 > 抗心絞痛藥物
+  - 內外-Ch13心血管系統疾病 > 冠狀動脈疾病
+  - 內外-Ch13心血管系統疾病 > 心律不整疾病
 reviewed: false
 updated: 2026-09-25
 references:

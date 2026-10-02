@@ -5,6 +5,11 @@ aliases: [抗癌藥, 化療藥, 化學治療, Chemotherapy, 化學治療藥物, 
 dzTags: [化學治療藥物滲漏]
 system: oncology
 group: antineoplastics
+chapters:
+  - 藥理-Ch12癌症藥物與免疫製劑 > 治療腫瘤藥物
+  - 內外-Ch03癌症護理 > 癌症治療
+  - 內外-Ch03癌症護理 > 癌症常見問題照護
+  - 兒科-Ch18兒童癌症 > 癌症兒童及其家庭之護理
 alsoIn: [hematology-immunology]
 reviewed: false
 updated: 2026-09-27

@@ -8,6 +8,7 @@ dzTags: []
 system: renal                       # 必填
 alsoIn: []
 group: renal-labs                   # 選填：該 system 底下 type: lab 的群組
+chapters: []                        # 選填：對到的分章題本段落，見 README「章節對照」
 reviewed: false
 updated: 2026-01-01
 references:

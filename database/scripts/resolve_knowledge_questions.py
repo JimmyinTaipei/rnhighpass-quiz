@@ -9,6 +9,7 @@ src/data/knowledge/question-map.json。
 
 規則:
   tag     題庫 dz 標籤,用 | 分隔表示「任一」
+  adm     題庫 adm 標籤(護理行政:理論、公式、制度),用 | 分隔表示「任一」
   keyword 比對題幹與選項的正規表示式(Postgres ~*,不分大小寫)
   drug    題庫 drug 標籤(資料庫存為 tag_type='other'),任一符合;
           文章裡寫 group="..." 時,建置腳本已展開成 taxonomy.yml 登記的同義詞
@@ -36,9 +37,10 @@ DEFAULT_LIMIT = 8
 
 def resolve(cur, slot: dict) -> list[str]:
     tag = slot.get("tag")
+    adm = slot.get("adm")
     keyword = slot.get("keyword")
     drug = slot.get("drug")
-    if not tag and not keyword and not drug:
+    if not tag and not adm and not keyword and not drug:
         return []
 
     where = []
@@ -49,6 +51,12 @@ def resolve(cur, slot: dict) -> list[str]:
             "and t.tag_type = 'dz' and t.tag_value = any(%s))"
         )
         params.append([t.strip() for t in tag.split("|") if t.strip()])
+    if adm:
+        where.append(
+            "exists (select 1 from question_tags t where t.question_id = q.id "
+            "and t.tag_type = 'adm' and t.tag_value = any(%s))"
+        )
+        params.append([t.strip() for t in adm.split("|") if t.strip()])
     if drug:
         where.append(
             "exists (select 1 from question_tags t where t.question_id = q.id "

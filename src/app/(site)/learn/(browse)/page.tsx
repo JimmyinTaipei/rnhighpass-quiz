@@ -14,11 +14,11 @@ export default async function LearnPage(props: PageProps<"/learn">) {
 
   return (
     <div>
-      <h1 className="mb-1 flex items-center gap-2 text-3xl font-bold text-deep">
+      <h1 className="max-md:sr-only mb-1 flex items-center gap-2 text-3xl font-bold text-strong">
         <Library className="text-accent" /> 知識庫
       </h1>
       <p className="mb-6 text-sm text-body">
-        以知識點為單位整理、依器官系統分類,彼此互相連結;每段下方附相關國考題。目前為糖尿病示範版。
+        以知識點為單位整理、依器官系統分類，彼此互相連結。每個主題旁的數字是相關國考題數，最常考的排在前面。
       </p>
       <LearnIndex
         articles={getArticleSummaries()}

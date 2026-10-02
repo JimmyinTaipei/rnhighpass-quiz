@@ -6,6 +6,8 @@ dzTags: [高血脂, 高血脂症, 高脂血症, 高膽固醇血症, 高三酸甘
 system: cardiovascular
 alsoIn: [endocrine]
 group: cardiac-labs
+chapters:
+  - 社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護 > 糖尿病與代謝症候群
 reviewed: false
 updated: 2026-09-25
 references:

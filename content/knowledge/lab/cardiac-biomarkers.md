@@ -5,6 +5,9 @@ aliases: [心肌酵素, 心肌酶, 心肌旋轉蛋白, 心肌鈣蛋白, 肌鈣�
 dzTags: [心肌梗塞, 急性心肌梗塞, 冠狀動脈疾病, 心絞痛]
 system: cardiovascular
 group: cardiac-labs
+chapters:
+  - 藥理-Ch08心血管藥物 > 抗心絞痛藥物
+  - 內外-Ch13心血管系統疾病 > 冠狀動脈疾病
 reviewed: false
 updated: 2026-09-25
 references:

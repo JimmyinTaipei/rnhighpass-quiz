@@ -6,6 +6,9 @@ dzTags: [深層靜脈血栓, 深部靜脈栓塞, 肺栓塞, 心房纖維顫動, 
 system: hematology-immunology
 alsoIn: [cardiovascular]
 group: antithrombotics
+chapters:
+  - 藥理-Ch09血液系統藥物 > 抗血栓症藥物
+  - 內外-Ch09呼吸系統疾病 > 血管性病變
 reviewed: false
 updated: 2026-09-25
 references:

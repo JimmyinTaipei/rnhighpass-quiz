@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { ArticleCard } from "@/components/learn/ArticleCard";
-import { articlesInDomain, getDomain } from "@/lib/knowledge";
+import { articlesInDomain, byExamCount, getDomain } from "@/lib/knowledge";
 import {
   CATEGORY_LABELS,
   DOMAIN_KIND_LABELS,
@@ -11,7 +11,7 @@ import {
   type KnowledgeCategory,
 } from "@/lib/knowledge/types";
 
-const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "physiology", "pathogen", "drug", "lab"];
+const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "admin", "physiology", "pathogen", "drug", "lab"];
 
 export async function generateMetadata(props: PageProps<"/learn/system/[id]">): Promise<Metadata> {
   const { id } = await props.params;
@@ -36,10 +36,12 @@ function CardGrid({ articles, note }: { articles: ArticleSummary[]; note?: (a: A
  * 依類型(疾病、生理、藥物、檢驗)分區,區內再依 taxonomy.yml 的群組分組。
  */
 export default async function LearnSystemPage(props: PageProps<"/learn/system/[id]">) {
-  const { id } = await props.params;
+  const [{ id }, searchParams] = await Promise.all([props.params, props.searchParams]);
   const domain = getDomain(id);
   if (!domain) notFound();
   const { primary, also } = articlesInDomain(id);
+  const byExam = searchParams.sort === "exam";
+  const order = byExam ? byExamCount : byTitle;
 
   return (
     <div>
@@ -50,13 +52,30 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
         <ChevronRight size={14} />
         <span>{DOMAIN_KIND_LABELS[domain.kind]}</span>
       </nav>
-      <h1 className="mb-1 text-3xl font-bold text-deep">{domain.name}</h1>
-      <p className="mb-6 text-sm text-muted">
-        {primary.length} 篇{also.length > 0 && `・另有 ${also.length} 篇也與此相關`}
-      </p>
+      <h1 className="mb-1 text-3xl font-bold text-strong">{domain.name}</h1>
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-2">
+        <p className="text-sm text-muted">
+          {primary.length} 篇{also.length > 0 && `・另有 ${also.length} 篇也與此相關`}
+        </p>
+        <nav aria-label="排序" className="segmented">
+          {[
+            { label: "依名稱", href: `/learn/system/${id}`, active: !byExam },
+            { label: "依考題數", href: `/learn/system/${id}?sort=exam`, active: byExam },
+          ].map((o) => (
+            <Link
+              key={o.label}
+              href={o.href}
+              scroll={false}
+              aria-current={o.active ? "true" : undefined}
+            >
+              {o.label}
+            </Link>
+          ))}
+        </nav>
+      </div>
 
       {primary.length === 0 && also.length === 0 && (
-        <p className="rounded-card border border-card-border bg-card p-6 text-sm text-muted">此分類的內容即將加入。</p>
+        <p className="rounded-card bg-card p-6 text-sm text-muted">此分類的內容即將加入。</p>
       )}
 
       {TYPE_ORDER.map((type) => {
@@ -64,9 +83,9 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
         if (list.length === 0) return null;
         const groups = domain.groups.filter((g) => g.type === type);
         const grouped = groups
-          .map((g) => ({ g, items: list.filter((a) => a.group === g.id).sort(byTitle) }))
+          .map((g) => ({ g, items: list.filter((a) => a.group === g.id).sort(order) }))
           .filter((x) => x.items.length > 0);
-        const ungrouped = list.filter((a) => !a.group || !groups.some((g) => g.id === a.group)).sort(byTitle);
+        const ungrouped = list.filter((a) => !a.group || !groups.some((g) => g.id === a.group)).sort(order);
 
         return (
           <section key={type} className="mb-8">
@@ -92,7 +111,7 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
             也與此相關 <span className="text-sm font-normal text-muted">{also.length}</span>
           </h2>
           <CardGrid
-            articles={[...also].sort(byTitle)}
+            articles={[...also].sort(order)}
             note={(a) => `主分類:${getDomain(a.system)?.name ?? a.system}`}
           />
         </section>

@@ -5,6 +5,8 @@ aliases: [化療副作用, 放療副作用, 骨髓抑制, Myelosuppression, 嗜�
 dzTags: [骨髓抑制, 腫瘤溶解症候群, 上腔靜脈症候群, 口腔炎, 放射性皮膚炎, 放射線皮膚炎, 放射性損傷]
 system: oncology
 alsoIn: [hematology-immunology, fundamentals]
+chapters:
+  - 內外-Ch03癌症護理 > 癌症常見問題照護 > 常見腫瘤急症（上腔靜脈症候群、脊髓壓迫、腫瘤溶解症候群）
 reviewed: false
 updated: 2026-09-27
 references:

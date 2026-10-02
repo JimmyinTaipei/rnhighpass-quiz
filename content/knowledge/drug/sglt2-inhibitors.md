@@ -6,6 +6,8 @@ dzTags: [糖尿病, 糖尿病腎病變, 心臟衰竭]
 system: endocrine
 alsoIn: [cardiovascular, renal]
 group: antidiabetics
+chapters:
+  - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥
 reviewed: false
 updated: 2026-09-26
 references:

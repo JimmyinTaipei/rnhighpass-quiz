@@ -5,6 +5,9 @@ aliases: [胺基配醣體, 胺基糖苷類, 胺醣類, Aminoglycosides, Gentamic
 dzTags: [細菌感染]
 system: infection
 group: antibiotics
+chapters:
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗生素類藥物
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗生素臨床應用與注意事項
 alsoIn: [renal]
 reviewed: false
 updated: 2026-09-28

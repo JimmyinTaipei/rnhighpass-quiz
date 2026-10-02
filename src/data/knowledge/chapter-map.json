@@ -1,0 +1,1979 @@
+{
+ "map": {
+  "行政-Ch07護理品質管理與護理資訊 > 護理評鑑制度": [
+   "accreditation-evaluation"
+  ],
+  "行政-Ch04人力資源管理與排班 > 護理人員教育、進階與流動管理": [
+   "clinical-ladder-training",
+   "turnover-absenteeism"
+  ],
+  "行政-Ch05領導統御與溝通激勵 > 衝突處理與變革管理": [
+   "conflict-change-management"
+  ],
+  "行政-Ch02規劃與營運決策 > 決策": [
+   "decision-making"
+  ],
+  "行政-Ch03組織結構與照護模式 > 授權、賦權與分權": [
+   "delegation-empowerment"
+  ],
+  "行政-Ch08倫理法律與醫院安全環境 > 醫院環境安全管理與職業災害預防": [
+   "hospital-safety-environment"
+  ],
+  "行政-Ch08倫理法律與醫院安全環境 > 病人安全管理與傳染病防治": [
+   "hospital-safety-environment",
+   "infection-control-administration",
+   "patient-safety-reporting"
+  ],
+  "行政-Ch04人力資源管理與排班 > 人力資源規劃與甄選": [
+   "hr-management-recruitment",
+   "nurse-staffing-policy"
+  ],
+  "行政-Ch05領導統御與溝通激勵 > 領導型態與護理管理者角色": [
+   "leadership-power-styles"
+  ],
+  "行政-Ch05領導統御與溝通激勵 > 領導理論": [
+   "leadership-theories"
+  ],
+  "行政-Ch08倫理法律與醫院安全環境 > 護理行政管理之法律考量": [
+   "legal-liability-disputes",
+   "medical-records-consent",
+   "nurse-scheduling",
+   "nursing-personnel-act"
+  ],
+  "行政-Ch08倫理法律與醫院安全環境 > 醫療糾紛的預防及處理": [
+   "legal-liability-disputes"
+  ],
+  "行政-Ch01緒論與管理理論 > 管理理論總論與比較": [
+   "management-theories"
+  ],
+  "行政-Ch01緒論與管理理論 > 傳統理論時期": [
+   "management-theories"
+  ],
+  "行政-Ch01緒論與管理理論 > 修正理論時期": [
+   "management-theories"
+  ],
+  "行政-Ch01緒論與管理理論 > 新進發展理論": [
+   "management-theories"
+  ],
+  "行政-Ch05領導統御與溝通激勵 > 激勵理論": [
+   "motivation-theories"
+  ],
+  "行政-Ch04人力資源管理與排班 > 排班制度與人力配置": [
+   "nurse-scheduling",
+   "nurse-staffing-policy",
+   "nursing-workload-productivity",
+   "quality-improvement-tools"
+  ],
+  "行政-Ch01緒論與管理理論 > 護理行政緒論": [
+   "nursing-administration-overview"
+  ],
+  "行政-Ch01緒論與管理理論 > 醫療組織系統": [
+   "nursing-administration-overview"
+  ],
+  "行政-Ch06財務預算與成本控制 > 財務與預算管理制度": [
+   "nursing-budgeting-drg"
+  ],
+  "行政-Ch03組織結構與照護模式 > 護理照護模式": [
+   "nursing-care-models"
+  ],
+  "行政-Ch06財務預算與成本控制 > 成本分析與控制": [
+   "nursing-cost-analysis"
+  ],
+  "行政-Ch08倫理法律與醫院安全環境 > 護理行政管理之倫理考量": [
+   "nursing-ethics-principles"
+  ],
+  "行政-Ch07護理品質管理與護理資訊 > 護理資訊系統與病人安全": [
+   "nursing-information-systems",
+   "quality-management-concepts"
+  ],
+  "行政-Ch04人力資源管理與排班 > 病人分類系統與護理生產力": [
+   "nursing-workload-productivity"
+  ],
+  "行政-Ch07護理品質管理與護理資訊 > 綜合題型": [
+   "nursing-workload-productivity"
+  ],
+  "行政-Ch02規劃與營運決策 > 目標管理": [
+   "objectives-time-management"
+  ],
+  "行政-Ch02規劃與營運決策 > 生涯規劃與時間管理": [
+   "objectives-time-management"
+  ],
+  "行政-Ch01緒論與管理理論 > 綜合題型": [
+   "objectives-time-management"
+  ],
+  "行政-Ch03組織結構與照護模式 > 組織理論與結構": [
+   "organization-structure"
+  ],
+  "行政-Ch05領導統御與溝通激勵 > 溝通": [
+   "organizational-communication"
+  ],
+  "行政-Ch04人力資源管理與排班 > 績效考核制度": [
+   "performance-appraisal"
+  ],
+  "行政-Ch02規劃與營運決策 > 願景、價值觀與規劃概論": [
+   "planning-strategy"
+  ],
+  "行政-Ch07護理品質管理與護理資訊 > 品質改善工具與模式": [
+   "quality-improvement-tools"
+  ],
+  "行政-Ch07護理品質管理與護理資訊 > 護理品質管理基本概念": [
+   "quality-improvement-tools",
+   "quality-management-concepts"
+  ],
+  "行政-Ch06財務預算與成本控制 > 控制的基本概念": [
+   "quality-management-concepts"
+  ],
+  "微免-Ch01微生物學總論與微生物控制 > 滅菌、消毒與化學治療": [
+   "asepsis-sterilization"
+  ],
+  "藥理-Ch11抗細菌藥物與抗感染藥 > 消毒劑和防腐劑": [
+   "asepsis-sterilization"
+  ],
+  "基護-Ch05感染控制 > 控制醫療照護相關感染的方法 > 切斷傳染途徑（內科無菌技術、外科無菌技術）": [
+   "asepsis-sterilization"
+  ],
+  "基護-Ch05感染控制 > 控制醫療照護相關感染的方法 > 管制感染原（清潔法、消毒法、滅菌法）": [
+   "asepsis-sterilization"
+  ],
+  "內外-Ch03癌症護理 > 癌症常見問題照護 > 常見腫瘤急症（上腔靜脈症候群、脊髓壓迫、腫瘤溶解症候群）": [
+   "cancer-treatment-toxicities"
+  ],
+  "基護-Ch17臨終病人的護理 > 臨終病人之生、心理變化與護理 > 生理變化與護理措施（中樞神經、呼吸、循環、感官、肌肉皮膚、腸胃泌尿系統）": [
+   "end-of-life-care"
+  ],
+  "基護-Ch17臨終病人的護理 > 遺體護理": [
+   "end-of-life-care"
+  ],
+  "內外-Ch01緒論、老年人與瀕死護理 > 失落、哀傷與瀕死照護": [
+   "end-of-life-care"
+  ],
+  "兒科-Ch06瀕死兒童之護理 > 兒童及家庭對瀕死的反應": [
+   "end-of-life-care"
+  ],
+  "微免-Ch03免疫異常與疫苗應用 > 疫苗與預防接種應用": [
+   "immunization",
+   "childhood-infectious-diseases"
+  ],
+  "微免-Ch01微生物學總論與微生物控制 > 醫療照護相關感染與感染管制": [
+   "infection-control"
+  ],
+  "基護-Ch05感染控制 > 醫療照護相關感染（院內感染）": [
+   "infection-control"
+  ],
+  "基護-Ch05感染控制 > 控制醫療照護相關感染的方法": [
+   "infection-control"
+  ],
+  "內外-Ch05傳染病 > 醫療照護相關感染": [
+   "infection-control"
+  ],
+  "社區-Ch14傳染病防治與護理 > 重要傳染病流行病學及管制概況": [
+   "notifiable-diseases"
+  ],
+  "社區-Ch14傳染病防治與護理 > 傳染病防治相關概念": [
+   "notifiable-diseases",
+   "childhood-infectious-diseases"
+  ],
+  "藥理-Ch04止痛藥與麻醉藥物 > 成癮性鎮痛劑（麻醉性鎮痛劑）": [
+   "pain-management",
+   "opioids"
+  ],
+  "基護-Ch07舒適的需要 > 舒適的重要性": [
+   "pain-management"
+  ],
+  "內外-Ch06急重症與疼痛護理 > 疼痛護理": [
+   "pain-management",
+   "opioids"
+  ],
+  "產科-Ch07待產及分娩期之護理評估及護理 > 分娩期間疼痛的處理": [
+   "pain-management",
+   "opioids"
+  ],
+  "兒科-Ch05住院兒童之反應及其護理 > 疼痛的評估及護理": [
+   "pain-management"
+  ],
+  "兒科-Ch18兒童癌症 > 癌症兒童及其家庭之護理": [
+   "pain-management",
+   "leukemia",
+   "antineoplastics"
+  ],
+  "內外-Ch02免疫系統疾病 > 器官移植與護理": [
+   "stem-cell-transplant",
+   "immunosuppressants"
+  ],
+  "內外-Ch14血液系統疾病 > 輸血與造血幹細胞移植": [
+   "stem-cell-transplant"
+  ],
+  "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 情緒安定劑（抗躁鬱症藥物）": [
+   "bipolar-disorder",
+   "mood-stabilizers",
+   "lithium-level"
+  ],
+  "精神-Ch05肌體治療 > 精神科藥物治療": [
+   "bipolar-disorder",
+   "mood-stabilizers",
+   "neurotransmitters-psychiatry"
+  ],
+  "精神-Ch08雙相情緒障礙症病人的護理 > 雙相情緒障礙症": [
+   "bipolar-disorder",
+   "lithium-level",
+   "neurotransmitters-psychiatry"
+  ],
+  "精神-Ch08雙相情緒障礙症病人的護理 > 護理處置": [
+   "bipolar-disorder",
+   "depressive-disorder",
+   "lithium-level",
+   "neurotransmitters-psychiatry"
+  ],
+  "病理-Ch15生殖系統與乳房疾病 > 乳房疾病": [
+   "breast-cancer"
+  ],
+  "內外-Ch03癌症護理 > 癌症預防、診斷與分期": [
+   "breast-cancer",
+   "cancer",
+   "tumor-markers"
+  ],
+  "內外-Ch11生殖系統疾病 > 乳房疾病": [
+   "breast-cancer"
+  ],
+  "產科-Ch13婦科常見疾病 > 乳房疾病": [
+   "breast-cancer"
+  ],
+  "社區-Ch07婦幼衛生 > 婦女健康保健": [
+   "breast-cancer",
+   "gynecologic-cancers",
+   "human-papillomavirus"
+  ],
+  "病理-Ch04腫瘤概論 > 腫瘤之診斷與治療": [
+   "cancer",
+   "tumor-markers",
+   "neoplasia"
+  ],
+  "病理-Ch04腫瘤概論 > 腫瘤特性": [
+   "cancer",
+   "neoplasia"
+  ],
+  "病理-Ch04腫瘤概論 > 腫瘤之病因學": [
+   "cancer",
+   "neoplasia"
+  ],
+  "藥理-Ch12癌症藥物與免疫製劑 > 治療腫瘤藥物": [
+   "cancer",
+   "antineoplastics"
+  ],
+  "內外-Ch03癌症護理 > 癌症基本概念": [
+   "cancer"
+  ],
+  "內外-Ch03癌症護理 > 癌症治療": [
+   "cancer",
+   "antineoplastics"
+  ],
+  "微免-Ch12RNA病毒 > 德國麻疹病毒與冠狀病毒": [
+   "childhood-infectious-diseases"
+  ],
+  "微免-Ch12RNA病毒 > 小RNA病毒": [
+   "childhood-infectious-diseases"
+  ],
+  "基護-Ch05感染控制 > 感染的基本概念": [
+   "childhood-infectious-diseases"
+  ],
+  "兒科-Ch07兒童傳染病 > 病毒性感染": [
+   "childhood-infectious-diseases",
+   "hiv-aids"
+  ],
+  "病理-Ch18感官與神經系統疾病 > 中樞神經系統感染與代謝性疾病": [
+   "cns-infections"
+  ],
+  "兒科-Ch13兒童神經系統疾病 > 常見神經系統疾病及其護理": [
+   "cns-infections"
+  ],
+  "病理-Ch12消化道疾病 > 大腸疾病": [
+   "colorectal-cancer"
+  ],
+  "內外-Ch07消化系統疾病 > 腸道疾病 > 腸胃道息肉與大腸癌": [
+   "colorectal-cancer"
+  ],
+  "病理-Ch09心臟血管系統疾病 > 心臟疾病": [
+   "coronary-artery-disease",
+   "heart-failure"
+  ],
+  "病理-Ch09心臟血管系統疾病 > 血管疾病": [
+   "coronary-artery-disease"
+  ],
+  "藥理-Ch08心血管藥物 > 抗心絞痛藥物": [
+   "coronary-artery-disease",
+   "nitrates",
+   "cardiac-biomarkers",
+   "cardiac-catheterization",
+   "ecg"
+  ],
+  "內外-Ch13心血管系統疾病 > 冠狀動脈疾病": [
+   "coronary-artery-disease",
+   "cardiac-biomarkers",
+   "cardiac-catheterization",
+   "ecg",
+   "echocardiography",
+   "coronary-circulation"
+  ],
+  "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 抗憂鬱劑": [
+   "depressive-disorder",
+   "antidepressants"
+  ],
+  "精神-Ch03精神疾病的病因、症狀、診斷與分類 > 精神疾病的相關因素與致病理論": [
+   "depressive-disorder",
+   "schizophrenia",
+   "neurotransmitters-psychiatry"
+  ],
+  "精神-Ch05肌體治療 > 電氣痙攣療法": [
+   "depressive-disorder",
+   "neurotransmitters-psychiatry"
+  ],
+  "精神-Ch05肌體治療 > 護理人員的角色與功能": [
+   "depressive-disorder",
+   "antipsychotics",
+   "neurotransmitters-psychiatry"
+  ],
+  "精神-Ch08雙相情緒障礙症病人的護理 > 鬱症與憂鬱症類障礙": [
+   "depressive-disorder",
+   "neurotransmitters-psychiatry"
+  ],
+  "精神-Ch12其他精神科疾病的護理 > 老年精神衛生問題": [
+   "depressive-disorder"
+  ],
+  "精神-Ch13危機處理與意外事件的護理 > 危機處理": [
+   "depressive-disorder"
+  ],
+  "精神-Ch13危機處理與意外事件的護理 > 自殺事件的護理": [
+   "depressive-disorder"
+  ],
+  "病理-Ch16內分泌系統疾病 > 胰島與腎上腺疾病": [
+   "diabetes"
+  ],
+  "藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥": [
+   "diabetes",
+   "alpha-glucosidase-inhibitors",
+   "dpp4-inhibitors",
+   "glp1-receptor-agonists",
+   "insulin",
+   "meglitinides",
+   "metformin",
+   "sglt2-inhibitors",
+   "sulfonylureas",
+   "tzd",
+   "blood-glucose",
+   "hba1c",
+   "ketones",
+   "ogtt"
+  ],
+  "內外-Ch04體液、電解質與酸鹼不平衡之護理 > 酸鹼平衡改變 > 代謝性酸中毒與代謝性鹼中毒": [
+   "diabetes",
+   "abg",
+   "ketones"
+  ],
+  "內外-Ch08內分泌系統疾病 > 胰臟疾病與糖尿病": [
+   "diabetes",
+   "alpha-glucosidase-inhibitors",
+   "glp1-receptor-agonists",
+   "insulin",
+   "metformin",
+   "sulfonylureas",
+   "blood-glucose",
+   "hba1c",
+   "ketones",
+   "ogtt"
+  ],
+  "產科-Ch10高危險妊娠之護理 > 妊娠前的內科疾病 > 糖尿病": [
+   "diabetes",
+   "ogtt"
+  ],
+  "兒科-Ch04高危險新生兒之護理 > 高危險性新生兒之定義與評估": [
+   "diabetes",
+   "ogtt"
+  ],
+  "兒科-Ch15兒童內分泌系統疾病與慢性病 > 常見內分泌系統疾病 > 腎上腺、性腺與胰島素分泌異常(先天性腎上腺增生症、性早熟、糖尿病)": [
+   "diabetes"
+  ],
+  "兒科-Ch15兒童內分泌系統疾病與慢性病 > 慢性疾病兒童及其家庭之護理": [
+   "diabetes"
+  ],
+  "社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護 > 糖尿病與代謝症候群": [
+   "diabetes",
+   "blood-glucose",
+   "hba1c",
+   "ketones",
+   "lipid-profile",
+   "ogtt"
+  ],
+  "社區-Ch09慢性疾病的護理 > 慢性病防治政策與社區衛生護理角色": [
+   "diabetes"
+  ],
+  "病理-Ch15生殖系統與乳房疾病 > 女性生殖系統疾病": [
+   "gynecologic-cancers"
+  ],
+  "微免-Ch11病毒學總論與DNA病毒 > 乳突病毒與多瘤病毒": [
+   "gynecologic-cancers",
+   "dna-viruses",
+   "human-papillomavirus"
+  ],
+  "產科-Ch13婦科常見疾病 > 子宮頸疾病": [
+   "gynecologic-cancers",
+   "human-papillomavirus"
+  ],
+  "產科-Ch13婦科常見疾病 > 卵巢癌": [
+   "gynecologic-cancers"
+  ],
+  "病理-Ch11呼吸系統疾病 > 上呼吸道疾病": [
+   "head-neck-cancers",
+   "herpesviruses"
+  ],
+  "病理-Ch12消化道疾病 > 口腔與唾液腺疾病": [
+   "head-neck-cancers"
+  ],
+  "微免-Ch11病毒學總論與DNA病毒 > 疱疹病毒": [
+   "head-neck-cancers",
+   "herpesviruses"
+  ],
+  "內外-Ch17感覺機能與眼耳鼻喉科疾病 > 鼻科疾病與護理": [
+   "head-neck-cancers",
+   "pediatric-respiratory-infections",
+   "herpesviruses"
+  ],
+  "內外-Ch17感覺機能與眼耳鼻喉科疾病 > 喉部疾病與護理": [
+   "head-neck-cancers",
+   "pediatric-respiratory-infections",
+   "streptococci"
+  ],
+  "藥理-Ch08心血管藥物 > 治療鬱血性心衰竭藥物": [
+   "heart-failure",
+   "arni",
+   "digoxin",
+   "inotropes"
+  ],
+  "藥理-Ch08心血管藥物 > 心臟前後負荷與心衰竭/休克用藥綜合應用": [
+   "heart-failure",
+   "digoxin",
+   "inotropes",
+   "echocardiography",
+   "cardiac-output"
+  ],
+  "內外-Ch13心血管系統疾病 > 心衰竭與心肌病變": [
+   "heart-failure",
+   "digoxin",
+   "inotropes",
+   "bnp",
+   "echocardiography"
+  ],
+  "病理-Ch05免疫系統疾病 > 免疫不全疾病": [
+   "hiv-aids"
+  ],
+  "藥理-Ch11抗細菌藥物與抗感染藥 > 抗病毒藥物": [
+   "hiv-aids",
+   "antivirals"
+  ],
+  "微免-Ch03免疫異常與疫苗應用 > 免疫缺陷疾病": [
+   "hiv-aids"
+  ],
+  "微免-Ch13肝炎病毒、反轉錄病毒與變性蛋白質 > 反轉錄病毒": [
+   "hiv-aids"
+  ],
+  "內外-Ch02免疫系統疾病 > 免疫缺陷症": [
+   "hiv-aids"
+  ],
+  "產科-Ch13婦科常見疾病 > 性接觸傳染疾病": [
+   "hiv-aids",
+   "sexually-transmitted-infections"
+  ],
+  "藥理-Ch02自主神經系統藥物 > 腎上腺素性神經藥物": [
+   "hypertension",
+   "alpha-blockers",
+   "beta-blockers",
+   "central-alpha2-agonists"
+  ],
+  "藥理-Ch08心血管藥物 > 治療高血壓藥物": [
+   "hypertension",
+   "ace-inhibitors",
+   "alpha-blockers",
+   "arb",
+   "arni",
+   "beta-blockers",
+   "calcium-channel-blockers",
+   "central-alpha2-agonists",
+   "direct-vasodilators"
+  ],
+  "內外-Ch13心血管系統疾病 > 周圍血管疾病 > 高血壓": [
+   "hypertension"
+  ],
+  "產科-Ch10高危險妊娠之護理 > 高血壓性疾病": [
+   "hypertension"
+  ],
+  "社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護": [
+   "hypertension"
+  ],
+  "基護-Ch10生命徵象 > 血壓": [
+   "hypotension",
+   "blood-pressure-regulation"
+  ],
+  "病理-Ch03代謝、體液與循環障礙 > 循環障礙 > 休克": [
+   "hypotension",
+   "sepsis"
+  ],
+  "藥理-Ch06消化系統藥物 > 排便相關藥物": [
+   "infectious-diarrhea"
+  ],
+  "微免-Ch05革蘭氏陽性球菌 > 葡萄球菌屬": [
+   "infectious-diarrhea",
+   "staphylococcus-aureus"
+  ],
+  "微免-Ch08其他革蘭氏陰性桿菌與弧菌 > 弧菌屬與彎曲桿菌屬": [
+   "infectious-diarrhea",
+   "gram-negative-bacteria"
+  ],
+  "微免-Ch12RNA病毒 > 狂犬病病毒、呼吸道腸道病毒與輪狀病毒": [
+   "infectious-diarrhea",
+   "rna-viruses"
+  ],
+  "兒科-Ch11兒童消化系統疾病 > 常見消化系統問題及其護理": [
+   "infectious-diarrhea"
+  ],
+  "社區-Ch15環境衛生與食品衛生 > 食品衛生": [
+   "infectious-diarrhea",
+   "clostridium-botulinum-tetani",
+   "gram-negative-bacteria",
+   "staphylococcus-aureus"
+  ],
+  "內外-Ch13心血管系統疾病 > 發炎性與瓣膜性心臟病": [
+   "infective-endocarditis"
+  ],
+  "病理-Ch10血液、造血與淋巴系統疾病 > 血液系統之惡性腫瘤": [
+   "leukemia",
+   "lymphoma-myeloma"
+  ],
+  "內外-Ch14血液系統疾病 > 白血球與淋巴系統疾病": [
+   "leukemia",
+   "lymphoma-myeloma"
+  ],
+  "兒科-Ch10兒童血液疾病 > 血液系統腫瘤疾病": [
+   "leukemia"
+  ],
+  "兒科-Ch18兒童癌症 > 兒童常見的癌症及其護理": [
+   "leukemia",
+   "pediatric-cancers"
+  ],
+  "病理-Ch13肝、膽、胰疾病 > 肝臟疾病": [
+   "liver-cancer"
+  ],
+  "內外-Ch07消化系統疾病 > 肝膽胰疾病 > 肝炎、肝硬化與肝癌": [
+   "liver-cancer"
+  ],
+  "病理-Ch11呼吸系統疾病 > 肺部腫瘤與肉芽腫性疾病": [
+   "lung-cancer"
+  ],
+  "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 骨骼疾病": [
+   "pediatric-cancers"
+  ],
+  "病理-Ch18感官與神經系統疾病 > 中樞神經系統腫瘤與癲癇": [
+   "pediatric-cancers"
+  ],
+  "內外-Ch15神經系統疾病 > 神經系統腫瘤與感染疾病": [
+   "pediatric-cancers"
+  ],
+  "兒科-Ch18兒童癌症 > 兒童癌症概論": [
+   "pediatric-cancers"
+  ],
+  "兒科-Ch08兒童呼吸系統疾病 > 上呼吸道感染疾病": [
+   "pediatric-respiratory-infections"
+  ],
+  "兒科-Ch08兒童呼吸系統疾病 > 下呼吸道感染疾病": [
+   "pediatric-respiratory-infections",
+   "pneumonia",
+   "atypical-bacteria"
+  ],
+  "產科-Ch12產後期異常之護理 > 產褥感染": [
+   "perinatal-infections"
+  ],
+  "微免-Ch05革蘭氏陽性球菌 > 肺炎鏈球菌": [
+   "pneumonia",
+   "streptococci"
+  ],
+  "微免-Ch10特殊病原菌（螺旋體、黴漿菌、立克次體、披衣菌） > 黴漿菌與L型細菌": [
+   "pneumonia",
+   "beta-lactams",
+   "protein-synthesis-inhibitors",
+   "atypical-bacteria",
+   "streptococci"
+  ],
+  "內外-Ch09呼吸系統疾病 > 肺實質病變 > 肺炎、肺膿瘍與肺結核": [
+   "pneumonia"
+  ],
+  "微免-Ch12RNA病毒 > 正黏液病毒與副黏液病毒": [
+   "respiratory-viral-infections"
+  ],
+  "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 抗精神病藥物": [
+   "schizophrenia",
+   "antipsychotics"
+  ],
+  "精神-Ch01精神醫學與護理的發展史及基本概念 > 精神醫學發展史": [
+   "schizophrenia"
+  ],
+  "精神-Ch01精神醫學與護理的發展史及基本概念 > 精神衛生工作範圍與護理人員角色功能": [
+   "schizophrenia"
+  ],
+  "精神-Ch01精神醫學與護理的發展史及基本概念 > 社區與慢性精神病人護理": [
+   "schizophrenia"
+  ],
+  "精神-Ch02精神科護理的倫理與法律觀 > 精神科病人權利與精神衛生法": [
+   "schizophrenia"
+  ],
+  "精神-Ch02精神科護理的倫理與法律觀 > 精神科病人醫療型態與法律責任": [
+   "schizophrenia"
+  ],
+  "精神-Ch03精神疾病的病因、症狀、診斷與分類 > 精神疾病的診斷與分類": [
+   "schizophrenia",
+   "neurotransmitters-psychiatry"
+  ],
+  "精神-Ch03精神疾病的病因、症狀、診斷與分類 > 精神疾病的臨床症狀": [
+   "schizophrenia"
+  ],
+  "精神-Ch04治療性溝通與人際關係 > 治療性溝通的相關理論": [
+   "schizophrenia"
+  ],
+  "精神-Ch04治療性溝通與人際關係 > 治療性溝通技巧與原則": [
+   "schizophrenia",
+   "neurotransmitters-psychiatry"
+  ],
+  "精神-Ch04治療性溝通與人際關係 > 非治療性溝通行為": [
+   "schizophrenia"
+  ],
+  "精神-Ch05肌體治療 > 精神科藥物治療 > 抗精神病藥物": [
+   "schizophrenia",
+   "antipsychotics"
+  ],
+  "精神-Ch07思考障礙病人的護理 > 思覺失調症": [
+   "schizophrenia",
+   "neurotransmitters-psychiatry"
+  ],
+  "精神-Ch07思考障礙病人的護理 > 情感思覺失調症": [
+   "schizophrenia"
+  ],
+  "精神-Ch07思考障礙病人的護理 > 妄想症": [
+   "schizophrenia"
+  ],
+  "精神-Ch07思考障礙病人的護理 > 護理處置": [
+   "schizophrenia",
+   "neurotransmitters-psychiatry"
+  ],
+  "社區-Ch11社區心理衛生與護理 > 精神疾病防治": [
+   "schizophrenia"
+  ],
+  "內外-Ch06急重症與疼痛護理 > 急症護理 > 常見急症處置（休克、敗血症、急性創傷、中毒、咬傷、環境傷害）": [
+   "sepsis"
+  ],
+  "病理-Ch08感染性疾病 > 細菌性感染": [
+   "sexually-transmitted-infections",
+   "tuberculosis"
+  ],
+  "微免-Ch07革蘭氏陰性球菌與腸內桿菌 > 奈瑟氏球菌屬（革蘭氏陰性雙球菌）": [
+   "sexually-transmitted-infections",
+   "gram-negative-bacteria"
+  ],
+  "微免-Ch10特殊病原菌（螺旋體、黴漿菌、立克次體、披衣菌） > 螺旋體": [
+   "sexually-transmitted-infections",
+   "atypical-bacteria"
+  ],
+  "微免-Ch10特殊病原菌（螺旋體、黴漿菌、立克次體、披衣菌） > 披衣菌屬": [
+   "sexually-transmitted-infections",
+   "atypical-bacteria"
+  ],
+  "產科-Ch13婦科常見疾病 > 陰道方面的問題": [
+   "sexually-transmitted-infections"
+  ],
+  "產科-Ch13婦科常見疾病 > 骨盆腔炎症": [
+   "sexually-transmitted-infections"
+  ],
+  "內外-Ch12皮膚疾病 > 皮膚感染與發炎性疾病": [
+   "skin-bone-infections",
+   "helminths-ectoparasites"
+  ],
+  "藥理-Ch11抗細菌藥物與抗感染藥 > 抗結核病與抗痲瘋病藥物": [
+   "tuberculosis",
+   "antituberculars"
+  ],
+  "微免-Ch06革蘭氏陽性桿菌與分枝桿菌 > 分枝桿菌屬": [
+   "tuberculosis"
+  ],
+  "內外-Ch09呼吸系統疾病 > 肺實質病變": [
+   "tuberculosis",
+   "streptococci"
+  ],
+  "社區-Ch14傳染病防治與護理 > 重要傳染病流行病學及管制概況 > 慢性及性傳染病（結核病、B型肝炎、梅毒、淋病、後天免疫缺乏症候群、麻疹）": [
+   "tuberculosis"
+  ],
+  "微免-Ch07革蘭氏陰性球菌與腸內桿菌 > 腸內桿菌科": [
+   "urinary-tract-infection",
+   "gram-negative-bacteria"
+  ],
+  "基護-Ch15排泄需要 > 泌尿道排泄需要": [
+   "urinary-tract-infection"
+  ],
+  "基護-Ch18出入院護理與檢體收集 > 入院之常規檢體收集 > 尿液檢體收集法（含培養、24小時尿液檢體收集）": [
+   "urinary-tract-infection"
+  ],
+  "內外-Ch10腎臟與泌尿系統疾病 > 泌尿道疾病": [
+   "urinary-tract-infection",
+   "gram-negative-bacteria"
+  ],
+  "兒科-Ch12兒童泌尿生殖系統疾病 > 兒童泌尿生殖系統之解剖生理與評估": [
+   "urinary-tract-infection"
+  ],
+  "兒科-Ch12兒童泌尿生殖系統疾病 > 常見泌尿生殖系統疾病及其護理": [
+   "urinary-tract-infection",
+   "gram-negative-bacteria"
+  ],
+  "微免-Ch12RNA病毒 > 節肢動物媒介病毒與病毒性出血熱": [
+   "vector-borne-zoonotic"
+  ],
+  "內外-Ch05傳染病 > 常見傳染病與護理": [
+   "vector-borne-zoonotic"
+  ],
+  "社區-Ch14傳染病防治與護理 > 重要傳染病流行病學及管制概況 > 病媒傳染病（登革熱、日本腦炎、狂犬病、漢他病毒症候群、茲卡病毒感染症）": [
+   "vector-borne-zoonotic"
+  ],
+  "微免-Ch13肝炎病毒、反轉錄病毒與變性蛋白質 > 肝炎病毒": [
+   "viral-hepatitis"
+  ],
+  "藥理-Ch11抗細菌藥物與抗感染藥 > 抗生素類藥物": [
+   "aminoglycosides",
+   "antibiotics-overview",
+   "beta-lactams",
+   "fluoroquinolones-sulfonamides",
+   "glycopeptides",
+   "protein-synthesis-inhibitors"
+  ],
+  "藥理-Ch11抗細菌藥物與抗感染藥 > 抗生素臨床應用與注意事項": [
+   "aminoglycosides",
+   "antibiotics-overview",
+   "beta-lactams",
+   "fluoroquinolones-sulfonamides",
+   "glycopeptides",
+   "protein-synthesis-inhibitors"
+  ],
+  "基護-Ch13給藥法 > 給藥醫囑介紹及給藥原則": [
+   "antibiotics-overview"
+  ],
+  "藥理-Ch09血液系統藥物 > 抗血栓症藥物": [
+   "anticoagulants",
+   "antiplatelets",
+   "thrombolytics"
+  ],
+  "內外-Ch09呼吸系統疾病 > 血管性病變": [
+   "anticoagulants",
+   "antiplatelets",
+   "thrombolytics"
+  ],
+  "藥理-Ch11抗細菌藥物與抗感染藥 > 抗黴菌藥物": [
+   "antifungals",
+   "candida"
+  ],
+  "微免-Ch14真菌學 > 真菌學總論": [
+   "antifungals",
+   "candida",
+   "fungi"
+  ],
+  "內外-Ch03癌症護理 > 癌症常見問題照護": [
+   "antineoplastics"
+  ],
+  "藥理-Ch11抗細菌藥物與抗感染藥 > 抗寄生蟲疾病藥物": [
+   "antiparasitics",
+   "helminths-ectoparasites",
+   "protozoa"
+  ],
+  "病理-Ch05免疫系統疾病 > 器官移植與其他免疫疾病": [
+   "immunosuppressants"
+  ],
+  "藥理-Ch12癌症藥物與免疫製劑 > 免疫製劑": [
+   "immunosuppressants"
+  ],
+  "藥理-Ch07泌尿系統與利尿劑 > 利尿劑": [
+   "loop-diuretics",
+   "potassium-sparing-diuretics",
+   "thiazide-diuretics"
+  ],
+  "藥理-Ch04止痛藥與麻醉藥物 > 非成癮性鎮痛劑": [
+   "nsaids-acetaminophen"
+  ],
+  "藥理-Ch04止痛藥與麻醉藥物 > 麻醉劑": [
+   "opioids"
+  ],
+  "藥理-Ch08心血管藥物 > 降血脂藥物": [
+   "statins"
+  ],
+  "生解-Ch12內分泌系統 > 胰臟之蘭氏小島": [
+   "blood-glucose",
+   "glucose-homeostasis"
+  ],
+  "兒科-Ch09兒童循環系統疾病 > 先天性心臟病 > 先天性心臟病兒童之護理與手術護理": [
+   "cardiac-catheterization"
+  ],
+  "生解-Ch07血液、心血管與淋巴系統 > 血液": [
+   "complete-blood-count"
+  ],
+  "基護-Ch18出入院護理與檢體收集 > 入院之常規檢體收集": [
+   "culture-and-sensitivity"
+  ],
+  "藥理-Ch08心血管藥物 > 抗心律不整藥物": [
+   "ecg"
+  ],
+  "內外-Ch13心血管系統疾病 > 心律不整疾病": [
+   "ecg"
+  ],
+  "生解-Ch11體液、電解質與酸鹼平衡 > 電解質": [
+   "potassium"
+  ],
+  "基護-Ch14體液供給 > 體液不平衡之常見問題": [
+   "potassium"
+  ],
+  "內外-Ch10腎臟與泌尿系統疾病 > 腎臟疾病": [
+   "uacr"
+  ],
+  "微免-Ch09厭氧菌 > 厭氧性梭狀芽孢桿菌屬": [
+   "anaerobes",
+   "clostridium-botulinum-tetani"
+  ],
+  "微免-Ch09厭氧菌 > 其他厭氧菌": [
+   "anaerobes"
+  ],
+  "病理-Ch08感染性疾病 > 黴菌、立克次體與非典型病原體感染": [
+   "atypical-bacteria"
+  ],
+  "微免-Ch10特殊病原菌（螺旋體、黴漿菌、立克次體、披衣菌） > 立克次體屬": [
+   "atypical-bacteria"
+  ],
+  "微免-Ch14真菌學 > 深部性黴菌病（伺機性/全身性感染）": [
+   "candida",
+   "fungi"
+  ],
+  "微免-Ch11病毒學總論與DNA病毒 > 痘病毒": [
+   "dna-viruses"
+  ],
+  "微免-Ch11病毒學總論與DNA病毒 > 腺病毒": [
+   "dna-viruses"
+  ],
+  "微免-Ch14真菌學 > 表淺性黴菌病": [
+   "fungi"
+  ],
+  "微免-Ch08其他革蘭氏陰性桿菌與弧菌 > 綠膿桿菌": [
+   "gram-negative-bacteria"
+  ],
+  "微免-Ch08其他革蘭氏陰性桿菌與弧菌 > 嗜血桿菌屬": [
+   "gram-negative-bacteria"
+  ],
+  "微免-Ch08其他革蘭氏陰性桿菌與弧菌 > 人畜共通革蘭氏陰性桿菌": [
+   "gram-negative-bacteria"
+  ],
+  "微免-Ch08其他革蘭氏陰性桿菌與弧菌 > 其他革蘭氏陰性致病菌": [
+   "gram-negative-bacteria"
+  ],
+  "微免-Ch06革蘭氏陽性桿菌與分枝桿菌 > 白喉棒狀桿菌": [
+   "gram-positive-bacteria"
+  ],
+  "微免-Ch06革蘭氏陽性桿菌與分枝桿菌 > 其他革蘭氏陽性桿菌": [
+   "gram-positive-bacteria"
+  ],
+  "病理-Ch12消化道疾病 > 胃疾病": [
+   "helicobacter-pylori"
+  ],
+  "藥理-Ch06消化系統藥物 > 消化性潰瘍治療藥物": [
+   "helicobacter-pylori"
+  ],
+  "微免-Ch08其他革蘭氏陰性桿菌與弧菌 > 幽門螺旋桿菌": [
+   "helicobacter-pylori"
+  ],
+  "內外-Ch07消化系統疾病 > 胃與十二指腸疾病": [
+   "helicobacter-pylori"
+  ],
+  "微免-Ch15寄生蟲學 > 蠕蟲": [
+   "helminths-ectoparasites",
+   "protozoa"
+  ],
+  "微免-Ch15寄生蟲學 > 醫用昆蟲學": [
+   "helminths-ectoparasites"
+  ],
+  "微免-Ch13肝炎病毒、反轉錄病毒與變性蛋白質 > 變性蛋白質（普利昂蛋白）": [
+   "prions"
+  ],
+  "微免-Ch15寄生蟲學 > 原蟲": [
+   "protozoa"
+  ],
+  "微免-Ch05革蘭氏陽性球菌 > 鏈球菌屬": [
+   "streptococci"
+  ],
+  "生解-Ch07血液、心血管與淋巴系統 > 血管與循環路線 > 循環生理學（血量、血壓與血流、微血管物質交換、靜脈回流）": [
+   "blood-pressure-regulation"
+  ],
+  "生解-Ch07血液、心血管與淋巴系統 > 心臟 > 心動週期（收縮期與舒張期、心音、法蘭克－史達林定律）": [
+   "cardiac-output"
+  ],
+  "生解-Ch07血液、心血管與淋巴系統 > 血管與循環路線 > 循環路線（體循環、肝門脈循環、肺循環、冠狀循環、胎兒循環）": [
+   "coronary-circulation"
+  ],
+  "微免-Ch11病毒學總論與DNA病毒 > 病毒學總論": [
+   "microbial-pathogenesis"
+  ],
+  "微免-Ch04細菌學總論與致病機制 > 細菌致病機制總論": [
+   "microbial-pathogenesis"
+  ],
+  "微免-Ch04細菌學總論與致病機制 > 毒素相關疾病舉隅": [
+   "microbial-pathogenesis"
+  ],
+  "微免-Ch04細菌學總論與致病機制 > 感染症之發生與宿主反應": [
+   "microbial-pathogenesis"
+  ],
+  "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物": [
+   "neurotransmitters-psychiatry"
+  ]
+ },
+ "chapters": {
+  "生解-Ch01緒論、細胞組織與生化": {
+   "missing": [
+    "人體組織構造總論",
+    "細胞的構造與功能",
+    "細胞生理現象",
+    "化合物與生命過程",
+    "人體四大基本組織"
+   ]
+  },
+  "生解-Ch02皮膚系統": {
+   "missing": [
+    "皮膚之構造",
+    "皮膚之功能",
+    "表皮之衍生物"
+   ]
+  },
+  "生解-Ch03骨骼系統與關節": {
+   "missing": [
+    "骨骼組織總論",
+    "顱骨",
+    "脊柱",
+    "胸廓",
+    "上肢骨骼",
+    "下肢骨骼",
+    "關節系統"
+   ]
+  },
+  "生解-Ch04肌肉系統": {
+   "missing": [
+    "肌肉組織總論",
+    "骨骼肌組織構造",
+    "肌肉之收縮生理",
+    "心肌與平滑肌組織",
+    "主要的骨骼肌"
+   ]
+  },
+  "生解-Ch05神經系統": {
+   "missing": [
+    "神經系統總論",
+    "神經組織學",
+    "神經生理學基礎",
+    "脊髓與脊神經",
+    "腦與腦神經",
+    "自主神經系統",
+    "運動途徑與整合功能"
+   ]
+  },
+  "生解-Ch06感覺器官": {
+   "missing": [
+    "感覺總論與體感覺",
+    "嗅覺與味覺",
+    "視覺",
+    "聽覺與平衡"
+   ]
+  },
+  "生解-Ch07血液、心血管與淋巴系統": {
+   "missing": [
+    "淋巴系統"
+   ]
+  },
+  "生解-Ch08呼吸系統": {
+   "missing": [
+    "呼吸器官",
+    "呼吸作用",
+    "呼吸控制"
+   ]
+  },
+  "生解-Ch09消化系統": {
+   "missing": [
+    "消化道組織學與腹膜",
+    "口腔、咽與食道",
+    "胃",
+    "胰臟",
+    "肝臟與膽囊",
+    "小腸",
+    "大腸",
+    "營養物質的代謝"
+   ]
+  },
+  "生解-Ch10泌尿系統": {
+   "missing": [
+    "泌尿系統總論",
+    "腎臟解剖學",
+    "腎臟生理學",
+    "腎臟之恆定調節功能",
+    "尿液與下泌尿道"
+   ]
+  },
+  "生解-Ch11體液、電解質與酸鹼平衡": {
+   "missing": [
+    "體液區間與體液平衡",
+    "體內酸鹼平衡",
+    "酸鹼不平衡"
+   ]
+  },
+  "生解-Ch12內分泌系統": {
+   "missing": [
+    "內分泌系統總論",
+    "腦下垂體與下視丘",
+    "松果腺",
+    "甲狀腺與副甲狀腺",
+    "腎上腺",
+    "性腺與其他內分泌組織"
+   ]
+  },
+  "生解-Ch13生殖系統": {
+   "missing": [
+    "男性生殖系統",
+    "女性生殖系統"
+   ]
+  },
+  "生解-Ch14胚胎學": {
+   "missing": [
+    "胎兒附屬構造",
+    "各系統的胚胎發育起源",
+    "胎兒生長與生理發育",
+    "受精與著床",
+    "胚層分化與器官形成期"
+   ]
+  },
+  "病理-Ch01緒論與細胞傷害、適應": {
+   "missing": [
+    "細胞適應",
+    "細胞傷害與病理性堆積",
+    "細胞死亡"
+   ]
+  },
+  "病理-Ch02發炎與修復": {
+   "missing": [
+    "發炎現象",
+    "再生與修復作用"
+   ]
+  },
+  "病理-Ch03代謝、體液與循環障礙": {
+   "missing": [
+    "體液障礙"
+   ]
+  },
+  "病理-Ch04腫瘤概論": {
+   "missing": [
+    "異常發育與腫瘤命名"
+   ]
+  },
+  "病理-Ch05免疫系統疾病": {
+   "missing": [
+    "免疫系統基礎與免疫反應",
+    "過敏反應",
+    "自體免疫疾病"
+   ]
+  },
+  "病理-Ch06遺傳與基因疾病": {
+   "missing": [
+    "染色體異常疾病",
+    "單一基因與非典型遺傳疾病",
+    "多因素遺傳疾病與腫瘤遺傳",
+    "基因組多形性與遺傳諮詢"
+   ]
+  },
+  "病理-Ch07環境傷害與營養疾病": {
+   "missing": [
+    "物理性傷害",
+    "化學性傷害",
+    "營養疾病"
+   ]
+  },
+  "病理-Ch08感染性疾病": {
+   "missing": [
+    "病原體總論與比較",
+    "病毒感染"
+   ]
+  },
+  "病理-Ch09心臟血管系統疾病": {
+   "missing": []
+  },
+  "病理-Ch10血液、造血與淋巴系統疾病": {
+   "missing": [
+    "貧血",
+    "白血球與骨髓增生性疾病",
+    "出血與凝血疾病",
+    "血型、輸血與脾臟疾病"
+   ]
+  },
+  "病理-Ch11呼吸系統疾病": {
+   "missing": [
+    "下呼吸道與肺實質疾病",
+    "肋膜與胸腔疾病"
+   ]
+  },
+  "病理-Ch12消化道疾病": {
+   "missing": [
+    "食道疾病",
+    "小腸疾病"
+   ]
+  },
+  "病理-Ch13肝、膽、胰疾病": {
+   "missing": [
+    "膽道系統疾病",
+    "胰臟疾病"
+   ]
+  },
+  "病理-Ch14泌尿系統疾病": {
+   "missing": [
+    "腎臟疾病",
+    "泌尿道疾病"
+   ]
+  },
+  "病理-Ch15生殖系統與乳房疾病": {
+   "missing": [
+    "男性生殖系統疾病"
+   ]
+  },
+  "病理-Ch16內分泌系統疾病": {
+   "missing": [
+    "腦下垂體疾病",
+    "甲狀腺疾病",
+    "副甲狀腺疾病"
+   ]
+  },
+  "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病": {
+   "missing": [
+    "關節疾病",
+    "皮膚疾病",
+    "肌肉與神經肌肉疾病"
+   ]
+  },
+  "病理-Ch18感官與神經系統疾病": {
+   "missing": [
+    "眼睛疾病",
+    "中樞神經系統血管與外傷性疾病",
+    "去髓鞘與神經退化性疾病"
+   ]
+  },
+  "藥理-Ch01藥理學總論與藥物動力/藥效學": {
+   "missing": [
+    "藥理學總論",
+    "藥物法規與重要名詞解說",
+    "藥效學",
+    "藥物動力學"
+   ]
+  },
+  "藥理-Ch02自主神經系統藥物": {
+   "missing": [
+    "膽鹼性神經藥物",
+    "神經肌阻斷劑"
+   ]
+  },
+  "藥理-Ch03中樞神經與精神科藥物": {
+   "missing": [
+    "中樞神經興奮劑",
+    "鎮靜安眠藥",
+    "抗癲癇藥物",
+    "神經退化性疾病治療藥物",
+    "其他中樞神經作用藥物"
+   ]
+  },
+  "藥理-Ch04止痛藥與麻醉藥物": {
+   "missing": [
+    "痛風治療藥物",
+    "頭痛用藥"
+   ]
+  },
+  "藥理-Ch05自泌素、抗過敏與呼吸系統藥物": {
+   "missing": [
+    "自泌素",
+    "抗氣喘與呼吸道發炎用藥",
+    "其他呼吸系統用藥"
+   ]
+  },
+  "藥理-Ch06消化系統藥物": {
+   "missing": [
+    "腸胃蠕動與嘔吐相關藥物",
+    "其他消化系統用藥"
+   ]
+  },
+  "藥理-Ch07泌尿系統與利尿劑": {
+   "missing": [
+    "男性泌尿生殖系統用藥"
+   ]
+  },
+  "藥理-Ch08心血管藥物": {
+   "missing": [
+    "小兒先天性心臟病用藥"
+   ]
+  },
+  "藥理-Ch09血液系統藥物": {
+   "missing": [
+    "抗貧血藥物"
+   ]
+  },
+  "藥理-Ch10內分泌與新陳代謝藥物": {
+   "missing": [
+    "腦下垂體激素相關藥物",
+    "腎上腺皮質類固醇及其抑制劑",
+    "甲狀腺相關藥物",
+    "性激素及相關藥物",
+    "骨鈣代謝相關藥物"
+   ]
+  },
+  "藥理-Ch11抗細菌藥物與抗感染藥": {
+   "missing": []
+  },
+  "藥理-Ch12癌症藥物與免疫製劑": {
+   "missing": []
+  },
+  "藥理-Ch13毒理學、成癮藥物與生物製劑": {
+   "missing": [
+    "毒理學總論",
+    "重金屬中毒及其螯合劑",
+    "農藥與環境毒物",
+    "成癮藥物"
+   ]
+  },
+  "微免-Ch01微生物學總論與微生物控制": {
+   "missing": [
+    "微生物學基本概念",
+    "細菌之構造與生理",
+    "寄生物與宿主之關係"
+   ]
+  },
+  "微免-Ch02先天與後天免疫系統": {
+   "missing": [
+    "新生兒與特殊生理狀態下之免疫",
+    "先天性免疫系統（非特異性防禦）",
+    "後天性免疫系統（特異性免疫）",
+    "血清學與血型系統"
+   ]
+  },
+  "微免-Ch03免疫異常與疫苗應用": {
+   "missing": [
+    "過敏反應",
+    "自體免疫疾病",
+    "移植免疫與腫瘤免疫"
+   ]
+  },
+  "微免-Ch04細菌學總論與致病機制": {
+   "missing": []
+  },
+  "微免-Ch05革蘭氏陽性球菌": {
+   "missing": []
+  },
+  "微免-Ch06革蘭氏陽性桿菌與分枝桿菌": {
+   "missing": [
+    "需氧革蘭氏陽性帶芽孢桿菌屬"
+   ]
+  },
+  "微免-Ch07革蘭氏陰性球菌與腸內桿菌": {
+   "missing": []
+  },
+  "微免-Ch08其他革蘭氏陰性桿菌與弧菌": {
+   "missing": []
+  },
+  "微免-Ch09厭氧菌": {
+   "missing": []
+  },
+  "微免-Ch10特殊病原菌（螺旋體、黴漿菌、立克次體、披衣菌）": {
+   "missing": []
+  },
+  "微免-Ch11病毒學總論與DNA病毒": {
+   "missing": []
+  },
+  "微免-Ch12RNA病毒": {
+   "missing": []
+  },
+  "微免-Ch13肝炎病毒、反轉錄病毒與變性蛋白質": {
+   "missing": []
+  },
+  "微免-Ch14真菌學": {
+   "missing": []
+  },
+  "微免-Ch15寄生蟲學": {
+   "missing": []
+  },
+  "基護-Ch01緒論": {
+   "missing": [
+    "護理理念之變遷",
+    "護理倫理與法律應有的基本認識",
+    "健康與疾病",
+    "護理的範圍及工作模式",
+    "護理專業核心素養"
+   ]
+  },
+  "基護-Ch02醫療環境": {
+   "missing": [
+    "醫療環境的控制",
+    "護理技術之概念",
+    "病人的環境－病人單位"
+   ]
+  },
+  "基護-Ch03觀察與溝通": {
+   "missing": [
+    "觀察",
+    "溝通",
+    "專業性人際關係"
+   ]
+  },
+  "基護-Ch04護理記錄": {
+   "missing": [
+    "記錄的基本概念",
+    "護理記錄的方法",
+    "病歷的內容及保存",
+    "醫囑"
+   ]
+  },
+  "基護-Ch05感染控制": {
+   "missing": []
+  },
+  "基護-Ch06護理過程": {
+   "missing": [
+    "護理過程的基本概念",
+    "護理過程的步驟",
+    "護理計畫表單與記錄範例"
+   ]
+  },
+  "基護-Ch07舒適的需要": {
+   "missing": [
+    "身體清潔的重要性與清潔方法",
+    "舒適姿勢與常見臥位"
+   ]
+  },
+  "基護-Ch08活動與運動": {
+   "missing": [
+    "滿足活動及運動需要的護理過程",
+    "活動及運動",
+    "身體對制動的反應"
+   ]
+  },
+  "基護-Ch09休息與睡眠": {
+   "missing": [
+    "休息與睡眠的基本概念",
+    "滿足睡眠需要的護理過程",
+    "睡眠紊亂／障礙常見的型態"
+   ]
+  },
+  "基護-Ch10生命徵象": {
+   "missing": [
+    "體溫",
+    "脈搏",
+    "呼吸",
+    "氧氣治療與呼吸道清潔技術"
+   ]
+  },
+  "基護-Ch11冷熱療法": {
+   "missing": [
+    "用冷用熱的生理變化",
+    "冷熱療法的護理過程",
+    "冷熱應用"
+   ]
+  },
+  "基護-Ch12營養的需要": {
+   "missing": [
+    "營養的基本概念",
+    "營養需要的護理過程",
+    "飲食治療"
+   ]
+  },
+  "基護-Ch13給藥法": {
+   "missing": [
+    "給藥的護理過程",
+    "藥物治療基本概述",
+    "給藥途徑",
+    "給藥系統與藥物管理"
+   ]
+  },
+  "基護-Ch14體液供給": {
+   "missing": [
+    "酸鹼平衡與其調節機轉",
+    "體液供給的護理過程",
+    "體液的概述"
+   ]
+  },
+  "基護-Ch15排泄需要": {
+   "missing": [
+    "腸道排泄需要"
+   ]
+  },
+  "基護-Ch16繃帶束帶的運用": {
+   "missing": [
+    "繃帶、束帶包紮的護理過程應用",
+    "繃帶的運用",
+    "束帶的應用"
+   ]
+  },
+  "基護-Ch17臨終病人的護理": {
+   "missing": [
+    "瀕死與死亡的定義",
+    "臨終病人之護理",
+    "護理人員本身對死亡的反應"
+   ]
+  },
+  "基護-Ch18出入院護理與檢體收集": {
+   "missing": [
+    "入院病人護理",
+    "轉出與出院病人護理"
+   ]
+  },
+  "行政-Ch01緒論與管理理論": {
+   "missing": []
+  },
+  "行政-Ch02規劃與營運決策": {
+   "missing": []
+  },
+  "行政-Ch03組織結構與照護模式": {
+   "missing": []
+  },
+  "行政-Ch04人力資源管理與排班": {
+   "missing": []
+  },
+  "行政-Ch05領導統御與溝通激勵": {
+   "missing": []
+  },
+  "行政-Ch06財務預算與成本控制": {
+   "missing": []
+  },
+  "行政-Ch07護理品質管理與護理資訊": {
+   "missing": []
+  },
+  "行政-Ch08倫理法律與醫院安全環境": {
+   "missing": []
+  },
+  "內外-Ch01緒論、老年人與瀕死護理": {
+   "missing": [
+    "成人健康護理基本概念",
+    "老年人護理"
+   ]
+  },
+  "內外-Ch02免疫系統疾病": {
+   "missing": [
+    "免疫系統基本概念",
+    "過敏反應疾病"
+   ]
+  },
+  "內外-Ch03癌症護理": {
+   "missing": []
+  },
+  "內外-Ch04體液、電解質與酸鹼不平衡之護理": {
+   "missing": [
+    "體液與電解質不平衡"
+   ]
+  },
+  "內外-Ch05傳染病": {
+   "missing": [
+    "傳染病基本概念"
+   ]
+  },
+  "內外-Ch06急重症與疼痛護理": {
+   "missing": [
+    "重症護理"
+   ]
+  },
+  "內外-Ch07消化系統疾病": {
+   "missing": [
+    "口腔與食道疾病"
+   ]
+  },
+  "內外-Ch08內分泌系統疾病": {
+   "missing": [
+    "內分泌腺體與激素總論",
+    "腦下垂體與下視丘疾病",
+    "甲狀腺與副甲狀腺疾病",
+    "腎上腺疾病"
+   ]
+  },
+  "內外-Ch09呼吸系統疾病": {
+   "missing": [
+    "呼吸系統評估與診療處置",
+    "下呼吸道通道病變",
+    "胸廓與肋膜病變"
+   ]
+  },
+  "內外-Ch10腎臟與泌尿系統疾病": {
+   "missing": []
+  },
+  "內外-Ch11生殖系統疾病": {
+   "missing": [
+    "女性生殖系統疾病",
+    "男性生殖系統疾病",
+    "性學、性健康與性傳染疾病"
+   ]
+  },
+  "內外-Ch12皮膚疾病": {
+   "missing": [
+    "皮膚系統基本概念",
+    "皮膚特殊損傷與腫瘤",
+    "燒傷與整形重建護理"
+   ]
+  },
+  "內外-Ch13心血管系統疾病": {
+   "missing": [
+    "心臟基本概念與評估"
+   ]
+  },
+  "內外-Ch14血液系統疾病": {
+   "missing": [
+    "血液系統基本概念",
+    "紅血球疾病",
+    "血小板與凝血疾病"
+   ]
+  },
+  "內外-Ch15神經系統疾病": {
+   "missing": [
+    "神經系統基本概念與評估",
+    "神經系統常見問題",
+    "神經系統創傷",
+    "腦血管疾病",
+    "神經系統退化性疾病",
+    "其他腦神經疾病與特殊問題"
+   ]
+  },
+  "內外-Ch16肌肉骨骼系統疾病": {
+   "missing": [
+    "肌肉骨骼系統基本概念",
+    "肌肉骨骼創傷與處理",
+    "特定肌肉骨骼疾病",
+    "肌肉骨骼系統功能不良病人之處理"
+   ]
+  },
+  "內外-Ch17感覺機能與眼耳鼻喉科疾病": {
+   "missing": [
+    "眼睛疾病與護理",
+    "耳朵疾病與護理"
+   ]
+  },
+  "產科-Ch01緒論": {
+   "missing": [
+    "產科護理的倫理和法律觀",
+    "產科史的發展",
+    "以家庭為中心的周產期照護",
+    "母親及嬰兒生命統計",
+    "產科護理人員的角色"
+   ]
+  },
+  "產科-Ch02生殖系統及受孕": {
+   "missing": [
+    "生殖內分泌機轉",
+    "受精與胚胎分化",
+    "女性生殖系統",
+    "避孕與家庭計畫",
+    "不孕症與人工生殖"
+   ]
+  },
+  "產科-Ch03妊娠期的診斷與評估": {
+   "missing": [
+    "妊娠診斷與孕期評估",
+    "產前檢查",
+    "產前胎兒監測與診斷技術"
+   ]
+  },
+  "產科-Ch04妊娠期婦女的生理及心理變化": {
+   "missing": [
+    "懷孕時生理變化",
+    "懷孕時心理變化"
+   ]
+  },
+  "產科-Ch05妊娠期之護理": {
+   "missing": [
+    "懷孕時常見不適之處理",
+    "妊娠期間常見問題及處理",
+    "妊娠期的營養",
+    "生產準備"
+   ]
+  },
+  "產科-Ch06分娩過程與娩出階段": {
+   "missing": [
+    "分娩機轉（胎兒位置改變）",
+    "影響分娩的因素",
+    "母體與胎兒對分娩的反應",
+    "分娩開始與產兆",
+    "分娩與娩出階段"
+   ]
+  },
+  "產科-Ch07待產及分娩期之護理評估及護理": {
+   "missing": [
+    "分娩期護理評估",
+    "分娩期護理活動"
+   ]
+  },
+  "產科-Ch08產後期之護理": {
+   "missing": [
+    "產後的生理調適",
+    "產後評估",
+    "產後護理措施",
+    "產後心理調適"
+   ]
+  },
+  "產科-Ch09新生兒的評估與護理": {
+   "missing": [
+    "成熟度評估",
+    "生理的調適",
+    "評估與監測",
+    "新生兒立即護理",
+    "新生兒篩檢與日常照護"
+   ]
+  },
+  "產科-Ch10高危險妊娠之護理": {
+   "missing": [
+    "高危險妊娠定義與因素",
+    "伴隨懷孕發生的內科疾病",
+    "Rh因子與ABO血型不合",
+    "早產與安胎照護"
+   ]
+  },
+  "產科-Ch11分娩期異常之護理": {
+   "missing": [
+    "功能不良性分娩",
+    "子宮方面的問題",
+    "異常胎產式",
+    "胎兒異常與多胞胎",
+    "羊水方面的問題",
+    "胎盤和臍帶異常與胎兒窘迫",
+    "引產與產科手術處置"
+   ]
+  },
+  "產科-Ch12產後期異常之護理": {
+   "missing": [
+    "產後出血",
+    "子宮復舊不全",
+    "血栓栓塞性疾病",
+    "產後心理異常"
+   ]
+  },
+  "產科-Ch13婦科常見疾病": {
+   "missing": [
+    "常見的婦科手術、檢查及其護理",
+    "女陰的疾病",
+    "子宮疾病",
+    "壓力性尿失禁",
+    "月經問題"
+   ]
+  },
+  "兒科-Ch01緒論": {
+   "missing": [
+    "兒科護理的基本概念",
+    "兒科護理的起源與發展"
+   ]
+  },
+  "兒科-Ch02兒童的生長與發展": {
+   "missing": [
+    "生理發展",
+    "心理社會與認知發展",
+    "氣質、發展篩檢與特殊問題",
+    "兒童的營養需求"
+   ]
+  },
+  "兒科-Ch03新生兒及其護理": {
+   "missing": [
+    "新生兒特徵與評估",
+    "新生兒餵食",
+    "新生兒常見健康問題及其護理",
+    "先天性代謝異常之篩檢及護理"
+   ]
+  },
+  "兒科-Ch04高危險新生兒之護理": {
+   "missing": [
+    "早產兒之護理",
+    "常見之高危險性新生兒疾病"
+   ]
+  },
+  "兒科-Ch05住院兒童之反應及其護理": {
+   "missing": [
+    "住院兒童的壓力反應",
+    "協助兒童及家庭因應住院壓力",
+    "住院過程中的護理"
+   ]
+  },
+  "兒科-Ch06瀕死兒童之護理": {
+   "missing": [
+    "兒童對死亡的概念",
+    "對瀕死兒童及其家庭之護理"
+   ]
+  },
+  "兒科-Ch07兒童傳染病": {
+   "missing": [
+    "傳染病兒童之健康評估",
+    "細菌性感染"
+   ]
+  },
+  "兒科-Ch08兒童呼吸系統疾病": {
+   "missing": [
+    "兒童呼吸系統之解剖生理與評估",
+    "呼吸系統常見治療及護理",
+    "其他常見呼吸系統疾病"
+   ]
+  },
+  "兒科-Ch09兒童循環系統疾病": {
+   "missing": [
+    "兒童循環系統之解剖生理與評估",
+    "後天性心臟血管疾病"
+   ]
+  },
+  "兒科-Ch10兒童血液疾病": {
+   "missing": [
+    "兒童血液系統之解剖生理與評估",
+    "貧血",
+    "凝血功能障礙",
+    "血液疾病遺傳模式比較"
+   ]
+  },
+  "兒科-Ch11兒童消化系統疾病": {
+   "missing": [
+    "兒童消化系統之解剖生理與評估",
+    "先天性消化道疾病",
+    "其他消化道疾病與肝膽胰疾病"
+   ]
+  },
+  "兒科-Ch12兒童泌尿生殖系統疾病": {
+   "missing": []
+  },
+  "兒科-Ch13兒童神經系統疾病": {
+   "missing": [
+    "兒童神經系統之解剖生理與評估",
+    "顱內壓增高"
+   ]
+  },
+  "兒科-Ch14兒童免疫及肌肉骨骼系統疾病": {
+   "missing": [
+    "兒童免疫系統疾病",
+    "兒童肌肉骨骼系統疾病"
+   ]
+  },
+  "兒科-Ch15兒童內分泌系統疾病與慢性病": {
+   "missing": []
+  },
+  "兒科-Ch16兒童事故傷害及其護理": {
+   "missing": [
+    "事故傷害的預防",
+    "常見傷害種類及其護理",
+    "嬰幼兒急救與護理重點"
+   ]
+  },
+  "兒科-Ch17兒童、青少年發展及心理社會健康問題之護理": {
+   "missing": [
+    "常見的發展、心理健康問題及護理",
+    "兒童虐待"
+   ]
+  },
+  "兒科-Ch18兒童癌症": {
+   "missing": []
+  },
+  "精神-Ch01精神醫學與護理的發展史及基本概念": {
+   "missing": [
+    "精神衛生護理發展史與演進",
+    "精神衛生護理的理論模式"
+   ]
+  },
+  "精神-Ch02精神科護理的倫理與法律觀": {
+   "missing": [
+    "護理倫理與倫理原則",
+    "護理人員的法律權利與責任"
+   ]
+  },
+  "精神-Ch03精神疾病的病因、症狀、診斷與分類": {
+   "missing": [
+    "精神狀態評估",
+    "精神科護理評估"
+   ]
+  },
+  "精神-Ch04治療性溝通與人際關係": {
+   "missing": [
+    "治療性人際關係",
+    "觀察與記錄"
+   ]
+  },
+  "精神-Ch05肌體治療": {
+   "missing": [
+    "其他肌體治療"
+   ]
+  },
+  "精神-Ch06精神科常用的治療方法": {
+   "missing": [
+    "個別心理治療",
+    "行為治療與認知治療",
+    "家庭治療",
+    "團體治療",
+    "環境治療",
+    "活動治療"
+   ]
+  },
+  "精神-Ch07思考障礙病人的護理": {
+   "missing": []
+  },
+  "精神-Ch08雙相情緒障礙症病人的護理": {
+   "missing": []
+  },
+  "精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理": {
+   "missing": [
+    "焦慮症",
+    "強迫症及相關障礙症",
+    "創傷及壓力相關障礙症",
+    "病因、治療原則與預後",
+    "護理處置"
+   ]
+  },
+  "精神-Ch10身體症狀障礙症與解離症病人的護理": {
+   "missing": [
+    "身體症狀及相關障礙症",
+    "解離症",
+    "護理處置"
+   ]
+  },
+  "精神-Ch11人格障礙病人的護理": {
+   "missing": [
+    "人格構造與人格發展理論",
+    "A群人格障礙症",
+    "B群人格障礙症",
+    "C群人格障礙症",
+    "護理處置"
+   ]
+  },
+  "精神-Ch12其他精神科疾病的護理": {
+   "missing": [
+    "認知類障礙症",
+    "物質相關及成癮障礙症",
+    "兒童及青少年精神疾病"
+   ]
+  },
+  "精神-Ch13危機處理與意外事件的護理": {
+   "missing": [
+    "暴力事件的護理",
+    "精神科病房常見意外事件與家庭暴力"
+   ]
+  },
+  "社區-Ch01緒論與衛生行政體系": {
+   "missing": [
+    "社區衛生護理緒論",
+    "臺灣衛生行政組織",
+    "臺灣健康照護體系",
+    "全民健康保險制度",
+    "健康照護經濟",
+    "健康政策與社區衛生護理人員的參與",
+    "公共衛生護理與健康不平等"
+   ]
+  },
+  "社區-Ch02流行病學": {
+   "missing": [
+    "流行病學緒論",
+    "疾病的致病模式",
+    "流行病學研究方法",
+    "因果關係的判定與應用"
+   ]
+  },
+  "社區-Ch03生命統計": {
+   "missing": [
+    "生命統計基本概念",
+    "疾病與死亡統計",
+    "比率的類型與標準化",
+    "其他常用生命統計指標",
+    "生命統計在社區衛生護理的應用"
+   ]
+  },
+  "社區-Ch04衛生教育與健康促進": {
+   "missing": [
+    "健康促進與衛生教育的定義與目的",
+    "國內外重要的政策和會議",
+    "健康促進與衛生教育理論模式",
+    "衛生教育的學習範圍、原則與方法",
+    "社區衛生護理人員的專業功能與展望",
+    "衛生教育應用實例"
+   ]
+  },
+  "社區-Ch05社區評估與社區健康營造": {
+   "missing": [
+    "社區健康評估",
+    "以社區為對象之護理過程",
+    "社區概說",
+    "社區健康營造"
+   ]
+  },
+  "社區-Ch06家庭評估與護理": {
+   "missing": [
+    "家庭評估",
+    "家庭護理過程",
+    "家庭與家庭護理概論"
+   ]
+  },
+  "社區-Ch07婦幼衛生": {
+   "missing": [
+    "婦幼衛生概論",
+    "生育保健",
+    "兒童及青少年健康照護"
+   ]
+  },
+  "社區-Ch08中老年人的護理": {
+   "missing": [
+    "老年人與老化",
+    "老人的照顧",
+    "中老年保健政策",
+    "社區衛生護理人員在老人護理方面的職責"
+   ]
+  },
+  "社區-Ch09慢性疾病的護理": {
+   "missing": [
+    "慢性病概論"
+   ]
+  },
+  "社區-Ch10長期照護": {
+   "missing": [
+    "長期照護需求評估",
+    "長期照護概論",
+    "長期照護服務的模式及類型",
+    "現行長期照護服務",
+    "居家照護",
+    "護理人員在長期照護的角色與功能",
+    "出院準備服務"
+   ]
+  },
+  "社區-Ch11社區心理衛生與護理": {
+   "missing": [
+    "社區心理衛生與健康的意義與特性",
+    "社區心理衛生及護理的發展",
+    "心理健康促進",
+    "社區心理衛生實證服務模式"
+   ]
+  },
+  "社區-Ch12學校衛生與護理": {
+   "missing": [
+    "學校衛生行政組織",
+    "學校衛生工作模式",
+    "學校衛生工作項目及內容",
+    "學校護理實務框架、實作標準及角色功能"
+   ]
+  },
+  "社區-Ch13職業衛生與護理": {
+   "missing": [
+    "職業健康護理之目的及意義",
+    "職業安全衛生之行政組織、相關法令與諮詢資源",
+    "職業或工作相關傷病",
+    "職業健康護理工作內容",
+    "職業健康護理人員之角色、功能與展望"
+   ]
+  },
+  "社區-Ch14傳染病防治與護理": {
+   "missing": [
+    "傳染病管制工作現況"
+   ]
+  },
+  "社區-Ch15環境衛生與食品衛生": {
+   "missing": [
+    "環境衛生涵蓋的內容",
+    "公害防治",
+    "氣候變遷與健康調適",
+    "社區衛生護理人員在環境衛生工作中之職責"
+   ]
+  }
+ }
+}

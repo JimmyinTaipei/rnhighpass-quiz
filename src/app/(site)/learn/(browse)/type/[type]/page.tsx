@@ -59,13 +59,13 @@ export default async function LearnTypePage(props: PageProps<"/learn/type/[type]
         <ChevronRight size={14} />
         <span>依類型</span>
       </nav>
-      <h1 className="mb-1 text-3xl font-bold text-deep">{t.label}</h1>
+      <h1 className="mb-1 text-3xl font-bold text-strong">{t.label}</h1>
       <p className="mb-6 text-sm text-muted">
         {articles.length} 篇・分佈在 {sections.length} 個分類
       </p>
 
       {articles.length === 0 && (
-        <p className="rounded-card border border-card-border bg-card p-6 text-sm text-muted">此類型的內容即將加入。</p>
+        <p className="rounded-card bg-card p-6 text-sm text-muted">此類型的內容即將加入。</p>
       )}
 
       {sections.map(({ d, count, grouped, ungrouped }) => (

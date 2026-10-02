@@ -5,6 +5,8 @@ aliases: [肺癌, Lung cancer, 支氣管癌, 非小細胞肺癌, NSCLC, 小細�
 dzTags: [肺癌]
 system: oncology
 alsoIn: [respiratory, community]
+chapters:
+  - 病理-Ch11呼吸系統疾病 > 肺部腫瘤與肉芽腫性疾病
 reviewed: false
 updated: 2026-09-27
 references:

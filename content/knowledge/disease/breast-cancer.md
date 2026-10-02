@@ -5,6 +5,12 @@ aliases: [乳癌, 乳房癌, Breast cancer, 乳房腫瘤, 乳房切除術, 改�
 dzTags: [乳癌, 乳房良性腫瘤]
 system: oncology
 alsoIn: [reproductive, community]
+chapters:
+  - 病理-Ch15生殖系統與乳房疾病 > 乳房疾病
+  - 內外-Ch03癌症護理 > 癌症預防、診斷與分期
+  - 內外-Ch11生殖系統疾病 > 乳房疾病
+  - 產科-Ch13婦科常見疾病 > 乳房疾病
+  - 社區-Ch07婦幼衛生 > 婦女健康保健
 reviewed: false
 updated: 2026-09-27
 references:

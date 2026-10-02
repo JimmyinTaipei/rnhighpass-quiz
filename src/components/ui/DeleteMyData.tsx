@@ -30,7 +30,7 @@ export function DeleteMyData() {
         <input
           value={text}
           onChange={(e) => setText(e.target.value)}
-          className="w-28 rounded-btn border border-card-border bg-card px-2 py-1.5"
+          className="w-28 rounded-btn bg-fill px-2 py-1.5"
           aria-label="輸入「刪除」確認"
         />
         <button

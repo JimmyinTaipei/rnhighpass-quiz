@@ -122,7 +122,7 @@ export function LearnSidebar({ domains, types }: { domains: TaxonomyDomain[]; ty
 
   return (
     <>
-      <details className="group rounded-card border border-card-border bg-card p-2 lg:hidden">
+      <details className="group rounded-card bg-card p-2 lg:hidden">
         <summary className="flex cursor-pointer list-none items-center justify-between px-2 py-1 text-sm font-semibold text-deep [&::-webkit-details-marker]:hidden">
           瀏覽分類{currentName && `:${currentName}`}
           <ChevronDown size={16} className="transition-transform group-open:rotate-180" />

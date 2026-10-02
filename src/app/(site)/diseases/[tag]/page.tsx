@@ -12,8 +12,6 @@ import {
 } from "@/lib/data";
 import { getDevMode } from "@/lib/dev-mode";
 import { articlesForDiseaseTag } from "@/lib/knowledge";
-import { parseViewMode } from "@/lib/view-mode";
-import { QuestionBriefCard } from "@/components/reading/QuestionBriefCard";
 
 /**
  * 單一疾病標籤的題目(demo)。
@@ -50,9 +48,6 @@ export default async function DiseaseTagPage(props: PageProps<"/diseases/[tag]">
   const kbMain = kbArticles.filter((a) => a.category === "disease");
   const kbOther = kbArticles.filter((a) => a.category !== "disease");
 
-  const view = parseViewMode(
-    typeof searchParams.view === "string" ? searchParams.view : undefined,
-  );
   const reveal = searchParams.reveal === "1";
 
   return (
@@ -88,31 +83,24 @@ export default async function DiseaseTagPage(props: PageProps<"/diseases/[tag]">
       )}
 
       <div className="mb-6 flex flex-wrap items-center gap-3">
-        <ViewControls view={view} reveal={reveal} />
+        {/* 疾病頁只有題目瀏覽：只剩「直接顯示答案」開關 */}
+        <ViewControls view="quiz" reveal={reveal} modes={["quiz"]} />
         <span className="text-sm text-muted">{questions.length} 題</span>
       </div>
 
-      {view === "card" ? (
-        <div className="grid gap-3 md:grid-cols-2">
-          {questions.map((q) => (
-            <QuestionBriefCard key={q.id} question={q} />
-          ))}
-        </div>
-      ) : (
-        questions.map((q) => (
-          <QuestionCard
-            key={q.id}
-            question={q}
-            mode="tag"
-            isLoggedIn={!!user}
-            browseMode={reveal}
-            tables={tablesByQuestion.get(q.id)}
-            otherChapters={otherChaptersByQuestion.get(q.id)}
-            diseaseTags={diseaseTagsByQuestion.get(q.id)}
-            devMode={devMode}
-          />
-        ))
-      )}
+      {questions.map((q) => (
+        <QuestionCard
+          key={q.id}
+          question={q}
+          mode="tag"
+          isLoggedIn={!!user}
+          browseMode={reveal}
+          tables={tablesByQuestion.get(q.id)}
+          otherChapters={otherChaptersByQuestion.get(q.id)}
+          diseaseTags={diseaseTagsByQuestion.get(q.id)}
+          devMode={devMode}
+        />
+      ))}
     </div>
   );
 }

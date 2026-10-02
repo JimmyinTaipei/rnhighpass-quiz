@@ -1,5 +1,154 @@
 [
   {
+    "id": "measles-virus",
+    "name": "麻疹病毒",
+    "names": [
+      "麻疹病毒",
+      "Measles virus",
+      "Rubeola virus"
+    ],
+    "target": "childhood-infectious-diseases#measles-virus"
+  },
+  {
+    "id": "rubella-virus",
+    "name": "德國麻疹病毒",
+    "names": [
+      "德國麻疹病毒",
+      "Rubella virus",
+      "風疹病毒"
+    ],
+    "target": "childhood-infectious-diseases#rubella-virus"
+  },
+  {
+    "id": "mumps-virus",
+    "name": "腮腺炎病毒",
+    "names": [
+      "腮腺炎病毒",
+      "Mumps virus",
+      "流行性腮腺炎病毒"
+    ],
+    "target": "childhood-infectious-diseases#mumps-virus"
+  },
+  {
+    "id": "enteroviruses",
+    "name": "腸病毒",
+    "names": [
+      "腸病毒",
+      "Enterovirus",
+      "腸病毒群",
+      "克沙奇病毒",
+      "Coxsackievirus",
+      "伊科病毒",
+      "Echovirus",
+      "腸病毒 71 型",
+      "EV71",
+      "EV-A71",
+      "腸病毒 D68 型"
+    ],
+    "target": "childhood-infectious-diseases#enteroviruses"
+  },
+  {
+    "id": "human-immunodeficiency-virus",
+    "name": "人類免疫缺乏病毒",
+    "names": [
+      "人類免疫缺乏病毒",
+      "HIV",
+      "HIV-1",
+      "HIV-2",
+      "愛滋病毒",
+      "人類免疫不全病毒",
+      "人類免疫缺陷病毒",
+      "人類免疫缺失病毒",
+      "Human immunodeficiency virus"
+    ],
+    "target": "hiv-aids#human-immunodeficiency-virus"
+  },
+  {
+    "id": "influenza-virus",
+    "name": "流行性感冒病毒",
+    "names": [
+      "流行性感冒病毒",
+      "Influenza virus",
+      "流感病毒",
+      "A 型流感病毒",
+      "B 型流感病毒",
+      "流行性感冒"
+    ],
+    "target": "respiratory-viral-infections#influenza-virus"
+  },
+  {
+    "id": "novel-influenza-a",
+    "name": "新型 A 型流感病毒",
+    "names": [
+      "新型 A 型流感病毒",
+      "Novel influenza A virus",
+      "禽流感病毒",
+      "H5N1",
+      "H7N9",
+      "新型A型流感"
+    ],
+    "target": "respiratory-viral-infections#novel-influenza-a"
+  },
+  {
+    "id": "sars-cov-2",
+    "name": "新型冠狀病毒",
+    "names": [
+      "新型冠狀病毒",
+      "SARS-CoV-2",
+      "COVID-19",
+      "嚴重特殊傳染性肺炎",
+      "新冠病毒",
+      "2019 冠狀病毒"
+    ],
+    "target": "respiratory-viral-infections#sars-cov-2"
+  },
+  {
+    "id": "sars-cov",
+    "name": "SARS 冠狀病毒",
+    "names": [
+      "SARS 冠狀病毒",
+      "SARS-CoV",
+      "SARS 病毒",
+      "嚴重急性呼吸道症候群冠狀病毒"
+    ],
+    "target": "respiratory-viral-infections#sars-cov"
+  },
+  {
+    "id": "mers-cov",
+    "name": "MERS 冠狀病毒",
+    "names": [
+      "MERS 冠狀病毒",
+      "MERS-CoV",
+      "中東呼吸症候群冠狀病毒"
+    ],
+    "target": "respiratory-viral-infections#mers-cov"
+  },
+  {
+    "id": "treponema-pallidum",
+    "name": "梅毒螺旋體",
+    "names": [
+      "梅毒螺旋體",
+      "Treponema pallidum",
+      "梅毒螺旋菌",
+      "蒼白密螺旋體",
+      "T. pallidum"
+    ],
+    "target": "sexually-transmitted-infections#treponema-pallidum"
+  },
+  {
+    "id": "neisseria-gonorrhoeae",
+    "name": "淋病雙球菌",
+    "names": [
+      "淋病雙球菌",
+      "Neisseria gonorrhoeae",
+      "奈瑟氏淋病雙球菌",
+      "淋菌",
+      "淋病奈瑟菌",
+      "N. gonorrhoeae"
+    ],
+    "target": "sexually-transmitted-infections#neisseria-gonorrhoeae"
+  },
+  {
     "id": "mycobacterium-tuberculosis",
     "name": "結核分枝桿菌",
     "names": [
@@ -12,5 +161,1490 @@
       "MTB"
     ],
     "target": "tuberculosis#mycobacterium-tuberculosis"
+  },
+  {
+    "id": "dengue-virus",
+    "name": "登革病毒",
+    "names": [
+      "登革病毒",
+      "Dengue virus",
+      "登革熱病毒",
+      "登革熱"
+    ],
+    "target": "vector-borne-zoonotic#dengue-virus"
+  },
+  {
+    "id": "japanese-encephalitis-virus",
+    "name": "日本腦炎病毒",
+    "names": [
+      "日本腦炎病毒",
+      "Japanese encephalitis virus",
+      "JEV",
+      "日本腦炎"
+    ],
+    "target": "vector-borne-zoonotic#japanese-encephalitis-virus"
+  },
+  {
+    "id": "zika-virus",
+    "name": "茲卡病毒",
+    "names": [
+      "茲卡病毒",
+      "Zika virus",
+      "茲卡"
+    ],
+    "target": "vector-borne-zoonotic#zika-virus"
+  },
+  {
+    "id": "chikungunya-virus",
+    "name": "屈公病毒",
+    "names": [
+      "屈公病毒",
+      "Chikungunya virus",
+      "屈公病",
+      "屈公病病毒"
+    ],
+    "target": "vector-borne-zoonotic#chikungunya-virus"
+  },
+  {
+    "id": "yellow-fever-virus",
+    "name": "黃熱病毒",
+    "names": [
+      "黃熱病毒",
+      "Yellow fever virus",
+      "黃熱病病毒"
+    ],
+    "target": "vector-borne-zoonotic#yellow-fever-virus"
+  },
+  {
+    "id": "west-nile-virus",
+    "name": "西尼羅病毒",
+    "names": [
+      "西尼羅病毒",
+      "West Nile virus",
+      "西尼羅熱病毒"
+    ],
+    "target": "vector-borne-zoonotic#west-nile-virus"
+  },
+  {
+    "id": "sfts-virus",
+    "name": "發熱伴血小板減少綜合症病毒",
+    "names": [
+      "發熱伴血小板減少綜合症病毒",
+      "SFTS virus",
+      "SFTSV",
+      "Dabie bandavirus",
+      "大別班達病毒"
+    ],
+    "target": "vector-borne-zoonotic#sfts-virus"
+  },
+  {
+    "id": "hepatitis-a-virus",
+    "name": "A 型肝炎病毒",
+    "names": [
+      "A 型肝炎病毒",
+      "Hepatitis A virus",
+      "HAV",
+      "A型肝炎病毒",
+      "腸病毒 72 型"
+    ],
+    "target": "viral-hepatitis#hepatitis-a-virus"
+  },
+  {
+    "id": "hepatitis-b-virus",
+    "name": "B 型肝炎病毒",
+    "names": [
+      "B 型肝炎病毒",
+      "Hepatitis B virus",
+      "HBV",
+      "B型肝炎病毒",
+      "B 肝病毒"
+    ],
+    "target": "viral-hepatitis#hepatitis-b-virus"
+  },
+  {
+    "id": "hepatitis-c-virus",
+    "name": "C 型肝炎病毒",
+    "names": [
+      "C 型肝炎病毒",
+      "Hepatitis C virus",
+      "HCV",
+      "C型肝炎病毒",
+      "C 肝病毒"
+    ],
+    "target": "viral-hepatitis#hepatitis-c-virus"
+  },
+  {
+    "id": "hepatitis-d-virus",
+    "name": "D 型肝炎病毒",
+    "names": [
+      "D 型肝炎病毒",
+      "Hepatitis D virus",
+      "HDV",
+      "D型肝炎病毒",
+      "δ 病原",
+      "Delta agent",
+      "丁型肝炎病毒"
+    ],
+    "target": "viral-hepatitis#hepatitis-d-virus"
+  },
+  {
+    "id": "hepatitis-e-virus",
+    "name": "E 型肝炎病毒",
+    "names": [
+      "E 型肝炎病毒",
+      "Hepatitis E virus",
+      "HEV",
+      "E型肝炎病毒"
+    ],
+    "target": "viral-hepatitis#hepatitis-e-virus"
+  },
+  {
+    "id": "clostridioides-difficile",
+    "name": "困難梭狀桿菌",
+    "names": [
+      "困難梭狀桿菌",
+      "Clostridioides difficile",
+      "Clostridium difficile",
+      "C. difficile",
+      "C. diff",
+      "困難梭菌",
+      "困難梭孢桿菌"
+    ],
+    "target": "anaerobes#clostridioides-difficile"
+  },
+  {
+    "id": "clostridium-perfringens",
+    "name": "產氣莢膜梭菌",
+    "names": [
+      "產氣莢膜梭菌",
+      "Clostridium perfringens",
+      "C. perfringens",
+      "產氣梭孢桿菌",
+      "產氣梭狀桿菌",
+      "產氣莢膜桿菌"
+    ],
+    "target": "anaerobes#clostridium-perfringens"
+  },
+  {
+    "id": "bacteroides-fragilis",
+    "name": "鬆脆類桿菌",
+    "names": [
+      "鬆脆類桿菌",
+      "Bacteroides fragilis",
+      "Bacteroides",
+      "類桿菌",
+      "鬆脆桿菌",
+      "鬆脆性類桿菌"
+    ],
+    "target": "anaerobes#bacteroides-fragilis"
+  },
+  {
+    "id": "actinomyces",
+    "name": "放線菌",
+    "names": [
+      "放線菌",
+      "Actinomyces",
+      "Actinomyces israelii",
+      "放射菌"
+    ],
+    "target": "anaerobes#actinomyces"
+  },
+  {
+    "id": "cutibacterium-acnes",
+    "name": "痤瘡丙酸桿菌",
+    "names": [
+      "痤瘡丙酸桿菌",
+      "Cutibacterium acnes",
+      "Propionibacterium acnes",
+      "粉刺丙酸桿菌",
+      "痤瘡桿菌"
+    ],
+    "target": "anaerobes#cutibacterium-acnes"
+  },
+  {
+    "id": "borrelia-burgdorferi",
+    "name": "伯氏疏螺旋體",
+    "names": [
+      "伯氏疏螺旋體",
+      "Borrelia burgdorferi",
+      "萊姆病螺旋體",
+      "包氏疏螺旋體"
+    ],
+    "target": "atypical-bacteria#borrelia-burgdorferi"
+  },
+  {
+    "id": "borrelia-recurrentis",
+    "name": "回歸熱疏螺旋體",
+    "names": [
+      "回歸熱疏螺旋體",
+      "Borrelia recurrentis",
+      "回歸熱螺旋體",
+      "回歸熱包氏螺旋體",
+      "Borrelia",
+      "包氏螺旋體",
+      "疏螺旋體"
+    ],
+    "target": "atypical-bacteria#borrelia-recurrentis"
+  },
+  {
+    "id": "leptospira",
+    "name": "鉤端螺旋體",
+    "names": [
+      "鉤端螺旋體",
+      "Leptospira",
+      "Leptospira interrogans",
+      "鉤端螺旋菌"
+    ],
+    "target": "atypical-bacteria#leptospira"
+  },
+  {
+    "id": "mycoplasma-pneumoniae",
+    "name": "肺炎黴漿菌",
+    "names": [
+      "肺炎黴漿菌",
+      "Mycoplasma pneumoniae",
+      "M. pneumoniae",
+      "黴漿菌",
+      "Mycoplasma"
+    ],
+    "target": "atypical-bacteria#mycoplasma-pneumoniae"
+  },
+  {
+    "id": "orientia-tsutsugamushi",
+    "name": "恙蟲病東方體",
+    "names": [
+      "恙蟲病東方體",
+      "Orientia tsutsugamushi",
+      "恙蟲病立克次體",
+      "恙蟲病病原"
+    ],
+    "target": "atypical-bacteria#orientia-tsutsugamushi"
+  },
+  {
+    "id": "rickettsia-typhi",
+    "name": "斑疹傷寒立克次體",
+    "names": [
+      "斑疹傷寒立克次體",
+      "Rickettsia typhi",
+      "地方性斑疹傷寒病原",
+      "鼠型斑疹傷寒立克次體"
+    ],
+    "target": "atypical-bacteria#rickettsia-typhi"
+  },
+  {
+    "id": "rickettsia-prowazekii",
+    "name": "普氏立克次體",
+    "names": [
+      "普氏立克次體",
+      "Rickettsia prowazekii",
+      "流行性斑疹傷寒立克次體"
+    ],
+    "target": "atypical-bacteria#rickettsia-prowazekii"
+  },
+  {
+    "id": "rickettsia-rickettsii",
+    "name": "立氏立克次體",
+    "names": [
+      "立氏立克次體",
+      "Rickettsia rickettsii",
+      "立克次氏立克次體",
+      "洛磯山斑點熱病原"
+    ],
+    "target": "atypical-bacteria#rickettsia-rickettsii"
+  },
+  {
+    "id": "coxiella-burnetii",
+    "name": "伯納特柯克斯體",
+    "names": [
+      "伯納特柯克斯體",
+      "Coxiella burnetii",
+      "Q 熱病原",
+      "Q熱立克次體"
+    ],
+    "target": "atypical-bacteria#coxiella-burnetii"
+  },
+  {
+    "id": "chlamydia-trachomatis",
+    "name": "砂眼披衣菌",
+    "names": [
+      "砂眼披衣菌",
+      "Chlamydia trachomatis",
+      "C. trachomatis",
+      "披衣菌"
+    ],
+    "target": "atypical-bacteria#chlamydia-trachomatis"
+  },
+  {
+    "id": "chlamydophila-pneumoniae",
+    "name": "肺炎披衣菌",
+    "names": [
+      "肺炎披衣菌",
+      "Chlamydophila pneumoniae",
+      "Chlamydia pneumoniae"
+    ],
+    "target": "atypical-bacteria#chlamydophila-pneumoniae"
+  },
+  {
+    "id": "chlamydophila-psittaci",
+    "name": "鸚鵡熱披衣菌",
+    "names": [
+      "鸚鵡熱披衣菌",
+      "Chlamydophila psittaci",
+      "Chlamydia psittaci",
+      "鸚鵡披衣菌"
+    ],
+    "target": "atypical-bacteria#chlamydophila-psittaci"
+  },
+  {
+    "id": "candida-albicans",
+    "name": "白色念珠菌",
+    "names": [
+      "白色念珠菌",
+      "Candida albicans",
+      "C. albicans",
+      "念珠菌",
+      "念珠球菌",
+      "白色念珠球菌",
+      "Candida"
+    ],
+    "target": "candida#candida-albicans"
+  },
+  {
+    "id": "non-albicans-candida",
+    "name": "非白色念珠菌",
+    "names": [
+      "非白色念珠菌",
+      "克魯斯念珠菌",
+      "Candida krusei",
+      "光滑念珠菌",
+      "Candida glabrata",
+      "熱帶念珠菌",
+      "Candida tropicalis",
+      "近平滑念珠菌",
+      "Candida parapsilosis",
+      "耳念珠菌",
+      "Candida auris"
+    ],
+    "target": "candida#non-albicans-candida"
+  },
+  {
+    "id": "clostridium-botulinum",
+    "name": "肉毒桿菌",
+    "names": [
+      "肉毒桿菌",
+      "Clostridium botulinum",
+      "C. botulinum",
+      "臘腸桿菌",
+      "臘腸毒桿菌",
+      "肉毒梭狀桿菌",
+      "肉毒梭孢桿菌"
+    ],
+    "target": "clostridium-botulinum-tetani#clostridium-botulinum"
+  },
+  {
+    "id": "clostridium-tetani",
+    "name": "破傷風桿菌",
+    "names": [
+      "破傷風桿菌",
+      "Clostridium tetani",
+      "C. tetani",
+      "破傷風梭狀桿菌",
+      "破傷風梭孢桿菌",
+      "破傷風梭菌"
+    ],
+    "target": "clostridium-botulinum-tetani#clostridium-tetani"
+  },
+  {
+    "id": "adenovirus",
+    "name": "腺病毒",
+    "names": [
+      "腺病毒",
+      "Adenovirus",
+      "人類腺病毒"
+    ],
+    "target": "dna-viruses#adenovirus"
+  },
+  {
+    "id": "variola-virus",
+    "name": "天花病毒",
+    "names": [
+      "天花病毒",
+      "Variola virus",
+      "Smallpox virus"
+    ],
+    "target": "dna-viruses#variola-virus"
+  },
+  {
+    "id": "mpox-virus",
+    "name": "M 痘病毒",
+    "names": [
+      "M 痘病毒",
+      "Mpox virus",
+      "Monkeypox virus",
+      "猴痘病毒",
+      "M痘病毒"
+    ],
+    "target": "dna-viruses#mpox-virus"
+  },
+  {
+    "id": "molluscum-contagiosum-virus",
+    "name": "傳染性軟疣病毒",
+    "names": [
+      "傳染性軟疣病毒",
+      "Molluscum contagiosum virus",
+      "傳染性軟疣"
+    ],
+    "target": "dna-viruses#molluscum-contagiosum-virus"
+  },
+  {
+    "id": "parvovirus-b19",
+    "name": "微小病毒 B19",
+    "names": [
+      "微小病毒 B19",
+      "Parvovirus B19",
+      "人類微小病毒 B19",
+      "B19 病毒"
+    ],
+    "target": "dna-viruses#parvovirus-b19"
+  },
+  {
+    "id": "jc-virus",
+    "name": "JC 病毒",
+    "names": [
+      "JC 病毒",
+      "JC virus",
+      "JC 多瘤病毒",
+      "BK 病毒",
+      "BK virus",
+      "多瘤病毒",
+      "Polyomavirus"
+    ],
+    "target": "dna-viruses#jc-virus"
+  },
+  {
+    "id": "dermatophytes",
+    "name": "皮癬菌",
+    "names": [
+      "皮癬菌",
+      "Dermatophytes",
+      "毛髮癬菌",
+      "Trichophyton",
+      "小芽孢菌",
+      "小芽胞菌",
+      "Microsporum",
+      "表皮癬菌",
+      "Epidermophyton"
+    ],
+    "target": "fungi#dermatophytes"
+  },
+  {
+    "id": "malassezia",
+    "name": "馬拉色氏菌",
+    "names": [
+      "馬拉色氏菌",
+      "Malassezia",
+      "花斑癬菌",
+      "皮屑芽孢菌"
+    ],
+    "target": "fungi#malassezia"
+  },
+  {
+    "id": "cryptococcus-neoformans",
+    "name": "新型隱球菌",
+    "names": [
+      "新型隱球菌",
+      "Cryptococcus neoformans",
+      "Cryptococcus",
+      "隱球菌",
+      "新形囊球菌",
+      "囊球菌"
+    ],
+    "target": "fungi#cryptococcus-neoformans"
+  },
+  {
+    "id": "aspergillus",
+    "name": "麴菌",
+    "names": [
+      "麴菌",
+      "Aspergillus",
+      "麴黴菌",
+      "黃色麴菌",
+      "Aspergillus flavus",
+      "煙麴菌",
+      "Aspergillus fumigatus"
+    ],
+    "target": "fungi#aspergillus"
+  },
+  {
+    "id": "mucorales",
+    "name": "毛黴菌",
+    "names": [
+      "毛黴菌",
+      "Mucorales",
+      "Mucor",
+      "Rhizopus",
+      "接合菌",
+      "白黴菌"
+    ],
+    "target": "fungi#mucorales"
+  },
+  {
+    "id": "pneumocystis-jirovecii",
+    "name": "肺囊蟲",
+    "names": [
+      "肺囊蟲",
+      "Pneumocystis jirovecii",
+      "Pneumocystis carinii",
+      "卡氏肺囊蟲",
+      "肺囊蟲菌"
+    ],
+    "target": "fungi#pneumocystis-jirovecii"
+  },
+  {
+    "id": "dimorphic-fungi",
+    "name": "雙型性真菌",
+    "names": [
+      "雙型性真菌",
+      "Dimorphic fungi",
+      "組織胞漿菌",
+      "Histoplasma",
+      "球黴菌",
+      "粗球黴菌",
+      "Coccidioides",
+      "芽生菌",
+      "Blastomyces",
+      "孢子絲菌",
+      "申克氏孢子絲菌",
+      "Sporothrix schenckii"
+    ],
+    "target": "fungi#dimorphic-fungi"
+  },
+  {
+    "id": "neisseria-meningitidis",
+    "name": "腦膜炎雙球菌",
+    "names": [
+      "腦膜炎雙球菌",
+      "Neisseria meningitidis",
+      "N. meningitidis",
+      "腦膜炎球菌",
+      "奈瑟氏腦膜炎球菌"
+    ],
+    "target": "gram-negative-bacteria#neisseria-meningitidis"
+  },
+  {
+    "id": "escherichia-coli",
+    "name": "大腸桿菌",
+    "names": [
+      "大腸桿菌",
+      "Escherichia coli",
+      "E. coli",
+      "大腸菌",
+      "腸道出血性大腸桿菌",
+      "EHEC",
+      "STEC",
+      "O157:H7"
+    ],
+    "target": "gram-negative-bacteria#escherichia-coli"
+  },
+  {
+    "id": "salmonella",
+    "name": "沙門氏菌",
+    "names": [
+      "沙門氏菌",
+      "Salmonella",
+      "沙門氏桿菌",
+      "沙門桿菌",
+      "傷寒桿菌",
+      "傷寒沙門氏菌",
+      "Salmonella Typhi",
+      "副傷寒桿菌"
+    ],
+    "target": "gram-negative-bacteria#salmonella"
+  },
+  {
+    "id": "shigella",
+    "name": "志賀氏菌",
+    "names": [
+      "志賀氏菌",
+      "Shigella",
+      "志賀氏桿菌",
+      "痢疾桿菌",
+      "赤痢志賀氏菌",
+      "Shigella dysenteriae"
+    ],
+    "target": "gram-negative-bacteria#shigella"
+  },
+  {
+    "id": "klebsiella-pneumoniae",
+    "name": "克雷白氏肺炎桿菌",
+    "names": [
+      "克雷白氏肺炎桿菌",
+      "Klebsiella pneumoniae",
+      "Klebsiella",
+      "克雷白氏菌",
+      "克雷白氏桿菌",
+      "克雷伯氏菌",
+      "肺炎克雷白氏菌"
+    ],
+    "target": "gram-negative-bacteria#klebsiella-pneumoniae"
+  },
+  {
+    "id": "proteus-mirabilis",
+    "name": "奇異變形桿菌",
+    "names": [
+      "奇異變形桿菌",
+      "Proteus mirabilis",
+      "Proteus",
+      "變形桿菌"
+    ],
+    "target": "gram-negative-bacteria#proteus-mirabilis"
+  },
+  {
+    "id": "yersinia-pestis",
+    "name": "鼠疫桿菌",
+    "names": [
+      "鼠疫桿菌",
+      "Yersinia pestis",
+      "鼠疫耶氏桿菌",
+      "鼠疫亞辛氏菌"
+    ],
+    "target": "gram-negative-bacteria#yersinia-pestis"
+  },
+  {
+    "id": "pseudomonas-aeruginosa",
+    "name": "綠膿桿菌",
+    "names": [
+      "綠膿桿菌",
+      "Pseudomonas aeruginosa",
+      "P. aeruginosa",
+      "綠膿菌"
+    ],
+    "target": "gram-negative-bacteria#pseudomonas-aeruginosa"
+  },
+  {
+    "id": "acinetobacter-baumannii",
+    "name": "鮑氏不動桿菌",
+    "names": [
+      "鮑氏不動桿菌",
+      "Acinetobacter baumannii",
+      "不動桿菌"
+    ],
+    "target": "gram-negative-bacteria#acinetobacter-baumannii"
+  },
+  {
+    "id": "burkholderia-pseudomallei",
+    "name": "類鼻疽伯克氏菌",
+    "names": [
+      "類鼻疽伯克氏菌",
+      "Burkholderia pseudomallei",
+      "類鼻疽桿菌"
+    ],
+    "target": "gram-negative-bacteria#burkholderia-pseudomallei"
+  },
+  {
+    "id": "vibrio-cholerae",
+    "name": "霍亂弧菌",
+    "names": [
+      "霍亂弧菌",
+      "Vibrio cholerae",
+      "V. cholerae"
+    ],
+    "target": "gram-negative-bacteria#vibrio-cholerae"
+  },
+  {
+    "id": "vibrio-parahaemolyticus",
+    "name": "腸炎弧菌",
+    "names": [
+      "腸炎弧菌",
+      "Vibrio parahaemolyticus",
+      "V. parahaemolyticus"
+    ],
+    "target": "gram-negative-bacteria#vibrio-parahaemolyticus"
+  },
+  {
+    "id": "vibrio-vulnificus",
+    "name": "創傷弧菌",
+    "names": [
+      "創傷弧菌",
+      "Vibrio vulnificus",
+      "V. vulnificus"
+    ],
+    "target": "gram-negative-bacteria#vibrio-vulnificus"
+  },
+  {
+    "id": "campylobacter-jejuni",
+    "name": "空腸曲狀桿菌",
+    "names": [
+      "空腸曲狀桿菌",
+      "Campylobacter jejuni",
+      "曲狀桿菌",
+      "彎曲桿菌",
+      "空腸彎曲桿菌"
+    ],
+    "target": "gram-negative-bacteria#campylobacter-jejuni"
+  },
+  {
+    "id": "haemophilus-influenzae",
+    "name": "流行性感冒嗜血桿菌",
+    "names": [
+      "流行性感冒嗜血桿菌",
+      "Haemophilus influenzae",
+      "H. influenzae",
+      "流感嗜血桿菌",
+      "b 型嗜血桿菌",
+      "Hib",
+      "嗜血桿菌"
+    ],
+    "target": "gram-negative-bacteria#haemophilus-influenzae"
+  },
+  {
+    "id": "haemophilus-ducreyi",
+    "name": "杜克氏嗜血桿菌",
+    "names": [
+      "杜克氏嗜血桿菌",
+      "Haemophilus ducreyi",
+      "軟性下疳桿菌"
+    ],
+    "target": "gram-negative-bacteria#haemophilus-ducreyi"
+  },
+  {
+    "id": "bordetella-pertussis",
+    "name": "百日咳桿菌",
+    "names": [
+      "百日咳桿菌",
+      "Bordetella pertussis",
+      "百日咳博德氏菌",
+      "百日咳菌"
+    ],
+    "target": "gram-negative-bacteria#bordetella-pertussis"
+  },
+  {
+    "id": "legionella-pneumophila",
+    "name": "退伍軍人菌",
+    "names": [
+      "退伍軍人菌",
+      "Legionella pneumophila",
+      "退伍軍人桿菌",
+      "退伍軍人肺炎菌",
+      "肺炎退伍軍人症桿菌"
+    ],
+    "target": "gram-negative-bacteria#legionella-pneumophila"
+  },
+  {
+    "id": "francisella-tularensis",
+    "name": "土倫桿菌",
+    "names": [
+      "土倫桿菌",
+      "Francisella tularensis",
+      "法蘭西氏土倫桿菌",
+      "土倫法蘭西斯菌",
+      "土拉命斯桿菌",
+      "兔熱病菌"
+    ],
+    "target": "gram-negative-bacteria#francisella-tularensis"
+  },
+  {
+    "id": "brucella",
+    "name": "布氏桿菌",
+    "names": [
+      "布氏桿菌",
+      "Brucella",
+      "布魯氏桿菌"
+    ],
+    "target": "gram-negative-bacteria#brucella"
+  },
+  {
+    "id": "bartonella-henselae",
+    "name": "貓抓病桿菌",
+    "names": [
+      "貓抓病桿菌",
+      "Bartonella henselae",
+      "巴東氏菌",
+      "Bartonella"
+    ],
+    "target": "gram-negative-bacteria#bartonella-henselae"
+  },
+  {
+    "id": "pasteurella-multocida",
+    "name": "多殺性巴斯德桿菌",
+    "names": [
+      "多殺性巴斯德桿菌",
+      "Pasteurella multocida",
+      "巴斯德桿菌"
+    ],
+    "target": "gram-negative-bacteria#pasteurella-multocida"
+  },
+  {
+    "id": "coagulase-negative-staphylococci",
+    "name": "凝固酶陰性葡萄球菌",
+    "names": [
+      "凝固酶陰性葡萄球菌",
+      "表皮葡萄球菌",
+      "Staphylococcus epidermidis",
+      "S. epidermidis",
+      "腐生葡萄球菌",
+      "Staphylococcus saprophyticus",
+      "CoNS"
+    ],
+    "target": "gram-positive-bacteria#coagulase-negative-staphylococci"
+  },
+  {
+    "id": "enterococcus",
+    "name": "腸球菌",
+    "names": [
+      "腸球菌",
+      "Enterococcus",
+      "Enterococcus faecalis",
+      "Enterococcus faecium",
+      "糞腸球菌",
+      "VRE",
+      "抗萬古黴素腸球菌"
+    ],
+    "target": "gram-positive-bacteria#enterococcus"
+  },
+  {
+    "id": "corynebacterium-diphtheriae",
+    "name": "白喉桿菌",
+    "names": [
+      "白喉桿菌",
+      "Corynebacterium diphtheriae",
+      "C. diphtheriae",
+      "白喉棒狀桿菌"
+    ],
+    "target": "gram-positive-bacteria#corynebacterium-diphtheriae"
+  },
+  {
+    "id": "listeria-monocytogenes",
+    "name": "李斯特菌",
+    "names": [
+      "李斯特菌",
+      "Listeria monocytogenes",
+      "L. monocytogenes",
+      "單核球增多性李斯特菌",
+      "單胞李斯特菌"
+    ],
+    "target": "gram-positive-bacteria#listeria-monocytogenes"
+  },
+  {
+    "id": "bacillus-anthracis",
+    "name": "炭疽桿菌",
+    "names": [
+      "炭疽桿菌",
+      "Bacillus anthracis",
+      "B. anthracis"
+    ],
+    "target": "gram-positive-bacteria#bacillus-anthracis"
+  },
+  {
+    "id": "bacillus-cereus",
+    "name": "蠟樣桿菌",
+    "names": [
+      "蠟樣桿菌",
+      "Bacillus cereus",
+      "B. cereus",
+      "仙人掌桿菌",
+      "仙人掌炭疽桿菌"
+    ],
+    "target": "gram-positive-bacteria#bacillus-cereus"
+  },
+  {
+    "id": "mycobacterium-leprae",
+    "name": "痲瘋分枝桿菌",
+    "names": [
+      "痲瘋分枝桿菌",
+      "Mycobacterium leprae",
+      "M. leprae",
+      "痲瘋桿菌",
+      "麻瘋桿菌",
+      "漢生病菌"
+    ],
+    "target": "gram-positive-bacteria#mycobacterium-leprae"
+  },
+  {
+    "id": "helicobacter-pylori",
+    "name": "幽門螺旋桿菌",
+    "names": [
+      "幽門螺旋桿菌",
+      "Helicobacter pylori",
+      "H. pylori",
+      "幽門桿菌",
+      "胃幽門螺旋桿菌"
+    ],
+    "target": "helicobacter-pylori#helicobacter-pylori"
+  },
+  {
+    "id": "enterobius-vermicularis",
+    "name": "蟯蟲",
+    "names": [
+      "蟯蟲",
+      "Enterobius vermicularis",
+      "蟯蟲感染"
+    ],
+    "target": "helminths-ectoparasites#enterobius-vermicularis"
+  },
+  {
+    "id": "ascaris-lumbricoides",
+    "name": "蛔蟲",
+    "names": [
+      "蛔蟲",
+      "Ascaris lumbricoides",
+      "人蛔蟲"
+    ],
+    "target": "helminths-ectoparasites#ascaris-lumbricoides"
+  },
+  {
+    "id": "hookworm",
+    "name": "鉤蟲",
+    "names": [
+      "鉤蟲",
+      "Hookworm",
+      "十二指腸鉤蟲",
+      "Ancylostoma duodenale",
+      "美洲鉤蟲",
+      "Necator americanus"
+    ],
+    "target": "helminths-ectoparasites#hookworm"
+  },
+  {
+    "id": "trichuris-trichiura",
+    "name": "鞭蟲",
+    "names": [
+      "鞭蟲",
+      "Trichuris trichiura"
+    ],
+    "target": "helminths-ectoparasites#trichuris-trichiura"
+  },
+  {
+    "id": "strongyloides-stercoralis",
+    "name": "糞小桿線蟲",
+    "names": [
+      "糞小桿線蟲",
+      "Strongyloides stercoralis",
+      "糞線蟲"
+    ],
+    "target": "helminths-ectoparasites#strongyloides-stercoralis"
+  },
+  {
+    "id": "toxocara-canis",
+    "name": "犬蛔蟲",
+    "names": [
+      "犬蛔蟲",
+      "Toxocara canis",
+      "犬貓蛔蟲"
+    ],
+    "target": "helminths-ectoparasites#toxocara-canis"
+  },
+  {
+    "id": "angiostrongylus-cantonensis",
+    "name": "廣東住血線蟲",
+    "names": [
+      "廣東住血線蟲",
+      "Angiostrongylus cantonensis",
+      "鼠肺線蟲"
+    ],
+    "target": "helminths-ectoparasites#angiostrongylus-cantonensis"
+  },
+  {
+    "id": "trichinella-spiralis",
+    "name": "旋毛蟲",
+    "names": [
+      "旋毛蟲",
+      "Trichinella spiralis",
+      "Trichinella"
+    ],
+    "target": "helminths-ectoparasites#trichinella-spiralis"
+  },
+  {
+    "id": "filariae",
+    "name": "絲蟲",
+    "names": [
+      "絲蟲",
+      "Filariae",
+      "班氏絲蟲",
+      "Wuchereria bancrofti",
+      "蟠尾絲蟲",
+      "Onchocerca volvulus",
+      "淋巴絲蟲"
+    ],
+    "target": "helminths-ectoparasites#filariae"
+  },
+  {
+    "id": "clonorchis-sinensis",
+    "name": "中華肝吸蟲",
+    "names": [
+      "中華肝吸蟲",
+      "Clonorchis sinensis",
+      "肝吸蟲"
+    ],
+    "target": "helminths-ectoparasites#clonorchis-sinensis"
+  },
+  {
+    "id": "paragonimus-westermani",
+    "name": "衛氏肺吸蟲",
+    "names": [
+      "衛氏肺吸蟲",
+      "Paragonimus westermani",
+      "肺吸蟲"
+    ],
+    "target": "helminths-ectoparasites#paragonimus-westermani"
+  },
+  {
+    "id": "schistosoma",
+    "name": "血吸蟲",
+    "names": [
+      "血吸蟲",
+      "Schistosoma",
+      "住血吸蟲",
+      "日本血吸蟲",
+      "日本住血吸蟲",
+      "Schistosoma japonicum",
+      "曼森住血吸蟲",
+      "埃及血吸蟲",
+      "Schistosoma haematobium"
+    ],
+    "target": "helminths-ectoparasites#schistosoma"
+  },
+  {
+    "id": "taenia",
+    "name": "帶絛蟲",
+    "names": [
+      "帶絛蟲",
+      "Taenia",
+      "有鉤絛蟲",
+      "豬肉絛蟲",
+      "Taenia solium",
+      "無鉤絛蟲",
+      "牛肉絛蟲",
+      "Taenia saginata",
+      "亞洲絛蟲",
+      "Taenia asiatica"
+    ],
+    "target": "helminths-ectoparasites#taenia"
+  },
+  {
+    "id": "other-cestodes",
+    "name": "其他絛蟲",
+    "names": [
+      "其他絛蟲",
+      "廣節裂頭絛蟲",
+      "Diphyllobothrium latum",
+      "包蟲",
+      "棘球絛蟲",
+      "Echinococcus",
+      "短小包膜絛蟲",
+      "Hymenolepis nana"
+    ],
+    "target": "helminths-ectoparasites#other-cestodes"
+  },
+  {
+    "id": "sarcoptes-scabiei",
+    "name": "人疥蟎",
+    "names": [
+      "人疥蟎",
+      "Sarcoptes scabiei",
+      "疥蟲",
+      "疥蟎"
+    ],
+    "target": "helminths-ectoparasites#sarcoptes-scabiei"
+  },
+  {
+    "id": "pediculus",
+    "name": "蝨",
+    "names": [
+      "蝨",
+      "Pediculus",
+      "頭蝨",
+      "Pediculus humanus capitis",
+      "體蝨",
+      "陰蝨",
+      "Pthirus pubis"
+    ],
+    "target": "helminths-ectoparasites#pediculus"
+  },
+  {
+    "id": "herpes-simplex-virus",
+    "name": "單純疱疹病毒",
+    "names": [
+      "單純疱疹病毒",
+      "Herpes simplex virus",
+      "HSV",
+      "HSV-1",
+      "HSV-2",
+      "單純皰疹病毒",
+      "第一型單純疱疹病毒",
+      "第二型單純疱疹病毒"
+    ],
+    "target": "herpesviruses#herpes-simplex-virus"
+  },
+  {
+    "id": "varicella-zoster-virus",
+    "name": "水痘帶狀疱疹病毒",
+    "names": [
+      "水痘帶狀疱疹病毒",
+      "Varicella-zoster virus",
+      "VZV",
+      "水痘病毒",
+      "帶狀疱疹病毒",
+      "帶狀皰疹病毒",
+      "HHV-3"
+    ],
+    "target": "herpesviruses#varicella-zoster-virus"
+  },
+  {
+    "id": "epstein-barr-virus",
+    "name": "EB 病毒",
+    "names": [
+      "EB 病毒",
+      "Epstein-Barr virus",
+      "EBV",
+      "EB病毒",
+      "HHV-4"
+    ],
+    "target": "herpesviruses#epstein-barr-virus"
+  },
+  {
+    "id": "cytomegalovirus",
+    "name": "巨細胞病毒",
+    "names": [
+      "巨細胞病毒",
+      "Cytomegalovirus",
+      "CMV",
+      "人類巨細胞病毒",
+      "HHV-5"
+    ],
+    "target": "herpesviruses#cytomegalovirus"
+  },
+  {
+    "id": "human-herpesvirus-6",
+    "name": "人類疱疹病毒第 6 型",
+    "names": [
+      "人類疱疹病毒第 6 型",
+      "Human herpesvirus 6",
+      "HHV-6",
+      "玫瑰疹病毒"
+    ],
+    "target": "herpesviruses#human-herpesvirus-6"
+  },
+  {
+    "id": "human-herpesvirus-8",
+    "name": "人類疱疹病毒第 8 型",
+    "names": [
+      "人類疱疹病毒第 8 型",
+      "Human herpesvirus 8",
+      "HHV-8",
+      "卡波西氏肉瘤疱疹病毒",
+      "KSHV"
+    ],
+    "target": "herpesviruses#human-herpesvirus-8"
+  },
+  {
+    "id": "human-papillomavirus",
+    "name": "人類乳突病毒",
+    "names": [
+      "人類乳突病毒",
+      "Human papillomavirus",
+      "HPV",
+      "人類乳頭瘤病毒",
+      "人類乳突狀病毒",
+      "乳突病毒",
+      "乳頭瘤病毒"
+    ],
+    "target": "human-papillomavirus#human-papillomavirus"
+  },
+  {
+    "id": "prion",
+    "name": "普利昂蛋白",
+    "names": [
+      "普利昂蛋白",
+      "Prion",
+      "普利昂",
+      "普利子",
+      "普利子蛋白",
+      "變性普利昂蛋白",
+      "傳染性蛋白質",
+      "蛋白質感染原",
+      "變性蛋白質"
+    ],
+    "target": "prions#prion"
+  },
+  {
+    "id": "entamoeba-histolytica",
+    "name": "痢疾阿米巴",
+    "names": [
+      "痢疾阿米巴",
+      "Entamoeba histolytica",
+      "溶組織阿米巴",
+      "阿米巴原蟲",
+      "痢疾阿米巴原蟲"
+    ],
+    "target": "protozoa#entamoeba-histolytica"
+  },
+  {
+    "id": "giardia-lamblia",
+    "name": "梨形鞭毛蟲",
+    "names": [
+      "梨形鞭毛蟲",
+      "Giardia lamblia",
+      "Giardia duodenalis",
+      "Giardia",
+      "鞭毛蟲"
+    ],
+    "target": "protozoa#giardia-lamblia"
+  },
+  {
+    "id": "trichomonas-vaginalis",
+    "name": "陰道滴蟲",
+    "names": [
+      "陰道滴蟲",
+      "Trichomonas vaginalis",
+      "陰道鞭毛滴蟲",
+      "滴蟲"
+    ],
+    "target": "protozoa#trichomonas-vaginalis"
+  },
+  {
+    "id": "toxoplasma-gondii",
+    "name": "弓漿蟲",
+    "names": [
+      "弓漿蟲",
+      "Toxoplasma gondii",
+      "弓形蟲",
+      "弓蟲",
+      "剛地弓漿蟲"
+    ],
+    "target": "protozoa#toxoplasma-gondii"
+  },
+  {
+    "id": "plasmodium",
+    "name": "瘧原蟲",
+    "names": [
+      "瘧原蟲",
+      "Plasmodium",
+      "惡性瘧原蟲",
+      "Plasmodium falciparum",
+      "間日瘧原蟲",
+      "Plasmodium vivax",
+      "卵形瘧原蟲",
+      "三日瘧原蟲"
+    ],
+    "target": "protozoa#plasmodium"
+  },
+  {
+    "id": "trypanosoma",
+    "name": "錐蟲",
+    "names": [
+      "錐蟲",
+      "Trypanosoma",
+      "布氏錐蟲",
+      "Trypanosoma brucei",
+      "克氏錐蟲",
+      "Trypanosoma cruzi"
+    ],
+    "target": "protozoa#trypanosoma"
+  },
+  {
+    "id": "leishmania",
+    "name": "利什曼原蟲",
+    "names": [
+      "利什曼原蟲",
+      "Leishmania",
+      "杜氏利什曼原蟲"
+    ],
+    "target": "protozoa#leishmania"
+  },
+  {
+    "id": "cryptosporidium",
+    "name": "隱孢子蟲",
+    "names": [
+      "隱孢子蟲",
+      "Cryptosporidium",
+      "Cryptosporidium parvum"
+    ],
+    "target": "protozoa#cryptosporidium"
+  },
+  {
+    "id": "free-living-amoebae",
+    "name": "自由生活阿米巴",
+    "names": [
+      "自由生活阿米巴",
+      "福氏內格里阿米巴",
+      "Naegleria fowleri",
+      "棘狀阿米巴",
+      "Acanthamoeba",
+      "食腦菌"
+    ],
+    "target": "protozoa#free-living-amoebae"
+  },
+  {
+    "id": "rotavirus",
+    "name": "輪狀病毒",
+    "names": [
+      "輪狀病毒",
+      "Rotavirus"
+    ],
+    "target": "rna-viruses#rotavirus"
+  },
+  {
+    "id": "norovirus",
+    "name": "諾羅病毒",
+    "names": [
+      "諾羅病毒",
+      "Norovirus",
+      "諾羅"
+    ],
+    "target": "rna-viruses#norovirus"
+  },
+  {
+    "id": "poliovirus",
+    "name": "小兒麻痺病毒",
+    "names": [
+      "小兒麻痺病毒",
+      "Poliovirus",
+      "脊髓灰白質炎病毒",
+      "小兒麻痺症病毒"
+    ],
+    "target": "rna-viruses#poliovirus"
+  },
+  {
+    "id": "rabies-virus",
+    "name": "狂犬病毒",
+    "names": [
+      "狂犬病毒",
+      "Rabies virus",
+      "狂犬病病毒"
+    ],
+    "target": "rna-viruses#rabies-virus"
+  },
+  {
+    "id": "hantavirus",
+    "name": "漢他病毒",
+    "names": [
+      "漢他病毒",
+      "Hantavirus",
+      "漢他"
+    ],
+    "target": "rna-viruses#hantavirus"
+  },
+  {
+    "id": "ebola-virus",
+    "name": "伊波拉病毒",
+    "names": [
+      "伊波拉病毒",
+      "Ebola virus",
+      "依波拉病毒",
+      "馬堡病毒",
+      "Marburg virus",
+      "絲狀病毒"
+    ],
+    "target": "rna-viruses#ebola-virus"
+  },
+  {
+    "id": "respiratory-syncytial-virus",
+    "name": "呼吸道融合病毒",
+    "names": [
+      "呼吸道融合病毒",
+      "Respiratory syncytial virus",
+      "RSV"
+    ],
+    "target": "rna-viruses#respiratory-syncytial-virus"
+  },
+  {
+    "id": "parainfluenza-virus",
+    "name": "副流行性感冒病毒",
+    "names": [
+      "副流行性感冒病毒",
+      "Parainfluenza virus",
+      "副流感病毒"
+    ],
+    "target": "rna-viruses#parainfluenza-virus"
+  },
+  {
+    "id": "human-t-lymphotropic-virus",
+    "name": "人類嗜 T 淋巴球病毒",
+    "names": [
+      "人類嗜 T 淋巴球病毒",
+      "Human T-lymphotropic virus",
+      "HTLV",
+      "HTLV-1",
+      "人類噬 T 淋巴球病毒",
+      "人類 T 細胞白血病病毒"
+    ],
+    "target": "rna-viruses#human-t-lymphotropic-virus"
+  },
+  {
+    "id": "staphylococcus-aureus",
+    "name": "金黃色葡萄球菌",
+    "names": [
+      "金黃色葡萄球菌",
+      "Staphylococcus aureus",
+      "S. aureus",
+      "金黃葡萄球菌",
+      "金葡菌",
+      "MRSA",
+      "抗藥性金黃色葡萄球菌"
+    ],
+    "target": "staphylococcus-aureus#staphylococcus-aureus"
+  },
+  {
+    "id": "streptococcus-pyogenes",
+    "name": "A 族鏈球菌",
+    "names": [
+      "A 族鏈球菌",
+      "Streptococcus pyogenes",
+      "S. pyogenes",
+      "化膿性鏈球菌",
+      "A 群鏈球菌",
+      "A 族溶血性鏈球菌",
+      "A 群 β 型溶血性鏈球菌",
+      "GAS"
+    ],
+    "target": "streptococci#streptococcus-pyogenes"
+  },
+  {
+    "id": "streptococcus-agalactiae",
+    "name": "B 族鏈球菌",
+    "names": [
+      "B 族鏈球菌",
+      "Streptococcus agalactiae",
+      "S. agalactiae",
+      "乙型鏈球菌",
+      "B 群鏈球菌",
+      "GBS"
+    ],
+    "target": "streptococci#streptococcus-agalactiae"
+  },
+  {
+    "id": "streptococcus-pneumoniae",
+    "name": "肺炎鏈球菌",
+    "names": [
+      "肺炎鏈球菌",
+      "Streptococcus pneumoniae",
+      "S. pneumoniae",
+      "肺炎雙球菌",
+      "Pneumococcus"
+    ],
+    "target": "streptococci#streptococcus-pneumoniae"
+  },
+  {
+    "id": "viridans-streptococci",
+    "name": "草綠色鏈球菌",
+    "names": [
+      "草綠色鏈球菌",
+      "Viridans streptococci",
+      "Streptococcus mutans",
+      "轉形斯鏈球菌",
+      "口腔鏈球菌"
+    ],
+    "target": "streptococci#viridans-streptococci"
+  },
+  {
+    "id": "streptococcus-suis",
+    "name": "豬鏈球菌",
+    "names": [
+      "豬鏈球菌",
+      "Streptococcus suis",
+      "第二型豬鏈球菌"
+    ],
+    "target": "streptococci#streptococcus-suis"
   }
 ]

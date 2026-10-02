@@ -6,6 +6,11 @@ dzTags: [糖尿病酮酸中毒, 糖尿病]
 system: endocrine
 alsoIn: [fluid-acid-base]
 group: glucose-labs
+chapters:
+  - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥
+  - 內外-Ch04體液、電解質與酸鹼不平衡之護理 > 酸鹼平衡改變 > 代謝性酸中毒與代謝性鹼中毒
+  - 內外-Ch08內分泌系統疾病 > 胰臟疾病與糖尿病
+  - 社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護 > 糖尿病與代謝症候群
 reviewed: false
 updated: 2026-09-26
 references:

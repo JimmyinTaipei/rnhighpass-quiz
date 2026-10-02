@@ -5,10 +5,16 @@ aliases: [β-lactam, Beta-lactam, 乙內醯胺, β-內醯胺, 青黴素, 盤尼�
 dzTags: [細菌感染]
 system: infection
 group: antibiotics
+chapters:
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗生素類藥物
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗生素臨床應用與注意事項
+  - 微免-Ch10特殊病原菌（螺旋體、黴漿菌、立克次體、披衣菌） > 黴漿菌與L型細菌
 alsoIn: [fundamentals]
 reviewed: false
 updated: 2026-09-28
 references:
+  - title: UpToDate：Cephalosporins; Combination beta-lactamase inhibitors, carbapenems, and monobactams(2026)
+    url: https://www.uptodate.com/contents/cephalosporins
   - title: "UpToDate：Beta-lactam antibiotics: Mechanisms of action and resistance and adverse effects(2026)"
     url: https://www.uptodate.com/contents/beta-lactam-antibiotics-mechanisms-of-action-and-resistance-and-adverse-effects
   - title: UpToDate：Penicillin, antistaphylococcal penicillins, and broad-spectrum penicillins(2026)
@@ -74,6 +80,12 @@ references:
 | 第五代 | ceftaroline | 目前唯一能治 **MRSA** 的頭孢菌素 |
 
 **腸球菌**與**李斯特菌**對所有頭孢菌素都天然抗藥，這兩種菌要用 ampicillin。
+
+- 第三代中 **ceftriaxone、cefotaxime 對綠膿桿菌效果差**；要涵蓋綠膿桿菌選 **ceftazidime** 或 cefepime。
+- **ceftriaxone**：
+  - **不可與含鈣溶液**(例如**林格氏液**、乳酸林格氏液)混合或經同一管路輸注，會在肺、腎形成鈣鹽沉澱；**新生兒**曾發生致死個案，新生兒需要靜脈鈣劑時避免使用。
+  - 大量經膽汁排出，可在膽囊形成**膽泥**(假性膽結石)。
+- 新一代合併藥物用於**多重抗藥性 G− 菌**(ESBL、CRE、多重抗藥綠膿桿菌)：**ceftazidime-avibactam**、**ceftolozane-tazobactam**，以及鐵載體頭孢菌素 **cefiderocol**；屬於需管制的後線抗生素([[antibiotics-overview#mdro]])。
 
 ### Carbapenems 與 monobactam {#carbapenems}
 

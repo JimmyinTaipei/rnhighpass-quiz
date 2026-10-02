@@ -5,6 +5,9 @@ aliases: [大腸癌, 大腸直腸癌, 結直腸癌, 結腸癌, 直腸癌, Colore
 dzTags: [大腸癌, 大腸直腸癌, 結腸癌, 直腸癌]
 system: oncology
 alsoIn: [digestive, community]
+chapters:
+  - 病理-Ch12消化道疾病 > 大腸疾病
+  - 內外-Ch07消化系統疾病 > 腸道疾病 > 腸胃道息肉與大腸癌
 reviewed: false
 updated: 2026-09-27
 references:

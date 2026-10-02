@@ -12,6 +12,7 @@
 //   frontmatter pathogens: [{ id, name, names }]   病原體索引(id 必須是本頁的標題 id)
 //
 // 分類(system / alsoIn / group)只能用 content/knowledge/taxonomy.yml 裡定義的 id。
+// 章節對照(chapters)只能寫 src/data/knowledge/chapter-outline.json 裡有的 H2 / 可獨立的 H3。
 //   :::tip[標題] ... :::       提示框(tip / exam / warning / note)
 
 import fs from "node:fs";
@@ -33,10 +34,15 @@ const CONTENT_DIR = path.join(ROOT, "content/knowledge");
 const OUT_DIR = path.join(ROOT, "src/data/knowledge");
 const CREDITS_FILE = path.join(ROOT, "public/knowledge-images/credits.json");
 const TAXONOMY_FILE = path.join(CONTENT_DIR, "taxonomy.yml");
+// 由 database/scripts/export_chapter_outline.py 從分章題本產生、跟著 git 提交
+const OUTLINE_FILE = path.join(OUT_DIR, "chapter-outline.json");
+// 章節頁「考點地圖」的考點精華,一章一檔
+const POINTS_DIR = path.join(ROOT, "content/chapter-points");
+const MAX_POINTS = 5;
 // 與 /learn 底下的靜態路由撞名的 slug
 const RESERVED_SLUGS = new Set(["system"]);
 
-const CATEGORIES = ["disease", "physiology", "drug", "lab", "care", "pathogen"];
+const CATEGORIES = ["disease", "physiology", "drug", "lab", "care", "pathogen", "admin"];
 const CALLOUTS = ["tip", "exam", "warning", "note"];
 const SUMMARY_LEN = 110;
 const BLOCK_SEPARATORS = new Set(["p", "li", "tr", "td", "th", "k-callout"]);
@@ -135,6 +141,7 @@ function transformDirectives(file, tree) {
           hName: "k-questions",
           hProperties: {
             tag: a.tag ?? "",
+            adm: a.adm ?? "",
             keyword: a.keyword ?? "",
             drug: a.drug ?? "",
             group: a.group ?? "",
@@ -297,6 +304,7 @@ function parseArticle(file) {
     subtitle: data.subtitle ?? null,
     aliases: data.aliases ?? [],
     dzTags: data.dzTags ?? [],
+    admTags: data.admTags ?? [],
     system: data.system ?? null,
     alsoIn: data.alsoIn ?? [],
     group: data.group ?? null,
@@ -304,6 +312,7 @@ function parseArticle(file) {
     updated: data.updated ? String(data.updated) : null,
     references: data.references ?? [],
     pathogens: data.pathogens ?? [],
+    chapters: data.chapters ?? [],
     intro: toHast(intro),
     sections: roots,
   };
@@ -391,10 +400,12 @@ function buildIndex(articles) {
       category: a.category,
       aliases: a.aliases,
       dzTags: a.dzTags,
+      admTags: a.admTags,
       system: a.system,
       alsoIn: a.alsoIn,
       group: a.group,
       reviewed: a.reviewed,
+      chapters: a.chapters,
       summary: "", // 連結文字補完後才算,見函式最後
       sectionCount: count,
     };
@@ -536,8 +547,8 @@ function assignQuestionSlots(article, taxonomy) {
       const qkey = n === 1 ? key : `${key}~${n}`;
       node.properties.qkey = qkey;
       const p = node.properties;
-      if (!p.tag && !p.keyword && !p.ids && !p.drug && !p.group) {
-        fail(article.file, `::questions 至少要有 tag/keyword/drug/group/ids 其一(${qkey})`);
+      if (!p.tag && !p.adm && !p.keyword && !p.ids && !p.drug && !p.group) {
+        fail(article.file, `::questions 至少要有 tag/adm/keyword/drug/group/ids 其一(${qkey})`);
       }
       // group 展開成該群組在 taxonomy 登記的所有 drug 標籤同義詞
       let drug = p.drug ? String(p.drug).split("|").map((t) => t.trim()).filter(Boolean) : [];
@@ -550,6 +561,7 @@ function assignQuestionSlots(article, taxonomy) {
       slots.push({
         qkey,
         tag: p.tag || null,
+        adm: p.adm || null,
         drug: drug.length ? drug : null,
         keyword: p.keyword || null,
         ids: p.ids ? String(p.ids).split(",").map((s) => s.trim()).filter(Boolean) : [],
@@ -634,6 +646,188 @@ function validateClassification(articles, taxonomy) {
   }
 }
 
+// ---------- 章節對照 ----------
+
+function loadChapterOutline() {
+  if (!fs.existsSync(OUTLINE_FILE)) {
+    fail(OUTLINE_FILE, "找不到章節大綱,請先執行 database/scripts/export_chapter_outline.py");
+    return null;
+  }
+  const outline = JSON.parse(fs.readFileSync(OUTLINE_FILE, "utf8"));
+  const sep = outline.separator;
+  // 路徑 → 節點資訊。H3 多記 parent,用來檢查「H2 與其底下 H3 重複寫」
+  const nodes = new Map();
+  for (const ch of outline.chapters) {
+    for (const h2 of ch.topics) {
+      const h2Key = [ch.fullTitle, h2.title].join(sep);
+      nodes.set(h2Key, { level: 2, count: h2.count, chapter: ch.fullTitle });
+      for (const h3 of h2.children) {
+        nodes.set([ch.fullTitle, h2.title, h3.title].join(sep), {
+          level: 3,
+          count: h3.count,
+          block: h3.block,
+          parent: h2Key,
+          chapter: ch.fullTitle,
+        });
+      }
+    }
+  }
+  return { ...outline, nodes };
+}
+
+/**
+ * 檢查 frontmatter 的 chapters,並把寫法統一成大綱的標準路徑(「 > 」前後各一格)。
+ * H3 只有題數達門檻(大綱裡 block: true)才能單獨對照,其餘請寫到它的 H2——
+ * 這是讓章節頁「以 H2 為單位,題數多才拆到 H3」的規則在內容端的防線。
+ */
+function validateChapterRefs(articles, outline) {
+  if (!outline) return;
+  const { h2Split, h3Block } = outline.thresholds;
+  for (const a of articles) {
+    if (!Array.isArray(a.chapters)) {
+      fail(a.file, "chapters 必須是陣列");
+      a.chapters = [];
+      continue;
+    }
+    const keys = [];
+    for (const raw of a.chapters) {
+      const key = String(raw)
+        .split(">")
+        .map((part) => part.trim())
+        .join(outline.separator);
+      const node = outline.nodes.get(key);
+      if (!node) {
+        fail(a.file, `chapters「${raw}」不存在於分章題本(格式:章節全名 > H2,例:藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥)`);
+        continue;
+      }
+      if (node.level === 3 && !node.block) {
+        fail(
+          a.file,
+          `chapters「${key}」只有 ${node.count} 題,H3 要在 H2 ≥ ${h2Split} 題且本身 ≥ ${h3Block} 題時才能單獨對照,請改寫 H2:${node.parent}`,
+        );
+        continue;
+      }
+      if (keys.includes(key)) {
+        fail(a.file, `chapters 重複:${key}`);
+        continue;
+      }
+      keys.push(key);
+    }
+    for (const key of keys) {
+      const parent = outline.nodes.get(key).parent;
+      if (parent && keys.includes(parent)) fail(a.file, `chapters 已寫 ${parent},不需要再寫其下的 H3:${key}`);
+    }
+    a.chapters = keys;
+  }
+}
+
+/**
+ * 反向對照:章節段落 → 對到它的知識頁,另附涵蓋率。
+ * 一個 H2 算「已涵蓋」:本身有對照,或它底下可獨立的 H3 至少一個有對照。
+ * 一章算「全部涵蓋」:每個有題目的 H2 都已涵蓋——這是章節頁能切成考點地圖的條件。
+ */
+const SKIP_COVERAGE = new Set(["綜合題型"]);
+function chapterMapOutput(articles, outline) {
+  const map = {};
+  for (const a of articles) {
+    for (const key of a.chapters) (map[key] ??= []).push(a.slug);
+  }
+  const sep = outline.separator;
+  const chapters = {};
+  let coveredH2 = 0;
+  let totalH2 = 0;
+  for (const ch of outline.chapters) {
+    const missing = [];
+    for (const h2 of ch.topics) {
+      // 沒題目的段落、各章末尾的「綜合題型」不是主題,不列入涵蓋率
+      if (h2.count === 0 || SKIP_COVERAGE.has(h2.title)) continue;
+      totalH2++;
+      const h2Key = [ch.fullTitle, h2.title].join(sep);
+      const covered =
+        map[h2Key] ||
+        h2.children.some((h3) => h3.block && map[[h2Key, h3.title].join(sep)]);
+      if (covered) coveredH2++;
+      else missing.push(h2.title);
+    }
+    chapters[ch.fullTitle] = { missing };
+  }
+  const fullChapters = Object.values(chapters).filter((c) => c.missing.length === 0).length;
+  return {
+    output: { map, chapters },
+    stats: { coveredH2, totalH2, fullChapters, totalChapters: outline.chapters.length },
+  };
+}
+
+// ---------- 考點精華 ----------
+
+/**
+ * content/chapter-points/*.md → { 章節全名: { 段落路徑: [hast, ...] } }
+ *
+ *   ---
+ *   chapter: 精神-Ch08雙相情緒障礙症病人的護理
+ *   ---
+ *   ## 雙相情緒障礙症          ← 必須是這一章的 H2
+ *   - 一條考點(可用粗體等行內語法)
+ *   ### 某個 H3               ← 只能是可獨立的 H3(同 chapters 對照的門檻)
+ *   - ...
+ *
+ * 只收條列,每段最多 MAX_POINTS 條:這裡是「這章考什麼」的精華,
+ * 完整說明放知識頁。
+ */
+function parseChapterPoints(outline) {
+  const out = {};
+  if (!outline || !fs.existsSync(POINTS_DIR)) return out;
+  const sep = outline.separator;
+  for (const file of listMarkdown(POINTS_DIR)) {
+    const { data, body } = splitFrontmatter(file, fs.readFileSync(file, "utf8"));
+    const chapter = outline.chapters.find((c) => c.fullTitle === data.chapter);
+    if (!chapter) {
+      fail(file, `chapter「${data.chapter ?? ""}」不存在於分章題本(寫章節全名,如 精神-Ch08雙相情緒障礙症病人的護理)`);
+      continue;
+    }
+    if (out[chapter.fullTitle]) {
+      fail(file, `${chapter.fullTitle} 已經有另一個考點檔`);
+      continue;
+    }
+    const tree = unified().use(remarkParse).use(remarkGfm).use(remarkCjkFriendly).parse(body);
+    const points = {};
+    let h2 = null;
+    let key = null;
+    for (const node of tree.children) {
+      if (node.type === "heading") {
+        const title = mdToString(node).trim();
+        if (node.depth === 2) {
+          h2 = chapter.topics.find((t) => t.title === title) ?? null;
+          key = h2 ? [chapter.fullTitle, title].join(sep) : null;
+          if (!h2) fail(file, `「${title}」不是本章的 H2`);
+        } else if (node.depth === 3) {
+          const h3 = h2?.children.find((c) => c.title === title);
+          key = null;
+          if (!h3) fail(file, `「${title}」不是「${h2?.title ?? "(前面沒有 H2)"}」底下的 H3`);
+          else if (!h3.block) fail(file, `「${title}」題數未達獨立門檻,考點請寫在它的 H2 底下`);
+          else key = [chapter.fullTitle, h2.title, title].join(sep);
+        } else {
+          fail(file, `只能用 ## 與 ### 標題:「${title}」`);
+        }
+        if (key && points[key]) fail(file, `段落重複:${title}`);
+        continue;
+      }
+      if (node.type !== "list") {
+        fail(file, `考點只能用條列(- ...),請把段落文字改成條列或移到知識頁`);
+        continue;
+      }
+      if (!key) continue; // 標題錯誤已回報
+      const items = node.children.map((li) => toHast(li.children));
+      points[key] = [...(points[key] ?? []), ...items];
+      if (points[key].length > MAX_POINTS) {
+        fail(file, `「${key.split(sep).at(-1)}」有 ${points[key].length} 條考點,最多 ${MAX_POINTS} 條(細節請放知識頁)`);
+      }
+    }
+    out[chapter.fullTitle] = points;
+  }
+  return out;
+}
+
 /** 給前端的分類表:名稱、排序、每個 domain / group 的頁數 */
 function taxonomyOutput(taxonomy, articles) {
   const count = (pred) => articles.filter(pred).length;
@@ -650,6 +844,7 @@ function taxonomyOutput(taxonomy, articles) {
         id: g.id,
         name: g.name,
         type: g.type,
+        drugTags: g.drugTags ?? [],
         count: count((a) => a.group === g.id),
       })),
     })),
@@ -695,6 +890,8 @@ function main() {
   const articles = files.map(parseArticle);
   const taxonomy = loadTaxonomy();
   validateClassification(articles, taxonomy);
+  const outline = loadChapterOutline();
+  validateChapterRefs(articles, outline);
   const articlesBySlug = new Map(articles.map((a) => [a.slug, a]));
   const index = buildIndex(articles);
   const credits = checkImages(articles);
@@ -710,17 +907,22 @@ function main() {
       category: a.category,
       aliases: a.aliases,
       dzTags: a.dzTags,
+      admTags: a.admTags,
       system: a.system,
       alsoIn: a.alsoIn,
       group: a.group,
       reviewed: a.reviewed,
       updated: a.updated,
       references: a.references,
+      chapters: a.chapters,
       intro: a.intro,
       sections: a.sections,
       embeds: collectEmbeds(a, articlesBySlug, index),
     },
   }));
+
+  const chapterMap = outline && chapterMapOutput(articles, outline);
+  const chapterPoints = parseChapterPoints(outline);
 
   if (errors.length) {
     console.error(`\n知識庫建置失敗(${errors.length} 個錯誤):`);
@@ -739,6 +941,8 @@ function main() {
   fs.writeFileSync(path.join(OUT_DIR, "taxonomy.json"), JSON.stringify(taxonomyOutput(taxonomy, articles)));
   fs.writeFileSync(path.join(OUT_DIR, "search.json"), JSON.stringify(searchOutput(articles, index)));
   fs.writeFileSync(path.join(OUT_DIR, "pathogen-index.json"), JSON.stringify(pathogenIndex, null, 2) + "\n");
+  fs.writeFileSync(path.join(OUT_DIR, "chapter-map.json"), JSON.stringify(chapterMap.output, null, 1) + "\n");
+  fs.writeFileSync(path.join(OUT_DIR, "chapter-points.json"), JSON.stringify(chapterPoints));
 
   const mapFile = path.join(OUT_DIR, "question-map.json");
   if (!fs.existsSync(mapFile)) fs.writeFileSync(mapFile, "{}\n");
@@ -763,6 +967,12 @@ function main() {
   console.log(
     `知識庫:${articles.length} 篇、${Object.keys(index.sections).length} 個知識點、` +
       `${linkCount} 條連結、${embedCount} 個嵌入、${slots.length} 個考題欄位`,
+  );
+  const cs = chapterMap.stats;
+  console.log(
+    `章節對照:${articles.filter((a) => a.chapters.length).length} 篇有寫、` +
+      `涵蓋 ${cs.coveredH2}/${cs.totalH2} 個有題目的 H2、${cs.fullChapters}/${cs.totalChapters} 章全部涵蓋、` +
+      `${Object.keys(chapterPoints).length} 章有考點精華`,
   );
 }
 

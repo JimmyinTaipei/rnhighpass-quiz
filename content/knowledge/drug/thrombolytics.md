@@ -6,6 +6,9 @@ dzTags: [心肌梗塞, 急性心肌梗塞, ST段上升心肌梗塞, 腦中風, �
 system: hematology-immunology
 alsoIn: [cardiovascular]
 group: antithrombotics
+chapters:
+  - 藥理-Ch09血液系統藥物 > 抗血栓症藥物
+  - 內外-Ch09呼吸系統疾病 > 血管性病變
 reviewed: false
 updated: 2026-09-25
 references:

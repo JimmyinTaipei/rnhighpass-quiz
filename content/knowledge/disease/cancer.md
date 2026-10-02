@@ -5,6 +5,14 @@ aliases: [癌症, 惡性腫瘤, Cancer, Malignancy, 腫瘤科, 癌症護理, 癌
 dzTags: [癌症, 癌症末期, 癌症轉移]
 system: oncology
 alsoIn: [community]
+chapters:
+  - 病理-Ch04腫瘤概論 > 腫瘤之診斷與治療
+  - 病理-Ch04腫瘤概論 > 腫瘤特性
+  - 病理-Ch04腫瘤概論 > 腫瘤之病因學
+  - 藥理-Ch12癌症藥物與免疫製劑 > 治療腫瘤藥物
+  - 內外-Ch03癌症護理 > 癌症基本概念
+  - 內外-Ch03癌症護理 > 癌症預防、診斷與分期
+  - 內外-Ch03癌症護理 > 癌症治療
 reviewed: false
 updated: 2026-09-27
 references:

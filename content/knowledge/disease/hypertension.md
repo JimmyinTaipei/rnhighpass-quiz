@@ -4,6 +4,12 @@ subtitle: Hypertension(HTN)
 aliases: [HTN, 高血壓危象, 高血壓急症, 本態性高血壓, 原發性高血壓, 續發性高血壓, 妊娠高血壓, 子癇前症, Hypertensive crisis]
 dzTags: [高血壓, 高血壓危象, 妊娠高血壓, 左心室肥大]
 system: cardiovascular
+chapters:
+  - 藥理-Ch02自主神經系統藥物 > 腎上腺素性神經藥物
+  - 藥理-Ch08心血管藥物 > 治療高血壓藥物
+  - 內外-Ch13心血管系統疾病 > 周圍血管疾病 > 高血壓
+  - 產科-Ch10高危險妊娠之護理 > 高血壓性疾病
+  - 社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護
 reviewed: false
 updated: 2026-09-26
 references:

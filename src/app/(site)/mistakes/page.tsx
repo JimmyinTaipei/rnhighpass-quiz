@@ -72,7 +72,7 @@ export default async function NotebookPage(props: PageProps<"/mistakes">) {
     <main className="mx-auto flex w-full max-w-4xl flex-1 flex-col px-4 py-8">
       <Panel className="flex-1">
         <div className="mb-4 flex flex-wrap items-end justify-between gap-2">
-          <h1 className="text-2xl font-bold text-deep">我的題本</h1>
+          <h1 className="max-md:sr-only text-3xl font-bold text-strong">我的題本</h1>
           <Link
             href="/report"
             className="flex items-center gap-1 text-xs text-muted hover:text-subj-deep"

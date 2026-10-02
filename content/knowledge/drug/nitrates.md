@@ -5,6 +5,8 @@ aliases: [NTG, Nitroglycerin, Nitroglycerine, 硝化甘油, 硝酸甘油, Isosor
 dzTags: [心絞痛, 冠狀動脈疾病, 心肌梗塞, 急性心肌梗塞, 急性冠心症, 心衰竭]
 system: cardiovascular
 group: antianginals
+chapters:
+  - 藥理-Ch08心血管藥物 > 抗心絞痛藥物
 reviewed: false
 updated: 2026-09-25
 references:

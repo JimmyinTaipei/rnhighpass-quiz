@@ -6,6 +6,8 @@ dzTags: [心臟衰竭, 心衰竭, 急性肺水腫, 水腫, 腹水, 高血鈣症,
 system: renal
 alsoIn: [cardiovascular]
 group: diuretics
+chapters:
+  - 藥理-Ch07泌尿系統與利尿劑 > 利尿劑
 reviewed: false
 updated: 2026-09-26
 references:

@@ -10,6 +10,7 @@
 | `lab/` | 檢驗 |
 | `care/` | 護理主題(不屬於單一疾病或藥物的護理內容) |
 | `pathogen/` | 病原體(微生物、寄生蟲) |
+| `admin/` | 護理行政(管理理論、人力、財務、品質、法規等概念與制度) |
 
 新頁面請從 `_templates/` 複製對應範本開始(`_` 開頭的資料夾不會被建置)。
 
@@ -41,6 +42,32 @@
 怎麼選、以及分章題本各章對應到哪個分類,寫在 `taxonomy.yml` 開頭的註解。
 現有分類放不下時,**先在 taxonomy.yml 新增**再使用。
 
+## 章節對照(chapters)
+
+`chapters` 列出這篇文章對到分章題本的哪些段落。章節頁會用它把段落連到知識頁，知識頁也會反過來顯示「出現在哪些章節」與題數。
+
+```yaml
+chapters:
+  - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥
+  - 內外-Ch08內分泌系統疾病 > 胰臟疾病與糖尿病
+  - 產科-Ch10高危險妊娠之護理 > 妊娠前的內科疾病 > 糖尿病
+```
+
+| 規則 | 說明 |
+|---|---|
+| 寫法 | `章節全名 > H2`,章節全名是題本檔案的 `#` 標題 |
+| 以 H2 為單位 | 只有「H2 ≥ 40 題且該 H3 ≥ 15 題」的 H3 可以單獨寫,其餘寫到它的 H2 |
+| 不要重複 | 寫了 H2 就不要再寫它底下的 H3 |
+| 不寫「綜合題型」 | 那是各章末尾的混合題,不是主題 |
+
+段落清單與題數在 `src/data/knowledge/chapter-outline.json`,由 `database/scripts/export_chapter_outline.py` 從題本產生。題本的標題改過之後要重跑，再提交 JSON。寫錯的路徑會讓建置失敗，並提示該改成哪個 H2。
+
+新文章可以先用 `database/scripts/suggest_chapter_refs.py --slug <slug>` 看建議。它依題目的 dz 或藥物標籤計算每個段落的命中題數,`--write` 只會補上還沒有 `chapters` 的文章。建議只是起點，寫入後請抽查。
+
+改完 `chapters` 之後，執行 `database/.venv/bin/python database/scripts/export_knowledge_questions.py` 重算每篇的相關考題，並提交 `src/data/knowledge/article-questions.json`。知識頁上方的「N 題相關考題」「練相關題」、清單上的題數，以及題目詳解底下的「複習知識點」都來自這份檔案。
+
+建置時會印出涵蓋率。一章的每個 H2 都有知識頁對到,才算「全部涵蓋」,詳細清單在 `src/data/knowledge/chapter-map.json` 的 `chapters.<章節>.missing`。
+
 ## Frontmatter
 
 ```yaml
@@ -49,6 +76,7 @@ title: SGLT2 抑制劑
 subtitle: SGLT2 inhibitors(-gliflozin)
 aliases: [SGLT2i, Empagliflozin, Dapagliflozin]
 dzTags: [糖尿病]          # 題庫的 dz: 標籤;疾病頁會反向連到這篇
+admTags: [X理論與Y理論]   # 只有 admin 類型頁用:題庫的 adm: 標籤(護理行政)
 system: endocrine         # 主分類(taxonomy.yml 的 id)
 alsoIn: [cardiovascular, renal]
 group: antidiabetics
@@ -104,6 +132,7 @@ pathogens:
 - `tag`:題庫 dz 標籤,`|` 分隔表示「任一」。
 - `keyword`:比對題幹與選項的正規表示式(不分大小寫)。
 - `drug`:題庫 drug 標籤,`|` 分隔表示「任一」。
+- `adm`:題庫 adm 標籤(護理行政:理論、公式、制度),`|` 分隔表示「任一」。
 - `group`:taxonomy.yml 的藥物群組 id,自動展開成該群組登記的所有 drug 標籤同義詞(推薦用這個,不用記同義詞)。
 - 寫了多種規則時,全部都要符合。
 - `ids`:直接指定題號。

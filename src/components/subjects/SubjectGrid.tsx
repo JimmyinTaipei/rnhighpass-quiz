@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { ListChecks } from "lucide-react";
+import { pillSubjectSoft } from "@/lib/ui";
 import type { Subject } from "@/lib/types";
 import { groupSubjects, subjectGroup } from "@/lib/subject-groups";
 import { subjectIcon } from "./subject-icons";
@@ -16,6 +18,11 @@ interface SubjectGridProps {
    * /quiz 不開，因為測驗要先選範圍，不該跳過設定頁。
    */
   rememberPosition?: boolean;
+  /**
+   * 科目頁用：卡片右側多一個「練習」鈕(到該科出題設定)。
+   * 同一科「讀」與「練」只有一個入口，不必再去另一頁找同一張科目格子。
+   */
+  practiceHrefFor?: (subject: Subject) => string;
 }
 
 /**
@@ -35,12 +42,13 @@ export function SubjectGrid({
   hrefFor,
   intro,
   rememberPosition = false,
+  practiceHrefFor,
 }: SubjectGridProps) {
   const groups = groupSubjects(subjects);
 
   return (
     <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-5">
-      <h1 className="mb-4 text-2xl font-bold text-body">{title}</h1>
+      <h1 className="max-md:sr-only mb-4 text-3xl font-bold text-strong">{title}</h1>
       {intro}
       {groups.map((g) => (
         <section key={g.id} data-group={g.id} className="mb-5">
@@ -52,13 +60,16 @@ export function SubjectGrid({
           <div className="grid gap-2.5 sm:grid-cols-2 lg:grid-cols-4">
             {g.subjects.map((s) => {
               const Icon = subjectIcon(s.name);
-              const cardClass =
-                "group flex items-center gap-3 rounded-card border border-card-border bg-card px-3 py-2 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.03] hover:border-subj-accent hover:shadow-md";
+              // 不放大、不浮起：hover 只加深陰影，按下時變淡(iOS 的按壓回饋)
+              const cardClass = `group flex items-center gap-3 rounded-card bg-card px-3 py-2.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow duration-200 hover:shadow-md active:opacity-70 ${
+                practiceHrefFor ? "pr-24" : ""
+              }`;
               const inner = (
                 <>
                   {/* icon 方塊：平時淺色底＋深色線條；hover 時疊上的漸層層淡入、線條轉白。
                       漸層放在獨立的一層用 opacity 切換，因為背景色無法直接過渡成漸層 */}
-                  <span className="relative flex size-12 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-subj-light">
+                  {/* iOS app 圖示的圓角方塊(約 22.5% 圓角) */}
+                  <span className="relative flex size-11 shrink-0 items-center justify-center overflow-hidden rounded-[10px] bg-subj-light">
                     <span className="absolute inset-0 bg-linear-to-b from-subj-mid to-subj-accent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                     <Icon
                       size={22}
@@ -66,11 +77,11 @@ export function SubjectGrid({
                       className="relative text-subj-deep transition-colors duration-300 group-hover:text-white"
                     />
                   </span>
-                  <span className="text-lg font-bold text-subj-deep">{s.name}</span>
+                  <span className="text-[17px] font-semibold text-strong">{s.name}</span>
                 </>
               );
 
-              return rememberPosition ? (
+              const card = rememberPosition ? (
                 <SubjectLink
                   key={s.id}
                   subjectId={s.id}
@@ -89,6 +100,19 @@ export function SubjectGrid({
                 >
                   {inner}
                 </Link>
+              );
+              if (!practiceHrefFor) return card;
+              // 兩個連結不能巢狀，所以「練習」疊在卡片右側，而不是放在卡片連結裡面
+              return (
+                <div key={s.id} data-group={subjectGroup(s)} className="relative">
+                  {card}
+                  <Link
+                    href={practiceHrefFor(s)}
+                    className={`absolute top-1/2 right-3 -translate-y-1/2 ${pillSubjectSoft}`}
+                  >
+                    <ListChecks size={14} /> 練習
+                  </Link>
+                </div>
               );
             })}
           </div>

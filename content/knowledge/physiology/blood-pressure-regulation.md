@@ -4,6 +4,9 @@ subtitle: Regulation of blood pressure
 aliases: [血壓, 平均動脈壓, MAP, 脈搏壓, 脈壓, 周邊血管阻力, SVR, 壓力感受器, 壓力接受器, baroreceptor, 化學感受器, RAAS, 腎素, 血管張力素, 血管收縮素, 醛固酮, 抗利尿激素, ADH, 利鈉胜肽, ANP, BNP]
 dzTags: []
 system: cardiovascular
+chapters:
+  - 生解-Ch07血液、心血管與淋巴系統 > 血管與循環路線 > 循環生理學（血量、血壓與血流、微血管物質交換、靜脈回流）
+  - 基護-Ch10生命徵象 > 血壓
 alsoIn: [renal]
 reviewed: false
 updated: 2026-09-26

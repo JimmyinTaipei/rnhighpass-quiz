@@ -9,6 +9,7 @@ dzTags: [題庫的 dz 標籤]
 system: infection
 group: bacteria                     # bacteria / viruses / fungi-parasites
 alsoIn: []
+chapters: []                        # 選填：對到的分章題本段落，見 README「章節對照」
 pathogens:
   - id: staphylococcus-aureus       # 必須是下面某個標題的 {#id}；全站唯一
     name: 中文名

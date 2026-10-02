@@ -167,6 +167,50 @@ export async function getTopics(chapterId: number): Promise<Topic[]> {
   return data ?? [];
 }
 
+/**
+ * 把知識頁 chapters 的路徑(「章節全名 > H2(> H3)」)解析成章節頁的位置,
+ * 給「出現在」的連結跳到 /chapters/<id>#topic-<id>。
+ *
+ * topics.natural_key 是用 '>' 串的標題路徑(「H2」或「H2>H3」),
+ * 跟 chapters.full_title 合起來就是一條 chapters 路徑。
+ * 找不到段落(題本改標題但資料庫還沒同步)時只回章節,連到章節頁頂端。
+ */
+export async function getTopicLinks(
+  keys: string[],
+): Promise<Map<string, { chapterId: number; topicId: number | null }>> {
+  const result = new Map<string, { chapterId: number; topicId: number | null }>();
+  if (keys.length === 0) return result;
+  const parsed = keys.map((key) => {
+    const [fullTitle, ...path] = key.split(" > ");
+    return { key, fullTitle, naturalKey: path.join(">") };
+  });
+  const supabase = await createClient();
+  const { data: chapters, error } = await supabase
+    .from("chapters")
+    .select("id, full_title")
+    .in("full_title", [...new Set(parsed.map((p) => p.fullTitle))]);
+  if (error) throw error;
+  const chapterId = new Map((chapters ?? []).map((c) => [c.full_title as string, c.id as number]));
+  const ids = [...new Set(chapterId.values())];
+  const { data: topics, error: topicError } = ids.length
+    ? await supabase
+        .from("topics")
+        .select("id, chapter_id, natural_key")
+        .in("chapter_id", ids)
+        .in("natural_key", [...new Set(parsed.map((p) => p.naturalKey))])
+    : { data: [], error: null };
+  if (topicError) throw topicError;
+  const topicId = new Map(
+    (topics ?? []).map((t) => [`${t.chapter_id}|${t.natural_key}`, t.id as number]),
+  );
+  for (const p of parsed) {
+    const cid = chapterId.get(p.fullTitle);
+    if (cid === undefined) continue;
+    result.set(p.key, { chapterId: cid, topicId: topicId.get(`${cid}|${p.naturalKey}`) ?? null });
+  }
+  return result;
+}
+
 export async function getQuestionsByTopicIds(
   topicIds: number[],
 ): Promise<Question[]> {
@@ -705,6 +749,8 @@ export interface QuizScope {
   /** 題數上限；未指定或 0 代表全部 */
   limit?: number;
   order: "random" | "original";
+  /** 題目來源篩選(只出沒做過 / 曾答錯)。要在截斷題數之前套用，題數才會是篩完的數量 */
+  include?: (questionId: string) => boolean;
 }
 
 /**
@@ -732,6 +778,7 @@ export async function getQuestionsForScope(scope: QuizScope): Promise<Question[]
   if (error) throw error;
 
   let questions = (data ?? []) as Question[];
+  if (scope.include) questions = questions.filter((q) => scope.include!(q.id));
 
   if (scope.order === "random") {
     // 一定要「先洗牌再截斷」。反過來(先 limit 再洗)只會在前 N 題裡打亂順序，

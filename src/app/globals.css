@@ -74,6 +74,10 @@
   --radius-card: 12px;
   --radius-btn: 8px;
 
+  /* iOS 的 fill 色：灰底按鈕、分段控制、標籤的底色 */
+  --color-fill: rgba(120, 120, 128, 0.12);
+  --color-fill-strong: rgba(120, 120, 128, 0.2);
+
   --color-correct-bg: #EAF3DE;
   --color-correct-text: #27500A;
   --color-incorrect-bg: #FCEBEB;
@@ -242,4 +246,115 @@ body {
 .kb-heading[data-flash] { animation: kb-flash 1.8s ease-out; border-radius: 6px; }
 @media (prefers-reduced-motion: reduce) {
   .kb-heading[data-flash] { animation: none; }
+}
+
+/* ===== 手機的原生手感(見 skills-main/skills/mobile-native) =====
+   點擊時不閃灰底、不等 300ms 雙擊判定；按鈕文字不會被長按選取。 */
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+a,
+button,
+summary,
+[role="button"] {
+  touch-action: manipulation;
+}
+button,
+[role="tab"] {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* ===== 主站的 Apple 風格(只在 (site) 外框的 [data-ui="apple"] 底下生效) =====
+   模擬考(仿考選部介面)與列印頁也用同一組 token，所以不改上面的全域值，
+   而是在主站外框重新定義：Tailwind v4 的 utility 都是 var() 參照，
+   bg-card、rounded-card 這些 class 在主站底下會自動拿到這裡的值。
+   要做深色模式時，只要在這一塊加一組 @media (prefers-color-scheme: dark)。 */
+[data-ui="apple"] {
+  /* iOS 的分組清單底色、label 與分隔線顏色 */
+  --color-page: #F2F2F7;
+  --color-sidebar: #EBEBF0;
+  --color-card: #FFFFFF;
+  --color-card-border: rgba(60, 60, 67, 0.13);
+  --color-surface-hover: rgba(120, 120, 128, 0.12);
+  --color-strong: #1C1C1E;
+  --color-body: #3A3A3C;
+  --color-muted: #6E6E73; /* 白底約 4.9:1，原本的 #888780 只有 3.4:1 */
+  --radius-card: 16px;
+  --radius-btn: 10px;
+
+  /* 「內嵌表面」：卡片裡的卡片要跟外層反差。預設外層是灰色頁面，
+     所以內嵌卡是白底、卡裡的列(選項、詳解段落)是半透明灰。 */
+  --surface-inset: #FFFFFF;
+  --surface-row: var(--color-fill);
+
+  /* 系統字型：Apple 裝置是 SF + 蘋方，與 iOS app 一致，也不必下載字型 */
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang TC",
+    "Noto Sans TC", system-ui, "Microsoft JhengHei", sans-serif;
+  line-height: 1.55;
+  color: var(--color-strong);
+  background: var(--color-page);
+}
+
+/* 白色容器(Panel、知識頁、知識面板)裡面反過來：內嵌卡灰底、列白底 */
+[data-ui="apple"] .on-white {
+  --surface-inset: var(--color-page);
+  --surface-row: #FFFFFF;
+}
+
+/* 只在 md 以上是白色容器(手機上閱讀頁不包面板，內容直接放在灰色頁面上) */
+@media (min-width: 48rem) {
+  [data-ui="apple"] .md-on-white {
+    --surface-inset: var(--color-page);
+    --surface-row: #FFFFFF;
+  }
+}
+
+/* 字距依字級：大標題略收、內文維持 0(中文字距收太多會擠，所以比英文收得少) */
+[data-ui="apple"] :where(h1) {
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+}
+[data-ui="apple"] :where(h2) {
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+/* 按壓回饋：按下的當下就變淡(不等放開)，放開時淡回來。iOS 的系統按鈕就是這樣 */
+[data-ui="apple"] :where(button:not(:disabled), summary, [role="button"], a) {
+  -webkit-tap-highlight-color: transparent;
+}
+[data-ui="apple"] :where(button:not(:disabled), summary, [role="button"]):active {
+  opacity: 0.6;
+  transition: opacity 0s;
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-ui="apple"] * {
+    transition-duration: 0s !important;
+    animation-duration: 0s !important;
+  }
+}
+
+/* iOS 的分段控制(segmented control)：灰底膠囊、選中的一格是白底加陰影 */
+[data-ui="apple"] .segmented {
+  display: inline-flex;
+  gap: 2px;
+  border-radius: 9px;
+  background: rgba(118, 118, 128, 0.12);
+  padding: 2px;
+}
+[data-ui="apple"] .segmented > * {
+  border-radius: 7px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-body);
+  transition: background-color 150ms ease-out, box-shadow 150ms ease-out;
+}
+[data-ui="apple"] .segmented > [aria-current],
+[data-ui="apple"] .segmented > [aria-pressed="true"] {
+  background: #fff;
+  color: var(--color-strong);
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.04);
 }

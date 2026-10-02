@@ -5,6 +5,9 @@ aliases: [淋巴瘤, 惡性淋巴瘤, 淋巴癌, Lymphoma, 何杰金氏淋巴瘤
 dzTags: [淋巴瘤, 惡性淋巴瘤, 淋巴癌, 何杰金氏淋巴瘤, 非何杰金氏淋巴瘤, 多發性骨髓瘤, 胃MALT淋巴瘤]
 system: oncology
 alsoIn: [hematology-immunology]
+chapters:
+  - 病理-Ch10血液、造血與淋巴系統疾病 > 血液系統之惡性腫瘤
+  - 內外-Ch14血液系統疾病 > 白血球與淋巴系統疾病
 reviewed: false
 updated: 2026-09-27
 references:

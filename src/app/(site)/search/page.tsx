@@ -14,7 +14,7 @@ export default async function SearchPage(props: PageProps<"/search">) {
   return (
     <main className="mx-auto w-full max-w-4xl flex-1 px-4 py-8 flex flex-col">
       <Panel className="flex-1">
-      <h1 className="mb-4 text-3xl font-bold text-body">搜尋</h1>
+      <h1 className="max-md:sr-only mb-4 text-3xl font-bold text-strong">搜尋</h1>
       <div className="mb-6">
         <SearchBox initialQuery={q} />
       </div>
@@ -41,7 +41,7 @@ export default async function SearchPage(props: PageProps<"/search">) {
                   <Link
                     key={question.id}
                     href={chapter ? `/chapters/${chapter.id}` : "#"}
-                    className="block rounded-card border border-card-border bg-page p-4 shadow-sm transition-colors hover:border-subj-accent"
+                    className="block rounded-card bg-(--surface-inset) p-4 shadow-sm transition-colors hover:bg-surface-hover"
                   >
                     <div className="mb-1 flex flex-wrap items-center gap-2 text-xs text-muted">
                       <span className="rounded bg-page px-2 py-0.5">{question.source_text}</span>
@@ -72,7 +72,7 @@ export default async function SearchPage(props: PageProps<"/search">) {
                   <Link
                     key={c.node_id}
                     href={c.chapter ? `/chapters/${c.chapter.id}` : "#"}
-                    className="block rounded-card border border-card-border bg-page p-4 shadow-sm transition-colors hover:border-subj-accent"
+                    className="block rounded-card bg-(--surface-inset) p-4 shadow-sm transition-colors hover:bg-surface-hover"
                   >
                     {c.chapter && (
                       <p className="mb-1 text-xs text-muted">

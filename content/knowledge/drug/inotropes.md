@@ -5,6 +5,10 @@ aliases: [強心劑, 升壓劑, 升壓藥, 強心升壓藥物, Inotropes, Vasopr
 dzTags: [心臟衰竭, 心衰竭, 休克, 心因性休克, 低血壓]
 system: cardiovascular
 group: heart-failure-drugs
+chapters:
+  - 藥理-Ch08心血管藥物 > 治療鬱血性心衰竭藥物
+  - 藥理-Ch08心血管藥物 > 心臟前後負荷與心衰竭/休克用藥綜合應用
+  - 內外-Ch13心血管系統疾病 > 心衰竭與心肌病變
 reviewed: false
 updated: 2026-09-26
 references:

@@ -171,7 +171,7 @@ export function computeDashboard(input: DashboardInput): DashboardData {
   // ===== 弱點標籤：同一個 dz/block 標籤底下期間內答錯的題目數 >= WEAK_SPOT_MIN =====
   const tagAgg = new Map<string, { type: "dz" | "block"; value: string; ids: Set<string> }>();
   for (const t of tags) {
-    if (t.tag_type === "other" || !wrongIdsInRange.has(t.question_id)) continue;
+    if (t.tag_type === "other" || t.tag_type === "adm" || !wrongIdsInRange.has(t.question_id)) continue;
     const key = `${t.tag_type}:${t.tag_value}`;
     const agg = tagAgg.get(key) ?? { type: t.tag_type, value: t.tag_value, ids: new Set() };
     agg.ids.add(t.question_id);

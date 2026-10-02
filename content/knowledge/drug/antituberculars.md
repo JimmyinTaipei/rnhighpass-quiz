@@ -5,6 +5,8 @@ aliases: [抗結核藥, 抗結核病藥物, Antituberculosis drugs, Isoniazid, I
 dzTags: [結核病, 肺結核, 漢生病]
 system: infection
 group: antituberculars
+chapters:
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗結核病與抗痲瘋病藥物
 alsoIn: [respiratory, community]
 reviewed: false
 updated: 2026-09-28

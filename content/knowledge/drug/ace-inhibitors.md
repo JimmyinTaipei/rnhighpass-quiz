@@ -6,6 +6,8 @@ dzTags: [高血壓, 心臟衰竭, 糖尿病腎病變]
 system: cardiovascular
 alsoIn: [renal]
 group: antihypertensives
+chapters:
+  - 藥理-Ch08心血管藥物 > 治療高血壓藥物
 reviewed: false
 updated: 2026-09-26
 references:

@@ -1,7 +1,351 @@
 [
   {
+    "qkey": "accreditation-evaluation#exam-points",
+    "tag": null,
+    "adm": "醫院評鑑",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "clinical-ladder-training#exam-points",
+    "tag": null,
+    "adm": "臨床專業能力進階制度|Benner臨床能力五階段|在職教育與新進人員訓練|護理生涯規劃與發展|臨床教學評量|護理專業形象",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "conflict-change-management#exam-points",
+    "tag": null,
+    "adm": "衝突的類型與階段|衝突處理策略|Thomas衝突處理模式|變革管理與抗拒|Lewin變革三階段|危機管理|職業倦怠與壓力",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "decision-making#exam-points",
+    "tag": null,
+    "adm": "決策過程與問題解決|直覺決策|Vroom-Yetton決策模式|決策模式|決策輔助工具|名義團體技術|德爾菲法|決策陷阱|腦力激盪法",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "delegation-empowerment#exam-points",
+    "tag": null,
+    "adm": "授權|賦權|集權與分權",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "hospital-safety-environment#exam-points",
+    "tag": null,
+    "adm": "醫院環境安全管理|醫療廢棄物處理|針扎與職業災害|危機管理|職場暴力與勞動權益",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "hr-management-recruitment#exam-points",
+    "tag": null,
+    "adm": "人力資源管理|招募與甄選|工作分析與工作說明書|工作設計|專科護理師",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "infection-control-administration#exam-points",
+    "tag": null,
+    "adm": "傳染病防治與感染管制|法定傳染病分類與通報",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "leadership-power-styles#exam-points",
+    "tag": null,
+    "adm": "權力來源|領導風格(民主專制放任)|管理與領導比較|Mintzberg管理者角色|競合價值架構(Quinn)",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "leadership-theories#exam-points",
+    "tag": null,
+    "adm": "管理方格理論|情境領導(Hersey-Blanchard)|路徑目標理論|Fiedler權變領導|轉換型與交易型領導",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "legal-liability-disputes#exam-points",
+    "tag": null,
+    "adm": "醫療過失與法律責任|醫療糾紛與醫事法|兒童及少年福利與權益保障法",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "management-theories#exam-points",
+    "tag": null,
+    "adm": "管理理論演進與學派比較|科學管理理論(Taylor)|韋伯科層體制|行為科學學派|霍桑實驗|X理論與Y理論|Z理論|系統理論|權變理論",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "medical-records-consent#exam-points",
+    "tag": null,
+    "adm": "病歷管理|知情同意|病人權利|資訊安全與個資",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "motivation-theories#exam-points",
+    "tag": null,
+    "adm": "馬斯洛需求層次|赫茲伯格雙因子理論|激勵理論總論|工作滿意度理論(Jaques)|公平理論",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "nurse-scheduling#exam-points",
+    "tag": null,
+    "adm": "排班原則|交叉訓練|勞動基準法",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "nurse-staffing-policy#exam-points",
+    "tag": null,
+    "adm": "護病比|護理人力政策與短缺因應|正向執業環境PPE|三班人力配置比例",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "nursing-administration-overview#exam-points",
+    "tag": null,
+    "adm": "管理功能與管理程序|護理專業形象|衛生行政組織|Mintzberg管理者角色|競合價值架構(Quinn)",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "nursing-budgeting-drg#exam-points",
+    "tag": null,
+    "adm": "預算概論|預算種類|預算編制方法|零基預算|DRGs",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "nursing-care-models#exam-points",
+    "tag": null,
+    "adm": "全責護理|功能性護理|護理照護模式|技術混合照護模式|個案管理模式|小組護理",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "nursing-cost-analysis#exam-points",
+    "tag": null,
+    "adm": "成本分類|成本控制|護理人力成本計算|損益平衡點BEP",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "nursing-ethics-principles#exam-points",
+    "tag": null,
+    "adm": "護理倫理四原則|護理倫理規範|病人自主權利法與安寧緩和|腦死判定準則|資訊安全與個資",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "nursing-information-systems#exam-points",
+    "tag": null,
+    "adm": "護理資訊系統|資訊安全與個資|病人安全通報與警訊事件|根本原因分析RCA",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "nursing-personnel-act#exam-points",
+    "tag": null,
+    "adm": "護理人員法|專科護理師",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "nursing-workload-productivity#exam-points",
+    "tag": null,
+    "adm": "護理人力推算公式|病人分類系統|護理生產力與HPPD",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "objectives-time-management#exam-points",
+    "tag": null,
+    "adm": "目標管理(MBO)|時間管理",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "organization-structure#exam-points",
+    "tag": null,
+    "adm": "組織結構類型|管理幅度|組織設計原則|非正式組織|集權與分權|組織文化與氣候",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "organizational-communication#exam-points",
+    "tag": null,
+    "adm": "組織溝通|溝通技巧與障礙|溝通模式(SMCR)|ISBAR結構化溝通|職業倦怠與壓力|資訊安全與個資",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "patient-safety-reporting#exam-points",
+    "tag": null,
+    "adm": "病人安全通報與警訊事件|病人安全管理|醫院醫療品質及病人安全工作目標",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "performance-appraisal#exam-points",
+    "tag": null,
+    "adm": "績效考核|績效考核標準與工具|績效評核偏誤",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "planning-strategy#exam-points",
+    "tag": null,
+    "adm": "規劃概論|願景使命與策略規劃|SWOT分析|目標設定5W1H|規劃類型與層級",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "quality-improvement-tools#exam-points",
+    "tag": null,
+    "adm": "PDCA與FOCUS-PDCA|品管圈|柏拉圖|魚骨圖|查檢表|管制圖|新七手法|根本原因分析RCA|HFMEA與FMEA|精實管理|平衡計分卡BSC",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "quality-management-concepts#exam-points",
+    "tag": null,
+    "adm": "品質管理學者與理論|TQM與CQI|Donabedian品質三面向|護理品質指標與標準|控制類型與程序|品質改善主題與工具選擇",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "turnover-absenteeism#exam-points",
+    "tag": null,
+    "adm": "離職率與缺勤率計算|離職率與留任|職業倦怠與壓力|勞動基準法",
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 60
+  },
+  {
+    "qkey": "asepsis-sterilization#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_003",
+      "112-1_FA_005",
+      "115-1_FA_004",
+      "114-2_FA_001",
+      "111-1_FA_004",
+      "111-1_FA_006",
+      "110-1_FA_008",
+      "107-1_FA_004",
+      "105-2_FA_003",
+      "113-2_FA_003",
+      "107-2_FA_001",
+      "107-2_FA_002",
+      "111-2_FA_005",
+      "106-2_OP_012",
+      "108-2_FA_001",
+      "111-1_FA_005",
+      "109-2_BM_070",
+      "110-2_FA_001",
+      "109-2_FA_002",
+      "114-2_BM_041",
+      "108-1_FA_005",
+      "112-2_FA_004",
+      "111-1_BM_067",
+      "114-2_FA_004",
+      "112-3_FA_002",
+      "109-2_FA_004",
+      "115-2_FA_004",
+      "111-2_OP_069",
+      "114-2_FA_033",
+      "108-1_FA_011",
+      "105-2_FA_008",
+      "115-1_FA_033",
+      "110-2_FA_052",
+      "114-1_PC_038",
+      "112-2_PC_062",
+      "114-3_PC_038"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "cancer-treatment-toxicities#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -41,6 +385,7 @@
   {
     "qkey": "cancer-treatment-toxicities#questions-radiation",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -64,6 +409,7 @@
   {
     "qkey": "cancer-treatment-toxicities#questions-emergencies",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -92,6 +438,7 @@
   {
     "qkey": "cancer-treatment-toxicities#questions-emergencies~2",
     "tag": "骨髓抑制|腫瘤溶解症候群|上腔靜脈症候群|口腔炎|放射性皮膚炎|放射線皮膚炎",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -100,6 +447,7 @@
   {
     "qkey": "end-of-life-care#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -141,6 +489,7 @@
   {
     "qkey": "end-of-life-care#questions-psych-law",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -195,6 +544,7 @@
   {
     "qkey": "end-of-life-care#questions-postmortem-children",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -249,14 +599,153 @@
   {
     "qkey": "end-of-life-care#questions-postmortem-children~2",
     "tag": "瀕死症狀|瀕死狀態|臨終狀態|瀕死徵象|臨終嘎聲|臨終嘎音|瀕死嘎嘎音|緩和醫療",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 10
   },
   {
+    "qkey": "immunization#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_043",
+      "114-1_BM_044",
+      "106-2_makeup_BM_078",
+      "105-2_BM_068",
+      "106-1_BM_065",
+      "114-1_BM_049",
+      "115-2_BM_049",
+      "106-2_BM_075",
+      "115-1_BM_044",
+      "110-1_BM_068",
+      "114-2_BM_044",
+      "108-2_BM_067",
+      "105-1_BM_072",
+      "105-1_OP_030",
+      "106-2_makeup_FA_020",
+      "107-2_OP_056",
+      "105-2_OP_057",
+      "114-2_OP_038",
+      "112-3_FA_009",
+      "107-2_OP_061",
+      "108-2_OP_066",
+      "113-2_OP_047",
+      "106-2_OP_059",
+      "105-1_PC_069",
+      "110-2_PC_047",
+      "112-1_PC_067",
+      "114-2_PC_042",
+      "114-3_OP_037",
+      "106-2_makeup_PC_059",
+      "106-2_makeup_OP_057",
+      "105-2_PC_070",
+      "107-2_PC_049",
+      "107-1_PC_060",
+      "106-2_PC_070",
+      "110-1_PC_046",
+      "106-1_PC_047",
+      "113-3_PC_030",
+      "112-2_PC_047",
+      "111-2_PC_050",
+      "112-2_OP_057",
+      "109-1_OP_064",
+      "105-1_OP_067",
+      "112-2_MS_047",
+      "108-2_MS_046",
+      "107-1_MS_079",
+      "109-2_PC_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "infection-control#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_FA_001",
+      "109-2_MS_080",
+      "114-2_FA_046",
+      "107-1_FA_001",
+      "109-1_FA_003",
+      "108-2_FA_080",
+      "107-1_FA_003",
+      "106-2_FA_005",
+      "106-1_FA_007",
+      "106-2_FA_002",
+      "111-2_PC_042",
+      "110-2_FA_069",
+      "112-1_FA_003",
+      "112-2_FA_066",
+      "105-1_FA_001",
+      "108-1_FA_008",
+      "106-2_makeup_FA_005",
+      "106-2_makeup_FA_002",
+      "111-2_FA_004",
+      "112-1_MS_079",
+      "112-1_MS_080",
+      "107-2_FA_007",
+      "114-3_FA_001",
+      "107-1_MS_035",
+      "106-2_makeup_MS_050",
+      "112-2_FA_005",
+      "105-2_FA_001",
+      "114-1_FA_002",
+      "107-1_FA_005",
+      "115-2_MS_049",
+      "105-1_FA_039",
+      "114-3_FA_003",
+      "111-1_FA_064",
+      "107-1_FA_002",
+      "106-2_FA_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "notifiable-diseases#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_PC_046",
+      "109-2_FA_069",
+      "107-2_FA_071",
+      "109-1_PC_048",
+      "112-3_PC_028",
+      "114-2_PC_028",
+      "108-2_PC_063",
+      "114-2_PC_029",
+      "113-1_PC_030",
+      "106-2_makeup_PC_043",
+      "107-1_PC_059",
+      "115-1_PC_039",
+      "107-2_PC_065",
+      "106-2_makeup_PC_060",
+      "114-1_PC_028",
+      "110-2_PC_048",
+      "106-2_PC_046",
+      "113-1_PC_028",
+      "106-2_PC_045",
+      "111-2_PC_049",
+      "112-2_PC_049",
+      "107-1_FA_006",
+      "106-2_makeup_PC_057",
+      "108-1_PC_044",
+      "107-2_PC_054",
+      "111-2_PC_060"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "pain-management#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -306,6 +795,7 @@
   {
     "qkey": "pain-management#exam-points~2",
     "tag": "疼痛",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -314,6 +804,7 @@
   {
     "qkey": "stem-cell-transplant#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -337,6 +828,7 @@
   {
     "qkey": "stem-cell-transplant#exam-points~2",
     "tag": "造血幹細胞移植|移植物對抗宿主疾病|移植物抗宿主疾病|移植體對抗宿主疾病",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -345,6 +837,7 @@
   {
     "qkey": "bipolar-disorder#defense-mechanisms",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -361,6 +854,7 @@
   {
     "qkey": "bipolar-disorder#hypomania-depression",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -378,6 +872,7 @@
   {
     "qkey": "bipolar-disorder#types",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -390,6 +885,7 @@
   {
     "qkey": "bipolar-disorder#maintenance",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -403,6 +899,7 @@
   {
     "qkey": "bipolar-disorder#nursing-communication",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -451,6 +948,7 @@
   {
     "qkey": "bipolar-disorder#nursing-discharge",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -462,6 +960,7 @@
   {
     "qkey": "breast-cancer#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -502,6 +1001,7 @@
   {
     "qkey": "breast-cancer#exam-points~2",
     "tag": "乳癌",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -510,6 +1010,7 @@
   {
     "qkey": "cancer#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -551,14 +1052,138 @@
   {
     "qkey": "cancer#exam-points~2",
     "tag": "癌症",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 10
   },
   {
+    "qkey": "childhood-infectious-diseases#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_BM_077",
+      "106-2_makeup_OP_058",
+      "110-1_OP_060",
+      "105-2_OP_056",
+      "109-2_OP_057",
+      "110-2_OP_059",
+      "105-1_OP_057",
+      "115-2_PC_029",
+      "110-1_PC_051",
+      "105-1_BM_078",
+      "114-1_OP_037",
+      "107-2_OP_067",
+      "106-1_BM_077",
+      "106-1_OP_031",
+      "112-1_OP_064",
+      "109-2_OP_033",
+      "113-3_OP_004",
+      "110-2_OP_033",
+      "110-2_PC_043",
+      "105-1_PC_069",
+      "112-3_OP_037",
+      "109-1_OP_047",
+      "113-1_OP_037",
+      "112-1_MS_079",
+      "115-2_FA_046",
+      "110-2_MS_080",
+      "106-2_MS_075",
+      "111-1_MS_080",
+      "113-3_BM_049",
+      "106-1_OP_056",
+      "105-1_OP_070",
+      "108-1_OP_044",
+      "114-3_PC_028",
+      "107-1_PC_058",
+      "112-2_PC_054",
+      "111-2_OP_069",
+      "115-1_OP_037",
+      "114-2_OP_037",
+      "110-2_OP_060",
+      "114-2_MS_048",
+      "110-2_PC_072",
+      "114-2_PC_050",
+      "113-2_PC_029",
+      "108-2_OP_077",
+      "115-2_OP_036",
+      "112-2_MS_043",
+      "109-2_OP_058",
+      "114-3_OP_036",
+      "113-3_OP_037",
+      "112-2_OP_059",
+      "107-2_OP_068",
+      "105-1_OP_058",
+      "106-2_OP_057",
+      "107-1_PC_057",
+      "106-2_makeup_FA_003",
+      "112-1_OP_059",
+      "111-2_OP_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cns-infections#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_018",
+      "110-1_BM_025",
+      "109-1_MS_014",
+      "106-1_MS_008",
+      "107-1_MS_002",
+      "114-3_OP_049",
+      "112-3_OP_050",
+      "105-1_OP_080",
+      "114-1_OP_048",
+      "110-1_OP_065",
+      "108-2_MS_001",
+      "113-1_OP_037",
+      "112-2_OP_058",
+      "108-1_BM_068",
+      "106-1_BM_072",
+      "114-2_BM_046",
+      "112-3_BM_046",
+      "110-2_BM_076",
+      "109-2_BM_067",
+      "115-2_BM_048",
+      "106-1_BM_080",
+      "110-2_FA_069",
+      "107-2_MS_004",
+      "108-2_OP_079",
+      "107-2_OP_051",
+      "109-2_OP_079",
+      "110-2_MS_004",
+      "112-2_OP_080",
+      "111-1_OP_080",
+      "105-2_OP_080",
+      "108-1_OP_050",
+      "112-3_OP_029",
+      "115-1_MS_003",
+      "105-1_MS_004",
+      "113-3_MS_001",
+      "106-2_makeup_MS_040",
+      "105-2_MS_001",
+      "108-2_OP_080",
+      "109-1_OP_054",
+      "114-2_FA_022",
+      "111-2_FA_034",
+      "113-3_FA_040",
+      "111-1_BM_078",
+      "113-2_OP_037",
+      "108-1_MS_023"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "colorectal-cancer#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -599,6 +1224,7 @@
   {
     "qkey": "colorectal-cancer#exam-points~2",
     "tag": "大腸癌|大腸直腸癌|結腸癌|直腸癌",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -607,6 +1233,7 @@
   {
     "qkey": "coronary-artery-disease#oxygen-balance",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(冠狀動脈).*(發出|分支|供應|舒張期)|(升主動脈|左前降|迴旋支|右冠狀)",
     "ids": [],
@@ -615,6 +1242,7 @@
   {
     "qkey": "coronary-artery-disease#pathology-timeline",
     "tag": "心肌梗塞|急性心肌梗塞|動脈粥狀硬化|動脈硬化",
+    "adm": null,
     "drug": null,
     "keyword": "(病理|病因|機轉|粥狀|斑塊|壞死|嗜中性|巨噬|肉芽|纖維化|危險因子)",
     "ids": [],
@@ -623,6 +1251,7 @@
   {
     "qkey": "coronary-artery-disease#acs",
     "tag": "心絞痛|狹心症|不穩定型心絞痛|急性冠心症|急性冠狀動脈症候群",
+    "adm": null,
     "drug": null,
     "keyword": "(穩定型|不穩定型|變異型|Prinzmetal|痙攣|ST ?(上升|下降))",
     "ids": [],
@@ -631,6 +1260,7 @@
   {
     "qkey": "coronary-artery-disease#angina-vs-mi",
     "tag": "心肌梗塞|急性心肌梗塞|心絞痛|狹心症",
+    "adm": null,
     "drug": null,
     "keyword": "(症狀|胸痛|放射|轉移痛|冒冷汗|典型|持續)",
     "ids": [],
@@ -639,6 +1269,7 @@
   {
     "qkey": "coronary-artery-disease#other-tests",
     "tag": "心肌梗塞|急性心肌梗塞|急性冠心症",
+    "adm": null,
     "drug": null,
     "keyword": "(Troponin|troponin|旋轉蛋白|CK-MB|肌酸激酶|LDH|肌紅素|心肌酵素|運動心電圖|鉈|Thallium|灌注)",
     "ids": [],
@@ -647,6 +1278,7 @@
   {
     "qkey": "coronary-artery-disease#in-hospital",
     "tag": "心肌梗塞|急性心肌梗塞|急性冠心症|急性冠狀動脈症候群",
+    "adm": null,
     "drug": null,
     "keyword": "(MONA|嗎啡|morphine|氧氣|aspirin|Aspirin|血栓溶解|再灌流|PCI|緊急|優先|處置)",
     "ids": [],
@@ -655,6 +1287,7 @@
   {
     "qkey": "coronary-artery-disease#complications",
     "tag": "心肌梗塞|急性心肌梗塞",
+    "adm": null,
     "drug": null,
     "keyword": "(併發症|心律不整|破裂|乳突肌|Dressler|心包膜炎|心因性休克)",
     "ids": [],
@@ -663,6 +1296,7 @@
   {
     "qkey": "coronary-artery-disease#drug-classes",
     "tag": null,
+    "adm": null,
     "drug": [
       "心絞痛用藥",
       "抗心絞痛用藥",
@@ -675,6 +1309,7 @@
   {
     "qkey": "coronary-artery-disease#drug-classes~2",
     "tag": null,
+    "adm": null,
     "drug": [
       "抗凝血用藥",
       "抗凝血劑",
@@ -692,6 +1327,7 @@
   {
     "qkey": "coronary-artery-disease#cabg",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -711,6 +1347,7 @@
   {
     "qkey": "coronary-artery-disease#exercise",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -728,6 +1365,7 @@
   {
     "qkey": "coronary-artery-disease#prevention-levels",
     "tag": "高血脂|高血脂症|冠狀動脈疾病|動脈粥狀硬化",
+    "adm": null,
     "drug": null,
     "keyword": "(膽固醇|LDL|HDL|三酸甘油|血脂|代謝症候群|預防|飲食|纖維)",
     "ids": [],
@@ -736,6 +1374,7 @@
   {
     "qkey": "depressive-disorder#social",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -757,6 +1396,7 @@
   {
     "qkey": "depressive-disorder#manifestations",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -770,6 +1410,7 @@
   {
     "qkey": "depressive-disorder#assessment-tools",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -784,6 +1425,7 @@
   {
     "qkey": "depressive-disorder#postpartum",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -798,6 +1440,7 @@
   {
     "qkey": "depressive-disorder#late-life",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -815,6 +1458,7 @@
   {
     "qkey": "depressive-disorder#youth",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -830,6 +1474,7 @@
   {
     "qkey": "depressive-disorder#ect",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -847,6 +1492,7 @@
   {
     "qkey": "depressive-disorder#nursing-discharge",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -880,6 +1526,7 @@
   {
     "qkey": "depressive-disorder#suicide-death",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -917,6 +1564,7 @@
   {
     "qkey": "depressive-disorder#disaster",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -953,6 +1601,7 @@
   {
     "qkey": "diabetes#physiology-drug-map",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "^(?=.*血糖).*(升糖素|glucagon|糖質新生|反調節|皮質醇|生長激素|腎上腺素|抑制素)",
     "ids": [],
@@ -961,6 +1610,7 @@
   {
     "qkey": "diabetes#hyperglycemia-damage",
     "tag": "糖尿病|第一型糖尿病|第1型糖尿病|第二型糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": "(致病|機轉|自體免疫|β ?細胞|蘭氏小島|HLA|遺傳模式|過敏反應|類澱粉(沉積|蛋白)|胰島素(抗性|阻抗)|接受器)",
     "ids": [],
@@ -969,6 +1619,7 @@
   {
     "qkey": "diabetes#type1",
     "tag": "第一型糖尿病|第1型糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -977,6 +1628,7 @@
   {
     "qkey": "diabetes#type2",
     "tag": "糖尿病|第二型糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": "第 ?(2|二) ?型",
     "ids": [],
@@ -985,6 +1637,7 @@
   {
     "qkey": "diabetes#gdm",
     "tag": "妊娠糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -993,6 +1646,7 @@
   {
     "qkey": "diabetes#diagnosis",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(診斷標準|診斷依據|可診斷為糖尿病|確定診斷.*糖尿病|代謝症候群)",
     "ids": [],
@@ -1001,6 +1655,7 @@
   {
     "qkey": "diabetes#hypoglycemia",
     "tag": "低血糖|低血糖症",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1009,6 +1664,7 @@
   {
     "qkey": "diabetes#dka",
     "tag": "糖尿病酮酸中毒|酮酸中毒",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1017,6 +1673,7 @@
   {
     "qkey": "diabetes#hhs",
     "tag": "高滲透壓高血糖狀態|高血糖高滲透壓狀態|高滲透度高血糖狀態|高血糖高滲透壓症候群",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1025,6 +1682,7 @@
   {
     "qkey": "diabetes#somogyi",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(蘇莫吉|Somogyi|黎明現象)",
     "ids": [],
@@ -1033,6 +1691,7 @@
   {
     "qkey": "diabetes#retinopathy",
     "tag": "糖尿病視網膜病變",
+    "adm": null,
     "drug": null,
     "keyword": "視網膜",
     "ids": [],
@@ -1041,6 +1700,7 @@
   {
     "qkey": "diabetes#nephropathy",
     "tag": "糖尿病腎病變",
+    "adm": null,
     "drug": null,
     "keyword": "腎",
     "ids": [],
@@ -1049,6 +1709,7 @@
   {
     "qkey": "diabetes#diabetic-foot",
     "tag": "糖尿病足|糖尿病足部病變|糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": "(足部|足趾|趾甲|雞眼|糖尿病足)",
     "ids": [],
@@ -1057,6 +1718,7 @@
   {
     "qkey": "diabetes#drug-classes",
     "tag": null,
+    "adm": null,
     "drug": [
       "糖尿病用藥",
       "降血糖用藥"
@@ -1068,6 +1730,7 @@
   {
     "qkey": "diabetes#smbg",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(自我監測血糖|監測血糖|血糖機)",
     "ids": [],
@@ -1076,6 +1739,7 @@
   {
     "qkey": "diabetes#school-community",
     "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": "(學童|學校|學生|社區|個案管理|家訪|長照)",
     "ids": [],
@@ -1084,6 +1748,7 @@
   {
     "qkey": "diabetes#glycemic-index",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(升糖指數|glycemic index|GI 值|低升糖)",
     "ids": [],
@@ -1092,6 +1757,7 @@
   {
     "qkey": "diabetes#glycemic-index~2",
     "tag": "糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": "(飲食|總熱量|碳水化合物|脂肪|膽固醇|蛋白質)",
     "ids": [],
@@ -1100,6 +1766,7 @@
   {
     "qkey": "diabetes#exercise",
     "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": "運動",
     "ids": [],
@@ -1108,6 +1775,7 @@
   {
     "qkey": "diabetes#prevention",
     "tag": "糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": "(三段五級|代謝症候群|整合性篩檢|篩檢|非傳染)",
     "ids": [],
@@ -1116,6 +1784,7 @@
   {
     "qkey": "gynecologic-cancers#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1158,6 +1827,7 @@
   {
     "qkey": "gynecologic-cancers#exam-points~2",
     "tag": "子宮頸癌|子宮內膜癌|卵巢癌|卵巢腫瘤",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1166,6 +1836,7 @@
   {
     "qkey": "head-neck-cancers#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1212,6 +1883,7 @@
   {
     "qkey": "head-neck-cancers#exam-points~2",
     "tag": "鼻咽癌|口腔癌|喉癌|下咽癌|舌癌|頭頸癌",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1220,6 +1892,7 @@
   {
     "qkey": "heart-failure#ejection-fraction",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(前負荷|後負荷|心搏出量|心輸出量|Frank|Starling|射出分率)",
     "ids": [],
@@ -1228,6 +1901,7 @@
   {
     "qkey": "heart-failure#edema-mechanism",
     "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "adm": null,
     "drug": null,
     "keyword": "(代償|機轉|交感|腎素|醛固酮|利鈉|BNP|靜水壓|水腫)",
     "ids": [],
@@ -1236,6 +1910,7 @@
   {
     "qkey": "heart-failure#left-vs-right",
     "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "adm": null,
     "drug": null,
     "keyword": "(左心|右心|端坐|夜間陣發|頸靜脈|肝腫大|水腫|早期)",
     "ids": [],
@@ -1244,6 +1919,7 @@
   {
     "qkey": "heart-failure#physical-assessment",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(頸靜脈壓|頸靜脈怒張|S3|第三心音|肺微血管楔壓|PCWP|中心靜脈壓|CVP)",
     "ids": [],
@@ -1252,6 +1928,7 @@
   {
     "qkey": "heart-failure#staging",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(NYHA|紐約心臟|功能分級|心衰竭.*(分期|分級))",
     "ids": [],
@@ -1260,6 +1937,7 @@
   {
     "qkey": "heart-failure#diagnosis",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(BNP|利鈉|心胸比|胸部 ?X 光.*心衰|心臟超音波)",
     "ids": [],
@@ -1268,6 +1946,7 @@
   {
     "qkey": "heart-failure#acute-management",
     "tag": "肺水腫",
+    "adm": null,
     "drug": null,
     "keyword": "(肺水腫|粉紅色泡沫|端坐|嗎啡|morphine|輸液過量|循環負荷)",
     "ids": [],
@@ -1276,6 +1955,7 @@
   {
     "qkey": "heart-failure#cardiogenic-shock",
     "tag": "心因性休克",
+    "adm": null,
     "drug": null,
     "keyword": "(心因性休克|主動脈內氣球|IABP)",
     "ids": [],
@@ -1284,6 +1964,7 @@
   {
     "qkey": "heart-failure#other-drugs",
     "tag": null,
+    "adm": null,
     "drug": [
       "心衰竭用藥",
       "心臟衰竭用藥",
@@ -1301,6 +1982,7 @@
   {
     "qkey": "heart-failure#activity",
     "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "adm": null,
     "drug": null,
     "keyword": "(護理|姿勢|半坐臥|高坐臥|限水|限鈉|體重|輸出入量|活動)",
     "ids": [],
@@ -1309,14 +1991,85 @@
   {
     "qkey": "heart-failure#prevent-exacerbation",
     "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "adm": null,
     "drug": null,
     "keyword": "(衛教|出院|居家|飲食|體重|疫苗)",
     "ids": [],
     "limit": 8
   },
   {
+    "qkey": "hiv-aids#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_046",
+      "108-2_BM_035",
+      "106-2_makeup_BM_036",
+      "106-1_BM_035",
+      "109-2_BM_078",
+      "108-1_BM_071",
+      "110-2_BM_071",
+      "106-2_makeup_BM_070",
+      "107-2_BM_079",
+      "115-1_BM_044",
+      "113-3_MS_014",
+      "114-1_MS_030",
+      "108-2_MS_049",
+      "106-2_makeup_OP_039",
+      "111-2_OP_059",
+      "106-1_OP_067",
+      "110-1_MS_048",
+      "107-1_BM_079",
+      "112-1_OP_008",
+      "112-1_MS_050",
+      "109-2_OP_037",
+      "108-1_OP_038",
+      "107-2_OP_038",
+      "106-2_makeup_MS_047",
+      "109-1_MS_047",
+      "108-2_BM_037",
+      "109-2_OP_053",
+      "106-2_BM_078",
+      "110-2_BM_078",
+      "108-1_BM_064",
+      "113-1_BM_039",
+      "115-2_MS_031",
+      "111-2_MS_049",
+      "114-3_MS_030",
+      "110-2_MS_050",
+      "106-2_OP_068",
+      "108-2_MS_005",
+      "110-2_MS_048",
+      "107-1_MS_047",
+      "109-2_MS_049",
+      "108-1_MS_047",
+      "112-3_MS_031",
+      "107-2_FA_007",
+      "112-1_OP_057",
+      "107-2_MS_050",
+      "114-1_OP_024",
+      "108-2_OP_072",
+      "111-2_OP_035",
+      "110-2_OP_058",
+      "111-1_MS_048",
+      "113-2_OP_047",
+      "112-2_OP_057",
+      "109-1_OP_064",
+      "105-1_OP_067",
+      "112-2_MS_050",
+      "105-1_MS_050",
+      "105-1_FA_002",
+      "106-2_makeup_PC_050",
+      "110-1_PC_047"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "hypertension#influencing-factors",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1336,6 +2089,7 @@
   {
     "qkey": "hypertension#secondary-causes",
     "tag": "高血壓",
+    "adm": null,
     "drug": null,
     "keyword": "(原發性|本態性|續發性|嗜鉻|醛固酮|腎動脈狹窄|自主神經反射)",
     "ids": [],
@@ -1344,6 +2098,7 @@
   {
     "qkey": "hypertension#home-bp",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(壓脈帶|血壓計|測量血壓|量血壓|柯氏音|Korotkoff|聽診間隙|膕動脈|下肢血壓|雙手.*血壓|血壓.*(偏高|偏低|誤差))",
     "ids": [],
@@ -1352,6 +2107,7 @@
   {
     "qkey": "hypertension#target-organ-damage",
     "tag": "高血壓|左心室肥大",
+    "adm": null,
     "drug": null,
     "keyword": "(中風|左心室肥大|視網膜|腎|合併症|併發症|心尖)",
     "ids": [],
@@ -1360,6 +2116,7 @@
   {
     "qkey": "hypertension#hypertensive-crisis",
     "tag": "高血壓危象|高血壓",
+    "adm": null,
     "drug": null,
     "keyword": "(危象|急症|nitroprusside|Nipride|惡性高血壓|180 ?/ ?120|舌下)",
     "ids": [],
@@ -1368,6 +2125,7 @@
   {
     "qkey": "hypertension#pregnancy",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1389,6 +2147,7 @@
   {
     "qkey": "hypertension#drug-classes",
     "tag": null,
+    "adm": null,
     "drug": [
       "抗高血壓用藥",
       "高血壓用藥",
@@ -1401,6 +2160,7 @@
   {
     "qkey": "hypertension#medication-education",
     "tag": "高血壓",
+    "adm": null,
     "drug": null,
     "keyword": "(護理|衛教|自行停藥|服藥|低血鉀|排便)",
     "ids": [],
@@ -1409,6 +2169,7 @@
   {
     "qkey": "hypertension#other-lifestyle",
     "tag": "高血壓",
+    "adm": null,
     "drug": null,
     "keyword": "(飲食|鈉|鹽|DASH|運動|三溫暖|等長|酒)",
     "ids": [],
@@ -1417,6 +2178,7 @@
   {
     "qkey": "hypertension#prevention",
     "tag": "高血壓",
+    "adm": null,
     "drug": null,
     "keyword": "(三段五級|篩檢|社區|代謝症候群|預防保健|評值)",
     "ids": [],
@@ -1425,6 +2187,7 @@
   {
     "qkey": "hypotension#physiology",
     "tag": "低血壓",
+    "adm": null,
     "drug": null,
     "keyword": "(血壓下降|低血壓).*(原因|因素|機轉)",
     "ids": [],
@@ -1433,6 +2196,7 @@
   {
     "qkey": "hypotension#orthostatic-management",
     "tag": "姿勢性低血壓|姿位性低血壓|姿態性低血壓",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1441,6 +2205,7 @@
   {
     "qkey": "hypotension#orthostatic-management~2",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(坐浴|溫泉|熱療|用熱).*(頭暈|血壓|脈搏)|(頭暈|血壓|脈搏).*(坐浴|溫泉|熱療|用熱)|(第一次下床|漸進式下床)",
     "ids": [],
@@ -1449,6 +2214,7 @@
   {
     "qkey": "hypotension#neuraxial-anesthesia",
     "tag": "仰臥低血壓症候群|仰臥位低血壓綜合症",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1457,6 +2223,7 @@
   {
     "qkey": "hypotension#neuraxial-anesthesia~2",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(硬膜外|脊髓麻醉|減痛分娩).*(低血壓|血壓)|(低血壓|血壓).*(硬膜外|脊髓麻醉|減痛分娩)",
     "ids": [],
@@ -1465,14 +2232,91 @@
   {
     "qkey": "hypotension#shock",
     "tag": "低血壓|休克",
+    "adm": null,
     "drug": null,
     "keyword": "(休克|升壓|dopamine|晶體液|輸液).*(血壓)|(血壓).*(休克|升壓)",
     "ids": [],
     "limit": 6
   },
   {
+    "qkey": "infectious-diarrhea#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_047",
+      "112-2_OP_076",
+      "109-2_OP_073",
+      "107-1_OP_078",
+      "114-2_OP_048",
+      "114-3_FA_022",
+      "105-2_FA_037",
+      "112-2_FA_021",
+      "107-1_FA_021",
+      "108-1_FA_024",
+      "113-2_BM_037",
+      "115-1_BM_031",
+      "112-1_BM_038",
+      "107-2_BM_059",
+      "108-2_MS_076",
+      "112-3_BM_044",
+      "113-2_PC_040",
+      "107-2_PC_065",
+      "115-1_PC_039",
+      "109-2_MS_010",
+      "106-2_FA_002",
+      "110-1_OP_042",
+      "108-1_OP_057"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "infective-endocarditis#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_024",
+      "114-1_BM_045",
+      "106-2_MS_026",
+      "113-2_MS_016",
+      "112-2_MS_025",
+      "107-2_BM_034",
+      "115-2_BM_044",
+      "115-1_BM_045",
+      "112-3_OP_040",
+      "111-2_BM_021",
+      "106-2_makeup_BM_040",
+      "112-2_MS_031",
+      "107-1_MS_028",
+      "111-2_MS_029",
+      "109-1_MS_013",
+      "115-2_OP_041",
+      "106-1_OP_064",
+      "112-1_BM_028",
+      "113-1_OP_040",
+      "112-3_BM_025",
+      "110-1_MS_026",
+      "113-1_MS_016",
+      "108-2_BM_043",
+      "115-1_MS_016",
+      "112-2_BM_024",
+      "113-2_MS_017",
+      "112-1_MS_025",
+      "111-2_MS_030",
+      "110-2_MS_034",
+      "109-2_MS_027",
+      "106-1_MS_025",
+      "111-2_MS_034"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "leukemia#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1511,6 +2355,7 @@
   {
     "qkey": "leukemia#exam-points~2",
     "tag": "白血病|急性淋巴性白血病|急性骨髓性白血病|慢性骨髓性白血病|慢性淋巴性白血病",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1519,6 +2364,7 @@
   {
     "qkey": "liver-cancer#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1538,6 +2384,7 @@
   {
     "qkey": "liver-cancer#exam-points~2",
     "tag": "肝癌|肝細胞癌",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1546,6 +2393,7 @@
   {
     "qkey": "lung-cancer#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1574,6 +2422,7 @@
   {
     "qkey": "lung-cancer#exam-points~2",
     "tag": "肺癌",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1582,6 +2431,7 @@
   {
     "qkey": "lymphoma-myeloma#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1614,6 +2464,7 @@
   {
     "qkey": "lymphoma-myeloma#exam-points~2",
     "tag": "淋巴瘤|惡性淋巴瘤|何杰金氏淋巴瘤|非何杰金氏淋巴瘤|多發性骨髓瘤",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -1622,6 +2473,7 @@
   {
     "qkey": "pediatric-cancers#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1661,14 +2513,237 @@
   {
     "qkey": "pediatric-cancers#exam-points~2",
     "tag": "兒童癌症|腦瘤|腦腫瘤|神經母細胞瘤|威爾姆氏腫瘤|威廉氏腫瘤|骨肉瘤|視網膜母細胞瘤",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 10
   },
   {
+    "qkey": "pediatric-respiratory-infections#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_069",
+      "113-2_OP_049",
+      "105-1_MS_023",
+      "114-3_MS_015",
+      "111-2_MS_025",
+      "114-1_MS_015",
+      "109-1_MS_023",
+      "107-1_MS_024",
+      "105-2_MS_023",
+      "115-2_FA_013",
+      "113-1_OP_038",
+      "111-1_OP_062",
+      "108-2_OP_068",
+      "113-2_OP_042",
+      "110-2_OP_062",
+      "106-1_MS_022",
+      "105-2_MS_020",
+      "110-1_MS_025",
+      "115-1_MS_013",
+      "107-1_OP_067",
+      "112-1_OP_061",
+      "114-3_OP_039",
+      "109-1_OP_069",
+      "114-3_OP_030",
+      "108-2_OP_057",
+      "108-1_FA_016",
+      "106-2_makeup_FA_018",
+      "105-2_FA_017",
+      "111-1_MS_023",
+      "108-2_MS_018",
+      "107-2_MS_026",
+      "108-1_MS_023",
+      "112-3_MS_017",
+      "113-1_MS_015",
+      "112-2_MS_021",
+      "106-2_makeup_MS_023",
+      "110-2_MS_023",
+      "109-2_MS_023",
+      "105-1_MS_025",
+      "108-2_OP_067",
+      "111-1_OP_063",
+      "112-1_OP_063",
+      "107-1_OP_068",
+      "110-1_OP_051",
+      "112-3_OP_039",
+      "110-1_OP_062",
+      "114-2_OP_039",
+      "107-2_OP_069",
+      "105-1_OP_062",
+      "111-2_OP_061",
+      "109-2_OP_060",
+      "109-1_OP_070",
+      "107-1_OP_070",
+      "106-2_makeup_OP_059",
+      "113-1_OP_050",
+      "107-2_OP_050",
+      "105-1_OP_079",
+      "106-1_OP_043",
+      "115-1_FA_033",
+      "114-3_OP_050",
+      "114-2_OP_040",
+      "111-2_OP_070",
+      "110-2_OP_080",
+      "106-1_OP_080"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "perinatal-infections#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_002",
+      "111-1_OP_003",
+      "109-1_PC_070",
+      "105-2_BM_071",
+      "115-2_OP_003",
+      "111-1_OP_033",
+      "105-2_OP_001",
+      "109-2_OP_033",
+      "109-1_OP_063",
+      "105-1_BM_080",
+      "106-1_BM_075",
+      "114-1_OP_024",
+      "110-2_OP_058",
+      "106-2_makeup_OP_012",
+      "109-1_OP_032",
+      "109-1_OP_034",
+      "113-1_OP_020",
+      "114-1_OP_013",
+      "114-1_OP_015",
+      "112-1_FA_028",
+      "114-2_FA_017",
+      "110-2_FA_032",
+      "112-1_OP_028",
+      "113-2_OP_014",
+      "112-2_OP_022",
+      "113-3_OP_015",
+      "113-1_OP_012",
+      "105-2_OP_024",
+      "108-1_OP_019",
+      "113-1_BM_040",
+      "109-2_OP_027",
+      "113-3_OP_031",
+      "110-2_OP_038",
+      "111-2_OP_028",
+      "105-2_OP_027",
+      "106-2_makeup_OP_029",
+      "111-1_OP_029",
+      "112-3_FA_001",
+      "106-1_FA_007",
+      "110-2_PC_047",
+      "114-2_PC_042",
+      "108-2_OP_034",
+      "113-3_OP_010",
+      "111-2_OP_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pneumonia#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_BM_025",
+      "111-1_BM_036",
+      "105-1_OP_060",
+      "111-1_BM_075",
+      "109-1_BM_069",
+      "107-2_BM_040",
+      "105-1_BM_039",
+      "111-1_MS_058",
+      "108-2_BM_037",
+      "107-2_OP_038",
+      "109-1_MS_047",
+      "109-2_FA_052",
+      "114-3_FA_032",
+      "115-1_FA_025",
+      "110-2_MS_055",
+      "106-2_MS_051",
+      "106-2_makeup_MS_053",
+      "113-1_MS_035",
+      "114-3_MS_032",
+      "108-2_MS_050",
+      "114-1_MS_036",
+      "108-1_MS_051",
+      "112-3_MS_038",
+      "109-2_MS_057",
+      "106-2_MS_057",
+      "111-2_BM_039",
+      "109-1_MS_050",
+      "106-2_makeup_MS_051",
+      "111-1_MS_056",
+      "111-1_OP_061",
+      "113-2_OP_039",
+      "112-2_OP_061",
+      "113-3_OP_039",
+      "114-3_OP_038",
+      "111-2_OP_063",
+      "110-1_OP_061",
+      "115-1_FA_029",
+      "109-1_FA_038",
+      "113-3_FA_026",
+      "109-2_MS_052",
+      "114-2_MS_033",
+      "113-3_FA_012",
+      "109-1_FA_044",
+      "111-2_OP_072",
+      "107-2_MS_055",
+      "109-2_OP_046",
+      "113-2_OP_049",
+      "105-1_OP_059",
+      "106-1_OP_061",
+      "107-2_OP_044",
+      "106-2_makeup_OP_077",
+      "107-2_FA_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-viral-infections#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_024",
+      "109-2_BM_079",
+      "113-3_BM_047",
+      "112-1_OP_062",
+      "115-2_OP_039",
+      "108-1_FA_001",
+      "106-1_FA_005",
+      "109-2_FA_003",
+      "108-2_PC_063",
+      "114-2_PC_029",
+      "112-2_FA_066",
+      "112-2_MS_079",
+      "114-3_MS_048",
+      "108-2_MS_080",
+      "105-1_FA_001",
+      "112-2_FA_054",
+      "112-2_PC_047",
+      "111-2_PC_060",
+      "110-1_PC_059",
+      "114-3_PC_029",
+      "106-1_PC_064"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "schizophrenia#psychosocial",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1687,6 +2762,7 @@
   {
     "qkey": "schizophrenia#insight",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1722,6 +2798,7 @@
   {
     "qkey": "schizophrenia#holistic-assessment",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1739,6 +2816,7 @@
   {
     "qkey": "schizophrenia#delusional-disorder",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1761,6 +2839,7 @@
   {
     "qkey": "schizophrenia#drugs",
     "tag": null,
+    "adm": null,
     "drug": [
       "抗精神病藥物",
       "抗精神病用藥",
@@ -1774,6 +2853,7 @@
   {
     "qkey": "schizophrenia#psychosocial-treatment",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1787,6 +2867,7 @@
   {
     "qkey": "schizophrenia#communication-theories",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1832,6 +2913,7 @@
   {
     "qkey": "schizophrenia#nursing-delusion",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1880,6 +2962,7 @@
   {
     "qkey": "schizophrenia#nursing-negative",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1905,6 +2988,7 @@
   {
     "qkey": "schizophrenia#restraint",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1948,6 +3032,7 @@
   {
     "qkey": "schizophrenia#community-resources",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -1972,6 +3057,7 @@
   {
     "qkey": "schizophrenia#patient-rights",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2003,8 +3089,143 @@
     "limit": null
   },
   {
+    "qkey": "sepsis#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_070",
+      "112-1_MS_078",
+      "109-2_MS_077",
+      "105-2_MS_077",
+      "108-2_BM_027",
+      "112-1_MS_077",
+      "113-3_MS_050",
+      "108-2_MS_023",
+      "112-1_BM_018",
+      "106-2_makeup_BM_035",
+      "108-2_BM_043",
+      "112-2_MS_056",
+      "110-1_MS_078",
+      "111-2_MS_079",
+      "111-1_MS_078",
+      "106-2_MS_073",
+      "113-3_MS_047",
+      "106-2_makeup_MS_077",
+      "106-2_makeup_MS_076",
+      "107-2_MS_078",
+      "112-2_MS_077",
+      "109-1_MS_074",
+      "111-2_FA_051",
+      "112-1_FA_037",
+      "114-2_FA_023",
+      "109-1_OP_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sexually-transmitted-infections#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_074",
+      "115-1_BM_047",
+      "113-2_BM_046",
+      "109-1_BM_080",
+      "114-2_BM_044",
+      "115-1_BM_028",
+      "106-1_BM_045",
+      "110-1_BM_077",
+      "112-1_BM_046",
+      "111-2_BM_048",
+      "106-2_makeup_OP_037",
+      "107-1_BM_040",
+      "108-1_PC_059",
+      "112-3_OP_025",
+      "113-1_OP_025",
+      "108-1_OP_063",
+      "107-2_OP_063",
+      "107-2_BM_072",
+      "110-1_BM_068",
+      "114-1_OP_025",
+      "111-1_OP_029",
+      "115-2_BM_047",
+      "109-2_BM_075",
+      "108-1_BM_069",
+      "107-1_OP_035",
+      "108-1_OP_039",
+      "107-2_OP_039",
+      "111-1_OP_038",
+      "110-2_OP_035",
+      "107-1_OP_040",
+      "112-3_BM_045",
+      "105-2_BM_073",
+      "108-1_MS_045",
+      "108-1_OP_037",
+      "106-2_OP_038",
+      "112-1_OP_039",
+      "106-2_makeup_BM_046",
+      "111-2_OP_039",
+      "109-2_OP_039",
+      "105-2_MS_031",
+      "108-2_OP_037",
+      "105-1_OP_038",
+      "109-1_OP_037",
+      "109-1_OP_035",
+      "112-2_OP_036",
+      "113-2_FA_002",
+      "109-1_PC_043",
+      "105-1_OP_035",
+      "106-2_FA_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skin-bone-infections#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_044",
+      "106-2_makeup_MS_045",
+      "110-2_MS_046",
+      "113-1_MS_027",
+      "110-1_FA_032",
+      "111-1_OP_049",
+      "106-2_makeup_MS_019",
+      "110-1_MS_020",
+      "112-3_MS_012",
+      "111-1_MS_019",
+      "108-1_MS_017",
+      "107-1_MS_017",
+      "113-2_MS_011",
+      "114-2_OP_032",
+      "112-1_BM_024",
+      "109-1_MS_040",
+      "110-1_MS_073",
+      "105-1_MS_046",
+      "114-3_MS_026",
+      "114-1_MS_027",
+      "105-2_MS_047",
+      "109-1_MS_042",
+      "113-2_MS_027",
+      "106-2_MS_044",
+      "106-1_MS_046",
+      "109-1_PC_076",
+      "113-1_BM_021",
+      "107-1_FA_015",
+      "110-2_MS_045"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "tuberculosis#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2052,8 +3273,147 @@
     "limit": null
   },
   {
+    "qkey": "urinary-tract-infection#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_038",
+      "105-1_MS_064",
+      "106-2_BM_045",
+      "114-1_BM_046",
+      "106-2_OP_037",
+      "109-1_OP_051",
+      "106-1_MS_060",
+      "112-1_FA_032",
+      "114-2_MS_040",
+      "114-1_FA_021",
+      "112-1_FA_030",
+      "114-3_MS_049",
+      "109-1_MS_061",
+      "110-1_FA_051",
+      "113-2_MS_040",
+      "112-1_MS_059",
+      "115-2_MS_042",
+      "114-3_MS_039",
+      "109-1_MS_059",
+      "108-2_MS_066",
+      "107-1_MS_063",
+      "105-1_MS_063",
+      "105-1_FA_039",
+      "113-3_FA_049",
+      "112-1_MS_060",
+      "109-1_FA_031",
+      "106-1_FA_033",
+      "106-2_makeup_OP_074",
+      "114-1_MS_041",
+      "105-2_MS_065",
+      "114-3_OP_046",
+      "111-1_OP_074",
+      "111-2_OP_073",
+      "109-1_OP_077",
+      "105-2_OP_072",
+      "110-1_OP_073",
+      "107-2_OP_078",
+      "108-1_OP_049",
+      "112-3_OP_032",
+      "107-2_MS_061",
+      "113-3_PC_017",
+      "106-1_PC_010",
+      "112-3_FA_018",
+      "112-3_FA_019",
+      "109-2_FA_009",
+      "108-1_FA_037",
+      "113-2_FA_021",
+      "107-1_FA_032",
+      "105-2_OP_076",
+      "110-1_OP_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "vector-borne-zoonotic#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_BM_050",
+      "107-1_BM_078",
+      "111-1_BM_079",
+      "106-2_BM_076",
+      "109-2_PC_045",
+      "108-1_MS_079",
+      "106-1_MS_080",
+      "114-1_MS_050",
+      "111-1_PC_048",
+      "106-2_MS_076",
+      "105-2_MS_080",
+      "112-1_MS_080",
+      "113-1_FA_002",
+      "107-1_FA_006",
+      "112-1_PC_044",
+      "107-1_PC_059",
+      "113-3_PC_029",
+      "105-2_PC_058",
+      "113-2_OP_037",
+      "112-2_OP_058",
+      "111-1_OP_005",
+      "114-3_BM_049",
+      "109-1_BM_075",
+      "105-1_PC_049",
+      "113-2_PC_030",
+      "106-2_makeup_MS_079",
+      "110-1_BM_071"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "viral-hepatitis#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_077",
+      "112-2_MS_014",
+      "109-1_BM_037",
+      "108-1_BM_070",
+      "107-2_BM_077",
+      "115-1_BM_027",
+      "110-2_BM_077",
+      "111-2_BM_028",
+      "105-2_BM_079",
+      "115-2_BM_049",
+      "113-1_BM_027",
+      "111-1_BM_038",
+      "113-3_BM_046",
+      "106-2_BM_072",
+      "106-2_makeup_BM_077",
+      "114-1_BM_049",
+      "111-2_MS_015",
+      "112-1_PC_062",
+      "111-1_PC_044",
+      "112-1_MS_009",
+      "112-3_MS_007",
+      "106-2_BM_075",
+      "105-1_OP_030",
+      "107-1_MS_014",
+      "108-2_MS_039",
+      "106-1_MS_013",
+      "105-2_FA_006",
+      "111-1_OP_003",
+      "108-1_OP_019",
+      "112-3_FA_001",
+      "106-2_makeup_PC_051"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "ace-inhibitors#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(pril|ACEI|ACE inhibitor|血管(收縮|張力|緊縮|加壓)素.{0,2}轉換)",
     "ids": [],
@@ -2062,6 +3422,7 @@
   {
     "qkey": "alpha-blockers#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(azosin|tamsulosin|phentolamine|phenoxybenzamine|α.{0,2}(型)?(阻斷|拮抗)|alpha.{0,3}(blocker|阻斷))",
     "ids": [],
@@ -2070,6 +3431,7 @@
   {
     "qkey": "alpha-glucosidase-inhibitors#questions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(acarbose|miglitol|voglibose|glucosidase|糖苷酶|醣苷酶|減少糖分的吸收)",
     "ids": [],
@@ -2078,6 +3440,7 @@
   {
     "qkey": "aminoglycosides#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2098,6 +3461,7 @@
   {
     "qkey": "antibiotics-overview#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2136,6 +3500,7 @@
   {
     "qkey": "anticoagulants#exam-points",
     "tag": null,
+    "adm": null,
     "drug": [
       "抗凝血用藥",
       "抗凝血劑",
@@ -2153,6 +3518,7 @@
   {
     "qkey": "anticoagulants#exam-points~2",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(深層靜脈|深部靜脈|肺栓塞).*(warfarin|heparin|抗凝)",
     "ids": [],
@@ -2161,6 +3527,7 @@
   {
     "qkey": "antidepressants#nursing-education",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2188,6 +3555,7 @@
   {
     "qkey": "antidepressants#exam-points",
     "tag": null,
+    "adm": null,
     "drug": [
       "抗憂鬱用藥",
       "抗憂鬱藥物",
@@ -2200,8 +3568,40 @@
     "limit": 12
   },
   {
+    "qkey": "antifungals#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_048",
+      "110-2_BM_069",
+      "109-1_BM_071",
+      "106-2_makeup_BM_075",
+      "109-2_BM_063",
+      "108-2_BM_079",
+      "107-1_BM_049",
+      "109-2_FA_032",
+      "109-1_FA_030",
+      "112-2_FA_033",
+      "111-1_FA_034",
+      "111-2_MS_037",
+      "109-2_MS_043",
+      "112-3_MS_028",
+      "112-1_OP_069",
+      "113-3_OP_031",
+      "112-3_FA_010",
+      "114-3_FA_012",
+      "106-2_makeup_BM_061",
+      "109-1_OP_037",
+      "112-2_MS_050"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "antineoplastics#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2260,6 +3660,7 @@
   {
     "qkey": "antineoplastics#questions-extravasation",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2282,6 +3683,7 @@
   {
     "qkey": "antineoplastics#questions-extravasation~2",
     "tag": null,
+    "adm": null,
     "drug": [
       "抗腫瘤用藥",
       "抗腫瘤藥物",
@@ -2304,8 +3706,43 @@
     "limit": 12
   },
   {
+    "qkey": "antiparasitics#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_059",
+      "111-1_BM_064",
+      "110-1_BM_064",
+      "110-1_BM_080",
+      "109-1_BM_072",
+      "108-2_OP_037",
+      "105-1_OP_038",
+      "107-1_MS_050",
+      "113-2_MS_029",
+      "110-1_MS_050",
+      "115-1_MS_030",
+      "108-2_FA_002",
+      "109-2_OP_059",
+      "113-1_MS_029",
+      "114-2_MS_028",
+      "111-1_MS_046",
+      "107-2_MS_046",
+      "106-2_MS_044",
+      "113-2_MS_027",
+      "109-1_PC_076",
+      "106-2_makeup_MS_043",
+      "106-1_MS_046",
+      "107-2_PC_056",
+      "111-2_FA_004"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "antiplatelets#exam-points",
     "tag": null,
+    "adm": null,
     "drug": [
       "抗凝血用藥",
       "抗凝血劑",
@@ -2323,6 +3760,7 @@
   {
     "qkey": "antiplatelets#exam-points~2",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(Reye|雷氏症候群)",
     "ids": [],
@@ -2331,6 +3769,7 @@
   {
     "qkey": "antipsychotics#eps",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2348,6 +3787,7 @@
   {
     "qkey": "antipsychotics#nms",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2358,6 +3798,7 @@
   {
     "qkey": "antipsychotics#metabolic",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2372,6 +3813,7 @@
   {
     "qkey": "antipsychotics#other-effects",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2385,6 +3827,7 @@
   {
     "qkey": "antipsychotics#clozapine-interactions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2398,6 +3841,7 @@
   {
     "qkey": "antipsychotics#lai-technique",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2408,6 +3852,7 @@
   {
     "qkey": "antipsychotics#nursing-education",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2423,6 +3868,7 @@
   {
     "qkey": "antipsychotics#exam-points",
     "tag": null,
+    "adm": null,
     "drug": [
       "抗精神病藥物",
       "抗精神病用藥",
@@ -2436,6 +3882,7 @@
   {
     "qkey": "antituberculars#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2464,6 +3911,7 @@
   {
     "qkey": "antivirals#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2497,6 +3945,7 @@
   {
     "qkey": "arb#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(sartan|AT1|angiotensin II 受體|血管(收縮|張力)素 ?II 受體)",
     "ids": [],
@@ -2505,6 +3954,7 @@
   {
     "qkey": "arni#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2519,6 +3969,7 @@
   {
     "qkey": "beta-blockers#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2540,6 +3991,7 @@
   {
     "qkey": "beta-lactams#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2574,6 +4026,7 @@
   {
     "qkey": "calcium-channel-blockers#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(dipine|verapamil|diltiazem|Adalat|鈣離子(通道)?(阻斷|拮抗))",
     "ids": [],
@@ -2582,6 +4035,7 @@
   {
     "qkey": "central-alpha2-agonists#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(clonidine|methyldopa|Aldomet|Catapres|α2)",
     "ids": [],
@@ -2590,6 +4044,7 @@
   {
     "qkey": "digoxin#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(digoxin|毛地黃|lanoxin)",
     "ids": [],
@@ -2598,6 +4053,7 @@
   {
     "qkey": "direct-vasodilators#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(hydralazine|minoxidil|nitroprusside|Nipride|diazoxide|Apresoline)",
     "ids": [],
@@ -2606,6 +4062,7 @@
   {
     "qkey": "dpp4-inhibitors#questions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(gliptin|DPP-? ?4)",
     "ids": [],
@@ -2614,6 +4071,7 @@
   {
     "qkey": "fluoroquinolones-sulfonamides#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2634,6 +4092,7 @@
   {
     "qkey": "glp1-receptor-agonists#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(glutide|exenatide|GLP-? ?1|incretin|腸泌素)",
     "ids": [],
@@ -2642,6 +4101,7 @@
   {
     "qkey": "glycopeptides#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2661,6 +4121,7 @@
   {
     "qkey": "immunosuppressants#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2705,6 +4166,7 @@
   {
     "qkey": "immunosuppressants#exam-points~2",
     "tag": null,
+    "adm": null,
     "drug": [
       "免疫製劑",
       "免疫抑制劑",
@@ -2719,6 +4181,7 @@
   {
     "qkey": "inotropes#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(多巴胺.*(劑量|休克|心衰竭)|dopamine.*(μg|ug|mcg|休克|心衰竭|低血壓|pump)|dobutamine|milrinone|norepinephrine|levophed|強心劑|升壓劑)",
     "ids": [],
@@ -2727,6 +4190,7 @@
   {
     "qkey": "inotropes#exam-points~2",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(心因性休克|cardiogenic shock)",
     "ids": [],
@@ -2735,6 +4199,7 @@
   {
     "qkey": "insulin#types",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(RI|NPH|短效|中效|速效|長效|glulisine|lispro|aspart|glargine|premix|預混)",
     "ids": [],
@@ -2743,6 +4208,7 @@
   {
     "qkey": "insulin#mixing",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(抽取|抽藥|先抽|混合).*(胰島素|RI|NPH)|(RI|NPH).*(抽取|混合|搖)",
     "ids": [],
@@ -2751,6 +4217,7 @@
   {
     "qkey": "insulin#injection-sites",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(胰島素).*(注射|部位|吸收|角度|針頭|按摩)|(注射|吸收).*(胰島素)",
     "ids": [],
@@ -2759,6 +4226,7 @@
   {
     "qkey": "insulin#storage",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(胰島素).*(保存|冷藏|室溫|冰箱|行李)|(保存|冷藏).*(胰島素)",
     "ids": [],
@@ -2767,6 +4235,7 @@
   {
     "qkey": "insulin#questions",
     "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": "胰島素",
     "ids": [],
@@ -2775,6 +4244,7 @@
   {
     "qkey": "loop-diuretics#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2794,6 +4264,7 @@
   {
     "qkey": "meglitinides#questions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(repaglinide|nateglinide|meglitinide)",
     "ids": [],
@@ -2802,6 +4273,7 @@
   {
     "qkey": "metformin#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(metformin|雙胍|biguanide|glucophage)",
     "ids": [],
@@ -2810,6 +4282,7 @@
   {
     "qkey": "mood-stabilizers#lithium-nursing",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2831,6 +4304,7 @@
   {
     "qkey": "mood-stabilizers#carbamazepine",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2843,6 +4317,7 @@
   {
     "qkey": "mood-stabilizers#exam-points",
     "tag": null,
+    "adm": null,
     "drug": [
       "情緒穩定劑",
       "躁鬱症用藥"
@@ -2854,6 +4329,7 @@
   {
     "qkey": "nitrates#exam-points",
     "tag": null,
+    "adm": null,
     "drug": [
       "心絞痛用藥",
       "抗心絞痛用藥",
@@ -2866,6 +4342,7 @@
   {
     "qkey": "nitrates#exam-points~2",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(nitroglycerin|NTG|硝酸甘油|硝化甘油|硝酸鹽類|isosorbide)",
     "ids": [],
@@ -2874,6 +4351,7 @@
   {
     "qkey": "nsaids-acetaminophen#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2903,6 +4381,7 @@
   {
     "qkey": "nsaids-acetaminophen#exam-points~2",
     "tag": null,
+    "adm": null,
     "drug": [
       "止痛用藥",
       "止痛藥",
@@ -2940,6 +4419,7 @@
   {
     "qkey": "opioids#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -2978,6 +4458,7 @@
   {
     "qkey": "opioids#exam-points~2",
     "tag": null,
+    "adm": null,
     "drug": [
       "止痛用藥",
       "止痛藥",
@@ -3015,6 +4496,7 @@
   {
     "qkey": "potassium-sparing-diuretics#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(spironolactone|aldactone|eplerenone|amiloride|triamterene|保鉀|醛固酮拮抗|醛固酮受體)",
     "ids": [],
@@ -3023,6 +4505,7 @@
   {
     "qkey": "protein-synthesis-inhibitors#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3055,6 +4538,7 @@
   {
     "qkey": "sglt2-inhibitors#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(gliflozin|SGLT|從尿液排除)",
     "ids": [],
@@ -3063,6 +4547,7 @@
   {
     "qkey": "statins#exam-points",
     "tag": null,
+    "adm": null,
     "drug": [
       "降血脂用藥",
       "高血脂用藥"
@@ -3074,6 +4559,7 @@
   {
     "qkey": "statins#exam-points~2",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3093,6 +4579,7 @@
   {
     "qkey": "sulfonylureas#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(glyburide|glibenclamide|glipizide|glimepiride|gliclazide|sulfonylurea|sulphonylurea|磺醯脲|磺胺尿素)",
     "ids": [],
@@ -3101,6 +4588,7 @@
   {
     "qkey": "thiazide-diuretics#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3117,6 +4605,7 @@
   {
     "qkey": "thrombolytics#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3133,6 +4622,7 @@
   {
     "qkey": "tzd#questions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(pioglitazone|rosiglitazone|thiazolidinedione|TZD)",
     "ids": [],
@@ -3141,6 +4631,7 @@
   {
     "qkey": "abg#interpretation",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(代謝性(酸|鹼)中毒|呼吸性(酸|鹼)中毒|動脈血(液)?(氣體|氧)|碳酸根|重碳酸|酸鹼)",
     "ids": [],
@@ -3149,6 +4640,7 @@
   {
     "qkey": "abg#questions",
     "tag": "糖尿病酮酸中毒",
+    "adm": null,
     "drug": null,
     "keyword": "(pH|碳酸|動脈|滲透壓|酸中毒)",
     "ids": [],
@@ -3157,6 +4649,7 @@
   {
     "qkey": "blood-glucose#questions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(空腹血糖|飯前血糖|血糖值|血糖為|血糖檢查|飯後兩小時血糖|隨意抽血|血漿葡萄糖)",
     "ids": [],
@@ -3165,6 +4658,7 @@
   {
     "qkey": "bnp#reference-range",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(BNP|利鈉|排鈉利尿胜肽)",
     "ids": [],
@@ -3173,6 +4667,7 @@
   {
     "qkey": "cardiac-biomarkers#troponin",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(旋轉素|攜鈣素)",
     "ids": [],
@@ -3181,6 +4676,7 @@
   {
     "qkey": "cardiac-biomarkers#timeline",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3195,6 +4691,7 @@
   {
     "qkey": "cardiac-catheterization#post-care",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3214,6 +4711,7 @@
   {
     "qkey": "complete-blood-count#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3243,6 +4741,7 @@
   {
     "qkey": "culture-and-sensitivity#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3293,6 +4792,7 @@
   {
     "qkey": "ecg#rv-infarction",
     "tag": "心肌梗塞|急性心肌梗塞|急性冠心症|心絞痛",
+    "adm": null,
     "drug": null,
     "keyword": "(心電圖|ST ?段|ST ?間段|Q ?波|導程|EKG|ECG)",
     "ids": [],
@@ -3301,6 +4801,7 @@
   {
     "qkey": "ecg#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3320,6 +4821,7 @@
   {
     "qkey": "ecg#exam-points~2",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3335,6 +4837,7 @@
   {
     "qkey": "echocardiography#ef",
     "tag": "心臟衰竭|心衰竭|冠狀動脈疾病|心肌梗塞|心絞痛",
+    "adm": null,
     "drug": null,
     "keyword": "(超音波|射出(分)?率|EF)",
     "ids": [],
@@ -3343,6 +4846,7 @@
   {
     "qkey": "echocardiography#related",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(鉈|Tl-201|心輸出量)",
     "ids": [],
@@ -3351,6 +4855,7 @@
   {
     "qkey": "hba1c#targets",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(糖化血|HbA1c|醣化血)",
     "ids": [],
@@ -3359,6 +4864,7 @@
   {
     "qkey": "inflammatory-markers#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3389,6 +4895,7 @@
   {
     "qkey": "ketones#questions",
     "tag": "糖尿病酮酸中毒|酮酸中毒|酮尿症",
+    "adm": null,
     "drug": null,
     "keyword": "(酮體|尿酮|ketone|酮)",
     "ids": [],
@@ -3397,6 +4904,7 @@
   {
     "qkey": "lipid-profile#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3418,6 +4926,7 @@
   {
     "qkey": "lipid-profile#exam-points~2",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3433,6 +4942,7 @@
   {
     "qkey": "lithium-level#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3448,6 +4958,7 @@
   {
     "qkey": "ogtt#gdm-timing",
     "tag": "妊娠糖尿病",
+    "adm": null,
     "drug": null,
     "keyword": "(葡萄糖耐|OGTT|篩檢|週數)",
     "ids": [],
@@ -3456,6 +4967,7 @@
   {
     "qkey": "ogtt#questions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(葡萄糖耐|OGTT|耐受試驗|耐量試驗|耐性試驗)",
     "ids": [],
@@ -3464,6 +4976,7 @@
   {
     "qkey": "potassium#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3485,6 +4998,7 @@
   {
     "qkey": "potassium#exam-points~2",
     "tag": "高血鉀|高血鉀症|高鉀血症|低血鉀|低血鉀症|低鉀血症",
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
@@ -3493,6 +5007,7 @@
   {
     "qkey": "tumor-markers#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3513,14 +5028,591 @@
   {
     "qkey": "uacr#questions",
     "tag": "糖尿病|糖尿病腎病變",
+    "adm": null,
     "drug": null,
     "keyword": "(微量(白)?蛋白|白蛋白尿|尿蛋白|蛋白尿)",
     "ids": [],
     "limit": 6
   },
   {
+    "qkey": "anaerobes#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_033",
+      "107-2_BM_073",
+      "114-2_MS_050",
+      "108-2_BM_076",
+      "112-2_BM_047",
+      "115-2_BM_046",
+      "110-2_BM_072",
+      "114-2_BM_047",
+      "111-1_BM_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "atypical-bacteria#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_BM_080",
+      "105-1_BM_074",
+      "111-1_BM_076",
+      "107-2_BM_040",
+      "113-3_OP_039",
+      "106-2_OP_061",
+      "114-3_OP_038",
+      "114-1_OP_039",
+      "111-2_OP_063",
+      "108-2_OP_070",
+      "112-1_BM_033",
+      "105-1_OP_060",
+      "111-1_BM_036",
+      "111-1_BM_073",
+      "110-2_BM_075",
+      "110-1_BM_069",
+      "107-1_BM_074",
+      "114-3_BM_047",
+      "111-2_PC_062",
+      "107-2_BM_074",
+      "115-1_BM_047",
+      "107-1_BM_072",
+      "113-3_BM_050",
+      "113-2_BM_047",
+      "106-1_BM_079",
+      "105-2_BM_074",
+      "113-2_PC_030",
+      "109-1_BM_079",
+      "109-2_BM_075",
+      "108-1_BM_069",
+      "115-2_BM_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "candida#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_049",
+      "115-2_BM_048",
+      "110-1_BM_078",
+      "109-2_BM_077",
+      "109-1_BM_066",
+      "108-1_BM_078",
+      "106-2_BM_074",
+      "107-1_BM_075",
+      "108-2_BM_079",
+      "114-3_FA_012",
+      "106-2_makeup_BM_061",
+      "112-2_FA_033",
+      "109-1_FA_030",
+      "109-2_FA_032",
+      "111-2_MS_037",
+      "113-3_OP_031",
+      "109-1_OP_037",
+      "111-2_OP_039",
+      "115-2_FA_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "clostridium-botulinum-tetani#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_065",
+      "107-2_BM_022",
+      "107-2_BM_070",
+      "109-2_BM_066",
+      "110-2_BM_074",
+      "111-1_BM_072",
+      "112-1_BM_044",
+      "113-2_MS_050",
+      "109-1_MS_075",
+      "106-1_MS_077",
+      "115-2_PC_038",
+      "113-3_PC_038",
+      "107-1_PC_066",
+      "106-2_PC_068",
+      "114-3_PC_037",
+      "109-2_MS_010",
+      "115-2_MS_048",
+      "111-1_PC_059",
+      "108-2_BM_076",
+      "108-1_BM_077",
+      "111-2_BM_046",
+      "111-2_OP_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "dna-viruses#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_048",
+      "106-1_BM_074",
+      "111-2_BM_049",
+      "115-1_BM_048",
+      "111-1_BM_074",
+      "110-1_BM_070",
+      "113-2_BM_048",
+      "114-2_PC_028",
+      "115-2_BM_050",
+      "113-1_BM_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fungi#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_079",
+      "114-3_BM_048",
+      "107-1_BM_076",
+      "112-2_BM_042",
+      "110-2_BM_065",
+      "106-2_makeup_BM_076",
+      "114-2_BM_048",
+      "111-2_BM_047",
+      "107-2_BM_076",
+      "113-1_BM_048",
+      "108-2_BM_078",
+      "109-1_MS_042",
+      "114-1_BM_047",
+      "112-3_BM_046",
+      "110-2_BM_076",
+      "109-2_BM_067",
+      "105-1_BM_076",
+      "110-1_BM_079",
+      "105-2_BM_077",
+      "108-2_BM_037",
+      "106-2_makeup_MS_047",
+      "109-1_MS_047",
+      "107-2_OP_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gram-negative-bacteria#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_046",
+      "108-2_BM_043",
+      "106-2_makeup_BM_035",
+      "114-2_BM_046",
+      "110-1_BM_068",
+      "106-2_OP_037",
+      "109-1_OP_051",
+      "105-1_FA_039",
+      "114-3_MS_049",
+      "108-1_BM_068",
+      "112-1_PC_065",
+      "106-1_BM_073",
+      "110-1_BM_076",
+      "113-1_MS_048",
+      "106-1_OP_075",
+      "108-2_PC_069",
+      "107-1_PC_044",
+      "109-2_BM_080",
+      "115-1_PC_037",
+      "114-1_PC_037",
+      "107-1_MS_009",
+      "114-3_BM_046",
+      "106-2_makeup_BM_072",
+      "112-3_PC_028",
+      "108-2_BM_068",
+      "110-1_BM_034",
+      "112-2_BM_040",
+      "108-2_MS_079",
+      "110-1_PC_048",
+      "109-1_BM_065",
+      "113-1_BM_046",
+      "107-2_PC_045",
+      "106-2_PC_050",
+      "113-1_BM_047",
+      "106-1_BM_072",
+      "107-1_OP_068",
+      "110-1_OP_051",
+      "112-3_BM_045",
+      "107-2_BM_071",
+      "105-2_BM_075",
+      "106-2_makeup_BM_073",
+      "109-1_BM_069",
+      "110-2_BM_073",
+      "113-3_BM_045",
+      "112-1_BM_045",
+      "108-2_BM_069",
+      "111-2_OP_046",
+      "111-1_BM_077",
+      "106-2_BM_071",
+      "115-1_BM_046",
+      "107-1_BM_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gram-positive-bacteria#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_071",
+      "108-1_BM_067",
+      "106-2_BM_070",
+      "108-1_BM_076",
+      "114-3_BM_045",
+      "108-2_BM_067",
+      "105-1_BM_072",
+      "107-1_BM_070",
+      "111-1_BM_075",
+      "109-2_BM_074",
+      "112-2_BM_046",
+      "109-1_BM_068",
+      "109-2_BM_076",
+      "113-1_MS_050",
+      "106-2_makeup_MS_080"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "helicobacter-pylori#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_043",
+      "109-2_BM_073",
+      "106-2_makeup_BM_074",
+      "112-1_MS_014",
+      "107-2_MS_010",
+      "111-2_MS_014",
+      "105-2_MS_002",
+      "109-2_MS_041",
+      "105-2_MS_008",
+      "114-1_MS_026",
+      "110-2_BM_046",
+      "113-3_BM_023",
+      "106-2_BM_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "helminths-ectoparasites#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_059",
+      "111-1_BM_068",
+      "112-1_OP_073",
+      "115-1_BM_050",
+      "110-2_BM_080",
+      "106-2_BM_080",
+      "106-1_BM_080",
+      "110-1_BM_080",
+      "109-1_BM_072",
+      "113-2_BM_050",
+      "108-2_BM_080",
+      "106-2_makeup_BM_080",
+      "105-2_BM_080",
+      "108-1_BM_080",
+      "112-2_BM_043",
+      "111-2_BM_050",
+      "107-2_BM_080",
+      "108-2_PC_076",
+      "114-2_MS_028",
+      "111-1_MS_046",
+      "107-2_MS_046",
+      "106-2_MS_044",
+      "113-2_MS_027",
+      "109-1_PC_076",
+      "106-2_makeup_MS_043",
+      "106-1_MS_046",
+      "107-2_PC_056",
+      "111-2_PC_062",
+      "105-2_PC_058",
+      "113-3_PC_029",
+      "114-3_BM_049",
+      "109-1_BM_075",
+      "115-2_FA_046",
+      "112-1_PC_044",
+      "107-1_PC_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "herpesviruses#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_029",
+      "112-1_OP_060",
+      "114-2_MS_029",
+      "107-1_MS_046",
+      "108-1_MS_045",
+      "108-1_OP_037",
+      "106-2_OP_038",
+      "111-1_BM_078",
+      "112-2_BM_048",
+      "107-1_OP_035",
+      "105-2_BM_037",
+      "111-1_BM_035",
+      "105-2_BM_078",
+      "105-1_OP_058",
+      "106-2_OP_057",
+      "107-1_PC_057",
+      "106-2_makeup_FA_002",
+      "111-2_FA_004",
+      "113-2_OP_047",
+      "114-2_OP_038",
+      "114-1_MS_027",
+      "105-2_MS_047",
+      "105-1_MS_046",
+      "114-3_MS_026",
+      "109-2_BM_055",
+      "112-1_BM_047",
+      "110-2_BM_036",
+      "109-1_MS_022",
+      "115-2_BM_025",
+      "110-2_BM_035",
+      "106-1_BM_075",
+      "109-1_OP_063",
+      "111-1_MS_037",
+      "110-2_BM_063",
+      "109-2_OP_058",
+      "114-3_OP_036",
+      "113-3_OP_037",
+      "112-2_OP_059",
+      "107-2_OP_068"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "human-papillomavirus#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_BM_047",
+      "106-1_BM_076",
+      "106-1_MS_039",
+      "105-2_OP_038",
+      "111-1_BM_040",
+      "108-2_OP_002",
+      "110-1_BM_047",
+      "113-1_BM_049",
+      "106-2_makeup_BM_046",
+      "115-2_OP_024",
+      "113-2_OP_024",
+      "112-1_OP_039",
+      "111-1_OP_036",
+      "106-2_makeup_OP_036",
+      "105-1_PC_068",
+      "110-1_BM_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prions#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_BM_038",
+      "114-2_BM_024",
+      "108-1_BM_065",
+      "110-1_BM_072",
+      "114-3_BM_050",
+      "112-1_BM_049",
+      "106-2_makeup_BM_079",
+      "114-1_BM_030",
+      "111-2_BM_030",
+      "110-2_BM_079",
+      "111-2_MS_080",
+      "115-2_FA_047",
+      "109-1_PC_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "protozoa#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_027",
+      "107-1_BM_038",
+      "113-1_BM_050",
+      "107-1_BM_080",
+      "114-3_FA_035",
+      "113-2_FA_034",
+      "111-2_FA_052",
+      "114-1_PC_037",
+      "109-2_OP_039",
+      "105-2_MS_031",
+      "108-2_OP_037",
+      "105-1_OP_038",
+      "105-1_BM_080",
+      "110-1_BM_064",
+      "109-2_BM_069",
+      "111-1_BM_064",
+      "106-2_makeup_BM_059",
+      "105-1_PC_049",
+      "113-2_PC_030",
+      "114-1_BM_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "rna-viruses#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_079",
+      "108-1_BM_072",
+      "109-1_BM_073",
+      "113-2_BM_045",
+      "108-2_BM_071",
+      "107-2_BM_079",
+      "105-2_BM_079",
+      "112-2_BM_049",
+      "110-1_OP_074",
+      "106-2_OP_076",
+      "114-2_OP_048",
+      "112-3_OP_046",
+      "115-2_OP_048",
+      "114-3_OP_047",
+      "110-2_PC_050",
+      "112-1_BM_048",
+      "114-1_BM_044",
+      "107-1_OP_066",
+      "106-2_makeup_MS_079",
+      "106-2_BM_077",
+      "112-3_BM_049",
+      "106-1_BM_078",
+      "110-1_BM_071",
+      "107-2_BM_078",
+      "105-1_BM_077",
+      "107-1_FA_005",
+      "111-2_OP_061",
+      "109-2_OP_060",
+      "111-1_OP_063",
+      "108-2_OP_067",
+      "113-3_BM_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "staphylococcus-aureus#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_FA_002",
+      "106-2_FA_001",
+      "106-2_makeup_MS_019",
+      "105-2_MS_024",
+      "115-2_BM_045",
+      "114-1_BM_045",
+      "106-1_BM_070",
+      "114-2_BM_045",
+      "114-2_PC_037",
+      "112-2_PC_061",
+      "112-3_PC_038",
+      "110-2_BM_068",
+      "106-2_BM_069",
+      "109-2_OP_040",
+      "113-2_OP_014",
+      "112-1_OP_028",
+      "112-2_OP_022",
+      "107-1_BM_071",
+      "113-1_BM_045",
+      "111-2_BM_039",
+      "108-1_FA_008",
+      "106-2_makeup_FA_005",
+      "113-3_BM_044",
+      "108-1_MS_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "streptococci#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_073",
+      "105-2_BM_072",
+      "106-1_BM_071",
+      "105-1_MS_023",
+      "112-1_OP_063",
+      "115-1_BM_045",
+      "112-2_MS_031",
+      "107-1_MS_028",
+      "111-2_BM_021",
+      "111-2_MS_029",
+      "106-1_OP_064",
+      "109-1_MS_013",
+      "112-3_OP_040",
+      "106-2_makeup_BM_040",
+      "109-2_BM_071",
+      "112-1_OP_059",
+      "105-2_BM_071",
+      "115-2_OP_003",
+      "111-1_OP_003",
+      "109-1_PC_070",
+      "113-1_BM_025",
+      "111-1_BM_036",
+      "109-2_FA_052",
+      "114-3_FA_032",
+      "113-1_MS_035",
+      "109-1_BM_069",
+      "108-2_BM_065",
+      "105-1_BM_066",
+      "107-1_PC_060",
+      "110-1_BM_067",
+      "107-1_MS_064",
+      "105-2_MS_057",
+      "111-1_OP_033",
+      "105-2_OP_001"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "blood-pressure-regulation#determinants",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(影響血壓|維持血壓|血壓.*因素|舒張壓.*(因素|決定)|周邊(血管)?阻力|半徑|阻力最大)",
     "ids": [],
@@ -3529,6 +5621,7 @@
   {
     "qkey": "blood-pressure-regulation#map",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(平均動脈壓|脈搏壓|脈壓|pulse pressure|MAP)",
     "ids": [],
@@ -3537,6 +5630,7 @@
   {
     "qkey": "blood-pressure-regulation#chemoreceptor",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(壓力(感受|接受)|頸動脈竇|化學(感受|接受)|延腦|姿位性低血壓|姿勢性低血壓)",
     "ids": [],
@@ -3545,6 +5639,7 @@
   {
     "qkey": "blood-pressure-regulation#raas",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(腎素|renin|血管(收縮|緊縮|張力)素|angiotensin|醛固酮|aldosterone)",
     "ids": [],
@@ -3553,6 +5648,7 @@
   {
     "qkey": "blood-pressure-regulation#adh",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3568,6 +5664,7 @@
   {
     "qkey": "blood-pressure-regulation#pressure-natriuresis",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(利鈉|natriuretic|心衰竭.*代償|代償.*心衰竭)",
     "ids": [],
@@ -3576,6 +5673,7 @@
   {
     "qkey": "blood-pressure-regulation#autonomic-receptors",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(α1|α2|β1|β2|alpha|beta).*(受體|接受器|receptor)",
     "ids": [],
@@ -3584,6 +5682,7 @@
   {
     "qkey": "blood-pressure-regulation#questions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3601,6 +5700,7 @@
   {
     "qkey": "cardiac-output#cardiac-cycle",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(心動週期|等容|半月瓣|房室瓣.*(開|關)|收縮期.*舒張期|舒張期.*收縮期)",
     "ids": [],
@@ -3609,6 +5709,7 @@
   {
     "qkey": "cardiac-output#heart-sounds",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3626,6 +5727,7 @@
   {
     "qkey": "cardiac-output#determinants",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(心輸出量|心搏出量|心搏量|stroke volume|cardiac output)",
     "ids": [],
@@ -3634,6 +5736,7 @@
   {
     "qkey": "cardiac-output#afterload",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(前負荷|後負荷|preload|afterload)",
     "ids": [],
@@ -3642,6 +5745,7 @@
   {
     "qkey": "cardiac-output#frank-starling",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(Starling|史達林|法蘭克)",
     "ids": [],
@@ -3650,6 +5754,7 @@
   {
     "qkey": "cardiac-output#conduction",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(竇房結|房室結|希氏束|蒲金氏|浦金氏|傳導系統|節律點|pacemaker)",
     "ids": [],
@@ -3658,6 +5763,7 @@
   {
     "qkey": "cardiac-output#autonomic",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(交感神經|副交感|迷走神經|乙醯膽鹼|acetylcholine).*(心跳|心臟|收縮力|傳導)|(心跳|心臟).*(交感|迷走)",
     "ids": [],
@@ -3666,6 +5772,7 @@
   {
     "qkey": "coronary-circulation#anatomy",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(冠狀動脈.*(源自|分支|直接)|前心室間|迴旋|冠狀溝|冠狀竇|升主動脈)",
     "ids": [],
@@ -3674,6 +5781,7 @@
   {
     "qkey": "coronary-circulation#antianginal",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3691,6 +5799,7 @@
   {
     "qkey": "coronary-circulation#questions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(冠狀動脈|心肌梗塞|心絞痛).*(舒張期|耗氧|需氧|側枝|結締組織|下壁|前壁|側壁)",
     "ids": [],
@@ -3699,6 +5808,7 @@
   {
     "qkey": "glucose-homeostasis#incretin",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "(腸泌素|incretin|GLP|前饋)",
     "ids": [],
@@ -3707,6 +5817,7 @@
   {
     "qkey": "glucose-homeostasis#insulin-deficiency",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "胰島素.*(受體|接受器)|β ?細胞被破壞|(葡萄糖|血糖)進入(脂肪|腦|肌肉)|血漿葡萄糖進入",
     "ids": [],
@@ -3715,6 +5826,7 @@
   {
     "qkey": "glucose-homeostasis#questions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": "^(?=.*(血糖|葡萄糖|胰島素|糖尿)).*(糖質新生|升糖素|glucagon|皮質醇|生長激素|甲狀腺素|醛固酮|抑制素|最大運輸|transport maximum)",
     "ids": [],
@@ -3723,6 +5835,7 @@
   {
     "qkey": "microbial-pathogenesis#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3764,13 +5877,19 @@
       "111-2_OP_069",
       "112-2_BM_042",
       "105-1_BM_065",
-      "107-1_BM_065"
+      "107-1_BM_065",
+      "110-1_BM_065",
+      "106-1_BM_068",
+      "113-2_BM_041",
+      "106-2_BM_073",
+      "112-2_BM_050"
     ],
     "limit": null
   },
   {
     "qkey": "neoplasia#exam-points",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3810,6 +5929,7 @@
   {
     "qkey": "neoplasia#questions-carcinogens",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3840,6 +5960,7 @@
   {
     "qkey": "neurotransmitters-psychiatry#dopamine-pathways",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3858,6 +5979,7 @@
   {
     "qkey": "neurotransmitters-psychiatry#serotonin-clinical",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3876,6 +5998,7 @@
   {
     "qkey": "neurotransmitters-psychiatry#hpa-axis",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
@@ -3887,6 +6010,7 @@
   {
     "qkey": "neurotransmitters-psychiatry#brain-regions",
     "tag": null,
+    "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [

@@ -62,7 +62,7 @@ export function ReportForm({
         {onDone && (
           <button
             onClick={onDone}
-            className="rounded-btn border border-card-border bg-card px-4 py-2 text-sm font-medium"
+            className="rounded-btn bg-fill px-4 py-2 text-sm font-medium"
           >
             關閉
           </button>
@@ -112,7 +112,7 @@ export function ReportForm({
               className={`rounded-full border px-3 py-1 text-xs transition-colors ${
                 category === key
                   ? "border-subj-accent bg-subj-light font-medium text-subj-deep"
-                  : "border-card-border bg-card text-body hover:border-subj-accent"
+                  : "border-card-border bg-card text-body hover:bg-surface-hover"
               }`}
             >
               {REPORT_CATEGORIES[key]}
@@ -130,7 +130,7 @@ export function ReportForm({
         maxLength={REPORT_MESSAGE_MAX}
         rows={4}
         placeholder="例如：答案應該是 C，依據是…"
-        className="w-full rounded-btn border border-card-border bg-card px-3 py-2 leading-relaxed text-strong focus:border-subj-accent focus:outline-none"
+        className="w-full rounded-btn bg-fill px-3 py-2 leading-relaxed text-strong focus:outline-none focus:ring-2 focus:ring-subj-accent/40"
       />
       <div className="mt-1 mb-3 text-right text-xs text-muted">
         {length} / {REPORT_MESSAGE_MAX}

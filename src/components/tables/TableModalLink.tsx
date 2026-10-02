@@ -65,8 +65,8 @@ export function TableModalLink({ tableId, title, variant = "inline" }: TableModa
         onClick={() => setOpen(true)}
         className={
           variant === "card"
-            ? "flex w-full items-start gap-2 rounded-card border border-card-border border-l-4 border-l-subj-accent bg-page p-3 text-left text-sm font-medium text-subj-deep transition-all hover:-translate-y-0.5 hover:shadow-sm"
-            : "mt-2 flex items-center gap-1.5 rounded-btn border border-card-border bg-card px-3 py-1.5 text-xs font-medium text-subj-deep transition-colors hover:border-subj-accent"
+            ? "flex w-full items-start gap-2 rounded-card bg-(--surface-inset) p-3.5 text-left text-sm font-medium text-subj-deep transition-colors hover:bg-subj-light/60"
+            : "mt-2 flex items-center gap-1.5 rounded-btn bg-fill px-3 py-1.5 text-xs font-medium text-subj-deep transition-colors hover:bg-surface-hover"
         }
       >
         <Table2 size={variant === "card" ? 16 : 14} className="shrink-0 text-subj-accent" />

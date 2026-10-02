@@ -5,6 +5,16 @@ aliases: [鬱症, 重鬱症, 重度憂鬱症, Major depressive disorder, MDD, �
 dzTags: [憂鬱症]
 system: psychiatric
 alsoIn: [reproductive, community]
+chapters:
+  - 藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 抗憂鬱劑
+  - 精神-Ch03精神疾病的病因、症狀、診斷與分類 > 精神疾病的相關因素與致病理論
+  - 精神-Ch05肌體治療 > 電氣痙攣療法
+  - 精神-Ch05肌體治療 > 護理人員的角色與功能
+  - 精神-Ch08雙相情緒障礙症病人的護理 > 鬱症與憂鬱症類障礙
+  - 精神-Ch08雙相情緒障礙症病人的護理 > 護理處置
+  - 精神-Ch12其他精神科疾病的護理 > 老年精神衛生問題
+  - 精神-Ch13危機處理與意外事件的護理 > 危機處理
+  - 精神-Ch13危機處理與意外事件的護理 > 自殺事件的護理
 reviewed: false
 updated: 2026-09-26
 references:

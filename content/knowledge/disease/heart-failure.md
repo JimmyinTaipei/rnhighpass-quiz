@@ -4,6 +4,11 @@ subtitle: Heart failure(HF)
 aliases: [心臟衰竭, 鬱血性心衰竭, 鬱血性心臟衰竭, CHF, HF, HFrEF, HFpEF, 急性肺水腫, 左心衰竭, 右心衰竭, 心因性休克]
 dzTags: [心臟衰竭, 心衰竭, 鬱血性心臟衰竭, 鬱血性心衰竭, 肺水腫, 擴張性心肌症, 心肌病變, 心因性休克]
 system: cardiovascular
+chapters:
+  - 病理-Ch09心臟血管系統疾病 > 心臟疾病
+  - 藥理-Ch08心血管藥物 > 治療鬱血性心衰竭藥物
+  - 藥理-Ch08心血管藥物 > 心臟前後負荷與心衰竭/休克用藥綜合應用
+  - 內外-Ch13心血管系統疾病 > 心衰竭與心肌病變
 reviewed: false
 updated: 2026-09-26
 references:

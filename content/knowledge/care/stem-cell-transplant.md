@@ -5,6 +5,9 @@ aliases: [造血幹細胞移植, 幹細胞移植, 骨髓移植, 周邊血液幹�
 dzTags: [造血幹細胞移植, 移植物對抗宿主疾病, 移植物抗宿主疾病, 移植體對抗宿主疾病, 移植物對抗宿主病]
 system: hematology-immunology
 alsoIn: [oncology]
+chapters:
+  - 內外-Ch02免疫系統疾病 > 器官移植與護理
+  - 內外-Ch14血液系統疾病 > 輸血與造血幹細胞移植
 reviewed: false
 updated: 2026-09-27
 references:

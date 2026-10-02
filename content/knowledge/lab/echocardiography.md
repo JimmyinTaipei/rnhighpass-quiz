@@ -5,6 +5,10 @@ aliases: [心臟超音波, 心臟超聲波, 心超, Echo, Echocardiogram, TTE, T
 dzTags: [心臟衰竭, 心衰竭, 冠狀動脈疾病, 心肌梗塞]
 system: cardiovascular
 group: cardiac-labs
+chapters:
+  - 藥理-Ch08心血管藥物 > 心臟前後負荷與心衰竭/休克用藥綜合應用
+  - 內外-Ch13心血管系統疾病 > 冠狀動脈疾病
+  - 內外-Ch13心血管系統疾病 > 心衰竭與心肌病變
 reviewed: false
 updated: 2026-09-26
 references:

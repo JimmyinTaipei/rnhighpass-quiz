@@ -22,7 +22,7 @@ export async function HomeDashboardCard() {
   return (
     <Link
       href="/stats?range=7"
-      className="block w-full max-w-md rounded-card border border-card-border bg-card p-4 text-left shadow-sm transition-shadow hover:shadow-md"
+      className="block w-full max-w-md rounded-card bg-card p-4 text-left shadow-sm transition-shadow hover:shadow-md"
     >
       <div className="mb-3 flex items-center justify-between">
         <h2 className="text-sm font-bold text-deep">近 7 天學習概況</h2>

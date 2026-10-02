@@ -5,6 +5,8 @@ aliases: [細菌培養, 培養, Culture, 血液培養, Blood culture, B/C, 尿�
 dzTags: [細菌感染]
 system: infection
 group: infection-labs
+chapters:
+  - 基護-Ch18出入院護理與檢體收集 > 入院之常規檢體收集
 alsoIn: [fundamentals]
 reviewed: false
 updated: 2026-09-28

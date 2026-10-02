@@ -5,6 +5,10 @@ aliases: [免疫抑制劑, 免疫製劑, 免疫調節劑, 抗排斥藥, Immunosu
 dzTags: [器官移植排斥, 器官移植排斥反應, 移植排斥反應, 腎臟移植排斥, 腎臟移植, 腎臟移植併發症]
 system: hematology-immunology
 group: immunomodulators
+chapters:
+  - 病理-Ch05免疫系統疾病 > 器官移植與其他免疫疾病
+  - 藥理-Ch12癌症藥物與免疫製劑 > 免疫製劑
+  - 內外-Ch02免疫系統疾病 > 器官移植與護理
 alsoIn: [renal, oncology]
 reviewed: false
 updated: 2026-09-27

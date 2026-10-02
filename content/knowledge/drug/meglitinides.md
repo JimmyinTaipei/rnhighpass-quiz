@@ -5,6 +5,8 @@ aliases: [Repaglinide, Nateglinide, Glinide, 非磺醯脲類促泌劑]
 dzTags: [糖尿病]
 system: endocrine
 group: antidiabetics
+chapters:
+  - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥
 reviewed: false
 updated: 2026-09-26
 references:

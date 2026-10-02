@@ -1,10 +1,10 @@
 import { ChevronRight } from "lucide-react";
 import { NoteCard } from "@/components/notes/NoteCard";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
-import { QuestionBriefCard } from "./QuestionBriefCard";
 import { hasContent, topicAnchorId, type TopicNode } from "@/lib/topic-tree";
 import type { ViewMode } from "@/lib/view-mode";
 import type { ComparisonTable } from "@/lib/types";
+import type { KnowledgeRef } from "@/lib/knowledge/exam";
 import type { ChapterRef } from "@/lib/data";
 
 interface TopicSectionProps {
@@ -19,6 +19,8 @@ interface TopicSectionProps {
   otherChaptersByQuestion: Map<string, ChapterRef[]>;
   /** 題目 id -> 疾病標籤 */
   diseaseTagsByQuestion: Map<string, string[]>;
+  /** 題目 id -> 相關知識頁(詳解底下的「複習知識點」) */
+  knowledgeByQuestion?: Record<string, KnowledgeRef[]>;
   devMode: boolean;
 }
 
@@ -42,6 +44,7 @@ export function TopicSection({
   tablesByQuestion,
   otherChaptersByQuestion,
   diseaseTagsByQuestion,
+  knowledgeByQuestion,
   devMode,
 }: TopicSectionProps) {
   const { topic, questions, cards, children, totalQuestions, totalCards } = node;
@@ -64,8 +67,8 @@ export function TopicSection({
         <span
           className={
             depth === 0
-              ? "text-xl font-bold text-subj-deep"
-              : "text-base font-semibold text-subj-deep"
+              ? "text-xl font-bold tracking-tight text-subj-deep"
+              : "text-[16px] font-semibold text-subj-deep"
           }
         >
           {topic.heading_text}
@@ -77,19 +80,12 @@ export function TopicSection({
         </span>
       </summary>
 
-      <div className="mt-2 ml-2 border-l border-card-border pl-4 transition-colors hover:border-subj-mid">
+      <div className="mt-3 ml-1 border-l border-card-border pl-3 transition-colors hover:border-subj-mid sm:ml-2 sm:pl-4">
         {/* 筆記卡在題目之前，且是掛在這個主題底下(原本全章的卡都擠在頁首) */}
         {cards.map((c) => (
           <NoteCard key={c.node_id} card={c} />
         ))}
 
-        {questions.length > 0 && view === "card" && (
-          <div className="mb-4 grid gap-3 md:grid-cols-2">
-            {questions.map((q) => (
-              <QuestionBriefCard key={q.id} question={q} />
-            ))}
-          </div>
-        )}
         {questions.length > 0 && view === "quiz" &&
           questions.map((q) => (
             <QuestionCard
@@ -101,6 +97,7 @@ export function TopicSection({
               tables={tablesByQuestion.get(q.id)}
               otherChapters={otherChaptersByQuestion.get(q.id)}
               diseaseTags={diseaseTagsByQuestion.get(q.id)}
+              knowledge={knowledgeByQuestion?.[q.id]}
               devMode={devMode}
             />
           ))}
@@ -116,6 +113,7 @@ export function TopicSection({
             tablesByQuestion={tablesByQuestion}
             otherChaptersByQuestion={otherChaptersByQuestion}
             diseaseTagsByQuestion={diseaseTagsByQuestion}
+            knowledgeByQuestion={knowledgeByQuestion}
             devMode={devMode}
           />
         ))}

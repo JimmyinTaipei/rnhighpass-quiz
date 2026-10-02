@@ -10,7 +10,7 @@ export default async function PrivacyPage() {
   return (
     <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-8">
       <Panel>
-        <h1 className="mb-4 text-2xl font-bold text-deep">隱私說明</h1>
+        <h1 className="mb-4 text-3xl font-bold text-strong">隱私說明</h1>
         <div className="space-y-2 text-sm leading-relaxed text-strong">
           <p>多保命題庫只收集提供功能所需的最少資料，不要求填寫生日、電話等個人資料。</p>
 

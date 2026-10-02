@@ -5,6 +5,10 @@ aliases: [心導管, 心導管檢查, 冠狀動脈攝影, 冠狀動脈血管攝�
 dzTags: [冠狀動脈疾病, 心肌梗塞, 急性心肌梗塞, 心絞痛, 先天性心臟病]
 system: cardiovascular
 group: cardiac-labs
+chapters:
+  - 藥理-Ch08心血管藥物 > 抗心絞痛藥物
+  - 內外-Ch13心血管系統疾病 > 冠狀動脈疾病
+  - 兒科-Ch09兒童循環系統疾病 > 先天性心臟病 > 先天性心臟病兒童之護理與手術護理
 reviewed: false
 updated: 2026-09-25
 references:

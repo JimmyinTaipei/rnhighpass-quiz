@@ -5,6 +5,8 @@ aliases: [CBC, 全血球計數, 血液常規, 血球計數, 白血球, WBC, 白�
 dzTags: [骨髓抑制]
 system: hematology-immunology
 group: coagulation-labs
+chapters:
+  - 生解-Ch07血液、心血管與淋巴系統 > 血液
 alsoIn: [oncology, infection]
 reviewed: false
 updated: 2026-09-27

@@ -61,7 +61,7 @@ export function NotebookList({
   const exportSelectedHref = `/print/questions?source=ids&ids=${encodeURIComponent(selectedIds.join(","))}`;
 
   const btn =
-    "flex items-center gap-1.5 rounded-btn border border-card-border bg-card px-3 py-1.5 text-xs font-medium text-body transition-colors hover:border-subj-accent hover:text-subj-deep";
+    "flex items-center gap-1.5 rounded-full bg-fill px-3 py-1.5 text-xs font-medium text-body transition-colors hover:bg-fill-strong";
 
   return (
     <div>
@@ -125,7 +125,7 @@ export function NotebookList({
           <details
             key={g.chapterId ?? "none"}
             open={gi < 2}
-            className="group rounded-card border border-card-border bg-page"
+            className="group rounded-card bg-(--surface-inset)"
           >
             <summary className="flex cursor-pointer list-none items-center gap-2 px-4 py-3 font-semibold text-body">
               <ChevronRight

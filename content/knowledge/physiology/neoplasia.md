@@ -5,6 +5,10 @@ aliases: [腫瘤, 贅瘤, Neoplasm, Tumor, 良性腫瘤, 惡性腫瘤, 癌, Carc
 dzTags: [惡性腫瘤, 腫瘤, 良性腫瘤, 癌症轉移, 癌症骨轉移]
 system: oncology
 alsoIn: [hematology-immunology, infection]
+chapters:
+  - 病理-Ch04腫瘤概論 > 腫瘤特性
+  - 病理-Ch04腫瘤概論 > 腫瘤之病因學
+  - 病理-Ch04腫瘤概論 > 腫瘤之診斷與治療
 reviewed: false
 updated: 2026-09-27
 references:

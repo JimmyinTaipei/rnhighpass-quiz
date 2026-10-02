@@ -7,6 +7,7 @@ import { getDevMode } from "@/lib/dev-mode";
 import { parseNotebookSource, UNCATEGORIZED } from "@/lib/notebook";
 import { idsForSubject, loadNotebookIndex } from "@/lib/notebook-data";
 import { subjectGroup } from "@/lib/subject-groups";
+import { knowledgeForQuestions } from "@/lib/knowledge/exam";
 
 export const metadata = { title: "重做題本 | 多保命" };
 
@@ -40,7 +41,7 @@ export default async function ReviewPage(props: PageProps<"/quiz/review">) {
     >
       {questions.length === 0 ? (
         <div>
-          <h1 className="mb-2 text-2xl font-bold text-subj-deep">沒有可以重做的題目</h1>
+          <h1 className="mb-2 text-3xl font-bold text-subj-deep">沒有可以重做的題目</h1>
           <p className="mb-4 text-sm text-muted">這一科目前沒有{source === "mistakes" ? "錯題" : "收藏"}。</p>
           <Link
             href="/mistakes"
@@ -53,6 +54,7 @@ export default async function ReviewPage(props: PageProps<"/quiz/review">) {
         <ChapterQuizRunner
           scopeLabel={`${source === "mistakes" ? "重做錯題" : "重做收藏"} / ${subjectName}・${questions.length} 題`}
           questions={questions}
+          knowledgeByQuestion={knowledgeForQuestions(questions.map((q) => q.id))}
           isLoggedIn={!!user}
           devMode={devMode}
           reviewHref={backHref}

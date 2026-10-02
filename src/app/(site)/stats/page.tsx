@@ -66,7 +66,7 @@ export default async function StatsPage(props: PageProps<"/stats">) {
   return (
     <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col gap-6 px-4 py-8">
       <Panel>
-        <h1 className="mb-4 text-2xl font-bold text-deep">統計</h1>
+        <h1 className="max-md:sr-only mb-4 text-3xl font-bold text-strong">統計</h1>
         {answers.length === 0 ? (
           <p className="text-muted">還沒有作答紀錄，去練習題目吧！</p>
         ) : (

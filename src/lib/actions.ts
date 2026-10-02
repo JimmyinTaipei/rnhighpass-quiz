@@ -45,6 +45,38 @@ export async function submitAnswer(
   return { ok: true };
 }
 
+export interface AnswerRow {
+  questionId: string;
+  selectedOption: string;
+  isCorrect: boolean;
+}
+
+/**
+ * 一次寫入多筆作答(做題頁交卷或中途離開時)。
+ * 做題頁的作答先留在畫面上，讓使用者能取消、改答，交卷或離開時才記錄；
+ * 錯題本是從 user_answers 算出來的，所以寫進來的錯題會自動進題本。
+ */
+export async function submitAnswers(
+  rows: AnswerRow[],
+  quizMode: string,
+): Promise<{ ok: boolean; reason?: string }> {
+  if (rows.length === 0) return { ok: true };
+  const supabase = await createClient();
+  const { data: userData } = await supabase.auth.getUser();
+  if (!userData.user) return { ok: false, reason: "not_logged_in" };
+
+  const { error } = await supabase.from("user_answers").insert(
+    rows.map((r) => ({
+      user_id: userData.user.id,
+      question_id: r.questionId,
+      selected_option: r.selectedOption,
+      is_correct: r.isCorrect,
+      quiz_mode: quizMode,
+    })),
+  );
+  return error ? { ok: false, reason: error.message } : { ok: true };
+}
+
 type SupabaseServer = Awaited<ReturnType<typeof createClient>>;
 
 /**

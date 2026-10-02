@@ -6,6 +6,10 @@ dzTags: [思覺失調症, 雙相情緒障礙症]
 system: psychiatric
 alsoIn: [neuro]
 group: antipsychotics
+chapters:
+  - 藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 抗精神病藥物
+  - 精神-Ch05肌體治療 > 精神科藥物治療 > 抗精神病藥物
+  - 精神-Ch05肌體治療 > 護理人員的角色與功能
 reviewed: false
 updated: 2026-09-26
 references:

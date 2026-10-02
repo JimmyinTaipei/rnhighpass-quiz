@@ -5,6 +5,8 @@ aliases: [Direct vasodilator, 血管擴張劑, Hydralazine, Minoxidil, Nitroprus
 dzTags: [高血壓, 妊娠高血壓, 心臟衰竭]
 system: cardiovascular
 group: antihypertensives
+chapters:
+  - 藥理-Ch08心血管藥物 > 治療高血壓藥物
 reviewed: false
 updated: 2026-09-26
 references:

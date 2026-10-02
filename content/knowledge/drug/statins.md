@@ -5,6 +5,8 @@ aliases: [Statin, Statins, HMG-CoA 還原酶抑制劑, Atorvastatin, Lipitor, �
 dzTags: [高血脂, 高血脂症, 高脂血症, 高膽固醇血症, 高三酸甘油脂血症, 冠狀動脈疾病, 心肌梗塞, 動脈粥狀硬化, 腦中風]
 system: cardiovascular
 group: lipid-lowering
+chapters:
+  - 藥理-Ch08心血管藥物 > 降血脂藥物
 reviewed: false
 updated: 2026-09-25
 references:

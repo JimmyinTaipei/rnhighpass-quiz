@@ -12,7 +12,9 @@ export const metadata: Metadata = {
 // 讓這個資料夾之後可以整包搬到獨立網站(見 src/lib/mock-exam/README.md)。
 export default function MockExamLayout({ children }: { children: React.ReactNode }) {
   // 模擬考站沒有其他頁面，「回主畫面」改成連回多保命主站
-  const home = isMockOnly() ? { href: "https://rnhighpass.com", label: "多保命首頁" } : SITE_HOME;
+  // 主站的歷年考題模擬：回到「練習」
+  const mockSite = isMockOnly();
+  const home = mockSite ? { href: "https://rnhighpass.com", label: "多保命首頁" } : { ...SITE_HOME, href: "/quiz", label: "回練習" };
 
   return (
     <>
@@ -20,7 +22,9 @@ export default function MockExamLayout({ children }: { children: React.ReactNode
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
           <div className="flex min-w-0 items-baseline gap-3">
             <span className="shrink-0 text-lg font-bold tracking-wide text-deep">多保命</span>
-            <span className="truncate text-sm text-body">護理師線上模擬考・電腦化測驗練習</span>
+            <span className="truncate text-sm text-body">
+              {mockSite ? "護理師線上模擬考・電腦化測驗練習" : "歷年考題模擬・電腦化測驗介面"}
+            </span>
           </div>
           {home && (
             <a

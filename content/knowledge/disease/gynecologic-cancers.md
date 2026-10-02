@@ -5,6 +5,12 @@ aliases: [婦癌, 子宮頸癌, Cervical cancer, 子宮頸抹片, Pap smear, 巴
 dzTags: [子宮頸癌, 子宮內膜癌, 卵巢癌, 卵巢腫瘤, 女陰癌, 外陰癌, 陰道癌, 絨毛膜癌]
 system: oncology
 alsoIn: [reproductive, infection]
+chapters:
+  - 病理-Ch15生殖系統與乳房疾病 > 女性生殖系統疾病
+  - 微免-Ch11病毒學總論與DNA病毒 > 乳突病毒與多瘤病毒
+  - 產科-Ch13婦科常見疾病 > 子宮頸疾病
+  - 產科-Ch13婦科常見疾病 > 卵巢癌
+  - 社區-Ch07婦幼衛生 > 婦女健康保健
 reviewed: false
 updated: 2026-09-27
 references:

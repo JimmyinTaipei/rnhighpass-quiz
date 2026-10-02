@@ -4,6 +4,9 @@ subtitle: Hepatocellular carcinoma(HCC)
 aliases: [肝癌, 肝細胞癌, 原發性肝癌, HCC, Hepatocellular carcinoma, Hepatoma, 肝腫瘤, AFP, 甲型胎兒蛋白, 肝動脈栓塞, 經肝動脈化學栓塞, TACE, TAE, 射頻燒灼, RFA, 肝切除, 肝移植, 黃麴毒素, B 型肝炎, C 型肝炎, 膽管癌]
 dzTags: [肝癌, 肝細胞癌, 膽管癌]
 system: oncology
+chapters:
+  - 病理-Ch13肝、膽、胰疾病 > 肝臟疾病
+  - 內外-Ch07消化系統疾病 > 肝膽胰疾病 > 肝炎、肝硬化與肝癌
 alsoIn: [digestive, infection]
 reviewed: false
 updated: 2026-09-27

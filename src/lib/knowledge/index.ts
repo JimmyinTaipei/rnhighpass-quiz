@@ -5,6 +5,7 @@ import questionSlotsJson from "@/data/knowledge/question-slots.json";
 import taxonomyJson from "@/data/knowledge/taxonomy.json";
 import searchJson from "@/data/knowledge/search.json";
 import { ARTICLE_LOADERS } from "@/data/knowledge/loaders";
+import { examCountFor } from "./exam";
 import type {
   ArticleSummary,
   ImageCredit,
@@ -53,9 +54,19 @@ export async function loadArticle(slug: string): Promise<KnowledgeArticle | null
   return loader ? loader() : null;
 }
 
+let summaries: ArticleSummary[] | null = null;
+
 export function getArticleSummaries(): ArticleSummary[] {
-  return Object.values(knowledgeIndex.articles);
+  summaries ??= Object.values(knowledgeIndex.articles).map((a) => ({
+    ...a,
+    examCount: examCountFor(a.slug),
+  }));
+  return summaries;
 }
+
+/** 考題多的在前，同題數依標題 */
+export const byExamCount = (a: ArticleSummary, b: ArticleSummary) =>
+  (b.examCount ?? 0) - (a.examCount ?? 0) || a.title.localeCompare(b.title, "zh-Hant");
 
 export function hrefFor(target: string): string {
   const [slug, id] = target.split("#");

@@ -5,6 +5,11 @@ aliases: [鴉片類, 類鴉片, 麻醉性止痛劑, 麻醉性鎮痛劑, 成癮�
 dzTags: [嗎啡中毒]
 system: neuro
 group: analgesics-anesthetics
+chapters:
+  - 藥理-Ch04止痛藥與麻醉藥物 > 成癮性鎮痛劑（麻醉性鎮痛劑）
+  - 藥理-Ch04止痛藥與麻醉藥物 > 麻醉劑
+  - 內外-Ch06急重症與疼痛護理 > 疼痛護理
+  - 產科-Ch07待產及分娩期之護理評估及護理 > 分娩期間疼痛的處理
 alsoIn: [oncology, psychiatric]
 reviewed: false
 updated: 2026-09-27

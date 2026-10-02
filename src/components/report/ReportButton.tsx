@@ -44,7 +44,7 @@ export function ReportButton({ questionId, tableId, targetLabel, variant = "icon
         className={
           variant === "icon"
             ? "rounded-btn p-1 text-muted transition-colors hover:text-incorrect"
-            : "flex items-center gap-1 rounded-btn border border-card-border bg-card px-3 py-1.5 text-xs font-medium text-body transition-colors hover:border-incorrect hover:text-incorrect"
+            : "flex items-center gap-1 rounded-full bg-fill px-3 py-1.5 text-xs font-medium text-body transition-colors hover:bg-fill-strong"
         }
       >
         <Flag size={variant === "icon" ? 16 : 12} />

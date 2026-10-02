@@ -5,6 +5,8 @@ aliases: [抗憂鬱劑, 抗鬱劑, SSRI, SNRI, TCA, 三環抗憂鬱劑, MAOI, �
 dzTags: [憂鬱症]
 system: psychiatric
 group: antidepressants
+chapters:
+  - 藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 抗憂鬱劑
 reviewed: false
 updated: 2026-09-26
 references:

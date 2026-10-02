@@ -6,6 +6,8 @@ dzTags: [高血壓, 心臟衰竭, 尿崩症, 水腫]
 system: renal
 alsoIn: [cardiovascular]
 group: diuretics
+chapters:
+  - 藥理-Ch07泌尿系統與利尿劑 > 利尿劑
 reviewed: false
 updated: 2026-09-26
 references:

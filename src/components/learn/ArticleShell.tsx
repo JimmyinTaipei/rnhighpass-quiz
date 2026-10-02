@@ -39,8 +39,17 @@ function flatten(nodes: TocNode[], parent: string | null, out: Map<string, strin
 interface ArticleShellProps {
   slug: string;
   toc: TocNode[];
-  tocPanel: React.ReactNode;
+  /** page 模式的左側目錄；panel 模式不顯示 */
+  tocPanel?: React.ReactNode;
   children: React.ReactNode;
+  /**
+   * page:知識頁本身，接管視窗捲動(scroll-spy)與網址 #id。
+   * panel:在章節頁等處打開的知識面板。面板有自己的捲動區，底下那一頁的
+   * 網址 hash 屬於那一頁(如章節頁的 #topic-123)，所以不讀也不寫 hash。
+   */
+  variant?: "page" | "panel";
+  /** panel 模式打開時要定位的段落 id */
+  initialId?: string;
 }
 
 /**
@@ -50,7 +59,15 @@ interface ArticleShellProps {
  * 摺疊狀態放這裡而不是各段落自己記:「全部收合」與「跳到某段要先展開祖先」
  * 都需要一個看得到整棵樹的地方。
  */
-export function ArticleShell({ slug, toc, tocPanel, children }: ArticleShellProps) {
+export function ArticleShell({
+  slug,
+  toc,
+  tocPanel,
+  children,
+  variant = "page",
+  initialId,
+}: ArticleShellProps) {
+  const isPanel = variant === "panel";
   const parentOf = useMemo(() => flatten(toc, null, new Map()), [toc]);
   const [collapsed, setCollapsed] = useState<Set<string>>(() => new Set());
   const [activeId, setActiveId] = useState<string | null>(null);
@@ -79,7 +96,7 @@ export function ArticleShell({ slug, toc, tocPanel, children }: ArticleShellProp
         return next;
       });
       setDrawer(false);
-      if (opts?.push) history.pushState(null, "", `#${id}`);
+      if (opts?.push && !isPanel) history.pushState(null, "", `#${id}`);
       // 等展開後的版面算好再捲
       requestAnimationFrame(() => {
         const el = document.getElementById(id);
@@ -90,11 +107,17 @@ export function ArticleShell({ slug, toc, tocPanel, children }: ArticleShellProp
         el.setAttribute("data-flash", "");
       });
     },
-    [ancestorsOf, parentOf],
+    [ancestorsOf, parentOf, isPanel],
   );
 
   // 進頁時若帶 #id(從別頁的連結過來),展開並定位
   useEffect(() => {
+    if (isPanel) {
+      if (!initialId) return;
+      // 等面板內容排好版再定位
+      const frame = requestAnimationFrame(() => reveal(initialId));
+      return () => cancelAnimationFrame(frame);
+    }
     const fromHash = () => {
       const id = decodeURIComponent(location.hash.slice(1));
       if (id) reveal(id);
@@ -102,10 +125,12 @@ export function ArticleShell({ slug, toc, tocPanel, children }: ArticleShellProp
     fromHash();
     window.addEventListener("hashchange", fromHash);
     return () => window.removeEventListener("hashchange", fromHash);
-  }, [reveal]);
+  }, [reveal, isPanel, initialId]);
 
   // scroll-spy:最後一個捲過視窗上緣的標題就是「目前段落」
   useEffect(() => {
+    // 面板沒有目錄，不需要追蹤目前段落
+    if (isPanel) return;
     let frame = 0;
     const update = () => {
       frame = 0;
@@ -126,7 +151,7 @@ export function ArticleShell({ slug, toc, tocPanel, children }: ArticleShellProp
       window.removeEventListener("scroll", onScroll);
       if (frame) cancelAnimationFrame(frame);
     };
-  }, [collapsed]);
+  }, [collapsed, isPanel]);
 
   const value = useMemo<ArticleContextValue>(
     () => ({
@@ -147,6 +172,10 @@ export function ArticleShell({ slug, toc, tocPanel, children }: ArticleShellProp
     }),
     [slug, activeId, collapsed, reveal, toc],
   );
+
+  if (isPanel) {
+    return <ArticleContext.Provider value={value}>{children}</ArticleContext.Provider>;
+  }
 
   return (
     <ArticleContext.Provider value={value}>

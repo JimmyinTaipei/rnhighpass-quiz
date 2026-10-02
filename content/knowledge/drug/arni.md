@@ -4,6 +4,9 @@ subtitle: ARNI(Angiotensin receptor–neprilysin inhibitor):sacubitril/valsartan
 aliases: [ARNI, Sacubitril/valsartan, Sacubitril, Entresto, 健安心, Neprilysin inhibitor, 腦啡肽酶抑制劑, 中性內肽酶抑制劑]
 dzTags: [心臟衰竭, 心衰竭]
 system: cardiovascular
+chapters:
+  - 藥理-Ch08心血管藥物 > 治療鬱血性心衰竭藥物
+  - 藥理-Ch08心血管藥物 > 治療高血壓藥物
 alsoIn: [renal]
 group: heart-failure-drugs
 reviewed: false

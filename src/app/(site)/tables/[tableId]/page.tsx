@@ -47,12 +47,12 @@ export default async function TablePage(props: PageProps<"/tables/[tableId]">) {
         / {table.scope === "shared" ? "跨科共用" : (ownSubject?.name ?? table.subject_id)}
       </p>
       <div className="mb-6 flex flex-wrap items-start justify-between gap-3">
-        <h1 className="text-2xl font-bold text-subj-deep">{table.title}</h1>
+        <h1 className="text-3xl font-bold text-subj-deep">{table.title}</h1>
         <div className="flex items-center gap-2">
           <Link
             href={`/print/tables/${encodeURIComponent(table.id)}`}
             target="_blank"
-            className="flex items-center gap-1 rounded-btn border border-card-border bg-card px-3 py-1.5 text-xs font-medium text-body transition-colors hover:border-subj-accent hover:text-subj-deep"
+            className="flex items-center gap-1 rounded-full bg-fill px-3 py-1.5 text-xs font-medium text-body transition-colors hover:bg-fill-strong"
           >
             <FileDown size={12} />
             匯出 PDF
@@ -74,7 +74,7 @@ export default async function TablePage(props: PageProps<"/tables/[tableId]">) {
               <Link
                 key={chapter!.id}
                 href={`/chapters/${chapter!.id}`}
-                className="flex items-center justify-between gap-2 rounded-card border border-card-border bg-page p-3 text-sm shadow-sm transition-colors hover:border-subj-accent"
+                className="flex items-center justify-between gap-2 rounded-card bg-(--surface-inset) p-3 text-sm shadow-sm transition-colors hover:bg-surface-hover"
               >
                 <span className="min-w-0">
                   <span className="block text-xs text-muted">

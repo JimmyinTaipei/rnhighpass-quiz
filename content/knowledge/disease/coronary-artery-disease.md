@@ -4,6 +4,11 @@ subtitle: Coronary artery disease(CAD):angina pectoris & myocardial infarction
 aliases: [CAD, 冠心病, 缺血性心臟病, 心絞痛, 狹心症, 心肌梗塞, 急性心肌梗塞, AMI, MI, 急性冠心症, 急性冠狀動脈症候群, ACS, STEMI, NSTEMI, 不穩定型心絞痛, 變異型心絞痛, 動脈粥狀硬化]
 dzTags: [心肌梗塞, 急性心肌梗塞, 心絞痛, 狹心症, 不穩定型心絞痛, 急性冠心症, 急性冠狀動脈症候群, 冠狀動脈疾病, 缺血性心臟病, 動脈粥狀硬化, 動脈硬化, 高血脂, 高血脂症]
 system: cardiovascular
+chapters:
+  - 病理-Ch09心臟血管系統疾病 > 心臟疾病
+  - 病理-Ch09心臟血管系統疾病 > 血管疾病
+  - 藥理-Ch08心血管藥物 > 抗心絞痛藥物
+  - 內外-Ch13心血管系統疾病 > 冠狀動脈疾病
 reviewed: false
 updated: 2026-09-25
 references:

@@ -8,6 +8,7 @@ dzTags: []
 system: infection
 group: bacteria                     # bacteria / viruses / fungi-parasites
 alsoIn: []
+chapters: []                        # 選填：對到的分章題本段落，見 README「章節對照」
 pathogens:
   - id: neisseria-gonorrhoeae
     name: 淋病雙球菌

@@ -6,6 +6,9 @@ dzTags: [高血鉀, 高血鉀症, 高鉀血症, 低血鉀, 低血鉀症, 低鉀�
 system: fluid-acid-base
 alsoIn: [cardiovascular, renal]
 group: acid-base-labs
+chapters:
+  - 生解-Ch11體液、電解質與酸鹼平衡 > 電解質
+  - 基護-Ch14體液供給 > 體液不平衡之常見問題
 reviewed: false
 updated: 2026-09-26
 references:

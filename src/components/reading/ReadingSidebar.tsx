@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, ListChecks } from "lucide-react";
 import { SubjectSwitcher } from "./SubjectSwitcher";
 import { NodeCounts, TopicTree } from "./TopicTree";
 import { Skeleton } from "@/components/ui/Skeleton";
@@ -141,6 +141,14 @@ export function ReadingSidebar({
         current={{ kind: "subject", id: subject.id, label: subject.name }}
       />
 
+      {/* 同一科的「練」：跨章自選範圍出題(單章做題在章節頁的「開始測驗」、考點地圖的「練這節」) */}
+      <Link
+        href={`/quiz/${encodeURIComponent(subject.id)}`}
+        className="mt-1 flex items-center gap-1.5 rounded px-2 py-1.5 text-xs font-medium text-subj-deep transition-colors hover:bg-surface-hover"
+      >
+        <ListChecks size={14} /> 本科自選範圍出題
+      </Link>
+
       <div className="mt-2">
         {groups.map((group, i) => (
           <div key={group.label ?? i} className="mb-2 last:mb-0">
@@ -223,14 +231,14 @@ export function ReadingSidebar({
     <div data-group={subjectGroup(subject)} className="contents">
       <nav
         aria-label="章節目錄"
-        className="sticky top-4 hidden h-[calc(100vh-2rem)] w-64 shrink-0 self-start overflow-y-auto rounded-card border border-card-border bg-card p-3 shadow-sm lg:block"
+        className="sticky top-4 hidden h-[calc(100vh-2rem)] w-64 shrink-0 self-start overflow-y-auto rounded-card bg-card p-3 shadow-sm lg:block"
       >
         {body}
       </nav>
 
       {/* 窄螢幕：先用可展開區塊頂著，階段 3 會換成頂端 sticky 的「目前章節」+ 抽屜。
           共用的是同一份 body，不會有兩套樹的邏輯。 */}
-      <details className="mb-4 rounded-card border border-card-border bg-card px-3 py-2 shadow-sm lg:hidden">
+      <details className="mb-4 rounded-card bg-card px-3 py-2 shadow-sm lg:hidden">
         <summary className="cursor-pointer list-none py-1 text-sm font-medium text-subj-deep">
           {currentChapterLabel}
         </summary>

@@ -9,6 +9,7 @@ export default async function SubjectsPage() {
       subjects={subjects}
       title="科目"
       hrefFor={(s) => `/subjects/${encodeURIComponent(s.id)}`}
+      practiceHrefFor={(s) => `/quiz/${encodeURIComponent(s.id)}`}
       intro={<ContinueReading />}
       rememberPosition
     />

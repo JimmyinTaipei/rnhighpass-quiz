@@ -5,6 +5,9 @@ aliases: [Acarbose, Miglitol, Voglibose, α-glucosidase inhibitor, 醣苷酶抑�
 dzTags: [糖尿病]
 system: endocrine
 group: antidiabetics
+chapters:
+  - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥
+  - 內外-Ch08內分泌系統疾病 > 胰臟疾病與糖尿病
 reviewed: false
 updated: 2026-09-25
 references:

@@ -43,6 +43,7 @@ types:
   lab: 檢驗
   care: 護理主題
   pathogen: 病原體
+  admin: 護理行政
 
 domains:
   # ===== 器官系統(對應題庫 block: 十大系統) =====
@@ -177,6 +178,15 @@ domains:
   - id: administration
     name: 護理行政
     kind: subject
+    groups:
+      - { id: management-theory, name: 管理理論與管理者, type: admin }
+      - { id: planning-decision, name: 規劃與決策, type: admin }
+      - { id: organization-care-models, name: 組織與照護模式, type: admin }
+      - { id: hr-scheduling, name: 人力資源與排班, type: admin }
+      - { id: leadership-communication, name: 領導、溝通與激勵, type: admin }
+      - { id: finance-budget, name: 財務與預算, type: admin }
+      - { id: quality-informatics, name: 品質與資訊, type: admin }
+      - { id: ethics-law-safety, name: 倫理、法律與安全, type: admin }
 
   - id: community
     name: 社區衛生

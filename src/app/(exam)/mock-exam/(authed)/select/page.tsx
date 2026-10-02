@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Clock, FileText } from "lucide-react";
 import { getExamPapers } from "@/lib/mock-exam/data";
+import { requireUser } from "@/lib/auth";
+import { isMockOnly } from "@/lib/site-mode";
 import {
   DEFAULT_SITTING,
   GROUP_FULL_NAMES,
@@ -11,6 +13,8 @@ import {
 } from "@/lib/mock-exam/labels";
 
 export default async function MockExamHome(props: PageProps<"/mock-exam/select">) {
+  const mockSite = isMockOnly();
+  if (!mockSite) await requireUser("/mock-exam/select");
   const [papers, searchParams] = await Promise.all([getExamPapers(), props.searchParams]);
 
   // 梯次清單(去重、新到舊)。補考與正式考試分開列
@@ -36,12 +40,16 @@ export default async function MockExamHome(props: PageProps<"/mock-exam/select">
     <div className="space-y-6">
       <section>
         <h1 className="mb-2 text-2xl font-bold text-deep">
-          護理師線上模擬考
-          <span className="ml-1 text-base font-medium text-warning">（考試當天不會有此頁面）</span>
+          {mockSite ? "護理師線上模擬考" : "歷年考題模擬"}
+          {mockSite && (
+            <span className="ml-1 text-base font-medium text-warning">（考試當天不會有此頁面）</span>
+          )}
         </h1>
         <p className="max-w-3xl text-sm leading-relaxed text-body">
           以國考歷屆試題模擬電腦化測驗：一次一題、可註記、可瀏覽作答情形，每科 60 分鐘。
-          不需要登入，作答進度保存在這台裝置的瀏覽器。
+          {mockSite
+            ? "不需要登入，作答進度保存在這台裝置的瀏覽器。"
+            : `目前有 ${sittings.length} 次考試可以選。交卷後成績與作答會記錄到你的帳號，答錯的題目自動收進題本。`}
         </p>
       </section>
 

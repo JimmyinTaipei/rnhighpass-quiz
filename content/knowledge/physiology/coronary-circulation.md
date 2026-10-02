@@ -4,6 +4,9 @@ subtitle: Coronary circulation and myocardial oxygen balance
 aliases: [冠狀動脈, 冠狀循環, 左前降支, LAD, 左迴旋支, LCx, 右冠狀動脈, RCA, 心肌耗氧量, 心肌需氧量, 側枝循環, coronary artery, myocardial oxygen demand, collateral circulation]
 dzTags: []
 system: cardiovascular
+chapters:
+  - 內外-Ch13心血管系統疾病 > 冠狀動脈疾病
+  - 生解-Ch07血液、心血管與淋巴系統 > 血管與循環路線 > 循環路線（體循環、肝門脈循環、肺循環、冠狀循環、胎兒循環）
 reviewed: false
 updated: 2026-09-25
 references:

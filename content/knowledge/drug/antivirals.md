@@ -1,10 +1,12 @@
 ---
 title: 抗病毒藥物
-subtitle: Antiviral drugs(抗疱疹、抗流感、抗肝炎、抗 COVID-19 與干擾素；抗愛滋藥見 HIV 頁)
+subtitle: Antiviral drugs(抗疱疹、抗流感、抗肝炎、抗 COVID-19 與干擾素；抗愛滋藥見愛滋病頁)
 aliases: [抗病毒藥, Antivirals, Acyclovir, Zovirax, 熱威樂素, Valacyclovir, Valtrex, Famciclovir, Ganciclovir, Valganciclovir, Foscarnet, Cidofovir, Oseltamivir, Tamiflu, 克流感, Zanamivir, Relenza, 瑞樂沙, Peramivir, Baloxavir, Xofluza, 紓伏效, Amantadine, 神經胺酸酶抑制劑, Neuraminidase inhibitor, Ribavirin, Entecavir, Baraclude, Tenofovir, TDF, TAF, Lamivudine, Adefovir, Sofosbuvir, DAA, 直接作用抗病毒藥, 干擾素, Interferon, Peginterferon, Paxlovid, Nirmatrelvir, Molnupiravir, Remdesivir, Palivizumab, Nirsevimab]
 dzTags: [流行性感冒, 帶狀疱疹, 單純疱疹, 水痘, B型肝炎, C型肝炎, 病毒性肝炎, 巨細胞病毒感染]
 system: infection
 group: antivirals
+chapters:
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗病毒藥物
 alsoIn: [digestive, respiratory]
 reviewed: false
 updated: 2026-09-28
@@ -31,7 +33,7 @@ references:
 - **oseltamivir**(克流感)：神經胺酸酶抑制劑，**發病 48 小時內**使用效果最好；高風險者與住院病人不論時間都應治療。
 - **B 型肝炎**：entecavir、tenofovir(抑制病毒、需長期服用、不可自行停藥)；**C 型肝炎**：**口服直接作用抗病毒藥**(DAA)8–12 週，治癒率超過 95%。
 - **干擾素**：常見**類流感症狀**。
-- 抗愛滋病毒藥物之後整理在 HIV 頁。
+- 抗愛滋病毒藥物見 [[hiv-aids#art]]。
 
 ## 抗病毒藥物概論 {#overview}
 

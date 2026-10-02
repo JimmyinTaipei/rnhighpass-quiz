@@ -27,7 +27,7 @@ export function SearchBox({ initialQuery = "" }: { initialQuery?: string }) {
           value={value}
           onChange={(e) => setValue(e.target.value)}
           placeholder="搜尋題幹、考點、筆記卡…"
-          className="w-full rounded-btn border border-card-border bg-card py-2 pr-3 pl-9 text-sm text-strong placeholder:text-muted focus:border-subj-accent focus:outline-none"
+          className="w-full rounded-btn bg-fill py-2 pr-3 pl-9 text-sm text-strong placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-subj-accent/40"
         />
       </div>
       <button

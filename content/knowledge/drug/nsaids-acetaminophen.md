@@ -5,6 +5,8 @@ aliases: [NSAIDs, NSAID, 非類固醇抗發炎藥, 非類固醇消炎止痛藥, 
 dzTags: [止痛劑腎病]
 system: neuro
 group: analgesics-anesthetics
+chapters:
+  - 藥理-Ch04止痛藥與麻醉藥物 > 非成癮性鎮痛劑
 alsoIn: [musculoskeletal, hematology-immunology]
 reviewed: false
 updated: 2026-09-27

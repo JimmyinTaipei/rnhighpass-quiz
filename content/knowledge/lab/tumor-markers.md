@@ -4,6 +4,9 @@ subtitle: Tumor markers(CEA、AFP、CA-125、CA19-9、CA15-3、PSA、β-hCG 等)
 aliases: [腫瘤指標, 癌症指標, Tumor marker, CEA, 癌胚抗原, AFP, 甲型胎兒蛋白, α-胎兒蛋白, CA-125, CA125, CA19-9, CA15-3, CA 15-3, PSA, 前列腺特異抗原, 攝護腺特異抗原, β-hCG, 人類絨毛膜促性腺激素, Calcitonin, 抑鈣素, Thyroglobulin, 甲狀腺球蛋白, EBV 抗體, EBV DNA, LDH, β2-microglobulin, Bence Jones 蛋白, VMA]
 dzTags: []
 system: oncology
+chapters:
+  - 病理-Ch04腫瘤概論 > 腫瘤之診斷與治療
+  - 內外-Ch03癌症護理 > 癌症預防、診斷與分期
 group: oncology-labs
 reviewed: false
 updated: 2026-09-27

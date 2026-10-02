@@ -36,7 +36,7 @@ export function SubjectPicker({ subjects, counts, selected, hrefFor, unit = "題
             ? "border-subj-accent bg-subj-light font-bold text-subj-deep"
             : count === 0
               ? "border-card-border bg-card text-muted opacity-60 hover:opacity-100"
-              : "border-card-border bg-card text-body hover:border-subj-accent"
+              : "border-card-border bg-card text-body hover:bg-surface-hover"
         }`}
       >
         <span>{name}</span>

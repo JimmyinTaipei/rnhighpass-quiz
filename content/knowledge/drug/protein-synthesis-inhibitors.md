@@ -5,6 +5,10 @@ aliases: [蛋白質合成抑制劑, 四環黴素, 四環素, Tetracyclines, Tetr
 dzTags: [細菌感染]
 system: infection
 group: antibiotics
+chapters:
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗生素類藥物
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗生素臨床應用與注意事項
+  - 微免-Ch10特殊病原菌（螺旋體、黴漿菌、立克次體、披衣菌） > 黴漿菌與L型細菌
 reviewed: false
 updated: 2026-09-28
 references:

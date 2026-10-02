@@ -6,6 +6,8 @@ dzTags: [糖尿病酮酸中毒]
 system: fluid-acid-base
 alsoIn: [respiratory, endocrine]
 group: acid-base-labs
+chapters:
+  - 內外-Ch04體液、電解質與酸鹼不平衡之護理 > 酸鹼平衡改變 > 代謝性酸中毒與代謝性鹼中毒
 reviewed: false
 updated: 2026-09-26
 references:

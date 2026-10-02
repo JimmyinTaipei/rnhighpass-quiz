@@ -6,6 +6,12 @@ dzTags: [糖尿病, 妊娠糖尿病]
 system: endocrine
 alsoIn: [reproductive]
 group: glucose-labs
+chapters:
+  - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥
+  - 內外-Ch08內分泌系統疾病 > 胰臟疾病與糖尿病
+  - 產科-Ch10高危險妊娠之護理 > 妊娠前的內科疾病 > 糖尿病
+  - 兒科-Ch04高危險新生兒之護理 > 高危險性新生兒之定義與評估
+  - 社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護 > 糖尿病與代謝症候群
 reviewed: false
 updated: 2026-09-26
 references:

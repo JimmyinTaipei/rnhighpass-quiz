@@ -11,7 +11,7 @@ import type { Chapter, Topic } from "./types";
  * 不像每科內部的章節分法)，先把型別留好，屆時不用重寫 SubjectSwitcher。
  *
  * 注意：藥物目前在資料庫裡一筆都沒有(question_tags 的 tag_type 白名單寫死在
- * database/scripts/lib/parse_chapters.py，只收 block/dz/other)，要做得先回到
+ * database/scripts/lib/parse_chapters.py，只收 block/dz/adm/other)，要做得先回到
  * 來源 markdown 補標註。這裡純粹是型別層的預留。
  */
 export type NavScope =

@@ -6,6 +6,9 @@ dzTags: [高血壓]
 system: cardiovascular
 alsoIn: [neuro, renal]
 group: antihypertensives
+chapters:
+  - 藥理-Ch02自主神經系統藥物 > 腎上腺素性神經藥物
+  - 藥理-Ch08心血管藥物 > 治療高血壓藥物
 reviewed: false
 updated: 2026-09-26
 references:

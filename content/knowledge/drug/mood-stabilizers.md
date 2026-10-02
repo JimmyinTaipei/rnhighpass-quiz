@@ -6,6 +6,9 @@ dzTags: [雙相情緒障礙症]
 system: psychiatric
 alsoIn: [neuro]
 group: mood-stabilizers
+chapters:
+  - 藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 情緒安定劑（抗躁鬱症藥物）
+  - 精神-Ch05肌體治療 > 精神科藥物治療
 reviewed: false
 updated: 2026-09-26
 references:

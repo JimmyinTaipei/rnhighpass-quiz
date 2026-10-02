@@ -5,6 +5,8 @@ aliases: [DPP-4i, DPP4, Sitagliptin, Saxagliptin, Linagliptin, Alogliptin, Vilda
 dzTags: [糖尿病]
 system: endocrine
 group: antidiabetics
+chapters:
+  - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥
 reviewed: false
 updated: 2026-09-26
 references:

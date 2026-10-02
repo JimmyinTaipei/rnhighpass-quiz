@@ -1,7 +1,7 @@
 // 對應 scripts/build-knowledge.mjs 的輸出格式。改其中一邊時兩邊要一起改。
 import type { Root } from "hast";
 
-export type KnowledgeCategory = "disease" | "physiology" | "drug" | "lab" | "care" | "pathogen";
+export type KnowledgeCategory = "disease" | "physiology" | "drug" | "lab" | "care" | "pathogen" | "admin";
 
 export const CATEGORY_LABELS: Record<KnowledgeCategory, string> = {
   disease: "疾病",
@@ -10,6 +10,7 @@ export const CATEGORY_LABELS: Record<KnowledgeCategory, string> = {
   lab: "檢驗",
   care: "護理主題",
   pathogen: "病原體",
+  admin: "護理行政",
 };
 
 export interface KnowledgeReference {
@@ -43,12 +44,16 @@ export interface KnowledgeArticle {
   category: KnowledgeCategory;
   aliases: string[];
   dzTags: string[];
+  /** 護理行政標籤(題庫 adm: 標籤),只有 admin 類型頁使用 */
+  admTags?: string[];
   system: string;
   alsoIn: string[];
   group: string | null;
   reviewed: boolean;
   updated: string | null;
   references: KnowledgeReference[];
+  /** 對到的分章題本段落,如「藥理-Ch10內分泌系統用藥 > 胰島素」 */
+  chapters: string[];
   intro: Root;
   sections: KnowledgeSection[];
   embeds: Record<string, KnowledgeEmbed>;
@@ -61,12 +66,17 @@ export interface ArticleSummary {
   category: KnowledgeCategory;
   aliases: string[];
   dzTags: string[];
+  /** 護理行政標籤(題庫 adm: 標籤),只有 admin 類型頁使用 */
+  admTags?: string[];
   system: string;
   alsoIn: string[];
   group: string | null;
   reviewed: boolean;
+  chapters: string[];
   summary: string;
   sectionCount: number;
+  /** 相關考題數(article-questions.json)，由 getArticleSummaries 合併進來 */
+  examCount?: number;
 }
 
 export interface SectionSummary {
@@ -119,6 +129,7 @@ export type DomainKind = "system" | "cross" | "subject";
 export const BROWSE_TYPES: { type: KnowledgeCategory; label: string }[] = [
   { type: "drug", label: "藥理" },
   { type: "lab", label: "檢驗" },
+  { type: "pathogen", label: "病原體" },
 ];
 
 export const DOMAIN_KIND_LABELS: Record<DomainKind, string> = {
@@ -131,6 +142,8 @@ export interface TaxonomyGroup {
   id: string;
   name: string;
   type: KnowledgeCategory;
+  /** 題庫 drug 標籤的同義詞 */
+  drugTags: string[];
   count: number;
 }
 

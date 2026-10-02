@@ -42,17 +42,19 @@ def parse_question_id(qid: str):
 
 
 def parse_tags(raw: str):
-    """'block:呼吸, dz:呼吸道感染' -> [('block','呼吸'), ('dz','呼吸道感染')].
-    Any malformed/no-colon entry falls back to type 'other'."""
+    """'block:呼吸, dz:呼吸道感染, adm:X理論' -> [('block','呼吸'), ('dz','呼吸道感染'), ('adm','X理論')].
+    adm = 護理行政標籤(理論、公式、制度)。其他前綴(例如 drug)存成 'other' 並丟掉前綴。
+    master_id 是舊的重複題標記(可能接在 tag 後面或同一行)，不是標籤，要略過。"""
     tags = []
+    raw = "\n".join(ln for ln in raw.split("\n") if not ln.strip().startswith("master_id:"))
     for part in raw.split(","):
         part = part.strip()
-        if not part:
+        if not part or part.startswith("master_id:"):
             continue
         if ":" in part:
             t, _, v = part.partition(":")
             t = t.strip()
-            if t not in ("block", "dz"):
+            if t not in ("block", "dz", "adm"):
                 t = "other"
             tags.append((t, v.strip()))
         else:

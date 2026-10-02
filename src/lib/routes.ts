@@ -8,6 +8,8 @@ export function isProtectedPath(pathname: string): boolean {
   if (pathname === "/stats" || pathname.startsWith("/stats/")) return true;
   // 章節「閱讀」頁公開，只有它底下的 /quiz 需要登入
   if (pathname.startsWith("/chapters/") && pathname.endsWith("/quiz")) return true;
+  // 知識頁同理，只有「練相關題」需要登入
+  if (pathname.startsWith("/learn/") && pathname.endsWith("/quiz")) return true;
   return false;
 }
 

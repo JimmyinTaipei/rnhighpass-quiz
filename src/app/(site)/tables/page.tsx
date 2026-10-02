@@ -33,7 +33,7 @@ export default async function TablesPage(props: PageProps<"/tables">) {
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 py-8">
       <Panel className="flex-1">
-        <h1 className="mb-2 text-3xl font-bold text-body">比較表</h1>
+        <h1 className="max-md:sr-only mb-2 text-3xl font-bold text-strong">比較表</h1>
         <p className="mb-6 text-sm text-muted">
           共 {tables.length} 張，依「最常出題的章節」歸類；其他相關章節會以
           <span className="mx-1 rounded border border-dashed border-card-border px-1">連結卡</span>
@@ -43,7 +43,7 @@ export default async function TablesPage(props: PageProps<"/tables">) {
           <Link
             href={`/print/tables?subject=${encodeURIComponent(subjectId)}`}
             target="_blank"
-            className="flex items-center gap-1 self-end rounded-btn border border-card-border bg-card px-3 py-1.5 text-xs font-medium text-body transition-colors hover:border-accent hover:text-deep"
+            className="flex items-center gap-1 self-end rounded-full bg-fill px-3 py-1.5 text-xs font-medium text-body transition-colors hover:bg-fill-strong"
           >
             <FileDown size={12} />
             匯出本科比較表 PDF

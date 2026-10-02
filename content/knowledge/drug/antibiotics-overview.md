@@ -5,10 +5,16 @@ aliases: [抗生素, 抗菌藥, Antibiotics, Antibacterial agents, 殺菌劑, �
 dzTags: [細菌感染]
 system: infection
 group: antibiotics
+chapters:
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗生素類藥物
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗生素臨床應用與注意事項
+  - 基護-Ch13給藥法 > 給藥醫囑介紹及給藥原則
 alsoIn: [fundamentals]
 reviewed: false
 updated: 2026-09-28
 references:
+  - title: 衛生福利部疾病管制署《抗生素管理手冊》(防疫學苑系列 019，2015)
+    note: 使用者提供之 PDF
   - title: "UpToDate：Beta-lactam antibiotics: Mechanisms of action and resistance and adverse effects(2026)"
     url: https://www.uptodate.com/contents/beta-lactam-antibiotics-mechanisms-of-action-and-resistance-and-adverse-effects
   - title: "UpToDate：Allergy evaluation for immediate penicillin allergy: Skin test-based diagnostic strategies and cross-reactivity with other beta-lactam antibiotics(2026)"
@@ -153,6 +159,18 @@ daptomycin 會被肺表面張力素(surfactant)破壞，**不能用來治療肺�
 - 醫院**定期公告病原種類與抗生素感受性**，作為經驗性用藥的參考。
 - **不要**：經常服用預防性抗生素、服用低劑量抗生素、長期只用同一種抗生素、症狀減輕就停藥、用抗生素當動物飼料添加物。
 - 感染管制：手部衛生、接觸隔離。
+
+### 抗生素管理計畫 {#stewardship}
+
+依疾管署《抗生素管理手冊》(2015)：醫院由醫師、藥師、醫檢師、感管護理師組成**抗生素管理小組**，目標是提升治癒率、減少抗藥性與不良反應、節省醫療支出。
+
+- **核心要素**(美國 CDC 2014)：領導者承諾、指定負責的醫師與藥師、至少執行一項行動(例如處方審核與回饋、限制使用品項)、**追蹤**抗生素使用量與抗藥性、定期**報告**、**教育**。
+- **所有護理師的職責**：
+  1. 正確執行病人的抗生素照護計畫；依標準流程**採集檢體**並**追蹤培養結果**。
+  2. **多重抗藥性微生物**(MRSA、VRE、CRE、CRAB)病人採**接觸隔離**，並督促其他職類同仁、訪客與清潔人員落實隔離與環境清潔([[infection-control#mdro-occupational]])。
+  3. 落實抗生素的**保存、給藥**(三讀五對、相容輸注液、輸注速率，例如 vancomycin 不可輸注太快、ertapenem 與 daptomycin 不可溶於含糖輸注液)與**監測副作用**，懷疑不良反應時立即通知醫師並依機構機制通報。
+  4. **衛教病人**：不可擅自停藥、要**完成整個療程**、用白開水服用、依指示飯前或飯後服用、出現副作用時如何處理；要用病人聽得懂的話並確認理解。
+- **感管護理師**另負責醫療照護相關感染與抗藥性菌的監測統計、稽核隔離措施與群突發調查。
 
 ## 正常菌叢破壞與抗生素相關腹瀉 {#normal-flora}
 

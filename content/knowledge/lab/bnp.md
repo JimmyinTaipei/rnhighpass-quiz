@@ -5,6 +5,8 @@ aliases: [BNP, NT-proBNP, B 型排鈉利尿胜肽, B型利鈉肽, 腦利鈉胜�
 dzTags: [心臟衰竭, 心衰竭]
 system: cardiovascular
 group: cardiac-labs
+chapters:
+  - 內外-Ch13心血管系統疾病 > 心衰竭與心肌病變
 reviewed: false
 updated: 2026-09-26
 references:

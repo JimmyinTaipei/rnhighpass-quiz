@@ -5,6 +5,12 @@ aliases: [白血病, 血癌, Leukemia, 急性淋巴性白血病, 急性淋巴母
 dzTags: [白血病, 急性淋巴性白血病, 急性淋巴母細胞性白血病, 急性淋巴球性白血病, 急性骨髓性白血病, 急性白血病, 慢性骨髓性白血病, 慢性淋巴性白血病]
 system: oncology
 alsoIn: [hematology-immunology]
+chapters:
+  - 病理-Ch10血液、造血與淋巴系統疾病 > 血液系統之惡性腫瘤
+  - 內外-Ch14血液系統疾病 > 白血球與淋巴系統疾病
+  - 兒科-Ch10兒童血液疾病 > 血液系統腫瘤疾病
+  - 兒科-Ch18兒童癌症 > 兒童常見的癌症及其護理
+  - 兒科-Ch18兒童癌症 > 癌症兒童及其家庭之護理
 reviewed: false
 updated: 2026-09-27
 references:

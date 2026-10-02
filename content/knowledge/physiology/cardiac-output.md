@@ -4,6 +4,9 @@ subtitle: Cardiac function and cardiac output
 aliases: [心輸出量, 心搏出量, 心搏量, 前負荷, 後負荷, 收縮力, 射出分率, 心指數, 心動週期, 心音, 傳導系統, Frank-Starling, cardiac output, stroke volume, preload, afterload, ejection fraction]
 dzTags: []
 system: cardiovascular
+chapters:
+  - 藥理-Ch08心血管藥物 > 心臟前後負荷與心衰竭/休克用藥綜合應用
+  - 生解-Ch07血液、心血管與淋巴系統 > 心臟 > 心動週期（收縮期與舒張期、心音、法蘭克－史達林定律）
 reviewed: false
 updated: 2026-09-26
 references:

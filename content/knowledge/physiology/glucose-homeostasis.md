@@ -4,6 +4,8 @@ subtitle: Glucose homeostasis
 aliases: [胰島素, 升糖素, GLUT4, GLUT2, 腸泌素, 糖質新生, insulin, glucagon, incretin]
 dzTags: []
 system: endocrine
+chapters:
+  - 生解-Ch12內分泌系統 > 胰臟之蘭氏小島
 reviewed: false
 updated: 2026-09-26
 references:

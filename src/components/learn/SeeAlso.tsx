@@ -37,7 +37,7 @@ export function SeeAlso({ citing, group, siblings, alsoIn }: SeeAlsoProps) {
   if (citing.length === 0 && siblings.length === 0 && alsoIn.length === 0) return null;
 
   return (
-    <section id="see-also" className="mt-10 scroll-mt-4 rounded-card border border-card-border bg-page p-4 sm:p-5">
+    <section id="see-also" className="mt-10 scroll-mt-4 rounded-card bg-(--surface-inset) p-4 sm:p-5">
       <h2 className="mb-4 text-lg font-bold text-deep">參見</h2>
       <div className="grid gap-5 md:grid-cols-2">
         {citing.length > 0 && (
@@ -72,7 +72,7 @@ export function SeeAlso({ citing, group, siblings, alsoIn }: SeeAlsoProps) {
                 <li key={a.slug}>
                   <Link
                     href={`/learn/${a.slug}`}
-                    className="inline-block rounded-full border border-card-border bg-card px-3 py-1 text-sm text-deep hover:border-accent"
+                    className="inline-block rounded-full bg-(--surface-row) px-3 py-1 text-sm text-deep hover:bg-surface-hover"
                   >
                     {a.title}
                   </Link>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BookOpen, ChevronRight, FileDown } from "lucide-react";
 import { NoteCard } from "@/components/notes/NoteCard";
+import { ChapterMap } from "@/components/reading/ChapterMap";
 import { ReadingControls } from "@/components/reading/ReadingControls";
 import { TopicSection } from "@/components/reading/TopicSection";
 import { ViewControls } from "@/components/reading/ViewControls";
@@ -22,6 +23,9 @@ import { buildChapterContent, hasContent } from "@/lib/topic-tree";
 import { getDevMode } from "@/lib/dev-mode";
 import { subjectGroup } from "@/lib/subject-groups";
 import { parseViewMode } from "@/lib/view-mode";
+import { pillGray, pillSubject } from "@/lib/ui";
+import { chapterMapFor } from "@/lib/knowledge/chapter-map";
+import { knowledgeForQuestions } from "@/lib/knowledge/exam";
 
 export default async function ChapterPage(props: PageProps<"/chapters/[chapterId]">) {
   const [{ chapterId }, searchParams] = await Promise.all([
@@ -54,11 +58,15 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
     getDiseaseTagsForQuestions(questionIds),
   ]);
   const chapterTables = dedupeTables(tablesByQuestion);
+  const knowledgeByQuestion = knowledgeForQuestions(questionIds);
   const content = buildChapterContent(chapter, topics, questions, cards);
   const visibleTopics = content.tree.filter(hasContent);
 
+  const mapData = chapterMapFor(chapter.full_title);
+  const defaultView = mapData?.fullyCovered ? "map" : "quiz";
   const view = parseViewMode(
     typeof searchParams.view === "string" ? searchParams.view : undefined,
+    defaultView,
   );
   const reveal = searchParams.reveal === "1";
   const group = subject ? subjectGroup(subject) : undefined;
@@ -86,13 +94,14 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
         {chapter.chapter_no} {chapter.title}
       </h1>
 
-      <div className="mb-6 flex flex-wrap items-center gap-3">
-        <ViewControls view={view} reveal={reveal} />
-        <ReadingControls />
+      <div className="mb-6 flex flex-wrap items-center gap-2">
+        <ViewControls view={view} reveal={reveal} defaultView={defaultView} />
+        {/* 展開/收合只作用在題目瀏覽的小節(details)，地圖沒有 */}
+        {view !== "map" && <ReadingControls />}
         {questions.length > 0 && (
           <Link
             href={`/chapters/${chapter.id}/quiz`}
-            className="rounded-btn bg-subj-accent px-4 py-2 text-sm font-medium text-on-accent transition-opacity hover:opacity-90"
+            className={pillSubject}
           >
             開始測驗
           </Link>
@@ -101,7 +110,7 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
           <Link
             href={`/print/questions?source=chapter&chapter=${chapter.id}`}
             target="_blank"
-            className="flex items-center gap-1 rounded-btn border border-card-border bg-card px-3 py-2 text-sm font-medium text-body transition-colors hover:border-subj-accent hover:text-subj-deep"
+            className={pillGray}
           >
             <FileDown size={14} />
             匯出本章 PDF
@@ -109,7 +118,11 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
         )}
       </div>
 
-      {visibleTopics.map((node) => (
+      {view === "map" && mapData && (
+        <ChapterMap chapterId={chapter.id} data={mapData} topics={topics} />
+      )}
+
+      {view !== "map" && visibleTopics.map((node) => (
         <TopicSection
           key={node.topic.id}
           node={node}
@@ -120,6 +133,7 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
           tablesByQuestion={tablesByQuestion}
           otherChaptersByQuestion={otherChaptersByQuestion}
           diseaseTagsByQuestion={diseaseTagsByQuestion}
+          knowledgeByQuestion={knowledgeByQuestion}
           devMode={devMode}
         />
       ))}
@@ -143,7 +157,7 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
       )}
 
       {/* 比對不到主題的筆記卡掛在章節層，確保不會有卡片憑空消失 */}
-      {content.orphanCards.length > 0 && (
+      {view !== "map" && content.orphanCards.length > 0 && (
         <details data-topic className="group mb-6">
           <summary className="-mx-2 flex cursor-pointer list-none items-center gap-2 rounded-btn border-b border-card-border px-2 py-2 transition-colors hover:bg-surface-hover/60">
             <ChevronRight

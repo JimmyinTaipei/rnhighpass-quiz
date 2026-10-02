@@ -11,7 +11,8 @@ import {
   Flag,
   Pencil,
 } from "lucide-react";
-import { OPTION_KEYS, type OptionKey } from "@/lib/quiz-utils";
+import { isAnswerCorrect, OPTION_KEYS, type OptionKey } from "@/lib/quiz-utils";
+import { submitAnswers } from "@/lib/actions";
 import type { MockQuestion } from "@/lib/mock-exam/data";
 import { EXAM_DURATION_MS, MOCK_CANDIDATE, TIME_WARNING_MS } from "@/lib/mock-exam/labels";
 import {
@@ -41,6 +42,12 @@ interface MockExamSessionProps {
   title: string;
   subjectName: string;
   questions: MockQuestion[];
+  /**
+   * 主站的「歷年考題模擬」：已用網站帳號登入，確認後直接開始作答(跳過成績選項與考前等候)，
+   * 交卷後直接看成績，並把作答寫進 user_answers(錯題自動進題本)。
+   * 模擬考站(exam.rnhighpass.com)不傳，維持完整的考場流程、只存在瀏覽器。
+   */
+  simplified?: boolean;
 }
 
 type Phase = "confirm" | "scoreOptions" | "waiting" | "exam" | "overview" | "ended" | "result";
@@ -93,7 +100,7 @@ export function MockExamSession(props: MockExamSessionProps) {
   return <ExamRunner {...props} />;
 }
 
-function ExamRunner({ paperSlug, groupId, title, subjectName, questions }: MockExamSessionProps) {
+function ExamRunner({ paperSlug, groupId, title, subjectName, questions, simplified = false }: MockExamSessionProps) {
   const [initial] = useState(() => restore(paperSlug, groupId, questions));
   const [phase, setPhase] = useState<Phase>(initial.phase);
   const [session, setSession] = useState<ExamSession | null>(initial.session);
@@ -118,8 +125,27 @@ function ExamRunner({ paperSlug, groupId, title, subjectName, questions }: MockE
   const finish = useCallback(() => {
     update((s) => (s.finishedAt ? s : { ...s, finishedAt: Date.now() }));
     setDialog(null);
-    setPhase("ended");
-  }, [update]);
+    setPhase(simplified ? "result" : "ended");
+  }, [update, simplified]);
+
+  // 歷年考題模擬：交卷後把作答記到帳號。用 localStorage 記住「這一場已寫入」，
+  // 重新整理回到成績頁時不會重複寫。
+  const finishedAt = session?.finishedAt;
+  useEffect(() => {
+    if (!simplified || !session || !finishedAt) return;
+    const flag = `mock-exam:recorded:${paperSlug}:${groupId}:${session.startedAt}`;
+    try {
+      if (localStorage.getItem(flag)) return;
+      localStorage.setItem(flag, "1");
+    } catch {
+      // 存不了旗標仍然寫入；最壞情況是重新整理後多記一次
+    }
+    const rows = questions.flatMap((q) => {
+      const selected = session.answers[q.id];
+      return selected ? [{ questionId: q.id, selectedOption: selected, isCorrect: isAnswerCorrect(q.answer, selected) }] : [];
+    });
+    void submitAnswers(rows, "mock");
+  }, [simplified, session, finishedAt, questions, paperSlug, groupId]);
 
   const inProgress = phase === "exam" || phase === "overview";
 
@@ -169,11 +195,15 @@ function ExamRunner({ paperSlug, groupId, title, subjectName, questions }: MockE
   );
   const startFresh = useCallback(() => start(false), [start]);
 
-  /** 從確認頁往下走：顯示成績選項 → 考前等候 → 作答 */
+  /** 從確認頁往下走：顯示成績選項 → 考前等候 → 作答(歷年考題模擬直接作答) */
   function proceedToScoreOptions() {
     clearSession(paperSlug, groupId);
     setSaved(null);
     setDialog(null);
+    if (simplified) {
+      startFresh();
+      return;
+    }
     setPhase("scoreOptions");
     window.scrollTo(0, 0);
   }

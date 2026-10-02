@@ -7,7 +7,7 @@ const RANGE_LABELS: Record<DashboardRange, string> = { "7": "近 7 天", "30": "
 
 function Tile({ label, value, sub }: { label: string; value: string; sub?: React.ReactNode }) {
   return (
-    <div className="rounded-card border border-card-border bg-page p-3">
+    <div className="rounded-card bg-(--surface-inset) p-3">
       <p className="text-xs text-muted">{label}</p>
       <p className="mt-1 text-2xl font-bold text-deep">{value}</p>
       {sub && <div className="mt-0.5 text-xs text-muted">{sub}</div>}
@@ -17,7 +17,7 @@ function Tile({ label, value, sub }: { label: string; value: string; sub?: React
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="rounded-card border border-card-border bg-page p-4">
+    <section className="rounded-card bg-(--surface-inset) p-4">
       <h3 className="mb-3 text-sm font-bold text-deep">{title}</h3>
       {children}
     </section>
@@ -43,7 +43,7 @@ export function Dashboard({ data, rangeHref }: { data: DashboardData; rangeHref:
             className={`rounded-full border px-3 py-1 text-xs ${
               data.range === r
                 ? "border-accent bg-light font-bold text-deep"
-                : "border-card-border bg-card text-body hover:border-accent"
+                : "border-card-border bg-card text-body hover:bg-surface-hover"
             }`}
           >
             {RANGE_LABELS[r]}
@@ -123,7 +123,7 @@ export function Dashboard({ data, rangeHref }: { data: DashboardData; rangeHref:
                   </>
                 );
                 const cls =
-                  "flex items-center gap-1 rounded-full border border-card-border bg-card px-2.5 py-1 text-xs text-body";
+                  "flex items-center gap-1 rounded-full bg-(--surface-row) px-2.5 py-1 text-xs text-body";
                 // 只有疾病標籤有對應頁面
                 return t.type === "dz" ? (
                   <Link

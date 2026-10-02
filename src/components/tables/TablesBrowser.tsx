@@ -46,7 +46,7 @@ export function TablesBrowser({ subjectId, sections, allTables }: TablesBrowserP
 
   return (
     <div>
-      <label className="mb-6 flex items-center gap-2 rounded-btn border border-card-border bg-card px-3 py-2 focus-within:border-subj-accent">
+      <label className="mb-6 flex items-center gap-2 rounded-btn bg-fill px-3 py-2 focus-within:border-subj-accent">
         <Search size={16} className="text-muted" />
         <input
           value={query}
@@ -65,7 +65,7 @@ export function TablesBrowser({ subjectId, sections, allTables }: TablesBrowserP
               <Link
                 key={t.id}
                 href={tableHref(t.id)}
-                className="rounded-card border border-card-border border-l-4 border-l-subj-accent bg-page p-3 text-sm shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+                className="rounded-card bg-card p-3.5 text-sm shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow hover:shadow-md active:opacity-70"
               >
                 <span className="block text-xs text-muted">{t.subjectName}</span>
                 <span className="font-medium text-subj-deep">{t.title}</span>
@@ -95,7 +95,7 @@ export function TablesBrowser({ subjectId, sections, allTables }: TablesBrowserP
                     key={t.id}
                     id={`tbl-${t.id}`}
                     href={tableHref(t.id)}
-                    className="table-card flex scroll-mt-24 items-start gap-2 rounded-card border border-card-border border-l-4 border-l-subj-accent bg-page p-3 text-sm font-medium text-subj-deep shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+                    className="table-card flex scroll-mt-24 items-start gap-2 rounded-card bg-card p-3.5 text-sm font-medium text-subj-deep shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow hover:shadow-md active:opacity-70"
                   >
                     <Table2 size={16} className="mt-0.5 shrink-0 text-subj-accent" />
                     <span className="min-w-0 flex-1">{t.title}</span>
@@ -112,7 +112,7 @@ export function TablesBrowser({ subjectId, sections, allTables }: TablesBrowserP
                       flashTable(t.id, "smooth");
                     }}
                     title={`這張表主要放在 ${t.primaryLabel}`}
-                    className="flex items-start gap-2 rounded-card border border-dashed border-card-border bg-card p-3 text-sm text-body transition-colors hover:border-subj-accent hover:text-subj-deep"
+                    className="flex items-start gap-2 rounded-card border border-dashed border-card-border bg-card p-3 text-sm text-body transition-colors hover:bg-surface-hover hover:text-subj-deep"
                   >
                     <Link2 size={16} className="mt-0.5 shrink-0 text-muted" />
                     <span className="min-w-0 flex-1">

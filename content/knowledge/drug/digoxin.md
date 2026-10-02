@@ -5,6 +5,10 @@ aliases: [Digoxin, 毛地黃, Lanoxin, 強心配醣體, 強心劑, Digitalis, �
 dzTags: [心臟衰竭, 心衰竭, 心房顫動, 毛地黃中毒, 先天性心臟病, 心律不整]
 system: cardiovascular
 group: heart-failure-drugs
+chapters:
+  - 藥理-Ch08心血管藥物 > 治療鬱血性心衰竭藥物
+  - 藥理-Ch08心血管藥物 > 心臟前後負荷與心衰竭/休克用藥綜合應用
+  - 內外-Ch13心血管系統疾病 > 心衰竭與心肌病變
 reviewed: false
 updated: 2026-09-26
 references:

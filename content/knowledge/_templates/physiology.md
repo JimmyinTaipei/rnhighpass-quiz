@@ -7,6 +7,7 @@ aliases: []
 dzTags: []
 system: cardiovascular              # 必填
 alsoIn: []
+chapters: []                        # 選填：對到的分章題本段落，見 README「章節對照」
 reviewed: false
 updated: 2026-01-01
 references:

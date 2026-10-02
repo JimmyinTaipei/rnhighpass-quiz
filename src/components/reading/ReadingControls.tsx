@@ -2,6 +2,7 @@
 
 import { ChevronsDownUp, ChevronsUpDown } from "lucide-react";
 import { useEffect } from "react";
+import { pillGray } from "@/lib/ui";
 
 /**
  * 閱讀頁的展開／收合控制。
@@ -41,14 +42,14 @@ export function ReadingControls() {
     <div className="flex items-center gap-2">
       <button
         onClick={() => setAll(true)}
-        className="flex items-center gap-1 rounded-btn border border-card-border bg-card px-3 py-1.5 text-sm font-medium text-body transition-colors hover:border-subj-accent hover:text-subj-deep"
+        className={pillGray}
       >
         <ChevronsUpDown size={14} />
         全部展開
       </button>
       <button
         onClick={() => setAll(false)}
-        className="flex items-center gap-1 rounded-btn border border-card-border bg-card px-3 py-1.5 text-sm font-medium text-body transition-colors hover:border-subj-accent hover:text-subj-deep"
+        className={pillGray}
       >
         <ChevronsDownUp size={14} />
         全部收合

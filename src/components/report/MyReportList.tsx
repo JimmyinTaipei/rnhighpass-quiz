@@ -9,7 +9,7 @@ export function MyReportList({ reports }: { reports: ErrorReport[] }) {
   return (
     <ul className="space-y-2">
       {reports.map((r) => (
-        <li key={r.id} className="rounded-card border border-card-border bg-page p-3 text-sm">
+        <li key={r.id} className="rounded-card bg-(--surface-inset) p-3 text-sm">
           <div className="mb-1 flex flex-wrap items-center gap-2 text-xs text-muted">
             <ReportStatusBadge status={r.status} />
             <span>{REPORT_CATEGORIES[r.category]}</span>

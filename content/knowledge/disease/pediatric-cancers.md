@@ -5,6 +5,12 @@ aliases: [兒童癌症, 小兒癌症, 兒癌, Childhood cancer, 兒童癌症警�
 dzTags: [兒童癌症, 小兒癌症, 腦瘤, 腦腫瘤, 顱內腫瘤, 神經母細胞瘤, 威爾姆氏腫瘤, 威廉氏腫瘤, 腎母細胞瘤, 骨肉瘤, 骨腫瘤, 視網膜母細胞瘤, 橫紋肌肉瘤, 髓母細胞瘤, 髓芽母細胞瘤]
 system: oncology
 alsoIn: [neuro, renal, musculoskeletal]
+chapters:
+  - 病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 骨骼疾病
+  - 病理-Ch18感官與神經系統疾病 > 中樞神經系統腫瘤與癲癇
+  - 內外-Ch15神經系統疾病 > 神經系統腫瘤與感染疾病
+  - 兒科-Ch18兒童癌症 > 兒童癌症概論
+  - 兒科-Ch18兒童癌症 > 兒童常見的癌症及其護理
 reviewed: false
 updated: 2026-09-27
 references:

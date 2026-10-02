@@ -17,7 +17,8 @@ export function Panel({
   return (
     <div
       className={cn(
-        "rounded-card border border-card-border bg-card p-4 shadow-sm sm:p-6",
+        // 無外框：靠白底與 #F2F2F7 頁面底色的反差分層(iOS 的 inset grouped)
+        "on-white rounded-card bg-card p-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)] sm:p-6",
         className,
       )}
     >

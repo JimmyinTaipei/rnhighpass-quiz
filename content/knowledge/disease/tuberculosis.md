@@ -5,6 +5,12 @@ aliases: [結核病, 肺結核, TB, Tuberculosis, 肺癆, 潛伏結核感染, LT
 dzTags: [結核病, 肺結核, 結核性心包炎]
 system: respiratory
 alsoIn: [infection, community]
+chapters:
+  - 病理-Ch08感染性疾病 > 細菌性感染
+  - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗結核病與抗痲瘋病藥物
+  - 微免-Ch06革蘭氏陽性桿菌與分枝桿菌 > 分枝桿菌屬
+  - 內外-Ch09呼吸系統疾病 > 肺實質病變
+  - 社區-Ch14傳染病防治與護理 > 重要傳染病流行病學及管制概況 > 慢性及性傳染病（結核病、B型肝炎、梅毒、淋病、後天免疫缺乏症候群、麻疹）
 pathogens:
   - id: mycobacterium-tuberculosis
     name: 結核分枝桿菌
@@ -27,7 +33,7 @@ references:
 ---
 **結核病**由**結核分枝桿菌**引起，經**空氣傳染**，最常侵犯肺部，但可以發生在身體任何器官。受感染的人大多只形成**潛伏結核感染**，終其一生約 **5–10%** 會發病。台灣是結核病中負擔國家，結核病屬**第三類法定傳染病**，以**都治**確保病人完成治療。
 
-## 致病菌 {#mycobacterium-tuberculosis}
+## 結核分枝桿菌 Mycobacterium tuberculosis {#mycobacterium-tuberculosis}
 
 | 特性 | 說明 |
 |---|---|

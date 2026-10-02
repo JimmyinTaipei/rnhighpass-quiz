@@ -13,7 +13,7 @@ export default async function ReportPage() {
   return (
     <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col gap-6 px-4 py-8">
       <Panel>
-        <h1 className="mb-2 text-2xl font-bold text-deep">回報錯誤</h1>
+        <h1 className="mb-2 text-3xl font-bold text-strong">回報錯誤</h1>
         <p className="mb-6 text-sm text-muted">
           題目、答案或詳解有問題，建議直接按題目右上角的旗子圖示回報，會自動附上題號。
           這裡適合回報網站問題或提供建議。

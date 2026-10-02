@@ -5,6 +5,10 @@ aliases: [鋰濃度, 血鋰, 鋰鹽濃度, Lithium level, Li level, 鋰中毒, L
 dzTags: [雙相情緒障礙症]
 system: psychiatric
 alsoIn: [renal]
+chapters:
+  - 藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 情緒安定劑（抗躁鬱症藥物）
+  - 精神-Ch08雙相情緒障礙症病人的護理 > 雙相情緒障礙症
+  - 精神-Ch08雙相情緒障礙症病人的護理 > 護理處置
 reviewed: false
 updated: 2026-09-26
 references:

@@ -31,11 +31,11 @@ export default async function QuizSubjectPage(props: PageProps<"/quiz/[subjectId
     >
       <p className="mb-1 text-sm text-muted">
         <Link href="/quiz" className="hover:text-subj-deep">
-          測驗
+          練習
         </Link>{" "}
         / {subject.name}
       </p>
-      <h1 className="mb-6 text-3xl font-bold text-subj-deep">{subject.name}・測驗設定</h1>
+      <h1 className="mb-6 text-3xl font-bold text-subj-deep">{subject.name}・出題設定</h1>
 
       <QuizScopeForm
         subjectId={params.subjectId}

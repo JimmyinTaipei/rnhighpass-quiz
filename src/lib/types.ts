@@ -55,7 +55,7 @@ export interface Question {
 
 export interface QuestionTag {
   question_id: string;
-  tag_type: "block" | "dz" | "other";
+  tag_type: "block" | "dz" | "adm" | "other"; // adm = 護理行政標籤(理論、公式、制度)
   tag_value: string;
 }
 
