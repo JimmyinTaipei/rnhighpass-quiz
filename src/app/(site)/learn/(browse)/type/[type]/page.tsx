@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { isAdmin } from "@/lib/auth";
+import { ComingSoon } from "@/components/learn/ComingSoon";
 import { ArticleCard } from "@/components/learn/ArticleCard";
 import { articlesOfType, taxonomy } from "@/lib/knowledge";
 import { BROWSE_TYPES, type ArticleSummary } from "@/lib/knowledge/types";
@@ -59,16 +60,16 @@ export default async function LearnTypePage(props: PageProps<"/learn/type/[type]
           知識庫
         </Link>
         <ChevronRight size={14} />
-        <span>依類型</span>
+        <span>速查</span>
       </nav>
       <h1 className="mb-1 text-3xl font-bold text-strong">{t.label}</h1>
-      <p className="mb-6 text-sm text-muted">
-        {articles.length} 篇・分佈在 {sections.length} 個分類
-      </p>
-
-      {articles.length === 0 && (
-        <p className="rounded-card bg-card p-6 text-sm text-muted">此類型的內容即將加入。</p>
+      {articles.length > 0 && (
+        <p className="mb-6 text-sm text-muted">
+          {articles.length} 篇・分佈在 {sections.length} 個分類
+        </p>
       )}
+
+      {articles.length === 0 && <ComingSoon description={t.description} />}
 
       {sections.map(({ d, count, grouped, ungrouped }) => (
         <section key={d.id} className="mb-8">

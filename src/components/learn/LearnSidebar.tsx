@@ -3,53 +3,35 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChevronDown, Library } from "lucide-react";
-import {
-  DOMAIN_KIND_LABELS,
-  type KnowledgeCategory,
-  type TaxonomyDomain,
-} from "@/lib/knowledge/types";
+import { SoonBadge } from "@/components/learn/SoonBadge";
+import type { LearnNavGroup } from "@/lib/knowledge/nav";
 
-export interface SidebarTypeLink {
-  type: KnowledgeCategory;
-  label: string;
-  count: number;
-}
+const under = (pathname: string, href: string) => pathname === href || pathname.startsWith(`${href}/`);
 
-function DomainGroup({
-  label,
-  domains,
-  current,
-}: {
-  label: string;
-  domains: TaxonomyDomain[];
-  current: string | null;
-}) {
-  if (domains.length === 0) return null;
+function Group({ group, pathname }: { group: LearnNavGroup; pathname: string }) {
   return (
     <div className="mb-3">
-      <p className="px-2 py-1 text-xs font-semibold tracking-wide text-muted">{label}</p>
+      <p className="px-2 py-1 text-xs font-semibold tracking-wide text-muted">{group.label}</p>
       <ul>
-        {domains.map((d) => {
-          if (d.primaryCount + d.alsoCount === 0) {
-            // 還沒有內容的分類也列出來:讓人知道之後會放在哪,但不可點
-            return (
-              <li key={d.id} className="flex items-center gap-2 px-2 py-1.5 text-sm text-muted/70" title="即將加入">
-                <span className="min-w-0 flex-1 truncate">{d.name}</span>
-              </li>
-            );
-          }
-          const active = current === d.id;
+        {group.entries.map((e) => {
+          const active = under(pathname, e.href);
           return (
-            <li key={d.id}>
+            <li key={e.href}>
               <Link
-                href={`/learn/system/${d.id}`}
+                href={e.href}
                 className={`flex items-center gap-2 rounded px-2 py-1.5 text-sm transition-colors duration-150 motion-reduce:transition-none ${
-                  active ? "bg-light font-semibold text-deep" : "text-body hover:bg-surface-hover"
+                  active
+                    ? "bg-light font-semibold text-deep"
+                    : e.soon
+                      ? "text-muted/70 hover:bg-surface-hover"
+                      : "text-body hover:bg-surface-hover"
                 }`}
               >
-                <span className="min-w-0 flex-1 truncate">{d.name}</span>
-                {d.primaryCount > 0 && (
-                  <span className="shrink-0 text-xs font-normal text-muted">{d.primaryCount}</span>
+                <span className="min-w-0 flex-1 truncate">{e.name}</span>
+                {e.soon ? (
+                  <SoonBadge />
+                ) : (
+                  e.pages > 0 && <span className="shrink-0 text-xs font-normal text-muted">{e.pages}</span>
                 )}
               </Link>
             </li>
@@ -60,53 +42,13 @@ function DomainGroup({
   );
 }
 
-/** 跨系統速查(藥理、檢驗、病原體):跨所有器官系統列出同一類型的頁面 */
-function TypeList({ types, current }: { types: SidebarTypeLink[]; current: string | null }) {
-  if (types.length === 0) return null;
-  return (
-    <div className="mb-3">
-      <p className="px-2 py-1 text-xs font-semibold tracking-wide text-muted">跨系統速查</p>
-      <ul>
-        {types.map((t) => {
-          if (t.count === 0) {
-            return (
-              <li key={t.type} className="flex items-center gap-2 px-2 py-1.5 text-sm text-muted/70" title="即將加入">
-                <span className="min-w-0 flex-1 truncate">{t.label}</span>
-              </li>
-            );
-          }
-          const active = current === t.type;
-          return (
-            <li key={t.type}>
-              <Link
-                href={`/learn/type/${t.type}`}
-                className={`flex items-center gap-2 rounded px-2 py-1.5 text-sm transition-colors duration-150 motion-reduce:transition-none ${
-                  active ? "bg-light font-semibold text-deep" : "text-body hover:bg-surface-hover"
-                }`}
-              >
-                <span className="min-w-0 flex-1 truncate">{t.label}</span>
-                <span className="shrink-0 text-xs font-normal text-muted">{t.count}</span>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
-  );
-}
-
 /**
- * 知識庫的分類側欄,三組依序為:系統 / 跨系統速查(藥理、檢驗、病原體) / 護理專業。
+ * 知識庫的分類側欄,四組依序為:系統 / 跨系統 / 速查 / 護理專業(資料來自 learnNavGroups)。
  * 手機上收成一個可展開的區塊,避免把內容推到很下面。
  */
-export function LearnSidebar({ domains, types }: { domains: TaxonomyDomain[]; types: SidebarTypeLink[] }) {
+export function LearnSidebar({ groups }: { groups: LearnNavGroup[] }) {
   const pathname = usePathname();
-  const match = pathname.match(/^\/learn\/system\/([^/]+)/);
-  const current = match ? decodeURIComponent(match[1]) : null;
-  const typeMatch = pathname.match(/^\/learn\/type\/([^/]+)/);
-  const currentType = typeMatch ? decodeURIComponent(typeMatch[1]) : null;
-  const currentName =
-    domains.find((d) => d.id === current)?.name ?? types.find((t) => t.type === currentType)?.label;
+  const currentName = groups.flatMap((g) => g.entries).find((e) => under(pathname, e.href))?.name;
 
   const header = (
     <Link
@@ -119,13 +61,7 @@ export function LearnSidebar({ domains, types }: { domains: TaxonomyDomain[]; ty
     </Link>
   );
 
-  const groups = (
-    <>
-      <DomainGroup label={DOMAIN_KIND_LABELS.system} domains={domains.filter((d) => d.kind === "system")} current={current} />
-      <TypeList types={types} current={currentType} />
-      <DomainGroup label={DOMAIN_KIND_LABELS.nursing} domains={domains.filter((d) => d.kind === "nursing")} current={current} />
-    </>
-  );
+  const list = groups.map((g) => <Group key={g.label} group={g} pathname={pathname} />);
 
   return (
     <>
@@ -136,14 +72,14 @@ export function LearnSidebar({ domains, types }: { domains: TaxonomyDomain[]; ty
         </summary>
         <div className="mt-2">
           {header}
-          {groups}
+          {list}
         </div>
       </details>
 
       <aside className="hidden lg:block">
         <nav aria-label="知識庫分類" className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto pr-1">
           {header}
-          {groups}
+          {list}
         </nav>
       </aside>
     </>

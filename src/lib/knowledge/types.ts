@@ -1,16 +1,25 @@
 // 對應 scripts/build-knowledge.mjs 的輸出格式。改其中一邊時兩邊要一起改。
 import type { Root } from "hast";
 
-export type KnowledgeCategory = "disease" | "physiology" | "drug" | "lab" | "care" | "pathogen" | "admin";
+export type KnowledgeCategory =
+  | "disease"
+  | "physiology"
+  | "drug"
+  | "lab"
+  | "care"
+  | "pathogen"
+  | "admin"
+  | "procedure";
 
 export const CATEGORY_LABELS: Record<KnowledgeCategory, string> = {
   disease: "疾病",
-  physiology: "生理機轉",
+  physiology: "解剖&生理",
   drug: "藥物",
   lab: "檢驗",
   care: "護理主題",
   pathogen: "病原體",
   admin: "護理行政",
+  procedure: "護理技術",
 };
 
 export interface KnowledgeReference {
@@ -137,14 +146,28 @@ export interface ImageCredit {
 
 // ===== 分類(對應 content/knowledge/taxonomy.yml,由建置腳本輸出 taxonomy.json) =====
 
-export type DomainKind = "system" | "nursing";
+export type DomainKind = "system" | "cross" | "nursing";
 
-/** 側欄「跨系統速查」列出的類型與顯示名稱(/learn/type/[type]) */
-export const BROWSE_TYPES: { type: KnowledgeCategory; label: string }[] = [
+/** 側欄「速查」列出的類型(/learn/type/[type])。description 是還沒有頁面時的「即將推出」說明 */
+export const BROWSE_TYPES: { type: KnowledgeCategory; label: string; description?: string }[] = [
   { type: "drug", label: "藥理" },
   { type: "lab", label: "檢驗" },
   { type: "pathogen", label: "病原體" },
+  {
+    type: "procedure",
+    label: "護理技術",
+    description:
+      "臨床護理技術(如無菌技術、抽痰、導尿、給藥、傷口護理),依用途分組，每頁整理目的、適應症、用物、步驟、注意事項、併發症與國考重點。內容整理中。",
+  },
 ];
+
+/** 跨系統的「小兒」:對象標記(不是 domain),彙整小兒專屬頁與含小兒區段的頁 */
+export const PEDS_NAV = {
+  href: "/learn/peds",
+  label: "小兒",
+  description:
+    "彙整小兒專屬疾病(如兒童癌症、兒童呼吸道感染)與含小兒區段的頁面，依系統分組。頁面仍屬原本的器官系統，這裡只是另一種檢視。內容整理中。",
+};
 
 /** 系統頁上方的類型篩選(?type=<key>)。疾病、護理主題、護理行政都併在「疾病與護理」 */
 export const SYSTEM_TYPE_CHIPS: { key: string; label: string; categories: KnowledgeCategory[] }[] = [
@@ -161,6 +184,7 @@ export function chipKeyOf(category: KnowledgeCategory): string {
 
 export const DOMAIN_KIND_LABELS: Record<DomainKind, string> = {
   system: "系統",
+  cross: "跨系統",
   nursing: "護理專業",
 };
 
@@ -177,6 +201,8 @@ export interface TaxonomyDomain {
   id: string;
   name: string;
   kind: DomainKind;
+  /** 系統頁的說明文字;還沒有頁面時也當作「即將推出」說明 */
+  description: string | null;
   blockTag: string | null;
   /** 以此為主系統的頁數 */
   primaryCount: number;

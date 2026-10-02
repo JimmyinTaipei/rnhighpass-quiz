@@ -13,7 +13,7 @@ import {
 } from "@/lib/nav-items";
 
 /** 閱讀類頁面：側邊欄預設收成圖示列，把寬度讓給內容(iPad Notes 的做法) */
-const isReadingPath = (p: string) => /^\/(chapters|learn\/(?!system|type)[^/]+)(\/|$)/.test(p) && !p.endsWith("/quiz");
+const isReadingPath = (p: string) => /^\/(chapters|learn\/(?!(?:system|type|peds)(?:\/|$))[^/]+)(\/|$)/.test(p) && !p.endsWith("/quiz");
 
 const STORE_KEY = "sidebar-pinned";
 

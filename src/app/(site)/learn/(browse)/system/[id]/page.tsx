@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { isAdmin } from "@/lib/auth";
+import { ComingSoon } from "@/components/learn/ComingSoon";
 import { ArticleCard } from "@/components/learn/ArticleCard";
 import { articlesInDomain, byExamCount, getDomain, getGroup, HIGH_FREQ_MIN } from "@/lib/knowledge";
 import { DOMAIN_KIND_LABELS, SYSTEM_TYPE_CHIPS, type ArticleSummary } from "@/lib/knowledge/types";
@@ -83,6 +84,9 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
         <span>{DOMAIN_KIND_LABELS[domain.kind]}</span>
       </nav>
       <h1 className="mb-1 text-3xl font-bold text-strong">{domain.name}</h1>
+      {domain.description && (primary.length > 0 || also.length > 0) && (
+        <p className="mb-1 text-sm text-body">{domain.description}</p>
+      )}
       <p className="mb-4 text-sm text-muted">{primary.length} 篇</p>
 
       {showChips && chipOptions.length > 2 && (
@@ -106,9 +110,7 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
         </nav>
       )}
 
-      {primary.length === 0 && also.length === 0 && (
-        <p className="rounded-card bg-card p-6 text-sm text-muted">此分類的內容即將加入。</p>
-      )}
+      {primary.length === 0 && also.length === 0 && <ComingSoon description={domain.description} />}
 
       {list.length > 0 &&
         (split ? (

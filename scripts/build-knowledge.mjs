@@ -42,7 +42,8 @@ const MAX_POINTS = 5;
 // 與 /learn 底下的靜態路由撞名的 slug
 const RESERVED_SLUGS = new Set(["system"]);
 
-const CATEGORIES = ["disease", "physiology", "drug", "lab", "care", "pathogen", "admin"];
+// procedure(護理技術)先預留:還沒有任何頁面,但資料夾 content/knowledge/procedure/ 可直接使用
+const CATEGORIES = ["disease", "physiology", "drug", "lab", "care", "pathogen", "admin", "procedure"];
 const CALLOUTS = ["tip", "exam", "warning", "note"];
 const SUMMARY_LEN = 110;
 const BLOCK_SEPARATORS = new Set(["p", "li", "tr", "td", "th", "k-callout"]);
@@ -392,6 +393,8 @@ function buildIndex(articles) {
 
   for (const a of articles) {
     if (index.articles[a.slug]) fail(a.file, `slug 重複:${a.slug}`);
+    // /learn/system、/learn/type、/learn/peds 是瀏覽頁,不能當 slug
+    if (["system", "type", "peds"].includes(a.slug)) fail(a.file, `slug「${a.slug}」是保留字`);
     let count = 0;
     walkSections(a.sections, () => count++);
     index.articles[a.slug] = {
@@ -672,7 +675,7 @@ function loadTaxonomy() {
   const groups = new Map();
   for (const d of domains) {
     if (byId.has(d.id)) fail(TAXONOMY_FILE, `domain id 重複:${d.id}`);
-    if (!["system", "nursing"].includes(d.kind)) fail(TAXONOMY_FILE, `domain ${d.id} 的 kind 必須是 system/nursing`);
+    if (!["system", "cross", "nursing"].includes(d.kind)) fail(TAXONOMY_FILE, `domain ${d.id} 的 kind 必須是 system/cross/nursing`);
     byId.set(d.id, d);
     for (const g of d.groups ?? []) {
       if (groups.has(g.id)) fail(TAXONOMY_FILE, `group id 重複:${g.id}`);
@@ -899,6 +902,7 @@ function taxonomyOutput(taxonomy, articles) {
       id: d.id,
       name: d.name,
       kind: d.kind,
+      description: d.description ?? null,
       blockTag: d.blockTag ?? null,
       primaryCount: count((a) => a.system === d.id),
       alsoCount: count((a) => a.alsoIn.includes(d.id)),
