@@ -6,16 +6,21 @@ export function organDomains(): TaxonomyDomain[] {
   return taxonomy.domains.filter((d) => d.kind === "system");
 }
 
+/** 護理專業的 domain(基本護理、護理行政、社區衛生);分組時排在器官系統之後、「一般」之前 */
+function nursingDomains(): TaxonomyDomain[] {
+  return taxonomy.domains.filter((d) => d.kind === "nursing");
+}
+
 /**
  * 一篇頁面在「依系統分組」檢視中出現在哪些器官系統(空陣列 = 一般)。
- * - 主分類本身是器官系統 → 就是它。
+ * - 主分類本身是器官系統或護理專業 → 就是它(例:臨終照護、疼痛護理 → 基本護理)。
  * - 感染(方案 B):alsoIn 裡所有器官系統都列,第一個是主要歸屬;病原體多半同時影響數個器官。
  * - 腫瘤與其他(規則 A):alsoIn 裡第一個器官系統。
  * 頁面只有一個家;重複出現只是檢視,內容不複製。
  */
 export function organsOf(a: ArticleSummary): string[] {
   const organ = new Set(organDomains().map((d) => d.id));
-  if (organ.has(a.system)) return [a.system];
+  if (organ.has(a.system) || nursingDomains().some((d) => d.id === a.system)) return [a.system];
   const organs = a.alsoIn.filter((d) => organ.has(d));
   if (a.system === "infection") return organs;
   return organs.slice(0, 1);
@@ -27,13 +32,13 @@ export interface OrganGroup {
   items: { article: ArticleSummary; note?: string }[];
 }
 
-/** 依器官系統分組(順序同側欄),沒有對應者放最後的「一般」;組內依 sort 排序 */
+/** 依器官系統分組(順序同側欄),接著護理專業,沒有對應者放最後的「一般」;組內依 sort 排序 */
 export function groupByOrgan(
   articles: ArticleSummary[],
   sort: (a: ArticleSummary, b: ArticleSummary) => number,
   noteFor?: (a: ArticleSummary) => string | undefined,
 ): OrganGroup[] {
-  const groups: OrganGroup[] = [...organDomains(), { id: "general", name: "一般" }].map((d) => ({
+  const groups: OrganGroup[] = [...organDomains(), ...nursingDomains(), { id: "general", name: "一般" }].map((d) => ({
     id: d.id,
     name: d.name,
     items: [],
