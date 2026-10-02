@@ -18,9 +18,14 @@ export interface LearnNavGroup {
   entries: LearnNavEntry[];
 }
 
-/** 小兒檢視收錄的頁面。小兒標記(peds)待審閱確認後才有資料,目前一律為空 */
+/** 有小兒內容:小兒專屬(peds: true)或含自動偵測的小兒區段 */
+export function isPeds(a: ArticleSummary): boolean {
+  return !!a.peds || (a.pedsSections?.length ?? 0) > 0;
+}
+
+/** 小兒檢視收錄的頁面 */
 export function pedsArticles(): ArticleSummary[] {
-  return [];
+  return getArticleSummaries().filter(isPeds);
 }
 
 /** 四組,順序固定:系統 / 跨系統 / 速查 / 護理專業 */

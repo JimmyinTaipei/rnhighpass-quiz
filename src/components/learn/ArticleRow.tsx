@@ -17,6 +17,7 @@ export interface ArticleRowProps {
 /** 緊湊列:標題、一行英文名、右上題數膠囊;不顯示摘要。放在 <ArticleRowList> 裡 */
 export function ArticleRow({ article, typeLabel, note, related, showDraft = false }: ArticleRowProps) {
   const tags = [typeLabel, article.field ? FIELD_LABELS[article.field] : null].filter(Boolean);
+  const peds = !!article.peds || (article.pedsSections?.length ?? 0) > 0;
   const meta = [note, showDraft && !article.reviewed ? "草稿" : null].filter(Boolean);
   const relatedText = related
     ? [related.drug > 0 && `${related.drug} 藥`, related.lab > 0 && `${related.lab} 檢驗`].filter(Boolean).join("・")
@@ -30,6 +31,11 @@ export function ArticleRow({ article, typeLabel, note, related, showDraft = fals
         <span className="min-w-0 flex-1">
           <span className="flex flex-wrap items-baseline gap-x-2">
             <span className="font-semibold text-strong">{article.title}</span>
+            {peds && (
+              <span className="rounded-full bg-light px-1.5 text-xs font-medium text-deep" title="小兒專屬或含小兒段落">
+                小兒
+              </span>
+            )}
             {tags.map((t) => (
               <span key={t} className="rounded bg-sidebar px-1.5 text-xs text-muted">
                 {t}

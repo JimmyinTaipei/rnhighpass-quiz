@@ -111,6 +111,10 @@ export interface ArticleSummary {
   field?: KnowledgeField | null;
   method?: LabMethod | null;
   bloodGroup?: BloodGroup | null;
+  /** 小兒專屬頁(frontmatter peds: true) */
+  peds?: boolean;
+  /** 自動偵測的小兒區段(H2/H3 標題含小兒、兒童、嬰幼兒、新生兒) */
+  pedsSections?: { id: string; title: string }[];
   reviewed: boolean;
   chapters: string[];
   summary: string;

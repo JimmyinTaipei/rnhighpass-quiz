@@ -7,6 +7,7 @@ import { ArticleRow, ArticleRowList } from "@/components/learn/ArticleRow";
 import { ComingSoon } from "@/components/learn/ComingSoon";
 import { OrganGroups } from "@/components/learn/OrganGroups";
 import { groupByOrgan } from "@/lib/knowledge/grouping";
+import { isPeds } from "@/lib/knowledge/nav";
 import { articlesInDomain, byExamCount, getDomain, relatedCountsFor } from "@/lib/knowledge";
 import { DOMAIN_KIND_LABELS, SYSTEM_TYPE_CHIPS, type ArticleSummary } from "@/lib/knowledge/types";
 
@@ -97,12 +98,18 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
   const rawType = typeof searchParams.type === "string" ? searchParams.type : null;
   const chip = isNursing ? null : (chips.find((c) => c.key === rawType) ?? null);
   const byExam = !isNursing && searchParams.sort === "exam";
-  const visible = chip ? items.filter((i) => chip.categories.includes(i.article.category)) : items;
+  // 「只看小兒」(?peds=1):獨立於類型 chips;這個系統沒有小兒相關頁面就不顯示
+  const hasPeds = !isNursing && items.some((i) => isPeds(i.article));
+  const pedsOnly = hasPeds && searchParams.peds === "1";
+  const visible = items.filter(
+    (i) => (!chip || chip.categories.includes(i.article.category)) && (!pedsOnly || isPeds(i.article)),
+  );
 
-  const href = (type: string | null, exam: boolean) => {
+  const href = (type: string | null, exam: boolean, peds = pedsOnly) => {
     const p = new URLSearchParams();
     if (type) p.set("type", type);
     if (exam) p.set("sort", "exam");
+    if (peds) p.set("peds", "1");
     const qs = p.toString();
     return qs ? `/learn/system/${id}?${qs}` : `/learn/system/${id}`;
   };
@@ -141,23 +148,43 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
 
       {items.length === 0 && <ComingSoon description={domain.description} />}
 
-      {!isNursing && chips.length > 1 && (
-        <nav aria-label="類型篩選" className="mb-6 flex flex-wrap gap-2 text-sm">
-          <Link href={href(null, byExam)} scroll={false} aria-current={!chip ? "true" : undefined} className={chipClass(!chip)}>
-            全部
-          </Link>
-          {chips.map((c) => (
+      {!isNursing && (chips.length > 1 || hasPeds) && (
+        <div className="mb-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+          {chips.length > 1 && (
+            <nav aria-label="類型篩選" className="flex flex-wrap gap-2">
+              <Link href={href(null, byExam)} scroll={false} aria-current={!chip ? "true" : undefined} className={chipClass(!chip)}>
+                全部
+              </Link>
+              {chips.map((c) => (
+                <Link
+                  key={c.key}
+                  href={href(c.key, byExam)}
+                  scroll={false}
+                  aria-current={chip?.key === c.key ? "true" : undefined}
+                  className={chipClass(chip?.key === c.key)}
+                >
+                  {c.label}
+                </Link>
+              ))}
+            </nav>
+          )}
+          {hasPeds && (
             <Link
-              key={c.key}
-              href={href(c.key, byExam)}
+              href={href(chip?.key ?? null, byExam, !pedsOnly)}
               scroll={false}
-              aria-current={chip?.key === c.key ? "true" : undefined}
-              className={chipClass(chip?.key === c.key)}
+              aria-pressed={pedsOnly}
+              className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 ${
+                pedsOnly ? "border-deep bg-light font-medium text-deep" : "border-dashed border-card-border text-body hover:bg-surface-hover"
+              }`}
             >
-              {c.label}
+              <span aria-hidden>{pedsOnly ? "✓" : "＋"}</span> 只看小兒
             </Link>
-          ))}
-        </nav>
+          )}
+        </div>
+      )}
+
+      {visible.length === 0 && items.length > 0 && (
+        <p className="rounded-card bg-card p-6 text-sm text-muted">這個篩選沒有頁面。</p>
       )}
 
       {isNursing || byExam ? (

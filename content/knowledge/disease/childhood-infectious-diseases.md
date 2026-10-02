@@ -4,6 +4,7 @@ subtitle: Childhood infectious diseases(出疹性疾病比較；麻疹、德國�
 aliases: [兒童傳染病, 出疹性疾病, 發疹性疾病, 麻疹, Measles, Rubeola, 柯氏斑點, 科氏斑點, Koplik spots, 3C 症狀, 德國麻疹, 風疹, Rubella, 三日疹, 先天性德國麻疹症候群, CRS, 流行性腮腺炎, 腮腺炎, Mumps, 睪丸炎, 腸病毒, Enterovirus, 腸病毒 71 型, EV71, 腸病毒重症前兆, 手足口病, 疱疹性咽峽炎, 克沙奇病毒, 水痘, Varicella, 嬰兒玫瑰疹, 玫瑰疹, Roseola, 傳染性紅斑, 第五病, 猩紅熱, 草莓舌, MMR]
 dzTags: [麻疹, 德國麻疹, 先天性德國麻疹症候群, 腮腺炎, 流行性腮腺炎, 腸病毒, 腸病毒感染, 腸病毒感染併發重症, 手足口病, 水痘, 嬰兒玫瑰疹, 猩紅熱, TORCH症候群]
 system: infection
+peds: true
 alsoIn: [community, integumentary]
 chapters:
   - 微免-Ch03免疫異常與疫苗應用 > 疫苗與預防接種應用

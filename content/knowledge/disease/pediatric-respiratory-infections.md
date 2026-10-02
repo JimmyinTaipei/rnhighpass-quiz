@@ -4,6 +4,7 @@ subtitle: Pediatric respiratory and ENT infections(嬰幼兒呼吸道特徵、�
 aliases: [兒童呼吸道感染, 上呼吸道感染, 感冒, 扁桃腺炎, Tonsillitis, 扁桃腺切除術, Tonsillectomy, 中耳炎, Otitis media, 急性中耳炎, 耳咽管, 歐氏管, 鼓膜切開術, 耳內給藥, 耳藥, 中耳手術, 鼻竇炎, Sinusitis, 鼻竇手術, 哮吼, Croup, 喉氣管支氣管炎, 狗吠式咳嗽, 會厭炎, Epiglottitis, 三腳架姿勢, 細支氣管炎, Bronchiolitis, 呼吸道融合病毒, RSV, 熱性痙攣, Febrile seizure]
 dzTags: [上呼吸道感染, 扁桃腺炎, 急性扁桃腺炎, 中耳炎, 急性中耳炎, 鼻竇炎, 慢性鼻竇炎, 哮吼, 急性會厭炎, 細支氣管炎, 呼吸道融合病毒感染, 熱性痙攣]
 system: respiratory
+peds: true
 alsoIn: [infection, neuro]
 chapters:
   - 內外-Ch17感覺機能與眼耳鼻喉科疾病 > 鼻科疾病與護理

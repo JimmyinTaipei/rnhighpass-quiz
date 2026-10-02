@@ -312,6 +312,7 @@ function parseArticle(file) {
     related: data.related ?? null,
     field: data.field ?? null,
     method: data.method ?? null,
+    peds: data.peds === true,
     bloodGroup: data.bloodGroup ?? null,
     reviewed: data.reviewed === true,
     updated: data.updated ? String(data.updated) : null,
@@ -390,6 +391,9 @@ function summarize(hast) {
   return text.length > SUMMARY_LEN ? text.slice(0, SUMMARY_LEN) + "…" : text;
 }
 
+const PEDS_TITLE = /小兒|兒童|嬰幼兒|新生兒/;
+const PEDS_TITLE_EXCLUDE = /小兒麻痺/;
+
 function buildIndex(articles) {
   const index = { articles: {}, sections: {}, links: {}, backlinks: {}, embeds: {}, related: {}, relatedExplicit: [], usedBy: {} };
   const bySlug = new Map(articles.map((a) => [a.slug, a]));
@@ -400,6 +404,12 @@ function buildIndex(articles) {
     if (["system", "type", "peds"].includes(a.slug)) fail(a.file, `slug「${a.slug}」是保留字`);
     let count = 0;
     walkSections(a.sections, () => count++);
+    // 小兒區段:H2/H3 標題含小兒、兒童、嬰幼兒、新生兒(排除病名「小兒麻痺」)。自動推導,不需另外標記
+    const pedsSections = [];
+    walkSections(a.sections, (s) => {
+      if (s.depth <= 3 && PEDS_TITLE.test(s.title) && !PEDS_TITLE_EXCLUDE.test(s.title))
+        pedsSections.push({ id: s.id, title: s.title });
+    });
     index.articles[a.slug] = {
       slug: a.slug,
       title: a.title,
@@ -413,6 +423,8 @@ function buildIndex(articles) {
       group: a.group,
       field: a.field,
       method: a.method,
+      peds: a.peds,
+      pedsSections,
       bloodGroup: a.bloodGroup,
       reviewed: a.reviewed,
       chapters: a.chapters,
