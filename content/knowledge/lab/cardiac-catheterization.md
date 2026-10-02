@@ -4,6 +4,7 @@ subtitle: Cardiac catheterization(冠狀動脈攝影、PCI)
 aliases: [心導管, 心導管檢查, 冠狀動脈攝影, 冠狀動脈血管攝影, Coronary angiography, PCI, PTCA, 經皮冠狀動脈介入治療, 經皮穿腔冠狀動脈血管成形術, 氣球擴張術, 冠狀動脈支架, 支架, 藥物塗層支架, DES, 右心導管, 肺動脈楔壓, PCWP, CABG, 冠狀動脈繞道手術]
 dzTags: [冠狀動脈疾病, 心肌梗塞, 急性心肌梗塞, 心絞痛, 先天性心臟病]
 system: cardiovascular
+method: invasive
 group: cardiac-labs
 chapters:
   - 藥理-Ch08心血管藥物 > 抗心絞痛藥物

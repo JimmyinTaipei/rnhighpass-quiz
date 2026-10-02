@@ -4,6 +4,7 @@ subtitle: Urine albumin-to-creatinine ratio(UACR)
 aliases: [UACR, ACR, 微量白蛋白尿, 白蛋白尿, Microalbuminuria, Albuminuria, 尿蛋白]
 dzTags: [糖尿病腎病變]
 system: renal
+method: specimen
 chapters:
   - 內外-Ch10腎臟與泌尿系統疾病 > 腎臟疾病
 alsoIn: [endocrine]

@@ -4,6 +4,8 @@ subtitle: Cardiac biomarkers — Troponin、CK-MB、Myoglobin、LDH
 aliases: [心肌酵素, 心肌酶, 心肌旋轉蛋白, 心肌鈣蛋白, 肌鈣蛋白, Troponin, cTnI, cTnT, hs-cTn, 高敏感度肌鈣蛋白, CK, CPK, 肌酸激酶, 肌酸磷酸激酶, CK-MB, Myoglobin, 肌紅素, 肌球蛋白, LDH, 乳酸脫氫酶, AST, GOT]
 dzTags: [心肌梗塞, 急性心肌梗塞, 冠狀動脈疾病, 心絞痛]
 system: cardiovascular
+method: blood
+bloodGroup: marker
 group: cardiac-labs
 chapters:
   - 藥理-Ch08心血管藥物 > 抗心絞痛藥物

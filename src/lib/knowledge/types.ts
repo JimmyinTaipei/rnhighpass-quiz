@@ -77,6 +77,25 @@ export const FIELD_LABELS: Record<KnowledgeField, string> = {
   biochem: "生化",
 };
 
+/** 檢驗頁的檢查方式(frontmatter method);順序即 /learn/type/lab 的區塊順序。同步 build-knowledge.mjs */
+export type LabMethod = "blood" | "specimen" | "imaging" | "function" | "invasive";
+export const LAB_METHODS: { key: LabMethod; label: string }[] = [
+  { key: "blood", label: "抽血" },
+  { key: "specimen", label: "尿液與其他檢體" },
+  { key: "imaging", label: "影像" },
+  { key: "function", label: "電生理與功能" },
+  { key: "invasive", label: "內視鏡與侵入性檢查" },
+];
+
+/** 抽血類的小標題(frontmatter bloodGroup) */
+export type BloodGroup = "hematology" | "chemistry" | "gas" | "marker";
+export const BLOOD_GROUPS: { key: BloodGroup; label: string }[] = [
+  { key: "hematology", label: "血液學" },
+  { key: "chemistry", label: "生化" },
+  { key: "gas", label: "血氣" },
+  { key: "marker", label: "標記" },
+];
+
 export interface ArticleSummary {
   slug: string;
   title: string;
@@ -90,6 +109,8 @@ export interface ArticleSummary {
   alsoIn: string[];
   group: string | null;
   field?: KnowledgeField | null;
+  method?: LabMethod | null;
+  bloodGroup?: BloodGroup | null;
   reviewed: boolean;
   chapters: string[];
   summary: string;

@@ -4,6 +4,8 @@ subtitle: Complete blood count(CBC、白血球分類、絕對嗜中性白血球�
 aliases: [CBC, 全血球計數, 血液常規, 血球計數, 白血球, WBC, 白血球分類, Differential count, DC, 嗜中性白血球, Neutrophil, Segment, Band, 帶狀白血球, 左移, Left shift, 絕對嗜中性白血球數, ANC, Absolute neutrophil count, 淋巴球, 單核球, 嗜酸性白血球, 嗜鹼性白血球, 紅血球, RBC, 血紅素, Hb, Hemoglobin, 血比容, 血球容積比, Hct, MCV, 平均紅血球容積, 血小板, Platelet, PLT, 網狀紅血球, Reticulocyte]
 dzTags: [骨髓抑制]
 system: hematology-immunology
+method: blood
+bloodGroup: hematology
 group: coagulation-labs
 chapters:
   - 生解-Ch07血液、心血管與淋巴系統 > 血液

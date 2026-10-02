@@ -4,6 +4,8 @@ subtitle: Hemoglobin A1c(HbA1c)
 aliases: [HbA1c, A1c, 糖化血紅素, 醣化血色素, Glycated hemoglobin, Glycohemoglobin]
 dzTags: [糖尿病]
 system: endocrine
+method: blood
+bloodGroup: chemistry
 group: glucose-labs
 chapters:
   - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥

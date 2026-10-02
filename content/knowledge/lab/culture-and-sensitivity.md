@@ -4,6 +4,7 @@ subtitle: Culture and susceptibility testing(血液、尿液、痰液、糞便�
 aliases: [細菌培養, 培養, Culture, 血液培養, Blood culture, B/C, 尿液培養, Urine culture, U/C, 中段尿, Midstream urine, 痰液培養, Sputum culture, 痰培養, 抗酸菌, 抗酸性染色, AFB, 糞便培養, Stool culture, 傷口培養, Wound culture, 感受性試驗, 藥物敏感性試驗, Antimicrobial susceptibility test, MIC, 最低抑菌濃度, 革蘭氏染色, 檢體收集, 檢體採集]
 dzTags: [細菌感染]
 system: infection
+method: specimen
 group: infection-labs
 chapters:
   - 基護-Ch18出入院護理與檢體收集 > 入院之常規檢體收集

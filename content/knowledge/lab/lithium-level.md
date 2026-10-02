@@ -4,6 +4,8 @@ subtitle: Serum lithium level
 aliases: [鋰濃度, 血鋰, 鋰鹽濃度, Lithium level, Li level, 鋰中毒, Lithium toxicity]
 dzTags: [雙相情緒障礙症]
 system: psychiatric
+method: blood
+bloodGroup: chemistry
 alsoIn: [renal]
 chapters:
   - 藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 情緒安定劑（抗躁鬱症藥物）

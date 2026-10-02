@@ -311,6 +311,8 @@ function parseArticle(file) {
     group: data.group ?? null,
     related: data.related ?? null,
     field: data.field ?? null,
+    method: data.method ?? null,
+    bloodGroup: data.bloodGroup ?? null,
     reviewed: data.reviewed === true,
     updated: data.updated ? String(data.updated) : null,
     references: data.references ?? [],
@@ -410,6 +412,8 @@ function buildIndex(articles) {
       alsoIn: a.alsoIn,
       group: a.group,
       field: a.field,
+      method: a.method,
+      bloodGroup: a.bloodGroup,
       reviewed: a.reviewed,
       chapters: a.chapters,
       summary: "", // 連結文字補完後才算,見函式最後
@@ -700,6 +704,30 @@ function validateField(articles) {
   }
 }
 
+// 檢驗頁的檢查方式(frontmatter method,必填)與抽血類的小標題(bloodGroup)。
+// 不設「其他」:放不進去的檢驗要先討論分類。同步 types.ts 的 LAB_METHODS / BLOOD_GROUPS
+const LAB_METHODS = ["blood", "specimen", "imaging", "function", "invasive"];
+const BLOOD_GROUPS = ["hematology", "chemistry", "gas", "marker"];
+
+function validateLabMethod(articles) {
+  for (const a of articles) {
+    if (a.category !== "lab") {
+      if (a.method != null || a.bloodGroup != null) fail(a.file, "method / bloodGroup 只能用在檢驗頁(lab/)");
+      continue;
+    }
+    if (!LAB_METHODS.includes(a.method)) {
+      fail(a.file, `檢驗頁必須有 method(可用:${LAB_METHODS.join("、")}),目前是「${a.method ?? "未填"}」`);
+      continue;
+    }
+    if (a.method === "blood") {
+      if (!BLOOD_GROUPS.includes(a.bloodGroup))
+        fail(a.file, `method: blood 必須有 bloodGroup(可用:${BLOOD_GROUPS.join("、")}),目前是「${a.bloodGroup ?? "未填"}」`);
+    } else if (a.bloodGroup != null) {
+      fail(a.file, "bloodGroup 只能搭配 method: blood");
+    }
+  }
+}
+
 function validateClassification(articles, taxonomy) {
   const ids = [...taxonomy.byId.keys()].join(", ");
   for (const a of articles) {
@@ -971,6 +999,7 @@ function main() {
   const taxonomy = loadTaxonomy();
   validateClassification(articles, taxonomy);
   validateField(articles);
+  validateLabMethod(articles);
   const outline = loadChapterOutline();
   validateChapterRefs(articles, outline);
   const articlesBySlug = new Map(articles.map((a) => [a.slug, a]));

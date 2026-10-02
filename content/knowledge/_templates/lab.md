@@ -6,6 +6,8 @@ subtitle: English name(縮寫)
 aliases: [縮寫, 別名]
 dzTags: []
 system: renal                       # 必填
+method: blood                       # 必填:blood 抽血 / specimen 尿液與其他檢體 / imaging 影像 / function 電生理與功能 / invasive 內視鏡與侵入性
+bloodGroup: chemistry               # method: blood 時必填:hematology 血液學 / chemistry 生化 / gas 血氣 / marker 標記
 alsoIn: []
 group: renal-labs                   # 選填：該 system 底下 type: lab 的群組
 chapters: []                        # 選填：對到的分章題本段落，見 README「章節對照」

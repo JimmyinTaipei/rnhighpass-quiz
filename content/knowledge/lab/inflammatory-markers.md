@@ -4,6 +4,8 @@ subtitle: Inflammatory markers(CRP、ESR、procalcitonin、白血球、乳酸)
 aliases: [C 反應蛋白, C-反應蛋白, CRP, C-reactive protein, hs-CRP, 紅血球沉降速率, 紅血球沉降率, 血沉, ESR, Erythrocyte sedimentation rate, 前降鈣素, 降鈣素原, Procalcitonin, PCT, 急性期反應物, Acute phase reactants, 乳酸, Lactate, 發炎指數]
 dzTags: [細菌感染]
 system: infection
+method: blood
+bloodGroup: marker
 group: infection-labs
 alsoIn: [hematology-immunology, musculoskeletal]
 reviewed: false

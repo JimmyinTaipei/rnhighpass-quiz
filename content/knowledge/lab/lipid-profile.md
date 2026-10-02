@@ -4,6 +4,8 @@ subtitle: Lipid profile(TC、LDL-C、HDL-C、TG)
 aliases: [血脂, 血脂肪, 總膽固醇, Total cholesterol, TC, 低密度脂蛋白膽固醇, 低密度膽固醇, LDL, LDL-C, 壞膽固醇, 高密度脂蛋白膽固醇, 高密度膽固醇, HDL, HDL-C, 好膽固醇, 三酸甘油酯, 三酸甘油脂, 中性脂肪, Triglyceride, TG, VLDL, 乳糜微粒, Non-HDL, 代謝症候群]
 dzTags: [高血脂, 高血脂症, 高脂血症, 高膽固醇血症, 高三酸甘油脂血症, 代謝症候群, 動脈粥狀硬化, 冠狀動脈疾病]
 system: cardiovascular
+method: blood
+bloodGroup: chemistry
 alsoIn: [endocrine]
 group: cardiac-labs
 chapters:

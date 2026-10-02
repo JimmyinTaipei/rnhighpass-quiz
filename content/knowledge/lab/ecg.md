@@ -4,6 +4,7 @@ subtitle: 12-lead electrocardiogram(ECG / EKG)
 aliases: [心電圖, ECG, EKG, 12 導程, 十二導程心電圖, 12-lead ECG, ST 段上升, ST 段下降, 病理性 Q 波, STEMI 心電圖]
 dzTags: [心肌梗塞, 急性冠心症, 心絞痛, 心律不整]
 system: cardiovascular
+method: function
 group: cardiac-labs
 chapters:
   - 藥理-Ch08心血管藥物 > 抗心律不整藥物

@@ -4,6 +4,8 @@ subtitle: Serum potassium(K⁺)
 aliases: [K, K+, 鉀, 鉀離子, 血鉀, Potassium, 高血鉀, 低血鉀, 高鉀血症, 低鉀血症, Hyperkalemia, Hypokalemia, KCl, 氯化鉀]
 dzTags: [高血鉀, 高血鉀症, 高鉀血症, 低血鉀, 低血鉀症, 低鉀血症, 電解質不平衡]
 system: renal
+method: blood
+bloodGroup: chemistry
 alsoIn: [cardiovascular]
 group: acid-base-labs
 chapters:
