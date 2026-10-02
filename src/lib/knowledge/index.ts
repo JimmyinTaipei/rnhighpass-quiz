@@ -80,9 +80,6 @@ export function questionCountOf(articles: { slug: string }[]): number {
   return ids.size;
 }
 
-/** 系統頁「高頻」的門檻:相關國考題數 ≥ 此值 */
-export const HIGH_FREQ_MIN = 20;
-
 export function hrefFor(target: string): string {
   const [slug, id] = target.split("#");
   return id ? `/learn/${slug}#${id}` : `/learn/${slug}`;

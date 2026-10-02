@@ -181,17 +181,21 @@ export const PEDS_NAV = {
     "彙整小兒專屬疾病(如兒童癌症、兒童呼吸道感染)與含小兒區段的頁面，依系統分組。頁面仍屬原本的器官系統，這裡只是另一種檢視。內容整理中。",
 };
 
-/** 系統頁上方的類型篩選(?type=<key>)。疾病、護理主題、護理行政都併在「疾病與護理」 */
+/**
+ * 系統頁的類型(?type=<key>):chips 由左到右與區塊由上到下都是這個順序。
+ * 「疾病」含疾病、護理主題、護理行政頁;病原體不在系統頁出現(走速查與疾病頁的 related)。
+ */
 export const SYSTEM_TYPE_CHIPS: { key: string; label: string; categories: KnowledgeCategory[] }[] = [
-  { key: "disease", label: "疾病與護理", categories: ["disease", "care", "admin"] },
-  { key: "lab", label: "檢驗", categories: ["lab"] },
+  { key: "physiology", label: "解剖&生理", categories: ["physiology"] },
   { key: "drug", label: "藥理", categories: ["drug"] },
-  { key: "pathogen", label: "病原體", categories: ["pathogen"] },
-  { key: "physiology", label: "生理機轉", categories: ["physiology"] },
+  { key: "disease", label: "疾病", categories: ["disease", "care", "admin"] },
+  { key: "lab", label: "檢驗", categories: ["lab"] },
+  { key: "procedure", label: "技術", categories: ["procedure"] },
 ];
 
-export function chipKeyOf(category: KnowledgeCategory): string {
-  return SYSTEM_TYPE_CHIPS.find((c) => c.categories.includes(category))?.key ?? "disease";
+/** 頁面類型對應的系統頁 chip;病原體沒有 chip,回傳 null */
+export function chipKeyOf(category: KnowledgeCategory): string | null {
+  return SYSTEM_TYPE_CHIPS.find((c) => c.categories.includes(category))?.key ?? null;
 }
 
 export const DOMAIN_KIND_LABELS: Record<DomainKind, string> = {

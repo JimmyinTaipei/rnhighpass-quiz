@@ -3,9 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { isAdmin } from "@/lib/auth";
+import { ArticleRow, ArticleRowList } from "@/components/learn/ArticleRow";
 import { ComingSoon } from "@/components/learn/ComingSoon";
-import { ArticleCard } from "@/components/learn/ArticleCard";
-import { articlesInDomain, byExamCount, getDomain, getGroup, HIGH_FREQ_MIN } from "@/lib/knowledge";
+import { articlesInDomain, byExamCount, getDomain, relatedCountsFor } from "@/lib/knowledge";
 import { DOMAIN_KIND_LABELS, SYSTEM_TYPE_CHIPS, type ArticleSummary } from "@/lib/knowledge/types";
 
 export async function generateMetadata(props: PageProps<"/learn/system/[id]">): Promise<Metadata> {
@@ -14,37 +14,40 @@ export async function generateMetadata(props: PageProps<"/learn/system/[id]">): 
   return { title: d ? `${d.name}|知識庫` : "知識庫" };
 }
 
-function CardGrid({
-  articles,
-  note,
-  showDraft,
-}: {
-  articles: ArticleSummary[];
-  note?: (a: ArticleSummary) => string;
-  showDraft: boolean;
-}) {
+interface Item {
+  article: ArticleSummary;
+  /** alsoIn 頁:低調標示主分類 */
+  note?: string;
+}
+
+function Rows({ items, showDraft, withType }: { items: Item[]; showDraft: boolean; withType?: boolean }) {
   return (
-    <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-      {articles.map((a) => (
-        <ArticleCard key={a.slug} article={a} note={note?.(a)} groupLabel={getGroup(a.group)?.name} showDraft={showDraft} />
+    <ArticleRowList>
+      {items.map(({ article, note }) => (
+        <ArticleRow
+          key={article.slug}
+          article={article}
+          note={note}
+          showDraft={showDraft}
+          related={article.category === "disease" ? relatedCountsFor(article.slug) : null}
+          typeLabel={withType ? SYSTEM_TYPE_CHIPS.find((c) => c.categories.includes(article.category))?.label : undefined}
+        />
       ))}
-    </div>
+    </ArticleRowList>
   );
 }
 
-function SectionHeading({ title, count }: { title: string; count: number }) {
-  return (
-    <h2 className="mb-3 border-b border-card-border pb-1 text-xl font-bold text-deep">
-      {title} <span className="text-sm font-normal text-muted">{count}</span>
-    </h2>
-  );
-}
+const chipClass = (active: boolean) =>
+  `rounded-full px-3 py-1 ${
+    active ? "bg-deep text-on-accent" : "border border-card-border bg-card text-body hover:bg-surface-hover"
+  }`;
 
 /**
- * 一個系統(或護理專業科目)底下的所有頁面。
- * 上方用 ?type= 篩選類型(與「跨系統速查」同一份資料,只做 filter);
- * 清單依相關國考題數排序,題數 ≥ HIGH_FREQ_MIN 的列為「高頻」,其餘為「其他」。
- * 沒有任何一篇達標(或全部達標)時不分段,直接單一清單。
+ * 一個系統(或護理專業)底下的頁面。
+ * 系統:上方類型 chips(?type=)與右上排序切換(預設依類型分區塊;?sort=exam 混成一個清單)。
+ *   區塊與 chips 順序同 SYSTEM_TYPE_CHIPS;沒有頁面的類型隱藏;病原體不出現。
+ * 護理專業:沒有 chips、切換與區塊標題,單一清單依題數排序。
+ * 區塊內與混合清單都依相關題數由高到低、同題數依名稱(byExamCount)。
  */
 export default async function LearnSystemPage(props: PageProps<"/learn/system/[id]">) {
   const [{ id }, searchParams] = await Promise.all([props.params, props.searchParams]);
@@ -53,26 +56,27 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
   const showDraft = await isAdmin();
   const { primary, also } = articlesInDomain(id);
 
-  // 護理專業(基護、行政、社區)全是護理主題與行政頁,不套用類型篩選
-  const showChips = domain.kind === "system";
+  const items: Item[] = [
+    ...primary.map((article) => ({ article })),
+    ...also.map((article) => ({ article, note: `主分類:${getDomain(article.system)?.name ?? article.system}` })),
+  ]
+    .filter(({ article }) => article.category !== "pathogen")
+    .sort((a, b) => byExamCount(a.article, b.article));
+
+  const isNursing = domain.kind === "nursing";
+  const chips = SYSTEM_TYPE_CHIPS.filter((c) => items.some((i) => c.categories.includes(i.article.category)));
   const rawType = typeof searchParams.type === "string" ? searchParams.type : null;
-  const chip = showChips ? SYSTEM_TYPE_CHIPS.find((c) => c.key === rawType) ?? null : null;
-  const inChip = (a: ArticleSummary) => !chip || chip.categories.includes(a.category);
-  const list = primary.filter(inChip).sort(byExamCount);
-  const alsoList = also.filter(inChip).sort(byExamCount);
+  const chip = isNursing ? null : (chips.find((c) => c.key === rawType) ?? null);
+  const byExam = !isNursing && searchParams.sort === "exam";
+  const visible = chip ? items.filter((i) => chip.categories.includes(i.article.category)) : items;
 
-  const chipOptions = [
-    { key: null, label: "全部", n: primary.length + also.length },
-    ...SYSTEM_TYPE_CHIPS.map((c) => ({
-      key: c.key,
-      label: c.label,
-      n: [...primary, ...also].filter((a) => c.categories.includes(a.category)).length,
-    })).filter((c) => c.n > 0),
-  ];
-
-  const high = list.filter((a) => (a.examCount ?? 0) >= HIGH_FREQ_MIN);
-  const rest = list.filter((a) => (a.examCount ?? 0) < HIGH_FREQ_MIN);
-  const split = high.length > 0 && rest.length > 0;
+  const href = (type: string | null, exam: boolean) => {
+    const p = new URLSearchParams();
+    if (type) p.set("type", type);
+    if (exam) p.set("sort", "exam");
+    const qs = p.toString();
+    return qs ? `/learn/system/${id}?${qs}` : `/learn/system/${id}`;
+  };
 
   return (
     <div>
@@ -83,58 +87,67 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
         <ChevronRight size={14} />
         <span>{DOMAIN_KIND_LABELS[domain.kind]}</span>
       </nav>
-      <h1 className="mb-1 text-3xl font-bold text-strong">{domain.name}</h1>
-      {domain.description && (primary.length > 0 || also.length > 0) && (
-        <p className="mb-1 text-sm text-body">{domain.description}</p>
-      )}
-      <p className="mb-4 text-sm text-muted">{primary.length} 篇</p>
-
-      {showChips && chipOptions.length > 2 && (
-        <nav aria-label="類型篩選" className="mb-6 flex flex-wrap gap-2 text-sm">
-          {chipOptions.map((o) => {
-            const active = (chip?.key ?? null) === o.key;
-            return (
+      <div className="mb-1 flex flex-wrap items-center justify-between gap-2">
+        <h1 className="text-3xl font-bold text-strong">{domain.name}</h1>
+        {!isNursing && items.length > 0 && (
+          <nav aria-label="排序" className="segmented">
+            {[
+              { label: "依類型", exam: false },
+              { label: "依考題數", exam: true },
+            ].map((o) => (
               <Link
                 key={o.label}
-                href={o.key ? `/learn/system/${id}?type=${o.key}` : `/learn/system/${id}`}
+                href={href(chip?.key ?? null, o.exam)}
                 scroll={false}
-                aria-current={active ? "true" : undefined}
-                className={`rounded-full px-3 py-1 ${
-                  active ? "bg-deep text-on-accent" : "border border-card-border bg-card text-body hover:bg-surface-hover"
-                }`}
+                aria-current={byExam === o.exam ? "true" : undefined}
               >
                 {o.label}
               </Link>
-            );
-          })}
+            ))}
+          </nav>
+        )}
+      </div>
+      {domain.description && items.length > 0 && <p className="mb-1 text-sm text-body">{domain.description}</p>}
+      {items.length > 0 && <p className="mb-4 text-sm text-muted">{primary.length} 篇</p>}
+
+      {items.length === 0 && <ComingSoon description={domain.description} />}
+
+      {!isNursing && chips.length > 1 && (
+        <nav aria-label="類型篩選" className="mb-6 flex flex-wrap gap-2 text-sm">
+          <Link href={href(null, byExam)} scroll={false} aria-current={!chip ? "true" : undefined} className={chipClass(!chip)}>
+            全部
+          </Link>
+          {chips.map((c) => (
+            <Link
+              key={c.key}
+              href={href(c.key, byExam)}
+              scroll={false}
+              aria-current={chip?.key === c.key ? "true" : undefined}
+              className={chipClass(chip?.key === c.key)}
+            >
+              {c.label}
+            </Link>
+          ))}
         </nav>
       )}
 
-      {primary.length === 0 && also.length === 0 && <ComingSoon description={domain.description} />}
-
-      {list.length > 0 &&
-        (split ? (
-          <>
-            <section className="mb-8">
-              <SectionHeading title="高頻" count={high.length} />
-              <CardGrid articles={high} showDraft={showDraft} />
-            </section>
-            <section className="mb-8">
-              <SectionHeading title="其他" count={rest.length} />
-              <CardGrid articles={rest} showDraft={showDraft} />
-            </section>
-          </>
-        ) : (
-          <section className="mb-8">
-            <CardGrid articles={list} showDraft={showDraft} />
-          </section>
-        ))}
-
-      {alsoList.length > 0 && (
-        <section className="mb-8">
-          <SectionHeading title="也與此相關" count={alsoList.length} />
-          <CardGrid articles={alsoList} showDraft={showDraft} note={(a) => `主分類:${getDomain(a.system)?.name ?? a.system}`} />
-        </section>
+      {isNursing || byExam ? (
+        visible.length > 0 && <Rows items={visible} showDraft={showDraft} withType={byExam} />
+      ) : (
+        chips
+          .filter((c) => !chip || c.key === chip.key)
+          .map((c) => {
+            const list = visible.filter((i) => c.categories.includes(i.article.category));
+            if (list.length === 0) return null;
+            return (
+              <section key={c.key} className="mb-8">
+                <h2 className="mb-3 border-b border-card-border pb-1 text-xl font-bold text-deep">
+                  {c.label} <span className="text-sm font-normal text-muted">{list.length}</span>
+                </h2>
+                <Rows items={list} showDraft={showDraft} />
+              </section>
+            );
+          })
       )}
     </div>
   );

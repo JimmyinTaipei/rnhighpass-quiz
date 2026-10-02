@@ -182,7 +182,14 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
         {group && domain && (
           <>
             <ChevronRight size={14} />
-            <Link href={`/learn/system/${domain.id}?type=${chipKeyOf(article.category)}`} className="hover:text-deep">
+            <Link
+              href={
+                domain.kind === "system" && chipKeyOf(article.category)
+                  ? `/learn/system/${domain.id}?type=${chipKeyOf(article.category)}`
+                  : `/learn/system/${domain.id}`
+              }
+              className="hover:text-deep"
+            >
               {group.name}
             </Link>
           </>
