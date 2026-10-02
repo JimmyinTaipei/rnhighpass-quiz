@@ -310,6 +310,7 @@ function parseArticle(file) {
     alsoIn: data.alsoIn ?? [],
     group: data.group ?? null,
     related: data.related ?? null,
+    field: data.field ?? null,
     reviewed: data.reviewed === true,
     updated: data.updated ? String(data.updated) : null,
     references: data.references ?? [],
@@ -388,7 +389,7 @@ function summarize(hast) {
 }
 
 function buildIndex(articles) {
-  const index = { articles: {}, sections: {}, links: {}, backlinks: {}, embeds: {}, related: {}, usedBy: {} };
+  const index = { articles: {}, sections: {}, links: {}, backlinks: {}, embeds: {}, related: {}, relatedExplicit: [], usedBy: {} };
   const bySlug = new Map(articles.map((a) => [a.slug, a]));
 
   for (const a of articles) {
@@ -408,6 +409,7 @@ function buildIndex(articles) {
       system: a.system,
       alsoIn: a.alsoIn,
       group: a.group,
+      field: a.field,
       reviewed: a.reviewed,
       chapters: a.chapters,
       summary: "", // 連結文字補完後才算,見函式最後
@@ -533,6 +535,7 @@ function resolveRelated(articles, index, bySlug) {
     }
     if (RELATED_KEYS.every((k) => resolved[k].length === 0)) continue;
     index.related[a.slug] = resolved;
+    if (a.related) index.relatedExplicit.push(a.slug);
     for (const k of RELATED_KEYS) {
       for (const s of resolved[k]) (index.usedBy[s] ??= []).push(a.slug);
     }
@@ -684,6 +687,17 @@ function loadTaxonomy() {
     }
   }
   return { types: raw.types ?? {}, domains, byId, groups };
+}
+
+// 解剖&生理頁的小標籤(frontmatter field)。要擴充(如分子生物、細胞生物)就加在這裡,並同步 types.ts 的 FIELD_LABELS
+const FIELDS = ["anatomy", "physiology", "biochem"];
+
+function validateField(articles) {
+  for (const a of articles) {
+    if (a.field == null) continue;
+    if (a.category !== "physiology") fail(a.file, "field 只能用在解剖&生理頁(physiology/)");
+    else if (!FIELDS.includes(a.field)) fail(a.file, `field「${a.field}」不存在(可用:${FIELDS.join("、")})`);
+  }
 }
 
 function validateClassification(articles, taxonomy) {
@@ -956,6 +970,7 @@ function main() {
   const articles = files.map(parseArticle);
   const taxonomy = loadTaxonomy();
   validateClassification(articles, taxonomy);
+  validateField(articles);
   const outline = loadChapterOutline();
   validateChapterRefs(articles, outline);
   const articlesBySlug = new Map(articles.map((a) => [a.slug, a]));

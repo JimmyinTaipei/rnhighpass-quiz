@@ -68,6 +68,15 @@ export interface KnowledgeArticle {
   embeds: Record<string, KnowledgeEmbed>;
 }
 
+/** 解剖&生理頁的小標籤(frontmatter field);擴充時同步 build-knowledge.mjs 的 FIELDS */
+export type KnowledgeField = "anatomy" | "physiology" | "biochem";
+
+export const FIELD_LABELS: Record<KnowledgeField, string> = {
+  anatomy: "解剖",
+  physiology: "生理",
+  biochem: "生化",
+};
+
 export interface ArticleSummary {
   slug: string;
   title: string;
@@ -80,6 +89,7 @@ export interface ArticleSummary {
   system: string;
   alsoIn: string[];
   group: string | null;
+  field?: KnowledgeField | null;
   reviewed: boolean;
   chapters: string[];
   summary: string;
@@ -110,6 +120,8 @@ export interface KnowledgeIndex {
   embeds: Record<string, string[]>;
   /** 疾病頁 → 相關的檢驗/藥物/病原體/生理頁(frontmatter related;沒寫的由內文連結推導) */
   related: Record<string, Record<RelatedKey, string[]>>;
+  /** 有在 frontmatter 明確寫 related 的疾病頁(其餘是由內文連結推導) */
+  relatedExplicit: string[];
   /** 檢驗/藥物/病原體/生理頁 → 用到它的疾病頁(related 的反向,自動產生) */
   usedBy: Record<string, string[]>;
 }
@@ -121,7 +133,7 @@ export const RELATED_GROUPS: { key: RelatedKey; label: string }[] = [
   { key: "lab", label: "相關檢驗" },
   { key: "drug", label: "相關藥物" },
   { key: "pathogen", label: "相關病原體" },
-  { key: "physiology", label: "相關生理機轉" },
+  { key: "physiology", label: "相關解剖&生理" },
 ];
 
 /** 滑過預覽卡與側欄共用的資料 */

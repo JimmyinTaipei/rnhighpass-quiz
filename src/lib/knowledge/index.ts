@@ -172,6 +172,14 @@ export function relatedGroupsFor(slug: string): { key: RelatedKey; label: string
   })).filter((g) => g.articles.length > 0);
 }
 
+/** 疾病列右側的小標示:明確寫在 related 的藥物、檢驗數(推導值有雜訊,不顯示) */
+export function relatedCountsFor(slug: string): { drug: number; lab: number } | null {
+  if (!knowledgeIndex.relatedExplicit.includes(slug)) return null;
+  const rel = knowledgeIndex.related[slug];
+  if (!rel) return null;
+  return { drug: rel.drug?.length ?? 0, lab: rel.lab?.length ?? 0 };
+}
+
 /** 檢驗/藥物/病原體/生理頁:用到它的疾病(related 的反向) */
 export function usedByFor(slug: string): ArticleSummary[] {
   return (knowledgeIndex.usedBy[slug] ?? [])
