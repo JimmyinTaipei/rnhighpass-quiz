@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
+import { isAdmin } from "@/lib/auth";
 import { ArticleCard } from "@/components/learn/ArticleCard";
 import { articlesInDomain, byExamCount, getDomain, getGroup, HIGH_FREQ_MIN } from "@/lib/knowledge";
 import { DOMAIN_KIND_LABELS, SYSTEM_TYPE_CHIPS, type ArticleSummary } from "@/lib/knowledge/types";
@@ -12,11 +13,19 @@ export async function generateMetadata(props: PageProps<"/learn/system/[id]">): 
   return { title: d ? `${d.name}|知識庫` : "知識庫" };
 }
 
-function CardGrid({ articles, note }: { articles: ArticleSummary[]; note?: (a: ArticleSummary) => string }) {
+function CardGrid({
+  articles,
+  note,
+  showDraft,
+}: {
+  articles: ArticleSummary[];
+  note?: (a: ArticleSummary) => string;
+  showDraft: boolean;
+}) {
   return (
     <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
       {articles.map((a) => (
-        <ArticleCard key={a.slug} article={a} note={note?.(a)} groupLabel={getGroup(a.group)?.name} />
+        <ArticleCard key={a.slug} article={a} note={note?.(a)} groupLabel={getGroup(a.group)?.name} showDraft={showDraft} />
       ))}
     </div>
   );
@@ -40,6 +49,7 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
   const [{ id }, searchParams] = await Promise.all([props.params, props.searchParams]);
   const domain = getDomain(id);
   if (!domain) notFound();
+  const showDraft = await isAdmin();
   const { primary, also } = articlesInDomain(id);
 
   // 護理專業(基護、行政、社區)全是護理主題與行政頁,不套用類型篩選
@@ -105,23 +115,23 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
           <>
             <section className="mb-8">
               <SectionHeading title="高頻" count={high.length} />
-              <CardGrid articles={high} />
+              <CardGrid articles={high} showDraft={showDraft} />
             </section>
             <section className="mb-8">
               <SectionHeading title="其他" count={rest.length} />
-              <CardGrid articles={rest} />
+              <CardGrid articles={rest} showDraft={showDraft} />
             </section>
           </>
         ) : (
           <section className="mb-8">
-            <CardGrid articles={list} />
+            <CardGrid articles={list} showDraft={showDraft} />
           </section>
         ))}
 
       {alsoList.length > 0 && (
         <section className="mb-8">
           <SectionHeading title="也與此相關" count={alsoList.length} />
-          <CardGrid articles={alsoList} note={(a) => `主分類:${getDomain(a.system)?.name ?? a.system}`} />
+          <CardGrid articles={alsoList} showDraft={showDraft} note={(a) => `主分類:${getDomain(a.system)?.name ?? a.system}`} />
         </section>
       )}
     </div>

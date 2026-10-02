@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
+import { isAdmin } from "@/lib/auth";
 import { ArticleCard } from "@/components/learn/ArticleCard";
 import { articlesOfType, taxonomy } from "@/lib/knowledge";
 import { BROWSE_TYPES, type ArticleSummary } from "@/lib/knowledge/types";
@@ -18,11 +19,11 @@ export async function generateMetadata(props: PageProps<"/learn/type/[type]">): 
 
 const byTitle = (a: ArticleSummary, b: ArticleSummary) => a.title.localeCompare(b.title, "zh-Hant");
 
-function CardGrid({ articles }: { articles: ArticleSummary[] }) {
+function CardGrid({ articles, showDraft }: { articles: ArticleSummary[]; showDraft: boolean }) {
   return (
     <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
       {articles.map((a) => (
-        <ArticleCard key={a.slug} article={a} />
+        <ArticleCard key={a.slug} article={a} showDraft={showDraft} />
       ))}
     </div>
   );
@@ -37,6 +38,7 @@ export default async function LearnTypePage(props: PageProps<"/learn/type/[type]
   const t = browseType(type);
   if (!t) notFound();
   const articles = articlesOfType(t.type);
+  const showDraft = await isAdmin();
 
   const sections = taxonomy.domains
     .map((d) => {
@@ -76,13 +78,13 @@ export default async function LearnTypePage(props: PageProps<"/learn/type/[type]
             </Link>
             <span className="text-sm font-normal text-muted">{count}</span>
           </h2>
-          {ungrouped.length > 0 && <CardGrid articles={ungrouped} />}
+          {ungrouped.length > 0 && <CardGrid articles={ungrouped} showDraft={showDraft} />}
           {grouped.map(({ g, items }) => (
             <div key={g.id} id={`group-${g.id}`} className="mt-4 scroll-mt-4 first:mt-0">
               <h3 className="mb-2 text-base font-semibold text-strong">
                 {g.name} <span className="text-sm font-normal text-muted">{items.length}</span>
               </h3>
-              <CardGrid articles={items} />
+              <CardGrid articles={items} showDraft={showDraft} />
             </div>
           ))}
         </section>

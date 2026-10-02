@@ -6,11 +6,14 @@ export function ArticleCard({
   article,
   note,
   groupLabel,
+  showDraft = false,
 }: {
   article: ArticleSummary;
   note?: string;
   /** 群組名稱(例:抗高血壓藥),顯示成小標籤 */
   groupLabel?: string;
+  /** 只有管理者看得到「草稿」 */
+  showDraft?: boolean;
 }) {
   return (
     <Link
@@ -25,7 +28,7 @@ export function ArticleCard({
           <span className="font-medium text-deep tabular-nums">{article.examCount} 題・</span>
         )}
         {article.sectionCount} 個知識點
-        {!article.reviewed && "・草稿"}
+        {showDraft && !article.reviewed && "・草稿"}
         {groupLabel && `・${groupLabel}`}
         {note && `・${note}`}
       </p>

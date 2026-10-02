@@ -14,6 +14,7 @@ import {
   getTablesForQuestions,
   getTopicLinks,
 } from "@/lib/data";
+import { isAdmin } from "@/lib/auth";
 import { getDevMode } from "@/lib/dev-mode";
 import {
   getDomain,
@@ -106,6 +107,7 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
 
   const [
     user,
+    admin,
     devMode,
     questionList,
     tablesByQuestion,
@@ -114,6 +116,7 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
     topicLinks,
   ] = await Promise.all([
       getCurrentUser(),
+      isAdmin(),
       getDevMode(),
       getQuestionsByIds(allIds),
       getTablesForQuestions(allIds),
@@ -199,7 +202,8 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
           </p>
         )}
         <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
-          {!article.reviewed && (
+          {/* 草稿標記只給管理者看,學生端不出現這個字樣 */}
+          {admin && !article.reviewed && (
             <span
               className="inline-flex items-center gap-1 rounded-full bg-[#FDF3E3] px-2.5 py-1 font-medium text-[#8A5200]"
               title="內容由 AI 協助整理,尚待人工審閱"
@@ -216,9 +220,6 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
               <Stethoscope size={13} /> {tag} 考題
             </Link>
           ))}
-          {article.aliases.length > 0 && (
-            <span className="text-muted">別名:{article.aliases.join("、")}</span>
-          )}
         </div>
         {examStats && <ExamPresence slug={slug} stats={examStats} links={topicLinks} />}
       </header>
