@@ -123,9 +123,9 @@ export interface ImageCredit {
 
 // ===== 分類(對應 content/knowledge/taxonomy.yml,由建置腳本輸出 taxonomy.json) =====
 
-export type DomainKind = "system" | "cross" | "subject";
+export type DomainKind = "system" | "nursing";
 
-/** 側欄「依類型」列出的類型與顯示名稱(/learn/type/[type]) */
+/** 側欄「跨系統速查」列出的類型與顯示名稱(/learn/type/[type]) */
 export const BROWSE_TYPES: { type: KnowledgeCategory; label: string }[] = [
   { type: "drug", label: "藥理" },
   { type: "lab", label: "檢驗" },
@@ -133,9 +133,8 @@ export const BROWSE_TYPES: { type: KnowledgeCategory; label: string }[] = [
 ];
 
 export const DOMAIN_KIND_LABELS: Record<DomainKind, string> = {
-  system: "器官系統",
-  cross: "跨系統主題",
-  subject: "依科目",
+  system: "系統",
+  nursing: "護理專業",
 };
 
 export interface TaxonomyGroup {

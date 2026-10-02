@@ -3,7 +3,7 @@ title: 動脈血氣分析
 subtitle: Arterial blood gas(ABG)
 aliases: [ABG, 動脈血液氣體分析, 動脈血氧分析, 血液氣體, pH, PaCO2, HCO3, 陰離子間隙, Anion gap]
 dzTags: [糖尿病酮酸中毒]
-system: fluid-acid-base
+system: renal
 alsoIn: [respiratory, endocrine]
 group: acid-base-labs
 chapters:

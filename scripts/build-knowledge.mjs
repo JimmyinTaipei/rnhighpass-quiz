@@ -610,7 +610,7 @@ function loadTaxonomy() {
   const groups = new Map();
   for (const d of domains) {
     if (byId.has(d.id)) fail(TAXONOMY_FILE, `domain id 重複:${d.id}`);
-    if (!["system", "cross", "subject"].includes(d.kind)) fail(TAXONOMY_FILE, `domain ${d.id} 的 kind 必須是 system/cross/subject`);
+    if (!["system", "nursing"].includes(d.kind)) fail(TAXONOMY_FILE, `domain ${d.id} 的 kind 必須是 system/nursing`);
     byId.set(d.id, d);
     for (const g of d.groups ?? []) {
       if (groups.has(g.id)) fail(TAXONOMY_FILE, `group id 重複:${g.id}`);

@@ -4,7 +4,7 @@ subtitle: Ketone bodies(血清 β-羥基丁酸、尿酮)
 aliases: [酮體, 尿酮, 血酮, Ketone, β-hydroxybutyrate, BHB, β-OHB, Acetoacetate, Acetone]
 dzTags: [糖尿病酮酸中毒, 糖尿病]
 system: endocrine
-alsoIn: [fluid-acid-base]
+alsoIn: [renal]
 group: glucose-labs
 chapters:
   - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥

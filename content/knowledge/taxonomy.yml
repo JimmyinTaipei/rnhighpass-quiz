@@ -8,10 +8,10 @@
 #
 # ── 怎麼選 system ─────────────────────────────────────────────
 # 1. 先看器官系統(kind: system,對應題庫十大 block: 標籤)。
-# 2. 精神疾病與精神科用藥 → psychiatric;體液/電解質/酸鹼 → fluid-acid-base;
+# 2. 精神疾病與精神科用藥 → psychiatric;體液/電解質/酸鹼 → renal(併入泌尿);
 #    病原體與抗微生物藥 → infection(即使感染部位在某器官,如肺炎仍放 respiratory,
 #    但「抗生素」「結核病藥」這類以病原為中心的內容放 infection)。
-# 3. 分不出器官系統的護理技術、行政、社區內容 → 用科目(kind: subject)。
+# 3. 分不出器官系統的護理技術、行政、社區內容 → 用科目(kind: nursing,護理專業)。
 # 4. 跨多系統時選「國考最常從哪個系統考」為主,其他放 alsoIn。
 #
 # ── 新增 domain 或 group 的流程 ────────────────────────────────
@@ -22,7 +22,7 @@
 #
 # ── 分章題本 → domain 對照(依 hierarchy_question_counts.md) ─────
 # 生解 Ch05 神經、Ch06 感覺 → neuro;Ch07 血液心血管淋巴 → cardiovascular / hematology-immunology
-# 生解 Ch08 → respiratory;Ch09 → digestive;Ch10 → renal;Ch11 → fluid-acid-base
+# 生解 Ch08 → respiratory;Ch09 → digestive;Ch10 → renal;Ch11 → renal
 # 生解 Ch12 → endocrine;Ch13、Ch14 → reproductive;Ch02 → integumentary;Ch03、Ch04 → musculoskeletal
 # 病理 Ch09~Ch18 依器官;Ch05 免疫、Ch10 血液 → hematology-immunology;Ch08 感染 → infection
 # 藥理 Ch02 自主神經、Ch04 止痛麻醉 → neuro;Ch03 中樞與精神科 → neuro(抗癲癇、巴金森)/ psychiatric(抗精神病、抗憂鬱等)
@@ -32,7 +32,7 @@
 # 不屬於單一疾病或藥物的護理內容(疼痛、臨終、治療副作用照護)→ 類型 care(護理主題)
 # 微免 → infection(Ch02、Ch03 免疫 → hematology-immunology);病原體本身(菌、病毒、黴菌、寄生蟲)→ 類型 pathogen
 # 感控、無菌技術、消毒滅菌、預防接種、法定傳染病 → 類型 care(system 依國考科目:基護 fundamentals、社區 community)
-# 內外 Ch04 → fluid-acid-base;Ch05 → infection;其餘依器官;Ch03 癌症、Ch06 急重症 → 依主要器官或 fundamentals
+# 內外 Ch04 → renal;Ch05 → infection;其餘依器官;Ch03 癌症、Ch06 急重症 → 依主要器官或 fundamentals
 # 產科 → reproductive;兒科依器官(Ch02 生長發展 → fundamentals)
 # 精神 → psychiatric;社區 → community;基護 → fundamentals;行政 → administration
 
@@ -118,6 +118,7 @@ domains:
     groups:
       - { id: diuretics, name: 利尿劑, type: drug, drugTags: [利尿劑, 利尿劑用藥] }
       - { id: renal-labs, name: 腎功能檢驗, type: lab }
+      - { id: acid-base-labs, name: 酸鹼與電解質檢驗, type: lab }
 
   - id: musculoskeletal
     name: 骨骼肌肉系統
@@ -131,10 +132,10 @@ domains:
     kind: system
     blockTag: 皮膚
 
-  # ===== 跨系統 =====
+  # ===== 疾病章節(和器官系統同性質,排在器官系統之後) =====
   - id: psychiatric
     name: 精神疾病
-    kind: cross
+    kind: system
     blockTag: 神經
     groups:
       - { id: antipsychotics, name: 抗精神病藥, type: drug, drugTags: [抗精神病藥物, 抗精神病用藥, 抗精神病藥, 思覺失調症用藥] }
@@ -144,20 +145,14 @@ domains:
 
   - id: oncology
     name: 腫瘤
-    kind: cross
+    kind: system
     groups:
       - { id: antineoplastics, name: 抗腫瘤藥, type: drug, drugTags: [抗腫瘤用藥, 抗腫瘤藥物, 化學治療藥物, 化學治療用藥, 化療藥物, 癌症用藥, 癌症化學治療用藥, 抗癌藥物, 抗癌用藥, 抗腫瘤化學治療用藥, 乳癌用藥, 癌症支持性用藥, 癌症支持治療用藥, 癌症支持療法用藥, 標靶治療藥物] }
       - { id: oncology-labs, name: 腫瘤相關檢驗, type: lab }
 
-  - id: fluid-acid-base
-    name: 體液、電解質與酸鹼
-    kind: cross
-    groups:
-      - { id: acid-base-labs, name: 酸鹼與電解質檢驗, type: lab }
-
   - id: infection
     name: 感染
-    kind: cross
+    kind: system
     groups:
       - { id: antibiotics, name: 抗生素, type: drug, drugTags: [抗生素用藥, 抗感染用藥, 抗感染藥物, 泌尿道感染用藥] }
       - { id: antituberculars, name: 抗結核藥, type: drug, drugTags: [抗結核病用藥, 抗結核用藥, 抗結核藥物] }
@@ -170,14 +165,14 @@ domains:
       - { id: viruses, name: 病毒, type: pathogen }
       - { id: fungi-parasites, name: 真菌與寄生蟲, type: pathogen }
 
-  # ===== 科目(分不出器官系統時使用) =====
+  # ===== 護理專業(分不出器官系統時使用) =====
   - id: fundamentals
     name: 基本護理
-    kind: subject
+    kind: nursing
 
   - id: administration
     name: 護理行政
-    kind: subject
+    kind: nursing
     groups:
       - { id: management-theory, name: 管理理論與管理者, type: admin }
       - { id: planning-decision, name: 規劃與決策, type: admin }
@@ -190,4 +185,4 @@ domains:
 
   - id: community
     name: 社區衛生
-    kind: subject
+    kind: nursing
