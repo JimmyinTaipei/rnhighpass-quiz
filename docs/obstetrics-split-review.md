@@ -1,7 +1,7 @@
 # 產科拆分審閱清單
 
-> 狀態：**待審閱**。確認前不改 `content/` 的任何頁面。
-> 目前已新增空的 `obstetrics` domain（側欄顯示「即將推出」），`/learn/system/reproductive` 網址保留不變。
+> 狀態：**暫緩**（2026-10）。產科目前尚未開始製作，所以先不新增產科頁、不搬家、也不改任何頁面的 alsoIn。側欄的「產科」維持「即將推出」（空的 `obstetrics` domain），`/learn/system/reproductive` 網址不變。
+> 下面的清單保留給開始製作產科時參考。已確認的方向：新生兒內容產科與兒科**都要**（見 `pediatric-review.md`）。
 
 ## 結論先講
 
