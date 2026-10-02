@@ -2,6 +2,7 @@
 
 > 狀態：**已確認並套用**（2026-10）。18 篇檢驗頁已加上 `method`／`bloodGroup`，`/learn/type/lab` 已有「依方式｜依系統」切換（`?view=system`）。
 > 已確認的決定：ketones → **specimen**；culture-and-sensitivity → **specimen**；抽血的四個小標題（血液學、生化、血氣、標記）**不合併**——資料庫還在建立中，之後血液學與血氣都會增加。lithium-level 放生化、cardiac-biomarkers 放標記，照文件建議。
+> **版面更新（2026-10）**：取消「依方式｜依系統」切換與 `?view`。`/learn/type/lab` 改為上方 method chips（無「全部」，`?method=`，預設第一個有頁面的方式）；抽血內分四個小標題，其他方式為單一清單；每列以小標籤標示所屬系統。
 
 ## 欄位設計（確認後實作）
 

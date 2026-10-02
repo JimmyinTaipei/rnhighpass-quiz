@@ -84,7 +84,7 @@ export const LAB_METHODS: { key: LabMethod; label: string }[] = [
   { key: "specimen", label: "尿液與其他檢體" },
   { key: "imaging", label: "影像" },
   { key: "function", label: "電生理與功能" },
-  { key: "invasive", label: "內視鏡與侵入性檢查" },
+  { key: "invasive", label: "內視鏡與侵入性" },
 ];
 
 /** 抽血類的小標題(frontmatter bloodGroup) */
