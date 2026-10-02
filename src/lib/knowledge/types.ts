@@ -211,9 +211,9 @@ export const PEDS_NAV = {
  * 「疾病」含疾病、護理主題、護理行政頁;病原體不在系統頁出現(走速查與疾病頁的 related)。
  */
 export const SYSTEM_TYPE_CHIPS: { key: string; label: string; categories: KnowledgeCategory[] }[] = [
+  { key: "disease", label: "疾病", categories: ["disease", "care", "admin"] },
   { key: "physiology", label: "解剖&生理", categories: ["physiology"] },
   { key: "drug", label: "藥理", categories: ["drug"] },
-  { key: "disease", label: "疾病", categories: ["disease", "care", "admin"] },
   { key: "lab", label: "檢驗", categories: ["lab"] },
   { key: "procedure", label: "技術", categories: ["procedure"] },
 ];
