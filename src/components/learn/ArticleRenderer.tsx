@@ -13,6 +13,7 @@ import { SectionBodyEditor, SectionTitleEditor } from "./KnowledgeEditors";
 import { BasicsBox } from "./BasicsBox";
 import { EmbedBadge } from "./EmbedBadge";
 import { KnowledgeLink } from "./KnowledgeLink";
+import { isMergedExamPoints } from "./toc";
 
 export interface RenderContext {
   article: KnowledgeArticle;
@@ -171,13 +172,18 @@ function EmbeddedBlock({ target, mode, ctx }: { target: string; mode?: string; c
   );
 }
 
-/** 嵌入內容裡的段落:不編號、不可摺疊、不給 id(避免和本文的錨點撞名) */
+/**
+ * 嵌入內容裡的段落:不編號、不可摺疊、不給 id(避免和本文的錨點撞名)。
+ * 嵌入重點摘要(slug#summary)時略過「國考常考點」子段落,疾病頁裡的藥物卡片只放重點。
+ */
 function EmbeddedSection({ section, ctx, root = false }: { section: KnowledgeSection; ctx: RenderContext; root?: boolean }) {
+  const children =
+    section.id === "summary" ? section.children.filter((c) => c.id !== "exam-points") : section.children;
   return (
     <div className={root ? "" : "mt-3"}>
       {!root && <p className="mb-1 font-semibold text-strong">{section.title}</p>}
       {renderHast(section.content, ctx)}
-      {section.children.map((c) => (
+      {children.map((c) => (
         <EmbeddedSection key={c.id} section={c} ctx={ctx} />
       ))}
     </div>
@@ -220,12 +226,20 @@ export function SectionView({ section, ctx }: { section: KnowledgeSection; ctx: 
       number={section.number}
       title={section.title}
       titleEditor={slug ? <SectionTitleEditor key={section.title} slug={slug} id={section.id} /> : undefined}
+      highlight={section.depth === 2 && section.id === "summary"}
     >
       {slug && <SectionBodyEditor slug={slug} id={section.id} />}
       <div className="kb-prose">{renderHast(section.content, ctx)}</div>
-      {section.children.map((c) => (
-        <SectionView key={c.id} section={c} ctx={ctx} />
-      ))}
+      {section.children.map((c) =>
+        isMergedExamPoints(section, c) ? (
+          // 國考常考點也是重點:不顯示子標題,條列直接接在重點後面(錨點留著,舊連結還能跳到這裡)
+          <div key={c.id} id={c.id} className="kb-prose kb-merged-points">
+            {renderHast(c.content, ctx)}
+          </div>
+        ) : (
+          <SectionView key={c.id} section={c} ctx={ctx} />
+        ),
+      )}
     </CollapsibleSection>
   );
 }

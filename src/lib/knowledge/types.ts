@@ -9,7 +9,8 @@ export type KnowledgeCategory =
   | "care"
   | "pathogen"
   | "admin"
-  | "procedure";
+  | "procedure"
+  | "device";
 
 export const CATEGORY_LABELS: Record<KnowledgeCategory, string> = {
   disease: "疾病",
@@ -20,6 +21,7 @@ export const CATEGORY_LABELS: Record<KnowledgeCategory, string> = {
   pathogen: "病原體",
   admin: "護理行政",
   procedure: "護理技術",
+  device: "器材與管路",
 };
 
 export interface KnowledgeReference {
@@ -204,6 +206,12 @@ export const BROWSE_TYPES: { type: KnowledgeCategory; label: string; description
     description:
       "臨床護理技術(如無菌技術、抽痰、導尿、給藥、傷口護理),依用途分組，每頁整理目的、適應症、用物、步驟、注意事項、併發症與國考重點。內容整理中。",
   },
+  {
+    type: "device",
+    label: "器材與管路",
+    description:
+      "加護病房與急診常見的器材與管路(如呼吸器、中心靜脈導管、動脈導管、胸管、ECMO),每頁整理原理、適應症、看懂螢幕與數值、護理重點、警示與併發症。內容整理中。",
+  },
 ];
 
 /** 跨系統的「小兒」:對象標記(不是 domain),彙整小兒專屬頁與含小兒區段的頁 */
@@ -223,7 +231,7 @@ export const SYSTEM_TYPE_CHIPS: { key: string; label: string; categories: Knowle
   { key: "physiology", label: "解剖&生理", categories: ["physiology"] },
   { key: "drug", label: "藥理", categories: ["drug"] },
   { key: "lab", label: "檢驗", categories: ["lab"] },
-  { key: "procedure", label: "技術", categories: ["procedure"] },
+  { key: "procedure", label: "技術與器材", categories: ["procedure", "device"] },
 ];
 
 /** 頁面類型對應的系統頁 chip;病原體沒有 chip,回傳 null */

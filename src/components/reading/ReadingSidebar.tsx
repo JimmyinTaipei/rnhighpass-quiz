@@ -231,7 +231,7 @@ export function ReadingSidebar({
     <div data-group={subjectGroup(subject)} className="contents">
       <nav
         aria-label="章節目錄"
-        className="sticky top-4 hidden h-[calc(100vh-2rem)] w-64 shrink-0 self-start overflow-y-auto rounded-card bg-card p-3 shadow-sm lg:block"
+        className="sticky top-[calc(var(--desk-bar)+1rem)] hidden h-[calc(100vh-2rem-var(--desk-bar))] w-64 shrink-0 self-start overflow-y-auto rounded-card bg-card p-3 shadow-sm lg:block"
       >
         {body}
       </nav>

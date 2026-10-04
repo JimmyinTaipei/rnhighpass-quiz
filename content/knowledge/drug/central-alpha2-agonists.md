@@ -29,6 +29,14 @@ references:
 - 共同副作用：**嗜睡、口乾**、心搏過緩、姿勢性低血壓。
 - 高血壓非第一線，用於頑固型高血壓或特殊族群。
 
+### 國考常考點 {#exam-points}
+
+- **活化中樞神經 α2 受體、減少交感神經活性** → **clonidine**(不是 prazosin、propranolol)。
+- **能活化交感神經突觸前 α2 受體**的降壓藥 → clonidine(yohimbine 是 α2 拮抗劑)。
+- Clonidine 孕婦可謹慎使用;孕婦禁用的是 **captopril**(ACEI)。
+- **Clonidine 驟停 → 反彈性高血壓**;服降壓藥要定時定量。
+- **Methyldopa**：孕期常用、**直接 Coombs 陽性**、溶血性貧血、肝毒性、嗜睡。
+
 ## 作用機轉 {#mechanism}
 
 α2 受體是「煞車」受體：在腦幹心血管中樞(孤束核、延腦頭端腹外側)活化時會**減少交感神經衝動輸出**;在交感神經末梢的**突觸前 α2** 活化時，會以負回饋**減少正腎上腺素釋放**(受體介紹見 [[blood-pressure-regulation#autonomic-receptors]])。
@@ -93,14 +101,6 @@ references:
 - Methyldopa：追蹤**血球(Coombs、血色素)與肝功能**;出現黃疸、茶色尿、疲倦、發燒要回診;輸血前告知服用 methyldopa。
 - 孕婦：監測血壓、胎兒狀況;產後與醫師討論換藥並注意情緒。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- **活化中樞神經 α2 受體、減少交感神經活性** → **clonidine**(不是 prazosin、propranolol)。
-- **能活化交感神經突觸前 α2 受體**的降壓藥 → clonidine(yohimbine 是 α2 拮抗劑)。
-- Clonidine 孕婦可謹慎使用;孕婦禁用的是 **captopril**(ACEI)。
-- **Clonidine 驟停 → 反彈性高血壓**;服降壓藥要定時定量。
-- **Methyldopa**：孕期常用、**直接 Coombs 陽性**、溶血性貧血、肝毒性、嗜睡。
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(clonidine|methyldopa|Aldomet|Catapres|α2)" limit="8"}

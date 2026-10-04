@@ -120,6 +120,16 @@ export interface ParentLink {
  * 手機頂部返回鍵的去處。分區首頁(頁籤直接到得了的頁)回傳 null、不顯示返回鍵。
  * 返回鍵優先用瀏覽器上一頁(保留捲動位置)，站外進來或第一頁時才用這裡的連結。
  */
+/**
+ * 電腦版左上角「返回」只在閱讀內容的頁面出現：章節頁(含做題)與知識頁(含練相關題)。
+ * 系統頁、速查頁、科目頁等清單頁不顯示(左側欄就能切換)。
+ */
+export function hasDesktopBack(pathname: string): boolean {
+  if (/^\/chapters\/\d+/.test(pathname)) return true;
+  const m = pathname.match(/^\/learn\/([^/]+)/);
+  return !!m && !["system", "type", "peds"].includes(m[1]);
+}
+
 export function parentOf(pathname: string): ParentLink | null {
   const seg = pathname.split("/").filter(Boolean);
   const [a, b, c] = seg;

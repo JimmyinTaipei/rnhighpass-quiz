@@ -220,6 +220,14 @@ body {
 .kb-prose ol, .kb-callout-body ol { list-style: decimal; padding-left: 1.4rem; margin-top: 0.5rem; }
 .kb-prose li + li { margin-top: 0.25rem; }
 .kb-prose li > ul, .kb-prose li > ol { margin-top: 0.25rem; }
+/* 分層列點(docs/positioning.md):有序清單依層級 1. → a. → i.;無序清單 ● → ○ → ■ */
+:is(.kb-prose, .kb-callout-body) ol ol { list-style: lower-alpha; }
+:is(.kb-prose, .kb-callout-body) ol ol ol { list-style: lower-roman; }
+:is(.kb-prose, .kb-callout-body) ul ul { list-style: circle; }
+:is(.kb-prose, .kb-callout-body) ul ul ul { list-style: square; }
+/* 重點摘要裡的國考常考點:沒有標題,條列緊接在重點後面,看起來是同一個清單 */
+.kb-merged-points { margin-top: 0.25rem; }
+.kb-merged-points > ul:first-child, .kb-merged-points > ol:first-child { margin-top: 0; }
 .kb-prose strong { color: var(--color-deep); font-weight: 600; }
 .kb-prose code { font-size: 0.9em; background: var(--color-page); padding: 0.05rem 0.3rem; border-radius: 4px; }
 .kb-table-wrap table { width: 100%; border-collapse: collapse; font-size: 0.925rem; line-height: 1.6; }
@@ -252,6 +260,21 @@ body {
    點擊時不閃灰底、不等 300ms 雙擊判定；按鈕文字不會被長按選取。 */
 html {
   -webkit-tap-highlight-color: transparent;
+}
+
+/* 電腦版返回列(components/shell/DesktopBackBar.tsx)：出現時 --desk-bar 等於它的高度，
+   頂端 sticky 的側欄、目錄與錨點跳轉都往下讓開；手機與沒有返回列的頁面是 0。 */
+:root {
+  --desk-bar-h: 2.75rem;
+  --desk-bar: 0px;
+}
+@media (min-width: 48rem) {
+  :root:has(.desk-back-bar) {
+    --desk-bar: var(--desk-bar-h);
+  }
+}
+html {
+  scroll-padding-top: var(--desk-bar);
 }
 a,
 button,

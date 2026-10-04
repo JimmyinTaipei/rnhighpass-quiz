@@ -12,6 +12,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { DevToggle } from "@/components/admin/DevToggle";
+import { BasicsModeSetting } from "@/components/learn/BasicsModeSetting";
 import { GoogleLoginButton } from "@/components/ui/GoogleLoginButton";
 import { LogoutButton } from "@/components/ui/LogoutButton";
 import { isAdmin } from "@/lib/auth";
@@ -91,6 +92,14 @@ export default async function MePage() {
           <DevToggle enabled={devMode} />
         </div>
       )}
+
+      <section className="mb-6">
+        <h2 className="mb-1.5 px-4 text-xs font-medium text-muted">閱讀</h2>
+        <div className="overflow-hidden rounded-2xl bg-card shadow-sm">
+          <BasicsModeSetting />
+        </div>
+        <p className="mt-1.5 px-4 text-xs text-muted">知識頁裡補背景知識的收合區塊。設定只存在這台裝置。</p>
+      </section>
 
       {groups.map((g) => (
         <section key={g.title} className="mb-6">

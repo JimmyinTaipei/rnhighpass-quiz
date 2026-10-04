@@ -9,12 +9,19 @@ export interface TocNode {
   children: TocNode[];
 }
 
+/**
+ * 重點摘要底下的「國考常考點」(### {#exam-points})畫面上直接併進重點條列,沒有標題,
+ * 所以也不進目錄。markdown 保留這個子標題,是為了嵌入藥物重點時能把國考點排除(見 ArticleRenderer)。
+ */
+export const isMergedExamPoints = (parent: KnowledgeSection, child: KnowledgeSection) =>
+  parent.id === "summary" && child.id === "exam-points";
+
 export function buildToc(sections: KnowledgeSection[]): TocNode[] {
   return sections.map((s) => ({
     id: s.id,
     number: s.number,
     title: s.title,
     depth: s.depth,
-    children: buildToc(s.children),
+    children: buildToc(s.children.filter((c) => !isMergedExamPoints(s, c))),
   }));
 }

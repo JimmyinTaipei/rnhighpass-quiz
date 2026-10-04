@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { visit } from "unist-util-visit";
 import type { Root } from "hast";
-import { ChevronRight, FilePenLine, Stethoscope } from "lucide-react";
+import { ChevronRight, FilePenLine } from "lucide-react";
 import { ExamPresence } from "@/components/learn/ExamPresence";
 import { renderHast, SectionView, type RenderContext } from "@/components/learn/ArticleRenderer";
 import { ArticleMetaEditor } from "@/components/learn/KnowledgeEditors";
@@ -216,26 +216,17 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
             </a>
           </p>
         )}
-        <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
-          {/* 草稿標記只給管理者看,學生端不出現這個字樣 */}
-          {admin && !article.reviewed && (
+        {/* 草稿標記只給管理者看,學生端不出現這個字樣 */}
+        {admin && !article.reviewed && (
+          <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
             <span
               className="inline-flex items-center gap-1 rounded-full bg-[#FDF3E3] px-2.5 py-1 font-medium text-[#8A5200]"
               title="內容由 AI 協助整理,尚待人工審閱"
             >
               <FilePenLine size={13} /> 草稿・待審閱
             </span>
-          )}
-          {article.dzTags.map((tag) => (
-            <Link
-              key={tag}
-              href={`/diseases/${encodeURIComponent(tag)}`}
-              className="inline-flex items-center gap-1 rounded-full bg-light px-2.5 py-1 font-medium text-deep hover:bg-mid"
-            >
-              <Stethoscope size={13} /> {tag} 考題
-            </Link>
-          ))}
-        </div>
+          </div>
+        )}
         {examStats && <ExamPresence slug={slug} stats={examStats} links={topicLinks} />}
         {basicsUsers.length > 0 && (
           <p className="mt-3 text-sm text-muted">

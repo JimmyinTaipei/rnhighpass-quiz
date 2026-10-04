@@ -30,6 +30,17 @@ references:
 - 禁忌：**懷孕**、曾發生血管性水腫、**雙側腎動脈狹窄**;不可與 ARB/aliskiren 合併。
 - 護理：追蹤血壓、**血鉀、肌酸酐**;避免鉀補充劑與代鹽;育齡女性須避孕。
 
+### 國考常考點 {#exam-points}
+
+- 機轉：「抑制 angiotensin I 轉換成 angiotensin II」→ captopril 等 **-pril**;**Angiotensin II 與醛固酮都下降**，**bradykinin 增加**(「減少 bradykinin 濃度」是錯的)。
+- ACEI 用於心衰竭：降低血管阻力、減少鈉水滯留、抑制交感活性;**losartan 不是 ACEI**(是 ARB)。
+- **乾咳**是 ACEI(captopril)的典型副作用——bradykinin 堆積。
+- ACEI 造成**高血鉀**，不是低血鉀;ACEI 與醛固酮拮抗劑都是高血鉀的原因。
+- 慢性腎臟病/糖尿病：ACEI **可減少蛋白尿**，是糖尿病高血壓病人較適合的藥。
+- **孕婦禁用** captopril(ACEI 與 ARB 皆禁);孕期可用 labetalol、nifedipine、methyldopa、hydralazine。
+- ACEI 會使**血鋰濃度上升**(與 NSAIDs、thiazide 同)。
+- 腎素抑制劑是 **aliskiren**，不是 ACEI。
+
 ## 作用機轉 {#mechanism}
 
 腎素把肝臟製造的血管張力素原(angiotensinogen)切成 angiotensin I，再由主要位於**肺臟微血管內皮**的 ACE 轉成 **angiotensin II**(生理見 [[blood-pressure-regulation#raas]])。ACEI 阻斷這一步：
@@ -116,17 +127,6 @@ ACEI 降低腎絲球內壓、減少蛋白尿，且**不影響血糖與血脂**;�
 - 大手術前：醫師可能請病人術前暫停 ACEI/ARB，以免麻醉中低血壓(2025 AHA/ACC COR 2b)(來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e183)。
 - 不自行服用 NSAIDs 止痛藥。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- 機轉：「抑制 angiotensin I 轉換成 angiotensin II」→ captopril 等 **-pril**;**Angiotensin II 與醛固酮都下降**，**bradykinin 增加**(「減少 bradykinin 濃度」是錯的)。
-- ACEI 用於心衰竭：降低血管阻力、減少鈉水滯留、抑制交感活性;**losartan 不是 ACEI**(是 ARB)。
-- **乾咳**是 ACEI(captopril)的典型副作用——bradykinin 堆積。
-- ACEI 造成**高血鉀**，不是低血鉀;ACEI 與醛固酮拮抗劑都是高血鉀的原因。
-- 慢性腎臟病/糖尿病：ACEI **可減少蛋白尿**，是糖尿病高血壓病人較適合的藥。
-- **孕婦禁用** captopril(ACEI 與 ARB 皆禁);孕期可用 labetalol、nifedipine、methyldopa、hydralazine。
-- ACEI 會使**血鋰濃度上升**(與 NSAIDs、thiazide 同)。
-- 腎素抑制劑是 **aliskiren**，不是 ACEI。
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(pril|ACEI|ACE inhibitor|血管(收縮|張力|緊縮|加壓)素.{0,2}轉換)" limit="10"}

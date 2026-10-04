@@ -27,6 +27,12 @@ references:
 - 一般於**飯前約 30 分鐘**服用(glimepiride、gliclazide 緩釋錠常於早餐時服用，依各藥仿單);老人、腎功能不佳者特別小心低血糖，**老人應避免 glyburide**(來源：[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013))。
 - 便宜、降 HbA1c 效果強，但長期效果會隨 β 細胞衰退而下降。
 
+### 國考常考點 {#exam-points}
+
+- 機轉：**促進胰臟 β 細胞分泌胰島素**(不是促進升糖素、不是增加肝臟釋糖、不是減少受體)。
+- 「單獨使用時最可能造成低血糖」→ **Glyburide**;ADA 2026 也建議**老人避免 glyburide**(來源：[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013))。
+- 「會增加體重」的口服藥：SU、Meglitinide、TZD;**不會增加體重：Metformin**。
+
 ## 作用機轉 {#mechanism}
 
 藥物結合 β 細胞 ATP 敏感性鉀通道(K-ATP)上的**磺醯脲受體 SUR1** → 通道關閉 → 細胞膜去極化 → 鈣離子流入 → 胰島素分泌。等於「繞過」了葡萄糖感測步驟(見 [[glucose-homeostasis#secretion-steps]] 的圖)。
@@ -72,12 +78,6 @@ references:
 - 避免飲酒。
 - 監測體重、血糖、腎功能。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- 機轉：**促進胰臟 β 細胞分泌胰島素**(不是促進升糖素、不是增加肝臟釋糖、不是減少受體)。
-- 「單獨使用時最可能造成低血糖」→ **Glyburide**;ADA 2026 也建議**老人避免 glyburide**(來源：[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013))。
-- 「會增加體重」的口服藥：SU、Meglitinide、TZD;**不會增加體重：Metformin**。
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(glyburide|glibenclamide|glipizide|glimepiride|gliclazide|sulfonylurea|sulphonylurea|磺醯脲|磺胺尿素)" limit="10"}

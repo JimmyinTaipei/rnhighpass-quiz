@@ -34,6 +34,19 @@ references:
 - **標靶藥**攻擊特定分子：**imatinib**(BCR-ABL，CML)、**trastuzumab**(HER2，乳癌，監測**心臟功能**)、**EGFR 抑制劑**(肺癌，皮疹)。**免疫檢查點抑制劑**可能引起**全身各器官的免疫發炎**。
 - 護理重點：**安全防護**(雙層化療手套、防水隔離衣、基因毒性廢棄物)、**防止與處理外滲**(起疱劑)、**按時預防性止吐**、監測血球與感染。
 
+### 國考常考點 {#exam-points}
+
+- 化療利用**分裂快速**的特性；**G0 期**細胞不易被殺；**神經細胞**受影響最小。
+- 最低點 **7–14 天**；最常見副作用：**骨髓抑制、口腔炎、掉髮、噁心嘔吐**。
+- **誘導性** = 高劑量、多藥合併；**輔助性** = 合併手術或放療；**姑息性** = 緩解症狀。
+- 中樞神經腫瘤：**鞘內注射**、**Ommaya 儲存槽**；膀胱癌灌注：**thiotepa**、BCG、mitomycin。
+- 招牌毒性：**doxorubicin 心毒性**(拓樸異構酶 II)、**cisplatin 腎毒性、耳毒性、低血鎂**、**cyclophosphamide 出血性膀胱炎**、**vincristine 神經毒性與便秘(給軟便劑)、骨髓抑制輕、M 期**、**oxaliplatin 周邊神經毒性與肝毒性**、**carmustine 用於腦瘤**、**paclitaxel 結合微管蛋白**(不是烷基化劑)、**methotrexate 不是烷基化劑**、**leucovorin 解 methotrexate**、**amifostine 保護正常細胞**、**irinotecan 是拓樸異構酶 I 抑制劑**、**etoposide 是週期專一性**。
+- 標靶：**imatinib 抑制 BCR-ABL**(CML、GIST)、**gefitinib 抑制 EGFR 酪胺酸激酶**、**panitumumab 抑制 EGFR**、**trastuzumab 靜脈滴注、監測心臟**、**sorafenib 手足皮膚反應**；乳癌相關基因是 **HER2** 不是 EGFR。
+- 荷爾蒙：**letrozole 只用於停經後**；**ER／PR 越高反應越好**；tamoxifen 注意**更年期症狀、噁心、水腫**。
+- **干擾素**：類流感症狀。**心臟病人**的止吐選 **palonosetron**。
+- 安全防護：抽藥保持**負壓**；廢棄物丟**基因毒性廢棄物**，不是感染性垃圾。
+- 外滲順序：**停止注射 → 反抽 → 冷熱敷或解毒劑 → 每日追蹤**；**doxorubicin 冷敷**、**vincristine 與紫杉醇溫熱敷**；解毒劑注射在**外滲部位四周**。
+
 ## 作用原理 {#mechanism}
 
 ### 細胞週期 {#cell-cycle}
@@ -136,7 +149,10 @@ references:
 - **Doxorubicin**(Adriamycin，小紅莓)：
   - 機轉：**嵌入 DNA**、抑制**拓樸異構酶 II**(不是第 I 型)、產生自由基。
   - **心臟毒性**：**累積劑量**相關的心肌病變與心衰竭；治療前與期間要做**心臟超音波或 MUGA 測左心室射出分率**，並記錄累積劑量。**Dexrazoxane** 可保護心臟。
-  - **起疱劑**；尿液呈**紅色** 1–2 天(要事先告知病人，不是血尿)；掉髮明顯；放射回憶反應。
+  - 特色
+    1. **起疱劑**
+    2. 尿液呈**紅色** 1–2 天（要事先告知病人，不是血尿）
+    3. 掉髮明顯；放射回憶反應
   - **微脂體小紅莓**(Lipo-Dox)：心臟毒性與起疱性較低，但**手足症候群**較多；是卵巢癌**復發後**的常用藥，不是初診斷首選(初診斷通常用 carboplatin 加 paclitaxel)。
 - **Bleomycin**：**肺纖維化**(與累積劑量、高齡、吸氧相關，要監測肺功能)、發燒寒顫、皮膚色素沉著；**幾乎不抑制骨髓**；作用在 G2 期。
 - **Mitomycin**：起疱劑；膀胱灌注。**Dactinomycin**：威爾姆氏腫瘤等兒童癌症；起疱劑。
@@ -256,7 +272,11 @@ Sorafenib、capecitabine、5-FU、微脂體小紅莓常造成手掌腳掌紅、�
 | **預期性** | **給藥前**就吐(過去經驗形成的**條件反射**) | 最好的預防是**第一次就控制好嘔吐**；發生後用**行為治療**(放鬆、分散注意力)與 **benzodiazepine**(lorazepam) |
 | 突破性 | 已預防仍嘔吐 | 加上不同機轉的藥 |
 
-- **致吐風險**：**高**：cisplatin、高劑量 cyclophosphamide、**蒽環類加 cyclophosphamide**(AC 療法)；中：carboplatin、oxaliplatin、irinotecan；低：紫杉醇、5-FU、gemcitabine；極低：vincristine、bleomycin、rituximab。
+- **致吐風險**
+  1. **高**：cisplatin、高劑量 cyclophosphamide、**蒽環類加 cyclophosphamide**（AC 療法）
+  2. 中：carboplatin、oxaliplatin、irinotecan
+  3. 低：紫杉醇、5-FU、gemcitabine
+  4. 極低：vincristine、bleomycin、rituximab
 
 ### 止吐藥 {#antiemetic-drugs}
 
@@ -271,7 +291,11 @@ Sorafenib、capecitabine、5-FU、微脂體小紅莓常造成手掌腳掌紅、�
 | Lorazepam | Benzodiazepine | **預期性嘔吐**、焦慮 |
 
 - **高致吐**化療：NK1 拮抗劑 + 5-HT3 拮抗劑 + dexamethasone + **olanzapine** 四合一；**中致吐**：5-HT3 拮抗劑 + dexamethasone(carboplatin 劑量高時加 NK1 拮抗劑)(來源：[UpToDate：CINV](https://www.uptodate.com/contents/prevention-of-chemotherapy-induced-nausea-and-vomiting-in-adults)；MASCC／ESMO 2023 與 ASCO 止吐指引的共同建議)。
-- 護理：止吐藥在化療**前 30–60 分鐘**依醫囑**按時給**，不要等吐了才給；少量多餐、清淡、**避免油膩與濃烈氣味**，冷食氣味較淡；吐後漱口；記錄嘔吐量與電解質。
+- 護理
+  1. 止吐藥在化療**前 30–60 分鐘**依醫囑**按時給**，不要等吐了才給
+  2. 少量多餐、清淡、**避免油膩與濃烈氣味**，冷食氣味較淡
+  3. 吐後漱口
+  4. 記錄嘔吐量與電解質
 
 ## 安全防護(危害性藥品) {#safe-handling}
 
@@ -356,20 +380,7 @@ Doxorubicin 可能造成沿著靜脈的**紅色條紋與搔癢**，但**沒有�
 - 冷熱敷每次約 **15–20 分鐘**，每 **4–6 小時**一次，持續 **1–2 天**(依藥物與院內規範)。
 - 長春花鹼與 etoposide 外滲**不可用類固醇**，可能加重皮膚損傷。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- 化療利用**分裂快速**的特性；**G0 期**細胞不易被殺；**神經細胞**受影響最小。
-- 最低點 **7–14 天**；最常見副作用：**骨髓抑制、口腔炎、掉髮、噁心嘔吐**。
-- **誘導性** = 高劑量、多藥合併；**輔助性** = 合併手術或放療；**姑息性** = 緩解症狀。
-- 中樞神經腫瘤：**鞘內注射**、**Ommaya 儲存槽**；膀胱癌灌注：**thiotepa**、BCG、mitomycin。
-- 招牌毒性：**doxorubicin 心毒性**(拓樸異構酶 II)、**cisplatin 腎毒性、耳毒性、低血鎂**、**cyclophosphamide 出血性膀胱炎**、**vincristine 神經毒性與便秘(給軟便劑)、骨髓抑制輕、M 期**、**oxaliplatin 周邊神經毒性與肝毒性**、**carmustine 用於腦瘤**、**paclitaxel 結合微管蛋白**(不是烷基化劑)、**methotrexate 不是烷基化劑**、**leucovorin 解 methotrexate**、**amifostine 保護正常細胞**、**irinotecan 是拓樸異構酶 I 抑制劑**、**etoposide 是週期專一性**。
-- 標靶：**imatinib 抑制 BCR-ABL**(CML、GIST)、**gefitinib 抑制 EGFR 酪胺酸激酶**、**panitumumab 抑制 EGFR**、**trastuzumab 靜脈滴注、監測心臟**、**sorafenib 手足皮膚反應**；乳癌相關基因是 **HER2** 不是 EGFR。
-- 荷爾蒙：**letrozole 只用於停經後**；**ER／PR 越高反應越好**；tamoxifen 注意**更年期症狀、噁心、水腫**。
-- **干擾素**：類流感症狀。**心臟病人**的止吐選 **palonosetron**。
-- 安全防護：抽藥保持**負壓**；廢棄物丟**基因毒性廢棄物**，不是感染性垃圾。
-- 外滲順序：**停止注射 → 反抽 → 冷熱敷或解毒劑 → 每日追蹤**；**doxorubicin 冷敷**、**vincristine 與紫杉醇溫熱敷**；解毒劑注射在**外滲部位四周**。
-:::
+## 相關考題 {#questions}
 
 ::questions{ids="111-2_MS_043,111-1_MS_039,110-2_MS_039,107-1_MS_040,106-2_makeup_MS_036,106-1_MS_035,105-2_MS_036,105-1_MS_035,105-2_OP_070,108-1_BM_054,109-2_BM_052,113-3_BM_037,106-1_BM_039,114-2_MS_022,113-1_MS_021,115-2_BM_040,111-2_BM_040,109-1_BM_052,105-1_BM_064,114-1_BM_040,114-2_BM_040,114-1_BM_039,115-2_MS_026,113-2_MS_033,106-2_MS_034,108-1_OP_035,112-2_MS_039,106-2_makeup_MS_059,113-3_BM_039,112-3_BM_039,110-2_BM_064,105-1_MS_043,113-2_BM_039,106-2_OP_039,107-2_MS_038,110-1_BM_063,107-1_BM_056,106-2_BM_060,105-1_BM_063,113-3_BM_040,112-2_BM_039,108-2_BM_062,113-2_MS_026,108-2_MS_031,111-1_OP_035,106-1_OP_070,108-2_MS_039,107-2_MS_041,105-2_MS_034"}
 

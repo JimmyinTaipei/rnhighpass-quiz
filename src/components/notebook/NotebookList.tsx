@@ -94,7 +94,7 @@ export function NotebookList({
       </div>
 
       {selecting && (
-        <div className="sticky top-0 z-10 mb-3 flex flex-wrap items-center gap-3 rounded-btn border border-subj-accent bg-subj-light px-3 py-2 text-sm">
+        <div className="sticky top-0 z-10 mb-3 md:top-(--desk-bar) flex flex-wrap items-center gap-3 rounded-btn border border-subj-accent bg-subj-light px-3 py-2 text-sm">
           <span className="text-subj-deep">
             已選 {selected.size} 題{selected.size > MAX_SELECTED && `（最多匯出 ${MAX_SELECTED} 題）`}
           </span>

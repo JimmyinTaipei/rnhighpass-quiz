@@ -4,8 +4,11 @@ import { isMockOnly } from "@/lib/site-mode";
 import { FavoritesProvider } from "@/components/favorites/FavoritesProvider";
 import { DevBanner } from "@/components/admin/DevBanner";
 import { AppSidebar } from "@/components/shell/AppSidebar";
+import { DesktopBackBar } from "@/components/shell/DesktopBackBar";
 import { MobileTabBar } from "@/components/shell/MobileTabBar";
 import { MobileTopBar } from "@/components/shell/MobileTopBar";
+import { NavHistoryTracker } from "@/components/shell/NavHistoryTracker";
+import { ScrollTopButton } from "@/components/shell/ScrollTopButton";
 import { Skeleton } from "@/components/ui/Skeleton";
 import { UserStatus } from "@/components/ui/UserStatus";
 
@@ -49,6 +52,8 @@ export default function SiteLayout({
                 </Suspense>
               }
             />
+            {/* 電腦版左上角返回(手機用上面 MobileTopBar 的返回鍵) */}
+            <DesktopBackBar />
             {/* 手機底部頁籤 3.5rem + Home 指示條，內容不能被蓋住 */}
             <div className="flex flex-1 flex-col pb-[calc(3.5rem+env(safe-area-inset-bottom))] md:pb-0">
               {children}
@@ -56,6 +61,8 @@ export default function SiteLayout({
           </div>
         </div>
         <MobileTabBar />
+        <ScrollTopButton />
+        <NavHistoryTracker />
         {panel}
       </div>
     </FavoritesProvider>

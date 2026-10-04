@@ -14,7 +14,7 @@ const ROOT = process.cwd();
 const CONTENT_DIR = path.join(ROOT, "content/knowledge");
 const BUILD_SCRIPT = path.join(ROOT, "scripts/build-knowledge.mjs");
 // 與 build-knowledge.mjs 的 CATEGORIES 相同
-const CATEGORIES = ["disease", "physiology", "drug", "lab", "care", "pathogen", "admin", "procedure"];
+const CATEGORIES = ["disease", "physiology", "drug", "lab", "care", "pathogen", "admin", "procedure", "device"];
 
 export async function articleFile(slug: string): Promise<string | null> {
   if (!SLUG_PATTERN.test(slug)) return null;

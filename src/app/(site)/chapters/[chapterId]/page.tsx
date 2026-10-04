@@ -1,6 +1,8 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BookOpen, ChevronRight, FileDown } from "lucide-react";
+import { KnowledgeSearchBox } from "@/components/learn/KnowledgeSearchBox";
 import { NoteCard } from "@/components/notes/NoteCard";
 import { ChapterMap } from "@/components/reading/ChapterMap";
 import { ReadingControls } from "@/components/reading/ReadingControls";
@@ -73,6 +75,9 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
 
   return (
     <div data-group={group} className="min-w-0">
+      <Suspense fallback={<div className="mb-4 h-10 max-w-md" />}>
+        <KnowledgeSearchBox mode="submit" className="mb-4 max-w-md" />
+      </Suspense>
       <p className="mb-1 text-sm text-muted">
         <Link href="/subjects" className="hover:text-subj-deep">
           科目

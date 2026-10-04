@@ -5,7 +5,7 @@ import { ChevronRight, Sprout } from "lucide-react";
 import { useBasicsMode } from "@/lib/basics-mode";
 
 /**
- * 第二層「想打好基礎」:預設收合,淡色底與固定圖示,國考生一眼知道可以略過。
+ * 第二層「想打好基礎」:預設收合(/me 可改成全部展開或隱藏),淡色底與固定圖示,國考生一眼知道可以略過。
  * 不是段落,所以不進左側目錄。fullHref 有值時底部加「看完整頁面 →」(第三層)。
  */
 export function BasicsBox({
@@ -20,7 +20,8 @@ export function BasicsBox({
   const mode = useBasicsMode();
   if (mode === "hidden") return null;
   return (
-    <details className="kb-basics group my-4 rounded-btn border border-card-border bg-page/70">
+    // key 讓切換模式時重設展開狀態;展開後仍可自己收起
+    <details key={mode} open={mode === "expanded"} className="kb-basics group my-4 rounded-btn border border-card-border bg-page/70">
       <summary className="flex cursor-pointer list-none items-center gap-1.5 px-3 py-2 text-sm text-body [&::-webkit-details-marker]:hidden">
         <ChevronRight size={15} className="shrink-0 text-muted transition-transform group-open:rotate-90 motion-reduce:transition-none" />
         <Sprout size={15} className="shrink-0 text-correct" aria-hidden />

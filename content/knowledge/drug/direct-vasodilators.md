@@ -31,6 +31,14 @@ references:
 - **Nitroprusside**：**高血壓急症**靜脈滴注，數秒起效、停藥 1–2 分鐘消失;**避光**;注意**氰化物與硫氰酸鹽中毒**;**孕婦禁用**。
 - 口服者常需併用 **β 阻斷劑(抵銷心搏過速)+ 利尿劑(抵銷水鈉滯留)**。
 
+### 國考常考點 {#exam-points}
+
+- **輸注 nitroprusside(Nipride)需以不透光錫箔紙包住點滴瓶及輸液管**(nitroglycerin 不需避光包覆，但要用非 PVC 管路)。
+- 緊急降壓藥中**作用時間最短 → nitroprusside**(停藥 1–2 分鐘消失);毒性：**氰化物、硫氰酸鹽**。
+- **長期服用 minoxidil → 多毛症**;注射 **diazoxide** 可治療高血壓危象(舊用法)。
+- **Hydralazine**：孕婦可用的降壓藥(孕婦禁用的是 captopril);會造成**反射性心搏過速**;長期使用**類狼瘡**。
+- 單純小動脈擴張劑要併用 β 阻斷劑 + 利尿劑。
+
 ## 作用機轉 {#mechanism}
 
 | 藥物 | 作用 | 擴張部位 |
@@ -144,14 +152,6 @@ Nitroprusside 分子含 5 個**氰根(CN⁻)**：釋放 NO 時氰根也被釋出
 - 事先告知**多毛症**(可除毛，停藥後會慢慢消退)，避免病人自行停藥。
 - 與 β 阻斷劑、利尿劑一起規則服用。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- **輸注 nitroprusside(Nipride)需以不透光錫箔紙包住點滴瓶及輸液管**(nitroglycerin 不需避光包覆，但要用非 PVC 管路)。
-- 緊急降壓藥中**作用時間最短 → nitroprusside**(停藥 1–2 分鐘消失);毒性：**氰化物、硫氰酸鹽**。
-- **長期服用 minoxidil → 多毛症**;注射 **diazoxide** 可治療高血壓危象(舊用法)。
-- **Hydralazine**：孕婦可用的降壓藥(孕婦禁用的是 captopril);會造成**反射性心搏過速**;長期使用**類狼瘡**。
-- 單純小動脈擴張劑要併用 β 阻斷劑 + 利尿劑。
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(hydralazine|minoxidil|nitroprusside|Nipride|diazoxide|Apresoline)" limit="8"}

@@ -29,6 +29,14 @@ references:
 - 副作用：高血鉀、低血壓、腎功能暫時下降;**乾咳與血管性水腫比 ACEI 少很多**。
 - **孕婦禁用**;**不可與 ACEI 併用**;valsartan 與 sacubitril 組成 ARNI。
 
+### 國考常考點 {#exam-points}
+
+- **Losartan、irbesartan**(-sartan)= 血管收縮素 **II 受體**(AT1)拮抗劑;「angiotensin I 受體拮抗劑」是錯誤選項。
+- Losartan **不屬於 ACEI**，常被放在 ACEI 題目當干擾選項。
+- ARB 不增加 bradykinin → 乾咳少，是 ACEI 乾咳者的替代。
+- 高血鉀、孕婦禁用與 ACEI 相同;ACEI 與 ARB **不可併用**。
+- Azilsartan 是 ARB;**aliskiren 才是腎素抑制劑**。
+
 ## 作用機轉 {#mechanism}
 
 Angiotensin II 主要透過 **AT1 受體**造成：小動脈收縮、醛固酮與 ADH 分泌、口渴、交感活化、心肌與血管肥厚纖維化(生理見 [[blood-pressure-regulation#raas]])。ARB 在**受體端**競爭性阻斷 AT1:
@@ -109,14 +117,6 @@ Angiotensin II 主要透過 **AT1 受體**造成：小動脈收縮、醛固酮�
 - 嘴唇、舌頭腫脹或呼吸困難立即就醫(雖然少見)。
 - 可與或不與食物併服，每天固定時間服用。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- **Losartan、irbesartan**(-sartan)= 血管收縮素 **II 受體**(AT1)拮抗劑;「angiotensin I 受體拮抗劑」是錯誤選項。
-- Losartan **不屬於 ACEI**，常被放在 ACEI 題目當干擾選項。
-- ARB 不增加 bradykinin → 乾咳少，是 ACEI 乾咳者的替代。
-- 高血鉀、孕婦禁用與 ACEI 相同;ACEI 與 ARB **不可併用**。
-- Azilsartan 是 ARB;**aliskiren 才是腎素抑制劑**。
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(sartan|AT1|angiotensin II 受體|血管(收縮|張力)素 ?II 受體)" limit="8"}

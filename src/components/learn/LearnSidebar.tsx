@@ -77,7 +77,7 @@ export function LearnSidebar({ groups }: { groups: LearnNavGroup[] }) {
       </details>
 
       <aside className="hidden lg:block">
-        <nav aria-label="知識庫分類" className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto pr-1">
+        <nav aria-label="知識庫分類" className="sticky top-[calc(var(--desk-bar)+1rem)] max-h-[calc(100vh-2rem-var(--desk-bar))] overflow-y-auto pr-1">
           {header}
           {list}
         </nav>

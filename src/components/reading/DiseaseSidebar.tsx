@@ -71,7 +71,7 @@ export function DiseaseSidebar({ tags }: DiseaseSidebarProps) {
     <>
       <nav
         aria-label="疾病標籤"
-        className="sticky top-4 hidden max-h-[calc(100vh-2rem)] w-64 shrink-0 self-start overflow-y-auto pr-2 lg:block"
+        className="sticky top-[calc(var(--desk-bar)+1rem)] hidden max-h-[calc(100vh-2rem-var(--desk-bar))] w-64 shrink-0 self-start overflow-y-auto pr-2 lg:block"
       >
         {body}
       </nav>

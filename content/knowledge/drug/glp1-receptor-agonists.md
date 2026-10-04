@@ -32,6 +32,11 @@ references:
 - **甲狀腺髓質癌或 MEN2 個人/家族史禁用**(仿單禁忌;來源：[台灣成人肥胖及肥胖相關併發症與疾病臨床照護指引](https://www.endo-dm.org.tw/) 第 7.2 章，p.241)。
 - **不與 DPP-4 抑制劑併用**(來源：[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 建議 9.18)。
 
+### 國考常考點 {#exam-points}
+
+- 腸泌素類似物的作用：**增加葡萄糖依賴性胰島素釋放、減少升糖素、減緩胃排空**;「增加葡萄糖從尿液排除」是錯的(那是 [[sglt2-inhibitors|SGLT2i]])。
+- Exenatide 採**皮下注射**，「採肌肉注射」是錯的。
+
 ## 作用機轉 {#mechanism}
 
 結合 GLP-1 受體，放大腸泌素效應(生理見 [[glucose-homeostasis#incretin]]):
@@ -100,11 +105,6 @@ references:
 - 安排手術、內視鏡或深度鎮靜前，主動確認是否使用 GLP-1 RA 或 tirzepatide 並通知麻醉團隊。
 - 減重效果停藥後常會回升，需搭配生活型態調整。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- 腸泌素類似物的作用：**增加葡萄糖依賴性胰島素釋放、減少升糖素、減緩胃排空**;「增加葡萄糖從尿液排除」是錯的(那是 [[sglt2-inhibitors|SGLT2i]])。
-- Exenatide 採**皮下注射**，「採肌肉注射」是錯的。
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(glutide|exenatide|GLP-? ?1|incretin|腸泌素)" limit="6"}

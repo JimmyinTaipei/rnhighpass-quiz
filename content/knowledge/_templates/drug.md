@@ -27,6 +27,11 @@ references:
 - 主要副作用：
 - 護理重點：
 
+### 國考常考點 {#exam-points}
+
+- 機轉的標準答案
+- 常見錯誤選項
+
 ## 作用機轉 {#mechanism}
 
 說明作用在哪個生理步驟，並連到生理頁：[[生理頁slug#段落id]]。
@@ -49,11 +54,6 @@ references:
 
 ## 護理重點與衛教 {#nursing}
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- 機轉的標準答案
-- 常見錯誤選項
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(代表藥英文名|類別名)" limit="8"}

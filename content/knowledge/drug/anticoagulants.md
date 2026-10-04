@@ -37,6 +37,21 @@ references:
 - **DOAC**(dabigatran、-xaban 類)：固定劑量、不需常規抽血，食物交互作用少;**機械瓣膜禁用**。
 - 共同護理：**出血監測與衛教**、軟毛牙刷與電動刮鬍刀、避免肌肉注射、不可自行停藥或加倍補吃。
 
+### 國考常考點 {#exam-points}
+
+- **Heparin → aPTT、解毒 protamine sulfate;Warfarin → PT/INR、解毒維生素 K**。「heparin 監測 PT」「warfarin 監測 PTT」「PT 延長打 protamine」都是錯的。
+- Heparin 使 aPTT 維持在正常的 **1.5–2.5 倍**。
+- Heparin **皮下注射**(可)、不肌肉注射、**不回抽、不按摩**;可以按摩的是肌肉注射的 Demerol，不是 heparin、insulin 或皮內試驗。
+- Warfarin 機轉：拮抗維生素 K，抑制 II、VII、IX、X 合成 → 深綠色蔬菜**避免大量、保持穩定**;「鼓勵多吃菠菜」「菠菜會加強 warfarin」都錯。
+- 使用 heparin 的病人**不需要**避免深色蔬菜。
+- Warfarin 漏吃**不可隔天吃雙倍**;銀杏、黑木耳、當歸會**增強**藥效;甲狀腺素會**增強**抗凝效果。
+- 抗凝劑的目的是**抑制血栓生成**，不是溶解血栓、不是控制心跳。
+- 心房顫動長期預防栓塞用**口服**抗凝劑(warfarin 或 DOAC),heparin 不能口服。
+- Rivaroxaban 是**抗凝血劑**(Xa 抑制劑);clopidogrel、tirofiban、aspirin 是抗血小板藥。
+- Argatroban 是**注射型**直接凝血酶抑制劑，用於 HIT，不需 antithrombin。
+- 主動脈剝離**不可**用抗凝劑。
+- 機械瓣 → 終身 warfarin;生物瓣 → 短期;計畫懷孕與高齡者選生物瓣。
+
 ## 作用機轉 {#mechanism}
 
 ![抗血小板、抗凝血與血栓溶解劑的作用位置](/knowledge-images/antithrombotic-drug-sites.svg)
@@ -227,22 +242,7 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 - 出現**突發呼吸困難、胸痛、心跳加快、咳血、焦慮** → 懷疑**肺栓塞**。
 - 預防：早期下床、踝幫浦運動、避免久坐久站、**不要翹腳或交叉雙腿**、避免膝下墊枕與緊身衣物、充足水分;高風險者依醫囑使用彈性襪或間歇性充氣加壓裝置;避免口服避孕藥與吸菸。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- **Heparin → aPTT、解毒 protamine sulfate;Warfarin → PT/INR、解毒維生素 K**。「heparin 監測 PT」「warfarin 監測 PTT」「PT 延長打 protamine」都是錯的。
-- Heparin 使 aPTT 維持在正常的 **1.5–2.5 倍**。
-- Heparin **皮下注射**(可)、不肌肉注射、**不回抽、不按摩**;可以按摩的是肌肉注射的 Demerol，不是 heparin、insulin 或皮內試驗。
-- Warfarin 機轉：拮抗維生素 K，抑制 II、VII、IX、X 合成 → 深綠色蔬菜**避免大量、保持穩定**;「鼓勵多吃菠菜」「菠菜會加強 warfarin」都錯。
-- 使用 heparin 的病人**不需要**避免深色蔬菜。
-- Warfarin 漏吃**不可隔天吃雙倍**;銀杏、黑木耳、當歸會**增強**藥效;甲狀腺素會**增強**抗凝效果。
-- 抗凝劑的目的是**抑制血栓生成**，不是溶解血栓、不是控制心跳。
-- 心房顫動長期預防栓塞用**口服**抗凝劑(warfarin 或 DOAC),heparin 不能口服。
-- Rivaroxaban 是**抗凝血劑**(Xa 抑制劑);clopidogrel、tirofiban、aspirin 是抗血小板藥。
-- Argatroban 是**注射型**直接凝血酶抑制劑，用於 HIT，不需 antithrombin。
-- 主動脈剝離**不可**用抗凝劑。
-- 機械瓣 → 終身 warfarin;生物瓣 → 短期;計畫懷孕與高齡者選生物瓣。
-:::
+## 相關考題 {#questions}
 
 ::questions{group="antithrombotics" keyword="(heparin|肝素|warfarin|coumadin|enoxaparin|clexane|protamine|rivaroxaban|apixaban|dabigatran|edoxaban|argatroban|抗凝血|INR|aPTT)" limit="12"}
 

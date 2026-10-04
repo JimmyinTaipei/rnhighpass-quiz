@@ -1,5 +1,5 @@
 {
-  "accreditation-evaluation#exam-points": {
+  "accreditation-evaluation#questions": {
     "auto": [
       "111-2_FA_074",
       "109-2_FA_080",
@@ -8,7 +8,7 @@
       "105-1_FA_065"
     ]
   },
-  "clinical-ladder-training#exam-points": {
+  "clinical-ladder-training#questions": {
     "auto": [
       "114-2_FA_043",
       "114-2_FA_041",
@@ -38,7 +38,7 @@
       "105-1_FA_068"
     ]
   },
-  "conflict-change-management#exam-points": {
+  "conflict-change-management#questions": {
     "auto": [
       "114-2_FA_044",
       "113-1_FA_040",
@@ -69,7 +69,7 @@
       "105-1_FA_036"
     ]
   },
-  "decision-making#exam-points": {
+  "decision-making#questions": {
     "auto": [
       "115-1_FA_049",
       "115-1_FA_039",
@@ -97,7 +97,7 @@
       "105-2_FA_057"
     ]
   },
-  "delegation-empowerment#exam-points": {
+  "delegation-empowerment#questions": {
     "auto": [
       "115-2_FA_039",
       "115-1_FA_044",
@@ -122,7 +122,7 @@
       "105-1_FA_064"
     ]
   },
-  "hospital-safety-environment#exam-points": {
+  "hospital-safety-environment#questions": {
     "auto": [
       "115-2_FA_045",
       "115-1_FA_041",
@@ -155,7 +155,7 @@
       "105-2_FA_079"
     ]
   },
-  "hr-management-recruitment#exam-points": {
+  "hr-management-recruitment#questions": {
     "auto": [
       "115-2_FA_044",
       "115-2_FA_043",
@@ -184,7 +184,7 @@
       "105-1_FA_057"
     ]
   },
-  "infection-control-administration#exam-points": {
+  "infection-control-administration#questions": {
     "auto": [
       "115-2_FA_047",
       "115-2_FA_046",
@@ -199,7 +199,7 @@
       "107-2_FA_071"
     ]
   },
-  "leadership-power-styles#exam-points": {
+  "leadership-power-styles#questions": {
     "auto": [
       "115-2_FA_038",
       "114-3_FA_047",
@@ -227,7 +227,7 @@
       "105-1_FA_078"
     ]
   },
-  "leadership-theories#exam-points": {
+  "leadership-theories#questions": {
     "auto": [
       "114-2_FA_048",
       "113-3_FA_050",
@@ -247,7 +247,7 @@
       "105-1_FA_077"
     ]
   },
-  "legal-liability-disputes#exam-points": {
+  "legal-liability-disputes#questions": {
     "auto": [
       "115-2_FA_048",
       "115-1_FA_001",
@@ -264,7 +264,7 @@
       "105-1_FA_058"
     ]
   },
-  "management-theories#exam-points": {
+  "management-theories#questions": {
     "auto": [
       "115-1_FA_038",
       "114-3_FA_036",
@@ -302,7 +302,7 @@
       "105-1_FA_061"
     ]
   },
-  "medical-records-consent#exam-points": {
+  "medical-records-consent#questions": {
     "auto": [
       "115-2_FA_049",
       "115-2_FA_048",
@@ -326,7 +326,7 @@
       "105-1_FA_017"
     ]
   },
-  "motivation-theories#exam-points": {
+  "motivation-theories#questions": {
     "auto": [
       "114-3_FA_043",
       "114-2_FA_047",
@@ -347,7 +347,7 @@
       "105-1_FA_070"
     ]
   },
-  "nurse-scheduling#exam-points": {
+  "nurse-scheduling#questions": {
     "auto": [
       "115-1_FA_043",
       "114-2_FA_050",
@@ -364,7 +364,7 @@
       "105-2_FA_058"
     ]
   },
-  "nurse-staffing-policy#exam-points": {
+  "nurse-staffing-policy#questions": {
     "auto": [
       "115-2_FA_036",
       "115-1_FA_046",
@@ -375,7 +375,7 @@
       "106-2_makeup_FA_057"
     ]
   },
-  "nursing-administration-overview#exam-points": {
+  "nursing-administration-overview#questions": {
     "auto": [
       "115-1_FA_040",
       "113-1_FA_038",
@@ -392,7 +392,7 @@
       "105-1_FA_076"
     ]
   },
-  "nursing-budgeting-drg#exam-points": {
+  "nursing-budgeting-drg#questions": {
     "auto": [
       "112-3_FA_037",
       "112-1_FA_078",
@@ -409,7 +409,7 @@
       "105-1_FA_059"
     ]
   },
-  "nursing-care-models#exam-points": {
+  "nursing-care-models#questions": {
     "auto": [
       "114-3_FA_038",
       "114-3_FA_003",
@@ -433,7 +433,7 @@
       "105-1_FA_066"
     ]
   },
-  "nursing-cost-analysis#exam-points": {
+  "nursing-cost-analysis#questions": {
     "auto": [
       "115-1_FA_037",
       "114-3_FA_050",
@@ -461,7 +461,7 @@
       "105-1_FA_071"
     ]
   },
-  "nursing-ethics-principles#exam-points": {
+  "nursing-ethics-principles#questions": {
     "auto": [
       "115-2_FA_049",
       "115-1_PC_027",
@@ -492,7 +492,7 @@
       "105-1_FA_002"
     ]
   },
-  "nursing-information-systems#exam-points": {
+  "nursing-information-systems#questions": {
     "auto": [
       "115-2_FA_049",
       "115-1_FA_050",
@@ -530,7 +530,7 @@
       "105-1_FA_079"
     ]
   },
-  "nursing-personnel-act#exam-points": {
+  "nursing-personnel-act#questions": {
     "auto": [
       "115-2_FA_002",
       "114-3_FA_024",
@@ -546,7 +546,7 @@
       "105-1_FA_007"
     ]
   },
-  "nursing-workload-productivity#exam-points": {
+  "nursing-workload-productivity#questions": {
     "auto": [
       "114-3_FA_042",
       "114-1_FA_041",
@@ -579,7 +579,7 @@
       "105-1_FA_060"
     ]
   },
-  "objectives-time-management#exam-points": {
+  "objectives-time-management#questions": {
     "auto": [
       "114-3_FA_040",
       "114-2_FA_036",
@@ -608,7 +608,7 @@
       "105-1_FA_072"
     ]
   },
-  "organization-structure#exam-points": {
+  "organization-structure#questions": {
     "auto": [
       "115-2_FA_040",
       "115-1_FA_044",
@@ -644,7 +644,7 @@
       "105-1_FA_064"
     ]
   },
-  "organizational-communication#exam-points": {
+  "organizational-communication#questions": {
     "auto": [
       "115-2_FA_049",
       "115-2_FA_041",
@@ -673,7 +673,7 @@
       "105-1_FA_036"
     ]
   },
-  "patient-safety-reporting#exam-points": {
+  "patient-safety-reporting#questions": {
     "auto": [
       "115-1_FA_042",
       "115-1_FA_041",
@@ -693,7 +693,7 @@
       "106-2_FA_079"
     ]
   },
-  "performance-appraisal#exam-points": {
+  "performance-appraisal#questions": {
     "auto": [
       "114-3_FA_048",
       "114-1_FA_040",
@@ -721,7 +721,7 @@
       "105-1_FA_073"
     ]
   },
-  "planning-strategy#exam-points": {
+  "planning-strategy#questions": {
     "auto": [
       "115-2_FA_037",
       "115-1_FA_040",
@@ -746,7 +746,7 @@
       "105-2_FA_062"
     ]
   },
-  "quality-improvement-tools#exam-points": {
+  "quality-improvement-tools#questions": {
     "auto": [
       "114-2_FA_049",
       "114-1_FA_048",
@@ -775,7 +775,7 @@
       "105-1_FA_074"
     ]
   },
-  "quality-management-concepts#exam-points": {
+  "quality-management-concepts#questions": {
     "auto": [
       "115-2_FA_050",
       "115-1_FA_048",
@@ -800,7 +800,7 @@
       "105-1_FA_062"
     ]
   },
-  "turnover-absenteeism#exam-points": {
+  "turnover-absenteeism#questions": {
     "auto": [
       "115-1_FA_043",
       "114-1_FA_042",
@@ -818,10 +818,10 @@
       "105-1_FA_036"
     ]
   },
-  "asepsis-sterilization#exam-points": {
+  "asepsis-sterilization#questions": {
     "auto": []
   },
-  "cancer-treatment-toxicities#exam-points": {
+  "cancer-treatment-toxicities#questions": {
     "auto": []
   },
   "cancer-treatment-toxicities#questions-radiation": {
@@ -844,7 +844,7 @@
       "111-1_MS_040"
     ]
   },
-  "end-of-life-care#exam-points": {
+  "end-of-life-care#questions": {
     "auto": []
   },
   "end-of-life-care#questions-psych-law": {
@@ -867,19 +867,19 @@
       "108-1_OP_066"
     ]
   },
-  "immunization#exam-points": {
+  "immunization#questions": {
     "auto": []
   },
-  "infection-control#exam-points": {
+  "infection-control#questions": {
     "auto": []
   },
-  "notifiable-diseases#exam-points": {
+  "notifiable-diseases#questions": {
     "auto": []
   },
-  "pain-management#exam-points": {
+  "pain-management#questions": {
     "auto": []
   },
-  "pain-management#exam-points~2": {
+  "pain-management#questions~2": {
     "auto": [
       "115-2_OP_033",
       "115-2_FA_032",
@@ -893,10 +893,10 @@
       "114-1_FA_033"
     ]
   },
-  "stem-cell-transplant#exam-points": {
+  "stem-cell-transplant#questions": {
     "auto": []
   },
-  "stem-cell-transplant#exam-points~2": {
+  "stem-cell-transplant#questions~2": {
     "auto": [
       "112-2_OP_072",
       "112-2_MS_033",
@@ -926,10 +926,10 @@
   "bipolar-disorder#nursing-discharge": {
     "auto": []
   },
-  "breast-cancer#exam-points": {
+  "breast-cancer#questions": {
     "auto": []
   },
-  "breast-cancer#exam-points~2": {
+  "breast-cancer#questions~2": {
     "auto": [
       "115-2_MS_026",
       "114-2_BM_040",
@@ -943,10 +943,10 @@
       "112-3_MS_024"
     ]
   },
-  "cancer#exam-points": {
+  "cancer#questions": {
     "auto": []
   },
-  "cancer#exam-points~2": {
+  "cancer#questions~2": {
     "auto": [
       "115-2_MS_025",
       "115-2_MS_023",
@@ -960,16 +960,16 @@
       "114-2_MS_022"
     ]
   },
-  "childhood-infectious-diseases#exam-points": {
+  "childhood-infectious-diseases#questions": {
     "auto": []
   },
-  "cns-infections#exam-points": {
+  "cns-infections#questions": {
     "auto": []
   },
-  "colorectal-cancer#exam-points": {
+  "colorectal-cancer#questions": {
     "auto": []
   },
-  "colorectal-cancer#exam-points~2": {
+  "colorectal-cancer#questions~2": {
     "auto": [
       "115-2_BM_040",
       "114-2_PC_036",
@@ -1358,10 +1358,10 @@
       "107-1_PC_064"
     ]
   },
-  "gynecologic-cancers#exam-points": {
+  "gynecologic-cancers#questions": {
     "auto": []
   },
-  "gynecologic-cancers#exam-points~2": {
+  "gynecologic-cancers#questions~2": {
     "auto": [
       "115-2_OP_024",
       "115-1_OP_025",
@@ -1375,10 +1375,10 @@
       "112-3_BM_047"
     ]
   },
-  "head-neck-cancers#exam-points": {
+  "head-neck-cancers#questions": {
     "auto": []
   },
-  "head-neck-cancers#exam-points~2": {
+  "head-neck-cancers#questions~2": {
     "auto": [
       "115-2_MS_015",
       "115-2_BM_025",
@@ -1516,7 +1516,7 @@
       "107-2_MS_033"
     ]
   },
-  "hiv-aids#exam-points": {
+  "hiv-aids#questions": {
     "auto": []
   },
   "hypertension#influencing-factors": {
@@ -1676,16 +1676,16 @@
       "109-1_OP_016"
     ]
   },
-  "infectious-diarrhea#exam-points": {
+  "infectious-diarrhea#questions": {
     "auto": []
   },
-  "infective-endocarditis#exam-points": {
+  "infective-endocarditis#questions": {
     "auto": []
   },
-  "leukemia#exam-points": {
+  "leukemia#questions": {
     "auto": []
   },
-  "leukemia#exam-points~2": {
+  "leukemia#questions~2": {
     "auto": [
       "114-3_MS_018",
       "114-2_OP_044",
@@ -1699,10 +1699,10 @@
       "113-1_OP_034"
     ]
   },
-  "liver-cancer#exam-points": {
+  "liver-cancer#questions": {
     "auto": []
   },
-  "liver-cancer#exam-points~2": {
+  "liver-cancer#questions~2": {
     "auto": [
       "115-2_BM_050",
       "114-3_PC_041",
@@ -1716,10 +1716,10 @@
       "106-2_makeup_MS_033"
     ]
   },
-  "lung-cancer#exam-points": {
+  "lung-cancer#questions": {
     "auto": []
   },
-  "lung-cancer#exam-points~2": {
+  "lung-cancer#questions~2": {
     "auto": [
       "115-2_MS_033",
       "115-2_BM_024",
@@ -1733,10 +1733,10 @@
       "112-1_FA_054"
     ]
   },
-  "lymphoma-myeloma#exam-points": {
+  "lymphoma-myeloma#questions": {
     "auto": []
   },
-  "lymphoma-myeloma#exam-points~2": {
+  "lymphoma-myeloma#questions~2": {
     "auto": [
       "115-1_MS_026",
       "115-1_MS_024",
@@ -1750,10 +1750,10 @@
       "112-1_MS_034"
     ]
   },
-  "pediatric-cancers#exam-points": {
+  "pediatric-cancers#questions": {
     "auto": []
   },
-  "pediatric-cancers#exam-points~2": {
+  "pediatric-cancers#questions~2": {
     "auto": [
       "115-2_MS_005",
       "115-1_OP_042",
@@ -1767,16 +1767,16 @@
       "113-3_OP_043"
     ]
   },
-  "pediatric-respiratory-infections#exam-points": {
+  "pediatric-respiratory-infections#questions": {
     "auto": []
   },
-  "perinatal-infections#exam-points": {
+  "perinatal-infections#questions": {
     "auto": []
   },
-  "pneumonia#exam-points": {
+  "pneumonia#questions": {
     "auto": []
   },
-  "respiratory-viral-infections#exam-points": {
+  "respiratory-viral-infections#questions": {
     "auto": []
   },
   "schizophrenia#psychosocial": {
@@ -1822,28 +1822,28 @@
   "schizophrenia#patient-rights": {
     "auto": []
   },
-  "sepsis#exam-points": {
+  "sepsis#questions": {
     "auto": []
   },
-  "sexually-transmitted-infections#exam-points": {
+  "sexually-transmitted-infections#questions": {
     "auto": []
   },
-  "skin-bone-infections#exam-points": {
+  "skin-bone-infections#questions": {
     "auto": []
   },
-  "tuberculosis#exam-points": {
+  "tuberculosis#questions": {
     "auto": []
   },
-  "urinary-tract-infection#exam-points": {
+  "urinary-tract-infection#questions": {
     "auto": []
   },
-  "vector-borne-zoonotic#exam-points": {
+  "vector-borne-zoonotic#questions": {
     "auto": []
   },
-  "viral-hepatitis#exam-points": {
+  "viral-hepatitis#questions": {
     "auto": []
   },
-  "ace-inhibitors#exam-points": {
+  "ace-inhibitors#questions": {
     "auto": [
       "114-3_BM_017",
       "114-2_BM_036",
@@ -1857,7 +1857,7 @@
       "109-2_BM_059"
     ]
   },
-  "alpha-blockers#exam-points": {
+  "alpha-blockers#questions": {
     "auto": [
       "115-1_BM_034",
       "114-3_BM_032",
@@ -1877,13 +1877,13 @@
       "108-2_BM_054"
     ]
   },
-  "aminoglycosides#exam-points": {
+  "aminoglycosides#questions": {
     "auto": []
   },
-  "antibiotics-overview#exam-points": {
+  "antibiotics-overview#questions": {
     "auto": []
   },
-  "anticoagulants#exam-points": {
+  "anticoagulants#questions": {
     "auto": [
       "115-2_MS_035",
       "115-2_FA_012",
@@ -1899,7 +1899,7 @@
       "113-1_MS_020"
     ]
   },
-  "anticoagulants#exam-points~2": {
+  "anticoagulants#questions~2": {
     "auto": [
       "115-2_MS_035",
       "114-3_MS_036",
@@ -1912,7 +1912,7 @@
   "antidepressants#nursing-education": {
     "auto": []
   },
-  "antidepressants#exam-points": {
+  "antidepressants#questions": {
     "auto": [
       "115-2_PC_004",
       "115-2_BM_034",
@@ -1928,10 +1928,10 @@
       "111-1_PC_024"
     ]
   },
-  "antifungals#exam-points": {
+  "antifungals#questions": {
     "auto": []
   },
-  "antineoplastics#exam-points": {
+  "antineoplastics#questions": {
     "auto": []
   },
   "antineoplastics#questions-extravasation": {
@@ -1953,10 +1953,10 @@
       "113-3_BM_040"
     ]
   },
-  "antiparasitics#exam-points": {
+  "antiparasitics#questions": {
     "auto": []
   },
-  "antiplatelets#exam-points": {
+  "antiplatelets#questions": {
     "auto": [
       "114-3_MS_034",
       "114-3_BM_031",
@@ -1970,7 +1970,7 @@
       "109-1_MS_003"
     ]
   },
-  "antiplatelets#exam-points~2": {
+  "antiplatelets#questions~2": {
     "auto": [
       "112-2_OP_078",
       "112-1_OP_078",
@@ -1999,7 +1999,7 @@
   "antipsychotics#nursing-education": {
     "auto": []
   },
-  "antipsychotics#exam-points": {
+  "antipsychotics#questions": {
     "auto": [
       "115-1_PC_006",
       "114-3_PC_025",
@@ -2015,13 +2015,13 @@
       "112-1_PC_035"
     ]
   },
-  "antituberculars#exam-points": {
+  "antituberculars#questions": {
     "auto": []
   },
-  "antivirals#exam-points": {
+  "antivirals#questions": {
     "auto": []
   },
-  "arb#exam-points": {
+  "arb#questions": {
     "auto": [
       "114-3_BM_037",
       "114-2_BM_033",
@@ -2032,16 +2032,16 @@
       "107-2_BM_055"
     ]
   },
-  "arni#exam-points": {
+  "arni#questions": {
     "auto": []
   },
-  "beta-blockers#exam-points": {
+  "beta-blockers#questions": {
     "auto": []
   },
-  "beta-lactams#exam-points": {
+  "beta-lactams#questions": {
     "auto": []
   },
-  "calcium-channel-blockers#exam-points": {
+  "calcium-channel-blockers#questions": {
     "auto": [
       "114-3_BM_032",
       "113-3_FA_020",
@@ -2055,7 +2055,7 @@
       "111-2_FA_020"
     ]
   },
-  "central-alpha2-agonists#exam-points": {
+  "central-alpha2-agonists#questions": {
     "auto": [
       "114-3_BM_037",
       "114-3_BM_032",
@@ -2067,7 +2067,7 @@
       "106-2_BM_050"
     ]
   },
-  "digoxin#exam-points": {
+  "digoxin#questions": {
     "auto": [
       "114-3_OP_040",
       "114-3_FA_011",
@@ -2083,7 +2083,7 @@
       "112-1_OP_065"
     ]
   },
-  "direct-vasodilators#exam-points": {
+  "direct-vasodilators#questions": {
     "auto": [
       "114-3_BM_037",
       "111-2_MS_028",
@@ -2100,23 +2100,23 @@
       "112-3_BM_033"
     ]
   },
-  "fluoroquinolones-sulfonamides#exam-points": {
+  "fluoroquinolones-sulfonamides#questions": {
     "auto": []
   },
-  "glp1-receptor-agonists#exam-points": {
+  "glp1-receptor-agonists#questions": {
     "auto": [
       "112-2_BM_020",
       "109-1_MS_067",
       "108-1_BM_063"
     ]
   },
-  "glycopeptides#exam-points": {
+  "glycopeptides#questions": {
     "auto": []
   },
-  "immunosuppressants#exam-points": {
+  "immunosuppressants#questions": {
     "auto": []
   },
-  "immunosuppressants#exam-points~2": {
+  "immunosuppressants#questions~2": {
     "auto": [
       "115-1_MS_030",
       "115-1_FA_013",
@@ -2130,7 +2130,7 @@
       "112-3_FA_009"
     ]
   },
-  "inotropes#exam-points": {
+  "inotropes#questions": {
     "auto": [
       "115-2_BM_013",
       "114-2_FA_007",
@@ -2144,7 +2144,7 @@
       "111-1_BM_049"
     ]
   },
-  "inotropes#exam-points~2": {
+  "inotropes#questions~2": {
     "auto": [
       "115-1_MS_019",
       "114-1_MS_019",
@@ -2211,7 +2211,7 @@
       "112-2_FA_017"
     ]
   },
-  "loop-diuretics#exam-points": {
+  "loop-diuretics#questions": {
     "auto": []
   },
   "meglitinides#questions": {
@@ -2220,7 +2220,7 @@
       "106-1_BM_062"
     ]
   },
-  "metformin#exam-points": {
+  "metformin#questions": {
     "auto": [
       "114-2_BM_038",
       "113-1_MS_044",
@@ -2240,7 +2240,7 @@
   "mood-stabilizers#carbamazepine": {
     "auto": []
   },
-  "mood-stabilizers#exam-points": {
+  "mood-stabilizers#questions": {
     "auto": [
       "115-2_PC_012",
       "113-3_PC_004",
@@ -2256,7 +2256,7 @@
       "109-1_PC_013"
     ]
   },
-  "nitrates#exam-points": {
+  "nitrates#questions": {
     "auto": [
       "115-1_BM_038",
       "112-1_BM_036",
@@ -2268,7 +2268,7 @@
       "107-2_FA_020"
     ]
   },
-  "nitrates#exam-points~2": {
+  "nitrates#questions~2": {
     "auto": [
       "114-2_FA_013",
       "114-1_MS_019",
@@ -2282,10 +2282,10 @@
       "109-1_MS_048"
     ]
   },
-  "nsaids-acetaminophen#exam-points": {
+  "nsaids-acetaminophen#questions": {
     "auto": []
   },
-  "nsaids-acetaminophen#exam-points~2": {
+  "nsaids-acetaminophen#questions~2": {
     "auto": [
       "111-2_OP_049",
       "111-2_FA_018",
@@ -2299,10 +2299,10 @@
       "106-2_makeup_FA_022"
     ]
   },
-  "opioids#exam-points": {
+  "opioids#questions": {
     "auto": []
   },
-  "opioids#exam-points~2": {
+  "opioids#questions~2": {
     "auto": [
       "115-2_MS_007",
       "115-2_FA_032",
@@ -2316,7 +2316,7 @@
       "112-2_OP_013"
     ]
   },
-  "potassium-sparing-diuretics#exam-points": {
+  "potassium-sparing-diuretics#questions": {
     "auto": [
       "115-1_BM_039",
       "115-1_BM_009",
@@ -2330,10 +2330,10 @@
       "109-2_FA_046"
     ]
   },
-  "protein-synthesis-inhibitors#exam-points": {
+  "protein-synthesis-inhibitors#questions": {
     "auto": []
   },
-  "sglt2-inhibitors#exam-points": {
+  "sglt2-inhibitors#questions": {
     "auto": [
       "113-1_BM_038",
       "112-3_BM_033",
@@ -2341,16 +2341,16 @@
       "108-1_BM_063"
     ]
   },
-  "statins#exam-points": {
+  "statins#questions": {
     "auto": [
       "112-2_BM_036",
       "112-1_BM_037"
     ]
   },
-  "statins#exam-points~2": {
+  "statins#questions~2": {
     "auto": []
   },
-  "sulfonylureas#exam-points": {
+  "sulfonylureas#questions": {
     "auto": [
       "114-2_BM_038",
       "112-1_MS_067",
@@ -2360,10 +2360,10 @@
       "106-1_BM_062"
     ]
   },
-  "thiazide-diuretics#exam-points": {
+  "thiazide-diuretics#questions": {
     "auto": []
   },
-  "thrombolytics#exam-points": {
+  "thrombolytics#questions": {
     "auto": []
   },
   "tzd#questions": {
@@ -2436,10 +2436,10 @@
   "cardiac-catheterization#post-care": {
     "auto": []
   },
-  "complete-blood-count#exam-points": {
+  "complete-blood-count#questions": {
     "auto": []
   },
-  "culture-and-sensitivity#exam-points": {
+  "culture-and-sensitivity#questions": {
     "auto": []
   },
   "ecg#rv-infarction": {
@@ -2454,10 +2454,10 @@
       "106-2_makeup_MS_027"
     ]
   },
-  "ecg#exam-points": {
+  "ecg#questions": {
     "auto": []
   },
-  "ecg#exam-points~2": {
+  "ecg#questions~2": {
     "auto": []
   },
   "echocardiography#ef": {
@@ -2493,7 +2493,7 @@
       "108-1_MS_069"
     ]
   },
-  "inflammatory-markers#exam-points": {
+  "inflammatory-markers#questions": {
     "auto": []
   },
   "ketones#questions": {
@@ -2508,13 +2508,13 @@
       "110-1_MS_072"
     ]
   },
-  "lipid-profile#exam-points": {
+  "lipid-profile#questions": {
     "auto": []
   },
-  "lipid-profile#exam-points~2": {
+  "lipid-profile#questions~2": {
     "auto": []
   },
-  "lithium-level#exam-points": {
+  "lithium-level#questions": {
     "auto": []
   },
   "ogtt#gdm-timing": {
@@ -2539,10 +2539,10 @@
       "108-1_MS_069"
     ]
   },
-  "potassium#exam-points": {
+  "potassium#questions": {
     "auto": []
   },
-  "potassium#exam-points~2": {
+  "potassium#questions~2": {
     "auto": [
       "115-1_MS_040",
       "114-3_MS_043",
@@ -2554,7 +2554,7 @@
       "112-3_FA_012"
     ]
   },
-  "tumor-markers#exam-points": {
+  "tumor-markers#questions": {
     "auto": []
   },
   "uacr#questions": {
@@ -2563,55 +2563,55 @@
       "106-2_makeup_MS_064"
     ]
   },
-  "anaerobes#exam-points": {
+  "anaerobes#questions": {
     "auto": []
   },
-  "atypical-bacteria#exam-points": {
+  "atypical-bacteria#questions": {
     "auto": []
   },
-  "candida#exam-points": {
+  "candida#questions": {
     "auto": []
   },
-  "clostridium-botulinum-tetani#exam-points": {
+  "clostridium-botulinum-tetani#questions": {
     "auto": []
   },
-  "dna-viruses#exam-points": {
+  "dna-viruses#questions": {
     "auto": []
   },
-  "fungi#exam-points": {
+  "fungi#questions": {
     "auto": []
   },
-  "gram-negative-bacteria#exam-points": {
+  "gram-negative-bacteria#questions": {
     "auto": []
   },
-  "gram-positive-bacteria#exam-points": {
+  "gram-positive-bacteria#questions": {
     "auto": []
   },
-  "helicobacter-pylori#exam-points": {
+  "helicobacter-pylori#questions": {
     "auto": []
   },
-  "helminths-ectoparasites#exam-points": {
+  "helminths-ectoparasites#questions": {
     "auto": []
   },
-  "herpesviruses#exam-points": {
+  "herpesviruses#questions": {
     "auto": []
   },
-  "human-papillomavirus#exam-points": {
+  "human-papillomavirus#questions": {
     "auto": []
   },
-  "prions#exam-points": {
+  "prions#questions": {
     "auto": []
   },
-  "protozoa#exam-points": {
+  "protozoa#questions": {
     "auto": []
   },
-  "rna-viruses#exam-points": {
+  "rna-viruses#questions": {
     "auto": []
   },
-  "staphylococcus-aureus#exam-points": {
+  "staphylococcus-aureus#questions": {
     "auto": []
   },
-  "streptococci#exam-points": {
+  "streptococci#questions": {
     "auto": []
   },
   "blood-pressure-regulation#determinants": {
@@ -2804,10 +2804,10 @@
       "113-2_BM_015"
     ]
   },
-  "microbial-pathogenesis#exam-points": {
+  "microbial-pathogenesis#questions": {
     "auto": []
   },
-  "neoplasia#exam-points": {
+  "neoplasia#questions": {
     "auto": []
   },
   "neoplasia#questions-carcinogens": {

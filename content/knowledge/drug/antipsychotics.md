@@ -48,6 +48,20 @@ references:
 - 危急副作用：**抗精神病藥物惡性症候群(NMS)**(高燒＋肌肉僵硬＋意識改變＋自主神經不穩，**立即停藥**)；**clozapine 的顆粒性白血球缺乏**(發燒、喉嚨痛要立刻回報，定期抽血)。
 - 護理重點：**確認吞藥**、監測 EPS 與生命徵象、**姿勢性低血壓**防跌、抗膽鹼副作用(口乾便秘尿滯留)、定期量體重腰圍血糖血脂、**不可自行停藥**。
 
+### 國考常考點 {#exam-points}
+
+- 機轉：阻斷 **D2**；幻覺妄想 = 中腦邊緣路徑；第二代同時擋 **5-HT2A**。
+- EPS 最多：**haloperidol**；止吐作用來自 **CTZ 的 D2** 阻斷。
+- 常考副作用配對
+  1. 體重增加：**olanzapine、clozapine**
+  2. 泌乳素上升：**risperidone**
+  3. QT 延長最嚴重：**thioridazine**
+  4. 光敏感：**chlorpromazine**
+  5. 選擇性 D2/D3：**amisulpride**
+- Clozapine 的 EPS 少，是因為**對 D2 受體親和力低**；要監測**白血球**；併用 fluvoxamine 或 SSRI 增加**癲癇**風險。
+- 類巴金森症狀在用藥**前 3 個月**就可能出現；TD 可能**不可逆**，發現要評估減量或換藥。
+- 長效針劑：深部肌肉注射、**不按摩**、推藥慢、輪換部位；第一代是**油性**、用 Z 字形。
+
 ## 作用機轉 {#mechanism}
 
 所有抗精神病藥都會作用在多巴胺 D2 受體，大約要占據 **65%** 的 D2 受體才有抗精神病效果(來源：[UpToDate：First-generation antipsychotic medications](https://www.uptodate.com/contents/first-generation-antipsychotic-medications-pharmacology-administration-and-comparative-side-effects))。藥物沒辦法只擋一條路徑，所以同一個機轉同時帶來療效與副作用：
@@ -328,15 +342,6 @@ Clozapine 的「四大監測」：**白血球(顆粒性白血球缺乏)、癲癇
 
 ::questions{ids="108-2_PC_015,110-2_PC_014,105-1_PC_015,107-2_PC_032,113-1_PC_012,112-1_PC_035"}
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- 機轉：阻斷 **D2**；幻覺妄想 = 中腦邊緣路徑；第二代同時擋 **5-HT2A**。
-- EPS 最多：**haloperidol**；止吐作用來自 **CTZ 的 D2** 阻斷。
-- 體重增加：**olanzapine、clozapine**；泌乳素上升：**risperidone**；QT 延長最嚴重：**thioridazine**；光敏感：**chlorpromazine**；選擇性 D2/D3：**amisulpride**。
-- Clozapine 的 EPS 少，是因為**對 D2 受體親和力低**；要監測**白血球**；併用 fluvoxamine 或 SSRI 增加**癲癇**風險。
-- 類巴金森症狀在用藥**前 3 個月**就可能出現；TD 可能**不可逆**，發現要評估減量或換藥。
-- 長效針劑：深部肌肉注射、**不按摩**、推藥慢、輪換部位；第一代是**油性**、用 Z 字形。
-:::
+## 相關考題 {#questions}
 
 ::questions{group="antipsychotics" limit="12"}

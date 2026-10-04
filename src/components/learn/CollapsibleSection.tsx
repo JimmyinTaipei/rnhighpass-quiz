@@ -11,6 +11,8 @@ interface CollapsibleSectionProps {
   children: React.ReactNode;
   /** dev mode(本機)才傳：標題旁的編輯器 */
   titleEditor?: React.ReactNode;
+  /** 頁面唯一的重點區塊(## 重點摘要)：淡底卡片 */
+  highlight?: boolean;
 }
 
 const HEADING_STYLE: Record<number, string> = {
@@ -24,7 +26,7 @@ const HEADING_STYLE: Record<number, string> = {
  * 一個知識點。標題列整條可點來摺疊;內容用 hidden 藏起來而不是卸載,
  * 讓 server 渲染好的內容(含考題)不必重新產生。
  */
-export function CollapsibleSection({ id, depth, number, title, children, titleEditor }: CollapsibleSectionProps) {
+export function CollapsibleSection({ id, depth, number, title, children, titleEditor, highlight }: CollapsibleSectionProps) {
   const ctx = useArticle();
   const collapsed = ctx?.isCollapsed(id) ?? false;
   const Heading = `h${Math.min(depth, 6)}` as "h2";
@@ -32,9 +34,11 @@ export function CollapsibleSection({ id, depth, number, title, children, titleEd
   return (
     <section
       className={
-        depth === 2
-          ? "mt-8 border-t border-card-border pt-5 first:mt-0 first:border-t-0 first:pt-0"
-          : "mt-5"
+        highlight
+          ? "mt-8 rounded-card bg-(--surface-inset) p-4 first:mt-0 sm:p-5"
+          : depth === 2
+            ? "mt-8 border-t border-card-border pt-5 first:mt-0 first:border-t-0 first:pt-0"
+            : "mt-5"
       }
     >
       <div className={titleEditor ? "flex flex-wrap items-start gap-1" : undefined}>

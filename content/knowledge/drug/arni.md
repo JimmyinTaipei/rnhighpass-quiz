@@ -34,6 +34,14 @@ references:
 - 副作用：**低血壓**(最常見)、**高血鉀**、腎功能變差、**血管性水腫**;懷孕禁用。
 - **與 ACEI 至少間隔 36 小時**(來源：[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.33);用藥後 **BNP 會上升**，追蹤要看 **NT-proBNP**。
 
+### 國考常考點 {#exam-points}
+
+- ARNI = **sacubitril(腦啡肽酶抑制劑)+ valsartan(ARB)**;作用是**增加利鈉胜肽**並阻斷 RAAS。
+- **與 ACEI 間隔 36 小時**、不可併用 → 血管性水腫。
+- 常見副作用：**低血壓、高血鉀、腎功能變差**;懷孕禁用。
+- 使用 ARNI 後 **BNP 上升**，追蹤改用 **NT-proBNP**。
+- 心衰竭「四大支柱」：**ARNI(或 ACEI/ARB)、β 阻斷劑、MRA、SGLT2 抑制劑**——都能降低死亡率;loop 利尿劑與 digoxin 只改善症狀/住院。
+
 ## 作用機轉 {#mechanism}
 
 心衰竭時身體同時有兩套力量在拉扯(見 [[blood-pressure-regulation#raas]] 與 [[blood-pressure-regulation#natriuretic-peptides]]):
@@ -103,14 +111,6 @@ references:
 - 一天兩次，規律服用;每日量體重、觀察水腫。
 - **BNP 判讀**：ARNI 會抑制 BNP 分解 → **BNP 上升不一定代表心衰竭惡化**;使用 ARNI 者以 **NT-proBNP**(不被腦啡肽酶分解)追蹤病情(見 [[bnp]])。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- ARNI = **sacubitril(腦啡肽酶抑制劑)+ valsartan(ARB)**;作用是**增加利鈉胜肽**並阻斷 RAAS。
-- **與 ACEI 間隔 36 小時**、不可併用 → 血管性水腫。
-- 常見副作用：**低血壓、高血鉀、腎功能變差**;懷孕禁用。
-- 使用 ARNI 後 **BNP 上升**，追蹤改用 **NT-proBNP**。
-- 心衰竭「四大支柱」：**ARNI(或 ACEI/ARB)、β 阻斷劑、MRA、SGLT2 抑制劑**——都能降低死亡率;loop 利尿劑與 digoxin 只改善症狀/住院。
-:::
+## 相關考題 {#questions}
 
 ::questions{ids="115-2_MS_016,114-2_BM_033,112-3_BM_036,110-2_BM_059,109-1_BM_050"}

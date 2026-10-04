@@ -29,6 +29,17 @@ references:
 - **葡萄柚汁**抑制代謝使血中濃度上升;verapamil/diltiazem **與 β 阻斷劑併用**易嚴重心搏過緩。
 - 長效劑型不可咬碎;非 DHP 類避免用於 HFrEF。
 
+### 國考常考點 {#exam-points}
+
+- **Adalat = nifedipine = 鈣離子阻斷劑**(不是 α 阻斷劑)，可降壓、安胎、用於妊娠高血壓;**孕婦可用**，禁用的是 captopril 等 ACEI。
+- **葡萄柚汁會干擾 CCB 在肝臟的代謝**(CYP3A4)→ 濃度上升。
+- **CCB 會造成便秘**(與鐵劑、鴉片類並列)。
+- Amlodipine、prazosin、hydralazine 都可能**反射性心搏過速**;atenolol 不會(反而心搏過緩)。
+- 冠心病降低心肌耗氧量的藥：β 阻斷劑、硝酸鹽、**CCB**;低劑量 aspirin 是抗血小板，不降低耗氧。
+- Verapamil 可治療 PSVT;verapamil/diltiazem **與 β 阻斷劑併用 → 心搏過緩、傳導阻滯**。
+- 醫囑判讀：**S.L. = 舌下含服**;SL Q6H PRN if SBP > 170 = 收縮壓 > 170 時給一次，再次給藥至少間隔 6 小時。
+- 變異型心絞痛(冠狀動脈痙攣)首選 CCB;nimodipine 用於蜘蛛網膜下腔出血。
+
 ## 作用機轉 {#mechanism}
 
 血管平滑肌與心肌收縮都需要鈣離子經 **L 型鈣通道**進入細胞;竇房結與房室結的去極化(動作電位第 0 期)也主要靠鈣離子內流(見 [[cardiac-output#conduction]])。CCB 阻斷這些通道：
@@ -122,17 +133,6 @@ references:
 - 靜脈 nicardipine：輸液幫浦給藥、密切監測血壓(急性期不可降太快，見 [[hypertension]])、注意靜脈炎，輸注部位要常更換。
 - 孕婦用 nifedipine 安胎或降壓：監測母親血壓、心跳與胎心音。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- **Adalat = nifedipine = 鈣離子阻斷劑**(不是 α 阻斷劑)，可降壓、安胎、用於妊娠高血壓;**孕婦可用**，禁用的是 captopril 等 ACEI。
-- **葡萄柚汁會干擾 CCB 在肝臟的代謝**(CYP3A4)→ 濃度上升。
-- **CCB 會造成便秘**(與鐵劑、鴉片類並列)。
-- Amlodipine、prazosin、hydralazine 都可能**反射性心搏過速**;atenolol 不會(反而心搏過緩)。
-- 冠心病降低心肌耗氧量的藥：β 阻斷劑、硝酸鹽、**CCB**;低劑量 aspirin 是抗血小板，不降低耗氧。
-- Verapamil 可治療 PSVT;verapamil/diltiazem **與 β 阻斷劑併用 → 心搏過緩、傳導阻滯**。
-- 醫囑判讀：**S.L. = 舌下含服**;SL Q6H PRN if SBP > 170 = 收縮壓 > 170 時給一次，再次給藥至少間隔 6 小時。
-- 變異型心絞痛(冠狀動脈痙攣)首選 CCB;nimodipine 用於蜘蛛網膜下腔出血。
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(dipine|verapamil|diltiazem|Adalat|鈣離子(通道)?(阻斷|拮抗))" limit="10"}

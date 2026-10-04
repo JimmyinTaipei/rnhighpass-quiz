@@ -35,6 +35,16 @@ references:
 - 最重要副作用：**高血鉀**;spironolactone 另有**男性女乳症**、月經不規則、性功能下降(eplerenone 少)。
 - **避免併用鉀補充劑、低鈉鹽，並小心與 ACEI/ARB/ARNI 合用**;監測血鉀與腎功能，**避免高鉀食物**。
 
+### 國考常考點 {#exam-points}
+
+- **Spironolactone 會造成高血鉀**，「可能造成血鉀過低」**錯**(兒科先天性心臟病題常考)。
+- Spironolactone 衛教：**注意鉀離子濃度、不宜吃芭樂(高鉀)**;「多吃柑橘」錯。
+- **醛固酮拮抗劑作用在集尿管**(不是近曲小管);拮抗的是**礦物皮質素(醛固酮)受體**，不是糖皮質素受體。
+- 醛固酮受體拮抗劑、**常用於治療心衰竭** → eplerenone(干擾：chlorothiazide、furosemide、tolvaptan)。
+- 能降血壓但**不抑制睪固酮/不造成男性女乳** → **eplerenone**。
+- **高血鉀的藥物導因** → ACEI、醛固酮拮抗劑(thiazide、代謝性鹼中毒則造成低血鉀)。
+- Triamterene、acetazolamide 可產生代謝性酸中毒。
+
 ## 作用機轉 {#mechanism}
 
 集尿管主細胞在**醛固酮**作用下，打開管腔側的**上皮鈉通道(ENaC)**、增加基底側 Na⁺-K⁺-ATPase → 回收 Na⁺、同時把 **K⁺ 與 H⁺ 分泌到尿中**。這一段只負責約 2–5% 的鈉，所以利尿效果弱;但它是**決定尿中排鉀量的主要部位**。
@@ -115,16 +125,6 @@ references:
 - 每日量體重;肝硬化病人量腹圍。
 - 兒童心臟病使用 spironolactone 時，同樣是**高血鉀**風險，不是低血鉀。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- **Spironolactone 會造成高血鉀**，「可能造成血鉀過低」**錯**(兒科先天性心臟病題常考)。
-- Spironolactone 衛教：**注意鉀離子濃度、不宜吃芭樂(高鉀)**;「多吃柑橘」錯。
-- **醛固酮拮抗劑作用在集尿管**(不是近曲小管);拮抗的是**礦物皮質素(醛固酮)受體**，不是糖皮質素受體。
-- 醛固酮受體拮抗劑、**常用於治療心衰竭** → eplerenone(干擾：chlorothiazide、furosemide、tolvaptan)。
-- 能降血壓但**不抑制睪固酮/不造成男性女乳** → **eplerenone**。
-- **高血鉀的藥物導因** → ACEI、醛固酮拮抗劑(thiazide、代謝性鹼中毒則造成低血鉀)。
-- Triamterene、acetazolamide 可產生代謝性酸中毒。
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(spironolactone|aldactone|eplerenone|amiloride|triamterene|保鉀|醛固酮拮抗|醛固酮受體)" limit="10"}

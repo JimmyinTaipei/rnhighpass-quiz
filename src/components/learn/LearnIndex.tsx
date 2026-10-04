@@ -1,9 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, useTransition } from "react";
+import { useMemo, useTransition } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { Search } from "lucide-react";
 import {
   CATEGORY_LABELS,
   type KnowledgeCategory,
@@ -11,8 +10,7 @@ import {
   type TaxonomyDomain,
 } from "@/lib/knowledge/types";
 
-const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "admin", "physiology", "pathogen", "drug", "lab"];
-const DEBOUNCE_MS = 250;
+const TYPE_ORDER: KnowledgeCategory[] = ["disease", "care", "admin", "physiology", "pathogen", "drug", "lab", "procedure", "device"];
 
 interface LearnIndexProps {
   domains: TaxonomyDomain[];
@@ -32,12 +30,10 @@ function hrefOf(key: string) {
 export function LearnIndex({ domains = [], query = "", type = null, results = [], children }: LearnIndexProps) {
   const router = useRouter();
   const pathname = usePathname();
-  const [q, setQ] = useState(query);
   const [pending, startTransition] = useTransition();
-  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const domainName = useMemo(() => new Map(domains.map((d) => [d.id, d.name])), [domains]);
 
-  // 搜尋詞寫進網址(?q=),由 server 端比對全文;打字時稍等一下再送,避免每個字都查一次
+  // 搜尋框在 (browse)/layout.tsx 的 KnowledgeSearchBox;這裡只負責類型篩選與結果
   const navigate = (nextQ: string, nextType: KnowledgeCategory | null) => {
     const params = new URLSearchParams();
     if (nextQ.trim()) params.set("q", nextQ.trim());
@@ -45,29 +41,11 @@ export function LearnIndex({ domains = [], query = "", type = null, results = []
     const qs = params.toString();
     startTransition(() => router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false }));
   };
-  const onChange = (value: string) => {
-    setQ(value);
-    if (timer.current) clearTimeout(timer.current);
-    timer.current = setTimeout(() => navigate(value, type), DEBOUNCE_MS);
-  };
-  useEffect(() => () => {
-    if (timer.current) clearTimeout(timer.current);
-  }, []);
 
   const searching = query.trim().length > 0;
 
   return (
     <div>
-      <label className="relative mb-3 block max-w-xl">
-        <Search size={16} className="absolute top-1/2 left-3 -translate-y-1/2 text-muted" />
-        <input
-          type="search"
-          value={q}
-          onChange={(e) => onChange(e.target.value)}
-          placeholder="搜尋疾病、藥名、檢驗或知識點(如 Kussmaul、SGLT2、HbA1c)"
-          className="w-full rounded-btn bg-fill py-2 pr-3 pl-9 text-[15px] text-strong outline-none placeholder:text-muted focus:ring-2 focus:ring-accent/40"
-        />
-      </label>
 
       {searching ? (
         <>
@@ -76,7 +54,7 @@ export function LearnIndex({ domains = [], query = "", type = null, results = []
               <button
                 key={t ?? "all"}
                 type="button"
-                onClick={() => navigate(q, t)}
+                onClick={() => navigate(query, t)}
                 className={`rounded-full px-3 py-1 ${
                   type === t ? "bg-deep text-on-accent" : "border border-card-border bg-card text-body hover:bg-surface-hover"
                 }`}

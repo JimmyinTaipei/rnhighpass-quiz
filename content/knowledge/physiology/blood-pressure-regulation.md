@@ -27,6 +27,22 @@ references:
 
 每一段最後的「**藥物對應**」「**臨床對應**」說明哪一類降壓藥或疾病與這個機制有關。
 
+## 重點摘要 {#summary}
+
+- **血壓 = 心輸出量 × 周邊血管阻力（SVR）**；阻力最大在小動脈，與半徑 4 次方成反比。
+- **MAP = 舒張壓 + 1/3 脈搏壓**，較接近舒張壓；敗血性休克目標 MAP ≥ 65。
+- **短期**（秒到分鐘）靠神經反射：頸動脈竇與主動脈弓壓力感受器 → **延腦**。
+- **中長期**（小時到天）靠 **RAAS、ADH、利鈉胜肽**與腎臟調整血量。
+- 幾乎每一類降壓藥都對應其中一個環節。
+
+### 國考常考點 {#exam-points}
+
+- 壓力感受器：頸動脈竇（**舌咽神經**）、主動脈弓（迷走神經）→ 延腦。
+- 血管張力素原來自**肝臟**；腎素來自近腎絲球細胞；ACE 主要在**肺**。
+- 醛固酮保鈉排鉀：過多 → 低血鉀；ACEI／ARB／MRA → 高血鉀。
+- ADH 由**下視丘視上核**合成、垂體後葉釋放，作用在集尿管，也收縮血管。
+- 使動脈壓上升：Ang II ↑；使血壓下降：醛固酮 ↓、ANP ↑。
+
 ## 血壓的決定因素 {#determinants}
 
 **血壓(BP)= 心輸出量(CO)× 全身血管阻力(SVR)**，而 CO = 心跳速率 × 心搏量(見 [[cardiac-output#determinants]])。
@@ -45,7 +61,12 @@ references:
 - 血管內皮會分泌擴張血管的**一氧化氮(NO)、前列腺環素**(緩激肽也經由 NO 擴張血管)，以及收縮血管的**內皮素-1(endothelin-1)**。
 - 組織代謝增加時(CO₂、H⁺、腺苷、K⁺ 增加)，局部小動脈與**微血管前括約肌舒張**、開放的微血管變多、血流增加(局部自動調節)。
 
-**藥物對應**：所有降壓藥都在降低 CO 或 SVR——[[beta-blockers|β 阻斷劑]]降 CO;[[calcium-channel-blockers|CCB]]、[[alpha-blockers|α 阻斷劑]]、[[direct-vasodilators|直接血管擴張劑]]降 SVR;[[thiazide-diuretics|利尿劑]]先降血量、長期降 SVR;[[ace-inhibitors|ACEI]]/[[arb|ARB]] 兩者都降。
+**藥物對應**：所有降壓藥都在降低 CO 或 SVR
+
+- [[beta-blockers|β 阻斷劑]]：降 CO
+- [[calcium-channel-blockers|CCB]]、[[alpha-blockers|α 阻斷劑]]、[[direct-vasodilators|直接血管擴張劑]]：降 SVR
+- [[thiazide-diuretics|利尿劑]]：先降血量、長期降 SVR
+- [[ace-inhibitors|ACEI]]／[[arb|ARB]]：兩者都降
 
 ::questions{keyword="(影響血壓|維持血壓|血壓.*因素|舒張壓.*(因素|決定)|周邊(血管)?阻力|半徑|阻力最大)" limit="8"}
 
@@ -123,7 +144,12 @@ references:
 - 腎素本身是酵素，**不直接**作用於血管平滑肌。
 - **原發性醛固酮過多症**(Conn 氏症候群)：醛固酮自主過量 → 高血壓、**低血鉀**、代謝性鹼中毒;血鈉正常或略高、血容量增加。
 
-**藥物對應**：見下方 [[blood-pressure-regulation#drug-sites]]。ACEI 抑制 Ang I → Ang II,Ang II 與醛固酮都**減少**，並使緩激肽**累積**(乾咳、血管性水腫)，保鉀而可能**高血鉀**(不會低血鉀);ARB(losartan 等 -sartan)阻斷 AT1 受體，屬「血管張力素 II 受體拮抗劑」;**Aliskiren** 直接抑制腎素;MRA 阻斷醛固酮受體。
+**藥物對應**：見下方 [[blood-pressure-regulation#drug-sites]]
+
+- **ACEI**：抑制 Ang I → Ang II；Ang II 與醛固酮都**減少**，並使緩激肽**累積**（乾咳、血管性水腫）；保鉀而可能**高血鉀**（不會低血鉀）
+- **ARB**（losartan 等 -sartan）：阻斷 AT1 受體，屬「血管張力素 II 受體拮抗劑」
+- **Aliskiren**：直接抑制腎素
+- **MRA**：阻斷醛固酮受體
 
 ::questions{keyword="(腎素|renin|血管(收縮|緊縮|張力)素|angiotensin|醛固酮|aldosterone)" limit="8"}
 

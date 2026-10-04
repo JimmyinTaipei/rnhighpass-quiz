@@ -37,6 +37,19 @@ references:
 - 副作用：**出血**、**腸胃道潰瘍出血**;兒童病毒感染時用 aspirin 可致 **Reye 症候群**。
 - 手術、拔牙前告知醫師，由醫師決定是否及何時停藥(參考：aspirin 3–10 天、clopidogrel 5 天，見 [[#nursing]])。
 
+### 國考常考點 {#exam-points}
+
+- 冠心病、心肌梗塞、中風/TIA 服用 aspirin 的目的 → **抑制血小板凝集**，不是止痛、不是溶解血栓、不是降低耗氧量。
+- 低劑量 aspirin 抑制 **thromboxane A₂** 的生成(不可逆抑制 COX-1)。
+- Clopidogrel → **不可逆抑制 P2Y12 ADP 受體**;是**前驅藥**，CYP2C19 弱代謝者效果差。
+- Abciximab → **GP IIb/IIIa 抑制劑**;dipyridamole → **PDE 抑制劑**。
+- **Ibuprofen** 會降低 aspirin 預防動脈血栓的效果;aspirin 與 **warfarin** 併用最危險。
+- aspirin 作用中「抗發炎」需要劑量最高;aspirin 沒有「止血」作用。
+- 兒童病毒感染(水痘、流感)用 aspirin → **Reye 症候群**(血氨上升)。
+- 血友病、ITP、血小板低下、登革熱、G-6-PD 缺乏、痛風 → 避免 aspirin。
+- 支架置放後說「病好了不用吃藥」→ 以不批判態度傾聽，說明支架作用與持續服藥的重要性。
+- PPI **可以**治療與預防 aspirin 引起的潰瘍;misoprostol 可預防。
+
 ## 作用機轉 {#mechanism}
 
 動脈血流快，血栓主要是**血小板**聚集而成(白色血栓);所以預防冠狀動脈與腦動脈血栓以抗血小板藥為主。靜脈血栓(DVT、心房顫動的心房血栓)則以凝血因子為主，要用 [[anticoagulants]]。
@@ -172,20 +185,7 @@ references:
 - 心臟術後(CABG)發燒不要用 aspirin 退燒，以免加重引流出血，改用 acetaminophen。
 - 腎臟切片、體外震波碎石等侵入性處置前需確認凝血功能並停用 aspirin。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- 冠心病、心肌梗塞、中風/TIA 服用 aspirin 的目的 → **抑制血小板凝集**，不是止痛、不是溶解血栓、不是降低耗氧量。
-- 低劑量 aspirin 抑制 **thromboxane A₂** 的生成(不可逆抑制 COX-1)。
-- Clopidogrel → **不可逆抑制 P2Y12 ADP 受體**;是**前驅藥**，CYP2C19 弱代謝者效果差。
-- Abciximab → **GP IIb/IIIa 抑制劑**;dipyridamole → **PDE 抑制劑**。
-- **Ibuprofen** 會降低 aspirin 預防動脈血栓的效果;aspirin 與 **warfarin** 併用最危險。
-- aspirin 作用中「抗發炎」需要劑量最高;aspirin 沒有「止血」作用。
-- 兒童病毒感染(水痘、流感)用 aspirin → **Reye 症候群**(血氨上升)。
-- 血友病、ITP、血小板低下、登革熱、G-6-PD 缺乏、痛風 → 避免 aspirin。
-- 支架置放後說「病好了不用吃藥」→ 以不批判態度傾聽，說明支架作用與持續服藥的重要性。
-- PPI **可以**治療與預防 aspirin 引起的潰瘍;misoprostol 可預防。
-:::
+## 相關考題 {#questions}
 
 ::questions{group="antithrombotics" keyword="(aspirin|阿斯匹|阿司匹|clopidogrel|ticagrelor|prasugrel|dipyridamole|cilostazol|abciximab|tirofiban|eptifibatide|血小板凝集)" limit="10"}
 

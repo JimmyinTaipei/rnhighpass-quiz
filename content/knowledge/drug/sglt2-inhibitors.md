@@ -31,6 +31,11 @@ references:
 - 副作用：**生殖泌尿道感染(黴菌)**、脫水與姿勢性低血壓、**血糖正常的酮酸中毒**。
 - 生病、脫水、長時間禁食時暫停;**預定手術前 3 天停藥(ertugliflozin 4 天)**(來源：[ADA Standards of Care 2026 第 16 章](https://doi.org/10.2337/dc26-S016);僅供參考，以醫囑為準)。
 
+### 國考常考點 {#exam-points}
+
+- 「canagliflozin 的主要作用機制」→ **增加葡萄糖從尿液排除**。
+- 腸泌素類藥物**不會**增加尿糖排除——這是 SGLT2i 的作用，常被放在一起當干擾選項。
+
 ## 作用機轉 {#mechanism}
 
 腎絲球每天過濾約 180 g 葡萄糖，約 90% 由近曲小管前段的 **SGLT2**(與 Na⁺ 一起)回收(生理見 [[glucose-homeostasis#renal-glucose]])。抑制 SGLT2 → 腎閾值下降 → 每天多排出約 60–80 g 葡萄糖。
@@ -76,11 +81,6 @@ references:
 - 教導酮酸中毒警訊，不能因為「血糖不高」就排除。
 - 尿糖檢測會呈陽性，這是藥效，不能用尿糖監測血糖控制。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- 「canagliflozin 的主要作用機制」→ **增加葡萄糖從尿液排除**。
-- 腸泌素類藥物**不會**增加尿糖排除——這是 SGLT2i 的作用，常被放在一起當干擾選項。
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(gliflozin|SGLT|從尿液排除)" limit="6"}

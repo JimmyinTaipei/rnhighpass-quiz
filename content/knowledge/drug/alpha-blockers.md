@@ -29,6 +29,14 @@ references:
 - 護理：**低劑量開始、睡前服用**，起身動作放慢。
 - 高血壓非第一線;適合**合併良性前列腺肥大(BPH)**者，以及嗜鉻細胞瘤術前。
 
+### 國考常考點 {#exam-points}
+
+- **Prazosin 初次服用易姿態性低血壓(首劑現象)→ 低起始劑量、睡前服用**。
+- 具血管擴張作用、**可用於 BPH** 的降壓藥 → **prazosin**(α1 阻斷)。
+- Prazosin 可用於**嗜鉻細胞瘤**引起的高血壓;嗜鉻細胞瘤**切除後**常低血壓，不需再用 α 阻斷劑。
+- Prazosin 仍可能**反射性心搏過速**(atenolol 則不會)。
+- 膀胱過動急迫性尿失禁用 oxybutynin，不是 doxazosin。
+
 ## 作用機轉 {#mechanism}
 
 正腎上腺素作用在血管 **α1 受體**使血管收縮(受體分布見 [[blood-pressure-regulation#autonomic-receptors]])。α1 阻斷劑：
@@ -91,14 +99,6 @@ references:
 - 白內障手術前主動告知醫師用藥。
 - 使用 phentolamine 治療升壓劑外滲：於外滲部位皮下多點浸潤注射，越早越好(12 小時內)。
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- **Prazosin 初次服用易姿態性低血壓(首劑現象)→ 低起始劑量、睡前服用**。
-- 具血管擴張作用、**可用於 BPH** 的降壓藥 → **prazosin**(α1 阻斷)。
-- Prazosin 可用於**嗜鉻細胞瘤**引起的高血壓;嗜鉻細胞瘤**切除後**常低血壓，不需再用 α 阻斷劑。
-- Prazosin 仍可能**反射性心搏過速**(atenolol 則不會)。
-- 膀胱過動急迫性尿失禁用 oxybutynin，不是 doxazosin。
-:::
+## 相關考題 {#questions}
 
 ::questions{keyword="(azosin|tamsulosin|phentolamine|phenoxybenzamine|α.{0,2}(型)?(阻斷|拮抗)|alpha.{0,3}(blocker|阻斷))" limit="8"}

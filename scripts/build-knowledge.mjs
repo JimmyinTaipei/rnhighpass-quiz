@@ -43,8 +43,8 @@ const MAX_POINTS = 5;
 // 與 /learn 底下的靜態路由撞名的 slug
 const RESERVED_SLUGS = new Set(["system"]);
 
-// procedure(護理技術)先預留:還沒有任何頁面,但資料夾 content/knowledge/procedure/ 可直接使用
-const CATEGORIES = ["disease", "physiology", "drug", "lab", "care", "pathogen", "admin", "procedure"];
+// procedure(護理技術)、device(器材與管路)先預留:還沒有任何頁面,但資料夾可直接使用
+const CATEGORIES = ["disease", "physiology", "drug", "lab", "care", "pathogen", "admin", "procedure", "device"];
 const CALLOUTS = ["tip", "exam", "warning", "note", "basics"];
 const SUMMARY_LEN = 110;
 // frontmatter summary:3–5 行。上限以 5 行估(內文寬度一行約 40 字),不比卡片顯示的 3–4 行嚴

@@ -181,7 +181,7 @@ export function ArticleShell({
     <ArticleContext.Provider value={value}>
       <div className="mx-auto grid w-full max-w-6xl flex-1 gap-6 px-4 py-6 lg:grid-cols-[240px_minmax(0,1fr)]">
         <aside className="hidden lg:block">
-          <div className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto pr-1">{tocPanel}</div>
+          <div className="sticky top-[calc(var(--desk-bar)+1rem)] max-h-[calc(100vh-2rem-var(--desk-bar))] overflow-y-auto pr-1">{tocPanel}</div>
         </aside>
 
         <main className="min-w-0">{children}</main>

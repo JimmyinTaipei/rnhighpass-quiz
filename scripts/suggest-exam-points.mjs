@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// ⚠ 已停用(2026-10):頁尾國考常考點改為合併進頁首「重點摘要」,見 scripts/merge-exam-points.mjs 與 docs/positioning.md。
+//   這支腳本做的是相反方向(分散到各段落),不要再跑。
+//
 // 把頁面底部「## 國考常考點」callout 的每一條,建議搬到最相關段落的結尾。
 //
 //   node scripts/suggest-exam-points.mjs                      產生審閱檔 docs/exam-points-review/<系統>.md(不改 content/)

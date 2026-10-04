@@ -46,6 +46,7 @@ types:
   pathogen: 病原體
   admin: 護理行政
   procedure: 護理技術
+  device: 器材與管路
 
 domains:
   # ===== 器官系統(對應題庫 block: 十大系統) =====
@@ -150,7 +151,7 @@ domains:
       - { id: mood-stabilizers, name: 情緒穩定劑, type: drug, drugTags: [情緒穩定劑, 躁鬱症用藥] }
       - { id: anxiolytics-hypnotics, name: 抗焦慮與鎮靜安眠藥, type: drug, drugTags: [抗焦慮用藥, 鎮靜安眠藥, 鎮靜催眠藥, 鎮靜安眠用藥, 鎮靜催眠用藥, 安眠鎮靜用藥] }
 
-  # ===== 跨系統(kind: cross):腫瘤、感染;「小兒」是對象標記,不是 domain =====
+  # ===== 跨系統(kind: cross):腫瘤、感染、急重症;「小兒」是對象標記,不是 domain =====
   - id: oncology
     name: 腫瘤
     kind: cross
@@ -172,6 +173,11 @@ domains:
       - { id: bacteria, name: 細菌, type: pathogen }
       - { id: viruses, name: 病毒, type: pathogen }
       - { id: fungi-parasites, name: 真菌與寄生蟲, type: pathogen }
+
+  - id: critical-care
+    name: 急重症
+    kind: cross
+    description: 加護病房與急診常見的器材與管路(呼吸器、中心靜脈導管、動脈導管、胸管、CRRT、IABP、ECMO)與相關技術。實習用，學校較少教；每頁整理原理、適應症、看懂螢幕與數值、護理重點、警示與併發症。內容整理中。
 
   # ===== 護理專業(分不出器官系統時使用) =====
   - id: fundamentals

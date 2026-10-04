@@ -26,6 +26,20 @@ references:
 
 每一段最後的「**藥物對應**」「**臨床對應**」說明哪一類藥物或疾病與這個機制有關。
 
+## 重點摘要 {#summary}
+
+- **心輸出量 = 心跳速率 × 心搏量**；心搏量由**前負荷、後負荷、收縮力**決定，幾乎所有強心、利尿、血管擴張藥都在調整其中之一。
+- **S1** = 房室瓣關閉 = 收縮期開始；**S2** = 半月瓣關閉 = 舒張期開始。
+- **Frank–Starling 定律**：前負荷增加 → 收縮力增加（在一定範圍內）。
+- **射出分率（EF）** = 心搏量 ÷ 舒張末期容積，正常約 55–70%。
+- 自主神經：交感神經加快心跳與增加收縮力；副交感（迷走）減慢心跳。
+
+### 國考常考點 {#exam-points}
+
+- **S3** 出現在舒張**早期**（不是末期）→ 心衰竭；**S4** 在舒張末期 → 心室僵硬（高血壓、肥厚）。
+- 聽 S3 用**鐘面**、左側臥、心尖處；主動脈瓣區在**胸骨右緣第 2 肋間**。
+- S1 與 S2 之間是收縮期。
+
 ## 心臟構造與血流路徑 {#structure}
 
 ![心臟構造與血流路徑](/knowledge-images/heart-blood-flow.svg)
@@ -148,7 +162,12 @@ references:
 | 交感使靜脈收縮 | 靜脈擴張(硝酸鹽、嗎啡) |
 | 心房收縮有效 | 心房顫動(失去 atrial kick)、胸內壓↑(Valsalva、正壓呼吸) |
 
-**藥物對應**：[[loop-diuretics|Loop 利尿劑]]、[[thiazide-diuretics|Thiazide]]、限鈉限水 → 減少血量;[[nitrates|硝酸鹽]](低劑量以擴張靜脈為主)與嗎啡 → 靜脈擴張、血液留在周邊;[[ace-inhibitors|ACEI]]/[[arb|ARB]] 減少醛固酮 → 減少鈉水滯留;BNP 本身有利鈉利尿、擴張血管作用，可降低前後負荷(見 [[bnp]])。
+**藥物對應**（前負荷）
+
+- 減少血量：[[loop-diuretics|Loop 利尿劑]]、[[thiazide-diuretics|Thiazide]]、限鈉限水
+- 靜脈擴張、血液留在周邊：[[nitrates|硝酸鹽]]（低劑量以擴張靜脈為主）、嗎啡
+- 減少醛固酮 → 減少鈉水滯留：[[ace-inhibitors|ACEI]]／[[arb|ARB]]
+- BNP 本身有利鈉利尿、擴張血管作用，可降低前後負荷（見 [[bnp]]）
 **臨床對應**：低血壓時採頭低腳高或抬高下肢，是為了**增加前負荷**以提高 CO;肺水腫則相反，要**減少**前負荷(高坐臥、雙腳下垂、利尿)。
 
 ## 後負荷 {#afterload}
@@ -159,7 +178,12 @@ references:
 - 高血壓、主動脈瓣狹窄、血管收縮(交感、Ang II)使後負荷上升。
 - 高坐臥姿、限鈉限水主要是減少**前**負荷，不是後負荷。
 
-**藥物對應**：動脈血管擴張劑([[direct-vasodilators|Hydralazine]]、[[calcium-channel-blockers|Dihydropyridine CCB]])、[[ace-inhibitors|ACEI]]/[[arb|ARB]]/[[arni|ARNI]] 降低 SVR 與後負荷;**Nitroprusside 同時擴張動、靜脈 → 前後負荷都下降**;嗎啡可降低前負荷並輕度降低後負荷。**主動脈內氣球幫浦(IABP)**：舒張期充氣 → 增加冠狀動脈灌流;收縮期前放氣 → 降低後負荷。
+**藥物對應**（後負荷）
+
+- 降低 SVR 與後負荷：動脈血管擴張劑（[[direct-vasodilators|Hydralazine]]、[[calcium-channel-blockers|Dihydropyridine CCB]]）、[[ace-inhibitors|ACEI]]／[[arb|ARB]]／[[arni|ARNI]]
+- **Nitroprusside** 同時擴張動、靜脈 → 前後負荷都下降
+- 嗎啡可降低前負荷並輕度降低後負荷
+- **主動脈內氣球幫浦（IABP）**：舒張期充氣 → 增加冠狀動脈灌流；收縮期前放氣 → 降低後負荷
 
 ::questions{keyword="(前負荷|後負荷|preload|afterload)" limit="8"}
 
@@ -183,7 +207,14 @@ references:
 - 心肌主要能量來源是**脂肪酸**(有氧代謝)，粒線體多，極度依賴氧氣。
 - 細胞外 Ca²⁺ 過高使收縮力增強(嚴重時停在收縮狀態)，並不是讓心跳加快。
 
-**藥物對應**：[[inotropes|Dobutamine]](β1)、Dopamine、Milrinone(PDE3 抑制 → cAMP↑)、[[digoxin|Digoxin]](抑制 Na⁺/K⁺-ATPase → 細胞內 Ca²⁺↑)增加收縮力;[[beta-blockers|β 阻斷劑]]與 verapamil/diltiazem 降低收縮力。Dopamine 劑量效應：低劑量作用於 D1 → 腎臟血流↑;中劑量 β1 → **收縮力↑**、CO↑;高劑量 α1 → 血管收縮、血壓↑。
+**藥物對應**（收縮力）
+
+- 增加收縮力：[[inotropes|Dobutamine]]（β1）、Dopamine、Milrinone（PDE3 抑制 → cAMP↑）、[[digoxin|Digoxin]]（抑制 Na⁺/K⁺-ATPase → 細胞內 Ca²⁺↑）
+- 降低收縮力：[[beta-blockers|β 阻斷劑]]、verapamil／diltiazem
+- Dopamine 劑量效應
+  1. 低劑量：作用於 D1 → 腎臟血流↑
+  2. 中劑量：β1 → **收縮力↑**、CO↑
+  3. 高劑量：α1 → 血管收縮、血壓↑
 **臨床對應**：NTG **不會**增加心肌收縮力，它是透過減少前負荷來降低心肌需氧量。
 
 ## Frank–Starling 定律 {#frank-starling}

@@ -407,7 +407,7 @@ export function ChapterQuizRunner({
   return (
     <div>
       {/* 工具列：離開｜範圍｜計時｜作答情形｜設定。手機上黏在標題列下方 */}
-      <div className="sticky top-[calc(3rem+env(safe-area-inset-top))] z-20 -mx-4 mb-2 flex items-center gap-2 bg-page/85 px-4 py-2 backdrop-blur-xl md:top-0">
+      <div className="sticky top-[calc(3rem+env(safe-area-inset-top))] z-20 -mx-4 mb-2 flex items-center gap-2 bg-page/85 px-4 py-2 backdrop-blur-xl md:top-(--desk-bar)">
         <button type="button" onClick={() => setDialog("leave")} className={pillGray}>
           <ChevronLeft size={15} /> 離開
         </button>

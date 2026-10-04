@@ -22,6 +22,15 @@ references:
 ---
 一段 2–3 句的說明：是什麼病原、造成哪些重要疾病、為什麼常考。
 
+## 重點摘要 {#summary}
+
+- 重點一(3–5 點，一行一件事；考前只看這一區也夠用)
+- 重點二
+
+### 國考常考點 {#exam-points}
+
+- 考點一
+
 ## 病原特性 {#staphylococcus-aureus}
 
 分類、形態、染色、培養特性、構造(莢膜、芽孢、套膜等)。
@@ -52,10 +61,6 @@ references:
 
 ## 易混淆比較 {#comparison}
 
-## 國考常考點 {#exam-points}
-
-:::exam[國考重點]
-- 考點一
-:::
+## 相關考題 {#questions}
 
 ::questions{ids=""}
