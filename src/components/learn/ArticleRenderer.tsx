@@ -13,6 +13,7 @@ import { SectionBodyEditor, SectionTitleEditor } from "./KnowledgeEditors";
 import { BasicsBox } from "./BasicsBox";
 import { EmbedBadge } from "./EmbedBadge";
 import { KnowledgeLink } from "./KnowledgeLink";
+import { ZoomableFigureImage } from "./ZoomableFigureImage";
 import { isMergedExamPoints } from "./toc";
 
 export interface RenderContext {
@@ -62,9 +63,7 @@ function Figure({ src, alt }: { src: string; alt: string }) {
   const credit = imageCredits[name];
   return (
     <figure className="my-5">
-      {/* 圖多為 SVG 圖解,next/image 對 SVG 沒有最佳化效果,直接用 img */}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={src} alt={alt} loading="lazy" className="mx-auto max-h-[480px] w-auto max-w-full rounded-btn border border-card-border bg-white" />
+      <ZoomableFigureImage src={src} alt={alt} />
       <figcaption className="mt-2 text-center text-sm text-body">
         {alt}
         {credit && (
