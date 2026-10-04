@@ -153,5 +153,12 @@
     "title": "心肌缺血疼痛常見部位(轉移痛)",
     "author": "多保命",
     "license": "原創"
+  },
+  "complement-pathways.svg": {
+    "title": "補體三條活化路徑與共同的終末路徑",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
   }
 }

@@ -1,13 +1,15 @@
 # 來源掃描報告(1a)
 
-> 由 `scripts/source-scan.py` 產生。161 篇頁面對 198 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
+> 由 `scripts/source-scan.py` 產生。164 篇頁面對 198 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
 > 「疑似貼上」＝內文含形似字元(UpToDate 匯出檔的防複製記號)；「逐字重疊」＝共有 6 串以上；「數字序列重疊」＝連續 5 個有辨識度的數字(含單位)與匯出檔順序相同，可能是照原文順序整理，需人工比對；「檢視」＝零星重疊，多半是專有名詞或藥名。
 > **限制**：①中文翻譯式的近似照抄抓不到(只能抓英文詞串與數字序列)，要人工抽查；②國考書 PDF 是掃描圖檔、沒有文字層，無法比對(需要 OCR)；③圖片與表格的重製要人工看。
 
 | 結果 | 頁面 | 引用行數 | 形似字元 | 英文重疊 | 數字序列重疊 | 最相近的匯出檔 | 例 |
 |---|---|---:|---:|---:|---:|---|---|
+| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 感染相關/Acute phase reactants(6)；免疫相關/Systemic lupus erythematosus: Epidemiology and pathogenesis(6)；免疫相關/Pathogenesis of graft-versus-host disease (GVHD)(6) | an overview of the innate immune |
 | 數字序列重疊 | disease/sepsis.md | 4 | 0 | 0 | 3 | 感染相關/Sepsis syndromes in adults: Epidemiology, definitions, clinical presentation, diagnosis, and prognosis(3) |  |
 | 檢視 | pathogen/human-papillomavirus.md | 0 | 0 | 0 | 2 | 癌症相關/Invasive cervical cancer: Epidemiology, risk factors, clinical manifestations, and diagnosis(2) |  |
+| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Antigen-presenting cells(2)；免疫相關/Regulators and receptors of the complement system(2)；免疫相關/Overview and clinical assessment of the complement system(2) | regulators and receptors of the complement |
 | 無重疊 | admin/accreditation-evaluation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/clinical-ladder-training.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/conflict-change-management.md | 0 | 0 | 0 | 0 | — |  |
@@ -164,6 +166,7 @@
 | 無重疊 | physiology/cardiac-output.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/coronary-circulation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/glucose-homeostasis.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/inflammation-repair.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/microbial-pathogenesis.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neoplasia.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neurotransmitters-psychiatry.md | 12 | 0 | 0 | 0 | — |  |

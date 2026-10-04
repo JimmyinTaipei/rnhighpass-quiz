@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 760" width="1040" height="760" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>補體三條活化路徑與共同的終末路徑</title>
+<rect width="1040" height="760" fill="#FFFFFF"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker><marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5CA5"/></marker></defs>
+<text x="500" y="30" font-size="20" text-anchor="middle" font-weight="bold" fill="#26262B">補體三條活化路徑與共同的終末路徑</text>
+<rect x="30" y="50" width="290" height="26" rx="6" fill="#3A6EA5"/>
+<text x="175.0" y="68" font-size="14" text-anchor="middle" font-weight="bold" fill="#FFFFFF">古典路徑 Classical</text>
+<rect x="345" y="50" width="290" height="26" rx="6" fill="#3E7C57"/>
+<text x="490.0" y="68" font-size="14" text-anchor="middle" font-weight="bold" fill="#FFFFFF">凝集素路徑 Lectin</text>
+<rect x="680" y="50" width="290" height="26" rx="6" fill="#AD5C28"/>
+<text x="825.0" y="68" font-size="14" text-anchor="middle" font-weight="bold" fill="#FFFFFF">替代路徑 Alternative</text>
+<rect x="30" y="86" width="290" height="52" rx="8" fill="#E6EEF7" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="175.0" y="107.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">啟動：抗原抗體複合物</text>
+<text x="175.0" y="125.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">(IgM、IgG1、IgG3，也可由 CRP)</text>
+<rect x="345" y="86" width="290" height="52" rx="8" fill="#E5F1EA" stroke="#3E7C57" stroke-width="1.6"/>
+<text x="490.0" y="107.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">啟動：病原表面的糖類</text>
+<text x="490.0" y="125.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">(甘露糖、GlcNAc、岩藻糖)</text>
+<rect x="680" y="86" width="290" height="52" rx="8" fill="#F8EBDF" stroke="#AD5C28" stroke-width="1.6"/>
+<text x="825.0" y="107.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">啟動：C3 持續微量自發水解</text>
+<text x="825.0" y="125.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">(tickover，不需抗體)；病原與受損細胞上被放大</text>
+<line x1="175.0" y1="138" x2="175.0" y2="156" stroke="#3A6EA5" stroke-width="1.8" marker-end="url(#ar)"/>
+<line x1="490.0" y1="138" x2="490.0" y2="156" stroke="#3E7C57" stroke-width="1.8" marker-end="url(#ar)"/>
+<line x1="825.0" y1="138" x2="825.0" y2="156" stroke="#AD5C28" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="30" y="156" width="290" height="52" rx="8" fill="#E6EEF7" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="175.0" y="177.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">C1q 結合抗體 Fc</text>
+<text x="175.0" y="195.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">C1r、C1s 活化 → 切開 C4 與 C2</text>
+<rect x="345" y="156" width="290" height="52" rx="8" fill="#E5F1EA" stroke="#3E7C57" stroke-width="1.6"/>
+<text x="490.0" y="177.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">MBL／ficolin 辨識糖類</text>
+<text x="490.0" y="195.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">MASP-1、MASP-2 活化 → 切開 C4 與 C2</text>
+<rect x="680" y="156" width="290" height="52" rx="8" fill="#F8EBDF" stroke="#AD5C28" stroke-width="1.6"/>
+<text x="825.0" y="177.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">C3(H2O) 結合因子 B</text>
+<text x="825.0" y="195.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">因子 D 切開 B → Bb；properdin(P)穩定</text>
+<line x1="175" y1="208" x2="175" y2="236" stroke="#3A6EA5" stroke-width="1.8" marker-end="url(#ar)"/>
+<line x1="490" y1="208" x2="490" y2="236" stroke="#3E7C57" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="30" y="236" width="605" height="46" rx="8" fill="#F3F3F5" stroke="#26262B" stroke-width="1.6"/>
+<text x="332.5" y="263.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">C3 轉化酶：C4b2b(C4b 附著標的 + C2b 蛋白酶；舊書寫作 C4b2a)</text>
+<line x1="825" y1="208" x2="825" y2="236" stroke="#AD5C28" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="680" y="236" width="290" height="46" rx="8" fill="#F3F3F5" stroke="#26262B" stroke-width="1.6"/>
+<text x="825.0" y="263.55" font-size="13" text-anchor="middle" font-weight="normal" fill="#26262B">C3 轉化酶：C3bBb(+P)</text>
+<line x1="332" y1="282" x2="332" y2="308" stroke="#26262B" stroke-width="1.8" marker-end="url(#ar)"/>
+<line x1="825" y1="282" x2="825" y2="308" stroke="#26262B" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="30" y="308" width="940" height="46" rx="8" fill="#EEEAF8" stroke="#6B5CA5" stroke-width="1.6"/>
+<text x="500.0" y="335.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#26262B">C3 被切成 C3a(小，被釋出)＋ C3b(大，共價附著病原表面)：數分鐘內沉積數百萬個 C3b</text>
+<path d="M 974 331 L 998 331 L 998 259 L 974 259" fill="none" stroke="#6B5CA5" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#ap)"/>
+<text x="1016" y="296" font-size="12" fill="#6B5CA5" transform="rotate(90 1016 296)" text-anchor="middle">放大迴路</text>
+<text x="825" y="298" font-size="1" text-anchor="middle" font-weight="normal" fill="#26262B"></text>
+<line x1="500" y1="354" x2="500" y2="380" stroke="#26262B" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="30" y="380" width="940" height="46" rx="8" fill="#F3F3F5" stroke="#26262B" stroke-width="1.6"/>
+<text x="500.0" y="407.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#26262B">C3b 再結合 C3 轉化酶 → C5 轉化酶：C4b2b3b(古典、凝集素)／C3bBb3b(替代，P 穩定)</text>
+<line x1="500" y1="426" x2="500" y2="452" stroke="#26262B" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="30" y="452" width="940" height="46" rx="8" fill="#F8EBDF" stroke="#AD5C28" stroke-width="1.6"/>
+<text x="500.0" y="479.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#26262B">C5 被切成 C5a(強過敏毒素)＋ C5b(開始組裝 MAC)</text>
+<line x1="500" y1="498" x2="500" y2="524" stroke="#B4485C" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="30" y="524" width="940" height="64" rx="8" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.6"/>
+<text x="500.0" y="551.4" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">膜攻擊複合體 MAC(C5b-9)：C5b + C6 + C7 + C8 + 多個 C9</text>
+<text x="500.0" y="570.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#26262B">在細胞膜上形成穿膜孔洞 → 滲透壓溶解(對革蘭氏陰性菌、尤其奈瑟氏菌有效)</text>
+<text x="500" y="622" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">各片段的功能</text>
+<rect x="30" y="634" width="220" height="104" rx="8" fill="#E5F1EA" stroke="#3E7C57" stroke-width="1.6"/>
+<text x="140" y="658" font-size="15" text-anchor="middle" font-weight="bold" fill="#3E7C57">C3b</text>
+<text x="140" y="680" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">調理作用</text>
+<text x="140" y="702" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">包住病原，讓有 C3 受體的</text>
+<text x="140" y="719" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">吞噬細胞辨識並吞噬</text>
+<rect x="270" y="634" width="220" height="104" rx="8" fill="#F8EBDF" stroke="#AD5C28" stroke-width="1.6"/>
+<text x="380" y="658" font-size="15" text-anchor="middle" font-weight="bold" fill="#AD5C28">C3a、C4a、C5a</text>
+<text x="380" y="680" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">過敏毒素</text>
+<text x="380" y="702" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">肥大細胞脫顆粒、血管擴張與通</text>
+<text x="380" y="719" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">透性增加、平滑肌收縮</text>
+<rect x="510" y="634" width="220" height="104" rx="8" fill="#F8EBDF" stroke="#AD5C28" stroke-width="1.6"/>
+<text x="620" y="658" font-size="15" text-anchor="middle" font-weight="bold" fill="#AD5C28">C5a</text>
+<text x="620" y="680" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">趨化與活化</text>
+<text x="620" y="702" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">吸引並活化嗜中性球與單核球</text>
+<rect x="750" y="634" width="220" height="104" rx="8" fill="#FDE8EC" stroke="#B4485C" stroke-width="1.6"/>
+<text x="860" y="658" font-size="15" text-anchor="middle" font-weight="bold" fill="#B4485C">MAC(C5b-9)</text>
+<text x="860" y="680" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">溶解</text>
+<text x="860" y="702" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#26262B">在病原細胞膜打洞，使其溶解</text>
+</svg>

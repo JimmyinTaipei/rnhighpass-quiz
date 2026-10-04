@@ -5,20 +5,34 @@
 
 ## 目前輪次
 
-- **輪次**：第 0 輪(定位、介面規範、進度機制)
-- **計畫檔**：`~/.claude/plans/1-cosmic-sonnet.md`
-- **狀態**：完成，等使用者確認畫面與資料清單
+- **輪次**：第 1.5 輪 免疫＋氣喘＋輸血反應＋病理發炎(22 篇，A–F 六組)
+- **計畫檔**：`~/.claude/plans/vectorized-tinkering-wind.md`；頁面表與來源授權見 [sources/immunology.md](sources/immunology.md)
+- **狀態**：第 0 步與 **A 組完成**(2026-10-04)；下一步 B 組(t-lymphocytes、b-lymphocytes、immunoglobulins-hla)，使用者說「下一輪」才開始
 
 ## 本輪步驟
 
-| 步驟 | 內容 | 狀態 |
+| 組 | 頁面 | 狀態 |
 |---|---|---|
-| 0a | positioning.md、knowledge-roadmap.md、本檔、AGENTS.md 規則、記憶 | ✅ 完成 |
-| 0b | procedure／device 範本、taxonomy(device 類型、critical-care 分類)、程式同步 | ✅ 完成 |
-| 0c | 頁首重點摘要框、刪「XX 考題」膠囊、ExamPresence 響應式、巢狀列點樣式、basics 三段切換 | ✅ 完成(tsc、lint 通過；畫面待使用者目視確認) |
-| 0d | roadmap「各批次需要的資料」清單，回報使用者，等補齊再開第 1 輪 | ✅ 清單完成，等使用者回覆 |
+| 0 | taxonomy 新增 4 個 group、roadmap、來源包、進度檔 | ✅ 2026-10-04 |
+| A | immune-system-basics | ✅ 2026-10-04 |
+| A | complement-system(含原創 SVG) | ✅ 2026-10-04 |
+| A | inflammation-repair | ✅ 2026-10-04(已用 Robbins Basic Pathology 第 9 版核對) |
+| B | t-lymphocytes、b-lymphocytes、immunoglobulins-hla | ⬜ |
+| C | hypersensitivity-reactions、anaphylaxis、allergic-rhinitis、urticaria-angioedema、allergic-contact-dermatitis-latex、antihistamines-autacoids | ⬜ |
+| D | asthma、asthma-drugs | ⬜ |
+| E | autoimmune-diseases、sle、rheumatoid-arthritis、kawasaki-disease | ⬜ |
+| F | primary-immunodeficiency、immunology-labs、monoclonal-antibodies、transfusion-reactions | ⬜ |
 
 ## 進行中
+
+- **第 1.5 輪 A 組完成(2026-10-04)**
+  - 新頁：`physiology/immune-system-basics`、`complement-system`(原創 SVG `complement-pathways.svg`，已登記 credits)、`inflammation-repair`；taxonomy 新增 4 個 group；既有頁補連結(microbial-pathogenesis、sepsis、inflammatory-markers)
+  - 驗證：build-knowledge 通過(164 篇)、resolver 與 export_knowledge_questions 已跑、source-scan 只抓到引用行篇名(無內文重疊)、本機 `/learn/<slug>` 三頁回 200 並截圖檢查
+  - 來源：UpToDate(innate 總論、補體 5 篇)、Simon 2015、Chen 2018、Landén 2016、Shah 2017 肉芽腫、OpenStax A&P 2e／Microbiology／Med-Surg 核對；皆改寫
+  - **Robbins 核對(2026-10-04，使用者提供 `國考書（最終參考用）/Robbins Basic Pathology 9th`)**：`inflammation-repair` 逐段核對，主線正確；修正與補強：嗜中性球 6–24 小時、單核球 24–48 小時取代、血管通透性機轉、外滲分子、介質(血清素血管收縮、白三烯)、細胞再生分類、一期與二期癒合時間軸、傷口強度、延遲癒合因素(感染、維生素 C、類固醇)、蟹足腫、肉芽腫三種形成情況
+  - **仍待單一來源核對**：肥厚性疤痕與蟹足腫的區分(Robbins Basic 沒收錄)；`immune-system-basics` 的白血球分類比例(Robbins 沒有，來自一般血液學)與胸腺位置(OpenStax A&P 已核對)
+  - **答案鍵可疑、未放入頁面**：106-2_MS_048(過敏性疾病檢查，選項把「C3、C4 補體下降」列為正確)；107-2_BM_027(扁桃體位置，已在頁面加 note 並依公布答案)
+  - 補體頁已預留，之後要回補的連結：過敏反應頁(第二、三型)、輸血反應頁(溶血)、原發性免疫缺陷頁(CGD、補體缺乏)、蕁麻疹與血管性水腫頁(遺傳性血管性水腫)、SLE 頁
 
 - **第 1 輪 1a 掃描：腳本與報告完成(2026-10-04)**，接著做 1b。
   - 腳本：`python3 scripts/source-scan.py`；報告：[uptodate-scan.md](uptodate-scan.md)。

@@ -69,6 +69,10 @@ domains:
       - { id: antianemics, name: 貧血用藥, type: drug, drugTags: [貧血用藥, 抗貧血用藥] }
       - { id: immunomodulators, name: 免疫製劑與免疫抑制劑, type: drug, drugTags: [免疫製劑, 免疫抑制劑, 免疫抑制用藥, 免疫調節用藥, 自體免疫用藥] }
       - { id: coagulation-labs, name: 凝血與血球檢驗, type: lab }
+      - { id: immunology-basics, name: 免疫學基礎, type: physiology }
+      - { id: immune-disorders, name: 過敏與自體免疫疾病, type: disease }
+      - { id: immunology-labs, name: 免疫檢驗, type: lab }
+      - { id: antihistamines-autacoids, name: 抗組織胺與自泌素, type: drug, drugTags: [抗過敏用藥, 過敏用藥, 抗組織胺用藥, 抗組織胺藥物, 抗組織胺藥, 前列腺素用藥, 自泌素類藥物, 自泌素製劑] }
 
   - id: reproductive
     name: 生殖
