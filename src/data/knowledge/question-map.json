@@ -2746,6 +2746,9 @@
       "108-2_FA_038"
     ]
   },
+  "complement-system#questions": {
+    "auto": []
+  },
   "coronary-circulation#anatomy": {
     "auto": [
       "114-2_BM_004",
@@ -2803,6 +2806,12 @@
       "114-3_MS_043",
       "113-2_BM_015"
     ]
+  },
+  "immune-system-basics#questions": {
+    "auto": []
+  },
+  "inflammation-repair#questions": {
+    "auto": []
   },
   "microbial-pathogenesis#questions": {
     "auto": []

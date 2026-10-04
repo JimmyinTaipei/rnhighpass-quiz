@@ -285,6 +285,8 @@ references:
 - **第二道防線**：發炎反應、吞噬作用、補體、發燒。
 - **第三道防線**：後天免疫(抗體、T 細胞)。
 
+免疫系統的完整說明見 [[immune-system-basics]]、[[complement-system]]、[[inflammation-repair]]。
+
 廣效抗生素破壞**正常菌叢**，會讓致病菌(如困難梭狀桿菌、念珠菌)趁機增生，也會影響消化與黏膜免疫；但與骨髓造血功能無關。
 
 ## 微生物控制概要 {#microbial-control}

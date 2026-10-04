@@ -19,6 +19,10 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 每寫完一篇就更新 knowledge-progress.md。
 
+## 寫作格式補充
+
+- **句尾不加句號**：每一行最後的「。」都省略(列點、段落、方塊皆同)。一行內有兩句以上時，句間的「。」保留當分隔，但盡量拆成兩個列點。
+
 ## 版權與來源規則(雲端 session 與本機 session 都要遵守)
 
 - 內容以不碰版權為第一優先。UpToDate、原文書、國考書都只當參考，**用自己的話與結構重寫**，不貼原文、不逐句翻譯、不重製原圖或整張表。引用標注不等於取得複製授權。
