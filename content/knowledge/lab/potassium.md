@@ -2,7 +2,7 @@
 title: 血清鉀
 subtitle: Serum potassium(K⁺)
 aliases: [K, K+, 鉀, 鉀離子, 血鉀, Potassium, 高血鉀, 低血鉀, 高鉀血症, 低鉀血症, Hyperkalemia, Hypokalemia, KCl, 氯化鉀]
-dzTags: [高血鉀, 高血鉀症, 高鉀血症, 低血鉀, 低血鉀症, 低鉀血症, 電解質不平衡]
+dzTags: [高血鉀, 低血鉀, 電解質不平衡]
 system: renal
 method: blood
 bloodGroup: chemistry
@@ -291,4 +291,4 @@ references:
 ## 相關考題 {#questions}
 
 ::questions{ids="115-1_MS_040,115-1_MS_037,115-1_MS_023,114-3_MS_043,114-2_OP_041,114-2_MS_027,114-1_MS_039,114-1_MS_037,114-1_BM_035,113-3_MS_042,113-3_MS_017,113-2_FA_015"}
-::questions{tag="高血鉀|高血鉀症|高鉀血症|低血鉀|低血鉀症|低鉀血症" limit="8"}
+::questions{tag="高血鉀|低血鉀" limit="8"}

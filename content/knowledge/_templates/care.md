@@ -4,7 +4,7 @@
 title: 護理主題中文名
 subtitle: English name
 aliases: [別名, 英文名]
-dzTags: [題庫的 dz 標籤,可多個]   # 例如 疼痛、瀕死症狀、骨髓抑制
+dzTags: [題庫的 dz 標籤, 可多個]   # 例如 疼痛、瀕死症狀、骨髓抑制
 system: fundamentals                # 必填，taxonomy.yml 的 domain id
 alsoIn: []
 chapters: []                        # 選填：對到的分章題本段落，見 README「章節對照」

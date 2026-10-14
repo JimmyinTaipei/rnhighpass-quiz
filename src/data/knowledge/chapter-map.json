@@ -138,6 +138,51 @@
   "內外-Ch03癌症護理 > 癌症常見問題照護 > 常見腫瘤急症（上腔靜脈症候群、脊髓壓迫、腫瘤溶解症候群）": [
    "cancer-treatment-toxicities"
   ],
+  "精神-Ch12其他精神科疾病的護理 > 兒童及青少年精神疾病": [
+   "child-adolescent-mental-health",
+   "adhd",
+   "autism-spectrum-disorder",
+   "eating-disorders",
+   "intellectual-disability",
+   "cns-stimulants"
+  ],
+  "兒科-Ch17兒童、青少年發展及心理社會健康問題之護理 > 常見的發展、心理健康問題及護理": [
+   "child-adolescent-mental-health",
+   "adhd",
+   "autism-spectrum-disorder",
+   "eating-disorders"
+  ],
+  "社區-Ch11社區心理衛生與護理 > 社區心理衛生與健康的意義與特性": [
+   "community-mental-health"
+  ],
+  "社區-Ch11社區心理衛生與護理 > 社區心理衛生及護理的發展": [
+   "community-mental-health"
+  ],
+  "社區-Ch11社區心理衛生與護理 > 心理健康促進": [
+   "community-mental-health"
+  ],
+  "社區-Ch11社區心理衛生與護理 > 精神疾病防治": [
+   "community-mental-health",
+   "schizophrenia"
+  ],
+  "社區-Ch11社區心理衛生與護理 > 社區心理衛生實證服務模式": [
+   "community-mental-health"
+  ],
+  "社區-Ch11社區心理衛生與護理 > 綜合題型": [
+   "community-mental-health"
+  ],
+  "精神-Ch01精神醫學與護理的發展史及基本概念 > 社區與慢性精神病人護理": [
+   "community-mental-health",
+   "schizophrenia"
+  ],
+  "精神-Ch01精神醫學與護理的發展史及基本概念 > 精神衛生工作範圍與護理人員角色功能": [
+   "community-mental-health",
+   "psychiatric-nursing-foundations",
+   "schizophrenia"
+  ],
+  "精神-Ch06精神科常用的治療方法 > 綜合題型": [
+   "community-mental-health"
+  ],
   "基護-Ch17臨終病人的護理 > 臨終病人之生、心理變化與護理 > 生理變化與護理措施（中樞神經、呼吸、循環、感官、肌肉皮膚、腸胃泌尿系統）": [
    "end-of-life-care"
   ],
@@ -150,9 +195,33 @@
   "兒科-Ch06瀕死兒童之護理 > 兒童及家庭對瀕死的反應": [
    "end-of-life-care"
   ],
+  "精神-Ch13危機處理與意外事件的護理 > 精神科病房常見意外事件與家庭暴力": [
+   "family-violence"
+  ],
+  "兒科-Ch17兒童、青少年發展及心理社會健康問題之護理 > 兒童虐待": [
+   "family-violence"
+  ],
+  "兒科-Ch16兒童事故傷害及其護理 > 常見傷害種類及其護理": [
+   "family-violence"
+  ],
+  "兒科-Ch16兒童事故傷害及其護理 > 綜合題型": [
+   "family-violence"
+  ],
+  "精神-Ch06精神科常用的治療方法 > 團體治療": [
+   "group-family-therapy"
+  ],
+  "精神-Ch06精神科常用的治療方法 > 家庭治療": [
+   "group-family-therapy"
+  ],
   "微免-Ch03免疫異常與疫苗應用 > 疫苗與預防接種應用": [
    "immunization",
    "childhood-infectious-diseases"
+  ],
+  "精神-Ch06精神科常用的治療方法 > 個別心理治療": [
+   "individual-cognitive-behavioral-therapy"
+  ],
+  "精神-Ch06精神科常用的治療方法 > 行為治療與認知治療": [
+   "individual-cognitive-behavioral-therapy"
   ],
   "微免-Ch01微生物學總論與微生物控制 > 醫療照護相關感染與感染管制": [
    "infection-control"
@@ -165,6 +234,20 @@
   ],
   "內外-Ch05傳染病 > 醫療照護相關感染": [
    "infection-control"
+  ],
+  "精神-Ch06精神科常用的治療方法 > 環境治療": [
+   "milieu-therapy"
+  ],
+  "精神-Ch06精神科常用的治療方法 > 活動治療": [
+   "milieu-therapy"
+  ],
+  "內外-Ch15神經系統疾病 > 神經系統基本概念與評估": [
+   "neuro-assessment"
+  ],
+  "內外-Ch15神經系統疾病 > 神經系統常見問題": [
+   "neuro-assessment",
+   "icp-monitoring",
+   "increased-icp"
   ],
   "社區-Ch14傳染病防治與護理 > 重要傳染病流行病學及管制概況": [
    "notifiable-diseases"
@@ -196,12 +279,120 @@
    "leukemia",
    "antineoplastics"
   ],
+  "精神-Ch01精神醫學與護理的發展史及基本概念 > 精神醫學發展史": [
+   "psychiatric-nursing-foundations",
+   "schizophrenia"
+  ],
+  "精神-Ch01精神醫學與護理的發展史及基本概念 > 精神衛生護理發展史與演進": [
+   "psychiatric-nursing-foundations"
+  ],
+  "精神-Ch01精神醫學與護理的發展史及基本概念 > 臺灣精神醫療與精神衛生護理現況": [
+   "psychiatric-nursing-foundations"
+  ],
+  "精神-Ch01精神醫學與護理的發展史及基本概念 > 精神衛生護理的理論模式": [
+   "psychiatric-nursing-foundations",
+   "psychodynamic-theories"
+  ],
+  "精神-Ch03精神疾病的病因、症狀、診斷與分類 > 精神疾病的相關因素與致病理論": [
+   "psychodynamic-theories",
+   "depressive-disorder",
+   "schizophrenia",
+   "neurotransmitters-psychiatry"
+  ],
+  "精神-Ch11人格障礙病人的護理 > 人格構造與人格發展理論": [
+   "psychodynamic-theories",
+   "personality-disorders"
+  ],
   "內外-Ch02免疫系統疾病 > 器官移植與護理": [
    "stem-cell-transplant",
    "immunosuppressants"
   ],
   "內外-Ch14血液系統疾病 > 輸血與造血幹細胞移植": [
-   "stem-cell-transplant"
+   "stem-cell-transplant",
+   "transfusion-reactions"
+  ],
+  "基護-Ch14體液供給 > 體液供給的護理過程": [
+   "transfusion-reactions"
+  ],
+  "病理-Ch10血液、造血與淋巴系統疾病 > 血型、輸血與脾臟疾病": [
+   "transfusion-reactions"
+  ],
+  "兒科-Ch10兒童血液疾病 > 兒童血液系統之解剖生理與評估": [
+   "transfusion-reactions"
+  ],
+  "精神-Ch12其他精神科疾病的護理 > 物質相關及成癮障礙症": [
+   "alcohol-use-disorder",
+   "substance-use-disorders",
+   "addiction-treatment-drugs"
+  ],
+  "藥理-Ch03中樞神經與精神科藥物 > 其他中樞神經作用藥物": [
+   "alcohol-use-disorder",
+   "substance-use-disorders"
+  ],
+  "藥理-Ch13毒理學、成癮藥物與生物製劑 > 成癮藥物": [
+   "alcohol-use-disorder",
+   "substance-use-disorders",
+   "addiction-treatment-drugs"
+  ],
+  "病理-Ch07環境傷害與營養疾病 > 化學性傷害": [
+   "alcohol-use-disorder"
+  ],
+  "內外-Ch02免疫系統疾病 > 過敏反應疾病": [
+   "allergic-contact-dermatitis-latex",
+   "allergic-rhinitis",
+   "anaphylaxis",
+   "autoimmune-diseases",
+   "rheumatoid-arthritis",
+   "sle",
+   "urticaria-angioedema",
+   "hypersensitivity-reactions"
+  ],
+  "病理-Ch05免疫系統疾病 > 過敏反應": [
+   "allergic-contact-dermatitis-latex",
+   "anaphylaxis",
+   "hypersensitivity-reactions"
+  ],
+  "微免-Ch03免疫異常與疫苗應用 > 過敏反應": [
+   "allergic-rhinitis",
+   "anaphylaxis",
+   "hypersensitivity-reactions"
+  ],
+  "精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理 > 焦慮症": [
+   "anxiety-disorders"
+  ],
+  "精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理 > 病因、治療原則與預後": [
+   "anxiety-disorders"
+  ],
+  "精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理 > 護理處置": [
+   "anxiety-disorders",
+   "obsessive-compulsive-disorder",
+   "trauma-stress-disorders"
+  ],
+  "內外-Ch09呼吸系統疾病 > 下呼吸道通道病變": [
+   "asthma"
+  ],
+  "兒科-Ch08兒童呼吸系統疾病 > 其他常見呼吸系統疾病": [
+   "asthma"
+  ],
+  "病理-Ch11呼吸系統疾病 > 下呼吸道與肺實質疾病": [
+   "asthma"
+  ],
+  "社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護": [
+   "asthma",
+   "hypertension"
+  ],
+  "病理-Ch05免疫系統疾病 > 自體免疫疾病": [
+   "autoimmune-diseases",
+   "sle",
+   "immunology-labs"
+  ],
+  "病理-Ch05免疫系統疾病 > 器官移植與其他免疫疾病": [
+   "autoimmune-diseases",
+   "immunosuppressants"
+  ],
+  "微免-Ch03免疫異常與疫苗應用 > 自體免疫疾病": [
+   "autoimmune-diseases",
+   "immunology-labs"
   ],
   "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 情緒安定劑（抗躁鬱症藥物）": [
    "bipolar-disorder",
@@ -210,6 +401,7 @@
   ],
   "精神-Ch05肌體治療 > 精神科藥物治療": [
    "bipolar-disorder",
+   "anxiolytics-hypnotics",
    "mood-stabilizers",
    "neurotransmitters-psychiatry"
   ],
@@ -223,6 +415,11 @@
    "depressive-disorder",
    "lithium-level",
    "neurotransmitters-psychiatry"
+  ],
+  "內外-Ch15神經系統疾病 > 神經系統腫瘤與感染疾病": [
+   "brain-tumors",
+   "neuromuscular-demyelinating",
+   "pediatric-cancers"
   ],
   "病理-Ch15生殖系統與乳房疾病 > 乳房疾病": [
    "breast-cancer"
@@ -258,7 +455,8 @@
   ],
   "藥理-Ch12癌症藥物與免疫製劑 > 治療腫瘤藥物": [
    "cancer",
-   "antineoplastics"
+   "antineoplastics",
+   "monoclonal-antibodies"
   ],
   "內外-Ch03癌症護理 > 癌症基本概念": [
    "cancer"
@@ -284,7 +482,8 @@
    "cns-infections"
   ],
   "兒科-Ch13兒童神經系統疾病 > 常見神經系統疾病及其護理": [
-   "cns-infections"
+   "cns-infections",
+   "pediatric-neuro"
   ],
   "病理-Ch12消化道疾病 > 大腸疾病": [
    "colorectal-cancer"
@@ -297,7 +496,8 @@
    "heart-failure"
   ],
   "病理-Ch09心臟血管系統疾病 > 血管疾病": [
-   "coronary-artery-disease"
+   "coronary-artery-disease",
+   "kawasaki-disease"
   ],
   "藥理-Ch08心血管藥物 > 抗心絞痛藥物": [
    "coronary-artery-disease",
@@ -314,14 +514,46 @@
    "echocardiography",
    "coronary-circulation"
   ],
+  "內外-Ch15神經系統疾病 > 其他腦神經疾病與特殊問題": [
+   "cranial-nerve-spine-disorders",
+   "epilepsy"
+  ],
+  "內外-Ch15神經系統疾病 > 神經系統創傷": [
+   "cranial-nerve-spine-disorders",
+   "head-injury",
+   "spinal-cord-injury"
+  ],
+  "藥理-Ch04止痛藥與麻醉藥物 > 頭痛用藥": [
+   "cranial-nerve-spine-disorders"
+  ],
+  "精神-Ch12其他精神科疾病的護理 > 認知類障礙症": [
+   "delirium",
+   "dementia",
+   "anti-dementia-drugs"
+  ],
+  "內外-Ch01緒論、老年人與瀕死護理 > 老年人護理": [
+   "delirium",
+   "dementia"
+  ],
+  "精神-Ch12其他精神科疾病的護理 > 老年精神衛生問題": [
+   "dementia",
+   "depressive-disorder"
+  ],
+  "社區-Ch08中老年人的護理 > 老人的照顧": [
+   "dementia"
+  ],
+  "社區-Ch10長期照護 > 現行長期照護服務": [
+   "dementia"
+  ],
+  "內外-Ch15神經系統疾病 > 神經系統退化性疾病": [
+   "dementia",
+   "neuromuscular-demyelinating",
+   "parkinson-disease",
+   "anti-dementia-drugs"
+  ],
   "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 抗憂鬱劑": [
    "depressive-disorder",
    "antidepressants"
-  ],
-  "精神-Ch03精神疾病的病因、症狀、診斷與分類 > 精神疾病的相關因素與致病理論": [
-   "depressive-disorder",
-   "schizophrenia",
-   "neurotransmitters-psychiatry"
   ],
   "精神-Ch05肌體治療 > 電氣痙攣療法": [
    "depressive-disorder",
@@ -335,9 +567,6 @@
   "精神-Ch08雙相情緒障礙症病人的護理 > 鬱症與憂鬱症類障礙": [
    "depressive-disorder",
    "neurotransmitters-psychiatry"
-  ],
-  "精神-Ch12其他精神科疾病的護理 > 老年精神衛生問題": [
-   "depressive-disorder"
   ],
   "精神-Ch13危機處理與意外事件的護理 > 危機處理": [
    "depressive-disorder"
@@ -406,6 +635,15 @@
   "社區-Ch09慢性疾病的護理 > 慢性病防治政策與社區衛生護理角色": [
    "diabetes"
   ],
+  "內外-Ch17感覺機能與眼耳鼻喉科疾病 > 耳朵疾病與護理": [
+   "ear-disorders"
+  ],
+  "內外-Ch17感覺機能與眼耳鼻喉科疾病 > 眼睛疾病與護理": [
+   "eye-disorders"
+  ],
+  "病理-Ch18感官與神經系統疾病 > 眼睛疾病": [
+   "eye-disorders"
+  ],
   "病理-Ch15生殖系統與乳房疾病 > 女性生殖系統疾病": [
    "gynecologic-cancers"
   ],
@@ -463,20 +701,23 @@
    "echocardiography"
   ],
   "病理-Ch05免疫系統疾病 > 免疫不全疾病": [
-   "hiv-aids"
+   "hiv-aids",
+   "primary-immunodeficiency"
   ],
   "藥理-Ch11抗細菌藥物與抗感染藥 > 抗病毒藥物": [
    "hiv-aids",
    "antivirals"
   ],
   "微免-Ch03免疫異常與疫苗應用 > 免疫缺陷疾病": [
-   "hiv-aids"
+   "hiv-aids",
+   "primary-immunodeficiency"
   ],
   "微免-Ch13肝炎病毒、反轉錄病毒與變性蛋白質 > 反轉錄病毒": [
    "hiv-aids"
   ],
   "內外-Ch02免疫系統疾病 > 免疫缺陷症": [
-   "hiv-aids"
+   "hiv-aids",
+   "primary-immunodeficiency"
   ],
   "產科-Ch13婦科常見疾病 > 性接觸傳染疾病": [
    "hiv-aids",
@@ -484,9 +725,11 @@
   ],
   "藥理-Ch02自主神經系統藥物 > 腎上腺素性神經藥物": [
    "hypertension",
+   "adrenergic-agonists",
    "alpha-blockers",
    "beta-blockers",
-   "central-alpha2-agonists"
+   "central-alpha2-agonists",
+   "autonomic-nervous-system"
   ],
   "藥理-Ch08心血管藥物 > 治療高血壓藥物": [
    "hypertension",
@@ -503,9 +746,6 @@
    "hypertension"
   ],
   "產科-Ch10高危險妊娠之護理 > 高血壓性疾病": [
-   "hypertension"
-  ],
-  "社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護": [
    "hypertension"
   ],
   "基護-Ch10生命徵象 > 血壓": [
@@ -543,6 +783,13 @@
   "內外-Ch13心血管系統疾病 > 發炎性與瓣膜性心臟病": [
    "infective-endocarditis"
   ],
+  "兒科-Ch09兒童循環系統疾病 > 後天性心臟血管疾病": [
+   "kawasaki-disease"
+  ],
+  "藥理-Ch04止痛藥與麻醉藥物 > 非成癮性鎮痛劑": [
+   "kawasaki-disease",
+   "nsaids-acetaminophen"
+  ],
   "病理-Ch10血液、造血與淋巴系統疾病 > 血液系統之惡性腫瘤": [
    "leukemia",
    "lymphoma-myeloma"
@@ -567,13 +814,13 @@
   "病理-Ch11呼吸系統疾病 > 肺部腫瘤與肉芽腫性疾病": [
    "lung-cancer"
   ],
+  "精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理 > 強迫症及相關障礙症": [
+   "obsessive-compulsive-disorder"
+  ],
   "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 骨骼疾病": [
    "pediatric-cancers"
   ],
   "病理-Ch18感官與神經系統疾病 > 中樞神經系統腫瘤與癲癇": [
-   "pediatric-cancers"
-  ],
-  "內外-Ch15神經系統疾病 > 神經系統腫瘤與感染疾病": [
    "pediatric-cancers"
   ],
   "兒科-Ch18兒童癌症 > 兒童癌症概論": [
@@ -589,6 +836,18 @@
   ],
   "產科-Ch12產後期異常之護理 > 產褥感染": [
    "perinatal-infections"
+  ],
+  "精神-Ch11人格障礙病人的護理 > A群人格障礙症": [
+   "personality-disorders"
+  ],
+  "精神-Ch11人格障礙病人的護理 > B群人格障礙症": [
+   "personality-disorders"
+  ],
+  "精神-Ch11人格障礙病人的護理 > C群人格障礙症": [
+   "personality-disorders"
+  ],
+  "精神-Ch11人格障礙病人的護理 > 護理處置": [
+   "personality-disorders"
   ],
   "微免-Ch05革蘭氏陽性球菌 > 肺炎鏈球菌": [
    "pneumonia",
@@ -607,18 +866,21 @@
   "微免-Ch12RNA病毒 > 正黏液病毒與副黏液病毒": [
    "respiratory-viral-infections"
   ],
+  "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 關節疾病": [
+   "rheumatoid-arthritis"
+  ],
+  "藥理-Ch12癌症藥物與免疫製劑 > 免疫製劑": [
+   "rheumatoid-arthritis",
+   "sle",
+   "immunosuppressants",
+   "monoclonal-antibodies"
+  ],
+  "內外-Ch16肌肉骨骼系統疾病 > 特定肌肉骨骼疾病": [
+   "rheumatoid-arthritis"
+  ],
   "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 抗精神病藥物": [
    "schizophrenia",
    "antipsychotics"
-  ],
-  "精神-Ch01精神醫學與護理的發展史及基本概念 > 精神醫學發展史": [
-   "schizophrenia"
-  ],
-  "精神-Ch01精神醫學與護理的發展史及基本概念 > 精神衛生工作範圍與護理人員角色功能": [
-   "schizophrenia"
-  ],
-  "精神-Ch01精神醫學與護理的發展史及基本概念 > 社區與慢性精神病人護理": [
-   "schizophrenia"
   ],
   "精神-Ch02精神科護理的倫理與法律觀 > 精神科病人權利與精神衛生法": [
    "schizophrenia"
@@ -661,9 +923,6 @@
    "schizophrenia",
    "neurotransmitters-psychiatry"
   ],
-  "社區-Ch11社區心理衛生與護理 > 精神疾病防治": [
-   "schizophrenia"
-  ],
   "內外-Ch06急重症與疼痛護理 > 急症護理 > 常見急症處置（休克、敗血症、急性創傷、中毒、咬傷、環境傷害）": [
    "sepsis"
   ],
@@ -692,6 +951,21 @@
   "內外-Ch12皮膚疾病 > 皮膚感染與發炎性疾病": [
    "skin-bone-infections",
    "helminths-ectoparasites"
+  ],
+  "精神-Ch10身體症狀障礙症與解離症病人的護理 > 身體症狀及相關障礙症": [
+   "somatic-dissociative-disorders"
+  ],
+  "精神-Ch10身體症狀障礙症與解離症病人的護理 > 解離症": [
+   "somatic-dissociative-disorders"
+  ],
+  "精神-Ch10身體症狀障礙症與解離症病人的護理 > 護理處置": [
+   "somatic-dissociative-disorders"
+  ],
+  "內外-Ch15神經系統疾病 > 腦血管疾病": [
+   "stroke"
+  ],
+  "精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理 > 創傷及壓力相關障礙症": [
+   "trauma-stress-disorders"
   ],
   "藥理-Ch11抗細菌藥物與抗感染藥 > 抗結核病與抗痲瘋病藥物": [
    "tuberculosis",
@@ -756,6 +1030,17 @@
    "glycopeptides",
    "protein-synthesis-inhibitors"
   ],
+  "藥理-Ch04止痛藥與麻醉藥物 > 麻醉劑": [
+   "anesthetics",
+   "opioids"
+  ],
+  "藥理-Ch04止痛藥與麻醉藥物 > 綜合題型": [
+   "anesthetics"
+  ],
+  "藥理-Ch03中樞神經與精神科藥物 > 神經退化性疾病治療藥物": [
+   "anti-dementia-drugs",
+   "antiparkinson-drugs"
+  ],
   "基護-Ch13給藥法 > 給藥醫囑介紹及給藥原則": [
    "antibiotics-overview"
   ],
@@ -769,6 +1054,12 @@
    "antiplatelets",
    "thrombolytics"
   ],
+  "藥理-Ch03中樞神經與精神科藥物 > 抗癲癇藥物": [
+   "antiepileptics"
+  ],
+  "藥理-Ch03中樞神經與精神科藥物 > 綜合題型": [
+   "antiepileptics"
+  ],
   "藥理-Ch11抗細菌藥物與抗感染藥 > 抗黴菌藥物": [
    "antifungals",
    "candida"
@@ -778,6 +1069,9 @@
    "candida",
    "fungi"
   ],
+  "藥理-Ch05自泌素、抗過敏與呼吸系統藥物 > 自泌素": [
+   "antihistamines-autacoids"
+  ],
   "內外-Ch03癌症護理 > 癌症常見問題照護": [
    "antineoplastics"
   ],
@@ -786,22 +1080,39 @@
    "helminths-ectoparasites",
    "protozoa"
   ],
-  "病理-Ch05免疫系統疾病 > 器官移植與其他免疫疾病": [
-   "immunosuppressants"
+  "藥理-Ch03中樞神經與精神科藥物 > 鎮靜安眠藥": [
+   "anxiolytics-hypnotics"
   ],
-  "藥理-Ch12癌症藥物與免疫製劑 > 免疫製劑": [
-   "immunosuppressants"
+  "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物": [
+   "anxiolytics-hypnotics",
+   "neurotransmitters-psychiatry"
+  ],
+  "藥理-Ch05自泌素、抗過敏與呼吸系統藥物 > 抗氣喘與呼吸道發炎用藥": [
+   "asthma-drugs"
+  ],
+  "藥理-Ch05自泌素、抗過敏與呼吸系統藥物 > 其他呼吸系統用藥": [
+   "asthma-drugs"
+  ],
+  "藥理-Ch02自主神經系統藥物 > 膽鹼性神經藥物": [
+   "cholinergic-drugs",
+   "autonomic-nervous-system"
+  ],
+  "藥理-Ch02自主神經系統藥物 > 神經肌阻斷劑": [
+   "cholinergic-drugs"
+  ],
+  "藥理-Ch02自主神經系統藥物 > 綜合題型": [
+   "cholinergic-drugs"
+  ],
+  "藥理-Ch03中樞神經與精神科藥物 > 中樞神經興奮劑": [
+   "cns-stimulants"
+  ],
+  "藥理-Ch04止痛藥與麻醉藥物 > 痛風治療藥物": [
+   "gout-drugs"
   ],
   "藥理-Ch07泌尿系統與利尿劑 > 利尿劑": [
    "loop-diuretics",
    "potassium-sparing-diuretics",
    "thiazide-diuretics"
-  ],
-  "藥理-Ch04止痛藥與麻醉藥物 > 非成癮性鎮痛劑": [
-   "nsaids-acetaminophen"
-  ],
-  "藥理-Ch04止痛藥與麻醉藥物 > 麻醉劑": [
-   "opioids"
   ],
   "藥理-Ch08心血管藥物 > 降血脂藥物": [
    "statins"
@@ -814,7 +1125,8 @@
    "cardiac-catheterization"
   ],
   "生解-Ch07血液、心血管與淋巴系統 > 血液": [
-   "complete-blood-count"
+   "complete-blood-count",
+   "immunoglobulins-hla"
   ],
   "基護-Ch18出入院護理與檢體收集 > 入院之常規檢體收集": [
    "culture-and-sensitivity"
@@ -824,6 +1136,9 @@
   ],
   "內外-Ch13心血管系統疾病 > 心律不整疾病": [
    "ecg"
+  ],
+  "內外-Ch02免疫系統疾病 > 免疫系統基本概念": [
+   "immunology-labs"
   ],
   "生解-Ch11體液、電解質與酸鹼平衡 > 電解質": [
    "potassium"
@@ -906,8 +1221,32 @@
   "微免-Ch05革蘭氏陽性球菌 > 鏈球菌屬": [
    "streptococci"
   ],
+  "生解-Ch05神經系統 > 自主神經系統": [
+   "autonomic-nervous-system"
+  ],
+  "微免-Ch02先天與後天免疫系統 > 後天性免疫系統（特異性免疫）": [
+   "b-lymphocytes",
+   "immunoglobulins-hla",
+   "t-lymphocytes"
+  ],
+  "病理-Ch05免疫系統疾病 > 免疫系統基礎與免疫反應": [
+   "b-lymphocytes",
+   "hypersensitivity-reactions",
+   "immune-system-basics",
+   "t-lymphocytes"
+  ],
   "生解-Ch07血液、心血管與淋巴系統 > 血管與循環路線 > 循環生理學（血量、血壓與血流、微血管物質交換、靜脈回流）": [
    "blood-pressure-regulation"
+  ],
+  "生解-Ch05神經系統 > 腦與腦神經": [
+   "brain-anatomy",
+   "cranial-nerves"
+  ],
+  "生解-Ch05神經系統 > 運動途徑與整合功能": [
+   "brain-anatomy"
+  ],
+  "生解-Ch05神經系統 > 綜合題型": [
+   "brain-anatomy"
   ],
   "生解-Ch07血液、心血管與淋巴系統 > 心臟 > 心動週期（收縮期與舒張期、心音、法蘭克－史達林定律）": [
    "cardiac-output"
@@ -925,8 +1264,8 @@
   "生解-Ch07血液、心血管與淋巴系統 > 淋巴系統": [
    "immune-system-basics"
   ],
-  "病理-Ch05免疫系統疾病 > 免疫系統基礎與免疫反應": [
-   "immune-system-basics"
+  "微免-Ch02先天與後天免疫系統 > 血清學與血型系統": [
+   "immunoglobulins-hla"
   ],
   "病理-Ch02發炎與修復 > 發炎現象": [
    "inflammation-repair"
@@ -946,8 +1285,32 @@
   "微免-Ch04細菌學總論與致病機制 > 感染症之發生與宿主反應": [
    "microbial-pathogenesis"
   ],
-  "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物": [
-   "neurotransmitters-psychiatry"
+  "生解-Ch05神經系統 > 神經系統總論": [
+   "neuron-synapse"
+  ],
+  "生解-Ch05神經系統 > 神經組織學": [
+   "neuron-synapse"
+  ],
+  "生解-Ch05神經系統 > 神經生理學基礎": [
+   "neuron-synapse"
+  ],
+  "生解-Ch06感覺器官 > 感覺總論與體感覺": [
+   "special-senses"
+  ],
+  "生解-Ch06感覺器官 > 嗅覺與味覺": [
+   "special-senses"
+  ],
+  "生解-Ch06感覺器官 > 視覺": [
+   "special-senses"
+  ],
+  "生解-Ch06感覺器官 > 聽覺與平衡": [
+   "special-senses"
+  ],
+  "生解-Ch06感覺器官 > 綜合題型": [
+   "special-senses"
+  ],
+  "生解-Ch05神經系統 > 脊髓與脊神經": [
+   "spinal-cord-spinal-nerves"
   ]
  },
  "chapters": {
@@ -988,23 +1351,10 @@
    ]
   },
   "生解-Ch05神經系統": {
-   "missing": [
-    "神經系統總論",
-    "神經組織學",
-    "神經生理學基礎",
-    "脊髓與脊神經",
-    "腦與腦神經",
-    "自主神經系統",
-    "運動途徑與整合功能"
-   ]
+   "missing": []
   },
   "生解-Ch06感覺器官": {
-   "missing": [
-    "感覺總論與體感覺",
-    "嗅覺與味覺",
-    "視覺",
-    "聽覺與平衡"
-   ]
+   "missing": []
   },
   "生解-Ch07血液、心血管與淋巴系統": {
    "missing": []
@@ -1090,10 +1440,7 @@
    ]
   },
   "病理-Ch05免疫系統疾病": {
-   "missing": [
-    "過敏反應",
-    "自體免疫疾病"
-   ]
+   "missing": []
   },
   "病理-Ch06遺傳與基因疾病": {
    "missing": [
@@ -1106,7 +1453,6 @@
   "病理-Ch07環境傷害與營養疾病": {
    "missing": [
     "物理性傷害",
-    "化學性傷害",
     "營養疾病"
    ]
   },
@@ -1123,13 +1469,11 @@
    "missing": [
     "貧血",
     "白血球與骨髓增生性疾病",
-    "出血與凝血疾病",
-    "血型、輸血與脾臟疾病"
+    "出血與凝血疾病"
    ]
   },
   "病理-Ch11呼吸系統疾病": {
    "missing": [
-    "下呼吸道與肺實質疾病",
     "肋膜與胸腔疾病"
    ]
   },
@@ -1165,14 +1509,12 @@
   },
   "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病": {
    "missing": [
-    "關節疾病",
     "皮膚疾病",
     "肌肉與神經肌肉疾病"
    ]
   },
   "病理-Ch18感官與神經系統疾病": {
    "missing": [
-    "眼睛疾病",
     "中樞神經系統血管與外傷性疾病",
     "去髓鞘與神經退化性疾病"
    ]
@@ -1186,32 +1528,16 @@
    ]
   },
   "藥理-Ch02自主神經系統藥物": {
-   "missing": [
-    "膽鹼性神經藥物",
-    "神經肌阻斷劑"
-   ]
+   "missing": []
   },
   "藥理-Ch03中樞神經與精神科藥物": {
-   "missing": [
-    "中樞神經興奮劑",
-    "鎮靜安眠藥",
-    "抗癲癇藥物",
-    "神經退化性疾病治療藥物",
-    "其他中樞神經作用藥物"
-   ]
+   "missing": []
   },
   "藥理-Ch04止痛藥與麻醉藥物": {
-   "missing": [
-    "痛風治療藥物",
-    "頭痛用藥"
-   ]
+   "missing": []
   },
   "藥理-Ch05自泌素、抗過敏與呼吸系統藥物": {
-   "missing": [
-    "自泌素",
-    "抗氣喘與呼吸道發炎用藥",
-    "其他呼吸系統用藥"
-   ]
+   "missing": []
   },
   "藥理-Ch06消化系統藥物": {
    "missing": [
@@ -1253,8 +1579,7 @@
    "missing": [
     "毒理學總論",
     "重金屬中毒及其螯合劑",
-    "農藥與環境毒物",
-    "成癮藥物"
+    "農藥與環境毒物"
    ]
   },
   "微免-Ch01微生物學總論與微生物控制": {
@@ -1265,15 +1590,10 @@
    ]
   },
   "微免-Ch02先天與後天免疫系統": {
-   "missing": [
-    "後天性免疫系統（特異性免疫）",
-    "血清學與血型系統"
-   ]
+   "missing": []
   },
   "微免-Ch03免疫異常與疫苗應用": {
    "missing": [
-    "過敏反應",
-    "自體免疫疾病",
     "移植免疫與腫瘤免疫"
    ]
   },
@@ -1409,7 +1729,6 @@
   "基護-Ch14體液供給": {
    "missing": [
     "酸鹼平衡與其調節機轉",
-    "體液供給的護理過程",
     "體液的概述"
    ]
   },
@@ -1464,15 +1783,11 @@
   },
   "內外-Ch01緒論、老年人與瀕死護理": {
    "missing": [
-    "成人健康護理基本概念",
-    "老年人護理"
+    "成人健康護理基本概念"
    ]
   },
   "內外-Ch02免疫系統疾病": {
-   "missing": [
-    "免疫系統基本概念",
-    "過敏反應疾病"
-   ]
+   "missing": []
   },
   "內外-Ch03癌症護理": {
    "missing": []
@@ -1508,7 +1823,6 @@
   "內外-Ch09呼吸系統疾病": {
    "missing": [
     "呼吸系統評估與診療處置",
-    "下呼吸道通道病變",
     "胸廓與肋膜病變"
    ]
   },
@@ -1542,28 +1856,17 @@
    ]
   },
   "內外-Ch15神經系統疾病": {
-   "missing": [
-    "神經系統基本概念與評估",
-    "神經系統常見問題",
-    "神經系統創傷",
-    "腦血管疾病",
-    "神經系統退化性疾病",
-    "其他腦神經疾病與特殊問題"
-   ]
+   "missing": []
   },
   "內外-Ch16肌肉骨骼系統疾病": {
    "missing": [
     "肌肉骨骼系統基本概念",
     "肌肉骨骼創傷與處理",
-    "特定肌肉骨骼疾病",
     "肌肉骨骼系統功能不良病人之處理"
    ]
   },
   "內外-Ch17感覺機能與眼耳鼻喉科疾病": {
-   "missing": [
-    "眼睛疾病與護理",
-    "耳朵疾病與護理"
-   ]
+   "missing": []
   },
   "產科-Ch01緒論": {
    "missing": [
@@ -1722,19 +2025,16 @@
   "兒科-Ch08兒童呼吸系統疾病": {
    "missing": [
     "兒童呼吸系統之解剖生理與評估",
-    "呼吸系統常見治療及護理",
-    "其他常見呼吸系統疾病"
+    "呼吸系統常見治療及護理"
    ]
   },
   "兒科-Ch09兒童循環系統疾病": {
    "missing": [
-    "兒童循環系統之解剖生理與評估",
-    "後天性心臟血管疾病"
+    "兒童循環系統之解剖生理與評估"
    ]
   },
   "兒科-Ch10兒童血液疾病": {
    "missing": [
-    "兒童血液系統之解剖生理與評估",
     "貧血",
     "凝血功能障礙",
     "血液疾病遺傳模式比較"
@@ -1768,24 +2068,17 @@
   "兒科-Ch16兒童事故傷害及其護理": {
    "missing": [
     "事故傷害的預防",
-    "常見傷害種類及其護理",
     "嬰幼兒急救與護理重點"
    ]
   },
   "兒科-Ch17兒童、青少年發展及心理社會健康問題之護理": {
-   "missing": [
-    "常見的發展、心理健康問題及護理",
-    "兒童虐待"
-   ]
+   "missing": []
   },
   "兒科-Ch18兒童癌症": {
    "missing": []
   },
   "精神-Ch01精神醫學與護理的發展史及基本概念": {
-   "missing": [
-    "精神衛生護理發展史與演進",
-    "精神衛生護理的理論模式"
-   ]
+   "missing": []
   },
   "精神-Ch02精神科護理的倫理與法律觀": {
    "missing": [
@@ -1811,14 +2104,7 @@
    ]
   },
   "精神-Ch06精神科常用的治療方法": {
-   "missing": [
-    "個別心理治療",
-    "行為治療與認知治療",
-    "家庭治療",
-    "團體治療",
-    "環境治療",
-    "活動治療"
-   ]
+   "missing": []
   },
   "精神-Ch07思考障礙病人的護理": {
    "missing": []
@@ -1827,41 +2113,20 @@
    "missing": []
   },
   "精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理": {
-   "missing": [
-    "焦慮症",
-    "強迫症及相關障礙症",
-    "創傷及壓力相關障礙症",
-    "病因、治療原則與預後",
-    "護理處置"
-   ]
+   "missing": []
   },
   "精神-Ch10身體症狀障礙症與解離症病人的護理": {
-   "missing": [
-    "身體症狀及相關障礙症",
-    "解離症",
-    "護理處置"
-   ]
+   "missing": []
   },
   "精神-Ch11人格障礙病人的護理": {
-   "missing": [
-    "人格構造與人格發展理論",
-    "A群人格障礙症",
-    "B群人格障礙症",
-    "C群人格障礙症",
-    "護理處置"
-   ]
+   "missing": []
   },
   "精神-Ch12其他精神科疾病的護理": {
-   "missing": [
-    "認知類障礙症",
-    "物質相關及成癮障礙症",
-    "兒童及青少年精神疾病"
-   ]
+   "missing": []
   },
   "精神-Ch13危機處理與意外事件的護理": {
    "missing": [
-    "暴力事件的護理",
-    "精神科病房常見意外事件與家庭暴力"
+    "暴力事件的護理"
    ]
   },
   "社區-Ch01緒論與衛生行政體系": {
@@ -1927,7 +2192,6 @@
   "社區-Ch08中老年人的護理": {
    "missing": [
     "老年人與老化",
-    "老人的照顧",
     "中老年保健政策",
     "社區衛生護理人員在老人護理方面的職責"
    ]
@@ -1942,19 +2206,13 @@
     "長期照護需求評估",
     "長期照護概論",
     "長期照護服務的模式及類型",
-    "現行長期照護服務",
     "居家照護",
     "護理人員在長期照護的角色與功能",
     "出院準備服務"
    ]
   },
   "社區-Ch11社區心理衛生與護理": {
-   "missing": [
-    "社區心理衛生與健康的意義與特性",
-    "社區心理衛生及護理的發展",
-    "心理健康促進",
-    "社區心理衛生實證服務模式"
-   ]
+   "missing": []
   },
   "社區-Ch12學校衛生與護理": {
    "missing": [

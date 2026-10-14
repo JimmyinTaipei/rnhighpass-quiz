@@ -2,7 +2,7 @@
 title: 保鉀利尿劑
 subtitle: Potassium-sparing diuretics(醛固酮拮抗劑 MRA 與 ENaC 阻斷劑)
 aliases: [保鉀利尿劑, 保鉀型利尿劑, Potassium-sparing diuretics, MRA, 醛固酮拮抗劑, 醛固酮受體拮抗劑, Spironolactone, Aldactone, Eplerenone, Finerenone, Amiloride, Triamterene]
-dzTags: [心臟衰竭, 心衰竭, 高血壓, 肝硬化, 腹水, 原發性醛固酮過多症, 高血鉀]
+dzTags: [心臟衰竭, 高血壓, 肝硬化, 腹水, 原發性醛固酮過多症, 高血鉀]
 system: renal
 alsoIn: [cardiovascular]
 group: diuretics

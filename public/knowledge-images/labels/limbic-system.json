@@ -1,0 +1,51 @@
+{
+ "image": "servier-limbic-system.svg",
+ "_說明": "邊緣系統(左為前)",
+ "labels": [
+  {
+   "id": "cingulate",
+   "zh": "扣帶迴",
+   "en": "Cingulate gyrus",
+   "x": 28,
+   "y": 31,
+   "tx": 14,
+   "ty": 14
+  },
+  {
+   "id": "fornix",
+   "zh": "穹窿",
+   "en": "Fornix",
+   "x": 64,
+   "y": 39,
+   "tx": 84,
+   "ty": 22
+  },
+  {
+   "id": "mammillary",
+   "zh": "乳頭體",
+   "en": "Mammillary body",
+   "x": 45,
+   "y": 53,
+   "tx": 86,
+   "ty": 48
+  },
+  {
+   "id": "amygdala",
+   "zh": "杏仁核",
+   "en": "Amygdala",
+   "x": 25,
+   "y": 61,
+   "tx": 12,
+   "ty": 82
+  },
+  {
+   "id": "hippocampus",
+   "zh": "海馬迴",
+   "en": "Hippocampus",
+   "x": 50,
+   "y": 69,
+   "tx": 40,
+   "ty": 93
+  }
+ ]
+}

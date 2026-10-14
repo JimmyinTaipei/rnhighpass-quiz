@@ -1,0 +1,63 @@
+{
+ "image": "servier-synapse.svg",
+ "_說明": "化學性突觸",
+ "labels": [
+  {
+   "id": "pre",
+   "zh": "突觸前末梢",
+   "en": "Presynaptic terminal",
+   "x": 52.6,
+   "y": 8,
+   "tx": 1,
+   "ty": 8,
+   "align": "start"
+  },
+  {
+   "id": "vesicle",
+   "zh": "突觸小泡",
+   "en": "Synaptic vesicle",
+   "x": 56.4,
+   "y": 35,
+   "tx": 1,
+   "ty": 24,
+   "align": "start"
+  },
+  {
+   "id": "exocytosis",
+   "zh": "胞吐釋放",
+   "en": "Exocytosis",
+   "x": 51,
+   "y": 57,
+   "tx": 1,
+   "ty": 50,
+   "align": "start"
+  },
+  {
+   "id": "cleft",
+   "zh": "突觸間隙",
+   "en": "Synaptic cleft",
+   "x": 47.4,
+   "y": 61.5,
+   "tx": 99,
+   "ty": 58,
+   "align": "end"
+  },
+  {
+   "id": "nt",
+   "zh": "神經傳遞物質與受體",
+   "en": "Neurotransmitter and receptor",
+   "x": 58,
+   "y": 68,
+   "tx": 99,
+   "ty": 70,
+   "align": "end"
+  },
+  {
+   "id": "post",
+   "zh": "突觸後神經元",
+   "en": "Postsynaptic neuron",
+   "x": 50,
+   "y": 86
+  }
+ ]
+}

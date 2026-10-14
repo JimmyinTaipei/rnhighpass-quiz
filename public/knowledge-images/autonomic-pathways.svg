@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 680" width="980" height="680" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>自主神經與體神經的神經元、傳遞物質與受體</title>
+<rect width="980" height="680" fill="#FFFFFF"/>
+<defs><marker id="mk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker><marker id="mb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A6EA5"/></marker><marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E7C57"/></marker><marker id="mr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/></marker><marker id="mp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5CA5"/></marker></defs>
+<text x="490.0" y="34" font-size="20" text-anchor="middle" font-weight="bold" fill="#26262B">自主神經與體神經：神經傳遞物質與受體</text>
+<text x="115.0" y="72" font-size="13" text-anchor="middle" font-weight="bold" fill="#8A8A93">中樞(細胞體)</text>
+<text x="470" y="72" font-size="13" text-anchor="middle" font-weight="bold" fill="#8A8A93">節前纖維 → 神經節 → 節後纖維</text>
+<text x="850" y="72" font-size="13" text-anchor="middle" font-weight="bold" fill="#8A8A93">作用器官與受體</text>
+<rect x="40" y="80" width="150" height="60" rx="8" fill="#3E7C57" opacity="0.12"/><text x="115.0" y="102" font-size="14" text-anchor="middle" font-weight="bold" fill="#3E7C57">副交感神經</text>
+<text x="115.0" y="120" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">腦幹(III、VII、IX、X)</text>
+<text x="115.0" y="135" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">薦髓 S2–S4</text>
+<line x1="190" y1="110" x2="625" y2="110" stroke="#3E7C57" stroke-width="4"/><circle cx="640" cy="110" r="15" fill="#FFFFFF" stroke="#3E7C57" stroke-width="3"/><line x1="655" y1="110" x2="740" y2="110" stroke="#3E7C57" stroke-width="4" stroke-dasharray="7 5"/><text x="415.0" y="98" font-size="13" text-anchor="middle" font-weight="bold" fill="#3E7C57">ACh(節前長)</text>
+<rect x="622.0" y="127" width="36" height="26" rx="13" fill="#AD5C28"/><text x="640" y="145" font-size="13" text-anchor="middle" font-weight="bold" fill="#FFFFFF">N</text>
+<text x="690.0" y="98" font-size="13" text-anchor="middle" font-weight="bold" fill="#3E7C57">ACh</text>
+<rect x="750" y="86" width="200" height="48" rx="8" fill="#F7F7F9" stroke="#C9C9D1"/><text x="850" y="107" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">心臟、平滑肌、腺體</text>
+<text x="850" y="125" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">M 受體</text>
+<rect x="40" y="180" width="150" height="60" rx="8" fill="#3A6EA5" opacity="0.12"/><text x="115.0" y="202" font-size="14" text-anchor="middle" font-weight="bold" fill="#3A6EA5">交感神經</text>
+<text x="115.0" y="220" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">胸腰髓</text>
+<text x="115.0" y="235" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">T1–L2</text>
+<line x1="190" y1="210" x2="285" y2="210" stroke="#3A6EA5" stroke-width="4"/><circle cx="300" cy="210" r="15" fill="#FFFFFF" stroke="#3A6EA5" stroke-width="3"/><line x1="315" y1="210" x2="740" y2="210" stroke="#3A6EA5" stroke-width="4" stroke-dasharray="7 5"/><text x="253.0" y="198" font-size="13" text-anchor="middle" font-weight="bold" fill="#3A6EA5">ACh(短)</text>
+<rect x="282.0" y="227" width="36" height="26" rx="13" fill="#AD5C28"/><text x="300" y="245" font-size="13" text-anchor="middle" font-weight="bold" fill="#FFFFFF">N</text>
+<text x="520.0" y="198" font-size="13" text-anchor="middle" font-weight="bold" fill="#3A6EA5">正腎上腺素 NE(節後長)</text>
+<rect x="750" y="186" width="200" height="48" rx="8" fill="#F7F7F9" stroke="#C9C9D1"/><text x="850" y="207" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">心臟、平滑肌、腺體</text>
+<text x="850" y="225" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">α、β 受體</text>
+<rect x="40" y="280" width="150" height="60" rx="8" fill="#3A6EA5" opacity="0.12"/><text x="115.0" y="302" font-size="14" text-anchor="middle" font-weight="bold" fill="#3A6EA5">交感神經(汗腺)</text>
+<text x="115.0" y="320" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">胸腰髓</text>
+<text x="115.0" y="335" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">T1–L2</text>
+<line x1="190" y1="310" x2="285" y2="310" stroke="#3A6EA5" stroke-width="4"/><circle cx="300" cy="310" r="15" fill="#FFFFFF" stroke="#3A6EA5" stroke-width="3"/><line x1="315" y1="310" x2="740" y2="310" stroke="#3A6EA5" stroke-width="4" stroke-dasharray="7 5"/><text x="253.0" y="298" font-size="13" text-anchor="middle" font-weight="bold" fill="#3A6EA5">ACh(短)</text>
+<rect x="282.0" y="327" width="36" height="26" rx="13" fill="#AD5C28"/><text x="300" y="345" font-size="13" text-anchor="middle" font-weight="bold" fill="#FFFFFF">N</text>
+<text x="520.0" y="298" font-size="13" text-anchor="middle" font-weight="bold" fill="#B4485C">ACh(例外)</text>
+<rect x="750" y="286" width="200" height="48" rx="8" fill="#F7F7F9" stroke="#C9C9D1"/><text x="850" y="307" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">汗腺</text>
+<text x="850" y="325" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">M 受體</text>
+<rect x="40" y="380" width="150" height="60" rx="8" fill="#3A6EA5" opacity="0.12"/><text x="115.0" y="402" font-size="14" text-anchor="middle" font-weight="bold" fill="#3A6EA5">交感神經(腎上腺髓質)</text>
+<text x="115.0" y="420" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">胸腰髓</text>
+<text x="115.0" y="435" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">T1–L2</text>
+<line x1="190" y1="410" x2="735" y2="410" stroke="#3A6EA5" stroke-width="4"/><text x="470" y="398" font-size="13" text-anchor="middle" font-weight="bold" fill="#3A6EA5">ACh(節前纖維直達，不經神經節)</text>
+<rect x="682.0" y="427" width="36" height="26" rx="13" fill="#AD5C28"/><text x="700" y="445" font-size="13" text-anchor="middle" font-weight="bold" fill="#FFFFFF">N</text>
+<rect x="750" y="386" width="200" height="48" rx="8" fill="#F7F7F9" stroke="#C9C9D1"/><text x="850" y="407" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">腎上腺髓質</text>
+<text x="850" y="425" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">分泌 Epi 約 80%、NE 約 20% 入血</text>
+<rect x="40" y="480" width="150" height="60" rx="8" fill="#6B5CA5" opacity="0.12"/><text x="115.0" y="502" font-size="14" text-anchor="middle" font-weight="bold" fill="#6B5CA5">體運動神經</text>
+<text x="115.0" y="520" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">腦幹、脊髓前角</text>
+<line x1="190" y1="510" x2="740" y2="510" stroke="#6B5CA5" stroke-width="4"/><text x="470" y="498" font-size="13" text-anchor="middle" font-weight="bold" fill="#6B5CA5">ACh(一條神經元直達，無神經節)</text>
+<rect x="682.0" y="527" width="36" height="26" rx="13" fill="#AD5C28"/><text x="700" y="545" font-size="13" text-anchor="middle" font-weight="bold" fill="#FFFFFF">N</text>
+<rect x="750" y="486" width="200" height="48" rx="8" fill="#F7F7F9" stroke="#C9C9D1"/><text x="850" y="507" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">骨骼肌</text>
+<text x="850" y="525" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">N 受體(神經肌肉接合處)</text>
+<rect x="20" y="592" width="940" height="74" rx="8" fill="#F7F7F9" stroke="#DDDDE2"/><line x1="40" y1="618" x2="90" y2="618" stroke="#26262B" stroke-width="4"/><text x="100" y="623" font-size="13" text-anchor="start" font-weight="normal" fill="#26262B">節前纖維(有髓鞘；交感走白交通枝)</text>
+<line x1="380" y1="618" x2="430" y2="618" stroke="#26262B" stroke-width="4" stroke-dasharray="7 5"/><text x="440" y="623" font-size="13" text-anchor="start" font-weight="normal" fill="#26262B">節後纖維(無髓鞘；交感走灰交通枝)</text>
+<circle cx="735" cy="618" r="15" fill="#FFFFFF" stroke="#26262B" stroke-width="3"/><text x="758" y="623" font-size="13" text-anchor="start" font-weight="normal" fill="#26262B">自主神經節</text>
+<text x="40" y="652" font-size="13" text-anchor="start" font-weight="normal" fill="#26262B">所有節前纖維都釋放 ACh、神經節上都是 N 受體；交感節後多數釋放 NE，汗腺例外用 ACh</text>
+</svg>

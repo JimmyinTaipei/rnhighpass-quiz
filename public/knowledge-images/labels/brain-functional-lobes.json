@@ -1,0 +1,81 @@
+{
+ "image": "servier-brain-lobes.svg",
+ "_說明": "大腦皮質功能區，標在四葉圖上(左為前)；中央溝是綠藍交界",
+ "labels": [
+  {
+   "id": "prefrontal",
+   "zh": "前額葉(執行功能、人格)",
+   "en": "Prefrontal cortex",
+   "x": 13,
+   "y": 40
+  },
+  {
+   "id": "motor",
+   "zh": "初級運動區(中央前回)",
+   "en": "Primary motor cortex",
+   "x": 37,
+   "y": 22,
+   "tx": 2,
+   "ty": 4,
+   "align": "start"
+  },
+  {
+   "id": "sensory",
+   "zh": "初級體感覺區(中央後回)",
+   "en": "Primary somatosensory cortex",
+   "x": 45,
+   "y": 22,
+   "tx": 98,
+   "ty": 6,
+   "align": "end"
+  },
+  {
+   "id": "broca",
+   "zh": "布洛卡區",
+   "en": "Broca area",
+   "x": 29,
+   "y": 47,
+   "tx": 8,
+   "ty": 78
+  },
+  {
+   "id": "auditory",
+   "zh": "初級聽覺區",
+   "en": "Primary auditory cortex",
+   "x": 50,
+   "y": 47,
+   "tx": 32,
+   "ty": 92
+  },
+  {
+   "id": "wernicke",
+   "zh": "韋尼克區",
+   "en": "Wernicke area",
+   "x": 67,
+   "y": 46,
+   "tx": 99,
+   "ty": 80,
+   "align": "end"
+  },
+  {
+   "id": "angular",
+   "zh": "角迴",
+   "en": "Angular gyrus",
+   "x": 72,
+   "y": 32,
+   "tx": 99,
+   "ty": 22,
+   "align": "end"
+  },
+  {
+   "id": "visual",
+   "zh": "視覺區",
+   "en": "Visual cortex",
+   "x": 92,
+   "y": 45,
+   "tx": 99,
+   "ty": 70,
+   "align": "end"
+  }
+ ]
+}

@@ -2,7 +2,7 @@
 title: B 型利鈉胜肽
 subtitle: BNP / NT-proBNP(B-type natriuretic peptide)
 aliases: [BNP, NT-proBNP, B 型排鈉利尿胜肽, B型利鈉肽, 腦利鈉胜肽, 利鈉胜肽, Natriuretic peptide, Brain natriuretic peptide]
-dzTags: [心臟衰竭, 心衰竭]
+dzTags: [心臟衰竭]
 system: cardiovascular
 method: blood
 bloodGroup: marker

@@ -2,7 +2,7 @@
 title: 亨利氏環利尿劑
 subtitle: Loop diuretics(高效能利尿劑)
 aliases: [Loop diuretics, 環利尿劑, 環狀利尿劑, 亨利氏環利尿劑, Furosemide, Lasix, Bumetanide, Torsemide, Ethacrynic acid, 排鉀利尿劑]
-dzTags: [心臟衰竭, 心衰竭, 急性肺水腫, 水腫, 腹水, 高血鈣症, 急性腎衰竭]
+dzTags: [心臟衰竭, 急性肺水腫, 水腫, 腹水, 高血鈣, 急性腎衰竭]
 system: renal
 alsoIn: [cardiovascular]
 group: diuretics
@@ -30,7 +30,7 @@ references:
 
 - 抑制**亨利氏環上升支粗段**的 **Na⁺-K⁺-2Cl⁻ 共同運輸** → **利尿效果最強**，腎功能差時仍有效。
 - 用途：**急性肺水腫**、心衰竭體液過多(改善症狀，不改善存活)、腎病/肝硬化水腫、**急性高血鈣**。
-- 副作用：**低血鉀**、低鈉、低鎂、**低鈣**、脫水低血壓、高尿酸、**耳毒性**(快速靜注、大劑量、併用 aminoglycoside)。
+- 副作用：**低血鉀**、低鈉、低鎂、**低鈣**、脫水低血壓、高尿酸、**耳毒性**(快速靜注、大劑量、併用 aminoglycoside)(見 [[ear-disorders#hearing-loss]])。
 - 護理：**早上給藥**、每日體重與輸出入量、監測血鉀;靜脈推注要**慢**;併用毛地黃注意中毒。
 
 ### 國考常考點 {#exam-points}

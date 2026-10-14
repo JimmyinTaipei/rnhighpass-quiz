@@ -10,6 +10,7 @@
 //   ![[slug#id]]              嵌入(獨立一行),內容只存在來源頁
 //   ![[slug#id|basics]]       嵌入成「想打好基礎」(預設收合);![[slug|basics]] 整頁引用時顯示該頁 frontmatter summary
 //   ::questions{tag="" keyword="" drug="" group="" ids="" limit=""}   相關考題
+//   ::figure{src="/knowledge-images/x.svg" labels="x" alt="圖說"}     標籤疊加圖(標籤在 public/knowledge-images/labels/x.json)
 //   frontmatter pathogens: [{ id, name, names }]   病原體索引(id 必須是本頁的標題 id)
 //
 // 分類(system / alsoIn / group)只能用 content/knowledge/taxonomy.yml 裡定義的 id。
@@ -34,6 +35,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT_DIR = path.join(ROOT, "content/knowledge");
 const OUT_DIR = path.join(ROOT, "src/data/knowledge");
 const CREDITS_FILE = path.join(ROOT, "public/knowledge-images/credits.json");
+const LABELS_DIR = path.join(ROOT, "public/knowledge-images/labels");
 const TAXONOMY_FILE = path.join(CONTENT_DIR, "taxonomy.yml");
 // 由 database/scripts/export_chapter_outline.py 從分章題本產生、跟著 git 提交
 const OUTLINE_FILE = path.join(OUT_DIR, "chapter-outline.json");
@@ -164,6 +166,12 @@ function transformDirectives(file, tree) {
             limit: a.limit ?? "",
           },
         };
+      } else if (node.name === "figure") {
+        const a = node.attributes ?? {};
+        node.data = {
+          hName: "k-figure",
+          hProperties: { src: a.src ?? "", alt: a.alt ?? "", labels: loadFigureLabels(file, a.src ?? "", a.labels ?? "") },
+        };
       } else {
         fail(file, `未知的 leaf directive ::${node.name}`);
       }
@@ -186,6 +194,47 @@ function transformDirectives(file, tree) {
       };
     }
   });
+}
+
+/**
+ * 讀取並檢查標籤疊加圖的 labels JSON,回傳給執行期用的 JSON 字串。
+ * 格式:{ "image": "x.svg", "labels": [{ id, zh, en?, x, y, tx?, ty?, align? }] },座標是 0–100 的百分比
+ */
+function loadFigureLabels(file, src, name) {
+  if (!src) fail(file, "::figure 要寫 src");
+  if (!name) {
+    fail(file, `::figure 要寫 labels(${src})`);
+    return "[]";
+  }
+  const p = path.join(LABELS_DIR, `${name}.json`);
+  if (!fs.existsSync(p)) {
+    fail(file, `找不到標籤檔 public/knowledge-images/labels/${name}.json`);
+    return "[]";
+  }
+  let data;
+  try {
+    data = JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch (e) {
+    fail(file, `labels/${name}.json 不是合法 JSON:${e.message}`);
+    return "[]";
+  }
+  if (data.image !== src.replace("/knowledge-images/", "")) {
+    fail(file, `labels/${name}.json 的 image「${data.image}」和 ::figure 的 src「${src}」不同`);
+  }
+  const labels = Array.isArray(data.labels) ? data.labels : [];
+  if (!labels.length) fail(file, `labels/${name}.json 沒有標籤`);
+  const seen = new Set();
+  const inRange = (v) => typeof v === "number" && v >= 0 && v <= 100;
+  for (const l of labels) {
+    if (!l.id || seen.has(l.id)) fail(file, `labels/${name}.json:標籤 id「${l.id}」缺少或重複`);
+    seen.add(l.id);
+    if (!l.zh) fail(file, `labels/${name}.json:${l.id} 沒有中文名稱`);
+    if (!inRange(l.x) || !inRange(l.y)) fail(file, `labels/${name}.json:${l.id} 的 x、y 要是 0–100`);
+    if ((l.tx === undefined) !== (l.ty === undefined)) fail(file, `labels/${name}.json:${l.id} 的 tx、ty 要一起寫`);
+    if (l.tx !== undefined && (!inRange(l.tx) || !inRange(l.ty))) fail(file, `labels/${name}.json:${l.id} 的 tx、ty 要是 0–100`);
+    if (l.align !== undefined && !["start", "end"].includes(l.align)) fail(file, `labels/${name}.json:${l.id} 的 align 只能是 start 或 end`);
+  }
+  return JSON.stringify(labels.map(({ id, zh, en, x, y, tx, ty, align }) => ({ id, zh, en, x, y, tx, ty, align })));
 }
 
 /** 取出標題尾端的 {#id} */

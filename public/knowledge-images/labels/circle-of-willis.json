@@ -1,0 +1,87 @@
+{
+ "image": "servier-circle-of-willis.svg",
+ "_說明": "威利氏環(腦底觀，上為前)",
+ "labels": [
+  {
+   "id": "aca",
+   "zh": "前大腦動脈",
+   "en": "Anterior cerebral artery",
+   "x": 45,
+   "y": 4,
+   "tx": 18,
+   "ty": 4
+  },
+  {
+   "id": "acom",
+   "zh": "前交通動脈",
+   "en": "Anterior communicating artery",
+   "x": 50,
+   "y": 10,
+   "tx": 82,
+   "ty": 8
+  },
+  {
+   "id": "mca",
+   "zh": "中大腦動脈",
+   "en": "Middle cerebral artery",
+   "x": 8,
+   "y": 25,
+   "tx": 8,
+   "ty": 17
+  },
+  {
+   "id": "ica",
+   "zh": "內頸動脈",
+   "en": "Internal carotid artery",
+   "x": 71,
+   "y": 25,
+   "tx": 92,
+   "ty": 17
+  },
+  {
+   "id": "pcom",
+   "zh": "後交通動脈",
+   "en": "Posterior communicating artery",
+   "x": 73,
+   "y": 40,
+   "tx": 92,
+   "ty": 35
+  },
+  {
+   "id": "pca",
+   "zh": "後大腦動脈",
+   "en": "Posterior cerebral artery",
+   "x": 90,
+   "y": 48,
+   "tx": 90,
+   "ty": 57
+  },
+  {
+   "id": "sca",
+   "zh": "小腦上動脈",
+   "en": "Superior cerebellar artery",
+   "x": 29,
+   "y": 54,
+   "tx": 10,
+   "ty": 62
+  },
+  {
+   "id": "basilar",
+   "zh": "基底動脈",
+   "en": "Basilar artery",
+   "x": 50,
+   "y": 68,
+   "tx": 82,
+   "ty": 70
+  },
+  {
+   "id": "vertebral",
+   "zh": "椎動脈",
+   "en": "Vertebral artery",
+   "x": 68,
+   "y": 96,
+   "tx": 88,
+   "ty": 92
+  }
+ ]
+}

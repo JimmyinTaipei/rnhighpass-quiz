@@ -2,7 +2,7 @@
 title: 心臟超音波
 subtitle: Echocardiography(TTE / TEE / 壓力超音波)
 aliases: [心臟超音波, 心臟超聲波, 心超, Echo, Echocardiogram, TTE, TEE, 經胸心臟超音波, 經食道心臟超音波, 壓力超音波, Stress echo, 射出分率, LVEF, EF]
-dzTags: [心臟衰竭, 心衰竭, 冠狀動脈疾病, 心肌梗塞]
+dzTags: [心臟衰竭, 冠狀動脈疾病, 心肌梗塞]
 system: cardiovascular
 method: imaging
 group: cardiac-labs
@@ -102,7 +102,7 @@ references:
 - TEE 後要**確認吞嚥(作嘔)反射恢復**才可進食。
 :::
 
-::questions{keyword="(超音波|射出(分)?率|EF)" tag="心臟衰竭|心衰竭|冠狀動脈疾病|心肌梗塞|心絞痛" limit="6"}
+::questions{keyword="(超音波|射出(分)?率|EF)" tag="心臟衰竭|冠狀動脈疾病|心肌梗塞|心絞痛" limit="6"}
 
 ### 其他重要發現 {#other-findings}
 

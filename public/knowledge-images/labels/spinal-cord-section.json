@@ -1,0 +1,74 @@
+{
+ "image": "servier-spinal-cord-section.svg",
+ "_說明": "脊髓橫切面(上為後側)",
+ "labels": [
+  {
+   "id": "gray",
+   "zh": "灰質",
+   "en": "Gray matter",
+   "x": 27,
+   "y": 33
+  },
+  {
+   "id": "white",
+   "zh": "白質",
+   "en": "White matter",
+   "x": 9,
+   "y": 45
+  },
+  {
+   "id": "dorsal-horn",
+   "zh": "後角(感覺)",
+   "en": "Dorsal horn",
+   "x": 20,
+   "y": 25,
+   "tx": 8,
+   "ty": 10
+  },
+  {
+   "id": "ventral-horn",
+   "zh": "前角(運動)",
+   "en": "Ventral horn",
+   "x": 20,
+   "y": 68,
+   "tx": 8,
+   "ty": 90
+  },
+  {
+   "id": "canal",
+   "zh": "中央管",
+   "en": "Central canal",
+   "x": 33.5,
+   "y": 40,
+   "tx": 46,
+   "ty": 47
+  },
+  {
+   "id": "dorsal-root",
+   "zh": "後根(感覺)",
+   "en": "Dorsal root",
+   "x": 68,
+   "y": 12,
+   "tx": 72,
+   "ty": 3
+  },
+  {
+   "id": "ventral-root",
+   "zh": "前根(運動)",
+   "en": "Ventral root",
+   "x": 72,
+   "y": 72,
+   "tx": 60,
+   "ty": 93
+  },
+  {
+   "id": "nerve",
+   "zh": "脊神經(混合)",
+   "en": "Spinal nerve",
+   "x": 93,
+   "y": 40,
+   "tx": 92,
+   "ty": 58
+  }
+ ]
+}

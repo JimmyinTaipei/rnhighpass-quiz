@@ -1,0 +1,76 @@
+{
+ "image": "servier-brain-horizontal.svg",
+ "_說明": "大腦水平切面(上為前)",
+ "labels": [
+  {
+   "id": "caudate",
+   "zh": "尾核",
+   "en": "Caudate nucleus",
+   "x": 57.7,
+   "y": 32,
+   "tx": 99,
+   "ty": 20,
+   "align": "end"
+  },
+  {
+   "id": "putamen",
+   "zh": "殼核",
+   "en": "Putamen",
+   "x": 64.1,
+   "y": 45,
+   "tx": 99,
+   "ty": 40,
+   "align": "end"
+  },
+  {
+   "id": "gp",
+   "zh": "蒼白球",
+   "en": "Globus pallidus",
+   "x": 59.0,
+   "y": 50,
+   "tx": 99,
+   "ty": 52,
+   "align": "end"
+  },
+  {
+   "id": "ic",
+   "zh": "內囊",
+   "en": "Internal capsule",
+   "x": 41.6,
+   "y": 44,
+   "tx": 1,
+   "ty": 32,
+   "align": "start"
+  },
+  {
+   "id": "thalamus",
+   "zh": "視丘",
+   "en": "Thalamus",
+   "x": 44.9,
+   "y": 57,
+   "tx": 1,
+   "ty": 60,
+   "align": "start"
+  },
+  {
+   "id": "lv",
+   "zh": "側腦室",
+   "en": "Lateral ventricle",
+   "x": 47.4,
+   "y": 33,
+   "tx": 1,
+   "ty": 15,
+   "align": "start"
+  },
+  {
+   "id": "v3",
+   "zh": "第三腦室",
+   "en": "Third ventricle",
+   "x": 50.0,
+   "y": 56,
+   "tx": 99,
+   "ty": 64,
+   "align": "end"
+  }
+ ]
+}

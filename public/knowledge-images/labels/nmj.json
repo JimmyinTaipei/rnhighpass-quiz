@@ -1,0 +1,49 @@
+{
+ "image": "servier-neuromuscular-junction.svg",
+ "_說明": "神經肌肉接合處(運動終板)",
+ "labels": [
+  {
+   "id": "terminal",
+   "zh": "運動神經末梢",
+   "en": "Motor nerve terminal",
+   "x": 40,
+   "y": 30,
+   "tx": 15,
+   "ty": 20
+  },
+  {
+   "id": "vesicle",
+   "zh": "突觸小泡(含 ACh)",
+   "en": "Synaptic vesicle (ACh)",
+   "x": 50,
+   "y": 33,
+   "tx": 82,
+   "ty": 15
+  },
+  {
+   "id": "cleft",
+   "zh": "突觸間隙(含 AChE)",
+   "en": "Synaptic cleft (AChE)",
+   "x": 33,
+   "y": 50,
+   "tx": 12,
+   "ty": 38
+  },
+  {
+   "id": "endplate",
+   "zh": "運動終板(N 型 ACh 受體)",
+   "en": "Motor end plate (nicotinic receptor)",
+   "x": 55,
+   "y": 57,
+   "tx": 84,
+   "ty": 38
+  },
+  {
+   "id": "muscle",
+   "zh": "骨骼肌纖維",
+   "en": "Skeletal muscle fiber",
+   "x": 50,
+   "y": 80
+  }
+ ]
+}

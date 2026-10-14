@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { ExternalLink, Maximize2, Minus, Plus, Shrink, X } from "lucide-react";
 
@@ -11,8 +11,20 @@ const DRAG_THRESHOLD = 4;
 /**
  * 知識庫的圖:點縮圖開全螢幕檢視,可放大後拖曳/捲動查看細節。
  * 倍率 1 = 符合視窗;放大是以「符合視窗時的寬度」為基準。
+ * overlay:疊在圖上的一層(標籤疊加元件用),縮圖與全螢幕各畫一次,跟著圖一起縮放;
+ * toolbar:放在全螢幕工具列的額外按鈕。
  */
-export function ZoomableFigureImage({ src, alt }: { src: string; alt: string }) {
+export function ZoomableFigureImage({
+  src,
+  alt,
+  overlay,
+  toolbar,
+}: {
+  src: string;
+  alt: string;
+  overlay?: (where: "inline" | "modal") => ReactNode;
+  toolbar?: ReactNode;
+}) {
   const [open, setOpen] = useState(false);
   const [zoomIndex, setZoomIndex] = useState(0);
   const [fitWidth, setFitWidth] = useState<number | null>(null);
@@ -25,6 +37,7 @@ export function ZoomableFigureImage({ src, alt }: { src: string; alt: string }) 
   const drag = useRef<{ x: number; y: number; left: number; top: number; moved: boolean } | null>(null);
 
   const zoom = ZOOMS[zoomIndex];
+  const hasOverlay = overlay !== undefined;
 
   const close = useCallback(() => {
     setOpen(false);
@@ -45,8 +58,25 @@ export function ZoomableFigureImage({ src, alt }: { src: string; alt: string }) 
 
   // 符合視窗時量一次圖寬,作為放大的基準;視窗大小改變時回到符合並重量
   const measure = useCallback(() => {
-    if (imgRef.current) setFitWidth(imgRef.current.clientWidth);
-  }, []);
+    const img = imgRef.current;
+    if (!img) return;
+    if (!hasOverlay) {
+      setFitWidth(img.clientWidth);
+      return;
+    }
+    // 有疊加層時圖包在一個定寬的容器裡,max-h-full 量不到,改用原圖比例與視窗大小算出「符合視窗」的寬度
+    const vp = viewportRef.current;
+    if (!vp || !img.naturalWidth) return;
+    const cs = getComputedStyle(vp);
+    const w = vp.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    const h = vp.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
+    setFitWidth(Math.min(w, (h * img.naturalWidth) / img.naturalHeight));
+  }, [hasOverlay]);
+
+  // 圖已在快取時 onLoad 可能早於掛上,開啟後補量一次
+  useEffect(() => {
+    if (open && imgRef.current?.complete) measure();
+  }, [open, measure]);
 
   useEffect(() => {
     if (!open) return;
@@ -95,27 +125,36 @@ export function ZoomableFigureImage({ src, alt }: { src: string; alt: string }) 
 
   return (
     <>
-      <button
-        ref={triggerRef}
-        type="button"
-        onClick={() => setOpen(true)}
-        aria-label={`放大檢視:${alt}`}
-        className="group relative mx-auto block max-w-full cursor-zoom-in"
-      >
-        {/* 圖多為 SVG 圖解,next/image 對 SVG 沒有最佳化效果,直接用 img */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={src} alt={alt} loading="lazy" className="mx-auto max-h-[480px] w-auto max-w-full rounded-btn border border-card-border bg-white" />
-        <span className="pointer-events-none absolute right-2 bottom-2 flex items-center gap-1 rounded-btn bg-black/60 px-2 py-1 text-xs text-white opacity-80 transition-opacity group-hover:opacity-100">
-          <Maximize2 size={13} />
-          點擊放大
-        </span>
-      </button>
+      <div className="relative mx-auto w-fit max-w-full">
+        <button
+          ref={triggerRef}
+          type="button"
+          onClick={() => setOpen(true)}
+          aria-label={`放大檢視:${alt}`}
+          className="group relative mx-auto block max-w-full cursor-zoom-in"
+        >
+          {/* 圖多為 SVG 圖解,next/image 對 SVG 沒有最佳化效果,直接用 img */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={src} alt={alt} loading="lazy" className="mx-auto max-h-[480px] w-auto max-w-full rounded-btn border border-card-border bg-white" />
+          {/* 有疊加層時角落常有標籤,提示改放在圖下方的切換列 */}
+          {!overlay && (
+            <span className="pointer-events-none absolute right-2 bottom-2 flex items-center gap-1 rounded-btn bg-black/60 px-2 py-1 text-xs text-white opacity-80 transition-opacity group-hover:opacity-100">
+              <Maximize2 size={13} />
+              點擊放大
+            </span>
+          )}
+        </button>
+        {/* 疊加層放在按鈕外面:自我測驗的標記是按鈕,不能包在另一個按鈕裡 */}
+        {overlay?.("inline")}
+      </div>
 
       {open &&
         createPortal(
           <div className="fixed inset-0 z-50 flex flex-col bg-black/90 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={alt}>
             <div className="flex shrink-0 items-center gap-1 px-2 py-2 sm:px-4">
               <p className="mr-auto line-clamp-1 min-w-0 px-1 text-sm text-white/90">{alt}</p>
+              {/* 手機寬度放不下:額外按鈕改到下一列 */}
+              {toolbar && <div className="hidden sm:block">{toolbar}</div>}
               <button type="button" className={toolButton} onClick={() => changeZoom(zoomIndex - 1)} disabled={zoomIndex === 0} aria-label="縮小">
                 <Minus size={18} />
               </button>
@@ -139,6 +178,8 @@ export function ZoomableFigureImage({ src, alt }: { src: string; alt: string }) 
                 <X size={20} />
               </button>
             </div>
+
+            {toolbar && <div className="flex shrink-0 justify-center px-2 pb-2 sm:hidden">{toolbar}</div>}
 
             <div
               ref={viewportRef}
@@ -170,20 +211,40 @@ export function ZoomableFigureImage({ src, alt }: { src: string; alt: string }) 
               }}
             >
               {/* m-auto:圖比視窗小時置中,放大後也不會被裁掉左上角 */}
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                ref={imgRef}
-                src={src}
-                alt={alt}
-                draggable={false}
-                onLoad={measure}
-                onClick={() => {
-                  if (drag.current?.moved) return;
-                  changeZoom(zoom === 1 ? ZOOMS.indexOf(2) : 0);
-                }}
-                style={zoom > 1 && fitWidth ? { width: fitWidth * zoom, maxWidth: "none", maxHeight: "none" } : undefined}
-                className={`m-auto max-h-full max-w-full rounded-btn bg-white select-none ${zoom === 1 ? "cursor-zoom-in" : ""}`}
-              />
+              {overlay ? (
+                // 有疊加層:圖與標籤包在同一個定寬容器裡一起放大
+                <div className="relative m-auto shrink-0" style={fitWidth ? { width: fitWidth * zoom } : { visibility: "hidden" }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    ref={imgRef}
+                    src={src}
+                    alt={alt}
+                    draggable={false}
+                    onLoad={measure}
+                    onClick={() => {
+                      if (drag.current?.moved) return;
+                      changeZoom(zoom === 1 ? ZOOMS.indexOf(2) : 0);
+                    }}
+                    className={`block h-auto w-full rounded-btn bg-white select-none ${zoom === 1 ? "cursor-zoom-in" : ""}`}
+                  />
+                  {overlay("modal")}
+                </div>
+              ) : (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  ref={imgRef}
+                  src={src}
+                  alt={alt}
+                  draggable={false}
+                  onLoad={measure}
+                  onClick={() => {
+                    if (drag.current?.moved) return;
+                    changeZoom(zoom === 1 ? ZOOMS.indexOf(2) : 0);
+                  }}
+                  style={zoom > 1 && fitWidth ? { width: fitWidth * zoom, maxWidth: "none", maxHeight: "none" } : undefined}
+                  className={`m-auto max-h-full max-w-full rounded-btn bg-white select-none ${zoom === 1 ? "cursor-zoom-in" : ""}`}
+                />
+              )}
             </div>
           </div>,
           document.body,

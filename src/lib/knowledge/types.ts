@@ -191,6 +191,21 @@ export interface ImageCredit {
   modified?: string;
 }
 
+/** 標籤疊加元件的一個標籤(public/knowledge-images/labels/*.json);座標是相對圖寬高的百分比 */
+export interface FigureLabel {
+  id: string;
+  zh: string;
+  en?: string;
+  /** 構造所在位置 */
+  x: number;
+  y: number;
+  /** 文字位置;有寫就從構造位置畫指線過去 */
+  tx?: number;
+  ty?: number;
+  /** 文字對齊文字位置的哪一邊:start = 文字從該點往右、end = 往左;預設置中 */
+  align?: "start" | "end";
+}
+
 // ===== 分類(對應 content/knowledge/taxonomy.yml,由建置腳本輸出 taxonomy.json) =====
 
 export type DomainKind = "system" | "cross" | "nursing";

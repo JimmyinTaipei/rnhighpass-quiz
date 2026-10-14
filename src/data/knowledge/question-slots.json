@@ -445,6 +445,124 @@
     "limit": 10
   },
   {
+    "qkey": "child-adolescent-mental-health#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_PC_020",
+      "106-1_PC_031",
+      "110-1_PC_004",
+      "115-1_PC_019",
+      "112-2_PC_030",
+      "107-2_PC_030",
+      "113-3_PC_020",
+      "112-2_PC_031",
+      "111-2_OP_077",
+      "110-2_OP_054",
+      "107-1_OP_080",
+      "113-3_PC_005",
+      "108-2_PC_030",
+      "108-2_PC_013",
+      "114-1_PC_044",
+      "114-1_OP_031",
+      "106-2_makeup_PC_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "community-mental-health#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_PC_024",
+      "114-1_PC_021",
+      "113-3_PC_019",
+      "113-3_PC_022",
+      "112-1_PC_040",
+      "108-1_PC_035",
+      "111-2_PC_034",
+      "110-1_PC_034",
+      "105-2_PC_032",
+      "114-2_PC_022",
+      "110-2_PC_038",
+      "108-1_PC_001",
+      "107-2_PC_003",
+      "106-2_PC_035",
+      "112-3_PC_004",
+      "113-3_PC_025",
+      "112-1_PC_034",
+      "111-2_PC_040",
+      "111-2_PC_036",
+      "111-1_PC_002",
+      "108-2_PC_002",
+      "107-2_PC_004",
+      "106-2_PC_034",
+      "105-1_PC_029",
+      "115-2_PC_021",
+      "114-1_PC_022",
+      "113-1_PC_024",
+      "112-3_PC_025",
+      "112-2_PC_038",
+      "108-1_PC_033",
+      "107-2_PC_036",
+      "107-1_PC_033",
+      "109-2_PC_034",
+      "109-1_PC_002",
+      "109-1_PC_035",
+      "106-2_makeup_PC_036",
+      "106-1_PC_034",
+      "105-1_PC_030",
+      "105-1_PC_031",
+      "105-1_PC_033",
+      "113-2_PC_004",
+      "112-3_PC_006",
+      "115-1_PC_024",
+      "113-2_PC_002",
+      "111-2_PC_033",
+      "109-2_PC_026",
+      "108-2_PC_035",
+      "108-1_PC_032",
+      "113-1_PC_022",
+      "111-1_PC_004",
+      "110-1_PC_037",
+      "109-1_PC_034",
+      "108-2_PC_034",
+      "107-2_PC_035",
+      "106-2_PC_031",
+      "106-2_makeup_PC_002",
+      "105-2_PC_030",
+      "105-1_PC_032",
+      "109-2_PC_042",
+      "114-1_PC_029",
+      "114-1_PC_024",
+      "113-2_PC_022",
+      "113-1_PC_021",
+      "112-3_PC_023",
+      "107-1_PC_036",
+      "108-1_PC_034",
+      "109-2_PC_033",
+      "109-2_PC_035",
+      "115-2_PC_022",
+      "108-2_PC_033",
+      "106-2_makeup_PC_034",
+      "109-2_PC_036",
+      "109-1_PC_036",
+      "107-1_PC_071",
+      "114-2_PC_021",
+      "110-2_PC_036",
+      "110-1_PC_033",
+      "107-1_PC_035",
+      "115-2_PC_002",
+      "107-1_PC_034",
+      "112-1_PC_039"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "end-of-life-care#questions",
     "tag": null,
     "adm": null,
@@ -606,6 +724,78 @@
     "limit": 10
   },
   {
+    "qkey": "family-violence#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_PC_021",
+      "113-2_PC_001",
+      "108-2_PC_039",
+      "108-2_PC_040",
+      "106-2_makeup_PC_039",
+      "111-1_PC_034",
+      "113-2_PC_024",
+      "106-2_PC_048",
+      "108-2_PC_052",
+      "107-2_OP_054",
+      "108-2_OP_052",
+      "109-2_OP_042",
+      "110-1_OP_041",
+      "110-2_OP_047",
+      "111-1_OP_043",
+      "111-1_OP_044",
+      "112-1_OP_046",
+      "114-1_OP_027",
+      "115-2_OP_028",
+      "106-1_FA_058"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "group-family-therapy#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_PC_027",
+      "115-1_PC_008",
+      "113-2_PC_007",
+      "106-1_PC_008",
+      "105-1_PC_012",
+      "112-2_PC_016",
+      "111-2_PC_020",
+      "109-2_PC_008",
+      "108-2_PC_013",
+      "108-1_PC_010",
+      "105-2_PC_010",
+      "113-1_PC_003",
+      "115-2_PC_007",
+      "114-2_PC_008",
+      "113-3_PC_007",
+      "111-2_PC_011",
+      "109-2_PC_010",
+      "108-2_PC_011",
+      "107-2_PC_009",
+      "106-2_PC_005",
+      "106-2_PC_010",
+      "105-2_PC_014",
+      "115-1_PC_007",
+      "108-2_PC_022",
+      "106-1_PC_030",
+      "105-2_PC_013",
+      "105-1_PC_038",
+      "106-1_PC_002",
+      "112-1_PC_012",
+      "109-1_PC_004",
+      "106-2_makeup_PC_009",
+      "107-1_PC_009"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "immunization#questions",
     "tag": null,
     "adm": null,
@@ -662,6 +852,65 @@
     "limit": null
   },
   {
+    "qkey": "individual-cognitive-behavioral-therapy#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_PC_005",
+      "110-2_PC_028",
+      "114-1_PC_007",
+      "112-3_PC_014",
+      "112-2_PC_014",
+      "110-1_PC_007",
+      "107-1_PC_005",
+      "111-2_PC_012",
+      "110-1_PC_036",
+      "105-2_PC_028",
+      "105-1_PC_001",
+      "112-2_PC_011",
+      "111-1_PC_011",
+      "108-1_PC_021",
+      "110-1_PC_021",
+      "114-2_PC_007",
+      "114-1_PC_006",
+      "113-1_PC_005",
+      "112-1_PC_011",
+      "111-2_PC_015",
+      "111-1_PC_013",
+      "110-2_PC_010",
+      "108-2_PC_012",
+      "107-2_PC_011",
+      "107-1_PC_011",
+      "106-2_PC_040",
+      "106-2_makeup_PC_033",
+      "115-2_PC_015",
+      "113-1_PC_016",
+      "107-1_PC_025",
+      "109-2_PC_031",
+      "114-1_PC_008",
+      "107-2_PC_010",
+      "105-2_PC_009",
+      "113-2_PC_019",
+      "112-1_PC_013",
+      "112-1_PC_014",
+      "110-2_PC_011",
+      "109-2_PC_005",
+      "109-1_PC_012",
+      "107-1_PC_002",
+      "106-1_PC_006",
+      "105-1_PC_011",
+      "111-1_PC_008",
+      "111-1_PC_012",
+      "108-1_PC_009",
+      "105-2_PC_025",
+      "113-3_PC_006",
+      "110-2_PC_006"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "infection-control#questions",
     "tag": null,
     "adm": null,
@@ -705,6 +954,161 @@
       "106-2_FA_001"
     ],
     "limit": null
+  },
+  {
+    "qkey": "milieu-therapy#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_PC_024",
+      "114-3_PC_025",
+      "113-3_PC_003",
+      "110-2_PC_002",
+      "110-2_PC_035",
+      "109-2_PC_040",
+      "106-2_PC_001",
+      "105-2_PC_029",
+      "114-3_PC_003",
+      "112-2_PC_015",
+      "110-1_PC_009",
+      "109-1_PC_011",
+      "108-1_PC_012",
+      "106-2_PC_006",
+      "106-2_PC_009",
+      "106-2_makeup_PC_021",
+      "105-1_PC_023",
+      "115-2_PC_008",
+      "113-3_PC_024",
+      "111-2_PC_013",
+      "109-2_PC_013",
+      "108-2_PC_027",
+      "108-2_PC_036",
+      "108-1_PC_008",
+      "105-2_PC_035",
+      "107-1_PC_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuro-assessment#gcs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_004",
+      "112-1_MS_007",
+      "108-1_MS_001",
+      "106-2_makeup_MS_002",
+      "108-1_FA_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuro-assessment#pediatric-gcs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_077",
+      "114-1_OP_050",
+      "105-1_OP_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuro-assessment#mental-status",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_001",
+      "106-2_makeup_MS_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuro-assessment#pupils",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_005",
+      "110-2_MS_007",
+      "112-3_MS_006",
+      "112-2_FA_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuro-assessment#muscle-strength",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_FA_042",
+      "112-2_FA_048",
+      "108-2_FA_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuro-assessment#reflexes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuro-assessment#cerebellum-meninges",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuro-assessment#diagnostics",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_007",
+      "108-1_MS_002",
+      "106-2_MS_006",
+      "113-3_MS_001",
+      "107-2_MS_008",
+      "108-2_MS_016",
+      "114-2_FA_022",
+      "109-1_OP_054",
+      "108-2_OP_080",
+      "105-2_MS_001",
+      "105-1_MS_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuro-assessment#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(GCS|昏迷量表|昏迷指數|Glasgow|意識程度|瞳孔|肌力|Babinski|巴賓斯基|Kernig|Brudzinski|Romberg|腦波|腰椎穿刺|腦血管攝影|脊髓攝影)",
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "notifiable-diseases#questions",
@@ -802,6 +1206,70 @@
     "limit": 10
   },
   {
+    "qkey": "psychiatric-nursing-foundations#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_PC_002",
+      "106-2_PC_002",
+      "105-1_PC_003",
+      "111-2_PC_003",
+      "109-1_PC_015",
+      "112-1_PC_001",
+      "112-2_PC_001",
+      "112-1_PC_004",
+      "111-2_PC_037",
+      "106-1_PC_002",
+      "109-1_PC_004",
+      "105-2_PC_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "psychodynamic-theories#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_PC_008",
+      "114-1_PC_001",
+      "113-2_PC_015",
+      "112-3_PC_022",
+      "112-2_PC_003",
+      "110-1_PC_018",
+      "109-2_PC_001",
+      "109-2_PC_004",
+      "108-2_PC_009",
+      "108-1_PC_002",
+      "108-1_PC_003",
+      "107-2_PC_001",
+      "107-2_PC_002",
+      "107-2_PC_022",
+      "107-1_PC_003",
+      "107-1_PC_023",
+      "106-2_PC_003",
+      "106-2_makeup_PC_001",
+      "106-2_makeup_PC_022",
+      "106-2_makeup_PC_026",
+      "106-1_PC_003",
+      "105-1_PC_022",
+      "105-1_PC_024",
+      "115-1_PC_004",
+      "112-2_PC_006",
+      "106-2_makeup_PC_012",
+      "105-1_PC_007",
+      "105-2_PC_002",
+      "106-1_PC_002",
+      "105-2_PC_004",
+      "109-1_PC_004",
+      "113-1_PC_013"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "stem-cell-transplant#questions",
     "tag": null,
     "adm": null,
@@ -833,6 +1301,328 @@
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "transfusion-reactions#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_FA_025",
+      "114-3_MS_020",
+      "114-2_MS_025",
+      "114-1_MS_049",
+      "111-2_MS_040",
+      "111-1_MS_079",
+      "108-1_MS_048",
+      "107-1_MS_033",
+      "107-1_MS_042",
+      "107-1_MS_048",
+      "106-2_MS_047",
+      "105-2_MS_051",
+      "105-1_MS_041",
+      "112-2_OP_067",
+      "105-1_OP_068",
+      "113-2_FA_016",
+      "113-1_FA_018",
+      "112-1_FA_024",
+      "112-2_FA_024",
+      "111-1_FA_024",
+      "107-2_FA_021",
+      "107-2_FA_022",
+      "107-1_OP_050",
+      "115-1_FA_017",
+      "114-3_FA_015",
+      "113-3_FA_016",
+      "112-1_FA_025",
+      "111-2_FA_024",
+      "110-1_FA_028",
+      "109-1_FA_026",
+      "112-3_FA_015",
+      "106-2_makeup_FA_032",
+      "106-1_FA_024",
+      "105-1_FA_025",
+      "105-1_FA_026",
+      "109-1_FA_010",
+      "108-1_FA_025",
+      "110-2_BM_039",
+      "105-2_OP_050",
+      "111-2_FA_031",
+      "106-2_makeup_BM_077",
+      "115-2_OP_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "icp-monitoring#alarms",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_003",
+      "106-2_MS_001",
+      "109-2_MS_001",
+      "109-2_MS_002",
+      "110-2_OP_078"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "icp-monitoring#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(顱內壓監測|腦室外引流|EVD|external ventricular|零點|室間孔)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "adhd#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_PC_004",
+      "114-1_PC_019",
+      "111-1_PC_030",
+      "110-2_PC_034",
+      "109-1_PC_032",
+      "108-1_PC_029",
+      "107-2_PC_033",
+      "107-1_PC_032",
+      "106-2_makeup_PC_031",
+      "114-3_OP_026",
+      "110-2_OP_044",
+      "113-2_BM_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "alcohol-use-disorder#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_PC_017",
+      "112-3_PC_019",
+      "112-3_PC_020",
+      "112-2_PC_027",
+      "111-2_PC_026",
+      "111-1_PC_028",
+      "110-1_PC_027",
+      "109-1_PC_008",
+      "109-1_PC_030",
+      "107-2_PC_005",
+      "107-2_BM_038",
+      "113-3_BM_024",
+      "115-1_BM_036",
+      "106-2_makeup_BM_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "allergic-contact-dermatitis-latex#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_050",
+      "114-3_BM_044",
+      "110-2_MS_051",
+      "109-2_MS_047",
+      "111-2_BM_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "allergic-rhinitis#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_029",
+      "111-2_MS_048",
+      "107-1_MS_049",
+      "106-1_MS_047",
+      "105-2_MS_049",
+      "115-1_MS_027",
+      "115-2_MS_030",
+      "106-2_makeup_OP_061",
+      "105-2_BM_054",
+      "115-1_BM_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anaphylaxis#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_BM_016",
+      "109-1_MS_044",
+      "109-1_MS_078",
+      "115-1_MS_047",
+      "106-2_BM_050",
+      "111-2_BM_024",
+      "105-1_MS_048",
+      "105-2_MS_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anxiety-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_PC_025",
+      "106-2_PC_013",
+      "106-2_makeup_PC_025",
+      "105-2_PC_026",
+      "105-1_PC_039",
+      "105-1_PC_040",
+      "115-1_PC_015",
+      "114-3_PC_005",
+      "113-2_PC_005",
+      "113-1_PC_014",
+      "112-3_PC_017",
+      "112-2_PC_025",
+      "110-1_PC_019",
+      "109-2_PC_027",
+      "112-2_PC_026",
+      "108-2_PC_032",
+      "111-2_PC_014",
+      "110-2_PC_023",
+      "108-2_PC_037",
+      "108-1_PC_006",
+      "108-2_PC_026",
+      "105-2_PC_035",
+      "112-3_PC_018",
+      "112-1_PC_022",
+      "112-1_PC_023",
+      "112-1_PC_024",
+      "111-1_PC_025",
+      "106-1_PC_025",
+      "109-1_PC_028",
+      "113-3_PC_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "asthma#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_048",
+      "108-1_OP_046",
+      "112-3_OP_038",
+      "106-2_OP_062",
+      "110-2_OP_061",
+      "105-1_OP_061",
+      "115-2_OP_038",
+      "106-2_makeup_OP_061",
+      "115-1_OP_039",
+      "109-2_OP_062",
+      "109-1_OP_048",
+      "105-1_MS_048",
+      "112-2_MS_055",
+      "105-2_MS_056",
+      "105-1_MS_054",
+      "107-2_MS_034",
+      "114-3_BM_032",
+      "105-2_BM_056",
+      "110-2_FA_011",
+      "111-1_FA_053",
+      "114-1_PC_050",
+      "111-1_PC_077",
+      "115-1_PC_035",
+      "106-2_BM_067",
+      "109-2_BM_043",
+      "110-1_BM_045",
+      "107-1_BM_039",
+      "115-2_MS_030",
+      "113-1_MS_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "autism-spectrum-disorder#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_027",
+      "109-1_OP_058",
+      "115-2_PC_019",
+      "115-2_PC_020",
+      "114-2_PC_005",
+      "113-3_PC_018",
+      "113-2_PC_020",
+      "111-2_PC_030",
+      "110-2_PC_030",
+      "110-1_PC_031",
+      "109-2_PC_029",
+      "109-1_PC_033",
+      "108-1_PC_039",
+      "105-2_PC_040",
+      "114-1_OP_028",
+      "113-3_OP_027",
+      "113-2_OP_028",
+      "112-2_OP_044",
+      "112-1_OP_041",
+      "111-2_OP_042",
+      "110-2_OP_046",
+      "109-2_OP_041",
+      "108-1_OP_052",
+      "107-2_OP_053",
+      "107-1_OP_057",
+      "106-2_makeup_PC_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "autoimmune-diseases#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_071",
+      "105-2_BM_070",
+      "105-1_BM_071",
+      "109-2_BM_071",
+      "108-1_BM_066",
+      "112-2_BM_045",
+      "109-1_MS_040",
+      "110-1_BM_033",
+      "109-2_BM_034",
+      "109-2_BM_041",
+      "113-2_MS_032",
+      "111-1_MS_051",
+      "113-1_MS_030",
+      "115-1_MS_002",
+      "112-2_BM_012",
+      "108-1_BM_025",
+      "109-1_BM_047",
+      "111-2_BM_022",
+      "107-1_MS_008",
+      "112-2_BM_022",
+      "105-1_BM_035",
+      "109-2_BM_047"
+    ],
+    "limit": null
   },
   {
     "qkey": "bipolar-disorder#defense-mechanisms",
@@ -956,6 +1746,52 @@
       "112-3_PC_016"
     ],
     "limit": null
+  },
+  {
+    "qkey": "brain-tumors#manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_005",
+      "114-2_MS_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-tumors#treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_001",
+      "108-2_MS_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-tumors#craniotomy-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_004",
+      "106-2_MS_002",
+      "110-2_OP_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-tumors#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(腦瘤|腦腫瘤|顱內腫瘤|膠質|腦膜瘤|開顱|伽[瑪馬]刀|脊髓腫瘤|脊髓壓迫)",
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "breast-cancer#questions",
@@ -1372,6 +2208,146 @@
     "limit": 10
   },
   {
+    "qkey": "cranial-nerve-spine-disorders#headache",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_007",
+      "113-3_BM_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cranial-nerve-spine-disorders#disc-surgery-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_003",
+      "111-2_MS_008",
+      "111-2_MS_003",
+      "112-2_MS_001",
+      "108-2_MS_002",
+      "109-1_MS_080"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cranial-nerve-spine-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(頭痛|偏頭痛|叢集|叢性|三叉神經痛|顏面神經麻痺|貝爾|椎間盤|坐骨神經|椎板|背架|腦死)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "delirium#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_PC_021",
+      "112-2_PC_032",
+      "111-2_PC_031",
+      "111-1_PC_005",
+      "110-1_PC_028",
+      "108-2_PC_014",
+      "107-1_PC_015",
+      "107-1_PC_016",
+      "106-2_PC_018",
+      "106-2_PC_021",
+      "105-2_PC_023",
+      "105-1_PC_021",
+      "105-1_PC_026",
+      "105-1_MS_009",
+      "110-2_FA_049",
+      "106-2_PC_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "dementia#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_PC_005",
+      "114-2_PC_020",
+      "113-1_PC_007",
+      "112-3_PC_010",
+      "111-1_PC_026",
+      "111-1_PC_029",
+      "110-2_PC_031",
+      "110-1_PC_029",
+      "109-1_PC_031",
+      "108-2_PC_019",
+      "107-1_PC_029",
+      "106-2_PC_024",
+      "106-2_makeup_PC_016",
+      "105-2_PC_027",
+      "110-2_PC_033",
+      "105-2_PC_008",
+      "106-2_PC_051",
+      "113-3_PC_021",
+      "113-3_PC_023",
+      "111-1_PC_031",
+      "111-1_PC_032",
+      "111-1_PC_033",
+      "111-1_PC_036",
+      "109-1_PC_014",
+      "108-1_PC_030",
+      "107-2_PC_025",
+      "107-2_PC_026",
+      "107-2_PC_027",
+      "107-2_PC_028",
+      "107-2_PC_029",
+      "106-2_PC_017",
+      "105-2_PC_022",
+      "112-1_PC_031",
+      "112-1_PC_032",
+      "109-1_PC_007",
+      "108-1_PC_031",
+      "107-1_PC_037",
+      "111-2_PC_032",
+      "114-3_PC_047",
+      "112-1_PC_079",
+      "109-2_PC_080",
+      "111-1_PC_063",
+      "106-2_makeup_PC_078",
+      "113-2_PC_046",
+      "112-1_PC_073",
+      "110-1_PC_075",
+      "110-1_PC_080",
+      "110-2_PC_075",
+      "115-1_PC_046",
+      "115-1_PC_048",
+      "113-1_PC_047",
+      "112-3_PC_049",
+      "112-2_PC_064",
+      "112-1_PC_074",
+      "106-2_makeup_PC_076",
+      "115-2_PC_048",
+      "106-2_makeup_MS_001",
+      "106-2_makeup_MS_007",
+      "107-2_MS_007",
+      "109-1_MS_006",
+      "111-1_MS_004",
+      "112-1_MS_002",
+      "113-1_MS_004",
+      "114-2_MS_043",
+      "114-3_MS_003",
+      "115-2_MS_002",
+      "108-1_FA_006"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "depressive-disorder#social",
     "tag": null,
     "adm": null,
@@ -1451,7 +2427,9 @@
       "114-3_PC_018",
       "113-1_PC_018",
       "113-1_PC_019",
-      "110-2_PC_032"
+      "110-2_PC_032",
+      "115-1_PC_005",
+      "114-1_PC_020"
     ],
     "limit": null
   },
@@ -1782,6 +2760,301 @@
     "limit": 8
   },
   {
+    "qkey": "ear-disorders#communication",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_015",
+      "110-2_MS_025",
+      "105-1_MS_026",
+      "107-1_MS_022",
+      "109-2_MS_022",
+      "108-1_MS_021",
+      "111-1_MS_025",
+      "106-2_makeup_MS_022",
+      "108-2_PC_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ear-disorders#menieres-disease",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_014",
+      "112-3_MS_015",
+      "112-2_MS_024",
+      "106-2_MS_022",
+      "109-2_MS_024",
+      "109-1_MS_021",
+      "113-2_MS_014",
+      "111-2_MS_023",
+      "106-1_MS_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ear-disorders#external-middle-ear",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_013",
+      "110-1_MS_025",
+      "105-2_MS_020",
+      "106-1_MS_022",
+      "111-1_MS_023",
+      "108-2_MS_018",
+      "107-2_MS_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ear-disorders#ear-drops",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_014",
+      "106-1_OP_047",
+      "107-2_OP_057",
+      "110-1_FA_022",
+      "113-1_OP_030",
+      "111-1_FA_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ear-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(聽力|聽覺障礙|助聽|韋伯|任內|Weber|Rinne|美尼爾|梅尼爾|眩暈|暈眩|耳石|動暈|外耳炎|耳硬化|耳垢|滴耳|耳滴|耳藥)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "eating-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_027",
+      "113-2_OP_031",
+      "112-3_OP_027",
+      "108-1_OP_053",
+      "115-2_PC_018",
+      "112-1_PC_030",
+      "111-2_PC_029",
+      "110-1_PC_030",
+      "109-2_PC_032",
+      "108-2_PC_031",
+      "107-1_PC_031",
+      "106-1_PC_032",
+      "105-1_PC_027",
+      "105-1_PC_028",
+      "108-2_OP_051",
+      "106-1_OP_041",
+      "109-2_PC_004",
+      "106-2_PC_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epilepsy#classification",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_031",
+      "114-1_MS_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epilepsy#first-aid",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_006",
+      "108-1_MS_005",
+      "112-3_MS_002",
+      "106-2_MS_002",
+      "105-2_OP_078",
+      "110-2_OP_079"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epilepsy#status-epilepticus",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_003",
+      "110-1_MS_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epilepsy#children",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_078",
+      "113-2_OP_050",
+      "113-3_OP_049",
+      "109-1_OP_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epilepsy#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(癲癇|重積|強直陣攣|tonic-clonic|大發作|小發作|失神發作|生酮)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "eye-disorders#cataract",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_014",
+      "112-1_MS_021",
+      "110-2_MS_022",
+      "106-2_MS_021",
+      "109-2_MS_025",
+      "113-1_MS_014",
+      "111-2_MS_022",
+      "108-2_MS_019",
+      "115-2_MS_013",
+      "113-2_MS_013",
+      "110-1_MS_022",
+      "107-2_MS_025",
+      "115-2_PC_045",
+      "113-1_PC_045",
+      "110-1_BM_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "eye-disorders#glaucoma",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_013",
+      "107-1_MS_041",
+      "111-1_MS_022",
+      "105-2_MS_022",
+      "115-2_BM_032",
+      "112-3_BM_031",
+      "108-2_MS_008",
+      "107-2_MS_022",
+      "115-1_MS_015",
+      "106-1_MS_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "eye-disorders#retinal-detachment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_MS_014",
+      "105-1_MS_024",
+      "112-1_MS_022",
+      "113-2_MS_015",
+      "107-1_MS_021",
+      "110-2_MS_024",
+      "108-1_MS_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "eye-disorders#retinopathy-amd",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_075",
+      "106-2_makeup_MS_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "eye-disorders#rop",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_059",
+      "112-1_OP_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "eye-disorders#childhood-vision",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_PC_070",
+      "112-2_PC_067",
+      "105-1_OP_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "eye-disorders#eye-medication",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_024",
+      "109-2_OP_050",
+      "112-2_FA_016",
+      "113-1_FA_013",
+      "114-1_OP_030",
+      "115-1_OP_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "eye-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(白內障|青光眼|視網膜剝離|視網膜病變|黃斑|結膜炎|斜視|弱視|近視|眼藥|眼壓)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "gynecologic-cancers#questions",
     "tag": null,
     "adm": null,
@@ -1834,12 +3107,97 @@
     "limit": 10
   },
   {
+    "qkey": "head-injury#skull-fracture",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_006",
+      "110-2_MS_001",
+      "113-2_MS_002",
+      "111-1_MS_006",
+      "105-1_MS_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "head-injury#concussion-contusion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_MS_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "head-injury#hematoma",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_005",
+      "109-2_MS_008",
+      "109-2_MS_003",
+      "107-1_MS_054",
+      "106-1_MS_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "head-injury#treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_FA_037",
+      "105-1_OP_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "head-injury#complications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_MS_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "head-injury#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "head-injury#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(頭部外傷|頭部創傷|顱底|浣熊眼|巴特爾|Battle|鼻漏|耳漏|腦震盪|腦挫傷|硬膜上|硬腦膜上|硬膜下|硬腦膜下|硬腦膜外)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "head-neck-cancers#questions",
     "tag": null,
     "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
+      "108-2_MS_020",
       "112-1_BM_047",
       "115-2_BM_025",
       "115-1_MS_014",
@@ -1900,7 +3258,7 @@
   },
   {
     "qkey": "heart-failure#edema-mechanism",
-    "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "tag": "心臟衰竭",
     "adm": null,
     "drug": null,
     "keyword": "(代償|機轉|交感|腎素|醛固酮|利鈉|BNP|靜水壓|水腫)",
@@ -1909,7 +3267,7 @@
   },
   {
     "qkey": "heart-failure#left-vs-right",
-    "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "tag": "心臟衰竭",
     "adm": null,
     "drug": null,
     "keyword": "(左心|右心|端坐|夜間陣發|頸靜脈|肝腫大|水腫|早期)",
@@ -1966,7 +3324,6 @@
     "tag": null,
     "adm": null,
     "drug": [
-      "心衰竭用藥",
       "心臟衰竭用藥",
       "強心劑用藥",
       "強心劑",
@@ -1981,7 +3338,7 @@
   },
   {
     "qkey": "heart-failure#activity",
-    "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "tag": "心臟衰竭",
     "adm": null,
     "drug": null,
     "keyword": "(護理|姿勢|半坐臥|高坐臥|限水|限鈉|體重|輸出入量|活動)",
@@ -1990,7 +3347,7 @@
   },
   {
     "qkey": "heart-failure#prevent-exacerbation",
-    "tag": "心臟衰竭|心衰竭|鬱血性心臟衰竭|鬱血性心衰竭",
+    "tag": "心臟衰竭",
     "adm": null,
     "drug": null,
     "keyword": "(衛教|出院|居家|飲食|體重|疫苗)",
@@ -2239,6 +3596,133 @@
     "limit": 6
   },
   {
+    "qkey": "increased-icp#cerebral-edema",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_004",
+      "107-2_MS_006",
+      "106-2_makeup_MS_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "increased-icp#causes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "increased-icp#manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_046",
+      "108-2_MS_004",
+      "112-2_MS_005",
+      "114-3_MS_005",
+      "113-2_FA_025",
+      "110-1_FA_038",
+      "107-2_MS_002",
+      "106-2_makeup_FA_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "increased-icp#herniation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_BM_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "increased-icp#drugs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_005",
+      "109-2_MS_001",
+      "108-1_MS_003",
+      "107-1_MS_004",
+      "113-1_MS_003",
+      "107-1_BM_059"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "increased-icp#other-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_003",
+      "109-2_MS_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "increased-icp#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_002",
+      "110-2_MS_008",
+      "111-2_MS_001",
+      "105-2_FA_013",
+      "109-2_MS_078",
+      "106-1_FA_003",
+      "109-2_FA_030",
+      "110-1_FA_026",
+      "107-1_FA_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "increased-icp#children",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_049",
+      "113-1_OP_048",
+      "111-2_OP_080",
+      "109-1_OP_053",
+      "110-1_OP_078",
+      "110-1_OP_079",
+      "115-2_OP_049",
+      "110-1_OP_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "increased-icp#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(顱內壓|腦壓|IICP|腦水腫|腦疝|庫欣氏三|Cushing.?s triad|腦灌流|Mannitol|甘露醇)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "infectious-diarrhea#questions",
     "tag": null,
     "adm": null,
@@ -2310,6 +3794,43 @@
       "109-2_MS_027",
       "106-1_MS_025",
       "111-2_MS_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intellectual-disability#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_PC_018",
+      "112-1_PC_029",
+      "111-2_PC_035",
+      "109-2_PC_031",
+      "106-2_makeup_PC_032",
+      "107-1_PC_046",
+      "109-2_OP_043",
+      "110-1_PC_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kawasaki-disease#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_059",
+      "113-1_OP_040",
+      "110-1_OP_059",
+      "108-1_OP_045",
+      "106-1_OP_062",
+      "106-2_OP_058",
+      "112-1_BM_028",
+      "106-1_OP_064",
+      "115-2_OP_041"
     ],
     "limit": null
   },
@@ -2471,12 +3992,203 @@
     "limit": 10
   },
   {
+    "qkey": "neuromuscular-demyelinating#myasthenia-gravis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_003",
+      "106-2_MS_008",
+      "105-2_MS_007",
+      "115-1_MS_002",
+      "108-1_BM_025",
+      "107-2_OP_079",
+      "105-2_OP_079",
+      "113-1_OP_049",
+      "107-1_MS_008",
+      "113-3_MS_002",
+      "108-1_MS_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuromuscular-demyelinating#botulism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuromuscular-demyelinating#guillain-barre",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_BM_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuromuscular-demyelinating#als",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_048",
+      "109-1_BM_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuromuscular-demyelinating#multiple-sclerosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_006",
+      "107-1_MS_007",
+      "109-1_MS_004",
+      "105-1_MS_001",
+      "113-1_MS_001",
+      "110-1_MS_002",
+      "114-1_MS_002",
+      "112-1_MS_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuromuscular-demyelinating#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(重症肌無力|肌無力症|格林|Guillain|漸凍|側索硬化|多發性硬化|脫髓鞘|肉毒)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "obsessive-compulsive-disorder#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_PC_016",
+      "111-2_PC_023",
+      "111-1_PC_023",
+      "110-2_PC_024",
+      "106-2_PC_027",
+      "106-1_PC_029",
+      "111-1_PC_024",
+      "115-2_PC_015",
+      "113-1_PC_006",
+      "113-1_PC_016",
+      "111-1_PC_021",
+      "110-1_PC_020",
+      "107-1_PC_025",
+      "106-2_makeup_PC_028",
+      "106-2_makeup_PC_027",
+      "106-2_makeup_PC_026",
+      "106-2_makeup_PC_025",
+      "107-1_PC_008",
+      "107-1_PC_023",
+      "108-2_PC_008",
+      "108-2_PC_012",
+      "114-1_PC_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "parkinson-disease#pathophysiology",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_006",
+      "112-2_BM_030",
+      "109-2_PC_071",
+      "106-1_BM_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "parkinson-disease#manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_001",
+      "105-1_MS_008",
+      "111-2_MS_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "parkinson-disease#treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_001",
+      "106-2_MS_005",
+      "114-1_MS_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "parkinson-disease#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_006",
+      "111-1_MS_005",
+      "112-3_MS_005",
+      "106-1_MS_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "parkinson-disease#huntington",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_010",
+      "109-2_BM_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "parkinson-disease#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(巴金森|帕金森|Parkinson|亨丁頓|亨汀頓|舞蹈症|靜止性顫抖|錳)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "pediatric-cancers#questions",
     "tag": null,
     "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [
+      "110-2_BM_043",
+      "106-2_BM_047",
       "114-2_OP_042",
       "110-1_OP_070",
       "111-1_BM_041",
@@ -2512,12 +4224,113 @@
   },
   {
     "qkey": "pediatric-cancers#questions~2",
-    "tag": "兒童癌症|腦瘤|腦腫瘤|神經母細胞瘤|威爾姆氏腫瘤|威廉氏腫瘤|骨肉瘤|視網膜母細胞瘤",
+    "tag": "兒童癌症|腦瘤|神經母細胞瘤|威爾姆氏腫瘤|威廉氏腫瘤|骨肉瘤|視網膜母細胞瘤",
     "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "pediatric-neuro#cerebral-palsy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_050",
+      "111-2_OP_079",
+      "109-1_OP_080",
+      "112-1_OP_080",
+      "110-1_OP_080",
+      "113-3_OP_048",
+      "112-2_OP_079",
+      "110-2_OP_077",
+      "108-1_OP_079",
+      "106-1_OP_079",
+      "106-1_OP_050",
+      "106-2_makeup_OP_055",
+      "105-2_OP_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-neuro#hydrocephalus",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_OP_080",
+      "106-2_OP_077",
+      "109-1_OP_052",
+      "110-1_OP_079"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-neuro#neural-tube-defects",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_079",
+      "106-1_OP_078",
+      "106-2_makeup_OP_005",
+      "112-2_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-neuro#ivh",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_062",
+      "112-1_OP_079",
+      "113-2_OP_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-neuro#reye-syndrome",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_080",
+      "112-2_OP_078",
+      "112-1_OP_078",
+      "107-1_OP_054",
+      "106-1_OP_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-neuro#newborn-reflexes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_002",
+      "109-2_OP_029",
+      "114-1_OP_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-neuro#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(腦性麻痺|水腦|V-P shunt|分流|脊柱裂|脊髓膜膨出|神經管|腦室內出血|雷氏|新生兒反射|擁抱反射|巴賓斯基反射)",
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "pediatric-respiratory-infections#questions",
@@ -2526,6 +4339,8 @@
     "drug": null,
     "keyword": null,
     "ids": [
+      "112-1_MS_023",
+      "107-1_MS_023",
       "107-1_OP_069",
       "113-2_OP_049",
       "105-1_MS_023",
@@ -2648,6 +4463,40 @@
     "limit": null
   },
   {
+    "qkey": "personality-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_PC_026",
+      "110-2_PC_026",
+      "113-1_PC_013",
+      "105-2_PC_037",
+      "105-2_PC_038",
+      "114-3_PC_016",
+      "112-2_PC_023",
+      "106-1_PC_012",
+      "111-1_PC_022",
+      "110-1_PC_022",
+      "113-3_PC_015",
+      "112-1_PC_025",
+      "108-2_PC_029",
+      "105-1_PC_012",
+      "115-2_PC_014",
+      "114-1_PC_014",
+      "113-2_PC_008",
+      "112-3_PC_002",
+      "109-1_PC_026",
+      "108-1_PC_028",
+      "108-1_PC_027",
+      "109-2_PC_030",
+      "108-1_PC_026",
+      "115-1_PC_016"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "pneumonia#questions",
     "tag": null,
     "adm": null,
@@ -2710,6 +4559,21 @@
     "limit": null
   },
   {
+    "qkey": "primary-immunodeficiency#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_043",
+      "109-2_BM_035",
+      "105-1_BM_070",
+      "111-1_BM_043",
+      "115-1_BM_022"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "respiratory-viral-infections#questions",
     "tag": null,
     "adm": null,
@@ -2741,6 +4605,39 @@
     "limit": null
   },
   {
+    "qkey": "rheumatoid-arthritis#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_031",
+      "113-3_MS_030",
+      "111-1_MS_050",
+      "108-2_MS_048",
+      "106-1_MS_048",
+      "105-2_MS_050",
+      "115-1_MS_012",
+      "113-1_MS_012",
+      "112-1_MS_018",
+      "112-3_BM_023",
+      "108-2_BM_048",
+      "107-2_BM_048",
+      "105-1_BM_048",
+      "110-2_BM_048",
+      "112-2_MS_048",
+      "111-1_BM_063",
+      "109-1_MS_046",
+      "108-1_BM_055",
+      "115-1_MS_030",
+      "113-2_MS_030",
+      "110-1_MS_050",
+      "112-3_BM_040",
+      "106-1_MS_050"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "schizophrenia#psychosocial",
     "tag": null,
     "adm": null,
@@ -2766,6 +4663,7 @@
     "drug": null,
     "keyword": null,
     "ids": [
+      "108-1_PC_013",
       "114-2_PC_013",
       "113-3_PC_010",
       "112-1_PC_018",
@@ -2841,10 +4739,7 @@
     "tag": null,
     "adm": null,
     "drug": [
-      "抗精神病藥物",
-      "抗精神病用藥",
-      "抗精神病藥",
-      "思覺失調症用藥"
+      "抗精神病藥物"
     ],
     "keyword": "思覺失調|精神分裂",
     "ids": [],
@@ -2865,7 +4760,7 @@
     "limit": null
   },
   {
-    "qkey": "schizophrenia#communication-theories",
+    "qkey": "schizophrenia#communication-extra",
     "tag": null,
     "adm": null,
     "drug": null,
@@ -2873,6 +4768,30 @@
     "ids": [
       "113-3_PC_001",
       "113-1_PC_001",
+      "112-1_PC_002",
+      "113-1_FA_008",
+      "107-1_PC_007",
+      "108-1_PC_004",
+      "110-1_PC_024",
+      "108-2_PC_001",
+      "107-2_PC_014",
+      "105-2_PC_003",
+      "105-2_FA_026",
+      "107-1_PC_014",
+      "106-2_PC_012",
+      "107-2_PC_024",
+      "108-2_FA_028",
+      "107-2_PC_019",
+      "106-1_FA_008",
+      "106-2_makeup_PC_011",
+      "112-2_FA_006",
+      "105-2_PC_005",
+      "115-2_FA_007",
+      "112-3_PC_003",
+      "112-3_PC_007",
+      "106-2_makeup_PC_029",
+      "112-2_PC_008",
+      "109-1_PC_010",
       "111-1_PC_006",
       "110-2_PC_007",
       "108-2_PC_020",
@@ -3036,6 +4955,7 @@
     "drug": null,
     "keyword": null,
     "ids": [
+      "109-1_PC_003",
       "115-2_PC_001",
       "113-2_PC_003",
       "115-1_PC_003",
@@ -3223,6 +5143,393 @@
     "limit": null
   },
   {
+    "qkey": "sle#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_031",
+      "115-1_MS_031",
+      "114-2_MS_030",
+      "113-1_MS_031",
+      "112-3_MS_033",
+      "112-1_MS_049",
+      "112-1_MS_068",
+      "111-1_MS_045",
+      "110-1_MS_051",
+      "109-1_MS_045",
+      "108-1_MS_049",
+      "107-2_MS_051",
+      "106-2_MS_049",
+      "106-2_makeup_MS_049",
+      "106-1_MS_049",
+      "105-1_MS_051",
+      "113-3_MS_031",
+      "109-2_MS_050",
+      "114-3_BM_022",
+      "114-2_BM_023",
+      "107-1_MS_050",
+      "113-2_MS_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "somatic-dissociative-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_PC_016",
+      "113-3_PC_016",
+      "114-2_PC_016",
+      "110-2_PC_027",
+      "105-2_PC_012",
+      "107-2_PC_002",
+      "112-2_PC_024",
+      "109-1_PC_025",
+      "105-1_PC_024",
+      "114-2_PC_017",
+      "113-2_PC_016",
+      "110-1_PC_023",
+      "109-1_PC_027",
+      "105-1_PC_025",
+      "114-3_PC_010",
+      "106-2_makeup_PC_008",
+      "108-1_PC_003",
+      "106-2_makeup_PC_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-injury#complete-incomplete",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_003",
+      "107-1_MS_003",
+      "110-2_MS_054",
+      "110-1_MS_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-injury#spinal-neurogenic-shock",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_001",
+      "114-2_MS_005",
+      "112-2_MS_006",
+      "111-2_MS_002",
+      "111-1_MS_077",
+      "106-1_MS_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-injury#immobilization",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-injury#autonomic-dysreflexia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_008",
+      "105-2_MS_004",
+      "115-1_MS_001",
+      "106-2_MS_003",
+      "105-1_MS_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-injury#bladder-bowel",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_MS_001",
+      "106-2_makeup_MS_004",
+      "108-1_MS_004",
+      "109-2_FA_033",
+      "113-1_FA_019",
+      "110-2_MS_002",
+      "109-1_MS_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-injury#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_FA_033",
+      "109-1_FA_024",
+      "106-2_makeup_FA_011",
+      "111-2_PC_074",
+      "111-2_PC_075",
+      "108-2_FA_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-injury#spine-surgery",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_FA_033",
+      "108-2_FA_041",
+      "112-3_MS_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-injury#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(脊髓損傷|脊椎損傷|頸椎損傷|脊髓休克|神經性休克|自主神經(反射|過度)|神經性膀胱|神經因性膀胱|四肢癱瘓|下半身癱瘓|圓滾木|Crede)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "stroke#types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_BM_040",
+      "115-1_MS_004",
+      "110-1_MS_007",
+      "114-3_MS_004",
+      "106-1_MS_003",
+      "109-1_MS_003",
+      "113-2_BM_030",
+      "108-1_BM_044",
+      "110-2_MS_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "stroke#hemisphere",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_MS_005",
+      "109-1_MS_002",
+      "108-1_MS_006",
+      "113-1_MS_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "stroke#acute-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_005",
+      "109-2_MS_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "stroke#hemorrhagic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_004",
+      "105-1_MS_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "stroke#dysphagia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_FA_044",
+      "113-2_MS_006",
+      "113-3_FA_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "stroke#positioning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_008",
+      "105-2_FA_032",
+      "106-1_FA_043",
+      "106-2_FA_035",
+      "112-2_FA_035",
+      "108-2_FA_009",
+      "108-1_FA_046",
+      "105-2_FA_045",
+      "113-3_FA_028",
+      "110-1_FA_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "stroke#safety",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_FA_006",
+      "111-2_MS_005",
+      "106-2_FA_045",
+      "110-1_FA_042",
+      "107-1_FA_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "stroke#elimination",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_006",
+      "115-1_FA_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "stroke#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(中風|腦血管意外|腦梗塞|TIA|暫時性(腦)?缺血|偏癱|單側忽略|rt-PA|血栓溶解|動脈瘤|蜘蛛膜下腔出血|蛛網膜下腔出血)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "substance-use-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_PC_018",
+      "112-2_PC_029",
+      "112-1_PC_028",
+      "111-2_PC_028",
+      "110-2_PC_028",
+      "108-2_PC_028",
+      "107-1_PC_026",
+      "107-1_PC_027",
+      "107-1_PC_028",
+      "106-2_PC_028",
+      "112-1_PC_027",
+      "115-1_PC_018",
+      "114-3_PC_001",
+      "114-2_PC_018",
+      "114-1_PC_017",
+      "113-3_PC_017",
+      "113-2_PC_014",
+      "113-1_PC_017",
+      "112-2_PC_028",
+      "112-1_PC_036",
+      "111-2_PC_005",
+      "111-2_PC_027",
+      "111-1_PC_027",
+      "110-1_PC_025",
+      "109-1_PC_029",
+      "108-1_PC_025",
+      "107-2_PC_007",
+      "106-2_PC_022",
+      "106-2_PC_026",
+      "106-1_PC_010",
+      "106-1_PC_026",
+      "106-1_PC_027",
+      "106-1_PC_028",
+      "113-1_BM_034",
+      "106-2_makeup_BM_054",
+      "109-1_BM_051",
+      "109-2_BM_049",
+      "110-2_BM_056",
+      "112-1_BM_040",
+      "113-1_BM_033",
+      "113-2_MS_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "trauma-stress-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_PC_017",
+      "114-3_PC_009",
+      "114-1_PC_015",
+      "113-3_PC_013",
+      "113-2_PC_017",
+      "111-2_PC_022",
+      "109-2_PC_009",
+      "106-2_PC_029",
+      "106-2_makeup_PC_008",
+      "111-2_PC_024",
+      "110-2_PC_025",
+      "114-2_PC_015",
+      "113-3_PC_014",
+      "110-1_PC_021",
+      "106-2_PC_030",
+      "108-2_PC_037",
+      "106-1_PC_003",
+      "106-1_PC_030",
+      "105-1_PC_037",
+      "112-2_PC_036",
+      "113-1_PC_023",
+      "114-2_PC_025",
+      "107-1_PC_017",
+      "109-2_FA_001",
+      "109-1_FA_002",
+      "112-3_PC_045",
+      "113-3_FA_001",
+      "114-3_FA_002",
+      "115-1_FA_002"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "tuberculosis#questions",
     "tag": null,
     "adm": null,
@@ -3333,6 +5640,20 @@
     "limit": null
   },
   {
+    "qkey": "urticaria-angioedema#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_BM_024",
+      "112-2_BM_035",
+      "106-1_MS_047",
+      "108-2_BM_052"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "vector-borne-zoonotic#questions",
     "tag": null,
     "adm": null,
@@ -3420,7 +5741,123 @@
     "limit": 10
   },
   {
+    "qkey": "addiction-treatment-drugs#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_PC_015",
+      "110-2_PC_029",
+      "110-1_PC_026",
+      "107-1_PC_026",
+      "112-1_PC_027",
+      "108-2_BM_055",
+      "114-1_BM_032",
+      "111-1_PC_028",
+      "111-1_PC_078",
+      "115-2_PC_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenergic-agonists#desensitization",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_013",
+      "108-1_BM_024",
+      "106-1_BM_020",
+      "107-2_BM_051",
+      "108-2_BM_057"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenergic-agonists#epinephrine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_050",
+      "113-1_BM_032",
+      "115-1_MS_047",
+      "114-1_BM_033",
+      "112-2_BM_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenergic-agonists#pressors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_MS_019",
+      "106-1_MS_032",
+      "107-1_MS_026",
+      "111-1_BM_049",
+      "106-1_BM_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenergic-agonists#alpha1-agonists",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_061",
+      "109-2_BM_054",
+      "105-2_BM_057",
+      "114-3_BM_037",
+      "113-3_BM_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenergic-agonists#beta2-agonists",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_059",
+      "112-2_OP_032",
+      "110-1_OP_032",
+      "110-2_PC_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenergic-agonists#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(epinephrine|腎上腺素|dopamine|dobutamine|phenylephrine|terbutaline|salbutamol|ritodrine|Yutopar|擬交感|交感神經作用|瘦肉精|β2.{0,3}(致效|促效|agonist))",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "alpha-blockers#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_058",
+      "108-2_BM_049",
+      "106-2_makeup_MS_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "alpha-blockers#questions~2",
     "tag": null,
     "adm": null,
     "drug": null,
@@ -3455,6 +5892,99 @@
       "107-2_OP_064",
       "110-2_MS_047",
       "108-2_BM_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anesthetics#inhaled",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_051",
+      "115-1_BM_036",
+      "111-1_BM_050",
+      "114-1_OP_008",
+      "108-1_OP_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anesthetics#intravenous",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_BM_032",
+      "105-1_BM_050",
+      "115-1_PC_018",
+      "106-2_makeup_BM_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anesthetics#local-mechanism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_052",
+      "105-2_BM_051",
+      "115-2_BM_037",
+      "114-1_BM_033",
+      "112-2_BM_033",
+      "113-3_MS_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anesthetics#pdph",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_018",
+      "114-3_OP_011",
+      "109-1_OP_020",
+      "109-1_OP_016",
+      "112-2_OP_013",
+      "110-1_OP_002",
+      "107-1_OP_013",
+      "110-1_OP_014",
+      "111-1_OP_012",
+      "112-3_OP_012",
+      "111-1_OP_024",
+      "110-2_OP_025",
+      "105-2_OP_020",
+      "108-1_OP_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anesthetics#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(麻醉|lidocaine|Xylocaine|bupivacaine|Marcaine|propofol|thiopental|ketamine|halothane|sevoflurane|笑氣|MAC|脊髓阻斷|硬膜外|硬脊膜外)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "anti-dementia-drugs#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_PC_019",
+      "105-1_BM_051",
+      "108-1_MS_007",
+      "106-2_BM_052",
+      "106-2_makeup_BM_051"
     ],
     "limit": null
   },
@@ -3557,15 +6087,90 @@
     "tag": null,
     "adm": null,
     "drug": [
-      "抗憂鬱用藥",
-      "抗憂鬱藥物",
-      "抗憂鬱劑",
-      "憂鬱症用藥",
-      "抗憂鬱藥"
+      "抗憂鬱用藥"
     ],
     "keyword": null,
     "ids": [],
     "limit": 12
+  },
+  {
+    "qkey": "antiepileptics#mechanism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_BM_050",
+      "110-2_BM_050",
+      "111-2_BM_034",
+      "108-1_BM_050",
+      "107-2_BM_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiepileptics#phenytoin",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_004",
+      "107-2_MS_005",
+      "113-1_MS_005",
+      "106-2_makeup_MS_006",
+      "110-1_BM_056",
+      "110-1_MS_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiepileptics#other-agents",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_008",
+      "108-1_OP_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiepileptics#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_004",
+      "111-2_OP_078",
+      "109-2_OP_077",
+      "107-1_OP_053",
+      "115-1_OP_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiepileptics#status-epilepticus",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_001",
+      "105-1_MS_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiepileptics#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(抗癲癇|癲癇藥|Dilantin|phenytoin|carbamazepine|Tegretol|valpro|Depakine|phenobarbital|Luminal|ethosuximide|lamotrigine|levetiracetam|Keppra|gabapentin|重積)",
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "antifungals#questions",
@@ -3595,6 +6200,38 @@
       "106-2_makeup_BM_061",
       "109-1_OP_037",
       "112-2_MS_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antihistamines-autacoids#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_037",
+      "114-2_BM_035",
+      "113-1_BM_035",
+      "112-2_BM_035",
+      "108-2_BM_052",
+      "107-1_BM_055",
+      "105-2_BM_054",
+      "105-1_BM_055",
+      "109-1_BM_058",
+      "108-2_BM_053",
+      "107-2_OP_019",
+      "114-3_OP_041",
+      "113-2_OP_040",
+      "110-2_OP_066",
+      "108-1_OP_070",
+      "107-2_OP_071",
+      "106-1_BM_055",
+      "105-2_BM_053",
+      "106-2_makeup_BM_055",
+      "113-2_BM_031",
+      "109-2_BM_057",
+      "106-2_BM_056"
     ],
     "limit": null
   },
@@ -3740,6 +6377,79 @@
     "limit": null
   },
   {
+    "qkey": "antiparkinson-drugs#mechanism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_064",
+      "106-2_BM_053",
+      "114-3_BM_034",
+      "105-2_BM_062",
+      "105-1_BM_052",
+      "109-2_BM_056"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiparkinson-drugs#levodopa",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_056",
+      "106-1_MS_001",
+      "106-2_MS_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiparkinson-drugs#other-agents",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_BM_031",
+      "114-1_MS_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiparkinson-drugs#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_002",
+      "112-3_MS_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiparkinson-drugs#other-neurodegenerative",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_BM_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiparkinson-drugs#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(巴金森|帕金森|levodopa|左多巴|Sinemet|carbidopa|pramipexole|ropinirole|selegiline|entacapone|amantadine|trihexyphenidyl|Artane|benztropine|riluzole|on-off)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "antiplatelets#questions",
     "tag": null,
     "adm": null,
@@ -3765,6 +6475,18 @@
     "keyword": "(Reye|雷氏症候群)",
     "ids": [],
     "limit": 4
+  },
+  {
+    "qkey": "antipsychotics#sga",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_PC_008",
+      "115-2_BM_033"
+    ],
+    "limit": null
   },
   {
     "qkey": "antipsychotics#eps",
@@ -3870,10 +6592,7 @@
     "tag": null,
     "adm": null,
     "drug": [
-      "抗精神病藥物",
-      "抗精神病用藥",
-      "抗精神病藥",
-      "思覺失調症用藥"
+      "抗精神病藥物"
     ],
     "keyword": null,
     "ids": [],
@@ -3943,6 +6662,38 @@
     "limit": null
   },
   {
+    "qkey": "anxiolytics-hypnotics#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_FA_044",
+      "111-2_PC_007",
+      "110-2_PC_012",
+      "109-2_PC_011",
+      "108-2_PC_014",
+      "108-1_BM_058",
+      "107-1_BM_051",
+      "106-2_BM_054",
+      "106-1_BM_054",
+      "108-2_FA_022",
+      "106-2_makeup_PC_005",
+      "113-3_BM_032",
+      "110-1_BM_057",
+      "108-2_BM_051",
+      "107-1_BM_049",
+      "112-1_BM_032",
+      "107-1_BM_052",
+      "107-1_BM_053",
+      "111-1_BM_055",
+      "109-1_PC_024",
+      "112-2_PC_010",
+      "114-3_PC_006"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "arb#questions",
     "tag": null,
     "adm": null,
@@ -3967,6 +6718,54 @@
     "limit": null
   },
   {
+    "qkey": "asthma-drugs#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_034",
+      "106-2_BM_059",
+      "114-2_BM_034",
+      "114-1_BM_037",
+      "112-2_BM_037",
+      "109-1_BM_062",
+      "106-2_makeup_BM_060",
+      "111-1_BM_061",
+      "107-1_BM_054",
+      "105-1_BM_056",
+      "109-1_BM_054",
+      "107-2_BM_063",
+      "113-1_MS_033",
+      "111-2_MS_057",
+      "109-1_MS_049",
+      "110-2_MS_059",
+      "114-3_FA_012",
+      "108-1_FA_021",
+      "106-2_makeup_BM_061",
+      "112-3_BM_032",
+      "113-1_BM_031",
+      "112-1_BM_035",
+      "107-1_MS_056",
+      "110-1_OP_056",
+      "114-3_OP_034",
+      "114-2_OP_033",
+      "110-2_OP_061",
+      "105-1_OP_061",
+      "115-2_OP_038",
+      "108-2_BM_061",
+      "107-1_BM_060",
+      "112-2_OP_063",
+      "111-2_BM_037",
+      "106-1_BM_059",
+      "105-1_BM_054",
+      "112-2_MS_021",
+      "106-2_makeup_MS_023",
+      "111-1_FA_016"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "beta-blockers#questions",
     "tag": null,
     "adm": null,
@@ -3985,6 +6784,22 @@
       "111-1_BM_059",
       "111-1_BM_051",
       "110-2_MS_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "beta-blockers#questions~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_015",
+      "106-1_MS_024",
+      "110-2_BM_058",
+      "108-2_BM_057",
+      "108-1_FA_044",
+      "106-2_makeup_BM_058"
     ],
     "limit": null
   },
@@ -4040,6 +6855,138 @@
     "keyword": "(clonidine|methyldopa|Aldomet|Catapres|α2)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "cholinergic-drugs#direct-agonists",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_056",
+      "110-2_BM_049",
+      "106-1_BM_051",
+      "109-1_MS_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cholinergic-drugs#myasthenia-gravis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_031",
+      "105-1_BM_051",
+      "110-1_BM_055",
+      "107-1_MS_008",
+      "112-2_MS_008",
+      "112-2_MS_002",
+      "106-2_makeup_MS_008",
+      "109-1_MS_005",
+      "113-3_MS_002",
+      "108-1_MS_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cholinergic-drugs#organophosphate-poisoning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_BM_018",
+      "111-2_BM_033",
+      "106-2_BM_049",
+      "109-2_MS_079",
+      "107-2_MS_077",
+      "115-1_MS_048",
+      "114-3_MS_047",
+      "111-2_MS_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cholinergic-drugs#antimuscarinics",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_016",
+      "105-1_BM_053",
+      "113-1_BM_031",
+      "115-1_BM_034",
+      "111-2_BM_036",
+      "114-1_BM_035",
+      "109-1_BM_053",
+      "106-2_FA_053",
+      "105-1_FA_056",
+      "115-2_MS_010",
+      "105-2_MS_062",
+      "114-2_BM_032",
+      "114-1_MS_001",
+      "107-1_FA_035",
+      "106-2_FA_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cholinergic-drugs#glaucoma-drugs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_032",
+      "112-3_BM_031",
+      "108-2_MS_008",
+      "107-2_MS_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cholinergic-drugs#neuromuscular-blockers",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_031",
+      "107-1_BM_050",
+      "107-2_BM_070"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cholinergic-drugs#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(atropine|scopolamine|pilocarpine|bethanechol|neostigmine|pyridostigmine|Mestinon|physostigmine|有機磷|巴拉松|PAM|pralidoxime|抗膽鹼|膽鹼性危象|膽鹼激性危象|succinylcholine|神經肌肉阻斷)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "cns-stimulants#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_PC_033",
+      "107-1_PC_032",
+      "108-1_PC_029",
+      "110-2_PC_034",
+      "114-3_OP_026",
+      "113-2_BM_033",
+      "112-1_BM_035",
+      "105-2_BM_050",
+      "110-2_BM_062"
+    ],
+    "limit": null
   },
   {
     "qkey": "digoxin#questions",
@@ -4117,6 +7064,44 @@
       "107-1_BM_071"
     ],
     "limit": null
+  },
+  {
+    "qkey": "gout-drugs#flare",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_060",
+      "114-3_BM_035",
+      "110-2_MS_019",
+      "106-2_MS_019",
+      "111-1_BM_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gout-drugs#uric-acid-stones",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_020",
+      "114-1_MS_011",
+      "110-1_MS_063",
+      "112-2_OP_070"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gout-drugs#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(痛風|尿酸|colchicine|秋水仙|allopurinol|febuxostat|probenecid|Benemid|benzbromarone)",
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "immunosuppressants#questions",
@@ -4280,6 +7265,28 @@
     "limit": 10
   },
   {
+    "qkey": "monoclonal-antibodies#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_063",
+      "107-2_BM_063",
+      "109-1_BM_054",
+      "113-2_BM_040",
+      "115-2_BM_040",
+      "114-3_BM_040",
+      "109-1_BM_055",
+      "108-1_BM_055",
+      "113-1_MS_021",
+      "115-2_BM_038",
+      "111-2_BM_040",
+      "105-1_BM_064"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "mood-stabilizers#lithium-nursing",
     "tag": null,
     "adm": null,
@@ -4319,8 +7326,7 @@
     "tag": null,
     "adm": null,
     "drug": [
-      "情緒穩定劑",
-      "躁鬱症用藥"
+      "情緒穩定劑"
     ],
     "keyword": null,
     "ids": [],
@@ -4382,35 +7388,23 @@
     "qkey": "nsaids-acetaminophen#questions~2",
     "tag": null,
     "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_066",
+      "110-2_OP_067",
+      "112-2_OP_068",
+      "114-3_OP_042",
+      "108-2_MS_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nsaids-acetaminophen#questions~3",
+    "tag": null,
+    "adm": null,
     "drug": [
-      "止痛用藥",
-      "止痛藥",
-      "止痛藥物",
-      "鎮痛藥",
-      "麻醉用藥",
-      "麻醉藥物",
-      "麻醉止痛用藥",
-      "鴉片類止痛劑",
-      "鴉片類止痛藥",
-      "局部麻醉藥",
-      "局部麻醉用藥",
-      "局部麻醉劑",
-      "止痛劑用藥",
-      "止痛藥用藥",
-      "麻醉性止痛藥",
-      "麻醉性止痛劑",
-      "類鴉片止痛藥",
-      "類鴉片止痛用藥",
-      "鴉片類藥物",
-      "癌症疼痛用藥",
-      "疼痛用藥",
-      "止痛麻醉用藥",
-      "非類固醇消炎止痛藥",
-      "止痛消炎用藥",
-      "消炎止痛藥",
-      "止痛解熱消炎藥",
-      "止痛退熱藥",
-      "止痛藥與麻醉藥物"
+      "解熱鎮痛用藥"
     ],
     "keyword": "aspirin|阿斯匹|NSAID|非類固醇|acetaminophen|乙醯胺酚|ibuprofen|celecoxib|COX",
     "ids": [],
@@ -4459,35 +7453,21 @@
     "qkey": "opioids#questions~2",
     "tag": null,
     "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_006",
+      "105-1_MS_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "opioids#questions~3",
+    "tag": null,
+    "adm": null,
     "drug": [
-      "止痛用藥",
-      "止痛藥",
-      "止痛藥物",
-      "鎮痛藥",
-      "麻醉用藥",
-      "麻醉藥物",
-      "麻醉止痛用藥",
-      "鴉片類止痛劑",
       "鴉片類止痛藥",
-      "局部麻醉藥",
-      "局部麻醉用藥",
-      "局部麻醉劑",
-      "止痛劑用藥",
-      "止痛藥用藥",
-      "麻醉性止痛藥",
-      "麻醉性止痛劑",
-      "類鴉片止痛藥",
-      "類鴉片止痛用藥",
-      "鴉片類藥物",
-      "癌症疼痛用藥",
-      "疼痛用藥",
-      "止痛麻醉用藥",
-      "非類固醇消炎止痛藥",
-      "止痛消炎用藥",
-      "消炎止痛藥",
-      "止痛解熱消炎藥",
-      "止痛退熱藥",
-      "止痛藥與麻醉藥物"
+      "止痛用藥"
     ],
     "keyword": "嗎啡|Morphine|morphine|鴉片|opioid|Fentanyl|fentanyl|Demerol|meperidine|Pethidine|naloxone|Naloxone|codeine|可待因",
     "ids": [],
@@ -4836,7 +7816,7 @@
   },
   {
     "qkey": "echocardiography#ef",
-    "tag": "心臟衰竭|心衰竭|冠狀動脈疾病|心肌梗塞|心絞痛",
+    "tag": "心臟衰竭|冠狀動脈疾病|心肌梗塞|心絞痛",
     "adm": null,
     "drug": null,
     "keyword": "(超音波|射出(分)?率|EF)",
@@ -4860,6 +7840,30 @@
     "keyword": "(糖化血|HbA1c|醣化血)",
     "ids": [],
     "limit": 12
+  },
+  {
+    "qkey": "immunology-labs#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_047",
+      "115-1_MS_027",
+      "114-2_BM_023",
+      "109-1_MS_045",
+      "112-3_MS_033",
+      "110-1_MS_051",
+      "106-2_MS_049",
+      "107-2_MS_051",
+      "112-1_MS_068",
+      "109-1_FA_010",
+      "111-1_BM_071",
+      "110-1_MS_048",
+      "115-2_MS_030",
+      "106-2_makeup_OP_061"
+    ],
+    "limit": null
   },
   {
     "qkey": "inflammatory-markers#questions",
@@ -4997,7 +8001,7 @@
   },
   {
     "qkey": "potassium#questions~2",
-    "tag": "高血鉀|高血鉀症|高鉀血症|低血鉀|低血鉀症|低鉀血症",
+    "tag": "高血鉀|低血鉀",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -5610,6 +8614,132 @@
     "limit": null
   },
   {
+    "qkey": "autonomic-nervous-system#overview",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "autonomic-nervous-system#parasympathetic-route",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_014",
+      "105-2_BM_020",
+      "107-2_BM_016",
+      "109-2_BM_016",
+      "109-1_BM_015",
+      "106-1_BM_021",
+      "107-1_BM_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "autonomic-nervous-system#receptor-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_BM_012",
+      "107-1_BM_021",
+      "114-3_BM_013",
+      "106-1_BM_020",
+      "112-1_BM_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "autonomic-nervous-system#effects",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_016",
+      "107-1_BM_019",
+      "105-2_BM_019",
+      "108-1_BM_024",
+      "112-3_BM_015",
+      "106-2_BM_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "autonomic-nervous-system#stress",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_FA_002",
+      "110-1_FA_004",
+      "111-2_BM_012",
+      "111-2_PC_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "autonomic-nervous-system#autonomic-dysreflexia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_BM_012",
+      "108-2_FA_038",
+      "110-2_MS_002",
+      "106-2_MS_003",
+      "105-1_MS_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "autonomic-nervous-system#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(自主神經|自律神經|交感神經|副交感|迷走神經|神經節|交通枝|蕈毒鹼|毒蕈鹼|菸鹼型|muscarinic|nicotinic)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "b-lymphocytes#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_047",
+      "110-2_MS_049",
+      "108-2_MS_046",
+      "106-1_BM_065",
+      "109-2_PC_060",
+      "108-1_BM_074",
+      "111-1_BM_065",
+      "112-2_BM_041",
+      "109-2_BM_035",
+      "111-1_BM_043",
+      "105-1_BM_070",
+      "113-1_BM_042",
+      "112-2_BM_022",
+      "105-1_BM_035",
+      "110-2_BM_046",
+      "108-1_MS_050",
+      "115-2_BM_043",
+      "109-2_BM_065",
+      "106-1_BM_078"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "blood-pressure-regulation#determinants",
     "tag": null,
     "adm": null,
@@ -5696,6 +8826,178 @@
       "110-2_FA_045"
     ],
     "limit": null
+  },
+  {
+    "qkey": "brain-anatomy#brain-metabolism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_005",
+      "114-1_MS_005",
+      "112-3_MS_003",
+      "115-1_BM_003",
+      "114-2_BM_019",
+      "113-3_BM_012",
+      "109-2_BM_019",
+      "109-1_BM_020",
+      "108-1_BM_014",
+      "106-2_makeup_BM_015",
+      "106-1_BM_018",
+      "105-2_BM_016",
+      "105-1_BM_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-anatomy#limbic-system",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_BM_020",
+      "106-2_BM_016",
+      "112-2_BM_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-anatomy#basal-nuclei",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_PC_002",
+      "105-2_PC_034",
+      "108-2_MS_006",
+      "113-3_OP_048",
+      "114-2_BM_013",
+      "110-2_BM_018",
+      "107-2_BM_021",
+      "105-1_BM_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-anatomy#epithalamus",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_018",
+      "110-2_BM_023",
+      "114-2_FA_015",
+      "110-1_FA_039",
+      "108-2_FA_043",
+      "114-2_BM_015",
+      "109-1_BM_018",
+      "108-2_BM_015",
+      "105-1_BM_021",
+      "109-2_FA_046",
+      "108-2_PC_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-anatomy#brainstem-lesions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_BM_020",
+      "115-2_MS_005",
+      "114-3_MS_002",
+      "113-1_MS_002",
+      "106-2_OP_078",
+      "106-2_makeup_OP_056",
+      "106-1_OP_077",
+      "115-2_BM_020",
+      "113-2_BM_020",
+      "111-1_BM_003",
+      "111-1_BM_015",
+      "110-1_BM_007",
+      "108-1_BM_015",
+      "106-2_makeup_BM_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-anatomy#cerebellum",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_055",
+      "109-2_BM_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-anatomy#icp-compensation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_039",
+      "115-1_MS_003",
+      "113-2_MS_004",
+      "113-2_MS_005",
+      "109-1_MS_014",
+      "106-2_makeup_MS_040",
+      "106-1_MS_007",
+      "106-1_MS_008",
+      "105-1_MS_003",
+      "112-3_BM_009",
+      "108-2_BM_018",
+      "106-1_BM_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-anatomy#blood-supply",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-anatomy#sleep-cycle",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_FA_043",
+      "108-1_FA_043",
+      "106-1_FA_026",
+      "114-3_BM_014",
+      "114-2_BM_014",
+      "112-3_BM_013",
+      "112-1_BM_015",
+      "108-2_BM_021",
+      "108-1_FA_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "brain-anatomy#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(大腦|額葉|頂葉|顳葉|枕葉|視丘|下視丘|腦幹|延腦|橋腦|中腦|小腦|腦脊髓液|腦室|睡眠週期)",
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "cardiac-output#cardiac-cycle",
@@ -5838,6 +9140,51 @@
     "limit": 8
   },
   {
+    "qkey": "cranial-nerves#brainstem-reflexes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_008",
+      "114-2_BM_010",
+      "113-1_BM_018",
+      "111-2_BM_010",
+      "107-2_BM_019",
+      "107-1_BM_009",
+      "106-2_BM_003",
+      "106-1_BM_014",
+      "105-2_BM_013",
+      "112-2_MS_004",
+      "110-1_MS_005",
+      "109-2_MS_004",
+      "115-2_BM_014",
+      "114-3_BM_010",
+      "113-3_BM_003",
+      "111-2_BM_005",
+      "109-2_BM_008",
+      "108-2_BM_016",
+      "106-2_BM_015",
+      "106-2_BM_022",
+      "105-2_BM_015",
+      "105-1_BM_019",
+      "106-1_BM_016",
+      "108-2_FA_052",
+      "112-3_MS_006",
+      "110-2_MS_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cranial-nerves#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(腦神經|嗅神經|視神經|動眼神經|滑車神經|三叉神經|外展神經|顏面神經|舌咽神經|迷走神經|副神經|舌下神經)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "glucose-homeostasis#incretin",
     "tag": null,
     "adm": null,
@@ -5863,6 +9210,50 @@
     "keyword": "^(?=.*(血糖|葡萄糖|胰島素|糖尿)).*(糖質新生|升糖素|glucagon|皮質醇|生長激素|甲狀腺素|醛固酮|抑制素|最大運輸|transport maximum)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "hypersensitivity-reactions#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_BM_016",
+      "112-1_MS_047",
+      "111-2_MS_051",
+      "110-2_MS_051",
+      "109-2_BM_043",
+      "109-2_MS_047",
+      "109-2_MS_051",
+      "106-2_makeup_MS_048",
+      "106-1_MS_050",
+      "105-1_MS_048",
+      "112-2_BM_045",
+      "108-2_BM_066",
+      "107-1_BM_069",
+      "108-1_MS_048",
+      "105-1_MS_062",
+      "115-2_BM_022",
+      "113-2_BM_023",
+      "112-1_BM_022",
+      "111-2_BM_024",
+      "110-2_BM_039",
+      "108-1_BM_033",
+      "107-1_BM_035",
+      "106-2_makeup_BM_038",
+      "105-2_BM_035",
+      "114-3_BM_044",
+      "113-1_BM_044",
+      "112-3_BM_043",
+      "111-2_BM_045",
+      "107-2_BM_069",
+      "106-2_makeup_BM_069",
+      "115-2_MS_030",
+      "106-2_makeup_OP_061",
+      "105-1_BM_075",
+      "115-1_MS_027"
+    ],
+    "limit": null
   },
   {
     "qkey": "immune-system-basics#questions",
@@ -5907,6 +9298,42 @@
       "107-2_BM_027",
       "113-3_BM_006",
       "110-1_BM_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "immunoglobulins-hla#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_029",
+      "112-2_MS_049",
+      "105-1_MS_049",
+      "107-2_BM_069",
+      "106-2_makeup_OP_061",
+      "115-2_BM_042",
+      "114-3_BM_042",
+      "114-2_BM_042",
+      "113-1_BM_042",
+      "113-1_BM_043",
+      "110-1_BM_074",
+      "107-2_BM_066",
+      "107-1_BM_067",
+      "107-1_BM_068",
+      "106-1_BM_066",
+      "114-1_MS_031",
+      "108-1_MS_048",
+      "112-1_BM_050",
+      "106-2_BM_068",
+      "106-1_BM_069",
+      "111-1_BM_071",
+      "105-2_OP_050",
+      "112-2_BM_044",
+      "110-2_BM_039",
+      "112-1_BM_022",
+      "108-1_BM_071"
     ],
     "limit": null
   },
@@ -6076,6 +9503,159 @@
     "limit": null
   },
   {
+    "qkey": "neuron-synapse#divisions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_BM_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuron-synapse#neuron-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_028",
+      "106-2_makeup_BM_014",
+      "105-2_BM_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuron-synapse#glia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_020",
+      "114-1_BM_020",
+      "110-2_BM_022",
+      "110-1_BM_025",
+      "109-1_BM_003",
+      "108-2_BM_022",
+      "107-2_BM_015",
+      "106-2_makeup_BM_021",
+      "105-2_BM_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuron-synapse#myelin",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuron-synapse#regeneration",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuron-synapse#resting-potential",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_006",
+      "110-1_BM_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuron-synapse#na-channel-blockers",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_051",
+      "113-3_BM_013",
+      "111-2_BM_016",
+      "107-1_BM_020",
+      "106-2_BM_021",
+      "106-1_BM_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuron-synapse#synaptic-steps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_BM_010",
+      "110-1_BM_018",
+      "114-1_BM_003",
+      "111-2_BM_017",
+      "106-2_makeup_BM_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuron-synapse#nmj-disorders",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_022",
+      "106-2_makeup_BM_019",
+      "107-2_BM_022",
+      "111-1_BM_072",
+      "107-2_BM_070",
+      "105-2_BM_065",
+      "108-1_BM_025",
+      "107-2_BM_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuron-synapse#neurotransmitters",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_020",
+      "106-1_BM_064",
+      "112-3_BM_014",
+      "113-1_BM_004",
+      "112-1_BM_011",
+      "106-2_BM_020",
+      "109-1_BM_014",
+      "109-2_BM_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neuron-synapse#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(神經元|膠細胞|髓鞘|動作電位|膜電位|突觸|神經傳遞物質|乙醯膽鹼)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "neurotransmitters-psychiatry#dopamine-pathways",
     "tag": null,
     "adm": null,
@@ -6141,6 +9721,304 @@
       "115-1_BM_003",
       "112-1_BM_011",
       "109-1_BM_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#general-senses",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_FA_030",
+      "114-2_FA_015",
+      "113-1_BM_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#taste-smell",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_012",
+      "115-1_BM_019",
+      "111-1_BM_019",
+      "105-2_BM_013",
+      "111-2_BM_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#aqueous-humor",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_MS_014",
+      "108-1_BM_016",
+      "105-1_MS_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#retina",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_020",
+      "110-1_BM_024",
+      "114-2_BM_017",
+      "111-1_BM_028",
+      "108-1_PC_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#refraction",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_015",
+      "107-2_BM_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#visual-pathway",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#accessory-structures",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_003",
+      "114-2_PC_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#hearing-loss",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_015",
+      "110-2_MS_025",
+      "112-1_BM_009",
+      "105-1_BM_009",
+      "112-2_OP_060",
+      "107-1_OP_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#balance",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_016",
+      "113-2_BM_013",
+      "114-1_BM_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#development-aging",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_048",
+      "110-1_OP_050",
+      "115-1_OP_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "special-senses#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(眼球|角膜|鞏膜|脈絡膜|睫狀|虹膜|水晶體|視網膜|桿細胞|錐細胞|色盲|視交叉|耳咽管|聽小骨|耳蝸|半規管|橢圓囊|味蕾|舌乳頭|嗅覺)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "spinal-cord-spinal-nerves#lumbar-puncture-site",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_013",
+      "109-2_BM_002",
+      "105-1_MS_004",
+      "112-2_BM_010",
+      "110-2_BM_007",
+      "109-2_BM_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-spinal-nerves#cross-section",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_014",
+      "111-1_BM_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-spinal-nerves#umn-lmn",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-spinal-nerves#plexuses",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_010",
+      "113-3_BM_002",
+      "114-1_BM_019",
+      "113-2_BM_009",
+      "112-3_BM_010",
+      "112-1_BM_004",
+      "110-2_BM_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-spinal-nerves#gate-control",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_BM_020",
+      "107-2_OP_014",
+      "106-1_OP_012",
+      "106-2_OP_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-spinal-nerves#newborn-reflexes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-spinal-nerves#spinal-shock",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_BM_003",
+      "111-1_BM_020",
+      "109-1_BM_022",
+      "112-3_FA_016",
+      "111-1_OP_030",
+      "107-2_MS_003",
+      "107-1_MS_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "spinal-cord-spinal-nerves#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(脊髓|脊神經|椎間孔|腰椎穿刺|反射弧|膝反射|牽張反射|皮節|神經叢)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "t-lymphocytes#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_009",
+      "107-2_BM_027",
+      "115-2_MS_032",
+      "106-2_BM_036",
+      "115-1_BM_043",
+      "114-1_BM_043",
+      "113-3_BM_043",
+      "113-2_BM_043",
+      "112-3_BM_042",
+      "112-2_BM_041",
+      "111-2_BM_043",
+      "111-1_BM_066",
+      "110-2_BM_067",
+      "110-1_BM_075",
+      "109-2_BM_068",
+      "109-2_BM_072",
+      "109-1_BM_067",
+      "109-1_BM_070",
+      "109-1_BM_074",
+      "108-2_BM_070",
+      "108-2_BM_073",
+      "108-2_BM_075",
+      "107-2_BM_068",
+      "106-2_BM_066",
+      "106-2_BM_067",
+      "106-2_makeup_BM_068",
+      "105-1_BM_069",
+      "114-3_BM_043",
+      "114-2_BM_043",
+      "109-2_BM_065",
+      "108-1_BM_075",
+      "108-1_MS_050",
+      "106-2_BM_073",
+      "105-2_BM_069",
+      "115-2_BM_043",
+      "110-2_BM_073",
+      "105-1_BM_068",
+      "105-2_BM_063",
+      "108-1_BM_055"
     ],
     "limit": null
   }

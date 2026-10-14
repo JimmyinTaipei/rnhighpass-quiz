@@ -1,0 +1,66 @@
+{
+ "image": "servier-glaucoma-closed-angle.svg",
+ "_說明": "閉鎖隅角：虹膜往前貼住隅角，房水流不出去",
+ "labels": [
+  {
+   "id": "cornea",
+   "zh": "角膜",
+   "en": "Cornea",
+   "x": 65,
+   "y": 8,
+   "tx": 80,
+   "ty": 6,
+   "align": "start"
+  },
+  {
+   "id": "anterior",
+   "zh": "前房變淺",
+   "en": "Shallow anterior chamber",
+   "x": 66,
+   "y": 19,
+   "tx": 80,
+   "ty": 18,
+   "align": "start"
+  },
+  {
+   "id": "iris",
+   "zh": "虹膜往前貼住隅角",
+   "en": "Iris blocks the angle",
+   "x": 39,
+   "y": 38,
+   "tx": 2,
+   "ty": 44,
+   "align": "start"
+  },
+  {
+   "id": "lens",
+   "zh": "水晶體",
+   "en": "Lens",
+   "x": 70,
+   "y": 55,
+   "tx": 80,
+   "ty": 60,
+   "align": "start"
+  },
+  {
+   "id": "ciliary",
+   "zh": "睫狀體(製造房水)",
+   "en": "Ciliary body",
+   "x": 33,
+   "y": 56,
+   "tx": 2,
+   "ty": 72,
+   "align": "start"
+  },
+  {
+   "id": "schlemm",
+   "zh": "許萊姆氏管",
+   "en": "Canal of Schlemm",
+   "x": 29,
+   "y": 37,
+   "tx": 2,
+   "ty": 30,
+   "align": "start"
+  }
+ ]
+}

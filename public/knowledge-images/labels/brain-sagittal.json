@@ -1,0 +1,115 @@
+{
+ "image": "servier-brain-sagittal.svg",
+ "_說明": "腦正中矢狀切面(右為前)",
+ "labels": [
+  {
+   "id": "cortex",
+   "zh": "大腦皮質",
+   "en": "Cerebral cortex",
+   "x": 82,
+   "y": 18
+  },
+  {
+   "id": "cc",
+   "zh": "胼胝體",
+   "en": "Corpus callosum",
+   "x": 69,
+   "y": 31,
+   "tx": 90,
+   "ty": 30
+  },
+  {
+   "id": "septum",
+   "zh": "透明中隔",
+   "en": "Septum pellucidum",
+   "x": 65,
+   "y": 38,
+   "tx": 92,
+   "ty": 39
+  },
+  {
+   "id": "fornix",
+   "zh": "穹窿",
+   "en": "Fornix",
+   "x": 60,
+   "y": 41,
+   "tx": 92,
+   "ty": 48
+  },
+  {
+   "id": "chiasm",
+   "zh": "視交叉",
+   "en": "Optic chiasm",
+   "x": 62,
+   "y": 57,
+   "tx": 90,
+   "ty": 60
+  },
+  {
+   "id": "pituitary",
+   "zh": "腦下垂體",
+   "en": "Pituitary gland",
+   "x": 59.5,
+   "y": 62,
+   "tx": 88,
+   "ty": 70
+  },
+  {
+   "id": "v3",
+   "zh": "第三腦室",
+   "en": "Third ventricle",
+   "x": 49,
+   "y": 36,
+   "tx": 8,
+   "ty": 26
+  },
+  {
+   "id": "thalamus",
+   "zh": "視丘",
+   "en": "Thalamus",
+   "x": 49,
+   "y": 43,
+   "tx": 8,
+   "ty": 36
+  },
+  {
+   "id": "hypothalamus",
+   "zh": "下視丘",
+   "en": "Hypothalamus",
+   "x": 55,
+   "y": 52,
+   "tx": 64,
+   "ty": 82
+  },
+  {
+   "id": "cerebellum",
+   "zh": "小腦",
+   "en": "Cerebellum",
+   "x": 22,
+   "y": 64
+  },
+  {
+   "id": "v4",
+   "zh": "第四腦室",
+   "en": "Fourth ventricle",
+   "x": 40,
+   "y": 72,
+   "tx": 12,
+   "ty": 90
+  },
+  {
+   "id": "brainstem",
+   "zh": "腦幹",
+   "en": "Brainstem",
+   "x": 45,
+   "y": 66
+  },
+  {
+   "id": "cord",
+   "zh": "脊髓",
+   "en": "Spinal cord",
+   "x": 44,
+   "y": 95
+  }
+ ]
+}

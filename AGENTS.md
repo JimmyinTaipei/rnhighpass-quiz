@@ -26,9 +26,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 ## 版權與來源規則(雲端 session 與本機 session 都要遵守)
 
 - 內容以不碰版權為第一優先。UpToDate、原文書、國考書都只當參考，**用自己的話與結構重寫**，不貼原文、不逐句翻譯、不重製原圖或整張表。引用標注不等於取得複製授權。
-- 圖片只用公領域、CC0、CC BY。
+- 圖片優先用公領域、CC0、CC BY 或原創；2026-10-06 起允許 CC BY-SA(credits.json 的 license 照實寫)，每輪結束跑 `python3 scripts/image-license-review.py` 更新 `docs/image-license-review.md`。NC、ND 與 OpenStax 的圖不可用。
 - 事實在當行標注來源(篇名＋網址或書名頁碼)；數字、劑量、診斷切點至少一個權威來源，沒有就標「待核對」，不要用印象補。
-- 使用者**不再自己去搜尋 UpToDate**：每輪結束只列「需確認清單」(最多約 5 項)。
+- 使用者**不再自己去搜尋 UpToDate**：整輪結束列一次「需確認清單」(不限 5 項，但只列真的需要確認的)。
 - `相關資源/`(UpToDate 匯出與書籍 PDF)只在使用者本機，不放進 repo。UpToDate 匯出檔含形似字元的防複製記號，若在頁面裡發現西里爾、亞美尼亞或與拉丁字母混用的希臘字元，就是貼上的痕跡，要改寫。
 - 存檔前跑 `python3 scripts/source-scan.py`(結果在 `docs/uptodate-scan.md`)。
 - 詳細原則見 `docs/knowledge-roadmap.md`「版權優先與 UpToDate 使用原則」。

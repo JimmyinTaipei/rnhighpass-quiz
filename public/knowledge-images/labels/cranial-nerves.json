@@ -1,0 +1,114 @@
+{
+ "image": "lynch-cranial-nerves.svg",
+ "_說明": "腦底觀的 12 對腦神經(上為前)",
+ "labels": [
+  {
+   "id": "i",
+   "zh": "I 嗅神經",
+   "en": "I Olfactory",
+   "x": 44.8,
+   "y": 16.8,
+   "tx": 16,
+   "ty": 15
+  },
+  {
+   "id": "ii",
+   "zh": "II 視神經",
+   "en": "II Optic",
+   "x": 57.8,
+   "y": 31.7,
+   "tx": 84,
+   "ty": 22
+  },
+  {
+   "id": "iii",
+   "zh": "III 動眼神經",
+   "en": "III Oculomotor",
+   "x": 43.5,
+   "y": 44,
+   "tx": 15,
+   "ty": 29
+  },
+  {
+   "id": "iv",
+   "zh": "IV 滑車神經",
+   "en": "IV Trochlear",
+   "x": 40.6,
+   "y": 44.4,
+   "tx": 13,
+   "ty": 37
+  },
+  {
+   "id": "v",
+   "zh": "V 三叉神經",
+   "en": "V Trigeminal",
+   "x": 70.8,
+   "y": 46.5,
+   "tx": 87,
+   "ty": 36
+  },
+  {
+   "id": "vi",
+   "zh": "VI 外展神經",
+   "en": "VI Abducens",
+   "x": 42,
+   "y": 55,
+   "tx": 13,
+   "ty": 47
+  },
+  {
+   "id": "vii",
+   "zh": "VII 顏面神經",
+   "en": "VII Facial",
+   "x": 66,
+   "y": 58.3,
+   "tx": 86,
+   "ty": 52
+  },
+  {
+   "id": "viii",
+   "zh": "VIII 前庭耳蝸神經",
+   "en": "VIII Vestibulocochlear",
+   "x": 35.4,
+   "y": 61,
+   "tx": 17,
+   "ty": 57
+  },
+  {
+   "id": "ix",
+   "zh": "IX 舌咽神經",
+   "en": "IX Glossopharyngeal",
+   "x": 64.5,
+   "y": 63.6,
+   "tx": 84,
+   "ty": 61
+  },
+  {
+   "id": "xii",
+   "zh": "XII 舌下神經",
+   "en": "XII Hypoglossal",
+   "x": 40.1,
+   "y": 66.3,
+   "tx": 15,
+   "ty": 67
+  },
+  {
+   "id": "x",
+   "zh": "X 迷走神經",
+   "en": "X Vagus",
+   "x": 66.7,
+   "y": 66.3,
+   "tx": 85,
+   "ty": 71
+  },
+  {
+   "id": "xi",
+   "zh": "XI 副神經",
+   "en": "XI Accessory",
+   "x": 40,
+   "y": 72.3,
+   "tx": 22,
+   "ty": 79
+  }
+ ]
+}

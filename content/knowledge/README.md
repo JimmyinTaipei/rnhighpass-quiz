@@ -278,7 +278,22 @@ RI 與 NPH 混合時「先抽清、後抽濁」。
 }
 ```
 
-只接受 Public Domain、CC0、CC BY 或原創圖。**不要用 OpenStax 的圖**(CC BY-NC-SA,會讓整頁受限)。
+優先 Public Domain、CC0、CC BY 或原創圖；2026-10-06 起也接受 CC BY-SA(credits.json 的 license 照實寫，會進 `docs/image-license-review.md` 待日後替換；跑 `python3 scripts/image-license-review.py` 更新)，NC、ND 不接受。**不要用 OpenStax 的圖**(CC BY-NC-SA,會讓整頁受限)。
+
+### 標籤疊加圖(::figure)
+
+解剖圖用「底圖不寫字＋標籤另存」的方式(2026-10-06 起)：
+
+```markdown
+::figure{src="/knowledge-images/servier-brain-lobes.svg" labels="brain-lobes" alt="圖說"}
+```
+
+- 標籤放在 `public/knowledge-images/labels/<labels>.json`：`{ "image": "servier-brain-lobes.svg", "labels": [{ "id": "frontal", "zh": "額葉", "en": "Frontal lobe", "x": 17, "y": 40 }] }`
+- 座標是相對圖寬高的百分比(0–100)；`x,y` 是構造位置，`tx,ty`(要一起寫)是文字位置，有寫就畫指線
+- 讀者可切換中文、English、隱藏(自我測驗：點編號才顯示)；縮圖與全螢幕放大都會疊標籤
+- 建置會檢查：labels 檔存在、`image` 與 `src` 一致、id 不重複、每個標籤有中文、座標在 0–100
+- 好處：CC BY-SA 原圖不用改檔也能有中文；日後換底圖(例如 AI 圖)時標籤沿用，只調座標
+- Servier Medical Art 底圖：從 smart.servier.com 下載該系統的 PPTX，用 `/usr/bin/python3 scripts/servier-pptx-to-svg.py <解開的 pptx 資料夾> <投影片編號> <輸出.svg>` 轉出向量圖(移除文字、連接線、背景與標誌並裁切)，再 `npx svgo` 壓縮；**不要用 Wikimedia Commons 上的 Servier 副本**(標 CC BY-SA 3.0 且解析度低)
 
 ## 授權原則
 

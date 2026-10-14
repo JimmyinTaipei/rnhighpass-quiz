@@ -1,0 +1,87 @@
+{
+ "image": "servier-neuron.svg",
+ "_說明": "多極神經元(運動神經元)",
+ "labels": [
+  {
+   "id": "dendrite",
+   "zh": "樹突",
+   "en": "Dendrite",
+   "x": 12,
+   "y": 17,
+   "tx": 5,
+   "ty": 4
+  },
+  {
+   "id": "soma",
+   "zh": "細胞體",
+   "en": "Cell body (soma)",
+   "x": 35,
+   "y": 22,
+   "tx": 50,
+   "ty": 5
+  },
+  {
+   "id": "nucleus",
+   "zh": "細胞核",
+   "en": "Nucleus",
+   "x": 29,
+   "y": 29,
+   "tx": 8,
+   "ty": 58
+  },
+  {
+   "id": "nissl",
+   "zh": "尼氏體",
+   "en": "Nissl body",
+   "x": 23,
+   "y": 33,
+   "tx": 6,
+   "ty": 30
+  },
+  {
+   "id": "hillock",
+   "zh": "軸丘",
+   "en": "Axon hillock",
+   "x": 43,
+   "y": 40,
+   "tx": 56,
+   "ty": 30
+  },
+  {
+   "id": "myelin",
+   "zh": "髓鞘",
+   "en": "Myelin sheath",
+   "x": 54,
+   "y": 46,
+   "tx": 67,
+   "ty": 38
+  },
+  {
+   "id": "node",
+   "zh": "蘭氏結",
+   "en": "Node of Ranvier",
+   "x": 57.8,
+   "y": 52.3,
+   "tx": 77,
+   "ty": 46
+  },
+  {
+   "id": "axon",
+   "zh": "軸突",
+   "en": "Axon",
+   "x": 64.5,
+   "y": 57.5,
+   "tx": 86,
+   "ty": 56
+  },
+  {
+   "id": "terminal",
+   "zh": "軸突終端",
+   "en": "Axon terminal",
+   "x": 88,
+   "y": 93,
+   "tx": 64,
+   "ty": 82
+  }
+ ]
+}

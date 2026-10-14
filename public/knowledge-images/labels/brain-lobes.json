@@ -1,0 +1,14 @@
+{
+  "image": "servier-brain-lobes.svg",
+  "_說明": "大腦外側面(左為前)。座標是相對圖寬高的百分比；x,y 是構造位置，tx,ty 是文字位置(有寫才畫指線)",
+  "labels": [
+    { "id": "frontal", "zh": "額葉", "en": "Frontal lobe", "x": 17, "y": 40 },
+    { "id": "parietal", "zh": "頂葉", "en": "Parietal lobe", "x": 58, "y": 22 },
+    { "id": "occipital", "zh": "枕葉", "en": "Occipital lobe", "x": 86, "y": 46 },
+    { "id": "temporal", "zh": "顳葉", "en": "Temporal lobe", "x": 47, "y": 60 },
+    { "id": "cerebellum", "zh": "小腦", "en": "Cerebellum", "x": 75, "y": 78 },
+    { "id": "brainstem", "zh": "腦幹", "en": "Brainstem", "x": 58, "y": 87, "tx": 38, "ty": 93 },
+    { "id": "central-sulcus", "zh": "中央溝", "en": "Central sulcus", "x": 38, "y": 31, "tx": 20, "ty": 4 },
+    { "id": "lateral-sulcus", "zh": "外側溝(薛氏裂)", "en": "Lateral sulcus", "x": 36, "y": 52, "tx": 14, "ty": 82 }
+  ]
+}

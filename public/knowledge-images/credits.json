@@ -160,5 +160,206 @@
     "license": "原創",
     "sourceUrl": "",
     "modified": ""
+  },
+  "servier-brain-lobes.svg": {
+    "title": "Brain (8)(SMART Nervous system 投影片)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-neuron.svg": {
+    "title": "Neurons (1)(SMART Neural cells)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-neural-tissue.svg": {
+    "title": "Nervous tissue cell organisation(SMART Neural cells)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-synapse.svg": {
+    "title": "Synapses (1)(SMART Neural cells，取其中一個突觸)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-neuromuscular-junction.svg": {
+    "title": "Neuromuscular synapse (2)(SMART Neural cells)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-spinal-cord-section.svg": {
+    "title": "Spinal cord sections (3)(SMART Nervous system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-dermatomes.svg": {
+    "title": "Dermatomes(SMART Nervous system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "action-potential.svg": {
+    "title": "神經元動作電位",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "reflex-arc.svg": {
+    "title": "反射弧",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "spinal-tracts.svg": {
+    "title": "三條主要徑路的交叉位置",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-brain-sagittal.svg": {
+    "title": "Brain (4)(SMART Nervous system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-limbic-system.svg": {
+    "title": "Brain (5)(SMART Nervous system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-csf-ventricles.svg": {
+    "title": "Cerebrospinal fluid(SMART Nervous system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-circle-of-willis.svg": {
+    "title": "Circle of Willis(SMART Nervous system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-brainstem.svg": {
+    "title": "Brainstem (1)(SMART Nervous system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-meninges.svg": {
+    "title": "Meninges(SMART Nervous system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-brain-horizontal.svg": {
+    "title": "Brain sections (1)(SMART Nervous system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌，取中間的水平切面並左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "lynch-cranial-nerves.svg": {
+    "title": "Brain human cranial nerves",
+    "author": "Patrick J. Lynch, medical illustrator(Wikimedia Commons)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brain_human_cranial_nerves.svg",
+    "modified": "以 svgo 壓縮；中文標籤另以疊加層顯示(位置對照同作者的 Brain human normal inferior view with labels la.svg)"
+  },
+  "autonomic-pathways.svg": {
+    "title": "自主神經與體神經的神經傳遞物質與受體",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "icp-waveform.svg": {
+    "title": "顱內壓波形",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-eye-section.svg": {
+    "title": "Eye structure(SMART Ophthalmology)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-glaucoma-open-angle.svg": {
+    "title": "Open-angle glaucoma(SMART Ophthalmology)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-glaucoma-closed-angle.svg": {
+    "title": "Angle-closure glaucoma(SMART Ophthalmology)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-ear.svg": {
+    "title": "Ear(SMART ENT)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出，移除英文標籤、指標線、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "visual-pathway.svg": {
+    "title": "視覺徑路與損傷位置的視野缺損",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "refraction.svg": {
+    "title": "正視、近視與遠視的成像位置與矯正",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
   }
 }

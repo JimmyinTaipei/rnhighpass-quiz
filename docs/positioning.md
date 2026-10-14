@@ -120,7 +120,7 @@
 
 - 每項事實在當行標注來源；台灣醫學中心衛教單張、政府資料(國健署、疾管署、衛福部、全國法規)優先。
 - **課本與原文書**：只用來核對與補深度，不複製表達。舊版原文書(例：Williams Obstetrics)適合用在穩定的內容(解剖、妊娠生理、產程機轉)；處置與數值以新指引為準。兩者不同時，舊考點保留，並標注新指引。掃描檔用 macOS Vision OCR。
-- 圖片只用 PD、CC0、CC BY。
+- 圖片優先用 PD、CC0、CC BY 或原創；2026-10-06 起可用 CC BY-SA(不修改原圖、credits 照實寫授權)，但每輪結束要跑 `python3 scripts/image-license-review.py` 更新 `docs/image-license-review.md`，使用者日後會逐張換成 AI 生成的圖。CC BY-NC、ND 與 OpenStax 的圖仍不可用。
 
 ## 九、之後要做的功能(依序)
 

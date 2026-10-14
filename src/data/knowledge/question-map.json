@@ -844,6 +844,12 @@
       "111-1_MS_040"
     ]
   },
+  "child-adolescent-mental-health#questions": {
+    "auto": []
+  },
+  "community-mental-health#questions": {
+    "auto": []
+  },
   "end-of-life-care#questions": {
     "auto": []
   },
@@ -867,11 +873,59 @@
       "108-1_OP_066"
     ]
   },
+  "family-violence#questions": {
+    "auto": []
+  },
+  "group-family-therapy#questions": {
+    "auto": []
+  },
   "immunization#questions": {
+    "auto": []
+  },
+  "individual-cognitive-behavioral-therapy#questions": {
     "auto": []
   },
   "infection-control#questions": {
     "auto": []
+  },
+  "milieu-therapy#questions": {
+    "auto": []
+  },
+  "neuro-assessment#gcs": {
+    "auto": []
+  },
+  "neuro-assessment#pediatric-gcs": {
+    "auto": []
+  },
+  "neuro-assessment#mental-status": {
+    "auto": []
+  },
+  "neuro-assessment#pupils": {
+    "auto": []
+  },
+  "neuro-assessment#muscle-strength": {
+    "auto": []
+  },
+  "neuro-assessment#reflexes": {
+    "auto": []
+  },
+  "neuro-assessment#cerebellum-meninges": {
+    "auto": []
+  },
+  "neuro-assessment#diagnostics": {
+    "auto": []
+  },
+  "neuro-assessment#questions": {
+    "auto": [
+      "115-2_MS_050",
+      "115-2_MS_048",
+      "115-2_MS_004",
+      "115-2_FA_008",
+      "115-1_MS_009",
+      "115-1_MS_003",
+      "114-3_OP_049",
+      "114-3_OP_042"
+    ]
   },
   "notifiable-diseases#questions": {
     "auto": []
@@ -893,6 +947,12 @@
       "114-1_FA_033"
     ]
   },
+  "psychiatric-nursing-foundations#questions": {
+    "auto": []
+  },
+  "psychodynamic-theories#questions": {
+    "auto": []
+  },
   "stem-cell-transplant#questions": {
     "auto": []
   },
@@ -907,6 +967,51 @@
       "108-2_MS_035",
       "105-1_MS_038"
     ]
+  },
+  "transfusion-reactions#questions": {
+    "auto": []
+  },
+  "icp-monitoring#alarms": {
+    "auto": []
+  },
+  "icp-monitoring#questions": {
+    "auto": [
+      "115-2_MS_003",
+      "113-1_MS_003",
+      "112-3_BM_009",
+      "110-2_OP_078",
+      "109-2_MS_002",
+      "109-2_MS_001",
+      "107-1_MS_002",
+      "106-2_MS_001"
+    ]
+  },
+  "adhd#questions": {
+    "auto": []
+  },
+  "alcohol-use-disorder#questions": {
+    "auto": []
+  },
+  "allergic-contact-dermatitis-latex#questions": {
+    "auto": []
+  },
+  "allergic-rhinitis#questions": {
+    "auto": []
+  },
+  "anaphylaxis#questions": {
+    "auto": []
+  },
+  "anxiety-disorders#questions": {
+    "auto": []
+  },
+  "asthma#questions": {
+    "auto": []
+  },
+  "autism-spectrum-disorder#questions": {
+    "auto": []
+  },
+  "autoimmune-diseases#questions": {
+    "auto": []
   },
   "bipolar-disorder#defense-mechanisms": {
     "auto": []
@@ -925,6 +1030,27 @@
   },
   "bipolar-disorder#nursing-discharge": {
     "auto": []
+  },
+  "brain-tumors#manifestations": {
+    "auto": []
+  },
+  "brain-tumors#treatment": {
+    "auto": []
+  },
+  "brain-tumors#craniotomy-care": {
+    "auto": []
+  },
+  "brain-tumors#questions": {
+    "auto": [
+      "115-2_OP_049",
+      "115-2_MS_024",
+      "115-2_MS_005",
+      "115-2_BM_030",
+      "114-3_OP_045",
+      "114-3_FA_033",
+      "114-2_MS_002",
+      "114-1_MS_024"
+    ]
   },
   "breast-cancer#questions": {
     "auto": []
@@ -1100,6 +1226,30 @@
       "109-1_PC_080",
       "109-1_MS_031"
     ]
+  },
+  "cranial-nerve-spine-disorders#headache": {
+    "auto": []
+  },
+  "cranial-nerve-spine-disorders#disc-surgery-nursing": {
+    "auto": []
+  },
+  "cranial-nerve-spine-disorders#questions": {
+    "auto": [
+      "115-2_MS_044",
+      "115-2_MS_001",
+      "115-1_MS_004",
+      "114-3_PC_037",
+      "114-3_OP_045",
+      "114-3_FA_006",
+      "114-2_OP_031",
+      "114-2_OP_026"
+    ]
+  },
+  "delirium#questions": {
+    "auto": []
+  },
+  "dementia#questions": {
+    "auto": []
   },
   "depressive-disorder#social": {
     "auto": []
@@ -1358,6 +1508,90 @@
       "107-1_PC_064"
     ]
   },
+  "ear-disorders#communication": {
+    "auto": []
+  },
+  "ear-disorders#menieres-disease": {
+    "auto": []
+  },
+  "ear-disorders#external-middle-ear": {
+    "auto": []
+  },
+  "ear-disorders#ear-drops": {
+    "auto": []
+  },
+  "ear-disorders#questions": {
+    "auto": [
+      "115-2_MS_014",
+      "115-1_MS_030",
+      "114-3_OP_043",
+      "114-3_OP_030",
+      "114-3_MS_014",
+      "114-2_PC_043",
+      "114-2_OP_031",
+      "114-2_MS_015"
+    ]
+  },
+  "eating-disorders#questions": {
+    "auto": []
+  },
+  "epilepsy#classification": {
+    "auto": []
+  },
+  "epilepsy#first-aid": {
+    "auto": []
+  },
+  "epilepsy#status-epilepticus": {
+    "auto": []
+  },
+  "epilepsy#children": {
+    "auto": []
+  },
+  "epilepsy#questions": {
+    "auto": [
+      "115-1_OP_048",
+      "114-3_PC_045",
+      "114-3_MS_001",
+      "114-2_MS_004",
+      "114-2_BM_031",
+      "114-1_PC_004",
+      "114-1_MS_004",
+      "114-1_MS_003"
+    ]
+  },
+  "eye-disorders#cataract": {
+    "auto": []
+  },
+  "eye-disorders#glaucoma": {
+    "auto": []
+  },
+  "eye-disorders#retinal-detachment": {
+    "auto": []
+  },
+  "eye-disorders#retinopathy-amd": {
+    "auto": []
+  },
+  "eye-disorders#rop": {
+    "auto": []
+  },
+  "eye-disorders#childhood-vision": {
+    "auto": []
+  },
+  "eye-disorders#eye-medication": {
+    "auto": []
+  },
+  "eye-disorders#questions": {
+    "auto": [
+      "115-2_PC_045",
+      "115-2_OP_041",
+      "115-2_MS_013",
+      "115-2_FA_010",
+      "115-2_BM_032",
+      "115-1_OP_030",
+      "115-1_OP_029",
+      "115-1_MS_015"
+    ]
+  },
   "gynecologic-cancers#questions": {
     "auto": []
   },
@@ -1373,6 +1607,36 @@
       "113-2_BM_024",
       "113-1_BM_049",
       "112-3_BM_047"
+    ]
+  },
+  "head-injury#skull-fracture": {
+    "auto": []
+  },
+  "head-injury#concussion-contusion": {
+    "auto": []
+  },
+  "head-injury#hematoma": {
+    "auto": []
+  },
+  "head-injury#treatment": {
+    "auto": []
+  },
+  "head-injury#complications": {
+    "auto": []
+  },
+  "head-injury#nursing": {
+    "auto": []
+  },
+  "head-injury#questions": {
+    "auto": [
+      "114-1_MS_003",
+      "113-2_MS_005",
+      "113-2_MS_002",
+      "113-1_MS_003",
+      "111-2_MS_001",
+      "111-2_FA_027",
+      "111-1_MS_006",
+      "110-2_MS_001"
     ]
   },
   "head-neck-cancers#questions": {
@@ -1676,10 +1940,52 @@
       "109-1_OP_016"
     ]
   },
+  "increased-icp#cerebral-edema": {
+    "auto": []
+  },
+  "increased-icp#causes": {
+    "auto": []
+  },
+  "increased-icp#manifestations": {
+    "auto": []
+  },
+  "increased-icp#herniation": {
+    "auto": []
+  },
+  "increased-icp#drugs": {
+    "auto": []
+  },
+  "increased-icp#other-treatment": {
+    "auto": []
+  },
+  "increased-icp#nursing": {
+    "auto": []
+  },
+  "increased-icp#children": {
+    "auto": []
+  },
+  "increased-icp#questions": {
+    "auto": [
+      "115-2_OP_049",
+      "115-2_MS_003",
+      "115-2_MS_001",
+      "115-1_MS_003",
+      "114-3_OP_045",
+      "114-3_MS_005",
+      "114-3_FA_025",
+      "114-2_MS_002"
+    ]
+  },
   "infectious-diarrhea#questions": {
     "auto": []
   },
   "infective-endocarditis#questions": {
+    "auto": []
+  },
+  "intellectual-disability#questions": {
+    "auto": []
+  },
+  "kawasaki-disease#questions": {
     "auto": []
   },
   "leukemia#questions": {
@@ -1750,6 +2056,63 @@
       "112-1_MS_034"
     ]
   },
+  "neuromuscular-demyelinating#myasthenia-gravis": {
+    "auto": []
+  },
+  "neuromuscular-demyelinating#botulism": {
+    "auto": []
+  },
+  "neuromuscular-demyelinating#guillain-barre": {
+    "auto": []
+  },
+  "neuromuscular-demyelinating#als": {
+    "auto": []
+  },
+  "neuromuscular-demyelinating#multiple-sclerosis": {
+    "auto": []
+  },
+  "neuromuscular-demyelinating#questions": {
+    "auto": [
+      "115-2_PC_038",
+      "115-2_MS_048",
+      "115-2_BM_044",
+      "115-1_MS_002",
+      "114-3_PC_037",
+      "114-2_PC_037",
+      "114-1_MS_002",
+      "114-1_BM_030"
+    ]
+  },
+  "obsessive-compulsive-disorder#questions": {
+    "auto": []
+  },
+  "parkinson-disease#pathophysiology": {
+    "auto": []
+  },
+  "parkinson-disease#manifestations": {
+    "auto": []
+  },
+  "parkinson-disease#treatment": {
+    "auto": []
+  },
+  "parkinson-disease#nursing": {
+    "auto": []
+  },
+  "parkinson-disease#huntington": {
+    "auto": []
+  },
+  "parkinson-disease#questions": {
+    "auto": [
+      "114-3_BM_034",
+      "114-2_MS_001",
+      "114-2_BM_032",
+      "114-1_MS_001",
+      "114-1_FA_017",
+      "113-1_PC_002",
+      "113-1_OP_040",
+      "113-1_BM_004"
+    ]
+  },
   "pediatric-cancers#questions": {
     "auto": []
   },
@@ -1767,16 +2130,55 @@
       "113-3_OP_043"
     ]
   },
+  "pediatric-neuro#cerebral-palsy": {
+    "auto": []
+  },
+  "pediatric-neuro#hydrocephalus": {
+    "auto": []
+  },
+  "pediatric-neuro#neural-tube-defects": {
+    "auto": []
+  },
+  "pediatric-neuro#ivh": {
+    "auto": []
+  },
+  "pediatric-neuro#reye-syndrome": {
+    "auto": []
+  },
+  "pediatric-neuro#newborn-reflexes": {
+    "auto": []
+  },
+  "pediatric-neuro#questions": {
+    "auto": [
+      "115-1_OP_050",
+      "115-1_MS_046",
+      "115-1_MS_009",
+      "114-2_OP_019",
+      "113-3_OP_048",
+      "113-2_OP_034",
+      "113-2_MS_036",
+      "113-1_OP_017"
+    ]
+  },
   "pediatric-respiratory-infections#questions": {
     "auto": []
   },
   "perinatal-infections#questions": {
     "auto": []
   },
+  "personality-disorders#questions": {
+    "auto": []
+  },
   "pneumonia#questions": {
     "auto": []
   },
+  "primary-immunodeficiency#questions": {
+    "auto": []
+  },
   "respiratory-viral-infections#questions": {
+    "auto": []
+  },
+  "rheumatoid-arthritis#questions": {
     "auto": []
   },
   "schizophrenia#psychosocial": {
@@ -1793,18 +2195,18 @@
   },
   "schizophrenia#drugs": {
     "auto": [
+      "115-2_BM_033",
       "113-1_PC_012",
       "113-1_PC_002",
       "112-2_PC_039",
       "112-2_PC_021",
-      "111-1_PC_038",
-      "110-2_PC_014"
+      "111-1_PC_038"
     ]
   },
   "schizophrenia#psychosocial-treatment": {
     "auto": []
   },
-  "schizophrenia#communication-theories": {
+  "schizophrenia#communication-extra": {
     "auto": []
   },
   "schizophrenia#nursing-delusion": {
@@ -1831,10 +2233,94 @@
   "skin-bone-infections#questions": {
     "auto": []
   },
+  "sle#questions": {
+    "auto": []
+  },
+  "somatic-dissociative-disorders#questions": {
+    "auto": []
+  },
+  "spinal-cord-injury#complete-incomplete": {
+    "auto": []
+  },
+  "spinal-cord-injury#spinal-neurogenic-shock": {
+    "auto": []
+  },
+  "spinal-cord-injury#immobilization": {
+    "auto": []
+  },
+  "spinal-cord-injury#autonomic-dysreflexia": {
+    "auto": []
+  },
+  "spinal-cord-injury#bladder-bowel": {
+    "auto": []
+  },
+  "spinal-cord-injury#nursing": {
+    "auto": []
+  },
+  "spinal-cord-injury#spine-surgery": {
+    "auto": []
+  },
+  "spinal-cord-injury#questions": {
+    "auto": [
+      "115-1_MS_001",
+      "114-3_MS_002",
+      "114-2_MS_005",
+      "113-1_OP_024",
+      "113-1_FA_019",
+      "112-3_MS_049",
+      "112-3_MS_004",
+      "112-3_MS_001"
+    ]
+  },
+  "stroke#types": {
+    "auto": []
+  },
+  "stroke#hemisphere": {
+    "auto": []
+  },
+  "stroke#acute-treatment": {
+    "auto": []
+  },
+  "stroke#hemorrhagic": {
+    "auto": []
+  },
+  "stroke#dysphagia": {
+    "auto": []
+  },
+  "stroke#positioning": {
+    "auto": []
+  },
+  "stroke#safety": {
+    "auto": []
+  },
+  "stroke#elimination": {
+    "auto": []
+  },
+  "stroke#questions": {
+    "auto": [
+      "115-2_PC_007",
+      "115-2_FA_029",
+      "115-2_BM_035",
+      "115-1_MS_004",
+      "115-1_FA_021",
+      "115-1_BM_030",
+      "114-3_MS_034",
+      "114-3_MS_004"
+    ]
+  },
+  "substance-use-disorders#questions": {
+    "auto": []
+  },
+  "trauma-stress-disorders#questions": {
+    "auto": []
+  },
   "tuberculosis#questions": {
     "auto": []
   },
   "urinary-tract-infection#questions": {
+    "auto": []
+  },
+  "urticaria-angioedema#questions": {
     "auto": []
   },
   "vector-borne-zoonotic#questions": {
@@ -1857,7 +2343,40 @@
       "109-2_BM_059"
     ]
   },
+  "addiction-treatment-drugs#questions": {
+    "auto": []
+  },
+  "adrenergic-agonists#desensitization": {
+    "auto": []
+  },
+  "adrenergic-agonists#epinephrine": {
+    "auto": []
+  },
+  "adrenergic-agonists#pressors": {
+    "auto": []
+  },
+  "adrenergic-agonists#alpha1-agonists": {
+    "auto": []
+  },
+  "adrenergic-agonists#beta2-agonists": {
+    "auto": []
+  },
+  "adrenergic-agonists#questions": {
+    "auto": [
+      "115-2_MS_050",
+      "115-2_MS_002",
+      "115-2_BM_036",
+      "115-2_BM_013",
+      "115-1_MS_047",
+      "115-1_BM_035",
+      "114-3_OP_018",
+      "114-3_MS_044"
+    ]
+  },
   "alpha-blockers#questions": {
+    "auto": []
+  },
+  "alpha-blockers#questions~2": {
     "auto": [
       "115-1_BM_034",
       "114-3_BM_032",
@@ -1878,6 +2397,33 @@
     ]
   },
   "aminoglycosides#questions": {
+    "auto": []
+  },
+  "anesthetics#inhaled": {
+    "auto": []
+  },
+  "anesthetics#intravenous": {
+    "auto": []
+  },
+  "anesthetics#local-mechanism": {
+    "auto": []
+  },
+  "anesthetics#pdph": {
+    "auto": []
+  },
+  "anesthetics#questions": {
+    "auto": [
+      "115-2_MS_040",
+      "115-2_MS_010",
+      "115-2_FA_021",
+      "115-2_BM_037",
+      "115-1_PC_018",
+      "115-1_OP_014",
+      "115-1_MS_041",
+      "115-1_BM_042"
+    ]
+  },
+  "anti-dementia-drugs#questions": {
     "auto": []
   },
   "antibiotics-overview#questions": {
@@ -1928,7 +2474,37 @@
       "111-1_PC_024"
     ]
   },
+  "antiepileptics#mechanism": {
+    "auto": []
+  },
+  "antiepileptics#phenytoin": {
+    "auto": []
+  },
+  "antiepileptics#other-agents": {
+    "auto": []
+  },
+  "antiepileptics#nursing": {
+    "auto": []
+  },
+  "antiepileptics#status-epilepticus": {
+    "auto": []
+  },
+  "antiepileptics#questions": {
+    "auto": [
+      "115-1_OP_048",
+      "114-3_MS_001",
+      "114-3_BM_031",
+      "114-2_MS_004",
+      "114-1_MS_004",
+      "113-3_OP_027",
+      "113-3_MS_004",
+      "113-3_BM_033"
+    ]
+  },
   "antifungals#questions": {
+    "auto": []
+  },
+  "antihistamines-autacoids#questions": {
     "auto": []
   },
   "antineoplastics#questions": {
@@ -1956,6 +2532,33 @@
   "antiparasitics#questions": {
     "auto": []
   },
+  "antiparkinson-drugs#mechanism": {
+    "auto": []
+  },
+  "antiparkinson-drugs#levodopa": {
+    "auto": []
+  },
+  "antiparkinson-drugs#other-agents": {
+    "auto": []
+  },
+  "antiparkinson-drugs#nursing": {
+    "auto": []
+  },
+  "antiparkinson-drugs#other-neurodegenerative": {
+    "auto": []
+  },
+  "antiparkinson-drugs#questions": {
+    "auto": [
+      "114-3_BM_034",
+      "114-2_MS_001",
+      "114-2_BM_032",
+      "114-1_MS_001",
+      "113-1_PC_002",
+      "113-1_BM_004",
+      "112-3_PC_008",
+      "112-3_MS_005"
+    ]
+  },
   "antiplatelets#questions": {
     "auto": [
       "114-3_MS_034",
@@ -1977,6 +2580,9 @@
       "110-1_OP_049",
       "107-1_OP_054"
     ]
+  },
+  "antipsychotics#sga": {
+    "auto": []
   },
   "antipsychotics#eps": {
     "auto": []
@@ -2001,24 +2607,27 @@
   },
   "antipsychotics#questions": {
     "auto": [
+      "115-2_BM_033",
       "115-1_PC_006",
       "114-3_PC_025",
       "114-1_PC_004",
       "113-1_PC_012",
       "113-1_PC_002",
       "112-3_PC_013",
+      "112-3_PC_011",
       "112-3_PC_008",
       "112-2_PC_040",
       "112-2_PC_039",
-      "112-2_PC_021",
-      "112-2_PC_005",
-      "112-1_PC_035"
+      "112-2_PC_021"
     ]
   },
   "antituberculars#questions": {
     "auto": []
   },
   "antivirals#questions": {
+    "auto": []
+  },
+  "anxiolytics-hypnotics#questions": {
     "auto": []
   },
   "arb#questions": {
@@ -2035,7 +2644,13 @@
   "arni#questions": {
     "auto": []
   },
+  "asthma-drugs#questions": {
+    "auto": []
+  },
   "beta-blockers#questions": {
+    "auto": []
+  },
+  "beta-blockers#questions~2": {
     "auto": []
   },
   "beta-lactams#questions": {
@@ -2066,6 +2681,39 @@
       "108-2_BM_060",
       "106-2_BM_050"
     ]
+  },
+  "cholinergic-drugs#direct-agonists": {
+    "auto": []
+  },
+  "cholinergic-drugs#myasthenia-gravis": {
+    "auto": []
+  },
+  "cholinergic-drugs#organophosphate-poisoning": {
+    "auto": []
+  },
+  "cholinergic-drugs#antimuscarinics": {
+    "auto": []
+  },
+  "cholinergic-drugs#glaucoma-drugs": {
+    "auto": []
+  },
+  "cholinergic-drugs#neuromuscular-blockers": {
+    "auto": []
+  },
+  "cholinergic-drugs#questions": {
+    "auto": [
+      "115-2_MS_050",
+      "115-2_MS_010",
+      "115-2_BM_036",
+      "115-2_BM_032",
+      "115-2_BM_013",
+      "115-1_MS_048",
+      "115-1_MS_032",
+      "115-1_BM_034"
+    ]
+  },
+  "cns-stimulants#questions": {
+    "auto": []
   },
   "digoxin#questions": {
     "auto": [
@@ -2112,6 +2760,24 @@
   },
   "glycopeptides#questions": {
     "auto": []
+  },
+  "gout-drugs#flare": {
+    "auto": []
+  },
+  "gout-drugs#uric-acid-stones": {
+    "auto": []
+  },
+  "gout-drugs#questions": {
+    "auto": [
+      "115-2_MS_024",
+      "115-1_MS_024",
+      "115-1_MS_023",
+      "115-1_MS_012",
+      "114-3_MS_021",
+      "114-3_BM_035",
+      "114-2_MS_039",
+      "114-2_MS_027"
+    ]
   },
   "immunosuppressants#questions": {
     "auto": []
@@ -2234,6 +2900,9 @@
       "105-1_BM_062"
     ]
   },
+  "monoclonal-antibodies#questions": {
+    "auto": []
+  },
   "mood-stabilizers#lithium-nursing": {
     "auto": []
   },
@@ -2243,17 +2912,17 @@
   "mood-stabilizers#questions": {
     "auto": [
       "115-2_PC_012",
+      "114-2_PC_004",
       "113-3_PC_004",
       "113-3_BM_033",
       "112-3_PC_016",
       "112-3_PC_012",
       "112-2_PC_020",
+      "112-2_PC_004",
       "112-1_PC_009",
       "112-1_PC_008",
       "111-1_PC_016",
-      "109-2_PC_019",
-      "109-2_PC_003",
-      "109-1_PC_013"
+      "109-2_PC_019"
     ]
   },
   "nitrates#questions": {
@@ -2286,34 +2955,40 @@
     "auto": []
   },
   "nsaids-acetaminophen#questions~2": {
+    "auto": []
+  },
+  "nsaids-acetaminophen#questions~3": {
     "auto": [
-      "111-2_OP_049",
+      "112-3_BM_035",
+      "112-2_OP_078",
+      "111-2_MS_032",
       "111-2_FA_018",
-      "111-1_OP_050",
       "111-1_BM_057",
+      "110-2_OP_068",
       "110-1_BM_051",
+      "109-1_FA_009",
       "109-1_BM_058",
-      "108-2_MS_017",
-      "108-1_BM_059",
-      "106-2_OP_054",
-      "106-2_makeup_FA_022"
+      "108-2_MS_017"
     ]
   },
   "opioids#questions": {
     "auto": []
   },
   "opioids#questions~2": {
+    "auto": []
+  },
+  "opioids#questions~3": {
     "auto": [
       "115-2_MS_007",
       "115-2_FA_032",
-      "114-3_OP_011",
       "114-3_BM_033",
       "114-1_PC_017",
       "113-2_MS_009",
       "113-2_FA_019",
       "113-1_MS_009",
       "112-3_OP_031",
-      "112-2_OP_013"
+      "111-2_OP_049",
+      "111-2_MS_036"
     ]
   },
   "potassium-sparing-diuretics#questions": {
@@ -2493,6 +3168,9 @@
       "108-1_MS_069"
     ]
   },
+  "immunology-labs#questions": {
+    "auto": []
+  },
   "inflammatory-markers#questions": {
     "auto": []
   },
@@ -2614,6 +3292,39 @@
   "streptococci#questions": {
     "auto": []
   },
+  "autonomic-nervous-system#overview": {
+    "auto": []
+  },
+  "autonomic-nervous-system#parasympathetic-route": {
+    "auto": []
+  },
+  "autonomic-nervous-system#receptor-types": {
+    "auto": []
+  },
+  "autonomic-nervous-system#effects": {
+    "auto": []
+  },
+  "autonomic-nervous-system#stress": {
+    "auto": []
+  },
+  "autonomic-nervous-system#autonomic-dysreflexia": {
+    "auto": []
+  },
+  "autonomic-nervous-system#questions": {
+    "auto": [
+      "115-2_PC_017",
+      "115-2_MS_008",
+      "115-2_BM_020",
+      "115-2_BM_018",
+      "115-2_BM_016",
+      "115-2_BM_014",
+      "115-2_BM_013",
+      "115-1_MS_001"
+    ]
+  },
+  "b-lymphocytes#questions": {
+    "auto": []
+  },
   "blood-pressure-regulation#determinants": {
     "auto": [
       "115-2_FA_025",
@@ -2683,6 +3394,45 @@
   },
   "blood-pressure-regulation#questions": {
     "auto": []
+  },
+  "brain-anatomy#brain-metabolism": {
+    "auto": []
+  },
+  "brain-anatomy#limbic-system": {
+    "auto": []
+  },
+  "brain-anatomy#basal-nuclei": {
+    "auto": []
+  },
+  "brain-anatomy#epithalamus": {
+    "auto": []
+  },
+  "brain-anatomy#brainstem-lesions": {
+    "auto": []
+  },
+  "brain-anatomy#cerebellum": {
+    "auto": []
+  },
+  "brain-anatomy#icp-compensation": {
+    "auto": []
+  },
+  "brain-anatomy#blood-supply": {
+    "auto": []
+  },
+  "brain-anatomy#sleep-cycle": {
+    "auto": []
+  },
+  "brain-anatomy#questions": {
+    "auto": [
+      "115-2_MS_005",
+      "115-2_MS_003",
+      "115-2_MS_002",
+      "115-2_MS_001",
+      "115-1_MS_005",
+      "115-1_MS_003",
+      "115-1_FA_030",
+      "115-1_BM_003"
+    ]
   },
   "cardiac-output#cardiac-cycle": {
     "auto": [
@@ -2773,6 +3523,21 @@
       "105-2_MS_025"
     ]
   },
+  "cranial-nerves#brainstem-reflexes": {
+    "auto": []
+  },
+  "cranial-nerves#questions": {
+    "auto": [
+      "115-2_BM_020",
+      "115-2_BM_014",
+      "115-2_BM_008",
+      "115-1_OP_028",
+      "114-3_BM_010",
+      "114-2_PC_043",
+      "114-2_PC_006",
+      "114-2_MS_014"
+    ]
+  },
   "glucose-homeostasis#incretin": {
     "auto": [
       "112-2_BM_020",
@@ -2807,7 +3572,13 @@
       "113-2_BM_015"
     ]
   },
+  "hypersensitivity-reactions#questions": {
+    "auto": []
+  },
   "immune-system-basics#questions": {
+    "auto": []
+  },
+  "immunoglobulins-hla#questions": {
     "auto": []
   },
   "inflammation-repair#questions": {
@@ -2822,6 +3593,48 @@
   "neoplasia#questions-carcinogens": {
     "auto": []
   },
+  "neuron-synapse#divisions": {
+    "auto": []
+  },
+  "neuron-synapse#neuron-types": {
+    "auto": []
+  },
+  "neuron-synapse#glia": {
+    "auto": []
+  },
+  "neuron-synapse#myelin": {
+    "auto": []
+  },
+  "neuron-synapse#regeneration": {
+    "auto": []
+  },
+  "neuron-synapse#resting-potential": {
+    "auto": []
+  },
+  "neuron-synapse#na-channel-blockers": {
+    "auto": []
+  },
+  "neuron-synapse#synaptic-steps": {
+    "auto": []
+  },
+  "neuron-synapse#nmj-disorders": {
+    "auto": []
+  },
+  "neuron-synapse#neurotransmitters": {
+    "auto": []
+  },
+  "neuron-synapse#questions": {
+    "auto": [
+      "115-2_MS_002",
+      "115-2_BM_013",
+      "115-1_OP_028",
+      "115-1_BM_020",
+      "115-1_BM_006",
+      "115-1_BM_004",
+      "114-3_BM_020",
+      "114-2_PC_043"
+    ]
+  },
   "neurotransmitters-psychiatry#dopamine-pathways": {
     "auto": []
   },
@@ -2832,6 +3645,84 @@
     "auto": []
   },
   "neurotransmitters-psychiatry#brain-regions": {
+    "auto": []
+  },
+  "special-senses#general-senses": {
+    "auto": []
+  },
+  "special-senses#taste-smell": {
+    "auto": []
+  },
+  "special-senses#aqueous-humor": {
+    "auto": []
+  },
+  "special-senses#retina": {
+    "auto": []
+  },
+  "special-senses#refraction": {
+    "auto": []
+  },
+  "special-senses#visual-pathway": {
+    "auto": []
+  },
+  "special-senses#accessory-structures": {
+    "auto": []
+  },
+  "special-senses#hearing-loss": {
+    "auto": []
+  },
+  "special-senses#balance": {
+    "auto": []
+  },
+  "special-senses#development-aging": {
+    "auto": []
+  },
+  "special-senses#questions": {
+    "auto": [
+      "115-2_MS_015",
+      "115-2_FA_010",
+      "115-1_MS_046",
+      "115-1_MS_035",
+      "115-1_MS_015",
+      "115-1_MS_013",
+      "115-1_BM_019",
+      "114-3_OP_033"
+    ]
+  },
+  "spinal-cord-spinal-nerves#lumbar-puncture-site": {
+    "auto": []
+  },
+  "spinal-cord-spinal-nerves#cross-section": {
+    "auto": []
+  },
+  "spinal-cord-spinal-nerves#umn-lmn": {
+    "auto": []
+  },
+  "spinal-cord-spinal-nerves#plexuses": {
+    "auto": []
+  },
+  "spinal-cord-spinal-nerves#gate-control": {
+    "auto": []
+  },
+  "spinal-cord-spinal-nerves#newborn-reflexes": {
+    "auto": []
+  },
+  "spinal-cord-spinal-nerves#spinal-shock": {
+    "auto": []
+  },
+  "spinal-cord-spinal-nerves#questions": {
+    "auto": [
+      "115-2_MS_024",
+      "115-2_MS_003",
+      "115-2_BM_050",
+      "115-1_MS_003",
+      "115-1_MS_001",
+      "114-3_OP_049",
+      "114-3_MS_002",
+      "114-2_MS_005"
+    ]
+  },
+  "t-lymphocytes#questions": {
     "auto": []
   }
 }

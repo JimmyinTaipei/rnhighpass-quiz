@@ -4,7 +4,7 @@ subtitle: NSAIDs(含 aspirin、COX-2 抑制劑)與 Acetaminophen
 aliases: [NSAIDs, NSAID, 非類固醇抗發炎藥, 非類固醇消炎止痛藥, 非固醇類抗炎藥, 解熱鎮痛劑, 阿斯匹靈, 阿斯匹林, Aspirin, 乙醯水楊酸, 水楊酸, Salicylates, Ibuprofen, 布洛芬, Naproxen, Diclofenac, Voltaren, Ketorolac, Indomethacin, Mefenamic acid, Celecoxib, Celebrex, COX-2 抑制劑, Etoricoxib, 乙醯胺酚, 普拿疼, Panadol, Tinten, Paracetamol, Acetaminophen, N-acetylcysteine, NAC, 雷氏症候群, Reye syndrome, 止痛劑腎病, 前列腺素, 環氧化酶, COX]
 dzTags: [止痛劑腎病]
 system: neuro
-group: analgesics-anesthetics
+group: nsaids
 chapters:
   - 藥理-Ch04止痛藥與麻醉藥物 > 非成癮性鎮痛劑
 alsoIn: [musculoskeletal, hematology-immunology]
@@ -25,7 +25,7 @@ references:
 - **NSAIDs** 抑制**環氧化酶**(COX)，減少**前列腺素**生成 → **解熱、止痛、抗發炎**；非選擇性 NSAIDs 同時抑制血小板(**aspirin 為不可逆**)。
 - 前列腺素也在**保護胃黏膜、維持腎血流**，所以 NSAIDs 的主要副作用是**消化性潰瘍與出血、腎功能下降、水鈉滯留**，並增加**心血管**風險。
 - **COX-2 選擇性抑制劑**(celecoxib)：**腸胃出血較少**、**不抑制血小板**，但心血管風險仍在。
-- **Aspirin**：兒童病毒感染時用 → **雷氏症候群**；**登革熱、血友病、出血傾向**禁用；過量 → **耳鳴**、呼吸性鹼中毒加上代謝性酸中毒。
+- **Aspirin**：兒童病毒感染時用 → **雷氏症候群**；**登革熱、血友病、出血傾向**禁用；過量 → **耳鳴**、呼吸性鹼中毒加上代謝性酸中毒(見 [[pediatric-neuro#reye-syndrome]])。
 - **Acetaminophen**：解熱止痛，**幾乎沒有抗發炎作用**，**不傷胃、不影響血小板**；過量造成**肝壞死**，解毒劑 **N-acetylcysteine**。成人每日一般不超過 **3–4 g**，肝病、酗酒、老人更低。
 
 ### 國考常考點 {#exam-points}
@@ -161,4 +161,6 @@ references:
 
 ::questions{ids="112-3_BM_035,109-1_BM_058,108-1_BM_059,112-2_MS_048,111-1_BM_057,107-2_BM_054,110-1_BM_051,106-2_makeup_BM_057,106-2_BM_055,108-1_BM_037,107-2_BM_058,106-1_OP_045,112-2_OP_078,107-1_MS_080,106-1_OP_057,110-2_OP_068,109-2_OP_067,106-2_OP_058,109-1_FA_009,110-2_OP_062"}
 
-::questions{group="analgesics-anesthetics" keyword="aspirin|阿斯匹|NSAID|非類固醇|acetaminophen|乙醯胺酚|ibuprofen|celecoxib|COX" limit="10"}
+::questions{ids="105-2_OP_066,110-2_OP_067,112-2_OP_068,114-3_OP_042,108-2_MS_017"}
+
+::questions{group="nsaids" keyword="aspirin|阿斯匹|NSAID|非類固醇|acetaminophen|乙醯胺酚|ibuprofen|celecoxib|COX" limit="10"}

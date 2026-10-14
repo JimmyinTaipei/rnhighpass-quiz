@@ -2,7 +2,7 @@
 title: 強心劑與升壓劑
 subtitle: Inotropes and vasopressors(dopamine、dobutamine、milrinone、norepinephrine、epinephrine)
 aliases: [強心劑, 升壓劑, 升壓藥, 強心升壓藥物, Inotropes, Vasopressors, Dopamine, Dobutamine, Milrinone, Norepinephrine, Levophed, Epinephrine, Adrenaline, Bosmin, Vasopressin, Levosimendan, PDE3 inhibitor]
-dzTags: [心臟衰竭, 心衰竭, 休克, 心因性休克, 低血壓]
+dzTags: [心臟衰竭, 休克, 心因性休克, 低血壓]
 system: cardiovascular
 group: heart-failure-drugs
 chapters:
@@ -33,7 +33,7 @@ references:
 ---
 ## 重點摘要 {#summary}
 
-- **強心劑(inotrope)** 增加收縮力與心輸出量：**dobutamine(β₁)**、**milrinone(PDE3 抑制)**;**升壓劑(vasopressor)** 收縮血管升高血壓：**norepinephrine(α₁ 為主)**、epinephrine、vasopressin;**dopamine 依劑量**兼具兩者。
+- **強心劑(inotrope)** 增加收縮力與心輸出量：**dobutamine(β₁)**、**milrinone(PDE3 抑制)**;**升壓劑(vasopressor)** 收縮血管升高血壓：**norepinephrine(α₁ 為主)**、epinephrine、vasopressin;**dopamine 依劑量**兼具兩者(見 [[adrenergic-agonists#pressors]])。
 - 用於**心因性休克**、低灌流的急性心衰竭、休克與低血壓、心跳停止後照護;**只能短期使用**，不改善長期存活。
 - 副作用：**心搏過速、心律不整**、心肌缺氧;升壓劑外滲會**組織壞死** → 以 **phentolamine** 局部浸潤。
 - 護理：**中心靜脈、專用管路、輸液幫浦**、依血壓逐步調整、不可 bolus 或突然停藥;先矯正低血容積。

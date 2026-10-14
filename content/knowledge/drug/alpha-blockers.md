@@ -101,4 +101,6 @@ references:
 
 ## 相關考題 {#questions}
 
+::questions{ids="106-2_BM_058,108-2_BM_049,106-2_makeup_MS_073"}
+
 ::questions{keyword="(azosin|tamsulosin|phentolamine|phenoxybenzamine|α.{0,2}(型)?(阻斷|拮抗)|alpha.{0,3}(blocker|阻斷))" limit="8"}

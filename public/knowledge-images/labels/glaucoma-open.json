@@ -1,0 +1,76 @@
+{
+ "image": "servier-glaucoma-open-angle.svg",
+ "_說明": "開放隅角：房水從睫狀體經瞳孔到前房，再經小樑網流入許萊姆氏管",
+ "labels": [
+  {
+   "id": "cornea",
+   "zh": "角膜",
+   "en": "Cornea",
+   "x": 65,
+   "y": 8,
+   "tx": 80,
+   "ty": 6,
+   "align": "start"
+  },
+  {
+   "id": "anterior",
+   "zh": "前房",
+   "en": "Anterior chamber",
+   "x": 66,
+   "y": 20,
+   "tx": 80,
+   "ty": 18,
+   "align": "start"
+  },
+  {
+   "id": "iris",
+   "zh": "虹膜",
+   "en": "Iris",
+   "x": 70,
+   "y": 33,
+   "tx": 80,
+   "ty": 32,
+   "align": "start"
+  },
+  {
+   "id": "lens",
+   "zh": "水晶體",
+   "en": "Lens",
+   "x": 70,
+   "y": 62,
+   "tx": 80,
+   "ty": 62,
+   "align": "start"
+  },
+  {
+   "id": "ciliary",
+   "zh": "睫狀體(製造房水)",
+   "en": "Ciliary body",
+   "x": 33,
+   "y": 58,
+   "tx": 2,
+   "ty": 72,
+   "align": "start"
+  },
+  {
+   "id": "trabecular",
+   "zh": "小樑網(隅角開放)",
+   "en": "Trabecular meshwork",
+   "x": 38,
+   "y": 41,
+   "tx": 2,
+   "ty": 48,
+   "align": "start"
+  },
+  {
+   "id": "schlemm",
+   "zh": "許萊姆氏管",
+   "en": "Canal of Schlemm",
+   "x": 29,
+   "y": 37,
+   "tx": 2,
+   "ty": 30,
+   "align": "start"
+  }
+ ]
+}

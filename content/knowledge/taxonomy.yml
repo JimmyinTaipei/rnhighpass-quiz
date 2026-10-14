@@ -55,10 +55,15 @@ domains:
     kind: system
     blockTag: 神經
     groups:
-      - { id: antiepileptics, name: 抗癲癇藥, type: drug, drugTags: [抗癲癇用藥, 癲癇用藥] }
-      - { id: antiparkinson, name: 巴金森氏症用藥, type: drug, drugTags: [巴金森氏症用藥, 巴金森氏病用藥, 帕金森氏症用藥, 抗帕金森氏症用藥] }
-      - { id: analgesics-anesthetics, name: 止痛與麻醉藥, type: drug, drugTags: [止痛用藥, 止痛藥, 止痛藥物, 鎮痛藥, 麻醉用藥, 麻醉藥物, 麻醉止痛用藥, 鴉片類止痛劑, 鴉片類止痛藥, 局部麻醉藥, 局部麻醉用藥, 局部麻醉劑, 止痛劑用藥, 止痛藥用藥, 麻醉性止痛藥, 麻醉性止痛劑, 類鴉片止痛藥, 類鴉片止痛用藥, 鴉片類藥物, 癌症疼痛用藥, 疼痛用藥, 止痛麻醉用藥, 非類固醇消炎止痛藥, 止痛消炎用藥, 消炎止痛藥, 止痛解熱消炎藥, 止痛退熱藥, 止痛藥與麻醉藥物] }
-      - { id: autonomic-drugs, name: 自主神經藥物, type: drug, drugTags: [自主神經系統用藥, 自主神經用藥, 抗膽鹼酯酶藥物, 乙醯膽鹼酯酶抑制劑, 神經肌肉阻斷劑] }
+      - { id: neuro-physiology, name: 神經解剖與生理, type: physiology }
+      - { id: antiepileptics, name: 抗癲癇藥, type: drug, drugTags: [抗癲癇用藥] }
+      - { id: antiparkinson, name: 巴金森氏症用藥, type: drug, drugTags: [巴金森氏症用藥] }
+      # 2026-10-06 第 3 輪 3-0a：止痛麻醉與自主神經拆組；標準名在前，其餘為合併前的舊別名(Supabase 寫回後移除)
+      - { id: analgesics-anesthetics, name: 鴉片類與止痛藥, type: drug, drugTags: [鴉片類止痛藥, 止痛用藥] }
+      - { id: nsaids, name: 解熱鎮痛消炎藥, type: drug, drugTags: [解熱鎮痛用藥] }
+      - { id: anesthetics, name: 麻醉藥, type: drug, drugTags: [麻醉用藥, 局部麻醉藥] }
+      - { id: cholinergic-drugs, name: 膽鹼性與抗膽鹼藥物, type: drug, drugTags: [膽鹼性藥物, 抗膽鹼酯酶藥物, 抗膽鹼用藥, 神經肌肉阻斷劑] }
+      - { id: adrenergic-drugs, name: 擬交感與交感阻斷藥物, type: drug, drugTags: [擬交感神經藥物, 交感神經阻斷劑] }
 
   - id: hematology-immunology
     name: 血液與免疫
@@ -100,7 +105,7 @@ domains:
     blockTag: 心血管
     groups:
       - { id: antihypertensives, name: 抗高血壓藥, type: drug, drugTags: [抗高血壓用藥, 高血壓用藥, 降血壓用藥] }
-      - { id: heart-failure-drugs, name: 心衰竭用藥, type: drug, drugTags: [心衰竭用藥, 心臟衰竭用藥, 強心劑用藥, 強心劑, 強心配醣體, 毛地黃製劑, 強心升壓藥物, 升壓藥] }
+      - { id: heart-failure-drugs, name: 心衰竭用藥, type: drug, drugTags: [心臟衰竭用藥, 強心劑用藥, 強心劑, 強心配醣體, 毛地黃製劑, 強心升壓藥物, 升壓藥] }
       - { id: antianginals, name: 抗心絞痛藥, type: drug, drugTags: [心絞痛用藥, 抗心絞痛用藥, 狹心症用藥] }
       - { id: antiarrhythmics, name: 抗心律不整藥, type: drug, drugTags: [抗心律不整用藥, 心律不整用藥] }
       - { id: lipid-lowering, name: 降血脂藥, type: drug, drugTags: [降血脂用藥, 高血脂用藥] }
@@ -150,10 +155,14 @@ domains:
     kind: system
     blockTag: 神經
     groups:
-      - { id: antipsychotics, name: 抗精神病藥, type: drug, drugTags: [抗精神病藥物, 抗精神病用藥, 抗精神病藥, 思覺失調症用藥] }
-      - { id: antidepressants, name: 抗憂鬱藥, type: drug, drugTags: [抗憂鬱用藥, 抗憂鬱藥物, 抗憂鬱劑, 憂鬱症用藥, 抗憂鬱藥] }
-      - { id: mood-stabilizers, name: 情緒穩定劑, type: drug, drugTags: [情緒穩定劑, 躁鬱症用藥] }
-      - { id: anxiolytics-hypnotics, name: 抗焦慮與鎮靜安眠藥, type: drug, drugTags: [抗焦慮用藥, 鎮靜安眠藥, 鎮靜催眠藥, 鎮靜安眠用藥, 鎮靜催眠用藥, 安眠鎮靜用藥] }
+      # drugTags：精神範圍標籤合併後的標準名(2026-10-06 合併並寫回 Supabase，見 docs/tag-merge-psychiatry.md)
+      - { id: antipsychotics, name: 抗精神病藥, type: drug, drugTags: [抗精神病藥物] }
+      - { id: antidepressants, name: 抗憂鬱藥, type: drug, drugTags: [抗憂鬱用藥] }
+      - { id: mood-stabilizers, name: 情緒穩定劑, type: drug, drugTags: [情緒穩定劑] }
+      - { id: anxiolytics-hypnotics, name: 抗焦慮與鎮靜安眠藥, type: drug, drugTags: [抗焦慮用藥, 鎮靜安眠藥] }
+      - { id: cns-stimulants, name: 中樞神經興奮劑與 ADHD 用藥, type: drug, drugTags: [中樞神經興奮劑, 注意力不足過動症用藥] }
+      - { id: anti-dementia-drugs, name: 失智症用藥, type: drug, drugTags: [失智症用藥] }
+      - { id: addiction-treatment-drugs, name: 成癮戒治用藥, type: drug, drugTags: [成癮戒治用藥, 成癮藥物, 戒菸用藥, 戒酒用藥] }
 
   # ===== 跨系統(kind: cross):腫瘤、感染、急重症;「小兒」是對象標記,不是 domain =====
   - id: oncology

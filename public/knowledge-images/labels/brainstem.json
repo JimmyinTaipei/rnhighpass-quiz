@@ -1,0 +1,74 @@
+{
+ "image": "servier-brainstem.svg",
+ "_說明": "腦幹腹側觀",
+ "labels": [
+  {
+   "id": "pons",
+   "zh": "橋腦",
+   "en": "Pons",
+   "x": 50,
+   "y": 25
+  },
+  {
+   "id": "medulla",
+   "zh": "延腦",
+   "en": "Medulla oblongata",
+   "x": 50,
+   "y": 88
+  },
+  {
+   "id": "pyramid",
+   "zh": "錐體",
+   "en": "Pyramid",
+   "x": 45,
+   "y": 68,
+   "tx": 8,
+   "ty": 92
+  },
+  {
+   "id": "olive",
+   "zh": "橄欖體",
+   "en": "Olive",
+   "x": 28.5,
+   "y": 60,
+   "tx": 6,
+   "ty": 80
+  },
+  {
+   "id": "cn5",
+   "zh": "三叉神經(V)",
+   "en": "Trigeminal nerve",
+   "x": 13,
+   "y": 26,
+   "tx": 8,
+   "ty": 38
+  },
+  {
+   "id": "cn6",
+   "zh": "外展神經(VI)",
+   "en": "Abducens nerve",
+   "x": 39,
+   "y": 46,
+   "tx": 92,
+   "ty": 62
+  },
+  {
+   "id": "cn3",
+   "zh": "動眼神經(III)",
+   "en": "Oculomotor nerve",
+   "x": 38,
+   "y": 3.5,
+   "tx": 8,
+   "ty": 5
+  },
+  {
+   "id": "cn4",
+   "zh": "滑車神經(IV)",
+   "en": "Trochlear nerve",
+   "x": 24,
+   "y": 9,
+   "tx": 8,
+   "ty": 15
+  }
+ ]
+}

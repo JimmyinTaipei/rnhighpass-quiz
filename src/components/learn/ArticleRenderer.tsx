@@ -6,13 +6,14 @@ import { AlertTriangle, BookMarked, Info, Lightbulb, ListChecks } from "lucide-r
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import type { ChapterRef } from "@/lib/data";
 import { hrefFor, imageCredits, knowledgeIndex, previewFor } from "@/lib/knowledge";
-import type { KnowledgeArticle, KnowledgeSection, KnowledgePreview } from "@/lib/knowledge/types";
+import type { FigureLabel, KnowledgeArticle, KnowledgeSection, KnowledgePreview } from "@/lib/knowledge/types";
 import type { ComparisonTable, Question } from "@/lib/types";
 import { CollapsibleSection } from "./CollapsibleSection";
 import { SectionBodyEditor, SectionTitleEditor } from "./KnowledgeEditors";
 import { BasicsBox } from "./BasicsBox";
 import { EmbedBadge } from "./EmbedBadge";
 import { KnowledgeLink } from "./KnowledgeLink";
+import { LabeledFigure } from "./LabeledFigure";
 import { ZoomableFigureImage } from "./ZoomableFigureImage";
 import { isMergedExamPoints } from "./toc";
 
@@ -58,12 +59,14 @@ function Callout({ kind, title, children }: { kind: CalloutKind; title?: string;
   );
 }
 
-function Figure({ src, alt }: { src: string; alt: string }) {
+function Figure({ src, alt, labels }: { src: string; alt: string; labels?: string }) {
   const name = src.replace("/knowledge-images/", "");
   const credit = imageCredits[name];
+  // labels 是建置時從 labels/*.json 讀進來並檢查過的 JSON 字串(::figure 才有)
+  const parsed = labels ? (JSON.parse(labels) as FigureLabel[]) : null;
   return (
     <figure className="my-5">
-      <ZoomableFigureImage src={src} alt={alt} />
+      {parsed ? <LabeledFigure src={src} alt={alt} labels={parsed} /> : <ZoomableFigureImage src={src} alt={alt} />}
       <figcaption className="mt-2 text-center text-sm text-body">
         {alt}
         {credit && (
@@ -205,7 +208,9 @@ export function renderHast(root: Root, ctx: RenderContext) {
         {children}
       </Callout>
     ),
-    "k-figure": ({ src, alt }: { src: string; alt: string }) => <Figure src={src} alt={alt} />,
+    "k-figure": ({ src, alt, labels }: { src: string; alt: string; labels?: string }) => (
+      <Figure src={src} alt={alt} labels={labels} />
+    ),
     table: (props: React.ComponentProps<"table">) => (
       <div className="kb-table-wrap my-4 overflow-x-auto rounded-btn border border-card-border">
         <table {...props} />

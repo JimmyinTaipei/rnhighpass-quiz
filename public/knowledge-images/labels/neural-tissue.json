@@ -1,0 +1,60 @@
+{
+ "image": "servier-neural-tissue.svg",
+ "_說明": "中樞神經組織的細胞",
+ "labels": [
+  {
+   "id": "neuron",
+   "zh": "神經元",
+   "en": "Neuron",
+   "x": 24,
+   "y": 25,
+   "tx": 36,
+   "ty": 40
+  },
+  {
+   "id": "astrocyte",
+   "zh": "星狀膠細胞(足突包住微血管)",
+   "en": "Astrocyte",
+   "x": 91,
+   "y": 15,
+   "tx": 80,
+   "ty": 42
+  },
+  {
+   "id": "oligo",
+   "zh": "寡突膠細胞(中樞髓鞘)",
+   "en": "Oligodendrocyte",
+   "x": 40,
+   "y": 58,
+   "tx": 45,
+   "ty": 72
+  },
+  {
+   "id": "myelin",
+   "zh": "髓鞘",
+   "en": "Myelin sheath",
+   "x": 24,
+   "y": 55,
+   "tx": 12,
+   "ty": 42
+  },
+  {
+   "id": "microglia",
+   "zh": "微膠細胞",
+   "en": "Microglia",
+   "x": 65,
+   "y": 64,
+   "tx": 63,
+   "ty": 77
+  },
+  {
+   "id": "ependymal",
+   "zh": "室管膜細胞",
+   "en": "Ependymal cell",
+   "x": 80,
+   "y": 80,
+   "tx": 63,
+   "ty": 87
+  }
+ ]
+}

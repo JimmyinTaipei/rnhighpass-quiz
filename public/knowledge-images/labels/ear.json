@@ -1,0 +1,96 @@
+{
+ "image": "servier-ear.svg",
+ "_說明": "外耳、中耳、內耳冠狀切面，左為外側",
+ "labels": [
+  {
+   "id": "auricle",
+   "zh": "耳廓",
+   "en": "Auricle",
+   "x": 20.8,
+   "y": 50,
+   "tx": 10,
+   "ty": 12,
+   "align": "end"
+  },
+  {
+   "id": "canal",
+   "zh": "外耳道",
+   "en": "External auditory canal",
+   "x": 46.5,
+   "y": 52,
+   "tx": 13,
+   "ty": 86,
+   "align": "end"
+  },
+  {
+   "id": "ossicles",
+   "zh": "聽小骨(錘骨、砧骨)",
+   "en": "Malleus, incus",
+   "x": 57,
+   "y": 41,
+   "tx": 36,
+   "ty": 5,
+   "align": "end"
+  },
+  {
+   "id": "eardrum",
+   "zh": "鼓膜",
+   "en": "Tympanic membrane",
+   "x": 56,
+   "y": 52,
+   "tx": 38,
+   "ty": 95,
+   "align": "end"
+  },
+  {
+   "id": "semicircular",
+   "zh": "半規管",
+   "en": "Semicircular canals",
+   "x": 63.9,
+   "y": 34,
+   "tx": 82,
+   "ty": 10,
+   "align": "start"
+  },
+  {
+   "id": "nerve",
+   "zh": "前庭耳蝸神經",
+   "en": "Vestibulocochlear nerve",
+   "x": 79.2,
+   "y": 37,
+   "tx": 82,
+   "ty": 24,
+   "align": "start"
+  },
+  {
+   "id": "cochlea",
+   "zh": "耳蝸",
+   "en": "Cochlea",
+   "x": 70.9,
+   "y": 48,
+   "tx": 82,
+   "ty": 42,
+   "align": "start"
+  },
+  {
+   "id": "stapes",
+   "zh": "鐙骨",
+   "en": "Stapes",
+   "x": 66.0,
+   "y": 47,
+   "tx": 82,
+   "ty": 57,
+   "align": "start"
+  },
+  {
+   "id": "tube",
+   "zh": "耳咽管",
+   "en": "Eustachian tube",
+   "x": 71,
+   "y": 80,
+   "tx": 82,
+   "ty": 80,
+   "align": "start"
+  }
+ ]
+}

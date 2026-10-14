@@ -1,0 +1,113 @@
+{
+ "image": "servier-eye-section.svg",
+ "_說明": "眼球水平切面，左為前",
+ "labels": [
+  {
+   "id": "cornea",
+   "zh": "角膜",
+   "en": "Cornea",
+   "x": 23.9,
+   "y": 40,
+   "tx": 17,
+   "ty": 30,
+   "align": "end"
+  },
+  {
+   "id": "anterior",
+   "zh": "前房(房水)",
+   "en": "Anterior chamber",
+   "x": 25.45,
+   "y": 46,
+   "tx": 17,
+   "ty": 42,
+   "align": "end"
+  },
+  {
+   "id": "iris",
+   "zh": "虹膜",
+   "en": "Iris",
+   "x": 28.8,
+   "y": 58,
+   "tx": 17,
+   "ty": 66,
+   "align": "end"
+  },
+  {
+   "id": "ciliary",
+   "zh": "睫狀體",
+   "en": "Ciliary body",
+   "x": 31.5,
+   "y": 27,
+   "tx": 17,
+   "ty": 16,
+   "align": "end"
+  },
+  {
+   "id": "lens",
+   "zh": "水晶體",
+   "en": "Lens",
+   "x": 34,
+   "y": 52,
+   "tx": 17,
+   "ty": 54,
+   "align": "end"
+  },
+  {
+   "id": "vitreous",
+   "zh": "玻璃體",
+   "en": "Vitreous body",
+   "x": 47.2,
+   "y": 50
+  },
+  {
+   "id": "retina",
+   "zh": "視網膜",
+   "en": "Retina",
+   "x": 47,
+   "y": 7.7,
+   "tx": 78,
+   "ty": 13,
+   "align": "start"
+  },
+  {
+   "id": "choroid",
+   "zh": "脈絡膜",
+   "en": "Choroid",
+   "x": 47,
+   "y": 5.8,
+   "tx": 78,
+   "ty": 4,
+   "align": "start"
+  },
+  {
+   "id": "sclera",
+   "zh": "鞏膜",
+   "en": "Sclera",
+   "x": 68.5,
+   "y": 42,
+   "tx": 78,
+   "ty": 24,
+   "align": "start"
+  },
+  {
+   "id": "disc",
+   "zh": "視神經盤(盲點)",
+   "en": "Optic disc",
+   "x": 66.5,
+   "y": 54,
+   "tx": 78,
+   "ty": 44,
+   "align": "start"
+  },
+  {
+   "id": "nerve",
+   "zh": "視神經",
+   "en": "Optic nerve",
+   "x": 73,
+   "y": 63,
+   "tx": 78,
+   "ty": 82,
+   "align": "start"
+  }
+ ]
+}

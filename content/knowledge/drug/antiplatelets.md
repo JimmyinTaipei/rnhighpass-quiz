@@ -39,7 +39,7 @@ references:
 
 ### 國考常考點 {#exam-points}
 
-- 冠心病、心肌梗塞、中風/TIA 服用 aspirin 的目的 → **抑制血小板凝集**，不是止痛、不是溶解血栓、不是降低耗氧量。
+- 冠心病、心肌梗塞、中風/TIA 服用 aspirin 的目的 → **抑制血小板凝集**，不是止痛、不是溶解血栓、不是降低耗氧量(見 [[stroke]])。
 - 低劑量 aspirin 抑制 **thromboxane A₂** 的生成(不可逆抑制 COX-1)。
 - Clopidogrel → **不可逆抑制 P2Y12 ADP 受體**;是**前驅藥**，CYP2C19 弱代謝者效果差。
 - Abciximab → **GP IIb/IIIa 抑制劑**;dipyridamole → **PDE 抑制劑**。

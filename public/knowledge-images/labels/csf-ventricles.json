@@ -1,0 +1,59 @@
+{
+ "image": "servier-csf-ventricles.svg",
+ "_說明": "腦脊髓液循環(左為前，箭頭是流向)",
+ "labels": [
+  {
+   "id": "lv",
+   "zh": "側腦室",
+   "en": "Lateral ventricle",
+   "x": 42,
+   "y": 39
+  },
+  {
+   "id": "v3",
+   "zh": "第三腦室",
+   "en": "Third ventricle",
+   "x": 53,
+   "y": 45,
+   "tx": 25,
+   "ty": 68
+  },
+  {
+   "id": "aqueduct",
+   "zh": "中腦導水管",
+   "en": "Cerebral aqueduct",
+   "x": 53.8,
+   "y": 54,
+   "tx": 25,
+   "ty": 79
+  },
+  {
+   "id": "v4",
+   "zh": "第四腦室",
+   "en": "Fourth ventricle",
+   "x": 59.5,
+   "y": 64,
+   "tx": 88,
+   "ty": 84
+  },
+  {
+   "id": "sas",
+   "zh": "蜘蛛膜下腔",
+   "en": "Subarachnoid space",
+   "x": 5.5,
+   "y": 40,
+   "tx": 10,
+   "ty": 62
+  },
+  {
+   "id": "granulation",
+   "zh": "蜘蛛膜顆粒",
+   "en": "Arachnoid granulation",
+   "x": 52.5,
+   "y": 4,
+   "tx": 72,
+   "ty": 2,
+   "align": "start"
+  }
+ ]
+}
