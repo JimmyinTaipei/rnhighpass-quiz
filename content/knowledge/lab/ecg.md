@@ -2,7 +2,7 @@
 title: 12 導程心電圖判讀
 subtitle: 12-lead electrocardiogram(ECG / EKG)
 aliases: [心電圖, ECG, EKG, 12 導程, 十二導程心電圖, 12-lead ECG, ST 段上升, ST 段下降, 病理性 Q 波, STEMI 心電圖]
-dzTags: [心肌梗塞, 急性冠心症, 心絞痛, 心律不整]
+dzTags: [心肌梗塞, 急性冠狀動脈症候群, 心絞痛, 心律不整]
 system: cardiovascular
 method: function
 group: cardiac-labs
@@ -404,7 +404,7 @@ MI 後最可能**永遠不會消失**的是**不正常 Q 波**;ST 上升與 T �
 - 下壁 MI 注意心搏過慢/AV block 與右心室梗塞(慎用 NTG)。
 :::
 
-::questions{tag="心肌梗塞|急性心肌梗塞|急性冠心症|心絞痛" keyword="(心電圖|ST ?段|ST ?間段|Q ?波|導程|EKG|ECG)" limit="8"}
+::questions{tag="心肌梗塞|急性心肌梗塞|急性冠狀動脈症候群|心絞痛" keyword="(心電圖|ST ?段|ST ?間段|Q ?波|導程|EKG|ECG)" limit="8"}
 
 ## 護理重點：疑似 STEMI {#stemi-nursing}
 

@@ -2,7 +2,7 @@
 title: Statin 類降血脂藥
 subtitle: HMG-CoA reductase inhibitors(-statin)
 aliases: [Statin, Statins, HMG-CoA 還原酶抑制劑, Atorvastatin, Lipitor, 立普妥, Rosuvastatin, Crestor, 冠脂妥, Simvastatin, Pravastatin, Lovastatin, Fluvastatin, Pitavastatin, 降血脂藥, Ezetimibe, PCSK9, Evolocumab, Alirocumab, Fenofibrate, Gemfibrozil, Niacin, 菸鹼酸, Cholestyramine]
-dzTags: [高血脂, 高血脂症, 高脂血症, 高膽固醇血症, 高三酸甘油脂血症, 冠狀動脈疾病, 心肌梗塞, 動脈粥狀硬化, 腦中風]
+dzTags: [高血脂症, 高脂血症, 高膽固醇血症, 高三酸甘油脂血症, 冠狀動脈疾病, 心肌梗塞, 動脈粥狀硬化, 腦中風]
 system: cardiovascular
 group: lipid-lowering
 chapters:

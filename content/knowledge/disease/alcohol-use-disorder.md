@@ -160,6 +160,8 @@ references:
 | 精神 | 憂鬱、自殺、焦慮；**酒精性嫉妒妄想**(懷疑配偶不忠)；酒精性幻覺症 |
 | 外傷 | 跌倒、頭部外傷、酒駕事故、家庭暴力 |
 
+- 酒精造成脂肪肝的機轉見 [[environmental-injury#alcohol]]；維生素 B1 等缺乏症總表見 [[nutritional-disorders#water-soluble]]
+
 ## 長期治療 {#long-term-treatment}
 
 1. **藥物**：disulfiram(嫌惡)、naltrexone(減少渴求)、acamprosate(維持戒酒)，見 [[addiction-treatment-drugs#alcohol-drugs]]

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 600" width="1040" height="600" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>細胞傷害：可逆傷害、壞死與凋亡</title>
+<rect width="1040" height="600" fill="#FFFFFF"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker></defs>
+<text x="520.0" y="34" font-size="21" text-anchor="middle" font-weight="bold" fill="#26262B">細胞傷害：可逆傷害 → 壞死；另一條路：凋亡</text>
+<rect x="30" y="70" width="210" height="250" rx="12" fill="#F6F7FA" stroke="#9AA0AC" stroke-width="1.4"/>
+<text x="135" y="98" font-size="17" text-anchor="middle" font-weight="bold" fill="#26262B">正常細胞</text>
+<ellipse cx="135" cy="200" rx="70" ry="58" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.6"/>
+<circle cx="135" cy="198" r="20" fill="#6B5CA5"/>
+<ellipse cx="95" cy="180" rx="10" ry="5" fill="#F3E3C9" stroke="#AD5C28" stroke-width="1"/>
+<ellipse cx="172" cy="225" rx="10" ry="5" fill="#F3E3C9" stroke="#AD5C28" stroke-width="1"/>
+<ellipse cx="160" cy="165" rx="10" ry="5" fill="#F3E3C9" stroke="#AD5C28" stroke-width="1"/>
+<text x="135" y="290" font-size="12.5" text-anchor="middle"  fill="#5B6170">膜完整、粒線體正常</text>
+<rect x="290" y="70" width="260" height="250" rx="12" fill="#FFF8EC" stroke="#C99A4B" stroke-width="1.4"/>
+<text x="420" y="98" font-size="17" text-anchor="middle" font-weight="bold" fill="#26262B">可逆性傷害</text>
+<ellipse cx="420" cy="185" rx="86" ry="66" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.6"/>
+<circle cx="500" cy="150" r="10" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.4"/>
+<circle cx="508" cy="195" r="10" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.4"/>
+<circle cx="340" cy="220" r="10" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.4"/>
+<circle cx="420" cy="183" r="20" fill="#6B5CA5"/>
+<ellipse cx="375" cy="160" rx="11.0" ry="9.0" fill="#F3E3C9" stroke="#AD5C28" stroke-width="1"/>
+<ellipse cx="462" cy="215" rx="11.0" ry="9.0" fill="#F3E3C9" stroke="#AD5C28" stroke-width="1"/>
+<circle cx="450" cy="150" r="7" fill="#FFF4B8" stroke="#C9A227" stroke-width="1"/>
+<circle cx="390" cy="222" r="7" fill="#FFF4B8" stroke="#C9A227" stroke-width="1"/>
+<circle cx="470" cy="180" r="7" fill="#FFF4B8" stroke="#C9A227" stroke-width="1"/>
+<text x="420" y="272" font-size="12.5" text-anchor="middle"  fill="#26262B">細胞腫脹(水分進入)</text>
+<text x="420" y="289" font-size="12.5" text-anchor="middle"  fill="#26262B">細胞膜泡狀凸出、粒線體腫脹</text>
+<text x="420" y="306" font-size="12.5" text-anchor="middle"  fill="#26262B">內質網擴張、脂肪變性(肝最常見)</text>
+<text x="420" y="317" font-size="1" text-anchor="middle"  fill="#26262B"></text>
+<rect x="600" y="70" width="410" height="250" rx="12" fill="#FBEFF1" stroke="#B4485C" stroke-width="1.4"/>
+<text x="805" y="98" font-size="17" text-anchor="middle" font-weight="bold" fill="#B4485C">壞死(necrosis)：不可逆</text>
+<path d="M650,190 C650,140 700,125 735,130 L745,150 L760,128 C800,135 812,170 808,195 C805,235 770,258 735,255 L725,238 L712,256 C672,250 650,228 650,190 Z" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.6"/>
+<circle cx="770" cy="268" r="3.5" fill="#B4485C"/>
+<circle cx="790" cy="250" r="3.5" fill="#B4485C"/>
+<circle cx="812" cy="225" r="3.5" fill="#B4485C"/>
+<circle cx="700" cy="272" r="3.5" fill="#B4485C"/>
+<circle cx="728" cy="192" r="12" fill="#3D2E6B"/>
+<circle cx="850" cy="150" r="9" fill="#3D2E6B"/>
+<text x="850" y="180" font-size="12.5" text-anchor="middle" font-weight="bold" fill="#26262B">核濃縮</text>
+<line x1="865" y1="150" x2="898" y2="150" stroke="#26262B" stroke-width="2" marker-end="url(#ar)"/>
+<circle cx="908" cy="145" r="3.6" fill="#3D2E6B"/>
+<circle cx="921" cy="144" r="3.6" fill="#3D2E6B"/>
+<circle cx="912" cy="156" r="3.6" fill="#3D2E6B"/>
+<circle cx="923" cy="155" r="3.6" fill="#3D2E6B"/>
+<circle cx="915" cy="150" r="3.6" fill="#3D2E6B"/>
+<text x="915" y="180" font-size="12.5" text-anchor="middle" font-weight="bold" fill="#26262B">核碎裂</text>
+<line x1="930" y1="150" x2="963" y2="150" stroke="#26262B" stroke-width="2" marker-end="url(#ar)"/>
+<circle cx="980" cy="150" r="12" fill="#C9C2E3" stroke="#9A90C8" stroke-dasharray="3 2"/>
+<text x="980" y="180" font-size="12.5" text-anchor="middle" font-weight="bold" fill="#26262B">核溶解</text>
+<text x="915" y="125" font-size="12" text-anchor="middle"  fill="#5B6170">細胞核變化的順序</text>
+<text x="905" y="215" font-size="12.5" text-anchor="middle"  fill="#26262B">膜破裂 → 內容物漏出</text>
+<text x="905" y="235" font-size="12.5" text-anchor="middle"  fill="#26262B">→ 引起發炎反應</text>
+<text x="905" y="255" font-size="12.5" text-anchor="middle"  fill="#26262B">成群細胞死亡、一定是病理性</text>
+<line x1="240" y1="195" x2="288" y2="195" stroke="#26262B" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="550" y1="195" x2="598" y2="195" stroke="#26262B" stroke-width="2" marker-end="url(#ar)"/>
+<text x="574" y="182" font-size="11.5" text-anchor="middle"  fill="#5B6170">持續</text>
+<text x="264" y="182" font-size="11.5" text-anchor="middle"  fill="#5B6170">傷害</text>
+<rect x="290" y="350" width="720" height="220" rx="12" fill="#EEF5F0" stroke="#3E7C57" stroke-width="1.4"/>
+<text x="650" y="378" font-size="17" text-anchor="middle" font-weight="bold" fill="#3E7C57">凋亡(apoptosis)：程式性細胞死亡</text>
+<ellipse cx="370" cy="460" rx="40" ry="34" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.6"/>
+<path d="M352,460 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0" fill="none" stroke="#3D2E6B" stroke-width="7"/>
+<text x="370" y="515" font-size="12.5" text-anchor="middle"  fill="#26262B">皺縮、染色質凝集</text>
+<line x1="420" y1="460" x2="455" y2="460" stroke="#26262B" stroke-width="2" marker-end="url(#ar)"/>
+<circle cx="480" cy="440" r="14" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.4"/><circle cx="480" cy="440" r="6.3" fill="#3D2E6B"/>
+<circle cx="505" cy="470" r="12" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.4"/><circle cx="505" cy="470" r="5.4" fill="#3D2E6B"/>
+<circle cx="478" cy="482" r="10" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.4"/><circle cx="478" cy="482" r="4.5" fill="#3D2E6B"/>
+<circle cx="512" cy="438" r="9" fill="#F7DDE2" stroke="#B4485C" stroke-width="1.4"/><circle cx="512" cy="438" r="4.05" fill="#3D2E6B"/>
+<text x="495" y="515" font-size="12.5" text-anchor="middle"  fill="#26262B">凋亡小體</text>
+<line x1="535" y1="460" x2="570" y2="460" stroke="#26262B" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M585,460 C585,415 640,405 665,430 C690,412 720,440 705,470 C720,500 680,515 655,500 C625,520 585,505 585,460 Z" fill="#E3EDF8" stroke="#3A6EA5" stroke-width="1.6"/>
+<circle cx="640" cy="462" r="11" fill="#F7DDE2" stroke="#B4485C"/><circle cx="640" cy="462" r="5" fill="#3D2E6B"/><circle cx="675" cy="470" r="9" fill="#3A6EA5"/>
+<text x="645" y="532" font-size="12.5" text-anchor="middle"  fill="#26262B">巨噬細胞吞噬</text>
+<text x="740" y="428" font-size="13" text-anchor="start"  fill="#26262B">膜保持完整 → 不引起發炎</text>
+<text x="740" y="452" font-size="13" text-anchor="start"  fill="#26262B">單一細胞、主動耗能(caspase)</text>
+<text x="740" y="476" font-size="13" text-anchor="start"  fill="#26262B">生理：月經的子宮內膜、胚胎指間</text>
+<text x="740" y="500" font-size="13" text-anchor="start"  fill="#26262B">病理：病毒性肝炎、輻射或 DNA 損傷</text>
+<line x1="135" y1="322" x2="288" y2="440" stroke="#26262B" stroke-width="2" marker-end="url(#ar)"/>
+<text x="170" y="400" font-size="11.5" text-anchor="start"  fill="#5B6170">訊號啟動</text>
+</svg>

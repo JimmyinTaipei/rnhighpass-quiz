@@ -1,0 +1,56 @@
+{
+ "image": "servier-goiter.svg",
+ "_說明": "頸部前面觀，由左到右：正常、甲狀腺腫大(細線為原本大小)、甲狀腺萎縮(外框為原本大小)",
+ "labels": [
+  {
+   "id": "normal",
+   "zh": "正常甲狀腺",
+   "en": "Normal thyroid",
+   "x": 12,
+   "y": 68,
+   "tx": 3,
+   "ty": 93,
+   "align": "start"
+  },
+  {
+   "id": "cartilage",
+   "zh": "甲狀軟骨",
+   "en": "Thyroid cartilage",
+   "x": 16,
+   "y": 52,
+   "tx": 26,
+   "ty": 40,
+   "align": "start"
+  },
+  {
+   "id": "trachea",
+   "zh": "氣管",
+   "en": "Trachea",
+   "x": 16,
+   "y": 85,
+   "tx": 26,
+   "ty": 86,
+   "align": "start"
+  },
+  {
+   "id": "goiter",
+   "zh": "甲狀腺腫大(細線為原大小)",
+   "en": "Goiter",
+   "x": 47,
+   "y": 68,
+   "tx": 37,
+   "ty": 93,
+   "align": "start"
+  },
+  {
+   "id": "atrophy",
+   "zh": "甲狀腺萎縮(外框為原大小)",
+   "en": "Atrophic thyroid",
+   "x": 80,
+   "y": 70,
+   "tx": 70,
+   "ty": 93,
+   "align": "start"
+  }
+ ]
+}

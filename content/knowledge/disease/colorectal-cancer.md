@@ -2,7 +2,7 @@
 title: 大腸直腸癌與腸造口護理
 subtitle: Colorectal cancer and ostomy care
 aliases: [大腸癌, 大腸直腸癌, 結直腸癌, 結腸癌, 直腸癌, Colorectal cancer, CRC, 家族性腺瘤性瘜肉症, FAP, Lynch 症候群, 腺瘤性瘜肉, 糞便潛血, FIT, 免疫法糞便潛血, 大腸鏡, 腹部會陰切除術, Miles 手術, 低位前切除術, 腸造口, 人工肛門, 結腸造口, 迴腸造口, 造瘻口, Colostomy, Ileostomy, 結腸灌洗, 造口袋, CEA]
-dzTags: [大腸癌, 大腸直腸癌, 結腸癌, 直腸癌]
+dzTags: [大腸癌, 結腸癌, 直腸癌]
 system: oncology
 alsoIn: [digestive, community]
 chapters:
@@ -147,4 +147,4 @@ references:
 
 ::questions{ids="114-1_MS_007,109-2_MS_012,109-1_MS_010,107-2_MS_013,112-2_MS_036,114-3_BM_026,105-1_BM_043,114-2_BM_025,110-1_MS_014,106-1_MS_068,112-2_BM_027,112-2_MS_009,110-2_MS_009,105-1_MS_016,105-2_PC_055,110-2_FA_055,114-3_FA_030,109-2_MS_013,107-1_FA_014,112-2_FA_049,113-1_MS_008,112-1_MS_011,112-1_MS_013,106-2_makeup_MS_016,108-1_MS_015,106-2_MS_011,113-3_OP_047,110-2_MS_010,106-1_MS_009,106-1_OP_074,114-2_PC_036"}
 
-::questions{tag="大腸癌|大腸直腸癌|結腸癌|直腸癌" limit="10"}
+::questions{tag="大腸癌|結腸癌|直腸癌" limit="10"}

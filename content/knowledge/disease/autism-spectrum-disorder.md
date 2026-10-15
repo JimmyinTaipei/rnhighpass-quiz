@@ -2,7 +2,7 @@
 title: 自閉症類群障礙症
 subtitle: Autism spectrum disorder, ASD(社交溝通障礙、侷限重複行為、感官異常、早期療育、行為治療、護理與家長指導)
 aliases: [自閉症, 自閉症類群障礙症, 自閉症譜系障礙, 自閉症光譜, 自閉性疾患, 自閉兒, Autism, Autistic disorder, Autism spectrum disorder, ASD, 亞斯伯格症, 亞斯伯格, Asperger, 高功能自閉症, 低功能自閉症, 廣泛性發展障礙, 鸚鵡式仿說, 仿說, 回音語言, Echolalia, 代名詞反轉, 同一性, Insistence on sameness, 刻板行為, 固著行為, 感覺統合, 感覺統合治療, 應用行為分析, ABA, 早期療育, 結構化教學, TEACCH, 自傷行為, 撞頭]
-dzTags: [自閉症, 自閉症類群障礙症]
+dzTags: [自閉症類群障礙症]
 system: psychiatric
 alsoIn: []
 peds: true

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 640" width="980" height="640" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>血鈣調節：副甲狀腺素、降鈣素與活性維生素 D</title>
+<rect width="980" height="640" fill="#FFFFFF"/>
+<defs><marker id="mi" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker><marker id="mb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A6EA5"/></marker><marker id="mp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5CA5"/></marker><marker id="mr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/></marker><marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E7C57"/></marker><marker id="mo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AD5C28"/></marker></defs>
+<text x="490" y="32" font-size="20" text-anchor="middle" font-weight="bold" fill="#26262B">血鈣調節：副甲狀腺素、降鈣素與活性維生素 D</text>
+<rect x="40" y="60" width="270" height="60" rx="10" fill="#F9E3E6" stroke="#B4485C" stroke-width="1.8"/>
+<text x="175.0" y="86.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">副甲狀腺(主細胞)</text>
+<text x="175.0" y="105.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#B4485C">血鈣 ↓ → 分泌 PTH</text>
+<rect x="670" y="60" width="270" height="60" rx="10" fill="#E3EDF8" stroke="#3A6EA5" stroke-width="1.8"/>
+<text x="805.0" y="86.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">甲狀腺濾泡旁細胞(C 細胞)</text>
+<text x="805.0" y="105.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#3A6EA5">血鈣 ↑ → 分泌降鈣素</text>
+<rect x="400" y="160" width="180" height="64" rx="10" fill="#F4EFE6" stroke="#9C8463" stroke-width="1.8"/>
+<text x="490.0" y="197.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">骨骼</text>
+<rect x="400" y="300" width="180" height="64" rx="10" fill="#F4EFE6" stroke="#9C8463" stroke-width="1.8"/>
+<text x="490.0" y="337.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">腎臟</text>
+<rect x="400" y="440" width="180" height="64" rx="10" fill="#F4EFE6" stroke="#9C8463" stroke-width="1.8"/>
+<text x="490.0" y="477.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">腸道</text>
+<path d="M175,120 L175,192 L396,192" fill="none" stroke="#B4485C" stroke-width="2.4" marker-end="url(#mr)"/>
+<path d="M175,192 L175,332 L396,332" fill="none" stroke="#B4485C" stroke-width="2.4" marker-end="url(#mr)"/>
+<path d="M175,332 L175,472 L396,472" fill="none" stroke="#B4485C" stroke-width="2.4" stroke-dasharray="6 4" marker-end="url(#mr)"/>
+<text x="190" y="164" font-size="12" text-anchor="start" font-weight="normal" fill="#B4485C">活化蝕骨細胞，釋出鈣與磷</text>
+<text x="190" y="180" font-size="12" text-anchor="start" font-weight="normal" fill="#B4485C">長期過多 → 骨質密度下降</text>
+<text x="190" y="304" font-size="12" text-anchor="start" font-weight="normal" fill="#B4485C">遠曲小管回收鈣 ↑</text>
+<text x="190" y="320" font-size="12" text-anchor="start" font-weight="normal" fill="#B4485C">近曲小管回收磷 ↓(排磷)</text>
+<text x="190" y="444" font-size="12" text-anchor="start" font-weight="normal" fill="#B4485C">間接：經活性維生素 D</text>
+<text x="190" y="460" font-size="12" text-anchor="start" font-weight="normal" fill="#B4485C">增加鈣、磷吸收</text>
+<text x="190" y="372" font-size="12" text-anchor="start" font-weight="bold" fill="#B4485C">活化維生素 D(1α-羥化酶)</text>
+<path d="M805,120 L805,192 L584,192" fill="none" stroke="#3A6EA5" stroke-width="2.4" marker-end="url(#mb)"/>
+<path d="M805,192 L805,332 L584,332" fill="none" stroke="#3A6EA5" stroke-width="2.4" marker-end="url(#mb)"/>
+<text x="790" y="164" font-size="12" text-anchor="end" font-weight="normal" fill="#3A6EA5">抑制蝕骨細胞</text>
+<text x="790" y="180" font-size="12" text-anchor="end" font-weight="normal" fill="#3A6EA5">鈣沉積到骨，骨密度 ↑</text>
+<text x="790" y="304" font-size="12" text-anchor="end" font-weight="normal" fill="#3A6EA5">增加鈣排出</text>
+<rect x="620" y="420" width="320" height="120" rx="10" fill="#FBF6E6" stroke="#C9A93D" stroke-width="1.5"/>
+<text x="780" y="444" font-size="14" text-anchor="middle" font-weight="bold" fill="#AD5C28">維生素 D 的活化</text>
+<text x="780" y="468" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">皮膚(紫外線)或食物 → 維生素 D₃</text>
+<text x="780" y="490" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">→ 肝臟：25-羥維生素 D</text>
+<text x="780" y="512" font-size="12" text-anchor="middle" font-weight="normal" fill="#26262B">→ 腎臟：1,25-雙羥維生素 D(骨化三醇)</text>
+<text x="780" y="532" font-size="11" text-anchor="middle" font-weight="normal" fill="#AD5C28">PTH 促進這一步；作用在腸道吸收鈣磷</text>
+<path d="M620,480 L584,472" fill="none" stroke="#AD5C28" stroke-width="2.4" marker-end="url(#mo)"/>
+<rect x="40" y="560" width="900" height="64" rx="10" fill="#F7F7F9" stroke="#D8D8DE"/>
+<text x="60" y="585" font-size="13" text-anchor="start" font-weight="bold" fill="#B4485C">結果：PTH、活性維生素 D → 血鈣 ↑；PTH 讓血磷 ↓(腎臟排磷)</text>
+<text x="60" y="608" font-size="13" text-anchor="start" font-weight="bold" fill="#3A6EA5">降鈣素 → 血鈣 ↓；副甲狀腺切除 → PTH 不足 → 低血鈣、高血磷、手足抽搐</text>
+</svg>

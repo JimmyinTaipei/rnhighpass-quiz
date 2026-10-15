@@ -79,7 +79,7 @@ references:
 | **mTOR 抑制劑** | **Sirolimus**(Rapamune)、everolimus | 抑制 **mTOR**，阻止 T 細胞進入細胞週期(G1 → S) | **傷口癒合延遲**、高血脂、口腔潰瘍、肺炎、骨髓抑制 |
 | **抗代謝藥** | **Mycophenolate mofetil**(CellCept) | 抑制**嘌呤(purine)生合成**(IMP 去氫酶)，淋巴球特別依賴此路徑 | 腸胃不適、腹瀉、**白血球低下**、**致畸胎**(需避孕) |
 | | **Azathioprine**(Imuran) | 轉成 6-MP，干擾嘌呤合成 | **骨髓抑制**、肝毒性；與 **allopurinol** 併用要大幅減量 |
-| **類固醇** | Prednisolone、methylprednisolone | 廣泛抑制發炎與淋巴球 | 感染、高血糖、**胃潰瘍**、骨質疏鬆、庫欣外觀、情緒改變 |
+| **類固醇** | Prednisolone、methylprednisolone | 廣泛抑制發炎與淋巴球 | 感染、高血糖、**胃潰瘍**、骨質疏鬆、庫欣外觀、情緒改變(見 [[corticosteroids]]) |
 | **抗體製劑** | 抗胸腺細胞球蛋白(ATG、ALG，多株抗體)、**basiliximab**(IL-2 受體)、**alemtuzumab**(抗 CD52 **人化單株抗體**) | 清除或阻斷 T 細胞；用於**誘導治療**或治療急性排斥 | ATG：**發燒、寒顫**、過敏、**血清病**、白血球與血小板低下(給藥前預防用藥)；增加感染 |
 | 烷基化劑 | **Cyclophosphamide** | 殺死增生的淋巴球 | 用於紅斑性狼瘡腎炎、多發性硬化症等**抑制免疫反應**；出血性膀胱炎(見 [[antineoplastics#alkylating]]) |
 

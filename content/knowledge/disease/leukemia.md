@@ -2,7 +2,7 @@
 title: 白血病
 subtitle: Leukemia(急性與慢性、淋巴性與骨髓性；成人與兒童)
 aliases: [白血病, 血癌, Leukemia, 急性淋巴性白血病, 急性淋巴母細胞性白血病, ALL, 急性骨髓性白血病, AML, 急性前骨髓細胞性白血病, APL, 慢性骨髓性白血病, CML, 慢性淋巴性白血病, CLL, 芽細胞, Blast, 費城染色體, Philadelphia chromosome, BCR-ABL, Imatinib, 骨髓抽吸, 骨髓穿刺, 誘導緩解, 鞘內注射, 中樞神經預防]
-dzTags: [白血病, 急性淋巴性白血病, 急性淋巴母細胞性白血病, 急性淋巴球性白血病, 急性骨髓性白血病, 急性白血病, 慢性骨髓性白血病, 慢性淋巴性白血病]
+dzTags: [白血病, 急性淋巴性白血病, 急性骨髓性白血病, 急性白血病, 慢性骨髓性白血病, 慢性淋巴性白血病]
 system: oncology
 alsoIn: [hematology-immunology]
 chapters:

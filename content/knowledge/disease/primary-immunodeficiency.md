@@ -89,6 +89,8 @@ references:
 4. **CGD** 的特點：**吞噬細胞吞下菌，但沒有活性氧殺死它**；**過氧化氫酶陽性菌**自己分解了過氧化氫，所以無法被吞噬細胞利用；**NBT 試驗**(染色不變色)與 **DHR 流式**是診斷
 5. **WAS** 的三聯症：**血小板減少、濕疹、免疫缺陷**
 
+- 性聯遺傳的規則見 [[genetic-inheritance#x-linked-recessive]]；迪喬治症候群的 22q11.2 缺失見 [[chromosomal-disorders#deletion-syndromes]]
+
 ## 續發性免疫缺陷 {#secondary}
 
 1. **原因**：**HIV**([[hiv-aids]])、**營養不良**、**糖尿病**、**癌症與化療**([[cancer-treatment-toxicities#neutropenia]])、**免疫抑制劑與類固醇**([[immunosuppressants]])、**脾臟切除**、**腎病症候群(丟失 IgG)**、老化、早產

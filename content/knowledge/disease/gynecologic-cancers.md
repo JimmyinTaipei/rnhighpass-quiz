@@ -2,7 +2,7 @@
 title: 婦科癌症
 subtitle: Gynecologic cancers(子宮頸癌、子宮內膜癌、卵巢癌、女陰癌與妊娠滋養層疾病)
 aliases: [婦癌, 子宮頸癌, Cervical cancer, 子宮頸抹片, Pap smear, 巴氏抹片, 陰道鏡, 子宮頸上皮內病變, CIN, 錐狀切除, HPV, 人類乳突病毒, HPV 疫苗, 子宮內膜癌, 子宮體癌, Endometrial cancer, 卵巢癌, Ovarian cancer, CA-125, 減積手術, 女陰癌, Vulvar cancer, 葡萄胎, Hydatidiform mole, 絨毛膜癌, Choriocarcinoma, 妊娠滋養層疾病, 根除性子宮切除術, 後荷式近接治療]
-dzTags: [子宮頸癌, 子宮內膜癌, 卵巢癌, 卵巢腫瘤, 女陰癌, 外陰癌, 陰道癌, 絨毛膜癌]
+dzTags: [子宮頸癌, 子宮內膜癌, 卵巢癌, 卵巢腫瘤, 外陰癌, 陰道癌, 絨毛膜癌]
 system: oncology
 alsoIn: [reproductive, infection]
 chapters:

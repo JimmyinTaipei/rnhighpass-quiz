@@ -19,6 +19,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 每寫完一篇就更新 knowledge-progress.md。
 
+**每輪開工前**先看 `docs/knowledge-roadmap.md`「跨輪移交清單」中移交給該輪的列，寫進該輪計畫；每輪收尾時把新的移交項目加進去。
+
 ## 寫作格式補充
 
 - **句尾不加句號**：每一行最後的「。」都省略(列點、段落、方塊皆同)。一行內有兩句以上時，句間的「。」保留當分隔，但盡量拆成兩個列點。

@@ -68,7 +68,7 @@ references:
 | **疥蟲** | 疥瘡 | **permethrin**、benzyl benzoate、crotamiton、口服 ivermectin |
 | 頭蝨 | 頭蝨 | permethrin 洗髮劑、細齒梳 |
 
-- 寄生蟲與病媒的病原體特性(生活史、傳染途徑、檢體收集)之後整理在病原體頁；本頁只談藥物。
+- 寄生蟲與病媒的病原體特性(生活史、傳染途徑、檢體收集)見 [[protozoa]]、[[helminths-ectoparasites]]；本頁只談藥物。
 
 ## 抗瘧疾藥物 {#antimalarials}
 

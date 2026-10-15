@@ -2,7 +2,7 @@
 title: 抗血小板藥
 subtitle: Antiplatelet agents(Aspirin、P2Y12 抑制劑、GP IIb/IIIa 抑制劑)
 aliases: [Aspirin, 阿斯匹靈, 阿斯匹林, ASA, Acetylsalicylic acid, Clopidogrel, Plavix, 保栓通, Ticagrelor, Brilinta, 百無凝, Prasugrel, Efient, Ticlopidine, Dipyridamole, Persantin, Cilostazol, Pletaal, Abciximab, Eptifibatide, Tirofiban, DAPT, 雙重抗血小板, P2Y12]
-dzTags: [心肌梗塞, 急性心肌梗塞, 冠狀動脈疾病, 心絞痛, 不穩定型心絞痛, 急性冠心症, 缺血性心臟病, 腦中風, 暫時性腦缺血發作, 川崎氏症, 雷氏症候群]
+dzTags: [心肌梗塞, 急性心肌梗塞, 冠狀動脈疾病, 心絞痛, 不穩定型心絞痛, 急性冠狀動脈症候群, 腦中風, 暫時性腦缺血發作, 川崎氏症, 雷氏症候群]
 system: hematology-immunology
 alsoIn: [cardiovascular]
 group: antithrombotics

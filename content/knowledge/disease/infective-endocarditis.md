@@ -2,7 +2,7 @@
 title: 感染性心內膜炎與心臟發炎疾病
 subtitle: Infective endocarditis, rheumatic heart disease, myocarditis and pericarditis(心內膜炎、風濕熱與風濕性心臟病、心肌炎、心包膜炎與心包填塞)
 aliases: [感染性心內膜炎, 細菌性心內膜炎, 心內膜炎, Infective endocarditis, IE, 亞急性細菌性心內膜炎, SBE, 急性細菌性心內膜炎, 贅生物, Vegetation, Duke 準則, Duke criteria, 奧斯勒氏結節, Osler nodes, 賈尼威病灶, Janeway lesions, 羅氏斑, Roth spots, 裂片狀出血, Splinter hemorrhage, 預防性抗生素, 風濕性心臟病, 風濕熱, 心肌炎, Myocarditis, 心包膜炎, 心包炎, Pericarditis, 心包膜摩擦音, 心包填塞, 心包膜填塞, Cardiac tamponade, 貝克氏三病徵, Beck triad, 奇異脈, Pulsus paradoxus, 心包膜穿刺術, 縮窄性心包炎]
-dzTags: [感染性心內膜炎, 心內膜炎, 亞急性細菌性心內膜炎, 風濕熱, 急性風濕熱, 風濕性心臟病, 心肌炎, 心包膜炎, 心包炎, 結核性心包炎, 心包填塞, 心包膜填塞, 心包膜積水]
+dzTags: [感染性心內膜炎, 亞急性細菌性心內膜炎, 風濕熱, 風濕性心臟病, 心肌炎, 心包膜炎, 結核性心包炎, 心包膜填塞, 心包膜積水]
 system: cardiovascular
 alsoIn: [infection]
 chapters:

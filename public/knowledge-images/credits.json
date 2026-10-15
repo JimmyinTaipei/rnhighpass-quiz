@@ -361,5 +361,197 @@
     "license": "原創",
     "sourceUrl": "",
     "modified": ""
+  },
+  "servier-pituitary.svg": {
+    "title": "Pituitary gland(SMART Endocrinology)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 3 右圖)，移除背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "hypothalamic-nuclei.svg": {
+    "title": "下視丘常考核區與腦下垂體(正中矢狀切面示意)",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "endocrine-glands-overview.svg": {
+    "title": "全身主要內分泌腺的位置",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "hormone-feedback-axes.svg": {
+    "title": "下視丘－腦下垂體－標的腺的負回饋軸",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-thyroid.svg": {
+    "title": "Thyroid gland front and posterior view(SMART Endocrinology)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 5)，移除英文標籤、指標線、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-adrenal-kidney.svg": {
+    "title": "Kidney with adrenal gland, longitudinal section(SMART Endocrinology)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 6)，移除英文標籤、指標線、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-adrenal-layers.svg": {
+    "title": "Adrenal gland cell types(SMART Endocrinology)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 8 左圖)，移除英文標籤、指標線、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "calcium-regulation.svg": {
+    "title": "血鈣調節：副甲狀腺素、降鈣素與活性維生素 D",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-goiter.svg": {
+    "title": "Thyroid diseases(SMART Endocrinology)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 13，裁掉左下角小圖)，移除英文標籤、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-thyroid-cancer.svg": {
+    "title": "Thyroid cancer(SMART Endocrinology)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 14)，移除英文標籤、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "cell-adaptation.svg": {
+    "title": "細胞適應(肥大、增生、萎縮、化生)與異生",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "cell-injury-death.svg": {
+    "title": "細胞傷害：可逆性傷害、壞死與凋亡",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-venous-thrombosis.svg": {
+    "title": "靜脈血栓形成與栓子脫落",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(SMART-Veins.pptx 投影片 34)，移除背景與英文標籤，中文標籤另疊加",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "servier-thrombus-infarct.svg": {
+    "title": "血栓位置與下游梗塞",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(SMART-Arteries-atherothrombosis.pptx 投影片 18)，移除背景與英文標籤，中文標籤另疊加",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "servier-edema-capillary.svg": {
+    "title": "微血管與水腫形成",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(SMART-Veins.pptx 投影片 31)，移除背景與英文標籤，中文標籤另疊加",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "starling-edema.svg": {
+    "title": "微血管的液體交換(Starling 力)與水腫的四個機轉",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "virchow-triad.svg": {
+    "title": "Virchow 三要素：血栓形成的三個條件",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "embolism-routes.svg": {
+    "title": "栓子的來源與去向",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-karyotype.svg": {
+    "title": "正常男性核型(46,XY)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(SMART-Genetics.pptx 投影片 3)，移除標題與背景；中文標籤另以疊加層顯示"
+  },
+  "pedigree-ad.svg": {
+    "title": "體染色體顯性遺傳的家族譜系",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "pedigree-ar.svg": {
+    "title": "體染色體隱性遺傳的家族譜系",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "pedigree-xr.svg": {
+    "title": "X 性聯隱性遺傳的家族譜系",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "pedigree-xd.svg": {
+    "title": "X 性聯顯性遺傳的家族譜系",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "pedigree-mito.svg": {
+    "title": "粒線體遺傳的家族譜系",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "nondisjunction.svg": {
+    "title": "減數分裂不分離造成三體症與單體症",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "burn-depth.svg": {
+    "title": "燒傷深度分級與皮膚分層",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
   }
 }

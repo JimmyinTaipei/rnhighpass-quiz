@@ -2,7 +2,7 @@
 title: 巴金森氏症
 subtitle: Parkinson's disease — dopamine loss, cardinal motor signs, non-motor symptoms and nursing; Huntington's disease
 aliases: [巴金森氏症, 巴金森氏病, 帕金森氏症, 帕金森氏病, 巴金森症, Parkinson's disease, Parkinson disease, PD, 巴金森症候群, 帕金森氏症候群, Parkinsonism, 次發性巴金森症, 藥物引起的巴金森症, 錳中毒, Manganism, 靜止性顫抖, 搓丸樣顫抖, Resting tremor, Pill-rolling tremor, 齒輪狀僵硬, Cogwheel rigidity, 動作遲緩, Bradykinesia, 姿勢不穩, Postural instability, 慌張步態, Festinating gait, 小碎步, 面具臉, Masked face, 小字症, Micrographia, 凍結步態, Freezing, 路易氏體, Lewy body, 黑質, Substantia nigra, 深部腦刺激術, DBS, Deep brain stimulation, 亨丁頓舞蹈症, 亨汀頓舞蹈症, Huntington's disease, 舞蹈症, Chorea]
-dzTags: [巴金森氏症, 亨丁頓舞蹈症]
+dzTags: [巴金森氏症, 亨丁頓氏舞蹈症]
 system: neuro
 alsoIn: [psychiatric]
 chapters:
@@ -113,6 +113,8 @@ references:
 - 表現：**舞蹈樣不自主動作**(與巴金森氏症的動作減少相反)、人格與情緒改變、憂鬱與自殺風險、**失智**；病理是紋狀體的**尾狀核與殼核**神經元退化
 - 沒有根治方法；遺傳諮詢很重要
 - 孕婦帶有亨丁頓舞蹈症基因時，依《優生保健法》屬於「有礙優生之遺傳性疾病」，**可依自願施行人工流產**
+
+- 體染色體顯性遺傳的規則與預期現象見 [[genetic-inheritance#autosomal-dominant]]
 
 ::questions{ids="106-2_makeup_OP_010,109-2_BM_039"}
 

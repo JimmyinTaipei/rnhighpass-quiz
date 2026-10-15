@@ -2,7 +2,7 @@
 title: 念珠菌
 subtitle: Candida(白色念珠菌；鵝口瘡、念珠菌陰道炎、念珠菌血症)
 aliases: [念珠菌, 念珠球菌, 白色念珠菌, 白色念珠球菌, Candida, Candida albicans, C. albicans, 克魯斯念珠菌, Candida krusei, 光滑念珠菌, Candida glabrata, 耳念珠菌, Candida auris, 念珠菌症, Candidiasis, 鵝口瘡, Thrush, 口腔念珠菌, 念珠菌陰道炎, 念珠菌血症, 擴散性念珠菌症, 萌芽管, Germ tube, 假菌絲, 念珠菌呈色培養基, CHROMagar]
-dzTags: [念珠菌感染, 念珠菌病, 鵝口瘡, 黴菌感染]
+dzTags: [念珠菌感染, 鵝口瘡, 黴菌感染]
 system: infection
 group: fungi-parasites
 chapters:

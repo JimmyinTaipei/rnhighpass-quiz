@@ -1,0 +1,56 @@
+{
+ "image": "servier-adrenal-layers.svg",
+ "_說明": "腎上腺由外(上)到內(下)：被膜、絲球帶、束狀帶、網狀帶、髓質",
+ "labels": [
+  {
+   "id": "capsule",
+   "zh": "被膜",
+   "en": "Capsule",
+   "x": 40,
+   "y": 2,
+   "tx": 20,
+   "ty": 3,
+   "align": "end"
+  },
+  {
+   "id": "glomerulosa",
+   "zh": "絲球帶：醛固酮",
+   "en": "Zona glomerulosa",
+   "x": 62,
+   "y": 10,
+   "tx": 76,
+   "ty": 9,
+   "align": "start"
+  },
+  {
+   "id": "fasciculata",
+   "zh": "束狀帶(最厚)：皮質醇",
+   "en": "Zona fasciculata",
+   "x": 62,
+   "y": 35,
+   "tx": 76,
+   "ty": 35,
+   "align": "start"
+  },
+  {
+   "id": "reticularis",
+   "zh": "網狀帶：雄性素",
+   "en": "Zona reticularis",
+   "x": 62,
+   "y": 65,
+   "tx": 76,
+   "ty": 63,
+   "align": "start"
+  },
+  {
+   "id": "medulla",
+   "zh": "髓質：腎上腺素",
+   "en": "Medulla",
+   "x": 50,
+   "y": 85,
+   "tx": 76,
+   "ty": 86,
+   "align": "start"
+  }
+ ]
+}

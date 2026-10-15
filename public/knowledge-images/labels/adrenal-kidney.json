@@ -1,0 +1,56 @@
+{
+ "image": "servier-adrenal-kidney.svg",
+ "_說明": "左圖腎臟與上方的腎上腺，右圖腎上腺縱切面",
+ "labels": [
+  {
+   "id": "adrenal",
+   "zh": "腎上腺",
+   "en": "Adrenal gland",
+   "x": 27,
+   "y": 12,
+   "tx": 14,
+   "ty": 8,
+   "align": "end"
+  },
+  {
+   "id": "kidney",
+   "zh": "腎臟",
+   "en": "Kidney",
+   "x": 20,
+   "y": 60,
+   "tx": 10,
+   "ty": 62,
+   "align": "end"
+  },
+  {
+   "id": "ureter",
+   "zh": "輸尿管",
+   "en": "Ureter",
+   "x": 37,
+   "y": 85,
+   "tx": 45,
+   "ty": 90,
+   "align": "start"
+  },
+  {
+   "id": "cortex",
+   "zh": "皮質(外層)",
+   "en": "Cortex",
+   "x": 74,
+   "y": 22,
+   "tx": 56,
+   "ty": 12,
+   "align": "end"
+  },
+  {
+   "id": "medulla",
+   "zh": "髓質(內層)",
+   "en": "Medulla",
+   "x": 76,
+   "y": 45,
+   "tx": 56,
+   "ty": 45,
+   "align": "end"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "image": "servier-venous-thrombosis.svg",
+ "_說明": "上：正常靜脈血流與靜脈瓣；中：瓣膜後方血流停滯處形成血栓；下：血栓的一部分脫落成為栓子",
+ "labels": [
+  {
+   "id": "valve",
+   "zh": "靜脈瓣",
+   "en": "Venous valve",
+   "x": 21,
+   "y": 8,
+   "tx": 40,
+   "ty": 4,
+   "align": "start"
+  },
+  {
+   "id": "flow",
+   "zh": "正常血流方向",
+   "en": "Normal blood flow",
+   "x": 45,
+   "y": 17,
+   "tx": 60,
+   "ty": 30,
+   "align": "start"
+  },
+  {
+   "id": "thrombus",
+   "zh": "血流停滯處形成血栓",
+   "en": "Thrombus",
+   "x": 45,
+   "y": 48,
+   "tx": 18,
+   "ty": 63,
+   "align": "start"
+  },
+  {
+   "id": "embolus",
+   "zh": "脫落成栓子 → 隨靜脈回流到肺",
+   "en": "Embolus",
+   "x": 82,
+   "y": 84,
+   "tx": 40,
+   "ty": 98,
+   "align": "start"
+  }
+ ]
+}

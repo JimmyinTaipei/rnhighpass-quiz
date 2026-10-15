@@ -171,6 +171,7 @@ references:
 | 自主神經與情緒 | 壓力時啟動交感神經與 **HPA 軸**(下視丘－腦下垂體－腎上腺)，見 [[neurotransmitters-psychiatry#hpa-axis]] |
 
 - **呼吸節律**由**延腦與橋腦**控制，**不是**下視丘
+- 各核區的位置示意圖與激素對照見 [[hypothalamus-pituitary#nuclei]]
 
 ### 體溫調節的機轉 {#thermoregulation}
 

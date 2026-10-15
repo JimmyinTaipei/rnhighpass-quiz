@@ -5,6 +5,178 @@
 
 ## 目前輪次
 
+- **輪次**：第 5 輪 病理總論＋遺傳疾病總整理(病理 Ch01 12、Ch03 38、Ch06 31、Ch07 19，共約 100 題未涵蓋；加上各科同標籤題與遺傳疾病跨科題，約 180–200 題)；5-0＋A–E 組、8 篇新頁
+- **狀態**：**第 5 輪全部完成(2026-10-15)**：5-0＋A–E、8 篇；病理 Ch01、03、06、07 100%；Supabase 已寫回、**workers.dev 已部署(2026-10-15，版本 434a028f；第一次因硬碟滿失敗，使用者清出空間後重跑成功)**；使用者已看過圖與內容(只補兩個待核對數字)；**下一輪第 6 輪呼吸**(開工前先對 roadmap「跨輪移交清單」，含呼吸標籤合併、肺栓塞臨床處置)
+- **使用者決定(2026-10-15)**：
+  1. 標籤寫回 Supabase：**第 5 輪病理全部結束後再一起寫回**
+  2. 遺傳譜系圖**依遺傳模式分開**(每個模式一張，放在對應段落)
+  3. 壞死型態、Punnett 方格、維生素缺乏**用表格**，不畫圖
+  4. 燒傷深度圖**本輪先畫**，第 14 輪共用
+  5. 「院內感染」改為疾管署用詞「**醫療照護相關感染**」(已改 19 題，`2026-10-15_hai_rename.jsonl`)
+  6. 圖片照 B＋C＋D(第 4 輪)做法：先做好放進頁面、標「待使用者確認」，使用者起床再一起看
+- **分類**：taxonomy 新增跨系統 domain `general-pathology`(病理總論與遺傳)，groups：pathology-basics(physiology)、genetics(physiology)、genetic-disorders(disease)
+- **第 4 輪**：全部完成、Supabase 已寫回、workers.dev 已部署(2026-10-14，版本 94a642c0)；舊的目前輪次內容移到下方「第 4 輪摘要」
+- **使用者決定(2026-10-14)**：
+  1. 範圍界線照提案(休克、血友病等血液疾病、燒傷、中毒、維生素、唐氏症產前篩檢)，**移交項目已寫進 roadmap「跨輪移交清單」，每輪開工前要對一次，不可漏做**
+  2. **遺傳疾病要跨科整理**：單基因為主、加少數常見多因子遺傳，補上依遺傳模式的分類架構；盤點見 [sources/genetic-disorders-inventory.md](sources/genetic-disorders-inventory.md)
+  3. 沒有中文病理國考書；Robbins 9th(國考書資料夾)只參考，考點以題庫本身為準
+  4. **標籤合併改為先補前幾輪沒合併過的系統**(使用者 2026-10-14)：癌症、感染(微免)，精神只補待決定項目；沒有標籤的題目要補標；呼吸改到第 6 輪自己處理
+
+## 第 5 輪步驟
+
+| 步 | 內容 | 狀態 |
+|---|---|---|
+| 5-0a | 病理總論＋遺傳疾病跨科＋**癌症＋感染**＋精神補合併：04／05 同步改 **337 題**(合併＋補標 19 題)，逐題記在題目修正紀錄；對照與決定見 [tag-merge-round5.md](tag-merge-round5.md)；`apply_tag_merge.py` 新增 `add` 欄位；4 頁 dzTags／`::questions` 補標準名；build 通過、涵蓋 5155/8960 不變；遺傳盤點已更正誤判(SMA 實際 1 題、雷特氏症 0 題) | ✅ 2026-10-14(**Supabase 寫回待使用者決定**；第五節 3 項待決定) |
+| 5-0b | 圖片盤點 [sources/pathology-images.md](sources/pathology-images.md)：看過 Servier 7 套(Genetics、Veins、Atherothrombosis、Tissues、Intracellular、Nucleic-acids、Cell-membrane)，縮圖在 scratchpad `servier5/`；候選 19 張(Servier 8 張：化生、水腫、靜脈血栓、動脈血栓、梗塞、核型、染色體與對偶基因；原創 9 張：細胞適應、傷害壞死凋亡、Starling、休克分期、Virchow、栓塞路徑、不分離、譜系、Punnett；表格 2)；3 個待決定 | ✅ 2026-10-14(**等使用者看清單**；轉檔與標籤在各組寫頁時做，先截圖確認) |
+| 5-0c | 來源包 [sources/pathology-general.md](sources/pathology-general.md)：確認**國健署 2026-06-26：2026-07-01 起新生兒公費篩檢 22 項(加 SMA)、全額 750 元；產前遺傳診斷最高 7,000 元**；優生保健法仍是現行法名(改名草案未見三讀，寫頁時再查)；熱傷害依國健署；一氧化碳、鉛、輻射、罕病名單、DRIs 列為寫頁時查；新舊說法表；pediatric-endocrine 已把 21 項改為 21→22 項並附新聞稿 | ✅ 2026-10-14 |
+| A | `physiology/cell-injury-adaptation`(Ch01 全部 H2；收 Ch01 未收 12 題＋跨科 3 題：106-2_makeup_BM_017 凋亡溶小體、106-2_makeup_BM_018 屍僵 ATP、106-2_BM_042 巴瑞特腸化生；已在別頁的題目不重收，改用連結)；圖：原創 cell-adaptation.svg、cell-injury-death.svg(**待使用者確認**)；Servier 化生圖改由原創圖的化生格取代；壞死型態用表格；taxonomy 新增 general-pathology | ✅ 2026-10-15 |
+| B | `physiology/edema-shock`(水腫機轉、腎病與肝硬化水腫、充血鬱血、休克分類／代償／分期、ATLS 失血分級；32 題)、`physiology/thrombosis-embolism-infarction`(止血、Virchow、靜脈血栓、DIC、栓塞含脂肪／氣體／羊水、紅白梗塞；24 題)；收 Ch03 未收 38 題＋跨科休克、DIC、脂肪栓塞、腹水機轉題；**休克護理(保溫、燒傷補液)、腹水護理、DVT 護理不收**(留第 15、11 輪)；109-1_BM_033 國考答案「心因性」與現行「阻塞性」並列說明；圖：原創 starling-edema、virchow-triad、embolism-routes，Servier venous-thrombosis、thrombus-infarct、edema-capillary＋labels(**待使用者確認**)；休克分期用表格不畫圖 | ✅ 2026-10-15 |
+| C | `physiology/genetic-inheritance`(名詞、五種模式各一張譜系圖、多因子、遺傳性腫瘤、遺傳諮詢與優生保健法第 9 條、**全部遺傳疾病分類總表**)、`disease/chromosomal-disorders`(不分離、唐氏、三體 18／13、透納、柯林菲特、巴氏體、缺失症候群、X 脆折)、`disease/single-gene-disorders`(AR／AD／X 性聯分節，共 18 種)；收 Ch06 全部＋跨科遺傳題約 40 題；**產前篩檢方法、血友病照護、幽門狹窄／唇顎裂／髖關節照護不收**(第 16、12、11、14 輪)；圖：原創 pedigree-ad／ar／xr／xd／mito、nondisjunction，Servier karyotype＋labels(**待使用者確認**)；涵蓋 Ch01、Ch03、Ch06 都 100%，全部 5275/8960 | ✅ 2026-10-15 |
+| D | `physiology/environmental-injury`(輻射與防護、紫外線、熱傷害四型、燒傷深度、CO、鉛、重金屬與水汙染、菸、酒、PM 與塵肺；約 28 題)、`physiology/nutritional-disorders`(消瘦症與紅孩兒病、脂溶性與水溶性維生素總表、肥胖；5 題)；**惡性貧血、素食孕婦營養、營養評估與 TPN、冷療傷害不收**(第 12、16、10 輪)；圖：原創 burn-depth.svg(**待使用者確認**)；**病理 Ch01、Ch03、Ch06、Ch07 全部 100%**；病理 61% → 79%；全部 5155 → 5309/8960 | ✅ 2026-10-15 |
+| E | 收尾：使用者提供資料更新 CO 半衰期(台灣急診醫學通訊 2019：室內空氣 250–320 分、100% 氧 90 分、高壓氧 20–30 分)與海洋性貧血帶因率(衛福部 2017：約 6%、甲型較多)，8 篇已無待核對；16 頁回補連結(sepsis、hypotension、anticoagulants、thrombolytics、inflammation-repair、neoplasia、pediatric-endocrine、primary-immunodeficiency、intellectual-disability、pediatric-cancers、end-of-life-care、heart-failure、alcohol-use-disorder、special-senses、parkinson-disease、complete-blood-count)；跨輪移交清單新增 6 列；**Supabase 已寫回**(刪 343 筆舊 question_tags、清 51 處舊名)；resolver、export、source-scan、image-license-review(79 張、需替換 0)；**涵蓋 5322/8960**；部署 workers.dev | ✅ 2026-10-15 |
+
+## 第 5 輪：使用者確認紀錄(2026-10-15，已確認)
+
+1. **新圖共 17 張，全部待確認**(已放進頁面)
+   1. 原創：cell-adaptation、cell-injury-death、starling-edema、virchow-triad、embolism-routes、pedigree-ad／ar／xr／xd／mito、nondisjunction、burn-depth
+   2. Servier＋中文標籤：servier-edema-capillary、servier-venous-thrombosis、servier-thrombus-infarct、servier-karyotype(標籤已用格線核對，venous-thrombosis 已在本機頁面截圖確認)
+   3. 休克分期、壞死型態、Punnett、維生素用表格(使用者決定)；Servier 化生圖改由原創圖的化生格取代
+2. **內容上要使用者知道的判斷**
+   1. 109-1_BM_033 肺栓塞致死，國考答案「心因性休克」；頁面同時寫現行分類「阻塞性休克」與作答原則
+   2. 112-1_MS_017 脂肪栓塞時間：國考答案認為「72 小時」錯、多在 24–48 小時；頁面寫「24–72 小時內、多數 24–48 小時」
+   3. ATLS 失血分級表的心跳、呼吸數值是第 9 版；第 10 版改用趨勢描述，頁面已註明
+   4. 優生保健法第 9 條已依全國法規資料庫原文改寫(最新修正 2009-07-08)
+3. **待核對**(寫進頁面的)：一氧化碳 COHb 半衰期數值、台灣海洋性貧血帶因率
+4. 新增 taxonomy domain `general-pathology`(病理總論與遺傳)：側欄會多一個跨系統分類
+
+## E 組待做(收尾，✅ 2026-10-15 已完成)
+
+1. 回補連結：sepsis、hypotension(#shock)、anticoagulants、thrombolytics、inflammation-repair、neoplasia(#abnormal-growth 連 cell-injury-adaptation)、pediatric-endocrine(#inborn-errors 連 single-gene-disorders)、primary-immunodeficiency、intellectual-disability(唐氏症、X 脆折)、pediatric-cancers、end-of-life-care(#postmortem-changes 連屍僵機轉)、heart-failure(#edema-mechanism 連 edema-shock)、alcohol-use-disorder(連 environmental-injury#alcohol)
+2. 跨輪移交清單：第 5 輪各列確認寫入；新增「惡性貧血(12)、素食孕婦營養(16)、冷療組織傷害(10)、DVT 臨床照護與肺栓塞(6、15)、產前篩檢題 8 題(16)」
+3. 跑 resolver、export_knowledge_questions(需 Supabase；寫回後再跑)
+4. 列第 5 輪需確認清單
+5. 問使用者：5-0a＋改名共 356 題標籤寫回 Supabase
+
+## 第 4 輪摘要(已完成)
+
+- **輪次**：第 4 輪 內分泌與代謝(約 410 題未涵蓋：內外 Ch08 138、生解 Ch12 103、藥理 Ch10 95、兒科 Ch15 43、病理 Ch16 22、第 3 輪留下腦下垂體 9 題)；4-0 準備＋A–J 組、約 21 篇新頁＋3 篇補充
+- **計畫檔**：`~/.claude/plans/supabase-golden-brook.md`(範圍表、標籤同義組初稿、頁面分組、第 5–7 輪接續)
+- **狀態**：計畫已核准(2026-10-14)；第 3 輪 Supabase 寫回已由另一個 agent 完成；**4-0、A–D 組完成(2026-10-14)；B＋C＋D 連續執行完畢，等使用者回家確認圖與下方清單；E–G 組也完成；使用者再說「再生成三輪，到結尾前一輪」→ H、I 也完成；**J 組收尾也完成(使用者說「開始製作」)→ **第 4 輪內容全部完成，內分泌 5 章 100%**；BCD 圖使用者已確認；補合併 7 題已套用(愛迪生氏危機保留子類型)；**4-0a＋補合併已寫回 Supabase 並清掉舊名(2026-10-14)**；**已部署 workers.dev(2026-10-14，版本 94a642c0)**；下一輪第 5 輪病理總論**
+- **使用者決定(2026-10-14)**：
+  1. 性激素、避孕藥、更年期荷爾蒙療法的藥物頁放本輪；家庭計畫護理與避孕方式比較留第 16 輪產科
+  2. 鈣磷調節與骨鈣藥放本輪；骨質疏鬆疾病頁留第 14 輪肌骨
+  3. 第 6 輪呼吸器、胸管等器材頁：沒有重症課本，用公開資料先寫，數字標待核對
+  4. **4-0a 標籤合併加入心血管**；之後每輪的標籤合併都另外加一個前面沒合併過的系統
+- **本週目標**：第 4 輪做完，視額度接第 5 輪病理總論、第 6 輪呼吸、第 7 輪社區 A
+
+## 第 4 輪步驟
+
+| 步 | 內容 | 狀態 |
+|---|---|---|
+| 4-0a | 內分泌＋心血管同義標籤合併：04／05 同步改 267 題(內分泌 113、心血管 154)，逐題記在題目修正紀錄；對照與決定見 `docs/tag-merge-endocrine.md`、`docs/tag-merge-cardio.md`；備份 `_archive/backup_20261014_endo_cardio_tags_04／05`；`apply_tag_merge.py` 改為可讀多個對照表，並處理重複題 tag 欄黏著 `master_id:` 行的問題；taxonomy 新增 pituitary-drugs、sex-hormones、bone-calcium-drugs；5 頁 dzTags 與 2 個 `::questions` 補標準名；build 通過、涵蓋 4780/8960 不變 | ✅ 2026-10-14(**Supabase 寫回待使用者決定**；寫回後依兩份 tag-merge 檔最後一節收尾，再重跑 resolver 與 export) |
+| 4-0b | 圖片盤點 `docs/sources/endocrine-images.md`：Servier SMART-Endocrinology.pptx(14 張)與 SMART-Diabetes.pptx(13 張)，圖上無文字、全向量、CC BY 4.0；選 9 張(腦下垂體、甲狀腺前後、腎上腺與腎、皮質三層、胰島、甲狀腺腫、甲狀腺癌、糖尿病足、單股尼龍線)；原創 3–4 張(全身內分泌腺、回饋軸、鈣磷調節、ADH 待決定)；RAAS、腦矢狀切面、視覺徑路沿用 | ✅ 2026-10-14(使用者確認 #1–#12；另加 #14 下視丘核區原創圖；ADH 圖預設用表格) |
+| 4-0c | 來源包 `docs/sources/endocrine.md`：確認 ATA 2016 甲亢、2025 分化型甲狀腺癌(不再涵蓋結節)、2022 尿崩症改名 AVP-D／AVP-R、2025 原發性醛固酮症(所有高血壓篩檢)、2024 類固醇腎上腺功能不全、2023 泌乳素瘤共識、2024 高血糖危象共識、NAMS 2022、US MEC 2024；新舊說法表 10 項；待查：新生兒篩檢完整項目、放射碘出院規定(核安會研析中)、骨鬆學會最新版 | ✅ 2026-10-14 |
+| A | physiology/endocrine-overview(32 題)、physiology/hypothalamus-pituitary(35 題)；taxonomy 新增 endocrine-physiology 組；圖：servier-pituitary＋labels/pituitary.json、原創 hypothalamic-nuclei(使用者要求，位置參考使用者提供的核區圖)、endocrine-glands-overview(頭部側面、標前後)、hormone-feedback-axes；生解 Ch12 總論、松果腺、性腺與其他 100%，下視丘與腦下垂體 38/41(剩 3 題留 C 組)；綜合題型骨密度 2 題留 B 組 | ✅ 2026-10-14 |
+| B | physiology/thyroid-parathyroid(29 題)、physiology/adrenal-glands(21 題)；圖 servier-thyroid、servier-adrenal-kidney、servier-adrenal-layers＋labels、原創 calcium-regulation(**待使用者確認**)；生解 Ch12 甲狀腺與副甲狀腺、腎上腺、綜合 100%(Ch12 整章 95%)；A 組 endocrine-overview 的鈣磷連結已回補 | ✅ 2026-10-14 |
+| C | disease/pituitary-disorders(18 題)、disease/diabetes-insipidus-siadh(27 題)；內外 Ch08 腦下垂體與下視丘 38/38、病理 Ch16 腦下垂體 5/5、**內外 Ch15 221/221(第 3 輪留下的腦下垂體題全收)**；回補連結：hypothalamus-pituitary(3 處)、brain-tumors(2)、head-injury、special-senses；無新圖 | ✅ 2026-10-14 |
+| D | disease/hyperthyroidism(25 題)、disease/hypothyroidism(10 題)、disease/thyroid-nodules-cancer(6 題，oncology)；圖 servier-goiter、servier-thyroid-cancer＋labels(**待使用者確認**)；endocrine-overview 加 PCOS 1 題；內外 Ch08 甲狀腺與副甲狀腺 39/51(剩 12 題副甲狀腺留 E 組)、病理 Ch16 甲狀腺 7/7；thyroid-parathyroid 的疾病連結已回補 | ✅ 2026-10-14 |
+| E | disease/parathyroid-disorders(22 題)、lab/calcium-phosphate(25 題，renal 的 acid-base-labs)、lab/thyroid-function-tests(9 題，新 group endocrine-labs)；內外 Ch08 甲狀腺與副甲狀腺 **51/51**；hyperthyroidism、thyroid-parathyroid 的純文字已改連結；沒有新圖 | ✅ 2026-10-14 |
+| F | disease/cushing-syndrome(13 題，含腎上腺切除術)、disease/adrenal-insufficiency(13 題，含危象、生病日規則、類固醇減量)、disease/pheochromocytoma-aldosteronism(16 題，alsoIn cardiovascular)；內外 Ch08 腎上腺 **29/29**、病理 Ch16 腎上腺 7/7(胰島剩 107-2_BM_035、105-2_BM_048 留 I 組)；dzTags 先把庫辛氏／康氏等舊名一起列；adrenal-glands、pituitary-disorders、hypertension 已回連；沒有新圖 | ✅ 2026-10-14 |
+| G | drug/thyroid-drugs(26 題)、drug/corticosteroids(20 題，含效價表、壓力劑量、抑制劑)、drug/pituitary-hormones(22 題，含催產素引產監測)；藥理 Ch10 腦下垂體 **21/21**、甲狀腺 **19/19**、類固醇 18/20(剩 CAH 2 題留 I 組)；7 處「之後整理在…藥物頁」已改連結；沒有新圖 | ✅ 2026-10-14 |
+| H | drug/sex-hormones(28 題：雌激素與黃體素、荷爾蒙避孕與 CDC US MEC 2024 禁忌、事後避孕與 RU486、更年期荷爾蒙療法依 NAMS 2022、SERM、抗雄性素、不孕症用藥)、drug/bone-calcium-drugs(16 題：雙磷酸鹽服法、denosumab、teriparatide、鈣與維生素 D)；pituitary-hormones 加麥角鹼與前列腺素子宮收縮劑(7 題)；藥理 Ch10 性激素 **33/33**、骨鈣 **6/6**；taxonomy sex-hormones 加避孕用藥、不孕症用藥、荷爾蒙製劑；沒有新圖 | ✅ 2026-10-14 |
+| I | disease/pediatric-endocrine(30 題：新生兒篩檢、先天性甲低、CAH、性早熟、先天代謝異常、兒童甲狀腺與副甲狀腺、兒童糖尿病、兒童肥胖)、care/chronically-ill-children(9 題)；補既有頁：diabetes(+28 題 ids)、insulin(+7)、glucose-homeostasis(+4，加胰臟外分泌與體制素、升糖素作用在肝)、hba1c(+1)；5 處「之後整理在兒童內分泌頁」已改連結；**內分泌 5 章全部 100%**(生解 Ch12 129/129、病理 Ch16 29/29、藥理 Ch10 138/138、內外 Ch08 240/240、兒科 Ch15 53/53)；全部 5154/8960；沒有新圖 | ✅ 2026-10-14 |
+| J | 收尾：依使用者提供資料更新(ulipristal 台灣有上市；RU486 依臺北榮總衛教 7 週內；teriparatide 健保 5.6.2 與郭綜合醫院藥品資訊；2025 台灣骨鬆指引更新鈣 1200／1000 mg、維生素 D 800 IU、降鈣素鼻噴劑 2013 停用、藥物假期、牙科時機、接續療法；Pitressin 為台灣現有的水溶性 vasopressin)；回補連結 brain-anatomy、increased-icp、loop-diuretics、potassium-sparing-diuretics、eye-disorders、immunosuppressants、asthma-drugs、brain-tumors，另清掉其他輪 6 處舊純文字；diabetes 認領「高血糖高滲透壓狀態」「糖尿病足」、pituitary-drugs 認領子宮收縮劑各寫法；所有留給後面組的題目已確認涵蓋；涵蓋 5154/8960、image-license-review 63 張需替換 0 | ✅ 2026-10-14 |
+
+## B＋C＋D 連續執行計畫(2026-10-14 使用者外出時做)
+
+> 使用者要求 B、C、D 三組一次做完，**中間不用等「下一輪」**；**圖片先做好、放進頁面，標「待使用者確認」，回家再一起看**(這次例外，不等確認才寫頁)
+> 每寫完一篇就更新本檔(額度用完時下個 session 從這裡接)；每組結束跑一次 build、resolver、export、source-scan、涵蓋報告
+
+### 範圍與題目分配
+
+| 組 | 頁面 | 收題來源(題數) | 圖 |
+|---|---|---|---|
+| B | `physiology/thyroid-parathyroid` | 生解 Ch12 甲狀腺與副甲狀腺 27(功能與異常 12、副甲狀腺異常 5、甲狀腺構造 5、副甲狀腺構造 5)＋綜合題型骨密度 2(112-3_BM_016、105-2_MS_019) | servier-thyroid(前後兩圖，標左右葉、峽部、副甲狀腺)；原創 calcium-regulation(PTH、降鈣素、活性維生素 D 對骨腎腸) |
+| B | `physiology/adrenal-glands` | 生解 Ch12 腎上腺 21(構造 2、皮質激素 15、壓力反應 3、髓質 1) | servier-adrenal-kidney、servier-adrenal-layers(皮質三層＋髓質)；RAAS 沿用 raas-drug-sites.svg |
+| C | `disease/pituitary-disorders` | 內外 Ch08 前葉疾病 17＋第 3 輪留下 9 題(內外 Ch15 腦瘤 6、生解 Ch06 視交叉 3)＋A 組留下 2 題(107-2_MS_076、105-2_MS_073)＋病理 Ch16 前葉 3＋兒科腦下腺 2 | 不新做；沿用 servier-pituitary、servier-brain-sagittal、visual-pathway |
+| C | `disease/diabetes-insipidus-siadh` | 內外 Ch08 後葉疾病 24＋108-1_MS_059＋病理 Ch16 後葉 2；含 112-1_OP_070 兒童禁水試驗 | 不畫圖，用比較表(4-0b 預設) |
+| D | `disease/hyperthyroidism` | 內外 Ch08 甲亢與甲狀腺風暴 22＋病理甲亢 | servier-goiter(正常 vs 甲狀腺腫) |
+| D | `disease/hypothyroidism` | 內外 Ch08 甲低、甲狀腺炎 13 的一部分＋病理甲低 | 沿用 servier-goiter |
+| D | `disease/thyroid-nodules-cancer` | 內外甲狀腺腫瘤＋病理甲狀腺腫瘤 5(oncology，alsoIn endocrine) | servier-thyroid-cancer |
+
+**不在這次**：內外副甲狀腺疾病 16 題(E 組 parathyroid-disorders)；兒科甲狀腺 17 題與先天性甲狀腺低下(I 組 pediatric-endocrine)；藥理 Ch10 的純藥理題(G 組藥物頁)；腎上腺疾病(F 組)
+
+### 事先定好的做法(不用等使用者)
+
+1. **題目歸屬**：問疾病、症狀、護理的放疾病頁；只問藥理機轉或副作用的留給 G 組藥物頁；同一題不重複放兩頁(用連結)
+2. **甲狀腺切除術**的術前準備、術後併發症(出血與呼吸道、喉返神經、低血鈣與手足抽搐、甲狀腺風暴)寫在 hyperthyroidism；thyroid-nodules-cancer 連過去；低血鈣的詳細機轉留 E 組
+3. **甲狀腺風暴**寫在 hyperthyroidism；**黏液水腫昏迷**寫在 hypothyroidism；先天性甲狀腺低下只寫一段並說明之後在兒童內分泌頁
+4. **尿崩症名稱**：標題用尿崩症，括號附 2022 新名 AVP-D／AVP-R；和 SIADH、腦耗鹽症候群用比較表
+5. **新舊說法並列**(依 `docs/sources/endocrine.md` 第五節)：PTU vs methimazole、泌乳素瘤 bromocriptine vs cabergoline、vasopressin tannate 舊藥
+6. **沒有可靠來源的數字標「待核對」**：放射碘治療後的隔離天數與距離(台灣無公告門檻，用醫學中心衛教單張)、甲狀腺術後血鈣監測的時間點
+7. **答案鍵有爭議**：不改考選部答案，頁面加 note，記在本輪例外清單
+8. **還沒寫的頁**用純文字，記在「之後要回補的連結」；A 組留下的純文字(腦下垂體疾病、尿崩症與 SIADH、甲狀腺與副甲狀腺生理)在 C、B 組寫完時順手補成連結
+9. **圖片**：Servier 圖照 A 組方法(PPTX 轉 SVG → 格線逐點核對 → labels JSON)；原創圖用 scratchpad 的 `svg/common.py` 風格；做完把預覽放到**桌面「內分泌BCD組圖」資料夾**；頁面先放圖，進度檔標「圖待確認」
+10. **遇到真的需要使用者決定的事**：不停下來，先用保守做法寫，列在下方「回家要確認」
+
+### 執行順序
+
+1. B 組：圖(thyroid、adrenal 兩張、calcium-regulation) → thyroid-parathyroid → adrenal-glands → 驗證 → 回補 A 組連結
+2. C 組：pituitary-disorders → diabetes-insipidus-siadh → 驗證 → 回補 A 組、brain-tumors、head-injury、eye-disorders 的連結
+3. D 組：圖(goiter、thyroid-cancer) → hyperthyroidism → hypothyroidism → thyroid-nodules-cancer → 驗證
+4. 收尾：涵蓋報告、image-license-review、桌面預覽、本檔「回家要確認」清單、記憶更新
+
+### 留給後面組的題目(使用者 2026-10-14 要求：之後一定要覆蓋到)
+
+- E 組：內外 Ch08 副甲狀腺功能亢進與低下 16 題、病理 Ch16 副甲狀腺 1 題；J 組收尾時用涵蓋報告逐小節確認
+- F 組：內外 Ch08 腎上腺疾病 30 題、病理 Ch16 腎上腺 7 題
+- G 組：藥理 Ch10 腦下垂體激素 21、類固醇 20、甲狀腺 19
+- I 組：兒科 Ch15 甲狀腺與副甲狀腺 17、腎上腺與性腺與胰島 19、代謝異常 4、肥胖 1；慢性病兒童 9；**先天性腎上腺增生 113-2_OP_043、106-2_OP_071**(藥理 Ch10 類固醇最後 2 題)；先天性甲低 107-2_OP_074(加答案註記)、114-2_OP_046；病理 Ch16 胰島 107-2_BM_035、105-2_BM_048
+- 第 16 輪產科：引產與產程處置題(109-1_OP_031 等)、避孕方式比較與家庭計畫護理；麥角鹼與前列腺素藥理題已在 H 組放進 pituitary-hormones#other-uterotonics
+- B–D 組：生解 Ch12、內外 Ch08 腦下垂體、病理 Ch16 腦下垂體與甲狀腺的題目**全部放進頁面**；生解 Ch12 胰島 4 題留 I 組(glucose-homeostasis)；內外 Ch08 綜合題 110-2_MS_066(代謝性酸中毒)、114-3_FA_025(喟嘆式呼吸)目前由自動配對涵蓋，I 組補 diabetes 時再確認
+
+### 回家要確認(做的時候往下加)
+
+1. **圖**(桌面「內分泌BCD組圖」)：B1 甲狀腺前後面(錐狀葉、峽部、上下副甲狀腺)、B2 腎上腺與腎臟(皮質、髓質)、B3 腎上腺皮質分層(絲球、束狀、網狀、髓質)、B4 鈣磷調節(原創)
+2. **4-0a 漏掉的同義標籤**：「庫辛氏症候群」(106-2_makeup_BM_024)→庫欣氏症候群、「康氏症候群」(112-1_MS_069)→原發性醛固酮過多症；建議 F 組前補合併(要動 04／05)
+3. **答案鍵可疑**：110-2_BM_027(選錯誤者，答案 D)依生理學 C 才是錯的敘述；頁面已加註，不改答案
+4. **D 組圖**：D1 甲狀腺腫與萎縮(正常、腫大、萎縮三格)、D2 甲狀腺癌(舌骨、甲狀軟骨、腫瘤、氣管)
+5. **又發現 4-0a 漏掉的標籤**：「格雷氏病」(115-1_MS_046、109-1_MS_070)→葛瑞夫茲氏病；「庫辛氏病」(109-1_BM_048)→庫欣氏病；頁面 dzTags 已先把舊名一起列上，合併後再清；F 組再發現「醛固酮過多症」(1 題)→原發性醛固酮過多症、「愛迪生氏危機」(1 題)可併入愛迪生氏病或保留子類型
+6. **待核對(頁面已標)**：放射碘治療後的隔離天數與距離(台灣無公告門檻)；vasopressin tannate 油性懸浮液在台灣是否仍有供應
+7. **頁面寫法的判斷**：111-2_MS_070 選項「SIADH 頭部平躺」依教科書是為了增加靜脈回流、減少 ADH 分泌，頁面寫床頭平放或不超過約 10 度；110-2_MS_071 詳解說術後「終身」不可彎腰不合理，頁面寫依醫囑一段時間
+8. **E 組**：107-2_OP_074(先天性甲低，答案 A)選項 B「暫停母乳以正確測得甲狀腺素」依現行指引也不對，疑似兩個錯誤選項；留到 I 組放進兒童內分泌頁時加註，不改答案
+9. **E 組待核對**：游離鈣參考值(各院不同)、慢性副甲狀腺功能低下的血鈣目標值、甲狀腺素調整後複驗 TSH 的週數(頁面寫教科書通則 6–8 週)
+10. **F、G 組待核對與判斷**：類固醇效價表為教科書通則；催產素起始與調升劑量(mU/min)依各院流程未寫數字；腎上腺危象 hydrocortisone 100 mg 後每天 200 mg 依 Endocrine Society 2016(未讀全文)；甲亢藥在懷孕的新舊說法(ATA 2016 只第一孕期優先 PTU，國考答 PTU)已在頁面並列
+11. **H、I 組待核對與判斷**：ulipristal 在台灣是否上市、RU486 現行使用週數、teriparatide 療程年限與健保條件、鈣與維生素 D 建議量(骨鬆指引最新見到 2021 版)；答案註記：106-1_OP_068(PKU 終身飲食控制，ACMG 2014 已建議終身)、107-2_OP_074(暫停母乳)已在頁面加 note；107-1_OP_052 公布答案把「先天性甲低是體染色體隱性」當正確，和 107-1_OP_028(不是典型隱性)互相矛盾，頁面寫多數為散發
+12. **J 組要做的事(先記下)**：涵蓋報告逐小節確認、整輪需確認清單、image-license-review、roadmap 與進度檔；另發現其他輪留下的純文字「之後整理在…頁」但頁已存在(immune-system-basics 3 處、helminths-ectoparasites、milieu-therapy、antiparasitics)，可在 J 組順手回連
+
+## 第 4 輪需確認清單(2026-10-14 J 組整理；已依使用者提供資料更新)
+
+**已解決**：ulipristal 台灣有上市；RU486 依臺北榮總衛教懷孕 7 週內；teriparatide 健保條件與 2 年上限；鈣與維生素 D 建議量依 2025 台灣骨鬆指引；vasopressin 台灣現有水溶性 Pitressin(油性 tannate 頁面寫為舊劑型)；Supabase 寫回時機(代謝處理好再一起)
+
+**仍待使用者**(2026-10-14 使用者回覆：圖 OK、標籤合併 OK 且愛迪生氏危機保留子類型、待核對項目暫時找不到資料維持現狀)
+1. ✅ **圖**：桌面「內分泌BCD組圖」6 張(B1 甲狀腺前後面、B2 腎上腺與腎臟、B3 皮質分層、B4 鈣磷調節、D1 甲狀腺腫、D2 甲狀腺癌)
+2. ✅ **補合併同義標籤**(已套用 7 題並寫回，見 tag-merge-endocrine.md 第八節)：庫辛氏症候群→庫欣氏症候群、庫辛氏病→庫欣氏病、康氏症候群與醛固酮過多症→原發性醛固酮過多症、格雷氏病→葛瑞夫茲氏病；愛迪生氏危機併入愛迪生氏病或保留子類型
+3. **答案鍵或選項有疑義**(頁面已加註，不改答案)：110-2_BM_027、107-2_OP_074(暫停母乳)、106-1_OP_068(PKU 終身飲食)、107-1_OP_052 與 107-1_OP_028(先天性甲低遺傳方式互相矛盾)
+4. **頁面寫法的判斷**：111-2_MS_070(SIADH 床頭平放或 ≤10 度)、110-2_MS_071(經蝶骨術後彎腰限制依醫囑一段時間)
+
+**仍待核對(頁面已標，找不到台灣公開數字)**
+1. 放射碘治療後的隔離天數與距離
+2. 游離鈣參考值、慢性副甲狀腺功能低下的血鈣目標值
+3. 甲狀腺素調整後複驗 TSH 的週數(寫教科書通則 6–8 週)
+4. 催產素起始與調升劑量(依各院流程)
+5. 類固醇效價表(教科書通則)；腎上腺危象 hydrocortisone 劑量依 Endocrine Society 2016(未讀全文)
+
+## 進行中(第 4 輪)
+
+- **A 組完成(2026-10-14)**
+  - 新頁：`physiology/endocrine-overview`(激素分類與受體訊息、腺體與激素表、胚胎來源、兼有內分泌的器官、回饋與前饋、松果腺、睪丸與卵巢細胞、雄性素不敏感症、胎盤 hCG 與 hPL、更年期)；`physiology/hypothalamus-pituitary`(位置與視交叉、前後葉比較、門脈系統、前葉染色、下視丘核區表、激素與體溫、釋放抑制激素、前葉激素、生長激素調控與作用、泌乳素與催產素與哺乳、ADH)
+  - 圖已經使用者目視確認：腦下垂體標籤加「(示意，非實際位置)」、核區位置依使用者參考圖調整、全身圖頭部改側面並標前後
+  - **之後要回補的連結**(目前是純文字)：腦下垂體疾病頁(C 組，腫瘤、經蝶骨手術、巨人症)、尿崩症與 SIADH 頁(C 組)、甲狀腺與副甲狀腺生理頁(B 組，鈣磷)、性激素藥物頁(H 組)、腦下垂體激素藥物頁(G 組，催產素)；brain-anatomy#hypothalamus 可回連 hypothalamus-pituitary#nuclei
+  - 驗證：題號 67 個都在 04、build 通過(236 篇)、resolver 與 export 重跑、source-scan 兩頁無重疊、兩頁本機回 200 並截圖確認標籤疊加；涵蓋 4837/8960(生解 Ch12 20% → 60%)
+
+## 第 3 輪摘要(已完成)
+
 - **輪次**：第 3 輪 神經與感官(3a 解剖生理＋藥理、3b 神經疾病、3c 感官；含藥理 Ch04 止痛麻醉)；約 20 篇、3-0 準備＋A–K 組
 - **計畫檔**：`~/.claude/plans/plan-glowing-sunset.md`(範圍、圖片做法與問題、標籤對照、頁面分組)
 - **狀態**：計畫已核准(2026-10-06)；**3-0、A–K 組全部完成**(K 組 2026-10-14)；**Supabase 已寫回、workers.dev 已部署(2026-10-14)** → **第 3 輪全部完成**；下一輪是第 4 輪內分泌(含腦下垂體 9 題)

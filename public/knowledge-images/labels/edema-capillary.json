@@ -1,0 +1,33 @@
+{
+ "image": "servier-edema-capillary.svg",
+ "_說明": "左：正常微血管床；右：液體由微血管滲出到組織間隙形成水腫",
+ "labels": [
+  {
+   "id": "venule",
+   "zh": "小靜脈端",
+   "en": "Venule",
+   "x": 8,
+   "y": 50,
+   "tx": 8,
+   "ty": 96
+  },
+  {
+   "id": "arteriole",
+   "zh": "小動脈端",
+   "en": "Arteriole",
+   "x": 45,
+   "y": 50,
+   "tx": 45,
+   "ty": 96
+  },
+  {
+   "id": "leak",
+   "zh": "液體滲出到組織間隙",
+   "en": "Fluid leaks into interstitium",
+   "x": 66,
+   "y": 38,
+   "tx": 78,
+   "ty": 96
+  }
+ ]
+}

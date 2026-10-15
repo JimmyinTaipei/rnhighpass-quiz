@@ -2,7 +2,7 @@
 title: 硝酸鹽類
 subtitle: Organic nitrates(Nitroglycerin、Isosorbide)
 aliases: [NTG, Nitroglycerin, Nitroglycerine, 硝化甘油, 硝酸甘油, Isosorbide dinitrate, ISDN, Isordil, Isosorbide mononitrate, ISMN, Imdur, Tridil, Nitrostat, 耐絞寧, 有機硝酸鹽]
-dzTags: [心絞痛, 冠狀動脈疾病, 心肌梗塞, 急性心肌梗塞, 急性冠心症, 心臟衰竭]
+dzTags: [心絞痛, 冠狀動脈疾病, 心肌梗塞, 急性心肌梗塞, 急性冠狀動脈症候群, 心臟衰竭]
 system: cardiovascular
 group: antianginals
 chapters:

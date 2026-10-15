@@ -2,7 +2,7 @@
 title: 愛滋病毒感染與愛滋病
 subtitle: HIV infection and AIDS(病毒學、分期、伺機性感染、抗愛滋病毒藥物、暴露後預防、母子垂直感染)
 aliases: [愛滋病, 愛滋病毒, AIDS, HIV, 後天免疫缺乏症候群, 後天免疫缺陷症候群, 人類免疫缺乏病毒, 人類免疫不全病毒, 人類免疫缺陷病毒, 雞尾酒療法, HAART, cART, ART, 抗反轉錄病毒治療, 高效能抗反轉錄病毒治療, 暴露後預防, PEP, 暴露前預防, PrEP, U=U, 伺機性感染, 肺囊蟲肺炎, PCP, PJP, 卡氏肺囊蟲, 隱球菌腦膜炎, 卡波西氏肉瘤, Kaposi sarcoma, Zidovudine, AZT, ZDV, Lamivudine, 3TC, Emtricitabine, FTC, Tenofovir, Abacavir, Efavirenz, Rilpivirine, Darunavir, Ritonavir, Dolutegravir, Bictegravir, Biktarvy, 必克蒂, Cabotegravir, 長效針劑, 反轉錄酶抑制劑, 蛋白酶抑制劑, 嵌合酶抑制劑, 西方墨點法, 針扎]
-dzTags: [後天免疫缺乏症候群, 愛滋病, 人類免疫缺乏病毒感染, 肺囊蟲肺炎, 隱球菌症]
+dzTags: [後天免疫缺乏症候群, 人類免疫缺乏病毒感染, 肺囊蟲肺炎, 隱球菌症]
 system: infection
 alsoIn: [hematology-immunology, reproductive, community]
 chapters:

@@ -132,6 +132,8 @@ references:
 - 慢性右心衰竭 → 肝臟鬱血 → **荳蔻肝**(nutmeg liver，小葉中心出血壞死)→ 可進展為心因性肝硬化。
 - 靜脈鬱滯也使心衰竭病人容易發生**深部靜脈血栓**。
 
+- 水腫的四個機轉與 Starling 力見 [[edema-shock#edema]]
+
 ::questions{tag="心臟衰竭" keyword="(代償|機轉|交感|腎素|醛固酮|利鈉|BNP|靜水壓|水腫)" limit="8"}
 
 ## 臨床表現 {#manifestations}

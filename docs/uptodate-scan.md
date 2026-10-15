@@ -1,16 +1,16 @@
 # 來源掃描報告(1a)
 
-> 由 `scripts/source-scan.py` 產生。234 篇頁面對 199 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
+> 由 `scripts/source-scan.py` 產生。264 篇頁面對 199 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
 > 「疑似貼上」＝內文含形似字元(UpToDate 匯出檔的防複製記號)；「逐字重疊」＝共有 6 串以上；「數字序列重疊」＝連續 5 個有辨識度的數字(含單位)與匯出檔順序相同，可能是照原文順序整理，需人工比對；「檢視」＝零星重疊，多半是專有名詞或藥名。
 > **限制**：①中文翻譯式的近似照抄抓不到(只能抓英文詞串與數字序列)，要人工抽查；②國考書 PDF 是掃描圖檔、沒有文字層，無法比對(需要 OCR)；③圖片與表格的重製要人工看。
 
 | 結果 | 頁面 | 引用行數 | 形似字元 | 英文重疊 | 數字序列重疊 | 最相近的匯出檔 | 例 |
 |---|---|---:|---:|---:|---:|---|---|
-| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 免疫相關/Overview of therapeutic monoclonal antibodies(6)；免疫相關/Transplantation immunobiology(6)；免疫相關/An overview of the innate immune system(6) | an overview of the innate immune |
+| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 免疫相關/Systemic lupus erythematosus: Epidemiology and pathogenesis(6)；免疫相關/Transplantation immunobiology(6)；免疫相關/The adaptive humoral immune response(6) | an overview of the innate immune |
 | 數字序列重疊 | disease/sepsis.md | 4 | 0 | 0 | 3 | 感染相關/Sepsis syndromes in adults: Epidemiology, definitions, clinical presentation, diagnosis, and prognosis(3) |  |
 | 檢視 | pathogen/human-papillomavirus.md | 0 | 0 | 0 | 2 | 癌症相關/Invasive cervical cancer: Epidemiology, risk factors, clinical manifestations, and diagnosis(2) |  |
-| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Antigen-presenting cells(2)；免疫相關/Regulators and receptors of the complement system(2)；免疫相關/Acquired disorders of the complement system(2) | regulators and receptors of the complement |
-| 檢視 | physiology/t-lymphocytes.md | 9 | 0 | 1 | 0 | 免疫相關/Antigen-presenting cells(1)；癌症相關/Classic Hodgkin lymphoma: Presentation, evaluation, and diagnosis in adults(1)；免疫相關/DiGeorge (22q11.2 deletion) syndrome: Epidemiology and pathogenesis(1) | normal b and t lymphocyte development |
+| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Inherited disorders of the complement system(2)；免疫相關/Antigen-presenting cells(2)；免疫相關/Complement pathways(2) | regulators and receptors of the complement |
+| 檢視 | physiology/t-lymphocytes.md | 9 | 0 | 1 | 0 | 免疫相關/Primary humoral immunodeficiencies: An overview(1)；免疫相關/Systemic lupus erythematosus: Epidemiology and pathogenesis(1)；免疫相關/Agammaglobulinemia(1) | normal b and t lymphocyte development |
 | 無重疊 | admin/accreditation-evaluation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/clinical-ladder-training.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/conflict-change-management.md | 0 | 0 | 0 | 0 | — |  |
@@ -47,6 +47,7 @@
 | 無重疊 | care/asepsis-sterilization.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/cancer-treatment-toxicities.md | 30 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/child-adolescent-mental-health.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/chronically-ill-children.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/community-mental-health.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/end-of-life-care.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/family-violence.md | 0 | 0 | 0 | 0 | — |  |
@@ -64,6 +65,7 @@
 | 無重疊 | care/transfusion-reactions.md | 10 | 0 | 0 | 0 | — |  |
 | 無重疊 | device/icp-monitoring.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/adhd.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/adrenal-insufficiency.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/alcohol-use-disorder.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/allergic-contact-dermatitis-latex.md | 11 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/allergic-rhinitis.md | 6 | 0 | 0 | 0 | — |  |
@@ -77,13 +79,16 @@
 | 無重疊 | disease/breast-cancer.md | 9 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/cancer.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/childhood-infectious-diseases.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/chromosomal-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/cns-infections.md | 5 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/colorectal-cancer.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/coronary-artery-disease.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/cranial-nerve-spine-disorders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/cushing-syndrome.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/delirium.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/dementia.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/depressive-disorder.md | 26 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/diabetes-insipidus-siadh.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/diabetes.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/ear-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/eating-disorders.md | 0 | 0 | 0 | 0 | — |  |
@@ -95,7 +100,9 @@
 | 無重疊 | disease/heart-failure.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/hiv-aids.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/hypertension.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/hyperthyroidism.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/hypotension.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/hypothyroidism.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/increased-icp.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/infectious-diarrhea.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/infective-endocarditis.md | 4 | 0 | 0 | 0 | — |  |
@@ -107,24 +114,30 @@
 | 無重疊 | disease/lymphoma-myeloma.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/neuromuscular-demyelinating.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/obsessive-compulsive-disorder.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/parathyroid-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/parkinson-disease.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-cancers.md | 8 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/pediatric-endocrine.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-neuro.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-respiratory-infections.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/perinatal-infections.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/personality-disorders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/pheochromocytoma-aldosteronism.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/pituitary-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pneumonia.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/primary-immunodeficiency.md | 14 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/respiratory-viral-infections.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/rheumatoid-arthritis.md | 13 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/schizophrenia.md | 10 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/sexually-transmitted-infections.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/single-gene-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/skin-bone-infections.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/sle.md | 14 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/somatic-dissociative-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/spinal-cord-injury.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/stroke.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/substance-use-disorders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/thyroid-nodules-cancer.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/trauma-stress-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/tuberculosis.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/urinary-tract-infection.md | 2 | 0 | 0 | 0 | — |  |
@@ -158,10 +171,12 @@
 | 無重疊 | drug/asthma-drugs.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/beta-blockers.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/beta-lactams.md | 10 | 0 | 0 | 0 | — |  |
+| 無重疊 | drug/bone-calcium-drugs.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/calcium-channel-blockers.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/central-alpha2-agonists.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/cholinergic-drugs.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/cns-stimulants.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | drug/corticosteroids.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/digoxin.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/direct-vasodilators.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/dpp4-inhibitors.md | 0 | 0 | 0 | 0 | — |  |
@@ -180,17 +195,21 @@
 | 無重疊 | drug/nitrates.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/nsaids-acetaminophen.md | 8 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/opioids.md | 8 | 0 | 0 | 0 | — |  |
+| 無重疊 | drug/pituitary-hormones.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/potassium-sparing-diuretics.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/protein-synthesis-inhibitors.md | 6 | 0 | 0 | 0 | — |  |
+| 無重疊 | drug/sex-hormones.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/sglt2-inhibitors.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/statins.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/sulfonylureas.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/thiazide-diuretics.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/thrombolytics.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | drug/thyroid-drugs.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/tzd.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/abg.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/blood-glucose.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/bnp.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | lab/calcium-phosphate.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/cardiac-biomarkers.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/cardiac-catheterization.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/complete-blood-count.md | 4 | 0 | 0 | 0 | — |  |
@@ -205,6 +224,7 @@
 | 無重疊 | lab/lithium-level.md | 13 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/ogtt.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/potassium.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | lab/thyroid-function-tests.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/tumor-markers.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/uacr.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | pathogen/anaerobes.md | 2 | 0 | 0 | 0 | — |  |
@@ -223,20 +243,30 @@
 | 無重疊 | pathogen/rna-viruses.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | pathogen/staphylococcus-aureus.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | pathogen/streptococci.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/adrenal-glands.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/autonomic-nervous-system.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/b-lymphocytes.md | 7 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/blood-pressure-regulation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/brain-anatomy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/cardiac-output.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/cell-injury-adaptation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/coronary-circulation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/cranial-nerves.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/edema-shock.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/endocrine-overview.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/environmental-injury.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/genetic-inheritance.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/glucose-homeostasis.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/hypersensitivity-reactions.md | 6 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/hypothalamus-pituitary.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/immunoglobulins-hla.md | 9 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/inflammation-repair.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/microbial-pathogenesis.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neoplasia.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neuron-synapse.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neurotransmitters-psychiatry.md | 12 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/nutritional-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/special-senses.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/spinal-cord-spinal-nerves.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/thrombosis-embolism-infarction.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/thyroid-parathyroid.md | 0 | 0 | 0 | 0 | — |  |

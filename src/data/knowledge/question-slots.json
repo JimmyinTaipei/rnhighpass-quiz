@@ -437,7 +437,7 @@
   },
   {
     "qkey": "cancer-treatment-toxicities#questions-emergencies~2",
-    "tag": "骨髓抑制|腫瘤溶解症候群|上腔靜脈症候群|口腔炎|放射性皮膚炎|放射線皮膚炎",
+    "tag": "骨髓抑制|腫瘤溶解症候群|上腔靜脈症候群|口腔炎|放射性皮膚炎",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -470,6 +470,54 @@
       "106-2_makeup_PC_030"
     ],
     "limit": null
+  },
+  {
+    "qkey": "chronically-ill-children#trends",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_035",
+      "112-2_OP_053",
+      "112-1_OP_056",
+      "114-1_OP_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chronically-ill-children#family-response",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_056",
+      "106-2_makeup_OP_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chronically-ill-children#school",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_PC_072",
+      "105-2_PC_071",
+      "108-2_OP_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chronically-ill-children#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(慢性病|慢性疾病).*(兒童|病童|學童|家庭|父母)|(兒童|病童|學童).*(慢性病|慢性疾病)",
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "community-mental-health#questions",
@@ -1401,6 +1449,43 @@
     "limit": null
   },
   {
+    "qkey": "adrenal-insufficiency#causes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_042",
+      "109-1_MS_065",
+      "106-1_MS_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenal-insufficiency#adrenal-crisis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_042",
+      "110-1_MS_068",
+      "106-2_makeup_MS_070",
+      "106-2_makeup_MS_071",
+      "112-2_MS_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenal-insufficiency#questions",
+    "tag": "愛迪生氏病|愛迪生氏危機|腎上腺皮質功能不全",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "alcohol-use-disorder#questions",
     "tag": null,
     "adm": null,
@@ -1962,6 +2047,51 @@
     "limit": null
   },
   {
+    "qkey": "chromosomal-disorders#down-syndrome",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_BM_025",
+      "112-3_BM_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chromosomal-disorders#edwards-patau",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chromosomal-disorders#barr-body",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_006",
+      "111-2_BM_019",
+      "113-1_BM_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chromosomal-disorders#questions",
+    "tag": "唐氏症|透納氏症|科林菲特氏症|染色體異常",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "cns-infections#questions",
     "tag": null,
     "adm": null,
@@ -2059,7 +2189,7 @@
   },
   {
     "qkey": "colorectal-cancer#questions~2",
-    "tag": "大腸癌|大腸直腸癌|結腸癌|直腸癌",
+    "tag": "大腸癌|結腸癌|直腸癌",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -2086,7 +2216,7 @@
   },
   {
     "qkey": "coronary-artery-disease#acs",
-    "tag": "心絞痛|狹心症|不穩定型心絞痛|急性冠心症|急性冠狀動脈症候群",
+    "tag": "心絞痛|不穩定型心絞痛|急性冠狀動脈症候群",
     "adm": null,
     "drug": null,
     "keyword": "(穩定型|不穩定型|變異型|Prinzmetal|痙攣|ST ?(上升|下降))",
@@ -2095,7 +2225,7 @@
   },
   {
     "qkey": "coronary-artery-disease#angina-vs-mi",
-    "tag": "心肌梗塞|急性心肌梗塞|心絞痛|狹心症",
+    "tag": "心肌梗塞|急性心肌梗塞|心絞痛",
     "adm": null,
     "drug": null,
     "keyword": "(症狀|胸痛|放射|轉移痛|冒冷汗|典型|持續)",
@@ -2104,7 +2234,7 @@
   },
   {
     "qkey": "coronary-artery-disease#other-tests",
-    "tag": "心肌梗塞|急性心肌梗塞|急性冠心症",
+    "tag": "心肌梗塞|急性心肌梗塞|急性冠狀動脈症候群",
     "adm": null,
     "drug": null,
     "keyword": "(Troponin|troponin|旋轉蛋白|CK-MB|肌酸激酶|LDH|肌紅素|心肌酵素|運動心電圖|鉈|Thallium|灌注)",
@@ -2113,7 +2243,7 @@
   },
   {
     "qkey": "coronary-artery-disease#in-hospital",
-    "tag": "心肌梗塞|急性心肌梗塞|急性冠心症|急性冠狀動脈症候群",
+    "tag": "心肌梗塞|急性心肌梗塞|急性冠狀動脈症候群",
     "adm": null,
     "drug": null,
     "keyword": "(MONA|嗎啡|morphine|氧氣|aspirin|Aspirin|血栓溶解|再灌流|PCI|緊急|優先|處置)",
@@ -2134,9 +2264,7 @@
     "tag": null,
     "adm": null,
     "drug": [
-      "心絞痛用藥",
-      "抗心絞痛用藥",
-      "狹心症用藥"
+      "心絞痛用藥"
     ],
     "keyword": null,
     "ids": [],
@@ -2148,13 +2276,8 @@
     "adm": null,
     "drug": [
       "抗凝血用藥",
-      "抗凝血劑",
-      "抗凝血劑用藥",
       "抗血小板用藥",
-      "抗血小板藥物",
-      "抗血栓用藥",
-      "血栓溶解劑",
-      "血栓溶解用藥"
+      "血栓溶解劑"
     ],
     "keyword": "(心肌梗塞|心絞痛|冠狀動脈|支架)",
     "ids": [],
@@ -2200,7 +2323,7 @@
   },
   {
     "qkey": "coronary-artery-disease#prevention-levels",
-    "tag": "高血脂|高血脂症|冠狀動脈疾病|動脈粥狀硬化",
+    "tag": "高血脂症|冠狀動脈疾病|動脈粥狀硬化",
     "adm": null,
     "drug": null,
     "keyword": "(膽固醇|LDL|HDL|三酸甘油|血脂|代謝症候群|預防|飲食|纖維)",
@@ -2241,6 +2364,64 @@
     "adm": null,
     "drug": null,
     "keyword": "(頭痛|偏頭痛|叢集|叢性|三叉神經痛|顏面神經麻痺|貝爾|椎間盤|坐骨神經|椎板|背架|腦死)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "cushing-syndrome#causes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cushing-syndrome#manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_045",
+      "112-3_MS_043",
+      "109-2_MS_068",
+      "106-2_makeup_MS_072",
+      "108-2_MS_070"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cushing-syndrome#diagnosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cushing-syndrome#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_069",
+      "107-2_MS_074"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cushing-syndrome#questions",
+    "tag": "庫欣氏症候群|庫欣氏病",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
     "ids": [],
     "limit": 8
   },
@@ -2577,6 +2758,72 @@
     "limit": null
   },
   {
+    "qkey": "diabetes-insipidus-siadh#comparison",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_059",
+      "105-1_BM_042",
+      "112-1_BM_030",
+      "106-2_makeup_MS_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "diabetes-insipidus-siadh#di-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_004",
+      "114-3_MS_041",
+      "112-3_MS_044",
+      "113-2_MS_044",
+      "114-2_MS_044",
+      "105-2_MS_071",
+      "105-1_MS_073",
+      "106-1_MS_005",
+      "108-2_MS_074",
+      "112-1_OP_070",
+      "110-1_FA_026",
+      "107-1_MS_072",
+      "114-1_MS_045",
+      "113-3_MS_043",
+      "106-2_MS_071"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "diabetes-insipidus-siadh#siadh-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_043",
+      "112-1_MS_063",
+      "111-1_MS_070",
+      "106-2_makeup_MS_074",
+      "113-1_MS_043",
+      "111-2_MS_070",
+      "108-1_MS_074",
+      "106-1_MS_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "diabetes-insipidus-siadh#questions",
+    "tag": "尿崩症|抗利尿激素分泌不當症候群",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "diabetes#physiology-drug-map",
     "tag": null,
     "adm": null,
@@ -2587,7 +2834,7 @@
   },
   {
     "qkey": "diabetes#hyperglycemia-damage",
-    "tag": "糖尿病|第一型糖尿病|第1型糖尿病|第二型糖尿病",
+    "tag": "糖尿病|第一型糖尿病|第二型糖尿病",
     "adm": null,
     "drug": null,
     "keyword": "(致病|機轉|自體免疫|β ?細胞|蘭氏小島|HLA|遺傳模式|過敏反應|類澱粉(沉積|蛋白)|胰島素(抗性|阻抗)|接受器)",
@@ -2595,8 +2842,22 @@
     "limit": 8
   },
   {
+    "qkey": "diabetes#hyperglycemia-damage~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_070",
+      "106-2_MS_067",
+      "107-2_BM_035",
+      "105-2_BM_048"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "diabetes#type1",
-    "tag": "第一型糖尿病|第1型糖尿病",
+    "tag": "第一型糖尿病",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -2622,6 +2883,17 @@
     "limit": 10
   },
   {
+    "qkey": "diabetes#gdm~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_033"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "diabetes#diagnosis",
     "tag": null,
     "adm": null,
@@ -2631,13 +2903,35 @@
     "limit": 8
   },
   {
+    "qkey": "diabetes#diagnosis~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_PC_078"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "diabetes#hypoglycemia",
-    "tag": "低血糖|低血糖症",
+    "tag": "低血糖",
     "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "diabetes#hypoglycemia~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_067"
+    ],
+    "limit": null
   },
   {
     "qkey": "diabetes#dka",
@@ -2649,8 +2943,23 @@
     "limit": 12
   },
   {
+    "qkey": "diabetes#dka~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_FA_037",
+      "107-2_MS_071",
+      "107-1_MS_068",
+      "106-1_MS_070",
+      "109-2_MS_074"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "diabetes#hhs",
-    "tag": "高滲透壓高血糖狀態|高血糖高滲透壓狀態|高滲透度高血糖狀態|高血糖高滲透壓症候群",
+    "tag": "高血糖高滲透壓狀態",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -2686,7 +2995,7 @@
   },
   {
     "qkey": "diabetes#diabetic-foot",
-    "tag": "糖尿病足|糖尿病足部病變|糖尿病",
+    "tag": "糖尿病足|糖尿病",
     "adm": null,
     "drug": null,
     "keyword": "(足部|足趾|趾甲|雞眼|糖尿病足)",
@@ -2694,16 +3003,37 @@
     "limit": 10
   },
   {
+    "qkey": "diabetes#diabetic-foot~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_072"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "diabetes#drug-classes",
     "tag": null,
     "adm": null,
     "drug": [
-      "糖尿病用藥",
-      "降血糖用藥"
+      "糖尿病用藥"
     ],
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "diabetes#sick-day",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_075"
+    ],
+    "limit": null
   },
   {
     "qkey": "diabetes#smbg",
@@ -2715,13 +3045,39 @@
     "limit": 4
   },
   {
+    "qkey": "diabetes#smbg~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_070",
+      "106-1_MS_071"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "diabetes#school-community",
-    "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "tag": "糖尿病|第一型糖尿病",
     "adm": null,
     "drug": null,
     "keyword": "(學童|學校|學生|社區|個案管理|家訪|長照)",
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "diabetes#school-community~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_PC_072",
+      "105-2_PC_071",
+      "108-2_OP_061",
+      "106-2_OP_072"
+    ],
+    "limit": null
   },
   {
     "qkey": "diabetes#glycemic-index",
@@ -2742,13 +3098,39 @@
     "limit": 6
   },
   {
+    "qkey": "diabetes#glycemic-index~3",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_069"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "diabetes#exercise",
-    "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "tag": "糖尿病|第一型糖尿病",
     "adm": null,
     "drug": null,
     "keyword": "運動",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "diabetes#exercise~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_068",
+      "107-1_PC_049",
+      "106-1_PC_079",
+      "111-1_OP_071",
+      "105-1_OP_072"
+    ],
+    "limit": null
   },
   {
     "qkey": "diabetes#prevention",
@@ -2758,6 +3140,21 @@
     "keyword": "(三段五級|代謝症候群|整合性篩檢|篩檢|非傳染)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "diabetes#prevention~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_PC_079",
+      "109-1_PC_077",
+      "107-1_PC_079",
+      "106-2_makeup_PC_052",
+      "105-1_PC_078"
+    ],
+    "limit": null
   },
   {
     "qkey": "ear-disorders#communication",
@@ -3326,10 +3723,6 @@
     "drug": [
       "心臟衰竭用藥",
       "強心劑用藥",
-      "強心劑",
-      "強心配醣體",
-      "毛地黃製劑",
-      "強心升壓藥物",
       "升壓藥"
     ],
     "keyword": null,
@@ -3506,9 +3899,7 @@
     "tag": null,
     "adm": null,
     "drug": [
-      "抗高血壓用藥",
-      "高血壓用藥",
-      "降血壓用藥"
+      "抗高血壓用藥"
     ],
     "keyword": null,
     "ids": [],
@@ -3542,6 +3933,110 @@
     "limit": 8
   },
   {
+    "qkey": "hyperthyroidism#causes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_070",
+      "115-1_MS_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hyperthyroidism#manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_075",
+      "106-2_makeup_MS_067",
+      "109-1_MS_064",
+      "110-2_FA_044",
+      "115-1_OP_024",
+      "108-1_MS_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hyperthyroidism#iodine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_070",
+      "112-1_MS_070",
+      "113-1_MS_046",
+      "106-2_MS_065",
+      "110-2_MS_068",
+      "106-1_MS_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hyperthyroidism#radioactive-iodine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_MS_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hyperthyroidism#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_MS_047",
+      "111-2_MS_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hyperthyroidism#thyroid-storm",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_061",
+      "106-1_MS_067",
+      "111-2_MS_068"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hyperthyroidism#thyroidectomy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_071",
+      "112-1_MS_072",
+      "106-2_makeup_MS_069",
+      "108-2_MS_069",
+      "108-1_MS_071"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hyperthyroidism#questions",
+    "tag": "甲狀腺機能亢進|葛瑞夫茲氏病|甲狀腺風暴",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "hypotension#physiology",
     "tag": "低血壓",
     "adm": null,
@@ -3552,7 +4047,7 @@
   },
   {
     "qkey": "hypotension#orthostatic-management",
-    "tag": "姿勢性低血壓|姿位性低血壓|姿態性低血壓",
+    "tag": "姿勢性低血壓",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -3570,7 +4065,7 @@
   },
   {
     "qkey": "hypotension#neuraxial-anesthesia",
-    "tag": "仰臥低血壓症候群|仰臥位低血壓綜合症",
+    "tag": "仰臥低血壓症候群",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -3594,6 +4089,65 @@
     "keyword": "(休克|升壓|dopamine|晶體液|輸液).*(血壓)|(血壓).*(休克|升壓)",
     "ids": [],
     "limit": 6
+  },
+  {
+    "qkey": "hypothyroidism#manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_068",
+      "108-1_MS_067",
+      "112-2_MS_074"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothyroidism#levothyroxine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_073",
+      "110-2_MS_069",
+      "107-1_MS_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothyroidism#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_069",
+      "105-1_MS_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothyroidism#myxedema-coma",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_069",
+      "106-2_MS_066"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothyroidism#questions",
+    "tag": "甲狀腺功能低下|黏液水腫|黏液水腫昏迷",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "increased-icp#cerebral-edema",
@@ -3904,7 +4458,7 @@
   },
   {
     "qkey": "liver-cancer#questions~2",
-    "tag": "肝癌|肝細胞癌",
+    "tag": "肝癌",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -3984,7 +4538,7 @@
   },
   {
     "qkey": "lymphoma-myeloma#questions~2",
-    "tag": "淋巴瘤|惡性淋巴瘤|何杰金氏淋巴瘤|非何杰金氏淋巴瘤|多發性骨髓瘤",
+    "tag": "淋巴瘤|何杰金氏淋巴瘤|非何杰金氏淋巴瘤|多發性骨髓瘤",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -4106,6 +4660,77 @@
     "limit": null
   },
   {
+    "qkey": "parathyroid-disorders#hyper-manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_009",
+      "113-2_MS_046",
+      "110-2_MS_072",
+      "107-1_MS_067",
+      "114-2_MS_046",
+      "107-2_MS_068",
+      "113-2_MS_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "parathyroid-disorders#hyper-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_071",
+      "108-1_OP_075"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "parathyroid-disorders#hypo-manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_073",
+      "112-1_MS_074",
+      "111-2_MS_075",
+      "115-1_MS_042",
+      "105-2_MS_068",
+      "115-2_MS_045",
+      "112-3_OP_042",
+      "108-1_OP_076",
+      "108-2_BM_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "parathyroid-disorders#hypo-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_070",
+      "114-3_MS_042",
+      "105-1_OP_069",
+      "111-1_OP_070"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "parathyroid-disorders#questions",
+    "tag": "副甲狀腺機能亢進|副甲狀腺功能低下",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "parkinson-disease#pathophysiology",
     "tag": null,
     "adm": null,
@@ -4224,12 +4849,134 @@
   },
   {
     "qkey": "pediatric-cancers#questions~2",
-    "tag": "兒童癌症|腦瘤|神經母細胞瘤|威爾姆氏腫瘤|威廉氏腫瘤|骨肉瘤|視網膜母細胞瘤",
+    "tag": "兒童癌症|腦瘤|神經母細胞瘤|威爾姆氏腫瘤|骨肉瘤|視網膜母細胞瘤",
     "adm": null,
     "drug": null,
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "pediatric-endocrine#newborn-screening",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_069",
+      "111-1_OP_072",
+      "112-1_OP_048",
+      "109-2_OP_052",
+      "107-1_OP_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-endocrine#congenital-hypothyroidism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_046",
+      "107-2_OP_074",
+      "110-2_OP_072",
+      "107-1_OP_052",
+      "110-1_OP_069",
+      "106-2_makeup_OP_070",
+      "115-2_OP_046",
+      "113-1_OP_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-endocrine#cah",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_043",
+      "108-2_OP_074",
+      "106-2_OP_071"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-endocrine#precocious-puberty",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_075",
+      "113-1_OP_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-endocrine#inborn-errors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_042",
+      "112-2_OP_071",
+      "106-1_OP_068",
+      "108-1_OP_074",
+      "111-2_OP_055",
+      "109-1_OP_056"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-endocrine#pediatric-thyroid",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_044",
+      "105-2_OP_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-endocrine#pediatric-diabetes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_051",
+      "105-1_PC_073",
+      "111-1_OP_071",
+      "106-2_OP_072",
+      "105-1_OP_072",
+      "108-2_OP_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-endocrine#childhood-obesity",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_PC_057"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-endocrine#questions",
+    "tag": "先天性甲狀腺功能低下症|先天性腎上腺增生症|性早熟|苯酮尿症|先天性代謝異常|半乳糖血症",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "pediatric-neuro#cerebral-palsy",
@@ -4495,6 +5242,177 @@
       "115-1_PC_016"
     ],
     "limit": null
+  },
+  {
+    "qkey": "pheochromocytoma-aldosteronism#pheo-manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_071",
+      "110-1_MS_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pheochromocytoma-aldosteronism#pheo-diagnosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pheochromocytoma-aldosteronism#pheo-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_068",
+      "115-1_MS_043",
+      "106-2_makeup_MS_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pheochromocytoma-aldosteronism#pa-manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_BM_029",
+      "106-1_BM_047",
+      "112-1_MS_069",
+      "114-3_MS_043",
+      "107-2_MS_073",
+      "106-1_MS_074",
+      "105-1_MS_071",
+      "110-2_MS_070"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pheochromocytoma-aldosteronism#pa-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_MS_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pheochromocytoma-aldosteronism#questions",
+    "tag": "嗜鉻細胞瘤|原發性醛固酮過多症",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "pituitary-disorders#adenoma",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_072",
+      "109-1_BM_048",
+      "110-2_MS_003",
+      "105-2_MS_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-disorders#gh-excess",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_076",
+      "106-2_MS_069",
+      "114-1_MS_044",
+      "105-2_MS_073",
+      "105-2_MS_074"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-disorders#hypopituitarism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-disorders#apoplexy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_004",
+      "113-3_MS_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-disorders#gh-deficiency",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-disorders#transsphenoidal-surgery",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_071",
+      "109-2_MS_007",
+      "108-1_MS_073",
+      "115-2_MS_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-disorders#gamma-knife",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-disorders#questions",
+    "tag": "腦下垂體腫瘤|肢端肥大症|巨人症|腦下垂體中風|席漢氏症候群|腦下垂體功能低下",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "pneumonia#questions",
@@ -5104,6 +6022,154 @@
     "limit": null
   },
   {
+    "qkey": "single-gene-disorders#thalassemia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_029",
+      "106-2_OP_009",
+      "107-2_OP_009",
+      "112-3_OP_023",
+      "114-1_OP_006",
+      "115-1_BM_026",
+      "111-1_OP_067"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#sickle-cell",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_046",
+      "106-2_makeup_OP_066"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#metabolic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#cystic-fibrosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_OP_065"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#wilson",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_BM_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#pkd",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_BM_034",
+      "110-2_BM_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#achondroplasia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_048",
+      "113-1_BM_030",
+      "114-3_BM_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#osteogenesis-imperfecta",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_079",
+      "113-3_OP_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#hemophilia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_026",
+      "106-2_makeup_OP_065"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#g6pd",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_PC_065",
+      "106-2_makeup_OP_069",
+      "106-2_OP_070",
+      "111-1_BM_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#duchenne",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_049",
+      "105-2_OP_077",
+      "112-2_OP_077",
+      "114-2_OP_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "single-gene-disorders#questions",
+    "tag": "海洋性貧血|鐮狀細胞貧血|囊性纖維化|威爾森氏病|多囊腎|軟骨發育不全|成骨不全|蠶豆症|裘馨氏肌失養症|類血友病",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
     "qkey": "skin-bone-infections#questions",
     "tag": null,
     "adm": null,
@@ -5489,6 +6555,31 @@
       "113-2_MS_049"
     ],
     "limit": null
+  },
+  {
+    "qkey": "thyroid-nodules-cancer#types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_047",
+      "107-2_BM_047",
+      "113-3_BM_030",
+      "106-2_makeup_BM_048",
+      "109-2_BM_047",
+      "106-2_BM_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-nodules-cancer#questions",
+    "tag": "甲狀腺癌|甲狀腺腫瘤|甲狀腺髓質癌",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "trauma-stress-disorders#questions",
@@ -6033,13 +7124,8 @@
     "adm": null,
     "drug": [
       "抗凝血用藥",
-      "抗凝血劑",
-      "抗凝血劑用藥",
       "抗血小板用藥",
-      "抗血小板藥物",
-      "抗血栓用藥",
-      "血栓溶解劑",
-      "血栓溶解用藥"
+      "血栓溶解劑"
     ],
     "keyword": "(heparin|肝素|warfarin|coumadin|enoxaparin|clexane|protamine|rivaroxaban|apixaban|dabigatran|edoxaban|argatroban|抗凝血|INR|aPTT)",
     "ids": [],
@@ -6323,19 +7409,8 @@
     "adm": null,
     "drug": [
       "抗腫瘤用藥",
-      "抗腫瘤藥物",
-      "化學治療藥物",
-      "化學治療用藥",
-      "化療藥物",
-      "癌症用藥",
-      "癌症化學治療用藥",
-      "抗癌藥物",
-      "抗癌用藥",
-      "抗腫瘤化學治療用藥",
       "乳癌用藥",
       "癌症支持性用藥",
-      "癌症支持治療用藥",
-      "癌症支持療法用藥",
       "標靶治療藥物"
     ],
     "keyword": null,
@@ -6455,13 +7530,8 @@
     "adm": null,
     "drug": [
       "抗凝血用藥",
-      "抗凝血劑",
-      "抗凝血劑用藥",
       "抗血小板用藥",
-      "抗血小板藥物",
-      "抗血栓用藥",
-      "血栓溶解劑",
-      "血栓溶解用藥"
+      "血栓溶解劑"
     ],
     "keyword": "(aspirin|阿斯匹|阿司匹|clopidogrel|ticagrelor|prasugrel|dipyridamole|cilostazol|abciximab|tirofiban|eptifibatide|血小板凝集)",
     "ids": [],
@@ -6839,6 +7909,45 @@
     "limit": null
   },
   {
+    "qkey": "bone-calcium-drugs#bisphosphonates",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_MS_013",
+      "115-2_BM_039",
+      "114-1_BM_038",
+      "115-1_MS_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bone-calcium-drugs#calcium-vitamin-d",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_037",
+      "112-1_MS_020",
+      "112-2_MS_017",
+      "108-1_BM_053",
+      "108-1_MS_020",
+      "110-1_MS_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bone-calcium-drugs#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(骨質疏鬆|雙磷酸鹽|bisphosphonate|alendronate|zoledronic|denosumab|teriparatide|calcitonin|碳酸鈣|鈣片|raloxifene)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "calcium-channel-blockers#questions",
     "tag": null,
     "adm": null,
@@ -6987,6 +8096,72 @@
       "110-2_BM_062"
     ],
     "limit": null
+  },
+  {
+    "qkey": "corticosteroids#actions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_063",
+      "110-1_BM_061",
+      "113-2_OP_010",
+      "111-2_MS_007",
+      "114-2_MS_002",
+      "113-1_BM_021",
+      "108-1_MS_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "corticosteroids#adverse-effects",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_070",
+      "113-2_BM_038",
+      "109-1_BM_063",
+      "114-2_BM_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "corticosteroids#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_074",
+      "110-2_OP_076",
+      "108-2_OP_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "corticosteroids#inhibitors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_062",
+      "107-2_BM_060",
+      "115-1_BM_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "corticosteroids#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(類固醇|corticosteroid|Corticosteroid|prednisolone|Prednisolone|prednisone|dexamethasone|Dexamethasone|Decadron|hydrocortisone|methylprednisolone|betamethasone)",
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "digoxin#questions",
@@ -7200,6 +8375,19 @@
     "limit": 6
   },
   {
+    "qkey": "insulin#mixing~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_FA_021",
+      "106-1_FA_015",
+      "108-1_FA_020"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "insulin#injection-sites",
     "tag": null,
     "adm": null,
@@ -7207,6 +8395,20 @@
     "keyword": "(胰島素).*(注射|部位|吸收|角度|針頭|按摩)|(注射|吸收).*(胰島素)",
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "insulin#injection-sites~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_FA_030",
+      "107-1_FA_018",
+      "107-2_MS_069",
+      "108-2_OP_048"
+    ],
+    "limit": null
   },
   {
     "qkey": "insulin#storage",
@@ -7219,7 +8421,7 @@
   },
   {
     "qkey": "insulin#questions",
-    "tag": "糖尿病|第一型糖尿病|第1型糖尿病",
+    "tag": "糖尿病|第一型糖尿病",
     "adm": null,
     "drug": null,
     "keyword": "胰島素",
@@ -7337,9 +8539,7 @@
     "tag": null,
     "adm": null,
     "drug": [
-      "心絞痛用藥",
-      "抗心絞痛用藥",
-      "狹心症用藥"
+      "心絞痛用藥"
     ],
     "keyword": null,
     "ids": [],
@@ -7474,6 +8674,104 @@
     "limit": 10
   },
   {
+    "qkey": "pituitary-hormones#growth-hormone",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_069",
+      "105-2_MS_074",
+      "110-1_BM_062",
+      "111-1_BM_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-hormones#dopamine-agonists",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-hormones#adh-analogues",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_063",
+      "109-2_BM_062",
+      "114-3_BM_039",
+      "114-1_MS_045",
+      "113-3_MS_043",
+      "106-2_MS_071",
+      "107-1_MS_072",
+      "112-1_OP_070"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-hormones#oxytocin",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_BM_061",
+      "105-1_OP_018",
+      "110-1_OP_018",
+      "106-2_OP_015",
+      "112-1_OP_019",
+      "114-1_OP_020",
+      "108-2_OP_032",
+      "106-2_makeup_OP_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-hormones#other-uterotonics",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_009",
+      "106-2_OP_016",
+      "107-1_OP_031",
+      "105-1_OP_013",
+      "110-2_OP_032",
+      "114-3_OP_018",
+      "110-1_OP_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-hormones#gonadotropins",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pituitary-hormones#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(desmopressin|Desmopressin|DDAVP|vasopressin|Vasopressin|octreotide|Octreotide|bromocriptine|Bromocriptine|cabergoline|somatropin|生長素|生長激素注射|催產素|Pitocin|oxytocin|leuprolide|性腺激素)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "potassium-sparing-diuretics#questions",
     "tag": null,
     "adm": null,
@@ -7516,6 +8814,114 @@
     "limit": null
   },
   {
+    "qkey": "sex-hormones#estrogen-progestin",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_036",
+      "114-3_OP_025",
+      "113-3_OP_011",
+      "107-1_OP_037",
+      "110-2_BM_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sex-hormones#contraceptive-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_PC_065",
+      "111-1_OP_023",
+      "111-2_OP_023",
+      "107-1_OP_019",
+      "107-1_OP_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sex-hormones#contraceptive-contraindications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_036",
+      "112-2_BM_038",
+      "112-1_OP_025",
+      "105-2_OP_019",
+      "110-2_OP_020",
+      "106-2_makeup_OP_023",
+      "105-1_OP_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sex-hormones#emergency-contraception",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_021",
+      "109-1_OP_025",
+      "108-1_OP_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sex-hormones#hormone-therapy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_BM_064",
+      "105-2_OP_037",
+      "110-2_OP_036",
+      "111-2_PC_067",
+      "106-1_OP_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sex-hormones#androgens",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sex-hormones#infertility",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_003",
+      "113-3_BM_038",
+      "113-1_OP_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sex-hormones#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(避孕|口服避孕藥|荷爾蒙補充|荷爾蒙替代|HRT|雌性素|動情素|黃體素|RU486|mifepristone|finasteride|clomiphene|tamoxifen|raloxifene)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "sglt2-inhibitors#questions",
     "tag": null,
     "adm": null,
@@ -7529,8 +8935,7 @@
     "tag": null,
     "adm": null,
     "drug": [
-      "降血脂用藥",
-      "高血脂用藥"
+      "降血脂用藥"
     ],
     "keyword": null,
     "ids": [],
@@ -7600,6 +9005,84 @@
     "limit": null
   },
   {
+    "qkey": "thyroid-drugs#levothyroxine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_069",
+      "107-1_MS_069",
+      "111-1_MS_073",
+      "112-3_BM_038",
+      "107-2_OP_047",
+      "115-2_OP_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-drugs#thionamides",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_BM_038",
+      "107-2_MS_070",
+      "112-1_MS_070",
+      "105-2_BM_059",
+      "106-2_makeup_BM_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-drugs#iodides",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_MS_046",
+      "106-2_MS_065",
+      "110-2_MS_068",
+      "106-1_MS_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-drugs#radioactive-iodine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_MS_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-drugs#beta-blockers",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_061",
+      "112-3_BM_034",
+      "109-2_BM_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-drugs#questions",
+    "tag": "甲狀腺機能亢進|甲狀腺功能低下|甲狀腺風暴",
+    "adm": null,
+    "drug": null,
+    "keyword": "(levothyroxine|thyroxine|甲狀腺素|PTU|propylthiouracil|methimazole|碘化鉀|碘劑|放射性碘)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "tzd#questions",
     "tag": null,
     "adm": null,
@@ -7641,6 +9124,96 @@
     "adm": null,
     "drug": null,
     "keyword": "(BNP|利鈉|排鈉利尿胜肽)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "calcium-phosphate#reference-range",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_037",
+      "109-2_MS_066"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "calcium-phosphate#low-causes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "calcium-phosphate#low-symptoms",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_060",
+      "107-1_MS_060",
+      "106-2_makeup_MS_062",
+      "111-1_MS_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "calcium-phosphate#high-causes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_FA_029",
+      "105-2_FA_050",
+      "112-3_FA_026",
+      "113-3_MS_041",
+      "112-3_MS_024",
+      "106-2_MS_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "calcium-phosphate#high-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_040",
+      "115-1_MS_023",
+      "115-1_MS_024",
+      "113-2_BM_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "calcium-phosphate#hyperphosphatemia-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_071",
+      "108-2_MS_064",
+      "111-1_MS_067",
+      "107-2_MS_068"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "calcium-phosphate#questions",
+    "tag": "低血鈣|高血鈣|高血磷症",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
     "ids": [],
     "limit": 8
   },
@@ -7771,7 +9344,7 @@
   },
   {
     "qkey": "ecg#rv-infarction",
-    "tag": "心肌梗塞|急性心肌梗塞|急性冠心症|心絞痛",
+    "tag": "心肌梗塞|急性心肌梗塞|急性冠狀動脈症候群|心絞痛",
     "adm": null,
     "drug": null,
     "keyword": "(心電圖|ST ?段|ST ?間段|Q ?波|導程|EKG|ECG)",
@@ -7840,6 +9413,17 @@
     "keyword": "(糖化血|HbA1c|醣化血)",
     "ids": [],
     "limit": 12
+  },
+  {
+    "qkey": "hba1c#targets~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_073"
+    ],
+    "limit": null
   },
   {
     "qkey": "immunology-labs#questions",
@@ -8005,6 +9589,44 @@
     "adm": null,
     "drug": null,
     "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "thyroid-function-tests#interpretation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_047",
+      "109-1_BM_032",
+      "106-2_makeup_BM_025",
+      "113-1_OP_043",
+      "111-2_MS_068",
+      "106-1_MS_067",
+      "111-1_MS_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-function-tests#t4-t3",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_011",
+      "114-3_BM_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-function-tests#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(TSH|甲狀腺刺激素|游離甲狀腺素|攝碘|甲狀腺掃描|甲狀腺球蛋白)",
     "ids": [],
     "limit": 8
   },
@@ -8614,6 +10236,96 @@
     "limit": null
   },
   {
+    "qkey": "adrenal-glands#structure",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_BM_009",
+      "106-1_BM_002",
+      "106-2_BM_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenal-glands#aldosterone",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_BM_017",
+      "106-2_makeup_BM_028",
+      "111-1_BM_062",
+      "106-2_FA_030",
+      "110-2_BM_027",
+      "112-1_MS_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenal-glands#cortisol",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_067",
+      "112-3_MS_043",
+      "106-2_makeup_MS_072",
+      "106-2_makeup_BM_024",
+      "109-2_BM_025",
+      "105-1_PC_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenal-glands#cortical-insufficiency",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_042",
+      "109-2_BM_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenal-glands#medulla",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenal-glands#stress-response",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_080",
+      "109-1_MS_069",
+      "108-2_PC_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "adrenal-glands#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(腎上腺|皮質醇|醛固酮|糖皮質|礦物皮質|絲球帶|束狀帶|網狀帶|嗜鉻|腎素|血管張力素)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "autonomic-nervous-system#overview",
     "tag": null,
     "adm": null,
@@ -9072,6 +10784,100 @@
     "limit": 6
   },
   {
+    "qkey": "cell-injury-adaptation#adaptation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_021",
+      "113-1_MS_041",
+      "112-1_BM_025",
+      "106-2_BM_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-injury-adaptation#cell-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-injury-adaptation#cell-injury",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_033",
+      "110-1_BM_041",
+      "106-2_BM_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-injury-adaptation#accumulations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_BM_021",
+      "113-2_BM_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-injury-adaptation#necrosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-injury-adaptation#apoptosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_BM_040",
+      "113-3_BM_021",
+      "106-2_makeup_BM_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-injury-adaptation#postmortem",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-injury-adaptation#questions",
+    "tag": "細胞傷害|細胞凋亡|壞死|細胞適應|營養不良性鈣化|轉移性鈣化",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
     "qkey": "complement-system#questions",
     "tag": null,
     "adm": null,
@@ -9185,6 +10991,430 @@
     "limit": 8
   },
   {
+    "qkey": "edema-shock#edema",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_023",
+      "115-2_BM_004",
+      "109-1_BM_036",
+      "107-1_BM_034",
+      "113-3_BM_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "edema-shock#nephrotic-edema",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_034",
+      "109-2_MS_062",
+      "112-2_BM_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "edema-shock#cirrhosis-ascites",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_012",
+      "111-1_MS_010",
+      "112-3_MS_010",
+      "113-3_BM_027",
+      "112-1_BM_021",
+      "113-2_BM_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "edema-shock#hyperemia-congestion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_041",
+      "111-1_BM_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "edema-shock#shock-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_076",
+      "105-1_MS_077",
+      "109-1_BM_033",
+      "105-2_MS_075",
+      "106-1_MS_026",
+      "109-2_MS_028",
+      "110-2_MS_076",
+      "110-1_OP_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "edema-shock#compensation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_076",
+      "111-1_BM_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "edema-shock#shock-stages",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_075",
+      "110-2_MS_078"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "edema-shock#hemorrhage-class",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_075",
+      "108-1_MS_076",
+      "108-1_MS_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "edema-shock#questions",
+    "tag": "水腫|組織水腫|充血|休克|低血容積性休克|出血性休克|心因性休克",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "endocrine-overview#hormone-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_BM_015",
+      "112-3_BM_012",
+      "105-1_BM_022",
+      "105-1_BM_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "endocrine-overview#glands",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_074",
+      "110-1_BM_008",
+      "106-2_makeup_BM_001",
+      "115-1_BM_011",
+      "109-1_BM_016",
+      "105-1_BM_002",
+      "109-1_BM_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "endocrine-overview#feedback",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_BM_020",
+      "110-1_BM_028",
+      "113-2_BM_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "endocrine-overview#pineal",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_002",
+      "110-2_BM_023",
+      "114-1_BM_004",
+      "106-2_makeup_BM_002",
+      "114-3_BM_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "endocrine-overview#testis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_BM_019",
+      "108-2_BM_023",
+      "109-2_BM_026",
+      "114-2_BM_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "endocrine-overview#ovary",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_028",
+      "107-1_BM_062",
+      "108-1_OP_040",
+      "112-1_BM_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "endocrine-overview#placenta",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_BM_017",
+      "112-1_OP_031",
+      "115-1_BM_008",
+      "111-1_BM_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "endocrine-overview#menopause",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_036",
+      "108-2_OP_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "endocrine-overview#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(激素|荷爾蒙|內分泌腺|類固醇激素|負回饋|正回饋|松果|褪黑|胎盤泌乳素|hPL|hCG|萊氏|塞氏|賽氏|芳香)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "environmental-injury#ionizing-radiation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_038",
+      "106-1_BM_038",
+      "112-1_BM_026",
+      "110-2_FA_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-injury#ultraviolet",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_PC_062",
+      "114-1_PC_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-injury#heat-injury",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_FA_042",
+      "106-1_FA_040",
+      "114-1_MS_048",
+      "113-3_PC_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-injury#carbon-monoxide",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_030",
+      "115-1_BM_005",
+      "105-2_MS_046",
+      "106-2_MS_042",
+      "106-2_makeup_MS_078",
+      "108-1_MS_078",
+      "112-2_PC_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-injury#lead",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_043",
+      "106-2_OP_043",
+      "112-1_OP_045",
+      "106-2_makeup_PC_075",
+      "114-1_BM_024",
+      "109-2_OP_044",
+      "111-2_PC_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-injury#heavy-metals",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_PC_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-injury#tobacco",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-injury#alcohol",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-injury#air-pollution",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_BM_042",
+      "108-2_BM_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-injury#questions",
+    "tag": "一氧化碳中毒|鉛中毒|熱中暑|熱傷害|輻射傷害|塵肺症|酒精中毒",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "genetic-inheritance#mitochondrial",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_037",
+      "115-2_BM_023",
+      "108-1_BM_034",
+      "113-1_BM_023",
+      "106-2_makeup_OP_067",
+      "109-1_OP_074",
+      "109-2_OP_066",
+      "110-2_OP_026",
+      "105-1_OP_009",
+      "112-1_OP_067",
+      "114-2_OP_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "genetic-inheritance#genetic-counseling",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_002",
+      "110-1_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "genetic-inheritance#questions",
+    "tag": "遺傳性疾病|粒線體疾病",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "glucose-homeostasis#islets",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_027",
+      "109-2_BM_032"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "glucose-homeostasis#incretin",
     "tag": null,
     "adm": null,
@@ -9201,6 +11431,18 @@
     "keyword": "胰島素.*(受體|接受器)|β ?細胞被破壞|(葡萄糖|血糖)進入(脂肪|腦|肌肉)|血漿葡萄糖進入",
     "ids": [],
     "limit": 6
+  },
+  {
+    "qkey": "glucose-homeostasis#counter-hormones",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_012",
+      "105-1_MS_068"
+    ],
+    "limit": null
   },
   {
     "qkey": "glucose-homeostasis#questions",
@@ -9254,6 +11496,130 @@
       "115-1_MS_027"
     ],
     "limit": null
+  },
+  {
+    "qkey": "hypothalamus-pituitary#cell-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_073",
+      "115-2_BM_001",
+      "114-1_BM_012",
+      "110-2_BM_008",
+      "112-1_BM_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothalamus-pituitary#nuclei",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_018",
+      "114-2_BM_015",
+      "109-1_BM_018",
+      "114-1_MS_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothalamus-pituitary#body-temperature",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_FA_037",
+      "109-1_FA_056"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothalamus-pituitary#hypothalamic-hormones",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_BM_027",
+      "106-1_BM_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothalamus-pituitary#anterior-lobe",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_042",
+      "106-2_MS_068",
+      "107-2_BM_002",
+      "108-1_BM_002",
+      "112-1_BM_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothalamus-pituitary#growth-hormone",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_047",
+      "113-1_BM_005",
+      "107-2_BM_023",
+      "113-3_BM_014",
+      "112-2_BM_014",
+      "106-1_BM_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothalamus-pituitary#lactation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_024",
+      "105-1_BM_024",
+      "111-2_OP_022",
+      "106-1_OP_026",
+      "114-1_OP_016",
+      "110-1_OP_023",
+      "107-2_BM_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothalamus-pituitary#posterior-lobe",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_BM_020",
+      "107-1_BM_023",
+      "110-2_BM_024",
+      "109-2_BM_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hypothalamus-pituitary#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(腦下垂體|腦下腺|下視丘|前葉|後葉|門脈|生長激素|泌乳素|催產素|抗利尿激素|視上核|室旁核)",
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "immune-system-basics#questions",
@@ -9725,6 +12091,50 @@
     "limit": null
   },
   {
+    "qkey": "nutritional-disorders#protein-energy-malnutrition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nutritional-disorders#fat-soluble",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_BM_032",
+      "109-2_BM_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nutritional-disorders#water-soluble",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_BM_024",
+      "111-1_MS_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nutritional-disorders#questions",
+    "tag": "營養不良|蛋白質營養不良|紅孩兒病|壞血病|維生素缺乏症",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "special-senses#general-senses",
     "tag": null,
     "adm": null,
@@ -10021,5 +12431,218 @@
       "108-1_BM_055"
     ],
     "limit": null
+  },
+  {
+    "qkey": "thrombosis-embolism-infarction#hemostasis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_034",
+      "115-1_BM_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thrombosis-embolism-infarction#thrombosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_047",
+      "106-2_makeup_BM_034",
+      "112-2_BM_026",
+      "114-1_BM_022",
+      "111-2_MS_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thrombosis-embolism-infarction#venous-thrombosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_BM_023",
+      "112-3_BM_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thrombosis-embolism-infarction#dic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_040",
+      "106-2_makeup_MS_042",
+      "112-1_MS_035",
+      "112-1_OP_033",
+      "107-2_MS_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thrombosis-embolism-infarction#embolism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_040",
+      "110-2_BM_034",
+      "106-2_BM_035",
+      "110-1_BM_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thrombosis-embolism-infarction#fat-embolism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_034",
+      "111-2_MS_021",
+      "108-2_MS_014",
+      "109-1_MS_018",
+      "112-1_MS_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thrombosis-embolism-infarction#gas-amniotic-embolism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_034",
+      "113-2_OP_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thrombosis-embolism-infarction#infarction",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thrombosis-embolism-infarction#questions",
+    "tag": "血栓形成|血栓栓塞|栓塞|梗塞|止血與凝血|瀰漫性血管內凝血|脂肪栓塞症候群|減壓症|羊水栓塞",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "thyroid-parathyroid#structure",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_002",
+      "113-1_BM_011",
+      "111-2_BM_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-parathyroid#synthesis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_BM_025",
+      "114-3_BM_015",
+      "107-2_OP_011",
+      "106-2_OP_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-parathyroid#actions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_023",
+      "109-1_BM_023",
+      "112-3_FA_024",
+      "106-2_makeup_FA_042",
+      "109-2_MS_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-parathyroid#regulation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_047",
+      "109-1_BM_032",
+      "113-1_OP_043",
+      "106-2_makeup_BM_025",
+      "108-2_BM_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-parathyroid#bone-density",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_002",
+      "115-1_BM_007",
+      "111-1_BM_021",
+      "114-2_MS_046",
+      "105-1_BM_023",
+      "106-2_BM_024",
+      "112-3_BM_016",
+      "105-2_MS_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-parathyroid#parathyroid-disorders",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_045",
+      "112-3_OP_042",
+      "108-1_OP_076",
+      "108-2_BM_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "thyroid-parathyroid#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(甲狀腺|副甲狀腺|降鈣素|濾泡|膠體|T3|T4|PTH|骨化三醇|維生素 ?D)",
+    "ids": [],
+    "limit": 8
   }
 ]

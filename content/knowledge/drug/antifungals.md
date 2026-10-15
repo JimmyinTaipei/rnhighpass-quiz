@@ -2,7 +2,7 @@
 title: 抗黴菌藥物
 subtitle: Antifungal drugs(多烯類、唑類、棘白菌素、nystatin 與皮膚黴菌用藥)
 aliases: [抗黴菌藥, 抗真菌藥, 抗真菌劑, Antifungals, Amphotericin B, AmB, 兩性黴素, Liposomal amphotericin B, AmBisome, Nystatin, Mycostatin, 制黴素, 多烯類, Polyenes, Azoles, 唑類, Fluconazole, 氟康唑, Diflucan, Itraconazole, Voriconazole, Posaconazole, Isavuconazole, Ketoconazole, Clotrimazole, Miconazole, Echinocandins, 棘白菌素, Caspofungin, Micafungin, Anidulafungin, Flucytosine, 5-FC, Terbinafine, Griseofulvin, 麥角固醇, Ergosterol]
-dzTags: [黴菌感染, 念珠菌感染, 念珠菌病, 鵝口瘡, 足癬, 隱球菌症, 麴菌病]
+dzTags: [黴菌感染, 念珠菌感染, 鵝口瘡, 足癬, 隱球菌症, 麴菌病]
 system: infection
 group: antifungals
 chapters:

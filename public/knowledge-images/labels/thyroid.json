@@ -1,0 +1,66 @@
+{
+ "image": "servier-thyroid.svg",
+ "_說明": "左圖前面觀(看圖者左邊是病人右葉)、右圖背面觀(4 個副甲狀腺)",
+ "labels": [
+  {
+   "id": "right-lobe",
+   "zh": "右葉",
+   "en": "Right lobe",
+   "x": 22,
+   "y": 40,
+   "tx": 14,
+   "ty": 40,
+   "align": "end"
+  },
+  {
+   "id": "pyramidal",
+   "zh": "錐狀葉",
+   "en": "Pyramidal lobe",
+   "x": 30,
+   "y": 12,
+   "tx": 46,
+   "ty": 8,
+   "align": "start"
+  },
+  {
+   "id": "left-lobe",
+   "zh": "左葉",
+   "en": "Left lobe",
+   "x": 37,
+   "y": 38,
+   "tx": 46,
+   "ty": 32,
+   "align": "start"
+  },
+  {
+   "id": "isthmus",
+   "zh": "峽部",
+   "en": "Isthmus",
+   "x": 29,
+   "y": 60,
+   "tx": 46,
+   "ty": 62,
+   "align": "start"
+  },
+  {
+   "id": "sup-parathyroid",
+   "zh": "上副甲狀腺(背面)",
+   "en": "Superior parathyroid",
+   "x": 78,
+   "y": 36,
+   "tx": 86,
+   "ty": 26,
+   "align": "start"
+  },
+  {
+   "id": "inf-parathyroid",
+   "zh": "下副甲狀腺(背面)",
+   "en": "Inferior parathyroid",
+   "x": 77,
+   "y": 83,
+   "tx": 86,
+   "ty": 90,
+   "align": "start"
+  }
+ ]
+}

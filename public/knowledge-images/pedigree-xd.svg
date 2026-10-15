@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" width="760" height="560" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>X 性聯顯性遺傳的家族譜系</title>
+<rect width="760" height="560" fill="#FFFFFF"/>
+<defs>
+<marker id="mr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A6EA5"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E7C57"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AD5C28"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5CA5"/></marker>
+<marker id="my" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C99A4B"/></marker>
+<marker id="mn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9AA0AC"/></marker>
+<marker id="mk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker></defs>
+<text x="380" y="32" font-size="19" text-anchor="middle" font-weight="bold" fill="#26262B">X 性聯顯性遺傳的家族譜系</text>
+<rect x="283" y="93" width="34" height="34" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<circle cx="380" cy="110" r="17" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<line x1="317" y1="110" x2="363" y2="110" stroke="#26262B" stroke-width="1.8"/>
+<line x1="340.0" y1="110" x2="340.0" y2="188" stroke="#26262B" stroke-width="1.8"/>
+<line x1="130" y1="188" x2="460" y2="188" stroke="#26262B" stroke-width="1.8"/>
+<line x1="130" y1="188" x2="130" y2="213" stroke="#26262B" stroke-width="1.8"/>
+<line x1="240" y1="188" x2="240" y2="213" stroke="#26262B" stroke-width="1.8"/>
+<line x1="350" y1="188" x2="350" y2="213" stroke="#26262B" stroke-width="1.8"/>
+<line x1="460" y1="188" x2="460" y2="213" stroke="#26262B" stroke-width="1.8"/>
+<circle cx="130" cy="230" r="17" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<rect x="223" y="213" width="34" height="34" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<rect x="333" y="213" width="34" height="34" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<circle cx="460" cy="230" r="17" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<rect x="563" y="213" width="34" height="34" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<line x1="477" y1="230" x2="563" y2="230" stroke="#26262B" stroke-width="1.8"/>
+<line x1="520" y1="230" x2="520" y2="308" stroke="#26262B" stroke-width="1.8"/>
+<line x1="440" y1="308" x2="680" y2="308" stroke="#26262B" stroke-width="1.8"/>
+<line x1="440" y1="308" x2="440" y2="333" stroke="#26262B" stroke-width="1.8"/>
+<line x1="520" y1="308" x2="520" y2="333" stroke="#26262B" stroke-width="1.8"/>
+<line x1="600" y1="308" x2="600" y2="333" stroke="#26262B" stroke-width="1.8"/>
+<line x1="680" y1="308" x2="680" y2="333" stroke="#26262B" stroke-width="1.8"/>
+<circle cx="440" cy="350" r="17" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<rect x="503" y="333" width="34" height="34" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<circle cx="600" cy="350" r="17" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<rect x="663" y="333" width="34" height="34" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<text x="24" y="115" font-size="14" text-anchor="middle" font-weight="bold" fill="#5B6170">I</text>
+<text x="24" y="235" font-size="14" text-anchor="middle" font-weight="bold" fill="#5B6170">II</text>
+<text x="24" y="355" font-size="14" text-anchor="middle" font-weight="bold" fill="#5B6170">III</text>
+<line x1="40" y1="410" x2="720" y2="410" stroke="#D3D6DD"/>
+<text x="40" y="438" font-size="13.5" text-anchor="start" fill="#26262B">・患病父親：女兒全部患病、兒子全部正常</text>
+<text x="40" y="460" font-size="13.5" text-anchor="start" fill="#26262B">・患病母親(異型合子)：兒子與女兒各 1/2 患病</text>
+<text x="40" y="482" font-size="13.5" text-anchor="start" fill="#26262B">・女性患者約是男性的兩倍，女性症狀常較輕</text>
+<text x="40" y="504" font-size="13.5" text-anchor="start" fill="#26262B">・例：低磷酸鹽血症佝僂病、雷特氏症(多見於女孩)；X 染色體脆折症屬 X 性聯、男性較多也較嚴重</text>
+<rect x="23" y="513" width="34" height="34" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<text x="66" y="535" font-size="12" text-anchor="start" fill="#26262B">正常男性</text>
+<circle cx="150" cy="530" r="17" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<text x="176" y="535" font-size="12" text-anchor="start" fill="#26262B">正常女性</text>
+<rect x="243" y="513" width="34" height="34" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<text x="286" y="535" font-size="12" text-anchor="start" fill="#26262B">患病男性</text>
+<circle cx="370" cy="530" r="17" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<text x="396" y="535" font-size="12" text-anchor="start" fill="#26262B">患病女性</text>
+</svg>

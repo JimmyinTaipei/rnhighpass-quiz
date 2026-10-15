@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" width="980" height="660" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>下視丘－腦下垂體－標的腺的負回饋軸</title>
+<rect width="980" height="660" fill="#FFFFFF"/>
+<defs><marker id="mi" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker><marker id="mb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A6EA5"/></marker><marker id="mp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5CA5"/></marker><marker id="mr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/></marker><marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E7C57"/></marker><marker id="mo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AD5C28"/></marker></defs>
+<text x="490" y="32" font-size="20" text-anchor="middle" font-weight="bold" fill="#26262B">下視丘－腦下垂體－標的腺的負回饋軸</text>
+<text x="260" y="72" font-size="16" text-anchor="middle" font-weight="bold" fill="#AD5C28">HPA 軸(壓力軸)</text>
+<rect x="150" y="90" width="220" height="56" rx="10" fill="#FBF3EA" stroke="#B9803D" stroke-width="1.8"/>
+<text x="260.0" y="123.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">下視丘</text>
+<path d="M260,146 L260,190" fill="none" stroke="#26262B" stroke-width="2.2"  marker-end="url(#mi)"/>
+<text x="270" y="173.0" font-size="13" text-anchor="start" font-weight="bold" fill="#26262B">CRH</text>
+<rect x="150" y="192" width="220" height="56" rx="10" fill="#F6E5CC" stroke="#C49A5A" stroke-width="1.8"/>
+<text x="260.0" y="225.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">腦下垂體前葉</text>
+<path d="M260,248 L260,292" fill="none" stroke="#26262B" stroke-width="2.2"  marker-end="url(#mi)"/>
+<text x="270" y="275.0" font-size="13" text-anchor="start" font-weight="bold" fill="#26262B">ACTH</text>
+<rect x="150" y="294" width="220" height="56" rx="10" fill="#EAF1F8" stroke="#3A6EA5" stroke-width="1.8"/>
+<text x="260.0" y="327.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">腎上腺皮質(束狀帶)</text>
+<path d="M260,350 L260,394" fill="none" stroke="#26262B" stroke-width="2.2"  marker-end="url(#mi)"/>
+<text x="270" y="377.0" font-size="13" text-anchor="start" font-weight="bold" fill="#26262B">皮質醇</text>
+<rect x="150" y="396" width="220" height="56" rx="10" fill="#EEF6F0" stroke="#3E7C57" stroke-width="1.8"/>
+<text x="260.0" y="421.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">標的組織</text>
+<text x="260.0" y="440.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#3E7C57">升血糖、抗發炎、壓力反應</text>
+<path d="M370,372 C450,372 450,120 376,118" fill="none" stroke="#B4485C" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#mr)"/>
+<path d="M370,372 C420,372 420,222 376,220" fill="none" stroke="#B4485C" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#mr)"/>
+<text x="450" y="250" font-size="22" text-anchor="middle" font-weight="bold" fill="#B4485C">－</text>
+<text x="450" y="272" font-size="12" text-anchor="middle" font-weight="normal" fill="#B4485C">負回饋</text>
+<text x="670" y="72" font-size="16" text-anchor="middle" font-weight="bold" fill="#AD5C28">HPT 軸(甲狀腺軸)</text>
+<rect x="560" y="90" width="220" height="56" rx="10" fill="#FBF3EA" stroke="#B9803D" stroke-width="1.8"/>
+<text x="670.0" y="123.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">下視丘</text>
+<path d="M670,146 L670,190" fill="none" stroke="#26262B" stroke-width="2.2"  marker-end="url(#mi)"/>
+<text x="680" y="173.0" font-size="13" text-anchor="start" font-weight="bold" fill="#26262B">TRH</text>
+<rect x="560" y="192" width="220" height="56" rx="10" fill="#F6E5CC" stroke="#C49A5A" stroke-width="1.8"/>
+<text x="670.0" y="225.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">腦下垂體前葉</text>
+<path d="M670,248 L670,292" fill="none" stroke="#26262B" stroke-width="2.2"  marker-end="url(#mi)"/>
+<text x="680" y="275.0" font-size="13" text-anchor="start" font-weight="bold" fill="#26262B">TSH</text>
+<rect x="560" y="294" width="220" height="56" rx="10" fill="#EAF1F8" stroke="#3A6EA5" stroke-width="1.8"/>
+<text x="670.0" y="327.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">甲狀腺(濾泡細胞)</text>
+<path d="M670,350 L670,394" fill="none" stroke="#26262B" stroke-width="2.2"  marker-end="url(#mi)"/>
+<text x="680" y="377.0" font-size="13" text-anchor="start" font-weight="bold" fill="#26262B">T3、T4</text>
+<rect x="560" y="396" width="220" height="56" rx="10" fill="#EEF6F0" stroke="#3E7C57" stroke-width="1.8"/>
+<text x="670.0" y="421.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">標的組織</text>
+<text x="670.0" y="440.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#3E7C57">提高代謝率、產熱、生長發育</text>
+<path d="M780,372 C860,372 860,120 786,118" fill="none" stroke="#B4485C" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#mr)"/>
+<path d="M780,372 C830,372 830,222 786,220" fill="none" stroke="#B4485C" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#mr)"/>
+<text x="860" y="250" font-size="22" text-anchor="middle" font-weight="bold" fill="#B4485C">－</text>
+<text x="860" y="272" font-size="12" text-anchor="middle" font-weight="normal" fill="#B4485C">負回饋</text>
+<rect x="40" y="480" width="900" height="160" rx="10" fill="#F7F7F9" stroke="#D8D8DE"/>
+<text x="60" y="506" font-size="14" text-anchor="start" font-weight="bold" fill="#26262B">用「上游激素」判斷病變在哪一層</text>
+<text x="60" y="532" font-size="12" text-anchor="start" font-weight="bold" fill="#26262B">病變位置</text>
+<text x="280" y="532" font-size="12" text-anchor="start" font-weight="bold" fill="#26262B">例子</text>
+<text x="580" y="532" font-size="12" text-anchor="start" font-weight="bold" fill="#26262B">上游(TSH／ACTH)</text>
+<text x="780" y="532" font-size="12" text-anchor="start" font-weight="bold" fill="#26262B">下游(T4／皮質醇)</text>
+<text x="60" y="556" font-size="12" text-anchor="start" font-weight="normal" fill="#26262B">原發性：標的腺本身</text>
+<text x="280" y="556" font-size="12" text-anchor="start" font-weight="normal" fill="#26262B">橋本氏甲狀腺炎；愛迪生氏病</text>
+<text x="580" y="556" font-size="12" text-anchor="start" font-weight="normal" fill="#B4485C">↑ 負回饋解除</text>
+<text x="780" y="556" font-size="12" text-anchor="start" font-weight="normal" fill="#3A6EA5">↓</text>
+<text x="60" y="580" font-size="12" text-anchor="start" font-weight="normal" fill="#26262B">原發性：標的腺分泌過多</text>
+<text x="280" y="580" font-size="12" text-anchor="start" font-weight="normal" fill="#26262B">葛瑞夫茲氏病；腎上腺腫瘤</text>
+<text x="580" y="580" font-size="12" text-anchor="start" font-weight="normal" fill="#3A6EA5">↓ 被抑制</text>
+<text x="780" y="580" font-size="12" text-anchor="start" font-weight="normal" fill="#3A6EA5">↑</text>
+<text x="60" y="604" font-size="12" text-anchor="start" font-weight="normal" fill="#26262B">次發性：腦下垂體</text>
+<text x="280" y="604" font-size="12" text-anchor="start" font-weight="normal" fill="#26262B">腦下垂體腺瘤(庫欣氏病)；席漢氏症候群</text>
+<text x="580" y="604" font-size="12" text-anchor="start" font-weight="normal" fill="#B4485C">↑ 或 ↓(與下游同方向)</text>
+<text x="780" y="604" font-size="12" text-anchor="start" font-weight="normal" fill="#3A6EA5">同上游</text>
+<text x="60" y="628" font-size="12" text-anchor="start" font-weight="normal" fill="#26262B">外源性類固醇</text>
+<text x="280" y="628" font-size="12" text-anchor="start" font-weight="normal" fill="#26262B">長期服用 prednisolone</text>
+<text x="580" y="628" font-size="12" text-anchor="start" font-weight="normal" fill="#3A6EA5">ACTH ↓ → 腎上腺萎縮</text>
+<text x="780" y="628" font-size="12" text-anchor="start" font-weight="normal" fill="#3A6EA5">驟停 → 腎上腺危象</text>
+</svg>

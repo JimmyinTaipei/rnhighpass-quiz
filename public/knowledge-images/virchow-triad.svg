@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 545" width="900" height="545" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>Virchow 三要素：血栓形成的三個條件</title>
+<rect width="900" height="545" fill="#FFFFFF"/>
+<defs>
+<marker id="mr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A6EA5"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E7C57"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AD5C28"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5CA5"/></marker>
+<marker id="my" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C99A4B"/></marker>
+<marker id="mn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9AA0AC"/></marker>
+<marker id="mk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker></defs>
+<text x="450" y="34" font-size="21" text-anchor="middle" font-weight="bold" fill="#26262B">Virchow 三要素：血栓形成的三個條件</text>
+<polygon points="450,150 230,410 670,410" fill="#FBEFF1" stroke="#B4485C" stroke-width="2"/>
+<text x="450" y="330" font-size="22" text-anchor="middle" font-weight="bold" fill="#B4485C">血栓</text>
+<rect x="300" y="60" width="300" height="112" rx="10" fill="#E3EDF8" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="450.0" y="84" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">血流異常(停滯或亂流)</text>
+<text x="450.0" y="106" font-size="12.5" text-anchor="middle" fill="#26262B">長期臥床、長途飛行(久坐)</text>
+<text x="450.0" y="124.5" font-size="12.5" text-anchor="middle" fill="#26262B">心房顫動、靜脈曲張</text>
+<text x="450.0" y="143.0" font-size="12.5" text-anchor="middle" fill="#26262B">動脈瘤、心衰竭</text>
+<rect x="20" y="380" width="330" height="112" rx="10" fill="#F8EADF" stroke="#AD5C28" stroke-width="1.6"/>
+<text x="185.0" y="404" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">內皮細胞受傷</text>
+<text x="185.0" y="426" font-size="12.5" text-anchor="middle" fill="#26262B">動脈粥狀硬化(斑塊破裂)</text>
+<text x="185.0" y="444.5" font-size="12.5" text-anchor="middle" fill="#26262B">血管炎、手術或外傷</text>
+<text x="185.0" y="463.0" font-size="12.5" text-anchor="middle" fill="#26262B">靜脈導管、感染性心內膜炎</text>
+<rect x="550" y="380" width="330" height="112" rx="10" fill="#ECE8F6" stroke="#6B5CA5" stroke-width="1.6"/>
+<text x="715.0" y="404" font-size="15" text-anchor="middle" font-weight="bold" fill="#26262B">高凝血狀態</text>
+<text x="715.0" y="426" font-size="12.5" text-anchor="middle" fill="#26262B">懷孕、產後、口服避孕藥</text>
+<text x="715.0" y="444.5" font-size="12.5" text-anchor="middle" fill="#26262B">癌症、抗磷脂質症候群</text>
+<text x="715.0" y="463.0" font-size="12.5" text-anchor="middle" fill="#26262B">遺傳性易栓症、脫水</text>
+<text x="450" y="528" font-size="12.5" text-anchor="middle" fill="#5B6170">凝血因子缺乏(血友病、類血友病)造成的是出血傾向，不是血栓</text>
+</svg>

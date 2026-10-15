@@ -1,0 +1,36 @@
+{
+ "image": "servier-thrombus-infarct.svg",
+ "_說明": "左：小血栓卡在有側枝循環的分支，下游仍有血流；右：血栓完全阻塞供血分支，下游缺血梗塞(紫色)",
+ "labels": [
+  {
+   "id": "small-thrombus",
+   "zh": "血栓(側枝循環仍供血)",
+   "en": "Thrombus with collateral flow",
+   "x": 19,
+   "y": 46,
+   "tx": 30,
+   "ty": 82,
+   "align": "start"
+  },
+  {
+   "id": "occlusion",
+   "zh": "血栓阻塞",
+   "en": "Occlusive thrombus",
+   "x": 86,
+   "y": 38,
+   "tx": 79,
+   "ty": 70,
+   "align": "start"
+  },
+  {
+   "id": "infarct",
+   "zh": "下游缺血 → 梗塞",
+   "en": "Infarcted territory",
+   "x": 91,
+   "y": 12,
+   "tx": 99,
+   "ty": 58,
+   "align": "end"
+  }
+ ]
+}

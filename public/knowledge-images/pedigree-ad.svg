@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" width="760" height="560" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>體染色體顯性遺傳(AD)的家族譜系</title>
+<rect width="760" height="560" fill="#FFFFFF"/>
+<defs>
+<marker id="mr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A6EA5"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E7C57"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AD5C28"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5CA5"/></marker>
+<marker id="my" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C99A4B"/></marker>
+<marker id="mn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9AA0AC"/></marker>
+<marker id="mk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker></defs>
+<text x="380" y="32" font-size="19" text-anchor="middle" font-weight="bold" fill="#26262B">體染色體顯性遺傳(AD)的家族譜系</text>
+<rect x="283" y="93" width="34" height="34" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<circle cx="380" cy="110" r="17" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<line x1="317" y1="110" x2="363" y2="110" stroke="#26262B" stroke-width="1.8"/>
+<line x1="340.0" y1="110" x2="340.0" y2="188" stroke="#26262B" stroke-width="1.8"/>
+<line x1="130" y1="188" x2="460" y2="188" stroke="#26262B" stroke-width="1.8"/>
+<line x1="130" y1="188" x2="130" y2="213" stroke="#26262B" stroke-width="1.8"/>
+<line x1="240" y1="188" x2="240" y2="213" stroke="#26262B" stroke-width="1.8"/>
+<line x1="350" y1="188" x2="350" y2="213" stroke="#26262B" stroke-width="1.8"/>
+<line x1="460" y1="188" x2="460" y2="213" stroke="#26262B" stroke-width="1.8"/>
+<rect x="113" y="213" width="34" height="34" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<circle cx="240" cy="230" r="17" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<rect x="333" y="213" width="34" height="34" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<circle cx="460" cy="230" r="17" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<rect x="563" y="213" width="34" height="34" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<line x1="477" y1="230" x2="563" y2="230" stroke="#26262B" stroke-width="1.8"/>
+<line x1="520" y1="230" x2="520" y2="308" stroke="#26262B" stroke-width="1.8"/>
+<line x1="470" y1="308" x2="570" y2="308" stroke="#26262B" stroke-width="1.8"/>
+<line x1="470" y1="308" x2="470" y2="333" stroke="#26262B" stroke-width="1.8"/>
+<line x1="570" y1="308" x2="570" y2="333" stroke="#26262B" stroke-width="1.8"/>
+<rect x="453" y="333" width="34" height="34" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<circle cx="570" cy="350" r="17" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<text x="24" y="115" font-size="14" text-anchor="middle" font-weight="bold" fill="#5B6170">I</text>
+<text x="24" y="235" font-size="14" text-anchor="middle" font-weight="bold" fill="#5B6170">II</text>
+<text x="24" y="355" font-size="14" text-anchor="middle" font-weight="bold" fill="#5B6170">III</text>
+<line x1="40" y1="410" x2="720" y2="410" stroke="#D3D6DD"/>
+<text x="40" y="438" font-size="13.5" text-anchor="start" fill="#26262B">・每一代都有患者(垂直傳遞)；男女機率相同</text>
+<text x="40" y="460" font-size="13.5" text-anchor="start" fill="#26262B">・患者(多為異型合子)與正常人的子女：每胎 1/2 患病</text>
+<text x="40" y="482" font-size="13.5" text-anchor="start" fill="#26262B">・可以父傳子；正常的子女不會再往下傳</text>
+<text x="40" y="504" font-size="13.5" text-anchor="start" fill="#26262B">・例：亨丁頓舞蹈症、馬凡氏症、軟骨發育不全、成人型多囊腎、家族性高膽固醇血症</text>
+<rect x="23" y="513" width="34" height="34" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<text x="66" y="535" font-size="12" text-anchor="start" fill="#26262B">正常男性</text>
+<circle cx="150" cy="530" r="17" fill="#FFFFFF" stroke="#26262B" stroke-width="1.8"/>
+<text x="176" y="535" font-size="12" text-anchor="start" fill="#26262B">正常女性</text>
+<rect x="243" y="513" width="34" height="34" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<text x="286" y="535" font-size="12" text-anchor="start" fill="#26262B">患病男性</text>
+<circle cx="370" cy="530" r="17" fill="#B4485C" stroke="#26262B" stroke-width="1.8"/>
+<text x="396" y="535" font-size="12" text-anchor="start" fill="#26262B">患病女性</text>
+</svg>

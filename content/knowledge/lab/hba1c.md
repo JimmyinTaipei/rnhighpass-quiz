@@ -80,6 +80,8 @@ HbA1c 每上升 1%，平均血糖約增加 30 mg/dL。
 
 ::questions{keyword="(糖化血|HbA1c|醣化血)" limit="12"}
 
+::questions{ids="106-1_MS_073"}
+
 ## 臨床意義 {#interpretation}
 
 - **診斷**：與空腹血糖、OGTT 並列的診斷標準之一。

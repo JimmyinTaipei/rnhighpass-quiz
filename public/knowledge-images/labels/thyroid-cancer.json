@@ -1,0 +1,66 @@
+{
+ "image": "servier-thyroid-cancer.svg",
+ "_說明": "左：頸部前面觀；右：放大圖，看圖者左側(病人右葉)下方為腫瘤",
+ "labels": [
+  {
+   "id": "tumor-neck",
+   "zh": "腫瘤",
+   "en": "Tumor",
+   "x": 26,
+   "y": 82,
+   "tx": 12,
+   "ty": 88,
+   "align": "end"
+  },
+  {
+   "id": "hyoid",
+   "zh": "舌骨",
+   "en": "Hyoid bone",
+   "x": 80,
+   "y": 17,
+   "tx": 63,
+   "ty": 10,
+   "align": "end"
+  },
+  {
+   "id": "cartilage",
+   "zh": "甲狀軟骨",
+   "en": "Thyroid cartilage",
+   "x": 76,
+   "y": 37,
+   "tx": 63,
+   "ty": 30,
+   "align": "end"
+  },
+  {
+   "id": "tumor",
+   "zh": "腫瘤(結節)",
+   "en": "Tumor (nodule)",
+   "x": 69,
+   "y": 66,
+   "tx": 63,
+   "ty": 60,
+   "align": "end"
+  },
+  {
+   "id": "trachea",
+   "zh": "氣管",
+   "en": "Trachea",
+   "x": 80,
+   "y": 82,
+   "tx": 63,
+   "ty": 90,
+   "align": "end"
+  },
+  {
+   "id": "thyroid",
+   "zh": "甲狀腺",
+   "en": "Thyroid gland",
+   "x": 85,
+   "y": 62,
+   "tx": 92,
+   "ty": 42,
+   "align": "start"
+  }
+ ]
+}

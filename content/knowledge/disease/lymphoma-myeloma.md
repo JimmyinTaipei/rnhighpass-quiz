@@ -2,7 +2,7 @@
 title: 淋巴瘤與多發性骨髓瘤
 subtitle: Lymphoma(Hodgkin 與非何杰金氏)and multiple myeloma
 aliases: [淋巴瘤, 惡性淋巴瘤, 淋巴癌, Lymphoma, 何杰金氏淋巴瘤, 何杰金氏病, Hodgkin lymphoma, 非何杰金氏淋巴瘤, NHL, 瀰漫性大 B 細胞淋巴瘤, DLBCL, 濾泡性淋巴瘤, 勃氏淋巴瘤, Burkitt lymphoma, MALT 淋巴瘤, Reed-Sternberg 細胞, B 症狀, Ann Arbor 分期, 國際預後指標, IPI, 多發性骨髓瘤, Multiple myeloma, 漿細胞, M 蛋白, Bence Jones 蛋白, 類澱粉沉積症]
-dzTags: [淋巴瘤, 惡性淋巴瘤, 淋巴癌, 何杰金氏淋巴瘤, 非何杰金氏淋巴瘤, 多發性骨髓瘤, 胃MALT淋巴瘤]
+dzTags: [淋巴瘤, 何杰金氏淋巴瘤, 非何杰金氏淋巴瘤, 多發性骨髓瘤, 胃MALT淋巴瘤]
 system: oncology
 alsoIn: [hematology-immunology]
 chapters:
@@ -136,4 +136,4 @@ references:
 
 ::questions{ids="114-3_BM_025,114-1_BM_026,107-1_BM_042,106-2_makeup_BM_041,112-3_MS_025,110-2_MS_038,113-2_MS_022,113-1_MS_023,113-3_MS_026,109-2_MS_036,112-1_MS_034,107-1_MS_074,108-2_BM_039,111-2_BM_027,110-2_BM_046,108-1_MS_042,115-1_MS_026,109-2_MS_038,115-1_MS_022,108-2_MS_034,111-2_MS_035,112-2_BM_022,105-1_BM_035"}
 
-::questions{tag="淋巴瘤|惡性淋巴瘤|何杰金氏淋巴瘤|非何杰金氏淋巴瘤|多發性骨髓瘤" limit="10"}
+::questions{tag="淋巴瘤|何杰金氏淋巴瘤|非何杰金氏淋巴瘤|多發性骨髓瘤" limit="10"}

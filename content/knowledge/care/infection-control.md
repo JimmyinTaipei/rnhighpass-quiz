@@ -2,7 +2,7 @@
 title: 感染管制
 subtitle: Infection prevention and control(感染鏈、醫療照護相關感染、手部衛生、標準防護與傳播途徑防護、個人防護裝備、組合式照護)
 aliases: [感染管制, 感控, 感染控制, Infection control, 感染鏈, 傳染窩, 侵入門戶, 易感宿主, 醫療照護相關感染, 院內感染, HAI, Healthcare-associated infection, 手部衛生, 洗手, 洗手五時機, 乾洗手, 酒精性乾洗手液, 標準防護措施, 全面性防護, Standard precautions, 傳播途徑防護措施, 接觸傳染防護措施, 接觸隔離, 飛沫傳染防護措施, 飛沫隔離, 空氣傳染防護措施, 呼吸道隔離, 負壓隔離病房, N95, 外科口罩, 隔離衣, 個人防護裝備, PPE, 穿脫順序, 保護性隔離, 反隔離, 腸道隔離, 絕對隔離, 咳嗽禮節, 組合式照護, Bundle care, CLABSI, CAUTI, VAP, 中心導管, 多重抗藥性微生物, MDRO]
-dzTags: [院內感染, 醫療照護相關感染]
+dzTags: [醫療照護相關感染]
 system: fundamentals
 alsoIn: [infection, administration]
 chapters:

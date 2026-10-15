@@ -1,0 +1,106 @@
+{
+ "image": "servier-pituitary.svg",
+ "_說明": "下視丘與腦下垂體正中切面示意，左為前葉(腺垂體，門脈系統)、右為後葉(神經垂體，軸突末梢)",
+ "labels": [
+  {
+   "id": "hypothalamus",
+   "zh": "下視丘",
+   "en": "Hypothalamus",
+   "x": 40,
+   "y": 8,
+   "tx": 24,
+   "ty": 6,
+   "align": "end"
+  },
+  {
+   "id": "neurosecretory",
+   "zh": "視上核、室旁核神經元(示意，非實際位置)",
+   "en": "Neurosecretory cells (SON, PVN)",
+   "x": 57,
+   "y": 12,
+   "tx": 62,
+   "ty": 4,
+   "align": "start"
+  },
+  {
+   "id": "sup-hyp-artery",
+   "zh": "上垂體動脈",
+   "en": "Superior hypophyseal artery",
+   "x": 37,
+   "y": 28,
+   "tx": 24,
+   "ty": 24,
+   "align": "end"
+  },
+  {
+   "id": "primary-plexus",
+   "zh": "初級微血管叢",
+   "en": "Primary capillary plexus",
+   "x": 48,
+   "y": 37,
+   "tx": 24,
+   "ty": 38,
+   "align": "end"
+  },
+  {
+   "id": "tract",
+   "zh": "下視丘－垂體徑(軸突)",
+   "en": "Hypothalamo-hypophyseal tract",
+   "x": 52.5,
+   "y": 48,
+   "tx": 74,
+   "ty": 40,
+   "align": "start"
+  },
+  {
+   "id": "portal",
+   "zh": "垂體門脈",
+   "en": "Hypophyseal portal veins",
+   "x": 48.5,
+   "y": 55,
+   "tx": 24,
+   "ty": 52,
+   "align": "end"
+  },
+  {
+   "id": "anterior",
+   "zh": "前葉(腺垂體)",
+   "en": "Anterior lobe (adenohypophysis)",
+   "x": 45,
+   "y": 75,
+   "tx": 24,
+   "ty": 70,
+   "align": "end"
+  },
+  {
+   "id": "posterior",
+   "zh": "後葉(神經垂體)",
+   "en": "Posterior lobe (neurohypophysis)",
+   "x": 59,
+   "y": 76,
+   "tx": 74,
+   "ty": 70,
+   "align": "start"
+  },
+  {
+   "id": "inf-hyp-artery",
+   "zh": "下垂體動脈",
+   "en": "Inferior hypophyseal artery",
+   "x": 54.5,
+   "y": 90,
+   "tx": 74,
+   "ty": 92,
+   "align": "start"
+  },
+  {
+   "id": "vein",
+   "zh": "靜脈(激素進入全身)",
+   "en": "Hypophyseal veins",
+   "x": 40,
+   "y": 91,
+   "tx": 24,
+   "ty": 90,
+   "align": "end"
+  }
+ ]
+}

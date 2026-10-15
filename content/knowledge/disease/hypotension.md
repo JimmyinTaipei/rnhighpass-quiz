@@ -2,7 +2,7 @@
 title: 低血壓
 subtitle: Hypotension
 aliases: [姿勢性低血壓, 姿位性低血壓, 姿態性低血壓, 直立性低血壓, Orthostatic hypotension, 仰臥低血壓症候群, Supine hypotensive syndrome]
-dzTags: [低血壓, 姿勢性低血壓, 姿位性低血壓, 姿態性低血壓, 仰臥低血壓症候群, 仰臥位低血壓綜合症]
+dzTags: [低血壓, 姿勢性低血壓, 仰臥低血壓症候群]
 system: cardiovascular
 chapters:
   - 基護-Ch10生命徵象 > 血壓
@@ -101,7 +101,7 @@ references:
 - 藥物治療(簡述)：midodrine(α₁ 促效劑，升壓)、fludrocortisone(礦物皮質素，增加血量);會造成**臥位高血壓**，睡前不服用。
 - **跌倒**屬病人安全事件，除了記錄，還要依規定**通報**。
 
-::questions{tag="姿勢性低血壓|姿位性低血壓|姿態性低血壓" limit="8"}
+::questions{tag="姿勢性低血壓" limit="8"}
 
 ::questions{keyword="(坐浴|溫泉|熱療|用熱).*(頭暈|血壓|脈搏)|(頭暈|血壓|脈搏).*(坐浴|溫泉|熱療|用熱)|(第一次下床|漸進式下床)" limit="8"}
 
@@ -130,7 +130,7 @@ references:
 - 易混淆：**naloxone** 是鴉片類造成呼吸抑制的解毒劑，不是治療麻醉後低血壓。
 - 脊髓麻醉後平躺 6–8 小時是為了預防**脊髓性頭痛**，與低血壓處置不同。
 
-::questions{tag="仰臥低血壓症候群|仰臥位低血壓綜合症" limit="4"}
+::questions{tag="仰臥低血壓症候群" limit="4"}
 
 ::questions{keyword="(硬膜外|脊髓麻醉|減痛分娩).*(低血壓|血壓)|(低血壓|血壓).*(硬膜外|脊髓麻醉|減痛分娩)" limit="6"}
 
@@ -160,6 +160,8 @@ references:
 - **姿勢**：平躺並**被動抬高下肢**約 30–45°(增加回心血量);傳統的頭低腳高(Trendelenburg)會使腹腔臟器壓迫橫膈、影響呼吸，現行已不建議作為常規。
 - **升壓藥機轉**：α₁ 促效(norepinephrine、phenylephrine)↑周邊阻力;β₁ 促效(dobutamine)↑心跳與收縮力;中劑量 dopamine 同時增加心輸出量，高劑量增加血管阻力。詳見 [[inotropes]]。
 - 心跳停止後恢復自發循環(ROSC)的血壓目標：2025 AHA 要求避免低血壓，**MAP 至少維持 65 mmHg**，以輸液或升壓劑調整;2025 版流程圖**已不再列**舊版(2020)的「收縮壓 ≥ 90 mmHg」，也沒有指定哪一種升壓劑(來源：[2025 AHA CPR/ECC 指引摘要與流程圖](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines)，心跳停止後照護流程圖)。國考舊題若考「收縮壓 ≥ 90」，是依 2020 版作答。
+
+- 休克的分類(低血容積性、心因性、阻塞性、分布性)與分期見 [[edema-shock#shock]]
 
 ::questions{tag="低血壓|休克" keyword="(休克|升壓|dopamine|晶體液|輸液).*(血壓)|(血壓).*(休克|升壓)" limit="6"}
 

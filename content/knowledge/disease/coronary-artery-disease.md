@@ -2,7 +2,7 @@
 title: 冠狀動脈疾病：心絞痛與心肌梗塞
 subtitle: Coronary artery disease(CAD):angina pectoris & myocardial infarction
 aliases: [CAD, 冠心病, 缺血性心臟病, 心絞痛, 狹心症, 心肌梗塞, 急性心肌梗塞, AMI, MI, 急性冠心症, 急性冠狀動脈症候群, ACS, STEMI, NSTEMI, 不穩定型心絞痛, 變異型心絞痛, 動脈粥狀硬化]
-dzTags: [心肌梗塞, 急性心肌梗塞, 心絞痛, 狹心症, 不穩定型心絞痛, 急性冠心症, 急性冠狀動脈症候群, 冠狀動脈疾病, 缺血性心臟病, 動脈粥狀硬化, 動脈硬化, 高血脂, 高血脂症]
+dzTags: [心肌梗塞, 急性心肌梗塞, 心絞痛, 不穩定型心絞痛, 急性冠狀動脈症候群, 冠狀動脈疾病, 動脈粥狀硬化, 動脈硬化, 高血脂症]
 system: cardiovascular
 chapters:
   - 病理-Ch09心臟血管系統疾病 > 心臟疾病
@@ -169,7 +169,7 @@ references:
 - 看到 ST 上升就要啟動再灌流流程，**不可等酵素結果**。
 - **第 2 型心肌梗塞**：不是斑塊破裂，而是氧氣供需失衡(嚴重貧血、低血壓、心搏過速、呼吸衰竭)造成心肌壞死，處理原因為主。
 
-::questions{tag="心絞痛|狹心症|不穩定型心絞痛|急性冠心症|急性冠狀動脈症候群" keyword="(穩定型|不穩定型|變異型|Prinzmetal|痙攣|ST ?(上升|下降))" limit="10"}
+::questions{tag="心絞痛|不穩定型心絞痛|急性冠狀動脈症候群" keyword="(穩定型|不穩定型|變異型|Prinzmetal|痙攣|ST ?(上升|下降))" limit="10"}
 
 ## 臨床表現 {#manifestations}
 
@@ -215,7 +215,7 @@ references:
 - 用餐時突然嗆咳、無法說話 → 呼吸道異物梗塞，不是心肌梗塞。
 :::
 
-::questions{tag="心肌梗塞|急性心肌梗塞|心絞痛|狹心症" keyword="(症狀|胸痛|放射|轉移痛|冒冷汗|典型|持續)" limit="10"}
+::questions{tag="心肌梗塞|急性心肌梗塞|心絞痛" keyword="(症狀|胸痛|放射|轉移痛|冒冷汗|典型|持續)" limit="10"}
 
 ## 檢查 {#diagnosis}
 
@@ -252,7 +252,7 @@ references:
 
 - **瓣膜**看心臟超音波、**傳導**看心電圖、**心肌灌流與受損範圍**看核醫灌注掃描、**冠狀動脈狹窄**看心導管。
 
-::questions{tag="心肌梗塞|急性心肌梗塞|急性冠心症" keyword="(Troponin|troponin|旋轉蛋白|CK-MB|肌酸激酶|LDH|肌紅素|心肌酵素|運動心電圖|鉈|Thallium|灌注)" limit="10"}
+::questions{tag="心肌梗塞|急性心肌梗塞|急性冠狀動脈症候群" keyword="(Troponin|troponin|旋轉蛋白|CK-MB|肌酸激酶|LDH|肌紅素|心肌酵素|運動心電圖|鉈|Thallium|灌注)" limit="10"}
 
 ## 緊急處理 {#emergency}
 
@@ -317,7 +317,7 @@ references:
 - 飲食：急性期**清淡、易消化、少量多餐**、**限鈉**(避免水分滯留、減輕心臟負荷)、避免過冷過熱與咖啡因。
 - 心理：焦慮會增加交感刺激與耗氧;解釋檢查與治療、讓病人參與決定、同理回應，不應為了休息而限制家屬探視。
 
-::questions{tag="心肌梗塞|急性心肌梗塞|急性冠心症|急性冠狀動脈症候群" keyword="(MONA|嗎啡|morphine|氧氣|aspirin|Aspirin|血栓溶解|再灌流|PCI|緊急|優先|處置)" limit="12"}
+::questions{tag="心肌梗塞|急性心肌梗塞|急性冠狀動脈症候群" keyword="(MONA|嗎啡|morphine|氧氣|aspirin|Aspirin|血栓溶解|再灌流|PCI|緊急|優先|處置)" limit="12"}
 
 ## 併發症 {#complications}
 
@@ -524,4 +524,4 @@ references:
 | 三段：限制殘障 | 再灌流治療、次級預防用藥、預防併發症 |
 | 三段：復健 | **心臟復健**、重返工作 |
 
-::questions{tag="高血脂|高血脂症|冠狀動脈疾病|動脈粥狀硬化" keyword="(膽固醇|LDL|HDL|三酸甘油|血脂|代謝症候群|預防|飲食|纖維)" limit="10"}
+::questions{tag="高血脂症|冠狀動脈疾病|動脈粥狀硬化" keyword="(膽固醇|LDL|HDL|三酸甘油|血脂|代謝症候群|預防|飲食|纖維)" limit="10"}

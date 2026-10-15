@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720" width="800" height="720" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>全身主要內分泌腺的位置</title>
+<rect width="800" height="720" fill="#FFFFFF"/>
+<defs><marker id="mi" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker><marker id="mb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A6EA5"/></marker><marker id="mp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5CA5"/></marker><marker id="mr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/></marker><marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E7C57"/></marker><marker id="mo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AD5C28"/></marker></defs>
+<text x="400" y="32" font-size="20" text-anchor="middle" font-weight="bold" fill="#26262B">全身主要內分泌腺的位置</text>
+<path d="M400,62 Q462,62 460,122 Q458,168 420,178 L380,178 Q352,170 346,150 L338,146 Q334,140 340,136 L336,128 L342,122 Q338,64 400,62 Z" fill="#F5EEE7" stroke="#CDBBAA" stroke-width="2"/>
+<text x="326" y="130" font-size="13" text-anchor="end" font-weight="bold" fill="#3A6EA5">前</text>
+<text x="474" y="130" font-size="13" text-anchor="start" font-weight="bold" fill="#3A6EA5">後</text>
+<text x="400" y="58" font-size="11" text-anchor="middle" font-weight="normal" fill="#8A8A93">頭部為側面示意(臉朝左)</text>
+<rect x="375" y="174" width="50" height="40" fill="#F5EEE7" stroke="#CDBBAA" stroke-width="2"/>
+<path d="M280,214 Q400,196 520,214 L540,560 Q400,600 260,560 Z" fill="#F5EEE7" stroke="#CDBBAA" stroke-width="2"/>
+<path d="M285,575 L310,705 L385,705 L395,590 M405,590 L415,705 L490,705 L515,575" fill="#F5EEE7" stroke="#CDBBAA" stroke-width="2"/>
+<path d="M352,108 Q360,72 400,70 Q442,72 448,108 Q440,128 400,130 Q360,128 352,108 Z" fill="#EFE6F2" stroke="#C9B6D6" stroke-width="1.5"/>
+<circle cx="398" cy="118" r="6" fill="#F2C58F" stroke="#B9803D" stroke-width="1.5"/>
+<ellipse cx="396" cy="134" rx="6" ry="5" fill="#F2C58F" stroke="#B9803D" stroke-width="1.5"/>
+<circle cx="420" cy="110" r="5" fill="#F2C58F" stroke="#B9803D" stroke-width="1.5"/>
+<path d="M382,192 Q388,180 397,194 L403,194 Q412,180 418,192 Q420,206 404,204 L396,204 Q380,206 382,192 Z" fill="#E9A6A6" stroke="#B4485C" stroke-width="1.5"/>
+<circle cx="387" cy="189" r="2.6" fill="#7A3E10"/>
+<circle cx="387" cy="201" r="2.6" fill="#7A3E10"/>
+<circle cx="413" cy="189" r="2.6" fill="#7A3E10"/>
+<circle cx="413" cy="201" r="2.6" fill="#7A3E10"/>
+<path d="M388,236 Q400,228 412,236 L414,270 Q400,280 386,270 Z" fill="#F2C58F" stroke="#B9803D" stroke-width="1.5"/>
+<path d="M405,300 Q430,290 440,312 Q438,338 412,350 Q392,334 395,312 Z" fill="#E4E2EA" stroke="#A9A6B5" stroke-width="1.5"/>
+<path d="M430,360 Q470,352 470,388 Q458,408 432,396 Q420,380 430,360 Z" fill="#E4E2EA" stroke="#A9A6B5" stroke-width="1.5"/>
+<ellipse cx="350" cy="430" rx="17" ry="28" fill="#E4E2EA" stroke="#A9A6B5" stroke-width="1.5"/>
+<ellipse cx="450" cy="430" rx="17" ry="28" fill="#E4E2EA" stroke="#A9A6B5" stroke-width="1.5"/>
+<path d="M336,404 Q350,384 364,404 Z" fill="#F2C58F" stroke="#B9803D" stroke-width="1.5"/>
+<path d="M436,404 Q450,384 464,404 Z" fill="#F2C58F" stroke="#B9803D" stroke-width="1.5"/>
+<path d="M370,452 Q410,440 445,448 Q450,460 410,462 Q385,466 370,460 Z" fill="#F4E39E" stroke="#B9A23D" stroke-width="1.5"/>
+<ellipse cx="360" cy="530" rx="11" ry="8" fill="#F2C58F" stroke="#B9803D" stroke-width="1.5"/>
+<ellipse cx="440" cy="530" rx="11" ry="8" fill="#F2C58F" stroke="#B9803D" stroke-width="1.5"/>
+<ellipse cx="390" cy="612" rx="9" ry="12" fill="#C9D9EE" stroke="#3A6EA5" stroke-width="1.5"/>
+<ellipse cx="410" cy="612" rx="9" ry="12" fill="#C9D9EE" stroke="#3A6EA5" stroke-width="1.5"/>
+<path d="M398,118 L256,91" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="250" y="92" font-size="14" text-anchor="end" font-weight="bold" fill="#26262B">下視丘</text>
+<text x="250" y="109" font-size="11" text-anchor="end" font-weight="normal" fill="#AD5C28">釋放／抑制激素；合成 ADH、催產素</text>
+<path d="M396,134 L256,145" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="250" y="146" font-size="14" text-anchor="end" font-weight="bold" fill="#26262B">腦下垂體</text>
+<text x="250" y="163" font-size="11" text-anchor="end" font-weight="normal" fill="#AD5C28">前葉 6 種、後葉 2 種</text>
+<path d="M400,195 L256,199" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="250" y="200" font-size="14" text-anchor="end" font-weight="bold" fill="#26262B">甲狀腺</text>
+<text x="250" y="217" font-size="11" text-anchor="end" font-weight="normal" fill="#AD5C28">T3、T4、降鈣素</text>
+<path d="M400,252 L256,253" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="250" y="254" font-size="14" text-anchor="end" font-weight="bold" fill="#26262B">胸腺</text>
+<text x="250" y="271" font-size="11" text-anchor="end" font-weight="normal" fill="#AD5C28">胸腺素(T 細胞成熟)</text>
+<path d="M350,398 L256,393" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="250" y="394" font-size="14" text-anchor="end" font-weight="bold" fill="#26262B">腎上腺</text>
+<text x="250" y="411" font-size="11" text-anchor="end" font-weight="normal" fill="#AD5C28">皮質：類固醇；髓質：腎上腺素</text>
+<path d="M360,530 L256,525" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="250" y="526" font-size="14" text-anchor="end" font-weight="bold" fill="#26262B">卵巢(女性)</text>
+<text x="250" y="543" font-size="11" text-anchor="end" font-weight="normal" fill="#AD5C28">雌激素、黃體素</text>
+<path d="M420,110 L544,87" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="550" y="88" font-size="14" text-anchor="start" font-weight="bold" fill="#26262B">松果腺</text>
+<text x="550" y="105" font-size="11" text-anchor="start" font-weight="normal" fill="#AD5C28">褪黑激素</text>
+<path d="M413,201 L544,191" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="550" y="192" font-size="14" text-anchor="start" font-weight="bold" fill="#26262B">副甲狀腺(甲狀腺背面 4 個)</text>
+<text x="550" y="209" font-size="11" text-anchor="start" font-weight="normal" fill="#AD5C28">副甲狀腺素(PTH)</text>
+<path d="M425,320 L544,295" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="550" y="296" font-size="13" text-anchor="start" font-weight="normal" fill="#8A8A93">心臟(心房)</text>
+<text x="550" y="313" font-size="11" text-anchor="start" font-weight="normal" fill="#8A8A93">心房利鈉胜肽(ANP)</text>
+<path d="M455,375 L544,351" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="550" y="352" font-size="13" text-anchor="start" font-weight="normal" fill="#8A8A93">胃、腸</text>
+<text x="550" y="369" font-size="11" text-anchor="start" font-weight="normal" fill="#8A8A93">胃泌素、腸泌素</text>
+<path d="M463,440 L544,415" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="550" y="416" font-size="13" text-anchor="start" font-weight="normal" fill="#8A8A93">腎臟</text>
+<text x="550" y="433" font-size="11" text-anchor="start" font-weight="normal" fill="#8A8A93">腎素、紅血球生成素、活性維生素 D</text>
+<path d="M430,452 L544,469" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="550" y="470" font-size="14" text-anchor="start" font-weight="bold" fill="#26262B">胰臟(胰島)</text>
+<text x="550" y="487" font-size="11" text-anchor="start" font-weight="normal" fill="#AD5C28">胰島素、升糖素、體抑素</text>
+<path d="M410,612 L544,607" fill="none" stroke="#8A8A93" stroke-width="1"/>
+<text x="550" y="608" font-size="14" text-anchor="start" font-weight="bold" fill="#26262B">睪丸(男性)</text>
+<text x="550" y="625" font-size="11" text-anchor="start" font-weight="normal" fill="#AD5C28">睪固酮</text>
+<rect x="24" y="640" width="250" height="52" rx="8" fill="#F7F7F9" stroke="#D8D8DE"/>
+<text x="36" y="662" font-size="12" text-anchor="start" font-weight="bold" fill="#26262B">粗體：主要內分泌腺</text>
+<text x="36" y="682" font-size="12" text-anchor="start" font-weight="normal" fill="#8A8A93">灰字：兼有內分泌功能的器官(脾臟沒有)</text>
+</svg>

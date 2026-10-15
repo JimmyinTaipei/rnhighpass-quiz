@@ -2,7 +2,7 @@
 title: 抗凝血劑
 subtitle: Anticoagulants(Heparin、LMWH、Warfarin、DOAC)
 aliases: [Heparin, 肝素, 肝磷脂, UFH, LMWH, 低分子量肝素, Enoxaparin, Clexane, Dalteparin, Nadroparin, Fraxiparine, Fondaparinux, Arixtra, Warfarin, Coumadin, 可邁丁, 華法林, DOAC, NOAC, Dabigatran, Pradaxa, Rivaroxaban, Xarelto, Apixaban, Eliquis, Edoxaban, Lixiana, Argatroban, Bivalirudin, Protamine, 維生素K, Vitamin K, Phytonadione]
-dzTags: [深層靜脈血栓, 深部靜脈栓塞, 肺栓塞, 心房纖維顫動, 心房顫動, 血栓栓塞, 血栓性靜脈炎, 心臟瓣膜疾病, 心肌梗塞, 急性冠心症]
+dzTags: [深部靜脈血栓, 肺栓塞, 心房顫動, 血栓栓塞, 血栓性靜脈炎, 心臟瓣膜疾病, 心肌梗塞, 急性冠狀動脈症候群]
 system: hematology-immunology
 alsoIn: [cardiovascular]
 group: antithrombotics
@@ -147,6 +147,7 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 :::note[補充]
 **瓣膜選擇的考點**：機械瓣耐用但要**終身 warfarin** → 適合較年輕、無出血傾向、**沒有懷孕計畫**者(如 50 歲停經婦女)。**計畫懷孕的年輕女性、高齡者、出血傾向者**選生物瓣(warfarin 致畸胎，生物瓣不需終身抗凝)。
 :::
+- 血栓為什麼會形成(Virchow 三要素)、DVT 與肺栓塞的病理見 [[thrombosis-embolism-infarction#thrombosis]]
 
 ## 副作用與禁忌 {#adverse-effects}
 

@@ -152,6 +152,10 @@
    "autism-spectrum-disorder",
    "eating-disorders"
   ],
+  "兒科-Ch15兒童內分泌系統疾病與慢性病 > 慢性疾病兒童及其家庭之護理": [
+   "chronically-ill-children",
+   "diabetes"
+  ],
   "社區-Ch11社區心理衛生與護理 > 社區心理衛生與健康的意義與特性": [
    "community-mental-health"
   ],
@@ -320,6 +324,18 @@
   "兒科-Ch10兒童血液疾病 > 兒童血液系統之解剖生理與評估": [
    "transfusion-reactions"
   ],
+  "內外-Ch08內分泌系統疾病 > 腎上腺疾病": [
+   "adrenal-insufficiency",
+   "cushing-syndrome",
+   "pheochromocytoma-aldosteronism",
+   "corticosteroids"
+  ],
+  "病理-Ch16內分泌系統疾病 > 胰島與腎上腺疾病": [
+   "adrenal-insufficiency",
+   "cushing-syndrome",
+   "diabetes",
+   "pheochromocytoma-aldosteronism"
+  ],
   "精神-Ch12其他精神科疾病的護理 > 物質相關及成癮障礙症": [
    "alcohol-use-disorder",
    "substance-use-disorders",
@@ -335,7 +351,8 @@
    "addiction-treatment-drugs"
   ],
   "病理-Ch07環境傷害與營養疾病 > 化學性傷害": [
-   "alcohol-use-disorder"
+   "alcohol-use-disorder",
+   "environmental-injury"
   ],
   "內外-Ch02免疫系統疾病 > 過敏反應疾病": [
    "allergic-contact-dermatitis-latex",
@@ -419,7 +436,8 @@
   "內外-Ch15神經系統疾病 > 神經系統腫瘤與感染疾病": [
    "brain-tumors",
    "neuromuscular-demyelinating",
-   "pediatric-cancers"
+   "pediatric-cancers",
+   "pituitary-disorders"
   ],
   "病理-Ch15生殖系統與乳房疾病 > 乳房疾病": [
    "breast-cancer"
@@ -477,6 +495,9 @@
   "兒科-Ch07兒童傳染病 > 病毒性感染": [
    "childhood-infectious-diseases",
    "hiv-aids"
+  ],
+  "病理-Ch06遺傳與基因疾病 > 染色體異常疾病": [
+   "chromosomal-disorders"
   ],
   "病理-Ch18感官與神經系統疾病 > 中樞神經系統感染與代謝性疾病": [
    "cns-infections"
@@ -574,8 +595,14 @@
   "精神-Ch13危機處理與意外事件的護理 > 自殺事件的護理": [
    "depressive-disorder"
   ],
-  "病理-Ch16內分泌系統疾病 > 胰島與腎上腺疾病": [
-   "diabetes"
+  "內外-Ch08內分泌系統疾病 > 腦下垂體與下視丘疾病": [
+   "diabetes-insipidus-siadh",
+   "pituitary-disorders",
+   "pituitary-hormones"
+  ],
+  "病理-Ch16內分泌系統疾病 > 腦下垂體疾病": [
+   "diabetes-insipidus-siadh",
+   "pituitary-disorders"
   ],
   "藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥": [
    "diabetes",
@@ -619,9 +646,6 @@
    "ogtt"
   ],
   "兒科-Ch15兒童內分泌系統疾病與慢性病 > 常見內分泌系統疾病 > 腎上腺、性腺與胰島素分泌異常(先天性腎上腺增生症、性早熟、糖尿病)": [
-   "diabetes"
-  ],
-  "兒科-Ch15兒童內分泌系統疾病與慢性病 > 慢性疾病兒童及其家庭之護理": [
    "diabetes"
   ],
   "社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護 > 糖尿病與代謝症候群": [
@@ -748,13 +772,28 @@
   "產科-Ch10高危險妊娠之護理 > 高血壓性疾病": [
    "hypertension"
   ],
+  "內外-Ch08內分泌系統疾病 > 甲狀腺與副甲狀腺疾病": [
+   "hyperthyroidism",
+   "hypothyroidism",
+   "parathyroid-disorders",
+   "thyroid-nodules-cancer",
+   "thyroid-drugs",
+   "calcium-phosphate",
+   "thyroid-function-tests"
+  ],
+  "病理-Ch16內分泌系統疾病 > 甲狀腺疾病": [
+   "hyperthyroidism",
+   "hypothyroidism",
+   "thyroid-nodules-cancer"
+  ],
   "基護-Ch10生命徵象 > 血壓": [
    "hypotension",
    "blood-pressure-regulation"
   ],
   "病理-Ch03代謝、體液與循環障礙 > 循環障礙 > 休克": [
    "hypotension",
-   "sepsis"
+   "sepsis",
+   "edema-shock"
   ],
   "藥理-Ch06消化系統藥物 > 排便相關藥物": [
    "infectious-diarrhea"
@@ -817,6 +856,9 @@
   "精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理 > 強迫症及相關障礙症": [
    "obsessive-compulsive-disorder"
   ],
+  "病理-Ch16內分泌系統疾病 > 副甲狀腺疾病": [
+   "parathyroid-disorders"
+  ],
   "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 骨骼疾病": [
    "pediatric-cancers"
   ],
@@ -825,6 +867,9 @@
   ],
   "兒科-Ch18兒童癌症 > 兒童癌症概論": [
    "pediatric-cancers"
+  ],
+  "兒科-Ch15兒童內分泌系統疾病與慢性病 > 常見內分泌系統疾病": [
+   "pediatric-endocrine"
   ],
   "兒科-Ch08兒童呼吸系統疾病 > 上呼吸道感染疾病": [
    "pediatric-respiratory-infections"
@@ -947,6 +992,9 @@
   ],
   "產科-Ch13婦科常見疾病 > 骨盆腔炎症": [
    "sexually-transmitted-infections"
+  ],
+  "病理-Ch06遺傳與基因疾病 > 單一基因與非典型遺傳疾病": [
+   "single-gene-disorders"
   ],
   "內外-Ch12皮膚疾病 > 皮膚感染與發炎性疾病": [
    "skin-bone-infections",
@@ -1093,6 +1141,9 @@
   "藥理-Ch05自泌素、抗過敏與呼吸系統藥物 > 其他呼吸系統用藥": [
    "asthma-drugs"
   ],
+  "藥理-Ch10內分泌與新陳代謝藥物 > 骨鈣代謝相關藥物": [
+   "bone-calcium-drugs"
+  ],
   "藥理-Ch02自主神經系統藥物 > 膽鹼性神經藥物": [
    "cholinergic-drugs",
    "autonomic-nervous-system"
@@ -1106,6 +1157,9 @@
   "藥理-Ch03中樞神經與精神科藥物 > 中樞神經興奮劑": [
    "cns-stimulants"
   ],
+  "藥理-Ch10內分泌與新陳代謝藥物 > 腎上腺皮質類固醇及其抑制劑": [
+   "corticosteroids"
+  ],
   "藥理-Ch04止痛藥與麻醉藥物 > 痛風治療藥物": [
    "gout-drugs"
   ],
@@ -1114,12 +1168,25 @@
    "potassium-sparing-diuretics",
    "thiazide-diuretics"
   ],
+  "藥理-Ch10內分泌與新陳代謝藥物 > 腦下垂體激素相關藥物": [
+   "pituitary-hormones"
+  ],
+  "藥理-Ch10內分泌與新陳代謝藥物 > 性激素及相關藥物": [
+   "sex-hormones"
+  ],
   "藥理-Ch08心血管藥物 > 降血脂藥物": [
    "statins"
+  ],
+  "藥理-Ch10內分泌與新陳代謝藥物 > 甲狀腺相關藥物": [
+   "thyroid-drugs"
   ],
   "生解-Ch12內分泌系統 > 胰臟之蘭氏小島": [
    "blood-glucose",
    "glucose-homeostasis"
+  ],
+  "基護-Ch14體液供給 > 體液不平衡之常見問題": [
+   "calcium-phosphate",
+   "potassium"
   ],
   "兒科-Ch09兒童循環系統疾病 > 先天性心臟病 > 先天性心臟病兒童之護理與手術護理": [
    "cardiac-catheterization"
@@ -1143,8 +1210,9 @@
   "生解-Ch11體液、電解質與酸鹼平衡 > 電解質": [
    "potassium"
   ],
-  "基護-Ch14體液供給 > 體液不平衡之常見問題": [
-   "potassium"
+  "生解-Ch12內分泌系統 > 甲狀腺與副甲狀腺": [
+   "thyroid-function-tests",
+   "thyroid-parathyroid"
   ],
   "內外-Ch10腎臟與泌尿系統疾病 > 腎臟疾病": [
    "uacr"
@@ -1221,6 +1289,9 @@
   "微免-Ch05革蘭氏陽性球菌 > 鏈球菌屬": [
    "streptococci"
   ],
+  "生解-Ch12內分泌系統 > 腎上腺": [
+   "adrenal-glands"
+  ],
   "生解-Ch05神經系統 > 自主神經系統": [
    "autonomic-nervous-system"
   ],
@@ -1251,12 +1322,49 @@
   "生解-Ch07血液、心血管與淋巴系統 > 心臟 > 心動週期（收縮期與舒張期、心音、法蘭克－史達林定律）": [
    "cardiac-output"
   ],
+  "病理-Ch01緒論與細胞傷害、適應 > 細胞適應": [
+   "cell-injury-adaptation"
+  ],
+  "病理-Ch01緒論與細胞傷害、適應 > 細胞傷害與病理性堆積": [
+   "cell-injury-adaptation"
+  ],
+  "病理-Ch01緒論與細胞傷害、適應 > 細胞死亡": [
+   "cell-injury-adaptation"
+  ],
   "微免-Ch02先天與後天免疫系統 > 先天性免疫系統（非特異性防禦）": [
    "complement-system",
    "immune-system-basics"
   ],
   "生解-Ch07血液、心血管與淋巴系統 > 血管與循環路線 > 循環路線（體循環、肝門脈循環、肺循環、冠狀循環、胎兒循環）": [
    "coronary-circulation"
+  ],
+  "病理-Ch03代謝、體液與循環障礙 > 體液障礙": [
+   "edema-shock"
+  ],
+  "生解-Ch12內分泌系統 > 內分泌系統總論": [
+   "endocrine-overview"
+  ],
+  "生解-Ch12內分泌系統 > 松果腺": [
+   "endocrine-overview"
+  ],
+  "生解-Ch12內分泌系統 > 性腺與其他內分泌組織": [
+   "endocrine-overview"
+  ],
+  "生解-Ch12內分泌系統 > 綜合題型": [
+   "endocrine-overview",
+   "thyroid-parathyroid"
+  ],
+  "病理-Ch07環境傷害與營養疾病 > 物理性傷害": [
+   "environmental-injury"
+  ],
+  "病理-Ch06遺傳與基因疾病 > 多因素遺傳疾病與腫瘤遺傳": [
+   "genetic-inheritance"
+  ],
+  "病理-Ch06遺傳與基因疾病 > 基因組多形性與遺傳諮詢": [
+   "genetic-inheritance"
+  ],
+  "生解-Ch12內分泌系統 > 腦下垂體與下視丘": [
+   "hypothalamus-pituitary"
   ],
   "微免-Ch02先天與後天免疫系統 > 新生兒與特殊生理狀態下之免疫": [
    "immune-system-basics"
@@ -1294,6 +1402,9 @@
   "生解-Ch05神經系統 > 神經生理學基礎": [
    "neuron-synapse"
   ],
+  "病理-Ch07環境傷害與營養疾病 > 營養疾病": [
+   "nutritional-disorders"
+  ],
   "生解-Ch06感覺器官 > 感覺總論與體感覺": [
    "special-senses"
   ],
@@ -1311,6 +1422,9 @@
   ],
   "生解-Ch05神經系統 > 脊髓與脊神經": [
    "spinal-cord-spinal-nerves"
+  ],
+  "病理-Ch03代謝、體液與循環障礙 > 循環障礙": [
+   "thrombosis-embolism-infarction"
   ]
  },
  "chapters": {
@@ -1395,14 +1509,7 @@
    ]
   },
   "生解-Ch12內分泌系統": {
-   "missing": [
-    "內分泌系統總論",
-    "腦下垂體與下視丘",
-    "松果腺",
-    "甲狀腺與副甲狀腺",
-    "腎上腺",
-    "性腺與其他內分泌組織"
-   ]
+   "missing": []
   },
   "生解-Ch13生殖系統": {
    "missing": [
@@ -1420,19 +1527,13 @@
    ]
   },
   "病理-Ch01緒論與細胞傷害、適應": {
-   "missing": [
-    "細胞適應",
-    "細胞傷害與病理性堆積",
-    "細胞死亡"
-   ]
+   "missing": []
   },
   "病理-Ch02發炎與修復": {
    "missing": []
   },
   "病理-Ch03代謝、體液與循環障礙": {
-   "missing": [
-    "體液障礙"
-   ]
+   "missing": []
   },
   "病理-Ch04腫瘤概論": {
    "missing": [
@@ -1443,18 +1544,10 @@
    "missing": []
   },
   "病理-Ch06遺傳與基因疾病": {
-   "missing": [
-    "染色體異常疾病",
-    "單一基因與非典型遺傳疾病",
-    "多因素遺傳疾病與腫瘤遺傳",
-    "基因組多形性與遺傳諮詢"
-   ]
+   "missing": []
   },
   "病理-Ch07環境傷害與營養疾病": {
-   "missing": [
-    "物理性傷害",
-    "營養疾病"
-   ]
+   "missing": []
   },
   "病理-Ch08感染性疾病": {
    "missing": [
@@ -1501,11 +1594,7 @@
    ]
   },
   "病理-Ch16內分泌系統疾病": {
-   "missing": [
-    "腦下垂體疾病",
-    "甲狀腺疾病",
-    "副甲狀腺疾病"
-   ]
+   "missing": []
   },
   "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病": {
    "missing": [
@@ -1561,13 +1650,7 @@
    ]
   },
   "藥理-Ch10內分泌與新陳代謝藥物": {
-   "missing": [
-    "腦下垂體激素相關藥物",
-    "腎上腺皮質類固醇及其抑制劑",
-    "甲狀腺相關藥物",
-    "性激素及相關藥物",
-    "骨鈣代謝相關藥物"
-   ]
+   "missing": []
   },
   "藥理-Ch11抗細菌藥物與抗感染藥": {
    "missing": []
@@ -1814,10 +1897,7 @@
   },
   "內外-Ch08內分泌系統疾病": {
    "missing": [
-    "內分泌腺體與激素總論",
-    "腦下垂體與下視丘疾病",
-    "甲狀腺與副甲狀腺疾病",
-    "腎上腺疾病"
+    "內分泌腺體與激素總論"
    ]
   },
   "內外-Ch09呼吸系統疾病": {

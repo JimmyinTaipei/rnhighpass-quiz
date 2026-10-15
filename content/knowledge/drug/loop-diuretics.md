@@ -71,7 +71,7 @@ references:
 - **慢性心衰竭有體液滯留**：2022 AHA/ACC/HFSA 與 ESC 皆為 Class I——用來**緩解鬱血症狀**，依體液狀態**動態調整劑量**、用「能維持乾體重的最低劑量」(來源：[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.37);HFpEF 有鬱血時也以 loop 利尿劑為第一線(Class I;來源：[2024 台灣心臟學會 HFpEF 指引](https://doi.org/10.6515/ACS.202403_40%282%29.20240206A) p.15);**不降低死亡率**，改善預後要靠 [[arni]]/ACEI、β 阻斷劑、[[potassium-sparing-diuretics|MRA]]、[[sglt2-inhibitors]] 四大支柱(見 [[heart-failure]])。
 - 腎病症候群、肝硬化腹水(與 spironolactone 併用，常用比例 spironolactone 100 : furosemide 40)。
 - **腎功能不全**(eGFR 低、thiazide 無效時)的水腫與高血壓;AKI 少尿期可用來試圖增加尿量(但**不能**治療 AKI 本身)。
-- **急性高血鈣**：先**充分補液**，再給 loop 增加鈣排泄。
+- **急性高血鈣**：先**充分補液**，再給 loop 增加鈣排泄(高血鈣的原因與處理見 [[calcium-phosphate#high]])。
 - 高血鉀的輔助降鉀(有尿時)、SIADH(合併高張食鹽水)。
 
 ## 藥動重點 {#pharmacokinetics}

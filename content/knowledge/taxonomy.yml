@@ -70,7 +70,7 @@ domains:
     kind: system
     blockTag: 血液免疫
     groups:
-      - { id: antithrombotics, name: 抗凝血與抗血栓藥, type: drug, drugTags: [抗凝血用藥, 抗凝血劑, 抗凝血劑用藥, 抗血小板用藥, 抗血小板藥物, 抗血栓用藥, 血栓溶解劑, 血栓溶解用藥] }
+      - { id: antithrombotics, name: 抗凝血與抗血栓藥, type: drug, drugTags: [抗凝血用藥, 抗血小板用藥, 血栓溶解劑] }
       - { id: antianemics, name: 貧血用藥, type: drug, drugTags: [貧血用藥, 抗貧血用藥] }
       - { id: immunomodulators, name: 免疫製劑與免疫抑制劑, type: drug, drugTags: [免疫製劑, 免疫抑制劑, 免疫抑制用藥, 免疫調節用藥, 自體免疫用藥] }
       - { id: coagulation-labs, name: 凝血與血球檢驗, type: lab }
@@ -85,7 +85,7 @@ domains:
     blockTag: 生殖
     groups:
       - { id: obstetric-drugs, name: 產科用藥, type: drug, drugTags: [子宮收縮劑, 子宮收縮用藥, 催產用藥, 安胎藥物, 婦產科用藥, 婦科用藥] }
-      - { id: contraceptives, name: 避孕藥, type: drug, drugTags: [避孕用藥, 避孕藥] }
+      - { id: contraceptives, name: 避孕藥, type: drug, drugTags: [避孕用藥] }
 
   - id: obstetrics
     name: 產科
@@ -104,11 +104,11 @@ domains:
     kind: system
     blockTag: 心血管
     groups:
-      - { id: antihypertensives, name: 抗高血壓藥, type: drug, drugTags: [抗高血壓用藥, 高血壓用藥, 降血壓用藥] }
-      - { id: heart-failure-drugs, name: 心衰竭用藥, type: drug, drugTags: [心臟衰竭用藥, 強心劑用藥, 強心劑, 強心配醣體, 毛地黃製劑, 強心升壓藥物, 升壓藥] }
-      - { id: antianginals, name: 抗心絞痛藥, type: drug, drugTags: [心絞痛用藥, 抗心絞痛用藥, 狹心症用藥] }
-      - { id: antiarrhythmics, name: 抗心律不整藥, type: drug, drugTags: [抗心律不整用藥, 心律不整用藥] }
-      - { id: lipid-lowering, name: 降血脂藥, type: drug, drugTags: [降血脂用藥, 高血脂用藥] }
+      - { id: antihypertensives, name: 抗高血壓藥, type: drug, drugTags: [抗高血壓用藥] }
+      - { id: heart-failure-drugs, name: 心衰竭用藥, type: drug, drugTags: [心臟衰竭用藥, 強心劑用藥, 升壓藥] }
+      - { id: antianginals, name: 抗心絞痛藥, type: drug, drugTags: [心絞痛用藥] }
+      - { id: antiarrhythmics, name: 抗心律不整藥, type: drug, drugTags: [抗心律不整用藥] }
+      - { id: lipid-lowering, name: 降血脂藥, type: drug, drugTags: [降血脂用藥] }
       - { id: cardiac-labs, name: 心臟相關檢驗, type: lab }
 
   - id: respiratory
@@ -123,10 +123,15 @@ domains:
     kind: system
     blockTag: 內分泌
     groups:
-      - { id: antidiabetics, name: 降血糖藥, type: drug, drugTags: [糖尿病用藥, 降血糖用藥] }
+      - { id: endocrine-physiology, name: 內分泌解剖與生理, type: physiology }
+      - { id: antidiabetics, name: 降血糖藥, type: drug, drugTags: [糖尿病用藥] }
       - { id: glucose-labs, name: 血糖相關檢驗, type: lab }
-      - { id: thyroid-drugs, name: 甲狀腺用藥, type: drug, drugTags: [甲狀腺疾病用藥, 甲狀腺用藥] }
-      - { id: corticosteroids, name: 類固醇, type: drug, drugTags: [類固醇用藥, 類固醇製劑, 腎上腺皮質類固醇, 腎上腺皮質類固醇用藥] }
+      - { id: endocrine-labs, name: 甲狀腺與其他內分泌檢驗, type: lab }
+      - { id: thyroid-drugs, name: 甲狀腺用藥, type: drug, drugTags: [甲狀腺疾病用藥] }
+      - { id: corticosteroids, name: 類固醇, type: drug, drugTags: [類固醇用藥] }
+      - { id: pituitary-drugs, name: 腦下垂體激素藥物, type: drug, drugTags: [尿崩症用藥, 生長激素相關用藥, 子宮收縮劑, 子宮收縮用藥, 子宮收縮劑用藥, 子宮收縮藥物, 子宮收縮藥, 催產用藥] }
+      - { id: sex-hormones, name: 性激素, type: drug, drugTags: [性激素用藥, 避孕用藥, 荷爾蒙補充療法用藥, 雄性素相關用藥, 不孕症用藥, 荷爾蒙製劑] }
+      - { id: bone-calcium-drugs, name: 骨鈣代謝藥物, type: drug, drugTags: [骨質疏鬆症用藥, 骨質代謝用藥, 高血鈣用藥] }
 
   - id: renal
     name: 泌尿
@@ -169,19 +174,19 @@ domains:
     name: 腫瘤
     kind: cross
     groups:
-      - { id: antineoplastics, name: 抗腫瘤藥, type: drug, drugTags: [抗腫瘤用藥, 抗腫瘤藥物, 化學治療藥物, 化學治療用藥, 化療藥物, 癌症用藥, 癌症化學治療用藥, 抗癌藥物, 抗癌用藥, 抗腫瘤化學治療用藥, 乳癌用藥, 癌症支持性用藥, 癌症支持治療用藥, 癌症支持療法用藥, 標靶治療藥物] }
+      - { id: antineoplastics, name: 抗腫瘤藥, type: drug, drugTags: [抗腫瘤用藥, 乳癌用藥, 癌症支持性用藥, 標靶治療藥物] }
       - { id: oncology-labs, name: 腫瘤相關檢驗, type: lab }
 
   - id: infection
     name: 感染
     kind: cross
     groups:
-      - { id: antibiotics, name: 抗生素, type: drug, drugTags: [抗生素用藥, 抗感染用藥, 抗感染藥物, 泌尿道感染用藥] }
-      - { id: antituberculars, name: 抗結核藥, type: drug, drugTags: [抗結核病用藥, 抗結核用藥, 抗結核藥物] }
-      - { id: antivirals, name: 抗病毒藥, type: drug, drugTags: [抗病毒用藥, 抗病毒藥物, 肝炎用藥] }
-      - { id: antifungals, name: 抗黴菌藥, type: drug, drugTags: [抗真菌用藥, 抗黴菌用藥, 抗黴菌藥物] }
+      - { id: antibiotics, name: 抗生素, type: drug, drugTags: [抗生素用藥, 抗感染用藥, 泌尿道感染用藥] }
+      - { id: antituberculars, name: 抗結核藥, type: drug, drugTags: [抗結核病用藥] }
+      - { id: antivirals, name: 抗病毒藥, type: drug, drugTags: [抗病毒用藥, 肝炎用藥] }
+      - { id: antifungals, name: 抗黴菌藥, type: drug, drugTags: [抗黴菌用藥] }
       - { id: antiparasitics, name: 抗寄生蟲藥, type: drug, drugTags: [抗寄生蟲用藥, 抗瘧疾用藥] }
-      - { id: vaccines, name: 疫苗, type: drug, drugTags: [疫苗製劑, 疫苗, 疫苗用藥, 疫苗與免疫製劑] }
+      - { id: vaccines, name: 疫苗, type: drug, drugTags: [疫苗製劑] }
       - { id: infection-labs, name: 感染相關檢驗, type: lab }
       - { id: bacteria, name: 細菌, type: pathogen }
       - { id: viruses, name: 病毒, type: pathogen }
@@ -191,6 +196,15 @@ domains:
     name: 急重症
     kind: cross
     description: 加護病房與急診常見的器材與管路(呼吸器、中心靜脈導管、動脈導管、胸管、CRRT、IABP、ECMO)與相關技術。實習用，學校較少教；每頁整理原理、適應症、看懂螢幕與數值、護理重點、警示與併發症。內容整理中。
+
+  - id: general-pathology
+    name: 病理總論與遺傳
+    kind: cross
+    description: 跨器官的病理基本概念(細胞傷害與適應、水腫與休克、血栓栓塞梗塞、環境傷害與營養)，以及依遺傳模式整理的遺傳疾病。發炎與修復在血液與免疫、腫瘤在腫瘤。
+    groups:
+      - { id: pathology-basics, name: 病理總論, type: physiology }
+      - { id: genetics, name: 遺傳學基礎, type: physiology }
+      - { id: genetic-disorders, name: 遺傳疾病, type: disease }
 
   # ===== 護理專業(分不出器官系統時使用) =====
   - id: fundamentals

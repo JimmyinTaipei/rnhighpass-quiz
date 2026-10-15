@@ -847,6 +847,25 @@
   "child-adolescent-mental-health#questions": {
     "auto": []
   },
+  "chronically-ill-children#trends": {
+    "auto": []
+  },
+  "chronically-ill-children#family-response": {
+    "auto": []
+  },
+  "chronically-ill-children#school": {
+    "auto": []
+  },
+  "chronically-ill-children#questions": {
+    "auto": [
+      "115-2_OP_035",
+      "115-2_OP_028",
+      "114-1_OP_033",
+      "112-2_OP_053",
+      "112-1_OP_056",
+      "111-2_OP_057"
+    ]
+  },
   "community-mental-health#questions": {
     "auto": []
   },
@@ -989,6 +1008,24 @@
   "adhd#questions": {
     "auto": []
   },
+  "adrenal-insufficiency#causes": {
+    "auto": []
+  },
+  "adrenal-insufficiency#adrenal-crisis": {
+    "auto": []
+  },
+  "adrenal-insufficiency#questions": {
+    "auto": [
+      "113-3_MS_042",
+      "113-2_MS_042",
+      "112-2_MS_069",
+      "110-1_MS_068",
+      "109-2_BM_024",
+      "109-1_MS_065",
+      "106-2_makeup_MS_071",
+      "106-2_makeup_MS_070"
+    ]
+  },
   "alcohol-use-disorder#questions": {
     "auto": []
   },
@@ -1079,15 +1116,38 @@
       "115-2_MS_022",
       "115-2_MS_021",
       "115-1_MS_025",
+      "115-1_MS_021",
       "115-1_BM_048",
+      "114-3_PC_041",
       "114-3_MS_022",
-      "114-3_MS_019",
-      "114-2_MS_024",
-      "114-2_MS_022"
+      "114-3_MS_019"
     ]
   },
   "childhood-infectious-diseases#questions": {
     "auto": []
+  },
+  "chromosomal-disorders#down-syndrome": {
+    "auto": []
+  },
+  "chromosomal-disorders#edwards-patau": {
+    "auto": []
+  },
+  "chromosomal-disorders#barr-body": {
+    "auto": []
+  },
+  "chromosomal-disorders#questions": {
+    "auto": [
+      "115-1_OP_005",
+      "115-1_BM_023",
+      "113-1_BM_006",
+      "112-3_BM_024",
+      "112-1_PC_067",
+      "111-2_OP_005",
+      "111-2_BM_025",
+      "111-2_BM_019",
+      "111-1_OP_010",
+      "111-1_OP_006"
+    ]
   },
   "cns-infections#questions": {
     "auto": []
@@ -1203,6 +1263,7 @@
       "113-1_MS_018",
       "112-3_MS_022",
       "110-1_BM_058",
+      "107-2_MS_029",
       "106-2_makeup_MS_031",
       "105-2_MS_027"
     ]
@@ -1245,6 +1306,30 @@
       "114-2_OP_026"
     ]
   },
+  "cushing-syndrome#causes": {
+    "auto": []
+  },
+  "cushing-syndrome#manifestations": {
+    "auto": []
+  },
+  "cushing-syndrome#diagnosis": {
+    "auto": []
+  },
+  "cushing-syndrome#nursing": {
+    "auto": []
+  },
+  "cushing-syndrome#questions": {
+    "auto": [
+      "115-1_BM_039",
+      "114-3_BM_029",
+      "114-2_BM_039",
+      "113-3_MS_045",
+      "112-3_MS_043",
+      "111-2_MS_069",
+      "110-1_BM_061",
+      "109-2_MS_068"
+    ]
+  },
   "delirium#questions": {
     "auto": []
   },
@@ -1281,6 +1366,27 @@
   "depressive-disorder#disaster": {
     "auto": []
   },
+  "diabetes-insipidus-siadh#comparison": {
+    "auto": []
+  },
+  "diabetes-insipidus-siadh#di-nursing": {
+    "auto": []
+  },
+  "diabetes-insipidus-siadh#siadh-nursing": {
+    "auto": []
+  },
+  "diabetes-insipidus-siadh#questions": {
+    "auto": [
+      "115-2_MS_043",
+      "114-3_MS_041",
+      "114-3_BM_039",
+      "114-2_MS_044",
+      "114-1_MS_045",
+      "113-3_MS_043",
+      "113-2_MS_044",
+      "113-1_MS_043"
+    ]
+  },
   "diabetes#physiology-drug-map": {
     "auto": [
       "115-2_BM_015",
@@ -1302,6 +1408,9 @@
       "110-2_BM_051",
       "109-1_MS_067"
     ]
+  },
+  "diabetes#hyperglycemia-damage~2": {
+    "auto": []
   },
   "diabetes#type1": {
     "auto": [
@@ -1341,6 +1450,9 @@
       "111-1_OP_002"
     ]
   },
+  "diabetes#gdm~2": {
+    "auto": []
+  },
   "diabetes#diagnosis": {
     "auto": [
       "115-2_MS_047",
@@ -1352,6 +1464,9 @@
       "112-2_PC_040",
       "112-2_PC_039"
     ]
+  },
+  "diabetes#diagnosis~2": {
+    "auto": []
   },
   "diabetes#hypoglycemia": {
     "auto": [
@@ -1366,6 +1481,9 @@
       "108-1_BM_027",
       "107-1_MS_027"
     ]
+  },
+  "diabetes#hypoglycemia~2": {
+    "auto": []
   },
   "diabetes#dka": {
     "auto": [
@@ -1382,6 +1500,9 @@
       "109-1_MS_068",
       "108-2_MS_067"
     ]
+  },
+  "diabetes#dka~2": {
+    "auto": []
   },
   "diabetes#hhs": {
     "auto": [
@@ -1430,6 +1551,9 @@
       "110-2_FA_040"
     ]
   },
+  "diabetes#diabetic-foot~2": {
+    "auto": []
+  },
   "diabetes#drug-classes": {
     "auto": [
       "115-1_OP_044",
@@ -1437,12 +1561,15 @@
       "114-3_MS_045",
       "114-2_BM_038",
       "114-1_MS_042",
+      "113-3_FA_010",
       "113-2_MS_045",
       "113-1_MS_044",
       "113-1_BM_038",
-      "112-3_BM_033",
-      "112-2_MS_071"
+      "112-3_BM_033"
     ]
+  },
+  "diabetes#sick-day": {
+    "auto": []
   },
   "diabetes#smbg": {
     "auto": [
@@ -1451,6 +1578,9 @@
       "110-2_MS_069",
       "106-2_PC_071"
     ]
+  },
+  "diabetes#smbg~2": {
+    "auto": []
   },
   "diabetes#school-community": {
     "auto": [
@@ -1465,6 +1595,9 @@
       "110-1_PC_055",
       "110-1_PC_054"
     ]
+  },
+  "diabetes#school-community~2": {
+    "auto": []
   },
   "diabetes#glycemic-index": {
     "auto": [
@@ -1485,6 +1618,9 @@
       "111-2_BM_018"
     ]
   },
+  "diabetes#glycemic-index~3": {
+    "auto": []
+  },
   "diabetes#exercise": {
     "auto": [
       "115-2_PC_036",
@@ -1497,6 +1633,9 @@
       "112-2_FA_009"
     ]
   },
+  "diabetes#exercise~2": {
+    "auto": []
+  },
   "diabetes#prevention": {
     "auto": [
       "112-3_PC_030",
@@ -1507,6 +1646,9 @@
       "107-1_PC_080",
       "107-1_PC_064"
     ]
+  },
+  "diabetes#prevention~2": {
+    "auto": []
   },
   "ear-disorders#communication": {
     "auto": []
@@ -1890,6 +2032,39 @@
       "108-2_PC_045"
     ]
   },
+  "hyperthyroidism#causes": {
+    "auto": []
+  },
+  "hyperthyroidism#manifestations": {
+    "auto": []
+  },
+  "hyperthyroidism#iodine": {
+    "auto": []
+  },
+  "hyperthyroidism#radioactive-iodine": {
+    "auto": []
+  },
+  "hyperthyroidism#nursing": {
+    "auto": []
+  },
+  "hyperthyroidism#thyroid-storm": {
+    "auto": []
+  },
+  "hyperthyroidism#thyroidectomy": {
+    "auto": []
+  },
+  "hyperthyroidism#questions": {
+    "auto": [
+      "115-1_MS_046",
+      "114-1_MS_043",
+      "113-3_OP_044",
+      "113-1_MS_046",
+      "112-3_MS_047",
+      "112-3_FA_024",
+      "112-3_BM_034",
+      "112-1_MS_071"
+    ]
+  },
   "hypotension#physiology": {
     "auto": [
       "115-2_FA_025"
@@ -1938,6 +2113,30 @@
       "112-2_MS_078",
       "111-2_MS_078",
       "109-1_OP_016"
+    ]
+  },
+  "hypothyroidism#manifestations": {
+    "auto": []
+  },
+  "hypothyroidism#levothyroxine": {
+    "auto": []
+  },
+  "hypothyroidism#nursing": {
+    "auto": []
+  },
+  "hypothyroidism#myxedema-coma": {
+    "auto": []
+  },
+  "hypothyroidism#questions": {
+    "auto": [
+      "115-2_OP_046",
+      "112-3_BM_038",
+      "112-2_MS_074",
+      "111-1_MS_073",
+      "111-1_MS_069",
+      "110-2_MS_069",
+      "109-2_MS_069",
+      "109-1_BM_023"
     ]
   },
   "increased-icp#cerebral-edema": {
@@ -2086,6 +2285,30 @@
   "obsessive-compulsive-disorder#questions": {
     "auto": []
   },
+  "parathyroid-disorders#hyper-manifestations": {
+    "auto": []
+  },
+  "parathyroid-disorders#hyper-nursing": {
+    "auto": []
+  },
+  "parathyroid-disorders#hypo-manifestations": {
+    "auto": []
+  },
+  "parathyroid-disorders#hypo-nursing": {
+    "auto": []
+  },
+  "parathyroid-disorders#questions": {
+    "auto": [
+      "115-2_MS_045",
+      "115-1_MS_042",
+      "114-3_MS_042",
+      "114-2_MS_046",
+      "113-3_MS_009",
+      "113-2_MS_046",
+      "113-2_MS_019",
+      "112-3_OP_042"
+    ]
+  },
   "parkinson-disease#pathophysiology": {
     "auto": []
   },
@@ -2130,6 +2353,42 @@
       "113-3_OP_043"
     ]
   },
+  "pediatric-endocrine#newborn-screening": {
+    "auto": []
+  },
+  "pediatric-endocrine#congenital-hypothyroidism": {
+    "auto": []
+  },
+  "pediatric-endocrine#cah": {
+    "auto": []
+  },
+  "pediatric-endocrine#precocious-puberty": {
+    "auto": []
+  },
+  "pediatric-endocrine#inborn-errors": {
+    "auto": []
+  },
+  "pediatric-endocrine#pediatric-thyroid": {
+    "auto": []
+  },
+  "pediatric-endocrine#pediatric-diabetes": {
+    "auto": []
+  },
+  "pediatric-endocrine#childhood-obesity": {
+    "auto": []
+  },
+  "pediatric-endocrine#questions": {
+    "auto": [
+      "114-3_OP_043",
+      "114-2_OP_046",
+      "114-1_OP_042",
+      "113-2_OP_043",
+      "113-1_OP_044",
+      "113-1_OP_043",
+      "112-2_OP_071",
+      "112-1_OP_048"
+    ]
+  },
   "pediatric-neuro#cerebral-palsy": {
     "auto": []
   },
@@ -2168,6 +2427,66 @@
   },
   "personality-disorders#questions": {
     "auto": []
+  },
+  "pheochromocytoma-aldosteronism#pheo-manifestations": {
+    "auto": []
+  },
+  "pheochromocytoma-aldosteronism#pheo-diagnosis": {
+    "auto": []
+  },
+  "pheochromocytoma-aldosteronism#pheo-treatment": {
+    "auto": []
+  },
+  "pheochromocytoma-aldosteronism#pa-manifestations": {
+    "auto": []
+  },
+  "pheochromocytoma-aldosteronism#pa-treatment": {
+    "auto": []
+  },
+  "pheochromocytoma-aldosteronism#questions": {
+    "auto": [
+      "115-1_MS_043",
+      "114-3_MS_043",
+      "114-2_MS_032",
+      "113-2_BM_029",
+      "113-1_MS_042",
+      "112-2_MS_068",
+      "112-1_MS_069",
+      "110-2_MS_070"
+    ]
+  },
+  "pituitary-disorders#adenoma": {
+    "auto": []
+  },
+  "pituitary-disorders#gh-excess": {
+    "auto": []
+  },
+  "pituitary-disorders#hypopituitarism": {
+    "auto": []
+  },
+  "pituitary-disorders#apoplexy": {
+    "auto": []
+  },
+  "pituitary-disorders#gh-deficiency": {
+    "auto": []
+  },
+  "pituitary-disorders#transsphenoidal-surgery": {
+    "auto": []
+  },
+  "pituitary-disorders#gamma-knife": {
+    "auto": []
+  },
+  "pituitary-disorders#questions": {
+    "auto": [
+      "115-2_MS_001",
+      "115-1_MS_044",
+      "114-1_MS_044",
+      "113-3_MS_046",
+      "112-1_MS_001",
+      "112-1_BM_030",
+      "112-1_BM_001",
+      "111-2_MS_004"
+    ]
   },
   "pneumonia#questions": {
     "auto": []
@@ -2229,6 +2548,55 @@
   },
   "sexually-transmitted-infections#questions": {
     "auto": []
+  },
+  "single-gene-disorders#thalassemia": {
+    "auto": []
+  },
+  "single-gene-disorders#sickle-cell": {
+    "auto": []
+  },
+  "single-gene-disorders#metabolic": {
+    "auto": []
+  },
+  "single-gene-disorders#cystic-fibrosis": {
+    "auto": []
+  },
+  "single-gene-disorders#wilson": {
+    "auto": []
+  },
+  "single-gene-disorders#pkd": {
+    "auto": []
+  },
+  "single-gene-disorders#achondroplasia": {
+    "auto": []
+  },
+  "single-gene-disorders#osteogenesis-imperfecta": {
+    "auto": []
+  },
+  "single-gene-disorders#hemophilia": {
+    "auto": []
+  },
+  "single-gene-disorders#g6pd": {
+    "auto": []
+  },
+  "single-gene-disorders#duchenne": {
+    "auto": []
+  },
+  "single-gene-disorders#questions": {
+    "auto": [
+      "115-2_OP_042",
+      "115-1_PC_043",
+      "115-1_OP_035",
+      "115-1_BM_026",
+      "114-3_BM_030",
+      "114-2_OP_050",
+      "114-2_OP_049",
+      "114-1_OP_049",
+      "114-1_OP_041",
+      "114-1_OP_006",
+      "114-1_BM_022",
+      "113-3_OP_028"
+    ]
   },
   "skin-bone-infections#questions": {
     "auto": []
@@ -2310,6 +2678,21 @@
   },
   "substance-use-disorders#questions": {
     "auto": []
+  },
+  "thyroid-nodules-cancer#types": {
+    "auto": []
+  },
+  "thyroid-nodules-cancer#questions": {
+    "auto": [
+      "113-3_BM_030",
+      "112-1_MS_072",
+      "109-2_BM_047",
+      "108-2_MS_069",
+      "107-2_BM_047",
+      "107-1_BM_047",
+      "106-2_makeup_BM_048",
+      "106-2_BM_037"
+    ]
   },
   "trauma-stress-disorders#questions": {
     "auto": []
@@ -2656,6 +3039,24 @@
   "beta-lactams#questions": {
     "auto": []
   },
+  "bone-calcium-drugs#bisphosphonates": {
+    "auto": []
+  },
+  "bone-calcium-drugs#calcium-vitamin-d": {
+    "auto": []
+  },
+  "bone-calcium-drugs#questions": {
+    "auto": [
+      "115-2_MS_031",
+      "115-2_BM_039",
+      "114-3_OP_003",
+      "114-2_MS_011",
+      "114-2_BM_039",
+      "114-1_PC_043",
+      "114-1_MS_013",
+      "114-1_BM_038"
+    ]
+  },
   "calcium-channel-blockers#questions": {
     "auto": [
       "114-3_BM_032",
@@ -2714,6 +3115,30 @@
   },
   "cns-stimulants#questions": {
     "auto": []
+  },
+  "corticosteroids#actions": {
+    "auto": []
+  },
+  "corticosteroids#adverse-effects": {
+    "auto": []
+  },
+  "corticosteroids#nursing": {
+    "auto": []
+  },
+  "corticosteroids#inhibitors": {
+    "auto": []
+  },
+  "corticosteroids#questions": {
+    "auto": [
+      "115-2_OP_038",
+      "115-2_FA_025",
+      "115-2_FA_018",
+      "115-1_OP_034",
+      "114-3_OP_021",
+      "114-3_OP_018",
+      "114-3_FA_022",
+      "114-3_FA_012"
+    ]
   },
   "digoxin#questions": {
     "auto": [
@@ -2842,6 +3267,9 @@
       "113-2_MS_045"
     ]
   },
+  "insulin#mixing~2": {
+    "auto": []
+  },
   "insulin#injection-sites": {
     "auto": [
       "115-2_MS_044",
@@ -2855,6 +3283,9 @@
       "112-2_MS_003",
       "112-2_FA_017"
     ]
+  },
+  "insulin#injection-sites~2": {
+    "auto": []
   },
   "insulin#storage": {
     "auto": [
@@ -2991,6 +3422,36 @@
       "111-2_MS_036"
     ]
   },
+  "pituitary-hormones#growth-hormone": {
+    "auto": []
+  },
+  "pituitary-hormones#dopamine-agonists": {
+    "auto": []
+  },
+  "pituitary-hormones#adh-analogues": {
+    "auto": []
+  },
+  "pituitary-hormones#oxytocin": {
+    "auto": []
+  },
+  "pituitary-hormones#other-uterotonics": {
+    "auto": []
+  },
+  "pituitary-hormones#gonadotropins": {
+    "auto": []
+  },
+  "pituitary-hormones#questions": {
+    "auto": [
+      "115-1_MS_044",
+      "115-1_BM_008",
+      "114-3_OP_016",
+      "114-3_BM_039",
+      "114-2_MS_042",
+      "114-1_OP_020",
+      "114-1_MS_045",
+      "113-3_OP_011"
+    ]
+  },
   "potassium-sparing-diuretics#questions": {
     "auto": [
       "115-1_BM_039",
@@ -3007,6 +3468,39 @@
   },
   "protein-synthesis-inhibitors#questions": {
     "auto": []
+  },
+  "sex-hormones#estrogen-progestin": {
+    "auto": []
+  },
+  "sex-hormones#contraceptive-types": {
+    "auto": []
+  },
+  "sex-hormones#contraceptive-contraindications": {
+    "auto": []
+  },
+  "sex-hormones#emergency-contraception": {
+    "auto": []
+  },
+  "sex-hormones#hormone-therapy": {
+    "auto": []
+  },
+  "sex-hormones#androgens": {
+    "auto": []
+  },
+  "sex-hormones#infertility": {
+    "auto": []
+  },
+  "sex-hormones#questions": {
+    "auto": [
+      "115-2_OP_017",
+      "115-2_MS_026",
+      "115-1_OP_002",
+      "115-1_BM_039",
+      "115-1_BM_008",
+      "114-3_OP_025",
+      "114-3_MS_016",
+      "114-3_BM_006"
+    ]
   },
   "sglt2-inhibitors#questions": {
     "auto": [
@@ -3040,6 +3534,33 @@
   },
   "thrombolytics#questions": {
     "auto": []
+  },
+  "thyroid-drugs#levothyroxine": {
+    "auto": []
+  },
+  "thyroid-drugs#thionamides": {
+    "auto": []
+  },
+  "thyroid-drugs#iodides": {
+    "auto": []
+  },
+  "thyroid-drugs#radioactive-iodine": {
+    "auto": []
+  },
+  "thyroid-drugs#beta-blockers": {
+    "auto": []
+  },
+  "thyroid-drugs#questions": {
+    "auto": [
+      "115-2_OP_046",
+      "114-1_MS_043",
+      "113-1_MS_046",
+      "112-3_BM_038",
+      "112-1_MS_070",
+      "111-2_MS_068",
+      "111-2_BM_038",
+      "111-1_MS_073"
+    ]
   },
   "tzd#questions": {
     "auto": [
@@ -3095,6 +3616,36 @@
       "110-2_BM_059",
       "110-1_MS_032",
       "105-1_BM_035"
+    ]
+  },
+  "calcium-phosphate#reference-range": {
+    "auto": []
+  },
+  "calcium-phosphate#low-causes": {
+    "auto": []
+  },
+  "calcium-phosphate#low-symptoms": {
+    "auto": []
+  },
+  "calcium-phosphate#high-causes": {
+    "auto": []
+  },
+  "calcium-phosphate#high-treatment": {
+    "auto": []
+  },
+  "calcium-phosphate#hyperphosphatemia-nursing": {
+    "auto": []
+  },
+  "calcium-phosphate#questions": {
+    "auto": [
+      "115-2_MS_045",
+      "115-1_MS_042",
+      "115-1_MS_024",
+      "115-1_MS_023",
+      "114-3_OP_003",
+      "114-3_MS_040",
+      "113-2_BM_035",
+      "112-3_MS_024"
     ]
   },
   "cardiac-biomarkers#troponin": {
@@ -3168,6 +3719,9 @@
       "108-1_MS_069"
     ]
   },
+  "hba1c#targets~2": {
+    "auto": []
+  },
   "immunology-labs#questions": {
     "auto": []
   },
@@ -3232,6 +3786,24 @@
       "112-3_FA_012"
     ]
   },
+  "thyroid-function-tests#interpretation": {
+    "auto": []
+  },
+  "thyroid-function-tests#t4-t3": {
+    "auto": []
+  },
+  "thyroid-function-tests#questions": {
+    "auto": [
+      "114-2_OP_046",
+      "113-1_OP_043",
+      "111-2_MS_068",
+      "111-1_MS_069",
+      "109-2_MS_069",
+      "109-1_BM_032",
+      "107-2_OP_074",
+      "106-2_makeup_BM_025"
+    ]
+  },
   "tumor-markers#questions": {
     "auto": []
   },
@@ -3291,6 +3863,36 @@
   },
   "streptococci#questions": {
     "auto": []
+  },
+  "adrenal-glands#structure": {
+    "auto": []
+  },
+  "adrenal-glands#aldosterone": {
+    "auto": []
+  },
+  "adrenal-glands#cortisol": {
+    "auto": []
+  },
+  "adrenal-glands#cortical-insufficiency": {
+    "auto": []
+  },
+  "adrenal-glands#medulla": {
+    "auto": []
+  },
+  "adrenal-glands#stress-response": {
+    "auto": []
+  },
+  "adrenal-glands#questions": {
+    "auto": [
+      "115-2_MS_002",
+      "115-1_MS_043",
+      "115-1_BM_035",
+      "115-1_BM_011",
+      "115-1_BM_009",
+      "114-3_MS_044",
+      "114-3_MS_043",
+      "114-3_BM_036"
+    ]
   },
   "autonomic-nervous-system#overview": {
     "auto": []
@@ -3496,6 +4098,42 @@
       "108-2_FA_038"
     ]
   },
+  "cell-injury-adaptation#adaptation": {
+    "auto": []
+  },
+  "cell-injury-adaptation#cell-types": {
+    "auto": []
+  },
+  "cell-injury-adaptation#cell-injury": {
+    "auto": []
+  },
+  "cell-injury-adaptation#accumulations": {
+    "auto": []
+  },
+  "cell-injury-adaptation#necrosis": {
+    "auto": []
+  },
+  "cell-injury-adaptation#apoptosis": {
+    "auto": []
+  },
+  "cell-injury-adaptation#postmortem": {
+    "auto": []
+  },
+  "cell-injury-adaptation#questions": {
+    "auto": [
+      "115-2_BM_021",
+      "113-3_BM_021",
+      "113-2_BM_021",
+      "112-3_BM_021",
+      "112-1_BM_025",
+      "111-1_BM_033",
+      "110-1_BM_041",
+      "109-2_BM_040",
+      "109-1_BM_040",
+      "106-2_BM_034",
+      "106-2_BM_033"
+    ]
+  },
   "complement-system#questions": {
     "auto": []
   },
@@ -3538,6 +4176,142 @@
       "114-2_MS_014"
     ]
   },
+  "edema-shock#edema": {
+    "auto": []
+  },
+  "edema-shock#nephrotic-edema": {
+    "auto": []
+  },
+  "edema-shock#cirrhosis-ascites": {
+    "auto": []
+  },
+  "edema-shock#hyperemia-congestion": {
+    "auto": []
+  },
+  "edema-shock#shock-types": {
+    "auto": []
+  },
+  "edema-shock#compensation": {
+    "auto": []
+  },
+  "edema-shock#shock-stages": {
+    "auto": []
+  },
+  "edema-shock#hemorrhage-class": {
+    "auto": []
+  },
+  "edema-shock#questions": {
+    "auto": [
+      "115-2_MS_050",
+      "115-2_FA_024",
+      "115-2_BM_004",
+      "115-1_MS_019",
+      "115-1_FA_027",
+      "114-3_MS_037",
+      "114-3_MS_024",
+      "114-3_FA_017",
+      "114-3_BM_011",
+      "114-2_FA_026",
+      "114-1_MS_019",
+      "113-3_MS_050"
+    ]
+  },
+  "endocrine-overview#hormone-types": {
+    "auto": []
+  },
+  "endocrine-overview#glands": {
+    "auto": []
+  },
+  "endocrine-overview#feedback": {
+    "auto": []
+  },
+  "endocrine-overview#pineal": {
+    "auto": []
+  },
+  "endocrine-overview#testis": {
+    "auto": []
+  },
+  "endocrine-overview#ovary": {
+    "auto": []
+  },
+  "endocrine-overview#placenta": {
+    "auto": []
+  },
+  "endocrine-overview#menopause": {
+    "auto": []
+  },
+  "endocrine-overview#questions": {
+    "auto": [
+      "115-2_OP_017",
+      "115-2_BM_017",
+      "115-2_BM_001",
+      "115-1_OP_005",
+      "115-1_OP_003",
+      "115-1_BM_008",
+      "114-3_OP_016",
+      "114-3_MS_044"
+    ]
+  },
+  "environmental-injury#ionizing-radiation": {
+    "auto": []
+  },
+  "environmental-injury#ultraviolet": {
+    "auto": []
+  },
+  "environmental-injury#heat-injury": {
+    "auto": []
+  },
+  "environmental-injury#carbon-monoxide": {
+    "auto": []
+  },
+  "environmental-injury#lead": {
+    "auto": []
+  },
+  "environmental-injury#heavy-metals": {
+    "auto": []
+  },
+  "environmental-injury#tobacco": {
+    "auto": []
+  },
+  "environmental-injury#alcohol": {
+    "auto": []
+  },
+  "environmental-injury#air-pollution": {
+    "auto": []
+  },
+  "environmental-injury#questions": {
+    "auto": [
+      "115-2_PC_037",
+      "115-2_MS_048",
+      "115-1_BM_005",
+      "114-1_MS_048",
+      "114-1_BM_024",
+      "113-3_PC_037",
+      "113-3_BM_024",
+      "112-2_PC_060",
+      "112-1_OP_045",
+      "112-1_BM_026",
+      "111-2_PC_044",
+      "110-2_FA_015"
+    ]
+  },
+  "genetic-inheritance#mitochondrial": {
+    "auto": []
+  },
+  "genetic-inheritance#genetic-counseling": {
+    "auto": []
+  },
+  "genetic-inheritance#questions": {
+    "auto": [
+      "115-2_BM_023",
+      "111-1_OP_002",
+      "109-1_BM_042",
+      "106-2_makeup_BM_037"
+    ]
+  },
+  "glucose-homeostasis#islets": {
+    "auto": []
+  },
   "glucose-homeostasis#incretin": {
     "auto": [
       "112-2_BM_020",
@@ -3555,6 +4329,9 @@
       "109-1_MS_067",
       "108-1_BM_027"
     ]
+  },
+  "glucose-homeostasis#counter-hormones": {
+    "auto": []
   },
   "glucose-homeostasis#questions": {
     "auto": [
@@ -3574,6 +4351,42 @@
   },
   "hypersensitivity-reactions#questions": {
     "auto": []
+  },
+  "hypothalamus-pituitary#cell-types": {
+    "auto": []
+  },
+  "hypothalamus-pituitary#nuclei": {
+    "auto": []
+  },
+  "hypothalamus-pituitary#body-temperature": {
+    "auto": []
+  },
+  "hypothalamus-pituitary#hypothalamic-hormones": {
+    "auto": []
+  },
+  "hypothalamus-pituitary#anterior-lobe": {
+    "auto": []
+  },
+  "hypothalamus-pituitary#growth-hormone": {
+    "auto": []
+  },
+  "hypothalamus-pituitary#lactation": {
+    "auto": []
+  },
+  "hypothalamus-pituitary#posterior-lobe": {
+    "auto": []
+  },
+  "hypothalamus-pituitary#questions": {
+    "auto": [
+      "115-2_MS_005",
+      "115-2_MS_001",
+      "115-2_BM_020",
+      "115-2_BM_001",
+      "115-1_MS_044",
+      "115-1_BM_011",
+      "115-1_BM_008",
+      "114-3_OP_016"
+    ]
   },
   "immune-system-basics#questions": {
     "auto": []
@@ -3646,6 +4459,29 @@
   },
   "neurotransmitters-psychiatry#brain-regions": {
     "auto": []
+  },
+  "nutritional-disorders#protein-energy-malnutrition": {
+    "auto": []
+  },
+  "nutritional-disorders#fat-soluble": {
+    "auto": []
+  },
+  "nutritional-disorders#water-soluble": {
+    "auto": []
+  },
+  "nutritional-disorders#questions": {
+    "auto": [
+      "115-2_FA_029",
+      "115-2_FA_028",
+      "114-3_FA_029",
+      "114-3_FA_028",
+      "113-3_FA_030",
+      "113-3_BM_022",
+      "113-2_MS_008",
+      "113-2_FA_028",
+      "113-1_PC_049",
+      "113-1_BM_024"
+    ]
   },
   "special-senses#general-senses": {
     "auto": []
@@ -3724,5 +4560,75 @@
   },
   "t-lymphocytes#questions": {
     "auto": []
+  },
+  "thrombosis-embolism-infarction#hemostasis": {
+    "auto": []
+  },
+  "thrombosis-embolism-infarction#thrombosis": {
+    "auto": []
+  },
+  "thrombosis-embolism-infarction#venous-thrombosis": {
+    "auto": []
+  },
+  "thrombosis-embolism-infarction#dic": {
+    "auto": []
+  },
+  "thrombosis-embolism-infarction#embolism": {
+    "auto": []
+  },
+  "thrombosis-embolism-infarction#fat-embolism": {
+    "auto": []
+  },
+  "thrombosis-embolism-infarction#gas-amniotic-embolism": {
+    "auto": []
+  },
+  "thrombosis-embolism-infarction#infarction": {
+    "auto": []
+  },
+  "thrombosis-embolism-infarction#questions": {
+    "auto": [
+      "115-2_MS_048",
+      "115-2_FA_012",
+      "115-1_BM_021",
+      "114-3_OP_023",
+      "114-3_BM_031",
+      "114-1_BM_022",
+      "113-2_OP_020",
+      "113-2_BM_036",
+      "112-2_BM_026",
+      "112-1_OP_033",
+      "112-1_MS_035",
+      "112-1_MS_017"
+    ]
+  },
+  "thyroid-parathyroid#structure": {
+    "auto": []
+  },
+  "thyroid-parathyroid#synthesis": {
+    "auto": []
+  },
+  "thyroid-parathyroid#actions": {
+    "auto": []
+  },
+  "thyroid-parathyroid#regulation": {
+    "auto": []
+  },
+  "thyroid-parathyroid#bone-density": {
+    "auto": []
+  },
+  "thyroid-parathyroid#parathyroid-disorders": {
+    "auto": []
+  },
+  "thyroid-parathyroid#questions": {
+    "auto": [
+      "115-2_OP_046",
+      "115-2_MS_045",
+      "115-2_FA_028",
+      "115-2_BM_017",
+      "115-2_BM_001",
+      "115-1_OP_024",
+      "115-1_MS_042",
+      "115-1_MS_001"
+    ]
   }
 }

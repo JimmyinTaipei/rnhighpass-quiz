@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 640" width="980" height="640" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>下視丘常考核區與腦下垂體(正中矢狀切面示意)</title>
+<rect width="980" height="640" fill="#FFFFFF"/>
+<defs><marker id="mi" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26262B"/></marker><marker id="mb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A6EA5"/></marker><marker id="mp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5CA5"/></marker></defs>
+<text x="490.0" y="32" font-size="20" text-anchor="middle" font-weight="bold" fill="#26262B">下視丘常考核區與腦下垂體(正中矢狀切面示意)</text>
+<text x="150" y="70" font-size="12" text-anchor="middle" font-weight="normal" fill="#8A8A93">← 前(臉側)</text>
+<text x="760" y="70" font-size="12" text-anchor="middle" font-weight="normal" fill="#8A8A93">後(枕側) →</text>
+<path d="M160,128 Q450,112 760,128" fill="none" stroke="#8A8A93" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="460" y="104" font-size="12" text-anchor="middle" font-weight="normal" fill="#8A8A93">視丘(下視丘溝以上)</text>
+<path d="M165,140 L755,140 Q775,300 690,390 Q620,410 560,416 L505,430 L440,430 Q330,434 200,428 Q150,340 165,140 Z" fill="#FBF3EA" stroke="#C9B8A8" stroke-width="2"/>
+<text x="186" y="162" font-size="15" text-anchor="start" font-weight="bold" fill="#AD5C28">下視丘</text>
+<ellipse cx="262" cy="450" rx="64" ry="14" fill="#F3D9A6" stroke="#B89A5E" stroke-width="1.5"/>
+<text x="262" y="484" font-size="13" text-anchor="middle" font-weight="bold" fill="#26262B">視交叉</text>
+<circle cx="655" cy="410" r="24" fill="#E7DAF0" stroke="#8C76A8" stroke-width="1.5"/>
+<text x="655" y="452" font-size="13" text-anchor="middle" font-weight="bold" fill="#26262B">乳頭體</text>
+<text x="655" y="468" font-size="11" text-anchor="middle" font-weight="normal" fill="#8A8A93">(屬邊緣系統、記憶迴路)</text>
+<ellipse cx="500" cy="186" rx="88" ry="30" fill="none" stroke="#AD5C28" stroke-width="1.8" stroke-dasharray="6 4"/>
+<text x="500" y="183" font-size="13" text-anchor="middle" font-weight="bold" fill="#26262B">外側區(在切面外側)</text>
+<text x="500" y="199" font-size="11" text-anchor="middle" font-weight="normal" fill="#AD5C28">攝食(飢餓)中樞</text>
+<ellipse cx="232" cy="262" rx="56" ry="74" fill="#DCEAF6" stroke="#3A6EA5" stroke-width="1.5"/>
+<text x="232" y="259" font-size="13" text-anchor="middle" font-weight="bold" fill="#26262B">視前區與前區</text>
+<text x="232" y="275" font-size="11" text-anchor="middle" font-weight="normal" fill="#3A6EA5">散熱中樞</text>
+<ellipse cx="352" cy="196" rx="62" ry="28" fill="#E3DCF3" stroke="#6B5CA5" stroke-width="1.5"/>
+<text x="352" y="193" font-size="13" text-anchor="middle" font-weight="bold" fill="#26262B">室旁核</text>
+<text x="352" y="209" font-size="11" text-anchor="middle" font-weight="normal" fill="#6B5CA5">ADH、催產素、CRH</text>
+<ellipse cx="650" cy="250" rx="64" ry="32" fill="#F6D9DE" stroke="#B4485C" stroke-width="1.5"/>
+<text x="650" y="247" font-size="13" text-anchor="middle" font-weight="bold" fill="#26262B">後區</text>
+<text x="650" y="263" font-size="11" text-anchor="middle" font-weight="normal" fill="#B4485C">產熱中樞</text>
+<ellipse cx="520" cy="312" rx="76" ry="32" fill="#F6E2CF" stroke="#AD5C28" stroke-width="1.5"/>
+<text x="520" y="304" font-size="13" text-anchor="middle" font-weight="bold" fill="#26262B">腹內側核</text>
+<text x="520" y="319" font-size="11" text-anchor="middle" font-weight="normal" fill="#AD5C28">飽食中樞</text>
+<text x="520" y="332" font-size="11" text-anchor="middle" font-weight="normal" fill="#AD5C28">受損 → 多食、肥胖</text>
+<ellipse cx="206" cy="394" rx="50" ry="22" fill="#E3DCF3" stroke="#6B5CA5" stroke-width="1.5"/>
+<text x="206" y="391" font-size="13" text-anchor="middle" font-weight="bold" fill="#26262B">視上核</text>
+<text x="206" y="407" font-size="11" text-anchor="middle" font-weight="normal" fill="#6B5CA5">ADH 為主</text>
+<ellipse cx="316" cy="392" rx="56" ry="22" fill="#D7EBDD" stroke="#3E7C57" stroke-width="1.5"/>
+<text x="316" y="389" font-size="13" text-anchor="middle" font-weight="bold" fill="#26262B">視交叉上核</text>
+<text x="316" y="405" font-size="11" text-anchor="middle" font-weight="normal" fill="#3E7C57">生理時鐘</text>
+<ellipse cx="476" cy="392" rx="56" ry="22" fill="#D3E3F4" stroke="#3A6EA5" stroke-width="1.5"/>
+<text x="476" y="389" font-size="13" text-anchor="middle" font-weight="bold" fill="#26262B">弓狀核</text>
+<text x="476" y="405" font-size="11" text-anchor="middle" font-weight="normal" fill="#3A6EA5">釋放激素</text>
+<path d="M445,430 L500,430 L492,500 L455,500 Z" fill="#FBF3EA" stroke="#C9B8A8" stroke-width="2"/>
+<text x="430" y="478" font-size="12" text-anchor="end" font-weight="normal" fill="#8A8A93">漏斗柄</text>
+<ellipse cx="400" cy="560" rx="88" ry="50" fill="#F6E5CC" stroke="#C49A5A" stroke-width="2"/>
+<text x="400" y="545" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">前葉(腺垂體)</text>
+<text x="400" y="563" font-size="11" text-anchor="middle" font-weight="normal" fill="#AD5C28">GH、PRL、TSH</text>
+<text x="400" y="578" font-size="11" text-anchor="middle" font-weight="normal" fill="#AD5C28">ACTH、FSH、LH</text>
+<ellipse cx="548" cy="560" rx="60" ry="46" fill="#EAE4F4" stroke="#8C76A8" stroke-width="2"/>
+<text x="548" y="550" font-size="14" text-anchor="middle" font-weight="bold" fill="#26262B">後葉(神經垂體)</text>
+<text x="548" y="568" font-size="11" text-anchor="middle" font-weight="normal" fill="#6B5CA5">釋放 ADH、催產素</text>
+<path d="M370,223 C388,290 392,350 402,380 C412,410 448,420 468,440 L478,500 L506,528" fill="none" stroke="#6B5CA5" stroke-width="2.5" marker-end="url(#mp)"/>
+<path d="M222,415 C270,424 380,424 440,428 C460,432 464,440 466,446 L472,500 L498,532" fill="none" stroke="#6B5CA5" stroke-width="2.5" marker-end="url(#mp)"/>
+<path d="M494,414 C494,428 492,438 488,444" fill="none" stroke="#3A6EA5" stroke-width="2.5"/>
+<circle cx="487" cy="450" r="6" fill="#FFFFFF" stroke="#3A6EA5" stroke-width="2"/>
+<path d="M484,456 C470,480 450,500 432,512" fill="none" stroke="#3A6EA5" stroke-width="2.5" marker-end="url(#mb)"/>
+<rect x="700" y="472" width="262" height="150" rx="8" fill="#F7F7F9" stroke="#D8D8DE"/>
+<text x="714" y="494" font-size="13" text-anchor="start" font-weight="bold" fill="#26262B">看圖重點</text>
+<text x="714" y="516" font-size="12" text-anchor="start" font-weight="normal" fill="#6B5CA5">紫線：視上核、室旁核的軸突 → 後葉</text>
+<text x="714" y="536" font-size="11" text-anchor="start" font-weight="normal" fill="#8A8A93">(下視丘－垂體徑，激素在下視丘合成)</text>
+<text x="714" y="558" font-size="12" text-anchor="start" font-weight="normal" fill="#3A6EA5">藍線：釋放激素 → 初級微血管叢</text>
+<text x="714" y="576" font-size="12" text-anchor="start" font-weight="normal" fill="#3A6EA5">→ 垂體門脈 → 前葉</text>
+<text x="714" y="600" font-size="11" text-anchor="start" font-weight="normal" fill="#AD5C28">外側區在兩側，本圖以虛線表示</text>
+<text x="714" y="616" font-size="11" text-anchor="start" font-weight="normal" fill="#8A8A93">呼吸節律在延腦、橋腦，不在下視丘</text>
+</svg>

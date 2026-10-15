@@ -98,6 +98,8 @@ RI 與 NPH 需要混合在同一支空針時：
 
 ::questions{keyword="(抽取|抽藥|先抽|混合).*(胰島素|RI|NPH)|(RI|NPH).*(抽取|混合|搖)" limit="6"}
 
+::questions{ids="106-2_FA_021,106-1_FA_015,108-1_FA_020"}
+
 ## 注射技術 {#injection}
 
 ### 注射方法 {#injection-technique}
@@ -127,6 +129,8 @@ RI 與 NPH 需要混合在同一支空針時：
 
 ::questions{keyword="(胰島素).*(注射|部位|吸收|角度|針頭|按摩)|(注射|吸收).*(胰島素)" limit="10"}
 
+::questions{ids="108-2_FA_030,107-1_FA_018,107-2_MS_069,108-2_OP_048"}
+
 ## 保存 {#storage}
 
 | 狀態 | 保存方式 |
@@ -149,4 +153,4 @@ RI 與 NPH 需要混合在同一支空針時：
 
 ## 相關考題 {#questions}
 
-::questions{tag="糖尿病|第一型糖尿病|第1型糖尿病" keyword="胰島素" limit="10"}
+::questions{tag="糖尿病|第一型糖尿病" keyword="胰島素" limit="10"}

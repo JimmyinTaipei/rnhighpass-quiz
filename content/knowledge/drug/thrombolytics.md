@@ -2,7 +2,7 @@
 title: 血栓溶解劑
 subtitle: Thrombolytics / Fibrinolytics(Alteplase、Tenecteplase、Streptokinase)
 aliases: [血栓溶解劑, 溶栓劑, 纖維蛋白溶解劑, Fibrinolytic, t-PA, tPA, rt-PA, Alteplase, Actilyse, Tenecteplase, TNK, Metalyse, Reteplase, Streptokinase, Urokinase, 尿激酶, 鏈球菌激酶]
-dzTags: [心肌梗塞, 急性心肌梗塞, ST段上升心肌梗塞, 腦中風, 缺血性腦中風, 肺栓塞, 急性冠心症]
+dzTags: [心肌梗塞, 急性心肌梗塞, ST段上升心肌梗塞, 腦中風, 缺血性腦中風, 肺栓塞, 急性冠狀動脈症候群]
 system: hematology-immunology
 alsoIn: [cardiovascular]
 group: antithrombotics
@@ -91,6 +91,7 @@ references:
 - **高風險(大量)肺栓塞**：休克或持續低血壓 → 全身性溶栓(alteplase 100 mg 2 小時滴注)。血行動力穩定者用抗凝血劑即可。
 - 症狀發生後越早效果越好;國考常以「**血栓形成後 72 小時內**可快速溶解血塊」出題(實際上症狀 14 天內仍可能有效)。
 - 在心跳停止且高度懷疑肺栓塞時，AHA 指引認為可考慮給予血栓溶解劑(2025 版此建議在 Part 10 特殊情況，本次未取得全文核對)。
+- 栓子的來源與去向見 [[thrombosis-embolism-infarction#embolism]]
 
 ## 副作用與禁忌 {#adverse-effects}
 

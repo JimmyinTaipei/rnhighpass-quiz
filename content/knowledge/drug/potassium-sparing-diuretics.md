@@ -82,7 +82,7 @@ references:
 ### 其他 {#other-uses}
 
 - **肝硬化腹水**：首選 spironolactone(肝硬化有次發性高醛固酮)，常與 furosemide 以 **100 : 40** 比例併用。
-- **原發性醛固酮症(Conn 氏症)**：手術前或不能手術者的藥物治療;也可用來鑑別。
+- **原發性醛固酮症(Conn 氏症)**：手術前或不能手術者的藥物治療;也可用來鑑別(疾病見 [[pheochromocytoma-aldosteronism#primary-aldosteronism]])。
 - **頑固性高血壓**(已用 3 種含利尿劑的降壓藥仍未控制)的第四線藥物。
 - 與排鉀利尿劑合用，**抵銷低血鉀**。
 - 腎病症候群水腫;女性多毛症、痤瘡(spironolactone)。

@@ -2,7 +2,7 @@
 title: 腫瘤概論
 subtitle: Neoplasia(腫瘤的命名、良惡性、轉移、分期與致癌機轉)
 aliases: [腫瘤, 贅瘤, Neoplasm, Tumor, 良性腫瘤, 惡性腫瘤, 癌, Carcinoma, 肉瘤, Sarcoma, 原位癌, Carcinoma in situ, 異生, Dysplasia, 化生, Metaplasia, 分化不良, Anaplasia, 轉移, Metastasis, TNM, 分期, 分級, 致癌基因, Oncogene, 抑癌基因, Tumor suppressor gene, p53, RB, BRCA, APC, 致癌病毒, HPV, EBV, 雙重打擊理論]
-dzTags: [惡性腫瘤, 腫瘤, 良性腫瘤, 癌症轉移, 癌症骨轉移]
+dzTags: [癌症, 腫瘤, 良性腫瘤, 癌症轉移, 骨轉移]
 system: oncology
 alsoIn: [hematology-immunology, infection]
 chapters:
@@ -59,6 +59,7 @@ references:
 
 - 上皮的癌是否「穿過**基底膜**」，是原位癌和侵襲癌的分界。
 - 異生依異常程度分**輕、中、重度**；重度異生占據全層就等於原位癌。
+- 肥大、增生、萎縮、化生的機轉與例子見 [[cell-injury-adaptation#adaptation]]
 
 ## 命名與分類 {#nomenclature}
 
