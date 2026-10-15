@@ -1,0 +1,36 @@
+{
+ "image": "servier-pneumothorax.svg",
+ "_說明": "左：正常；右：病人左側氣胸(看圖者右邊是病人左側)，藍色是肋膜腔的空氣",
+ "labels": [
+  {
+   "id": "normal",
+   "zh": "正常：肺貼著胸壁",
+   "en": "Normal lung",
+   "x": 12,
+   "y": 45,
+   "tx": 2,
+   "ty": 6,
+   "align": "start"
+  },
+  {
+   "id": "pleural-air",
+   "zh": "肋膜腔積氣",
+   "en": "Air in pleural space",
+   "x": 86,
+   "y": 45,
+   "tx": 99,
+   "ty": 6,
+   "align": "end"
+  },
+  {
+   "id": "collapsed",
+   "zh": "塌陷的肺",
+   "en": "Collapsed lung",
+   "x": 77,
+   "y": 60,
+   "tx": 99,
+   "ty": 97,
+   "align": "end"
+  }
+ ]
+}

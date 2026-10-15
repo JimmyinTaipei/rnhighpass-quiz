@@ -1,16 +1,19 @@
 # 來源掃描報告(1a)
 
-> 由 `scripts/source-scan.py` 產生。264 篇頁面對 199 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
+> 由 `scripts/source-scan.py` 產生。278 篇頁面對 199 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
 > 「疑似貼上」＝內文含形似字元(UpToDate 匯出檔的防複製記號)；「逐字重疊」＝共有 6 串以上；「數字序列重疊」＝連續 5 個有辨識度的數字(含單位)與匯出檔順序相同，可能是照原文順序整理，需人工比對；「檢視」＝零星重疊，多半是專有名詞或藥名。
 > **限制**：①中文翻譯式的近似照抄抓不到(只能抓英文詞串與數字序列)，要人工抽查；②國考書 PDF 是掃描圖檔、沒有文字層，無法比對(需要 OCR)；③圖片與表格的重製要人工看。
 
 | 結果 | 頁面 | 引用行數 | 形似字元 | 英文重疊 | 數字序列重疊 | 最相近的匯出檔 | 例 |
 |---|---|---:|---:|---:|---:|---|---|
-| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 免疫相關/Systemic lupus erythematosus: Epidemiology and pathogenesis(6)；免疫相關/Transplantation immunobiology(6)；免疫相關/The adaptive humoral immune response(6) | an overview of the innate immune |
+| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 感染相關/Acute phase reactants(6)；免疫相關/The adaptive humoral immune response(6)；免疫相關/Overview of autoimmunity(6) | an overview of the innate immune |
 | 數字序列重疊 | disease/sepsis.md | 4 | 0 | 0 | 3 | 感染相關/Sepsis syndromes in adults: Epidemiology, definitions, clinical presentation, diagnosis, and prognosis(3) |  |
 | 檢視 | pathogen/human-papillomavirus.md | 0 | 0 | 0 | 2 | 癌症相關/Invasive cervical cancer: Epidemiology, risk factors, clinical manifestations, and diagnosis(2) |  |
-| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Inherited disorders of the complement system(2)；免疫相關/Antigen-presenting cells(2)；免疫相關/Complement pathways(2) | regulators and receptors of the complement |
-| 檢視 | physiology/t-lymphocytes.md | 9 | 0 | 1 | 0 | 免疫相關/Primary humoral immunodeficiencies: An overview(1)；免疫相關/Systemic lupus erythematosus: Epidemiology and pathogenesis(1)；免疫相關/Agammaglobulinemia(1) | normal b and t lymphocyte development |
+| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Inherited disorders of the complement system(2)；免疫相關/Acquired disorders of the complement system(2)；免疫相關/Complement pathways(2) | regulators and receptors of the complement |
+| 檢視 | care/respiratory-assessment.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Diagnosis and management of asthma in older adults(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
+| 檢視 | disease/copd.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Diagnosis and management of asthma in older adults(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
+| 檢視 | physiology/t-lymphocytes.md | 9 | 0 | 1 | 0 | 免疫相關/Pathogenesis of rheumatoid arthritis(1)；免疫相關/The adaptive humoral immune response(1)；免疫相關/Primary humoral immunodeficiencies: An overview(1) | normal b and t lymphocyte development |
+| 檢視 | physiology/ventilation-mechanics.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Diagnosis and management of asthma in older adults(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
 | 無重疊 | admin/accreditation-evaluation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/clinical-ladder-training.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/conflict-change-management.md | 0 | 0 | 0 | 0 | — |  |
@@ -63,7 +66,10 @@
 | 無重疊 | care/psychodynamic-theories.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/stem-cell-transplant.md | 8 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/transfusion-reactions.md | 10 | 0 | 0 | 0 | — |  |
+| 無重疊 | device/artificial-airway.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | device/chest-tube.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | device/icp-monitoring.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | device/mechanical-ventilation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/adhd.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/adrenal-insufficiency.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/alcohol-use-disorder.md | 0 | 0 | 0 | 0 | — |  |
@@ -71,6 +77,7 @@
 | 無重疊 | disease/allergic-rhinitis.md | 6 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/anaphylaxis.md | 11 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/anxiety-disorders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/ards-respiratory-failure.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/asthma.md | 8 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/autism-spectrum-disorder.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/autoimmune-diseases.md | 4 | 0 | 0 | 0 | — |  |
@@ -124,9 +131,12 @@
 | 無重疊 | disease/personality-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pheochromocytoma-aldosteronism.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pituitary-disorders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/pleural-chest-trauma.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pneumonia.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/primary-immunodeficiency.md | 14 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/pulmonary-embolism-hypertension.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/respiratory-viral-infections.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/restrictive-lung-diseases.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/rheumatoid-arthritis.md | 13 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/schizophrenia.md | 10 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/sexually-transmitted-infections.md | 2 | 0 | 0 | 0 | — |  |
@@ -255,6 +265,7 @@
 | 無重疊 | physiology/edema-shock.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/endocrine-overview.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/environmental-injury.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/gas-exchange-transport.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/genetic-inheritance.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/glucose-homeostasis.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/hypersensitivity-reactions.md | 6 | 0 | 0 | 0 | — |  |
@@ -266,7 +277,10 @@
 | 無重疊 | physiology/neuron-synapse.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neurotransmitters-psychiatry.md | 12 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/nutritional-disorders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/respiratory-anatomy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/special-senses.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/spinal-cord-spinal-nerves.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/thrombosis-embolism-infarction.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/thyroid-parathyroid.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | procedure/airway-clearance.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | procedure/oxygen-therapy.md | 0 | 0 | 0 | 0 | — |  |

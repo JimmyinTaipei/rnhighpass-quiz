@@ -82,7 +82,7 @@ references:
 | 腦脊髓液外觀 | **清澈無色** | 血色加深：再出血；**混濁**：感染；黃色：舊出血 |
 
 - 計算：CPP = MAP − ICP(例子見 [[increased-icp#pathophysiology]])
-- **咳嗽、用力、抽痰、移動時顱內壓會暫時升高**，要在病人安靜時判讀
+- **咳嗽、用力、抽痰、移動時顱內壓會暫時升高**，要在病人安靜時判讀；抽痰減少顱內壓上升的做法見 [[airway-clearance#suction-complications]]
 
 ## 護理重點 {#nursing}
 

@@ -1,0 +1,43 @@
+{
+ "image": "servier-breathing.svg",
+ "_說明": "左吸氣、右呼氣；紫線是橫膈的位置",
+ "labels": [
+  {
+   "id": "insp-diaphragm",
+   "zh": "吸氣：橫膈收縮下降",
+   "en": "Inspiration: diaphragm contracts",
+   "x": 24,
+   "y": 90,
+   "tx": 24,
+   "ty": 98
+  },
+  {
+   "id": "insp-ribs",
+   "zh": "肋骨上提、胸廓變大",
+   "en": "Ribs elevate",
+   "x": 5,
+   "y": 45,
+   "tx": 1,
+   "ty": 30,
+   "align": "start"
+  },
+  {
+   "id": "exp-diaphragm",
+   "zh": "呼氣：橫膈放鬆上升",
+   "en": "Expiration: diaphragm relaxes",
+   "x": 78,
+   "y": 88,
+   "tx": 78,
+   "ty": 98
+  },
+  {
+   "id": "sternum",
+   "zh": "胸骨",
+   "en": "Sternum",
+   "x": 24,
+   "y": 35,
+   "tx": 50,
+   "ty": 30
+  }
+ ]
+}

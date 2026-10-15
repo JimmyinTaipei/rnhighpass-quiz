@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 470" width="940" height="470" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>連枷胸的反常呼吸</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C62828"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1565C0"/></marker></defs>
+<rect width="940" height="470" fill="#FFFFFF"/>
+<path d="M201.9,96.4 L188.1,99.2 L174.6,103.0 L161.5,107.9 L149.0,113.7 L137.1,120.6 L125.9,128.3 L115.4,136.9 L105.9,146.3 L97.3,156.4 L89.7,167.1 L83.2,178.4 L77.8,190.1 L73.5,202.3 L70.5,214.7 L68.6,227.3 L68.0,240.0 L68.6,252.7 L70.5,265.3 L73.5,277.7 L77.8,289.9 L83.2,301.6 L89.7,312.9 L97.3,323.6 L105.9,333.7 L115.4,343.1 L125.9,351.7 L137.1,359.4 L149.0,366.3 L161.5,372.1 L174.6,377.0 L188.1,380.8 L201.9,383.6 L215.9,385.2 L230.0,385.8 L244.1,385.2 L258.1,383.6 L271.9,380.8 L285.4,377.0 L298.5,372.1 L311.0,366.3 L322.9,359.4 L334.1,351.7 L344.6,343.1 L354.1,333.7 L362.7,323.6" fill="none" stroke="#8D6E63" stroke-width="10" stroke-linecap="round"/>
+<path d="M343.3,298.9 L348.5,289.8 L352.9,280.3 L356.3,270.5 L358.8,260.4 L360.3,250.3 L360.8,240.0 L360.3,229.7 L358.8,219.6 L356.3,209.5 L352.9,199.7 L348.5,190.2 L343.3,181.1 L337.1,172.5 L330.2,164.3" fill="none" stroke="#E65100" stroke-width="10" stroke-dasharray="20 6" stroke-linecap="round"/>
+<path d="M344.6,136.9 L334.1,128.3 L322.9,120.6 L311.0,113.7 L298.5,107.9 L285.4,103.0 L271.9,99.2 L258.1,96.4 L244.1,94.8 L230.0,94.2 L215.9,94.8 L201.9,96.4" fill="none" stroke="#8D6E63" stroke-width="10" stroke-linecap="round"/>
+<path d="M350.9,298.5 L368.9,316.5 M368.9,298.5 L350.9,316.5" stroke="#C62828" stroke-width="3"/>
+<path d="M327.1,135.5 L345.1,153.5 M345.1,135.5 L327.1,153.5" stroke="#C62828" stroke-width="3"/>
+<ellipse cx="225" cy="240" rx="117" ry="112" fill="#F8BBD0" stroke="#AD1457" stroke-width="1.5" opacity="0.8"/>
+<path d="M80,240 L35,240" stroke="#1565C0" stroke-width="3" marker-end="url(#ab)"/>
+<path d="M435,240 L390,240" stroke="#C62828" stroke-width="3.5" marker-end="url(#ar)"/>
+<path d="M666.0,117.7 L654.3,120.0 L642.8,123.3 L631.7,127.4 L621.0,132.4 L610.8,138.3 L601.3,144.9 L592.4,152.2 L584.3,160.2 L577.0,168.8 L570.5,177.9 L564.9,187.5 L560.3,197.5 L556.7,207.9 L554.1,218.4 L552.5,229.2 L552.0,240.0 L552.5,250.8 L554.1,261.6 L556.7,272.1 L560.3,282.5 L564.9,292.5 L570.5,302.1 L577.0,311.2 L584.3,319.8 L592.4,327.8 L601.3,335.1 L610.8,341.7 L621.0,347.6 L631.7,352.6 L642.8,356.7 L654.3,360.0 L666.0,362.3 L678.0,363.7 L690.0,364.2 L702.0,363.7 L714.0,362.3 L725.7,360.0 L737.2,356.7 L748.3,352.6 L759.0,347.6 L769.2,341.7 L778.7,335.1 L787.6,327.8 L795.7,319.8 L803.0,311.2" fill="none" stroke="#8D6E63" stroke-width="10" stroke-linecap="round"/>
+<path d="M836.5,316.1 L843.3,304.4 L849.0,292.1 L853.4,279.4 L856.6,266.4 L858.6,253.3 L859.2,240.0 L858.6,226.7 L856.6,213.6 L853.4,200.6 L849.0,187.9 L843.3,175.6 L836.5,163.9 L828.6,152.7 L819.6,142.1" fill="none" stroke="#E65100" stroke-width="10" stroke-dasharray="20 6" stroke-linecap="round"/>
+<path d="M787.6,152.2 L778.7,144.9 L769.2,138.3 L759.0,132.4 L748.3,127.4 L737.2,123.3 L725.7,120.0 L714.0,117.7 L702.0,116.3 L690.0,115.8 L678.0,116.3 L666.0,117.7" fill="none" stroke="#8D6E63" stroke-width="10" stroke-linecap="round"/>
+<path d="M810.9,298.5 L828.9,316.5 M828.9,298.5 L810.9,316.5" stroke="#C62828" stroke-width="3"/>
+<path d="M787.1,135.5 L805.1,153.5 M805.1,135.5 L787.1,153.5" stroke="#C62828" stroke-width="3"/>
+<ellipse cx="685" cy="240" rx="103" ry="98" fill="#F8BBD0" stroke="#AD1457" stroke-width="1.5" opacity="0.8"/>
+<path d="M490,240 L532,240" stroke="#1565C0" stroke-width="3" marker-end="url(#ab)"/>
+<path d="M840,240 L890,240" stroke="#C62828" stroke-width="3.5" marker-end="url(#ar)"/>
+<text x="230.0" y="40.0" font-size="20" fill="#263238" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">吸氣</text>
+<text x="690.0" y="40.0" font-size="20" fill="#263238" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">呼氣</text>
+<text x="230.0" y="64.0" font-size="14" fill="#C62828" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">胸壁往外擴，連枷段被吸進去</text>
+<text x="690.0" y="64.0" font-size="14" fill="#C62828" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">胸壁往內縮，連枷段被推出來</text>
+<text x="470.0" y="420.0" font-size="14" fill="#263238" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">橘色虛線＝連枷段(相鄰數根肋骨各斷兩處以上，和胸壁失去連結)；× ＝骨折處</text>
+<text x="470.0" y="446.0" font-size="14" fill="#263238" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">和其他胸壁方向相反＝反常(奇異性)呼吸 → 換氣變差、常合併肺挫傷</text>
+</svg>

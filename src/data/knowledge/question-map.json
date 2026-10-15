@@ -972,6 +972,45 @@
   "psychodynamic-theories#questions": {
     "auto": []
   },
+  "respiratory-assessment#measurement": {
+    "auto": []
+  },
+  "respiratory-assessment#factors": {
+    "auto": []
+  },
+  "respiratory-assessment#patterns": {
+    "auto": []
+  },
+  "respiratory-assessment#voice-sounds": {
+    "auto": []
+  },
+  "respiratory-assessment#dyspnea-hypoxia": {
+    "auto": []
+  },
+  "respiratory-assessment#pulse-oximetry": {
+    "auto": []
+  },
+  "respiratory-assessment#bronchoscopy": {
+    "auto": []
+  },
+  "respiratory-assessment#thoracentesis": {
+    "auto": []
+  },
+  "respiratory-assessment#inhalation-injury": {
+    "auto": []
+  },
+  "respiratory-assessment#questions": {
+    "auto": [
+      "115-1_OP_035",
+      "115-1_OP_034",
+      "115-1_MS_032",
+      "115-1_MS_010",
+      "115-1_FA_008",
+      "114-3_MS_033",
+      "114-3_MS_032",
+      "114-3_FA_025"
+    ]
+  },
   "stem-cell-transplant#questions": {
     "auto": []
   },
@@ -983,12 +1022,61 @@
       "111-1_MS_037",
       "110-1_MS_041",
       "110-1_BM_073",
+      "109-1_BM_041",
       "108-2_MS_035",
       "105-1_MS_038"
     ]
   },
   "transfusion-reactions#questions": {
     "auto": []
+  },
+  "artificial-airway#principle": {
+    "auto": []
+  },
+  "artificial-airway#intubation": {
+    "auto": []
+  },
+  "artificial-airway#nursing": {
+    "auto": []
+  },
+  "artificial-airway#bag-valve-mask": {
+    "auto": []
+  },
+  "artificial-airway#questions": {
+    "auto": [
+      "115-2_MS_015",
+      "115-1_OP_034",
+      "115-1_MS_035",
+      "114-3_MS_008",
+      "114-3_FA_034",
+      "114-2_PC_047",
+      "114-2_FA_004",
+      "113-3_OP_036"
+    ]
+  },
+  "chest-tube#reading": {
+    "auto": []
+  },
+  "chest-tube#nursing": {
+    "auto": []
+  },
+  "chest-tube#removal": {
+    "auto": []
+  },
+  "chest-tube#thoracic-surgery": {
+    "auto": []
+  },
+  "chest-tube#questions": {
+    "auto": [
+      "115-2_OP_040",
+      "115-2_MS_033",
+      "113-2_MS_031",
+      "112-3_MS_034",
+      "112-2_MS_051",
+      "112-1_MS_056",
+      "112-1_MS_051",
+      "111-2_MS_054"
+    ]
   },
   "icp-monitoring#alarms": {
     "auto": []
@@ -1003,6 +1091,30 @@
       "109-2_MS_001",
       "107-1_MS_002",
       "106-2_MS_001"
+    ]
+  },
+  "mechanical-ventilation#principle": {
+    "auto": []
+  },
+  "mechanical-ventilation#nursing": {
+    "auto": []
+  },
+  "mechanical-ventilation#alarms": {
+    "auto": []
+  },
+  "mechanical-ventilation#weaning": {
+    "auto": []
+  },
+  "mechanical-ventilation#questions": {
+    "auto": [
+      "115-1_OP_034",
+      "115-1_MS_033",
+      "114-3_MS_048",
+      "113-2_MS_036",
+      "112-3_FA_032",
+      "112-1_OP_054",
+      "111-2_OP_054",
+      "111-1_OP_057"
     ]
   },
   "adhd#questions": {
@@ -1032,6 +1144,9 @@
   "allergic-contact-dermatitis-latex#questions": {
     "auto": []
   },
+  "allergic-rhinitis#clinical": {
+    "auto": []
+  },
   "allergic-rhinitis#questions": {
     "auto": []
   },
@@ -1039,6 +1154,44 @@
     "auto": []
   },
   "anxiety-disorders#questions": {
+    "auto": []
+  },
+  "ards-respiratory-failure#respiratory-failure": {
+    "auto": []
+  },
+  "ards-respiratory-failure#ards-pathophysiology": {
+    "auto": []
+  },
+  "ards-respiratory-failure#ards-diagnosis": {
+    "auto": []
+  },
+  "ards-respiratory-failure#ards-treatment": {
+    "auto": []
+  },
+  "ards-respiratory-failure#ards-nursing": {
+    "auto": []
+  },
+  "ards-respiratory-failure#neonatal-rds": {
+    "auto": []
+  },
+  "ards-respiratory-failure#questions": {
+    "auto": [
+      "115-2_MS_036",
+      "115-1_OP_034",
+      "115-1_MS_033",
+      "114-3_MS_048",
+      "114-3_MS_033",
+      "114-2_MS_034",
+      "114-1_MS_033",
+      "113-2_MS_036",
+      "112-3_OP_036",
+      "112-2_MS_056"
+    ]
+  },
+  "asthma#pef": {
+    "auto": []
+  },
+  "asthma#pediatric": {
     "auto": []
   },
   "asthma#questions": {
@@ -1167,6 +1320,47 @@
       "112-2_PC_044",
       "112-2_MS_036",
       "112-2_MS_009"
+    ]
+  },
+  "copd#bronchitis-vs-emphysema": {
+    "auto": []
+  },
+  "copd#manifestations": {
+    "auto": []
+  },
+  "copd#diagnosis": {
+    "auto": []
+  },
+  "copd#drugs": {
+    "auto": []
+  },
+  "copd#oxygen": {
+    "auto": []
+  },
+  "copd#breathing-exercises": {
+    "auto": []
+  },
+  "copd#nutrition": {
+    "auto": []
+  },
+  "copd#nursing-community": {
+    "auto": []
+  },
+  "copd#bronchiectasis": {
+    "auto": []
+  },
+  "copd#questions": {
+    "auto": [
+      "115-2_PC_042",
+      "114-3_BM_023",
+      "114-2_MS_036",
+      "114-2_BM_034",
+      "114-1_BM_009",
+      "113-3_MS_036",
+      "113-2_MS_035",
+      "113-1_MS_036",
+      "113-1_BM_031",
+      "112-3_MS_037"
     ]
   },
   "coronary-artery-disease#oxygen-balance": {
@@ -2221,6 +2415,9 @@
       "106-2_makeup_MS_033"
     ]
   },
+  "lung-cancer#types": {
+    "auto": []
+  },
   "lung-cancer#questions": {
     "auto": []
   },
@@ -2419,6 +2616,9 @@
       "113-1_OP_017"
     ]
   },
+  "pediatric-respiratory-infections#nasopharyngitis": {
+    "auto": []
+  },
   "pediatric-respiratory-infections#questions": {
     "auto": []
   },
@@ -2488,14 +2688,94 @@
       "111-2_MS_004"
     ]
   },
+  "pleural-chest-trauma#effusion": {
+    "auto": []
+  },
+  "pleural-chest-trauma#empyema": {
+    "auto": []
+  },
+  "pleural-chest-trauma#pneumothorax": {
+    "auto": []
+  },
+  "pleural-chest-trauma#tension-pneumothorax": {
+    "auto": []
+  },
+  "pleural-chest-trauma#rib-fracture": {
+    "auto": []
+  },
+  "pleural-chest-trauma#flail-chest": {
+    "auto": []
+  },
+  "pleural-chest-trauma#pulmonary-contusion": {
+    "auto": []
+  },
+  "pleural-chest-trauma#questions": {
+    "auto": [
+      "115-2_MS_034",
+      "115-1_MS_033",
+      "114-1_MS_032",
+      "113-3_MS_034",
+      "113-3_BM_019",
+      "113-1_MS_034",
+      "112-2_MS_057",
+      "112-2_MS_053"
+    ]
+  },
   "pneumonia#questions": {
     "auto": []
   },
   "primary-immunodeficiency#questions": {
     "auto": []
   },
+  "pulmonary-embolism-hypertension#pe-manifestations": {
+    "auto": []
+  },
+  "pulmonary-embolism-hypertension#pe-treatment": {
+    "auto": []
+  },
+  "pulmonary-embolism-hypertension#pe-nursing": {
+    "auto": []
+  },
+  "pulmonary-embolism-hypertension#pulmonary-edema": {
+    "auto": []
+  },
+  "pulmonary-embolism-hypertension#pulmonary-hypertension": {
+    "auto": []
+  },
+  "pulmonary-embolism-hypertension#questions": {
+    "auto": [
+      "115-2_MS_037",
+      "115-2_MS_035",
+      "115-1_MS_036",
+      "114-3_MS_036",
+      "114-3_MS_035",
+      "114-2_OP_021",
+      "114-2_BM_022",
+      "112-2_MS_052",
+      "112-1_FA_035",
+      "111-2_MS_053"
+    ]
+  },
   "respiratory-viral-infections#questions": {
     "auto": []
+  },
+  "restrictive-lung-diseases#asbestos": {
+    "auto": []
+  },
+  "restrictive-lung-diseases#atelectasis": {
+    "auto": []
+  },
+  "restrictive-lung-diseases#questions": {
+    "auto": [
+      "114-2_MS_034",
+      "113-2_BM_025",
+      "112-1_MS_056",
+      "111-2_MS_059",
+      "111-1_MS_059",
+      "111-1_MS_055",
+      "109-2_PC_072",
+      "109-2_BM_042"
+    ]
   },
   "rheumatoid-arthritis#questions": {
     "auto": []
@@ -3571,14 +3851,16 @@
     ]
   },
   "abg#interpretation": {
-    "auto": [
-      "115-2_PC_037",
-      "115-2_OP_045",
-      "115-2_MS_036",
-      "115-2_MS_029",
-      "115-2_FA_028",
-      "115-1_OP_034"
-    ]
+    "auto": []
+  },
+  "abg#respiratory-alkalosis-care": {
+    "auto": []
+  },
+  "abg#oxygenation": {
+    "auto": []
+  },
+  "abg#nursing": {
+    "auto": []
   },
   "abg#questions": {
     "auto": [
@@ -4295,6 +4577,33 @@
       "110-2_FA_015"
     ]
   },
+  "gas-exchange-transport#diffusion": {
+    "auto": []
+  },
+  "gas-exchange-transport#vq": {
+    "auto": []
+  },
+  "gas-exchange-transport#oxygen-transport": {
+    "auto": []
+  },
+  "gas-exchange-transport#co2-transport": {
+    "auto": []
+  },
+  "gas-exchange-transport#altitude": {
+    "auto": []
+  },
+  "gas-exchange-transport#questions": {
+    "auto": [
+      "115-2_MS_021",
+      "115-1_MS_036",
+      "114-3_OP_036",
+      "114-3_BM_019",
+      "114-3_BM_018",
+      "114-1_OP_044",
+      "114-1_MS_042",
+      "114-1_MS_034"
+    ]
+  },
   "genetic-inheritance#mitochondrial": {
     "auto": []
   },
@@ -4483,6 +4792,42 @@
       "113-1_BM_024"
     ]
   },
+  "respiratory-anatomy#zones": {
+    "auto": []
+  },
+  "respiratory-anatomy#larynx": {
+    "auto": []
+  },
+  "respiratory-anatomy#bronchial-tree": {
+    "auto": []
+  },
+  "respiratory-anatomy#lungs": {
+    "auto": []
+  },
+  "respiratory-anatomy#alveoli": {
+    "auto": []
+  },
+  "respiratory-anatomy#pleura": {
+    "auto": []
+  },
+  "respiratory-anatomy#infant": {
+    "auto": []
+  },
+  "respiratory-anatomy#fetal-lung": {
+    "auto": []
+  },
+  "respiratory-anatomy#questions": {
+    "auto": [
+      "115-2_MS_015",
+      "115-2_MS_010",
+      "115-2_MS_004",
+      "115-2_FA_013",
+      "115-1_OP_034",
+      "115-1_MS_047",
+      "115-1_MS_036",
+      "115-1_MS_033"
+    ]
+  },
   "special-senses#general-senses": {
     "auto": []
   },
@@ -4629,6 +4974,78 @@
       "115-1_OP_024",
       "115-1_MS_042",
       "115-1_MS_001"
+    ]
+  },
+  "ventilation-mechanics#muscles": {
+    "auto": []
+  },
+  "ventilation-mechanics#pressures": {
+    "auto": []
+  },
+  "ventilation-mechanics#compliance": {
+    "auto": []
+  },
+  "ventilation-mechanics#volumes": {
+    "auto": []
+  },
+  "ventilation-mechanics#spirometry": {
+    "auto": []
+  },
+  "ventilation-mechanics#dead-space": {
+    "auto": []
+  },
+  "ventilation-mechanics#hyper-hypoventilation": {
+    "auto": []
+  },
+  "ventilation-mechanics#questions": {
+    "auto": [
+      "115-2_MS_034",
+      "115-1_MS_002",
+      "114-3_BM_023",
+      "114-1_PC_050",
+      "114-1_BM_009",
+      "113-3_BM_019",
+      "113-2_BM_019",
+      "113-2_BM_009"
+    ]
+  },
+  "airway-clearance#aerosol": {
+    "auto": []
+  },
+  "airway-clearance#percussion-vibration": {
+    "auto": []
+  },
+  "airway-clearance#suction-steps": {
+    "auto": []
+  },
+  "airway-clearance#questions": {
+    "auto": [
+      "115-2_PC_017",
+      "115-2_MS_001",
+      "115-1_PC_018",
+      "115-1_OP_034",
+      "115-1_MS_026",
+      "115-1_MS_009",
+      "114-3_OP_035",
+      "114-3_MS_048"
+    ]
+  },
+  "oxygen-therapy#complications": {
+    "auto": []
+  },
+  "oxygen-therapy#complications~2": {
+    "auto": []
+  },
+  "oxygen-therapy#questions": {
+    "auto": [
+      "114-1_OP_038",
+      "114-1_MS_035",
+      "113-3_OP_038",
+      "113-3_MS_036",
+      "113-3_FA_003",
+      "112-3_MS_035",
+      "112-3_MS_018",
+      "112-2_OP_062"
     ]
   }
 }

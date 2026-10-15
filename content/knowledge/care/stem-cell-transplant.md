@@ -2,7 +2,7 @@
 title: 造血幹細胞移植護理
 subtitle: Hematopoietic stem cell transplantation(HSCT；骨髓移植、周邊血液幹細胞移植)
 aliases: [造血幹細胞移植, 幹細胞移植, 骨髓移植, 周邊血液幹細胞移植, HSCT, HCT, BMT, PBSCT, 自體移植, 異體移植, 臍帶血移植, 移植物對抗宿主疾病, 移植體對抗宿主疾病, GVHD, 肝靜脈阻塞疾病, VOD, 竇狀隙阻塞症候群, 植入, Engraftment, 預處理, 保護性隔離, Hickman 導管, 骨髓捐贈]
-dzTags: [造血幹細胞移植, 移植物對抗宿主疾病, 移植物抗宿主疾病, 移植體對抗宿主疾病, 移植物對抗宿主病]
+dzTags: [造血幹細胞移植, 移植物對抗宿主疾病]
 system: hematology-immunology
 alsoIn: [oncology]
 chapters:
@@ -132,4 +132,4 @@ references:
 
 ::questions{ids="112-2_OP_072,113-1_MS_025,105-1_MS_038,112-1_MS_036,111-2_MS_042,114-1_MS_025,112-3_MS_027,111-1_MS_036,111-1_MS_037,110-1_MS_041,108-2_MS_035,112-2_MS_033,109-1_BM_041,110-1_BM_073"}
 
-::questions{tag="造血幹細胞移植|移植物對抗宿主疾病|移植物抗宿主疾病|移植體對抗宿主疾病" limit="10"}
+::questions{tag="造血幹細胞移植|移植物對抗宿主疾病" limit="10"}

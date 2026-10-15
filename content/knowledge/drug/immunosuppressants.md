@@ -2,7 +2,7 @@
 title: 免疫抑制劑與免疫調節劑
 subtitle: Immunosuppressants and immunomodulators(器官移植用藥、生物製劑、干擾素)
 aliases: [免疫抑制劑, 免疫製劑, 免疫調節劑, 抗排斥藥, Immunosuppressants, 鈣調磷酸酶抑制劑, Calcineurin inhibitors, Cyclosporine, Cyclosporin, Sandimmun, Neoral, Tacrolimus, FK506, Prograf, Sirolimus, Rapamune, Everolimus, mTOR 抑制劑, Mycophenolate mofetil, CellCept, Azathioprine, Imuran, 抗胸腺細胞球蛋白, ATG, ALG, Basiliximab, Alemtuzumab, TNF-α 抑制劑, Infliximab, Adalimumab, Etanercept, Anakinra, 干擾素, Interferon, 器官移植, 移植排斥, 超急性排斥, 急性排斥, 慢性排斥, HLA, 交叉配對試驗]
-dzTags: [器官移植排斥, 器官移植排斥反應, 移植排斥反應, 腎臟移植排斥, 腎臟移植, 腎臟移植併發症]
+dzTags: [器官移植排斥, 腎臟移植排斥, 腎臟移植, 腎臟移植併發症]
 system: hematology-immunology
 group: immunomodulators
 chapters:

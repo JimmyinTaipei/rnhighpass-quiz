@@ -1318,6 +1318,137 @@
     "limit": null
   },
   {
+    "qkey": "respiratory-assessment#measurement",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_023",
+      "114-3_FA_026",
+      "106-2_makeup_OP_046",
+      "115-1_OP_038",
+      "115-1_OP_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-assessment#factors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_FA_040",
+      "111-1_FA_038",
+      "112-2_FA_038",
+      "108-1_FA_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-assessment#patterns",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_FA_040",
+      "109-1_FA_039",
+      "111-1_FA_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-assessment#voice-sounds",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_054",
+      "108-2_MS_054",
+      "106-2_makeup_OP_060",
+      "108-1_OP_067",
+      "106-1_MS_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-assessment#dyspnea-hypoxia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_057",
+      "115-1_MS_034",
+      "111-2_FA_012",
+      "114-3_FA_008",
+      "114-1_FA_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-assessment#pulse-oximetry",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_059",
+      "114-2_MS_035",
+      "115-2_FA_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-assessment#bronchoscopy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-assessment#thoracentesis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_034",
+      "113-1_MS_034",
+      "106-2_MS_056",
+      "110-2_MS_053"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-assessment#inhalation-injury",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_049",
+      "112-1_MS_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-assessment#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(呼吸音|囉音|爆裂音|哮鳴|喘鳴|叩診|語音|呼吸型態|陳施|庫斯|畢歐|喟嘆|脈衝式血氧|支氣管鏡|胸腔穿刺|放液)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "stem-cell-transplant#questions",
     "tag": null,
     "adm": null,
@@ -1343,7 +1474,7 @@
   },
   {
     "qkey": "stem-cell-transplant#questions~2",
-    "tag": "造血幹細胞移植|移植物對抗宿主疾病|移植物抗宿主疾病|移植體對抗宿主疾病",
+    "tag": "造血幹細胞移植|移植物對抗宿主疾病",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -1403,6 +1534,132 @@
     "limit": null
   },
   {
+    "qkey": "artificial-airway#principle",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "artificial-airway#intubation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_052",
+      "111-1_MS_054",
+      "107-1_MS_075",
+      "105-1_MS_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "artificial-airway#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_055",
+      "113-3_FA_012",
+      "114-2_FA_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "artificial-airway#bag-valve-mask",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_075"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "artificial-airway#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(氣管內管|氣管內插管|氣管插管|氣切|氣管造口|套囊|甦醒球|Ambu)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "chest-tube#reading",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_057",
+      "106-2_makeup_MS_057",
+      "112-2_MS_051",
+      "107-1_MS_053",
+      "108-1_MS_055",
+      "110-1_MS_053",
+      "108-2_MS_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chest-tube#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_MS_034",
+      "111-2_MS_052",
+      "108-1_FA_002",
+      "111-2_FA_011",
+      "106-2_makeup_MS_056"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chest-tube#removal",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_054",
+      "112-1_MS_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chest-tube#thoracic-surgery",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_053",
+      "108-2_MS_055",
+      "113-2_MS_031",
+      "112-1_MS_056",
+      "115-2_MS_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chest-tube#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(胸管|水封|胸腔水下引流|胸腔引流|胸腔閉鎖式引流|肺葉切除|全肺切除)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "icp-monitoring#alarms",
     "tag": null,
     "adm": null,
@@ -1423,6 +1680,65 @@
     "adm": null,
     "drug": null,
     "keyword": "(顱內壓監測|腦室外引流|EVD|external ventricular|零點|室間孔)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "mechanical-ventilation#principle",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_FA_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "mechanical-ventilation#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_055",
+      "107-2_MS_054",
+      "111-1_MS_052",
+      "113-2_MS_036",
+      "109-1_MS_053",
+      "114-3_MS_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "mechanical-ventilation#alarms",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_054",
+      "115-1_MS_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "mechanical-ventilation#weaning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "mechanical-ventilation#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(呼吸器|機械通氣|機械性通氣|PEEP|BiPAP|CPAP|脫離|weaning)",
     "ids": [],
     "limit": 8
   },
@@ -1525,6 +1841,17 @@
     "limit": null
   },
   {
+    "qkey": "allergic-rhinitis#clinical",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_027"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "allergic-rhinitis#questions",
     "tag": null,
     "adm": null,
@@ -1599,6 +1926,113 @@
       "106-1_PC_025",
       "109-1_PC_028",
       "113-3_PC_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ards-respiratory-failure#respiratory-failure",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_033",
+      "106-2_makeup_MS_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ards-respiratory-failure#ards-pathophysiology",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_058",
+      "112-1_BM_013",
+      "114-1_MS_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ards-respiratory-failure#ards-diagnosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ards-respiratory-failure#ards-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_053",
+      "111-1_MS_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ards-respiratory-failure#ards-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_058"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ards-respiratory-failure#neonatal-rds",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_065",
+      "110-1_OP_009",
+      "108-1_OP_009",
+      "110-1_OP_072",
+      "111-1_OP_057",
+      "111-2_OP_054",
+      "112-3_OP_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ards-respiratory-failure#questions",
+    "tag": "呼吸衰竭|急性呼吸窘迫症候群|新生兒呼吸窘迫症候群",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "asthma#pef",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "asthma#pediatric",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_042"
     ],
     "limit": null
   },
@@ -2190,6 +2624,132 @@
   {
     "qkey": "colorectal-cancer#questions~2",
     "tag": "大腸癌|結腸癌|直腸癌",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "copd#bronchitis-vs-emphysema",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_053",
+      "106-2_MS_054",
+      "106-2_makeup_BM_039",
+      "108-1_MS_057",
+      "107-1_MS_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "copd#manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_035",
+      "110-1_MS_060",
+      "107-1_FA_055",
+      "107-2_FA_055",
+      "112-3_MS_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "copd#diagnosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_053"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "copd#drugs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "copd#oxygen",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_058",
+      "105-2_MS_055",
+      "106-2_makeup_MS_058",
+      "113-3_MS_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "copd#breathing-exercises",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_057",
+      "108-2_MS_060",
+      "109-1_MS_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "copd#nutrition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_055",
+      "113-1_MS_036",
+      "114-2_MS_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "copd#nursing-community",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_055",
+      "105-2_PC_059"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "copd#bronchiectasis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_058",
+      "108-2_MS_056",
+      "109-1_MS_079"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "copd#questions",
+    "tag": "慢性阻塞性肺病|肺氣腫|慢性支氣管炎|支氣管擴張症",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -4466,6 +5026,17 @@
     "limit": 10
   },
   {
+    "qkey": "lung-cancer#types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_BM_045"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "lung-cancer#questions",
     "tag": null,
     "adm": null,
@@ -5080,6 +5651,17 @@
     "limit": 8
   },
   {
+    "qkey": "pediatric-respiratory-infections#nasopharyngitis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_060"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "pediatric-respiratory-infections#questions",
     "tag": null,
     "adm": null,
@@ -5415,6 +5997,111 @@
     "limit": 8
   },
   {
+    "qkey": "pleural-chest-trauma#effusion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_050",
+      "105-2_MS_054",
+      "109-1_BM_035",
+      "106-2_MS_056",
+      "110-2_MS_053",
+      "110-2_MS_056",
+      "113-1_MS_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pleural-chest-trauma#empyema",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_051",
+      "105-1_BM_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pleural-chest-trauma#pneumothorax",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_054",
+      "112-2_MS_057",
+      "109-2_MS_058",
+      "114-1_MS_032",
+      "107-2_MS_053",
+      "106-2_makeup_MS_055",
+      "113-3_BM_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pleural-chest-trauma#tension-pneumothorax",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_053",
+      "110-1_MS_052",
+      "113-2_MS_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pleural-chest-trauma#rib-fracture",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_052",
+      "108-2_FA_055",
+      "112-1_MS_057"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pleural-chest-trauma#flail-chest",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_055",
+      "108-1_MS_053",
+      "109-2_MS_059"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pleural-chest-trauma#pulmonary-contusion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_053"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pleural-chest-trauma#questions",
+    "tag": "肋膜積水|膿胸|氣胸|張力性氣胸|氣血胸|肋骨骨折|連枷胸|肺挫傷",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "pneumonia#questions",
     "tag": null,
     "adm": null,
@@ -5492,6 +6179,74 @@
     "limit": null
   },
   {
+    "qkey": "pulmonary-embolism-hypertension#pe-manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_053",
+      "111-2_MS_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulmonary-embolism-hypertension#pe-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulmonary-embolism-hypertension#pe-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulmonary-embolism-hypertension#pulmonary-edema",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulmonary-embolism-hypertension#pulmonary-hypertension",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_057",
+      "114-3_MS_035",
+      "112-1_FA_035",
+      "115-2_MS_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulmonary-embolism-hypertension#questions",
+    "tag": "肺栓塞|肺水腫|肺心症",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "respiratory-viral-infections#questions",
     "tag": null,
     "adm": null,
@@ -5521,6 +6276,40 @@
       "106-1_PC_064"
     ],
     "limit": null
+  },
+  {
+    "qkey": "restrictive-lung-diseases#asbestos",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_BM_025",
+      "109-2_PC_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "restrictive-lung-diseases#atelectasis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_053",
+      "111-2_MS_059",
+      "111-1_MS_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "restrictive-lung-diseases#questions",
+    "tag": "限制性肺病|塵肺症|石棉肺|間皮瘤|肺擴張不全",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "rheumatoid-arthritis#questions",
@@ -8329,10 +9118,7 @@
     "adm": null,
     "drug": [
       "免疫製劑",
-      "免疫抑制劑",
-      "免疫抑制用藥",
-      "免疫調節用藥",
-      "自體免疫用藥"
+      "免疫抑制劑"
     ],
     "keyword": null,
     "ids": [],
@@ -9096,9 +9882,63 @@
     "tag": null,
     "adm": null,
     "drug": null,
-    "keyword": "(代謝性(酸|鹼)中毒|呼吸性(酸|鹼)中毒|動脈血(液)?(氣體|氧)|碳酸根|重碳酸|酸鹼)",
-    "ids": [],
-    "limit": 6
+    "keyword": null,
+    "ids": [
+      "113-1_MS_040",
+      "114-2_MS_041",
+      "112-1_MS_064",
+      "111-2_FA_021",
+      "106-2_makeup_FA_027",
+      "113-2_MS_034",
+      "110-2_MS_057",
+      "111-1_MS_065",
+      "114-1_MS_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "abg#respiratory-alkalosis-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_056",
+      "108-1_MS_063",
+      "106-2_makeup_MS_065",
+      "110-1_FA_031",
+      "109-2_MS_056",
+      "110-1_MS_024",
+      "112-3_MS_035",
+      "113-1_MS_032",
+      "113-3_MS_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "abg#oxygenation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_059",
+      "105-2_MS_053",
+      "110-2_MS_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "abg#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_054",
+      "107-2_MS_058"
+    ],
+    "limit": null
   },
   {
     "qkey": "abg#questions",
@@ -11361,6 +12201,86 @@
     "limit": 12
   },
   {
+    "qkey": "gas-exchange-transport#diffusion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_030",
+      "114-3_BM_019",
+      "107-1_OP_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gas-exchange-transport#vq",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_029",
+      "115-2_BM_019",
+      "115-1_MS_036",
+      "107-2_MS_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gas-exchange-transport#oxygen-transport",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_031",
+      "108-1_BM_023",
+      "110-2_BM_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gas-exchange-transport#co2-transport",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_031",
+      "109-1_BM_028",
+      "110-1_BM_020",
+      "111-2_BM_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gas-exchange-transport#altitude",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_041",
+      "105-2_FA_043",
+      "106-1_MS_051",
+      "106-2_BM_030",
+      "111-1_BM_031",
+      "113-1_FA_026",
+      "114-1_FA_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gas-exchange-transport#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(解離曲線|波爾|碳酸酐酶|碳酸氫根|重碳酸|化學接受器|化學感受器|呼吸中樞|通氣/血流|通氣／血流|擴散)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "genetic-inheritance#mitochondrial",
     "tag": null,
     "adm": null,
@@ -12135,6 +13055,126 @@
     "limit": 10
   },
   {
+    "qkey": "respiratory-anatomy#zones",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_FA_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-anatomy#larynx",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_009",
+      "112-3_BM_004",
+      "113-2_BM_003",
+      "113-3_BM_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-anatomy#bronchial-tree",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_011",
+      "106-1_BM_010",
+      "106-2_makeup_BM_011",
+      "107-2_BM_010",
+      "108-1_BM_001",
+      "110-1_BM_012",
+      "111-1_BM_006",
+      "111-1_MS_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-anatomy#lungs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_006",
+      "115-1_BM_016",
+      "110-2_BM_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-anatomy#alveoli",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_013",
+      "108-1_BM_022",
+      "108-2_BM_029",
+      "111-1_BM_004",
+      "114-2_MS_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-anatomy#pleura",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_007",
+      "109-2_BM_005",
+      "115-2_MS_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-anatomy#infant",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_061",
+      "107-2_OP_070",
+      "113-1_OP_039",
+      "110-2_OP_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-anatomy#fetal-lung",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_028",
+      "107-1_BM_030",
+      "111-1_BM_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "respiratory-anatomy#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(肺泡|支氣管|氣管|喉|會厭|胸膜|肺門|表面張力|肺葉)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "special-senses#general-senses",
     "tag": null,
     "adm": null,
@@ -12642,6 +13682,210 @@
     "adm": null,
     "drug": null,
     "keyword": "(甲狀腺|副甲狀腺|降鈣素|濾泡|膠體|T3|T4|PTH|骨化三醇|維生素 ?D)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "ventilation-mechanics#muscles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_059",
+      "106-2_BM_009",
+      "109-2_FA_011",
+      "106-2_makeup_FA_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ventilation-mechanics#pressures",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_020",
+      "113-1_BM_009",
+      "113-3_BM_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ventilation-mechanics#compliance",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_BM_029",
+      "114-1_BM_009",
+      "111-1_MS_059"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ventilation-mechanics#volumes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_029",
+      "113-2_BM_019",
+      "105-1_MS_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ventilation-mechanics#spirometry",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_058",
+      "107-2_BM_030",
+      "108-1_MS_058",
+      "109-1_MS_054",
+      "109-2_BM_021",
+      "111-2_MS_056",
+      "112-2_MS_058",
+      "114-3_BM_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ventilation-mechanics#dead-space",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_030",
+      "106-2_makeup_BM_030",
+      "107-2_BM_029",
+      "109-2_BM_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ventilation-mechanics#hyper-hypoventilation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_FA_030",
+      "111-2_FA_039",
+      "112-2_BM_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ventilation-mechanics#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(潮氣|肺活量|餘氣|肺泡通氣|無效腔|死腔|FEV1|順應性|胸膜內壓|跨肺壓|肺間壓|肋間肌|橫膈)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "airway-clearance#aerosol",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_059",
+      "114-2_FA_012",
+      "107-1_FA_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "airway-clearance#percussion-vibration",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_069",
+      "105-2_OP_065",
+      "111-2_OP_062",
+      "107-2_OP_045",
+      "110-1_OP_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "airway-clearance#suction-steps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_055",
+      "112-3_MS_036",
+      "110-2_OP_063",
+      "113-2_OP_038",
+      "111-1_OP_054",
+      "109-1_OP_070",
+      "106-2_OP_053"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "airway-clearance#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(抽痰|抽吸|姿位引流|叩擊|扣擊|震顫|噴霧|誘發性肺量計|胸腔物理治療)",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "oxygen-therapy#complications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_056",
+      "107-2_MS_056",
+      "114-1_MS_035",
+      "110-1_MS_054",
+      "113-3_FA_003",
+      "110-1_FA_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "oxygen-therapy#complications~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_060",
+      "108-1_OP_068",
+      "109-2_OP_061",
+      "112-2_OP_062",
+      "113-3_OP_038",
+      "114-1_OP_038",
+      "112-3_MS_018",
+      "113-2_FA_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "oxygen-therapy#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(鼻套管|鼻導管|非再吸入|Venturi|卞德里|氧氣頭罩|氧氣帳|潮濕瓶|給氧)",
     "ids": [],
     "limit": 8
   }

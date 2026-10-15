@@ -37,9 +37,9 @@
 | 3 | 神經與感官＋ICP 監測等器材(拆 3a 解剖生理＋藥理、3b 神經疾病、3c 感官；開工前先做圖片盤點，見計畫檔) | 560 | 內外 Ch15、Ch17，生解 Ch05–06，藥理 Ch02，兒科 Ch13，病理 Ch18 | 中難 | ✅ A–K 完成 2026-10-14(26 篇；生解 Ch05 207/207、Ch06 33/36、藥理 Ch02–04 100%、內外 Ch15 215/221、Ch17 93/93、兒科 Ch13 75/75、病理 Ch18 33/33；全部 4780/8960)；剩 9 題腦下垂體留第 4 輪；Supabase 待寫回 |
 | 4 | 內分泌續作(含第 3 輪留下的腦下垂體 9 題：經蝶骨手術、尿崩症、伽瑪刀、腦下垂體中風、雙顳側偏盲) | 420 | 內外 Ch08、藥理 Ch10、生解 Ch12、兒科 Ch15(甲狀腺、腎上腺、腦下垂體、尿崩症、類固醇) | 易 || ✅ 4-0＋A–J 完成 2026-10-14(22 篇新頁＋補 diabetes、insulin、glucose-homeostasis、hba1c；生解 Ch12、病理 Ch16、藥理 Ch10、內外 Ch08、兒科 Ch15 全部 100%；全部 5154/8960)；Supabase 寫回等代謝處理好再做 |
 | 5 | 病理總論(Ch02 發炎與修復已移到 1.5 輪)＋**遺傳疾病跨科總整理**(依遺傳模式分類，盤點見 [sources/genetic-disorders-inventory.md](sources/genetic-disorders-inventory.md))；標籤合併補做癌症＋感染(＋精神補) | 約 100＋跨科約 80 | 病理 Ch01 細胞傷害、Ch03 循環障礙、Ch06 遺傳、Ch07 環境營養；兒科、產科的遺傳題 | 易 | ✅ 5-0＋A–E 完成 2026-10-15(8 篇；病理 Ch01、03、06、07 全部 100%，病理 79%；全部 5322/8960)；Supabase 已寫回、已部署 |
-| 6 | 呼吸(氣喘已移到 1.5 輪)＋呼吸器/胸管器材頁 | 350 | 內外 Ch09、生解 Ch08、藥理 Ch05、兒科 Ch08、病理 Ch11 | 中易 | |
+| 6 | 呼吸(氣喘已移到 1.5 輪)＋呼吸器/胸管/人工氣道器材頁＋給氧與呼吸道清潔技術頁；標籤合併呼吸＋免疫 | 約 274 | 內外 Ch09、生解 Ch08、藥理 Ch05、兒科 Ch08、病理 Ch11、**基護 Ch10 呼吸與氧氣兩節** | 中易 | 計畫已核准 2026-10-15(6-0＋A–I 組)；6-0a 標籤合併完成(91 題)；**全部完成 2026-10-15**(16 篇新頁，含第一批器材頁 chest-tube、mechanical-ventilation、artificial-airway 與第一批技術頁 oxygen-therapy、airway-clearance；呼吸相關 5 章 100%(藥理 Ch05 99%)；涵蓋 5586/8960；已寫回 Supabase 並部署) |
 | 7 | 社區 A | 450 | 社區 Ch01 衛生行政、Ch03 生命統計、Ch05 社區評估、Ch10 長照、Ch13 職業衛生 | 易 | |
-| 8 | 基護 A(技術頁試做) | 390 | 基護 Ch13 給藥、Ch10 生命徵象、Ch14 體液供給 | 中 | |
+| 8 | 基護 A(技術頁試做) | 390 | 基護 Ch13 給藥、Ch10 生命徵象(體溫、脈搏、血壓；**呼吸與氧氣兩節已移到第 6 輪**)、Ch14 體液供給 | 中 | |
 | 9 | 腎與體液＋透析/CRRT | 430 | 內外 Ch04、Ch10，生解 Ch10–11，病理 Ch14，兒科 Ch12 | 中 | |
 | 10 | 基護 B | 670 | 基護 Ch07 舒適、Ch15 排泄、Ch12 營養、Ch11 冷熱、Ch08 活動、Ch01–04、06、09、16 | 中 | |
 | 11 | 消化 | 430 | 內外 Ch07、生解 Ch09、病理 Ch12–13、藥理 Ch06、兒科 Ch11 | 中 | |
@@ -68,11 +68,18 @@
 | 5 | 12 血液 | 惡性貧血與維生素 B12、葉酸缺乏性貧血的照護(約 11 題)；出血疾病原因題(109-2_BM_044 等)；病理只寫了維生素表 | nutritional-disorders#water-soluble | ⬜ |
 | 5 | 16 產科 | 素食孕婦與哺乳營養(維生素 B12、鐵、葉酸)；唐氏症產前篩檢題(105-2_OP_006、107-2_OP_010、110-2_OP_003、111-1_OP_010、111-2_OP_005、112-3_OP_005、113-1_OP_004、108-1_OP_007) | chromosomal-disorders、genetic-inheritance#genetic-counseling | ⬜ |
 | 5 | 10 基護 B | 冷療造成的組織傷害(112-1_FA_021)、燙傷標籤 10 題(熱療安全) | environmental-injury#heat-injury | ⬜ |
-| 5 | 6 呼吸、15 心血管 | 肺栓塞臨床處置(6)；DVT 護理與預防、休克護理(保溫、輸液)(15) | thrombosis-embolism-infarction、edema-shock | ⬜ |
+| 5 | 6 呼吸、15 心血管 | 肺栓塞臨床處置(6)；DVT 護理與預防、休克護理(保溫、輸液)(15) | thrombosis-embolism-infarction、edema-shock | 6 ✅ 2026-10-15(pulmonary-embolism-hypertension)；15 ⬜ |
 | 5 | 11 消化 | 肝硬化腹水護理與穿刺；幽門狹窄、唇顎裂、食道閉鎖照護 | edema-shock#cirrhosis-ascites、genetic-inheritance#multifactorial | ⬜ |
 | 5 | 12 血液 | 血友病關節出血、運動與居家照護(約 9 題)；海洋性貧血輸血與排鐵(114-1_OP_041) | single-gene-disorders#hemophilia、#thalassemia | ⬜ |
-| 5 | 6 呼吸 | 呼吸系統同義標籤合併(原本預設在 5-0a，使用者改為先補癌症與感染) | — | ⬜ |
-| 5 | 6 以後(找一輪) | 免疫範圍標籤合併(第 1.5 輪做過頁但沒合併過標籤)；腎、消化、泌尿生殖的同義標籤已記在 [tag-merge-round5.md](tag-merge-round5.md) 第六節，各輪合併時要一起處理 | — | ⬜ |
+| 5 | 6 呼吸 | 呼吸系統同義標籤合併(原本預設在 5-0a，使用者改為先補癌症與感染) | — | ✅ 2026-10-15 6-0a |
+| 5 | 6 以後(找一輪) | 免疫範圍標籤合併(第 1.5 輪做過頁但沒合併過標籤)；腎、消化、泌尿生殖的同義標籤已記在 [tag-merge-round5.md](tag-merge-round5.md) 第六節，各輪合併時要一起處理 | — | 免疫 ✅ 2026-10-15 6-0a；腎、消化、泌尿生殖 ⬜ |
+| 6 | 7 社區 A | 勞工健康保護規則：粉塵作業特殊健康檢查項目(國考答案含肺功能檢查；法規附表待核對) | restrictive-lung-diseases#pneumoconiosis | ⬜ |
+| 6 | 16 產科新生兒 | 新生兒呼吸窘迫症候群的呼吸部分已寫在 ards-respiratory-failure#neonatal-rds(含 CPAP、Silverman-Anderson、L/S 比)；第 16 輪早產兒頁連過去，不重寫；保溫、餵食、其他早產併發症在第 16 輪 | ards-respiratory-failure#neonatal-rds | ⬜ |
+| 6 | 15 急重症 | 心肺復甦術、異物哽塞急救(105-2_OP_041、107-1_OP_059、111-1_OP_042、107-2_MS_079)；甦醒球與插管已寫在 artificial-airway，不重寫；中心靜脈導管、動脈導管、CRRT、IABP、ECMO 等其他器材頁 | artificial-airway#bag-valve-mask、mechanical-ventilation | ⬜ |
+| 6 | 16 產科新生兒 | 胎便吸入症候群(105-1_OP_054、106-1_OP_053、111-1_OP_055、113-3_OP_036、114-3_OP_035)、早產兒抽痰與給氧的新生兒數值、早產兒視網膜病變；給氧與抽痰原則連 oxygen-therapy、airway-clearance | oxygen-therapy、airway-clearance#suctioning | ⬜ |
+| 6 | 兒科心臟(15) | 心房中膈缺損與前列腺素 E1 的護理指導(106-1_OP_065，藥理 Ch05 唯一未收題) | — | ⬜ |
+| 6 | 7 社區 | 居家護理與長照的氣切、鼻胃管照護資源(108-2_PC_077、112-2_PC_075、111-2_PC_072、114-2_PC_047) | artificial-airway#tracheostomy | ⬜ |
+| 6 | 8 基護 A | 安全環境(火災 RACE、用氧安全，113-2_FA_004)；用氧安全已寫在 oxygen-therapy#precautions | oxygen-therapy#precautions | ⬜ |
 
 ## 版權優先與 UpToDate 使用原則(2026-10-04 起)
 

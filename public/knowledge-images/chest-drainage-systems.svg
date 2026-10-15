@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 675" width="1120" height="675" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>三瓶式胸腔水下引流系統</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C62828"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1565C0"/></marker></defs>
+<rect width="1120" height="675" fill="#FFFFFF"/>
+<path d="M40,90 Q40,40 110,40 L190,40 Q260,40 260,90 L260,250 Q150,280 40,250 Z" fill="#FBE9E7" stroke="#8D6E63" stroke-width="2"/>
+<ellipse cx="105" cy="150" rx="45" ry="80" fill="#F8BBD0" stroke="#AD1457" stroke-width="1.5"/><ellipse cx="200" cy="150" rx="45" ry="80" fill="#F8BBD0" stroke="#AD1457" stroke-width="1.5"/>
+<text x="150.0" y="30.0" font-size="15" fill="#5D4037" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">病人胸部</text>
+<path d="M235,200 L270,215" stroke="#555" stroke-width="5"/>
+<text x="278.0" y="205.0" font-size="14" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">胸管</text>
+<rect x="300" y="370" width="170" height="220" rx="16" fill="#FAFAFA" stroke="#455A64" stroke-width="2.5"/>
+<rect x="302" y="520" width="166" height="68" rx="12" fill="#EF9A9A"/>
+<rect x="325" y="356" width="120" height="16" rx="4" fill="#90A4AE"/>
+<text x="385.0" y="618.0" font-size="17" fill="#263238" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">① 收集瓶</text>
+<rect x="600" y="370" width="170" height="220" rx="16" fill="#FAFAFA" stroke="#455A64" stroke-width="2.5"/>
+<rect x="602" y="470" width="166" height="118" rx="12" fill="#BBDEFB"/>
+<rect x="625" y="356" width="120" height="16" rx="4" fill="#90A4AE"/>
+<text x="685.0" y="618.0" font-size="17" fill="#263238" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">② 水封瓶</text>
+<rect x="900" y="370" width="170" height="220" rx="16" fill="#FAFAFA" stroke="#455A64" stroke-width="2.5"/>
+<rect x="902" y="420" width="166" height="168" rx="12" fill="#BBDEFB"/>
+<rect x="925" y="356" width="120" height="16" rx="4" fill="#90A4AE"/>
+<text x="985.0" y="618.0" font-size="17" fill="#263238" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">③ 抽吸控制瓶</text>
+<path d="M270,215 L270,300 L350,300 L350,430" stroke="#555" stroke-width="5" fill="none" stroke-linejoin="round"/>
+<path d="M420,410 L420,320 L650,320 L650,490" stroke="#555" stroke-width="5" fill="none" stroke-linejoin="round"/>
+<path d="M720,410 L720,320 L940,320 L940,410" stroke="#555" stroke-width="5" fill="none" stroke-linejoin="round"/>
+<path d="M985,620 " stroke="#555" stroke-width="5" fill="none" stroke-linejoin="round"/>
+<path d="M985,250 L985,560" stroke="#555" stroke-width="5" fill="none" stroke-linejoin="round"/>
+<path d="M1035,410 L1035,300 L1080,300" stroke="#555" stroke-width="5" fill="none" stroke-linejoin="round"/>
+<path d="M1010,300 L1090,300" stroke="#C62828" stroke-width="3" marker-end="url(#ar)"/>
+<text x="1100.0" y="285.0" font-size="15" fill="#C62828" text-anchor="end" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">接抽吸源</text>
+<text x="995.0" y="245.0" font-size="13" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">通大氣</text>
+<circle cx="650" cy="482" r="5" fill="#fff" stroke="#1565C0" stroke-width="1.5"/>
+<circle cx="656" cy="472" r="5" fill="#fff" stroke="#1565C0" stroke-width="1.5"/>
+<circle cx="985" cy="545" r="5" fill="#fff" stroke="#1565C0" stroke-width="1.5"/>
+<circle cx="992" cy="525" r="5" fill="#fff" stroke="#1565C0" stroke-width="1.5"/>
+<circle cx="980" cy="505" r="5" fill="#fff" stroke="#1565C0" stroke-width="1.5"/>
+<circle cx="988" cy="480" r="5" fill="#fff" stroke="#1565C0" stroke-width="1.5"/>
+<circle cx="984" cy="450" r="5" fill="#fff" stroke="#1565C0" stroke-width="1.5"/>
+<path d="M670,470 L670,490" stroke="#1565C0" stroke-width="2" marker-start="url(#ab)" marker-end="url(#ab)"/>
+<text x="676.0" y="486.0" font-size="13" fill="#1565C0" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">約 2 cm</text>
+<path d="M1005,420 L1005,560" stroke="#1565C0" stroke-width="2" marker-start="url(#ab)" marker-end="url(#ab)"/>
+<text x="1011.0" y="495.0" font-size="13" fill="#1565C0" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">水深</text>
+<text x="1011.0" y="512.0" font-size="13" fill="#1565C0" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">＝負壓</text>
+<text x="385.0" y="560.0" font-size="14" fill="#B71C1C" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">引流液</text>
+<text x="330.0" y="70.0" font-size="15" fill="#263238" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">① 收集瓶：接住血液、膿、肋膜液，記錄量與顏色</text>
+<text x="330.0" y="96.0" font-size="15" fill="#263238" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">② 水封瓶：長管沒入水面下約 2 cm，空氣只能出、不能回</text>
+<text x="330.0" y="122.0" font-size="15" fill="#263238" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">　 液面隨呼吸起伏 → 管路通暢(自發呼吸：吸氣上升、吐氣下降)</text>
+<text x="330.0" y="148.0" font-size="15" fill="#263238" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">　 水封瓶冒泡 → 有空氣從肋膜腔排出；持續大量冒泡要找漏氣處</text>
+<text x="330.0" y="174.0" font-size="15" fill="#263238" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">③ 抽吸控制瓶：長管沒入的水深決定負壓，常見 −20 cmH₂O</text>
+<text x="330.0" y="200.0" font-size="15" fill="#263238" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">　 有接抽吸時，這瓶持續緩和冒泡才是正常</text>
+<text x="20.0" y="661.0" font-size="13" fill="#666" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">示意圖，比例不準；單瓶式＝只有 ② (同時收集與水封)，雙瓶式＝① ＋ ②。引流瓶保持直立、低於胸部</text>
+</svg>

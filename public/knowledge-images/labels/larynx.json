@@ -1,0 +1,106 @@
+{
+ "image": "servier-larynx.svg",
+ "_說明": "左圖前面觀；右圖冠狀切面(由後往前看喉腔)。杓狀軟骨在後方，前面觀看不到",
+ "labels": [
+  {
+   "id": "hyoid",
+   "zh": "舌骨",
+   "en": "Hyoid bone",
+   "x": 20,
+   "y": 16,
+   "tx": 42,
+   "ty": 8,
+   "align": "start"
+  },
+  {
+   "id": "thyrohyoid-membrane",
+   "zh": "甲狀舌骨膜",
+   "en": "Thyrohyoid membrane",
+   "x": 9,
+   "y": 22,
+   "tx": 42,
+   "ty": 18,
+   "align": "start"
+  },
+  {
+   "id": "laryngeal-prominence",
+   "zh": "喉結(甲狀軟骨上切跡)",
+   "en": "Laryngeal prominence",
+   "x": 18.5,
+   "y": 39,
+   "tx": 42,
+   "ty": 32,
+   "align": "start"
+  },
+  {
+   "id": "thyroid-cartilage",
+   "zh": "甲狀軟骨",
+   "en": "Thyroid cartilage",
+   "x": 28,
+   "y": 46,
+   "tx": 42,
+   "ty": 44,
+   "align": "start"
+  },
+  {
+   "id": "cricothyroid-membrane",
+   "zh": "環甲膜",
+   "en": "Cricothyroid membrane",
+   "x": 19,
+   "y": 63,
+   "tx": 42,
+   "ty": 58,
+   "align": "start"
+  },
+  {
+   "id": "cricoid",
+   "zh": "環狀軟骨(唯一完整環)",
+   "en": "Cricoid cartilage",
+   "x": 26,
+   "y": 69,
+   "tx": 42,
+   "ty": 68,
+   "align": "start"
+  },
+  {
+   "id": "tracheal-ring",
+   "zh": "氣管軟骨環(C 形)",
+   "en": "Tracheal cartilage",
+   "x": 19,
+   "y": 79,
+   "tx": 42,
+   "ty": 80,
+   "align": "start"
+  },
+  {
+   "id": "epiglottis",
+   "zh": "會厭",
+   "en": "Epiglottis",
+   "x": 75,
+   "y": 14,
+   "tx": 58,
+   "ty": 10,
+   "align": "end"
+  },
+  {
+   "id": "vocal-fold",
+   "zh": "聲帶(真聲帶)",
+   "en": "Vocal fold",
+   "x": 75.5,
+   "y": 50.5,
+   "tx": 58,
+   "ty": 50,
+   "align": "end"
+  },
+  {
+   "id": "thyroid-section",
+   "zh": "甲狀軟骨(切面)",
+   "en": "Thyroid cartilage (section)",
+   "x": 68,
+   "y": 45,
+   "tx": 58,
+   "ty": 38,
+   "align": "end"
+  }
+ ]
+}

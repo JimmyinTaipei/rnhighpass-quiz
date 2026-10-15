@@ -1,0 +1,86 @@
+{
+ "image": "servier-alveoli.svg",
+ "_說明": "細支氣管末端到肺泡；藍色是肺動脈分支(缺氧血)，紅色是肺靜脈分支(充氧血)",
+ "labels": [
+  {
+   "id": "terminal-bronchiole",
+   "zh": "終末細支氣管",
+   "en": "Terminal bronchiole",
+   "x": 29,
+   "y": 28,
+   "tx": 20,
+   "ty": 30,
+   "align": "end"
+  },
+  {
+   "id": "respiratory-bronchiole",
+   "zh": "呼吸性細支氣管",
+   "en": "Respiratory bronchiole",
+   "x": 39.5,
+   "y": 47,
+   "tx": 20,
+   "ty": 48,
+   "align": "end"
+  },
+  {
+   "id": "alveolar-duct",
+   "zh": "肺泡管",
+   "en": "Alveolar duct",
+   "x": 47,
+   "y": 68,
+   "tx": 20,
+   "ty": 64,
+   "align": "end"
+  },
+  {
+   "id": "alveolar-sac",
+   "zh": "肺泡囊",
+   "en": "Alveolar sac",
+   "x": 39,
+   "y": 80,
+   "tx": 20,
+   "ty": 84,
+   "align": "end"
+  },
+  {
+   "id": "alveolus",
+   "zh": "肺泡",
+   "en": "Alveolus",
+   "x": 64,
+   "y": 57,
+   "tx": 82,
+   "ty": 50,
+   "align": "start"
+  },
+  {
+   "id": "pulmonary-arteriole",
+   "zh": "肺動脈分支",
+   "en": "Pulmonary arteriole",
+   "x": 42.7,
+   "y": 50,
+   "tx": 82,
+   "ty": 38,
+   "align": "start"
+  },
+  {
+   "id": "pulmonary-venule",
+   "zh": "肺靜脈分支",
+   "en": "Pulmonary venule",
+   "x": 45.2,
+   "y": 50,
+   "tx": 82,
+   "ty": 44,
+   "align": "start"
+  },
+  {
+   "id": "capillaries",
+   "zh": "肺泡微血管網",
+   "en": "Alveolar capillaries",
+   "x": 66,
+   "y": 84,
+   "tx": 82,
+   "ty": 90,
+   "align": "start"
+  }
+ ]
+}

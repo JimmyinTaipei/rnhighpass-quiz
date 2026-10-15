@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>氣管內管與氣切管的位置</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C62828"/></marker></defs>
+<rect width="1000" height="560" fill="#FFFFFF"/>
+<path d="M70,60 Q70,20 150,20 L230,20 Q290,20 300,80 L310,150 L280,170 L280,520 L90,520 L90,200 Q70,150 70,60 Z" fill="#FBE9E7" stroke="#8D6E63" stroke-width="2"/>
+<path d="M280,150 Q210,150 190,190" fill="none" stroke="#C62828" stroke-width="3"/>
+<path d="M180,230 L180,470 M220,230 L220,470" stroke="#90A4AE" stroke-width="4"/>
+<path d="M180,250 L220,250" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M180,272 L220,272" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M180,294 L220,294" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M180,316 L220,316" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M180,338 L220,338" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M180,360 L220,360" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M180,382 L220,382" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M180,404 L220,404" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M180,426 L220,426" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M180,448 L220,448" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M180,470 L140,515 M220,470 L260,515" stroke="#90A4AE" stroke-width="4"/>
+<path d="M175,235 L195,242 M225,235 L205,242" stroke="#6D4C41" stroke-width="4"/>
+<path d="M560,60 Q560,20 640,20 L720,20 Q780,20 790,80 L800,150 L770,170 L770,520 L580,520 L580,200 Q560,150 560,60 Z" fill="#FBE9E7" stroke="#8D6E63" stroke-width="2"/>
+<path d="M770,150 Q700,150 680,190" fill="none" stroke="#C62828" stroke-width="3"/>
+<path d="M670,230 L670,470 M710,230 L710,470" stroke="#90A4AE" stroke-width="4"/>
+<path d="M670,250 L710,250" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M670,272 L710,272" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M670,294 L710,294" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M670,316 L710,316" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M670,338 L710,338" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M670,360 L710,360" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M670,382 L710,382" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M670,404 L710,404" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M670,426 L710,426" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M670,448 L710,448" stroke="#CFD8DC" stroke-width="3"/>
+<path d="M670,470 L630,515 M710,470 L750,515" stroke="#90A4AE" stroke-width="4"/>
+<path d="M665,235 L685,242 M715,235 L695,242" stroke="#6D4C41" stroke-width="4"/>
+<path d="M330,140 L280,150 Q205,160 200,230 L200,420" fill="none" stroke="#1565C0" stroke-width="8" stroke-linecap="round"/>
+<ellipse cx="200" cy="395" rx="22" ry="14" fill="#64B5F6" opacity="0.85"/>
+<path d="M330,140 Q360,120 370,90" fill="none" stroke="#1565C0" stroke-width="1.5"/><circle cx="372" cy="84" r="8" fill="#64B5F6" stroke="#1565C0"/>
+<text x="200.0" y="14.0" font-size="1" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke"></text>
+<text x="180.0" y="550.0" font-size="18" fill="#263238" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">經口氣管內管</text>
+<text x="386.0" y="88.0" font-size="13" fill="#1565C0" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">指示氣球</text>
+<text x="330.0" y="175.0" font-size="13" fill="#1565C0" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">刻度對齊門齒</text>
+<text x="60.0" y="250.0" font-size="13" fill="#6D4C41" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">聲帶</text>
+<path d="M90,246 L170,238" stroke="#6D4C41" stroke-width="1.2"/>
+<text x="240.0" y="400.0" font-size="13" fill="#0D47A1" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">套囊在聲帶下方</text>
+<text x="240.0" y="416.0" font-size="13" fill="#0D47A1" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">的氣管內</text>
+<path d="M235,430 L235,468" stroke="#C62828" stroke-width="2" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="242.0" y="455.0" font-size="13" fill="#C62828" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">管尖在隆凸上約 3–5 cm</text>
+<text x="90.0" y="498.0" font-size="13" fill="#455A64" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">隆凸</text>
+<path d="M840,300 L770,300 Q700,300 692,340 L692,400" fill="none" stroke="#2E7D32" stroke-width="9" stroke-linecap="round"/>
+<rect x="770" y="282" width="14" height="36" fill="#43A047"/>
+<ellipse cx="692" cy="378" rx="22" ry="13" fill="#81C784" opacity="0.9"/>
+<text x="670.0" y="550.0" font-size="18" fill="#263238" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">氣切管</text>
+<text x="792.0" y="276.0" font-size="13" fill="#2E7D32" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">頸板(用綁帶固定)</text>
+<text x="730.0" y="384.0" font-size="13" fill="#1B5E20" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">套囊</text>
+<text x="798.0" y="330.0" font-size="13" fill="#2E7D32" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">從頸部氣管前壁</text>
+<text x="798.0" y="346.0" font-size="13" fill="#2E7D32" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">直接進入氣管</text>
+<text x="550.0" y="250.0" font-size="13" fill="#6D4C41" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">聲帶(不經過)</text>
+<path d="M620,246 L660,238" stroke="#6D4C41" stroke-width="1.2"/>
+<text x="500.0" y="24.0" font-size="12" fill="#777" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">示意圖，比例不準</text>
+</svg>

@@ -3,7 +3,7 @@ title: 抗組織胺與自泌素藥物
 subtitle: Antihistamines and autacoid drugs(組織胺受體、第一與第二代 H1 拮抗劑、前列腺素與白三烯、血清胺相關藥物)
 aliases: [抗組織胺, 抗組織胺藥物, 抗組織胺用藥, 抗過敏用藥, 過敏用藥, 組織胺, Histamine, 組織胺受體, H1 受體, H2 受體, H1 拮抗劑, H1 blocker, Antihistamine, 第一代抗組織胺, 第二代抗組織胺, 鎮靜性抗組織胺, 非鎮靜性抗組織胺, Diphenhydramine, Benadryl, Chlorpheniramine, Hydroxyzine, Promethazine, Dimenhydrinate, Cyproheptadine, Brompheniramine, Loratadine, Desloratadine, Cetirizine, Levocetirizine, Fexofenadine, Terfenadine, Astemizole, 自泌素, 自體活性物質, Autacoid, 前列腺素, Prostaglandin, PGE1, PGE2, PGF2α, PGI2, Alprostadil, Misoprostol, Dinoprostone, Carboprost, Epoprostenol, Latanoprost, 凝血脂素, Thromboxane A2, TXA2, 白三烯, Leukotriene, 花生四烯酸, Arachidonic acid, 血清胺, Serotonin, 5-HT, Triptan, Sumatriptan, Ergotamine, 麥角生物鹼, Ergot alkaloid, Lorcaserin, 緩激肽, Bradykinin, 肥大細胞穩定劑, Cromolyn, 動暈症, 暈車藥]
 dzTags: []
-drugTags: [抗過敏用藥, 過敏用藥, 抗組織胺用藥, 抗組織胺藥物, 抗組織胺藥, 前列腺素用藥, 自泌素類藥物, 自泌素製劑]
+drugTags: [抗過敏用藥, 抗組織胺用藥, 前列腺素用藥, 自泌素類藥物, 自泌素製劑]
 system: hematology-immunology
 group: antihistamines-autacoids
 chapters:

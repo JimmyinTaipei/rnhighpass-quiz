@@ -149,6 +149,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 :::
 - 血栓為什麼會形成(Virchow 三要素)、DVT 與肺栓塞的病理見 [[thrombosis-embolism-infarction#thrombosis]]
 
+- 肺栓塞的嚴重度分類與抗凝、溶栓選擇見 [[pulmonary-embolism-hypertension#pe-treatment]]
+
 ## 副作用與禁忌 {#adverse-effects}
 
 | 副作用 | 說明與處置 |

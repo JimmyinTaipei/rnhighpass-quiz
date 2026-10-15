@@ -2,7 +2,7 @@
 title: 自體免疫疾病總論
 subtitle: Autoimmune diseases(耐受失敗與機轉、遺傳與環境、器官特異性與全身性疾病總表、硬皮病、乾燥症、類澱粉沉積症)
 aliases: [自體免疫疾病, 自體免疫, 自身免疫疾病, 自體免疫性疾病, 自體抗體, Autoimmune disease, Autoimmunity, Autoantibody, 免疫耐受, 中樞耐受, 周邊耐受, 耐受失敗, 分子模擬, Molecular mimicry, 器官特異性自體免疫, 非器官特異性, 全身性自體免疫, 葛瑞夫茲症, Graves disease, 橋本氏甲狀腺炎, Hashimoto, 第一型糖尿病, 重症肌無力, Myasthenia gravis, 惡性貧血, 多發性硬化症, 古德帕斯丘氏症候群, Goodpasture, 自體免疫溶血性貧血, 免疫性血小板低下紫斑症, ITP, 乾燥症, 斯耶格雷症候群, Sjögren syndrome, Sjogren syndrome, 鞏皮症, 硬皮症, 系統性硬化症, Scleroderma, Systemic sclerosis, 雷諾氏現象, Raynaud phenomenon, CREST 症候群, 皮肌炎, 多發性肌炎, 混合性結締組織病, 類澱粉沉積症, 類澱粉症, Amyloidosis, 淀粉樣變性, 風濕熱, 抗核抗體, ANA]
-dzTags: [自體免疫疾病]
+dzTags: [自體免疫疾病, 硬皮症]
 system: hematology-immunology
 group: immune-disorders
 chapters:

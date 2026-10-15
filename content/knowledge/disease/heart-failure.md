@@ -45,7 +45,7 @@ references:
 - 口訣「**左肺右身**」：**左心衰竭**血液淤積在肺（端坐呼吸、夜間陣發性呼吸困難、囉音、粉紅色泡沫痰）；**右心衰竭**淤積在體循環（頸靜脈怒張、肝腫大、腹水、下肢水腫）。
 - 分類：依 **EF** 分 **HFrEF（≤ 40%）、HFmrEF（41–49%）、HFpEF（≥ 50%）**；ACC/AHA 分期 A–D 只進不退，**NYHA 功能分級**會隨治療改變。
 - **HFrEF 四大支柱**（都能降低死亡與住院）：ARNI／ACEI／ARB、β 阻斷劑、MRA、SGLT2 抑制劑；利尿劑只緩解鬱血、不改變預後。
-- **急性肺水腫**處置：先**高坐臥、雙腳下垂**，再給氧、靜脈 furosemide、必要時 nitroglycerin 與正壓呼吸。
+- **急性肺水腫**處置：先**高坐臥、雙腳下垂**，再給氧、靜脈 furosemide、必要時 nitroglycerin 與正壓呼吸；心因性與非心因性肺水腫比較見 [[pulmonary-embolism-hypertension#pulmonary-edema]]，正壓呼吸(CPAP、BiPAP)見 [[mechanical-ventilation#principle]]
 - 居家照護：每日同時間量體重、限鈉、遵從服藥、症狀惡化早期就醫。
 
 ### 國考常考點 {#exam-points}

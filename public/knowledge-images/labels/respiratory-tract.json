@@ -1,0 +1,116 @@
+{
+ "image": "servier-respiratory-tract.svg",
+ "_說明": "看圖者左邊是病人的右側；上呼吸道＝鼻到喉，下呼吸道＝氣管以下",
+ "labels": [
+  {
+   "id": "nasal-cavity",
+   "zh": "鼻腔",
+   "en": "Nasal cavity",
+   "x": 42.5,
+   "y": 18,
+   "tx": 30,
+   "ty": 12,
+   "align": "end"
+  },
+  {
+   "id": "oral-cavity",
+   "zh": "口腔",
+   "en": "Oral cavity",
+   "x": 43,
+   "y": 26,
+   "tx": 30,
+   "ty": 24,
+   "align": "end"
+  },
+  {
+   "id": "pharynx",
+   "zh": "咽",
+   "en": "Pharynx",
+   "x": 48,
+   "y": 24,
+   "tx": 62,
+   "ty": 18,
+   "align": "start"
+  },
+  {
+   "id": "epiglottis",
+   "zh": "會厭",
+   "en": "Epiglottis",
+   "x": 47.5,
+   "y": 30.7,
+   "tx": 62,
+   "ty": 27,
+   "align": "start"
+  },
+  {
+   "id": "larynx",
+   "zh": "喉",
+   "en": "Larynx",
+   "x": 47.5,
+   "y": 34,
+   "tx": 62,
+   "ty": 35,
+   "align": "start"
+  },
+  {
+   "id": "trachea",
+   "zh": "氣管",
+   "en": "Trachea",
+   "x": 50,
+   "y": 46,
+   "tx": 62,
+   "ty": 44,
+   "align": "start"
+  },
+  {
+   "id": "right-bronchus",
+   "zh": "右主支氣管(短、寬、直)",
+   "en": "Right main bronchus",
+   "x": 46,
+   "y": 61,
+   "tx": 30,
+   "ty": 58,
+   "align": "end"
+  },
+  {
+   "id": "left-bronchus",
+   "zh": "左主支氣管",
+   "en": "Left main bronchus",
+   "x": 53,
+   "y": 62,
+   "tx": 68,
+   "ty": 60,
+   "align": "start"
+  },
+  {
+   "id": "bronchioles",
+   "zh": "細支氣管",
+   "en": "Bronchioles",
+   "x": 39,
+   "y": 67,
+   "tx": 30,
+   "ty": 68,
+   "align": "end"
+  },
+  {
+   "id": "right-lung",
+   "zh": "右肺",
+   "en": "Right lung",
+   "x": 39.5,
+   "y": 54,
+   "tx": 30,
+   "ty": 48,
+   "align": "end"
+  },
+  {
+   "id": "left-lung",
+   "zh": "左肺",
+   "en": "Left lung",
+   "x": 60,
+   "y": 52,
+   "tx": 68,
+   "ty": 50,
+   "align": "start"
+  }
+ ]
+}

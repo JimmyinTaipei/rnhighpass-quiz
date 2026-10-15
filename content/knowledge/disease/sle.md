@@ -2,7 +2,7 @@
 title: 全身性紅斑性狼瘡
 subtitle: Systemic lupus erythematosus, SLE(機轉、臨床表現、抗體與補體、診斷、治療、懷孕與藥物性狼瘡、護理)
 aliases: [全身性紅斑性狼瘡, 全身性紅斑狼瘡, 紅斑性狼瘡, 紅斑狼瘡, 狼瘡, SLE, Systemic lupus erythematosus, Lupus, 蝴蝶斑, 蝶狀紅斑, Malar rash, Butterfly rash, 盤狀紅斑, 光敏感, 光過敏, 抗核抗體, ANA, Antinuclear antibody, 抗雙股 DNA 抗體, Anti-dsDNA, 抗 Sm 抗體, Anti-Smith, 抗磷脂質抗體, Antiphospholipid antibody, 抗磷脂質症候群, 抗 Ro 抗體, 抗 La 抗體, 新生兒狼瘡, 狼瘡腎炎, Lupus nephritis, 藥物性狼瘡, Drug-induced lupus, 抗組織蛋白抗體, 補體下降, Hydroxychloroquine, Plaquenil, 羥氯奎寧, Belimumab, Cyclophosphamide, 狼瘡護理, 防曬]
-dzTags: [全身性紅斑性狼瘡]
+dzTags: [全身性紅斑性狼瘡, 藥物誘發性狼瘡]
 system: hematology-immunology
 group: immune-disorders
 alsoIn: [renal]

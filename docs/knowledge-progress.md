@@ -5,6 +5,46 @@
 
 ## 目前輪次
 
+- **輪次**：第 6 輪 呼吸系統＋呼吸器材＋標籤合併(呼吸＋免疫)；計畫檔 `~/.claude/plans/6-tag-tag-melodic-babbage.md`
+- **範圍**(未涵蓋，2026-10-15)：內外 Ch09 119/201、生解 Ch08 81/89、基護 Ch10「呼吸」與「氧氣治療與呼吸道清潔技術」29/41、兒科 Ch08 25/81、病理 Ch11 19/45、藥理 Ch05 1/69，約 274 題＋跨科同標籤與器材題
+- **狀態**：計畫已核准(2026-10-15)；**第 6 輪全部完成(2026-10-15)**，已寫回 Supabase 並部署；使用者看過 F–H 的圖後提出 3 點調整已完成(其餘圖可以)；仍待使用者：結核病 vs 肺結核是否合併(建議維持)；下一輪第 7 輪社區 A
+- **使用者決定(2026-10-15)**：
+  1. 本輪額外合併的系統：**免疫**(跨輪移交清單點名的那列)
+  2. 基護 Ch10「呼吸」與「氧氣治療與呼吸道清潔技術」兩節**放第 6 輪**；第 8 輪基護 A 只做體溫、脈搏、血壓
+  3. 器材頁先用公開資料，另參考 `相關資源/The ICU Book, 5th edition ... .pdf`(Marino 第 5 版，2025；只參考、不複製；Ch22–31 呼吸與酸鹼，沒有胸管專章)；讀不到或數字只有單一來源時列清單請使用者下載或截圖
+- **跨輪移交(交給本輪)**：肺栓塞臨床處置(E 組)、呼吸標籤合併(6-0a)、免疫標籤合併(6-0a)
+
+## 第 6 輪步驟
+
+| 步 | 內容 | 狀態 |
+|---|---|---|
+| 6-0a | 呼吸＋免疫同義標籤合併：04／05 同步改 **91 題**(呼吸 21 組、免疫 12 組)，逐題記在題目修正紀錄；範圍內無標籤 63 題(去重)都是解剖、生理、技術題，不補疾病標籤；sle、autoimmune-diseases、transfusion-reactions、primary-immunodeficiency 補 dzTags，taxonomy respiratory-drugs 加鎮咳祛痰用藥；build 通過；對照見 [tag-merge-round6.md](tag-merge-round6.md) | ✅ 2026-10-15(Supabase 收尾寫回；第五節 1 項待決定) |
+| 6-0b | 圖片盤點 [sources/respiratory-images.md](sources/respiratory-images.md)：看過 Servier 5 套(Respiratory-system 23 張、ENT 13、Medical-acts、Medical-equipment、Emergency-equipment；縮圖在 scratchpad `servier6/`)；候選 29 項(Servier 12 張：呼吸道、喉、聲帶、肺葉、肺泡、呼吸動作、慢支與肺氣腫、肺水腫、肺栓塞、氣胸等；原創 13 張：肺泡細胞、spirogram、氧解離曲線、CO2 運輸、V/Q、呼吸型態、聽診位置、肋膜腔、張力性氣胸、連枷胸、胸管引流瓶、胸管位置、人工氣道；表格 4)；器材圖 Servier 沒有，全部原創；4 項待決定 | ✅ 2026-10-15(**等使用者看清單**) |
+| 6-0c | 來源包 [sources/respiratory.md](sources/respiratory.md)：確認 GOLD 2026(v1.3)、2023 ARDS 全球定義、**2026 AHA/ACC 急性肺栓塞指引(A–E 新分類，AHA 優先，ESC 2019 並列)**、BTS 給氧 2017(仍現行)、BTS 肋膜 2023、AARC 抽痰 2022、健保署呼吸器依賴定義(連續 21 天、中斷 ≤ 5 天)；ICU Book 5e 各章 PDF 頁碼；醫學中心胸管與氣切衛教 7 份；新舊說法表 8 項；台灣 COPD 指引與疾管署 VAE 中文定義找不到 | ✅ 2026-10-15 |
+| 6-0d | 器材資料缺口清單(來源包第六節，6 項：套囊壓、胸管抽吸壓與夾管、健保 NIV 6 小時原文、疾管署 VAE／VAP 定義、北榮衛教、台灣 COPD 指引)；寫到 F、G 組時再請使用者下載 | ✅ 2026-10-15 |
+| A | `physiology/respiratory-anatomy`(分區、喉、氣管與支氣管樹、肺葉與肺門、肺泡與呼吸膜、胸膜、嬰幼兒特徵、胎兒肺發育；約 30 題)、`physiology/ventilation-mechanics`(呼吸肌、壓力、順應性與表面張力素、肺容積、阻塞性與限制性、無效腔與肺泡通氣量、換氣過度與不足；約 28 題)；taxonomy 新增 respiratory-physiology 組；pediatric-respiratory-infections#anatomy 改嵌入 respiratory-anatomy#infant；圖：Servier 呼吸道全景、喉、肺葉、肺泡、呼吸動作＋5 個標籤檔(已用格線核對點位)，原創 spirogram(**待使用者確認**) | ✅ 2026-10-15 |
+| B | `physiology/gas-exchange-transport`(分壓與擴散、V/Q 與低氧性肺血管收縮、氧解離曲線、CO₂ 運送、呼吸中樞與化學接受器、高海拔；約 21 題)；`lab/abg` 擴寫(判讀與代償表、呼吸性酸鹼中毒與護理、紙袋重複呼吸新舊說法(Callaham 1989，PMID 2499228 已核對)、氧合切點、採檢考點；約 23 題；chapters 改為內外 Ch04 酸鹼 H2、內外 Ch09 評估 H2、生解 Ch11 酸鹼不平衡)；圖：原創 oxygen-dissociation-curve、vq-matching、co2-transport(**待使用者確認**)；**生解 Ch08 9% → 99%**(剩 112-1_MS_054 呼吸音留 C 組)、內外 Ch09 41% → 55%、內外 Ch04 70%、兒科 Ch08 74%；**全部 5322 → 5425/8960**；build 通過、source-scan 4 頁無重疊、image-license-review 88 張需替換 0 | ✅ 2026-10-15 |
+| C | `care/respiratory-assessment`(呼吸測量與各年齡速率(OpenStax 基護 7.2)、影響因素、呼吸型態、視觸叩聽、正常與異常呼吸音、語音、呼吸困難與缺氧徵象、脈衝式血氧(FDA 2021)、痰液、影像與肺功能、支氣管鏡、胸腔穿刺(BTS 2023，放液約 1.5 L 以醫囑為準)、吸入性傷害評估；約 30 題)；圖：原創 breathing-patterns(**待使用者確認**)；呼吸音位置改用表格；A 組使用者修正：呼吸道全景刪除「橫膈」標籤(那是胸部線條)、呼吸性細支氣管指到管子上；**生解 Ch08 100%、基護 Ch10 呼吸 97%、內外 Ch09 61%、兒科 Ch08 79%；全部 5455/8960**；給氧、抽痰、姿位引流、人工氣道題(105-1_MS_056、107-2_MS_056、110-1_MS_054、114-1_MS_035、112-3_MS_036、108-2_OP_069、110-1_OP_063、109-2_MS_055、106-2_MS_052、112-2_MS_076)留 G、H 組 | ✅ 2026-10-15 |
+| D | `disease/copd`(慢支與肺氣腫比較、評估、GOLD 1–4 與 **ABE 分組(2026 版 E 組改為中度急性惡化 ≥ 1 次)**、初始用藥、急性惡化、控制性給氧與長期氧療(PaO₂ ≤ 55 或 SaO₂ ≤ 88%、> 15 小時)、呼吸訓練、營養、出院；支氣管擴張症、囊性纖維化；約 27 題；GOLD 2026 v1.3 PDF 已下載核對，只引用事實)、`disease/restrictive-lung-diseases`(原因表、間質性肺病、塵肺症連 environmental-injury、石綿相關疾病(IARC 100C)、肺擴張不全；約 5 題)；**內外 Ch09 61% → 74%(下呼吸道 98%)、病理 Ch11 84%；全部 5487/8960**；給氧裝置題(107-2_MS_056、108-1_OP_068)留 H 組、自發性氣胸(107-2_MS_053)留 F 組、早期呼吸衰竭(106-2_makeup_MS_054)留 E 組；**待核對**：勞工健康保護規則粉塵作業特殊健檢項目(國考答案含肺功能，法規附表未查到，移交第 7 輪) | ✅ 2026-10-15 |
+| E | `disease/ards-respiratory-failure`(呼吸衰竭兩型與早晚期徵象、ARDS 原因與病生理、1994／Berlin 2012／2023 全球定義並列、肺保護性通氣與 PEEP 與俯臥(ATS 2017)、護理；**新生兒 RDS 也收在本頁**(含 CPAP、Silverman-Anderson、L/S 比)；約 17 題)、`disease/pulmonary-embolism-hypertension`(**跨輪移交：肺栓塞臨床處置** ✅；2026 AHA/ACC A–E 分類對照 ESC 2019(原文網站 403，依多篇摘要交叉核對)、DOAC 優先、LMWH 優於 UFH、溶栓限 E 類；肺水腫比較；肺高壓 2022 ESC/ERS 新定義 mPAP > 20 與五類；肺心症護理；約 10 題)；thrombosis-embolism-infarction 回補連結；C 組補收 112-1_MS_043、115-2_FA_026；**內外 Ch09 74% → 82%(血管性 100%、肺實質 97%)、病理 Ch11 91%；全部 5514/8960**；呼吸器警報與插管題(109-2_MS_054、115-1_MS_033、107-1_MS_075、112-1_MS_075)留 G 組；氧氣題留 H 組；使用者表示本組先不審查 | ✅ 2026-10-15 |
+| F | `disease/pleural-chest-trauma`(肋膜炎、積水與 Light 準則、膿胸、氣胸六型、開放性與張力性氣胸(針刺位置：傳統第 2 肋間鎖骨中線＋ICU Book 5e 第 5 肋間腋中線前)、血胸、肋骨骨折、連枷胸、肺挫傷；約 25 題)、`device/chest-tube`(第一個呼吸器材頁；三瓶原理、液面波動與氣泡判讀、夾管與擠壓原則、拔管、胸腔手術術後、異常處理表；約 20 題)；**胸管資料缺口已用公開資料補齊，不用請使用者下載**：ICU Book 5e Ch28(水封 2 cm、抽吸 −20)、NHS Borders 2012 指引(10–20 cmH₂O、冒泡中不可夾、拔管 Valsalva 或吐氣末)、台北慈濟單張(低於胸腔 45–60 cm、每日 < 200 mL)、長庚兒童單張(長管 2–3 cm、深吸氣閉氣拔管)；新圖 4 張(servier-pneumothorax＋原創 chest-drainage-systems、tension-pneumothorax、flail-chest)；C–F 組的「第 6 輪 X 組製作」預告已改連結；**內外 Ch09 82% → 93%(胸廓與肋膜 39/39)、病理 Ch11 96%；全部 5540/8960**；115-1_MS_033 高壓警報留 G 組 | ✅ 2026-10-15 |
+| G | `device/mechanical-ventilation`(侵襲與非侵襲、A/C／SIMV／PSV／CPAP、設定表(ICU Book：VT 8→6 mL/kg、平台壓 ≤ 30、I:E ≥ 1:2)、波形圖、高低壓警報表、VAP 組合式照護(IHI 五項＋Cochrane 床頭抬高證據很低)、脫離(SBT 條件 FiO₂ ≤ 50%、PEEP ≤ 8、RSBI ≤ 105、T 型管)、健保呼吸器依賴 21 天)、`device/artificial-airway`(插管與確認位置、門齒 21／23 cm、管尖隆凸上 3–5 cm、套囊 20–30 cmH₂O 與 ICU Book ≤ 25 mmHg、Sellick 標 AHA 不建議常規、氣切照護與意外脫管、甦醒球)；新圖 ventilator-waveforms、artificial-airway；約 20 題(多數已被其他頁自動收錄，新收 6 題) | ✅ 2026-10-15 |
+| H | **第一次用 procedure 類型**：`procedure/oxygen-therapy`(裝置表依 ICU Book Table 25.2、BTS 2017 目標、兒童頭罩與氧氣帳、用氧安全、氧中毒)、`procedure/airway-clearance`(深呼吸咳嗽與誘發性肺量計、噴霧、胸腔物理治療順序與姿位引流表、叩擊震顫、抽痰步驟表(AARC 2022：只在需要時、抽前給氧、< 15 秒、成人 < 200／兒童 < 120 mmHg、不常規灌食鹽水)與國考數值)；約 35 題；本機頁面截圖確認(3000 埠 dev 是原本就在跑的，沒有關)；全部 G／H 預告改連結；**內外 Ch09 99%、生解 Ch08 100%、病理 Ch11 96%、兒科 Ch08 96%、基護 Ch10 呼吸與氧氣兩節 100%；全部 5573/8960** | ✅ 2026-10-15 |
+| I | 收尾：使用者看圖後調整(co2-transport 加 Band 3 交換蛋白；ventilator-waveforms 依 ICU Book Ch23、Ch27 與 AARC 2022 核對，壓力曲線改成先跳阻力壓再上升、鋸齒改寫成抽痰指標；chest-tube 新增單瓶、雙瓶、三瓶比較表與圖 chest-drainage-1-2-bottle(Zisis 2015 Ann Transl Med)；15 篇第一次出現的縮寫補英文全名)；補收 7 題到 asthma(PEF 例題、學校)、lung-cancer(小細胞癌)、allergic-rhinitis(鼻息肉)、pediatric-respiratory-infections(新增急性鼻咽炎節)、artificial-airway(口咽與鼻咽人工氣道尺寸)、mechanical-ventilation(阻塞型睡眠呼吸中止)；9 頁回補連結(edema-shock、anticoagulants、thrombolytics、heart-failure、environmental-injury、pneumonia、tuberculosis、icp-monitoring、pediatric-respiratory-infections)；跨輪移交新增 5 列；**Supabase 已寫回**(sync_all：question_tags 16698；刪 91 筆合併掉的舊標籤，DB＝來源；清 7 處舊名：stem-cell-transplant、immunosuppressants、antihistamines-autacoids、taxonomy 三個 group)；resolver、export 重跑；source-scan 新增 3 筆「檢視」都是 FEV1 英文全名術語；image-license-review 96 張需替換 0；**內外 Ch09、生解 Ch08、病理 Ch11、兒科 Ch08 100%，藥理 Ch05 99%；全部 5586/8960**；部署 workers.dev | ✅ 2026-10-15 |
+
+### 第 6 輪需確認清單(有空再看，不影響上線)
+
+1. 2026 AHA/ACC 肺栓塞指引原文(網站 403)：A–E 分類是用多篇摘要交叉核對的，能下載 PDF 就再核一次(pulmonary-embolism-hypertension)
+2. 勞工健康保護規則附表：粉塵作業特殊健康檢查項目(restrictive-lung-diseases；已移交第 7 輪)
+3. 健保署呼吸器依賴支付方式原文：「連續 21 天、中斷不超過 5 天」來自健保署頁面摘要；「非侵襲性呼吸器每天 > 6 小時」頁面沒寫(mechanical-ventilation)
+4. 兒童抽痰壓力與時間：國考各題的數值互相不一致(早產兒「不可超過 60」與「80–100」都被判錯)，頁面以 AARC 2022 上限＋國考答案並列；若有台灣兒科護理課本的標準數值可提供(airway-clearance)
+5. 姿位引流角度：下葉上段國考答案是「俯臥頭低 15 度」，多數教材寫俯臥平躺腹下墊枕，頁面兩者並列(airway-clearance)
+6. 大量血胸開胸條件的時間窗(每小時 200 mL 持續 2–4 小時，各來源不一)(pleural-chest-trauma)
+7. 新生兒 CPAP 4–7 cmH₂O 是國考答案的數值(ards-respiratory-failure)
+
+## 第 5 輪摘要(已完成)
+
+
 - **輪次**：第 5 輪 病理總論＋遺傳疾病總整理(病理 Ch01 12、Ch03 38、Ch06 31、Ch07 19，共約 100 題未涵蓋；加上各科同標籤題與遺傳疾病跨科題，約 180–200 題)；5-0＋A–E 組、8 篇新頁
 - **狀態**：**第 5 輪全部完成(2026-10-15)**：5-0＋A–E、8 篇；病理 Ch01、03、06、07 100%；Supabase 已寫回、**workers.dev 已部署(2026-10-15，版本 434a028f；第一次因硬碟滿失敗，使用者清出空間後重跑成功)**；使用者已看過圖與內容(只補兩個待核對數字)；**下一輪第 6 輪呼吸**(開工前先對 roadmap「跨輪移交清單」，含呼吸標籤合併、肺栓塞臨床處置)
 - **使用者決定(2026-10-15)**：

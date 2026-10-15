@@ -164,6 +164,7 @@ references:
 - 組合式照護：**床頭抬高 30–45 度**、每日中斷鎮靜並評估脫離呼吸器、口腔護理、聲門下抽吸([[infection-control#bundles]])。
 - 氣管內管氣囊壓力維持 **20–30 cmH₂O**(約 15–22 mmHg)；壓力過高(例如 35 mmHg)會壓傷氣管黏膜。
 - 抽痰時採無菌技術；依需要才抽痰，不要定時常規抽痰。
+- 呼吸器組合式照護、套囊壓與抽痰原則見 [[mechanical-ventilation#nursing]]、[[artificial-airway#nursing]]
 
 ## 護理措施 {#nursing}
 
@@ -186,6 +187,8 @@ references:
 | 姿位 | **患部在上**：下葉後底段採俯臥、頭低腳高；右下葉外側底段採**左側臥、臀部抬高**；**上葉前段**採**仰臥**(不是俯臥) |
 | 停止 | 出現**呼吸窘迫**、發紺、躁動時**立即停止** |
 | 禁忌 | **出血傾向**、**顱內壓升高**、骨折、肺水腫；顱內壓高的病人避免頭低腳高與背部叩擊 |
+
+- 完整步驟、姿位引流表與抽痰見 [[airway-clearance#chest-physiotherapy]]、[[airway-clearance#suctioning]]
 
 ## 相關考題 {#questions}
 

@@ -2,7 +2,7 @@
 title: 輸血護理與輸血反應
 subtitle: Blood transfusion and transfusion reactions(血品與時效、輸血前核對與輸注流程、各型輸血反應與處理、特殊血品、Rh 免疫球蛋白)
 aliases: [輸血, 輸血護理, 輸血反應, 輸血不良反應, 急性輸血反應, 溶血性輸血反應, 急性溶血反應, 延遲性溶血反應, 發燒性非溶血性輸血反應, 熱原反應, 過敏性輸血反應, 循環負荷過量, 循環過度負荷, TACO, 輸血相關急性肺損傷, TRALI, 輸血相關移植物對抗宿主疾病, 輸血後紫斑, 細菌污染, 備血, 交叉配合試驗, 配合試驗, 血型鑑定, 雙重核對, 血品, 紅血球濃厚液, 洗滌紅血球, 去白血球血品, 輻射血品, 血小板濃厚液, 新鮮冷凍血漿, FFP, 冷凍沉澱品, 全血, 輸血同意書, 輸血速率, 輸血加溫器, Rh 免疫球蛋白, RhIG, RhoGAM, 新生兒溶血症, 輸血相關肺損傷, Transfusion reaction, Blood transfusion, PRBC, Packed RBC]
-dzTags: [輸血反應]
+dzTags: [輸血反應, 溶血性輸血反應]
 system: hematology-immunology
 alsoIn: [fundamentals]
 chapters:

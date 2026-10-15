@@ -553,5 +553,130 @@
     "license": "原創",
     "sourceUrl": "",
     "modified": ""
+  },
+  "servier-respiratory-tract.svg": {
+    "title": "Conducting zone(SMART Respiratory system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(Respiratory system 投影片 3)，移除英文標籤、指標線、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-larynx.svg": {
+    "title": "Larynx front view and coronal section(SMART ENT)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(ENT 投影片 10)，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-lung-lobes.svg": {
+    "title": "Lobes(SMART Respiratory system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(Respiratory system 投影片 9)，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-alveoli.svg": {
+    "title": "Intrapulmonary airways(SMART Respiratory system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(Respiratory system 投影片 11)，移除英文標籤、指標線、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-breathing.svg": {
+    "title": "Breathing: inspiration and expiration(SMART Respiratory system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(Respiratory system 投影片 13)，移除英文標籤、指標線、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "spirogram.svg": {
+    "title": "肺容積與肺容量(肺量計曲線)",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "oxygen-dissociation-curve.svg": {
+    "title": "氧合血紅素解離曲線與左移、右移",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "vq-matching.svg": {
+    "title": "通氣與血流配合(V/Q)：正常、分流、無效腔",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "co2-transport.svg": {
+    "title": "二氧化碳在血液中的三種運送方式",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "breathing-patterns.svg": {
+    "title": "常見的呼吸型態",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-pneumothorax.svg": {
+    "title": "Pneumothorax(SMART Respiratory system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(Respiratory system 投影片 15)，移除英文標籤、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "chest-drainage-systems.svg": {
+    "title": "三瓶式胸腔水下引流系統",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "tension-pneumothorax.svg": {
+    "title": "單純氣胸與張力性氣胸",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "flail-chest.svg": {
+    "title": "連枷胸的反常呼吸",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "ventilator-waveforms.svg": {
+    "title": "呼吸器波形：正常、PEEP 與分泌物鋸齒",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "artificial-airway.svg": {
+    "title": "氣管內管與氣切管的位置",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "chest-drainage-1-2-bottle.svg": {
+    "title": "單瓶式與雙瓶式胸腔水下引流",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
   }
 }

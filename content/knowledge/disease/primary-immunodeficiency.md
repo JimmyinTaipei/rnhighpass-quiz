@@ -2,7 +2,7 @@
 title: 原發性免疫缺陷
 subtitle: Primary immunodeficiency(分類與警訊、XLA、SCID、DiGeorge、WAS、CGD、MHC II 缺陷、選擇性 IgA 缺乏、補體缺乏；續發性與預防)
 aliases: [原發性免疫缺陷, 原發性免疫不全, 原發性免疫缺乏, 先天性免疫缺陷, 先天免疫錯誤, Primary immunodeficiency, Inborn errors of immunity, 免疫缺陷, 免疫不全, 續發性免疫缺陷, 繼發性免疫缺陷, 性聯無伽瑪球蛋白血症, 布魯頓氏病, Bruton 病, XLA, X-linked agammaglobulinemia, Bruton agammaglobulinemia, BTK, 嚴重複合型免疫缺陷, 重症複合型免疫缺乏, SCID, Severe combined immunodeficiency, 腺苷脫胺酶缺乏, ADA, X-SCID, 迪喬治症候群, DiGeorge syndrome, 22q11.2 缺失, 胸腺發育不全, Wiskott-Aldrich 症候群, WAS, 慢性肉芽腫病, CGD, Chronic granulomatous disease, NADPH 氧化酶, 選擇性 IgA 缺乏, Selective IgA deficiency, 常見變異型免疫缺乏, CVID, 高 IgM 症候群, MHC II 缺陷, 裸淋巴球症候群, 補體缺乏, 白血球黏附缺陷, 新生兒篩檢, TREC, 免疫球蛋白補充治療, 丙種球蛋白, 保護性隔離, 活性疫苗禁忌, 輻射血品]
-dzTags: [原發性免疫缺乏症]
+dzTags: [原發性免疫缺乏症, 免疫缺乏症]
 system: hematology-immunology
 group: immune-disorders
 alsoIn: [infection]

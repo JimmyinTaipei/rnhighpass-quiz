@@ -307,6 +307,13 @@
    "psychodynamic-theories",
    "personality-disorders"
   ],
+  "內外-Ch09呼吸系統疾病 > 呼吸系統評估與診療處置": [
+   "respiratory-assessment",
+   "abg"
+  ],
+  "基護-Ch10生命徵象 > 呼吸": [
+   "respiratory-assessment"
+  ],
   "內外-Ch02免疫系統疾病 > 器官移植與護理": [
    "stem-cell-transplant",
    "immunosuppressants"
@@ -323,6 +330,16 @@
   ],
   "兒科-Ch10兒童血液疾病 > 兒童血液系統之解剖生理與評估": [
    "transfusion-reactions"
+  ],
+  "內外-Ch09呼吸系統疾病 > 胸廓與肋膜病變": [
+   "chest-tube",
+   "pleural-chest-trauma"
+  ],
+  "內外-Ch09呼吸系統疾病 > 肺實質病變": [
+   "mechanical-ventilation",
+   "restrictive-lung-diseases",
+   "tuberculosis",
+   "streptococci"
   ],
   "內外-Ch08內分泌系統疾病 > 腎上腺疾病": [
    "adrenal-insufficiency",
@@ -385,13 +402,20 @@
    "obsessive-compulsive-disorder",
    "trauma-stress-disorders"
   ],
-  "內外-Ch09呼吸系統疾病 > 下呼吸道通道病變": [
-   "asthma"
-  ],
-  "兒科-Ch08兒童呼吸系統疾病 > 其他常見呼吸系統疾病": [
-   "asthma"
+  "內外-Ch09呼吸系統疾病 > 肺實質病變 > 急性呼吸窘迫症候群與急性呼吸衰竭": [
+   "ards-respiratory-failure"
   ],
   "病理-Ch11呼吸系統疾病 > 下呼吸道與肺實質疾病": [
+   "ards-respiratory-failure",
+   "asthma",
+   "copd",
+   "restrictive-lung-diseases"
+  ],
+  "內外-Ch09呼吸系統疾病 > 下呼吸道通道病變": [
+   "asthma",
+   "copd"
+  ],
+  "兒科-Ch08兒童呼吸系統疾病 > 其他常見呼吸系統疾病": [
    "asthma"
   ],
   "社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護": [
@@ -622,7 +646,6 @@
   ],
   "內外-Ch04體液、電解質與酸鹼不平衡之護理 > 酸鹼平衡改變 > 代謝性酸中毒與代謝性鹼中毒": [
    "diabetes",
-   "abg",
    "ketones"
   ],
   "內外-Ch08內分泌系統疾病 > 胰臟疾病與糖尿病": [
@@ -894,6 +917,9 @@
   "精神-Ch11人格障礙病人的護理 > 護理處置": [
    "personality-disorders"
   ],
+  "病理-Ch11呼吸系統疾病 > 肋膜與胸腔疾病": [
+   "pleural-chest-trauma"
+  ],
   "微免-Ch05革蘭氏陽性球菌 > 肺炎鏈球菌": [
    "pneumonia",
    "streptococci"
@@ -907,6 +933,12 @@
   ],
   "內外-Ch09呼吸系統疾病 > 肺實質病變 > 肺炎、肺膿瘍與肺結核": [
    "pneumonia"
+  ],
+  "內外-Ch09呼吸系統疾病 > 血管性病變": [
+   "pulmonary-embolism-hypertension",
+   "anticoagulants",
+   "antiplatelets",
+   "thrombolytics"
   ],
   "微免-Ch12RNA病毒 > 正黏液病毒與副黏液病毒": [
    "respiratory-viral-infections"
@@ -1022,10 +1054,6 @@
   "微免-Ch06革蘭氏陽性桿菌與分枝桿菌 > 分枝桿菌屬": [
    "tuberculosis"
   ],
-  "內外-Ch09呼吸系統疾病 > 肺實質病變": [
-   "tuberculosis",
-   "streptococci"
-  ],
   "社區-Ch14傳染病防治與護理 > 重要傳染病流行病學及管制概況 > 慢性及性傳染病（結核病、B型肝炎、梅毒、淋病、後天免疫缺乏症候群、麻疹）": [
    "tuberculosis"
   ],
@@ -1093,11 +1121,6 @@
    "antibiotics-overview"
   ],
   "藥理-Ch09血液系統藥物 > 抗血栓症藥物": [
-   "anticoagulants",
-   "antiplatelets",
-   "thrombolytics"
-  ],
-  "內外-Ch09呼吸系統疾病 > 血管性病變": [
    "anticoagulants",
    "antiplatelets",
    "thrombolytics"
@@ -1179,6 +1202,12 @@
   ],
   "藥理-Ch10內分泌與新陳代謝藥物 > 甲狀腺相關藥物": [
    "thyroid-drugs"
+  ],
+  "內外-Ch04體液、電解質與酸鹼不平衡之護理 > 酸鹼平衡改變": [
+   "abg"
+  ],
+  "生解-Ch11體液、電解質與酸鹼平衡 > 酸鹼不平衡": [
+   "abg"
   ],
   "生解-Ch12內分泌系統 > 胰臟之蘭氏小島": [
    "blood-glucose",
@@ -1357,6 +1386,13 @@
   "病理-Ch07環境傷害與營養疾病 > 物理性傷害": [
    "environmental-injury"
   ],
+  "生解-Ch08呼吸系統 > 呼吸作用": [
+   "gas-exchange-transport",
+   "ventilation-mechanics"
+  ],
+  "生解-Ch08呼吸系統 > 呼吸控制": [
+   "gas-exchange-transport"
+  ],
   "病理-Ch06遺傳與基因疾病 > 多因素遺傳疾病與腫瘤遺傳": [
    "genetic-inheritance"
   ],
@@ -1405,6 +1441,12 @@
   "病理-Ch07環境傷害與營養疾病 > 營養疾病": [
    "nutritional-disorders"
   ],
+  "生解-Ch08呼吸系統 > 呼吸器官": [
+   "respiratory-anatomy"
+  ],
+  "兒科-Ch08兒童呼吸系統疾病 > 兒童呼吸系統之解剖生理與評估": [
+   "respiratory-anatomy"
+  ],
   "生解-Ch06感覺器官 > 感覺總論與體感覺": [
    "special-senses"
   ],
@@ -1425,6 +1467,14 @@
   ],
   "病理-Ch03代謝、體液與循環障礙 > 循環障礙": [
    "thrombosis-embolism-infarction"
+  ],
+  "基護-Ch10生命徵象 > 氧氣治療與呼吸道清潔技術": [
+   "airway-clearance",
+   "oxygen-therapy"
+  ],
+  "兒科-Ch08兒童呼吸系統疾病 > 呼吸系統常見治療及護理": [
+   "airway-clearance",
+   "oxygen-therapy"
   ]
  },
  "chapters": {
@@ -1474,11 +1524,7 @@
    "missing": []
   },
   "生解-Ch08呼吸系統": {
-   "missing": [
-    "呼吸器官",
-    "呼吸作用",
-    "呼吸控制"
-   ]
+   "missing": []
   },
   "生解-Ch09消化系統": {
    "missing": [
@@ -1504,8 +1550,7 @@
   "生解-Ch11體液、電解質與酸鹼平衡": {
    "missing": [
     "體液區間與體液平衡",
-    "體內酸鹼平衡",
-    "酸鹼不平衡"
+    "體內酸鹼平衡"
    ]
   },
   "生解-Ch12內分泌系統": {
@@ -1566,9 +1611,7 @@
    ]
   },
   "病理-Ch11呼吸系統疾病": {
-   "missing": [
-    "肋膜與胸腔疾病"
-   ]
+   "missing": []
   },
   "病理-Ch12消化道疾病": {
    "missing": [
@@ -1782,9 +1825,7 @@
   "基護-Ch10生命徵象": {
    "missing": [
     "體溫",
-    "脈搏",
-    "呼吸",
-    "氧氣治療與呼吸道清潔技術"
+    "脈搏"
    ]
   },
   "基護-Ch11冷熱療法": {
@@ -1901,10 +1942,7 @@
    ]
   },
   "內外-Ch09呼吸系統疾病": {
-   "missing": [
-    "呼吸系統評估與診療處置",
-    "胸廓與肋膜病變"
-   ]
+   "missing": []
   },
   "內外-Ch10腎臟與泌尿系統疾病": {
    "missing": []
@@ -2103,10 +2141,7 @@
    ]
   },
   "兒科-Ch08兒童呼吸系統疾病": {
-   "missing": [
-    "兒童呼吸系統之解剖生理與評估",
-    "呼吸系統常見治療及護理"
-   ]
+   "missing": []
   },
   "兒科-Ch09兒童循環系統疾病": {
    "missing": [

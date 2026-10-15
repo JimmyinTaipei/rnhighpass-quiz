@@ -1,0 +1,56 @@
+{
+ "image": "servier-lung-lobes.svg",
+ "_說明": "肺葉拆開圖；看圖者左邊是右肺(3 葉)，右邊是左肺(2 葉)",
+ "labels": [
+  {
+   "id": "right-upper",
+   "zh": "右上葉",
+   "en": "Right upper lobe",
+   "x": 18,
+   "y": 20,
+   "tx": 40,
+   "ty": 16,
+   "align": "start"
+  },
+  {
+   "id": "right-middle",
+   "zh": "右中葉",
+   "en": "Right middle lobe",
+   "x": 25,
+   "y": 60,
+   "tx": 40,
+   "ty": 52,
+   "align": "start"
+  },
+  {
+   "id": "right-lower",
+   "zh": "右下葉",
+   "en": "Right lower lobe",
+   "x": 10,
+   "y": 75,
+   "tx": 40,
+   "ty": 82,
+   "align": "start"
+  },
+  {
+   "id": "left-upper",
+   "zh": "左上葉",
+   "en": "Left upper lobe",
+   "x": 68,
+   "y": 35,
+   "tx": 56,
+   "ty": 30,
+   "align": "end"
+  },
+  {
+   "id": "left-lower",
+   "zh": "左下葉",
+   "en": "Left lower lobe",
+   "x": 84,
+   "y": 62,
+   "tx": 56,
+   "ty": 70,
+   "align": "end"
+  }
+ ]
+}
