@@ -1,19 +1,21 @@
 # 來源掃描報告(1a)
 
-> 由 `scripts/source-scan.py` 產生。278 篇頁面對 199 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
+> 由 `scripts/source-scan.py` 產生。289 篇頁面對 199 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
 > 「疑似貼上」＝內文含形似字元(UpToDate 匯出檔的防複製記號)；「逐字重疊」＝共有 6 串以上；「數字序列重疊」＝連續 5 個有辨識度的數字(含單位)與匯出檔順序相同，可能是照原文順序整理，需人工比對；「檢視」＝零星重疊，多半是專有名詞或藥名。
 > **限制**：①中文翻譯式的近似照抄抓不到(只能抓英文詞串與數字序列)，要人工抽查；②國考書 PDF 是掃描圖檔、沒有文字層，無法比對(需要 OCR)；③圖片與表格的重製要人工看。
 
 | 結果 | 頁面 | 引用行數 | 形似字元 | 英文重疊 | 數字序列重疊 | 最相近的匯出檔 | 例 |
 |---|---|---:|---:|---:|---:|---|---|
-| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 感染相關/Acute phase reactants(6)；免疫相關/The adaptive humoral immune response(6)；免疫相關/Overview of autoimmunity(6) | an overview of the innate immune |
+| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 免疫相關/Overview of therapeutic monoclonal antibodies(6)；免疫相關/Systemic lupus erythematosus: Epidemiology and pathogenesis(6)；免疫相關/Normal B and T lymphocyte development(6) | an overview of the innate immune |
 | 數字序列重疊 | disease/sepsis.md | 4 | 0 | 0 | 3 | 感染相關/Sepsis syndromes in adults: Epidemiology, definitions, clinical presentation, diagnosis, and prognosis(3) |  |
+| 檢視 | care/occupational-health-nursing.md | 0 | 0 | 2 | 0 | 免疫相關/Normal B and T lymphocyte development(2)；癌症相關/Classic Hodgkin lymphoma: Presentation, evaluation, and diagnosis in adults(2)；癌症相關/lymphoma in children(2) | international agency for research on cancer |
 | 檢視 | pathogen/human-papillomavirus.md | 0 | 0 | 0 | 2 | 癌症相關/Invasive cervical cancer: Epidemiology, risk factors, clinical manifestations, and diagnosis(2) |  |
-| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Inherited disorders of the complement system(2)；免疫相關/Acquired disorders of the complement system(2)；免疫相關/Complement pathways(2) | regulators and receptors of the complement |
-| 檢視 | care/respiratory-assessment.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Diagnosis and management of asthma in older adults(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
-| 檢視 | disease/copd.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Diagnosis and management of asthma in older adults(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
-| 檢視 | physiology/t-lymphocytes.md | 9 | 0 | 1 | 0 | 免疫相關/Pathogenesis of rheumatoid arthritis(1)；免疫相關/The adaptive humoral immune response(1)；免疫相關/Primary humoral immunodeficiencies: An overview(1) | normal b and t lymphocyte development |
-| 檢視 | physiology/ventilation-mechanics.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Diagnosis and management of asthma in older adults(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
+| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Acquired disorders of the complement system(2)；免疫相關/Regulators and receptors of the complement system(2)；免疫相關/Normal B and T lymphocyte development(2) | regulators and receptors of the complement |
+| 檢視 | care/respiratory-assessment.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
+| 檢視 | care/vital-statistics.md | 0 | 0 | 1 | 0 | 精神科相關/Schizophrenia in adults: Clinical features, assessment, and diagnosis(1) | and related health problems th revision |
+| 檢視 | disease/copd.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
+| 檢視 | physiology/t-lymphocytes.md | 9 | 0 | 1 | 0 | 免疫相關/Pathogenesis of rheumatoid arthritis(1)；免疫相關/Systemic lupus erythematosus: Epidemiology and pathogenesis(1)；免疫相關/Primary humoral immunodeficiencies: An overview(1) | normal b and t lymphocyte development |
+| 檢視 | physiology/ventilation-mechanics.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
 | 無重疊 | admin/accreditation-evaluation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/clinical-ladder-training.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/conflict-change-management.md | 0 | 0 | 0 | 0 | — |  |
@@ -51,14 +53,23 @@
 | 無重疊 | care/cancer-treatment-toxicities.md | 30 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/child-adolescent-mental-health.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/chronically-ill-children.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/community-assessment.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/community-health-nursing-intro.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/community-mental-health.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/community-nursing-process.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/end-of-life-care.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/family-violence.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/group-family-therapy.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/health-administration-system.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/health-equity.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/home-care-discharge-planning.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/immunization.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/individual-cognitive-behavioral-therapy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/infection-control.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/long-term-care-services.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/long-term-care.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/milieu-therapy.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/national-health-insurance.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/neuro-assessment.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/notifiable-diseases.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/pain-management.md | 8 | 0 | 0 | 0 | — |  |

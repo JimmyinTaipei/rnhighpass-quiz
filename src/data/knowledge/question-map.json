@@ -866,7 +866,16 @@
       "111-2_OP_057"
     ]
   },
+  "community-assessment#questions": {
+    "auto": []
+  },
+  "community-health-nursing-intro#questions": {
+    "auto": []
+  },
   "community-mental-health#questions": {
+    "auto": []
+  },
+  "community-nursing-process#questions": {
     "auto": []
   },
   "end-of-life-care#questions": {
@@ -898,6 +907,15 @@
   "group-family-therapy#questions": {
     "auto": []
   },
+  "health-administration-system#questions": {
+    "auto": []
+  },
+  "health-equity#questions": {
+    "auto": []
+  },
+  "home-care-discharge-planning#questions": {
+    "auto": []
+  },
   "immunization#questions": {
     "auto": []
   },
@@ -907,7 +925,16 @@
   "infection-control#questions": {
     "auto": []
   },
+  "long-term-care-services#questions": {
+    "auto": []
+  },
+  "long-term-care#questions": {
+    "auto": []
+  },
   "milieu-therapy#questions": {
+    "auto": []
+  },
+  "national-health-insurance#questions": {
     "auto": []
   },
   "neuro-assessment#gcs": {
@@ -947,6 +974,9 @@
     ]
   },
   "notifiable-diseases#questions": {
+    "auto": []
+  },
+  "occupational-health-nursing#questions": {
     "auto": []
   },
   "pain-management#questions": {
@@ -1028,6 +1058,9 @@
     ]
   },
   "transfusion-reactions#questions": {
+    "auto": []
+  },
+  "vital-statistics#questions": {
     "auto": []
   },
   "artificial-airway#principle": {

@@ -156,6 +156,24 @@
    "chronically-ill-children",
    "diabetes"
   ],
+  "社區-Ch05社區評估與社區健康營造 > 社區概說": [
+   "community-assessment"
+  ],
+  "社區-Ch05社區評估與社區健康營造 > 社區健康評估": [
+   "community-assessment"
+  ],
+  "社區-Ch05社區評估與社區健康營造 > 綜合題型": [
+   "community-assessment"
+  ],
+  "社區-Ch01緒論與衛生行政體系 > 社區衛生護理緒論": [
+   "community-health-nursing-intro"
+  ],
+  "社區-Ch01緒論與衛生行政體系 > 健康政策與社區衛生護理人員的參與": [
+   "community-health-nursing-intro"
+  ],
+  "社區-Ch04衛生教育與健康促進 > 社區衛生護理人員的專業功能與展望": [
+   "community-health-nursing-intro"
+  ],
   "社區-Ch11社區心理衛生與護理 > 社區心理衛生與健康的意義與特性": [
    "community-mental-health"
   ],
@@ -187,6 +205,12 @@
   "精神-Ch06精神科常用的治療方法 > 綜合題型": [
    "community-mental-health"
   ],
+  "社區-Ch05社區評估與社區健康營造 > 以社區為對象之護理過程": [
+   "community-nursing-process"
+  ],
+  "社區-Ch05社區評估與社區健康營造 > 社區健康營造": [
+   "community-nursing-process"
+  ],
   "基護-Ch17臨終病人的護理 > 臨終病人之生、心理變化與護理 > 生理變化與護理措施（中樞神經、呼吸、循環、感官、肌肉皮膚、腸胃泌尿系統）": [
    "end-of-life-care"
   ],
@@ -217,6 +241,24 @@
   "精神-Ch06精神科常用的治療方法 > 家庭治療": [
    "group-family-therapy"
   ],
+  "社區-Ch01緒論與衛生行政體系 > 臺灣衛生行政組織": [
+   "health-administration-system"
+  ],
+  "社區-Ch01緒論與衛生行政體系 > 臺灣健康照護體系": [
+   "health-administration-system"
+  ],
+  "社區-Ch01緒論與衛生行政體系 > 公共衛生護理與健康不平等": [
+   "health-equity"
+  ],
+  "社區-Ch10長期照護 > 居家照護": [
+   "home-care-discharge-planning"
+  ],
+  "社區-Ch10長期照護 > 出院準備服務": [
+   "home-care-discharge-planning"
+  ],
+  "社區-Ch10長期照護 > 護理人員在長期照護的角色與功能": [
+   "home-care-discharge-planning"
+  ],
   "微免-Ch03免疫異常與疫苗應用 > 疫苗與預防接種應用": [
    "immunization",
    "childhood-infectious-diseases"
@@ -239,11 +281,33 @@
   "內外-Ch05傳染病 > 醫療照護相關感染": [
    "infection-control"
   ],
+  "社區-Ch10長期照護 > 現行長期照護服務": [
+   "long-term-care-services",
+   "dementia"
+  ],
+  "社區-Ch10長期照護 > 長期照護概論": [
+   "long-term-care"
+  ],
+  "社區-Ch10長期照護 > 長期照護需求評估": [
+   "long-term-care"
+  ],
+  "社區-Ch10長期照護 > 長期照護服務的模式及類型": [
+   "long-term-care"
+  ],
+  "社區-Ch10長期照護 > 綜合題型": [
+   "long-term-care"
+  ],
   "精神-Ch06精神科常用的治療方法 > 環境治療": [
    "milieu-therapy"
   ],
   "精神-Ch06精神科常用的治療方法 > 活動治療": [
    "milieu-therapy"
+  ],
+  "社區-Ch01緒論與衛生行政體系 > 全民健康保險制度": [
+   "national-health-insurance"
+  ],
+  "社區-Ch01緒論與衛生行政體系 > 健康照護經濟": [
+   "national-health-insurance"
   ],
   "內外-Ch15神經系統疾病 > 神經系統基本概念與評估": [
    "neuro-assessment"
@@ -259,6 +323,24 @@
   "社區-Ch14傳染病防治與護理 > 傳染病防治相關概念": [
    "notifiable-diseases",
    "childhood-infectious-diseases"
+  ],
+  "社區-Ch13職業衛生與護理 > 職業健康護理之目的及意義": [
+   "occupational-health-nursing"
+  ],
+  "社區-Ch13職業衛生與護理 > 職業安全衛生之行政組織、相關法令與諮詢資源": [
+   "occupational-health-nursing"
+  ],
+  "社區-Ch13職業衛生與護理 > 職業或工作相關傷病": [
+   "occupational-health-nursing"
+  ],
+  "社區-Ch13職業衛生與護理 > 職業健康護理工作內容": [
+   "occupational-health-nursing"
+  ],
+  "社區-Ch13職業衛生與護理 > 職業健康護理人員之角色、功能與展望": [
+   "occupational-health-nursing"
+  ],
+  "社區-Ch13職業衛生與護理 > 綜合題型": [
+   "occupational-health-nursing"
   ],
   "藥理-Ch04止痛藥與麻醉藥物 > 成癮性鎮痛劑（麻醉性鎮痛劑）": [
    "pain-management",
@@ -330,6 +412,21 @@
   ],
   "兒科-Ch10兒童血液疾病 > 兒童血液系統之解剖生理與評估": [
    "transfusion-reactions"
+  ],
+  "社區-Ch03生命統計 > 生命統計基本概念": [
+   "vital-statistics"
+  ],
+  "社區-Ch03生命統計 > 疾病與死亡統計": [
+   "vital-statistics"
+  ],
+  "社區-Ch03生命統計 > 比率的類型與標準化": [
+   "vital-statistics"
+  ],
+  "社區-Ch03生命統計 > 其他常用生命統計指標": [
+   "vital-statistics"
+  ],
+  "社區-Ch03生命統計 > 生命統計在社區衛生護理的應用": [
+   "vital-statistics"
   ],
   "內外-Ch09呼吸系統疾病 > 胸廓與肋膜病變": [
    "chest-tube",
@@ -585,9 +682,6 @@
    "depressive-disorder"
   ],
   "社區-Ch08中老年人的護理 > 老人的照顧": [
-   "dementia"
-  ],
-  "社區-Ch10長期照護 > 現行長期照護服務": [
    "dementia"
   ],
   "內外-Ch15神經系統疾病 > 神經系統退化性疾病": [
@@ -2245,15 +2339,7 @@
    ]
   },
   "社區-Ch01緒論與衛生行政體系": {
-   "missing": [
-    "社區衛生護理緒論",
-    "臺灣衛生行政組織",
-    "臺灣健康照護體系",
-    "全民健康保險制度",
-    "健康照護經濟",
-    "健康政策與社區衛生護理人員的參與",
-    "公共衛生護理與健康不平等"
-   ]
+   "missing": []
   },
   "社區-Ch02流行病學": {
    "missing": [
@@ -2264,13 +2350,7 @@
    ]
   },
   "社區-Ch03生命統計": {
-   "missing": [
-    "生命統計基本概念",
-    "疾病與死亡統計",
-    "比率的類型與標準化",
-    "其他常用生命統計指標",
-    "生命統計在社區衛生護理的應用"
-   ]
+   "missing": []
   },
   "社區-Ch04衛生教育與健康促進": {
    "missing": [
@@ -2278,17 +2358,11 @@
     "國內外重要的政策和會議",
     "健康促進與衛生教育理論模式",
     "衛生教育的學習範圍、原則與方法",
-    "社區衛生護理人員的專業功能與展望",
     "衛生教育應用實例"
    ]
   },
   "社區-Ch05社區評估與社區健康營造": {
-   "missing": [
-    "社區健康評估",
-    "以社區為對象之護理過程",
-    "社區概說",
-    "社區健康營造"
-   ]
+   "missing": []
   },
   "社區-Ch06家庭評估與護理": {
    "missing": [
@@ -2317,14 +2391,7 @@
    ]
   },
   "社區-Ch10長期照護": {
-   "missing": [
-    "長期照護需求評估",
-    "長期照護概論",
-    "長期照護服務的模式及類型",
-    "居家照護",
-    "護理人員在長期照護的角色與功能",
-    "出院準備服務"
-   ]
+   "missing": []
   },
   "社區-Ch11社區心理衛生與護理": {
    "missing": []
@@ -2338,13 +2405,7 @@
    ]
   },
   "社區-Ch13職業衛生與護理": {
-   "missing": [
-    "職業健康護理之目的及意義",
-    "職業安全衛生之行政組織、相關法令與諮詢資源",
-    "職業或工作相關傷病",
-    "職業健康護理工作內容",
-    "職業健康護理人員之角色、功能與展望"
-   ]
+   "missing": []
   },
   "社區-Ch14傳染病防治與護理": {
    "missing": [
