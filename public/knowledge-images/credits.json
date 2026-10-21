@@ -678,5 +678,128 @@
     "license": "原創",
     "sourceUrl": "",
     "modified": ""
+  },
+  "injection-angles.svg": {
+    "title": "注射角度與深度",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "z-track.svg": {
+    "title": "Z 字形注射",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "thermoregulation.svg": {
+    "title": "體溫調節",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "fever-stages.svg": {
+    "title": "發燒三期：設定點與體溫",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "pulse-sites.svg": {
+    "title": "常用脈搏測量部位",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "korotkoff-sounds.svg": {
+    "title": "柯氏音與血壓判讀",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "iv-fluid-tonicity.svg": {
+    "title": "紅血球在不同張力溶液中的變化",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-urinary-tract.svg": {
+    "title": "Urinary tract (male)(SMART Urinary system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 3)，移除英文標籤、指標線、背景與標誌，裁切並左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-kidney-section.svg": {
+    "title": "Kidney, coronal section(SMART Urinary system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 5)，移除英文標籤、指標線、背景與標誌，裁切並左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-renal-corpuscle.svg": {
+    "title": "Renal corpuscle(SMART Urinary system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 10)，移除英文標籤、指標線、背景與標誌，裁切並左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "nephron-functions.svg": {
+    "title": "腎元各段的功能",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "dialysis-principles.svg": {
+    "title": "透析的原理",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "av-fistula.svg": {
+    "title": "動靜脈瘻管與人工血管",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "peritoneal-dialysis.svg": {
+    "title": "腹膜透析的換液步驟",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-hydronephrosis.svg": {
+    "title": "Hydronephrosis(SMART Urinary system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 18)，只保留右側切面，移除英文標籤、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "bladder-irrigation.svg": {
+    "title": "前列腺手術後的膀胱連續沖洗",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "im-injection-sites.jpg": {
+    "title": "肌肉注射部位的定位",
+    "author": "多保命(使用者以 AI 生成底圖)",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": "裁掉外框並轉 JPG；中文標籤另以疊加層顯示"
   }
 }

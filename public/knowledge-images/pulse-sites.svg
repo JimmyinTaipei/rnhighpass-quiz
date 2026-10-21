@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 860" width="1000" height="860" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>脈搏測量部位</title>
+<rect width="1000" height="860" fill="#FFFFFF"/>
+<text x="500" y="34" font-size="20" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">常用脈搏測量部位(示意，正面)</text>
+<path d="M500,70 C540,70 560,100 560,135 C560,170 540,190 525,198 L525,215 C590,225 640,240 660,280 L700,470 L715,560 L690,565 L665,470 L620,330 L612,470 L620,560 L600,800 L555,800 L540,560 L500,560 L460,560 L445,800 L400,800 L380,560 L388,470 L380,330 L335,470 L310,565 L285,560 L300,470 L340,280 C360,240 410,225 475,215 L475,198 C460,190 440,170 440,135 C440,100 460,70 500,70 Z" stroke="#9C6B53" stroke-width="2" fill="#F3D2BD"/>
+<line x1="452" y1="118" x2="308" y2="105" stroke="#9E9E9E" stroke-width="1.2"/>
+<circle cx="452" cy="118" r="7" fill="#B71C1C" stroke="#fff" stroke-width="2"/>
+<text x="300" y="110" font-size="15" fill="#B71C1C" text-anchor="end" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">顳動脈</text>
+<line x1="478" y1="190" x2="308" y2="185" stroke="#9E9E9E" stroke-width="1.2"/>
+<circle cx="478" cy="190" r="7" fill="#B71C1C" stroke="#fff" stroke-width="2"/>
+<text x="300" y="190" font-size="15" fill="#B71C1C" text-anchor="end" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">頸動脈</text>
+<line x1="545" y1="300" x2="692" y2="245" stroke="#9E9E9E" stroke-width="1.2"/>
+<circle cx="545" cy="300" r="7" fill="#B71C1C" stroke="#fff" stroke-width="2"/>
+<text x="700" y="250" font-size="15" fill="#B71C1C" text-anchor="start" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">心尖脈(左鎖骨中線第 5 肋間)</text>
+<line x1="336" y1="440" x2="208" y2="425" stroke="#9E9E9E" stroke-width="1.2"/>
+<circle cx="336" cy="440" r="7" fill="#B71C1C" stroke="#fff" stroke-width="2"/>
+<text x="200" y="430" font-size="15" fill="#B71C1C" text-anchor="end" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">肱動脈(肘窩內側)</text>
+<line x1="318" y1="520" x2="208" y2="515" stroke="#9E9E9E" stroke-width="1.2"/>
+<circle cx="318" cy="520" r="7" fill="#B71C1C" stroke="#fff" stroke-width="2"/>
+<text x="200" y="520" font-size="15" fill="#B71C1C" text-anchor="end" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">橈動脈(腕內側拇指側)</text>
+<line x1="465" y1="540" x2="208" y2="595" stroke="#9E9E9E" stroke-width="1.2"/>
+<circle cx="465" cy="540" r="7" fill="#B71C1C" stroke="#fff" stroke-width="2"/>
+<text x="200" y="600" font-size="15" fill="#B71C1C" text-anchor="end" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">股動脈(鼠蹊)</text>
+<line x1="580" y1="650" x2="692" y2="635" stroke="#9E9E9E" stroke-width="1.2"/>
+<circle cx="580" cy="650" r="7" fill="#B71C1C" stroke="#fff" stroke-width="2"/>
+<text x="700" y="640" font-size="15" fill="#B71C1C" text-anchor="start" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">膕動脈(膝後，微彎膝)</text>
+<line x1="425" y1="775" x2="208" y2="765" stroke="#9E9E9E" stroke-width="1.2"/>
+<circle cx="425" cy="775" r="7" fill="#B71C1C" stroke="#fff" stroke-width="2"/>
+<text x="200" y="770" font-size="15" fill="#B71C1C" text-anchor="end" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">脛後動脈(內踝後方)</text>
+<line x1="585" y1="790" x2="692" y2="795" stroke="#9E9E9E" stroke-width="1.2"/>
+<circle cx="585" cy="790" r="7" fill="#B71C1C" stroke="#fff" stroke-width="2"/>
+<text x="700" y="800" font-size="15" fill="#B71C1C" text-anchor="start" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">足背動脈(第 1、2 趾骨間)</text>
+<text x="500" y="845" font-size="13" fill="#555" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">成人最常用橈動脈；休克、CPR 用頸動脈(一次一側)；下肢循環看足背動脈；3 歲以下心尖約第 4 肋間</text>
+</svg>

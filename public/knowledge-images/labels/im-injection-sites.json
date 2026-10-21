@@ -1,0 +1,116 @@
+{
+ "image": "im-injection-sites.jpg",
+ "_說明": "肌肉注射四個部位(左上三角肌、右上腹臀肌、左下背臀肌、右下股外側肌)；底圖由使用者以 AI 生成(2026-10-21)，標籤放大格線核對點位",
+ "labels": [
+  {
+   "id": "acromion",
+   "zh": "肩峰",
+   "en": "Acromion",
+   "x": 20,
+   "y": 16,
+   "tx": 10,
+   "ty": 9,
+   "align": "end"
+  },
+  {
+   "id": "deltoid",
+   "zh": "三角肌注射點",
+   "en": "Deltoid site",
+   "x": 26.3,
+   "y": 26,
+   "tx": 10,
+   "ty": 24,
+   "align": "end"
+  },
+  {
+   "id": "radial",
+   "zh": "避開橈神經",
+   "en": "Avoid radial nerve",
+   "x": 25,
+   "y": 39,
+   "tx": 10,
+   "ty": 41,
+   "align": "end"
+  },
+  {
+   "id": "iliac-crest",
+   "zh": "髂嵴",
+   "en": "Iliac crest",
+   "x": 70,
+   "y": 10.5,
+   "tx": 60,
+   "ty": 4,
+   "align": "end"
+  },
+  {
+   "id": "ventrogluteal",
+   "zh": "腹臀肌注射點",
+   "en": "Ventrogluteal site",
+   "x": 80,
+   "y": 14.5,
+   "tx": 88,
+   "ty": 9,
+   "align": "start"
+  },
+  {
+   "id": "trochanter",
+   "zh": "股骨大粗隆",
+   "en": "Greater trochanter",
+   "x": 79,
+   "y": 31.5,
+   "tx": 88,
+   "ty": 34,
+   "align": "start"
+  },
+  {
+   "id": "dorsogluteal",
+   "zh": "背臀肌：外上象限",
+   "en": "Dorsogluteal site",
+   "x": 10,
+   "y": 67,
+   "tx": 6,
+   "ty": 54.5,
+   "align": "start"
+  },
+  {
+   "id": "sciatic",
+   "zh": "坐骨神經",
+   "en": "Sciatic nerve",
+   "x": 19.3,
+   "y": 88,
+   "tx": 24,
+   "ty": 97.5,
+   "align": "start"
+  },
+  {
+   "id": "trochanter-2",
+   "zh": "大粗隆",
+   "en": "Greater trochanter",
+   "x": 72.5,
+   "y": 61,
+   "tx": 65,
+   "ty": 61,
+   "align": "end"
+  },
+  {
+   "id": "vastus",
+   "zh": "股外側肌注射點",
+   "en": "Vastus lateralis site",
+   "x": 72.3,
+   "y": 77.5,
+   "tx": 65,
+   "ty": 77.5,
+   "align": "end"
+  },
+  {
+   "id": "knee",
+   "zh": "膝",
+   "en": "Knee",
+   "x": 75,
+   "y": 91,
+   "tx": 65,
+   "ty": 91,
+   "align": "end"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "image": "servier-kidney-section.svg",
+ "_說明": "腎臟冠狀切面：被膜、皮質、腎錐體(髓質)、腎柱、腎小盞、腎盂、輸尿管(2026-10-21 第 9 輪，放大格線核對點位)",
+ "labels": [
+  {
+   "id": "capsule",
+   "zh": "腎被膜",
+   "en": "Renal capsule",
+   "x": 31,
+   "y": 35,
+   "tx": 18,
+   "ty": 25,
+   "align": "end"
+  },
+  {
+   "id": "cortex",
+   "zh": "皮質",
+   "en": "Cortex",
+   "x": 34,
+   "y": 50,
+   "tx": 18,
+   "ty": 45,
+   "align": "end"
+  },
+  {
+   "id": "pyramid",
+   "zh": "腎錐體(髓質)",
+   "en": "Renal pyramid",
+   "x": 40,
+   "y": 55,
+   "tx": 18,
+   "ty": 62,
+   "align": "end"
+  },
+  {
+   "id": "calyx",
+   "zh": "腎小盞",
+   "en": "Minor calyx",
+   "x": 46,
+   "y": 37,
+   "tx": 82,
+   "ty": 20,
+   "align": "start"
+  },
+  {
+   "id": "column",
+   "zh": "腎柱",
+   "en": "Renal column",
+   "x": 44.5,
+   "y": 45.5,
+   "tx": 82,
+   "ty": 33,
+   "align": "start"
+  },
+  {
+   "id": "pelvis",
+   "zh": "腎盂",
+   "en": "Renal pelvis",
+   "x": 56,
+   "y": 48,
+   "tx": 82,
+   "ty": 48,
+   "align": "start"
+  },
+  {
+   "id": "ureter",
+   "zh": "輸尿管",
+   "en": "Ureter",
+   "x": 68,
+   "y": 85,
+   "tx": 82,
+   "ty": 85,
+   "align": "start"
+  }
+ ]
+}

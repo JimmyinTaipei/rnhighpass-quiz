@@ -5,6 +5,109 @@
 
 ## 目前輪次
 
+- **輪次**：第 10 輪 基護 B(拆 10a、10b，各自收尾寫回)＋標籤合併(基護其餘章＋產兒)
+- **計畫**：[round-plans-8-12.md](round-plans-8-12.md)「第 10 輪」(2026-10-20 核准)
+- **每輪一個新對話**(使用者 2026-10-20)：開工先讀本檔 → round-plans-8-12.md 第 10 輪 → 路線圖跨輪移交清單；收尾時本檔換到下一輪並建步驟表
+- **範圍**(未涵蓋，計畫時)：基護 Ch07 舒適 91、Ch15 排泄 90、Ch12 營養 80、Ch11 冷熱 72、Ch08 活動 50、Ch06 護理過程 47、Ch04 記錄 40、Ch03 觀察溝通 39、Ch01 緒論 32、Ch18 出入院 27、Ch16 繃帶 25、Ch02 環境剩餘、Ch09 睡眠 9；開工時重跑涵蓋報告更新數字
+- **跨輪移交(交給本輪，見路線圖)**：
+   1. 第 5 輪：營養評估、治療飲食、管灌與 TPN(連 nutritional-disorders)；冷療組織傷害(112-1_FA_021)與燙傷 10 題(連 environmental-injury#heat-injury)
+   2. 第 8 輪：約束已在 patient-safety-environment#restraint，舒適與活動頁只連過去；鼻胃管給藥已在 non-parenteral-medication，管灌與 TPN 頁連過去、TPN 走中心靜脈連 iv-therapy
+   3. 第 9 輪：尿液與 24 小時尿液檢體已寫在 urinalysis#nursing(admission-discharge-specimens 只連過去)；urinary-elimination 收尿滯留、導尿、膀胱訓練與凱格爾技術、基護 Ch15 尿失禁與尿滯留題，做好後把 urologic-disorders 兩處「基本護理排泄頁另外整理」改成連結並連 urologic-disorders#incontinence；第 8 輪留下的安胎藥物 vs 安胎用藥(tag-merge-round8.md 第五節)
+- **課本 OCR**：基本護理學上下冊、內外科護理技術、內外科護理學上下冊、兒科護理學已全書 OCR 在 `相關資源/國考書（最終參考用）/ocr/`(含 PDF 頁↔書頁對照 tsv)
+- **圖片**：使用者會用 AI 生成底圖，再由我裁切、改名放進 `public/knowledge-images/` 並補中文標籤(第 9 輪 G 組 im-injection-sites 的做法；原圖移到 `相關資源/AI底圖/`)
+- **狀態**：⬜ 尚未開工
+
+## 第 10 輪步驟
+
+| 步 | 內容 | 狀態 |
+|---|---|---|
+| 10-0a | 標籤合併：基護其餘章＋產兒(產科全部、兒科 Ch01–05、16)；只合併真正同義，拿不準的列待決定；含安胎藥物 vs 安胎用藥 | ⬜ |
+| 10-0b | 來源包 `sources/fundamentals-b.md`(課本 OCR 對應章；國健署飲食指南、治療飲食、腸造口與導尿衛教單張、NPIAP 2019) | ⬜ |
+| A | `procedure/hygiene-comfort-care`、`procedure/positioning-body-mechanics` | ⬜ |
+| B | `care/activity-immobility`、`disease/pressure-injury`、`care/sleep-rest` | ⬜ |
+| C | `procedure/heat-cold-therapy`(含冷療傷害與燙傷移交題) | ⬜ |
+| D | `care/nutrition-assessment-diets`、`procedure/enteral-parenteral-nutrition`；**10a 收尾＋寫回 Supabase＋部署** | ⬜ |
+| E | `procedure/bowel-elimination`、`procedure/urinary-elimination`(第 9 輪移交) | ⬜ |
+| F | `care/nursing-process`、`care/documentation-orders` | ⬜ |
+| G | `care/observation-communication`、`care/nursing-concepts-health` | ⬜ |
+| H | `procedure/bandaging`、`procedure/admission-discharge-specimens`；**10b 收尾＋寫回 Supabase＋部署** | ⬜ |
+
+## 第 9 輪摘要(已完成)
+
+- **輪次**：第 9 輪 腎與體液＋透析／CRRT＋標籤合併(腎泌尿＋體液電解質)
+- **計畫**：[round-plans-8-12.md](round-plans-8-12.md)「第 9 輪」(2026-10-20 核准)
+- **每輪一個新對話**(使用者 2026-10-20)：開工先讀本檔 → round-plans-8-12.md 第 9 輪 → 路線圖跨輪移交清單；收尾時本檔換到下一輪並建步驟表
+- **本週目標**：第 8、9、10 輪做完；額度夠再做 11、12
+- **範圍**(未涵蓋，計畫時)：內外 Ch10 119、Ch04 36、生解 Ch10 51、Ch11 29、病理 Ch14 22、兒科 Ch12 25、藥理 Ch07 9
+- **跨輪移交(交給本輪)**：tag-merge-round5.md 第六節的腎與泌尿同義標籤；第 8 輪留下的尿路感染 vs 泌尿道感染、腎衰竭 vs 腎臟衰竭、電解質用藥 3 個變體(tag-merge-round8.md 第五節)
+- **課本 OCR**：三本基護與技術書已 OCR 在 `相關資源/國考書（最終參考用）/ocr/`；內外科護理學上下冊若沒有文字層，照 8-0b 的 ocr.swift＋pagemap.py 做
+- **狀態**：**第 9 輪全部完成(2026-10-21)**：生解 Ch10、Ch11、病理 Ch14、兒科 Ch12 100%，內外 Ch10 99%、Ch04 98%、藥理 Ch07 95%；全部 6205 → 6455/8960；11 篇新頁；已寫回 Supabase(刪 73 筆舊標籤)並部署 workers.dev；需確認清單見下；下一輪第 10 輪基護 B
+
+- **收尾要記得**(A–C 組留下，✅ G 組已做)：kidney-urinary-physiology 回補連到 fluid-electrolytes、acute-kidney-injury、chronic-kidney-disease(EPO 段、老年段)；urinalysis 與 renal-function-tests 的「AKI 頁」字樣改成連結；CKD 的造血藥物頁留第 12 輪；路線圖新增移交列給第 10 輪：尿液與 24 小時尿液檢體已寫在 urinalysis#nursing，admission-discharge-specimens 只連過去
+
+## 第 9 輪步驟
+
+| 步 | 內容 | 狀態 |
+|---|---|---|
+| 9-0a | 標籤合併：腎泌尿＋體液電解質＋移交的同義標籤，04／05 同步改 **73 題**(慢性腎衰竭、末期腎疾病→慢性腎臟病；急性腎損傷→急性腎衰竭；尿路感染→泌尿道感染；尿瀦留→尿滯留；應力性→壓力性尿失禁；前列腺肥大 4 個變體→良性前列腺肥大；泌尿道結石→尿路結石；利尿劑用藥→利尿劑；電解質調節劑等→高血鉀用藥等 21 組＋逐題 9 題)；範圍內無標籤 58 題都是解剖生理與檢查題，不補標；頁面舊名(urinary-tract-infection 的尿路感染、taxonomy 利尿劑用藥)收尾寫回後移除；對照見 [tag-merge-round9.md](tag-merge-round9.md) | ✅ 2026-10-21(Supabase 收尾寫回；無待決定) |
+| 9-0b | 來源包 [sources/renal.md](sources/renal.md)：內外科護理學上下冊、兒科護理學全書 OCR(到 `ocr/`，後面幾輪共用)；本輪書頁(上冊 Ch3 體液酸鹼 109–151、下冊 Ch19 泌尿 765–868、Ch20 BPH 932、兒科泌尿生殖約 582–)；ICU Book Ch10–11、31–38 PDF 頁；**KDIGO 現況**：AKI 仍 2012 版(2026 AKI／AKD 草案徵詢已結束、未出版)、CKD 2024(2027 用藥更新草案徵詢中)、**貧血 2026 正式版(Hb ≤ 11.5)**、IgAN／IgAV 2025、兒童腎病症候群 2025；2024 台灣腎病年報(資料年 2022)；北醫瘻管衛教；新舊說法表 8 項；公開文件存 `相關資源/腎臟相關/` | ✅ 2026-10-21 |
+| 9-0c | taxonomy renal 加 description 與 4 個 groups(kidney-physiology、kidney-diseases、urologic-diseases、dialysis-transplant(device))，urinary-tract-infection 歸 urologic-diseases；build 通過(296 篇)；圖片盤點 [sources/renal-images.md](sources/renal-images.md)(Servier 泌尿套組 12 張看過縮圖；必做 9 張：泌尿道全景、腎臟切面、腎小體(Servier)、腎元分段、體液分布、透析原理、血液透析迴路、瘻管、腹膜透析(原創)；既有 diuretic-sites-nephron、raas-drug-sites 沿用) | ✅ 2026-10-21 |
+| A | `physiology/kidney-urinary-physiology`(構造、腎元與過濾屏障、GFR 決定因素表、各段再吸收分泌表、清除率表、逆流倍增與交換、激素表、腎臟內分泌與酸鹼、輸尿管三狹窄、排尿反射神經表、妊娠新生兒老年；約 57 題)；**lab 拆成三篇**以符合 method：`lab/renal-function-tests`(blood：BUN、Cr、BUN/Cr 表、CCr 公式與例題、eGFR 分期；課本 BUN 5–25、Cr 0.7–1.4、CCr 男 90–139 vs 國考 95–135 並列；約 13 題)、`lab/urinalysis`(specimen：基護表 15-2 與內外表 19-7 參考值並列、顏色表、血尿、中段尿、導尿管採檢、兒童集尿袋、24 小時尿液；收基護 Ch18 尿液檢體題；約 21 題)、`lab/urologic-diagnostic-procedures`(invasive：KUB、IVP、逆行性腎盂攝影、腎動脈攝影、腎切片(穿刺點第 12 肋骨與腸骨嵴之間)、膀胱鏡、尿流速、CMG；約 12 題)；新圖 Servier 3 張(泌尿道、腎臟切面、腎小體，標籤逐點核對)＋原創 nephron-functions(**待使用者確認**)；**生解 Ch10 31% → 100%**、內外 Ch10 39% → 52%、基護 Ch18 72%；**全部 6205 → 6283/8960**；build(300 篇)、resolver、source-scan(4 篇無重疊)、本機 4 頁與 4 張圖 200(測完已關) | ✅ 2026-10-21 |
+| B | `physiology/fluid-electrolytes`(體液分布表、移動機轉表、調節表、容積缺失三型表、兒童脫水分級(兒科課本表 10-8)、容積過量與水中毒、燒傷休克期與利尿期表、電解質總覽表、低／高血鈉、鎂；約 30 題)；**abg** 新增「酸鹼的調節機轉」(緩衝系統、三道防線、尿 pH)與「代謝性酸中毒與代謝性鹼中毒」(原因症狀處置表、判讀練習表)；**potassium** 高血鉀處置補 5 題；**生解 Ch11 69% → 100%、內外 Ch04 79% → 98%**(剩 106-2_MS_080 送分題、106-2_MS_016 腸阻塞留第 11 輪) | ✅ 2026-10-21 |
+| C | `disease/acute-kidney-injury`(三類原因表、KDIGO 2012 分期表＋2026 草案註記、四期病程表、少尿期表現表、腎前性 vs 腎性指標表、液體計算、透析適應症表、兒童(兒科課本 p.610–611)；約 14 題)、`disease/chronic-kidney-disease`(定義與 CGA、分期與課本護理指導表 19-16、全身表現表 19-17、血壓新舊並列(國考 130/85、課本 130/80、KDIGO 2021 收縮壓 < 120)、腎性貧血 KDIGO 2026、鈣磷骨病變、飲食表 19-18 與 KDIGO 2024 蛋白質 0.8 並列、台灣年報；約 30 題)；新規則：chapters 的 H3 要該 H3 ≥ 15 題才能單獨對照；**內外 Ch10 52% → 66%**、兒科 Ch12 51%、病理 Ch14 58%；**全部 6283 → 6351/8960**；build(303 篇)、resolver、source-scan(5 篇無重疊)、本機 5 頁 200(測完已關) | ✅ 2026-10-21 |
+| D | `device/dialysis-crrt`(透析原理表與透析液設計、血液透析流程、血管通路表(雙腔、Perm Cath、AVF、AVG)、瘻管照護(握球：課本術後 24 小時 vs 北醫第 3 天並列)、通路併發症、透析前中後護理、乾體重(課本 5–6%、國考 5%)、HD 合併症表(低血壓、不平衡症候群、痙攣、出血)、腹膜透析步驟與飲食、PD 合併症表＋ISPD 2022 腹膜炎診斷、HD vs PD 比較表、CRRT(ICU Book、KDIGO 2012 局部檸檬酸)、兒童透析、腎移植一節(排斥與用藥連 immunosuppressants)；chapters 用 H3「透析治療與腎臟移植」(24 題)；新圖 4 張：servier-hemodialysis(標籤 4 個，格線核對)、原創 dialysis-principles、av-fistula、peritoneal-dialysis(**待審核**)；透析題 13 題全收；AKI、CKD 的「透析頁」字樣已改成連結；**全部 6351 → 6364** | ✅ 2026-10-21 |
+| E | `disease/glomerular-diseases`(腎炎 vs 腎病症候群比較表、AGN 機轉檢查照護、慢性腎絲球腎炎、腎病症候群機轉與成人兒童檢查值、**KDIGO 2025 兒童首次類固醇 8 或 12 週**與課本療程並列、RPGN、IgA 腎病變、多囊腎；C3 下降(課本寫 C3、C4 都降，註記 C4 多正常))、`disease/pediatric-genitourinary`(兒童腎功能與尿量、VCUG、VUR 分級表＋課本 AAP 2011 與 RIVUR 2014 並列、隱睪症(課本 2 歲前 vs AUA 2014 18 個月前、不建議荷爾蒙)、尿道下裂術後、尿道上裂、包莖、Wilms 連 pediatric-cancers)；loop-diuretics 補 1 題；**兒科 Ch12 51% → 100%**、病理 Ch14 87%、藥理 Ch07 88%、內外 Ch10 78%(剩下都是 F 組：結石、BPH、TURP、膀胱癌、腎癌、尿失禁)；**全部 6364 → 6407/8960**；build(306 篇)、resolver、source-scan(4 篇無重疊) | ✅ 2026-10-21 |
+| F | `disease/urologic-disorders`(結石成分與 pH 表、腎絞痛、ESWL／PCNL 等處置表、預防復發(課本每天 3,000–4,000 mL、EAU 尿量 2.0–2.5 L)、水腎與阻塞後利尿、BPH 病理與 IPSS、藥物第一線、TURP 術後(三腔導尿管、CBI 用生理食鹽水、TUR 症候群、逆行性射精多為永久、3 個月衛教)、前列腺癌、膀胱癌與膀胱灌注(至少 2 小時、每 15 分翻身)、尿路改道表與造口照護、腎細胞癌、尿失禁六型比較表與藥物、凱格爾與膀胱訓練、勃起障礙 cGMP；國考 113-2 與 113-3 對 BPH 頻尿夜尿是否最早出現答案不一致，頁面並列)；新圖：servier-hydronephrosis(只留切面，5 個標籤格線核對)、原創 bladder-irrigation(**待審核**)；**內外 Ch10 78% → 99%、病理 Ch14 87% → 100%、藥理 Ch07 95%**；**全部 6407 → 6455/8960**；build(307 篇)、resolver、source-scan(無重疊)；剩下的範圍內題目都屬他系統：107-1_MS_078 溺水、113-1_MS_007 肝硬化與 106-2_MS_016 腸阻塞(第 11 輪)、107-1_MS_020 骨鬆(肌骨輪)、106-2_MS_080 送分；**移交**：睪丸腫瘤(病理 Ch15 3 題)、前列腺與男性生殖解剖(生解 Ch13)留生殖輪；尿滯留、導尿、膀胱訓練技術與基護 Ch15 尿失禁題留第 10 輪 urinary-elimination(本頁文字寫「基本護理排泄頁另外整理」，第 10 輪做好後改成連結) | ✅ 2026-10-21 |
+| G | 收尾＋使用者看圖後修改：im-injection-sites 改用使用者 AI 底圖(裁外框、轉 JPG、11 個標籤格線核對；圖說註明腹臀肌手勢只示意；原圖移到 `相關資源/AI底圖/`；舊 SVG 刪除)；servier-hemodialysis 因通路畫在肘窩附近而**刪除**(頁面、標籤檔、credits 一併移除)；bladder-irrigation 重畫成沖洗液接到三腔導尿管體外端的流入腔；5 處回補連結(kidney-urinary-physiology 連 fluid-electrolytes、AKI、CKD#anemia、CKD#staging；urinalysis、renal-function-tests 的「AKI 頁」改連 AKI#diagnosis；AKI、CKD 的透析頁字樣 D 組已改)；11 篇補縮寫英文全名 116 處；路線圖：第 6 輪 CRRT 列改為已在 dialysis-crrt、標籤合併列腎打勾、新增 6 列(第 10、11、12、14、15、16 輪)；`sync_all.py` 寫回(questions 8960、question_tags 16687)、刪除 73 筆 9-0a 合併前的舊標籤列(DB＝來源 16687)；urinary-tract-infection dzTags 移除尿路感染、taxonomy diuretics 移除利尿劑用藥；重跑 build(307 篇)、resolver、export、source-scan(新增 3 筆檢視都是 KDIGO 全名)、image-license-review(113 張、需替換 0)；部署 workers.dev，11 篇新頁與 injections、新圖線上 200 | ✅ 2026-10-21 |
+
+### 第 9 輪需確認清單
+
+1. 圖片待審核：A 組 servier-urinary-tract、servier-kidney-section、servier-renal-corpuscle、nephron-functions；D 組 dialysis-principles、av-fistula、peritoneal-dialysis；F 組 servier-hydronephrosis；G 組重畫的 bladder-irrigation、改用 AI 底圖的 im-injection-sites(腹臀肌手勢與教科書不同，已在圖說註明)；fluid-electrolytes 沒做體液分布圖，用表格
+2. 台灣活體捐腎年齡：國考題寫 20 歲以上，《人體器官移植條例》現行年齡規定未核對(dialysis-crrt#transplant 寫「待核對」)
+3. CRRT 照護「注意體溫」標為一般照護原則、待核對(dialysis-crrt#crrt)
+4. 急性腎絲球腎炎補體：內外科課本寫 C3、C4 都下降，兒科課本只寫 C3；頁面註記 PSGN 的 C4 多正常，沒有附來源(glomerular-diseases#agn-diagnosis)
+5. 硫酸鎂監測數值(呼吸 ≥ 12–16 次／分、尿量約 25–30 mL/h)依臨床常用寫法，產科輪再對產科課本(fluid-electrolytes)
+6. 國健署護腎「三少」(少鹽、少油、少糖)依國考答案，國健署原始衛教未核對(chronic-kidney-disease)
+7. 已並列、不需確認但提醒：CKD 血壓目標(國考 130/85、課本 < 130/80、KDIGO 2021 收縮壓 < 120)；CKD 蛋白質(課本 0.6、KDIGO 2024 0.8 g/kg)；腎性貧血(課本 Hct 33–36%、KDIGO 2026 Hb ≤ 11.5)；握球運動開始時間(課本 24 小時、北醫第 3 天)；兒童腎病症候群類固醇(課本療程、KDIGO 2025 8 或 12 週)；VUR 預防性抗生素(課本 AAP 2011、RIVUR 2014)；隱睪手術時機(課本 2 歲前、AUA 2014 18 個月前)；BPH 頻尿夜尿是否最早出現(113-2 與 113-3 國考答案不一致)
+
+## 第 8 輪摘要(已完成)
+
+- **輪次**：第 8 輪 基護 A(給藥、體溫脈搏血壓、體液供給＋安全環境)＋標籤合併(基護 Ch10、13、14＋肌骨皮膚)
+- **計畫**：[round-plans-8-12.md](round-plans-8-12.md)「第 8 輪」(2026-10-20 核准；第 8–12 輪共用一份計畫，共通規則與收尾順序也在裡面)
+- **每輪一個新對話**(使用者 2026-10-20)：開工先讀本檔 → round-plans-8-12.md 對應的輪 → 路線圖跨輪移交清單；收尾時本檔換到下一輪並建步驟表
+- **本週目標**：第 8、9、10 輪做完；額度夠再做 11、12
+- **範圍**(未涵蓋，2026-10-20)：基護 Ch13 給藥 116、Ch10 體溫 32／脈搏 22／血壓 10／綜合 11、Ch14 體液供給 65、Ch02 醫療環境控制 18
+- **課本**：`相關資源/國考書（最終參考用）/基本護理學上冊.pdf`(552 頁)、`下冊.pdf`(593 頁)、`內外科護理技術.pdf`(477 頁，只當參考)；三本都沒有文字層，要 Vision OCR(第 7 輪的 ocr.swift 在舊 scratchpad，要重寫)；PDF 頁 ≠ 書頁，8-0b 建對照表
+- **跨輪移交(交給本輪)**：安全環境(火災 RACE、用氧安全，113-2_FA_004)
+- **狀態**：**第 8 輪全部完成(2026-10-20)**：基護 Ch02、10、13、14 全部 100%、基護 47% → 65%、全部 5906 → 6205/8960；7 篇新頁；已寫回 Supabase 並部署 workers.dev；8 張原創圖全部**待審核**(肌肉注射部位、脈搏部位之後改用使用者的 AI 底圖再補標籤)；需確認清單見下；下一輪第 9 輪腎與體液
+
+## 第 8 輪步驟
+
+| 步 | 內容 | 狀態 |
+|---|---|---|
+| 8-0a | 標籤合併：基護 Ch10、13、14＋肌骨皮膚，04／05 同步改 **67 題**(基護 A 9 組：便祕→便秘、體液不平衡等→體液失衡、體溫過低→低體溫、浸潤 4 個名稱→靜脈注射浸潤、解熱鎮痛 3 個變體→解熱鎮痛用藥等；肌骨皮 8 組：骨性關節炎等→退化性關節炎、腔隙症候群等→腔室症候群、**壓傷→壓力性損傷**(依 NPIAP 譯名，非題數)、牛皮癬→乾癬、痛風性關節炎→痛風、痛風用藥 2 個變體等)；範圍內無標籤題(基護 A 144、肌骨皮 118)逐題看過都是技術或解剖題，不補標；腎泌尿與產兒的同義標籤記在第五節留給第 9、10 輪；對照見 [tag-merge-round8.md](tag-merge-round8.md) | ✅ 2026-10-20(Supabase 收尾寫回；無待決定) |
+| 8-0b | 三本課本全書 OCR(上冊 552、下冊 593、內外科護理技術 477 頁；macOS Vision)，文字與 PDF↔書頁對照表存 `相關資源/國考書（最終參考用）/ocr/`(本機，第 10 輪也用)；來源包 [sources/fundamentals-a.md](sources/fundamentals-a.md)：本輪章節書頁、課本現況摘記、管制藥品管理條例、**115–116 年醫院版病安目標**(2026-03-18 公告，課本引的是 2022–2023 版)、ISMP 錯誤縮寫、醫院血品文件、約束衛教、新舊說法表 8 項(三讀五對 vs 七對、腹臀肌優先、IM 回抽 vs CDC 疫苗不回抽、水銀體溫計停售等)；公開文件存 `相關資源/基護相關/` | ✅ 2026-10-20 |
+| 8-0c | taxonomy fundamentals 加 description 與 4 個 groups(medication-administration、vital-signs、fluids-transfusion 為 procedure；safety-infection-control 為 care，infection-control、asepsis-sterilization 已歸入)；體溫頁改為 `procedure/body-temperature`；build 通過(289 篇)；圖片盤點 [sources/fundamentals-a-images.md](sources/fundamentals-a-images.md)(18 項：原創 9、Servier 5、表格 4；必做：注射角度、肌肉注射部位、發燒分期、脈搏部位；本機沒有 LibreOffice，Servier 只用投影片標題盤點，寫到該組再轉 SVG 看) | ✅ 2026-10-20 |
+| A | `procedure/medication-administration-principles`(藥名、劑型與吸收快慢、交互作用與食物、依賴性、兒童劑量公式；醫囑種類 St／S.O.S.／p.r.n.、口頭醫囑；縮寫表加 ISMP 避免使用欄；常規給藥時間；三讀五對(課本：單一劑量藥車的三讀時機)、條碼給藥流程；劑量計算 12 例；給藥系統、保存溫度與開封期限；高警訊與 KCl、管制藥品四級；給藥安全與拒服漏服處理；約 68 題) | ✅ 2026-10-20 |
+| B | `procedure/injections`(共通原則、抽藥、四種注射比較、四個肌肉注射部位、回抽的國考 vs CDC 疫苗、Z 字形與預留氣泡、皮下胰島素與肝素、皮內與 PST／TST、IV push 法規、兒童注射；約 23 題)、`procedure/non-parenteral-medication`(口服禁忌與特殊藥、鐵劑、兒童餵藥與量藥、鼻胃管給藥、肛門栓劑步驟表(深度：國考 6.4–7.6 cm 與課本 2–4 cm 並列)、陰道、吸入、眼耳鼻滴入、Fentanyl 貼片；約 20 題)；新圖 injection-angles、im-injection-sites、z-track(原創，**待使用者確認**) | ✅ 2026-10-20 |
+| C | `procedure/body-temperature`(調節與四種散熱、影響因素、測量部位表、發燒分期與型態、發燒護理、熱衰竭 vs 中暑、低體溫分級與回溫；約 32 題)、`procedure/pulse-blood-pressure`(脈搏四特性、異常脈律表、部位表、心尖脈時機、MAP 與決定因素、壓脈帶與步驟表、誤差表、兒童生命徵象、綜合判斷；約 43 題)；新圖 thermoregulation、fever-stages、pulse-sites、korotkoff-sounds(原創，**待使用者確認**) | ✅ 2026-10-20 |
+| D | `procedure/iv-therapy`(體液評估、張力表與各溶液注意、選靜脈與讓靜脈明顯、設備與套管滴數、滴速計算 11 例、輸液中照護、併發症表(浸潤濕熱敷；靜脈炎課本濕冷敷與國考溫敷並列)、燒傷 Parkland、營養途徑；約 65 題)；**blood-transfusion 不另開**(既有 transfusion-reactions 已涵蓋，補 1 題)；新圖 iv-fluid-tonicity(原創，**待使用者確認**)；**基護 Ch10、13、14 全部 100%**、基護 47% → 64%、**全部 5906 → 6173/8960**；build(295 篇)、resolver、source-scan(6 頁無重疊)、image-license-review(104 張需替換 0)、本機 3005 埠 7 頁與 8 張圖 200(測完已關) | ✅ 2026-10-20 |
+| E | `care/patient-safety-environment`(舒適環境表、傷害分類、跌倒危險因子與預防表(課本「浴室門口放地毯」「厚底鞋」與國考並列)、約束(CTMS、1–2 指、平結綁床架、兒童手肘約束與雙套結；課本 15–30 分鐘與北醫 30–60 分鐘並列)、火災 RACE 與 PASS＋滅火器分類表、放射線(109-1_FA_016 MRI 雙解註記)、地震、病房廢棄物判斷、病人單位與汙漬；dzTags 跌倒；**RACE 移交完成**；約 32 題，另收 Ch01、Ch08 約束題與社區 Ch08 老人跌倒 4 題)；infection-control 手部衛生補 107-2_FA_004；delirium 約束結的註記改依華杏課本(平結)；**基護 Ch02 63% → 100%**、基護 65%、**全部 6205/8960**；build(296 篇)、resolver、source-scan 無重疊、本機 3 頁 200(測完已關) | ✅ 2026-10-20 |
+| F | 收尾：11 頁回補連結(oxygen-therapy RACE 預告改連結、hypertension、digoxin、blood-pressure-regulation、insulin、anticoagulants、patient-safety-reporting、potassium、respiratory-assessment、sepsis、hospital-safety-environment、environmental-injury)；6 篇補縮寫英文全名；路線圖移交清單 RACE 打勾並新增 7 列(第 10、13、14、15、16、17 輪)；`sync_all.py` 寫回(questions 8960、question_tags 16693)、刪除 69 筆 8-0a 合併前的舊標籤列(DB＝來源 16693)；頁面與 taxonomy 沒有舊名要清；重跑 build(296 篇)、resolver、export、source-scan(新頁只有 CDC 全名片語)、image-license-review(104 張、需替換 0)；部署 workers.dev，8 頁與 8 張圖線上 200；**圖片先用目前版本上線**(使用者 2026-10-20：AI 底圖之後再換) | ✅ 2026-10-20 |
+
+### 第 8 輪需確認清單
+
+1. 8 張原創圖(injection-angles、im-injection-sites、z-track、thermoregulation、fever-stages、pulse-sites、korotkoff-sounds、iv-fluid-tonicity)全部待審核；**im-injection-sites(✅ 2026-10-21 已換使用者 AI 底圖)、pulse-sites** 等使用者提供 AI 底圖後重做文字標籤(照解剖圖標籤準確度規則逐點核對)
+2. 肛門栓劑深度：課本 2–4 cm vs 國考答案成人約 6.4–7.6 cm(non-parenteral-medication，兩者並列)
+3. 靜脈炎濕冷敷(課本)vs 110-1_MS_029 溫敷為正確(iv-therapy，兩者並列)
+4. S.O.S. 醫囑 12 小時有效、digoxin 漏服 4 小時內補服：只有考題與詳解為依據，未找到院方規範原文(medication-administration-principles)
+5. 結核菌素測驗(TST)判讀切點依課本，CDC 原文未取得(injections)
+6. 手術室溫溼度：國考 20–27 ℃、50–70% vs 課本 20–28 ℃、50–80%(patient-safety-environment)
+7. 《執行精神疾病病人拘束身體或限制行動自由處置辦法》(2024-12-14)原文未下載核對；新頁只寫一般病房約束，精神科連到 schizophrenia#restraint
+
+
+## 第 7 輪摘要(已完成)
+
 - **輪次**：第 7 輪 社區 A＋標籤合併(社區 5 章＋血液剩餘)；計畫檔 `~/.claude/plans/a-peaceful-valiant.md`
 - **範圍**(2026-10-15)：社區 Ch01 73/82、Ch03 44/49、Ch05 90/96、Ch10 79/102、Ch13 35/51 未涵蓋，共 321 題(259 題沒有標籤，用 chapters＋`::questions{ids}` 收錄，照 community-mental-health 做法，不建 com: 標籤)
 - **狀態**：計畫已核准(2026-10-15)；**第 7 輪全部完成(2026-10-16)**：社區 Ch01、03、05、10、13 全部 100%、社區 38% → 67%、全部 5906/8960；已寫回 Supabase 並部署 workers.dev；需確認清單見下；下一輪第 8 輪基護 A

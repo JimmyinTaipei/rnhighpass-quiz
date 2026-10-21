@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>柯氏音</title>
+<rect width="1000" height="520" fill="#FFFFFF"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect x="680.0" y="90" width="11.4" height="290" fill="#B0BEC5" opacity="0.55"/>
+<rect x="634.3" y="90" width="45.7" height="290" fill="#90CAF9" opacity="0.55"/>
+<rect x="577.1" y="90" width="57.1" height="290" fill="#C5E1A5" opacity="0.55"/>
+<rect x="520.0" y="90" width="57.1" height="290" fill="#FFE082" opacity="0.55"/>
+<rect x="440.0" y="90" width="80.0" height="290" fill="#FFFFFF" opacity="0.55"/>
+<rect x="405.7" y="90" width="34.3" height="290" fill="#EF9A9A" opacity="0.55"/>
+<text x="500" y="34" font-size="20" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">柯氏音與血壓判讀(示意)</text>
+<line x1="120" y1="380" x2="920" y2="380" stroke="#333" stroke-width="1.5"/>
+<line x1="120" y1="90" x2="120" y2="380" stroke="#333" stroke-width="1.5"/>
+<line x1="115" y1="380.0" x2="920" y2="380.0" stroke="#EEEEEE" stroke-width="1"/>
+<text x="110" y="385.0" font-size="12" fill="#555" text-anchor="end" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">40</text>
+<line x1="115" y1="338.57142857142856" x2="920" y2="338.57142857142856" stroke="#EEEEEE" stroke-width="1"/>
+<text x="110" y="343.57142857142856" font-size="12" fill="#555" text-anchor="end" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">60</text>
+<line x1="115" y1="297.1428571428571" x2="920" y2="297.1428571428571" stroke="#EEEEEE" stroke-width="1"/>
+<text x="110" y="302.1428571428571" font-size="12" fill="#555" text-anchor="end" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">80</text>
+<line x1="115" y1="255.71428571428572" x2="920" y2="255.71428571428572" stroke="#EEEEEE" stroke-width="1"/>
+<text x="110" y="260.7142857142857" font-size="12" fill="#555" text-anchor="end" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">100</text>
+<line x1="115" y1="214.28571428571428" x2="920" y2="214.28571428571428" stroke="#EEEEEE" stroke-width="1"/>
+<text x="110" y="219.28571428571428" font-size="12" fill="#555" text-anchor="end" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">120</text>
+<line x1="115" y1="172.85714285714286" x2="920" y2="172.85714285714286" stroke="#EEEEEE" stroke-width="1"/>
+<text x="110" y="177.85714285714286" font-size="12" fill="#555" text-anchor="end" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">140</text>
+<line x1="115" y1="131.42857142857142" x2="920" y2="131.42857142857142" stroke="#EEEEEE" stroke-width="1"/>
+<text x="110" y="136.42857142857142" font-size="12" fill="#555" text-anchor="end" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">160</text>
+<line x1="115" y1="90.0" x2="920" y2="90.0" stroke="#EEEEEE" stroke-width="1"/>
+<text x="110" y="95.0" font-size="12" fill="#555" text-anchor="end" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">180</text>
+<text x="70" y="75" font-size="13" fill="#555" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">mmHg</text>
+<text x="920" y="408" font-size="13" fill="#555" text-anchor="end" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">放氣(壓脈帶壓力下降)→</text>
+<path d="M120.0,90.0 L920.0,380.0" stroke="#455A64" stroke-width="2.5" fill="none"/>
+<text x="422.8571428571429" y="108" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">I</text>
+<text x="480.0" y="108" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">隙</text>
+<text x="548.5714285714286" y="108" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">II</text>
+<text x="605.7142857142858" y="108" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">III</text>
+<text x="657.1428571428571" y="108" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">IV</text>
+<text x="685.7142857142858" y="108" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">V</text>
+<line x1="405.7142857142857" y1="90" x2="405.7142857142857" y2="440" stroke="#B71C1C" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="405.7142857142857" y="460" font-size="15" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">第一聲＝收縮壓</text>
+<line x1="691.4285714285714" y1="90" x2="691.4285714285714" y2="440" stroke="#1565C0" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="691.4285714285714" y="460" font-size="15" fill="#1565C0" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">聲音消失＝舒張壓</text>
+<text x="234.28571428571428" y="150" font-size="13" fill="#333" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">先觸診打氣到橈動脈消失</text>
+<text x="234.28571428571428" y="170" font-size="13" fill="#333" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">再加 30 mmHg</text>
+<text x="500" y="495" font-size="13" fill="#555" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">I 清楚敲擊 → II 柔和嗖嗖 → III 清脆 → IV 變悶 → V 消失；聽診隙在 I 與 II 之間，常見於高血壓</text>
+</svg>

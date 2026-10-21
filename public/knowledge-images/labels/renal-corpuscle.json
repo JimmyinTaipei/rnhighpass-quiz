@@ -1,0 +1,56 @@
+{
+ "image": "servier-renal-corpuscle.svg",
+ "_說明": "腎小體：腎絲球微血管被鮑氏囊包住，濾液進入鮑氏囊腔再流向近曲小管(2026-10-21 第 9 輪，放大格線核對點位)",
+ "labels": [
+  {
+   "id": "parietal",
+   "zh": "鮑氏囊壁層",
+   "en": "Parietal layer",
+   "x": 45,
+   "y": 22,
+   "tx": 12,
+   "ty": 25,
+   "align": "end"
+  },
+  {
+   "id": "space",
+   "zh": "鮑氏囊腔",
+   "en": "Bowman space",
+   "x": 40,
+   "y": 31,
+   "tx": 12,
+   "ty": 40,
+   "align": "end"
+  },
+  {
+   "id": "pct",
+   "zh": "近曲小管",
+   "en": "Proximal tubule",
+   "x": 22,
+   "y": 78,
+   "tx": 12,
+   "ty": 90,
+   "align": "end"
+  },
+  {
+   "id": "arterioles",
+   "zh": "入球與出球小動脈",
+   "en": "Afferent / efferent arterioles",
+   "x": 72,
+   "y": 38,
+   "tx": 74,
+   "ty": 6,
+   "align": "start"
+  },
+  {
+   "id": "glomerulus",
+   "zh": "腎絲球微血管",
+   "en": "Glomerular capillaries",
+   "x": 50,
+   "y": 54,
+   "tx": 80,
+   "ty": 62,
+   "align": "start"
+  }
+ ]
+}

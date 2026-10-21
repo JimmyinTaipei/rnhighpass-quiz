@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>Z 字形注射</title>
+<rect width="1000" height="420" fill="#FFFFFF"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<text x="500" y="32" font-size="20" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">Z 字形注射(示意)</text>
+<rect x="30" y="120" width="280" height="40" fill="#EFB9A0"/>
+<rect x="30" y="160" width="280" height="70" fill="#FBE7A1"/>
+<rect x="30" y="230" width="280" height="110" fill="#D9776B"/>
+<rect x="360" y="120" width="280" height="40" fill="#EFB9A0"/>
+<rect x="360" y="160" width="280" height="70" fill="#FBE7A1"/>
+<rect x="360" y="230" width="280" height="110" fill="#D9776B"/>
+<rect x="690" y="120" width="280" height="40" fill="#EFB9A0"/>
+<rect x="690" y="160" width="280" height="70" fill="#FBE7A1"/>
+<rect x="690" y="230" width="280" height="110" fill="#D9776B"/>
+<text x="30" y="112" font-size="12" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">皮膚</text>
+<text x="30" y="198" font-size="12" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">皮下</text>
+<text x="30" y="290" font-size="12" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">肌肉</text>
+<path d="M90,120 L150,120" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+<text x="170" y="70" font-size="14" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">① 非持針手把皮膚</text>
+<text x="170" y="90" font-size="14" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">往一側拉開 2.5–3.5 cm</text>
+<path d="M190,100 L190,300" stroke="#37474F" stroke-width="3" fill="none"/>
+<circle cx="190" cy="300" r="5" fill="#B71C1C" stroke="#fff" stroke-width="2"/>
+<path d="M480,120 L540,120" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+<path d="M520,100 L520,300" stroke="#37474F" stroke-width="3" fill="none"/>
+<ellipse cx="520" cy="300" rx="28" ry="16" fill="#6D4C41" opacity="0.8"/>
+<text x="500" y="70" font-size="14" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">② 90 度進針、慢推藥</text>
+<text x="500" y="90" font-size="14" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">推完停約 10 秒再拔針</text>
+<path d="M800,120 L800,160 L850,160 L850,230 L850,300" stroke="#455A64" stroke-width="2.5" fill="none" stroke-dasharray="5 4"/>
+<ellipse cx="850" cy="300" rx="28" ry="16" fill="#6D4C41" opacity="0.8"/>
+<text x="830" y="70" font-size="14" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">③ 拔針後放開皮膚</text>
+<text x="830" y="90" font-size="14" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">針道錯開，藥封在肌肉</text>
+<text x="500" y="385" font-size="14" fill="#333" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">用於鐵劑等刺激性、會染色的藥：抽藥後換針頭、打完不揉</text>
+</svg>

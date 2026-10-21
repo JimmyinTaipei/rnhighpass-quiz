@@ -1205,6 +1205,17 @@
     "limit": null
   },
   {
+    "qkey": "infection-control#hand-hygiene",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_FA_004"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "infection-control#questions",
     "tag": null,
     "adm": null,
@@ -1689,6 +1700,135 @@
     "limit": 10
   },
   {
+    "qkey": "patient-safety-environment#comfort",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_006",
+      "110-2_FA_017",
+      "108-2_FA_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "patient-safety-environment#injury-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_FA_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "patient-safety-environment#fall-prevention",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_FA_001",
+      "110-1_FA_006",
+      "106-2_FA_037",
+      "109-1_FA_018",
+      "111-2_PC_078",
+      "113-3_PC_049",
+      "108-1_PC_055",
+      "111-1_PC_067"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "patient-safety-environment#restraint",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_FA_023",
+      "107-2_FA_005",
+      "108-2_FA_012",
+      "106-2_FA_046",
+      "105-2_FA_033",
+      "112-3_FA_030",
+      "113-1_OP_032",
+      "106-1_OP_049",
+      "111-1_OP_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "patient-safety-environment#race",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_001",
+      "110-1_FA_009",
+      "106-2_FA_004",
+      "110-2_FA_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "patient-safety-environment#radiation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_FA_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "patient-safety-environment#earthquake",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_FA_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "patient-safety-environment#medical-waste",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_FA_007",
+      "105-1_FA_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "patient-safety-environment#patient-unit",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_FA_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "patient-safety-environment#questions",
+    "tag": "跌倒",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "psychiatric-nursing-foundations#questions",
     "tag": null,
     "adm": null,
@@ -1915,6 +2055,17 @@
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "transfusion-reactions#before",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_FA_007"
+    ],
+    "limit": null
   },
   {
     "qkey": "transfusion-reactions#questions",
@@ -2159,6 +2310,95 @@
     "limit": 8
   },
   {
+    "qkey": "dialysis-crrt#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_MS_039",
+      "110-1_MS_061",
+      "109-2_MS_067",
+      "105-2_MS_066",
+      "113-3_MS_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "dialysis-crrt#fistula-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_039",
+      "114-2_MS_038",
+      "105-2_MS_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "dialysis-crrt#dry-weight",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_060",
+      "107-1_MS_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "dialysis-crrt#hd-complications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_067"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "dialysis-crrt#pd-complications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_075"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "dialysis-crrt#transplant",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_MS_037",
+      "114-3_MS_038",
+      "112-2_MS_065",
+      "110-2_MS_067"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "dialysis-crrt#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_058",
+      "107-1_MS_062",
+      "108-1_MS_080"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "icp-monitoring#alarms",
     "tag": null,
     "adm": null,
@@ -2240,6 +2480,60 @@
     "keyword": "(呼吸器|機械通氣|機械性通氣|PEEP|BiPAP|CPAP|脫離|weaning)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "acute-kidney-injury#causes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_064",
+      "107-2_MS_048",
+      "108-2_BM_047",
+      "106-2_makeup_MS_066"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "acute-kidney-injury#oliguric-manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_066",
+      "114-1_MS_039",
+      "108-2_MS_064",
+      "111-2_OP_064",
+      "107-2_OP_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "acute-kidney-injury#diagnosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "acute-kidney-injury#dialysis-indications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_074",
+      "108-2_MS_065",
+      "109-1_MS_056",
+      "110-2_MS_060"
+    ],
+    "limit": null
   },
   {
     "qkey": "adhd#questions",
@@ -3023,6 +3317,103 @@
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "chronic-kidney-disease#risk-factors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_PC_076",
+      "112-3_PC_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chronic-kidney-disease#staging",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_066",
+      "111-1_MS_061",
+      "111-1_MS_062",
+      "108-1_MS_080",
+      "106-2_MS_058"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chronic-kidney-disease#manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_068",
+      "111-1_MS_067",
+      "112-3_OP_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chronic-kidney-disease#slow-progression",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_079",
+      "107-1_MS_065",
+      "112-2_MS_059"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chronic-kidney-disease#anemia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_063",
+      "106-2_MS_078",
+      "107-2_MS_066",
+      "111-1_MS_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chronic-kidney-disease#diet",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_FA_042",
+      "109-1_FA_042",
+      "111-2_PC_079",
+      "112-1_FA_040",
+      "115-2_PC_050",
+      "107-1_PC_068",
+      "112-3_MS_041",
+      "115-1_MS_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "chronic-kidney-disease#nursing-community",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_PC_077",
+      "108-2_PC_080"
+    ],
+    "limit": null
   },
   {
     "qkey": "cns-infections#questions",
@@ -4509,6 +4900,130 @@
     "keyword": "(白內障|青光眼|視網膜剝離|視網膜病變|黃斑|結膜炎|斜視|弱視|近視|眼藥|眼壓)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "glomerular-diseases#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_041",
+      "107-2_OP_076",
+      "109-2_MS_063",
+      "112-2_MS_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "glomerular-diseases#agn-diagnosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_BM_041",
+      "106-1_MS_063",
+      "110-2_MS_061",
+      "105-2_MS_057",
+      "107-1_MS_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "glomerular-diseases#agn-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_065",
+      "107-2_MS_062",
+      "114-1_OP_045",
+      "111-2_OP_074",
+      "110-1_OP_071",
+      "106-2_makeup_OP_073",
+      "105-2_OP_075"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "glomerular-diseases#cgn",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "glomerular-diseases#nephrotic-diagnosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_028",
+      "112-1_OP_074",
+      "110-1_BM_038",
+      "108-2_BM_038",
+      "106-2_makeup_BM_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "glomerular-diseases#nephrotic-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_041",
+      "110-1_MS_065",
+      "111-1_OP_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "glomerular-diseases#other-gn",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_BM_027",
+      "114-1_BM_028",
+      "111-1_BM_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "glomerular-diseases#polycystic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_066"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "glomerular-diseases#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_062",
+      "108-1_MS_064",
+      "110-2_OP_076",
+      "108-2_OP_066",
+      "108-2_OP_077"
+    ],
+    "limit": null
   },
   {
     "qkey": "gynecologic-cancers#questions",
@@ -6047,6 +6562,87 @@
     "keyword": null,
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "pediatric-genitourinary#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_046",
+      "108-2_OP_050",
+      "107-1_OP_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-genitourinary#physiology",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_044",
+      "105-2_OP_046",
+      "111-1_OP_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-genitourinary#cryptorchidism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_078",
+      "106-2_makeup_OP_075",
+      "105-2_OP_073",
+      "106-2_MS_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-genitourinary#hypospadias-postop",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_046",
+      "112-3_OP_045",
+      "108-1_OP_077",
+      "106-2_makeup_OP_080",
+      "105-2_OP_074",
+      "105-1_OP_075"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-genitourinary#wilms",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_039",
+      "109-2_BM_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-genitourinary#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_076",
+      "111-1_OP_074",
+      "110-1_OP_076"
+    ],
+    "limit": null
   },
   {
     "qkey": "pediatric-neuro#cerebral-palsy",
@@ -8019,6 +8615,226 @@
     "limit": null
   },
   {
+    "qkey": "urologic-disorders#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_061",
+      "112-1_MS_065",
+      "111-2_MS_061",
+      "113-3_MS_039",
+      "106-2_makeup_MS_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#stone-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_046",
+      "107-2_BM_044",
+      "106-2_MS_060",
+      "106-1_MS_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#stone-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#stone-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_059"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#hydronephrosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#bph",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_MS_061",
+      "113-2_MS_037",
+      "113-3_MS_040",
+      "115-2_MS_038",
+      "110-1_MS_067",
+      "111-2_MS_067"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#turp-postop",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_068",
+      "107-2_MS_065",
+      "110-1_MS_066"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#prostate-cancer",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_063",
+      "111-1_MS_043",
+      "112-2_MS_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#bladder-cancer",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_060",
+      "106-1_MS_066",
+      "109-2_MS_060",
+      "107-2_MS_064",
+      "110-1_MS_064",
+      "112-2_MS_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#bladder-cancer-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_058"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#urinary-diversion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_062",
+      "109-2_MS_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#renal-cell-carcinoma",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#incontinence",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_038",
+      "105-2_OP_039",
+      "105-1_MS_067",
+      "112-1_MS_061",
+      "108-1_MS_061",
+      "108-2_MS_058"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#incontinence-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_039",
+      "112-2_MS_063",
+      "110-2_MS_065",
+      "109-2_MS_061",
+      "107-1_MS_061",
+      "105-1_MS_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#incontinence-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_FA_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#erectile-dysfunction",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_BM_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_064",
+      "108-2_MS_061"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "urticaria-angioedema#questions",
     "tag": null,
     "adm": null,
@@ -9729,7 +10545,8 @@
       "112-3_FA_008",
       "111-2_MS_028",
       "111-2_BM_032",
-      "110-1_BM_052"
+      "110-1_BM_052",
+      "108-2_FA_050"
     ],
     "limit": null
   },
@@ -10377,6 +11194,19 @@
     "limit": 6
   },
   {
+    "qkey": "abg#regulation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_BM_031",
+      "106-1_BM_028",
+      "113-2_FA_020"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "abg#interpretation",
     "tag": null,
     "adm": null,
@@ -10410,7 +11240,30 @@
       "110-1_MS_024",
       "112-3_MS_035",
       "113-1_MS_032",
-      "113-3_MS_033"
+      "113-3_MS_033",
+      "110-2_OP_012",
+      "114-1_OP_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "abg#metabolic-examples",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_070",
+      "108-2_MS_072",
+      "107-2_BM_032",
+      "105-1_OP_073",
+      "108-2_MS_063",
+      "109-1_MS_058",
+      "106-1_MS_056",
+      "108-2_MS_062",
+      "109-1_MS_057",
+      "110-1_MS_074",
+      "112-2_MS_066"
     ],
     "limit": null
   },
@@ -10901,6 +11754,21 @@
     "limit": 8
   },
   {
+    "qkey": "potassium#hyperkalemia-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_062",
+      "110-2_MS_060",
+      "110-1_MS_075",
+      "106-2_makeup_MS_063",
+      "108-1_OP_048"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "potassium#questions",
     "tag": null,
     "adm": null,
@@ -10930,6 +11798,67 @@
     "keyword": null,
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "renal-function-tests#creatinine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_059",
+      "114-1_MS_040",
+      "110-2_BM_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "renal-function-tests#bun",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_MS_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "renal-function-tests#bun-cr-ratio",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_065",
+      "110-2_MS_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "renal-function-tests#ccr",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_065",
+      "106-2_MS_058",
+      "105-1_MS_065"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "renal-function-tests#egfr",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_066",
+      "112-1_PC_077"
+    ],
+    "limit": null
   },
   {
     "qkey": "thyroid-function-tests#interpretation",
@@ -10998,6 +11927,126 @@
     "keyword": "(微量(白)?蛋白|白蛋白尿|尿蛋白|蛋白尿)",
     "ids": [],
     "limit": 6
+  },
+  {
+    "qkey": "urinalysis#reference-range",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_FA_004",
+      "112-3_FA_018",
+      "114-1_FA_021",
+      "107-2_OP_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinalysis#color",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_FA_052",
+      "109-2_FA_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinalysis#hematuria",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_FA_031",
+      "114-1_MS_038",
+      "110-2_MS_064",
+      "106-1_MS_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinalysis#urine-bag",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_037",
+      "109-1_MS_061",
+      "109-1_OP_068"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinalysis#24-hour-urine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_FA_033",
+      "112-3_FA_033",
+      "112-1_FA_051",
+      "107-1_FA_056",
+      "110-1_MS_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-diagnostic-procedures#comparison",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_039",
+      "113-1_MS_038",
+      "112-1_MS_062",
+      "110-2_MS_063",
+      "112-3_MS_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-diagnostic-procedures#renal-biopsy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_066",
+      "109-1_MS_062",
+      "106-1_MS_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-diagnostic-procedures#cystoscopy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_040",
+      "107-2_MS_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urologic-diagnostic-procedures#uroflowmetry",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_061",
+      "106-2_MS_062"
+    ],
+    "limit": null
   },
   {
     "qkey": "anaerobes#questions",
@@ -12700,6 +13749,112 @@
     "limit": 12
   },
   {
+    "qkey": "fluid-electrolytes#compartments",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_029",
+      "115-2_FA_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fluid-electrolytes#transport",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_017",
+      "109-2_BM_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fluid-electrolytes#regulation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_FA_037",
+      "112-3_FA_013",
+      "106-1_FA_022",
+      "106-2_makeup_BM_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fluid-electrolytes#pediatric-dehydration",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_070",
+      "107-2_FA_026",
+      "107-2_OP_049",
+      "110-2_FA_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fluid-electrolytes#burn-fluid-shift",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_043",
+      "115-2_MS_029",
+      "111-2_MS_047",
+      "110-1_MS_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fluid-electrolytes#electrolytes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_031",
+      "111-1_MS_060",
+      "106-2_makeup_MS_062",
+      "109-1_FA_029",
+      "105-2_FA_050",
+      "108-1_BM_029",
+      "107-1_BM_058"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fluid-electrolytes#hypernatremia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_FA_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fluid-electrolytes#magnesium",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_032",
+      "108-1_OP_033"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "gas-exchange-transport#diffusion",
     "tag": null,
     "adm": null,
@@ -13159,6 +14314,179 @@
       "108-1_BM_040",
       "109-1_BM_026",
       "113-3_BM_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#anatomy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_BM_013",
+      "114-2_BM_007",
+      "113-1_BM_016",
+      "107-2_BM_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#nephron",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_BM_013",
+      "105-1_BM_010",
+      "105-2_BM_011",
+      "109-1_BM_011",
+      "108-2_BM_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#filtration",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_025",
+      "108-2_BM_028",
+      "105-1_BM_029",
+      "106-2_BM_028",
+      "115-2_BM_018",
+      "107-2_BM_028",
+      "112-3_BM_018",
+      "111-1_BM_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#tubular-function",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_008",
+      "108-1_BM_021",
+      "110-1_BM_030",
+      "110-1_BM_031",
+      "113-1_BM_008",
+      "105-1_MS_066",
+      "114-2_BM_018",
+      "109-1_BM_027",
+      "109-2_BM_029",
+      "111-1_BM_062",
+      "109-2_MS_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#clearance",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_028",
+      "111-2_BM_014",
+      "106-2_makeup_BM_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#concentration",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_BM_018",
+      "108-2_BM_030",
+      "107-1_BM_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#hormonal-control",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_023",
+      "113-2_BM_018",
+      "106-2_BM_029",
+      "111-2_BM_020",
+      "106-2_FA_030",
+      "115-1_BM_009",
+      "112-1_BM_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#endocrine-homeostasis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_026",
+      "105-2_BM_026",
+      "109-2_MS_066",
+      "115-1_BM_007",
+      "114-3_BM_018",
+      "113-2_BM_017",
+      "106-2_makeup_BM_028",
+      "114-3_BM_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#lower-tract",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_015",
+      "111-1_BM_009",
+      "113-2_BM_005",
+      "105-2_BM_010",
+      "107-1_BM_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#micturition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_FA_018",
+      "105-2_FA_005",
+      "105-2_MS_059",
+      "112-2_BM_002",
+      "109-2_BM_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "kidney-urinary-physiology#special-populations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_006",
+      "111-1_OP_008",
+      "105-2_OP_025",
+      "108-1_OP_004"
     ],
     "limit": null
   },
@@ -14346,6 +15674,610 @@
     "limit": 8
   },
   {
+    "qkey": "body-temperature#heat-loss",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_025",
+      "109-2_FA_027",
+      "108-2_FA_033",
+      "108-1_FA_039",
+      "106-2_FA_041",
+      "105-2_FA_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "body-temperature#factors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_FA_024",
+      "114-2_FA_025",
+      "106-2_FA_043",
+      "106-1_FA_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "body-temperature#measurement",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_023",
+      "111-2_FA_038",
+      "109-1_FA_037",
+      "105-1_FA_042",
+      "105-1_FA_045",
+      "114-3_FA_023",
+      "108-2_FA_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "body-temperature#fever-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_FA_024",
+      "112-2_FA_037",
+      "109-2_FA_010",
+      "108-2_FA_011",
+      "106-2_FA_042",
+      "107-1_FA_038",
+      "106-1_FA_037",
+      "106-1_FA_038",
+      "105-2_FA_056",
+      "107-1_FA_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "body-temperature#heat-illness",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_FA_037",
+      "107-2_FA_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "body-temperature#hypothermia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_038",
+      "108-2_FA_044",
+      "107-2_FA_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "body-temperature#questions",
+    "tag": "發燒|低體溫|體溫過高|熱衰竭",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "injections#drawing-up",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_FA_018",
+      "109-1_FA_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "injections#im-sites",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_013",
+      "112-1_FA_017",
+      "109-2_FA_021",
+      "107-1_FA_037",
+      "106-2_FA_019",
+      "106-1_OP_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "injections#im-steps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_FA_012",
+      "109-1_FA_008",
+      "105-2_FA_018",
+      "106-2_makeup_FA_016",
+      "112-2_FA_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "injections#z-track",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_041",
+      "111-2_OP_068"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "injections#subcutaneous",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_FA_016",
+      "106-1_FA_016",
+      "106-1_FA_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "injections#pediatric-injection",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_061",
+      "105-1_OP_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "injections#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(肌肉注射|皮下注射|皮內注射|腹臀肌|背臀肌|股外側肌|三角肌|Z字|Z 字|反抽|回抽)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "iv-therapy#fluid-assessment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_FA_014",
+      "107-2_FA_026",
+      "115-2_FA_017",
+      "112-3_FA_013",
+      "110-2_FA_037",
+      "106-1_FA_022",
+      "105-1_FA_031",
+      "110-2_FA_034",
+      "107-1_FA_027",
+      "107-1_FA_028",
+      "109-1_FA_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "iv-therapy#solution-notes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_FA_014",
+      "112-3_FA_014",
+      "112-2_FA_022",
+      "111-2_FA_022",
+      "108-1_FA_023",
+      "106-2_makeup_FA_025",
+      "106-2_makeup_FA_026",
+      "106-1_FA_049",
+      "105-2_FA_025",
+      "109-1_FA_027",
+      "115-1_FA_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "iv-therapy#vein-selection",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_023",
+      "110-2_FA_036",
+      "111-1_FA_023",
+      "106-2_makeup_FA_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "iv-therapy#drip-rate",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_022",
+      "110-1_FA_024",
+      "109-2_FA_029",
+      "109-1_FA_028",
+      "106-1_FA_028",
+      "113-3_FA_014",
+      "106-2_FA_029",
+      "114-2_FA_014",
+      "111-1_FA_022",
+      "114-1_FA_016",
+      "107-2_OP_058"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "iv-therapy#care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_023",
+      "107-1_FA_022",
+      "106-1_FA_054",
+      "105-1_FA_028",
+      "108-1_OP_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "iv-therapy#complications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_FA_018",
+      "111-2_FA_023",
+      "110-2_FA_035",
+      "107-2_FA_027",
+      "112-1_MS_031",
+      "114-3_FA_016",
+      "110-1_MS_029",
+      "108-2_FA_034",
+      "106-2_FA_023",
+      "106-2_FA_024",
+      "106-2_makeup_FA_024",
+      "105-2_FA_030",
+      "105-1_FA_032",
+      "109-2_FA_031",
+      "109-1_FA_053",
+      "108-2_FA_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "iv-therapy#burn-fluids",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_026",
+      "110-1_OP_043",
+      "107-2_OP_055",
+      "107-1_OP_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "iv-therapy#nutrition-routes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_FA_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "iv-therapy#questions",
+    "tag": "靜脈注射浸潤|靜脈炎|血栓性靜脈炎|循環負荷過量|體液失衡",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "medication-administration-principles#dosage-forms",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_012",
+      "114-1_FA_012",
+      "113-1_FA_011",
+      "109-1_FA_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#drug-effects",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_FA_011",
+      "108-2_FA_031",
+      "106-2_makeup_FA_017",
+      "105-2_FA_019",
+      "107-1_FA_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#dose-factors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_FA_027",
+      "106-2_FA_015",
+      "113-1_FA_010",
+      "108-1_FA_017",
+      "106-2_makeup_FA_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#order-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_FA_005",
+      "110-1_FA_016",
+      "110-1_FA_013",
+      "114-1_FA_010",
+      "106-1_FA_004",
+      "109-1_FA_052",
+      "112-1_FA_020",
+      "108-1_FA_019",
+      "106-2_makeup_FA_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#abbreviations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_FA_019",
+      "111-1_FA_010",
+      "115-2_FA_009",
+      "115-1_FA_010",
+      "112-2_FA_019",
+      "112-1_FA_019",
+      "111-1_FA_020",
+      "110-2_FA_022",
+      "109-2_FA_023",
+      "107-1_FA_011",
+      "107-1_FA_013",
+      "106-2_FA_012",
+      "106-2_FA_017",
+      "106-2_makeup_FA_019",
+      "106-1_FA_011",
+      "106-1_FA_012",
+      "105-2_FA_010",
+      "105-2_FA_022",
+      "105-1_FA_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#five-rights",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_FA_010",
+      "112-1_FA_015",
+      "110-2_FA_028",
+      "106-2_FA_078"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#bcma",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_FA_011",
+      "112-1_FA_016",
+      "111-1_FA_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#dose-calculation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_044",
+      "115-1_FA_011",
+      "114-1_FA_013",
+      "111-2_FA_016",
+      "111-1_FA_021",
+      "110-2_FA_029",
+      "107-2_FA_015",
+      "105-2_FA_016",
+      "105-2_FA_021",
+      "105-1_FA_019",
+      "105-1_FA_022",
+      "115-2_FA_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#storage",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_FA_020",
+      "105-1_FA_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#high-alert-controlled",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_FA_029",
+      "107-2_FA_018",
+      "108-2_FA_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#safety-role",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_OP_071",
+      "113-2_FA_010",
+      "110-1_FA_020",
+      "108-2_FA_032",
+      "108-1_FA_018",
+      "107-1_FA_016",
+      "106-1_FA_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#nursing-process",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "medication-administration-principles#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(三讀五對|五對|醫囑|給藥記錄|條碼|管制藥|高警訊|克拉克|Clark)",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "non-parenteral-medication#oral",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_FA_019",
+      "107-2_FA_017",
+      "106-1_FA_017",
+      "110-2_FA_026",
+      "111-2_MS_039",
+      "111-1_MS_035",
+      "107-2_MS_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "non-parenteral-medication#pediatric-oral",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_050",
+      "108-1_OP_060",
+      "109-2_FA_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "non-parenteral-medication#rectal",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_FA_010",
+      "114-1_FA_011",
+      "111-2_FA_003",
+      "111-2_FA_015",
+      "110-1_FA_017",
+      "109-1_FA_007",
+      "109-1_FA_022",
+      "106-2_FA_018",
+      "106-1_FA_021",
+      "105-1_FA_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "non-parenteral-medication#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(口服|栓劑|塞劑|眼藥|耳藥|滴耳|滴鼻|貼片|舌下)",
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "oxygen-therapy#complications",
     "tag": null,
     "adm": null,
@@ -14387,5 +16319,127 @@
     "keyword": "(鼻套管|鼻導管|非再吸入|Venturi|卞德里|氧氣頭罩|氧氣帳|潮濕瓶|給氧)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "pulse-blood-pressure#abnormal-pulse",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_028",
+      "107-2_MS_028",
+      "112-2_FA_040",
+      "111-2_FA_040",
+      "110-2_FA_046",
+      "110-1_FA_041",
+      "109-2_FA_039",
+      "109-1_FA_011",
+      "108-1_FA_040",
+      "107-2_FA_039",
+      "107-1_FA_040",
+      "105-2_FA_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulse-blood-pressure#pulse-technique",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_007",
+      "109-1_OP_059",
+      "110-2_OP_028",
+      "113-1_FA_024",
+      "112-2_FA_041",
+      "112-1_FA_041",
+      "111-1_FA_041",
+      "107-2_FA_040",
+      "105-2_FA_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulse-blood-pressure#bp-basics",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_FA_041",
+      "108-2_FA_010",
+      "108-1_FA_038",
+      "106-1_FA_042",
+      "106-2_makeup_FA_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulse-blood-pressure#bp-steps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_042",
+      "111-2_FA_042",
+      "109-2_FA_040",
+      "109-1_FA_036",
+      "107-1_FA_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulse-blood-pressure#bp-errors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_FA_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulse-blood-pressure#pediatric-vital-signs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_048",
+      "110-1_OP_045",
+      "108-1_OP_058",
+      "107-2_OP_060",
+      "107-1_OP_060",
+      "106-1_FA_041",
+      "105-1_FA_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulse-blood-pressure#integrated",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_042",
+      "108-1_FA_030",
+      "108-1_FA_041",
+      "111-2_FA_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pulse-blood-pressure#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(脈搏|心尖脈|橈動脈|足背動脈|血壓|壓脈帶|柯氏音|聽診隙|平均動脈壓|生命徵象)",
+    "ids": [],
+    "limit": 10
   }
 ]

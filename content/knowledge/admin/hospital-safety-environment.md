@@ -79,6 +79,7 @@ references:
 | **E** | **Extinguish／Evacuate**：評估後做**初期滅火**，火勢無法控制時**疏散** |
 
 - 「E：先撤離著火房間，再進行初期滅火」是錯的。
+- 病房層級的火災處置、滅火器分類與 PASS 用法見 [[patient-safety-environment#race]]。
 
 ## 醫療廢棄物 {#medical-waste}
 

@@ -9,7 +9,7 @@ group: diuretics
 chapters:
   - 藥理-Ch07泌尿系統與利尿劑 > 利尿劑
 reviewed: false
-updated: 2026-09-26
+updated: 2026-10-21
 references:
   - title: 2026 ESC Guidelines for the management of heart failure
     url: https://doi.org/10.1093/eurheartj/ehag100
@@ -141,4 +141,4 @@ references:
 
 ## 相關考題 {#questions}
 
-::questions{ids="115-1_BM_009,114-3_BM_036,114-2_BM_037,114-1_OP_040,113-2_BM_035,113-1_MS_043,112-3_FA_008,111-2_MS_028,111-2_BM_032,110-1_BM_052"}
+::questions{ids="115-1_BM_009,114-3_BM_036,114-2_BM_037,114-1_OP_040,113-2_BM_035,113-1_MS_043,112-3_FA_008,111-2_MS_028,111-2_BM_032,110-1_BM_052,108-2_FA_050"}

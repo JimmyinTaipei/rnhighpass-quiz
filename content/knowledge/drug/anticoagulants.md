@@ -41,7 +41,7 @@ references:
 
 - **Heparin → aPTT、解毒 protamine sulfate;Warfarin → PT/INR、解毒維生素 K**。「heparin 監測 PT」「warfarin 監測 PTT」「PT 延長打 protamine」都是錯的。
 - Heparin 使 aPTT 維持在正常的 **1.5–2.5 倍**。
-- Heparin **皮下注射**(可)、不肌肉注射、**不回抽、不按摩**;可以按摩的是肌肉注射的 Demerol，不是 heparin、insulin 或皮內試驗。
+- Heparin **皮下注射**(可)、不肌肉注射、**不回抽、不按摩**(注射技術見 [[injections]]);可以按摩的是肌肉注射的 Demerol，不是 heparin、insulin 或皮內試驗。
 - Warfarin 機轉：拮抗維生素 K，抑制 II、VII、IX、X 合成 → 深綠色蔬菜**避免大量、保持穩定**;「鼓勵多吃菠菜」「菠菜會加強 warfarin」都錯。
 - 使用 heparin 的病人**不需要**避免深色蔬菜。
 - Warfarin 漏吃**不可隔天吃雙倍**;銀杏、黑木耳、當歸會**增強**藥效;甲狀腺素會**增強**抗凝效果。

@@ -922,6 +922,9 @@
   "individual-cognitive-behavioral-therapy#questions": {
     "auto": []
   },
+  "infection-control#hand-hygiene": {
+    "auto": []
+  },
   "infection-control#questions": {
     "auto": []
   },
@@ -996,6 +999,47 @@
       "114-1_FA_033"
     ]
   },
+  "patient-safety-environment#comfort": {
+    "auto": []
+  },
+  "patient-safety-environment#injury-types": {
+    "auto": []
+  },
+  "patient-safety-environment#fall-prevention": {
+    "auto": []
+  },
+  "patient-safety-environment#restraint": {
+    "auto": []
+  },
+  "patient-safety-environment#race": {
+    "auto": []
+  },
+  "patient-safety-environment#radiation": {
+    "auto": []
+  },
+  "patient-safety-environment#earthquake": {
+    "auto": []
+  },
+  "patient-safety-environment#medical-waste": {
+    "auto": []
+  },
+  "patient-safety-environment#patient-unit": {
+    "auto": []
+  },
+  "patient-safety-environment#questions": {
+    "auto": [
+      "114-1_PC_031",
+      "113-3_PC_049",
+      "111-2_PC_078",
+      "111-1_PC_067",
+      "110-1_FA_006",
+      "110-1_FA_001",
+      "108-2_FA_015",
+      "108-1_PC_055",
+      "107-2_PC_076",
+      "107-1_FA_079"
+    ]
+  },
   "psychiatric-nursing-foundations#questions": {
     "auto": []
   },
@@ -1057,6 +1101,9 @@
       "105-1_MS_038"
     ]
   },
+  "transfusion-reactions#before": {
+    "auto": []
+  },
   "transfusion-reactions#questions": {
     "auto": []
   },
@@ -1111,6 +1158,27 @@
       "111-2_MS_054"
     ]
   },
+  "dialysis-crrt#exam-points": {
+    "auto": []
+  },
+  "dialysis-crrt#fistula-care": {
+    "auto": []
+  },
+  "dialysis-crrt#dry-weight": {
+    "auto": []
+  },
+  "dialysis-crrt#hd-complications": {
+    "auto": []
+  },
+  "dialysis-crrt#pd-complications": {
+    "auto": []
+  },
+  "dialysis-crrt#transplant": {
+    "auto": []
+  },
+  "dialysis-crrt#questions": {
+    "auto": []
+  },
   "icp-monitoring#alarms": {
     "auto": []
   },
@@ -1149,6 +1217,18 @@
       "111-2_OP_054",
       "111-1_OP_057"
     ]
+  },
+  "acute-kidney-injury#causes": {
+    "auto": []
+  },
+  "acute-kidney-injury#oliguric-manifestations": {
+    "auto": []
+  },
+  "acute-kidney-injury#diagnosis": {
+    "auto": []
+  },
+  "acute-kidney-injury#dialysis-indications": {
+    "auto": []
   },
   "adhd#questions": {
     "auto": []
@@ -1334,6 +1414,27 @@
       "111-1_OP_010",
       "111-1_OP_006"
     ]
+  },
+  "chronic-kidney-disease#risk-factors": {
+    "auto": []
+  },
+  "chronic-kidney-disease#staging": {
+    "auto": []
+  },
+  "chronic-kidney-disease#manifestations": {
+    "auto": []
+  },
+  "chronic-kidney-disease#slow-progression": {
+    "auto": []
+  },
+  "chronic-kidney-disease#anemia": {
+    "auto": []
+  },
+  "chronic-kidney-disease#diet": {
+    "auto": []
+  },
+  "chronic-kidney-disease#nursing-community": {
+    "auto": []
   },
   "cns-infections#questions": {
     "auto": []
@@ -1960,6 +2061,33 @@
       "115-1_OP_029",
       "115-1_MS_015"
     ]
+  },
+  "glomerular-diseases#exam-points": {
+    "auto": []
+  },
+  "glomerular-diseases#agn-diagnosis": {
+    "auto": []
+  },
+  "glomerular-diseases#agn-nursing": {
+    "auto": []
+  },
+  "glomerular-diseases#cgn": {
+    "auto": []
+  },
+  "glomerular-diseases#nephrotic-diagnosis": {
+    "auto": []
+  },
+  "glomerular-diseases#nephrotic-nursing": {
+    "auto": []
+  },
+  "glomerular-diseases#other-gn": {
+    "auto": []
+  },
+  "glomerular-diseases#polycystic": {
+    "auto": []
+  },
+  "glomerular-diseases#questions": {
+    "auto": []
   },
   "gynecologic-cancers#questions": {
     "auto": []
@@ -2619,6 +2747,24 @@
       "112-1_OP_048"
     ]
   },
+  "pediatric-genitourinary#exam-points": {
+    "auto": []
+  },
+  "pediatric-genitourinary#physiology": {
+    "auto": []
+  },
+  "pediatric-genitourinary#cryptorchidism": {
+    "auto": []
+  },
+  "pediatric-genitourinary#hypospadias-postop": {
+    "auto": []
+  },
+  "pediatric-genitourinary#wilms": {
+    "auto": []
+  },
+  "pediatric-genitourinary#questions": {
+    "auto": []
+  },
   "pediatric-neuro#cerebral-palsy": {
     "auto": []
   },
@@ -3014,6 +3160,57 @@
     "auto": []
   },
   "urinary-tract-infection#questions": {
+    "auto": []
+  },
+  "urologic-disorders#exam-points": {
+    "auto": []
+  },
+  "urologic-disorders#stone-types": {
+    "auto": []
+  },
+  "urologic-disorders#stone-treatment": {
+    "auto": []
+  },
+  "urologic-disorders#stone-nursing": {
+    "auto": []
+  },
+  "urologic-disorders#hydronephrosis": {
+    "auto": []
+  },
+  "urologic-disorders#bph": {
+    "auto": []
+  },
+  "urologic-disorders#turp-postop": {
+    "auto": []
+  },
+  "urologic-disorders#prostate-cancer": {
+    "auto": []
+  },
+  "urologic-disorders#bladder-cancer": {
+    "auto": []
+  },
+  "urologic-disorders#bladder-cancer-treatment": {
+    "auto": []
+  },
+  "urologic-disorders#urinary-diversion": {
+    "auto": []
+  },
+  "urologic-disorders#renal-cell-carcinoma": {
+    "auto": []
+  },
+  "urologic-disorders#incontinence": {
+    "auto": []
+  },
+  "urologic-disorders#incontinence-treatment": {
+    "auto": []
+  },
+  "urologic-disorders#incontinence-nursing": {
+    "auto": []
+  },
+  "urologic-disorders#erectile-dysfunction": {
+    "auto": []
+  },
+  "urologic-disorders#questions": {
     "auto": []
   },
   "urticaria-angioedema#questions": {
@@ -3703,6 +3900,7 @@
   },
   "nsaids-acetaminophen#questions~3": {
     "auto": [
+      "115-1_MS_016",
       "112-3_BM_035",
       "112-2_OP_078",
       "111-2_MS_032",
@@ -3711,8 +3909,7 @@
       "110-2_OP_068",
       "110-1_BM_051",
       "109-1_FA_009",
-      "109-1_BM_058",
-      "108-2_MS_017"
+      "109-1_BM_058"
     ]
   },
   "opioids#questions": {
@@ -3883,10 +4080,16 @@
       "105-1_BM_062"
     ]
   },
+  "abg#regulation": {
+    "auto": []
+  },
   "abg#interpretation": {
     "auto": []
   },
   "abg#respiratory-alkalosis-care": {
+    "auto": []
+  },
+  "abg#metabolic-examples": {
     "auto": []
   },
   "abg#oxygenation": {
@@ -4086,6 +4289,9 @@
       "108-1_MS_069"
     ]
   },
+  "potassium#hyperkalemia-treatment": {
+    "auto": []
+  },
   "potassium#questions": {
     "auto": []
   },
@@ -4100,6 +4306,21 @@
       "113-2_FA_015",
       "112-3_FA_012"
     ]
+  },
+  "renal-function-tests#creatinine": {
+    "auto": []
+  },
+  "renal-function-tests#bun": {
+    "auto": []
+  },
+  "renal-function-tests#bun-cr-ratio": {
+    "auto": []
+  },
+  "renal-function-tests#ccr": {
+    "auto": []
+  },
+  "renal-function-tests#egfr": {
+    "auto": []
   },
   "thyroid-function-tests#interpretation": {
     "auto": []
@@ -4127,6 +4348,33 @@
       "110-2_PC_078",
       "106-2_makeup_MS_064"
     ]
+  },
+  "urinalysis#reference-range": {
+    "auto": []
+  },
+  "urinalysis#color": {
+    "auto": []
+  },
+  "urinalysis#hematuria": {
+    "auto": []
+  },
+  "urinalysis#urine-bag": {
+    "auto": []
+  },
+  "urinalysis#24-hour-urine": {
+    "auto": []
+  },
+  "urologic-diagnostic-procedures#comparison": {
+    "auto": []
+  },
+  "urologic-diagnostic-procedures#renal-biopsy": {
+    "auto": []
+  },
+  "urologic-diagnostic-procedures#cystoscopy": {
+    "auto": []
+  },
+  "urologic-diagnostic-procedures#uroflowmetry": {
+    "auto": []
   },
   "anaerobes#questions": {
     "auto": []
@@ -4610,6 +4858,30 @@
       "110-2_FA_015"
     ]
   },
+  "fluid-electrolytes#compartments": {
+    "auto": []
+  },
+  "fluid-electrolytes#transport": {
+    "auto": []
+  },
+  "fluid-electrolytes#regulation": {
+    "auto": []
+  },
+  "fluid-electrolytes#pediatric-dehydration": {
+    "auto": []
+  },
+  "fluid-electrolytes#burn-fluid-shift": {
+    "auto": []
+  },
+  "fluid-electrolytes#electrolytes": {
+    "auto": []
+  },
+  "fluid-electrolytes#hypernatremia": {
+    "auto": []
+  },
+  "fluid-electrolytes#magnesium": {
+    "auto": []
+  },
   "gas-exchange-transport#diffusion": {
     "auto": []
   },
@@ -4737,6 +5009,39 @@
     "auto": []
   },
   "inflammation-repair#questions": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#anatomy": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#nephron": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#filtration": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#tubular-function": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#clearance": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#concentration": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#hormonal-control": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#endocrine-homeostasis": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#lower-tract": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#micturition": {
+    "auto": []
+  },
+  "kidney-urinary-physiology#special-populations": {
     "auto": []
   },
   "microbial-pathogenesis#questions": {
@@ -5063,6 +5368,181 @@
       "114-3_MS_048"
     ]
   },
+  "body-temperature#heat-loss": {
+    "auto": []
+  },
+  "body-temperature#factors": {
+    "auto": []
+  },
+  "body-temperature#measurement": {
+    "auto": []
+  },
+  "body-temperature#fever-care": {
+    "auto": []
+  },
+  "body-temperature#heat-illness": {
+    "auto": []
+  },
+  "body-temperature#hypothermia": {
+    "auto": []
+  },
+  "body-temperature#questions": {
+    "auto": [
+      "115-2_FA_026",
+      "115-2_FA_023",
+      "115-1_FA_025",
+      "114-3_FA_023",
+      "114-2_FA_023",
+      "114-1_OP_018",
+      "114-1_FA_024",
+      "114-1_FA_011",
+      "113-3_FA_017",
+      "113-2_OP_030"
+    ]
+  },
+  "injections#drawing-up": {
+    "auto": []
+  },
+  "injections#im-sites": {
+    "auto": []
+  },
+  "injections#im-steps": {
+    "auto": []
+  },
+  "injections#z-track": {
+    "auto": []
+  },
+  "injections#subcutaneous": {
+    "auto": []
+  },
+  "injections#pediatric-injection": {
+    "auto": []
+  },
+  "injections#questions": {
+    "auto": [
+      "115-2_OP_043",
+      "115-2_OP_042",
+      "115-2_FA_011",
+      "115-2_FA_009",
+      "115-1_OP_034",
+      "115-1_OP_029",
+      "115-1_FA_010",
+      "115-1_BM_013",
+      "114-2_OP_038",
+      "114-2_OP_031"
+    ]
+  },
+  "iv-therapy#fluid-assessment": {
+    "auto": []
+  },
+  "iv-therapy#solution-notes": {
+    "auto": []
+  },
+  "iv-therapy#vein-selection": {
+    "auto": []
+  },
+  "iv-therapy#drip-rate": {
+    "auto": []
+  },
+  "iv-therapy#care": {
+    "auto": []
+  },
+  "iv-therapy#complications": {
+    "auto": []
+  },
+  "iv-therapy#burn-fluids": {
+    "auto": []
+  },
+  "iv-therapy#nutrition-routes": {
+    "auto": []
+  },
+  "iv-therapy#questions": {
+    "auto": [
+      "115-1_MS_017",
+      "114-3_FA_016",
+      "114-1_OP_022",
+      "113-2_FA_018",
+      "113-2_FA_016",
+      "112-3_FA_014",
+      "112-2_FA_022",
+      "112-1_MS_031",
+      "112-1_FA_048",
+      "112-1_FA_027"
+    ]
+  },
+  "medication-administration-principles#dosage-forms": {
+    "auto": []
+  },
+  "medication-administration-principles#drug-effects": {
+    "auto": []
+  },
+  "medication-administration-principles#dose-factors": {
+    "auto": []
+  },
+  "medication-administration-principles#order-types": {
+    "auto": []
+  },
+  "medication-administration-principles#abbreviations": {
+    "auto": []
+  },
+  "medication-administration-principles#five-rights": {
+    "auto": []
+  },
+  "medication-administration-principles#bcma": {
+    "auto": []
+  },
+  "medication-administration-principles#dose-calculation": {
+    "auto": []
+  },
+  "medication-administration-principles#storage": {
+    "auto": []
+  },
+  "medication-administration-principles#high-alert-controlled": {
+    "auto": []
+  },
+  "medication-administration-principles#safety-role": {
+    "auto": []
+  },
+  "medication-administration-principles#nursing-process": {
+    "auto": []
+  },
+  "medication-administration-principles#questions": {
+    "auto": [
+      "115-2_FA_032",
+      "115-2_FA_013",
+      "115-2_FA_011",
+      "115-2_FA_010",
+      "115-2_FA_006",
+      "115-1_PC_022",
+      "115-1_PC_021",
+      "115-1_PC_010",
+      "115-1_OP_041",
+      "115-1_MS_043"
+    ]
+  },
+  "non-parenteral-medication#oral": {
+    "auto": []
+  },
+  "non-parenteral-medication#pediatric-oral": {
+    "auto": []
+  },
+  "non-parenteral-medication#rectal": {
+    "auto": []
+  },
+  "non-parenteral-medication#questions": {
+    "auto": [
+      "115-2_MS_014",
+      "115-2_FA_010",
+      "115-2_BM_039",
+      "115-2_BM_014",
+      "115-2_BM_008",
+      "115-1_OP_041",
+      "115-1_OP_029",
+      "115-1_MS_017",
+      "115-1_MS_007",
+      "115-1_FA_012"
+    ]
+  },
   "oxygen-therapy#complications": {
     "auto": []
   },
@@ -5079,6 +5559,41 @@
       "112-3_MS_035",
       "112-3_MS_018",
       "112-2_OP_062"
+    ]
+  },
+  "pulse-blood-pressure#abnormal-pulse": {
+    "auto": []
+  },
+  "pulse-blood-pressure#pulse-technique": {
+    "auto": []
+  },
+  "pulse-blood-pressure#bp-basics": {
+    "auto": []
+  },
+  "pulse-blood-pressure#bp-steps": {
+    "auto": []
+  },
+  "pulse-blood-pressure#bp-errors": {
+    "auto": []
+  },
+  "pulse-blood-pressure#pediatric-vital-signs": {
+    "auto": []
+  },
+  "pulse-blood-pressure#integrated": {
+    "auto": []
+  },
+  "pulse-blood-pressure#questions": {
+    "auto": [
+      "115-2_PC_049",
+      "115-2_PC_004",
+      "115-2_OP_049",
+      "115-2_OP_022",
+      "115-2_OP_012",
+      "115-2_OP_010",
+      "115-2_OP_007",
+      "115-2_MS_024",
+      "115-2_MS_006",
+      "115-2_FA_028"
     ]
   }
 }

@@ -136,11 +136,16 @@ domains:
 
   - id: renal
     name: 泌尿
-    description: 含體液、電解質與酸鹼。
+    description: 腎臟與泌尿道的構造與生理、體液電解質與酸鹼、急性腎損傷與慢性腎臟病、腎絲球疾病、泌尿道疾病(結石、攝護腺、尿失禁、泌尿道腫瘤)、兒童泌尿生殖疾病，以及血液透析、腹膜透析、CRRT 與腎移植
     kind: system
     blockTag: 泌尿
     groups:
-      - { id: diuretics, name: 利尿劑, type: drug, drugTags: [利尿劑, 利尿劑用藥] }
+      # 2026-10-21 第 9 輪 9-0c
+      - { id: kidney-physiology, name: 腎臟與體液生理, type: physiology }
+      - { id: kidney-diseases, name: 腎臟疾病, type: disease }
+      - { id: urologic-diseases, name: 泌尿道與泌尿生殖疾病, type: disease }
+      - { id: dialysis-transplant, name: 透析與腎移植, type: device }
+      - { id: diuretics, name: 利尿劑, type: drug, drugTags: [利尿劑] }
       - { id: renal-labs, name: 腎功能檢驗, type: lab }
       - { id: acid-base-labs, name: 酸鹼與電解質檢驗, type: lab }
 
@@ -211,6 +216,13 @@ domains:
   - id: fundamentals
     name: 基本護理（概念）
     kind: nursing
+    description: 基本護理的概念與技術：給藥(醫囑、核對、各種給藥途徑與注射)、生命徵象測量、靜脈輸液與輸血、病人安全與感染控制，以及疼痛與臨終照護。技術步驟以台灣基本護理學課本的做法為準，整理成「步驟｜做法｜原理」表；舒適、活動、營養、排泄、冷熱等技術陸續加入
+    groups:
+      # 2026-10-20 第 8 輪 8-0c
+      - { id: medication-administration, name: 給藥, type: procedure }
+      - { id: vital-signs, name: 生命徵象, type: procedure }
+      - { id: fluids-transfusion, name: 靜脈輸液與輸血, type: procedure }
+      - { id: safety-infection-control, name: 病人安全與感染控制, type: care }
 
   - id: administration
     name: 護理行政

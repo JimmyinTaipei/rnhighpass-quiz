@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+  <title>前列腺手術後的膀胱連續沖洗</title>
+  <rect width="800" height="500" fill="#FFFFFF"/>
+  <defs>
+    <marker id="bi-arr-b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2C5A96"/>
+    </marker>
+    <marker id="bi-arr-r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/>
+    </marker>
+  </defs>
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#26262B">前列腺手術後的膀胱連續沖洗(三腔導尿管)</text>
+
+  <!-- 膀胱 -->
+  <ellipse cx="400" cy="150" rx="115" ry="85" fill="#FBEFE6" stroke="#C9A58C" stroke-width="2"/>
+  <ellipse cx="400" cy="165" rx="92" ry="58" fill="#F6D9D9"/>
+  <text x="400" y="110" text-anchor="middle" font-size="14" fill="#26262B">膀胱</text>
+  <text x="400" y="136" text-anchor="middle" font-size="11" fill="#B4485C">沖淡血液、防止血塊阻塞</text>
+  <!-- 導尿管：一條管子從尿道進到膀胱 -->
+  <line x1="400" y1="176" x2="400" y2="420" stroke="#555A66" stroke-width="10" stroke-linecap="round"/>
+  <!-- 尖端開口：沖洗液流出(藍)、尿液與沖洗液流回(紅) -->
+  <path d="M392,182 C380,168 368,162 352,164" fill="none" stroke="#2C5A96" stroke-width="2" marker-end="url(#bi-arr-b)"/>
+  <path d="M448,164 C432,162 420,168 409,182" fill="none" stroke="#B4485C" stroke-width="2" marker-end="url(#bi-arr-r)"/>
+  <!-- 氣球在膀胱頸 -->
+  <ellipse cx="400" cy="232" rx="30" ry="16" fill="#FFFFFF" stroke="#555A66" stroke-width="2"/>
+  <line x1="400" y1="216" x2="400" y2="248" stroke="#555A66" stroke-width="10"/>
+  <text x="440" y="262" font-size="12" fill="#26262B">導尿管氣球</text>
+  <text x="440" y="278" font-size="11" fill="#555A66">卡在膀胱頸、壓住前列腺窩止血</text>
+  <!-- 前列腺窩 -->
+  <path d="M364,258 C364,296 436,296 436,258" fill="none" stroke="#C9A58C" stroke-width="10" stroke-linecap="round"/>
+  <text x="350" y="285" text-anchor="end" font-size="12" fill="#26262B">切除後的前列腺窩</text>
+  <text x="388" y="345" text-anchor="end" font-size="12" fill="#26262B">同一條導尿管經尿道進入膀胱</text>
+  <text x="388" y="361" text-anchor="end" font-size="11" fill="#555A66">膠布固定在大腿，輕拉讓氣球壓住止血</text>
+
+  <!-- 體外端分成三個接頭 -->
+  <circle cx="400" cy="420" r="7" fill="#555A66"/>
+  <path d="M400,420 C380,440 330,446 290,446" fill="none" stroke="#2C5A96" stroke-width="5"/>
+  <path d="M400,420 C420,440 470,446 510,446" fill="none" stroke="#B4485C" stroke-width="5"/>
+  <path d="M400,420 L400,468" fill="none" stroke="#555A66" stroke-width="3"/>
+  <circle cx="400" cy="472" r="5" fill="#555A66"/>
+  <text x="412" y="490" font-size="12" fill="#555A66">③ 氣球腔(打水固定)</text>
+  <text x="300" y="470" font-size="12" fill="#2C5A96">① 流入腔</text>
+  <text x="440" y="470" font-size="12" fill="#B4485C">② 流出腔</text>
+
+  <!-- 沖洗液：管子接到導尿管的流入腔 -->
+  <rect x="60" y="70" width="100" height="110" rx="10" fill="#EAF1FA" stroke="#2C5A96" stroke-width="2"/>
+  <text x="110" y="116" text-anchor="middle" font-size="13" fill="#2C5A96">生理食鹽水</text>
+  <text x="110" y="134" text-anchor="middle" font-size="12" fill="#2C5A96">(等張、無菌)</text>
+  <text x="110" y="200" text-anchor="middle" font-size="12" fill="#26262B">掛高，依血尿顏色調速</text>
+  <path d="M110,180 L110,420 C110,440 150,446 200,446 L290,446" fill="none" stroke="#2C5A96" stroke-width="3"/>
+  <line x1="190" y1="430" x2="260" y2="430" stroke="#2C5A96" stroke-width="2" marker-end="url(#bi-arr-b)"/>
+
+  <!-- 引流袋 -->
+  <path d="M510,446 L615,446 C635,446 645,440 645,425" fill="none" stroke="#B4485C" stroke-width="3"/>
+  <rect x="600" y="345" width="120" height="80" rx="10" fill="#F9E4E4" stroke="#B4485C" stroke-width="2"/>
+  <text x="660" y="379" text-anchor="middle" font-size="13" fill="#B4485C">密閉引流袋</text>
+  <text x="660" y="397" text-anchor="middle" font-size="11" fill="#B4485C">低於膀胱</text>
+  <line x1="520" y1="432" x2="580" y2="432" stroke="#B4485C" stroke-width="2" marker-end="url(#bi-arr-r)"/>
+
+  <!-- 右側重點 -->
+  <text x="560" y="80" font-size="13" font-weight="bold" fill="#26262B">觀察與記錄</text>
+  <text x="560" y="102" font-size="12" fill="#26262B">真正尿量 ＝ 引流量 − 沖洗液量</text>
+  <text x="560" y="124" font-size="12" fill="#26262B">顏色：淡粉紅 → 清澈</text>
+  <text x="560" y="146" font-size="12" fill="#B4485C">鮮紅、有血塊、</text>
+  <text x="560" y="162" font-size="12" fill="#B4485C">流出 &lt; 流入 → 檢查阻塞</text>
+  <text x="560" y="184" font-size="12" fill="#B4485C">下腹脹痛＝膀胱痙攣或血塊</text>
+</svg>

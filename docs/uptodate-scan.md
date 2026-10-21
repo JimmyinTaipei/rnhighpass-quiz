@@ -1,21 +1,25 @@
 # 來源掃描報告(1a)
 
-> 由 `scripts/source-scan.py` 產生。289 篇頁面對 199 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
+> 由 `scripts/source-scan.py` 產生。307 篇頁面對 199 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
 > 「疑似貼上」＝內文含形似字元(UpToDate 匯出檔的防複製記號)；「逐字重疊」＝共有 6 串以上；「數字序列重疊」＝連續 5 個有辨識度的數字(含單位)與匯出檔順序相同，可能是照原文順序整理，需人工比對；「檢視」＝零星重疊，多半是專有名詞或藥名。
 > **限制**：①中文翻譯式的近似照抄抓不到(只能抓英文詞串與數字序列)，要人工抽查；②國考書 PDF 是掃描圖檔、沒有文字層，無法比對(需要 OCR)；③圖片與表格的重製要人工看。
 
 | 結果 | 頁面 | 引用行數 | 形似字元 | 英文重疊 | 數字序列重疊 | 最相近的匯出檔 | 例 |
 |---|---|---:|---:|---:|---:|---|---|
-| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 免疫相關/Overview of therapeutic monoclonal antibodies(6)；免疫相關/Systemic lupus erythematosus: Epidemiology and pathogenesis(6)；免疫相關/Normal B and T lymphocyte development(6) | an overview of the innate immune |
+| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 免疫相關/Transfusion-related acute lung injury (TRALI)(6)；免疫相關/Complement pathways(6)；免疫相關/Transplantation immunobiology(6) | an overview of the innate immune |
 | 數字序列重疊 | disease/sepsis.md | 4 | 0 | 0 | 3 | 感染相關/Sepsis syndromes in adults: Epidemiology, definitions, clinical presentation, diagnosis, and prognosis(3) |  |
-| 檢視 | care/occupational-health-nursing.md | 0 | 0 | 2 | 0 | 免疫相關/Normal B and T lymphocyte development(2)；癌症相關/Classic Hodgkin lymphoma: Presentation, evaluation, and diagnosis in adults(2)；癌症相關/lymphoma in children(2) | international agency for research on cancer |
+| 檢視 | procedure/injections.md | 0 | 0 | 3 | 0 | 感染相關/Congenital cytomegalovirus (cCMV) infection: Clinical features and diagnosis(2)；免疫相關/Trigger control to enhance asthma management(2)；感染相關/Isoniazid: An overview(1) | cdc centers for disease control and |
+| 檢視 | care/occupational-health-nursing.md | 0 | 0 | 2 | 0 | 癌症相關/Classic Hodgkin lymphoma: Presentation, evaluation, and diagnosis in adults(2)；癌症相關/lymphoma in children(2)；免疫相關/Normal B and T lymphocyte development(2) | international agency for research on cancer |
 | 檢視 | pathogen/human-papillomavirus.md | 0 | 0 | 0 | 2 | 癌症相關/Invasive cervical cancer: Epidemiology, risk factors, clinical manifestations, and diagnosis(2) |  |
-| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Acquired disorders of the complement system(2)；免疫相關/Regulators and receptors of the complement system(2)；免疫相關/Normal B and T lymphocyte development(2) | regulators and receptors of the complement |
-| 檢視 | care/respiratory-assessment.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
+| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Acquired disorders of the complement system(2)；免疫相關/Inherited disorders of the complement system(2)；免疫相關/Complement pathways(2) | regulators and receptors of the complement |
+| 檢視 | care/respiratory-assessment.md | 0 | 0 | 1 | 0 | 免疫相關/Diagnosis and management of asthma in older adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
 | 檢視 | care/vital-statistics.md | 0 | 0 | 1 | 0 | 精神科相關/Schizophrenia in adults: Clinical features, assessment, and diagnosis(1) | and related health problems th revision |
-| 檢視 | disease/copd.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
-| 檢視 | physiology/t-lymphocytes.md | 9 | 0 | 1 | 0 | 免疫相關/Pathogenesis of rheumatoid arthritis(1)；免疫相關/Systemic lupus erythematosus: Epidemiology and pathogenesis(1)；免疫相關/Primary humoral immunodeficiencies: An overview(1) | normal b and t lymphocyte development |
-| 檢視 | physiology/ventilation-mechanics.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
+| 檢視 | device/dialysis-crrt.md | 0 | 0 | 1 | 0 | 感染相關/Vancomycin: Parenteral dosing, monitoring, and adverse effects in adults(1) | kdigo kidney disease improving global outcomes |
+| 檢視 | disease/chronic-kidney-disease.md | 0 | 0 | 1 | 0 | 感染相關/Vancomycin: Parenteral dosing, monitoring, and adverse effects in adults(1) | kdigo kidney disease improving global outcomes |
+| 檢視 | disease/copd.md | 0 | 0 | 1 | 0 | 免疫相關/Diagnosis and management of asthma in older adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
+| 檢視 | lab/renal-function-tests.md | 0 | 0 | 1 | 0 | 感染相關/Vancomycin: Parenteral dosing, monitoring, and adverse effects in adults(1) | kdigo kidney disease improving global outcomes |
+| 檢視 | physiology/t-lymphocytes.md | 9 | 0 | 1 | 0 | 免疫相關/Immunoglobulin genetics(1)；癌症相關/Classic Hodgkin lymphoma: Presentation, evaluation, and diagnosis in adults(1)；免疫相關/Normal B and T lymphocyte development(1) | normal b and t lymphocyte development |
+| 檢視 | physiology/ventilation-mechanics.md | 0 | 0 | 1 | 0 | 免疫相關/Diagnosis and management of asthma in older adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1) | fev forced expiratory volume in second |
 | 無重疊 | admin/accreditation-evaluation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/clinical-ladder-training.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/conflict-change-management.md | 0 | 0 | 0 | 0 | — |  |
@@ -73,6 +77,7 @@
 | 無重疊 | care/neuro-assessment.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/notifiable-diseases.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/pain-management.md | 8 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/patient-safety-environment.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/psychiatric-nursing-foundations.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/psychodynamic-theories.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/stem-cell-transplant.md | 8 | 0 | 0 | 0 | — |  |
@@ -81,6 +86,7 @@
 | 無重疊 | device/chest-tube.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | device/icp-monitoring.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | device/mechanical-ventilation.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/acute-kidney-injury.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/adhd.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/adrenal-insufficiency.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/alcohol-use-disorder.md | 0 | 0 | 0 | 0 | — |  |
@@ -112,6 +118,7 @@
 | 無重疊 | disease/eating-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/epilepsy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/eye-disorders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/glomerular-diseases.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/gynecologic-cancers.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/head-injury.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/head-neck-cancers.md | 0 | 0 | 0 | 0 | — |  |
@@ -136,6 +143,7 @@
 | 無重疊 | disease/parkinson-disease.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-cancers.md | 8 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-endocrine.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/pediatric-genitourinary.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-neuro.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-respiratory-infections.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/perinatal-infections.md | 2 | 0 | 0 | 0 | — |  |
@@ -162,6 +170,7 @@
 | 無重疊 | disease/trauma-stress-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/tuberculosis.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/urinary-tract-infection.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/urologic-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/urticaria-angioedema.md | 11 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/vector-borne-zoonotic.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/viral-hepatitis.md | 2 | 0 | 0 | 0 | — |  |
@@ -248,6 +257,8 @@
 | 無重疊 | lab/thyroid-function-tests.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/tumor-markers.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/uacr.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | lab/urinalysis.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | lab/urologic-diagnostic-procedures.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | pathogen/anaerobes.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | pathogen/atypical-bacteria.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | pathogen/candida.md | 4 | 0 | 0 | 0 | — |  |
@@ -276,6 +287,7 @@
 | 無重疊 | physiology/edema-shock.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/endocrine-overview.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/environmental-injury.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/fluid-electrolytes.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/gas-exchange-transport.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/genetic-inheritance.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/glucose-homeostasis.md | 0 | 0 | 0 | 0 | — |  |
@@ -283,6 +295,7 @@
 | 無重疊 | physiology/hypothalamus-pituitary.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/immunoglobulins-hla.md | 9 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/inflammation-repair.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/kidney-urinary-physiology.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/microbial-pathogenesis.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neoplasia.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neuron-synapse.md | 0 | 0 | 0 | 0 | — |  |
@@ -294,4 +307,9 @@
 | 無重疊 | physiology/thrombosis-embolism-infarction.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/thyroid-parathyroid.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | procedure/airway-clearance.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | procedure/body-temperature.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | procedure/iv-therapy.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | procedure/medication-administration-principles.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | procedure/non-parenteral-medication.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | procedure/oxygen-therapy.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | procedure/pulse-blood-pressure.md | 0 | 0 | 0 | 0 | — |  |

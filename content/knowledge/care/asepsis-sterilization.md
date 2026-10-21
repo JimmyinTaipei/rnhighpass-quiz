@@ -4,6 +4,7 @@ subtitle: Asepsis, disinfection and sterilization(內科與外科無菌、外科
 aliases: [無菌技術, 內科無菌, 外科無菌, 清潔技術, 無菌區, 無菌包, 無菌敷料鉗, 持物鉗, 外科刷手, 刷手, 無菌衣, 無菌手套, 清潔, 消毒, 滅菌, Disinfection, Sterilization, Spaulding 分類, 高層次消毒, 高壓蒸氣滅菌, 高壓滅菌, Autoclave, 乾熱滅菌, 煮沸消毒, 巴斯德消毒法, 紫外線, 環氧乙烷, EO 氣體, 過氧化氫電漿, 戊二醛, Cidex, 酒精, 優碘, 碘酒, Chlorhexidine, 漂白水, 次氯酸鈉, 來舒, Lysol, 雙氧水, 黃藥水, Rivanol, 化學指示劑, 生物指示劑, 抽真空測試, Bowie-Dick, 終期消毒]
 dzTags: []
 system: fundamentals
+group: safety-infection-control
 alsoIn: [infection]
 chapters:
   - 微免-Ch01微生物學總論與微生物控制 > 滅菌、消毒與化學治療

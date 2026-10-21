@@ -39,11 +39,11 @@
 | 5 | 病理總論(Ch02 發炎與修復已移到 1.5 輪)＋**遺傳疾病跨科總整理**(依遺傳模式分類，盤點見 [sources/genetic-disorders-inventory.md](sources/genetic-disorders-inventory.md))；標籤合併補做癌症＋感染(＋精神補) | 約 100＋跨科約 80 | 病理 Ch01 細胞傷害、Ch03 循環障礙、Ch06 遺傳、Ch07 環境營養；兒科、產科的遺傳題 | 易 | ✅ 5-0＋A–E 完成 2026-10-15(8 篇；病理 Ch01、03、06、07 全部 100%，病理 79%；全部 5322/8960)；Supabase 已寫回、已部署 |
 | 6 | 呼吸(氣喘已移到 1.5 輪)＋呼吸器/胸管/人工氣道器材頁＋給氧與呼吸道清潔技術頁；標籤合併呼吸＋免疫 | 約 274 | 內外 Ch09、生解 Ch08、藥理 Ch05、兒科 Ch08、病理 Ch11、**基護 Ch10 呼吸與氧氣兩節** | 中易 | 計畫已核准 2026-10-15(6-0＋A–I 組)；6-0a 標籤合併完成(91 題)；**全部完成 2026-10-15**(16 篇新頁，含第一批器材頁 chest-tube、mechanical-ventilation、artificial-airway 與第一批技術頁 oxygen-therapy、airway-clearance；呼吸相關 5 章 100%(藥理 Ch05 99%)；涵蓋 5586/8960；已寫回 Supabase 並部署) |
 | 7 | 社區 A(＋標籤合併社區 5 章＋血液剩餘) | 321 | 社區 Ch01 衛生行政、Ch03 生命統計、Ch05 社區評估、Ch10 長照、Ch13 職業衛生 | 易 | 計畫已核准 2026-10-15(7-0a–c＋A–G、11 篇；計畫檔 `~/.claude/plans/a-peaceful-valiant.md`)；7-0a–c 完成 2026-10-15(標籤合併 17 題、來源包、taxonomy groups)；A–F 完成 2026-10-16(11 篇，社區 5 章 100%、社區 38% → 67%)；G 收尾 2026-10-16，已寫回 Supabase 並部署 ✅ |
-| 8 | 基護 A(技術頁試做) | 390 | 基護 Ch13 給藥、Ch10 生命徵象(體溫、脈搏、血壓；**呼吸與氧氣兩節已移到第 6 輪**)、Ch14 體液供給 | 中 | |
-| 9 | 腎與體液＋透析/CRRT | 430 | 內外 Ch04、Ch10，生解 Ch10–11，病理 Ch14，兒科 Ch12 | 中 | |
-| 10 | 基護 B | 670 | 基護 Ch07 舒適、Ch15 排泄、Ch12 營養、Ch11 冷熱、Ch08 活動、Ch01–04、06、09、16 | 中 | |
-| 11 | 消化 | 430 | 內外 Ch07、生解 Ch09、病理 Ch12–13、藥理 Ch06、兒科 Ch11 | 中 | |
-| 12 | 血液(免疫與輸血反應已在 1.5 輪做完，只剩貧血、凝血、白血病以外的血液疾病與內外 Ch14 剩餘) | 約 120 | 內外 Ch14 血液、病理 Ch10、輸血相關 | 中 | |
+| 8 | 基護 A(技術頁試做) | 390 | 基護 Ch13 給藥、Ch10 生命徵象(體溫、脈搏、血壓；**呼吸與氧氣兩節已移到第 6 輪**)、Ch14 體液供給 | 中 || ✅ 2026-10-20 全部完成(7 篇；基護 Ch02、10、13、14 100%；全部 6205/8960；已寫回 Supabase 並部署) |
+| 9 | 腎與體液＋透析/CRRT | 430 | 內外 Ch04、Ch10，生解 Ch10–11，病理 Ch14，兒科 Ch12 | 中 || 計畫已核准 2026-10-20，見 [round-plans-8-12.md](round-plans-8-12.md) |
+| 10 | 基護 B | 670 | 基護 Ch07 舒適、Ch15 排泄、Ch12 營養、Ch11 冷熱、Ch08 活動、Ch01–04、06、09、16 | 中 || 計畫已核准 2026-10-20，見 [round-plans-8-12.md](round-plans-8-12.md) |
+| 11 | 消化 | 430 | 內外 Ch07、生解 Ch09、病理 Ch12–13、藥理 Ch06、兒科 Ch11 | 中 || 計畫已核准 2026-10-20，見 [round-plans-8-12.md](round-plans-8-12.md) |
+| 12 | 血液(免疫與輸血反應已在 1.5 輪做完，只剩貧血、凝血、白血病以外的血液疾病與內外 Ch14 剩餘) | 約 120 | 內外 Ch14 血液、病理 Ch10、輸血相關 | 中 || 計畫已核准 2026-10-20，見 [round-plans-8-12.md](round-plans-8-12.md) |
 | 13 | 社區 B | 400 | 社區 Ch02 流病、Ch04 衛教健促、Ch06 家庭、Ch07 婦幼、Ch08 中老年、Ch09 慢性病、Ch11 心衛、Ch12 學校、Ch15 環境 | 易 | |
 | 14 | 肌肉骨骼與皮膚(含骨骼、肌肉解剖頁) | 370 | 內外 Ch16、Ch12，生解 Ch02–04，病理 Ch17，兒科 Ch14 | 中難(要圖) | |
 | 15 | 心血管補完(心律不整、休克、中風)＋CVC/A-line/IABP/ECMO | 360 | 生解 Ch07、內外 Ch13、兒科 Ch09 | 中 | |
@@ -72,10 +72,10 @@
 | 5 | 11 消化 | 肝硬化腹水護理與穿刺；幽門狹窄、唇顎裂、食道閉鎖照護 | edema-shock#cirrhosis-ascites、genetic-inheritance#multifactorial | ⬜ |
 | 5 | 12 血液 | 血友病關節出血、運動與居家照護(約 9 題)；海洋性貧血輸血與排鐵(114-1_OP_041) | single-gene-disorders#hemophilia、#thalassemia | ⬜ |
 | 5 | 6 呼吸 | 呼吸系統同義標籤合併(原本預設在 5-0a，使用者改為先補癌症與感染) | — | ✅ 2026-10-15 6-0a |
-| 5 | 6 以後(找一輪) | 免疫範圍標籤合併(第 1.5 輪做過頁但沒合併過標籤)；腎、消化、泌尿生殖的同義標籤已記在 [tag-merge-round5.md](tag-merge-round5.md) 第六節，各輪合併時要一起處理 | — | 免疫 ✅ 2026-10-15 6-0a；腎、消化、泌尿生殖 ⬜ |
+| 5 | 6 以後(找一輪) | 免疫範圍標籤合併(第 1.5 輪做過頁但沒合併過標籤)；腎、消化、泌尿生殖的同義標籤已記在 [tag-merge-round5.md](tag-merge-round5.md) 第六節，各輪合併時要一起處理 | — | 免疫 ✅ 2026-10-15 6-0a；腎 ✅ 2026-10-21 9-0a；消化、泌尿生殖 ⬜ |
 | 6 | 7 社區 A | 勞工健康保護規則：粉塵作業特殊健康檢查項目(國考答案含肺功能檢查；法規附表待核對) | restrictive-lung-diseases#pneumoconiosis | ✅ 2026-10-15 7-0b(附表十第 23 項：胸部 X 光大片、肺功能；已回補) |
 | 6 | 16 產科新生兒 | 新生兒呼吸窘迫症候群的呼吸部分已寫在 ards-respiratory-failure#neonatal-rds(含 CPAP、Silverman-Anderson、L/S 比)；第 16 輪早產兒頁連過去，不重寫；保溫、餵食、其他早產併發症在第 16 輪 | ards-respiratory-failure#neonatal-rds | ⬜ |
-| 6 | 15 急重症 | 心肺復甦術、異物哽塞急救(105-2_OP_041、107-1_OP_059、111-1_OP_042、107-2_MS_079)；甦醒球與插管已寫在 artificial-airway，不重寫；中心靜脈導管、動脈導管、CRRT、IABP、ECMO 等其他器材頁 | artificial-airway#bag-valve-mask、mechanical-ventilation | ⬜ |
+| 6 | 15 急重症 | 心肺復甦術、異物哽塞急救(105-2_OP_041、107-1_OP_059、111-1_OP_042、107-2_MS_079)；甦醒球與插管已寫在 artificial-airway，不重寫；中心靜脈導管、動脈導管、IABP、ECMO 等其他器材頁(**CRRT 已在第 9 輪 dialysis-crrt#crrt**，第 15 輪只連過去) | artificial-airway#bag-valve-mask、mechanical-ventilation | ⬜ |
 | 6 | 16 產科新生兒 | 胎便吸入症候群(105-1_OP_054、106-1_OP_053、111-1_OP_055、113-3_OP_036、114-3_OP_035)、早產兒抽痰與給氧的新生兒數值、早產兒視網膜病變；給氧與抽痰原則連 oxygen-therapy、airway-clearance | oxygen-therapy、airway-clearance#suctioning | ⬜ |
 | 6 | 兒科心臟(15) | 心房中膈缺損與前列腺素 E1 的護理指導(106-1_OP_065，藥理 Ch05 唯一未收題) | — | ⬜ |
 | 6 | 7 社區 | 居家護理與長照的氣切、鼻胃管照護資源(108-2_PC_077、112-2_PC_075、111-2_PC_072、114-2_PC_047) | artificial-airway#tracheostomy | ✅ 2026-10-16 F 組(4 題收進 home-care-discharge-planning 與 long-term-care，互連 artificial-airway#tracheostomy) |
@@ -84,7 +84,20 @@
 | 7 | 13 社區 B | 環境衛生(Ch15)：空氣、水、廢棄物、食品衛生；職業暴露與噪音已寫在 occupational-health-nursing | occupational-health-nursing#hazards、environmental-injury | ⬜ |
 | 7 | 13 社區 B | 婦幼(Ch07)與學校衛生(Ch12)的預防保健時程(孕婦產檢 14 次、兒童預防保健)；已寫在 national-health-insurance#preventive-services，連回即可 | national-health-insurance#preventive-services | ⬜ |
 | 7 | 13 社區 B | 衛生教育與健康促進(Ch04)：健康信念模式、跨理論模式、渥太華憲章；community-nursing-process 只寫社區健康營造 | community-nursing-process | ⬜ |
-| 6 | 8 基護 A | 安全環境(火災 RACE、用氧安全，113-2_FA_004)；用氧安全已寫在 oxygen-therapy#precautions | oxygen-therapy#precautions | ⬜ |
+| 6 | 8 基護 A | 安全環境(火災 RACE、用氧安全，113-2_FA_004)；用氧安全已寫在 oxygen-therapy#precautions | oxygen-therapy#precautions | ✅ 2026-10-20 patient-safety-environment#fire |
+| 8 | 10 基護 B | 約束技術已寫在 patient-safety-environment#restraint(Ch07、Ch08 約束題已收)；舒適、活動頁只連過去，不重寫；冷熱療法頁的發燒散熱連 body-temperature、燙傷預防連 patient-safety-environment#injury-types | patient-safety-environment#restraint、body-temperature | ⬜ |
+| 8 | 10 基護 B | 鼻胃管給藥已寫在 non-parenteral-medication；管灌與 TPN 頁連過去，TPN 走中心靜脈的原則連 iv-therapy | non-parenteral-medication、iv-therapy | ⬜ |
+| 8 | 13 社區 B | 老人跌倒危險因子(內因、外因)與居家防跌已寫在 patient-safety-environment#falls(收了 111-2_PC_078、113-3_PC_049、108-1_PC_055、111-1_PC_067)；衰弱評估與防跌健康促進題(114-1_PC_031、106-2_makeup_PC_064、114-2_PC_048)留社區 B | patient-safety-environment#falls | ⬜ |
+| 8 | 14 肌骨皮膚 | 燒傷輸液 Parkland 公式已寫在 iv-therapy；燒傷照護頁連過去，不重寫公式 | iv-therapy | ⬜ |
+| 8 | 15 心血管 | 心律不整標籤留給心律不整頁(pulse-blood-pressure 只寫脈律特徵)；心尖脈與脈搏短絀連 pulse-blood-pressure | pulse-blood-pressure | ⬜ |
+| 8 | 16 產兒 | 新生兒體溫散失與保暖(body-temperature 只寫一般原則)；兒童注射部位與兒童餵藥已寫在 injections、non-parenteral-medication，兒科頁連過去 | body-temperature、injections | ⬜ |
+| 8 | 17 藥理 | 藥動學與藥物交互作用深入內容(medication-administration-principles 只寫給藥相關的概述) | medication-administration-principles | ⬜ |
+| 9 | 10 基護 B | 尿液與 24 小時尿液檢體已寫在 urinalysis#nursing(admission-discharge-specimens 只連過去)；尿滯留、導尿、膀胱訓練與凱格爾技術、基護 Ch15 尿失禁與尿滯留題寫在 urinary-elimination；做好後把 urologic-disorders 兩處「基本護理排泄頁另外整理」改成連結，並連 urologic-disorders#incontinence | urinalysis#nursing、urologic-disorders#incontinence | ⬜ |
+| 9 | 11 消化 | 腸阻塞的體液變化(106-2_MS_016)、肝硬化腹水護理(113-1_MS_007)；體液電解質機轉在 fluid-electrolytes，不重寫 | fluid-electrolytes | ⬜ |
+| 9 | 12 血液 | 造血藥物頁(EPO、鐵劑、葉酸)：CKD 頁腎性貧血段先寫文字，做好後回補連結 | chronic-kidney-disease#anemia | ⬜ |
+| 9 | 14 肌骨 | 骨質疏鬆與尿路結石(107-1_MS_020)；骨鬆疾病頁做好後把 urologic-disorders#stone-nursing 的骨鬆文字改成連結 | urologic-disorders#stone-nursing | ⬜ |
+| 9 | 15 急重症 | 溺水照護(107-1_MS_078)；CRRT 已在 dialysis-crrt#crrt | dialysis-crrt#crrt | ⬜ |
+| 9 | 16 產科(生解 Ch13) | 男性生殖：睪丸腫瘤(病理 Ch15 3 題)、男性生殖器解剖(生解 Ch13)、精索扭轉與靜脈曲張、成人包莖；前列腺疾病已在 urologic-disorders、兒童隱睪與包莖已在 pediatric-genitourinary | urologic-disorders#prostate-cancer、pediatric-genitourinary | ⬜ |
 
 ## 版權優先與 UpToDate 使用原則(2026-10-04 起)
 
@@ -164,7 +177,7 @@
 | 3 | **病理學課本**(Robbins Basic Pathology 任何版本，或中文病理學課本)＋**病理國考書** | 5 | 發炎、細胞死亡、修復的深度需要病理課本；OpenStax 沒有病理 |
 | 4 | **重症護理學課本**(中文或英文都可) | 6 起 | 呼吸器、胸管、CVC、A-line、CRRT、IABP、ECMO 這些器材頁沒有公開的護理資料 |
 | 5 | **社區衛生護理學國考書** | 7 | 核對考點(其餘用政府資料) |
-| 6 | **基本護理學課本**(技術步驟)＋**基護國考書** | 8、10 | 技術步驟要以台灣課本的做法為準；OpenStax Clinical Nursing Skills 是美國做法 |
+| 6 | ✅ 2026-10-20 已提供：**基本護理學上下冊**＋**內外科護理技術**(`國考書（最終參考用）/`，掃描檔要 OCR；技術書只當參考) | 8、10 | 技術步驟要以台灣課本的做法為準；OpenStax Clinical Nursing Skills 是美國做法 |
 | 7 | **產科國考書**；Williams 如果可以，掃描或拍 PDF | 16 | 產科題數多(956 題)，目前只有 OpenStax |
 | 8 | **生解、藥理國考書** | 14、17 | 最後核對考點 |
 | 隨時 | 每輪結束的 **UpToDate 需確認清單**(整輪結束列一次，不限 5 項但不要太多) | 每批 | 不再整批匯出；見上方「UpToDate 使用原則」 |

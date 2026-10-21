@@ -4,6 +4,7 @@ subtitle: Infection prevention and control(感染鏈、醫療照護相關感染�
 aliases: [感染管制, 感控, 感染控制, Infection control, 感染鏈, 傳染窩, 侵入門戶, 易感宿主, 醫療照護相關感染, 院內感染, HAI, Healthcare-associated infection, 手部衛生, 洗手, 洗手五時機, 乾洗手, 酒精性乾洗手液, 標準防護措施, 全面性防護, Standard precautions, 傳播途徑防護措施, 接觸傳染防護措施, 接觸隔離, 飛沫傳染防護措施, 飛沫隔離, 空氣傳染防護措施, 呼吸道隔離, 負壓隔離病房, N95, 外科口罩, 隔離衣, 個人防護裝備, PPE, 穿脫順序, 保護性隔離, 反隔離, 腸道隔離, 絕對隔離, 咳嗽禮節, 組合式照護, Bundle care, CLABSI, CAUTI, VAP, 中心導管, 多重抗藥性微生物, MDRO]
 dzTags: [醫療照護相關感染]
 system: fundamentals
+group: safety-infection-control
 alsoIn: [infection, administration]
 chapters:
   - 微免-Ch01微生物學總論與微生物控制 > 醫療照護相關感染與感染管制
@@ -102,6 +103,8 @@ references:
 - 指甲剪短(國考：指甲尖端不超過 **0.5 公分**)、不戴人工指甲與戒指。
 - 手部衛生的目的是**去除手上的暫時性菌叢**，常在菌叢無法也不需要完全去除。
 - 在醫院公共空間與病床旁放置**乾洗手液**，是提高遵從率的做法；可用**稽核表**(查檢表)監測洗手遵從率。
+
+::questions{ids="107-2_FA_004"}
 
 ## 標準防護措施 {#standard-precautions}
 

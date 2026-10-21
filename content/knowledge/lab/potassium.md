@@ -220,7 +220,7 @@ references:
 氯化鉀是**高警訊藥物**。最重要的只有兩件事：**絕對不可 IV push**，以及**濃度與速率以醫囑和醫院規範為準**——下表的數字僅供參考。
 
 :::warning[KCl 絕對不可 IV push]
-直接靜脈推注會使血鉀瞬間升高，造成致命心律不整與心跳停止。KCl 只能**稀釋後以輸液幫浦靜脈輸注**(IV infusion)，也不可 IM、SC。醫囑寫「IV push」或**沒寫途徑**，都要**先向醫師確認劑量與途徑**。
+直接靜脈推注會使血鉀瞬間升高，造成致命心律不整與心跳停止。KCl 只能**稀釋後以輸液幫浦靜脈輸注**(IV infusion)，也不可 IM、SC。醫囑寫「IV push」或**沒寫途徑**，都要**先向醫師確認劑量與途徑**(高警訊藥物管理見 [[medication-administration-principles]]，輸液與滴速見 [[iv-therapy]])。
 :::
 
 | 規則 | 內容(參考值，依醫囑與機構規範) |
@@ -258,6 +258,8 @@ references:
 | **同時** | 停止所有鉀來源(含 KCl 點滴、保鉀藥物、ACEI/ARB)、找出原因 | **限制高鉀食物**，絕不是「多吃香蕉柳丁」 |
 
 **心跳停止時**(2025 AHA ACLS)：以高品質 CPR、電擊、epinephrine(每 3–5 分鐘 1 mg)等標準流程為主;高/低血鉀屬可逆原因 **Hs & Ts** 之一(來源：[2025 AHA 成人心跳停止流程圖](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/algorithms))。一般心跳停止**不建議常規**給鈣劑或碳酸氫鈉(來源：[2025 AHA ACLS 指引](https://doi.org/10.1161/CIR.0000000000001376) p.13);**懷疑高血鉀造成的心跳停止**，2025 年更新指出靜脈鈣劑的療效**尚未充分證實**，給鈣前要權衡是否會耽誤 CPR、電擊與 epinephrine(來源：[2025 AHA CPR/ECC 指引摘要(繁中)](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines) p.17)。實務上仍可依醫囑給鈣劑、胰島素葡萄糖、碳酸氫鈉，並盡快安排透析。國考答案「鈣劑、RI + 葡萄糖、碳酸氫鈉、透析」仍正確。低張 0.3% NaCl 與降鉀無關。
+
+::questions{ids="108-1_MS_062,110-2_MS_060,110-1_MS_075,106-2_makeup_MS_063,108-1_OP_048"}
 
 ### 低血鉀的處理 {#hypokalemia-treatment}
 

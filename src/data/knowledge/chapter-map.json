@@ -365,6 +365,12 @@
    "leukemia",
    "antineoplastics"
   ],
+  "基護-Ch02醫療環境 > 醫療環境的控制": [
+   "patient-safety-environment"
+  ],
+  "基護-Ch02醫療環境 > 病人的環境－病人單位": [
+   "patient-safety-environment"
+  ],
   "精神-Ch01精神醫學與護理的發展史及基本概念 > 精神醫學發展史": [
    "psychiatric-nursing-foundations",
    "schizophrenia"
@@ -405,7 +411,8 @@
    "transfusion-reactions"
   ],
   "基護-Ch14體液供給 > 體液供給的護理過程": [
-   "transfusion-reactions"
+   "transfusion-reactions",
+   "iv-therapy"
   ],
   "病理-Ch10血液、造血與淋巴系統疾病 > 血型、輸血與脾臟疾病": [
    "transfusion-reactions"
@@ -432,11 +439,32 @@
    "chest-tube",
    "pleural-chest-trauma"
   ],
+  "內外-Ch10腎臟與泌尿系統疾病 > 腎臟疾病 > 透析治療與腎臟移植": [
+   "dialysis-crrt"
+  ],
+  "兒科-Ch12兒童泌尿生殖系統疾病 > 常見泌尿生殖系統疾病及其護理": [
+   "dialysis-crrt",
+   "acute-kidney-injury",
+   "chronic-kidney-disease",
+   "glomerular-diseases",
+   "pediatric-genitourinary",
+   "urinary-tract-infection",
+   "gram-negative-bacteria"
+  ],
   "內外-Ch09呼吸系統疾病 > 肺實質病變": [
    "mechanical-ventilation",
    "restrictive-lung-diseases",
    "tuberculosis",
    "streptococci"
+  ],
+  "內外-Ch10腎臟與泌尿系統疾病 > 腎臟疾病 > 急性腎損傷與慢性腎臟病": [
+   "acute-kidney-injury",
+   "chronic-kidney-disease"
+  ],
+  "病理-Ch14泌尿系統疾病 > 腎臟疾病": [
+   "acute-kidney-injury",
+   "chronic-kidney-disease",
+   "glomerular-diseases"
   ],
   "內外-Ch08內分泌系統疾病 > 腎上腺疾病": [
    "adrenal-insufficiency",
@@ -785,6 +813,10 @@
   "病理-Ch18感官與神經系統疾病 > 眼睛疾病": [
    "eye-disorders"
   ],
+  "內外-Ch10腎臟與泌尿系統疾病 > 腎臟疾病": [
+   "glomerular-diseases",
+   "uacr"
+  ],
   "病理-Ch15生殖系統與乳房疾病 > 女性生殖系統疾病": [
    "gynecologic-cancers"
   ],
@@ -905,7 +937,8 @@
   ],
   "基護-Ch10生命徵象 > 血壓": [
    "hypotension",
-   "blood-pressure-regulation"
+   "blood-pressure-regulation",
+   "pulse-blood-pressure"
   ],
   "病理-Ch03代謝、體液與循環障礙 > 循環障礙 > 休克": [
    "hypotension",
@@ -987,6 +1020,10 @@
   ],
   "兒科-Ch15兒童內分泌系統疾病與慢性病 > 常見內分泌系統疾病": [
    "pediatric-endocrine"
+  ],
+  "兒科-Ch12兒童泌尿生殖系統疾病 > 兒童泌尿生殖系統之解剖生理與評估": [
+   "pediatric-genitourinary",
+   "urinary-tract-infection"
   ],
   "兒科-Ch08兒童呼吸系統疾病 > 上呼吸道感染疾病": [
    "pediatric-respiratory-infections"
@@ -1159,18 +1196,16 @@
    "urinary-tract-infection"
   ],
   "基護-Ch18出入院護理與檢體收集 > 入院之常規檢體收集 > 尿液檢體收集法（含培養、24小時尿液檢體收集）": [
-   "urinary-tract-infection"
+   "urinary-tract-infection",
+   "urinalysis"
   ],
   "內外-Ch10腎臟與泌尿系統疾病 > 泌尿道疾病": [
    "urinary-tract-infection",
+   "urologic-disorders",
    "gram-negative-bacteria"
   ],
-  "兒科-Ch12兒童泌尿生殖系統疾病 > 兒童泌尿生殖系統之解剖生理與評估": [
-   "urinary-tract-infection"
-  ],
-  "兒科-Ch12兒童泌尿生殖系統疾病 > 常見泌尿生殖系統疾病及其護理": [
-   "urinary-tract-infection",
-   "gram-negative-bacteria"
+  "病理-Ch14泌尿系統疾病 > 泌尿道疾病": [
+   "urologic-disorders"
   ],
   "微免-Ch12RNA病毒 > 節肢動物媒介病毒與病毒性出血熱": [
    "vector-borne-zoonotic"
@@ -1212,7 +1247,8 @@
    "antiparkinson-drugs"
   ],
   "基護-Ch13給藥法 > 給藥醫囑介紹及給藥原則": [
-   "antibiotics-overview"
+   "antibiotics-overview",
+   "medication-administration-principles"
   ],
   "藥理-Ch09血液系統藥物 > 抗血栓症藥物": [
    "anticoagulants",
@@ -1303,13 +1339,17 @@
   "生解-Ch11體液、電解質與酸鹼平衡 > 酸鹼不平衡": [
    "abg"
   ],
+  "生解-Ch11體液、電解質與酸鹼平衡 > 體內酸鹼平衡": [
+   "abg"
+  ],
   "生解-Ch12內分泌系統 > 胰臟之蘭氏小島": [
    "blood-glucose",
    "glucose-homeostasis"
   ],
   "基護-Ch14體液供給 > 體液不平衡之常見問題": [
    "calcium-phosphate",
-   "potassium"
+   "potassium",
+   "iv-therapy"
   ],
   "兒科-Ch09兒童循環系統疾病 > 先天性心臟病 > 先天性心臟病兒童之護理與手術護理": [
    "cardiac-catheterization"
@@ -1331,14 +1371,25 @@
    "immunology-labs"
   ],
   "生解-Ch11體液、電解質與酸鹼平衡 > 電解質": [
-   "potassium"
+   "potassium",
+   "fluid-electrolytes"
+  ],
+  "內外-Ch10腎臟與泌尿系統疾病 > 腎臟疾病 > 腎臟與泌尿系統評估及檢查": [
+   "renal-function-tests",
+   "urinalysis",
+   "urologic-diagnostic-procedures"
+  ],
+  "生解-Ch10泌尿系統 > 腎臟生理學": [
+   "renal-function-tests",
+   "kidney-urinary-physiology"
   ],
   "生解-Ch12內分泌系統 > 甲狀腺與副甲狀腺": [
    "thyroid-function-tests",
    "thyroid-parathyroid"
   ],
-  "內外-Ch10腎臟與泌尿系統疾病 > 腎臟疾病": [
-   "uacr"
+  "生解-Ch10泌尿系統 > 尿液與下泌尿道": [
+   "urinalysis",
+   "kidney-urinary-physiology"
   ],
   "微免-Ch09厭氧菌 > 厭氧性梭狀芽孢桿菌屬": [
    "anaerobes",
@@ -1480,6 +1531,12 @@
   "病理-Ch07環境傷害與營養疾病 > 物理性傷害": [
    "environmental-injury"
   ],
+  "生解-Ch11體液、電解質與酸鹼平衡 > 體液區間與體液平衡": [
+   "fluid-electrolytes"
+  ],
+  "內外-Ch04體液、電解質與酸鹼不平衡之護理 > 體液與電解質不平衡": [
+   "fluid-electrolytes"
+  ],
   "生解-Ch08呼吸系統 > 呼吸作用": [
    "gas-exchange-transport",
    "ventilation-mechanics"
@@ -1510,6 +1567,18 @@
   ],
   "病理-Ch02發炎與修復 > 再生與修復作用": [
    "inflammation-repair"
+  ],
+  "生解-Ch10泌尿系統 > 泌尿系統總論": [
+   "kidney-urinary-physiology"
+  ],
+  "生解-Ch10泌尿系統 > 腎臟解剖學": [
+   "kidney-urinary-physiology"
+  ],
+  "生解-Ch10泌尿系統 > 腎臟之恆定調節功能": [
+   "kidney-urinary-physiology"
+  ],
+  "生解-Ch10泌尿系統 > 綜合題型": [
+   "kidney-urinary-physiology"
   ],
   "微免-Ch11病毒學總論與DNA病毒 > 病毒學總論": [
    "microbial-pathogenesis"
@@ -1569,6 +1638,30 @@
   "兒科-Ch08兒童呼吸系統疾病 > 呼吸系統常見治療及護理": [
    "airway-clearance",
    "oxygen-therapy"
+  ],
+  "基護-Ch10生命徵象 > 體溫": [
+   "body-temperature"
+  ],
+  "基護-Ch13給藥法 > 給藥途徑 > 注射給藥（肌肉、皮下、皮內、靜脈注射）": [
+   "injections"
+  ],
+  "基護-Ch14體液供給 > 體液的概述": [
+   "iv-therapy"
+  ],
+  "基護-Ch13給藥法 > 給藥系統與藥物管理": [
+   "medication-administration-principles"
+  ],
+  "基護-Ch13給藥法 > 藥物治療基本概述": [
+   "medication-administration-principles"
+  ],
+  "基護-Ch13給藥法 > 給藥的護理過程": [
+   "medication-administration-principles"
+  ],
+  "基護-Ch13給藥法 > 給藥途徑": [
+   "non-parenteral-medication"
+  ],
+  "基護-Ch10生命徵象 > 脈搏": [
+   "pulse-blood-pressure"
   ]
  },
  "chapters": {
@@ -1633,19 +1726,10 @@
    ]
   },
   "生解-Ch10泌尿系統": {
-   "missing": [
-    "泌尿系統總論",
-    "腎臟解剖學",
-    "腎臟生理學",
-    "腎臟之恆定調節功能",
-    "尿液與下泌尿道"
-   ]
+   "missing": []
   },
   "生解-Ch11體液、電解質與酸鹼平衡": {
-   "missing": [
-    "體液區間與體液平衡",
-    "體內酸鹼平衡"
-   ]
+   "missing": []
   },
   "生解-Ch12內分泌系統": {
    "missing": []
@@ -1720,10 +1804,7 @@
    ]
   },
   "病理-Ch14泌尿系統疾病": {
-   "missing": [
-    "腎臟疾病",
-    "泌尿道疾病"
-   ]
+   "missing": []
   },
   "病理-Ch15生殖系統與乳房疾病": {
    "missing": [
@@ -1866,9 +1947,7 @@
   },
   "基護-Ch02醫療環境": {
    "missing": [
-    "醫療環境的控制",
-    "護理技術之概念",
-    "病人的環境－病人單位"
+    "護理技術之概念"
    ]
   },
   "基護-Ch03觀察與溝通": {
@@ -1917,10 +1996,7 @@
    ]
   },
   "基護-Ch10生命徵象": {
-   "missing": [
-    "體溫",
-    "脈搏"
-   ]
+   "missing": []
   },
   "基護-Ch11冷熱療法": {
    "missing": [
@@ -1937,17 +2013,11 @@
    ]
   },
   "基護-Ch13給藥法": {
-   "missing": [
-    "給藥的護理過程",
-    "藥物治療基本概述",
-    "給藥途徑",
-    "給藥系統與藥物管理"
-   ]
+   "missing": []
   },
   "基護-Ch14體液供給": {
    "missing": [
-    "酸鹼平衡與其調節機轉",
-    "體液的概述"
+    "酸鹼平衡與其調節機轉"
    ]
   },
   "基護-Ch15排泄需要": {
@@ -2011,9 +2081,7 @@
    "missing": []
   },
   "內外-Ch04體液、電解質與酸鹼不平衡之護理": {
-   "missing": [
-    "體液與電解質不平衡"
-   ]
+   "missing": []
   },
   "內外-Ch05傳染病": {
    "missing": [

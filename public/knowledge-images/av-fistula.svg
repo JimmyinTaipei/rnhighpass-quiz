@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 445" width="800" height="445" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+  <title>動靜脈瘻管與人工血管</title>
+  <rect width="800" height="445" fill="#FFFFFF"/>
+  <defs>
+    <marker id="av-arr-r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#B4485C"/>
+    </marker>
+    <marker id="av-arr-b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2C5A96"/>
+    </marker>
+  </defs>
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#26262B">血液透析的永久血管通路(左前臂，掌面朝上)</text>
+
+  <!-- ===== A 自體動靜脈瘻管 ===== -->
+  <g transform="translate(10,50)">
+    <text x="190" y="18" text-anchor="middle" font-size="16" font-weight="bold" fill="#26262B">自體動靜脈瘻管(AVF)</text>
+    <!-- 前臂輪廓：左手腕、右手肘 -->
+    <path d="M20,120 C20,90 40,78 70,76 L330,64 C356,63 372,80 372,120 L372,210 C372,250 356,266 330,265 L70,254 C40,252 20,240 20,210 Z" fill="#FBEFE6" stroke="#C9A58C" stroke-width="2"/>
+    <text x="40" y="290" font-size="12" fill="#888">手腕</text>
+    <text x="352" y="290" text-anchor="end" font-size="12" fill="#888">手肘(往心臟)</text>
+    <!-- 橈動脈 -->
+    <path d="M372,200 L60,200" stroke="#B4485C" stroke-width="6" fill="none"/>
+    <line x1="330" y1="214" x2="250" y2="214" stroke="#B4485C" stroke-width="2" marker-end="url(#av-arr-r)"/>
+    <text x="300" y="232" text-anchor="middle" font-size="12" fill="#B4485C">橈動脈</text>
+    <!-- 頭靜脈：吻合後變粗 -->
+    <path d="M60,196 C70,170 86,150 110,140 C150,124 220,118 372,112" stroke="#2C5A96" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <line x1="160" y1="102" x2="250" y2="98" stroke="#2C5A96" stroke-width="2" marker-end="url(#av-arr-b)"/>
+    <text x="260" y="92" font-size="12" fill="#2C5A96">頭靜脈(動脈化、變粗)</text>
+    <!-- 吻合處 -->
+    <circle cx="62" cy="198" r="11" fill="none" stroke="#26262B" stroke-width="2"/>
+    <text x="62" y="236" text-anchor="middle" font-size="12" fill="#26262B">吻合處</text>
+    <text x="62" y="252" text-anchor="middle" font-size="11" fill="#555A66">摸震顫、聽雜音</text>
+    <!-- 穿刺針 -->
+    <line x1="150" y1="164" x2="132" y2="132" stroke="#B4485C" stroke-width="3"/>
+    <circle cx="150" cy="166" r="4" fill="#B4485C"/>
+    <text x="150" y="182" text-anchor="middle" font-size="11" fill="#B4485C">動脈針</text>
+    <text x="150" y="196" text-anchor="middle" font-size="10" fill="#555A66">血液抽到透析機</text>
+    <line x1="290" y1="148" x2="270" y2="116" stroke="#2C5A96" stroke-width="3"/>
+    <circle cx="290" cy="150" r="4" fill="#2C5A96"/>
+    <text x="300" y="166" text-anchor="middle" font-size="11" fill="#2C5A96">靜脈針</text>
+    <text x="300" y="180" text-anchor="middle" font-size="10" fill="#555A66">乾淨血液送回</text>
+    <text x="190" y="320" text-anchor="middle" font-size="12" fill="#26262B">術後約 6–8 週成熟才可穿刺</text>
+    <text x="190" y="338" text-anchor="middle" font-size="12" fill="#26262B">優先選擇：感染、栓塞最少，用得最久</text>
+  </g>
+
+  <!-- ===== B 人工血管 ===== -->
+  <g transform="translate(418,50)">
+    <text x="185" y="18" text-anchor="middle" font-size="16" font-weight="bold" fill="#26262B">人工血管(AVG)</text>
+    <path d="M20,120 C20,90 40,78 70,76 L330,64 C356,63 372,80 372,120 L372,210 C372,250 356,266 330,265 L70,254 C40,252 20,240 20,210 Z" fill="#FBEFE6" stroke="#C9A58C" stroke-width="2"/>
+    <text x="40" y="290" font-size="12" fill="#888">手腕</text>
+    <text x="352" y="290" text-anchor="end" font-size="12" fill="#888">手肘(往心臟)</text>
+    <!-- 肱動脈、肘部靜脈 -->
+    <path d="M372,200 L300,200" stroke="#B4485C" stroke-width="6" fill="none"/>
+    <text x="356" y="222" text-anchor="end" font-size="12" fill="#B4485C">動脈</text>
+    <path d="M372,112 L300,112" stroke="#2C5A96" stroke-width="6" fill="none"/>
+    <text x="356" y="102" text-anchor="end" font-size="12" fill="#2C5A96">靜脈</text>
+    <!-- 迴圈型人工血管 -->
+    <path d="M304,200 C240,200 140,220 110,180 C90,150 120,116 180,114 C230,112 270,112 304,112" stroke="#8A7FB0" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <text x="160" y="160" text-anchor="middle" font-size="12" fill="#5B4F87">人工合成血管</text>
+    <text x="160" y="176" text-anchor="middle" font-size="12" fill="#5B4F87">(PTFE，皮下 U 形)</text>
+    <text x="185" y="320" text-anchor="middle" font-size="12" fill="#26262B">自己的血管條件不好時使用</text>
+    <text x="185" y="338" text-anchor="middle" font-size="12" fill="#26262B">約 2 週、水腫消退後可用；較易栓塞與感染</text>
+  </g>
+
+  <text x="400" y="430" text-anchor="middle" font-size="12" fill="#555A66">有瘻管的手臂：不量血壓、不打針抽血、不提重物、不戴錶與飾品、不當枕頭</text>
+</svg>

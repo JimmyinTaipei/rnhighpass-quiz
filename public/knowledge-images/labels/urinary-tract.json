@@ -1,0 +1,66 @@
+{
+ "image": "servier-urinary-tract.svg",
+ "_說明": "男性泌尿道：左腎外觀、右腎冠狀切面、輸尿管、膀胱、攝護腺、尿道(2026-10-21 第 9 輪，放大格線核對點位)",
+ "labels": [
+  {
+   "id": "kidney",
+   "zh": "腎臟",
+   "en": "Kidney",
+   "x": 32,
+   "y": 15,
+   "tx": 18,
+   "ty": 15,
+   "align": "end"
+  },
+  {
+   "id": "ureter",
+   "zh": "輸尿管",
+   "en": "Ureter",
+   "x": 44,
+   "y": 35,
+   "tx": 18,
+   "ty": 35,
+   "align": "end"
+  },
+  {
+   "id": "bladder",
+   "zh": "膀胱",
+   "en": "Urinary bladder",
+   "x": 46,
+   "y": 62,
+   "tx": 18,
+   "ty": 62,
+   "align": "end"
+  },
+  {
+   "id": "pelvis",
+   "zh": "腎盂",
+   "en": "Renal pelvis",
+   "x": 62,
+   "y": 11,
+   "tx": 76,
+   "ty": 11,
+   "align": "start"
+  },
+  {
+   "id": "prostate",
+   "zh": "攝護腺(前列腺)",
+   "en": "Prostate",
+   "x": 53,
+   "y": 73,
+   "tx": 76,
+   "ty": 73,
+   "align": "start"
+  },
+  {
+   "id": "urethra",
+   "zh": "尿道",
+   "en": "Urethra",
+   "x": 50,
+   "y": 88,
+   "tx": 76,
+   "ty": 88,
+   "align": "start"
+  }
+ ]
+}

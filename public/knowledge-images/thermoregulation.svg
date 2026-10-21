@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>體溫調節</title>
+<rect width="1000" height="520" fill="#FFFFFF"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<text x="500" y="34" font-size="20" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">體溫調節：負回饋(示意)</text>
+<rect x="370" y="200" width="260" height="110" rx="10" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+<text x="500" y="240" font-size="20" fill="#0D47A1" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">下視丘</text>
+<text x="500" y="266" font-size="15" fill="#0D47A1" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">體溫調節中樞</text>
+<text x="500" y="290" font-size="15" fill="#0D47A1" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">設定點約 37 ℃</text>
+<rect x="370" y="70" width="260" height="80" rx="10" fill="#FFF8E1" stroke="#F9A825" stroke-width="1.5"/>
+<text x="500" y="100" font-size="14" fill="#5D4037" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">皮膚冷熱接受器(冷覺較多)</text>
+<text x="500" y="124" font-size="14" fill="#5D4037" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">流經腦部的血液溫度</text>
+<line x1="500" y1="150" x2="500" y2="198" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="30" y="170" width="300" height="180" rx="10" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+<text x="180" y="198" font-size="16" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">體溫偏高 → 促進散熱</text>
+<text x="60" y="230" font-size="15" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">• 皮膚血管擴張</text>
+<text x="60" y="258" font-size="15" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">• 流汗增加</text>
+<text x="60" y="286" font-size="15" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">• 減少肌肉活動與代謝</text>
+<text x="60" y="314" font-size="15" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">• 呼吸變淺快</text>
+<line x1="368" y1="255" x2="332" y2="255" stroke="#C62828" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="670" y="170" width="300" height="180" rx="10" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="820" y="198" font-size="16" fill="#1B5E20" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">體溫偏低 → 產熱保熱</text>
+<text x="700" y="230" font-size="15" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">• 皮膚血管收縮</text>
+<text x="700" y="258" font-size="15" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">• 流汗減少或停止</text>
+<text x="700" y="286" font-size="15" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">• 顫抖、增加代謝</text>
+<text x="700" y="314" font-size="15" fill="#333" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">• 腎上腺素、甲狀腺素↑</text>
+<line x1="632" y1="255" x2="668" y2="255" stroke="#2E7D32" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="130" y="400" width="740" height="90" rx="10" fill="#FAFAFA" stroke="#9E9E9E" stroke-width="1.5"/>
+<text x="500" y="430" font-size="15" fill="#333" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">發燒：致熱原 → 前列腺素 E2 → 設定點上升，身體以為自己太冷</text>
+<text x="500" y="460" font-size="15" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">所以發燒初期會畏寒、顫抖、皮膚蒼白冰冷</text>
+</svg>

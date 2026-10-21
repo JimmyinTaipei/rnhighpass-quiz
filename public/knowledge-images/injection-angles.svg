@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="1000" height="680" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>注射角度與深度</title>
+<rect width="1000" height="680" fill="#FFFFFF"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect x="40" y="200" width="920" height="28" fill="#F6D7C3"/>
+<text x="60" y="219.0" font-size="15" fill="#333" text-anchor="start" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">表皮</text>
+<rect x="40" y="228" width="920" height="62" fill="#EFB9A0"/>
+<text x="60" y="264.0" font-size="15" fill="#333" text-anchor="start" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">真皮</text>
+<rect x="40" y="290" width="920" height="140" fill="#FBE7A1"/>
+<text x="60" y="365.0" font-size="15" fill="#333" text-anchor="start" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">皮下組織</text>
+<rect x="40" y="430" width="920" height="150" fill="#D9776B"/>
+<text x="60" y="510.0" font-size="15" fill="#333" text-anchor="start" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">肌肉</text>
+<ellipse cx="915" cy="360" rx="60" ry="26" fill="#5C6BC0" stroke="#283593" stroke-width="2"/>
+<text x="915" y="410" font-size="14" fill="#283593" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">靜脈</text>
+<line x1="88.3" y1="200.0" x2="34.5" y2="188.6" stroke="#90A4AE" stroke-width="16" stroke-linecap="round"/>
+<line x1="300.0" y1="245.0" x2="88.3" y2="200.0" stroke="#37474F" stroke-width="3"/>
+<circle cx="300.0" cy="245.0" r="5" fill="#B71C1C"/>
+<text x="300" y="610" font-size="17" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">皮內 ID</text>
+<text x="300" y="632" font-size="13" fill="#333" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">5–15 度・0.1 mL</text>
+<line x1="270.0" y1="200.0" x2="231.1" y2="161.1" stroke="#90A4AE" stroke-width="16" stroke-linecap="round"/>
+<line x1="430.0" y1="360.0" x2="270.0" y2="200.0" stroke="#37474F" stroke-width="3"/>
+<circle cx="430.0" cy="360.0" r="5" fill="#B71C1C"/>
+<text x="430" y="610" font-size="17" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">皮下 SC</text>
+<text x="430" y="632" font-size="13" fill="#333" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">45–60 度</text>
+<line x1="560.0" y1="200.0" x2="560.0" y2="145.0" stroke="#90A4AE" stroke-width="16" stroke-linecap="round"/>
+<line x1="560.0" y1="530.0" x2="560.0" y2="200.0" stroke="#37474F" stroke-width="3"/>
+<circle cx="560.0" cy="530.0" r="5" fill="#B71C1C"/>
+<text x="560" y="610" font-size="17" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">肌肉 IM</text>
+<text x="560" y="632" font-size="13" fill="#333" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">90 度</text>
+<line x1="671.5" y1="200.0" x2="626.4" y2="168.5" stroke="#90A4AE" stroke-width="16" stroke-linecap="round"/>
+<line x1="900.0" y1="360.0" x2="671.5" y2="200.0" stroke="#37474F" stroke-width="3"/>
+<circle cx="900.0" cy="360.0" r="5" fill="#B71C1C"/>
+<text x="900" y="610" font-size="17" fill="#B71C1C" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">靜脈 IV</text>
+<text x="900" y="632" font-size="13" fill="#333" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">15–30 度</text>
+<text x="500" y="32" font-size="20" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">四種注射的角度與深度(示意)</text>
+<text x="500" y="665" font-size="13" fill="#555" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">紅點＝針尖位置；皮內斜面朝上打出小水泡；胰島素短針或捏起皮膚時皮下改 90 度</text>
+</svg>
