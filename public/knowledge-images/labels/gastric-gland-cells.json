@@ -1,0 +1,9 @@
+{
+ "image": "servier-gastric-gland-cells.svg",
+ "_說明": "胃腺三種細胞與分泌物：主細胞、壁細胞(內有細胞內小管)、黏液頸細胞(2026-10-22 第 11 輪 A 組)",
+ "labels": [
+  {"id": "chief", "zh": "主細胞：胃蛋白酶原", "en": "Chief cell: pepsinogen", "x": 15, "y": 46},
+  {"id": "parietal", "zh": "壁細胞：鹽酸、內在因子", "en": "Parietal cell: HCl, intrinsic factor", "x": 51, "y": 88},
+  {"id": "mucous", "zh": "黏液頸細胞：黏液", "en": "Mucous neck cell: mucus", "x": 86, "y": 70}
+ ]
+}

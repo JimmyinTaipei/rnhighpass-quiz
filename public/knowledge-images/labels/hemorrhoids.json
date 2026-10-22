@@ -1,0 +1,12 @@
+{
+ "image": "servier-hemorrhoids.svg",
+ "_說明": "直腸肛門縱切面：齒狀線以上為內痔、以下為外痔(2026-10-22 第 11 輪 C 組，放大格線核對點位；齒狀線點在肛柱下緣)",
+ "labels": [
+  {"id": "rectum", "zh": "直腸", "en": "Rectum", "x": 50, "y": 25, "tx": 20, "ty": 25, "align": "end"},
+  {"id": "internal-plexus", "zh": "內痔靜脈叢", "en": "Internal hemorrhoidal plexus", "x": 42, "y": 70, "tx": 20, "ty": 66, "align": "end"},
+  {"id": "external-plexus", "zh": "外痔靜脈叢", "en": "External hemorrhoidal plexus", "x": 39.5, "y": 91.6, "tx": 20, "ty": 88, "align": "end"},
+  {"id": "dentate", "zh": "齒狀線", "en": "Dentate line", "x": 56.3, "y": 71, "tx": 80, "ty": 62, "align": "start"},
+  {"id": "internal", "zh": "內痔(脫垂)", "en": "Internal hemorrhoid", "x": 52, "y": 76, "tx": 80, "ty": 76, "align": "start"},
+  {"id": "external", "zh": "外痔", "en": "External hemorrhoid", "x": 53.3, "y": 94.4, "tx": 80, "ty": 92, "align": "start"}
+ ]
+}

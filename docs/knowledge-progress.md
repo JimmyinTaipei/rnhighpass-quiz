@@ -5,6 +5,78 @@
 
 ## 目前輪次
 
+- **輪次**：第 12 輪 血液(計畫寫「額度夠才做」)
+- **計畫**：[round-plans-8-12.md](round-plans-8-12.md)「第 12 輪」(2026-10-20 核准)
+- **每輪一個新對話**：開工先讀本檔 → round-plans-8-12.md 第 12 輪 → 路線圖跨輪移交清單(第 5、9、11 輪交給 12 的列)；收尾時本檔換到下一輪並建步驟表
+- **範圍**(未涵蓋，2026-10-22 第 11 輪收尾報告)：內外 Ch14 血液 23(75/98)、藥理 Ch09 22(60/82)、兒科 Ch10 14(31/45)、病理 Ch10 15(42/57)、生解 Ch07 血液、心血管與淋巴 79(120/199，含心血管部分，血液以外留第 15 輪)；開工時重跑涵蓋報告
+- **跨輪移交(交給本輪，見路線圖)**：
+   1. 第 5 輪：海洋性貧血、血友病、類血友病、G6PD、鐮刀型與球形紅血球的治療護理；惡性貧血與 B12、葉酸缺乏(約 11 題)、出血疾病原因題(109-2_BM_044 等)；血友病關節出血與居家照護、海洋性貧血輸血與排鐵(114-1_OP_041)
+   2. 第 9 輪：造血藥物頁(EPO、鐵劑、葉酸)，做好後回補 chronic-kidney-disease#anemia 連結
+   3. 第 11 輪：惡性貧血與 B12(113-2_MS_021 已在 lower-gi-disorders#malabsorption)、缺鐵性貧血與痔瘡出血，血液頁連過去
+- **課本 OCR**：內外科護理學上下冊、兒科護理學已全書 OCR 在 `相關資源/國考書（最終參考用）/ocr/`
+- **標籤合併**：血液重查＋另帶**社區 B**(使用者 2026-10-22 決定)
+- **計畫檢查(2026-10-22)**：hemoglobinopathies-care 不另開頁(併進 anemias#hemolytic)；DIC、遺傳部分只連既有頁；新增 lab/coagulation-tests；抗血栓 14 題與 DVT 補既有藥物頁；目標 4 章 100%
+- **狀態**：12-0a、12-0b 完成(2026-10-22)，下一步 12-0c taxonomy 與圖片盤點
+
+## 第 12 輪步驟
+
+| 步 | 內容 | 狀態 |
+|---|---|---|
+| 12-0a | 標籤合併：血液重查＋社區 B，04／05 同步改 **14 題**(何杰金氏症／病 → 何杰金氏淋巴瘤、紅血球增多症 → 真性、胎兒紅血球母細胞症 → 新生兒溶血症、高脂血症 → 高血脂症、日光性 → 紫外線傷害、菸癮／菸草依賴／物質依賴 1 題 → 菸草使用障礙症；補標造血幹細胞移植 2 題)；範圍內無標籤題都是生理與概念題，不補標；lipid-profile、statins(高脂血症)、environmental-injury(日光性傷害)舊名收尾寫回後移除；對照見 [tag-merge-round12.md](tag-merge-round12.md) | ✅ 2026-10-22(無待決定) |
+| 12-0b | 來源包 [sources/hematology.md](sources/hematology.md)：內外上冊 Ch12(書頁 939–，PDF 頁＝書頁 − 15)、兒科 479–513(PDF＝書頁＋1)；指引 AGA 2020 缺鐵(隔日補鐵)、BSH 2014 B12、ELN 2018 PV(Hct < 45%＋aspirin)、ASH 2019 ITP(兒童先觀察)、WFH 2020 血友病、TIF 2021／2025 海洋性、ISTH DIC 分數、CHEST AT10 DVT(抗凝後可下床)；台灣 G6PD 醫學中心衛教、emicizumab 健保 4.2.7(2026-03-01 修訂)；新舊說法表 11 列(席林氏測驗、霍曼氏徵象 7 題、DVT 臥床、ITP 觀察、IM 鐵劑等)；第六節 7 項寫頁時待查 | ✅ 2026-10-22 |
+| 12-0c | taxonomy hematology groups、圖片盤點(Servier 血球生成＋原創凝血瀑布) | ⬜ |
+| A | `physiology/blood-hemostasis`、`disease/anemias`(含溶血：海洋性輸血排鐵、G6PD 照護；真性紅血球增多症；移交) | ⬜ |
+| B | `disease/bleeding-disorders`(血小板減少、ITP、血友病居家、vWD、DIC 護理；移交)、`lab/coagulation-tests` | ⬜ |
+| C | `drug/hematinics`(回補 CKD 連結)＋補 anticoagulants、antiplatelets、thrombolytics(抗血栓 14 題、DVT) | ⬜ |
+| D | 掃尾(白血病、淋巴瘤 4 題)＋收尾：需確認清單、寫回 Supabase＋部署 | ⬜ |
+
+## 第 11 輪摘要(已完成)
+
+
+- **輪次**：第 11 輪(已完成) 消化＋標籤合併(消化＋生殖；泌尿已在第 9 輪合併)
+- **計畫**：[round-plans-8-12.md](round-plans-8-12.md)「第 11 輪」(2026-10-20 核准)
+- **每輪一個新對話**：開工先讀本檔 → round-plans-8-12.md 第 11 輪 → 路線圖跨輪移交清單(第 5、9、10 輪交給 11 的列)；收尾時本檔換到下一輪並建步驟表
+- **範圍**(未涵蓋，2026-10-22 第 10 輪收尾報告)：內外 Ch07 消化 127(90/217)、生解 Ch09 消化 101(29/130)、兒科 Ch11 37(23/60)、藥理 Ch06 32(22/54)、病理 Ch12 消化道 27(23/50)、Ch13 肝膽胰 12(27/39)；開工時重跑涵蓋報告
+- **跨輪移交(交給本輪，見路線圖)**：
+   1. 第 5 輪：肝硬化腹水護理與穿刺(edema-shock#cirrhosis-ascites)；幽門狹窄、唇顎裂、食道閉鎖照護(genetic-inheritance#multifactorial)
+   2. 第 9 輪：腸阻塞體液變化(106-2_MS_016)、肝硬化腹水護理(113-1_MS_007)，機轉連 fluid-electrolytes
+   3. 第 10 輪：傾倒症候群飲食、膽道閉鎖與兒童肝病飲食(連基護營養兩頁)；痔瘡病因與術後照護、瀉劑與止瀉劑藥理(題號見路線圖)，便秘與灌腸連 bowel-elimination；腸造口連 bowel-elimination#stoma
+- **課本 OCR**：基護、內外科護理學上下冊、內外科護理技術、兒科護理學全書在 `相關資源/國考書（最終參考用）/ocr/`
+- **狀態**：**第 11 輪全部完成(2026-10-22)**：內外 Ch07、生解 Ch09、兒科 Ch11、藥理 Ch06、病理 Ch12、Ch13 **6 章 100%**；全部 6979 → 7285/8960；10 篇新頁、9 張新圖(待審核)；已寫回 Supabase 並部署；計畫已檢查並修正(2026-10-22)：11-0a 範圍更新、口腔食道與胃癌食道癌歸 B 組、新增 gi-diagnostic-procedures、目標 6 章 100%
+
+### 第 11 輪步驟
+
+| 步 | 內容 | 狀態 |
+|---|---|---|
+| 11-0a | 標籤合併：消化＋生殖，04／05 同步改 **54 題**(巴瑞特氏食道、胃食道逆流、食道裂孔疝氣、上消化道出血、克隆氏症、腸造口、感染性腹瀉、困難梭狀桿菌腸炎、食道閉鎖、膽道閉鎖、肝性腦病變、尖形濕疣、子宮腺肌症；止吐劑、止瀉劑、便秘用藥、肝病用藥等 33 組＋逐題 10 題)；範圍內無標籤 190 題都是生理與檢查技術題，不補標；anaerobes 先加新名困難梭狀桿菌腸炎，taxonomy 舊名(瀉劑、降血氨用藥)與 anaerobes 的偽膜性腸炎收尾寫回後移除；對照見 [tag-merge-round11.md](tag-merge-round11.md) | ✅ 2026-10-22(無待決定) |
+| 11-0b | 來源包 [sources/digestive.md](sources/digestive.md)：內外下冊 Ch16(書頁 299–)、兒科 515–579、內外科護理技術 Ch08 書頁；指引 ACG GERD 2022、上消化道出血 2021、急性胰臟炎 2024、**肝性腦病變 2026(不限蛋白 1.2–1.5 g/kg)**、IBD 2025、AASLD 腹水 2021、Baveno VII、Tokyo 2018、ESPGHAN 2014；**輪狀病毒疫苗 2027-01-01 起公費**；新舊說法表 10 列(肝昏迷低蛋白 109-1_FA_042、胰臟炎禁食與鼻胃管 112-3_MS_011、冰鹽水灌洗 111-1_MS_041、三腔管、潰瘍喝牛奶、BRAT 等)；第六節 5 項寫頁時待查 | ✅ 2026-10-22 |
+| 11-0c | taxonomy digestive 加 description 與 6 組(gi-physiology、upper-gi-diseases、lower-gi-diseases、hepatobiliary-diseases、pediatric-gi-diseases、gi-labs)＋既有 gi-drugs；viral-hepatitis 歸 hepatobiliary-diseases(其他既有頁主系統是 oncology／infection，group 只能掛主系統，維持 alsoIn)；圖片盤點 [sources/digestive-images.md](sources/digestive-images.md)(Servier 消化 40 張，必做 9 張：全景、胃分區、胃腺細胞、絨毛、肝小葉、GERD、裂孔疝氣、痔瘡＋原創膽紅素代謝、門脈側枝)；build 通過(323 篇) | ✅ 2026-10-22 |
+| A | `physiology/gi-anatomy-physiology`(管壁四層與神經叢、上皮與肌肉表、運動、腹膜與網膜韌帶、唾液腺、牙齒舌乳頭、吞嚥、胃分區與胃腺細胞表、胃液分泌三期、小腸分段與吸收面積、三大營養素消化吸收表、鐵與 B12、消化道激素表(111-2_BM_015 體制素兩答)、大腸、三條動脈供應表；約 75 題)、`physiology/liver-biliary-pancreas`(肝葉與韌帶、肝門、雙重血液、肝小葉、肝功能表(106-2_makeup_MS_011 註明抗體也非肝功能)、膽汁與腸肝循環、膽道、膽紅素代謝與三型黃疸比較表(dzTags 黃疸、阻塞性、溶血性)、照光治療、胰液表；約 35 題)；**新圖 6 張**：Servier 消化道全景(16 標籤)、胃分區(9)、胃腺細胞(3)、小腸絨毛(7)、肝小葉(8)＋原創膽紅素代謝(**待使用者確認**)；**生解 Ch09 22% → 99%**(剩 109-2_OP_056 早產兒腸胃留 E 組) | ✅ 2026-10-22 |
+| B | `disease/upper-gi-disorders`(GERD 與 LES 因素表、巴瑞特氏食道、裂孔疝氣／弛緩不能／憩室比較表、食道癌與術後、誤食腐蝕性物質、胃炎三型表、消化性潰瘍胃 vs 十二指腸表、壓力性潰瘍、上消化道出血處置表(Hb 7、24 小時內視鏡、冰水灌洗並列待核對)、胃癌與 GIST、傾倒症候群早晚期表與飲食；約 70 題)、`drug/gi-drugs`(胃酸分泌作用點、PPI、H2(cimetidine)、制酸劑表、sucralfate／misoprostol／鉍劑、止吐與促動表、瀉劑六類表、止瀉表、lactulose 與靜脈曲張用藥、IBD 用藥表；約 35 題)；taxonomy gi-drugs 加止瀉劑、腸胃促動用藥、發炎性腸道疾病用藥；cancer 頁胃癌、食道癌列連到新頁並補胃幽門桿菌公費檢測；head-neck-cancers 補 109-1_BM_044；**內外 Ch07 口腔食道 100%、胃十二指腸 95%(剩上腸胃道攝影 2 題留 E 組)；藥理 Ch06 41% → 98%(剩 113-1_MS_007 留 D 組)；病理 Ch12 46% → 72%**；**全部 6979 → 7159/8960**；build(327 篇)、resolver、source-scan(4 篇無重疊)、image-license-review(121 張需替換 0)、本機 4 頁與 6 圖 200(測完已關) | ✅ 2026-10-22 |
+| C | `disease/lower-gi-disorders`(闌尾炎徵象表與術前後護理、腹膜炎原因表(原發性鏈球菌)與體溫變化、UC vs Crohn 比較表、吸收不良營養素表與惡性貧血、乳糜瀉、腸阻塞原因表與小腸 vs 大腸表(移交 106-2_MS_016)、腸繫膜缺血、疝氣種類表與術後(托陰囊冰敷)、憩室炎與梅克爾氏憩室、息肉類型表、痔瘡內外痔與分度表、術後護理(移交 5 題)、肛裂與肛門瘻管；約 75 題)；**新圖 servier-hemorrhoids**(Servier 投影片 30＋6 個中文標籤，格線核對，**待使用者確認**)；colorectal-cancer 補 111-2_MS_041 | ✅ 2026-10-22 |
+| D | `disease/liver-cirrhosis`(四型比較表、表徵表(動情素與門脈高壓)、門脈高壓與側枝、腹水處置與放液護理(移交 113-1_MS_007)、靜脈曲張出血處置表(三腔管、EVL、禁鎮靜劑)、肝性腦病變四期表與誘因、蛋白質新舊說法並列(課本現在也寫 1.2–1.5 g/kg)、脂肪肝 MASLD；約 50 題)、`disease/biliary-pancreatic`(膽結石危險因子、膽囊炎與 Murphy、止痛避免 morphine、阻塞性黃疸判讀表、腹腔鏡膽囊切除與 T 型管、膽囊癌、急性胰臟炎檢驗表與處置(鼻胃管與早期進食新舊並列)、慢性胰臟炎、胰臟癌；約 45 題)；**新圖 portal-hypertension-collaterals**(原創，**待使用者確認**) | ✅ 2026-10-22 |
+| E | `disease/pediatric-gi`(嬰兒腸胃特性表、脫水、復發性腹痛、唇顎裂術後唇 vs 腭表、嬰兒 GER、食道閉鎖 3C 與術前後、幽門狹窄、巨結腸症、肛門閉鎖、橫膈疝氣(不可用甦醒球)、腸套疊、急性腸胃炎與**輪狀病毒疫苗 2027-01-01 公費**、膽道閉鎖；約 55 題)、`lab/gi-diagnostic-procedures`(檢查比較表、ERCP、肝切片(吐氣後閉氣、右側臥沙袋、臥床 24 小時)、腹腔放液、腹腔鏡；約 20 題)、`lab/liver-function`(各項檢驗表(課本參考值)、依疾病判讀表、血氨檢體放冰上)；immunization 補輪狀病毒公費；gi-anatomy-physiology 補 114-1_BM_011；**112-1_MS_010 標籤改回 drug:消化系統用藥**(11-0a 誤標抗膽鹼用藥，答案是 MgSO₄；gi-drugs 兩處 Buscopan 改正，記錄在題目修正紀錄與 tag-merge-round11.md)；A、B 組「另外整理」12 處與 5 個舊頁「消化那一輪」字樣都改成連結；路線圖移交 5 列打勾、新增 2 列(新生兒與住院兒童 → 16、惡性貧血 → 12)；**內外 Ch07、生解 Ch09、兒科 Ch11、藥理 Ch06、病理 Ch12、Ch13 全部 100%**；全部 7159 → 7284/8960；build(333 篇)、source-scan(6 篇新頁無重疊)、image-license-review(123 張需替換 0)、本機 8 頁與 2 張新圖 200(測完已關) | ✅ 2026-10-22 |
+| F | 掃尾＋收尾：6 章 100% 確認(全部 7285/8960)；**補 B 組裂孔疝氣三型圖 servier-hiatal-hernia-types**(Servier 投影片 32＋4 標籤，**待使用者確認**)放進 upper-gi-disorders#esophageal-motility；**Supabase 已寫回**(sync_all，question_tags 16674＝來源，刪 55 筆 11-0a 合併掉的舊標籤)；taxonomy gi-drugs 移除瀉劑、降血氨用藥，anaerobes 移除偽膜性腸炎；build(333 篇)、export、image-license-review(124 張需替換 0)；**部署 workers.dev**(版本 fd864d74)，10 篇新頁與 9 張新圖線上 200 | ✅ 2026-10-22 |
+
+- **收尾**：全部完成(見 F 列)
+
+### 第 11 輪需確認清單
+
+使用者 2026-10-22 表示先不審查，以下集中記錄：
+
+1. 圖片待審核(A 組)：servier-gi-tract(消化道全景 16 標籤)、servier-stomach-regions(胃分區 9 標籤)、servier-gastric-gland-cells(胃腺三種細胞)、servier-intestinal-villi(絨毛 7 標籤)、servier-liver-lobule(肝小葉 8 標籤)、bilirubin-metabolism(原創)；全景與胃分區在頁面中偏小，可放大看
+2. 上消化道出血冰水灌洗：課本與內外科護理技術寫冰生理食鹽水(加腎上腺素)灌洗，111-1_MS_041 國考也視為正確；現行以內視鏡止血為主，頁面已並列並標「待核對」(需要台灣醫學中心或文獻來源)
+3. 誤食強酸強鹼的稀釋：頁面依國考答案寫「可給少量清水或牛奶」，未找到毒藥物防治諮詢中心原文
+4. ACG 2026 肝性腦病變與 2024 急性胰臟炎只讀到新聞稿與二手整理，原文待核對(lactulose 每天 2–3 次軟便已寫進 gi-drugs)
+5. ranitidine 撤市寫「美國 FDA 2020 年要求撤市」，未查台灣 TFDA 公告
+7. 新圖待審核(C、D、F 組)：servier-hiatal-hernia-types(滑動型、食道旁型、混合型；混合型與食道旁型在原圖差異不大，請看標籤對不對)、servier-hemorrhoids(6 標籤；齒狀線點放在肛柱下緣，原圖的內痔畫在肛柱下方脫垂)、portal-hypertension-collaterals(原創示意)
+8. ERCP 括約肌鬆弛：112-1_MS_010 考選部答案是 MgSO₄；臨床常用的是抗膽鹼藥或 glucagon，頁面以國考答案為主並標「待核對」；11-0a 時我誤標成抗膽鹼用藥，已改回
+9. 國考與現行並列(已處理，提醒)：肝昏迷低蛋白(109-1_FA_042、113-1_MS_007) vs 課本與 ACG 2026 不限蛋白；急性胰臟炎禁食與鼻胃管(112-3_MS_011) vs ACG 2024 早期進食；腹水限水 vs AASLD 只在低血鈉時限水
+10. 國考答案較特別、頁面照答案寫：腹膜炎原發性致病菌「革蘭氏陽性」(108-2_MS_012，課本表 16-36 鏈球菌)；腹膜炎「體溫持續上升」為錯(課本：敗血症時體溫可下降)；乳糜瀉燕麥不適合(111-1_OP_073)；急性胰臟炎康復期「低脂、低蛋白、高醣」視為正確(114-1_MS_009)
+6. 已並列、不需確認但提醒：傾倒症候群國考接受「適量」與「高」脂肪；PPI 與 clopidogrel 交互作用；消化性潰瘍喝牛奶的舊說法
+
+## 第 10 輪摘要(已完成)
+
 - **輪次**：第 10 輪 基護 B(拆 10a、10b，各自收尾寫回)＋標籤合併(基護其餘章＋產兒)
 - **計畫**：[round-plans-8-12.md](round-plans-8-12.md)「第 10 輪」(2026-10-20 核准)
 - **每輪一個新對話**(使用者 2026-10-20)：開工先讀本檔 → round-plans-8-12.md 第 10 輪 → 路線圖跨輪移交清單；收尾時本檔換到下一輪並建步驟表
@@ -15,22 +87,42 @@
    3. 第 9 輪：尿液與 24 小時尿液檢體已寫在 urinalysis#nursing(admission-discharge-specimens 只連過去)；urinary-elimination 收尿滯留、導尿、膀胱訓練與凱格爾技術、基護 Ch15 尿失禁與尿滯留題，做好後把 urologic-disorders 兩處「基本護理排泄頁另外整理」改成連結並連 urologic-disorders#incontinence；第 8 輪留下的安胎藥物 vs 安胎用藥(tag-merge-round8.md 第五節)
 - **課本 OCR**：基本護理學上下冊、內外科護理技術、內外科護理學上下冊、兒科護理學已全書 OCR 在 `相關資源/國考書（最終參考用）/ocr/`(含 PDF 頁↔書頁對照 tsv)
 - **圖片**：使用者會用 AI 生成底圖，再由我裁切、改名放進 `public/knowledge-images/` 並補中文標籤(第 9 輪 G 組 im-injection-sites 的做法；原圖移到 `相關資源/AI底圖/`)
-- **狀態**：⬜ 尚未開工
+- **目標**(使用者 2026-10-22)：**基護每章 100%**(原本 ≥ 90%)；新增 I 組掃尾；10-0a 加併壓瘡 → 壓力性損傷(12 題)；細節見 round-plans-8-12.md 第 10 輪「2026-10-22 補充」
+- **狀態**：**第 10 輪全部完成(2026-10-22)**：**基護 18 章全部 100%(1578/1578)**；全部 6455 → 6979/8960；16 篇新頁；10a、10b 各自寫回 Supabase 並部署 workers.dev；需確認清單見下；下一輪第 11 輪消化
+- **收尾要記得**(A、B 組留下)：回補連結到 pressure-injury(stroke、spinal-cord-injury、long-term-care、patient-safety-environment、cell-injury-adaptation 提到壓瘡或壓傷處)、activity-immobility(stroke 的全關節運動、spinal-cord-injury)、sleep-rest(anxiolytics-hypnotics、depressive-disorder、brain-anatomy 的睡眠段)；路線圖新增移交：骨折石膏、拐杖與關節置換細節留肌骨輪(第 14 輪)，傷口分類與敷料留本輪 H／I 組(課本 Ch19)；**建議製作的圖**(使用者決定)：臥位示意、受壓部位示意(目前用表格)
 
-## 第 10 輪步驟
+### 第 10 輪步驟
 
 | 步 | 內容 | 狀態 |
 |---|---|---|
-| 10-0a | 標籤合併：基護其餘章＋產兒(產科全部、兒科 Ch01–05、16)；只合併真正同義，拿不準的列待決定；含安胎藥物 vs 安胎用藥 | ⬜ |
-| 10-0b | 來源包 `sources/fundamentals-b.md`(課本 OCR 對應章；國健署飲食指南、治療飲食、腸造口與導尿衛教單張、NPIAP 2019) | ⬜ |
-| A | `procedure/hygiene-comfort-care`、`procedure/positioning-body-mechanics` | ⬜ |
-| B | `care/activity-immobility`、`disease/pressure-injury`、`care/sleep-rest` | ⬜ |
-| C | `procedure/heat-cold-therapy`(含冷療傷害與燙傷移交題) | ⬜ |
-| D | `care/nutrition-assessment-diets`、`procedure/enteral-parenteral-nutrition`；**10a 收尾＋寫回 Supabase＋部署** | ⬜ |
-| E | `procedure/bowel-elimination`、`procedure/urinary-elimination`(第 9 輪移交) | ⬜ |
-| F | `care/nursing-process`、`care/documentation-orders` | ⬜ |
-| G | `care/observation-communication`、`care/nursing-concepts-health` | ⬜ |
-| H | `procedure/bandaging`、`procedure/admission-discharge-specimens`；**10b 收尾＋寫回 Supabase＋部署** | ⬜ |
+| 10-0a | 標籤合併：基護其餘章＋產兒，04／05 同步改 **128 題**(分娩→正常分娩 14 題依使用者決定補併；壓瘡→壓力性損傷 12；瀕死 7 個變體→瀕死症狀、臨終嘎聲／嘎音→瀕死嘎嘎音；臥床併發症→廢用症候群；子癲前症→子癇前症；產痛 4 個變體→生產疼痛；子宮收縮劑 7 個變體；安胎用藥→安胎藥物；妊娠、會陰、產褥、脹奶、產瘤、頭血腫等 40 組＋逐題 11 題；排尿障礙 3 題技術題移除疾病標籤)；範圍內無標籤 747 題依章看過都是概念、技術、正常過程題，不補標；頁面與 taxonomy 舊名(end-of-life-care、pediatric-neuro、perinatal-infections、pain-management、3 個藥物組)10a 收尾寫回後移除；對照見 [tag-merge-round10.md](tag-merge-round10.md) | ✅ 2026-10-22(使用者決定：分娩併入正常分娩；待產與分娩留產科輪) |
+| 10-0b | 來源包 [sources/fundamentals-b.md](sources/fundamentals-b.md)：本輪 14 章書頁與技術頁(課本另有 Ch19 傷口護理 567，創傷題可用)；醫療法第 68 條(增刪畫線不得塗燬、口頭醫囑 24 小時內補書面)、第 70 條(病歷 7 年、未成年至成年後 7 年、人體試驗永久)；國健署 107 年每日飲食指南(六大類新名稱、我的餐盤口訣)、BMI 與腰圍、DRIs 第八版(蛋白質年齡切點待核對)；屏東醫院與北醫腸造口衛教；NPIAP 2016 分期＋國際指引第 4 版 2025；Braden 分級(課本與文獻一致)；新舊說法表 6 項(**鼻胃管確認：課本 pH＋打空氣聽診＋水中氣泡 vs 現行 X 光、pH ≤ 5.5、不建議打空氣**；六大類舊名等)；疾管署 CAUTI 組合式照護原文未找到 | ✅ 2026-10-22 |
+| 10-0c | taxonomy fundamentals 更新 description 並加 5 個 groups(procedure：hygiene-positioning、nutrition-elimination、admission-specimens；care：basic-needs(pain-management 已歸入)、nursing-process-communication)；pressure-injury 是 disease，放 integumentary 並 alsoIn fundamentals；build 通過(307 篇)；圖片盤點 [sources/fundamentals-b-images.md](sources/fundamentals-b-images.md)(必做 3 張：壓力性損傷分期、腸造口位置(Servier)、繃帶包紮法；臥位、受壓部位、灌腸姿勢、鼻胃管量長度**先用表格**；使用者 2026-10-22：寫到時回報要做哪些圖，可附示意圖給使用者看) | ✅ 2026-10-22 |
+| A | `procedure/hygiene-comfort-care`(目的、口腔清潔溶液表(雙氧水與蘇打水課本已不建議)、特殊口腔護理時機(灌食後 30 分鐘)、假牙、更衣順序表(患側後脫先穿)、擦澡(遠心到近心、50% 酒精老人不宜)、膠帶皮膚損傷 MARSI、洗頭、背部按摩四手法表、指甲與足部(按摩禁忌、糖尿病足)、會陰沖洗步驟表；26 題)、`procedure/positioning-body-mechanics`(翻身原則表、五種一般臥位表、六種檢查臥位表、支托物表、身體力學表(課本床高腰至髖 vs 國考腰部)；31 題)；pain-management 補 Ch07 舒適的重要性 3 題並歸 basic-needs 組；**基護 Ch07 43% → 100%** | ✅ 2026-10-22 |
+| B | `care/activity-immobility`(被動／主動／加阻力表、等長 vs 等張表、肌力 0–5 分表、ROM 名詞與各關節動作表、ROM 執行要點、拐杖測量與四種步態、手杖與助行器(課本手肘 15–20 度 vs 國考 ≤ 30 度並列)、石膏 5P、制動十系統表、護理措施；約 31 題)、`disease/pressure-injury`(integumentary＋alsoIn fundamentals；四成因表、危險因子、好發部位表、Braden 表與分級、NPIAP 2016 分期表、預防表(課本局部按摩 vs 國考不按摩發紅處並列)、處理；約 22 題；**新圖 pressure-injury-stages 原創待審核**)、`care/sleep-rest`(週期與各期表、影響因素與藥物表、ICSD 失眠標準表、睡眠剝削表、促進睡眠措施表；9 題)；**基護 Ch08 32% → 100%、Ch09 55% → 100%**；**基護 67% → 74%、全部 6455 → 6574/8960**；build(312 篇)、resolver、source-scan(5 篇無重疊；另與課本 OCR 比對只有術語重疊)、本機 6 頁與新圖 200 | ✅ 2026-10-22 |
+| C | `procedure/heat-cold-therapy`(生理效應與反彈現象表、適應症與禁忌表、影響因素、乾濕熱冷比較表、各法步驟(熱水袋、烤燈、溫水坐浴、冰枕、冰帽、溫水拭浴)、冷療傷害與燙傷處理(移交題)；散熱方式國考與課本表並列；約 72 題)；**基護 Ch11 30% → 100%** | ✅ 2026-10-22 |
+| D | `care/nutrition-assessment-diets`(營養素與 DRIs、評估(人體測量、生化、MNA)、治療飲食表、各疾病飲食)、`procedure/enteral-parenteral-nutrition`(途徑選擇、鼻胃管放置與位置確認(課本 pH 與打氣聽診 vs 現行 X 光、pH ≤ 5.5、不打氣並列)、灌食步驟與併發症表、TPN 照護與併發症)；**基護 Ch12 41% → 100%**；基護 83%、全部 6705/8960；**10a 收尾＋寫回 Supabase＋部署**見下 | ✅ 2026-10-22 |
+| 10a 收尾 | 回補連結 14 頁(stroke、spinal-cord-injury、long-term-care、patient-safety-environment、cell-injury-adaptation → pressure-injury／activity-immobility；anxiolytics-hypnotics、depressive-disorder、brain-anatomy → sleep-rest；body-temperature、environmental-injury、pain-management → heat-cold-therapy；nutritional-disorders、non-parenteral-medication、iv-therapy → 營養兩頁)；8 篇縮寫補英文全名(ICSD、DSM-5、BMI、DNA、TPN／PPN、NHS)；路線圖移交 4 列打勾、新增 4 列(骨折石膏 → 14、傷口 → 本輪 H／I、孕期營養 → 16、傾倒症候群與膽道閉鎖飲食 → 11)；build(315 篇)、resolver、source-scan(新頁無重疊)、image-license-review(114 張需替換 0)；**Supabase 已寫回**(question_tags 16676，刪 131 筆 10-0a 合併掉的舊標籤，DB＝來源)；清掉 12 個頁面 dzTags 舊名與 end-of-life-care 的 tag= 舊名、taxonomy 3 組 8 個舊名(aliases 保留)；重跑 build、resolver、export；**部署 workers.dev**，8 篇新頁與新圖線上 200；涵蓋 6705/8960 | ✅ 2026-10-22 |
+| E | `procedure/bowel-elimination`(大腸運動與排便反射、糞便性狀表、檢查與大腸鏡準備、影響因素表、便秘措施表、糞便嵌塞(先肛診、指挖、迷走反應)、腹瀉、排便失禁與訓練、灌腸種類兩表、數字總表(量、溫度、高度、肛管、深度)、姿勢與禁忌、大量灌腸步驟表、小量灌腸與甘油球、兒童灌腸、結腸灌洗、造口位置；約 51 題)、`procedure/urinary-elimination`(排尿生理、排尿異常名詞表、尿液與膽紅素、影響因素表、尿瀦留原因與產後判斷、誘尿方法表、尿失禁三型表、凱格爾、預防 UTI、膀胱訓練與夾管、單次 vs 存留導尿、導尿管選擇表、男女數字表、女性導尿步驟表、存留導尿管照護、膀胱灌洗、膀胱滴藥；約 29 題含產科 2 題)；**新圖 servier-stoma-sites**(Servier Digestive 28 左側正常結腸＋6 個中文標籤，格線核對，**待使用者確認**)；第 9 輪移交完成：urologic-disorders 兩處字樣改成連結並互連 #incontinence，尿液檢體只連 urinalysis#nursing；課本 vs 國考並列：保留灌腸 15–30 分 vs 國考 ≥ 30 分、甘油灌腸忍 15–30 分 vs 國考 5–10 分、成人導尿管 12–16 Fr(106-2 補考)vs 課本男 16–18 女 14–16、造口灌洗 41 ℃(基護)vs 37–38 ℃(colorectal-cancer)、底座 0.1–0.2 vs 0.2–0.3 cm、導尿管每週換 vs 不固定天數；**基護 Ch15 39% → 100%**；**基護 83% → 88%、全部 6705 → 6782/8960**；build(317 篇)、resolver、source-scan(兩頁無重疊)、image-license-review(115 張需替換 0)、本機兩頁與新圖 200 | ✅ 2026-10-22 |
+| F | `care/nursing-process`(問題解決法、發展與步驟數、護理 vs 醫療過程表、特點與功能、主客觀資料表、資料來源、收集方法、評估架構(Gordon、NANDA-I 13 領域)、PES 表、三類型表、書寫指引 10 項表、優先順序、目標種類表、成果目標要素與具體 vs 不具體表、措施原則與獨立／非獨立／相依表、執行、評值；45 題)、`care/documentation-orders`(目的表、六原則表、書寫與更正(電子簽章課本 24 小時 vs 108-2 選項 48 小時錯)、需報告情況、三種記錄法比較、SOAPIER 表、DART 表與對應、TPR 單規則、病歷保管與醫療法第 70 條、醫囑四類表、口頭醫囑與 order renew、病歷縮寫表、交班與 ISBAR；34 題)；**基護 Ch04、Ch06 100%** | ✅ 2026-10-22 |
+| G | `care/observation-communication`(觀察三種類表、直接與間接、症狀與徵象表、時機與報告、行為過程記錄與 JOMAC、治療性溝通、三種溝通模式表、語言非語言與 Hall 距離表、影響因素表、會談原則、治療性技巧表、非治療性技巧表與情境題解法、專業 vs 社交關係表、建立要素與同理 vs 同情、四期表；37 題含社區、產科各 1 題)、`care/nursing-concepts-health`(WHO 與學者健康觀表、影響因素、Maslow 表、病程三期表、Baumann 與 Suchman 表、連續線、三段五級表(課本 Winslow 與社區頁 Leavell & Clark 並列)、GAS、護理人員法第 24 條、專業程度與功能表、角色、理念四期表、理論家表、倫理與 ICN、法律問題、核心素養與趨勢；30 題)；回補連結 5 頁(medication-administration-principles、medical-records-consent、psychodynamic-theories、motivation-theories、nursing-care-models)；**基護 Ch01、Ch03 100%**；**基護 88% → 97%、全部 6782 → 6926/8960**；build(321 篇)、resolver、source-scan(4 頁無重疊)、本機 4 頁 200；使用者 2026-10-22 外出，F、G 不等審查 | ✅ 2026-10-22 |
+| H | `procedure/bandaging`(繃帶目的與材質、包紮前中後、不可結帶處、7 種包紮法、懸臂帶、束帶；附課本 Ch19 傷口分類、顏色、癒合三期、評估與感染徵象；24 題)、`procedure/admission-discharge-specimens`(入院職責與心理、財物、出院方式 MBD／AAD、出院計畫 METHOD、終期消毒、檢體原則、CBC 正常值、靜脈採血步驟與溶血原因；20 題)；**基護 Ch16 29/29、Ch18 74/74**；基護 1569/1578(99%)、全部 6970/8960；回連 pressure-injury(H 組預告字樣改連結)、inflammation-repair、complete-blood-count、home-care-discharge-planning、activity-immobility；source-scan 兩頁無重疊；沒有新圖(繃帶包紮法用表格) | ✅ 2026-10-22 |
+| I | **基護掃尾**：Ch05 8 題(infection-control 加隔離 vs 檢疫(內外科課本上冊 p.577)與腸道防護排泄物浸泡消毒；patient-safety-environment#medical-waste 加尖銳器具不可燃、紅可燃黃不可燃、滅菌後粉碎(課本表 2-8 p.51)；admission-discharge-specimens 終期消毒補布單紅袋與床褥紫外線)、Ch17 1 題(end-of-life-care 不在床邊耳語)；**基護 18 章 100%(1578/1578)**；全部 6979/8960 | ✅ 2026-10-22 |
+| 10b 收尾 | build(323 篇)、resolver、export；source-scan(新頁無重疊)、image-license-review(115 張需替換 0)；**Supabase 已寫回**(sync_all，question_tags 16676＝來源，本半輪沒有舊標籤要刪)；**部署 workers.dev**(版本 46f48fa9)，E–H 組 8 篇新頁線上 200 | ✅ 2026-10-22 |
+
+### 第 10 輪需確認清單
+
+使用者 2026-10-22 外出，F 組以後不等審查，以下集中確認：
+
+1. 圖片待審核：pressure-injury-stages(B 組原創)、servier-stoma-sites(E 組 Servier＋6 個中文標籤)
+2. 建議製作的圖(目前用表格或步驟)：臥位示意、受壓部位示意(A、B 組)；繃帶包紮法(環形、螺旋、螺旋回反、8 字、人字、回反摺)、三角巾懸臂帶(H 組)；灌腸姿勢、鼻胃管量長度
+3. DRIs 第八版蛋白質的年齡切點待核對(nutrition-assessment-diets)
+4. 課本鼻胃管反抽液 pH 值 OCR 不清(讀到「1～3.5」)(enteral-parenteral-nutrition)
+5. 疾管署／CDC CAUTI(catheter-associated urinary tract infection)組合式照護原文未找到，urinary-elimination 沒有引用 bundle 細項
+6. 只依國考、課本沒寫：精液檢體室溫 1–2 小時內送檢(108-2_OP_039)；腸道傳染病餐具不必另外煮沸(106-2_FA_003)；臨終病人旁不耳語、不刻意大聲(106-2_makeup_FA_054)；理論家配對與護理趨勢(nursing-concepts-health)；產科導尿題(urinary-elimination)
+7. 懸臂帶與國考不一致：打結位置課本健側頸旁 vs 113-1_FA_030 患側肩上；手的方向課本手心朝內拇指朝上 vs 113-1_FA_030 正確選項「手掌朝上」
+8. 尖銳器具收集容器：課本只寫不易穿透堅固容器，國考 106-2_makeup_PC_048 答黃色(不可燃)
+9. 已並列、不需確認但提醒：床高腰到臀 vs 腰；助行器手肘 15–20° vs ≤ 30°；發紅處按摩；雙氧水與蘇打水漱口；鼻胃管位置確認(課本 pH＋打氣聽診 vs 現行 X 光、pH ≤ 5.5)；鼻胃管每天轉 45° vs 115-2_FA_031 不轉；脫厚衣散熱國考輻射 vs 課本傳導；保留灌腸 15–30 分 vs 國考 ≥ 30 分、甘油灌腸 15–30 分 vs 國考 5–10 分；成人導尿管 12–16 Fr vs 男 16–18 女 14–16；造口灌洗 41 ℃ vs 37–38 ℃、底座 0.1–0.2 vs 0.2–0.3 cm；電子簽章 24 小時；三段五級 Winslow vs Leavell & Clark
 
 ## 第 9 輪摘要(已完成)
 

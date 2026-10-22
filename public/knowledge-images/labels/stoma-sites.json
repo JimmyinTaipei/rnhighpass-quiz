@@ -1,0 +1,12 @@
+{
+ "image": "servier-stoma-sites.svg",
+ "_說明": "腸造口位置與排出物性狀：越靠近迴腸越稀、越靠近乙狀結腸越成形(2026-10-22 第 10 輪 E 組，放大格線核對點位)",
+ "labels": [
+  {"id": "transverse", "zh": "橫結腸造口：半成形", "en": "Transverse colostomy", "x": 50, "y": 23, "tx": 22, "ty": 6, "align": "end"},
+  {"id": "ascending", "zh": "升結腸造口：液狀到半液狀", "en": "Ascending colostomy", "x": 30, "y": 40, "tx": 22, "ty": 40, "align": "end"},
+  {"id": "cecum", "zh": "盲腸；迴腸造口：液狀", "en": "Cecum; ileostomy: liquid", "x": 37, "y": 63, "tx": 22, "ty": 66, "align": "end"},
+  {"id": "descending", "zh": "降結腸造口：成形", "en": "Descending colostomy", "x": 69, "y": 40, "tx": 78, "ty": 40, "align": "start"},
+  {"id": "sigmoid", "zh": "乙狀結腸造口：成形、可灌洗", "en": "Sigmoid colostomy", "x": 65, "y": 73, "tx": 78, "ty": 70, "align": "start"},
+  {"id": "rectum", "zh": "直腸", "en": "Rectum", "x": 50, "y": 86, "tx": 78, "ty": 88, "align": "start"}
+ ]
+}

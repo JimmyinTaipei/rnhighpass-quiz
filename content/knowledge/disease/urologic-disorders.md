@@ -27,7 +27,7 @@ references:
     url: https://www.auanet.org/guidelines-and-quality/guidelines/benign-prostatic-hyperplasia-(bph)-guideline
   - title: 圖：Servier Medical Art(CC BY 4.0)；原創圖
 ---
-這頁整理**下泌尿道與泌尿腫瘤**的疾病：尿路結石與水腎、良性前列腺肥大與手術後照護、前列腺癌、膀胱癌與尿路改道、腎細胞癌，以及尿失禁的分類與治療。泌尿系統的構造見 [[kidney-urinary-physiology]]，檢查見 [[urologic-diagnostic-procedures]]，泌尿道感染見 [[urinary-tract-infection]]。導尿、膀胱訓練的技術與基本護理的尿滯留，在基本護理排泄頁另外整理
+這頁整理**下泌尿道與泌尿腫瘤**的疾病：尿路結石與水腎、良性前列腺肥大與手術後照護、前列腺癌、膀胱癌與尿路改道、腎細胞癌，以及尿失禁的分類與治療。泌尿系統的構造見 [[kidney-urinary-physiology]]，檢查見 [[urologic-diagnostic-procedures]]，泌尿道感染見 [[urinary-tract-infection]]。導尿、膀胱訓練的技術與基本護理的尿滯留見 [[urinary-elimination]]
 
 ## 重點摘要 {#summary}
 
@@ -320,7 +320,7 @@ references:
 
 ## 尿失禁 {#incontinence}
 
-- 尿液不自主流出；造成社交退縮與皮膚問題(《內外科護理學》下冊 p.850)
+- 尿液不自主流出；造成社交退縮與皮膚問題(《內外科護理學》下冊 p.850)；基本護理的誘尿與尿失禁護理見 [[urinary-elimination#incontinence]]
 
 | 類型 | 發生了什麼 | 常見原因 | 表現 | 主要處置 |
 |---|---|---|---|---|
@@ -359,7 +359,7 @@ references:
    3. 要有恆心；可配合**生理回饋**
 - **膀胱訓練**(急迫性與壓力性)：訂排尿計畫，從約 30 分鐘間隔開始，沒漏尿就每次延長 30 分鐘，直到 **3–4 小時**；睡覺時不訓練；避免酒精與咖啡因
 - **習慣訓練**(定時如廁)與**鼓勵排尿**：認知障礙者，不要求忍尿
-- **間歇性自我導尿**：滿溢性、膀胱排空不全；技術細節在基本護理排泄頁
+- **間歇性自我導尿**：滿溢性、膀胱排空不全；技術細節見 [[urinary-elimination#catheterization]]
 - **飲食**：肥胖者減重；避免咖啡、酒等刺激膀胱或利尿的飲料
 
 ::questions{ids="113-2_MS_039,112-2_MS_063,110-2_MS_065,109-2_MS_061,107-1_MS_061,105-1_MS_060"}

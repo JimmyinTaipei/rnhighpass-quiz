@@ -1,0 +1,86 @@
+{
+ "image": "servier-liver-lobule.svg",
+ "_說明": "肝小葉：門脈三合體(肝動脈、門靜脈、膽管)的血經竇狀隙流向中央靜脈，膽汁反方向由膽小管流向膽管(2026-10-22 第 11 輪 A 組，放大格線核對點位)",
+ "labels": [
+  {
+   "id": "hepatocyte",
+   "zh": "肝細胞板",
+   "en": "Hepatocyte plate",
+   "x": 37.8,
+   "y": 30,
+   "tx": 20,
+   "ty": 24,
+   "align": "end"
+  },
+  {
+   "id": "artery",
+   "zh": "肝動脈分支",
+   "en": "Branch of hepatic artery",
+   "x": 33.3,
+   "y": 80,
+   "tx": 20,
+   "ty": 76,
+   "align": "end"
+  },
+  {
+   "id": "portal",
+   "zh": "門靜脈分支",
+   "en": "Branch of portal vein",
+   "x": 46.2,
+   "y": 88,
+   "tx": 20,
+   "ty": 92,
+   "align": "end"
+  },
+  {
+   "id": "central",
+   "zh": "中央靜脈",
+   "en": "Central vein",
+   "x": 52.3,
+   "y": 8,
+   "tx": 80,
+   "ty": 8,
+   "align": "start"
+  },
+  {
+   "id": "canaliculus",
+   "zh": "膽小管 → 膽管",
+   "en": "Bile canaliculus",
+   "x": 58.4,
+   "y": 40,
+   "tx": 80,
+   "ty": 30,
+   "align": "start"
+  },
+  {
+   "id": "kupffer",
+   "zh": "庫佛氏細胞",
+   "en": "Kupffer cell",
+   "x": 65.2,
+   "y": 44,
+   "tx": 80,
+   "ty": 43,
+   "align": "start"
+  },
+  {
+   "id": "sinusoid",
+   "zh": "竇狀隙",
+   "en": "Sinusoid",
+   "x": 65.6,
+   "y": 53,
+   "tx": 80,
+   "ty": 56,
+   "align": "start"
+  },
+  {
+   "id": "duct",
+   "zh": "膽管",
+   "en": "Bile duct",
+   "x": 61.4,
+   "y": 85,
+   "tx": 80,
+   "ty": 84,
+   "align": "start"
+  }
+ ]
+}

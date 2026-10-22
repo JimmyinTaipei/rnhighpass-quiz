@@ -801,5 +801,88 @@
     "license": "原創",
     "sourceUrl": "",
     "modified": "裁掉外框並轉 JPG；中文標籤另以疊加層顯示"
+  },
+  "pressure-injury-stages.svg": {
+    "title": "壓力性損傷分期(NPIAP 2016)皮膚切面示意",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-stoma-sites.svg": {
+    "title": "Colon(SMART Digestive system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 28)，只保留左側正常結腸，移除英文標籤、背景與標誌，左右加白邊；中文標籤(造口位置)另以疊加層顯示"
+  },
+  "servier-gi-tract.svg": {
+    "title": "Complete digestive apparatus(SMART Digestive system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 3)，只保留左側完整消化道人形，移除英文標籤、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-stomach-regions.svg": {
+    "title": "Stomach(SMART Digestive system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 13)，只保留左上的胃與十二指腸外觀，移除英文標籤、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-gastric-gland-cells.svg": {
+    "title": "Stomach wall(SMART Digestive system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 15)，只保留主細胞、壁細胞、黏液頸細胞三個細胞，移除左側胃腺，移除英文標籤、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-intestinal-villi.svg": {
+    "title": "Intestinal villi(SMART Digestive system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 26)，保留兩個絨毛，移除英文標籤、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "servier-liver-lobule.svg": {
+    "title": "Liver lobule(SMART Digestive system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 18)，保留肝小葉立體圖，移除英文標籤、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "bilirubin-metabolism.svg": {
+    "title": "膽紅素代謝與三型黃疸",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "servier-hemorrhoids.svg": {
+    "title": "Hemorrhoids(SMART Digestive system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 30)，移除英文標籤、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "portal-hypertension-collaterals.svg": {
+    "title": "門脈高壓與側枝循環",
+    "author": "多保命",
+    "license": "原創"
+  },
+  "servier-hiatal-hernia-types.svg": {
+    "title": "Hernia(SMART Digestive system)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 32)，移除英文標籤、背景與標誌；中文標籤另以疊加層顯示"
   }
 }

@@ -165,6 +165,8 @@ references:
 
 ## 給藥醫囑 {#orders}
 
+- 醫囑的紙本與電子處理流程、口頭醫囑與 order renew、病歷縮寫見 [[documentation-orders#orders]]
+
 ### 醫囑的種類與內容 {#order-types}
 
 1. 完整的給藥醫囑要有

@@ -123,6 +123,17 @@
   "行政-Ch06財務預算與成本控制 > 控制的基本概念": [
    "quality-management-concepts"
   ],
+  "基護-Ch08活動與運動 > 活動及運動": [
+   "activity-immobility"
+  ],
+  "基護-Ch08活動與運動 > 身體對制動的反應": [
+   "activity-immobility",
+   "pressure-injury"
+  ],
+  "基護-Ch08活動與運動 > 滿足活動及運動需要的護理過程": [
+   "activity-immobility",
+   "pressure-injury"
+  ],
   "微免-Ch01微生物學總論與微生物控制 > 滅菌、消毒與化學治療": [
    "asepsis-sterilization"
   ],
@@ -210,6 +221,18 @@
   ],
   "社區-Ch05社區評估與社區健康營造 > 社區健康營造": [
    "community-nursing-process"
+  ],
+  "基護-Ch04護理記錄 > 記錄的基本概念": [
+   "documentation-orders"
+  ],
+  "基護-Ch04護理記錄 > 護理記錄的方法": [
+   "documentation-orders"
+  ],
+  "基護-Ch04護理記錄 > 病歷的內容及保存": [
+   "documentation-orders"
+  ],
+  "基護-Ch04護理記錄 > 醫囑": [
+   "documentation-orders"
   ],
   "基護-Ch17臨終病人的護理 > 臨終病人之生、心理變化與護理 > 生理變化與護理措施（中樞神經、呼吸、循環、感官、肌肉皮膚、腸胃泌尿系統）": [
    "end-of-life-care"
@@ -324,6 +347,45 @@
    "notifiable-diseases",
    "childhood-infectious-diseases"
   ],
+  "基護-Ch01緒論 > 護理理念之變遷": [
+   "nursing-concepts-health"
+  ],
+  "基護-Ch01緒論 > 護理倫理與法律應有的基本認識": [
+   "nursing-concepts-health"
+  ],
+  "基護-Ch01緒論 > 健康與疾病": [
+   "nursing-concepts-health"
+  ],
+  "基護-Ch01緒論 > 護理的範圍及工作模式": [
+   "nursing-concepts-health"
+  ],
+  "基護-Ch01緒論 > 護理專業核心素養": [
+   "nursing-concepts-health"
+  ],
+  "基護-Ch06護理過程 > 護理過程的基本概念": [
+   "nursing-process"
+  ],
+  "基護-Ch06護理過程 > 護理過程的步驟": [
+   "nursing-process"
+  ],
+  "基護-Ch06護理過程 > 護理計畫表單與記錄範例": [
+   "nursing-process"
+  ],
+  "基護-Ch12營養的需要 > 營養的基本概念": [
+   "nutrition-assessment-diets"
+  ],
+  "基護-Ch12營養的需要 > 飲食治療": [
+   "nutrition-assessment-diets"
+  ],
+  "基護-Ch03觀察與溝通 > 觀察": [
+   "observation-communication"
+  ],
+  "基護-Ch03觀察與溝通 > 溝通": [
+   "observation-communication"
+  ],
+  "基護-Ch03觀察與溝通 > 專業性人際關係": [
+   "observation-communication"
+  ],
   "社區-Ch13職業衛生與護理 > 職業健康護理之目的及意義": [
    "occupational-health-nursing"
   ],
@@ -401,6 +463,15 @@
   ],
   "基護-Ch10生命徵象 > 呼吸": [
    "respiratory-assessment"
+  ],
+  "基護-Ch09休息與睡眠 > 休息與睡眠的基本概念": [
+   "sleep-rest"
+  ],
+  "基護-Ch09休息與睡眠 > 滿足睡眠需要的護理過程": [
+   "sleep-rest"
+  ],
+  "基護-Ch09休息與睡眠 > 睡眠紊亂／障礙常見的型態": [
+   "sleep-rest"
   ],
   "內外-Ch02免疫系統疾病 > 器官移植與護理": [
    "stem-cell-transplant",
@@ -560,6 +631,18 @@
    "autoimmune-diseases",
    "immunology-labs"
   ],
+  "內外-Ch07消化系統疾病 > 肝膽胰疾病": [
+   "biliary-pancreatic",
+   "liver-cirrhosis",
+   "gi-diagnostic-procedures",
+   "liver-function"
+  ],
+  "病理-Ch13肝、膽、胰疾病 > 膽道系統疾病": [
+   "biliary-pancreatic"
+  ],
+  "病理-Ch13肝、膽、胰疾病 > 胰臟疾病": [
+   "biliary-pancreatic"
+  ],
   "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 情緒安定劑（抗躁鬱症藥物）": [
    "bipolar-disorder",
    "mood-stabilizers",
@@ -656,7 +739,8 @@
    "pediatric-neuro"
   ],
   "病理-Ch12消化道疾病 > 大腸疾病": [
-   "colorectal-cancer"
+   "colorectal-cancer",
+   "lower-gi-disorders"
   ],
   "內外-Ch07消化系統疾病 > 腸道疾病 > 腸胃道息肉與大腸癌": [
    "colorectal-cancer"
@@ -946,7 +1030,8 @@
    "edema-shock"
   ],
   "藥理-Ch06消化系統藥物 > 排便相關藥物": [
-   "infectious-diarrhea"
+   "infectious-diarrhea",
+   "gi-drugs"
   ],
   "微免-Ch05革蘭氏陽性球菌 > 葡萄球菌屬": [
    "infectious-diarrhea",
@@ -961,7 +1046,8 @@
    "rna-viruses"
   ],
   "兒科-Ch11兒童消化系統疾病 > 常見消化系統問題及其護理": [
-   "infectious-diarrhea"
+   "infectious-diarrhea",
+   "pediatric-gi"
   ],
   "社區-Ch15環境衛生與食品衛生 > 食品衛生": [
    "infectious-diarrhea",
@@ -995,10 +1081,17 @@
    "pediatric-cancers"
   ],
   "病理-Ch13肝、膽、胰疾病 > 肝臟疾病": [
-   "liver-cancer"
+   "liver-cancer",
+   "liver-cirrhosis"
   ],
   "內外-Ch07消化系統疾病 > 肝膽胰疾病 > 肝炎、肝硬化與肝癌": [
    "liver-cancer"
+  ],
+  "內外-Ch07消化系統疾病 > 腸道疾病": [
+   "lower-gi-disorders"
+  ],
+  "病理-Ch12消化道疾病 > 小腸疾病": [
+   "lower-gi-disorders"
   ],
   "病理-Ch11呼吸系統疾病 > 肺部腫瘤與肉芽腫性疾病": [
    "lung-cancer"
@@ -1024,6 +1117,15 @@
   "兒科-Ch12兒童泌尿生殖系統疾病 > 兒童泌尿生殖系統之解剖生理與評估": [
    "pediatric-genitourinary",
    "urinary-tract-infection"
+  ],
+  "兒科-Ch11兒童消化系統疾病 > 兒童消化系統之解剖生理與評估": [
+   "pediatric-gi"
+  ],
+  "兒科-Ch11兒童消化系統疾病 > 先天性消化道疾病": [
+   "pediatric-gi"
+  ],
+  "兒科-Ch11兒童消化系統疾病 > 其他消化道疾病與肝膽胰疾病": [
+   "pediatric-gi"
   ],
   "兒科-Ch08兒童呼吸系統疾病 > 上呼吸道感染疾病": [
    "pediatric-respiratory-infections"
@@ -1188,12 +1290,28 @@
   "社區-Ch14傳染病防治與護理 > 重要傳染病流行病學及管制概況 > 慢性及性傳染病（結核病、B型肝炎、梅毒、淋病、後天免疫缺乏症候群、麻疹）": [
    "tuberculosis"
   ],
+  "內外-Ch07消化系統疾病 > 口腔與食道疾病": [
+   "upper-gi-disorders"
+  ],
+  "內外-Ch07消化系統疾病 > 胃與十二指腸疾病": [
+   "upper-gi-disorders",
+   "gi-diagnostic-procedures",
+   "helicobacter-pylori"
+  ],
+  "病理-Ch12消化道疾病 > 食道疾病": [
+   "upper-gi-disorders"
+  ],
+  "病理-Ch12消化道疾病 > 胃疾病": [
+   "upper-gi-disorders",
+   "helicobacter-pylori"
+  ],
   "微免-Ch07革蘭氏陰性球菌與腸內桿菌 > 腸內桿菌科": [
    "urinary-tract-infection",
    "gram-negative-bacteria"
   ],
   "基護-Ch15排泄需要 > 泌尿道排泄需要": [
-   "urinary-tract-infection"
+   "urinary-tract-infection",
+   "urinary-elimination"
   ],
   "基護-Ch18出入院護理與檢體收集 > 入院之常規檢體收集 > 尿液檢體收集法（含培養、24小時尿液檢體收集）": [
    "urinary-tract-infection",
@@ -1313,6 +1431,19 @@
   "藥理-Ch10內分泌與新陳代謝藥物 > 腎上腺皮質類固醇及其抑制劑": [
    "corticosteroids"
   ],
+  "藥理-Ch06消化系統藥物 > 消化性潰瘍治療藥物": [
+   "gi-drugs",
+   "helicobacter-pylori"
+  ],
+  "藥理-Ch06消化系統藥物 > 腸胃蠕動與嘔吐相關藥物": [
+   "gi-drugs"
+  ],
+  "藥理-Ch06消化系統藥物 > 其他消化系統用藥": [
+   "gi-drugs"
+  ],
+  "藥理-Ch06消化系統藥物 > 綜合題型": [
+   "gi-drugs"
+  ],
   "藥理-Ch04止痛藥與麻醉藥物 > 痛風治療藥物": [
    "gout-drugs"
   ],
@@ -1359,7 +1490,8 @@
    "immunoglobulins-hla"
   ],
   "基護-Ch18出入院護理與檢體收集 > 入院之常規檢體收集": [
-   "culture-and-sensitivity"
+   "culture-and-sensitivity",
+   "admission-discharge-specimens"
   ],
   "藥理-Ch08心血管藥物 > 抗心律不整藥物": [
    "ecg"
@@ -1435,16 +1567,7 @@
   "微免-Ch06革蘭氏陽性桿菌與分枝桿菌 > 其他革蘭氏陽性桿菌": [
    "gram-positive-bacteria"
   ],
-  "病理-Ch12消化道疾病 > 胃疾病": [
-   "helicobacter-pylori"
-  ],
-  "藥理-Ch06消化系統藥物 > 消化性潰瘍治療藥物": [
-   "helicobacter-pylori"
-  ],
   "微免-Ch08其他革蘭氏陰性桿菌與弧菌 > 幽門螺旋桿菌": [
-   "helicobacter-pylori"
-  ],
-  "內外-Ch07消化系統疾病 > 胃與十二指腸疾病": [
    "helicobacter-pylori"
   ],
   "微免-Ch15寄生蟲學 > 蠕蟲": [
@@ -1550,6 +1673,21 @@
   "病理-Ch06遺傳與基因疾病 > 基因組多形性與遺傳諮詢": [
    "genetic-inheritance"
   ],
+  "生解-Ch09消化系統 > 消化道組織學與腹膜": [
+   "gi-anatomy-physiology"
+  ],
+  "生解-Ch09消化系統 > 口腔、咽與食道": [
+   "gi-anatomy-physiology"
+  ],
+  "生解-Ch09消化系統 > 胃": [
+   "gi-anatomy-physiology"
+  ],
+  "生解-Ch09消化系統 > 小腸": [
+   "gi-anatomy-physiology"
+  ],
+  "生解-Ch09消化系統 > 大腸": [
+   "gi-anatomy-physiology"
+  ],
   "生解-Ch12內分泌系統 > 腦下垂體與下視丘": [
    "hypothalamus-pituitary"
   ],
@@ -1579,6 +1717,12 @@
   ],
   "生解-Ch10泌尿系統 > 綜合題型": [
    "kidney-urinary-physiology"
+  ],
+  "生解-Ch09消化系統 > 胰臟": [
+   "liver-biliary-pancreas"
+  ],
+  "生解-Ch09消化系統 > 肝臟與膽囊": [
+   "liver-biliary-pancreas"
   ],
   "微免-Ch11病毒學總論與DNA病毒 > 病毒學總論": [
    "microbial-pathogenesis"
@@ -1631,6 +1775,12 @@
   "病理-Ch03代謝、體液與循環障礙 > 循環障礙": [
    "thrombosis-embolism-infarction"
   ],
+  "基護-Ch18出入院護理與檢體收集 > 入院病人護理": [
+   "admission-discharge-specimens"
+  ],
+  "基護-Ch18出入院護理與檢體收集 > 轉出與出院病人護理": [
+   "admission-discharge-specimens"
+  ],
   "基護-Ch10生命徵象 > 氧氣治療與呼吸道清潔技術": [
    "airway-clearance",
    "oxygen-therapy"
@@ -1639,8 +1789,32 @@
    "airway-clearance",
    "oxygen-therapy"
   ],
+  "基護-Ch16繃帶束帶的運用 > 繃帶的運用": [
+   "bandaging"
+  ],
+  "基護-Ch16繃帶束帶的運用 > 繃帶、束帶包紮的護理過程應用": [
+   "bandaging"
+  ],
   "基護-Ch10生命徵象 > 體溫": [
    "body-temperature"
+  ],
+  "基護-Ch15排泄需要 > 腸道排泄需要": [
+   "bowel-elimination"
+  ],
+  "基護-Ch12營養的需要 > 營養需要的護理過程": [
+   "enteral-parenteral-nutrition"
+  ],
+  "基護-Ch11冷熱療法 > 用冷用熱的生理變化": [
+   "heat-cold-therapy"
+  ],
+  "基護-Ch11冷熱療法 > 冷熱應用": [
+   "heat-cold-therapy"
+  ],
+  "基護-Ch11冷熱療法 > 冷熱療法的護理過程": [
+   "heat-cold-therapy"
+  ],
+  "基護-Ch07舒適的需要 > 身體清潔的重要性與清潔方法": [
+   "hygiene-comfort-care"
   ],
   "基護-Ch13給藥法 > 給藥途徑 > 注射給藥（肌肉、皮下、皮內、靜脈注射）": [
    "injections"
@@ -1659,6 +1833,9 @@
   ],
   "基護-Ch13給藥法 > 給藥途徑": [
    "non-parenteral-medication"
+  ],
+  "基護-Ch07舒適的需要 > 舒適姿勢與常見臥位": [
+   "positioning-body-mechanics"
   ],
   "基護-Ch10生命徵象 > 脈搏": [
    "pulse-blood-pressure"
@@ -1715,13 +1892,6 @@
   },
   "生解-Ch09消化系統": {
    "missing": [
-    "消化道組織學與腹膜",
-    "口腔、咽與食道",
-    "胃",
-    "胰臟",
-    "肝臟與膽囊",
-    "小腸",
-    "大腸",
     "營養物質的代謝"
    ]
   },
@@ -1792,16 +1962,10 @@
    "missing": []
   },
   "病理-Ch12消化道疾病": {
-   "missing": [
-    "食道疾病",
-    "小腸疾病"
-   ]
+   "missing": []
   },
   "病理-Ch13肝、膽、胰疾病": {
-   "missing": [
-    "膽道系統疾病",
-    "胰臟疾病"
-   ]
+   "missing": []
   },
   "病理-Ch14泌尿系統疾病": {
    "missing": []
@@ -1847,10 +2011,7 @@
    "missing": []
   },
   "藥理-Ch06消化系統藥物": {
-   "missing": [
-    "腸胃蠕動與嘔吐相關藥物",
-    "其他消化系統用藥"
-   ]
+   "missing": []
   },
   "藥理-Ch07泌尿系統與利尿劑": {
    "missing": [
@@ -1937,13 +2098,7 @@
    "missing": []
   },
   "基護-Ch01緒論": {
-   "missing": [
-    "護理理念之變遷",
-    "護理倫理與法律應有的基本認識",
-    "健康與疾病",
-    "護理的範圍及工作模式",
-    "護理專業核心素養"
-   ]
+   "missing": []
   },
   "基護-Ch02醫療環境": {
    "missing": [
@@ -1951,66 +2106,34 @@
    ]
   },
   "基護-Ch03觀察與溝通": {
-   "missing": [
-    "觀察",
-    "溝通",
-    "專業性人際關係"
-   ]
+   "missing": []
   },
   "基護-Ch04護理記錄": {
-   "missing": [
-    "記錄的基本概念",
-    "護理記錄的方法",
-    "病歷的內容及保存",
-    "醫囑"
-   ]
+   "missing": []
   },
   "基護-Ch05感染控制": {
    "missing": []
   },
   "基護-Ch06護理過程": {
-   "missing": [
-    "護理過程的基本概念",
-    "護理過程的步驟",
-    "護理計畫表單與記錄範例"
-   ]
+   "missing": []
   },
   "基護-Ch07舒適的需要": {
-   "missing": [
-    "身體清潔的重要性與清潔方法",
-    "舒適姿勢與常見臥位"
-   ]
+   "missing": []
   },
   "基護-Ch08活動與運動": {
-   "missing": [
-    "滿足活動及運動需要的護理過程",
-    "活動及運動",
-    "身體對制動的反應"
-   ]
+   "missing": []
   },
   "基護-Ch09休息與睡眠": {
-   "missing": [
-    "休息與睡眠的基本概念",
-    "滿足睡眠需要的護理過程",
-    "睡眠紊亂／障礙常見的型態"
-   ]
+   "missing": []
   },
   "基護-Ch10生命徵象": {
    "missing": []
   },
   "基護-Ch11冷熱療法": {
-   "missing": [
-    "用冷用熱的生理變化",
-    "冷熱療法的護理過程",
-    "冷熱應用"
-   ]
+   "missing": []
   },
   "基護-Ch12營養的需要": {
-   "missing": [
-    "營養的基本概念",
-    "營養需要的護理過程",
-    "飲食治療"
-   ]
+   "missing": []
   },
   "基護-Ch13給藥法": {
    "missing": []
@@ -2021,14 +2144,10 @@
    ]
   },
   "基護-Ch15排泄需要": {
-   "missing": [
-    "腸道排泄需要"
-   ]
+   "missing": []
   },
   "基護-Ch16繃帶束帶的運用": {
    "missing": [
-    "繃帶、束帶包紮的護理過程應用",
-    "繃帶的運用",
     "束帶的應用"
    ]
   },
@@ -2040,10 +2159,7 @@
    ]
   },
   "基護-Ch18出入院護理與檢體收集": {
-   "missing": [
-    "入院病人護理",
-    "轉出與出院病人護理"
-   ]
+   "missing": []
   },
   "行政-Ch01緒論與管理理論": {
    "missing": []
@@ -2094,9 +2210,7 @@
    ]
   },
   "內外-Ch07消化系統疾病": {
-   "missing": [
-    "口腔與食道疾病"
-   ]
+   "missing": []
   },
   "內外-Ch08內分泌系統疾病": {
    "missing": [
@@ -2318,11 +2432,7 @@
    ]
   },
   "兒科-Ch11兒童消化系統疾病": {
-   "missing": [
-    "兒童消化系統之解剖生理與評估",
-    "先天性消化道疾病",
-    "其他消化道疾病與肝膽胰疾病"
-   ]
+   "missing": []
   },
   "兒科-Ch12兒童泌尿生殖系統疾病": {
    "missing": []

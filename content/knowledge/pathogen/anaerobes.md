@@ -2,7 +2,7 @@
 title: 厭氧菌
 subtitle: Anaerobic bacteria(梭狀芽孢桿菌、類桿菌、放線菌、痤瘡桿菌)
 aliases: [厭氧菌, 厭氧性細菌, Anaerobes, 梭狀芽孢桿菌, 梭狀桿菌, Clostridium, 困難梭狀桿菌, 困難梭菌, 困難梭孢桿菌, Clostridioides difficile, Clostridium difficile, C. diff, 偽膜性結腸炎, 抗生素相關腹瀉, 產氣莢膜梭菌, 產氣梭孢桿菌, 產氣莢膜桿菌, Clostridium perfringens, 氣性壞疽, 類桿菌, 鬆脆類桿菌, Bacteroides fragilis, 放線菌, Actinomyces, 硫磺顆粒, 痤瘡丙酸桿菌, Propionibacterium acnes, Cutibacterium acnes]
-dzTags: [偽膜性腸炎, 氣性壞疽]
+dzTags: [困難梭狀桿菌腸炎, 氣性壞疽]
 system: infection
 group: bacteria
 chapters:

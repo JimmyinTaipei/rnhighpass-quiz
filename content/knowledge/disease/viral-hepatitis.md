@@ -4,6 +4,7 @@ subtitle: Viral hepatitis(A、B、C、D、E 型肝炎病毒比較；B 肝血清�
 aliases: [病毒性肝炎, 肝炎, Viral hepatitis, 急性肝炎, 慢性肝炎, 猛爆性肝炎, A 型肝炎, A型肝炎, HAV, anti-HAV, B 型肝炎, B型肝炎, HBV, B 肝帶原, HBsAg, HBeAg, anti-HBs, anti-HBc, anti-HBe, B 型肝炎免疫球蛋白, HBIG, 母嬰垂直傳染, C 型肝炎, C型肝炎, HCV, anti-HCV, 輸血後肝炎, D 型肝炎, D型肝炎, HDV, δ 病原, Delta agent, E 型肝炎, E型肝炎, HEV, 壞死後肝硬化, B、C 型肝炎篩檢]
 dzTags: [病毒性肝炎, 肝炎, 慢性肝炎, A型肝炎, B型肝炎, C型肝炎, D型肝炎, E型肝炎]
 system: digestive
+group: hepatobiliary-diseases
 alsoIn: [infection, community]
 chapters:
   - 微免-Ch13肝炎病毒、反轉錄病毒與變性蛋白質 > 肝炎病毒

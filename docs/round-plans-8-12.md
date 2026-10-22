@@ -84,7 +84,7 @@
 
 ---
 
-## 第 10 輪 基護 B(拆兩半，各自收尾一次寫回)
+## 第 10 輪 基護 B(拆兩半，各自收尾一次寫回) ✅ 2026-10-22 完成
 
 範圍(未涵蓋)：Ch07 舒適 91、Ch15 排泄 90、Ch12 營養 80、Ch11 冷熱 72、Ch08 活動 50、Ch06 護理過程 47、Ch04 記錄 40、Ch03 觀察溝通 39、Ch01 緒論 32、Ch18 出入院 27、Ch16 繃帶 25、Ch02 環境(第 8 輪剩餘)、Ch09 睡眠 9
 
@@ -101,38 +101,77 @@
 | **10b** E | `procedure/bowel-elimination`(便秘、灌腸種類、腸造口照護)、`procedure/urinary-elimination`(導尿、留置尿管照護、膀胱訓練；連 urinary-tract-infection) |
 | 10b F | `care/nursing-process`(評估、診斷 NANDA、目標 SMART、評值)、`care/documentation-orders`(記錄原則、SOAP／PIE／焦點記錄、醫囑；連 medical-records-consent) |
 | 10b G | `care/observation-communication`(溝通技巧、治療性溝通，連 psychiatric-nursing-foundations)、`care/nursing-concepts-health`(護理理念、健康疾病模式、工作模式；連 nursing-care-models) |
-| 10b H | `procedure/bandaging`(繃帶種類與包紮法)、`procedure/admission-discharge-specimens`(出入院、檢體收集剩餘)；10b 收尾＋寫回 |
+| 10b H | `procedure/bandaging`(繃帶種類與包紮法)、`procedure/admission-discharge-specimens`(出入院、檢體收集剩餘) |
+| 10b I | **基護掃尾**(2026-10-22 新增)：Ch05 感染控制剩 9 題補進 infection-control 等既有頁、Ch17 臨終剩 2 題補進既有臨終頁、各組留下的零星題與多章重複題；跑涵蓋報告確認基護 18 章全部 100%；10b 收尾＋寫回 |
 
-目標：基護 ≥ 90%(47% → 約 90%)
+目標：**基護每章 100%**(使用者 2026-10-22；原本 ≥ 90%)。每組收完負責小節的全部題，送分題、跨系統題也用 `::questions{ids}` 放進最接近的頁
+
+2026-10-22 補充(依 2026-10-21 涵蓋報告，基護 1057/1578)：
+- 未涵蓋：Ch07 83、Ch15 78、Ch12 68、Ch11 67、Ch08 49、Ch06 45、Ch03 37、Ch04 34、Ch01 30、Ch16 25、Ch18 21、Ch05 9、Ch09 9、Ch17 2(Ch02、10、13、14 已 100%)
+- 10-0a 加併 `壓瘡`(12 題，全在基護)→ `壓力性損傷`(第 8 輪只併了壓傷)
+- 基護相關未處理標籤分給頁面收：便秘 53、痔瘡 6(E)、尿滯留 16(E)、燙傷 10、扭傷 7(C)、創傷 8(H 或 I)
 
 ---
 
 ## 第 11 輪 消化(額度夠才做)
 
-範圍(未涵蓋)：內外 Ch07 146、生解 Ch09 111、藥理 Ch06 32、兒科 Ch11 44、病理 Ch12 27、Ch13 14
+範圍(未涵蓋，2026-10-22 涵蓋報告)：內外 Ch07 127、生解 Ch09 101、兒科 Ch11 37、藥理 Ch06 32、病理 Ch12 27、Ch13 12(共 336)
 
-跨輪移交：肝硬化腹水護理與穿刺(edema-shock#cirrhosis-ascites)；幽門狹窄、唇顎裂、食道閉鎖照護(genetic-inheritance#multifactorial)
+跨輪移交：
+1. 第 5 輪：肝硬化腹水護理與穿刺(edema-shock#cirrhosis-ascites)；幽門狹窄、唇顎裂、食道閉鎖照護(genetic-inheritance#multifactorial)
+2. 第 9 輪：腸阻塞體液變化(106-2_MS_016)、肝硬化腹水護理(113-1_MS_007)，機轉連 fluid-electrolytes
+3. 第 10 輪：傾倒症候群飲食、膽道閉鎖與兒童肝病飲食(連基護營養兩頁)；痔瘡病因與術後照護 5 題、瀉劑與止瀉劑藥理 6 題(題號見路線圖)，便秘與灌腸連 bowel-elimination
+
+計畫檢查(2026-10-22)：
+- 前列腺肥大同義詞已在 9-0a 合併、壞死性腸炎已在 10-0a 合併，tag-merge-round5.md 第六節只剩感染性腸炎等(第四節)；另帶一個沒做過的系統，建議**生殖**(男女生殖、乳房；含第 9 輪留下的睪丸腫瘤、男性生殖解剖)
+- 既有頁只連不重寫：viral-hepatitis、liver-cancer、colorectal-cancer、infectious-diarrhea、helicobacter-pylori、bowel-elimination#stoma、enteral-parenteral-nutrition；胃癌、食道癌從 cancer#other-cancers 移到 upper-gi-disorders(cancer 頁改連結)
+- 口腔與食道疾病(內外 Ch07 31 題只涵蓋 9、病理 Ch12 食道 12 題只涵蓋 2)原本沒有歸屬頁，併進 B 組 upper-gi-disorders
 
 | 步 | 內容 |
 |---|---|
-| 11-0 | 標籤合併消化＋泌尿生殖(tag-merge-round5.md 第六節)；來源包(H. pylori 台灣共識、AASLD、消化醫學會)；taxonomy 與 Servier 消化圖 |
+| 11-0a | 標籤合併：消化同義標籤＋tag-merge-round5.md 第四節剩餘＋生殖系統；`docs/tag-merge-round11.md` |
+| 11-0b | 來源包 `sources/digestive.md`(課本書頁、H. pylori 台灣共識、AASLD、消化醫學會；新舊說法表) |
+| 11-0c | taxonomy digestive groups(生理、上消化道、下消化道、肝膽胰、兒科、檢驗與檢查)，既有 5 頁歸組；Servier 消化圖盤點 |
 | A | `physiology/gi-anatomy-physiology`(口腔到大腸、消化酶與激素)、`physiology/liver-biliary-pancreas`(生解 Ch09 剩餘) |
-| B | `disease/upper-gi-disorders`(GERD、消化性潰瘍、上消化道出血、胃手術後傾倒症候群)、`drug/gi-drugs`(PPI、H2、制酸、止吐、瀉劑、止瀉) |
-| C | `disease/lower-gi-disorders`(IBD、腸阻塞、闌尾炎、疝氣、憩室、痔)、腸造口連 bowel-elimination |
-| D | `disease/liver-cirrhosis`(腹水、食道靜脈曲張、肝性腦病變；移交)、`disease/biliary-pancreatic`(膽結石、胰臟炎) |
-| E | `disease/pediatric-gi`(幽門狹窄、唇顎裂、食道閉鎖、巨結腸症、腸套疊；移交)、`lab/liver-function` |
-| F | 收尾 |
+| B | `disease/upper-gi-disorders`(口腔炎、食道弛緩不能、食道裂孔疝、GERD、消化性潰瘍、上消化道出血、胃癌、食道癌、胃手術後傾倒症候群)、`drug/gi-drugs`(PPI、H2、制酸、止吐、瀉劑、止瀉；含移交 6 題) |
+| C | `disease/lower-gi-disorders`(IBD、吸收不良、腸阻塞(106-2_MS_016)、闌尾炎、疝氣、憩室、痔(移交 5 題))、腸造口連 bowel-elimination |
+| D | `disease/liver-cirrhosis`(腹水與穿刺、食道靜脈曲張、肝性腦病變；移交 113-1_MS_007)、`disease/biliary-pancreatic`(膽結石、胰臟炎、胰臟癌) |
+| E | `disease/pediatric-gi`(幽門狹窄、唇顎裂、食道閉鎖、巨結腸症、腸套疊、膽道閉鎖；移交；先天性 23 題只涵蓋 3，題多可單獨一組)、`lab/liver-function`、`lab/gi-diagnostic-procedures`(內視鏡、上消化道攝影、ERCP、肝切片、腹部穿刺；比照 urologic-diagnostic-procedures) |
+| F | 掃尾＋收尾(共通規則) |
+
+目標：6 章 100%
 
 ---
 
 ## 第 12 輪 血液(額度夠才做)
 
-範圍(未涵蓋)：內外 Ch14 30、藥理 Ch09 38、兒科 Ch10 18、病理 Ch10 17、生解 Ch07 血液部分
+範圍(未涵蓋，2026-10-22 涵蓋報告)：內外 Ch14 23(75/98)、藥理 Ch09 22(60/82，抗血栓 14)、兒科 Ch10 14(31/45，凝血 8)、病理 Ch10 15(42/57)、生解 Ch07 血液小節 8(心臟、血管留第 15 輪)
 
-跨輪移交(5 列)：海洋性貧血、血友病、類血友病、G6PD、鐮刀型與球形紅血球的治療護理；惡性貧血與 B12、葉酸缺乏(約 11 題)；出血疾病原因題(109-2_BM_044 等)；血友病關節出血與居家照護(約 9 題)；海洋性貧血輸血與排鐵(114-1_OP_041)
+跨輪移交：
+1. 第 5 輪：海洋性貧血、血友病、類血友病、G6PD、鐮刀型與球形紅血球的治療護理；惡性貧血與 B12、葉酸缺乏(約 11 題)；出血疾病原因題(109-2_BM_044 等)；血友病關節出血與居家照護(約 9 題)；海洋性貧血輸血與排鐵(114-1_OP_041)
+2. 第 9 輪：造血藥物頁做好後回補 chronic-kidney-disease#anemia
+3. 第 11 輪：惡性貧血與 B12(113-2_MS_021 在 lower-gi-disorders#malabsorption)、缺鐵性貧血與痔瘡出血，互連
+
+計畫檢查(2026-10-22)：
+- 既有頁只連不重寫：thrombosis-embolism-infarction(#hemostasis、**#dic**)、single-gene-disorders(海洋性、鐮刀型、vWD、球形、血友病、G6PD 的遺傳)、complete-blood-count#anemia、transfusion-reactions、leukemia、lymphoma-myeloma
+- **hemoglobinopathies-care 不另開頁**(使用者決定)：輸血與排鐵、脾切除、G6PD 避免物寫進 anemias#hemolytic
+- 抗血栓 14 題與深部靜脈血栓(52%)原本沒有歸屬：補既有 anticoagulants、antiplatelets、thrombolytics
+- 新增 `lab/coagulation-tests`(taxonomy 已有 coagulation-labs 組但沒有頁)
+- 標籤合併另帶**社區 B**(第 13 輪範圍，使用者決定)
 
 | 步 | 內容 |
 |---|---|
+| 12-0a | 標籤合併：血液重查(第 7 輪後新增、抗血栓與貧血用藥)＋社區 B(社區 Ch02、04、06–09、11、12、15)；`docs/tag-merge-round12.md` |
+| 12-0b | 來源包 `sources/hematology.md`(內外、兒科課本書頁、血液病學會、輸血作業規範、ASH ITP 2019、ISTH DIC；新舊說法表) |
+| 12-0c | taxonomy hematology groups(血液生理、貧血、出血凝血、檢驗)；圖片盤點(Servier 血球生成＋原創凝血瀑布) |
+| A | `physiology/blood-hemostasis`(血球生成、EPO、血紅素、血型、凝血瀑布與纖溶；病理止血留 thrombosis 頁並互連)、`disease/anemias`(缺鐵、巨球性、再生不良、溶血含海洋性輸血排鐵與 G6PD 照護、真性紅血球增多症；移交) |
+| B | `disease/bleeding-disorders`(血小板減少、ITP、血友病關節出血與居家、vWD 治療、DIC 護理與判讀；移交)、`lab/coagulation-tests`(PT/INR、aPTT、出血時間、纖維蛋白原、D-dimer、FDP；依疾病判讀表) |
+| C | `drug/hematinics`(鐵劑、B12、葉酸、EPO、排鐵劑；回補 CKD)＋補 anticoagulants(DVT 護理、HIT)、antiplatelets、thrombolytics |
+| D | 掃尾(白血病、淋巴瘤剩 4 題補既有頁)＋收尾(共通規則) |
+
+目標：內外 Ch14、藥理 Ch09、兒科 Ch10、病理 Ch10 **4 章 100%**；生解 Ch07 血液小節 100%
+
+---|---|
 | 12-0 | 第 7 輪已合併血液標籤，只處理新發現的；來源包(血液病學會、輸血規範)；圖：原創凝血瀑布 |
 | A | `physiology/blood-hemostasis`(血球生成、凝血與纖維溶解)、`disease/anemias`(缺鐵、巨球性、再生不良、溶血；移交) |
 | B | `disease/bleeding-disorders`(血友病、類血友病、ITP、DIC；移交)、`drug/hematinics`(鐵劑、B12、葉酸、EPO、排鐵劑) |

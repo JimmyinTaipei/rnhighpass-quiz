@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 590" width="1000" height="590" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>膽紅素代謝與三型黃疸</title>
+<rect width="1000" height="590" fill="#FFFFFF"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<text x="500" y="34" font-size="22" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">膽紅素代謝與三型黃疸(示意)</text>
+<rect x="20" y="55" width="300" height="250" rx="12" fill="#FFF3F0" stroke="#E0B4A8"/>
+<text x="170" y="80" font-size="16" fill="#A0522D" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">血液與脾臟</text>
+<rect x="350" y="55" width="300" height="250" rx="12" fill="#F3F0FF" stroke="#B9AEE0"/>
+<text x="500" y="80" font-size="16" fill="#5E35B1" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">肝臟</text>
+<rect x="680" y="55" width="300" height="250" rx="12" fill="#F0FFF3" stroke="#A8D5B0"/>
+<text x="830" y="80" font-size="16" fill="#2E7D32" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">膽道與腸道</text>
+<rect x="45" y="95" width="250" height="60" rx="10" fill="#FFFFFF" stroke="#C62828" stroke-width="2"/>
+<text x="170.0" y="120.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">老化紅血球(壽命約 120 天)</text>
+<text x="170.0" y="142.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">脾臟巨噬細胞分解</text>
+<rect x="45" y="205" width="250" height="80" rx="10" fill="#FFF8E1" stroke="#F9A825" stroke-width="2"/>
+<text x="170.0" y="229.0" font-size="16" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">非結合膽紅素</text>
+<text x="170.0" y="251.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">(間接型、脂溶性)</text>
+<text x="170.0" y="273.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">與白蛋白結合運送</text>
+<line x1="170" y1="155" x2="170" y2="203" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+<text x="170" y="186" font-size="14" fill="#444" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">血紅素 → 血基質 → 膽綠素</text>
+<rect x="375" y="140" width="250" height="110" rx="10" fill="#FFFFFF" stroke="#5E35B1" stroke-width="2"/>
+<text x="500.0" y="168.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">肝細胞攝取</text>
+<text x="500.0" y="190.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">葡萄糖醛酸轉移酶結合</text>
+<text x="500.0" y="212.0" font-size="16" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">→ 結合膽紅素</text>
+<text x="500.0" y="234.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">(直接型、水溶性)</text>
+<line x1="295" y1="240" x2="373" y2="200" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="705" y="95" width="250" height="60" rx="10" fill="#FFFFFF" stroke="#2E7D32" stroke-width="2"/>
+<text x="830.0" y="131.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">隨膽汁排入十二指腸</text>
+<line x1="625" y1="180" x2="703" y2="125" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="705" y="205" width="250" height="80" rx="10" fill="#FFFFFF" stroke="#6D4C41" stroke-width="2"/>
+<text x="830.0" y="229.0" font-size="16" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">腸道細菌 → 尿膽素原</text>
+<text x="830.0" y="251.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">大部分變成糞膽素</text>
+<text x="830.0" y="273.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">(糞便呈棕色)</text>
+<line x1="830" y1="155" x2="830" y2="203" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="350" y="380" width="300" height="80" rx="10" fill="#FFFFFF" stroke="#757575" stroke-width="2"/>
+<text x="500" y="412" font-size="16" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">部分尿膽素原再吸收</text>
+<text x="500" y="438" font-size="15" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">經門靜脈回肝(腸肝循環)</text>
+<line x1="780" y1="287" x2="620" y2="378" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="400" y1="378" x2="430" y2="252" stroke="#444" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arr)"/>
+<rect x="20" y="380" width="300" height="80" rx="10" fill="#FFFFFF" stroke="#F9A825" stroke-width="2"/>
+<text x="170" y="412" font-size="16" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">少量經腎臟排出</text>
+<text x="170" y="438" font-size="15" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">尿膽素原隨尿排出(氧化成尿膽素)</text>
+<line x1="348" y1="420" x2="322" y2="420" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+<circle cx="305" cy="110" r="15" fill="#C62828"/><text x="305" y="116" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="375" cy="140" r="15" fill="#5E35B1"/><text x="375" y="146" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="668" cy="192" r="15" fill="#2E7D32"/><text x="668" y="198" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+<text x="30" y="505" font-size="15" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">① 溶血性(肝前)：紅血球破壞太多 → 非結合膽紅素上升；尿膽素原增加，尿中沒有膽紅素</text>
+<text x="30" y="535" font-size="15" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">② 肝細胞性：肝細胞攝取與結合都受損 → 兩種膽紅素都上升，尿中可出現膽紅素</text>
+<text x="30" y="565" font-size="15" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">③ 阻塞性(肝後)：膽汁排不出去 → 結合膽紅素上升；茶色尿、灰白色便、皮膚癢(膽鹽沉積)</text>
+</svg>

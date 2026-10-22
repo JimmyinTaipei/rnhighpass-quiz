@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>壓力性損傷分期</title>
+<rect width="1200" height="700" fill="#FFFFFF"/>
+<defs><linearGradient id="dti" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7B2D5B" stop-opacity="0.35"/><stop offset="1" stop-color="#5A1846" stop-opacity="0.85"/></linearGradient></defs>
+<text x="600" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">壓力性損傷分期(NPIAP 2016，示意)</text>
+<rect x="30" y="60" width="360" height="280" rx="10" fill="none" stroke="#BBBBBB"/>
+<text x="210.0" y="88" font-size="19" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">第 1 期</text>
+<text x="210.0" y="112" font-size="14" fill="#444" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">不可反白的紅斑，皮膚完整</text>
+<rect x="50" y="130" width="320" height="10" fill="#F6D2B4"/>
+<rect x="50" y="140" width="320" height="45" fill="#E9A58F"/>
+<rect x="50" y="185" width="320" height="50" fill="#FBE7A1"/>
+<rect x="50" y="235" width="320" height="45" fill="#C9605E"/>
+<rect x="50" y="280" width="320" height="30" fill="#EFE8D6"/>
+<ellipse cx="68" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="103" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="138" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="173" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="208" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="243" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="278" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="313" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="348" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<line x1="50" y1="243" x2="370" y2="243" stroke="#A84845" stroke-width="1"/>
+<line x1="50" y1="253" x2="370" y2="253" stroke="#A84845" stroke-width="1"/>
+<line x1="50" y1="263" x2="370" y2="263" stroke="#A84845" stroke-width="1"/>
+<line x1="50" y1="273" x2="370" y2="273" stroke="#A84845" stroke-width="1"/>
+<ellipse cx="210.0" cy="148" rx="70" ry="20" fill="#D32F2F" opacity="0.45"/>
+<rect x="420" y="60" width="360" height="280" rx="10" fill="none" stroke="#BBBBBB"/>
+<text x="600.0" y="88" font-size="19" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">第 2 期</text>
+<text x="600.0" y="112" font-size="14" fill="#444" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">部分皮層缺損，露出真皮</text>
+<rect x="440" y="130" width="320" height="10" fill="#F6D2B4"/>
+<rect x="440" y="140" width="320" height="45" fill="#E9A58F"/>
+<rect x="440" y="185" width="320" height="50" fill="#FBE7A1"/>
+<rect x="440" y="235" width="320" height="45" fill="#C9605E"/>
+<rect x="440" y="280" width="320" height="30" fill="#EFE8D6"/>
+<ellipse cx="458" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="493" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="528" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="563" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="598" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="633" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="668" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="703" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="738" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<line x1="440" y1="243" x2="760" y2="243" stroke="#A84845" stroke-width="1"/>
+<line x1="440" y1="253" x2="760" y2="253" stroke="#A84845" stroke-width="1"/>
+<line x1="440" y1="263" x2="760" y2="263" stroke="#A84845" stroke-width="1"/>
+<line x1="440" y1="273" x2="760" y2="273" stroke="#A84845" stroke-width="1"/>
+<path d="M530.0,130 L540.0,158 L660.0,158 L670.0,130 Z" fill="#FFFFFF" stroke="#B71C1C" stroke-width="2"/>
+<rect x="540.0" y="158" width="120" height="6" fill="#F06292"/>
+<rect x="810" y="60" width="360" height="280" rx="10" fill="none" stroke="#BBBBBB"/>
+<text x="990.0" y="88" font-size="19" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">第 3 期</text>
+<text x="990.0" y="112" font-size="14" fill="#444" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">全皮層缺損，可見皮下脂肪</text>
+<rect x="830" y="130" width="320" height="10" fill="#F6D2B4"/>
+<rect x="830" y="140" width="320" height="45" fill="#E9A58F"/>
+<rect x="830" y="185" width="320" height="50" fill="#FBE7A1"/>
+<rect x="830" y="235" width="320" height="45" fill="#C9605E"/>
+<rect x="830" y="280" width="320" height="30" fill="#EFE8D6"/>
+<ellipse cx="848" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="883" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="918" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="953" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="988" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="1023" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="1058" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="1093" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="1128" cy="210" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<line x1="830" y1="243" x2="1150" y2="243" stroke="#A84845" stroke-width="1"/>
+<line x1="830" y1="253" x2="1150" y2="253" stroke="#A84845" stroke-width="1"/>
+<line x1="830" y1="263" x2="1150" y2="263" stroke="#A84845" stroke-width="1"/>
+<line x1="830" y1="273" x2="1150" y2="273" stroke="#A84845" stroke-width="1"/>
+<path d="M915.0,130 L932.0,205 L1048.0,205 L1065.0,130 Z" fill="#FFFFFF" stroke="#B71C1C" stroke-width="2"/>
+<rect x="932.0" y="205" width="116" height="7" fill="#F2C94C"/>
+<rect x="30" y="355" width="360" height="280" rx="10" fill="none" stroke="#BBBBBB"/>
+<text x="210.0" y="383" font-size="19" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">第 4 期</text>
+<text x="210.0" y="407" font-size="14" fill="#444" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">可見筋膜、肌肉、肌腱或骨</text>
+<rect x="50" y="425" width="320" height="10" fill="#F6D2B4"/>
+<rect x="50" y="435" width="320" height="45" fill="#E9A58F"/>
+<rect x="50" y="480" width="320" height="50" fill="#FBE7A1"/>
+<rect x="50" y="530" width="320" height="45" fill="#C9605E"/>
+<rect x="50" y="575" width="320" height="30" fill="#EFE8D6"/>
+<ellipse cx="68" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="103" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="138" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="173" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="208" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="243" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="278" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="313" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="348" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<line x1="50" y1="538" x2="370" y2="538" stroke="#A84845" stroke-width="1"/>
+<line x1="50" y1="548" x2="370" y2="548" stroke="#A84845" stroke-width="1"/>
+<line x1="50" y1="558" x2="370" y2="558" stroke="#A84845" stroke-width="1"/>
+<line x1="50" y1="568" x2="370" y2="568" stroke="#A84845" stroke-width="1"/>
+<path d="M130.0,425 L148.0,575 L272.0,575 L290.0,425 Z" fill="#FFFFFF" stroke="#B71C1C" stroke-width="2"/>
+<rect x="148.0" y="575" width="124" height="30" fill="#E0D6BC" stroke="#9E9E9E"/>
+<rect x="420" y="355" width="360" height="280" rx="10" fill="none" stroke="#BBBBBB"/>
+<text x="600.0" y="383" font-size="19" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">無法分期</text>
+<text x="600.0" y="407" font-size="14" fill="#444" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">傷口被腐肉或焦痂覆蓋</text>
+<rect x="440" y="425" width="320" height="10" fill="#F6D2B4"/>
+<rect x="440" y="435" width="320" height="45" fill="#E9A58F"/>
+<rect x="440" y="480" width="320" height="50" fill="#FBE7A1"/>
+<rect x="440" y="530" width="320" height="45" fill="#C9605E"/>
+<rect x="440" y="575" width="320" height="30" fill="#EFE8D6"/>
+<ellipse cx="458" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="493" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="528" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="563" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="598" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="633" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="668" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="703" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="738" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<line x1="440" y1="538" x2="760" y2="538" stroke="#A84845" stroke-width="1"/>
+<line x1="440" y1="548" x2="760" y2="548" stroke="#A84845" stroke-width="1"/>
+<line x1="440" y1="558" x2="760" y2="558" stroke="#A84845" stroke-width="1"/>
+<line x1="440" y1="568" x2="760" y2="568" stroke="#A84845" stroke-width="1"/>
+<path d="M525.0,425 L542.0,520 L658.0,520 L675.0,425 Z" fill="#4E342E" stroke="#B71C1C" stroke-width="2"/>
+<path d="M525.0,425 L675.0,425 L666.0,451 L534.0,451 Z" fill="#C9A227"/>
+<path d="M565.0,425 L630.0,425 L618.0,445 L574.0,443 Z" fill="#2B1B17"/>
+<rect x="810" y="355" width="360" height="280" rx="10" fill="none" stroke="#BBBBBB"/>
+<text x="990.0" y="383" font-size="19" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">深部組織損傷</text>
+<text x="990.0" y="407" font-size="14" fill="#444" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">皮膚完整，深層深紅或紫色</text>
+<rect x="830" y="425" width="320" height="10" fill="#F6D2B4"/>
+<rect x="830" y="435" width="320" height="45" fill="#E9A58F"/>
+<rect x="830" y="480" width="320" height="50" fill="#FBE7A1"/>
+<rect x="830" y="530" width="320" height="45" fill="#C9605E"/>
+<rect x="830" y="575" width="320" height="30" fill="#EFE8D6"/>
+<ellipse cx="848" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="883" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="918" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="953" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="988" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="1023" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="1058" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="1093" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<ellipse cx="1128" cy="505" rx="13" ry="10" fill="none" stroke="#E2C66E" stroke-width="1"/>
+<line x1="830" y1="538" x2="1150" y2="538" stroke="#A84845" stroke-width="1"/>
+<line x1="830" y1="548" x2="1150" y2="548" stroke="#A84845" stroke-width="1"/>
+<line x1="830" y1="558" x2="1150" y2="558" stroke="#A84845" stroke-width="1"/>
+<line x1="830" y1="568" x2="1150" y2="568" stroke="#A84845" stroke-width="1"/>
+<ellipse cx="990.0" cy="525" rx="95" ry="60" fill="url(#dti)"/>
+<ellipse cx="990.0" cy="439" rx="60" ry="10" fill="#8E3B6E" opacity="0.45"/>
+<text x="280" y="685" font-size="15" fill="#222" text-anchor="end" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">層次：</text>
+<rect x="300" y="670" width="22" height="16" fill="#F6D2B4" stroke="#999"/>
+<text x="330" y="684" font-size="15" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">表皮</text>
+<rect x="450" y="670" width="22" height="16" fill="#E9A58F" stroke="#999"/>
+<text x="480" y="684" font-size="15" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">真皮</text>
+<rect x="600" y="670" width="22" height="16" fill="#FBE7A1" stroke="#999"/>
+<text x="630" y="684" font-size="15" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">皮下脂肪</text>
+<rect x="750" y="670" width="22" height="16" fill="#C9605E" stroke="#999"/>
+<text x="780" y="684" font-size="15" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">肌肉</text>
+<rect x="900" y="670" width="22" height="16" fill="#EFE8D6" stroke="#999"/>
+<text x="930" y="684" font-size="15" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">骨</text>
+<text x="1170" y="684" font-size="12" fill="#888" text-anchor="end" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">多保命原創示意圖</text>
+</svg>

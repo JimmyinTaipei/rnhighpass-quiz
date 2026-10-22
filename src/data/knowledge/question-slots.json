@@ -297,6 +297,103 @@
     "limit": 60
   },
   {
+    "qkey": "activity-immobility#isometric-isotonic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_FA_031",
+      "113-1_FA_031",
+      "111-1_FA_048",
+      "110-1_FA_046",
+      "108-2_FA_013",
+      "108-2_FA_047",
+      "107-2_FA_043",
+      "106-2_makeup_FA_048",
+      "106-1_FA_045",
+      "107-2_MS_021",
+      "106-2_makeup_MS_017",
+      "106-1_MS_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "activity-immobility#rom-practice",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_FA_029",
+      "113-2_FA_030",
+      "111-2_FA_047",
+      "110-2_FA_009",
+      "107-1_FA_043",
+      "109-2_FA_043",
+      "108-2_FA_046",
+      "106-2_makeup_FA_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "activity-immobility#cane-walker",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_029",
+      "105-2_FA_044",
+      "115-2_MS_012",
+      "109-2_MS_020",
+      "108-2_MS_015",
+      "114-2_MS_012",
+      "106-2_MS_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "activity-immobility#cast-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_050",
+      "106-2_makeup_OP_079"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "activity-immobility#immobility-effects",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_FA_029",
+      "112-3_FA_027",
+      "110-2_FA_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "activity-immobility#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_FA_031",
+      "107-2_FA_043",
+      "114-2_FA_029",
+      "112-3_FA_029",
+      "113-2_FA_029"
+    ],
+    "limit": 10
+  },
+  {
     "qkey": "asepsis-sterilization#questions",
     "tag": null,
     "adm": null,
@@ -765,6 +862,186 @@
     "limit": 60
   },
   {
+    "qkey": "documentation-orders#purposes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_FA_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#principles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_006",
+      "115-2_FA_005",
+      "107-2_FA_008",
+      "112-1_FA_008",
+      "109-1_FA_020",
+      "111-1_FA_009",
+      "109-1_FA_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#corrections",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_014",
+      "112-2_FA_010",
+      "108-2_FA_021",
+      "113-3_FA_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#report",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_FA_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#methods-compare",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_FA_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#soapier",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_FA_013",
+      "107-2_FA_014",
+      "106-2_makeup_FA_015",
+      "105-1_FA_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#dart",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_FA_014",
+      "108-2_FA_025",
+      "111-2_FA_013",
+      "109-2_FA_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#tpr-sheet",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_FA_006",
+      "109-1_FA_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#other-records",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_FA_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#order-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_027",
+      "106-1_FA_013",
+      "108-1_FA_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#verbal-orders",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_FA_021",
+      "109-2_FA_005",
+      "107-1_FA_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#record-abbreviations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_FA_014",
+      "106-2_makeup_FA_012",
+      "106-1_FA_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "documentation-orders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_FA_009",
+      "109-2_FA_007",
+      "108-1_FA_014",
+      "105-1_FA_014",
+      "110-2_FA_002"
+    ],
+    "limit": 10
+  },
+  {
+    "qkey": "end-of-life-care#other-psych",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_FA_054"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "end-of-life-care#questions",
     "tag": null,
     "adm": null,
@@ -918,7 +1195,7 @@
   },
   {
     "qkey": "end-of-life-care#questions-postmortem-children~2",
-    "tag": "瀕死症狀|瀕死狀態|臨終狀態|瀕死徵象|臨終嘎聲|臨終嘎音|瀕死嘎嘎音|緩和醫療",
+    "tag": "瀕死症狀|瀕死嘎嘎音|緩和醫療",
     "adm": null,
     "drug": null,
     "keyword": null,
@@ -1205,6 +1482,18 @@
     "limit": null
   },
   {
+    "qkey": "infection-control#chain-of-infection",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_FA_070",
+      "105-2_MS_079"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "infection-control#hand-hygiene",
     "tag": null,
     "adm": null,
@@ -1212,6 +1501,17 @@
     "keyword": null,
     "ids": [
       "107-2_FA_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "infection-control#transmission-based-precautions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_FA_003"
     ],
     "limit": null
   },
@@ -1580,6 +1880,646 @@
     "limit": null
   },
   {
+    "qkey": "nursing-concepts-health#health-definitions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_FA_004",
+      "111-2_FA_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#determinants",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#maslow",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_FA_001",
+      "106-2_makeup_FA_037",
+      "105-1_FA_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#illness-stages",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_003",
+      "110-2_FA_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#illness-behavior",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#continuum",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_FA_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#five-levels",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_006",
+      "110-2_FA_013",
+      "114-1_FA_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#functions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_FA_002",
+      "114-2_FA_002",
+      "110-2_FA_018",
+      "107-2_FA_006",
+      "110-1_FA_005",
+      "105-1_FA_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#roles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#philosophy-stages",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#theorists",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_FA_003",
+      "112-1_FA_001",
+      "107-2_FA_003",
+      "106-1_FA_068",
+      "110-1_FA_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#ethics-law",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_FA_019",
+      "108-2_FA_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#profession",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_FA_001",
+      "112-2_FA_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-concepts-health#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_006",
+      "113-3_FA_002",
+      "115-1_FA_003",
+      "110-2_FA_016",
+      "107-2_FA_003"
+    ],
+    "limit": 10
+  },
+  {
+    "qkey": "nursing-process#characteristics",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_013",
+      "105-1_FA_015",
+      "114-2_FA_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#data-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_FA_006",
+      "113-2_FA_009",
+      "112-1_FA_011",
+      "111-1_FA_012",
+      "110-2_FA_019",
+      "110-2_FA_025",
+      "109-2_FA_016",
+      "107-1_FA_012",
+      "106-2_makeup_FA_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#data-sources",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_FA_019",
+      "114-3_FA_005",
+      "105-2_FA_012",
+      "113-1_FA_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#pes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_007",
+      "112-1_FA_012",
+      "110-1_FA_011",
+      "109-2_FA_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#writing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_014",
+      "105-1_FA_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#planning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#priority",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_FA_005",
+      "112-2_FA_012",
+      "112-1_FA_010",
+      "108-2_FA_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#goal-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_FA_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#outcome-criteria",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_FA_008",
+      "110-2_FA_024",
+      "109-2_FA_017",
+      "115-1_FA_009",
+      "106-2_makeup_FA_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#interventions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_FA_013",
+      "106-2_makeup_FA_007",
+      "112-2_FA_014",
+      "108-2_FA_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#implementation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#evaluation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_FA_008",
+      "111-2_FA_014",
+      "108-1_FA_015",
+      "107-2_FA_013",
+      "106-1_FA_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nursing-process#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_FA_006",
+      "109-2_FA_018",
+      "112-1_FA_010",
+      "113-2_FA_008",
+      "114-2_FA_008"
+    ],
+    "limit": 10
+  },
+  {
+    "qkey": "nutrition-assessment-diets#micronutrients",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_FA_031",
+      "113-1_FA_028",
+      "111-2_FA_043",
+      "110-1_FA_049",
+      "109-1_FA_015",
+      "106-2_FA_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nutrition-assessment-diets#special-populations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_002",
+      "113-1_OP_006",
+      "112-3_OP_006",
+      "112-1_OP_007",
+      "107-2_OP_006",
+      "106-1_OP_009",
+      "111-2_OP_037",
+      "105-1_OP_019",
+      "112-2_PC_056",
+      "114-2_PC_049",
+      "110-1_PC_079",
+      "105-1_PC_072",
+      "113-2_FA_031",
+      "112-2_FA_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nutrition-assessment-diets#labs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_PC_036",
+      "115-1_FA_028",
+      "112-1_FA_043",
+      "111-2_FA_044",
+      "111-1_FA_043",
+      "105-2_FA_048",
+      "105-2_FA_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nutrition-assessment-diets#composition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_011",
+      "114-2_FA_030",
+      "113-3_FA_013",
+      "113-1_FA_029",
+      "108-2_FA_048",
+      "107-1_FA_044",
+      "108-1_FA_047",
+      "105-2_FA_029",
+      "105-1_FA_048",
+      "106-2_FA_047",
+      "106-2_makeup_MS_032",
+      "113-1_OP_045",
+      "107-1_MS_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nutrition-assessment-diets#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_FA_043",
+      "115-1_PC_036",
+      "114-2_FA_030",
+      "112-3_OP_006",
+      "113-2_FA_031"
+    ],
+    "limit": 10
+  },
+  {
+    "qkey": "observation-communication#observation-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_FA_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#observation-methods",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_FA_027",
+      "105-2_FA_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#symptoms-signs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_FA_007",
+      "108-2_FA_026",
+      "106-2_FA_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#timing-report",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_FA_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#process-recording",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_FA_012",
+      "106-2_FA_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#therapeutic-communication",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_FA_007",
+      "106-2_makeup_FA_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#models",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_FA_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#barriers",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_007",
+      "112-2_FA_008",
+      "111-2_FA_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#interview",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_FA_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#therapeutic-techniques",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_005",
+      "107-1_FA_010",
+      "106-2_makeup_FA_010",
+      "107-1_FA_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#non-therapeutic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_FA_009",
+      "115-1_FA_005",
+      "113-2_FA_005",
+      "113-1_FA_005",
+      "108-1_FA_012",
+      "105-2_FA_009",
+      "105-1_FA_012",
+      "106-2_FA_008",
+      "108-1_FA_003",
+      "105-1_PC_056",
+      "113-3_OP_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#vs-social",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_007",
+      "109-1_FA_005",
+      "106-2_FA_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#elements",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_FA_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#phases",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_009",
+      "106-1_FA_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "observation-communication#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_FA_010",
+      "106-2_FA_007",
+      "114-1_FA_009",
+      "112-3_FA_005",
+      "106-1_FA_010"
+    ],
+    "limit": 10
+  },
+  {
     "qkey": "occupational-health-nursing#questions",
     "tag": null,
     "adm": null,
@@ -1639,6 +2579,29 @@
       "107-2_PC_076"
     ],
     "limit": 60
+  },
+  {
+    "qkey": "pain-management#assessment-principles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_FA_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pain-management#non-pharmacologic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_007",
+      "110-1_OP_013"
+    ],
+    "limit": null
   },
   {
     "qkey": "pain-management#questions",
@@ -1798,6 +2761,20 @@
   },
   {
     "qkey": "patient-safety-environment#medical-waste",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_PC_048",
+      "105-2_PC_060",
+      "114-1_FA_003",
+      "108-2_PC_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "patient-safety-environment#medical-waste~2",
     "tag": null,
     "adm": null,
     "drug": null,
@@ -2022,6 +2999,70 @@
     "keyword": "(呼吸音|囉音|爆裂音|哮鳴|喘鳴|叩診|語音|呼吸型態|陳施|庫斯|畢歐|喟嘆|脈衝式血氧|支氣管鏡|胸腔穿刺|放液)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "sleep-rest#sleep-stages",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_FA_045",
+      "107-2_FA_049",
+      "105-1_FA_050",
+      "107-1_FA_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sleep-rest#drugs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_FA_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sleep-rest#insomnia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_FA_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sleep-rest#measures",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_FA_045",
+      "108-1_FA_055",
+      "106-2_FA_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "sleep-rest#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_FA_045",
+      "105-1_FA_050",
+      "106-2_FA_050",
+      "110-2_FA_047",
+      "108-1_FA_045"
+    ],
+    "limit": 10
   },
   {
     "qkey": "stem-cell-transplant#questions",
@@ -2937,6 +3978,111 @@
     "limit": null
   },
   {
+    "qkey": "biliary-pancreatic#cholelithiasis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_003",
+      "106-1_MS_014",
+      "105-2_MS_012",
+      "105-1_MS_014",
+      "113-2_MS_009",
+      "115-2_MS_007",
+      "107-1_MS_013",
+      "113-1_MS_009",
+      "111-1_MS_016",
+      "106-2_MS_014",
+      "108-1_MS_013",
+      "107-1_FA_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "biliary-pancreatic#obstructive-jaundice",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_050",
+      "111-2_MS_017",
+      "109-1_MS_012",
+      "105-2_MS_009",
+      "107-1_MS_033",
+      "106-1_FA_031",
+      "112-2_FA_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "biliary-pancreatic#cholecystectomy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_016",
+      "105-1_MS_017",
+      "114-2_MS_006",
+      "113-3_FA_013",
+      "115-1_MS_007",
+      "115-1_FA_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "biliary-pancreatic#gallbladder-cancer",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "biliary-pancreatic#acute-pancreatitis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_006",
+      "114-1_MS_009",
+      "113-3_MS_010",
+      "112-3_MS_011",
+      "110-1_MS_015",
+      "107-2_MS_016",
+      "105-2_MS_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "biliary-pancreatic#chronic-pancreatitis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_010",
+      "106-1_BM_043",
+      "113-3_BM_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "biliary-pancreatic#questions",
+    "tag": "膽結石|膽囊炎|急性膽囊炎|阻塞性黃疸|急性胰臟炎|慢性胰臟炎|膽囊癌",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "bipolar-disorder#defense-mechanisms",
     "tag": null,
     "adm": null,
@@ -3507,7 +4653,8 @@
       "110-2_MS_010",
       "106-1_MS_009",
       "106-1_OP_074",
-      "114-2_PC_036"
+      "114-2_PC_036",
+      "111-2_MS_041"
     ],
     "limit": null
   },
@@ -5205,7 +6352,8 @@
       "115-2_MS_015",
       "112-2_MS_023",
       "111-1_FA_008",
-      "114-1_FA_027"
+      "114-1_FA_027",
+      "109-1_BM_044"
     ],
     "limit": null
   },
@@ -6040,6 +7188,287 @@
     "limit": 10
   },
   {
+    "qkey": "liver-cirrhosis#types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_010",
+      "106-1_MS_013",
+      "112-3_BM_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-cirrhosis#manifestations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_009",
+      "107-2_MS_015",
+      "109-2_BM_037",
+      "113-2_BM_022",
+      "105-1_MS_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-cirrhosis#portal-hypertension",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_044",
+      "115-2_BM_027",
+      "105-1_BM_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-cirrhosis#ascites",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_014",
+      "106-2_MS_015",
+      "110-2_MS_011",
+      "108-2_MS_011",
+      "113-1_MS_006",
+      "113-1_MS_007",
+      "106-1_MS_012",
+      "111-1_MS_010",
+      "112-3_MS_010",
+      "113-3_BM_027",
+      "115-1_FA_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-cirrhosis#varices",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_MS_012",
+      "114-2_MS_009",
+      "109-1_MS_038",
+      "110-1_FA_056"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-cirrhosis#hepatic-encephalopathy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_003",
+      "115-1_MS_009",
+      "107-2_MS_009",
+      "108-1_MS_012",
+      "110-1_MS_011",
+      "114-1_MS_008",
+      "109-1_FA_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-cirrhosis#fatty-liver",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_037",
+      "106-2_BM_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-cirrhosis#questions",
+    "tag": "肝硬化|腹水|食道靜脈曲張|肝性腦病變|門脈高壓|肝衰竭",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "lower-gi-disorders#appendicitis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_055",
+      "109-2_MS_009",
+      "107-2_MS_014",
+      "106-2_makeup_MS_015",
+      "109-1_MS_008",
+      "112-2_OP_074",
+      "109-2_OP_076",
+      "106-2_OP_074",
+      "112-1_FA_020",
+      "112-3_FA_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lower-gi-disorders#peritonitis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_013",
+      "109-2_MS_015",
+      "105-2_MS_015",
+      "115-1_MS_010",
+      "108-2_MS_012",
+      "108-1_FA_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lower-gi-disorders#ibd",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_012",
+      "111-2_MS_009",
+      "107-1_MS_011",
+      "105-2_MS_013",
+      "105-1_MS_011",
+      "107-2_BM_043",
+      "106-2_BM_043",
+      "110-1_BM_037",
+      "105-1_BM_061",
+      "113-2_BM_040",
+      "115-2_BM_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lower-gi-disorders#malabsorption",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_009",
+      "113-2_MS_021",
+      "111-1_OP_073",
+      "113-3_OP_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lower-gi-disorders#obstruction",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_006",
+      "111-1_MS_009",
+      "108-2_MS_010",
+      "106-2_MS_016",
+      "105-2_MS_003",
+      "115-2_MS_006",
+      "107-1_FA_031",
+      "107-2_BM_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lower-gi-disorders#hernia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_010",
+      "111-2_BM_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lower-gi-disorders#diverticular",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_011",
+      "110-2_BM_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lower-gi-disorders#polyps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lower-gi-disorders#hemorrhoids",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_007",
+      "110-2_MS_017",
+      "108-1_MS_016",
+      "108-2_BM_040",
+      "108-1_BM_036",
+      "106-2_makeup_OP_024",
+      "115-2_MS_008",
+      "112-2_FA_034",
+      "110-2_FA_033",
+      "108-1_FA_022",
+      "114-1_FA_017",
+      "115-2_FA_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lower-gi-disorders#anal-fissure-fistula",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_009",
+      "106-2_MS_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lower-gi-disorders#questions",
+    "tag": "闌尾炎|腹膜炎|發炎性腸道疾病|潰瘍性結腸炎|克隆氏症|腸阻塞|疝氣|痔瘡",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "lung-cancer#types",
     "tag": null,
     "adm": null,
@@ -6643,6 +8072,177 @@
       "110-1_OP_076"
     ],
     "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#infant-physiology",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_073",
+      "113-3_OP_019",
+      "109-2_OP_056"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#dehydration",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_073",
+      "110-2_OP_075"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#recurrent-abdominal-pain",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#cleft",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_046",
+      "113-3_OP_026",
+      "113-1_OP_032",
+      "110-2_OP_073",
+      "109-2_OP_072",
+      "107-1_OP_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#gerd",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_049",
+      "108-1_OP_059"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#tef",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_043",
+      "114-2_OP_047",
+      "106-2_OP_075",
+      "111-2_OP_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#pyloric-stenosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_036",
+      "111-2_OP_075",
+      "110-2_OP_074",
+      "107-1_OP_079",
+      "106-2_makeup_OP_076",
+      "105-1_OP_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#hirschsprung",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_046",
+      "113-1_OP_046",
+      "111-1_OP_075",
+      "109-1_OP_079"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#hernia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_077",
+      "107-1_OP_061",
+      "111-2_OP_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#intussusception",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_047",
+      "115-1_OP_045",
+      "112-2_OP_075",
+      "110-1_OP_075",
+      "109-2_OP_074"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#gastroenteritis",
+    "tag": "急性腸胃炎|病毒性腸胃炎|輪狀病毒腸胃炎",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "pediatric-gi#biliary-atresia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_047",
+      "112-1_OP_076",
+      "109-2_OP_075",
+      "111-1_OP_045",
+      "113-1_OP_045",
+      "106-1_OP_072",
+      "112-1_BM_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-gi#questions",
+    "tag": "唇顎裂|食道閉鎖|肥厚性幽門狹窄|先天性巨結腸症|腸套疊|膽道閉鎖",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
   },
   {
     "qkey": "pediatric-neuro#cerebral-palsy",
@@ -7257,6 +8857,91 @@
       "107-2_FA_045"
     ],
     "limit": null
+  },
+  {
+    "qkey": "pressure-injury#risk-factors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_FA_030",
+      "110-2_FA_048",
+      "107-2_FA_046",
+      "107-2_FA_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pressure-injury#sites",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_028",
+      "111-1_FA_046",
+      "115-1_MS_028",
+      "110-1_FA_048",
+      "108-2_FA_042",
+      "110-1_MS_006",
+      "115-2_FA_027",
+      "106-1_FA_046",
+      "106-2_FA_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pressure-injury#braden",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_045",
+      "112-2_FA_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pressure-injury#staging",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pressure-injury#prevention",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_FA_017",
+      "114-3_FA_027",
+      "111-1_FA_047",
+      "107-2_FA_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pressure-injury#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_FA_017",
+      "111-1_FA_047",
+      "114-1_FA_030",
+      "109-2_MS_045",
+      "110-1_FA_048"
+    ],
+    "limit": 10
   },
   {
     "qkey": "primary-immunodeficiency#questions",
@@ -8553,6 +10238,169 @@
       "114-2_BM_044"
     ],
     "limit": null
+  },
+  {
+    "qkey": "upper-gi-disorders#barrett",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_007",
+      "114-1_MS_006",
+      "111-2_MS_013",
+      "111-1_MS_017",
+      "110-1_MS_017",
+      "109-1_MS_016",
+      "107-2_MS_011",
+      "107-1_MS_012",
+      "107-1_MS_052",
+      "105-1_BM_033",
+      "105-2_BM_043",
+      "111-1_BM_044",
+      "113-2_BM_027",
+      "112-2_BM_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "upper-gi-disorders#esophageal-motility",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_013",
+      "108-1_MS_014",
+      "106-2_makeup_MS_013",
+      "110-1_MS_013",
+      "114-1_MS_010",
+      "112-1_MS_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "upper-gi-disorders#esophageal-cancer",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_007",
+      "112-2_MS_016",
+      "111-1_MS_012",
+      "108-1_MS_011",
+      "106-2_MS_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "upper-gi-disorders#corrosive",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_078",
+      "110-1_OP_044",
+      "110-2_OP_056",
+      "115-1_MS_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "upper-gi-disorders#gastritis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_015",
+      "109-2_BM_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "upper-gi-disorders#stress-ulcer",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_009",
+      "110-2_MS_014",
+      "109-2_MS_016",
+      "108-2_MS_013",
+      "107-2_MS_012",
+      "107-1_MS_030",
+      "106-1_MS_015",
+      "105-1_MS_010",
+      "110-1_BM_046",
+      "108-2_MS_041",
+      "112-3_MS_009",
+      "112-2_MS_011",
+      "106-1_MS_010",
+      "105-1_MS_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "upper-gi-disorders#upper-gi-bleeding",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_008",
+      "108-2_MS_009",
+      "111-1_MS_041",
+      "105-2_FA_034",
+      "106-2_FA_033",
+      "107-2_FA_028",
+      "111-2_FA_032",
+      "106-2_FA_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "upper-gi-disorders#gastric-cancer",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_007",
+      "113-2_MS_010",
+      "108-2_BM_045",
+      "107-1_BM_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "upper-gi-disorders#dumping",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_MS_010",
+      "112-2_MS_010",
+      "111-1_MS_011",
+      "110-2_MS_016",
+      "108-1_MS_009",
+      "106-2_makeup_MS_009",
+      "106-1_MS_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "upper-gi-disorders#questions",
+    "tag": "胃食道逆流|消化性潰瘍|上消化道出血|胃癌|食道癌|傾倒症候群",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
   },
   {
     "qkey": "urinary-tract-infection#questions",
@@ -10316,6 +12164,115 @@
     "limit": null
   },
   {
+    "qkey": "gi-drugs#mucosal-protectants",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_MS_009",
+      "112-2_MS_011",
+      "106-1_MS_010",
+      "105-1_MS_015",
+      "109-2_BM_060",
+      "106-1_BM_060",
+      "114-3_BM_038",
+      "108-2_MS_041",
+      "113-2_BM_034",
+      "110-2_BM_060",
+      "110-2_BM_061",
+      "112-2_MS_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-drugs#antiemetics",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_060",
+      "110-2_BM_057",
+      "110-1_BM_060",
+      "106-1_BM_061",
+      "113-3_BM_037",
+      "108-1_BM_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-drugs#laxatives",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_BM_061",
+      "108-2_BM_058",
+      "108-1_BM_062",
+      "105-1_BM_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-drugs#antidiarrheals",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_061",
+      "105-2_BM_058",
+      "112-1_BM_038",
+      "113-2_BM_037",
+      "115-1_BM_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-drugs#liver-drugs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_012",
+      "107-2_MS_009",
+      "110-1_MS_011",
+      "114-1_MS_008",
+      "109-1_MS_038",
+      "112-1_MS_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-drugs#ibd-drugs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-drugs#questions",
+    "tag": null,
+    "adm": null,
+    "drug": [
+      "消化性潰瘍用藥",
+      "止吐劑",
+      "便秘用藥",
+      "止瀉劑",
+      "制酸劑"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "glp1-receptor-agonists#questions",
     "tag": null,
     "adm": null,
@@ -11598,6 +13555,77 @@
     "limit": 4
   },
   {
+    "qkey": "gi-diagnostic-procedures#comparison",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_012",
+      "110-2_MS_013",
+      "111-2_MS_012",
+      "115-2_MS_010",
+      "109-2_MS_013",
+      "111-1_FA_032",
+      "113-3_FA_031",
+      "114-2_FA_030",
+      "114-3_FA_030",
+      "109-1_FA_016",
+      "113-2_FA_013",
+      "110-2_FA_042",
+      "108-2_OP_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-diagnostic-procedures#ercp",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_012",
+      "112-1_MS_010",
+      "115-1_MS_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-diagnostic-procedures#liver-biopsy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_012",
+      "109-1_MS_015",
+      "106-1_MS_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-diagnostic-procedures#paracentesis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-diagnostic-procedures#laparoscopy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_MS_008"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "hba1c#targets",
     "tag": null,
     "adm": null,
@@ -11732,6 +13760,26 @@
       "107-2_PC_018",
       "112-2_PC_004",
       "115-2_PC_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-function#tests",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_MS_006",
+      "109-2_BM_037",
+      "114-3_MS_050",
+      "107-1_MS_033",
+      "106-1_FA_031",
+      "112-2_FA_030",
+      "110-2_MS_036",
+      "111-1_FA_043",
+      "105-2_MS_011",
+      "110-1_MS_015"
     ],
     "limit": null
   },
@@ -13977,6 +16025,199 @@
     "limit": 8
   },
   {
+    "qkey": "gi-anatomy-physiology#layers",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_010",
+      "110-2_BM_006",
+      "110-2_BM_014",
+      "109-2_BM_006",
+      "107-1_BM_032",
+      "108-2_BM_013",
+      "106-2_BM_011",
+      "109-1_BM_008",
+      "105-1_BM_013",
+      "106-2_makeup_BM_013",
+      "111-1_BM_013",
+      "113-1_BM_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#motility",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_BM_031",
+      "105-1_BM_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#peritoneum",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_BM_008",
+      "111-2_BM_004",
+      "110-1_BM_015",
+      "108-2_BM_014",
+      "106-2_BM_013",
+      "114-1_BM_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#teeth-tongue",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_MS_010",
+      "114-2_BM_020",
+      "114-1_BM_018",
+      "109-2_BM_014",
+      "114-2_BM_008",
+      "107-2_BM_014",
+      "107-2_BM_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#swallowing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_032",
+      "108-1_BM_012",
+      "105-1_BM_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#gastric-glands",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_BM_008",
+      "111-2_BM_001",
+      "110-1_BM_006",
+      "106-2_BM_012",
+      "106-2_makeup_BM_012",
+      "113-3_BM_009",
+      "106-1_BM_031",
+      "114-1_BM_017",
+      "106-2_MS_013",
+      "107-1_BM_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#gastric-secretion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_017",
+      "109-2_BM_031",
+      "108-1_BM_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#absorptive-surface",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_018",
+      "113-3_BM_010",
+      "112-2_BM_008",
+      "111-1_BM_011",
+      "110-1_BM_010",
+      "107-2_BM_012",
+      "105-2_BM_012",
+      "105-2_BM_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#digestion-absorption",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_BM_020",
+      "110-2_BM_031",
+      "109-1_BM_029",
+      "109-1_BM_030",
+      "108-2_BM_031",
+      "108-1_BM_031",
+      "106-2_makeup_BM_031",
+      "110-2_BM_032",
+      "107-2_BM_031",
+      "110-1_BM_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#gi-hormones",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_BM_015",
+      "106-2_makeup_BM_032",
+      "106-1_BM_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#large-intestine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_BM_015",
+      "110-1_BM_014",
+      "106-1_BM_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gi-anatomy-physiology#blood-supply",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_BM_007",
+      "107-1_BM_012",
+      "114-3_BM_009",
+      "108-2_BM_005",
+      "109-2_BM_007",
+      "110-2_BM_004"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "glucose-homeostasis#islets",
     "tag": null,
     "adm": null,
@@ -14487,6 +16728,103 @@
       "111-1_OP_008",
       "105-2_OP_025",
       "108-1_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-biliary-pancreas#liver-anatomy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_014",
+      "114-2_BM_009",
+      "113-2_BM_007",
+      "112-3_BM_007",
+      "111-1_BM_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-biliary-pancreas#blood-supply",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_BM_015",
+      "112-2_BM_009",
+      "108-1_BM_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-biliary-pancreas#lobule",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_008",
+      "108-2_BM_007",
+      "106-1_BM_013",
+      "105-1_BM_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-biliary-pancreas#functions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_MS_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-biliary-pancreas#biliary-tree",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_020",
+      "109-2_BM_013",
+      "105-2_BM_032",
+      "105-1_BM_032",
+      "113-1_BM_019",
+      "112-2_BM_001",
+      "112-1_BM_010",
+      "109-1_BM_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-biliary-pancreas#bilirubin",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "liver-biliary-pancreas#pancreas",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_009",
+      "109-1_BM_013",
+      "106-1_MS_017",
+      "105-1_MS_018",
+      "114-1_BM_010"
     ],
     "limit": null
   },
@@ -15620,6 +17958,132 @@
     "limit": 8
   },
   {
+    "qkey": "admission-discharge-specimens#admission-psychology",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_FA_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "admission-discharge-specimens#admission-duties",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_033",
+      "112-1_FA_053",
+      "110-2_FA_051",
+      "106-1_FA_051",
+      "105-1_FA_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "admission-discharge-specimens#discharge-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "admission-discharge-specimens#discharge-planning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_FA_032",
+      "106-2_makeup_FA_056",
+      "106-1_FA_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "admission-discharge-specimens#terminal-disinfection",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_FA_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "admission-discharge-specimens#specimen-principles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "admission-discharge-specimens#cbc-values",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_035",
+      "105-1_FA_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "admission-discharge-specimens#venipuncture-steps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_034",
+      "114-1_FA_015",
+      "114-1_FA_035",
+      "110-2_FA_053",
+      "108-1_FA_053"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "admission-discharge-specimens#hemolysis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_051",
+      "105-2_FA_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "admission-discharge-specimens#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_033",
+      "114-2_FA_032",
+      "112-2_FA_052",
+      "115-2_FA_034",
+      "112-2_FA_051"
+    ],
+    "limit": 10
+  },
+  {
     "qkey": "airway-clearance#aerosol",
     "tag": null,
     "adm": null,
@@ -15672,6 +18136,85 @@
     "keyword": "(抽痰|抽吸|姿位引流|叩擊|扣擊|震顫|噴霧|誘發性肺量計|胸腔物理治療)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "bandaging#materials",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_050",
+      "110-2_FA_010",
+      "111-1_FA_050",
+      "114-3_FA_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bandaging#before-during-after",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_031",
+      "112-1_FA_049",
+      "111-2_FA_049",
+      "111-1_FA_049",
+      "110-1_FA_043",
+      "110-1_FA_044",
+      "108-2_FA_049",
+      "108-1_FA_048",
+      "106-1_FA_047",
+      "106-2_makeup_FA_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bandaging#techniques",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_050",
+      "111-2_FA_050",
+      "105-2_FA_046",
+      "110-2_MS_077",
+      "114-1_FA_028",
+      "105-1_FA_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bandaging#arm-sling",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_FA_027",
+      "113-1_FA_030",
+      "105-1_FA_046",
+      "106-1_FA_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bandaging#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_031",
+      "110-1_FA_044",
+      "112-1_FA_050",
+      "114-1_FA_028",
+      "113-2_FA_027"
+    ],
+    "limit": 10
   },
   {
     "qkey": "body-temperature#heat-loss",
@@ -15772,6 +18315,634 @@
     "drug": null,
     "keyword": null,
     "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "bowel-elimination#motility",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_019",
+      "106-2_makeup_FA_051",
+      "109-1_FA_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#defecation-reflex",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_035",
+      "107-2_FA_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#history-exam",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_023",
+      "107-2_FA_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#stool-characteristics",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_031",
+      "111-1_FA_031",
+      "108-1_MS_013",
+      "107-2_FA_028",
+      "106-2_FA_033",
+      "105-2_FA_034",
+      "106-2_FA_039",
+      "111-2_FA_032",
+      "112-2_FA_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#diagnostic-tests",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_FA_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#constipation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_032",
+      "107-2_FA_032",
+      "106-2_FA_031",
+      "105-2_MS_010",
+      "108-1_FA_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#fecal-impaction",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_FA_032",
+      "109-1_FA_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#bowel-incontinence",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_MS_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#enema-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_029",
+      "107-2_FA_034",
+      "114-1_FA_020",
+      "105-1_FA_038",
+      "105-1_FA_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#enema-numbers",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_FA_029",
+      "110-1_FA_036",
+      "107-1_FA_034",
+      "106-1_FA_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#enema-position",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_FA_031",
+      "105-1_FA_037",
+      "108-1_FA_036",
+      "112-3_FA_017",
+      "110-2_FA_043",
+      "108-1_FA_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#large-volume-steps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_FA_032",
+      "105-2_FA_035",
+      "106-2_makeup_FA_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#small-volume",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_FA_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#pediatric-enema",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_073",
+      "114-1_OP_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#colonic-irrigation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_FA_020",
+      "105-2_FA_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bowel-elimination#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_FA_032",
+      "109-1_FA_035",
+      "111-2_FA_029",
+      "106-2_FA_032",
+      "108-1_MS_013"
+    ],
+    "limit": 10
+  },
+  {
+    "qkey": "enteral-parenteral-nutrition#routes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_FA_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "enteral-parenteral-nutrition#ng-insertion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_FA_046",
+      "107-2_FA_048",
+      "113-1_FA_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "enteral-parenteral-nutrition#bolus-steps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_FA_047",
+      "110-2_FA_050",
+      "112-1_FA_045",
+      "107-1_FA_049",
+      "105-1_FA_047",
+      "110-1_FA_047",
+      "113-3_FA_029",
+      "111-2_FA_045",
+      "109-2_FA_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "enteral-parenteral-nutrition#complications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_045",
+      "109-1_FA_054",
+      "111-1_FA_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "enteral-parenteral-nutrition#ng-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_031",
+      "114-2_FA_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "enteral-parenteral-nutrition#pediatric",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_051",
+      "105-2_OP_071",
+      "108-1_OP_078",
+      "113-2_OP_045",
+      "106-1_OP_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "enteral-parenteral-nutrition#parenteral-nutrition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_030",
+      "111-1_FA_044",
+      "110-1_FA_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "enteral-parenteral-nutrition#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_FA_050",
+      "112-2_FA_045",
+      "107-2_FA_048",
+      "115-2_FA_030",
+      "106-1_OP_072"
+    ],
+    "limit": 10
+  },
+  {
+    "qkey": "heat-cold-therapy#energy-transfer",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_026",
+      "110-1_FA_030",
+      "105-1_FA_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "heat-cold-therapy#local-effects",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_014",
+      "114-3_FA_013",
+      "110-1_FA_023",
+      "109-2_FA_028",
+      "108-1_FA_026",
+      "110-2_FA_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "heat-cold-therapy#secondary-effects",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_FA_014",
+      "111-1_FA_028",
+      "109-2_FA_026",
+      "106-2_FA_022",
+      "106-1_FA_023",
+      "109-2_FA_025",
+      "106-2_FA_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "heat-cold-therapy#factors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_FA_014",
+      "108-1_FA_029",
+      "107-2_FA_023",
+      "106-1_FA_027",
+      "106-2_FA_025",
+      "105-1_FA_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "heat-cold-therapy#sprain",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_015",
+      "107-1_FA_020",
+      "110-1_FA_029",
+      "114-2_FA_016",
+      "106-2_FA_027",
+      "105-1_FA_029",
+      "106-2_MS_018",
+      "107-2_FA_024",
+      "111-2_FA_026",
+      "115-2_FA_020",
+      "110-2_FA_033",
+      "105-2_FA_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "heat-cold-therapy#cold-methods",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_FA_018",
+      "111-1_FA_027",
+      "113-1_FA_016",
+      "106-2_makeup_FA_023",
+      "111-2_FA_028",
+      "112-2_FA_028",
+      "106-2_makeup_FA_029",
+      "107-1_FA_024",
+      "113-1_FA_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "heat-cold-therapy#heat-methods",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_FA_002",
+      "109-2_FA_008",
+      "107-1_FA_023",
+      "110-1_FA_025",
+      "115-2_FA_014",
+      "108-1_FA_028",
+      "114-2_FA_006",
+      "111-1_FA_026",
+      "105-2_FA_027",
+      "105-1_OP_028",
+      "113-3_FA_018",
+      "108-2_FA_003",
+      "108-1_FA_022",
+      "106-2_FA_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "heat-cold-therapy#precautions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_027",
+      "113-1_FA_015",
+      "108-2_FA_006",
+      "110-2_FA_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "heat-cold-therapy#complications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_FA_021",
+      "106-2_makeup_FA_028",
+      "113-2_FA_014",
+      "110-2_OP_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "heat-cold-therapy#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_FA_014",
+      "106-2_makeup_FA_029",
+      "109-2_FA_008",
+      "114-2_FA_016",
+      "108-1_FA_029"
+    ],
+    "limit": 10
+  },
+  {
+    "qkey": "hygiene-comfort-care#oral-solutions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_022",
+      "112-1_FA_034",
+      "107-1_FA_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hygiene-comfort-care#special-oral-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_FA_034",
+      "106-2_makeup_FA_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hygiene-comfort-care#dentures",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_020",
+      "113-1_FA_022",
+      "111-2_MS_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hygiene-comfort-care#dressing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_FA_020",
+      "112-3_FA_021",
+      "110-1_FA_027",
+      "109-2_FA_034",
+      "108-1_FA_035",
+      "105-1_FA_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hygiene-comfort-care#bed-bath",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_FA_036",
+      "109-1_FA_033",
+      "107-1_FA_030",
+      "109-2_FA_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hygiene-comfort-care#adhesive",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hygiene-comfort-care#back-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_FA_033",
+      "110-2_FA_041",
+      "110-1_FA_033",
+      "109-1_FA_012",
+      "105-2_FA_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hygiene-comfort-care#nail-foot-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_FA_022",
+      "106-2_makeup_FA_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hygiene-comfort-care#perineal-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_FA_035",
+      "107-2_FA_030",
+      "106-1_FA_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hygiene-comfort-care#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_FA_033",
+      "112-1_FA_034",
+      "110-1_FA_027",
+      "107-2_FA_030",
+      "115-2_FA_022"
+    ],
     "limit": 10
   },
   {
@@ -16321,6 +19492,98 @@
     "limit": 8
   },
   {
+    "qkey": "positioning-body-mechanics#turning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_019",
+      "113-3_FA_023",
+      "113-2_FA_023",
+      "114-2_FA_019",
+      "111-1_FA_036",
+      "107-1_FA_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "positioning-body-mechanics#general-positions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_028",
+      "108-2_FA_039",
+      "114-1_FA_019",
+      "111-2_FA_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "positioning-body-mechanics#exam-positions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_FA_019",
+      "112-2_FA_034",
+      "111-1_FA_035",
+      "107-2_FA_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "positioning-body-mechanics#support-devices",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_FA_008",
+      "112-2_FA_036",
+      "112-1_FA_036",
+      "111-2_FA_036",
+      "107-1_FA_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "positioning-body-mechanics#body-mechanics",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_031",
+      "112-3_FA_020",
+      "112-1_FA_033",
+      "111-1_FA_003",
+      "109-2_FA_035",
+      "107-1_FA_045",
+      "106-2_makeup_FA_004",
+      "106-1_FA_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "positioning-body-mechanics#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_019",
+      "113-2_FA_023",
+      "112-2_FA_036",
+      "114-3_FA_019",
+      "107-1_FA_046"
+    ],
+    "limit": 10
+  },
+  {
     "qkey": "pulse-blood-pressure#abnormal-pulse",
     "tag": null,
     "adm": null,
@@ -16440,6 +19703,160 @@
     "drug": null,
     "keyword": "(脈搏|心尖脈|橈動脈|足背動脈|血壓|壓脈帶|柯氏音|聽診隙|平均動脈壓|生命徵象)",
     "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "urinary-elimination#exam-urine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_030",
+      "106-1_FA_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#retention-causes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_FA_013",
+      "110-1_FA_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#postpartum-retention",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#stimulate-voiding",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_FA_021",
+      "108-1_FA_031",
+      "106-1_FA_030",
+      "108-2_FA_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#incontinence",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_FA_034",
+      "108-1_FA_032",
+      "114-3_FA_020",
+      "109-1_FA_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#kegel",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_FA_035",
+      "114-2_OP_014",
+      "112-3_OP_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#catheter-indications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_FA_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#catheter-selection",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_022",
+      "113-1_FA_021",
+      "110-2_FA_004",
+      "106-2_makeup_FA_040",
+      "106-2_makeup_FA_039",
+      "112-1_FA_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#female-steps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_FA_011",
+      "109-2_FA_038",
+      "108-2_FA_004",
+      "106-2_FA_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#indwelling-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_FA_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#bladder-irrigation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_FA_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "urinary-elimination#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_FA_037",
+      "106-1_FA_030",
+      "114-2_FA_011",
+      "108-2_FA_004",
+      "115-1_FA_022"
+    ],
     "limit": 10
   }
 ]

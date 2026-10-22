@@ -243,7 +243,7 @@ references:
 ### 佩普洛：護病關係 {#peplau}
 
 1. 把沙利文的理論帶進護理，建立**精神科護理的第一個系統性理論**，強調護理是與病人「**一起做**」，不是「對病人做」
-2. 護病關係四階段：**介紹前期 → 介紹期(認識期) → 工作期 → 結束期**，各階段會重疊(詳見 [[schizophrenia#therapeutic-relationship]])
+2. 護病關係四階段：**介紹前期 → 介紹期(認識期) → 工作期 → 結束期**，各階段會重疊(詳見 [[schizophrenia#therapeutic-relationship]]；基本護理的各期重點與溝通技巧見 [[observation-communication#phases]])
 3. 護理師的角色：陌生人、資源提供者、教導者、領導者、替代者、諮商者
 4. 佩普洛也依**知覺範圍**把焦慮分成輕、中、重、恐慌四級，見 [[anxiety-disorders#peplau-levels]]
 

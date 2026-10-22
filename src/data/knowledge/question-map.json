@@ -818,6 +818,24 @@
       "105-1_FA_036"
     ]
   },
+  "activity-immobility#isometric-isotonic": {
+    "auto": []
+  },
+  "activity-immobility#rom-practice": {
+    "auto": []
+  },
+  "activity-immobility#cane-walker": {
+    "auto": []
+  },
+  "activity-immobility#cast-care": {
+    "auto": []
+  },
+  "activity-immobility#immobility-effects": {
+    "auto": []
+  },
+  "activity-immobility#questions": {
+    "auto": []
+  },
   "asepsis-sterilization#questions": {
     "auto": []
   },
@@ -878,6 +896,48 @@
   "community-nursing-process#questions": {
     "auto": []
   },
+  "documentation-orders#purposes": {
+    "auto": []
+  },
+  "documentation-orders#principles": {
+    "auto": []
+  },
+  "documentation-orders#corrections": {
+    "auto": []
+  },
+  "documentation-orders#report": {
+    "auto": []
+  },
+  "documentation-orders#methods-compare": {
+    "auto": []
+  },
+  "documentation-orders#soapier": {
+    "auto": []
+  },
+  "documentation-orders#dart": {
+    "auto": []
+  },
+  "documentation-orders#tpr-sheet": {
+    "auto": []
+  },
+  "documentation-orders#other-records": {
+    "auto": []
+  },
+  "documentation-orders#order-types": {
+    "auto": []
+  },
+  "documentation-orders#verbal-orders": {
+    "auto": []
+  },
+  "documentation-orders#record-abbreviations": {
+    "auto": []
+  },
+  "documentation-orders#questions": {
+    "auto": []
+  },
+  "end-of-life-care#other-psych": {
+    "auto": []
+  },
   "end-of-life-care#questions": {
     "auto": []
   },
@@ -893,12 +953,12 @@
       "113-1_FA_035",
       "112-1_OP_058",
       "111-1_OP_053",
+      "110-2_MS_040",
       "110-1_FA_054",
       "109-2_FA_056",
       "109-2_FA_055",
       "109-1_OP_046",
-      "108-2_FA_056",
-      "108-1_OP_066"
+      "109-1_FA_051"
     ]
   },
   "family-violence#questions": {
@@ -922,7 +982,13 @@
   "individual-cognitive-behavioral-therapy#questions": {
     "auto": []
   },
+  "infection-control#chain-of-infection": {
+    "auto": []
+  },
   "infection-control#hand-hygiene": {
+    "auto": []
+  },
+  "infection-control#transmission-based-precautions": {
     "auto": []
   },
   "infection-control#questions": {
@@ -979,7 +1045,154 @@
   "notifiable-diseases#questions": {
     "auto": []
   },
+  "nursing-concepts-health#health-definitions": {
+    "auto": []
+  },
+  "nursing-concepts-health#determinants": {
+    "auto": []
+  },
+  "nursing-concepts-health#maslow": {
+    "auto": []
+  },
+  "nursing-concepts-health#illness-stages": {
+    "auto": []
+  },
+  "nursing-concepts-health#illness-behavior": {
+    "auto": []
+  },
+  "nursing-concepts-health#continuum": {
+    "auto": []
+  },
+  "nursing-concepts-health#five-levels": {
+    "auto": []
+  },
+  "nursing-concepts-health#functions": {
+    "auto": []
+  },
+  "nursing-concepts-health#roles": {
+    "auto": []
+  },
+  "nursing-concepts-health#philosophy-stages": {
+    "auto": []
+  },
+  "nursing-concepts-health#theorists": {
+    "auto": []
+  },
+  "nursing-concepts-health#ethics-law": {
+    "auto": []
+  },
+  "nursing-concepts-health#profession": {
+    "auto": []
+  },
+  "nursing-concepts-health#questions": {
+    "auto": []
+  },
+  "nursing-process#characteristics": {
+    "auto": []
+  },
+  "nursing-process#data-types": {
+    "auto": []
+  },
+  "nursing-process#data-sources": {
+    "auto": []
+  },
+  "nursing-process#pes": {
+    "auto": []
+  },
+  "nursing-process#writing": {
+    "auto": []
+  },
+  "nursing-process#planning": {
+    "auto": []
+  },
+  "nursing-process#priority": {
+    "auto": []
+  },
+  "nursing-process#goal-types": {
+    "auto": []
+  },
+  "nursing-process#outcome-criteria": {
+    "auto": []
+  },
+  "nursing-process#interventions": {
+    "auto": []
+  },
+  "nursing-process#implementation": {
+    "auto": []
+  },
+  "nursing-process#evaluation": {
+    "auto": []
+  },
+  "nursing-process#questions": {
+    "auto": []
+  },
+  "nutrition-assessment-diets#micronutrients": {
+    "auto": []
+  },
+  "nutrition-assessment-diets#special-populations": {
+    "auto": []
+  },
+  "nutrition-assessment-diets#labs": {
+    "auto": []
+  },
+  "nutrition-assessment-diets#composition": {
+    "auto": []
+  },
+  "nutrition-assessment-diets#questions": {
+    "auto": []
+  },
+  "observation-communication#observation-types": {
+    "auto": []
+  },
+  "observation-communication#observation-methods": {
+    "auto": []
+  },
+  "observation-communication#symptoms-signs": {
+    "auto": []
+  },
+  "observation-communication#timing-report": {
+    "auto": []
+  },
+  "observation-communication#process-recording": {
+    "auto": []
+  },
+  "observation-communication#therapeutic-communication": {
+    "auto": []
+  },
+  "observation-communication#models": {
+    "auto": []
+  },
+  "observation-communication#barriers": {
+    "auto": []
+  },
+  "observation-communication#interview": {
+    "auto": []
+  },
+  "observation-communication#therapeutic-techniques": {
+    "auto": []
+  },
+  "observation-communication#non-therapeutic": {
+    "auto": []
+  },
+  "observation-communication#vs-social": {
+    "auto": []
+  },
+  "observation-communication#elements": {
+    "auto": []
+  },
+  "observation-communication#phases": {
+    "auto": []
+  },
+  "observation-communication#questions": {
+    "auto": []
+  },
   "occupational-health-nursing#questions": {
+    "auto": []
+  },
+  "pain-management#assessment-principles": {
+    "auto": []
+  },
+  "pain-management#non-pharmacologic": {
     "auto": []
   },
   "pain-management#questions": {
@@ -1021,6 +1234,9 @@
     "auto": []
   },
   "patient-safety-environment#medical-waste": {
+    "auto": []
+  },
+  "patient-safety-environment#medical-waste~2": {
     "auto": []
   },
   "patient-safety-environment#patient-unit": {
@@ -1084,6 +1300,21 @@
       "114-3_MS_032",
       "114-3_FA_025"
     ]
+  },
+  "sleep-rest#sleep-stages": {
+    "auto": []
+  },
+  "sleep-rest#drugs": {
+    "auto": []
+  },
+  "sleep-rest#insomnia": {
+    "auto": []
+  },
+  "sleep-rest#measures": {
+    "auto": []
+  },
+  "sleep-rest#questions": {
+    "auto": []
   },
   "stem-cell-transplant#questions": {
     "auto": []
@@ -2903,6 +3134,24 @@
   "pneumonia#questions": {
     "auto": []
   },
+  "pressure-injury#risk-factors": {
+    "auto": []
+  },
+  "pressure-injury#sites": {
+    "auto": []
+  },
+  "pressure-injury#braden": {
+    "auto": []
+  },
+  "pressure-injury#staging": {
+    "auto": []
+  },
+  "pressure-injury#prevention": {
+    "auto": []
+  },
+  "pressure-injury#questions": {
+    "auto": []
+  },
   "primary-immunodeficiency#questions": {
     "auto": []
   },
@@ -3158,6 +3407,47 @@
   },
   "tuberculosis#questions": {
     "auto": []
+  },
+  "upper-gi-disorders#barrett": {
+    "auto": []
+  },
+  "upper-gi-disorders#esophageal-motility": {
+    "auto": []
+  },
+  "upper-gi-disorders#esophageal-cancer": {
+    "auto": []
+  },
+  "upper-gi-disorders#corrosive": {
+    "auto": []
+  },
+  "upper-gi-disorders#gastritis": {
+    "auto": []
+  },
+  "upper-gi-disorders#stress-ulcer": {
+    "auto": []
+  },
+  "upper-gi-disorders#upper-gi-bleeding": {
+    "auto": []
+  },
+  "upper-gi-disorders#gastric-cancer": {
+    "auto": []
+  },
+  "upper-gi-disorders#dumping": {
+    "auto": []
+  },
+  "upper-gi-disorders#questions": {
+    "auto": [
+      "115-2_MS_009",
+      "115-2_BM_035",
+      "115-1_FA_034",
+      "114-3_MS_007",
+      "114-3_BM_038",
+      "114-2_MS_007",
+      "114-1_MS_026",
+      "113-2_MS_007",
+      "113-2_BM_034",
+      "113-2_BM_027"
+    ]
   },
   "urinary-tract-infection#questions": {
     "auto": []
@@ -3686,6 +3976,38 @@
   "fluoroquinolones-sulfonamides#questions": {
     "auto": []
   },
+  "gi-drugs#mucosal-protectants": {
+    "auto": []
+  },
+  "gi-drugs#antiemetics": {
+    "auto": []
+  },
+  "gi-drugs#laxatives": {
+    "auto": []
+  },
+  "gi-drugs#antidiarrheals": {
+    "auto": []
+  },
+  "gi-drugs#liver-drugs": {
+    "auto": []
+  },
+  "gi-drugs#ibd-drugs": {
+    "auto": []
+  },
+  "gi-drugs#questions": {
+    "auto": [
+      "115-2_BM_035",
+      "114-3_BM_038",
+      "113-3_BM_037",
+      "113-2_BM_037",
+      "113-2_BM_034",
+      "112-3_MS_009",
+      "112-3_BM_038",
+      "112-2_MS_059",
+      "112-2_MS_015",
+      "112-2_MS_011"
+    ]
+  },
   "glp1-receptor-agonists#questions": {
     "auto": [
       "112-2_BM_020",
@@ -3928,8 +4250,8 @@
       "113-2_FA_019",
       "113-1_MS_009",
       "112-3_OP_031",
-      "111-2_OP_049",
-      "111-2_MS_036"
+      "112-2_OP_018",
+      "111-2_OP_049"
     ]
   },
   "pituitary-hormones#growth-hormone": {
@@ -4923,6 +5245,42 @@
       "106-2_makeup_BM_037"
     ]
   },
+  "gi-anatomy-physiology#layers": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#motility": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#peritoneum": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#teeth-tongue": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#swallowing": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#gastric-glands": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#gastric-secretion": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#absorptive-surface": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#digestion-absorption": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#gi-hormones": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#large-intestine": {
+    "auto": []
+  },
+  "gi-anatomy-physiology#blood-supply": {
+    "auto": []
+  },
   "glucose-homeostasis#islets": {
     "auto": []
   },
@@ -5042,6 +5400,27 @@
     "auto": []
   },
   "kidney-urinary-physiology#special-populations": {
+    "auto": []
+  },
+  "liver-biliary-pancreas#liver-anatomy": {
+    "auto": []
+  },
+  "liver-biliary-pancreas#blood-supply": {
+    "auto": []
+  },
+  "liver-biliary-pancreas#lobule": {
+    "auto": []
+  },
+  "liver-biliary-pancreas#functions": {
+    "auto": []
+  },
+  "liver-biliary-pancreas#biliary-tree": {
+    "auto": []
+  },
+  "liver-biliary-pancreas#bilirubin": {
+    "auto": []
+  },
+  "liver-biliary-pancreas#pancreas": {
     "auto": []
   },
   "microbial-pathogenesis#questions": {
@@ -5347,6 +5726,36 @@
       "113-2_BM_009"
     ]
   },
+  "admission-discharge-specimens#admission-psychology": {
+    "auto": []
+  },
+  "admission-discharge-specimens#admission-duties": {
+    "auto": []
+  },
+  "admission-discharge-specimens#discharge-types": {
+    "auto": []
+  },
+  "admission-discharge-specimens#discharge-planning": {
+    "auto": []
+  },
+  "admission-discharge-specimens#terminal-disinfection": {
+    "auto": []
+  },
+  "admission-discharge-specimens#specimen-principles": {
+    "auto": []
+  },
+  "admission-discharge-specimens#cbc-values": {
+    "auto": []
+  },
+  "admission-discharge-specimens#venipuncture-steps": {
+    "auto": []
+  },
+  "admission-discharge-specimens#hemolysis": {
+    "auto": []
+  },
+  "admission-discharge-specimens#questions": {
+    "auto": []
+  },
   "airway-clearance#aerosol": {
     "auto": []
   },
@@ -5367,6 +5776,21 @@
       "114-3_OP_035",
       "114-3_MS_048"
     ]
+  },
+  "bandaging#materials": {
+    "auto": []
+  },
+  "bandaging#before-during-after": {
+    "auto": []
+  },
+  "bandaging#techniques": {
+    "auto": []
+  },
+  "bandaging#arm-sling": {
+    "auto": []
+  },
+  "bandaging#questions": {
+    "auto": []
   },
   "body-temperature#heat-loss": {
     "auto": []
@@ -5399,6 +5823,138 @@
       "113-3_FA_017",
       "113-2_OP_030"
     ]
+  },
+  "bowel-elimination#motility": {
+    "auto": []
+  },
+  "bowel-elimination#defecation-reflex": {
+    "auto": []
+  },
+  "bowel-elimination#history-exam": {
+    "auto": []
+  },
+  "bowel-elimination#stool-characteristics": {
+    "auto": []
+  },
+  "bowel-elimination#diagnostic-tests": {
+    "auto": []
+  },
+  "bowel-elimination#constipation": {
+    "auto": []
+  },
+  "bowel-elimination#fecal-impaction": {
+    "auto": []
+  },
+  "bowel-elimination#bowel-incontinence": {
+    "auto": []
+  },
+  "bowel-elimination#enema-types": {
+    "auto": []
+  },
+  "bowel-elimination#enema-numbers": {
+    "auto": []
+  },
+  "bowel-elimination#enema-position": {
+    "auto": []
+  },
+  "bowel-elimination#large-volume-steps": {
+    "auto": []
+  },
+  "bowel-elimination#small-volume": {
+    "auto": []
+  },
+  "bowel-elimination#pediatric-enema": {
+    "auto": []
+  },
+  "bowel-elimination#colonic-irrigation": {
+    "auto": []
+  },
+  "bowel-elimination#questions": {
+    "auto": []
+  },
+  "enteral-parenteral-nutrition#routes": {
+    "auto": []
+  },
+  "enteral-parenteral-nutrition#ng-insertion": {
+    "auto": []
+  },
+  "enteral-parenteral-nutrition#bolus-steps": {
+    "auto": []
+  },
+  "enteral-parenteral-nutrition#complications": {
+    "auto": []
+  },
+  "enteral-parenteral-nutrition#ng-care": {
+    "auto": []
+  },
+  "enteral-parenteral-nutrition#pediatric": {
+    "auto": []
+  },
+  "enteral-parenteral-nutrition#parenteral-nutrition": {
+    "auto": []
+  },
+  "enteral-parenteral-nutrition#questions": {
+    "auto": []
+  },
+  "heat-cold-therapy#energy-transfer": {
+    "auto": []
+  },
+  "heat-cold-therapy#local-effects": {
+    "auto": []
+  },
+  "heat-cold-therapy#secondary-effects": {
+    "auto": []
+  },
+  "heat-cold-therapy#factors": {
+    "auto": []
+  },
+  "heat-cold-therapy#sprain": {
+    "auto": []
+  },
+  "heat-cold-therapy#cold-methods": {
+    "auto": []
+  },
+  "heat-cold-therapy#heat-methods": {
+    "auto": []
+  },
+  "heat-cold-therapy#precautions": {
+    "auto": []
+  },
+  "heat-cold-therapy#complications": {
+    "auto": []
+  },
+  "heat-cold-therapy#questions": {
+    "auto": []
+  },
+  "hygiene-comfort-care#oral-solutions": {
+    "auto": []
+  },
+  "hygiene-comfort-care#special-oral-care": {
+    "auto": []
+  },
+  "hygiene-comfort-care#dentures": {
+    "auto": []
+  },
+  "hygiene-comfort-care#dressing": {
+    "auto": []
+  },
+  "hygiene-comfort-care#bed-bath": {
+    "auto": []
+  },
+  "hygiene-comfort-care#adhesive": {
+    "auto": []
+  },
+  "hygiene-comfort-care#back-care": {
+    "auto": []
+  },
+  "hygiene-comfort-care#nail-foot-care": {
+    "auto": []
+  },
+  "hygiene-comfort-care#perineal-care": {
+    "auto": []
+  },
+  "hygiene-comfort-care#questions": {
+    "auto": []
   },
   "injections#drawing-up": {
     "auto": []
@@ -5561,6 +6117,24 @@
       "112-2_OP_062"
     ]
   },
+  "positioning-body-mechanics#turning": {
+    "auto": []
+  },
+  "positioning-body-mechanics#general-positions": {
+    "auto": []
+  },
+  "positioning-body-mechanics#exam-positions": {
+    "auto": []
+  },
+  "positioning-body-mechanics#support-devices": {
+    "auto": []
+  },
+  "positioning-body-mechanics#body-mechanics": {
+    "auto": []
+  },
+  "positioning-body-mechanics#questions": {
+    "auto": []
+  },
   "pulse-blood-pressure#abnormal-pulse": {
     "auto": []
   },
@@ -5595,5 +6169,41 @@
       "115-2_MS_006",
       "115-2_FA_028"
     ]
+  },
+  "urinary-elimination#exam-urine": {
+    "auto": []
+  },
+  "urinary-elimination#retention-causes": {
+    "auto": []
+  },
+  "urinary-elimination#postpartum-retention": {
+    "auto": []
+  },
+  "urinary-elimination#stimulate-voiding": {
+    "auto": []
+  },
+  "urinary-elimination#incontinence": {
+    "auto": []
+  },
+  "urinary-elimination#kegel": {
+    "auto": []
+  },
+  "urinary-elimination#catheter-indications": {
+    "auto": []
+  },
+  "urinary-elimination#catheter-selection": {
+    "auto": []
+  },
+  "urinary-elimination#female-steps": {
+    "auto": []
+  },
+  "urinary-elimination#indwelling-care": {
+    "auto": []
+  },
+  "urinary-elimination#bladder-irrigation": {
+    "auto": []
+  },
+  "urinary-elimination#questions": {
+    "auto": []
   }
 }

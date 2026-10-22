@@ -102,7 +102,7 @@ references:
 4. 肝臟淋巴液生成過多，超過淋巴管負荷
 
 - 和**淋巴管阻塞**、**膽紅素**(那是黃疸)沒有直接關係
-- 腹水病人的護理與穿刺見消化那一輪
+- 腹水病人的護理與穿刺見 [[liver-cirrhosis#ascites]] 與 [[gi-diagnostic-procedures#paracentesis]]
 
 ::questions{ids="106-1_MS_012,111-1_MS_010,112-3_MS_010,113-3_BM_027,112-1_BM_021,113-2_BM_022"}
 

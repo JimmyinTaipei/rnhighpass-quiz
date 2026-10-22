@@ -1,0 +1,15 @@
+{
+ "image": "servier-stomach-regions.svg",
+ "_說明": "胃的分區與大小彎；十二指腸在原圖中與幽門分開畫(2026-10-22 第 11 輪 A 組，放大格線核對點位)",
+ "labels": [
+  {"id": "esophagus", "zh": "食道", "en": "Esophagus", "x": 50.6, "y": 13, "tx": 20, "ty": 8, "align": "end"},
+  {"id": "cardia", "zh": "賁門(接食道)", "en": "Cardia", "x": 57, "y": 20, "tx": 20, "ty": 22, "align": "end"},
+  {"id": "lesser", "zh": "胃小彎", "en": "Lesser curvature", "x": 53.4, "y": 40, "tx": 20, "ty": 38, "align": "end"},
+  {"id": "pylorus", "zh": "幽門(接十二指腸)", "en": "Pylorus", "x": 35.1, "y": 60, "tx": 20, "ty": 55, "align": "end"},
+  {"id": "duodenum", "zh": "十二指腸", "en": "Duodenum", "x": 23.9, "y": 75, "tx": 20, "ty": 75, "align": "end"},
+  {"id": "fundus", "zh": "胃底", "en": "Fundus", "x": 68.6, "y": 12, "tx": 83, "ty": 8, "align": "start"},
+  {"id": "greater", "zh": "胃大彎", "en": "Greater curvature", "x": 77.9, "y": 40, "tx": 83, "ty": 38, "align": "start"},
+  {"id": "body", "zh": "胃體", "en": "Body", "x": 65.5, "y": 45, "tx": 83, "ty": 52, "align": "start"},
+  {"id": "antrum", "zh": "幽門竇", "en": "Pyloric antrum", "x": 46.9, "y": 68, "tx": 83, "ty": 70, "align": "start"}
+ ]
+}

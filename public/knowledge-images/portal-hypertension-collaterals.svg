@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+<title>門脈高壓與側枝循環</title>
+<rect width="1000" height="600" fill="#FFFFFF"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C62828"/></marker></defs>
+<text x="500" y="34" font-size="22" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">門脈高壓與側枝循環(示意)</text>
+<rect x="330" y="60" width="240" height="80" rx="10" fill="#F3F0FF" stroke="#5E35B1" stroke-width="2"/>
+<text x="450.0" y="95.0" font-size="16" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">肝臟(肝硬化)</text>
+<text x="450.0" y="117.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">纖維化使血流阻力上升</text>
+<rect x="330" y="230" width="240" height="70" rx="10" fill="#FFF3F0" stroke="#C62828" stroke-width="2"/>
+<text x="450.0" y="260.0" font-size="16" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">門靜脈</text>
+<text x="450.0" y="282.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">壓力上升(門脈高壓)</text>
+<rect x="330" y="400" width="240" height="70" rx="10" fill="#FFFFFF" stroke="#757575" stroke-width="2"/>
+<text x="450.0" y="430.0" font-size="16" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">上、下腸繫膜靜脈</text>
+<text x="450.0" y="452.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">(腸道回流的血)</text>
+<rect x="30" y="215" width="250" height="100" rx="10" fill="#FFF8E1" stroke="#F9A825" stroke-width="2"/>
+<text x="155.0" y="249.0" font-size="16" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">脾臟腫大(血液淤積)</text>
+<text x="155.0" y="271.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">脾功能亢進</text>
+<text x="155.0" y="293.0" font-size="16" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">血小板、白血球減少</text>
+<line x1="450" y1="398" x2="450" y2="302" stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="450" y1="228" x2="450" y2="142" stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="505" y="190" font-size="14" fill="#444" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">回肝受阻</text>
+<line x1="432" y1="172" x2="468" y2="196" stroke="#C62828" stroke-width="4"/><line x1="468" y1="172" x2="432" y2="196" stroke="#C62828" stroke-width="4"/>
+<line x1="282" y1="265" x2="328" y2="265" stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="305" y="252" font-size="14" fill="#444" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">脾靜脈</text>
+<rect x="690" y="55" width="290" height="110" rx="10" fill="#FFFFFF" stroke="#C62828" stroke-width="2"/>
+<text x="835.0" y="83.0" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">① 食道與胃底靜脈曲張</text>
+<text x="835.0" y="105.0" font-size="15" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">胃左(冠狀)靜脈 → 食道靜脈</text>
+<text x="835.0" y="127.0" font-size="15" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">→ 奇靜脈 → 上腔靜脈</text>
+<text x="835.0" y="149.0" font-size="15" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">破裂大出血，最危險</text>
+<rect x="690" y="225" width="290" height="100" rx="10" fill="#FFFFFF" stroke="#C62828" stroke-width="2"/>
+<text x="835.0" y="259.0" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">② 海蛇頭(臍周靜脈曲張)</text>
+<text x="835.0" y="281.0" font-size="15" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">臍旁靜脈 → 腹壁靜脈</text>
+<text x="835.0" y="303.0" font-size="15" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">→ 上、下腔靜脈</text>
+<rect x="690" y="385" width="290" height="110" rx="10" fill="#FFFFFF" stroke="#C62828" stroke-width="2"/>
+<text x="835.0" y="424.0" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">③ 痔(直腸靜脈曲張)</text>
+<text x="835.0" y="446.0" font-size="15" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">上直腸靜脈 → 中、下直腸靜脈</text>
+<text x="835.0" y="468.0" font-size="15" fill="#222" text-anchor="middle" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">→ 髂內靜脈 → 下腔靜脈</text>
+<line x1="572" y1="245" x2="688" y2="120" stroke="#C62828" stroke-width="2.2" stroke-dasharray="7,4" marker-end="url(#arr2)"/>
+<line x1="572" y1="265" x2="688" y2="275" stroke="#C62828" stroke-width="2.2" stroke-dasharray="7,4" marker-end="url(#arr2)"/>
+<line x1="572" y1="285" x2="688" y2="430" stroke="#C62828" stroke-width="2.2" stroke-dasharray="7,4" marker-end="url(#arr2)"/>
+<text x="625" y="200" font-size="15" fill="#C62828" text-anchor="middle" font-weight="bold" stroke="#fff" stroke-width="4" paint-order="stroke">側枝</text>
+<text x="30" y="530" font-size="15" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">門脈血改走側枝回到體循環(上、下腔靜脈)，壓力大的側枝就變成靜脈曲張</text>
+<text x="30" y="560" font-size="15" fill="#222" text-anchor="start" font-weight="normal" stroke="#fff" stroke-width="4" paint-order="stroke">腹水另外還與低白蛋白(膠體滲透壓下降)、醛固酮增加(鈉水滯留)有關</text>
+</svg>

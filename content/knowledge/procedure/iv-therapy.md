@@ -281,7 +281,7 @@ references:
 1. **全靜脈營養**(Total parenteral nutrition, TPN)：高張，要走**中心靜脈**(PICC、Hickman 等)
 2. 腸道功能正常但不能由口吃 → 優先**腸道營養**：鼻胃管、**胃造口**(經皮內視鏡胃造口，PEG)
 3. 結腸造口(colostomy)是排便用的
-4. 管灌與 TPN 的護理在第 10 輪營養頁
+4. 管灌與 TPN 的護理見 [[enteral-parenteral-nutrition#parenteral-nutrition]]
 
 ::questions{ids="109-2_FA_049"}
 

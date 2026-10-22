@@ -1,0 +1,10 @@
+{
+ "image": "servier-hiatal-hernia-types.svg",
+ "_說明": "食道裂孔疝氣三型：左滑動型(賁門與胃上部滑進胸腔)、中食道旁型(賁門留在原位、胃底從旁邊鼓上去)、右混合型；粉色橫帶是橫膈(2026-10-22 第 11 輪 F 組，格線核對)",
+ "labels": [
+  {"id": "diaphragm", "zh": "橫膈", "en": "Diaphragm", "x": 5, "y": 41, "tx": 2, "ty": 25, "align": "start"},
+  {"id": "sliding", "zh": "滑動型", "en": "Sliding hernia", "x": 14, "y": 32, "tx": 24, "ty": 15, "align": "start"},
+  {"id": "paraesophageal", "zh": "食道旁型", "en": "Paraesophageal hernia", "x": 52, "y": 30, "tx": 57, "ty": 13, "align": "start"},
+  {"id": "mixed", "zh": "混合型", "en": "Mixed hernia", "x": 85.5, "y": 30, "tx": 98, "ty": 15, "align": "end"}
+ ]
+}

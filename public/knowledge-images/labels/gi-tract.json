@@ -1,0 +1,22 @@
+{
+ "image": "servier-gi-tract.svg",
+ "_說明": "消化道全景：口腔到直腸與附屬器官(2026-10-22 第 11 輪 A 組，放大格線核對點位)",
+ "labels": [
+  {"id": "mouth", "zh": "口腔", "en": "Oral cavity", "x": 44, "y": 20, "tx": 30, "ty": 20, "align": "end"},
+  {"id": "liver", "zh": "肝臟", "en": "Liver", "x": 37, "y": 53, "tx": 30, "ty": 49, "align": "end"},
+  {"id": "gallbladder", "zh": "膽囊", "en": "Gallbladder", "x": 40, "y": 57, "tx": 30, "ty": 56, "align": "end"},
+  {"id": "duodenum", "zh": "十二指腸", "en": "Duodenum", "x": 41.5, "y": 64.5, "tx": 30, "ty": 62, "align": "end"},
+  {"id": "pancreas", "zh": "胰臟", "en": "Pancreas", "x": 45, "y": 66, "tx": 30, "ty": 68, "align": "end"},
+  {"id": "ascending", "zh": "升結腸", "en": "Ascending colon", "x": 36, "y": 78, "tx": 30, "ty": 78, "align": "end"},
+  {"id": "appendix", "zh": "闌尾", "en": "Appendix", "x": 44, "y": 87.5, "tx": 30, "ty": 89, "align": "end"},
+  {"id": "pharynx", "zh": "咽", "en": "Pharynx", "x": 50.5, "y": 19, "tx": 70, "ty": 17, "align": "start"},
+  {"id": "esophagus", "zh": "食道", "en": "Esophagus", "x": 50.5, "y": 35, "tx": 70, "ty": 35, "align": "start"},
+  {"id": "spleen", "zh": "脾臟(不屬消化道)", "en": "Spleen", "x": 64, "y": 58, "tx": 70, "ty": 51, "align": "start"},
+  {"id": "stomach", "zh": "胃", "en": "Stomach", "x": 57, "y": 58, "tx": 70, "ty": 60, "align": "start"},
+  {"id": "transverse", "zh": "橫結腸", "en": "Transverse colon", "x": 53.5, "y": 70, "tx": 70, "ty": 69, "align": "start"},
+  {"id": "small", "zh": "小腸(空腸、迴腸)", "en": "Small intestine", "x": 51.5, "y": 79, "tx": 70, "ty": 76, "align": "start"},
+  {"id": "descending", "zh": "降結腸", "en": "Descending colon", "x": 63.5, "y": 80, "tx": 70, "ty": 83, "align": "start"},
+  {"id": "sigmoid", "zh": "乙狀結腸", "en": "Sigmoid colon", "x": 55.5, "y": 91, "tx": 70, "ty": 90, "align": "start"},
+  {"id": "rectum", "zh": "直腸", "en": "Rectum", "x": 50, "y": 96, "tx": 70, "ty": 97, "align": "start"}
+ ]
+}

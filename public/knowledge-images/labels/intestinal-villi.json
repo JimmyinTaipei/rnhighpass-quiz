@@ -1,0 +1,76 @@
+{
+ "image": "servier-intestinal-villi.svg",
+ "_說明": "小腸絨毛：表面微絨毛、上皮與杯狀細胞；中央乳糜管收脂肪走淋巴，微血管收醣與胺基酸走門靜脈(2026-10-22 第 11 輪 A 組，放大格線核對點位)",
+ "labels": [
+  {
+   "id": "microvilli",
+   "zh": "微絨毛(刷狀緣)",
+   "en": "Microvilli (brush border)",
+   "x": 36,
+   "y": 19,
+   "tx": 26,
+   "ty": 14,
+   "align": "end"
+  },
+  {
+   "id": "goblet",
+   "zh": "杯狀細胞(黏液)",
+   "en": "Goblet cell",
+   "x": 30.4,
+   "y": 43,
+   "tx": 26,
+   "ty": 38,
+   "align": "end"
+  },
+  {
+   "id": "epithelium",
+   "zh": "柱狀上皮細胞",
+   "en": "Columnar epithelial cell",
+   "x": 42.3,
+   "y": 50,
+   "tx": 26,
+   "ty": 55,
+   "align": "end"
+  },
+  {
+   "id": "lacteal",
+   "zh": "乳糜管：脂肪 → 淋巴",
+   "en": "Lacteal: fat to lymph",
+   "x": 34.6,
+   "y": 72,
+   "tx": 26,
+   "ty": 76,
+   "align": "end"
+  },
+  {
+   "id": "capillary",
+   "zh": "微血管網：醣、胺基酸",
+   "en": "Capillary network",
+   "x": 59.1,
+   "y": 50,
+   "tx": 74,
+   "ty": 45,
+   "align": "start"
+  },
+  {
+   "id": "venule",
+   "zh": "小靜脈 → 肝門靜脈",
+   "en": "Venule to portal vein",
+   "x": 55.6,
+   "y": 90,
+   "tx": 74,
+   "ty": 84,
+   "align": "start"
+  },
+  {
+   "id": "arteriole",
+   "zh": "小動脈",
+   "en": "Arteriole",
+   "x": 65.4,
+   "y": 92,
+   "tx": 74,
+   "ty": 95,
+   "align": "start"
+  }
+ ]
+}

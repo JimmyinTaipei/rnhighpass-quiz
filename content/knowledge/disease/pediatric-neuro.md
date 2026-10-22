@@ -2,7 +2,7 @@
 title: 兒童神經系統疾病
 subtitle: Pediatric neurological disorders — cerebral palsy, hydrocephalus and V-P shunt, neural tube defects, intraventricular hemorrhage, Reye's syndrome and newborn reflexes
 aliases: [兒童神經系統疾病, 兒童神經疾病, 腦性麻痺, Cerebral palsy, CP, 痙攣型腦性麻痺, 徐動型腦性麻痺, 運動困難型, 運動失調型, 剪刀步態, 吐舌反射, 三指下顎控制法, 水腦, 水腦症, Hydrocephalus, 交通性水腦, 阻塞性水腦, 落日眼, Setting-sun sign, 腦室腹膜分流, V-P shunt, 分流管阻塞, 分流管感染, 神經管缺陷, Neural tube defect, NTD, 脊柱裂, Spina bifida, 隱性脊柱裂, 脊髓膜膨出, Meningocele, 脊髓脊髓膜膨出, Myelomeningocele, 無腦兒, Anencephaly, Chiari II, 葉酸, Folic acid, 早產兒腦室內出血, 腦室內出血, Intraventricular hemorrhage, IVH, 生發基質, Germinal matrix, 雷氏症候群, 雷氏症, Reye's syndrome, 新生兒反射, 原始反射, 擁抱反射, Moro reflex, 尋乳反射, Rooting reflex, 吸吮反射, 抓握反射, 踏步反射, 頸部強直反射, Tonic neck reflex, 巴賓斯基反射, Babinski reflex]
-dzTags: [腦性麻痺, 水腦症, 脊柱裂, 脊髓膜膨出, 脊髓脊髓膜膨出, 神經管缺陷, 腦室內出血, 早產兒腦室內出血, 雷氏症候群]
+dzTags: [腦性麻痺, 水腦症, 脊柱裂, 脊髓膜膨出, 脊髓脊髓膜膨出, 神經管缺陷, 早產兒腦室內出血, 雷氏症候群]
 system: neuro
 alsoIn: [obstetrics]
 chapters:
