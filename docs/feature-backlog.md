@@ -62,7 +62,7 @@
 
 | # | 功能 | 說明 | 來源 | 優先 | 狀態 |
 |---|---|---|---|---|---|
-| P1 | 深色模式 | 在 `[data-ui="apple"]` 加一組 dark token，架構已預留 | positioning 十 | ⭐⭐ | ⏸ |
+| P1 | 深色模式 | 在 `[data-ui="apple"]` 加一組 dark token，架構已預留；同時處理心電圖節律條 19 張(`ecg-rhythm-*.svg`)等白底圖(使用者 2026-10-27 要調整) | positioning 十 | ⭐⭐ | ⏸ |
 | P2 | 離線閱讀 | 知識頁已改 SSG，可做 service worker 快取 | 建議 | ⭐ | ⬜ |
 | P3 | Capacitor 打包 iOS app | 含 app icon | 路線圖 | ⭐ | ⬜ |
 | P4 | 視覺打磨 | 系統頁改版後用 design-critique 檢查系統頁、知識頁、手機版 | positioning 九-5 | ⭐ | ⬜ |

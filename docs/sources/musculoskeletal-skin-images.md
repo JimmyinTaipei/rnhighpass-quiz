@@ -5,6 +5,10 @@
 > AI 底圖流程(記憶「解剖圖標籤準確度」)：AI 生成 → 裁外框、轉 JPG、英文檔名放 `public/knowledge-images/`，原圖移到 `相關資源/AI底圖/` → labels JSON 疊中文標籤＋格線核對；底圖畫錯的地方在圖說註明
 > 縮圖在本 session scratchpad `r14/servier/sheet-*.png`
 
+> **2026-10-27 已先做簡易示意圖**(使用者要求，AI 版還在製作)：`public/knowledge-images/msk-*.svg`＋`labels/msk-*.json`，由 `scripts/msk-sketch-figures.py` 產生，已放進頁面
+> 對照：AI-1 msk-tha-precautions、AI-2 msk-burn-positioning、AI-3 msk-bucks-traction、AI-4 msk-rule-of-nines、AI-5 msk-pavlik-harness、AI-6 msk-scoliosis-adams、AI-7 msk-barlow-ortolani、AI-8 msk-exam-tests
+> 換成 AI 圖時：AI 圖放 `public/knowledge-images/`，改頁面 `src` 與 labels 的 `image`，標籤沿用、依新底圖調座標(放大格線逐點核對)，圖說拿掉「簡易示意圖」字樣
+
 ## 一、給 AI 的共通指示(每張都貼在最前面)
 
 ```

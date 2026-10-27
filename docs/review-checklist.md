@@ -18,17 +18,28 @@
 
 ## 一、需要你決定
 
-- [ ] R16 產科拆分 ⚠ 項：性傳染病、疱疹病毒要不要加 alsoIn 產科；泌尿道感染的 alsoIn 生殖要不要拿掉(見 [obstetrics-split-review.md](obstetrics-split-review.md))
-- [ ] R16 早產兒與新生兒疾病頁放產科 neonatal-diseases 組＋`peds: true`(pediatric-review 原本寫放器官系統)，維持現狀嗎
-- [ ] R16 `obstetric-drugs` 組目前沒有文章：子宮收縮劑在 `pituitary-hormones#oxytocin`、安胎藥表在 `labor-complications#preterm-labor`，要不要補一篇總覽頁
-- [ ] R16 112-1_OP_024 選項 (D) 寫「全神貫注(engorgement)」，英文應為 engrossment；要不要在題目加註
-- [ ] R15 PGE1(先天性心臟病用藥 6 題)歸在 `antihistamines-autacoids`，要不要另開兒童心臟藥物頁
-- [ ] R15 心電圖節律條 19 張(`ecg-rhythm-*.svg`)樣式：白底紅格，暗色模式下仍是白底，要不要調整
-- [ ] R14 AI 底圖 8 張要不要都做、優先順序(清單與提示詞在 [sources/musculoskeletal-skin-images.md](sources/musculoskeletal-skin-images.md))
-- [ ] R12 114-2_MS_026 標籤改為輸血反應(承上題 TACO，答案「協助做放血術」)；`transfusion-reactions` TACO 寫「嚴重時依醫囑放血」，可以接受嗎
-- [ ] R7 標籤：紅血球增多症 vs 真性紅血球增多症，建議維持兩個
-- [ ] R7 衛生福利部組織法新設兩署：行政院公告施行日後要改 `health-administration-system`、`long-term-care`(到時提醒 Claude)
-- [ ] R2 精神科標籤合併待決定：[tag-merge-psychiatry.md](tag-merge-psychiatry.md) 第三節
+- [x] R16 產科拆分 ⚠ 項：性傳染病、疱疹病毒要不要加 alsoIn 產科；泌尿道感染的 alsoIn 生殖要不要拿掉(見 [obstetrics-split-review.md](obstetrics-split-review.md))
+  - ✅ 2026-10-27：泌尿道感染拿掉 alsoIn 生殖；性傳染病、疱疹病毒不加產科(婦科已在生殖系統分開，維持現狀)
+- [x] R16 早產兒與新生兒疾病頁放產科 neonatal-diseases 組＋`peds: true`(pediatric-review 原本寫放器官系統)，維持現狀嗎
+  - ✅ 維持現狀，使用者之後再想怎麼做更好
+- [x] R16 `obstetric-drugs` 組目前沒有文章：子宮收縮劑在 `pituitary-hormones#oxytocin`、安胎藥表在 `labor-complications#preterm-labor`，要不要補一篇總覽頁
+  - ✅ 2026-10-27 新增 `drug/obstetric-drugs`(產科常用藥物總覽，各段連回原頁)
+- [x] R16 112-1_OP_024 選項 (D) 寫「全神貫注(engorgement)」，英文應為 engrossment；要不要在題目加註
+  - ✅ 2026-10-27 詳解改寫並註明國考誤植(答案 D 不變)，01／02 同步、記在題目修正紀錄；Supabase 收尾 E 寫回
+- [x] R15 PGE1(先天性心臟病用藥 6 題)歸在 `antihistamines-autacoids`，要不要另開兒童心臟藥物頁
+  - ✅ 2026-10-27 不另開頁：congenital-heart-disease 原有藥物段改名「兒童心臟藥物」，收進全部 6 題；antihistamines-autacoids 的 PGE1 段連過去
+- [x] R15 心電圖節律條 19 張(`ecg-rhythm-*.svg`)樣式：白底紅格，暗色模式下仍是白底，要不要調整
+  - ✅ 要調整；網站還沒有深色模式，記在 feature-backlog P1，做深色模式時一起處理(單獨改 SVG 會在淺色頁面上變黑底)
+- [x] R14 AI 底圖 8 張要不要都做、優先順序(清單與提示詞在 [sources/musculoskeletal-skin-images.md](sources/musculoskeletal-skin-images.md))
+  - ✅ 2026-10-27 先做 8 張簡易示意圖(`msk-*.svg`＋labels，`scripts/msk-sketch-figures.py`)放進頁面，圖說註明之後換 AI 底圖；換圖時標籤沿用只調座標
+- [x] R12 114-2_MS_026 標籤改為輸血反應(承上題 TACO，答案「協助做放血術」)；`transfusion-reactions` TACO 寫「嚴重時依醫囑放血」，可以接受嗎
+  - ✅ 可以
+- [x] R7 標籤：紅血球增多症 vs 真性紅血球增多症，建議維持兩個
+  - ✅ 維持兩個
+- [x] R7 衛生福利部組織法新設兩署：行政院公告施行日後要改 `health-administration-system`、`long-term-care`(到時提醒 Claude)
+  - ✅ 使用者知道，公告後再改
+- [x] R2 精神科標籤合併待決定：[tag-merge-psychiatry.md](tag-merge-psychiatry.md) 第三節
+  - ✅ 2026-10-27 新版清單：舊 10 列大多已處理，剩 4 項待決定，見該檔第三節「還要決定」
 
 ## 二、圖片待審核
 
@@ -135,7 +146,8 @@
 ### 只依國考或詳解、課本沒寫
 
 - [ ] R10 精液檢體室溫 1–2 小時內送檢(108-2_OP_039)；腸道傳染病餐具不必另外煮沸(106-2_FA_003)；臨終病人旁不耳語(106-2_makeup_FA_054)；理論家配對與護理趨勢；產科導尿題
-- [ ] R10 尖銳器具收集容器國考答黃色(106-2_makeup_PC_048)，課本只寫堅固容器
+- [x] R10 尖銳器具收集容器國考答黃色(106-2_makeup_PC_048)，課本只寫堅固容器
+  - ✅ 2026-10-27 依使用者：以堅固、不易穿透為重點，國考答黃色、臨床也有紅色(patient-safety-environment)
 
 ## 五、國考答案與課本或現行不同
 
