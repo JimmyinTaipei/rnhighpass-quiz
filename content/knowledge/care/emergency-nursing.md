@@ -119,7 +119,7 @@ references:
    1. 皮膚與眼睛：脫去污染衣物、大量清水沖洗
    2. 腸胃道：稀釋、催吐、洗胃、**活性碳**吸附、瀉劑
    3. 已吸收的：**鹼化或酸化尿液**、利尿、**血液透析或血液灌洗**
-4. **解毒劑**：依毒物給，例如有機磷用 atropine 加 pralidoxime(PAM)(見 [[cholinergic-drugs#organophosphate-poisoning]])、鴉片類用 naloxone(2025 AHA 摘要)
+4. **解毒劑**：依毒物給，例如有機磷用 atropine 加 pralidoxime(PAM)(見 [[cholinergic-drugs#organophosphate-poisoning]])、鴉片類用 naloxone(2025 AHA 摘要)；解毒劑總表見 [[antidotes#antidote-table]]
 5. 支持療法與監測，自殺者要做心理評估與安全防護
 
 | 方法 | 適用 | 禁忌或注意 |
@@ -133,7 +133,7 @@ references:
 
 - **強酸強鹼**(鹽酸、硫酸、漂白水、鹼水、清潔劑)：**不可催吐、不可洗胃、不用中和劑**；可少量稀釋，維持呼吸道，注意食道穿孔與狹窄(內外上冊書頁 472)
 - 瞳孔針尖般縮小：**有機磷、鴉片類**；瞳孔放大：安非他命、古柯鹼、抗膽鹼藥(見 [[substance-use-disorders]])
-- 兒童誤食(鐵劑、乙醯胺酚、鉛、鹼水)見第 16–17 輪兒科頁
+- 兒童誤食(鐵劑、乙醯胺酚、鉛、鹼水)見 [[pediatric-injuries#poisoning]]
 
 ::questions{ids="107-1_MS_076,106-2_MS_074"}
 

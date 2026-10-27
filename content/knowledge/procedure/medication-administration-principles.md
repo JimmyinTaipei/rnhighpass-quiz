@@ -102,6 +102,8 @@ references:
 
 ### 藥物的作用與交互作用 {#drug-effects}
 
+藥物動力學(吸收、首渡效應、代謝酵素、半衰期)與藥效學(受體、治療指數、拮抗)見 [[pharmacokinetics-pharmacodynamics]]
+
 1. **治療作用**：在標的器官產生想要的效果
 2. **副作用**：藥物分布到其他器官，產生非預期的作用(例：類固醇抗發炎，但也造成感染、體重增加)
 3. **毒性**：濃度超過中毒濃度；治療範圍窄的藥(digoxin、theophylline、lithium)要監測濃度，見 [[digoxin]]

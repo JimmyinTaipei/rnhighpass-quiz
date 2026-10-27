@@ -254,6 +254,8 @@ domains:
       - { id: resuscitation, name: 心肺復甦與急救, type: procedure }
       - { id: emergency-care, name: 急診與急症處置, type: care }
       - { id: icu-devices, name: 加護病房器材與管路, type: device }
+      # 2026-10-27 第 17 輪 17b：藥理 Ch13 毒理
+      - { id: antidotes, name: 中毒與解毒劑, type: drug, drugTags: [中毒解毒劑] }
 
   - id: general-pathology
     name: 病理總論與遺傳
@@ -263,6 +265,8 @@ domains:
       - { id: pathology-basics, name: 病理總論, type: physiology }
       - { id: genetics, name: 遺傳學基礎, type: physiology }
       - { id: genetic-disorders, name: 遺傳疾病, type: disease }
+      # 2026-10-27 第 17 輪 17b：生解 Ch01
+      - { id: cell-biology, name: 細胞與組織, type: physiology }
 
   # ===== 護理專業(分不出器官系統時使用) =====
   - id: fundamentals
@@ -281,6 +285,10 @@ domains:
       - { id: admission-specimens, name: 出入院、檢體與包紮, type: procedure }
       - { id: basic-needs, name: 活動、睡眠、營養與疼痛, type: care }
       - { id: nursing-process-communication, name: 護理過程、記錄與溝通, type: care }
+      # 2026-10-27 第 17 輪 17a：兒科通論(兒科 Ch01、02、05、16)
+      - { id: child-health, name: 兒童生長發展與照護, type: care }
+      # 2026-10-27 第 17 輪 17b：藥理 Ch01
+      - { id: pharmacology-principles, name: 藥理學總論, type: drug }
 
   - id: administration
     name: 護理行政

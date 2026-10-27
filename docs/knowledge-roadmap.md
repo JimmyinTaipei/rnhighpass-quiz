@@ -48,7 +48,7 @@
 | 14 | 肌肉骨骼與皮膚(含骨骼、肌肉解剖頁；拆 14a、14b，解剖圖先用表格，圖等全部建完再做) | 剩約 230 | 內外 Ch16、Ch12，生解 Ch02–04，病理 Ch17，兒科 Ch14 | 中難(要圖) | ✅ 2026-10-24(14a 6 篇、14b 4 篇) |
 | 15 | 心血管補完(心律不整、休克、中風)＋CVC/A-line/IABP/ECMO(拆 15a、15b) | 剩約 240 | 生解 Ch07、內外 Ch13、Ch06 急重症、兒科 Ch09、藥理 Ch08 | 中 | ✅ 2026-10-27 全部完成：15a(blood-vessels、arrhythmias、antiarrhythmics)、15b(cpr、emergency-nursing、shock、central-venous-catheter、arterial-line、iabp-ecmo、congenital-heart-disease、peripheral-vascular-disease、valvular-heart-disease)；8133/8960；已寫回並部署 |
 | 16 | 產科＋新生兒(拆 16a 生殖婦科、16b 妊娠期、16c 分娩、16d 產後、16e 新生兒) | 剩約 750 | 產科全部、兒科 Ch03–04、生解 Ch13–14、病理 Ch15(兒科 Ch01、02、05、16 移到第 17 輪) | 難 | |
-| 17 | 兒科通論＋藥理與生解剩餘＋知識庫總收尾(拆 17a、17b) | 剩約 195 | 兒科 Ch01、02、05、16；藥理 Ch01 總論、Ch13 毒理；生解 Ch01 細胞；各科零星題(生解 Ch14 胚胎移到第 16 輪) | 中 | |
+| 17 | 兒科通論＋藥理與生解剩餘＋知識庫總收尾(拆 17a、17b) | 剩約 195 | 兒科 Ch01、02、05、16；藥理 Ch01 總論、Ch13 毒理；生解 Ch01 細胞；各科零星題(生解 Ch14 胚胎移到第 16 輪) | 中 | ✅ 2026-10-27(17a 4 篇、17b 3 篇；**全部 8960/8960，11 科 100%**) |
 
 ## 跨輪移交清單(不可漏做)
 
@@ -61,7 +61,7 @@
 | 5 | 15 心血管補完 | 休克的臨床處置與護理(輸液、升壓劑、監測)；病理機轉不重寫 | edema-shock、sepsis、hypotension | ✅ 2026-10-27 disease/shock(hypotension#shock 改連過去) |
 | 5 | 12 血液 | 海洋性貧血、血友病、類血友病、G6PD、鐮刀型與球形紅血球的治療與護理(輸血、鐵螯合、凝血因子)；遺傳部分不重寫 | single-gene-disorders、genetic-inheritance | ✅ 2026-10-22 anemias#thalassemia-care、#g6pd-care、#sickle-cell-care；bleeding-disorders#hemophilia、#vwd |
 | 5 | 14 肌骨皮膚 | 燒傷照護(面積估計、輸液公式、傷口、植皮、復健)；機轉與深度分級不重寫 | environmental-injury | ✅ 2026-10-24 寫在 burns，environmental-injury 兩處改連結 |
-| 5 | 17 藥理毒理 | 一氧化碳、鉛、酒精以外的中毒與解毒劑總表 | environmental-injury | ⬜ |
+| 5 | 17 藥理毒理 | 一氧化碳、鉛、酒精以外的中毒與解毒劑總表 | environmental-injury | ✅ 17b drug/antidotes(解毒劑總表)、drug/pharmacokinetics-pharmacodynamics(藥動學與交互作用) |
 | 5 | 10 基護 B | 營養評估、治療飲食、管灌與 TPN；維生素缺乏總表不重寫 | nutritional-disorders | ✅ 2026-10-22 nutrition-assessment-diets、enteral-parenteral-nutrition(互連 nutritional-disorders) |
 | 5 | 16 產科 | 唐氏症等染色體異常的產前篩檢(母血、NIPT、羊膜穿刺、絨毛取樣)、神經管缺陷與葉酸 | chromosomal-disorders、genetic-inheritance | ✅ 2026-10-27 16b prenatal-assessment、prenatal-care |
 | 5 | 15、11、14 | 先天性心臟病(15)、幽門狹窄與唇顎裂(11)、髖關節發育不良(14)的照護；多因子遺傳與再發率不重寫 | genetic-inheritance | ⬜ 11 的部分 ✅ 2026-10-22 pediatric-gi#cleft、#pyloric-stenosis(genetic-inheritance 表格已連過去)；15 ✅ 2026-10-27 congenital-heart-disease；14 待做 |
@@ -90,8 +90,8 @@
 | 8 | 13 社區 B | 老人跌倒危險因子(內因、外因)與居家防跌已寫在 patient-safety-environment#falls(收了 111-2_PC_078、113-3_PC_049、108-1_PC_055、111-1_PC_067)；衰弱評估與防跌健康促進題(114-1_PC_031、106-2_makeup_PC_064、114-2_PC_048)留社區 B | patient-safety-environment#falls | ✅ 2026-10-23 13b(114-1_PC_031、106-2_makeup_PC_064 已在 13a health-promotion；114-2_PC_048 在 older-adult-chronic-disease#frailty；patient-safety-environment 第 5 點改連結) |
 | 8 | 14 肌骨皮膚 | 燒傷輸液 Parkland 公式已寫在 iv-therapy；燒傷照護頁連過去，不重寫公式 | iv-therapy | ✅ 2026-10-24 burns#resuscitation 連 iv-therapy#burn-fluids，iv-therapy 改連 burns |
 | 8 | 15 心血管 | 心律不整標籤留給心律不整頁(pulse-blood-pressure 只寫脈律特徵)；心尖脈與脈搏短絀連 pulse-blood-pressure | pulse-blood-pressure | ✅ 2026-10-26 arrhythmias(dzTags 心律不整等；互連 pulse-blood-pressure#abnormal-pulse) |
-| 8 | 16 產兒 | 新生兒體溫散失與保暖(body-temperature 只寫一般原則)；兒童注射部位與兒童餵藥已寫在 injections、non-parenteral-medication，兒科頁連過去 | body-temperature、injections | ✅ 16e 保暖(newborn-adaptation#thermoregulation、preterm-infant#thermoregulation)；兒童注射與餵藥連結留第 17 輪兒科頁 |
-| 8 | 17 藥理 | 藥動學與藥物交互作用深入內容(medication-administration-principles 只寫給藥相關的概述) | medication-administration-principles | ⬜ |
+| 8 | 16 產兒 | 新生兒體溫散失與保暖(body-temperature 只寫一般原則)；兒童注射部位與兒童餵藥已寫在 injections、non-parenteral-medication，兒科頁連過去 | body-temperature、injections | ✅ 16e 保暖(newborn-adaptation#thermoregulation、preterm-infant#thermoregulation)；兒童注射與餵藥連結留第 17 輪兒科頁(17a 新頁沒有給藥段，兒童給藥仍在 injections、non-parenteral-medication) |
+| 8 | 17 藥理 | 藥動學與藥物交互作用深入內容(medication-administration-principles 只寫給藥相關的概述) | medication-administration-principles | ✅ 17b drug/antidotes(解毒劑總表)、drug/pharmacokinetics-pharmacodynamics(藥動學與交互作用) |
 | 9 | 10 基護 B | 尿液與 24 小時尿液檢體已寫在 urinalysis#nursing(admission-discharge-specimens 只連過去)；尿滯留、導尿、膀胱訓練與凱格爾技術、基護 Ch15 尿失禁與尿滯留題寫在 urinary-elimination；做好後把 urologic-disorders 兩處「基本護理排泄頁另外整理」改成連結，並連 urologic-disorders#incontinence | urinalysis#nursing、urologic-disorders#incontinence | ✅ 2026-10-22 urinary-elimination(urologic-disorders 兩處改連結、互連 #incontinence) |
 | 9 | 11 消化 | 腸阻塞的體液變化(106-2_MS_016)、肝硬化腹水護理(113-1_MS_007)；體液電解質機轉在 fluid-electrolytes，不重寫 | fluid-electrolytes | ✅ 2026-10-22 lower-gi-disorders#obstruction(連 fluid-electrolytes#volume-deficit)、liver-cirrhosis#ascites |
 | 9 | 12 血液 | 造血藥物頁(EPO、鐵劑、葉酸)：CKD 頁腎性貧血段先寫文字，做好後回補連結 | chronic-kidney-disease#anemia | ✅ 2026-10-22 hematinics；chronic-kidney-disease#anemia 已回補連結 |
@@ -114,11 +114,11 @@
 | 13 | 16 產科 | 婦幼頁已寫產檢 14 次、母嬰親善、哺乳法規、優生保健法、人工生殖法(社區角度)；產科頁做好後互連，產後哺乳護理與產檢細節寫產科頁 | maternal-child-health | 產檢細節 ✅ 16b(已互連)；產後哺乳 ✅ 16d(breastfeeding) |
 | 14 | 16c 分娩 | 胎頭顱縫、囟門、胎頭徑線 3 題(114-3_OP_009、106-1_OP_014、108-2_OP_025，主章生解 Ch03 顱骨)；skeletal-system 只寫顱骨，胎頭寫在分娩機轉頁 | tag-merge-round14.md 第五節 | ✅ 2026-10-27 labor-process#fetal-skull |
 | 14 | 16 產科 | 14-0 已合併產科標籤 57 題中的產科部分(正常分娩、妊娠合併心臟病、生產疼痛等)，16-0 不用再做產科標籤合併，只重查新增標籤 | tag-merge-round14.md | ✅ 2026-10-27 16-0 只重查生解 Ch13–14、病理 Ch15、兒科 Ch03–04，改 7 題(tag-merge-round16.md) |
-| 14 | 17 兒科 | 兒科 Ch16 燒燙傷段 11 題已在 burns(嬰兒九分法、沖脫泡蓋送、兒童尿量、ABA 兒童分級、青少年隱私)；17 寫事故傷害頁時連 [[burns#pediatric]]，不重寫 | burns | ⬜ |
-| 15 | 17 藥理毒理 | 中毒總表與解毒劑：emergency-nursing#poisoning 只寫處置原則、巴拉刈、強酸強鹼；有機磷在 cholinergic-drugs；17 的毒理頁寫解毒劑總表(中毒解毒劑 10 題)並互連 | emergency-nursing#poisoning、cholinergic-drugs#organophosphate-poisoning | ⬜ |
-| 15 | 17 兒科通論 | 兒童誤食(鐵劑、乙醯胺酚、鉛、鹼水、清潔劑，115-2_OP_027、109-2_OP_045、109-1_OP_041、110-1_OP_054、114-2_OP_027 等)、兒童溺水與事故傷害；急救步驟連 cpr、溺水與低體溫連 emergency-nursing#drowning、#hypothermia | cpr、emergency-nursing | ⬜ |
+| 14 | 17 兒科 | 兒科 Ch16 燒燙傷段 11 題已在 burns(嬰兒九分法、沖脫泡蓋送、兒童尿量、ABA 兒童分級、青少年隱私)；17 寫事故傷害頁時連 [[burns#pediatric]]，不重寫 | burns | ✅ 17a pediatric-injuries 連 burns#pediatric |
+| 15 | 17 藥理毒理 | 中毒總表與解毒劑：emergency-nursing#poisoning 只寫處置原則、巴拉刈、強酸強鹼；有機磷在 cholinergic-drugs；17 的毒理頁寫解毒劑總表(中毒解毒劑 10 題)並互連 | emergency-nursing#poisoning、cholinergic-drugs#organophosphate-poisoning | ✅ 17b drug/antidotes(解毒劑總表)、drug/pharmacokinetics-pharmacodynamics(藥動學與交互作用) |
+| 15 | 17 兒科通論 | 兒童誤食(鐵劑、乙醯胺酚、鉛、鹼水、清潔劑，115-2_OP_027、109-2_OP_045、109-1_OP_041、110-1_OP_054、114-2_OP_027 等)、兒童溺水與事故傷害；急救步驟連 cpr、溺水與低體溫連 emergency-nursing#drowning、#hypothermia | cpr、emergency-nursing | ✅ 17a pediatric-injuries#poisoning(emergency-nursing#poisoning 改成連過去) |
 | 15 | 16 新生兒 | 新生兒與早產兒保暖題(112-1_OP_030、105-1_OP_029、112-2_OP_052、110-2_OP_053、106-1_OP_054，dz:低體溫)未收；成人意外低體溫在 emergency-nursing#hypothermia | body-temperature、emergency-nursing#hypothermia | ✅ 16e(5 題都收在 newborn-adaptation、preterm-infant) |
-| 16 | 17 兒科通論 | 住院兒童的反應與術前準備(兒科 Ch05)：原本寫在第 11 輪移給 16 的列裡，兒科 Ch05 已移第 17 輪，16-0 拆出來 | pain-management(兒科 Ch05 疼痛) | ⬜ |
+| 16 | 17 兒科通論 | 住院兒童的反應與術前準備(兒科 Ch05)：原本寫在第 11 輪移給 16 的列裡，兒科 Ch05 已移第 17 輪，16-0 拆出來 | pain-management(兒科 Ch05 疼痛) | ✅ 17a hospitalized-child |
 | 16c | 16d 產後 | 產後出血(胎盤碎片殘留、子宮收縮劑比較)、會陰傷口照護、剖腹產術後護理：16c 頁留「(16d 待寫)」共 5 處(labor-process、intrapartum-care、labor-complications、pituitary-hormones) | intrapartum-care#fourth-stage-care、labor-complications#cesarean | ✅ 16d(連到 postpartum-care、postpartum-complications) |
 | 16c | 16e 新生兒 | Apgar 表暫放 intrapartum-care#third-stage-care(含 107-1_OP_046)，16e 新生兒頁決定搬過去再嵌入；新生兒抽吸(106-2_OP_011)、產瘤與頭血腫比較、早產兒照護連結共 5 處「(16e 待寫)」 | intrapartum-care、labor-process、labor-complications | ✅ 16e(Apgar 搬到 newborn-assessment#apgar 並嵌入) |
 

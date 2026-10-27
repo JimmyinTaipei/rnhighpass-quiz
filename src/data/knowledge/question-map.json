@@ -546,6 +546,9 @@
       "105-1_FA_007"
     ]
   },
+  "nursing-workload-productivity#productivity": {
+    "auto": []
+  },
   "nursing-workload-productivity#questions": {
     "auto": [
       "114-3_FA_042",
@@ -721,6 +724,9 @@
       "105-1_FA_073"
     ]
   },
+  "planning-strategy#vision": {
+    "auto": []
+  },
   "planning-strategy#questions": {
     "auto": [
       "115-2_FA_037",
@@ -886,6 +892,9 @@
       "105-2_OP_023"
     ]
   },
+  "cancer-treatment-toxicities#xerostomia": {
+    "auto": []
+  },
   "cancer-treatment-toxicities#questions": {
     "auto": []
   },
@@ -911,6 +920,62 @@
   },
   "child-adolescent-mental-health#questions": {
     "auto": []
+  },
+  "child-growth-development#principles": {
+    "auto": []
+  },
+  "child-growth-development#weight-height": {
+    "auto": []
+  },
+  "child-growth-development#head-proportions": {
+    "auto": []
+  },
+  "child-growth-development#teeth": {
+    "auto": []
+  },
+  "child-growth-development#systems": {
+    "auto": []
+  },
+  "child-growth-development#motor": {
+    "auto": []
+  },
+  "child-growth-development#language-iq": {
+    "auto": []
+  },
+  "child-growth-development#theories": {
+    "auto": []
+  },
+  "child-growth-development#piaget": {
+    "auto": []
+  },
+  "child-growth-development#illness-concepts": {
+    "auto": []
+  },
+  "child-growth-development#play": {
+    "auto": []
+  },
+  "child-growth-development#drawing": {
+    "auto": []
+  },
+  "child-growth-development#temperament": {
+    "auto": []
+  },
+  "child-growth-development#ddst": {
+    "auto": []
+  },
+  "child-growth-development#questions": {
+    "auto": [
+      "115-2_OP_049",
+      "115-2_OP_032",
+      "115-2_OP_021",
+      "115-1_OP_033",
+      "115-1_OP_031",
+      "115-1_OP_030",
+      "114-3_OP_029",
+      "114-3_OP_009",
+      "114-2_OP_048",
+      "114-2_OP_030"
+    ]
   },
   "chronically-ill-children#trends": {
     "auto": []
@@ -1256,6 +1321,41 @@
   },
   "home-care-discharge-planning#questions": {
     "auto": []
+  },
+  "hospitalized-child#stressors": {
+    "auto": []
+  },
+  "hospitalized-child#separation-anxiety": {
+    "auto": []
+  },
+  "hospitalized-child#age-responses": {
+    "auto": []
+  },
+  "hospitalized-child#communication": {
+    "auto": []
+  },
+  "hospitalized-child#therapeutic-play": {
+    "auto": []
+  },
+  "hospitalized-child#pain-concepts": {
+    "auto": []
+  },
+  "hospitalized-child#family-siblings": {
+    "auto": []
+  },
+  "hospitalized-child#questions": {
+    "auto": [
+      "115-2_OP_029",
+      "115-1_OP_032",
+      "115-1_FA_032",
+      "114-3_OP_029",
+      "113-3_OP_032",
+      "113-2_OP_029",
+      "112-3_OP_032",
+      "112-2_OP_050",
+      "112-1_OP_049",
+      "111-1_OP_060"
+    ]
   },
   "immunization#questions": {
     "auto": []
@@ -1843,6 +1943,64 @@
       "108-1_PC_055",
       "107-2_PC_076",
       "107-1_FA_079"
+    ]
+  },
+  "pediatric-injuries#car-seat": {
+    "auto": []
+  },
+  "pediatric-injuries#home-safety": {
+    "auto": []
+  },
+  "pediatric-injuries#antidotes": {
+    "auto": []
+  },
+  "pediatric-injuries#common-poisons": {
+    "auto": []
+  },
+  "pediatric-injuries#epistaxis": {
+    "auto": []
+  },
+  "pediatric-injuries#multiple-trauma": {
+    "auto": []
+  },
+  "pediatric-injuries#shaken-baby": {
+    "auto": []
+  },
+  "pediatric-injuries#questions": {
+    "auto": [
+      "115-2_PC_018",
+      "115-2_OP_027",
+      "115-2_MS_048",
+      "115-1_MS_049",
+      "114-3_PC_043",
+      "114-3_OP_028",
+      "114-3_MS_047",
+      "114-2_OP_027",
+      "114-2_BM_048",
+      "114-1_BM_024"
+    ]
+  },
+  "pediatric-nursing-foundations#nurse-roles": {
+    "auto": []
+  },
+  "pediatric-nursing-foundations#family-centered": {
+    "auto": []
+  },
+  "pediatric-nursing-foundations#policy": {
+    "auto": []
+  },
+  "pediatric-nursing-foundations#questions": {
+    "auto": [
+      "115-2_OP_035",
+      "115-1_OP_035",
+      "114-2_OP_013",
+      "114-1_OP_033",
+      "113-2_OP_001",
+      "112-3_PC_032",
+      "112-3_OP_028",
+      "111-2_PC_058",
+      "111-2_FA_073",
+      "111-1_OP_046"
     ]
   },
   "postpartum-care#assessment": {
@@ -5552,6 +5710,35 @@
       "111-1_PC_024"
     ]
   },
+  "antidotes#toxidromes": {
+    "auto": []
+  },
+  "antidotes#decontamination": {
+    "auto": []
+  },
+  "antidotes#antidote-table": {
+    "auto": []
+  },
+  "antidotes#heavy-metals": {
+    "auto": []
+  },
+  "antidotes#environmental": {
+    "auto": []
+  },
+  "antidotes#questions": {
+    "auto": [
+      "115-2_OP_027",
+      "115-1_MS_048",
+      "114-3_MS_047",
+      "113-1_OP_026",
+      "111-2_MS_077",
+      "109-2_OP_045",
+      "109-2_MS_079",
+      "107-2_MS_077",
+      "106-2_makeup_OP_042",
+      "106-2_BM_049"
+    ]
+  },
   "antiepileptics#mechanism": {
     "auto": []
   },
@@ -6199,6 +6386,47 @@
       "111-2_OP_049"
     ]
   },
+  "pharmacokinetics-pharmacodynamics#receptors": {
+    "auto": []
+  },
+  "pharmacokinetics-pharmacodynamics#dose-response": {
+    "auto": []
+  },
+  "pharmacokinetics-pharmacodynamics#agonists-antagonists": {
+    "auto": []
+  },
+  "pharmacokinetics-pharmacodynamics#absorption": {
+    "auto": []
+  },
+  "pharmacokinetics-pharmacodynamics#distribution": {
+    "auto": []
+  },
+  "pharmacokinetics-pharmacodynamics#metabolism": {
+    "auto": []
+  },
+  "pharmacokinetics-pharmacodynamics#elimination": {
+    "auto": []
+  },
+  "pharmacokinetics-pharmacodynamics#interactions": {
+    "auto": []
+  },
+  "pharmacokinetics-pharmacodynamics#pregnancy": {
+    "auto": []
+  },
+  "pharmacokinetics-pharmacodynamics#questions": {
+    "auto": [
+      "115-2_BM_035",
+      "115-2_BM_033",
+      "115-1_MS_048",
+      "115-1_BM_039",
+      "115-1_BM_033",
+      "115-1_BM_009",
+      "114-3_MS_048",
+      "114-3_BM_036",
+      "114-3_BM_015",
+      "114-2_MS_004"
+    ]
+  },
   "pituitary-hormones#growth-hormone": {
     "auto": []
   },
@@ -6788,6 +7016,9 @@
   "atypical-bacteria#questions": {
     "auto": []
   },
+  "candida#candida-albicans": {
+    "auto": []
+  },
   "candida#questions": {
     "auto": []
   },
@@ -7186,6 +7417,44 @@
       "106-2_BM_033"
     ]
   },
+  "cell-structure-function#body-organization": {
+    "auto": []
+  },
+  "cell-structure-function#cell-membrane": {
+    "auto": []
+  },
+  "cell-structure-function#organelles": {
+    "auto": []
+  },
+  "cell-structure-function#nucleus": {
+    "auto": []
+  },
+  "cell-structure-function#membrane-transport": {
+    "auto": []
+  },
+  "cell-structure-function#cell-cycle": {
+    "auto": []
+  },
+  "cell-structure-function#organic-compounds": {
+    "auto": []
+  },
+  "cell-structure-function#epithelium": {
+    "auto": []
+  },
+  "cell-structure-function#questions": {
+    "auto": [
+      "115-2_BM_002",
+      "115-1_BM_012",
+      "115-1_BM_001",
+      "114-3_BM_048",
+      "114-3_BM_001",
+      "114-2_BM_050",
+      "114-2_BM_023",
+      "114-2_BM_011",
+      "113-2_BM_011",
+      "113-1_BM_001"
+    ]
+  },
   "complement-system#questions": {
     "auto": []
   },
@@ -7570,6 +7839,9 @@
       "113-2_BM_015"
     ]
   },
+  "hypersensitivity-reactions#testing": {
+    "auto": []
+  },
   "hypersensitivity-reactions#questions": {
     "auto": []
   },
@@ -7842,6 +8114,9 @@
     "auto": []
   },
   "muscular-system#lower-limb": {
+    "auto": []
+  },
+  "neoplasia#benign-vs-malignant": {
     "auto": []
   },
   "neoplasia#questions": {

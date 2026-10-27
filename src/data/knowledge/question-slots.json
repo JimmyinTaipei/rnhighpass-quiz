@@ -207,6 +207,17 @@
     "limit": 60
   },
   {
+    "qkey": "nursing-workload-productivity#productivity",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_FA_047"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "nursing-workload-productivity#questions",
     "tag": null,
     "adm": "護理人力推算公式|病人分類系統|護理生產力與HPPD",
@@ -259,6 +270,17 @@
     "keyword": null,
     "ids": [],
     "limit": 60
+  },
+  {
+    "qkey": "planning-strategy#vision",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_FA_036"
+    ],
+    "limit": null
   },
   {
     "qkey": "planning-strategy#questions",
@@ -593,6 +615,17 @@
     "limit": 12
   },
   {
+    "qkey": "cancer-treatment-toxicities#xerostomia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_037"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "cancer-treatment-toxicities#questions",
     "tag": null,
     "adm": null,
@@ -720,6 +753,210 @@
       "106-2_makeup_PC_030"
     ],
     "limit": null
+  },
+  {
+    "qkey": "child-growth-development#principles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#weight-height",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_058",
+      "115-1_OP_028",
+      "109-2_OP_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#head-proportions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_030",
+      "112-1_OP_044",
+      "110-1_OP_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#teeth",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_043",
+      "106-2_makeup_OP_041",
+      "106-1_OP_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#systems",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_042",
+      "105-2_OP_046",
+      "110-1_OP_050",
+      "111-1_OP_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#motor",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_031",
+      "113-2_OP_026",
+      "113-1_OP_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#language-iq",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#theories",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_043",
+      "106-2_OP_048",
+      "106-2_makeup_OP_045",
+      "115-2_OP_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#piaget",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_048",
+      "110-2_OP_049",
+      "110-2_OP_051",
+      "109-2_OP_048",
+      "108-1_OP_056",
+      "107-2_OP_059",
+      "106-2_makeup_OP_048",
+      "113-3_OP_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#illness-concepts",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_033",
+      "112-2_OP_049",
+      "112-2_OP_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#play",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_051",
+      "113-3_OP_029",
+      "108-2_OP_044",
+      "112-1_OP_043",
+      "105-1_OP_043",
+      "114-3_OP_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#drawing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_031",
+      "110-2_OP_050",
+      "109-1_OP_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#temperament",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_031",
+      "114-2_OP_030",
+      "113-1_OP_031",
+      "112-2_OP_046",
+      "112-1_OP_047",
+      "106-2_OP_049",
+      "105-2_OP_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#ddst",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_042",
+      "107-2_OP_041",
+      "106-2_OP_047",
+      "106-2_makeup_OP_049",
+      "106-1_OP_042",
+      "105-2_OP_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "child-growth-development#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "皮亞傑|Piaget|艾瑞克森|Erikson|丹佛|DDST|氣質|平行遊戲|聯合遊戲|乳齒|囟門",
+    "ids": [],
+    "limit": 10
   },
   {
     "qkey": "chronically-ill-children#trends",
@@ -2346,7 +2583,8 @@
     "ids": [
       "106-1_PC_056",
       "108-2_PC_056",
-      "112-3_PC_044"
+      "112-3_PC_044",
+      "112-2_MS_035"
     ],
     "limit": null
   },
@@ -2396,6 +2634,118 @@
       "114-2_PC_047"
     ],
     "limit": 60
+  },
+  {
+    "qkey": "hospitalized-child#stressors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_046",
+      "108-2_OP_058",
+      "109-2_OP_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hospitalized-child#separation-anxiety",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_029",
+      "113-3_OP_032",
+      "112-2_OP_050",
+      "112-1_OP_049",
+      "110-1_OP_042",
+      "109-1_OP_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hospitalized-child#age-responses",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_060",
+      "115-1_OP_032",
+      "111-2_OP_047",
+      "108-2_OP_041",
+      "105-2_OP_044",
+      "112-3_OP_032",
+      "111-2_OP_050",
+      "106-2_makeup_OP_047",
+      "114-1_OP_031",
+      "115-2_OP_032",
+      "106-2_OP_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hospitalized-child#communication",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_029",
+      "108-1_OP_057"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hospitalized-child#therapeutic-play",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_044",
+      "111-1_OP_060",
+      "113-2_OP_029",
+      "108-1_OP_072",
+      "107-1_OP_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hospitalized-child#pain-concepts",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_048",
+      "108-1_OP_042",
+      "109-1_OP_067"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hospitalized-child#family-siblings",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_052",
+      "111-2_OP_057",
+      "107-1_OP_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hospitalized-child#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "分離焦慮|抗議期|失望期|去依戀|治療性遊戲|住院壓力|住院兒童",
+    "ids": [],
+    "limit": 10
   },
   {
     "qkey": "immunization#questions",
@@ -2520,7 +2870,8 @@
     "keyword": null,
     "ids": [
       "108-1_FA_070",
-      "105-2_MS_079"
+      "105-2_MS_079",
+      "110-1_MS_080"
     ],
     "limit": null
   },
@@ -4738,6 +5089,166 @@
     "adm": null,
     "drug": null,
     "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "pediatric-injuries#car-seat",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_028",
+      "112-2_OP_041",
+      "111-2_OP_043",
+      "113-2_PC_043",
+      "106-2_makeup_OP_044",
+      "114-3_PC_043",
+      "106-2_OP_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-injuries#home-safety",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-injuries#antidotes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_027",
+      "114-2_OP_027",
+      "109-1_OP_041",
+      "111-2_OP_045",
+      "110-2_OP_056",
+      "110-1_OP_044",
+      "107-1_OP_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-injuries#common-poisons",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_045",
+      "113-1_OP_026",
+      "106-2_makeup_OP_042",
+      "112-1_OP_045",
+      "105-2_OP_043",
+      "106-2_OP_043",
+      "109-2_OP_044",
+      "111-2_PC_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-injuries#epistaxis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-injuries#multiple-trauma",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-injuries#shaken-baby",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_043",
+      "111-1_OP_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-injuries#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "事故傷害|安全座椅|誤食|鉛中毒|鐵劑中毒|催吐|流鼻血|搖晃症候群",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "pediatric-nursing-foundations#nurse-roles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_028",
+      "106-2_OP_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-nursing-foundations#family-centered",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_028",
+      "112-1_OP_042",
+      "105-1_OP_046",
+      "114-1_OP_033",
+      "111-1_OP_046",
+      "111-1_OP_045",
+      "109-1_OP_055",
+      "106-1_OP_043",
+      "115-1_OP_035",
+      "110-1_OP_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-nursing-foundations#policy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_041",
+      "108-2_OP_054",
+      "107-1_OP_056"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-nursing-foundations#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "以家庭為中心|賦權|empowerment|兒科護理師的角色|兒科護理人員的角色",
     "ids": [],
     "limit": 10
   },
@@ -16280,6 +16791,91 @@
     "limit": 12
   },
   {
+    "qkey": "antidotes#toxidromes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_049",
+      "111-2_BM_016",
+      "109-2_PC_071"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antidotes#decontamination",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_074",
+      "115-2_OP_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antidotes#antidote-table",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_045",
+      "113-1_OP_026",
+      "106-2_makeup_OP_042",
+      "106-2_BM_049",
+      "115-1_MS_048",
+      "114-3_MS_047",
+      "111-2_MS_077",
+      "109-2_MS_079",
+      "107-2_MS_077",
+      "107-2_BM_018",
+      "111-2_BM_033",
+      "111-1_OP_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antidotes#heavy-metals",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_045",
+      "109-2_OP_044",
+      "111-2_PC_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antidotes#environmental",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_048",
+      "106-2_makeup_MS_078",
+      "107-1_MS_073",
+      "106-1_MS_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antidotes#questions",
+    "tag": null,
+    "adm": null,
+    "drug": [
+      "中毒解毒劑"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "antiepileptics#mechanism",
     "tag": null,
     "adm": null,
@@ -18059,6 +18655,136 @@
       "止痛用藥"
     ],
     "keyword": "嗎啡|Morphine|morphine|鴉片|opioid|Fentanyl|fentanyl|Demerol|meperidine|Pethidine|naloxone|Naloxone|codeine|可待因",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "pharmacokinetics-pharmacodynamics#receptors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_033",
+      "112-2_BM_031",
+      "105-1_BM_049",
+      "108-2_BM_057"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pharmacokinetics-pharmacodynamics#dose-response",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_034",
+      "106-2_makeup_BM_049",
+      "106-2_BM_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pharmacokinetics-pharmacodynamics#agonists-antagonists",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pharmacokinetics-pharmacodynamics#absorption",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_BM_049",
+      "109-2_BM_053",
+      "106-1_BM_049",
+      "110-1_BM_059",
+      "106-1_BM_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pharmacokinetics-pharmacodynamics#distribution",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_BM_035",
+      "105-1_BM_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pharmacokinetics-pharmacodynamics#metabolism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_031",
+      "111-1_BM_054",
+      "107-2_BM_049",
+      "114-3_BM_031",
+      "115-2_BM_035",
+      "106-1_BM_060",
+      "107-1_BM_049",
+      "105-2_BM_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pharmacokinetics-pharmacodynamics#elimination",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_BM_054",
+      "105-2_BM_049",
+      "106-2_MS_074"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pharmacokinetics-pharmacodynamics#interactions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_FA_011",
+      "111-2_FA_020",
+      "108-2_FA_031",
+      "108-1_FA_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pharmacokinetics-pharmacodynamics#pregnancy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pharmacokinetics-pharmacodynamics#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "生體可用率|首渡效應|半衰期|治療指數|藥物動力學|藥效學|P450|拮抗",
     "ids": [],
     "limit": 10
   },
@@ -19870,6 +20596,17 @@
     "limit": null
   },
   {
+    "qkey": "candida#candida-albicans",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_BM_075"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "candida#questions",
     "tag": null,
     "adm": null,
@@ -21367,6 +22104,143 @@
     "limit": 12
   },
   {
+    "qkey": "cell-structure-function#body-organization",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_001",
+      "105-2_BM_003",
+      "109-2_BM_001",
+      "107-1_BM_005",
+      "114-1_BM_011",
+      "108-1_BM_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-structure-function#cell-membrane",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_BM_011",
+      "110-2_BM_001",
+      "110-2_BM_021",
+      "113-2_BM_010",
+      "108-1_BM_079"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-structure-function#organelles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_001",
+      "113-1_BM_001",
+      "111-1_BM_001",
+      "112-3_BM_002",
+      "109-1_BM_002",
+      "107-2_BM_017",
+      "115-2_BM_011",
+      "110-1_BM_065",
+      "106-1_BM_068",
+      "106-2_makeup_BM_017",
+      "114-2_BM_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-structure-function#nucleus",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_004",
+      "109-1_BM_019",
+      "108-1_BM_017",
+      "113-1_BM_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-structure-function#membrane-transport",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_001",
+      "114-2_BM_011",
+      "106-2_BM_017",
+      "110-1_BM_022",
+      "105-2_BM_017",
+      "109-2_BM_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-structure-function#cell-cycle",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_017",
+      "107-1_BM_008",
+      "107-1_MS_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-structure-function#organic-compounds",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_017",
+      "107-1_BM_017",
+      "110-2_BM_032",
+      "112-2_FA_043",
+      "111-2_FA_043",
+      "114-2_FA_027",
+      "111-1_BM_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-structure-function#epithelium",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_012",
+      "108-2_BM_013",
+      "108-1_BM_001",
+      "106-2_BM_011",
+      "106-2_makeup_BM_001",
+      "105-1_BM_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cell-structure-function#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "胞器|粒線體|高基氏體|溶小體|核糖體|主動運輸|有絲分裂|上皮組織",
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "complement-system#questions",
     "tag": null,
     "adm": null,
@@ -22596,6 +23470,17 @@
     "limit": 8
   },
   {
+    "qkey": "hypersensitivity-reactions#testing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_048"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "hypersensitivity-reactions#questions",
     "tag": null,
     "adm": null,
@@ -23788,6 +24673,19 @@
       "107-2_BM_004",
       "115-1_BM_013",
       "113-3_BM_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neoplasia#benign-vs-malignant",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_038",
+      "106-2_makeup_MS_037",
+      "110-2_BM_044"
     ],
     "limit": null
   },
@@ -26219,7 +27117,8 @@
       "111-2_FA_026",
       "115-2_FA_020",
       "110-2_FA_033",
-      "105-2_FA_024"
+      "105-2_FA_024",
+      "112-1_FA_027"
     ],
     "limit": null
   },

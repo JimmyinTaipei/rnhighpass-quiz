@@ -166,6 +166,18 @@
    "autism-spectrum-disorder",
    "eating-disorders"
   ],
+  "兒科-Ch02兒童的生長與發展 > 生理發展": [
+   "child-growth-development"
+  ],
+  "兒科-Ch02兒童的生長與發展 > 心理社會與認知發展": [
+   "child-growth-development"
+  ],
+  "兒科-Ch02兒童的生長與發展 > 氣質、發展篩檢與特殊問題": [
+   "child-growth-development"
+  ],
+  "兒科-Ch02兒童的生長與發展 > 綜合題型": [
+   "child-growth-development"
+  ],
   "兒科-Ch15兒童內分泌系統疾病與慢性病 > 慢性疾病兒童及其家庭之護理": [
    "chronically-ill-children",
    "diabetes"
@@ -297,6 +309,7 @@
   ],
   "兒科-Ch16兒童事故傷害及其護理 > 常見傷害種類及其護理": [
    "family-violence",
+   "pediatric-injuries",
    "burns"
   ],
   "兒科-Ch16兒童事故傷害及其護理 > 綜合題型": [
@@ -343,6 +356,12 @@
   ],
   "社區-Ch10長期照護 > 護理人員在長期照護的角色與功能": [
    "home-care-discharge-planning"
+  ],
+  "兒科-Ch05住院兒童之反應及其護理 > 住院兒童的壓力反應": [
+   "hospitalized-child"
+  ],
+  "兒科-Ch05住院兒童之反應及其護理 > 協助兒童及家庭因應住院壓力": [
+   "hospitalized-child"
   ],
   "微免-Ch03免疫異常與疫苗應用 > 疫苗與預防接種應用": [
    "immunization",
@@ -581,6 +600,15 @@
   ],
   "基護-Ch02醫療環境 > 病人的環境－病人單位": [
    "patient-safety-environment"
+  ],
+  "兒科-Ch16兒童事故傷害及其護理 > 事故傷害的預防": [
+   "pediatric-injuries"
+  ],
+  "兒科-Ch01緒論 > 兒科護理的基本概念": [
+   "pediatric-nursing-foundations"
+  ],
+  "兒科-Ch01緒論 > 兒科護理的起源與發展": [
+   "pediatric-nursing-foundations"
   ],
   "產科-Ch08產後期之護理 > 產後評估": [
    "postpartum-care"
@@ -1708,6 +1736,15 @@
    "antiplatelets",
    "thrombolytics"
   ],
+  "藥理-Ch13毒理學、成癮藥物與生物製劑 > 毒理學總論": [
+   "antidotes"
+  ],
+  "藥理-Ch13毒理學、成癮藥物與生物製劑 > 重金屬中毒及其螯合劑": [
+   "antidotes"
+  ],
+  "藥理-Ch13毒理學、成癮藥物與生物製劑 > 農藥與環境毒物": [
+   "antidotes"
+  ],
   "藥理-Ch03中樞神經與精神科藥物 > 抗癲癇藥物": [
    "antiepileptics"
   ],
@@ -1792,6 +1829,15 @@
    "loop-diuretics",
    "potassium-sparing-diuretics",
    "thiazide-diuretics"
+  ],
+  "藥理-Ch01藥理學總論與藥物動力/藥效學 > 藥理學總論": [
+   "pharmacokinetics-pharmacodynamics"
+  ],
+  "藥理-Ch01藥理學總論與藥物動力/藥效學 > 藥效學": [
+   "pharmacokinetics-pharmacodynamics"
+  ],
+  "藥理-Ch01藥理學總論與藥物動力/藥效學 > 藥物動力學": [
+   "pharmacokinetics-pharmacodynamics"
   ],
   "藥理-Ch10內分泌與新陳代謝藥物 > 腦下垂體激素相關藥物": [
    "pituitary-hormones"
@@ -1984,6 +2030,21 @@
   ],
   "病理-Ch01緒論與細胞傷害、適應 > 細胞死亡": [
    "cell-injury-adaptation"
+  ],
+  "生解-Ch01緒論、細胞組織與生化 > 人體組織構造總論": [
+   "cell-structure-function"
+  ],
+  "生解-Ch01緒論、細胞組織與生化 > 細胞的構造與功能": [
+   "cell-structure-function"
+  ],
+  "生解-Ch01緒論、細胞組織與生化 > 細胞生理現象": [
+   "cell-structure-function"
+  ],
+  "生解-Ch01緒論、細胞組織與生化 > 化合物與生命過程": [
+   "cell-structure-function"
+  ],
+  "生解-Ch01緒論、細胞組織與生化 > 人體四大基本組織": [
+   "cell-structure-function"
   ],
   "微免-Ch02先天與後天免疫系統 > 先天性免疫系統（非特異性防禦）": [
    "complement-system",
@@ -2312,13 +2373,7 @@
  },
  "chapters": {
   "生解-Ch01緒論、細胞組織與生化": {
-   "missing": [
-    "人體組織構造總論",
-    "細胞的構造與功能",
-    "細胞生理現象",
-    "化合物與生命過程",
-    "人體四大基本組織"
-   ]
+   "missing": []
   },
   "生解-Ch02皮膚系統": {
    "missing": []
@@ -2427,10 +2482,7 @@
   },
   "藥理-Ch01藥理學總論與藥物動力/藥效學": {
    "missing": [
-    "藥理學總論",
-    "藥物法規與重要名詞解說",
-    "藥效學",
-    "藥物動力學"
+    "藥物法規與重要名詞解說"
    ]
   },
   "藥理-Ch02自主神經系統藥物": {
@@ -2471,11 +2523,7 @@
    "missing": []
   },
   "藥理-Ch13毒理學、成癮藥物與生物製劑": {
-   "missing": [
-    "毒理學總論",
-    "重金屬中毒及其螯合劑",
-    "農藥與環境毒物"
-   ]
+   "missing": []
   },
   "微免-Ch01微生物學總論與微生物控制": {
    "missing": [
@@ -2724,16 +2772,10 @@
    ]
   },
   "兒科-Ch01緒論": {
-   "missing": [
-    "兒科護理的基本概念",
-    "兒科護理的起源與發展"
-   ]
+   "missing": []
   },
   "兒科-Ch02兒童的生長與發展": {
    "missing": [
-    "生理發展",
-    "心理社會與認知發展",
-    "氣質、發展篩檢與特殊問題",
     "兒童的營養需求"
    ]
   },
@@ -2747,8 +2789,6 @@
   },
   "兒科-Ch05住院兒童之反應及其護理": {
    "missing": [
-    "住院兒童的壓力反應",
-    "協助兒童及家庭因應住院壓力",
     "住院過程中的護理"
    ]
   },
@@ -2796,9 +2836,7 @@
    "missing": []
   },
   "兒科-Ch16兒童事故傷害及其護理": {
-   "missing": [
-    "事故傷害的預防"
-   ]
+   "missing": []
   },
   "兒科-Ch17兒童、青少年發展及心理社會健康問題之護理": {
    "missing": []

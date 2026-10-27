@@ -5,21 +5,32 @@
 
 ## 目前輪次
 
-- **輪次**：第 16 輪 產科＋新生兒(拆 16a 生殖婦科、16b 妊娠期、16c 分娩、16d 產後、16e 新生兒)；**第 16 輪全部完成(2026-10-27)**：16-0、16a–16e；下一輪第 17 輪(17a、17b，17b 結束才寫回部署)；**部署延到 17b，第 17 輪在分支 claude/knowledge-assets 做**
-- **計畫**：[round-plans-13-17.md](round-plans-13-17.md)「第 16 輪」；本檔下方步驟表是細分組
-- **每小輪一個新對話**：開工先讀本檔 → round-plans-13-17.md 第 16 輪 → [sources/obstetrics.md](sources/obstetrics.md)(**第一節題本章 → 課本章對照，章號不一樣**；第七節是這輪的移交 14 列與分配)
-- **寫回與部署(使用者 2026-10-27 決定)**：第 16、17 輪**只在最後一批做**：**16e 結束**時寫回 Supabase＋部署 workers.dev，**17b 結束**時再做一次；16b、16c、16d、17a 收尾**不寫回、不部署**(只跑 build、resolver、涵蓋報告、source-scan)。16a 在決定前已寫回並部署(版本 ed3095ba)
-- **範圍**(涵蓋)：16-0 時 8134/8960；16a 後 8291；16b 後 8436；16c 後 8600；16d 後 8734；**16e 後 8827/8960**(產科 100%)
-- **來源包**：[sources/obstetrics.md](sources/obstetrics.md)；圖片盤點 [sources/obstetrics-images.md](sources/obstetrics-images.md)
-- **taxonomy**：obstetrics 7 組(pregnancy-physiology、fetal-assessment(lab)、perinatal-care(care)、pregnancy-complications、newborn-care(care)、neonatal-diseases、obstetric-drugs)；reproductive 5 組(reproductive-physiology、gynecologic-diseases、reproductive-health(care)、gynecologic-drugs、contraceptives)
-- **歸屬原則**：懷孕、分娩、產後、新生兒(含早產兒)頁 → obstetrics；生殖構造、婦科、男性生殖、避孕與不孕 → reproductive；受精與胚胎、胎兒發育 → obstetrics pregnancy-physiology；新生兒頁加 `peds: true`
-- **待回補連結**(純文字「(16x 待寫)」，寫好後改成 [[…]])：
-   1. 16b 的 4 處已改成連結 ✅
-   2. 16c 的 10 處已改成連結 ✅
-   3. 16d 的 7 處已改成連結 ✅(另 maternal-child-health#breastfeeding 1 處)
-   4. 16e 的全部已改成連結 ✅(原清單：fertilization-embryology 2 處(單一臍動脈、斷臍與臍帶護理)、high-risk-pregnancy 2 處(新生兒低血糖、ABO 黃疸)、labor-process 1 處(產瘤、頭血腫)、intrapartum-care 2 處(新生兒復甦、新生兒評估；**Apgar 表暫放 intrapartum-care#third-stage-care**，16e 決定搬到新生兒頁再嵌入)、labor-complications 2 處(早產兒照護、頭血腫與產瘤比較)、**breastfeeding 2 處**(#nutrients 維生素 D、#adequate-intake 新生兒評估)＋#breastfeeding-jaundice 1 處(新生兒黃疸照光))
-   5. 用 `grep -rn "16[de] 待寫" content/knowledge` 找全部
-- **狀態**：**第 16 輪內容全部完成**；16e 收尾已寫回 Supabase；16e 部署因 Worker 超過 64 MiB 失敗，**打包方式已改好(分支 claude/knowledge-assets，見 [deploy-size-plan.md](deploy-size-plan.md))，使用者決定第 17 輪做完再部署**；下一步第 17 輪 17a(新對話，**在 claude/knowledge-assets 分支上做**)
+- **輪次**：第 17 輪 兒科通論＋藥理生解剩餘＋總收尾(拆 17a 兒科通論、17b 藥理生解剩餘與零星題＋總收尾)；**在分支 claude/knowledge-assets 做**
+- **計畫**：[round-plans-13-17.md](round-plans-13-17.md)「第 17 輪」
+- **寫回與部署**：**只在 17b 結束**寫回 Supabase＋照 [deploy-size-plan.md](deploy-size-plan.md) 第 4 步部署；17a 不寫回、不部署；17b 做完再 git commit＋push(使用者 2026-10-27 要求)
+- **範圍**(涵蓋)：第 17 輪開始 8827/8960；17a 後 8911/8960；**17b 後 8960/8960(11 科全部 100%，知識庫建完)**
+- **taxonomy**：fundamentals 新增 group `child-health`(兒童生長發展與照護，care)、`pharmacology-principles`(藥理學總論，drug)；general-pathology 新增 `cell-biology`(細胞與組織，physiology)；critical-care 新增 `antidotes`(中毒與解毒劑，drug，drugTags 中毒解毒劑)
+- **狀態**：17a、17b 內容完成(2026-10-27)；17b 收尾：Supabase 已寫回；**部署待處理**(硬碟只剩約 5 GB，Time Machine 本機快照占用，計畫要求 ≥ 10 GB，待使用者決定)
+
+### 第 17 輪步驟
+
+| 步 | 內容 | 狀態 |
+|---|---|---|
+| 17a | 兒科通論：新頁 4 篇(都在 care/、system fundamentals、group child-health、peds: true) — `care/pediatric-nursing-foundations`(兒少法未滿 18 歲、護理人員角色表、以家庭為中心(增強能力與賦權、夥伴關係、符合與不符合做法表)、無創傷性照護、兒科護理過程、政策)、`care/child-growth-development`(發展原則與四種生長型態、體重身高表、頭圍胸圍囟門與身體比例、**乳齒萌出順序表**與恆齒、各系統發展表、動作發展表、語言與 IQ、**佛洛依德／艾瑞克森／皮亞傑兒童對照表**、皮亞傑各期、**疾病概念表**(Bibace & Walsh)、**遊戲發展表**、**羅文菲爾特繪畫表**、**氣質九向度表**與三型、DDST-II)、`care/hospitalized-child`(壓力源與各年齡害怕表、**分離焦慮三期表**、**各年齡反應與護理表**、溝通技巧、**治療性遊戲三類表**與遊戲治療區分、處置與手術前準備、**疼痛概念與反應表**、父母與手足)、`care/pediatric-injuries`(流行病學與危險因子、**各年齡事故表**、**安全座椅表**(道路交通安全規則第 39 條之 1)、居家安全、中毒處理與**去除毒物方法表**、**解毒劑表**、水楊酸／乙醯胺基酚／鐵／腐蝕性／碳氫化合物／鉛、流鼻血、牙齒損傷、**PTS 表**、嬰兒搖晃症候群)；emergency-nursing#poisoning「見第 16–17 輪兒科頁」改成連結；移交第 14 輪(burns#pediatric)、第 15 輪(兒童誤食)、第 16 輪(兒科 Ch05)✅；**範圍 4 章 100%**(兒科 Ch01 17/17、Ch02 106/106、Ch05 83/83、Ch16 65/65)；全部 8827 → **8911/8960**；build(400 篇)、resolver、export、source-scan(4 篇無重疊)；本輪無新圖；**依計畫不寫回、不部署** | ✅ 2026-10-27 |
+| 17b | 藥理生解剩餘＋零星題＋總收尾：新頁 3 篇 — `physiology/cell-structure-function`(general-pathology／cell-biology；組成階層、解剖姿勢與體腔、腹部九分區、細胞膜與細胞連接表、**胞器膜層數與功能表**、細胞核與蛋白質合成、**膜運輸表**(初級 vs 次級主動運輸)、**有絲分裂表**、有機化合物、**上皮種類表**)、`drug/pharmacokinetics-pharmacodynamics`(fundamentals／pharmacology-principles；受體類型表與 Gs/Gi/Gq、劑量反應與 TI、**拮抗類型表**、吸收與首渡效應、生體相等性、分布與再分布、第一二相代謝、**CYP 誘導劑與抑制劑表**、半衰期與清除率、**交互作用表**、懷孕期藥動學)、`drug/antidotes`(critical-care／antidotes；處理原則、**中毒症候群表**、**去除毒物表**、**解毒劑總表**、重金屬、環境農藥)；零星 11 題併入 neoplasia、hypersensitivity-reactions、candida(送分註明)、heat-cold-therapy、planning-strategy、nursing-workload-productivity(送分註明)、health-promotion、cancer-treatment-toxicities、infection-control；emergency-nursing#poisoning 與 medication-administration-principles 連到新頁；移交第 5、8、15 輪(毒理、藥動學)✅；**全部 8911 → 8960/8960(11 科 100%)**；build(403 篇)、resolver、export、source-scan(3 篇無重疊)、image-license-review(146 張需替換 0)；**sync_all 寫回 Supabase**(題目 8960、question_tags 16674＝來源，本輪沒有標籤合併，不用刪)；部署見狀態列 | ✅ 2026-10-27(部署 ⬜) |
+
+### 第 17 輪需確認清單
+
+1. 17a 國考答案照寫並註明：111-2_OP_045 鐵劑「可催吐」、109-1_OP_041 毒菇可催吐(現在吐根糖漿已不建議在家常規使用，AAP 2003)；腐蝕性物質 2 小時內喝少量水或牛奶(課本)；107-2_OP_059 答「感覺動作期」，頁面用課本「心靈表象階段(18–24 個月)」解釋
+2. 17a 待核對：頸部淋巴結正常與異常特徵(依國考詳解)；「2025 衛生福利政策白皮書」低出生體重比率目標(詳解寫 7.5% 以下)；DDST-II「30 個月 90% 能說 6 個身體部位」只依國考題；課本寫新生兒「疼痛閾值與感受度較差」，頁面改依 AAP 2016 寫早產兒更敏感
+3. 17a 圖：沒做；建議之後做**乳齒萌出順序圖**(原創 SVG)、**囟門位置圖**(可和 16e 產瘤頭血腫圖一起)；安全座椅先用表格
+4. 111-2_OP_043 安全座椅題官方送分，頁面已註明
+5. 17b 待核對：學名藥生體相等性的食藥署規範只寫概念(原文待核對)；解毒劑表的時效(如 NAC 約 8–10 小時內)依一般教科書與 Dart 2018，劑量沒寫
+6. 17b 的 107-2_BM_075(念珠菌)、114-1_FA_036(使命)、115-1_FA_047(護理生產力)是送分題，頁面已註明
+
+## 第 16 輪摘要(已完成)
+
+- 16-0、16a–16e 全部完成，產科 100%，8827/8960；16e 已寫回 Supabase，部署延到 17b
 
 ### 第 16 輪步驟
 
