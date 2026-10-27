@@ -99,7 +99,7 @@
 | 3 | dz:認知功能障礙 | 5 | 沒有頁面認領；105-1_OP_042 是認知障礙**兒童**的發展，其餘 4 題是精神狀態檢查(記憶、注意力、計算) | 105-1_OP_042 改標 智能障礙(intellectual-disability)；其餘維持 認知功能障礙，加進 schizophrenia 的 dzTags(精神狀態評估段在該頁 #assessment) |
 | 4 | drug:中樞神經作用藥物 | 1 | 107-1_BM_049 問肝臟酵素誘導(phenobarbital)，不屬任何藥物組 | 改標到藥理學總論(pharmacokinetics-pharmacodynamics 頁有 CYP 誘導劑表)，需在 pharmacology-principles 組加 drugTags |
 
-第 1、2 項只改頁面的 dzTags；第 3、4 項要動 04／05 題目標籤(兩邊同步並記在 題目修正紀錄.md)，寫回 Supabase 時一起做
+**2026-10-27 使用者同意 4 項全部照建議，已完成**：depressive-disorder 加 自殺行為、自殺意念；dementia 加 認知障礙症；schizophrenia 加 認知功能障礙；105-1_OP_042 改標 dz:智能障礙、107-1_BM_049 改標 drug:藥理學總論(pharmacology-principles 組新增 drugTags)；01／02 同步、記在題目修正紀錄
 
 ## 四、收尾事項
 

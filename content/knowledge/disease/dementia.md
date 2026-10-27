@@ -2,7 +2,7 @@
 title: 失智症（重度認知障礙症）
 subtitle: Dementia／Major neurocognitive disorder（認知範疇、阿茲海默症與其他類型、分期、精神行為症狀、評估工具、護理、台灣失智照護資源與老年精神健康）
 aliases: [失智症, 認知障礙症, 重度認知障礙症, 輕型認知障礙症, 輕度認知障礙, 神經認知障礙症, Dementia, Major neurocognitive disorder, Mild neurocognitive disorder, MCI, 老年失智症, 老年癡呆症, 阿茲海默症, 阿茲海默氏症, 阿滋海默氏症, Alzheimer disease, 血管性失智症, Vascular dementia, 路易氏體失智症, Lewy body dementia, 額顳葉失智症, Frontotemporal dementia, 年輕型失智症, 失語症, 失用症, 失認症, 虛談, Confabulation, 日落症候群, 黃昏症候群, Sundown syndrome, Sundowning, 精神行為症狀, BPSD, 遊走, 走失, 被偷妄想, 健忘期, 混亂期, 失智期, MMSE, 簡易智能量表, 簡易心智量表, CDR, 臨床失智評估量表, SPMSQ, 簡易心智狀態問卷, AD8, 現實導向, 懷舊治療, 失智共同照護中心, 失智共照中心, 失智社區服務據點, 團體家屋, 瑞智學堂, 失智症防治照護政策綱領, 老年精神衛生, 老年精神健康, 遷移壓力症候群, Relocation stress syndrome]
-dzTags: [失智症, 阿茲海默症]
+dzTags: [失智症, 阿茲海默症, 認知障礙症]
 system: psychiatric
 alsoIn: [neuro, community]
 chapters:

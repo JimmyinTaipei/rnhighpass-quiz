@@ -288,7 +288,7 @@ domains:
       # 2026-10-27 第 17 輪 17a：兒科通論(兒科 Ch01、02、05、16)
       - { id: child-health, name: 兒童生長發展與照護, type: care }
       # 2026-10-27 第 17 輪 17b：藥理 Ch01
-      - { id: pharmacology-principles, name: 藥理學總論, type: drug }
+      - { id: pharmacology-principles, name: 藥理學總論, type: drug, drugTags: [藥理學總論] }
 
   - id: administration
     name: 護理行政

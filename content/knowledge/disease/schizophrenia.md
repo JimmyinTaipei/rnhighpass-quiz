@@ -2,7 +2,7 @@
 title: 思覺失調症
 subtitle: Schizophrenia（舊稱精神分裂症）
 aliases: [精神分裂症, Schizophrenia, 思覺失調, 情感思覺失調症, Schizoaffective disorder, 類思覺失調症, Schizophreniform disorder, 短暫精神病症, Brief psychotic disorder, 妄想症, Delusional disorder, 幻聽, 幻覺, 妄想, 被害妄想, 關係妄想, 正性症狀, 負性症狀, 陽性症狀, 陰性症狀, 治療性溝通, 暴力, 保護約束, 隔離, 精神衛生法, 強制住院, 緊急安置, 強制社區治療, 保護人]
-dzTags: [思覺失調症, 精神疾病]
+dzTags: [思覺失調症, 精神疾病, 認知功能障礙]
 system: psychiatric
 alsoIn: [community]
 chapters:
