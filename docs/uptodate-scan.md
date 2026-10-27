@@ -1,27 +1,33 @@
 # 來源掃描報告(1a)
 
-> 由 `scripts/source-scan.py` 產生。333 篇頁面對 199 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
+> 由 `scripts/source-scan.py` 產生。396 篇頁面對 199 篇 UpToDate 匯出檔，英文 6 字連續詞串比對。
 > 「疑似貼上」＝內文含形似字元(UpToDate 匯出檔的防複製記號)；「逐字重疊」＝共有 6 串以上；「數字序列重疊」＝連續 5 個有辨識度的數字(含單位)與匯出檔順序相同，可能是照原文順序整理，需人工比對；「檢視」＝零星重疊，多半是專有名詞或藥名。
 > **限制**：①中文翻譯式的近似照抄抓不到(只能抓英文詞串與數字序列)，要人工抽查；②國考書 PDF 是掃描圖檔、沒有文字層，無法比對(需要 OCR)；③圖片與表格的重製要人工看。
 
 | 結果 | 頁面 | 引用行數 | 形似字元 | 英文重疊 | 數字序列重疊 | 最相近的匯出檔 | 例 |
 |---|---|---:|---:|---:|---:|---|---|
-| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 免疫相關/Complement pathways(6)；免疫相關/An overview of the innate immune system(6)；免疫相關/Pathogenesis of graft-versus-host disease (GVHD)(6) | an overview of the innate immune |
+| ⚠️ 逐字重疊 | physiology/immune-system-basics.md | 8 | 0 | 6 | 0 | 免疫相關/An overview of the innate immune system(6)；免疫相關/Normal B and T lymphocyte development(6)；免疫相關/Overview of autoimmunity(6) | an overview of the innate immune |
 | 數字序列重疊 | disease/sepsis.md | 4 | 0 | 0 | 3 | 感染相關/Sepsis syndromes in adults: Epidemiology, definitions, clinical presentation, diagnosis, and prognosis(3) |  |
-| 檢視 | care/sleep-rest.md | 0 | 0 | 4 | 0 | 精神科相關/Postpartum unipolar major depression: Epidemiology, clinical features, assessment, and diagnosis(4)；精神科相關/Approach to the adult patient with suspected depression(3)；精神科相關/acute bipolar(3) | diagnostic and statistical manual of mental |
-| 檢視 | procedure/injections.md | 0 | 0 | 3 | 0 | 感染相關/Congenital cytomegalovirus (cCMV) infection: Clinical features and diagnosis(2)；免疫相關/Trigger control to enhance asthma management(2)；癌症相關/Screening for cervical cancer in resource-limited settings(1) | cdc centers for disease control and |
-| 檢視 | care/occupational-health-nursing.md | 0 | 0 | 2 | 0 | 癌症相關/lymphoma in children(2)；癌症相關/Classic Hodgkin lymphoma: Presentation, evaluation, and diagnosis in adults(2)；免疫相關/Normal B and T lymphocyte development(2) | international agency for research on cancer |
+| 檢視 | care/sleep-rest.md | 0 | 0 | 4 | 0 | 精神科相關/Postpartum unipolar major depression: Epidemiology, clinical features, assessment, and diagnosis(4)；精神科相關/acute bipolar(3)；精神科相關/Approach to the adult patient with suspected depression(3) | diagnostic and statistical manual of mental |
+| 檢視 | lab/intrapartum-fetal-monitoring.md | 0 | 0 | 3 | 0 | 精神科相關/Opioid use disorder during pregnancy: Pharmacotherapy with methadone and buprenorphine(3) | national institute of child health and |
+| 檢視 | procedure/injections.md | 0 | 0 | 3 | 0 | 感染相關/Congenital cytomegalovirus (cCMV) infection: Clinical features and diagnosis(2)；免疫相關/Trigger control to enhance asthma management(2)；感染相關/Tetracyclines(1) | cdc centers for disease control and |
+| 檢視 | care/intrapartum-care.md | 0 | 0 | 2 | 0 | 感染相關/Group B streptococcal (GBS) infection in neonates and young infants(2)；精神科相關/Postpartum unipolar major depression: Epidemiology, clinical features, assessment, and diagnosis(1)；精神科相關/Opioid use disorder during pregnancy: Pharmacotherapy with methadone and buprenorphine(1) | acog american college of obstetricians and |
+| 檢視 | care/occupational-health-nursing.md | 0 | 0 | 2 | 0 | 癌症相關/Classic Hodgkin lymphoma: Presentation, evaluation, and diagnosis in adults(2)；免疫相關/Normal B and T lymphocyte development(2)；癌症相關/lymphoma in children(2) | international agency for research on cancer |
+| 檢視 | care/postpartum-care.md | 0 | 0 | 2 | 0 | 感染相關/Group B streptococcal (GBS) infection in neonates and young infants(2)；精神科相關/Postpartum unipolar major depression: Epidemiology, clinical features, assessment, and diagnosis(1)；精神科相關/Opioid use disorder during pregnancy: Pharmacotherapy with methadone and buprenorphine(1) | acog american college of obstetricians and |
+| 檢視 | disease/postpartum-complications.md | 0 | 0 | 2 | 0 | 感染相關/Group B streptococcal (GBS) infection in neonates and young infants(2)；精神科相關/Postpartum unipolar major depression: Epidemiology, clinical features, assessment, and diagnosis(1)；精神科相關/Opioid use disorder during pregnancy: Pharmacotherapy with methadone and buprenorphine(1) | acog american college of obstetricians and |
 | 檢視 | pathogen/human-papillomavirus.md | 0 | 0 | 0 | 2 | 癌症相關/Invasive cervical cancer: Epidemiology, risk factors, clinical manifestations, and diagnosis(2) |  |
-| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Complement pathways(2)；免疫相關/Overview and clinical assessment of the complement system(2)；免疫相關/Acquired disorders of the complement system(2) | regulators and receptors of the complement |
-| 檢視 | care/respiratory-assessment.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Diagnosis and management of asthma in older adults(1) | fev forced expiratory volume in second |
+| 檢視 | physiology/complement-system.md | 12 | 0 | 2 | 0 | 免疫相關/Overview and clinical assessment of the complement system(2)；免疫相關/Normal B and T lymphocyte development(2)；免疫相關/Acquired disorders of the complement system(2) | regulators and receptors of the complement |
+| 檢視 | care/respiratory-assessment.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1)；免疫相關/Diagnosis and management of asthma in older adults(1) | fev forced expiratory volume in second |
 | 檢視 | care/vital-statistics.md | 0 | 0 | 1 | 0 | 精神科相關/Schizophrenia in adults: Clinical features, assessment, and diagnosis(1) | and related health problems th revision |
 | 檢視 | device/dialysis-crrt.md | 0 | 0 | 1 | 0 | 感染相關/Vancomycin: Parenteral dosing, monitoring, and adverse effects in adults(1) | kdigo kidney disease improving global outcomes |
 | 檢視 | disease/chronic-kidney-disease.md | 0 | 0 | 1 | 0 | 感染相關/Vancomycin: Parenteral dosing, monitoring, and adverse effects in adults(1) | kdigo kidney disease improving global outcomes |
-| 檢視 | disease/copd.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Diagnosis and management of asthma in older adults(1) | fev forced expiratory volume in second |
-| 檢視 | disease/liver-cirrhosis.md | 0 | 0 | 1 | 0 | 感染相關/Hepatitis B virus: Screening and diagnosis in adults(1)；感染相關/Hepatitis B virus infection: Overview of management in adults(1)；癌症相關/Clinical manifestations, diagnosis, and grading of acute graft-versus-host disease(1) | metabolic dysfunction associated steatotic liver disease |
+| 檢視 | disease/copd.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1)；免疫相關/Diagnosis and management of asthma in older adults(1) | fev forced expiratory volume in second |
+| 檢視 | disease/liver-cirrhosis.md | 0 | 0 | 1 | 0 | 感染相關/Hepatitis B virus infection: Overview of management in adults(1)；癌症相關/Clinical manifestations, diagnosis, and grading of acute graft-versus-host disease(1)；免疫相關/Measurement and clinical significance of antinuclear antibodies Topic(1) | metabolic dysfunction associated steatotic liver disease |
+| 檢視 | disease/neonatal-disorders.md | 0 | 0 | 1 | 0 | 感染相關/Group B streptococcal (GBS) infection in neonates and young infants(1) | persistent pulmonary hypertension of the newborn |
+| 檢視 | disease/preterm-infant.md | 0 | 0 | 1 | 0 | 感染相關/Group B streptococcal (GBS) infection in neonates and young infants(1) | persistent pulmonary hypertension of the newborn |
 | 檢視 | lab/renal-function-tests.md | 0 | 0 | 1 | 0 | 感染相關/Vancomycin: Parenteral dosing, monitoring, and adverse effects in adults(1) | kdigo kidney disease improving global outcomes |
-| 檢視 | physiology/t-lymphocytes.md | 9 | 0 | 1 | 0 | 免疫相關/Pathogenesis of graft-versus-host disease (GVHD)(1)；免疫相關/Primary humoral immunodeficiencies: An overview(1)；免疫相關/Transplantation immunobiology(1) | normal b and t lymphocyte development |
-| 檢視 | physiology/ventilation-mechanics.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Trigger control to enhance asthma management(1)；免疫相關/Diagnosis and management of asthma in older adults(1) | fev forced expiratory volume in second |
+| 檢視 | physiology/t-lymphocytes.md | 9 | 0 | 1 | 0 | 免疫相關/DiGeorge (22q11.2 deletion) syndrome: Epidemiology and pathogenesis(1)；癌症相關/Classic Hodgkin lymphoma: Presentation, evaluation, and diagnosis in adults(1)；免疫相關/Immunoglobulin genetics(1) | normal b and t lymphocyte development |
+| 檢視 | physiology/ventilation-mechanics.md | 0 | 0 | 1 | 0 | 免疫相關/An overview of asthma management in children and adults(1)；免疫相關/Asthma in adolescents and adults: Evaluation and diagnosis Topic(1)；免疫相關/Diagnosis and management of asthma in older adults(1) | fev forced expiratory volume in second |
 | 無重疊 | admin/accreditation-evaluation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/clinical-ladder-training.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | admin/conflict-change-management.md | 0 | 0 | 0 | 0 | — |  |
@@ -57,6 +63,7 @@
 | 無重疊 | admin/turnover-absenteeism.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/activity-immobility.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/asepsis-sterilization.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/breastfeeding.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/cancer-treatment-toxicities.md | 30 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/child-adolescent-mental-health.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/chronically-ill-children.md | 0 | 0 | 0 | 0 | — |  |
@@ -65,33 +72,54 @@
 | 無重疊 | care/community-mental-health.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/community-nursing-process.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/documentation-orders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/emergency-nursing.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/end-of-life-care.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/environmental-food-hygiene.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/epidemiology.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/family-nursing.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/family-planning.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/family-violence.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/group-family-therapy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/health-administration-system.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/health-education.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/health-equity.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/health-promotion.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/home-care-discharge-planning.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/immunization.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/individual-cognitive-behavioral-therapy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/infection-control.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/infertility.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/labor-pain-relief.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/long-term-care-services.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/long-term-care.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/maternal-child-health.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/milieu-therapy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/national-health-insurance.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/neuro-assessment.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/newborn-assessment.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/newborn-care.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/notifiable-diseases.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/nursing-concepts-health.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/nursing-process.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/nutrition-assessment-diets.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/observation-communication.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/obstetric-nursing-foundations.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/older-adult-chronic-disease.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/pain-management.md | 8 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/patient-safety-environment.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/postpartum-psychosocial-adaptation.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/prenatal-care.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/psychiatric-nursing-foundations.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/psychodynamic-theories.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/school-health.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/stem-cell-transplant.md | 8 | 0 | 0 | 0 | — |  |
 | 無重疊 | care/transfusion-reactions.md | 10 | 0 | 0 | 0 | — |  |
+| 無重疊 | care/wound-dressings.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | device/arterial-line.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | device/artificial-airway.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | device/central-venous-catheter.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | device/chest-tube.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | device/iabp-ecmo.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | device/icp-monitoring.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | device/mechanical-ventilation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/acute-kidney-injury.md | 0 | 0 | 0 | 0 | — |  |
@@ -101,20 +129,26 @@
 | 無重疊 | disease/allergic-contact-dermatitis-latex.md | 11 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/allergic-rhinitis.md | 6 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/anaphylaxis.md | 11 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/anemias.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/anxiety-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/ards-respiratory-failure.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/arrhythmias.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/asthma.md | 8 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/autism-spectrum-disorder.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/autoimmune-diseases.md | 4 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/benign-gynecologic-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/biliary-pancreatic.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/bipolar-disorder.md | 10 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/bleeding-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/brain-tumors.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/breast-cancer.md | 9 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/burns.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/cancer.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/childhood-infectious-diseases.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/chromosomal-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/cns-infections.md | 5 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/colorectal-cancer.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/congenital-heart-disease.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/coronary-artery-disease.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/cranial-nerve-spine-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/cushing-syndrome.md | 0 | 0 | 0 | 0 | — |  |
@@ -127,11 +161,13 @@
 | 無重疊 | disease/eating-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/epilepsy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/eye-disorders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/fractures.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/glomerular-diseases.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/gynecologic-cancers.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/head-injury.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/head-neck-cancers.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/heart-failure.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/high-risk-pregnancy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/hiv-aids.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/hypertension.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/hyperthyroidism.md | 0 | 0 | 0 | 0 | — |  |
@@ -142,22 +178,29 @@
 | 無重疊 | disease/infective-endocarditis.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/intellectual-disability.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/kawasaki-disease.md | 11 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/labor-complications.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/leukemia.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/liver-cancer.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/lower-gi-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/lung-cancer.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/lymphoma-myeloma.md | 4 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/male-reproductive-disorders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/menstrual-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/neuromuscular-demyelinating.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/obsessive-compulsive-disorder.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/osteoarthritis.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/osteoporosis.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/parathyroid-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/parkinson-disease.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-cancers.md | 8 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-endocrine.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-genitourinary.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-gi.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/pediatric-musculoskeletal.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-neuro.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pediatric-respiratory-infections.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/perinatal-infections.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/peripheral-vascular-disease.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/personality-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pheochromocytoma-aldosteronism.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/pituitary-disorders.md | 0 | 0 | 0 | 0 | — |  |
@@ -171,8 +214,10 @@
 | 無重疊 | disease/rheumatoid-arthritis.md | 13 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/schizophrenia.md | 10 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/sexually-transmitted-infections.md | 2 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/shock.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/single-gene-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/skin-bone-infections.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/skin-diseases.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/sle.md | 14 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/somatic-dissociative-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/spinal-cord-injury.md | 0 | 0 | 0 | 0 | — |  |
@@ -185,6 +230,7 @@
 | 無重疊 | disease/urinary-tract-infection.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/urologic-disorders.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/urticaria-angioedema.md | 11 | 0 | 0 | 0 | — |  |
+| 無重疊 | disease/valvular-heart-disease.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/vector-borne-zoonotic.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | disease/viral-hepatitis.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/ace-inhibitors.md | 0 | 0 | 0 | 0 | — |  |
@@ -195,6 +241,7 @@
 | 無重疊 | drug/aminoglycosides.md | 6 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/anesthetics.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/anti-dementia-drugs.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | drug/antiarrhythmics.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/antibiotics-overview.md | 14 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/anticoagulants.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/antidepressants.md | 16 | 0 | 0 | 0 | — |  |
@@ -228,6 +275,7 @@
 | 無重疊 | drug/glp1-receptor-agonists.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/glycopeptides.md | 9 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/gout-drugs.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | drug/hematinics.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/immunosuppressants.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/inotropes.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | drug/insulin.md | 0 | 0 | 0 | 0 | — |  |
@@ -256,6 +304,7 @@
 | 無重疊 | lab/calcium-phosphate.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/cardiac-biomarkers.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/cardiac-catheterization.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | lab/coagulation-tests.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/complete-blood-count.md | 4 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/culture-and-sensitivity.md | 7 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/ecg.md | 0 | 0 | 0 | 0 | — |  |
@@ -270,6 +319,7 @@
 | 無重疊 | lab/liver-function.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/ogtt.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/potassium.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | lab/prenatal-assessment.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/thyroid-function-tests.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/tumor-markers.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | lab/uacr.md | 0 | 0 | 0 | 0 | — |  |
@@ -294,7 +344,9 @@
 | 無重疊 | physiology/adrenal-glands.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/autonomic-nervous-system.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/b-lymphocytes.md | 7 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/blood-hemostasis.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/blood-pressure-regulation.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/blood-vessels.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/brain-anatomy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/cardiac-output.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/cell-injury-adaptation.md | 0 | 0 | 0 | 0 | — |  |
@@ -303,6 +355,8 @@
 | 無重疊 | physiology/edema-shock.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/endocrine-overview.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/environmental-injury.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/female-reproductive-system.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/fertilization-embryology.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/fluid-electrolytes.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/gas-exchange-transport.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/genetic-inheritance.md | 0 | 0 | 0 | 0 | — |  |
@@ -313,13 +367,21 @@
 | 無重疊 | physiology/immunoglobulins-hla.md | 9 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/inflammation-repair.md | 2 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/kidney-urinary-physiology.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/labor-process.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/liver-biliary-pancreas.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/male-reproductive-system.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/maternal-adaptation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/microbial-pathogenesis.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/muscular-system.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neoplasia.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neuron-synapse.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/neurotransmitters-psychiatry.md | 12 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/newborn-adaptation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/nutritional-disorders.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/postpartum-adaptation.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/respiratory-anatomy.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/skeletal-system.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | physiology/skin.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/special-senses.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/spinal-cord-spinal-nerves.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | physiology/thrombosis-embolism-infarction.md | 0 | 0 | 0 | 0 | — |  |
@@ -329,6 +391,7 @@
 | 無重疊 | procedure/bandaging.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | procedure/body-temperature.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | procedure/bowel-elimination.md | 0 | 0 | 0 | 0 | — |  |
+| 無重疊 | procedure/cpr.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | procedure/enteral-parenteral-nutrition.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | procedure/heat-cold-therapy.md | 0 | 0 | 0 | 0 | — |  |
 | 無重疊 | procedure/hygiene-comfort-care.md | 0 | 0 | 0 | 0 | — |  |

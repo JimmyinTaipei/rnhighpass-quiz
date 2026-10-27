@@ -24,7 +24,7 @@ references:
     url: https://mohw.gov.tw/cp-16-87058-1.html
     note: 接種劑次與年齡
 ---
-兒童的消化道在結構與功能上都還在成熟，先天異常多在新生兒期表現，常見問題是嘔吐、腹瀉與脫水。本頁整理嬰兒腸胃特性、脫水評估、復發性腹痛、唇顎裂、嬰兒胃食道逆流、食道閉鎖、幽門狹窄、巨結腸症、肛門閉鎖、各種疝氣、腸套疊、急性腸胃炎與膽道閉鎖；兒童鼻胃管、灌腸與造口技術見 [[enteral-parenteral-nutrition]]、[[bowel-elimination#pediatric-enema]] 與 [[colorectal-cancer#ostomy]]，兒童闌尾炎與乳糜瀉見 [[lower-gi-disorders]]，唇顎裂與幽門狹窄的多因子遺傳見 [[genetic-inheritance#multifactorial]]；早產兒壞死性腸炎留高危險新生兒(另外整理)
+兒童的消化道在結構與功能上都還在成熟，先天異常多在新生兒期表現，常見問題是嘔吐、腹瀉與脫水。本頁整理嬰兒腸胃特性、脫水評估、復發性腹痛、唇顎裂、嬰兒胃食道逆流、食道閉鎖、幽門狹窄、巨結腸症、肛門閉鎖、各種疝氣、腸套疊、急性腸胃炎與膽道閉鎖；兒童鼻胃管、灌腸與造口技術見 [[enteral-parenteral-nutrition]]、[[bowel-elimination#pediatric-enema]] 與 [[colorectal-cancer#ostomy]]，兒童闌尾炎與乳糜瀉見 [[lower-gi-disorders]]，唇顎裂與幽門狹窄的多因子遺傳見 [[genetic-inheritance#multifactorial]]；早產兒壞死性腸炎見 [[preterm-infant#nec]]
 
 ## 重點摘要 {#summary}
 

@@ -11,7 +11,7 @@ chapters:
   - 微免-Ch10特殊病原菌（螺旋體、黴漿菌、立克次體、披衣菌） > 黴漿菌與L型細菌
   - 內外-Ch09呼吸系統疾病 > 肺實質病變
   - 內外-Ch17感覺機能與眼耳鼻喉科疾病 > 喉部疾病與護理
-alsoIn: [respiratory, cardiovascular, renal, reproductive]
+alsoIn: [respiratory, cardiovascular, renal, obstetrics]
 pathogens:
   - id: streptococcus-pyogenes
     name: A 族鏈球菌

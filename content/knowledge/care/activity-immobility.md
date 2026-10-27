@@ -2,7 +2,7 @@
 title: 活動與制動：運動種類、全關節運動、輔具與長期臥床的影響
 subtitle: Activity and immobility — passive, active and resistive exercise, isometric vs isotonic, range of motion, muscle strength grading, crutches, canes and walkers, and the effects of immobility on each body system
 aliases: [活動與運動, 活動, 運動, Activity, Exercise, 制動, 不動, Immobility, 長期臥床, 臥床併發症, 廢用症候群, Disuse syndrome, 被動運動, Passive exercise, 主動運動, Active exercise, 協助性主動運動, 加阻力運動, Resistive exercise, 等長運動, Isometric exercise, 肌肉固定運動, 股四頭肌運動, Quadriceps setting, 等張運動, Isotonic exercise, 全關節運動, 關節活動度, Range of motion, ROM, 外展, 內收, 屈曲, 伸展, 過度伸展, 旋前, 旋後, 外翻, 內翻, 外旋, 內旋, 迴轉, Circumduction, 肌力, 肌肉力量分級, 徒手肌力測試, Manual muscle test, Lovett, 拐杖, 腋下拐杖, 前臂拐杖, Crutches, 四點步態, 三點步態, 兩點步態, 搖擺步態, 手杖, 四腳手杖, Cane, 助行器, Walker, 輪椅, CPM, 連續性被動運動, 負氮平衡, 墜積性肺炎, 姿位性低血壓, Valsalva maneuver, 伐式操作, 石膏護理, 全髖關節置換]
-dzTags: [廢用症候群, 肌肉萎縮, 廢用性肌肉萎縮, 關節活動度受限, 步態異常, 肢體無力, 肌肉無力, 肩頸酸痛, 關節攣縮]
+dzTags: [廢用症候群, 肌肉萎縮, 關節活動度受限, 步態異常, 肢體無力, 肌肉無力, 肩頸酸痛, 關節攣縮]
 system: fundamentals
 group: basic-needs
 chapters:

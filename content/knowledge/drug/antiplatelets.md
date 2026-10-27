@@ -100,6 +100,8 @@ references:
 - **Cilostazol**(Pletaal):PDE3 抑制劑，擴張周邊動脈，用於**間歇性跛行**;**心衰竭病人禁用**。
 - **GP IIb/IIIa 抑制劑**(eptifibatide、tirofiban;abciximab 為單株抗體，已少用)：靜脈給予，用於 PCI 中血栓負荷大或無再流等「救援」情況，不再常規使用(同上來源);副作用**出血**、**血小板減少**(需監測血小板)。
 
+::questions{ids="107-2_BM_057"}
+
 ## 適應症 {#indications}
 
 - **急性冠心症**(ACS)：盡早嚼服 aspirin，再加一種 P2Y12 抑制劑(見 [[coronary-artery-disease]])。

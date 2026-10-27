@@ -21,7 +21,7 @@ references:
   - title: OpenStax. Pharmacology for Nurses(CC BY-NC-SA 4.0)；藥理學(國考書)
     note: 僅作為撰寫與核對考點參考，本頁文字為重新整理撰寫
 ---
-骨質疏鬆的藥物分兩類：**抑制骨吸收**(雙磷酸鹽、denosumab、raloxifene、降鈣素)與**促進骨形成**(teriparatide、romosozumab)，再加上所有人都需要的**鈣與維生素 D**。鈣磷調節的生理見 [[thyroid-parathyroid#calcium-regulation]]，高血鈣的處理見 [[calcium-phosphate#high-treatment]]；骨質疏鬆症的疾病照護留到肌肉骨骼那一輪
+骨質疏鬆的藥物分兩類：**抑制骨吸收**(雙磷酸鹽、denosumab、raloxifene、降鈣素)與**促進骨形成**(teriparatide、romosozumab)，再加上所有人都需要的**鈣與維生素 D**。鈣磷調節的生理見 [[thyroid-parathyroid#calcium-regulation]]，高血鈣的處理見 [[calcium-phosphate#high-treatment]]；骨質疏鬆症的疾病照護見 [[osteoporosis]]
 
 ## 重點摘要 {#summary}
 

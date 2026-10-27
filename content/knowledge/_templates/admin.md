@@ -1,7 +1,7 @@
 ---
 # 範本：護理行政頁。給管理理論、人力、財務、品質、領導、法規等「概念與制度」內容(內容須原創，不照搬複習書或課本)。
 # 複製到 content/knowledge/admin/<slug>.md 後改寫。slug 用英文小寫與 -，發布後不要改名。
-# 行政題用 adm: 標籤(理論、公式、制度，標籤表見 多保命護理分章/subject mappings/行政標籤表.md)，不用 dz。
+# 行政題用 adm: 標籤(理論、公式、制度，標籤表見 多保命護理分章/chapter_maps/行政標籤表.md)，不用 dz。
 # admTags 填本頁涵蓋的 adm 標籤(名稱要與標籤表完全一致)；chapters 對照段落；題目用 ::questions{adm="標籤1|標籤2"}。
 title: 主題中文名
 subtitle: English name

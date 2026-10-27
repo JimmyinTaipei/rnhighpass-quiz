@@ -54,8 +54,8 @@ database/
   scripts/
     lib/
       common.py          -- 來源路徑常數、11 科清單、5 碼考科分類
-      parse_chapters.py  -- 解析 05_chaptered_books/*.md -> chapters/topics/questions
-      parse_cards.py     -- 解析 08_knowledge_cards/*_cards.json / *_concepts.json
+      parse_chapters.py  -- 解析 02_chaptered/*.md -> chapters/topics/questions
+      parse_cards.py     -- 解析 05_knowledge_cards/*_cards.json / *_concepts.json
       parse_tables.py    -- 解析 tables/*.json
       parse_images.py    -- 解析 images/images.json 系列 + 實際存在的 PNG
       db.py               -- Supabase 連線 + 通用 upsert

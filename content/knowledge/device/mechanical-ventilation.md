@@ -4,6 +4,7 @@ subtitle: Mechanical ventilation — modes, settings, alarms, noninvasive ventil
 aliases: [呼吸器, 人工呼吸器, 機械通氣, 機械性通氣, Mechanical ventilation, Ventilator, 正壓呼吸器, 陽壓呼吸器, 侵襲性通氣, 非侵襲性通氣, 非侵襲性正壓呼吸器, Noninvasive ventilation, NIV, NIPPV, BiPAP, 雙相陽壓呼吸器, 雙陽壓, CPAP, 持續性氣道正壓, 持續性呼吸道正壓, 呼吸器模式, 輔助控制型, Assist-control, A/C, 同步間歇強制通氣, SIMV, 壓力支持, Pressure support, PSV, 容積控制, 壓力控制, 潮氣容積設定, FiO2, 吸入氧濃度, PEEP, 呼氣末正壓, 呼氣末陽壓, 自發性 PEEP, Auto-PEEP, 平台壓, Plateau pressure, 尖峰壓, 吸吐比, I:E ratio, 嘆息, Sigh, 呼吸器警報, 高壓警報, 低壓警報, 人機對抗, Fighting ventilator, 氣壓傷, 呼吸器相關肺炎, VAP, Ventilator-associated pneumonia, 呼吸器組合式照護, VAP bundle, 呼吸器脫離, Weaning, 自發性呼吸試驗, SBT, T 型管, T-piece, 淺快呼吸指數, RSBI, 呼吸器依賴, 呼吸照護中心, RCC, 呼吸照護病房, RCW, 呼吸器波形]
 dzTags: [阻塞性睡眠呼吸中止症]
 system: critical-care
+group: icu-devices
 alsoIn: [respiratory]
 chapters:
   - 內外-Ch09呼吸系統疾病 > 肺實質病變

@@ -4,6 +4,7 @@ subtitle: Coronary circulation and myocardial oxygen balance
 aliases: [冠狀動脈, 冠狀循環, 左前降支, LAD, 左迴旋支, LCx, 右冠狀動脈, RCA, 心肌耗氧量, 心肌需氧量, 側枝循環, coronary artery, myocardial oxygen demand, collateral circulation]
 dzTags: []
 system: cardiovascular
+group: cardiac-physiology
 chapters:
   - 內外-Ch13心血管系統疾病 > 冠狀動脈疾病
   - 生解-Ch07血液、心血管與淋巴系統 > 血管與循環路線 > 循環路線（體循環、肝門脈循環、肺循環、冠狀循環、胎兒循環）
@@ -56,6 +57,8 @@ references:
 **臨床對應**：**下壁梗塞**(II、III、aVF ST 上升)多為 RCA 阻塞，因 RCA 供應竇房結與房室結，常合併**心搏過緩與房室傳導阻斷**，也可能合併右心室梗塞(低血壓時避免 NTG、需補液)。前壁梗塞(LAD)範圍大，易造成心衰竭與心因性休克。心電圖定位詳見 [[ecg#territory]]、[[ecg#localization]];冠狀動脈攝影見 [[cardiac-catheterization]]。
 
 ::questions{keyword="(冠狀動脈.*(源自|分支|直接)|前心室間|迴旋|冠狀溝|冠狀竇|升主動脈)" limit="6"}
+
+::questions{ids="106-1_BM_007,105-2_BM_008"}
 
 ## 冠狀動脈灌流 {#perfusion}
 

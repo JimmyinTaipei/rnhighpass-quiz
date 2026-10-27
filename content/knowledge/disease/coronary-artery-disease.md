@@ -4,6 +4,7 @@ subtitle: Coronary artery disease(CAD):angina pectoris & myocardial infarction
 aliases: [CAD, 冠心病, 缺血性心臟病, 心絞痛, 狹心症, 心肌梗塞, 急性心肌梗塞, AMI, MI, 急性冠心症, 急性冠狀動脈症候群, ACS, STEMI, NSTEMI, 不穩定型心絞痛, 變異型心絞痛, 動脈粥狀硬化]
 dzTags: [心肌梗塞, 急性心肌梗塞, 心絞痛, 不穩定型心絞痛, 急性冠狀動脈症候群, 冠狀動脈疾病, 動脈粥狀硬化, 動脈硬化, 高血脂症]
 system: cardiovascular
+group: cardiac-diseases
 chapters:
   - 病理-Ch09心臟血管系統疾病 > 心臟疾病
   - 病理-Ch09心臟血管系統疾病 > 血管疾病
@@ -98,6 +99,8 @@ references:
 - HDL **偏高**是保護因子;嚼檳榔主要與口腔癌相關，不列入冠心病傳統危險因子。
 - 個案判斷題要逐項比對數值：例如空腹血糖 96–99 mg/dL 屬正常，**不算**危險因子。
 
+::questions{ids="109-2_BM_027"}
+
 ### 動脈粥狀硬化 {#atherosclerosis}
 
 1. **內皮損傷**：高血壓的剪力、吸菸毒素、高血糖、氧化的 LDL。
@@ -134,6 +137,8 @@ references:
 心肌細胞**不能再生**，壞死後由**結締組織(疤痕)**取代，不能收縮。
 
 ::questions{tag="心肌梗塞|急性心肌梗塞|動脈粥狀硬化|動脈硬化" keyword="(病理|病因|機轉|粥狀|斑塊|壞死|嗜中性|巨噬|肉芽|纖維化|危險因子)" limit="10"}
+
+::questions{ids="106-2_BM_039"}
 
 ## 分類 {#classification}
 
@@ -217,6 +222,8 @@ references:
 
 ::questions{tag="心肌梗塞|急性心肌梗塞|心絞痛" keyword="(症狀|胸痛|放射|轉移痛|冒冷汗|典型|持續)" limit="10"}
 
+::questions{ids="107-1_MS_016,105-1_MS_028"}
+
 ## 檢查 {#diagnosis}
 
 ### 12 導程心電圖 {#ecg}
@@ -253,6 +260,8 @@ references:
 - **瓣膜**看心臟超音波、**傳導**看心電圖、**心肌灌流與受損範圍**看核醫灌注掃描、**冠狀動脈狹窄**看心導管。
 
 ::questions{tag="心肌梗塞|急性心肌梗塞|急性冠狀動脈症候群" keyword="(Troponin|troponin|旋轉蛋白|CK-MB|肌酸激酶|LDH|肌紅素|心肌酵素|運動心電圖|鉈|Thallium|灌注)" limit="10"}
+
+::questions{ids="109-1_MS_029"}
 
 ## 緊急處理 {#emergency}
 
@@ -318,6 +327,8 @@ references:
 - 心理：焦慮會增加交感刺激與耗氧;解釋檢查與治療、讓病人參與決定、同理回應，不應為了休息而限制家屬探視。
 
 ::questions{tag="心肌梗塞|急性心肌梗塞|急性冠狀動脈症候群" keyword="(MONA|嗎啡|morphine|氧氣|aspirin|Aspirin|血栓溶解|再灌流|PCI|緊急|優先|處置)" limit="12"}
+
+::questions{ids="108-2_MS_024"}
 
 ## 併發症 {#complications}
 
@@ -458,6 +469,8 @@ references:
 - 胸痛、呼吸困難、頭暈、**冒冷汗**、臉色蒼白、極度疲倦。
 - 新出現心律不整、心電圖 ST 變化。
 - 輕微體溫上升本身不是停止活動的指標。
+
+::questions{ids="106-2_MS_030"}
 
 ### 代謝當量(MET) {#met}
 

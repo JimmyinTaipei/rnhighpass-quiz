@@ -2,7 +2,7 @@
 title: 冷熱療法：生理效應、適應症、溫度時間與燙傷凍傷預防
 subtitle: Heat and cold therapy — energy transfer, local and consensual responses, rebound phenomenon, factors, indications and contraindications, dry vs moist methods with temperatures and durations, complications (burns, frostbite) and safety
 aliases: [冷熱療法, 冷熱應用, 冷療, 熱療, Heat therapy, Cold therapy, Thermotherapy, Cryotherapy, 冷敷, 熱敷, 冰敷, 傳導, 對流, 輻射, 蒸發, 轉換, 交感性反應, Consensual response, 反彈現象, Rebound phenomenon, 溫度接受器的適應, 乾冷, 濕冷, 乾熱, 濕熱, 冰枕, 冰領, 冰寶, 冰手套, 低溫毯, Hypothermia blanket, 溫水拭浴, Tepid sponge bath, 酒精拭浴, 濕冷敷, 冷水浸泡, 熱水袋, Hot water bag, 電熱墊, Heating pad, 烤燈, 紅外線燈, Heat lamp, 熱敷墊, Aqua K pad, 濕熱敷, 溫水浸泡, 溫水坐浴, Sitz bath, 石蠟浴, Paraffin bath, 燙傷, 凍傷, 扭傷, PRICE, RICE]
-dzTags: [燙傷, 扭傷, 凍傷, 軟組織損傷, 寒顫, 鼻出血, 下背痛, 背痛, 組織缺血, 腫脹]
+dzTags: [燙傷, 扭傷, 凍傷, 軟組織損傷, 寒顫, 鼻出血, 下背痛, 組織缺血, 腫脹]
 system: fundamentals
 group: hygiene-positioning
 chapters:

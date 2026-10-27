@@ -4,12 +4,13 @@ subtitle: Regulation of blood pressure
 aliases: [血壓, 平均動脈壓, MAP, 脈搏壓, 脈壓, 周邊血管阻力, SVR, 壓力感受器, 壓力接受器, baroreceptor, 化學感受器, RAAS, 腎素, 血管張力素, 血管收縮素, 醛固酮, 抗利尿激素, ADH, 利鈉胜肽, ANP, BNP]
 dzTags: []
 system: cardiovascular
+group: cardiac-physiology
 chapters:
   - 生解-Ch07血液、心血管與淋巴系統 > 血管與循環路線 > 循環生理學（血量、血壓與血流、微血管物質交換、靜脈回流）
   - 基護-Ch10生命徵象 > 血壓
 alsoIn: [renal]
 reviewed: false
-updated: 2026-09-26
+updated: 2026-10-26
 references:
   - title: OpenStax. Anatomy and Physiology 2e, Ch.20 The Cardiovascular System - Blood Vessels and Circulation(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考
@@ -70,6 +71,8 @@ references:
 
 ::questions{keyword="(影響血壓|維持血壓|血壓.*因素|舒張壓.*(因素|決定)|周邊(血管)?阻力|半徑|阻力最大)" limit="8"}
 
+::questions{ids="113-3_BM_016,111-2_BM_013,111-1_BM_023,108-2_BM_019,108-1_BM_019,105-1_BM_006"}
+
 ## 平均動脈壓與脈搏壓 {#map}
 
 | 指標 | 公式 | 正常/目標 | 意義 |
@@ -95,6 +98,8 @@ references:
 **臨床對應**：心包膜填塞的三個特徵是奇脈(吸氣時收縮壓下降 > 10 mmHg)、頸靜脈怒張、心音遙遠，且脈搏壓**變窄**;低血壓時動脈脈波振幅與傳導速度都下降。見 [[hypotension]]。
 
 ::questions{keyword="(平均動脈壓|脈搏壓|脈壓|pulse pressure|MAP)" limit="8"}
+
+::questions{ids="113-1_BM_007"}
 
 ## 短期調控：神經反射 {#short-term}
 

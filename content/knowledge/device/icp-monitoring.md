@@ -4,6 +4,7 @@ subtitle: Intracranial pressure monitoring and external ventricular drain(EVD)
 aliases: [顱內壓監測, 顱內壓監測器, 顱內壓監測系統, ICP monitoring, ICP monitor, 腦室外引流, 腦室外引流管, 腦室引流, External ventricular drain, External ventricular drainage, EVD, 腦室導管, Intraventricular catheter, 腦實質監測器, 光纖式顱內壓監測, 零點, 歸零, 校零, Zero reference, 室間孔, Foramen of Monro, 外耳道, 耳屏, Tragus, 滴注腔, Drip chamber, 過度引流, 顱內壓波形, Lundberg 波, 腰椎引流, Lumbar drain, 腦室腹膜分流, V-P shunt]
 dzTags: []
 system: critical-care
+group: icu-devices
 alsoIn: [neuro]
 chapters:
   - 內外-Ch15神經系統疾病 > 神經系統常見問題

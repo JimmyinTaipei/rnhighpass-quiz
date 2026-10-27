@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="PingFang TC, sans-serif" font-size="14"><rect width="800" height="300" fill="#fff"/><style>.b{fill:none;stroke:#333;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.t{fill:#333}.x{fill:#c62828;font-weight:bold;font-size:22px}.o{fill:#2e7d32;font-weight:bold;font-size:22px}.n{fill:#666;font-size:12px}.a{fill:none;stroke:#1565c0;stroke-width:2;marker-end:url(#m)}</style><defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#1565c0"/></marker></defs>
+<text x="400" y="22" text-anchor="middle" class="t" font-size="16">AI-1 全髖關節置換術後：3 個禁止 ＋ 1 個正確(四格)</text>
+<!-- panel1 low chair flexion -->
+<g transform="translate(20,40)"><rect width="180" height="240" fill="none" stroke="#ccc"/>
+<circle cx="70" cy="60" r="14" class="b"/><path d="M70 74 L80 140 L130 150 L130 210 M80 140 L60 200" class="b"/><path d="M75 90 L110 120" class="b"/><path d="M40 160 H150 M50 160 V210 M140 160 V210" class="b" stroke="#999"/>
+<text x="10" y="230" class="x">✗</text><text x="32" y="230" class="t">坐低椅彎腰 > 90°</text></g>
+<!-- panel2 crossing legs -->
+<g transform="translate(215,40)"><rect width="180" height="240" fill="none" stroke="#ccc"/>
+<circle cx="90" cy="45" r="14" class="b"/><path d="M90 59 V140 M90 140 L70 210 M90 140 L115 205 M70 210 L120 175" class="b"/><path d="M90 80 L60 120 M90 80 L120 120" class="b"/>
+<text x="10" y="230" class="x">✗</text><text x="32" y="230" class="t">兩腿交叉(內收過中線)</text></g>
+<!-- panel3 internal rotation -->
+<g transform="translate(410,40)"><rect width="180" height="240" fill="none" stroke="#ccc"/>
+<circle cx="90" cy="45" r="14" class="b"/><path d="M90 59 V140 M90 140 L70 210 M90 140 L110 210 M70 210 L85 212 M110 210 L95 212" class="b"/><path d="M90 80 L60 120 M90 80 L120 120" class="b"/><path d="M60 200 q15 -25 30 0" class="a"/>
+<text x="10" y="230" class="x">✗</text><text x="32" y="230" class="t">腳尖向內(內旋)</text></g>
+<!-- panel4 abduction pillow -->
+<g transform="translate(605,40)"><rect width="180" height="240" fill="none" stroke="#ccc"/>
+<circle cx="90" cy="30" r="13" class="b"/><path d="M90 43 V120 M90 120 L60 200 M90 120 L120 200" class="b"/><path d="M78 140 L102 140 L112 190 L68 190 Z" fill="#ffe082" stroke="#999"/>
+<text x="62" y="175" class="n">外展枕</text>
+<text x="10" y="230" class="o">✓</text><text x="32" y="230" class="t">仰臥、兩腿間外展枕</text></g>
+</svg>

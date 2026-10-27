@@ -839,6 +839,53 @@
   "asepsis-sterilization#questions": {
     "auto": []
   },
+  "breastfeeding#lactation-physiology": {
+    "auto": []
+  },
+  "breastfeeding#nutrients": {
+    "auto": []
+  },
+  "breastfeeding#ten-steps": {
+    "auto": []
+  },
+  "breastfeeding#feeding-cues": {
+    "auto": []
+  },
+  "breastfeeding#position-latch": {
+    "auto": []
+  },
+  "breastfeeding#adequate-intake": {
+    "auto": []
+  },
+  "breastfeeding#engorgement": {
+    "auto": []
+  },
+  "breastfeeding#plugged-duct": {
+    "auto": []
+  },
+  "breastfeeding#nipple-problems": {
+    "auto": []
+  },
+  "breastfeeding#breastfeeding-jaundice": {
+    "auto": []
+  },
+  "breastfeeding#weaning": {
+    "auto": []
+  },
+  "breastfeeding#questions": {
+    "auto": [
+      "115-2_OP_014",
+      "114-2_OP_016",
+      "112-3_OP_014",
+      "110-1_OP_020",
+      "108-2_OP_026",
+      "107-1_OP_023",
+      "106-2_makeup_OP_021",
+      "106-1_OP_023",
+      "106-1_OP_022",
+      "105-2_OP_023"
+    ]
+  },
   "cancer-treatment-toxicities#questions": {
     "auto": []
   },
@@ -935,6 +982,39 @@
   "documentation-orders#questions": {
     "auto": []
   },
+  "emergency-nursing#exam-points": {
+    "auto": []
+  },
+  "emergency-nursing#poisoning": {
+    "auto": []
+  },
+  "emergency-nursing#paraquat": {
+    "auto": []
+  },
+  "emergency-nursing#ed-management": {
+    "auto": []
+  },
+  "emergency-nursing#drowning-ed": {
+    "auto": []
+  },
+  "emergency-nursing#hypothermia": {
+    "auto": []
+  },
+  "emergency-nursing#questions": {
+    "auto": [
+      "114-3_MS_046",
+      "113-2_MS_047",
+      "110-2_OP_042",
+      "107-1_MS_078",
+      "107-1_MS_077",
+      "107-1_MS_073",
+      "106-2_OP_078",
+      "106-1_OP_044",
+      "106-1_MS_076",
+      "105-2_OP_042",
+      "105-2_MS_076"
+    ]
+  },
   "end-of-life-care#other-psych": {
     "auto": []
   },
@@ -961,6 +1041,126 @@
       "109-1_FA_051"
     ]
   },
+  "environmental-food-hygiene#sewage": {
+    "auto": []
+  },
+  "environmental-food-hygiene#waste": {
+    "auto": []
+  },
+  "environmental-food-hygiene#school-environment": {
+    "auto": []
+  },
+  "environmental-food-hygiene#indoor-air": {
+    "auto": []
+  },
+  "environmental-food-hygiene#food": {
+    "auto": []
+  },
+  "environmental-food-hygiene#global-issues": {
+    "auto": []
+  },
+  "environmental-food-hygiene#questions": {
+    "auto": [
+      "109-1_PC_065",
+      "109-1_PC_064"
+    ]
+  },
+  "epidemiology#definition": {
+    "auto": []
+  },
+  "epidemiology#prevention-levels": {
+    "auto": []
+  },
+  "epidemiology#causation-models": {
+    "auto": []
+  },
+  "epidemiology#descriptive": {
+    "auto": []
+  },
+  "epidemiology#study-designs": {
+    "auto": []
+  },
+  "epidemiology#bias": {
+    "auto": []
+  },
+  "epidemiology#experimental": {
+    "auto": []
+  },
+  "epidemiology#causality": {
+    "auto": []
+  },
+  "epidemiology#screening-examples": {
+    "auto": []
+  },
+  "epidemiology#community-application": {
+    "auto": []
+  },
+  "epidemiology#questions": {
+    "auto": [
+      "114-1_PC_030"
+    ]
+  },
+  "family-nursing#family-definition": {
+    "auto": []
+  },
+  "family-nursing#family-types": {
+    "auto": []
+  },
+  "family-nursing#development": {
+    "auto": []
+  },
+  "family-nursing#communication-values": {
+    "auto": []
+  },
+  "family-nursing#function": {
+    "auto": []
+  },
+  "family-nursing#resources": {
+    "auto": []
+  },
+  "family-nursing#calgary": {
+    "auto": []
+  },
+  "family-nursing#nursing-process": {
+    "auto": []
+  },
+  "family-nursing#empowerment": {
+    "auto": []
+  },
+  "family-nursing#special-groups": {
+    "auto": []
+  },
+  "family-nursing#questions": {
+    "auto": [
+      "111-2_PC_063"
+    ]
+  },
+  "family-planning#calendar": {
+    "auto": []
+  },
+  "family-planning#bbt": {
+    "auto": []
+  },
+  "family-planning#sterilization": {
+    "auto": []
+  },
+  "family-planning#postpartum": {
+    "auto": []
+  },
+  "family-planning#questions": {
+    "auto": [
+      "113-3_OP_013",
+      "112-2_BM_038",
+      "112-1_OP_025",
+      "111-2_OP_023",
+      "111-1_OP_023",
+      "110-2_OP_021",
+      "110-2_OP_020",
+      "109-2_PC_065",
+      "107-1_OP_037",
+      "107-1_OP_024"
+    ]
+  },
   "family-violence#questions": {
     "auto": []
   },
@@ -970,8 +1170,89 @@
   "health-administration-system#questions": {
     "auto": []
   },
+  "health-education#concepts": {
+    "auto": []
+  },
+  "health-education#domains": {
+    "auto": []
+  },
+  "health-education#principles": {
+    "auto": []
+  },
+  "health-education#objectives": {
+    "auto": []
+  },
+  "health-education#method-details": {
+    "auto": []
+  },
+  "health-education#program-evaluation": {
+    "auto": []
+  },
+  "health-education#questions": {
+    "auto": [
+      "115-2_PC_032",
+      "113-3_PC_022",
+      "113-2_PC_036",
+      "112-3_PC_035",
+      "112-2_PC_059",
+      "112-2_PC_057"
+    ]
+  },
   "health-equity#questions": {
     "auto": []
+  },
+  "health-promotion#intervention-types": {
+    "auto": []
+  },
+  "health-promotion#fitness": {
+    "auto": []
+  },
+  "health-promotion#health-literacy": {
+    "auto": []
+  },
+  "health-promotion#determinants": {
+    "auto": []
+  },
+  "health-promotion#ottawa": {
+    "auto": []
+  },
+  "health-promotion#healthy-cities": {
+    "auto": []
+  },
+  "health-promotion#tobacco-control": {
+    "auto": []
+  },
+  "health-promotion#hbm": {
+    "auto": []
+  },
+  "health-promotion#pender": {
+    "auto": []
+  },
+  "health-promotion#other-models": {
+    "auto": []
+  },
+  "health-promotion#precede-proceed": {
+    "auto": []
+  },
+  "health-promotion#ttm": {
+    "auto": []
+  },
+  "health-promotion#applications": {
+    "auto": []
+  },
+  "health-promotion#questions": {
+    "auto": [
+      "115-2_PC_035",
+      "115-1_PC_050",
+      "114-3_PC_049",
+      "114-3_PC_035",
+      "113-3_PC_045",
+      "113-3_PC_031",
+      "112-2_PC_040",
+      "112-1_PC_038",
+      "111-1_PC_079",
+      "111-1_PC_078"
+    ]
   },
   "home-care-discharge-planning#questions": {
     "auto": []
@@ -994,11 +1275,187 @@
   "infection-control#questions": {
     "auto": []
   },
+  "infertility#male-factors": {
+    "auto": []
+  },
+  "infertility#diagnosis": {
+    "auto": []
+  },
+  "infertility#timing": {
+    "auto": []
+  },
+  "infertility#iui": {
+    "auto": []
+  },
+  "infertility#art": {
+    "auto": []
+  },
+  "infertility#law": {
+    "auto": []
+  },
+  "infertility#nursing": {
+    "auto": []
+  },
+  "infertility#questions": {
+    "auto": [
+      "115-2_OP_023",
+      "115-2_BM_017",
+      "114-2_FA_025",
+      "113-3_BM_038",
+      "113-1_OP_024",
+      "112-3_OP_024",
+      "112-2_OP_038",
+      "112-2_OP_037",
+      "112-1_OP_036",
+      "111-2_OP_038",
+      "110-1_OP_039",
+      "109-2_OP_034"
+    ]
+  },
+  "intrapartum-care#evidence-based-care": {
+    "auto": []
+  },
+  "intrapartum-care#vaginal-exam": {
+    "auto": []
+  },
+  "intrapartum-care#station": {
+    "auto": []
+  },
+  "intrapartum-care#contractions": {
+    "auto": []
+  },
+  "intrapartum-care#maternal-behavior": {
+    "auto": []
+  },
+  "intrapartum-care#first-stage-care": {
+    "auto": []
+  },
+  "intrapartum-care#rupture-of-membranes": {
+    "auto": []
+  },
+  "intrapartum-care#second-stage-care": {
+    "auto": []
+  },
+  "intrapartum-care#episiotomy": {
+    "auto": []
+  },
+  "intrapartum-care#perineal-lacerations": {
+    "auto": []
+  },
+  "intrapartum-care#third-stage-care": {
+    "auto": []
+  },
+  "intrapartum-care#fourth-stage-care": {
+    "auto": []
+  },
+  "intrapartum-care#labor-support": {
+    "auto": []
+  },
+  "intrapartum-care#questions": {
+    "auto": [
+      "115-2_OP_016",
+      "115-2_OP_009",
+      "115-2_OP_008",
+      "115-2_OP_001",
+      "115-1_OP_010",
+      "115-1_OP_008",
+      "115-1_FA_015",
+      "114-3_OP_012",
+      "114-3_OP_010",
+      "114-3_OP_004",
+      "114-2_OP_022",
+      "114-2_OP_011",
+      "114-2_OP_008",
+      "114-1_OP_009",
+      "113-3_OP_009",
+      "113-3_OP_007",
+      "113-2_OP_011",
+      "113-2_OP_007",
+      "113-1_OP_010",
+      "112-3_OP_016"
+    ]
+  },
+  "labor-pain-relief#pain-sources": {
+    "auto": []
+  },
+  "labor-pain-relief#theories": {
+    "auto": []
+  },
+  "labor-pain-relief#non-pharmacologic": {
+    "auto": []
+  },
+  "labor-pain-relief#hyperventilation": {
+    "auto": []
+  },
+  "labor-pain-relief#pharmacologic": {
+    "auto": []
+  },
+  "labor-pain-relief#questions": {
+    "auto": [
+      "114-3_OP_011",
+      "114-3_OP_008",
+      "114-2_OP_010",
+      "114-1_OP_011",
+      "114-1_OP_007",
+      "112-2_BM_019",
+      "112-1_OP_015",
+      "111-2_FA_039",
+      "110-2_OP_012",
+      "110-1_OP_013",
+      "110-1_OP_012",
+      "110-1_FA_031",
+      "109-1_OP_020",
+      "109-1_OP_010",
+      "108-2_OP_005",
+      "108-1_OP_012",
+      "107-2_OP_015",
+      "107-2_OP_014",
+      "107-1_OP_013",
+      "107-1_OP_007"
+    ]
+  },
   "long-term-care-services#questions": {
     "auto": []
   },
   "long-term-care#questions": {
     "auto": []
+  },
+  "maternal-child-health#overview": {
+    "auto": []
+  },
+  "maternal-child-health#women": {
+    "auto": []
+  },
+  "maternal-child-health#family-planning": {
+    "auto": []
+  },
+  "maternal-child-health#prenatal": {
+    "auto": []
+  },
+  "maternal-child-health#breastfeeding": {
+    "auto": []
+  },
+  "maternal-child-health#eugenics-art": {
+    "auto": []
+  },
+  "maternal-child-health#oral-health": {
+    "auto": []
+  },
+  "maternal-child-health#obesity": {
+    "auto": []
+  },
+  "maternal-child-health#injury": {
+    "auto": []
+  },
+  "maternal-child-health#questions": {
+    "auto": [
+      "113-3_PC_042",
+      "113-1_PC_042",
+      "111-2_MS_016",
+      "109-1_PC_057",
+      "109-1_PC_042",
+      "106-2_makeup_PC_071"
+    ]
   },
   "milieu-therapy#questions": {
     "auto": []
@@ -1041,6 +1498,75 @@
       "114-3_OP_049",
       "114-3_OP_042"
     ]
+  },
+  "newborn-assessment#apgar": {
+    "auto": []
+  },
+  "newborn-assessment#vital-signs": {
+    "auto": []
+  },
+  "newborn-assessment#head": {
+    "auto": []
+  },
+  "newborn-assessment#face": {
+    "auto": []
+  },
+  "newborn-assessment#skin": {
+    "auto": []
+  },
+  "newborn-assessment#genitalia": {
+    "auto": []
+  },
+  "newborn-assessment#physical-maturity": {
+    "auto": []
+  },
+  "newborn-assessment#classification": {
+    "auto": []
+  },
+  "newborn-assessment#questions": {
+    "auto": [
+      "115-1_OP_017",
+      "114-2_OP_018",
+      "111-2_OP_019",
+      "110-2_BM_038",
+      "110-1_OP_028",
+      "109-1_OP_030",
+      "108-2_OP_028",
+      "108-1_OP_029",
+      "107-1_OP_047",
+      "106-1_OP_028",
+      "105-2_OP_026",
+      "105-1_OP_027"
+    ]
+  },
+  "newborn-care#immediate-care": {
+    "auto": []
+  },
+  "newborn-care#diaper-rash": {
+    "auto": []
+  },
+  "newborn-care#weight-feeding": {
+    "auto": []
+  },
+  "newborn-care#screening": {
+    "auto": []
+  },
+  "newborn-care#safe-sleep": {
+    "auto": []
+  },
+  "newborn-care#questions": {
+    "auto": [
+      "114-1_OP_019",
+      "114-1_OP_017",
+      "113-1_OP_036",
+      "111-1_OP_058",
+      "110-2_OP_038",
+      "105-2_FA_027",
+      "105-1_OP_028"
+    ]
+  },
+  "notifiable-diseases#control-principles": {
+    "auto": []
   },
   "notifiable-diseases#questions": {
     "auto": []
@@ -1186,8 +1712,71 @@
   "observation-communication#questions": {
     "auto": []
   },
+  "obstetric-nursing-foundations#history": {
+    "auto": []
+  },
+  "obstetric-nursing-foundations#family-centered": {
+    "auto": []
+  },
+  "obstetric-nursing-foundations#gentle-birth": {
+    "auto": []
+  },
+  "obstetric-nursing-foundations#childbirth-education": {
+    "auto": []
+  },
+  "obstetric-nursing-foundations#nurse-roles": {
+    "auto": []
+  },
+  "obstetric-nursing-foundations#cultural-care": {
+    "auto": []
+  },
+  "obstetric-nursing-foundations#ethics-law": {
+    "auto": []
+  },
+  "obstetric-nursing-foundations#questions": {
+    "auto": [
+      "115-2_OP_035",
+      "115-1_OP_035",
+      "115-1_OP_004",
+      "114-2_OP_013",
+      "114-1_OP_033",
+      "113-2_OP_001",
+      "112-3_OP_002",
+      "111-1_OP_046",
+      "111-1_OP_045",
+      "111-1_OP_001"
+    ]
+  },
   "occupational-health-nursing#questions": {
     "auto": []
+  },
+  "older-adult-chronic-disease#aging": {
+    "auto": []
+  },
+  "older-adult-chronic-disease#frailty": {
+    "auto": []
+  },
+  "older-adult-chronic-disease#osteoporosis": {
+    "auto": []
+  },
+  "older-adult-chronic-disease#policy": {
+    "auto": []
+  },
+  "older-adult-chronic-disease#chronic-disease": {
+    "auto": []
+  },
+  "older-adult-chronic-disease#lifestyle": {
+    "auto": []
+  },
+  "older-adult-chronic-disease#questions": {
+    "auto": [
+      "114-2_PC_048",
+      "113-3_PC_046",
+      "112-2_PC_077",
+      "112-1_PC_080",
+      "111-2_PC_080",
+      "111-1_PC_073"
+    ]
   },
   "pain-management#assessment-principles": {
     "auto": []
@@ -1256,6 +1845,143 @@
       "107-1_FA_079"
     ]
   },
+  "postpartum-care#assessment": {
+    "auto": []
+  },
+  "postpartum-care#voiding": {
+    "auto": []
+  },
+  "postpartum-care#bowel": {
+    "auto": []
+  },
+  "postpartum-care#nutrition-rest": {
+    "auto": []
+  },
+  "postpartum-care#exercise": {
+    "auto": []
+  },
+  "postpartum-care#perineal-care": {
+    "auto": []
+  },
+  "postpartum-care#afterpain-care": {
+    "auto": []
+  },
+  "postpartum-care#doing-the-month": {
+    "auto": []
+  },
+  "postpartum-care#cesarean-care": {
+    "auto": []
+  },
+  "postpartum-care#sexuality-contraception": {
+    "auto": []
+  },
+  "postpartum-care#questions": {
+    "auto": [
+      "115-2_FA_020",
+      "115-1_OP_013",
+      "114-3_FA_021",
+      "114-2_OP_012",
+      "114-2_FA_017",
+      "113-1_OP_014",
+      "112-3_OP_012",
+      "112-2_OP_026",
+      "112-1_OP_023",
+      "112-1_FA_028",
+      "111-2_OP_011",
+      "111-1_OP_015"
+    ]
+  },
+  "postpartum-psychosocial-adaptation#rubin-phases": {
+    "auto": []
+  },
+  "postpartum-psychosocial-adaptation#maternal-role": {
+    "auto": []
+  },
+  "postpartum-psychosocial-adaptation#attachment": {
+    "auto": []
+  },
+  "postpartum-psychosocial-adaptation#early-contact": {
+    "auto": []
+  },
+  "postpartum-psychosocial-adaptation#rooming-in": {
+    "auto": []
+  },
+  "postpartum-psychosocial-adaptation#separated": {
+    "auto": []
+  },
+  "postpartum-psychosocial-adaptation#father": {
+    "auto": []
+  },
+  "postpartum-psychosocial-adaptation#siblings-family": {
+    "auto": []
+  },
+  "postpartum-psychosocial-adaptation#siblings-family~2": {
+    "auto": [
+      "111-1_OP_025",
+      "111-1_OP_009"
+    ]
+  },
+  "postpartum-psychosocial-adaptation#warning-signs": {
+    "auto": []
+  },
+  "postpartum-psychosocial-adaptation#questions": {
+    "auto": [
+      "115-2_PC_019",
+      "115-2_OP_015",
+      "115-1_OP_015",
+      "115-1_OP_012",
+      "115-1_OP_001",
+      "115-1_FA_032",
+      "114-3_OP_015",
+      "114-2_OP_013",
+      "114-2_FA_035",
+      "114-1_OP_012",
+      "113-2_OP_033",
+      "113-2_OP_017"
+    ]
+  },
+  "prenatal-care#first-trimester": {
+    "auto": []
+  },
+  "prenatal-care#later-trimesters": {
+    "auto": []
+  },
+  "prenatal-care#posture": {
+    "auto": []
+  },
+  "prenatal-care#exercise": {
+    "auto": []
+  },
+  "prenatal-care#perineal-massage": {
+    "auto": []
+  },
+  "prenatal-care#daily-living": {
+    "auto": []
+  },
+  "prenatal-care#diet-principles": {
+    "auto": []
+  },
+  "prenatal-care#weight-gain": {
+    "auto": []
+  },
+  "prenatal-care#childbirth-preparation": {
+    "auto": []
+  },
+  "prenatal-care#questions": {
+    "auto": [
+      "115-1_OP_006",
+      "115-1_OP_003",
+      "113-3_OP_006",
+      "112-3_OP_003",
+      "112-2_OP_003",
+      "111-2_FA_026",
+      "110-2_OP_006",
+      "110-1_OP_005",
+      "108-2_OP_009",
+      "107-1_OP_005",
+      "105-1_OP_031"
+    ]
+  },
   "psychiatric-nursing-foundations#questions": {
     "auto": []
   },
@@ -1301,6 +2027,28 @@
       "114-3_FA_025"
     ]
   },
+  "school-health#administration": {
+    "auto": []
+  },
+  "school-health#models": {
+    "auto": []
+  },
+  "school-health#vision": {
+    "auto": []
+  },
+  "school-health#fitness": {
+    "auto": []
+  },
+  "school-health#roles": {
+    "auto": []
+  },
+  "school-health#questions": {
+    "auto": [
+      "110-1_PC_072",
+      "109-2_PC_066",
+      "109-1_PC_073"
+    ]
+  },
   "sleep-rest#sleep-stages": {
     "auto": []
   },
@@ -1321,15 +2069,16 @@
   },
   "stem-cell-transplant#questions~2": {
     "auto": [
+      "113-1_MS_025",
       "112-2_OP_072",
       "112-2_MS_033",
       "112-1_MS_036",
+      "111-2_MS_042",
       "111-1_MS_037",
       "110-1_MS_041",
       "110-1_BM_073",
       "109-1_BM_041",
-      "108-2_MS_035",
-      "105-1_MS_038"
+      "108-2_MS_035"
     ]
   },
   "transfusion-reactions#before": {
@@ -1340,6 +2089,26 @@
   },
   "vital-statistics#questions": {
     "auto": []
+  },
+  "wound-dressings#exam-points": {
+    "auto": []
+  },
+  "wound-dressings#questions": {
+    "auto": [
+      "114-3_MS_028",
+      "112-3_FA_031"
+    ]
+  },
+  "arterial-line#exam-points": {
+    "auto": []
+  },
+  "arterial-line#questions": {
+    "auto": [
+      "115-2_MS_020",
+      "113-3_MS_019",
+      "109-2_MS_029",
+      "105-1_FA_054"
+    ]
   },
   "artificial-airway#principle": {
     "auto": []
@@ -1363,6 +2132,28 @@
       "114-2_PC_047",
       "114-2_FA_004",
       "113-3_OP_036"
+    ]
+  },
+  "central-venous-catheter#exam-points": {
+    "auto": []
+  },
+  "central-venous-catheter#pulmonary-artery-catheter": {
+    "auto": []
+  },
+  "central-venous-catheter#questions": {
+    "auto": [
+      "115-2_FA_030",
+      "115-2_FA_016",
+      "114-2_MS_016",
+      "113-2_MS_020",
+      "113-2_MS_008",
+      "112-2_MS_052",
+      "111-2_MS_078",
+      "111-1_FA_044",
+      "110-1_MS_033",
+      "110-1_MS_032",
+      "110-1_FA_062",
+      "110-1_FA_015"
     ]
   },
   "chest-tube#reading": {
@@ -1409,6 +2200,17 @@
   },
   "dialysis-crrt#questions": {
     "auto": []
+  },
+  "iabp-ecmo#exam-points": {
+    "auto": []
+  },
+  "iabp-ecmo#questions": {
+    "auto": [
+      "115-1_MS_019",
+      "114-3_MS_024",
+      "113-2_MS_048",
+      "108-1_MS_026"
+    ]
   },
   "icp-monitoring#alarms": {
     "auto": []
@@ -1497,6 +2299,36 @@
   "anaphylaxis#questions": {
     "auto": []
   },
+  "anemias#classification": {
+    "auto": []
+  },
+  "anemias#nursing": {
+    "auto": []
+  },
+  "anemias#iron-deficiency": {
+    "auto": []
+  },
+  "anemias#pernicious": {
+    "auto": []
+  },
+  "anemias#aplastic": {
+    "auto": []
+  },
+  "anemias#thalassemia-care": {
+    "auto": []
+  },
+  "anemias#g6pd-care": {
+    "auto": []
+  },
+  "anemias#sickle-cell-care": {
+    "auto": []
+  },
+  "anemias#polycythemia": {
+    "auto": []
+  },
+  "anemias#questions": {
+    "auto": []
+  },
   "anxiety-disorders#questions": {
     "auto": []
   },
@@ -1532,6 +2364,46 @@
       "112-2_MS_056"
     ]
   },
+  "arrhythmias#sinus": {
+    "auto": []
+  },
+  "arrhythmias#af": {
+    "auto": []
+  },
+  "arrhythmias#psvt": {
+    "auto": []
+  },
+  "arrhythmias#vf": {
+    "auto": []
+  },
+  "arrhythmias#blocks": {
+    "auto": []
+  },
+  "arrhythmias#electrical-therapy": {
+    "auto": []
+  },
+  "arrhythmias#pacemaker-teaching": {
+    "auto": []
+  },
+  "arrhythmias#icd": {
+    "auto": []
+  },
+  "arrhythmias#questions": {
+    "auto": [
+      "115-2_MS_019",
+      "115-2_BM_037",
+      "114-2_MS_019",
+      "114-1_MS_017",
+      "113-2_MS_018",
+      "113-2_FA_024",
+      "113-2_FA_017",
+      "113-1_MS_049",
+      "113-1_MS_019",
+      "113-1_FA_024",
+      "112-3_MS_018",
+      "112-3_BM_037"
+    ]
+  },
   "asthma#pef": {
     "auto": []
   },
@@ -1546,6 +2418,93 @@
   },
   "autoimmune-diseases#questions": {
     "auto": []
+  },
+  "benign-gynecologic-disorders#exams": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#hysterectomy": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#laparoscopy": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#fibroids": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#endometriosis": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#prolapse": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#cervical-ectropion": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#discharge": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#fistula": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#dyspareunia": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#ovarian-benign": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#breast": {
+    "auto": []
+  },
+  "benign-gynecologic-disorders#questions": {
+    "auto": [
+      "115-2_OP_025",
+      "114-3_OP_025",
+      "114-3_BM_028",
+      "113-3_OP_011",
+      "113-3_BM_029",
+      "112-2_OP_040",
+      "111-2_BM_029",
+      "111-1_OP_040",
+      "111-1_OP_021",
+      "110-2_OP_040",
+      "110-2_BM_042",
+      "109-2_OP_036",
+      "108-2_OP_038",
+      "108-1_OP_036",
+      "108-1_FA_012"
+    ]
+  },
+  "biliary-pancreatic#cholelithiasis": {
+    "auto": []
+  },
+  "biliary-pancreatic#obstructive-jaundice": {
+    "auto": []
+  },
+  "biliary-pancreatic#cholecystectomy": {
+    "auto": []
+  },
+  "biliary-pancreatic#gallbladder-cancer": {
+    "auto": []
+  },
+  "biliary-pancreatic#acute-pancreatitis": {
+    "auto": []
+  },
+  "biliary-pancreatic#chronic-pancreatitis": {
+    "auto": []
+  },
+  "biliary-pancreatic#questions": {
+    "auto": [
+      "115-2_MS_007",
+      "115-1_MS_007",
+      "115-1_MS_006",
+      "115-1_FA_007",
+      "114-3_MS_050",
+      "114-3_MS_010",
+      "114-2_MS_006",
+      "114-1_MS_009",
+      "113-3_MS_010",
+      "113-3_MS_003"
+    ]
   },
   "bipolar-disorder#defense-mechanisms": {
     "auto": []
@@ -1563,6 +2522,27 @@
     "auto": []
   },
   "bipolar-disorder#nursing-discharge": {
+    "auto": []
+  },
+  "bleeding-disorders#causes": {
+    "auto": []
+  },
+  "bleeding-disorders#thrombocytopenia": {
+    "auto": []
+  },
+  "bleeding-disorders#itp": {
+    "auto": []
+  },
+  "bleeding-disorders#hemophilia": {
+    "auto": []
+  },
+  "bleeding-disorders#vitamin-k": {
+    "auto": []
+  },
+  "bleeding-disorders#dic": {
+    "auto": []
+  },
+  "bleeding-disorders#questions": {
     "auto": []
   },
   "brain-tumors#manifestations": {
@@ -1586,6 +2566,9 @@
       "114-1_MS_024"
     ]
   },
+  "breast-cancer#pathology": {
+    "auto": []
+  },
   "breast-cancer#questions": {
     "auto": []
   },
@@ -1601,6 +2584,70 @@
       "113-1_MS_021",
       "113-1_BM_028",
       "112-3_MS_024"
+    ]
+  },
+  "burns#depth": {
+    "auto": []
+  },
+  "burns#tbsa": {
+    "auto": []
+  },
+  "burns#severity": {
+    "auto": []
+  },
+  "burns#systemic": {
+    "auto": []
+  },
+  "burns#five-steps": {
+    "auto": []
+  },
+  "burns#chemical": {
+    "auto": []
+  },
+  "burns#electrical": {
+    "auto": []
+  },
+  "burns#inhalation": {
+    "auto": []
+  },
+  "burns#resuscitation": {
+    "auto": []
+  },
+  "burns#wound-care": {
+    "auto": []
+  },
+  "burns#hydrotherapy": {
+    "auto": []
+  },
+  "burns#escharotomy": {
+    "auto": []
+  },
+  "burns#graft-care": {
+    "auto": []
+  },
+  "burns#positioning": {
+    "auto": []
+  },
+  "burns#scar-care": {
+    "auto": []
+  },
+  "burns#pediatric": {
+    "auto": []
+  },
+  "burns#questions": {
+    "auto": [
+      "115-2_MS_029",
+      "114-3_MS_027",
+      "114-1_MS_029",
+      "113-3_MS_027",
+      "113-2_OP_027",
+      "113-2_MS_028",
+      "113-1_MS_028",
+      "112-3_OP_026",
+      "112-2_MS_046",
+      "112-2_MS_045",
+      "112-1_MS_044",
+      "111-2_OP_041"
     ]
   },
   "cancer#questions": {
@@ -1687,6 +2734,54 @@
       "112-2_MS_009"
     ]
   },
+  "congenital-heart-disease#exam-points": {
+    "auto": []
+  },
+  "congenital-heart-disease#assessment": {
+    "auto": []
+  },
+  "congenital-heart-disease#left-to-right": {
+    "auto": []
+  },
+  "congenital-heart-disease#tof-surgery": {
+    "auto": []
+  },
+  "congenital-heart-disease#other-cyanotic": {
+    "auto": []
+  },
+  "congenital-heart-disease#drugs": {
+    "auto": []
+  },
+  "congenital-heart-disease#feeding": {
+    "auto": []
+  },
+  "congenital-heart-disease#surgery": {
+    "auto": []
+  },
+  "congenital-heart-disease#questions": {
+    "auto": [
+      "115-2_OP_040",
+      "115-1_OP_040",
+      "114-3_OP_041",
+      "114-3_OP_040",
+      "114-2_OP_041",
+      "113-3_OP_040",
+      "113-2_OP_040",
+      "112-2_OP_066",
+      "112-2_OP_065",
+      "112-1_OP_066",
+      "112-1_OP_065",
+      "112-1_OP_064",
+      "111-2_OP_066",
+      "111-2_OP_065",
+      "111-2_MS_026",
+      "111-1_OP_066",
+      "111-1_OP_065",
+      "111-1_OP_064",
+      "110-2_OP_066",
+      "110-2_OP_065"
+    ]
+  },
   "copd#bronchitis-vs-emphysema": {
     "auto": []
   },
@@ -1736,6 +2831,9 @@
       "106-2_BM_007"
     ]
   },
+  "coronary-artery-disease#risk-factors": {
+    "auto": []
+  },
   "coronary-artery-disease#pathology-timeline": {
     "auto": [
       "115-1_BM_025",
@@ -1749,6 +2847,9 @@
       "109-1_BM_026",
       "108-1_FA_007"
     ]
+  },
+  "coronary-artery-disease#pathology-timeline~2": {
+    "auto": []
   },
   "coronary-artery-disease#acs": {
     "auto": [
@@ -1772,6 +2873,9 @@
       "107-2_MS_029"
     ]
   },
+  "coronary-artery-disease#angina-vs-mi~2": {
+    "auto": []
+  },
   "coronary-artery-disease#other-tests": {
     "auto": [
       "113-3_MS_017",
@@ -1780,6 +2884,9 @@
       "106-1_MS_031",
       "105-2_MS_030"
     ]
+  },
+  "coronary-artery-disease#other-tests~2": {
+    "auto": []
   },
   "coronary-artery-disease#in-hospital": {
     "auto": [
@@ -1794,6 +2901,9 @@
       "105-2_MS_026"
     ]
   },
+  "coronary-artery-disease#in-hospital~2": {
+    "auto": []
+  },
   "coronary-artery-disease#complications": {
     "auto": [
       "114-1_MS_019",
@@ -1806,13 +2916,13 @@
   "coronary-artery-disease#drug-classes": {
     "auto": [
       "115-1_BM_038",
+      "114-2_FA_013",
       "112-1_BM_036",
       "110-1_BM_059",
       "109-2_MS_031",
       "109-1_BM_056",
       "108-2_MS_025",
-      "107-2_MS_030",
-      "107-2_FA_020"
+      "108-1_MS_029"
     ]
   },
   "coronary-artery-disease#drug-classes~2": {
@@ -1821,13 +2931,16 @@
       "114-1_BM_036",
       "113-1_MS_018",
       "112-3_MS_022",
+      "112-2_MS_028",
       "110-1_BM_058",
       "107-2_MS_029",
-      "106-2_makeup_MS_031",
-      "105-2_MS_027"
+      "106-2_makeup_MS_031"
     ]
   },
   "coronary-artery-disease#cabg": {
+    "auto": []
+  },
+  "coronary-artery-disease#activity-monitoring": {
     "auto": []
   },
   "coronary-artery-disease#exercise": {
@@ -1835,16 +2948,16 @@
   },
   "coronary-artery-disease#prevention-levels": {
     "auto": [
+      "114-1_PC_049",
       "113-3_PC_032",
       "112-3_BM_026",
       "112-2_PC_079",
+      "112-2_FA_043",
+      "112-1_PC_061",
       "112-1_BM_037",
       "111-2_PC_077",
       "111-1_PC_080",
-      "110-1_PC_054",
-      "109-2_BM_027",
-      "109-1_PC_080",
-      "109-1_MS_031"
+      "110-1_PC_054"
     ]
   },
   "cranial-nerve-spine-disorders#headache": {
@@ -2035,10 +3148,10 @@
       "110-2_MS_015",
       "109-2_PC_068",
       "109-2_MS_071",
-      "109-1_OP_027",
       "109-1_BM_045",
       "108-1_BM_027",
-      "107-1_MS_027"
+      "107-1_MS_027",
+      "106-2_PC_071"
     ]
   },
   "diabetes#hypoglycemia~2": {
@@ -2293,6 +3406,55 @@
       "115-1_MS_015"
     ]
   },
+  "fractures#types": {
+    "auto": []
+  },
+  "fractures#first-aid": {
+    "auto": []
+  },
+  "fractures#healing": {
+    "auto": []
+  },
+  "fractures#complications": {
+    "auto": []
+  },
+  "fractures#compartment-syndrome": {
+    "auto": []
+  },
+  "fractures#cast-removal": {
+    "auto": []
+  },
+  "fractures#pelvic-traction": {
+    "auto": []
+  },
+  "fractures#external-fixator": {
+    "auto": []
+  },
+  "fractures#hip-fracture": {
+    "auto": []
+  },
+  "fractures#amputation-care": {
+    "auto": []
+  },
+  "fractures#clavicle-newborn": {
+    "auto": []
+  },
+  "fractures#questions": {
+    "auto": [
+      "115-2_OP_050",
+      "115-2_OP_030",
+      "115-2_MS_011",
+      "115-1_OP_049",
+      "115-1_MS_011",
+      "114-3_OP_048",
+      "114-3_OP_032",
+      "114-3_MS_013",
+      "114-3_MS_012",
+      "114-2_MS_013",
+      "114-2_FA_031",
+      "114-1_PC_048"
+    ]
+  },
   "glomerular-diseases#exam-points": {
     "auto": []
   },
@@ -2318,6 +3480,12 @@
     "auto": []
   },
   "glomerular-diseases#questions": {
+    "auto": []
+  },
+  "gynecologic-cancers#endometrial": {
+    "auto": []
+  },
+  "gynecologic-cancers#vaginal": {
     "auto": []
   },
   "gynecologic-cancers#questions": {
@@ -2396,6 +3564,9 @@
       "113-3_FA_024"
     ]
   },
+  "heart-failure#causes": {
+    "auto": []
+  },
   "heart-failure#edema-mechanism": {
     "auto": [
       "115-2_MS_016",
@@ -2431,6 +3602,12 @@
       "113-2_MS_020",
       "113-2_MS_017"
     ]
+  },
+  "heart-failure#physical-assessment~2": {
+    "auto": []
+  },
+  "heart-failure#pediatric": {
+    "auto": []
   },
   "heart-failure#staging": {
     "auto": [
@@ -2476,15 +3653,15 @@
   "heart-failure#other-drugs": {
     "auto": [
       "114-3_OP_040",
+      "114-3_FA_011",
+      "114-2_FA_007",
       "114-2_BM_036",
+      "114-1_OP_040",
+      "114-1_MS_019",
       "114-1_BM_035",
-      "113-1_MS_016",
-      "113-1_BM_037",
-      "112-3_MS_020",
-      "112-3_MS_019",
-      "111-1_FA_040",
-      "111-1_BM_058",
-      "111-1_BM_049"
+      "113-3_OP_040",
+      "113-2_FA_024",
+      "113-2_FA_017"
     ]
   },
   "heart-failure#activity": {
@@ -2506,6 +3683,63 @@
       "108-2_MS_027",
       "108-1_MS_026",
       "107-2_MS_033"
+    ]
+  },
+  "high-risk-pregnancy#risk-factors": {
+    "auto": []
+  },
+  "high-risk-pregnancy#cardiac": {
+    "auto": []
+  },
+  "high-risk-pregnancy#diabetes": {
+    "auto": []
+  },
+  "high-risk-pregnancy#abortion": {
+    "auto": []
+  },
+  "high-risk-pregnancy#cervical-insufficiency": {
+    "auto": []
+  },
+  "high-risk-pregnancy#ectopic": {
+    "auto": []
+  },
+  "high-risk-pregnancy#molar-pregnancy": {
+    "auto": []
+  },
+  "high-risk-pregnancy#late-bleeding": {
+    "auto": []
+  },
+  "high-risk-pregnancy#hypertensive-disorders": {
+    "auto": []
+  },
+  "high-risk-pregnancy#rh": {
+    "auto": []
+  },
+  "high-risk-pregnancy#preterm-risk": {
+    "auto": []
+  },
+  "high-risk-pregnancy#questions": {
+    "auto": [
+      "115-2_OP_020",
+      "115-2_OP_019",
+      "115-1_OP_020",
+      "114-3_OP_022",
+      "114-3_OP_020",
+      "114-1_MS_038",
+      "113-3_OP_023",
+      "113-3_OP_016",
+      "113-2_OP_022",
+      "113-1_OP_021",
+      "112-3_OP_021",
+      "112-3_OP_020",
+      "112-3_OP_005",
+      "112-2_OP_011",
+      "112-1_OP_035",
+      "112-1_OP_034",
+      "111-2_OP_032",
+      "111-1_OP_031",
+      "111-1_OP_030",
+      "111-1_OP_011"
     ]
   },
   "hiv-aids#questions": {
@@ -2579,6 +3813,9 @@
       "113-3_BM_031"
     ]
   },
+  "hypertension#drug-classes~2": {
+    "auto": []
+  },
   "hypertension#medication-education": {
     "auto": [
       "115-2_PC_049",
@@ -2592,6 +3829,9 @@
       "110-1_PC_077",
       "110-1_PC_054"
     ]
+  },
+  "hypertension#weight-alcohol": {
+    "auto": []
   },
   "hypertension#other-lifestyle": {
     "auto": [
@@ -2773,6 +4013,78 @@
   "kawasaki-disease#questions": {
     "auto": []
   },
+  "labor-complications#dysfunctional-labor": {
+    "auto": []
+  },
+  "labor-complications#precipitate-labor": {
+    "auto": []
+  },
+  "labor-complications#occiput-posterior": {
+    "auto": []
+  },
+  "labor-complications#shoulder-dystocia": {
+    "auto": []
+  },
+  "labor-complications#uterine-rupture": {
+    "auto": []
+  },
+  "labor-complications#cord-prolapse": {
+    "auto": []
+  },
+  "labor-complications#preterm-labor": {
+    "auto": [
+      "114-2_OP_035",
+      "113-3_OP_010",
+      "113-2_OP_010",
+      "112-2_OP_056",
+      "112-2_OP_032",
+      "110-2_OP_053",
+      "110-1_OP_032",
+      "108-1_OP_062"
+    ]
+  },
+  "labor-complications#bishop-score": {
+    "auto": []
+  },
+  "labor-complications#induction-methods": {
+    "auto": []
+  },
+  "labor-complications#operative-vaginal": {
+    "auto": []
+  },
+  "labor-complications#cesarean": {
+    "auto": []
+  },
+  "labor-complications#vbac": {
+    "auto": []
+  },
+  "labor-complications#questions": {
+    "auto": [
+      "115-2_OP_021",
+      "115-2_OP_007",
+      "114-3_OP_018",
+      "114-1_OP_021",
+      "113-3_OP_022",
+      "113-3_OP_021",
+      "113-1_OP_011",
+      "112-3_OP_012",
+      "112-3_OP_010",
+      "112-2_OP_034",
+      "112-2_OP_033",
+      "112-2_OP_026",
+      "112-1_OP_023",
+      "111-2_OP_027",
+      "111-2_OP_017",
+      "111-2_FA_034",
+      "111-1_OP_016",
+      "111-1_OP_015",
+      "110-2_OP_011",
+      "109-2_OP_038"
+    ]
+  },
+  "leukemia#prognosis": {
+    "auto": []
+  },
   "leukemia#questions": {
     "auto": []
   },
@@ -2807,6 +4119,85 @@
       "106-2_makeup_MS_033"
     ]
   },
+  "liver-cirrhosis#types": {
+    "auto": []
+  },
+  "liver-cirrhosis#manifestations": {
+    "auto": []
+  },
+  "liver-cirrhosis#portal-hypertension": {
+    "auto": []
+  },
+  "liver-cirrhosis#ascites": {
+    "auto": []
+  },
+  "liver-cirrhosis#varices": {
+    "auto": []
+  },
+  "liver-cirrhosis#hepatic-encephalopathy": {
+    "auto": []
+  },
+  "liver-cirrhosis#fatty-liver": {
+    "auto": []
+  },
+  "liver-cirrhosis#questions": {
+    "auto": [
+      "115-2_BM_027",
+      "115-1_MS_009",
+      "115-1_FA_023",
+      "114-2_MS_009",
+      "114-2_MS_003",
+      "114-1_MS_008",
+      "114-1_BM_011",
+      "113-3_BM_027",
+      "113-3_BM_022",
+      "113-2_BM_022"
+    ]
+  },
+  "lower-gi-disorders#appendicitis": {
+    "auto": []
+  },
+  "lower-gi-disorders#peritonitis": {
+    "auto": []
+  },
+  "lower-gi-disorders#ibd": {
+    "auto": []
+  },
+  "lower-gi-disorders#malabsorption": {
+    "auto": []
+  },
+  "lower-gi-disorders#obstruction": {
+    "auto": []
+  },
+  "lower-gi-disorders#hernia": {
+    "auto": []
+  },
+  "lower-gi-disorders#diverticular": {
+    "auto": []
+  },
+  "lower-gi-disorders#polyps": {
+    "auto": []
+  },
+  "lower-gi-disorders#hemorrhoids": {
+    "auto": []
+  },
+  "lower-gi-disorders#anal-fissure-fistula": {
+    "auto": []
+  },
+  "lower-gi-disorders#questions": {
+    "auto": [
+      "115-2_MS_008",
+      "115-2_MS_006",
+      "115-2_FA_020",
+      "115-2_FA_006",
+      "115-2_BM_038",
+      "115-1_MS_010",
+      "114-3_MS_006",
+      "114-1_FA_017",
+      "113-3_MS_007",
+      "113-2_BM_040"
+    ]
+  },
   "lung-cancer#types": {
     "auto": []
   },
@@ -2827,6 +4218,12 @@
       "112-1_FA_054"
     ]
   },
+  "lymphoma-myeloma#lymphoma-symptoms": {
+    "auto": []
+  },
+  "lymphoma-myeloma#nhl-subtypes": {
+    "auto": []
+  },
   "lymphoma-myeloma#questions": {
     "auto": []
   },
@@ -2840,8 +4237,101 @@
       "113-3_MS_026",
       "113-3_BM_023",
       "113-2_MS_022",
-      "112-2_BM_022",
-      "112-1_MS_034"
+      "113-1_MS_023",
+      "112-3_MS_025"
+    ]
+  },
+  "male-reproductive-disorders#testicular-tumors": {
+    "auto": []
+  },
+  "male-reproductive-disorders#penis": {
+    "auto": []
+  },
+  "male-reproductive-disorders#questions": {
+    "auto": [
+      "114-2_BM_026",
+      "113-3_BM_028",
+      "113-1_OP_024",
+      "110-1_BM_047",
+      "110-1_BM_028",
+      "109-2_BM_046",
+      "107-1_BM_045",
+      "106-2_MS_061",
+      "105-1_BM_044"
+    ]
+  },
+  "menstrual-disorders#normal-menstruation": {
+    "auto": []
+  },
+  "menstrual-disorders#aub": {
+    "auto": []
+  },
+  "menstrual-disorders#pcos": {
+    "auto": []
+  },
+  "menstrual-disorders#dysmenorrhea": {
+    "auto": []
+  },
+  "menstrual-disorders#pms": {
+    "auto": []
+  },
+  "menstrual-disorders#menopause": {
+    "auto": []
+  },
+  "menstrual-disorders#questions": {
+    "auto": [
+      "115-1_OP_024",
+      "114-2_OP_025",
+      "113-3_PC_043",
+      "112-3_PC_043",
+      "112-2_OP_039",
+      "112-1_BM_029",
+      "111-2_PC_067",
+      "111-2_OP_037",
+      "111-2_OP_036",
+      "111-1_PC_015",
+      "111-1_OP_039",
+      "110-2_OP_039",
+      "110-2_OP_037",
+      "110-2_OP_036",
+      "110-2_OP_034"
+    ]
+  },
+  "neonatal-disorders#jaundice-types": {
+    "auto": []
+  },
+  "neonatal-disorders#kernicterus": {
+    "auto": []
+  },
+  "neonatal-disorders#phototherapy": {
+    "auto": []
+  },
+  "neonatal-disorders#hypoglycemia": {
+    "auto": []
+  },
+  "neonatal-disorders#meconium-aspiration": {
+    "auto": []
+  },
+  "neonatal-disorders#birth-injuries": {
+    "auto": []
+  },
+  "neonatal-disorders#questions": {
+    "auto": [
+      "115-2_OP_034",
+      "114-3_OP_035",
+      "114-1_OP_036",
+      "113-3_OP_036",
+      "113-2_OP_036",
+      "112-2_OP_055",
+      "112-1_OP_055",
+      "111-1_OP_055",
+      "110-2_OP_019",
+      "110-2_BM_039",
+      "109-1_OP_028",
+      "109-1_OP_027",
+      "108-2_OP_064",
+      "108-1_OP_043",
+      "108-1_OP_027"
     ]
   },
   "neuromuscular-demyelinating#myasthenia-gravis": {
@@ -2873,6 +4363,58 @@
   },
   "obsessive-compulsive-disorder#questions": {
     "auto": []
+  },
+  "osteoarthritis#clinical": {
+    "auto": []
+  },
+  "osteoarthritis#oa-nursing": {
+    "auto": []
+  },
+  "osteoarthritis#gout": {
+    "auto": []
+  },
+  "osteoarthritis#tha-complications": {
+    "auto": []
+  },
+  "osteoarthritis#tka": {
+    "auto": []
+  },
+  "osteoarthritis#arthroscopy": {
+    "auto": []
+  },
+  "osteoarthritis#physical-exam": {
+    "auto": []
+  },
+  "osteoarthritis#carpal-tunnel": {
+    "auto": []
+  },
+  "osteoarthritis#back-brace": {
+    "auto": []
+  },
+  "osteoporosis#definition": {
+    "auto": []
+  },
+  "osteoporosis#risk-factors": {
+    "auto": []
+  },
+  "osteoporosis#clinical": {
+    "auto": []
+  },
+  "osteoporosis#questions": {
+    "auto": [
+      "115-2_BM_039",
+      "114-3_OP_003",
+      "114-2_MS_011",
+      "114-1_PC_043",
+      "114-1_MS_013",
+      "113-3_PC_043",
+      "113-3_PC_039",
+      "113-2_MS_019",
+      "113-2_BM_038",
+      "112-3_BM_016",
+      "112-2_MS_017",
+      "112-1_MS_020"
+    ]
   },
   "parathyroid-disorders#hyper-manifestations": {
     "auto": []
@@ -2924,6 +4466,9 @@
       "113-1_OP_040",
       "113-1_BM_004"
     ]
+  },
+  "pediatric-cancers#bone-tumors": {
+    "auto": []
   },
   "pediatric-cancers#questions": {
     "auto": []
@@ -2996,6 +4541,100 @@
   "pediatric-genitourinary#questions": {
     "auto": []
   },
+  "pediatric-gi#infant-physiology": {
+    "auto": []
+  },
+  "pediatric-gi#dehydration": {
+    "auto": []
+  },
+  "pediatric-gi#recurrent-abdominal-pain": {
+    "auto": []
+  },
+  "pediatric-gi#cleft": {
+    "auto": []
+  },
+  "pediatric-gi#gerd": {
+    "auto": []
+  },
+  "pediatric-gi#tef": {
+    "auto": []
+  },
+  "pediatric-gi#pyloric-stenosis": {
+    "auto": []
+  },
+  "pediatric-gi#hirschsprung": {
+    "auto": []
+  },
+  "pediatric-gi#hernia": {
+    "auto": []
+  },
+  "pediatric-gi#intussusception": {
+    "auto": []
+  },
+  "pediatric-gi#gastroenteritis": {
+    "auto": [
+      "115-2_OP_048",
+      "114-3_OP_047",
+      "114-2_OP_048",
+      "112-3_OP_046",
+      "112-2_BM_049",
+      "110-2_PC_050"
+    ]
+  },
+  "pediatric-gi#biliary-atresia": {
+    "auto": []
+  },
+  "pediatric-gi#questions": {
+    "auto": [
+      "115-2_OP_047",
+      "115-1_OP_047",
+      "115-1_OP_045",
+      "114-2_OP_047",
+      "114-2_OP_036",
+      "114-1_OP_046",
+      "113-3_OP_026",
+      "113-2_OP_046",
+      "113-1_OP_046",
+      "113-1_OP_045"
+    ]
+  },
+  "pediatric-musculoskeletal#ddh-assessment": {
+    "auto": []
+  },
+  "pediatric-musculoskeletal#ddh-treatment": {
+    "auto": []
+  },
+  "pediatric-musculoskeletal#scoliosis": {
+    "auto": []
+  },
+  "pediatric-musculoskeletal#flat-foot": {
+    "auto": []
+  },
+  "pediatric-musculoskeletal#growing-pains": {
+    "auto": []
+  },
+  "pediatric-musculoskeletal#jia": {
+    "auto": []
+  },
+  "pediatric-musculoskeletal#dermatomyositis": {
+    "auto": []
+  },
+  "pediatric-musculoskeletal#questions": {
+    "auto": [
+      "115-2_OP_018",
+      "114-3_OP_019",
+      "113-3_OP_050",
+      "113-2_OP_048",
+      "112-3_OP_048",
+      "111-2_OP_076",
+      "111-1_OP_078",
+      "111-1_OP_077",
+      "110-2_OP_027",
+      "109-2_OP_080",
+      "109-2_OP_078",
+      "108-2_OP_078"
+    ]
+  },
   "pediatric-neuro#cerebral-palsy": {
     "auto": []
   },
@@ -3034,6 +4673,35 @@
   },
   "perinatal-infections#questions": {
     "auto": []
+  },
+  "peripheral-vascular-disease#exam-points": {
+    "auto": []
+  },
+  "peripheral-vascular-disease#takayasu": {
+    "auto": []
+  },
+  "peripheral-vascular-disease#venous-thrombosis": {
+    "auto": []
+  },
+  "peripheral-vascular-disease#questions": {
+    "auto": [
+      "115-1_MS_018",
+      "114-1_MS_020",
+      "114-1_BM_025",
+      "113-3_MS_019",
+      "112-2_MS_032",
+      "111-2_MS_031",
+      "111-2_MS_027",
+      "111-1_MS_027",
+      "110-1_MS_030",
+      "110-1_MS_028",
+      "110-1_BM_035",
+      "108-1_BM_036",
+      "107-2_MS_031",
+      "106-1_MS_030",
+      "106-1_MS_029",
+      "105-2_MS_027"
+    ]
   },
   "personality-disorders#questions": {
     "auto": []
@@ -3134,6 +4802,72 @@
   "pneumonia#questions": {
     "auto": []
   },
+  "postpartum-complications#pph-definition": {
+    "auto": []
+  },
+  "postpartum-complications#four-ts": {
+    "auto": []
+  },
+  "postpartum-complications#pph-prevention": {
+    "auto": []
+  },
+  "postpartum-complications#uterine-atony": {
+    "auto": []
+  },
+  "postpartum-complications#lacerations-hematoma": {
+    "auto": []
+  },
+  "postpartum-complications#uterine-inversion": {
+    "auto": []
+  },
+  "postpartum-complications#subinvolution": {
+    "auto": []
+  },
+  "postpartum-complications#subinvolution~2": {
+    "auto": [
+      "113-2_OP_012",
+      "109-1_OP_033",
+      "108-2_OP_030",
+      "108-2_OP_018"
+    ]
+  },
+  "postpartum-complications#postpartum-vte": {
+    "auto": []
+  },
+  "postpartum-complications#postpartum-vte~2": {
+    "auto": [
+      "115-1_OP_022",
+      "115-1_MS_017",
+      "114-2_OP_021",
+      "114-1_OP_022",
+      "112-2_OP_031",
+      "111-2_MS_019",
+      "111-2_BM_023",
+      "108-1_OP_021"
+    ]
+  },
+  "postpartum-complications#postpartum-mood": {
+    "auto": []
+  },
+  "postpartum-complications#questions": {
+    "auto": [
+      "115-2_OP_012",
+      "115-1_OP_023",
+      "115-1_OP_013",
+      "114-3_OP_023",
+      "114-3_OP_016",
+      "114-2_OP_023",
+      "113-3_OP_020",
+      "113-3_OP_012",
+      "113-2_OP_013",
+      "113-1_OP_015",
+      "113-1_OP_009",
+      "112-3_OP_015",
+      "112-2_OP_035",
+      "112-2_OP_021",
+      "112-1_OP_032"
+    ]
+  },
   "pressure-injury#risk-factors": {
     "auto": []
   },
@@ -3151,6 +4885,46 @@
   },
   "pressure-injury#questions": {
     "auto": []
+  },
+  "preterm-infant#features": {
+    "auto": []
+  },
+  "preterm-infant#systems": {
+    "auto": []
+  },
+  "preterm-infant#nec": {
+    "auto": []
+  },
+  "preterm-infant#thermoregulation": {
+    "auto": []
+  },
+  "preterm-infant#feeding": {
+    "auto": []
+  },
+  "preterm-infant#developmental-care": {
+    "auto": []
+  },
+  "preterm-infant#family": {
+    "auto": []
+  },
+  "preterm-infant#questions": {
+    "auto": [
+      "114-3_OP_034",
+      "114-3_OP_033",
+      "114-2_OP_033",
+      "114-1_OP_034",
+      "113-3_OP_034",
+      "113-3_OP_033",
+      "113-3_OP_017",
+      "113-2_OP_034",
+      "113-2_OP_033",
+      "113-1_OP_035",
+      "113-1_OP_033",
+      "112-3_OP_035",
+      "112-3_OP_033",
+      "112-2_OP_052",
+      "112-2_OP_051"
+    ]
   },
   "primary-immunodeficiency#questions": {
     "auto": []
@@ -3257,6 +5031,42 @@
   "sexually-transmitted-infections#questions": {
     "auto": []
   },
+  "shock#exam-points": {
+    "auto": []
+  },
+  "shock#types": {
+    "auto": []
+  },
+  "shock#distributive": {
+    "auto": []
+  },
+  "shock#assessment": {
+    "auto": []
+  },
+  "shock#questions": {
+    "auto": [
+      "115-2_MS_050",
+      "115-2_FA_024",
+      "115-1_MS_019",
+      "114-3_MS_037",
+      "114-3_MS_024",
+      "114-2_FA_026",
+      "114-1_MS_019",
+      "113-3_MS_050",
+      "113-2_MS_048",
+      "113-1_MS_047",
+      "113-1_BM_022",
+      "112-3_MS_049",
+      "112-3_MS_019",
+      "112-2_MS_078",
+      "112-2_FA_040",
+      "112-1_MS_078",
+      "112-1_MS_077",
+      "111-2_MS_078",
+      "111-1_MS_077",
+      "111-1_MS_076"
+    ]
+  },
   "single-gene-disorders#thalassemia": {
     "auto": []
   },
@@ -3308,6 +5118,32 @@
   },
   "skin-bone-infections#questions": {
     "auto": []
+  },
+  "skin-diseases#secondary-lesions": {
+    "auto": []
+  },
+  "skin-diseases#psoriasis": {
+    "auto": []
+  },
+  "skin-diseases#benign-tumors": {
+    "auto": []
+  },
+  "skin-diseases#skin-cancer": {
+    "auto": []
+  },
+  "skin-diseases#prevention": {
+    "auto": []
+  },
+  "skin-diseases#questions": {
+    "auto": [
+      "114-1_MS_028",
+      "112-2_MS_044",
+      "112-1_MS_045",
+      "111-2_MS_046",
+      "110-1_MS_044",
+      "106-2_makeup_PC_049",
+      "105-1_MS_045"
+    ]
   },
   "sle#questions": {
     "auto": []
@@ -3442,11 +5278,11 @@
       "115-1_FA_034",
       "114-3_MS_007",
       "114-3_BM_038",
+      "114-2_MS_008",
       "114-2_MS_007",
       "114-1_MS_026",
-      "113-2_MS_007",
-      "113-2_BM_034",
-      "113-2_BM_027"
+      "114-1_MS_006",
+      "113-2_MS_007"
     ]
   },
   "urinary-tract-infection#questions": {
@@ -3506,10 +5342,32 @@
   "urticaria-angioedema#questions": {
     "auto": []
   },
+  "valvular-heart-disease#exam-points": {
+    "auto": []
+  },
+  "valvular-heart-disease#comparison": {
+    "auto": []
+  },
+  "valvular-heart-disease#questions": {
+    "auto": [
+      "113-3_MS_020",
+      "113-2_MS_020",
+      "112-3_MS_021",
+      "112-1_MS_032",
+      "110-2_MS_032",
+      "109-2_MS_026",
+      "109-1_MS_030",
+      "109-1_MS_025",
+      "108-1_MS_031"
+    ]
+  },
   "vector-borne-zoonotic#questions": {
     "auto": []
   },
   "viral-hepatitis#questions": {
+    "auto": []
+  },
+  "ace-inhibitors#mechanism": {
     "auto": []
   },
   "ace-inhibitors#questions": {
@@ -3609,7 +5467,44 @@
   "anti-dementia-drugs#questions": {
     "auto": []
   },
+  "antiarrhythmics#adenosine": {
+    "auto": []
+  },
+  "antiarrhythmics#acls-drugs": {
+    "auto": []
+  },
+  "antiarrhythmics#adverse-effects": {
+    "auto": []
+  },
+  "antiarrhythmics#questions": {
+    "auto": [
+      "115-2_BM_037",
+      "115-1_MS_047",
+      "113-2_MS_018",
+      "112-3_BM_037",
+      "111-2_BM_036",
+      "111-1_BM_051",
+      "110-2_MS_079",
+      "109-2_MS_032",
+      "109-2_BM_058",
+      "109-2_BM_050",
+      "108-2_BM_059",
+      "108-1_MS_027"
+    ]
+  },
   "antibiotics-overview#questions": {
+    "auto": []
+  },
+  "anticoagulants#parenteral-others": {
+    "auto": []
+  },
+  "anticoagulants#indications": {
+    "auto": []
+  },
+  "anticoagulants#warfarin-teaching": {
+    "auto": []
+  },
+  "anticoagulants#dvt-assessment": {
     "auto": []
   },
   "anticoagulants#questions": {
@@ -3741,6 +5636,9 @@
       "112-3_PC_008",
       "112-3_MS_005"
     ]
+  },
+  "antiplatelets#others": {
+    "auto": []
   },
   "antiplatelets#questions": {
     "auto": [
@@ -3940,6 +5838,12 @@
       "114-3_FA_012"
     ]
   },
+  "digoxin#toxicity": {
+    "auto": []
+  },
+  "digoxin#pediatric": {
+    "auto": []
+  },
   "digoxin#questions": {
     "auto": [
       "114-3_OP_040",
@@ -3997,6 +5901,7 @@
   "gi-drugs#questions": {
     "auto": [
       "115-2_BM_035",
+      "115-1_BM_031",
       "114-3_BM_038",
       "113-3_BM_037",
       "113-2_BM_037",
@@ -4004,8 +5909,7 @@
       "112-3_MS_009",
       "112-3_BM_038",
       "112-2_MS_059",
-      "112-2_MS_015",
-      "112-2_MS_011"
+      "112-2_MS_015"
     ]
   },
   "glp1-receptor-agonists#questions": {
@@ -4036,6 +5940,38 @@
       "114-2_MS_027"
     ]
   },
+  "hematinics#iron": {
+    "auto": []
+  },
+  "hematinics#iron-poisoning": {
+    "auto": []
+  },
+  "hematinics#b12-folate": {
+    "auto": []
+  },
+  "hematinics#esa": {
+    "auto": []
+  },
+  "hematinics#g-csf": {
+    "auto": []
+  },
+  "hematinics#chelators": {
+    "auto": []
+  },
+  "hematinics#questions": {
+    "auto": [
+      "115-2_OP_042",
+      "115-1_OP_041",
+      "114-1_OP_041",
+      "113-2_MS_021",
+      "112-3_OP_041",
+      "112-3_MS_023",
+      "111-2_OP_068",
+      "111-2_MS_039",
+      "111-1_MS_064",
+      "111-1_MS_035"
+    ]
+  },
   "immunosuppressants#questions": {
     "auto": []
   },
@@ -4052,6 +5988,9 @@
       "112-3_MS_032",
       "112-3_FA_009"
     ]
+  },
+  "inotropes#others": {
+    "auto": []
   },
   "inotropes#questions": {
     "auto": [
@@ -4188,16 +6127,22 @@
       "109-2_PC_019"
     ]
   },
+  "nitrates#assessment": {
+    "auto": []
+  },
+  "nitrates#storage": {
+    "auto": []
+  },
   "nitrates#questions": {
     "auto": [
       "115-1_BM_038",
+      "114-2_FA_013",
       "112-1_BM_036",
       "110-1_BM_059",
       "109-2_MS_031",
       "109-1_BM_056",
       "108-2_MS_025",
-      "107-2_MS_030",
-      "107-2_FA_020"
+      "108-1_MS_029"
     ]
   },
   "nitrates#questions~2": {
@@ -4502,10 +6447,28 @@
   "cardiac-catheterization#post-care": {
     "auto": []
   },
+  "cardiac-catheterization#post-care~2": {
+    "auto": []
+  },
+  "cardiac-catheterization#post-care~3": {
+    "auto": []
+  },
+  "coagulation-tests#tests": {
+    "auto": []
+  },
+  "coagulation-tests#interpretation": {
+    "auto": []
+  },
   "complete-blood-count#questions": {
     "auto": []
   },
   "culture-and-sensitivity#questions": {
+    "auto": []
+  },
+  "ecg#other-changes": {
+    "auto": []
+  },
+  "ecg#mi-evolution": {
     "auto": []
   },
   "ecg#rv-infarction": {
@@ -4543,6 +6506,21 @@
       "114-1_MS_019"
     ]
   },
+  "gi-diagnostic-procedures#comparison": {
+    "auto": []
+  },
+  "gi-diagnostic-procedures#ercp": {
+    "auto": []
+  },
+  "gi-diagnostic-procedures#liver-biopsy": {
+    "auto": []
+  },
+  "gi-diagnostic-procedures#paracentesis": {
+    "auto": []
+  },
+  "gi-diagnostic-procedures#laparoscopy": {
+    "auto": []
+  },
   "hba1c#targets": {
     "auto": [
       "115-2_PC_036",
@@ -4568,6 +6546,51 @@
   "inflammatory-markers#questions": {
     "auto": []
   },
+  "intrapartum-fetal-monitoring#intermittent-auscultation": {
+    "auto": []
+  },
+  "intrapartum-fetal-monitoring#efm": {
+    "auto": []
+  },
+  "intrapartum-fetal-monitoring#auscultation-site": {
+    "auto": []
+  },
+  "intrapartum-fetal-monitoring#baseline": {
+    "auto": []
+  },
+  "intrapartum-fetal-monitoring#variability": {
+    "auto": []
+  },
+  "intrapartum-fetal-monitoring#periodic-changes": {
+    "auto": []
+  },
+  "intrapartum-fetal-monitoring#intrauterine-resuscitation": {
+    "auto": []
+  },
+  "intrapartum-fetal-monitoring#questions": {
+    "auto": [
+      "113-3_OP_024",
+      "113-2_OP_006",
+      "113-1_OP_023",
+      "112-2_OP_014",
+      "112-1_OP_019",
+      "112-1_OP_016",
+      "112-1_OP_014",
+      "111-2_OP_034",
+      "109-2_OP_016",
+      "109-1_OP_017",
+      "109-1_OP_015",
+      "109-1_OP_013",
+      "108-2_OP_032",
+      "108-2_OP_031",
+      "108-1_OP_016",
+      "107-1_OP_030",
+      "107-1_OP_029",
+      "106-2_makeup_OP_015",
+      "106-1_OP_015",
+      "105-2_OP_016"
+    ]
+  },
   "ketones#questions": {
     "auto": [
       "115-2_OP_045",
@@ -4580,6 +6603,9 @@
       "110-1_MS_072"
     ]
   },
+  "lipid-profile#metabolic-syndrome": {
+    "auto": []
+  },
   "lipid-profile#questions": {
     "auto": []
   },
@@ -4587,6 +6613,9 @@
     "auto": []
   },
   "lithium-level#questions": {
+    "auto": []
+  },
+  "liver-function#tests": {
     "auto": []
   },
   "ogtt#gdm-timing": {
@@ -4627,6 +6656,61 @@
       "113-3_MS_042",
       "113-2_FA_015",
       "112-3_FA_012"
+    ]
+  },
+  "prenatal-assessment#signs": {
+    "auto": []
+  },
+  "prenatal-assessment#pregnancy-test": {
+    "auto": []
+  },
+  "prenatal-assessment#obstetric-history": {
+    "auto": []
+  },
+  "prenatal-assessment#due-date": {
+    "auto": []
+  },
+  "prenatal-assessment#leopold": {
+    "auto": []
+  },
+  "prenatal-assessment#fetal-heart": {
+    "auto": []
+  },
+  "prenatal-assessment#fetal-movement": {
+    "auto": []
+  },
+  "prenatal-assessment#ultrasound": {
+    "auto": []
+  },
+  "prenatal-assessment#nst": {
+    "auto": []
+  },
+  "prenatal-assessment#bpp": {
+    "auto": []
+  },
+  "prenatal-assessment#screening": {
+    "auto": []
+  },
+  "prenatal-assessment#diagnostic-tests": {
+    "auto": []
+  },
+  "prenatal-assessment#questions": {
+    "auto": [
+      "115-2_OP_005",
+      "115-2_OP_004",
+      "115-2_OP_002",
+      "115-1_OP_005",
+      "115-1_BM_023",
+      "114-2_OP_002",
+      "114-1_OP_005",
+      "114-1_OP_004",
+      "114-1_OP_003",
+      "112-3_BM_024",
+      "112-2_OP_009",
+      "112-1_PC_067",
+      "111-2_OP_005",
+      "111-2_BM_025",
+      "111-1_OP_010"
     ]
   },
   "renal-function-tests#creatinine": {
@@ -4812,6 +6896,33 @@
   "b-lymphocytes#questions": {
     "auto": []
   },
+  "blood-hemostasis#composition": {
+    "auto": []
+  },
+  "blood-hemostasis#hematopoiesis": {
+    "auto": []
+  },
+  "blood-hemostasis#iron": {
+    "auto": []
+  },
+  "blood-hemostasis#wbc": {
+    "auto": []
+  },
+  "blood-hemostasis#hemostasis": {
+    "auto": []
+  },
+  "blood-hemostasis#coagulation": {
+    "auto": []
+  },
+  "blood-hemostasis#anticoagulation-fibrinolysis": {
+    "auto": []
+  },
+  "blood-hemostasis#blood-groups": {
+    "auto": []
+  },
+  "blood-hemostasis#bone-marrow-exam": {
+    "auto": []
+  },
   "blood-pressure-regulation#determinants": {
     "auto": [
       "115-2_FA_025",
@@ -4824,6 +6935,9 @@
       "111-2_FA_041"
     ]
   },
+  "blood-pressure-regulation#determinants~2": {
+    "auto": []
+  },
   "blood-pressure-regulation#map": {
     "auto": [
       "114-2_MS_016",
@@ -4835,6 +6949,9 @@
       "112-3_BM_030",
       "112-2_MS_077"
     ]
+  },
+  "blood-pressure-regulation#map~2": {
+    "auto": []
   },
   "blood-pressure-regulation#chemoreceptor": {
     "auto": [
@@ -4882,6 +6999,38 @@
   "blood-pressure-regulation#questions": {
     "auto": []
   },
+  "blood-vessels#structure": {
+    "auto": []
+  },
+  "blood-vessels#arteries": {
+    "auto": []
+  },
+  "blood-vessels#veins": {
+    "auto": []
+  },
+  "blood-vessels#portal": {
+    "auto": []
+  },
+  "blood-vessels#cvp": {
+    "auto": []
+  },
+  "blood-vessels#transition": {
+    "auto": []
+  },
+  "blood-vessels#questions": {
+    "auto": [
+      "115-2_FA_034",
+      "115-2_BM_027",
+      "115-1_BM_015",
+      "114-3_OP_041",
+      "114-3_BM_009",
+      "114-2_OP_005",
+      "114-2_BM_009",
+      "114-1_OP_036",
+      "114-1_BM_015",
+      "114-1_BM_014"
+    ]
+  },
   "brain-anatomy#brain-metabolism": {
     "auto": []
   },
@@ -4921,7 +7070,16 @@
       "115-1_BM_003"
     ]
   },
+  "cardiac-output#valves": {
+    "auto": []
+  },
+  "cardiac-output#valves~2": {
+    "auto": []
+  },
   "cardiac-output#cardiac-cycle": {
+    "auto": []
+  },
+  "cardiac-output#cardiac-cycle~2": {
     "auto": [
       "114-3_BM_008",
       "112-2_BM_017",
@@ -4946,6 +7104,9 @@
       "112-3_FA_025"
     ]
   },
+  "cardiac-output#determinants~2": {
+    "auto": []
+  },
   "cardiac-output#afterload": {
     "auto": [
       "115-2_MS_016",
@@ -4957,6 +7118,9 @@
       "111-2_MS_053",
       "111-2_MS_028"
     ]
+  },
+  "cardiac-output#myocyte": {
+    "auto": []
   },
   "cardiac-output#frank-starling": {
     "auto": [
@@ -4974,6 +7138,9 @@
     ]
   },
   "cardiac-output#autonomic": {
+    "auto": []
+  },
+  "cardiac-output#autonomic~2": {
     "auto": [
       "115-2_BM_016",
       "113-2_BM_012",
@@ -5032,6 +7199,9 @@
       "107-2_BM_006"
     ]
   },
+  "coronary-circulation#anatomy~2": {
+    "auto": []
+  },
   "coronary-circulation#antianginal": {
     "auto": []
   },
@@ -5060,6 +7230,9 @@
       "114-2_PC_006",
       "114-2_MS_014"
     ]
+  },
+  "edema-shock#starling": {
+    "auto": []
   },
   "edema-shock#edema": {
     "auto": []
@@ -5178,6 +7351,82 @@
       "112-1_BM_026",
       "111-2_PC_044",
       "110-2_FA_015"
+    ]
+  },
+  "female-reproductive-system#vulva": {
+    "auto": []
+  },
+  "female-reproductive-system#vagina": {
+    "auto": []
+  },
+  "female-reproductive-system#uterus": {
+    "auto": []
+  },
+  "female-reproductive-system#fallopian-tube": {
+    "auto": []
+  },
+  "female-reproductive-system#oogenesis": {
+    "auto": []
+  },
+  "female-reproductive-system#follicles": {
+    "auto": []
+  },
+  "female-reproductive-system#menstrual-cycle": {
+    "auto": []
+  },
+  "female-reproductive-system#ovulation-signs": {
+    "auto": []
+  },
+  "female-reproductive-system#breast": {
+    "auto": []
+  },
+  "female-reproductive-system#menopause": {
+    "auto": []
+  },
+  "female-reproductive-system#questions": {
+    "auto": [
+      "115-2_BM_017",
+      "115-1_BM_039",
+      "115-1_BM_017",
+      "115-1_BM_008",
+      "114-3_PC_012",
+      "114-3_OP_025",
+      "114-3_OP_017",
+      "114-3_OP_013",
+      "114-3_BM_007",
+      "114-3_BM_006"
+    ]
+  },
+  "fertilization-embryology#fertilization": {
+    "auto": []
+  },
+  "fertilization-embryology#implantation": {
+    "auto": []
+  },
+  "fertilization-embryology#amniotic-fluid": {
+    "auto": []
+  },
+  "fertilization-embryology#placenta": {
+    "auto": []
+  },
+  "fertilization-embryology#germ-layers": {
+    "auto": []
+  },
+  "fertilization-embryology#development-periods": {
+    "auto": []
+  },
+  "fertilization-embryology#fetal-development": {
+    "auto": []
+  },
+  "fertilization-embryology#lung-maturity": {
+    "auto": []
+  },
+  "fertilization-embryology#questions": {
+    "auto": [
+      "110-2_OP_008",
+      "109-2_OP_003",
+      "107-1_BM_024",
+      "105-1_OP_010"
     ]
   },
   "fluid-electrolytes#compartments": {
@@ -5402,6 +7651,69 @@
   "kidney-urinary-physiology#special-populations": {
     "auto": []
   },
+  "labor-process#premonitory-signs": {
+    "auto": []
+  },
+  "labor-process#true-false-labor": {
+    "auto": []
+  },
+  "labor-process#rupture-tests": {
+    "auto": []
+  },
+  "labor-process#passage": {
+    "auto": []
+  },
+  "labor-process#fetal-skull": {
+    "auto": []
+  },
+  "labor-process#fetal-position-terms": {
+    "auto": []
+  },
+  "labor-process#powers": {
+    "auto": []
+  },
+  "labor-process#position-psyche": {
+    "auto": []
+  },
+  "labor-process#cardinal-movements": {
+    "auto": []
+  },
+  "labor-process#stages": {
+    "auto": []
+  },
+  "labor-process#first-stage": {
+    "auto": []
+  },
+  "labor-process#second-stage": {
+    "auto": []
+  },
+  "labor-process#third-stage": {
+    "auto": []
+  },
+  "labor-process#questions": {
+    "auto": [
+      "115-2_OP_009",
+      "115-2_OP_008",
+      "115-2_OP_001",
+      "115-1_OP_010",
+      "115-1_OP_008",
+      "114-3_OP_012",
+      "114-3_OP_010",
+      "114-3_OP_004",
+      "114-2_OP_022",
+      "114-2_OP_011",
+      "114-2_OP_008",
+      "113-3_OP_009",
+      "113-3_OP_007",
+      "113-2_OP_011",
+      "113-2_OP_007",
+      "113-1_OP_010",
+      "112-3_OP_009",
+      "112-3_OP_008",
+      "112-2_OP_017",
+      "112-2_OP_016"
+    ]
+  },
   "liver-biliary-pancreas#liver-anatomy": {
     "auto": []
   },
@@ -5423,7 +7735,113 @@
   "liver-biliary-pancreas#pancreas": {
     "auto": []
   },
+  "male-reproductive-system#testis": {
+    "auto": []
+  },
+  "male-reproductive-system#spermatogenesis": {
+    "auto": []
+  },
+  "male-reproductive-system#ducts-glands": {
+    "auto": []
+  },
+  "male-reproductive-system#penis": {
+    "auto": []
+  },
+  "male-reproductive-system#semen-collection": {
+    "auto": []
+  },
+  "male-reproductive-system#semen-values": {
+    "auto": []
+  },
+  "male-reproductive-system#sexual-differentiation": {
+    "auto": []
+  },
+  "male-reproductive-system#questions": {
+    "auto": [
+      "115-2_BM_017",
+      "112-1_OP_036"
+    ]
+  },
+  "maternal-adaptation#reproductive": {
+    "auto": []
+  },
+  "maternal-adaptation#cardiovascular": {
+    "auto": []
+  },
+  "maternal-adaptation#other-systems": {
+    "auto": []
+  },
+  "maternal-adaptation#skin-msk-endocrine": {
+    "auto": []
+  },
+  "maternal-adaptation#pharmacokinetics": {
+    "auto": []
+  },
+  "maternal-adaptation#psychological": {
+    "auto": []
+  },
+  "maternal-adaptation#rubin-tasks": {
+    "auto": []
+  },
+  "maternal-adaptation#family": {
+    "auto": []
+  },
+  "maternal-adaptation#questions": {
+    "auto": [
+      "115-1_OP_002",
+      "113-3_OP_002",
+      "112-2_OP_006",
+      "111-2_OP_013",
+      "111-2_OP_004",
+      "111-1_OP_025",
+      "111-1_OP_009",
+      "110-1_OP_007",
+      "110-1_OP_003",
+      "109-1_OP_007",
+      "109-1_OP_003",
+      "108-2_OP_003",
+      "107-2_OP_003",
+      "107-1_OP_004",
+      "106-1_OP_034"
+    ]
+  },
   "microbial-pathogenesis#questions": {
+    "auto": []
+  },
+  "muscular-system#muscle-types": {
+    "auto": []
+  },
+  "muscular-system#sarcomere": {
+    "auto": []
+  },
+  "muscular-system#excitation-contraction": {
+    "auto": []
+  },
+  "muscular-system#energy": {
+    "auto": []
+  },
+  "muscular-system#fiber-types": {
+    "auto": []
+  },
+  "muscular-system#contraction-types": {
+    "auto": []
+  },
+  "muscular-system#cardiac": {
+    "auto": []
+  },
+  "muscular-system#smooth": {
+    "auto": []
+  },
+  "muscular-system#head-neck": {
+    "auto": []
+  },
+  "muscular-system#trunk": {
+    "auto": []
+  },
+  "muscular-system#upper-limb": {
+    "auto": []
+  },
+  "muscular-system#lower-limb": {
     "auto": []
   },
   "neoplasia#questions": {
@@ -5486,6 +7904,39 @@
   "neurotransmitters-psychiatry#brain-regions": {
     "auto": []
   },
+  "newborn-adaptation#respiration": {
+    "auto": []
+  },
+  "newborn-adaptation#thermoregulation": {
+    "auto": []
+  },
+  "newborn-adaptation#glucose": {
+    "auto": []
+  },
+  "newborn-adaptation#gastrointestinal": {
+    "auto": []
+  },
+  "newborn-adaptation#liver-jaundice": {
+    "auto": []
+  },
+  "newborn-adaptation#blood": {
+    "auto": []
+  },
+  "newborn-adaptation#hormone-effects": {
+    "auto": []
+  },
+  "newborn-adaptation#transition": {
+    "auto": []
+  },
+  "newborn-adaptation#behavioral-states": {
+    "auto": []
+  },
+  "newborn-adaptation#questions": {
+    "auto": [
+      "109-1_OP_029",
+      "108-2_OP_060"
+    ]
+  },
   "nutritional-disorders#protein-energy-malnutrition": {
     "auto": []
   },
@@ -5507,6 +7958,49 @@
       "113-2_FA_028",
       "113-1_PC_049",
       "113-1_BM_024"
+    ]
+  },
+  "postpartum-adaptation#puerperium": {
+    "auto": []
+  },
+  "postpartum-adaptation#fundus": {
+    "auto": []
+  },
+  "postpartum-adaptation#afterpains": {
+    "auto": []
+  },
+  "postpartum-adaptation#lochia": {
+    "auto": []
+  },
+  "postpartum-adaptation#cervix-vagina-perineum": {
+    "auto": []
+  },
+  "postpartum-adaptation#ovulation-menstruation": {
+    "auto": []
+  },
+  "postpartum-adaptation#cardiovascular-blood": {
+    "auto": []
+  },
+  "postpartum-adaptation#urinary": {
+    "auto": []
+  },
+  "postpartum-adaptation#lactation": {
+    "auto": []
+  },
+  "postpartum-adaptation#questions": {
+    "auto": [
+      "114-1_OP_015",
+      "113-1_OP_016",
+      "112-2_OP_027",
+      "111-1_OP_020",
+      "110-2_OP_024",
+      "110-1_OP_022",
+      "109-2_OP_020",
+      "109-2_OP_019",
+      "108-2_OP_021",
+      "108-1_OP_023",
+      "107-2_OP_020",
+      "107-1_OP_020"
     ]
   },
   "respiratory-anatomy#zones": {
@@ -5544,6 +8038,57 @@
       "115-1_MS_036",
       "115-1_MS_033"
     ]
+  },
+  "skeletal-system#functions": {
+    "auto": []
+  },
+  "skeletal-system#bone-cells": {
+    "auto": []
+  },
+  "skeletal-system#ossification": {
+    "auto": []
+  },
+  "skeletal-system#skull-bones": {
+    "auto": []
+  },
+  "skeletal-system#foramina": {
+    "auto": []
+  },
+  "skeletal-system#curves": {
+    "auto": []
+  },
+  "skeletal-system#thorax": {
+    "auto": []
+  },
+  "skeletal-system#upper-limb": {
+    "auto": []
+  },
+  "skeletal-system#pelvis": {
+    "auto": []
+  },
+  "skeletal-system#leg-bones": {
+    "auto": []
+  },
+  "skeletal-system#synovial": {
+    "auto": []
+  },
+  "skeletal-system#major-joints": {
+    "auto": []
+  },
+  "skeletal-system#immobility": {
+    "auto": []
+  },
+  "skin#epidermal-layers": {
+    "auto": []
+  },
+  "skin#epidermal-cells": {
+    "auto": []
+  },
+  "skin#dermis": {
+    "auto": []
+  },
+  "skin#glands": {
+    "auto": []
   },
   "special-senses#general-senses": {
     "auto": []
@@ -5872,6 +8417,46 @@
   "bowel-elimination#questions": {
     "auto": []
   },
+  "cpr#chain-of-survival": {
+    "auto": []
+  },
+  "cpr#activation": {
+    "auto": []
+  },
+  "cpr#adult": {
+    "auto": []
+  },
+  "cpr#airway-breathing": {
+    "auto": []
+  },
+  "cpr#pediatric": {
+    "auto": []
+  },
+  "cpr#aed": {
+    "auto": []
+  },
+  "cpr#rosc": {
+    "auto": []
+  },
+  "cpr#fbao-relief": {
+    "auto": []
+  },
+  "cpr#questions": {
+    "auto": [
+      "115-1_OP_026",
+      "114-2_OP_029",
+      "114-2_MS_049",
+      "114-2_MS_047",
+      "114-1_OP_026",
+      "114-1_MS_047",
+      "113-3_MS_048",
+      "113-3_FA_007",
+      "113-2_MS_047",
+      "112-3_MS_050",
+      "112-3_MS_048",
+      "112-1_MS_076"
+    ]
+  },
   "enteral-parenteral-nutrition#routes": {
     "auto": []
   },
@@ -6014,6 +8599,7 @@
   },
   "iv-therapy#questions": {
     "auto": [
+      "115-1_OP_022",
       "115-1_MS_017",
       "114-3_FA_016",
       "114-1_OP_022",
@@ -6022,8 +8608,7 @@
       "112-3_FA_014",
       "112-2_FA_022",
       "112-1_MS_031",
-      "112-1_FA_048",
-      "112-1_FA_027"
+      "112-1_FA_048"
     ]
   },
   "medication-administration-principles#dosage-forms": {

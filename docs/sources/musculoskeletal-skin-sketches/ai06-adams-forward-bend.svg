@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="PingFang TC, sans-serif" font-size="14"><rect width="800" height="300" fill="#fff"/><style>.b{fill:none;stroke:#333;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.t{fill:#333}.x{fill:#c62828;font-weight:bold;font-size:22px}.o{fill:#2e7d32;font-weight:bold;font-size:22px}.n{fill:#666;font-size:12px}.a{fill:none;stroke:#1565c0;stroke-width:2;marker-end:url(#m)}</style><defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#1565c0"/></marker></defs>
+<text x="400" y="22" text-anchor="middle" class="t" font-size="16">AI-6 脊柱側彎：站立背面＋前彎試驗(兩格)</text>
+<g transform="translate(150,40)"><circle cx="70" cy="20" r="15" class="b"/><path d="M40 45 L100 55" class="b"/><path d="M70 40 q-15 40 0 80 q15 40 0 70" class="b" stroke="#c62828"/><path d="M45 190 L95 182" class="b"/><path d="M60 190 V240 M85 186 V240" class="b"/>
+<text x="-20" y="45" class="n">肩高不一</text><text x="-20" y="190" class="n">骨盆傾斜</text><text x="20" y="260" class="t">站立(背面)</text></g>
+<g transform="translate(450,40)"><path d="M20 230 V140 M70 230 V140" class="b"/><path d="M10 140 Q45 110 190 130" class="b"/><circle cx="205" cy="150" r="15" class="b"/><path d="M60 118 q30 -30 60 -5" fill="#ffcdd2" stroke="#c62828"/>
+<text x="70" y="85" class="n">單側肋骨隆起(rib hump)</text><text x="30" y="260" class="t">前彎 90°(從後方看)</text></g>
+</svg>

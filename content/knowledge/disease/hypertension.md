@@ -4,6 +4,8 @@ subtitle: Hypertension(HTN)
 aliases: [HTN, 高血壓危象, 高血壓急症, 本態性高血壓, 原發性高血壓, 續發性高血壓, 妊娠高血壓, 子癇前症, Hypertensive crisis]
 dzTags: [高血壓, 高血壓危象, 妊娠高血壓, 左心室肥大]
 system: cardiovascular
+group: cardiac-diseases
+alsoIn: [obstetrics]
 chapters:
   - 藥理-Ch02自主神經系統藥物 > 腎上腺素性神經藥物
   - 藥理-Ch08心血管藥物 > 治療高血壓藥物
@@ -448,6 +450,8 @@ references:
 
 各類藥物重點(內容來自各藥物頁，點標題可前往)：
 
+::questions{ids="106-2_makeup_MS_029"}
+
 ### RAAS 抑制劑 {#raas-inhibitors}
 
 ![[ace-inhibitors#summary]]
@@ -649,6 +653,8 @@ references:
   3. 2025 AHA/ACC：以**戒酒**為目標，至少降到男 ≤ 2 杯/天、女 ≤ 1 杯/天（1 杯 = 12–14 g 酒精） (來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e141)
   4. 台灣的公克數比美國更嚴；國考題中「每日 120 mL 酒精」屬過量
   5. 應酬時學會婉拒、自我克制
+
+::questions{ids="108-1_MS_032"}
 
 ### 運動 {#exercise}
 

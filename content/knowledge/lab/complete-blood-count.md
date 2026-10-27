@@ -122,6 +122,7 @@ references:
 - 懷孕中期血液稀釋，Hb 約 11 g/dL 仍屬正常(生理性貧血)。
 - 貧血的表現：蒼白、疲倦、**心跳加快**、呼吸喘、頭暈；Hb 很低的兒童會有活動力差、心跳快、心雜音。
 - 海洋性貧血的遺傳、帶因篩檢與和缺鐵的區別見 [[single-gene-disorders#thalassemia]]
+- 各型貧血的表現與照護見 [[anemias]]
 
 ### 血比容 {#hematocrit}
 

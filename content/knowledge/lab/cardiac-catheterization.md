@@ -123,6 +123,10 @@ references:
 
 ::questions{ids="115-1_FA_024,113-2_MS_020,112-2_OP_065,112-2_MS_052,111-1_OP_066,111-1_MS_028,110-1_OP_064,110-1_MS_032,109-2_MS_035,109-1_OP_072"}
 
+::questions{ids="105-2_MS_028,106-1_MS_027"}
+
+::questions{ids="108-2_OP_047,106-2_makeup_OP_064"}
+
 ## 併發症 {#complications}
 
 | 併發症 | 表現與處理 |

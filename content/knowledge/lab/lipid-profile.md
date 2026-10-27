@@ -2,7 +2,7 @@
 title: 血脂檢查
 subtitle: Lipid profile(TC、LDL-C、HDL-C、TG)
 aliases: [血脂, 血脂肪, 總膽固醇, Total cholesterol, TC, 低密度脂蛋白膽固醇, 低密度膽固醇, LDL, LDL-C, 壞膽固醇, 高密度脂蛋白膽固醇, 高密度膽固醇, HDL, HDL-C, 好膽固醇, 三酸甘油酯, 三酸甘油脂, 中性脂肪, Triglyceride, TG, VLDL, 乳糜微粒, Non-HDL, 代謝症候群]
-dzTags: [高血脂症, 高脂血症, 高膽固醇血症, 高三酸甘油脂血症, 代謝症候群, 動脈粥狀硬化, 冠狀動脈疾病]
+dzTags: [高血脂症, 高膽固醇血症, 高三酸甘油脂血症, 代謝症候群, 動脈粥狀硬化, 冠狀動脈疾病]
 system: cardiovascular
 method: blood
 bloodGroup: chemistry
@@ -156,6 +156,8 @@ LDL 治療目標是「**風險越高，目標越低**」，沒有單一正常值
 
 - **總膽固醇、LDL、尿酸、BMI 都不是判定項目**(常見陷阱)。
 - 判斷時先確認性別的腰圍與 HDL 切點，再逐項數。例：男性 腰圍 92、血壓 135/86、HDL 35 → 3 項，符合;女性 腰圍 82 即算一項危險因子。
+
+::questions{ids="109-1_MS_031,105-2_MS_029"}
 
 ## 偏高的意義 {#high}
 

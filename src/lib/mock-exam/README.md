@@ -18,7 +18,7 @@
 ### 之後上線完整站要做的事
 1. `pnpm cf:deploy`（不帶 SITE_MODE），在 Cloudflare 綁 quiz.rnhighpass.com
 2. Supabase → Authentication → URL Configuration 加入該網域（Site URL 與 `/auth/callback`），Google OAuth 也要加
-3. 完整站若要顯示題目附圖，把 `~/Downloads/多保命護理分章/images/*.png` 複製回 `public/exam-images/`
+3. 完整站若要顯示題目附圖，把 `~/Projects/多保命護理分章/images/*.png` 複製回 `public/exam-images/`
 4. 模擬考併回 quiz 站後，exam 子網域可以關掉或轉址
 
 ## 流程

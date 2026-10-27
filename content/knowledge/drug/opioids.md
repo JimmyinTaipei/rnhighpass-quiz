@@ -10,7 +10,7 @@ chapters:
   - 藥理-Ch04止痛藥與麻醉藥物 > 麻醉劑
   - 內外-Ch06急重症與疼痛護理 > 疼痛護理
   - 產科-Ch07待產及分娩期之護理評估及護理 > 分娩期間疼痛的處理
-alsoIn: [oncology, psychiatric]
+alsoIn: [oncology, psychiatric, obstetrics]
 reviewed: false
 updated: 2026-09-27
 references:

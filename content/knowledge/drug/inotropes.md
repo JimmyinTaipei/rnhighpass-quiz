@@ -112,6 +112,8 @@ references:
 - **Phenylephrine**：純 α₁，反射性心跳變慢;麻醉誘發低血壓常用。
 - **Levosimendan**：鈣敏感劑，急性失代償心衰竭、使用 β 阻斷劑者。
 
+::questions{ids="109-1_MS_026"}
+
 ## 適應症 {#indications}
 
 ### 心因性休克與急性心衰竭 {#cardiogenic-shock}

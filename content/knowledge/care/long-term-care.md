@@ -119,7 +119,7 @@ references:
 | **簡易智能量表(Mini-Mental State Examination, MMSE)** | 認知功能 | 測認知，**不是身體功能工具** |
 | **臨床失智評分量表(Clinical Dementia Rating, CDR)** | 失智**嚴重度分級** | 0、0.5、1、2、3 分；見 [[dementia#assessment-tools]] |
 | **多元評估量表(Multi-Dimensional Assessment Instrument, MDAI)** | 長照需要的全面評估 | 衛福部研擬，照管中心評估後核定**長照需要等級 1–8 級**(第 1 級未失能，不給付) |
-| **SOF 衰弱指標(Study of Osteoporotic Fractures frailty index)** | 衰弱 | 3 項：體重減輕、無法不用手從椅子站起 5 次、精力下降；**3 項中 2 項以上為衰弱** |
+| **SOF 衰弱指標(Study of Osteoporotic Fractures frailty index)** | 衰弱 | 3 項：體重減輕、無法不用手從椅子站起 5 次、精力下降；**3 項中 2 項以上為衰弱**；Fried 五項與 ICOPE 見 [[older-adult-chronic-disease#frailty]] |
 
 - 照顧計畫要依評估結果，**與個案及家屬共同討論決定**(以人為本、共同決策)，不是由個管師單方決定
 - 失能與認知要分開評估：身體功能用 ADLs、IADLs、柯氏量表；認知用 SPMSQ、MMSE

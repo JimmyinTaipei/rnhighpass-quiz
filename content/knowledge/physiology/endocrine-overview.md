@@ -137,7 +137,7 @@ references:
 
 ## 性腺與胎盤的激素 {#gonads-placenta}
 
-性激素藥物(避孕藥、荷爾蒙療法、抗雄性素)見 [[sex-hormones]]；生殖系統的完整生理留給產科輪
+性激素藥物(避孕藥、荷爾蒙療法、抗雄性素)見 [[sex-hormones]]；生殖器官構造、配子生成與月經週期見 [[female-reproductive-system]]、[[male-reproductive-system]]
 
 ### 睪丸 {#testis}
 
@@ -184,7 +184,7 @@ references:
 - 卵巢功能衰退 → **雌激素下降** → 負回饋消失 → **FSH、LH 上升**
 - **熱潮紅**：雌激素下降使下視丘體溫調節不穩定，血管收縮與舒張失調，以皮膚發熱、流汗散熱；和**黃體素減少無關**；體重過輕的人(脂肪少，周邊芳香化產生的雌激素少)症狀較嚴重
 - 雌激素對心血管的保護消失：**LDL、總膽固醇上升，HDL 下降**，血小板凝集與纖維蛋白原增加
-- 骨質流失加快(骨質疏鬆留給肌肉骨骼那一輪)
+- 骨質流失加快(骨質疏鬆見 [[osteoporosis]])
 - 荷爾蒙療法：60 歲以下或停經 10 年內開始，對多數人利大於弊(The Menopause Society 2022 立場聲明，[PubMed 35797481](https://pubmed.ncbi.nlm.nih.gov/35797481/))；用藥細節見 [[sex-hormones#hormone-therapy]]
 
 ::questions{ids="111-2_OP_036,108-2_OP_040"}

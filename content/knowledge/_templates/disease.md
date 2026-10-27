@@ -4,7 +4,7 @@
 title: 疾病中文名
 subtitle: English name(縮寫)
 aliases: [縮寫, 別名, 英文名]
-dzTags: [題庫的 dz 標籤, 可多個]   # 見 Tag_List_and_Statistics.md;疾病標籤頁會反向連到本頁
+dzTags: [題庫的 dz 標籤, 可多個]   # 依護理分章 01_exam_papers/ 的現行 tag: 核對;疾病標籤頁會反向連到本頁
 system: cardiovascular              # 必填，taxonomy.yml 的 domain id
 alsoIn: []                          # 選填，次分類
 peds: false                         # 選填:小兒專屬疾病填 true。一般頁的小兒段落(標題含兒童、嬰幼兒…)會自動偵測,不用填

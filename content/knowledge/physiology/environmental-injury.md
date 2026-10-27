@@ -2,7 +2,7 @@
 title: 環境與職業傷害
 subtitle: Environmental and occupational injury — ionizing and ultraviolet radiation, heat injury and burns, carbon monoxide, lead and other heavy metals, tobacco and alcohol, air pollution and pneumoconiosis
 aliases: [環境傷害, 職業傷害, 物理性傷害, 化學性傷害, 游離輻射, 離子性放射線, Ionizing radiation, 輻射傷害, 放射線傷害, 輻射防護, 時間距離屏蔽, 輻射佩章, 紫外線, Ultraviolet, 臭氧層, 紫外線指數, 熱傷害, 熱痙攣, 熱衰竭, 熱暈厥, 熱中暑, 中暑, Heat stroke, Heat exhaustion, 燒傷深度, 一度燒傷, 二度燒傷, 三度燒傷, 全皮層燒傷, 部分皮層燒傷, 一氧化碳中毒, Carbon monoxide poisoning, 碳氧血紅素, COHb, 櫻桃紅, 高壓氧, 鉛中毒, Lead poisoning, 鉛線, 腕垂, 基底點彩, 汞中毒, 水俁病, 鎘中毒, 痛痛病, 砷中毒, 烏腳病, 藍嬰症, 變性血紅素血症, 硝酸鹽, 錳中毒, 吸菸, 菸害, 酒精, 脂肪肝, 懸浮微粒, PM2.5, 空氣汙染, 塵肺症, 肺塵埃沉著症, Pneumoconiosis, 矽肺症, 石綿肺, 石綿, 間皮瘤]
-dzTags: [一氧化碳中毒, 鉛中毒, 熱中暑, 熱傷害, 輻射傷害, 塵肺症, 酒精中毒, 錳中毒, 紫外線傷害, 日光性傷害]
+dzTags: [一氧化碳中毒, 鉛中毒, 熱中暑, 熱傷害, 輻射傷害, 塵肺症, 酒精中毒, 錳中毒, 紫外線傷害]
 system: general-pathology
 group: pathology-basics
 alsoIn: [community, critical-care]
@@ -31,7 +31,7 @@ references:
     note: 0–2 低量級、3–5 中量級、6–7 高量級、8–10 過量級、11 以上危險級
   - title: 圖：燒傷深度圖為原創
 ---
-環境中的**物理因子**(輻射、溫度)與**化學物質**(一氧化碳、重金屬、菸、酒、空氣汙染物)都會造成細胞傷害(機轉見 [[cell-injury-adaptation#cell-injury]])。本頁整理國考常考的幾種；燒傷的面積估計、輸液與植皮照護留給肌肉骨骼與皮膚；職業暴露的法規、特殊健檢與職護工作見 [[occupational-health-nursing]]那一輪，其他中毒與解毒劑留給藥理毒理那一輪，職業衛生的法規留給社區那一輪
+環境中的**物理因子**(輻射、溫度)與**化學物質**(一氧化碳、重金屬、菸、酒、空氣汙染物)都會造成細胞傷害(機轉見 [[cell-injury-adaptation#cell-injury]])。本頁整理國考常考的幾種；燒傷的面積估計、輸液與植皮照護見 [[burns]]；職業暴露的法規、特殊健檢與職護工作見 [[occupational-health-nursing]]；水、空氣、廢棄物與公害見 [[environmental-food-hygiene]]；其他中毒與解毒劑留給藥理毒理那一輪(第 17 輪)
 
 ## 重點摘要 {#summary}
 
@@ -125,7 +125,7 @@ references:
 
 - 燒傷早期大量血漿從受傷的微血管漏出 → **低血容積性休克**(見 [[edema-shock#shock-types]])
 - 熱燒傷之外還有化學、電、輻射燒傷；電燒傷外表傷口小但內部傷害大
-- 面積估計(九法則)、輸液公式、傷口照護與植皮留給肌肉骨骼與皮膚那一輪
+- 面積估計(九法則)、嚴重度、急救、傷口照護與植皮見 [[burns]]
 
 ## 化學性傷害 {#chemical}
 
@@ -209,7 +209,7 @@ references:
    3. **矽肺症**(二氧化矽)：結節性纖維化，容易合併結核
    4. **石綿肺**：肺纖維化，並和肺癌、**肋膜惡性間皮瘤**有關
    5. 煤礦工人塵肺症
-- 職業健康檢查的法規見社區那一輪
+- 職業健康檢查的法規見 [[occupational-health-nursing#health-exam]]；空氣品質指標(AQI)與室內空氣品質標準見 [[environmental-food-hygiene#air-quality-index]]
 
 ::questions{ids="109-2_BM_042,108-2_BM_046"}
 

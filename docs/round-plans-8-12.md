@@ -143,7 +143,7 @@
 
 ---
 
-## 第 12 輪 血液(額度夠才做)
+## 第 12 輪 血液(額度夠才做) ✅ 完成 2026-10-23
 
 範圍(未涵蓋，2026-10-22 涵蓋報告)：內外 Ch14 23(75/98)、藥理 Ch09 22(60/82，抗血栓 14)、兒科 Ch10 14(31/45，凝血 8)、病理 Ch10 15(42/57)、生解 Ch07 血液小節 8(心臟、血管留第 15 輪)
 
@@ -184,7 +184,7 @@
 - 進度：`rnhighpass-quiz/docs/knowledge-progress.md`(開工時「目前輪次」換第 8 輪，第 7 輪移到摘要)、`docs/knowledge-roadmap.md`(8–12 列狀態、移交清單)
 - 分類：`content/knowledge/taxonomy.yml`
 - 範本頁：`procedure/oxygen-therapy.md`、`procedure/airway-clearance.md`(procedure)、`device/chest-tube.md`(device)、`care/community-mental-health.md`(無標籤題用 chapters＋`::questions{ids}`)
-- 題目：`多保命護理分章/05_chaptered_books/` 基護、內外、生解、病理、兒科、藥理對應章
+- 題目：`多保命護理分章/02_chaptered/` 基護、內外、生解、病理、兒科、藥理對應章
 - 腳本：`analysis/tag_fixes/apply_tag_merge.py`、`scripts/05_apply_chap_tag_xchap.py`、`scripts/knowledge_coverage.py`、`scripts/source-scan.py`、`scripts/image-license-review.py`、`sync_all.py`
 - 課本：基本護理學上下冊、內外科護理技術、內外科護理學上下冊、兒科護理學、Robbins 9e、ICU Book 5e(只參考、不複製)；本機 python 用 `/usr/bin/python3`
 

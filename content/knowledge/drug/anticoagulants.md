@@ -131,6 +131,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 - **Argatroban**(靜脈，直接凝血酶抑制劑，經肝代謝)、**bivalirudin**(靜脈，經腎，PCI 時用)— **HIT 病人**的替代抗凝劑;不需要 AT 就有作用。
 - **Fondaparinux**(皮下，每日一次，ACS 用 2.5 mg)：只抑制 Xa，幾乎不引起 HIT;protamine 無效;CrCl < 30 禁用;**不可單獨用於 PCI**(導管內血栓)(來源：[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309))。
 
+::questions{ids="106-1_BM_057"}
+
 ## 適應症 {#indications}
 
 | 狀況 | 常用藥物 |
@@ -150,6 +152,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 - 血栓為什麼會形成(Virchow 三要素)、DVT 與肺栓塞的病理見 [[thrombosis-embolism-infarction#thrombosis]]
 
 - 肺栓塞的嚴重度分類與抗凝、溶栓選擇見 [[pulmonary-embolism-hypertension#pe-treatment]]
+
+::questions{ids="112-1_MS_032,111-2_MS_026,109-1_MS_025,107-2_MS_027,110-2_MS_031,106-2_MS_029"}
 
 ## 副作用與禁忌 {#adverse-effects}
 
@@ -217,6 +221,9 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 - 每天**固定時間**服用;**漏吃**：當天想起來就補，**隔天才想起來就跳過，絕不可一次吃雙倍**，並記下來告訴醫師。
 - 深綠色蔬菜**適量、每天差不多**;避免銀杏、當歸、丹參等中藥與保健食品;任何新藥(含成藥、中藥)先問醫師藥師。
 - 懷孕或計畫懷孕要先告知醫師(需換藥)。
+- Warfarin 過量出血：依醫囑給**維生素 K₁**(phytonadione，口服或靜脈)，嚴重出血加凝血酶原複合物；**不是**維生素 B12、類固醇或 tranexamic acid。
+
+::questions{ids="112-1_MS_028,110-1_MS_056,110-2_MS_026,107-1_MS_032,112-1_MS_029,113-1_BM_036"}
 
 ### 所有抗凝劑共通：出血預防與觀察 {#bleeding-precautions}
 
@@ -244,6 +251,20 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)。
 - 急性 DVT **患肢不可按摩、不可熱敷按壓**(血栓脫落 → 肺栓塞);抬高患肢減輕腫痛。
 - 出現**突發呼吸困難、胸痛、心跳加快、咳血、焦慮** → 懷疑**肺栓塞**。
 - 預防：早期下床、踝幫浦運動、避免久坐久站、**不要翹腳或交叉雙腿**、避免膝下墊枕與緊身衣物、充足水分;高風險者依醫囑使用彈性襪或間歇性充氣加壓裝置;避免口服避孕藥與吸菸。
+
+#### 深部靜脈血栓的評估 {#dvt-assessment}
+
+- 表現：**單側**小腿或下肢**腫脹**、**發紅**、**溫熱**、壓痛、凹陷性水腫；也可能沒有症狀(術後、產後、久坐的長途旅客要特別注意)；**下肢冰冷蒼白、間歇性跛行**是動脈阻塞，不是 DVT
+- **霍曼氏徵象(Homan's sign)**
+   1. 做法：病人平躺、膝蓋微彎，一手**支托膝膕**，另一手握住腳掌把足部**向背側屈曲**
+   2. **陽性**：**小腿(腓腸肌)疼痛**；機轉是背屈**拉長腓腸肌**、壓迫發炎的深部靜脈(不是縮短，也不是脛骨後肌)
+   3. 國考常考這個徵象；但它的**敏感度約 10–54%、特異度約 39–89%**，陰性不能排除、陽性也不能確診(二手整理，[Lecturio](https://www.lecturio.com/explained/homans-sign/))，用力背屈也可能讓血栓脫落(**待找權威來源**)
+- 現行診斷：**Wells 臨床機率分數**＋**D-dimer**(陰性可排除)＋**下肢靜脈壓迫超音波**確診(見 [[coagulation-tests#tests]])
+- 護理新舊說法：國考答案把「**抬高患肢、臥床休息**」視為適當(107-2_MS_035)；CHEST 指引認為**開始抗凝治療後可依耐受下床走動**，不需常規臥床(二手整理，[MDedge](https://www.mdedge.com/content/should-patients-acute-dvt-limit-activity))；兩者都**不按摩、不熱敷**
+- 彈性襪：能減輕急性期腫痛；CHEST 2021 不建議**常規**用來預防血栓後症候群；國考答案「預防靜脈血栓穿彈性襪」仍正確，「穿緊身衣」錯誤
+- 產後：會陰傷口痛不願下床、原本有靜脈曲張者風險高；站立伸直小腿痛與壓痛 → 評估霍曼氏徵象，依醫囑給抗凝血劑並觀察出血(112-2_OP_031)
+
+::questions{ids="105-2_MS_033,107-2_MS_035,106-1_MS_033,109-2_MS_029,110-2_MS_033,115-2_MS_020,105-2_OP_022,107-2_OP_026,108-2_OP_023,112-2_OP_031,114-2_MS_018"}
 
 ## 相關考題 {#questions}
 

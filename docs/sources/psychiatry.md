@@ -67,8 +67,8 @@
 
 ## 四、題號取得
 
-- 取自 `多保命護理分章/subject mappings/章節架構/<科>/Ch*_mapping_*.md`(JSON，每小節的題號清單)：精神 Ch01–13、社區 Ch11、兒科 Ch17、藥理 Ch03
-- 跨科題目用題庫解析腳本(scratchpad 的 `parse_books.py`；若被清掉，照 `05_chaptered_books` 的 ID:、ques:、ans:、sol:、tag:、xchap: 格式重寫)
+- 取自 `多保命護理分章/chapter_maps/章節架構/<科>/Ch*_mapping_*.md`(JSON，每小節的題號清單)：精神 Ch01–13、社區 Ch11、兒科 Ch17、藥理 Ch03
+- 跨科題目用題庫解析腳本(scratchpad 的 `parse_books.py`；若被清掉，照 `02_chaptered` 的 ID:、ques:、ans:、sol:、tag:、xchap: 格式重寫)
 - `::questions{ids=}` 不走 resolver，用 DB `questions.id` 驗證題號存在
 
 ## 五、高風險數字(必須有權威來源，否則標待核對)

@@ -884,5 +884,141 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "sourceUrl": "https://smart.servier.com/",
     "modified": "由官方 PPTX 向量圖轉出(投影片 32)，移除英文標籤、背景與標誌；中文標籤另以疊加層顯示"
+  },
+  "servier-hematopoiesis.svg": {
+    "title": "Hematopoiesis(SMART Blood and immunology)",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://smart.servier.com/",
+    "modified": "由官方 PPTX 向量圖轉出(投影片 17)，保留箭頭，移除英文標籤、標題、背景與標誌，左右加白邊；中文標籤另以疊加層顯示"
+  },
+  "coagulation-cascade.svg": {
+    "title": "凝血瀑布與纖維蛋白溶解",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": ""
+  },
+  "ecg-rhythm-af.svg": {
+    "title": "心房顫動：沒有 P 波、RR 完全不規則",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-afl.svg": {
+    "title": "心房撲動 4:1，鋸齒狀 F 波",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-asystole.svg": {
+    "title": "心搏停止(Asystole)",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-avb1.svg": {
+    "title": "一度房室傳導阻斷：PR 固定延長",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-avb3.svg": {
+    "title": "三度(完全)房室傳導阻斷：房室解離",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-bigeminy.svg": {
+    "title": "心室二聯律",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-idioventricular.svg": {
+    "title": "心室自主節律，約 38 次/分",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-junctional.svg": {
+    "title": "交界區節律，約 50 次/分",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-mobitz1.svg": {
+    "title": "二度房室傳導阻斷 Mobitz I(Wenckebach)",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-mobitz2.svg": {
+    "title": "二度房室傳導阻斷 Mobitz II",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-pac.svg": {
+    "title": "心房早期收縮(PAC)",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-psvt.svg": {
+    "title": "陣發性上心室頻脈(PSVT)",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-pvc.svg": {
+    "title": "心室早期收縮(PVC)",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-sinus-arrhythmia.svg": {
+    "title": "竇性心律不整：RR 間隔隨呼吸忽長忽短",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-sinus-brady.svg": {
+    "title": "竇性心搏過慢，約 50 次/分",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-sinus-tachy.svg": {
+    "title": "竇性心搏過速，約 120 次/分",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-tdp.svg": {
+    "title": "多形性心室頻脈(Torsades de pointes)",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-vf.svg": {
+    "title": "心室顫動(VF)",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "ecg-rhythm-vt.svg": {
+    "title": "單形性心室頻脈(VT)",
+    "author": "多保命",
+    "license": "原創",
+    "modified": "由多保命《心電圖教學》網站的節律條產生器(strip.js、rhythms.js，同一作者)輸出為靜態 SVG"
+  },
+  "fhr-decelerations.svg": {
+    "title": "胎心率週期性變化：加速、早期減速、晚期減速、變異性減速",
+    "author": "多保命",
+    "license": "原創",
+    "sourceUrl": "",
+    "modified": "依 NICHD 2008 定義以程式產生的示意圖"
   }
 }

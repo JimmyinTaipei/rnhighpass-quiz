@@ -17,11 +17,11 @@
 #
 # ── 新增 domain 或 group 的流程 ────────────────────────────────
 # - 先確認現有的放不下,再新增;id 用小寫英文與 -,一旦有文章使用就不要改名。
-# - group 的 drugTags 列出題庫 drug 標籤(Tag_List_and_Statistics.md 第三節)中
+# - group 的 drugTags 列出現行題庫 tag: 欄位中的 drug 標籤（依護理分章 01_exam_papers/ 核對）
 #   所有同義詞,::questions{group="..."} 會用它們查題。
 # - 沒有文章的 domain/group 會在首頁顯示成「即將加入」或不顯示,不影響使用。
 #
-# ── 分章題本 → domain 對照(依 hierarchy_question_counts.md) ─────
+# ── 分章題本 → domain 對照（依護理分章 02_chaptered/ 的現行章節，涵蓋進度見 analysis/knowledge_coverage.md） ─────
 # 生解 Ch05 神經、Ch06 感覺 → neuro;Ch07 血液心血管淋巴 → cardiovascular / hematology-immunology
 # 生解 Ch08 → respiratory;Ch09 → digestive;Ch10 → renal;Ch11 → renal
 # 生解 Ch12 → endocrine;Ch13、Ch14 → reproductive;Ch02 → integumentary;Ch03、Ch04 → musculoskeletal
@@ -34,7 +34,7 @@
 # 微免 → infection(Ch02、Ch03 免疫 → hematology-immunology);病原體本身(菌、病毒、黴菌、寄生蟲)→ 類型 pathogen
 # 感控、無菌技術、消毒滅菌、預防接種、法定傳染病 → 類型 care(system 依國考科目:基護 fundamentals、社區 community)
 # 內外 Ch04 → renal;Ch05 → infection;其餘依器官;Ch03 癌症、Ch06 急重症 → 依主要器官或 fundamentals
-# 產科 → reproductive;兒科依器官(Ch02 生長發展 → fundamentals)
+# 產科 → obstetrics(婦科、生殖構造、避孕不孕 → reproductive;2026-10-27 第 16 輪);兒科依器官(Ch02 生長發展 → fundamentals)
 # 精神 → psychiatric;社區 → community;基護 → fundamentals;行政 → administration
 
 types:
@@ -67,9 +67,15 @@ domains:
 
   - id: hematology-immunology
     name: 血液與免疫
+    description: 血球生成、止血與凝血、貧血與紅血球疾病(缺鐵、巨球性、再生不良、溶血、紅血球增多症)、出血與凝血疾病(血小板減少、ITP、血友病、DIC)、輸血與造血幹細胞移植、血球與凝血檢驗、造血與抗血栓用藥，以及免疫學基礎、過敏與自體免疫疾病
     kind: system
     blockTag: 血液免疫
     groups:
+      # 2026-10-22 第 12 輪 12-0c
+      - { id: blood-physiology, name: 血液生理, type: physiology }
+      - { id: red-cell-disorders, name: 貧血與紅血球疾病, type: disease }
+      - { id: bleeding-disorders, name: 出血與凝血疾病, type: disease }
+      - { id: transfusion-transplant, name: 輸血與造血幹細胞移植, type: care }
       - { id: antithrombotics, name: 抗凝血與抗血栓藥, type: drug, drugTags: [抗凝血用藥, 抗血小板用藥, 血栓溶解劑] }
       - { id: antianemics, name: 貧血用藥, type: drug, drugTags: [貧血用藥, 排鐵劑用藥] }
       - { id: immunomodulators, name: 免疫製劑與免疫抑制劑, type: drug, drugTags: [免疫製劑, 免疫抑制劑] }
@@ -77,20 +83,34 @@ domains:
       - { id: immunology-basics, name: 免疫學基礎, type: physiology }
       - { id: immune-disorders, name: 過敏與自體免疫疾病, type: disease }
       - { id: immunology-labs, name: 免疫檢驗, type: lab }
-      - { id: antihistamines-autacoids, name: 抗組織胺與自泌素, type: drug, drugTags: [抗過敏用藥, 抗組織胺用藥, 前列腺素用藥, 自泌素類藥物, 自泌素製劑] }
+      - { id: antihistamines-autacoids, name: 抗組織胺與自泌素, type: drug, drugTags: [抗過敏用藥, 抗組織胺用藥, 前列腺素用藥, 先天性心臟病用藥, 自泌素類藥物, 自泌素製劑] }
 
   - id: reproductive
     name: 生殖
     kind: system
     blockTag: 生殖
+    description: 男女生殖器官的構造與生理、月經週期與生殖內分泌、婦科疾病(月經問題、子宮肌瘤、子宮內膜異位症、子宮脫垂、陰道炎)、男性生殖疾病(睪丸腫瘤、精索扭轉)、性傳染病、避孕與家庭計畫、不孕症與人工生殖，以及性荷爾蒙與避孕藥；懷孕、分娩、產後與新生兒放在「產科」
     groups:
-      - { id: obstetric-drugs, name: 產科用藥, type: drug, drugTags: [子宮收縮劑, 安胎藥物, 婦科用藥] }
+      # 2026-10-27 第 16 輪 16-0
+      - { id: reproductive-physiology, name: 生殖構造與生理, type: physiology }
+      - { id: gynecologic-diseases, name: 婦科與男性生殖疾病, type: disease }
+      - { id: reproductive-health, name: 家庭計畫與不孕症, type: care }
+      - { id: gynecologic-drugs, name: 婦科用藥, type: drug, drugTags: [婦科用藥] }
       - { id: contraceptives, name: 避孕藥, type: drug, drugTags: [避孕用藥] }
 
   - id: obstetrics
     name: 產科
     kind: system
-    description: 妊娠、分娩、產後與新生兒初期照護，例如妊娠高血壓、妊娠糖尿病、產後出血。內容整理中，目前產科相關重點仍寫在各疾病頁(如高血壓、糖尿病)與生殖分類。
+    description: 受精與胎兒發育、妊娠期生理心理變化與產前檢查、孕期護理與營養、分娩機轉與待產分娩護理、產後生理與護理(子宮復舊、惡露、哺餵母乳、產後心理)、高危險妊娠(妊娠高血壓、妊娠糖尿病、產前出血)、分娩期與產後異常、新生兒評估與照護、早產兒與高危險新生兒，以及子宮收縮劑與安胎藥
+    groups:
+      # 2026-10-27 第 16 輪 16-0
+      - { id: pregnancy-physiology, name: 受孕、胎兒發育與妊娠生理, type: physiology }
+      - { id: fetal-assessment, name: 產前檢查與胎兒監測, type: lab }
+      - { id: perinatal-care, name: 孕期、分娩與產後護理, type: care }
+      - { id: pregnancy-complications, name: 高危險妊娠與產科合併症, type: disease }
+      - { id: newborn-care, name: 新生兒評估與照護, type: care }
+      - { id: neonatal-diseases, name: 早產兒與高危險新生兒, type: disease }
+      - { id: obstetric-drugs, name: 產科用藥, type: drug, drugTags: [子宮收縮劑, 安胎藥物] }
 
   - id: digestive
     name: 消化
@@ -109,13 +129,19 @@ domains:
 
   - id: cardiovascular
     name: 心臟血管
+    description: 心臟與血管的構造與生理(心臟構造、心動週期、電生理與傳導、心輸出量、冠狀循環、血管與血流動力學、胎兒循環)、冠狀動脈疾病、心衰竭、高血壓與低血壓、心律不整與節律器、瓣膜與感染性心臟病、周邊血管疾病、先天性與兒童心臟病，以及心血管用藥、心電圖與心臟檢查
     kind: system
     blockTag: 心血管
     groups:
+      # 2026-10-26 第 15 輪 15-0
+      - { id: cardiac-physiology, name: 心臟血管構造與生理, type: physiology }
+      - { id: cardiac-diseases, name: 心臟疾病, type: disease }
+      - { id: vascular-diseases, name: 周邊血管疾病, type: disease }
+      - { id: pediatric-cardiac-diseases, name: 兒童心臟疾病, type: disease }
       - { id: antihypertensives, name: 抗高血壓藥, type: drug, drugTags: [抗高血壓用藥] }
       - { id: heart-failure-drugs, name: 心衰竭用藥, type: drug, drugTags: [心臟衰竭用藥, 強心劑用藥, 升壓藥] }
       - { id: antianginals, name: 抗心絞痛藥, type: drug, drugTags: [心絞痛用藥] }
-      - { id: antiarrhythmics, name: 抗心律不整藥, type: drug, drugTags: [抗心律不整用藥] }
+      - { id: antiarrhythmics, name: 抗心律不整藥, type: drug, drugTags: [抗心律不整用藥, 急救用藥] }
       - { id: lipid-lowering, name: 降血脂藥, type: drug, drugTags: [降血脂用藥] }
       - { id: cardiac-labs, name: 心臟相關檢驗, type: lab }
 
@@ -159,15 +185,28 @@ domains:
 
   - id: musculoskeletal
     name: 骨骼肌肉
+    description: 骨骼、關節與肌肉的構造與生理(骨組織與骨化、顱骨脊柱與四肢骨、關節、肌肉收縮與主要骨骼肌)、骨折與骨科創傷(石膏、牽引、腔室症候群、截肢)、關節與骨骼疾病(退化性關節炎與關節置換、骨質疏鬆症、痛風)、兒童骨骼肌肉疾病(髖關節發育不良、脊柱側彎)，以及骨科身體檢查與痛風用藥
     kind: system
     blockTag: 骨骼肌肉
     groups:
-      - { id: gout-drugs, name: 痛風用藥, type: drug, drugTags: [痛風用藥] }
+      # 2026-10-23 第 14 輪 14-0
+      - { id: msk-physiology, name: 骨骼肌肉構造與生理, type: physiology }
+      - { id: msk-trauma, name: 骨折與骨科創傷, type: disease }
+      - { id: joint-bone-diseases, name: 關節與骨骼疾病, type: disease }
+      - { id: pediatric-msk-diseases, name: 兒童骨骼肌肉疾病, type: disease }
+      - { id: gout-drugs, name: 痛風用藥, type: drug, drugTags: [痛風用藥, 降尿酸藥物] }
 
   - id: integumentary
     name: 皮膚
+    description: 皮膚的構造與功能(表皮、真皮、附屬器)、皮膚病灶與常見皮膚疾病(感染、皮膚炎、乾癬、皮膚腫瘤與皮膚癌)、燒傷(深度與面積、輸液復甦、傷口、植皮與復健)，以及傷口敷料與壓力性損傷
     kind: system
     blockTag: 皮膚
+    groups:
+      # 2026-10-23 第 14 輪 14-0
+      - { id: skin-physiology, name: 皮膚構造與功能, type: physiology }
+      - { id: skin-diseases, name: 皮膚疾病, type: disease }
+      - { id: burns-wounds, name: 燒傷與傷口, type: disease }
+      - { id: wound-care, name: 傷口照護, type: care }
 
   - id: psychiatric
     name: 精神疾病
@@ -209,7 +248,12 @@ domains:
   - id: critical-care
     name: 急重症
     kind: cross
-    description: 加護病房與急診常見的器材與管路(呼吸器、中心靜脈導管、動脈導管、胸管、CRRT、IABP、ECMO)與相關技術。實習用，學校較少教；每頁整理原理、適應症、看懂螢幕與數值、護理重點、警示與併發症。內容整理中。
+    description: 急診與加護病房的照護：心肺復甦術與哽塞急救、急診檢傷與常見急症(中毒、毒蛇咬傷、溺水、低體溫)、休克護理，以及常見器材與管路(呼吸器、中心靜脈導管、動脈導管、胸管、CRRT、IABP、ECMO)。器材頁整理原理、適應症、看懂螢幕與數值、護理重點、警示與併發症
+    groups:
+      # 2026-10-26 第 15 輪 15-0
+      - { id: resuscitation, name: 心肺復甦與急救, type: procedure }
+      - { id: emergency-care, name: 急診與急症處置, type: care }
+      - { id: icu-devices, name: 加護病房器材與管路, type: device }
 
   - id: general-pathology
     name: 病理總論與遺傳
@@ -254,10 +298,13 @@ domains:
   - id: community
     name: 社區衛生
     kind: nursing
-    description: 社區衛生護理的制度與方法：衛生行政與健保、生命統計與流行病學、社區評估與健康營造、長期照護與居家照護、職業與環境衛生，以及社區心理衛生、傳染病防治與預防接種。制度數字變動多，每頁標注「截至」日期與新舊規定。
+    description: 社區衛生護理的制度與方法：衛生行政與健保、生命統計與流行病學、衛生教育與健康促進(含菸害防制)、社區評估與健康營造、家庭護理、婦幼與學校衛生、中老年與慢性病照護、長期照護與居家照護、職業、環境與食品衛生，以及社區心理衛生、傳染病防治與預防接種。制度數字變動多，每頁標注「截至」日期與新舊規定
     groups:
       - { id: community-health-system, name: 社區衛生概論、行政與健保, type: care }
       - { id: community-statistics, name: 生命統計與流行病學, type: care }
       - { id: community-assessment, name: 社區評估與健康營造, type: care }
       - { id: long-term-care, name: 長期照護與居家照護, type: care }
-      - { id: occupational-environmental, name: 職業與環境衛生, type: care }
+      - { id: occupational-environmental, name: 職業、環境與食品衛生, type: care }
+      # 2026-10-23 第 13 輪 13-0c
+      - { id: health-promotion, name: 衛生教育與健康促進, type: care }
+      - { id: family-population-health, name: 家庭、婦幼、學校與中老年健康, type: care }

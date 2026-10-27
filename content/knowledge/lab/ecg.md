@@ -29,7 +29,7 @@ references:
 ---
 看懂心電圖只需要一個觀念：**每一個波都是「電流走到心臟某個地方」的紀錄**。12 導程心電圖(12-lead ECG)從 12 個方向同時記錄心臟的電氣活動，是胸痛病人**第一個、也是最快**要做的檢查：看 ST 段與 T 波判斷「多嚴重、多久了」，看是哪幾個導程判斷「哪一面、哪一條血管」。
 
-本頁涵蓋 12 導程的判讀基礎與缺血/梗塞;心律不整、傳導阻滯、電解質與 ACLS 流程另有專頁。電流的傳導路徑見 [[cardiac-output#conduction]]，冠狀動脈解剖見 [[coronary-circulation#anatomy]]。
+本頁涵蓋 12 導程的判讀基礎與缺血/梗塞;心律不整與傳導阻滯見 [[arrhythmias]]，抗心律不整藥與 ACLS 用藥見 [[antiarrhythmics]]。電流的傳導路徑見 [[cardiac-output#conduction]]，冠狀動脈解剖見 [[coronary-circulation#anatomy]]。
 
 ## 重點摘要 {#summary}
 
@@ -223,6 +223,8 @@ V1–V6 的正極就是胸前那顆電極，由右前(V1)排到左側(V6)。V1 �
 | 左心室肥厚 | QRS **電壓變高**(V1 的 S + V5/V6 的 R ≥ 35 mm)、可稍變寬，伴 ST-T 變化 |
 | 人工節律器 | QRS(或 P 波)前的**激搏波(pacing spike)**是正常現象，代表節律器在放電 |
 
+::questions{ids="106-2_BM_027"}
+
 ## 判圖步驟 {#reading-steps}
 
 每一張心電圖都照同一個順序看，才不會漏：**節律 → 速率 → 電軸 → P 波 → PR → QRS(含 Q 波)→ ST 段 → T 波 → QT**。
@@ -354,6 +356,8 @@ V1–V6 的正極就是胸前那顆電極，由右前(V1)排到左側(V6)。V1 �
 MI 後最可能**永遠不會消失**的是**不正常 Q 波**;ST 上升與 T 倒置會隨時間恢復。
 :::
 
+::questions{ids="105-1_MS_027"}
+
 ## 冠狀動脈與 12 導程分區 {#territory}
 
 三條主要冠狀動脈各自供應心臟的一面，而每一面剛好由固定的幾個導程「看著」。用同一個顏色對起來，就能從 ST 上升的導程反推阻塞的血管：
@@ -461,6 +465,7 @@ MI 後最可能**永遠不會消失**的是**不正常 Q 波**;ST 上升與 T �
 
 ## 相關頁面 {#related}
 
+- [[arrhythmias]]：心律不整、傳導阻斷、電擊與節律器
 - [[cardiac-biomarkers]]:troponin 與 CK-MB 的時間表
 - [[coronary-artery-disease]]：冠狀動脈疾病與急性冠心症
 - [[coronary-circulation]]：冠狀動脈解剖與供需

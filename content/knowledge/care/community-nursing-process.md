@@ -111,6 +111,7 @@ references:
 | **成效**(impact) | 計畫的價值、是否引發其他問題 |
 
 - Donabedian：**結構、過程、結果**三面評值，見 [[quality-management-concepts]]
+- 衛生教育計畫的過程、衝擊、結果、形成性與總結性評價見 [[health-education#evaluation]]；健康促進理論與渥太華憲章見 [[health-promotion]]
 
 ## 社區夥伴關係與賦權 {#partnership-empowerment}
 

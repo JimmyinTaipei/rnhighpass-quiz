@@ -5,7 +5,7 @@ aliases: [疼痛, 疼痛管理, 疼痛控制, 疼痛評估, Pain, 閘門控制�
 dzTags: [疼痛, 癌症疼痛, 術後疼痛, 急性疼痛, 慢性疼痛, 生產疼痛]
 system: fundamentals
 group: basic-needs
-alsoIn: [neuro, oncology]
+alsoIn: [neuro, oncology, obstetrics]
 chapters:
   - 藥理-Ch04止痛藥與麻醉藥物 > 成癮性鎮痛劑（麻醉性鎮痛劑）
   - 基護-Ch07舒適的需要 > 舒適的重要性

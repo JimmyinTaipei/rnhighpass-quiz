@@ -93,6 +93,7 @@ references:
 ### 瀰漫性血管內凝血(DIC) {#dic}
 
 - 不是獨立的疾病，而是重症的**併發症**
+- 檢驗判讀、治療與出血護理見 [[bleeding-disorders#dic]]；凝血瀑布見 [[blood-hemostasis#coagulation]]
 - 常見誘因
    1. **敗血症**(最常見)
    2. 產科急症：**胎盤早期剝離**、**羊水栓塞**、子宮內死胎、嚴重子癲前症

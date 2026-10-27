@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="PingFang TC, sans-serif" font-size="14"><rect width="800" height="300" fill="#fff"/><style>.b{fill:none;stroke:#333;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.t{fill:#333}.x{fill:#c62828;font-weight:bold;font-size:22px}.o{fill:#2e7d32;font-weight:bold;font-size:22px}.n{fill:#666;font-size:12px}.a{fill:none;stroke:#1565c0;stroke-width:2;marker-end:url(#m)}</style><defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#1565c0"/></marker></defs>
+<text x="400" y="22" text-anchor="middle" class="t" font-size="16">AI-5 帕米利克吊帶(嬰兒仰臥、正面)</text>
+<circle cx="400" cy="70" r="28" class="b"/><path d="M370 100 H430 V180 H370 Z" class="b"/>
+<path d="M375 105 L425 105" stroke="#1565c0" stroke-width="8"/><text x="440" y="110" class="n">胸帶</text>
+<path d="M375 100 L370 85 M425 100 L430 85" stroke="#1565c0" stroke-width="5"/><text x="440" y="90" class="n">肩帶</text>
+<path d="M380 180 L300 160 L290 230 M420 180 L500 160 L510 230" class="b"/>
+<path d="M385 108 L300 165 M415 108 L500 165" stroke="#1565c0" stroke-width="4"/><path d="M380 112 L292 225 M420 112 L508 225" stroke="#1976d2" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="180" y="150" class="n">髖屈曲約 90–100°</text><text x="530" y="150" class="n">兩側外展(青蛙腿)</text><text x="520" y="250" class="n">腳鐙套住小腿</text>
+<text x="400" y="285" text-anchor="middle" class="n">前帶(實線)維持屈曲、後帶(虛線)限制內收</text>
+</svg>

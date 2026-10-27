@@ -146,6 +146,9 @@
   "基護-Ch05感染控制 > 控制醫療照護相關感染的方法 > 管制感染原（清潔法、消毒法、滅菌法）": [
    "asepsis-sterilization"
   ],
+  "產科-Ch08產後期之護理 > 產後護理措施 > 餵奶（不同階段的母乳、母乳哺餵、母乳哺餵常見問題及處理、母乳哺餵禁忌、配方奶）": [
+   "breastfeeding"
+  ],
   "內外-Ch03癌症護理 > 癌症常見問題照護 > 常見腫瘤急症（上腔靜脈症候群、脊髓壓迫、腫瘤溶解症候群）": [
    "cancer-treatment-toxicities"
   ],
@@ -234,6 +237,10 @@
   "基護-Ch04護理記錄 > 醫囑": [
    "documentation-orders"
   ],
+  "內外-Ch06急重症與疼痛護理 > 急症護理": [
+   "emergency-nursing",
+   "cpr"
+  ],
   "基護-Ch17臨終病人的護理 > 臨終病人之生、心理變化與護理 > 生理變化與護理措施（中樞神經、呼吸、循環、感官、肌肉皮膚、腸胃泌尿系統）": [
    "end-of-life-care"
   ],
@@ -246,6 +253,42 @@
   "兒科-Ch06瀕死兒童之護理 > 兒童及家庭對瀕死的反應": [
    "end-of-life-care"
   ],
+  "社區-Ch15環境衛生與食品衛生 > 環境衛生涵蓋的內容": [
+   "environmental-food-hygiene"
+  ],
+  "社區-Ch15環境衛生與食品衛生 > 公害防治": [
+   "environmental-food-hygiene"
+  ],
+  "社區-Ch15環境衛生與食品衛生 > 氣候變遷與健康調適": [
+   "environmental-food-hygiene"
+  ],
+  "社區-Ch02流行病學 > 流行病學緒論": [
+   "epidemiology"
+  ],
+  "社區-Ch02流行病學 > 疾病的致病模式": [
+   "epidemiology"
+  ],
+  "社區-Ch02流行病學 > 流行病學研究方法": [
+   "epidemiology"
+  ],
+  "社區-Ch02流行病學 > 因果關係的判定與應用": [
+   "epidemiology"
+  ],
+  "社區-Ch06家庭評估與護理 > 家庭評估": [
+   "family-nursing"
+  ],
+  "社區-Ch06家庭評估與護理 > 家庭護理過程": [
+   "family-nursing"
+  ],
+  "社區-Ch06家庭評估與護理 > 家庭與家庭護理概論": [
+   "family-nursing"
+  ],
+  "社區-Ch06家庭評估與護理 > 綜合題型": [
+   "family-nursing"
+  ],
+  "產科-Ch02生殖系統及受孕 > 避孕與家庭計畫": [
+   "family-planning"
+  ],
   "精神-Ch13危機處理與意外事件的護理 > 精神科病房常見意外事件與家庭暴力": [
    "family-violence"
   ],
@@ -253,7 +296,8 @@
    "family-violence"
   ],
   "兒科-Ch16兒童事故傷害及其護理 > 常見傷害種類及其護理": [
-   "family-violence"
+   "family-violence",
+   "burns"
   ],
   "兒科-Ch16兒童事故傷害及其護理 > 綜合題型": [
    "family-violence"
@@ -270,8 +314,26 @@
   "社區-Ch01緒論與衛生行政體系 > 臺灣健康照護體系": [
    "health-administration-system"
   ],
+  "社區-Ch04衛生教育與健康促進 > 衛生教育的學習範圍、原則與方法": [
+   "health-education"
+  ],
+  "社區-Ch04衛生教育與健康促進 > 綜合題型": [
+   "health-education"
+  ],
   "社區-Ch01緒論與衛生行政體系 > 公共衛生護理與健康不平等": [
    "health-equity"
+  ],
+  "社區-Ch04衛生教育與健康促進 > 健康促進與衛生教育的定義與目的": [
+   "health-promotion"
+  ],
+  "社區-Ch04衛生教育與健康促進 > 國內外重要的政策和會議": [
+   "health-promotion"
+  ],
+  "社區-Ch04衛生教育與健康促進 > 健康促進與衛生教育理論模式": [
+   "health-promotion"
+  ],
+  "社區-Ch04衛生教育與健康促進 > 衛生教育應用實例": [
+   "health-promotion"
   ],
   "社區-Ch10長期照護 > 居家照護": [
    "home-care-discharge-planning"
@@ -304,6 +366,24 @@
   "內外-Ch05傳染病 > 醫療照護相關感染": [
    "infection-control"
   ],
+  "產科-Ch02生殖系統及受孕 > 不孕症與人工生殖": [
+   "infertility"
+  ],
+  "產科-Ch13婦科常見疾病 > 常見的婦科手術、檢查及其護理": [
+   "infertility",
+   "benign-gynecologic-disorders"
+  ],
+  "產科-Ch07待產及分娩期之護理評估及護理 > 分娩期護理評估": [
+   "intrapartum-care"
+  ],
+  "產科-Ch07待產及分娩期之護理評估及護理 > 分娩期護理活動": [
+   "intrapartum-care"
+  ],
+  "產科-Ch07待產及分娩期之護理評估及護理 > 分娩期間疼痛的處理": [
+   "labor-pain-relief",
+   "pain-management",
+   "opioids"
+  ],
   "社區-Ch10長期照護 > 現行長期照護服務": [
    "long-term-care-services",
    "dementia"
@@ -319,6 +399,21 @@
   ],
   "社區-Ch10長期照護 > 綜合題型": [
    "long-term-care"
+  ],
+  "社區-Ch07婦幼衛生 > 婦幼衛生概論": [
+   "maternal-child-health"
+  ],
+  "社區-Ch07婦幼衛生 > 婦女健康保健": [
+   "maternal-child-health",
+   "breast-cancer",
+   "gynecologic-cancers",
+   "human-papillomavirus"
+  ],
+  "社區-Ch07婦幼衛生 > 生育保健": [
+   "maternal-child-health"
+  ],
+  "社區-Ch07婦幼衛生 > 兒童及青少年健康照護": [
+   "maternal-child-health"
   ],
   "精神-Ch06精神科常用的治療方法 > 環境治療": [
    "milieu-therapy"
@@ -339,6 +434,27 @@
    "neuro-assessment",
    "icp-monitoring",
    "increased-icp"
+  ],
+  "產科-Ch09新生兒的評估與護理 > 評估與監測": [
+   "newborn-assessment"
+  ],
+  "產科-Ch09新生兒的評估與護理 > 成熟度評估": [
+   "newborn-assessment"
+  ],
+  "兒科-Ch03新生兒及其護理 > 新生兒特徵與評估": [
+   "newborn-assessment"
+  ],
+  "產科-Ch09新生兒的評估與護理 > 新生兒立即護理": [
+   "newborn-care"
+  ],
+  "產科-Ch09新生兒的評估與護理 > 新生兒篩檢與日常照護": [
+   "newborn-care"
+  ],
+  "兒科-Ch03新生兒及其護理 > 新生兒餵食": [
+   "newborn-care"
+  ],
+  "兒科-Ch03新生兒及其護理 > 新生兒常見健康問題及其護理": [
+   "newborn-care"
   ],
   "社區-Ch14傳染病防治與護理 > 重要傳染病流行病學及管制概況": [
    "notifiable-diseases"
@@ -386,6 +502,18 @@
   "基護-Ch03觀察與溝通 > 專業性人際關係": [
    "observation-communication"
   ],
+  "產科-Ch01緒論 > 產科史的發展": [
+   "obstetric-nursing-foundations"
+  ],
+  "產科-Ch01緒論 > 以家庭為中心的周產期照護": [
+   "obstetric-nursing-foundations"
+  ],
+  "產科-Ch01緒論 > 產科護理人員的角色": [
+   "obstetric-nursing-foundations"
+  ],
+  "產科-Ch01緒論 > 產科護理的倫理和法律觀": [
+   "obstetric-nursing-foundations"
+  ],
   "社區-Ch13職業衛生與護理 > 職業健康護理之目的及意義": [
    "occupational-health-nursing"
   ],
@@ -404,6 +532,31 @@
   "社區-Ch13職業衛生與護理 > 綜合題型": [
    "occupational-health-nursing"
   ],
+  "社區-Ch08中老年人的護理 > 老年人與老化": [
+   "older-adult-chronic-disease"
+  ],
+  "社區-Ch08中老年人的護理 > 老人的照顧": [
+   "older-adult-chronic-disease",
+   "dementia"
+  ],
+  "社區-Ch08中老年人的護理 > 中老年保健政策": [
+   "older-adult-chronic-disease"
+  ],
+  "社區-Ch08中老年人的護理 > 社區衛生護理人員在老人護理方面的職責": [
+   "older-adult-chronic-disease"
+  ],
+  "社區-Ch09慢性疾病的護理 > 慢性病概論": [
+   "older-adult-chronic-disease"
+  ],
+  "社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護": [
+   "older-adult-chronic-disease",
+   "asthma",
+   "hypertension"
+  ],
+  "社區-Ch09慢性疾病的護理 > 慢性病防治政策與社區衛生護理角色": [
+   "older-adult-chronic-disease",
+   "diabetes"
+  ],
   "藥理-Ch04止痛藥與麻醉藥物 > 成癮性鎮痛劑（麻醉性鎮痛劑）": [
    "pain-management",
    "opioids"
@@ -412,10 +565,6 @@
    "pain-management"
   ],
   "內外-Ch06急重症與疼痛護理 > 疼痛護理": [
-   "pain-management",
-   "opioids"
-  ],
-  "產科-Ch07待產及分娩期之護理評估及護理 > 分娩期間疼痛的處理": [
    "pain-management",
    "opioids"
   ],
@@ -432,6 +581,30 @@
   ],
   "基護-Ch02醫療環境 > 病人的環境－病人單位": [
    "patient-safety-environment"
+  ],
+  "產科-Ch08產後期之護理 > 產後評估": [
+   "postpartum-care"
+  ],
+  "產科-Ch08產後期之護理 > 產後護理措施": [
+   "postpartum-care"
+  ],
+  "產科-Ch08產後期之護理 > 產後心理調適": [
+   "postpartum-psychosocial-adaptation"
+  ],
+  "產科-Ch05妊娠期之護理 > 懷孕時常見不適之處理": [
+   "prenatal-care"
+  ],
+  "產科-Ch05妊娠期之護理 > 妊娠期間常見問題及處理": [
+   "prenatal-care"
+  ],
+  "產科-Ch05妊娠期之護理 > 妊娠期的營養": [
+   "prenatal-care"
+  ],
+  "產科-Ch05妊娠期之護理 > 生產準備": [
+   "prenatal-care"
+  ],
+  "產科-Ch05妊娠期之護理 > 綜合題型": [
+   "prenatal-care"
   ],
   "精神-Ch01精神醫學與護理的發展史及基本概念 > 精神醫學發展史": [
    "psychiatric-nursing-foundations",
@@ -464,6 +637,18 @@
   "基護-Ch10生命徵象 > 呼吸": [
    "respiratory-assessment"
   ],
+  "社區-Ch12學校衛生與護理 > 學校衛生行政組織": [
+   "school-health"
+  ],
+  "社區-Ch12學校衛生與護理 > 學校衛生工作模式": [
+   "school-health"
+  ],
+  "社區-Ch12學校衛生與護理 > 學校衛生工作項目及內容": [
+   "school-health"
+  ],
+  "社區-Ch12學校衛生與護理 > 學校護理實務框架、實作標準及角色功能": [
+   "school-health"
+  ],
   "基護-Ch09休息與睡眠 > 休息與睡眠的基本概念": [
    "sleep-rest"
   ],
@@ -489,7 +674,8 @@
    "transfusion-reactions"
   ],
   "兒科-Ch10兒童血液疾病 > 兒童血液系統之解剖生理與評估": [
-   "transfusion-reactions"
+   "transfusion-reactions",
+   "blood-hemostasis"
   ],
   "社區-Ch03生命統計 > 生命統計基本概念": [
    "vital-statistics"
@@ -506,6 +692,20 @@
   "社區-Ch03生命統計 > 生命統計在社區衛生護理的應用": [
    "vital-statistics"
   ],
+  "內外-Ch12皮膚疾病 > 皮膚系統基本概念": [
+   "wound-dressings",
+   "skin"
+  ],
+  "內外-Ch06急重症與疼痛護理 > 重症護理": [
+   "arterial-line",
+   "central-venous-catheter",
+   "iabp-ecmo",
+   "shock"
+  ],
+  "內外-Ch13心血管系統疾病 > 心臟基本概念與評估": [
+   "arterial-line",
+   "central-venous-catheter"
+  ],
   "內外-Ch09呼吸系統疾病 > 胸廓與肋膜病變": [
    "chest-tube",
    "pleural-chest-trauma"
@@ -521,6 +721,15 @@
    "pediatric-genitourinary",
    "urinary-tract-infection",
    "gram-negative-bacteria"
+  ],
+  "內外-Ch13心血管系統疾病 > 心衰竭與心肌病變": [
+   "iabp-ecmo",
+   "heart-failure",
+   "shock",
+   "digoxin",
+   "inotropes",
+   "bnp",
+   "echocardiography"
   ],
   "內外-Ch09呼吸系統疾病 > 肺實質病變": [
    "mechanical-ventilation",
@@ -587,6 +796,18 @@
    "anaphylaxis",
    "hypersensitivity-reactions"
   ],
+  "內外-Ch14血液系統疾病 > 紅血球疾病": [
+   "anemias"
+  ],
+  "兒科-Ch10兒童血液疾病 > 貧血": [
+   "anemias"
+  ],
+  "病理-Ch10血液、造血與淋巴系統疾病 > 貧血": [
+   "anemias"
+  ],
+  "病理-Ch10血液、造血與淋巴系統疾病 > 白血球與骨髓增生性疾病": [
+   "anemias"
+  ],
   "精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理 > 焦慮症": [
    "anxiety-disorders"
   ],
@@ -607,16 +828,21 @@
    "copd",
    "restrictive-lung-diseases"
   ],
+  "內外-Ch13心血管系統疾病 > 心律不整疾病": [
+   "arrhythmias",
+   "ecg"
+  ],
+  "藥理-Ch08心血管藥物 > 抗心律不整藥物": [
+   "arrhythmias",
+   "antiarrhythmics",
+   "ecg"
+  ],
   "內外-Ch09呼吸系統疾病 > 下呼吸道通道病變": [
    "asthma",
    "copd"
   ],
   "兒科-Ch08兒童呼吸系統疾病 > 其他常見呼吸系統疾病": [
    "asthma"
-  ],
-  "社區-Ch09慢性疾病的護理 > 常見慢性病之社區照護": [
-   "asthma",
-   "hypertension"
   ],
   "病理-Ch05免疫系統疾病 > 自體免疫疾病": [
    "autoimmune-diseases",
@@ -630,6 +856,30 @@
   "微免-Ch03免疫異常與疫苗應用 > 自體免疫疾病": [
    "autoimmune-diseases",
    "immunology-labs"
+  ],
+  "產科-Ch13婦科常見疾病 > 陰道方面的問題": [
+   "benign-gynecologic-disorders",
+   "sexually-transmitted-infections"
+  ],
+  "產科-Ch13婦科常見疾病 > 子宮頸疾病": [
+   "benign-gynecologic-disorders",
+   "gynecologic-cancers",
+   "human-papillomavirus"
+  ],
+  "產科-Ch13婦科常見疾病 > 子宮疾病": [
+   "benign-gynecologic-disorders"
+  ],
+  "產科-Ch13婦科常見疾病 > 乳房疾病": [
+   "benign-gynecologic-disorders",
+   "breast-cancer"
+  ],
+  "病理-Ch15生殖系統與乳房疾病 > 女性生殖系統疾病": [
+   "benign-gynecologic-disorders",
+   "gynecologic-cancers"
+  ],
+  "病理-Ch15生殖系統與乳房疾病 > 乳房疾病": [
+   "benign-gynecologic-disorders",
+   "breast-cancer"
   ],
   "內外-Ch07消化系統疾病 > 肝膽胰疾病": [
    "biliary-pancreatic",
@@ -665,14 +915,20 @@
    "lithium-level",
    "neurotransmitters-psychiatry"
   ],
+  "內外-Ch14血液系統疾病 > 血小板與凝血疾病": [
+   "bleeding-disorders"
+  ],
+  "兒科-Ch10兒童血液疾病 > 凝血功能障礙": [
+   "bleeding-disorders"
+  ],
+  "病理-Ch10血液、造血與淋巴系統疾病 > 出血與凝血疾病": [
+   "bleeding-disorders"
+  ],
   "內外-Ch15神經系統疾病 > 神經系統腫瘤與感染疾病": [
    "brain-tumors",
    "neuromuscular-demyelinating",
    "pediatric-cancers",
    "pituitary-disorders"
-  ],
-  "病理-Ch15生殖系統與乳房疾病 > 乳房疾病": [
-   "breast-cancer"
   ],
   "內外-Ch03癌症護理 > 癌症預防、診斷與分期": [
    "breast-cancer",
@@ -682,13 +938,8 @@
   "內外-Ch11生殖系統疾病 > 乳房疾病": [
    "breast-cancer"
   ],
-  "產科-Ch13婦科常見疾病 > 乳房疾病": [
-   "breast-cancer"
-  ],
-  "社區-Ch07婦幼衛生 > 婦女健康保健": [
-   "breast-cancer",
-   "gynecologic-cancers",
-   "human-papillomavirus"
+  "內外-Ch12皮膚疾病 > 燒傷與整形重建護理": [
+   "burns"
   ],
   "病理-Ch04腫瘤概論 > 腫瘤之診斷與治療": [
    "cancer",
@@ -745,6 +996,13 @@
   "內外-Ch07消化系統疾病 > 腸道疾病 > 腸胃道息肉與大腸癌": [
    "colorectal-cancer"
   ],
+  "兒科-Ch09兒童循環系統疾病 > 先天性心臟病": [
+   "congenital-heart-disease"
+  ],
+  "兒科-Ch09兒童循環系統疾病 > 兒童循環系統之解剖生理與評估": [
+   "congenital-heart-disease",
+   "blood-vessels"
+  ],
   "病理-Ch09心臟血管系統疾病 > 心臟疾病": [
    "coronary-artery-disease",
    "heart-failure"
@@ -792,9 +1050,6 @@
   "精神-Ch12其他精神科疾病的護理 > 老年精神衛生問題": [
    "dementia",
    "depressive-disorder"
-  ],
-  "社區-Ch08中老年人的護理 > 老人的照顧": [
-   "dementia"
   ],
   "內外-Ch15神經系統疾病 > 神經系統退化性疾病": [
    "dementia",
@@ -872,6 +1127,7 @@
   ],
   "兒科-Ch04高危險新生兒之護理 > 高危險性新生兒之定義與評估": [
    "diabetes",
+   "neonatal-disorders",
    "ogtt"
   ],
   "兒科-Ch15兒童內分泌系統疾病與慢性病 > 常見內分泌系統疾病 > 腎上腺、性腺與胰島素分泌異常(先天性腎上腺增生症、性早熟、糖尿病)": [
@@ -885,9 +1141,6 @@
    "lipid-profile",
    "ogtt"
   ],
-  "社區-Ch09慢性疾病的護理 > 慢性病防治政策與社區衛生護理角色": [
-   "diabetes"
-  ],
   "內外-Ch17感覺機能與眼耳鼻喉科疾病 > 耳朵疾病與護理": [
    "ear-disorders"
   ],
@@ -897,20 +1150,29 @@
   "病理-Ch18感官與神經系統疾病 > 眼睛疾病": [
    "eye-disorders"
   ],
+  "內外-Ch16肌肉骨骼系統疾病 > 肌肉骨骼創傷與處理": [
+   "fractures"
+  ],
+  "內外-Ch16肌肉骨骼系統疾病 > 肌肉骨骼系統功能不良病人之處理": [
+   "fractures",
+   "osteoarthritis"
+  ],
+  "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 骨骼疾病": [
+   "fractures",
+   "osteoporosis",
+   "pediatric-cancers"
+  ],
+  "兒科-Ch14兒童免疫及肌肉骨骼系統疾病 > 兒童肌肉骨骼系統疾病": [
+   "fractures",
+   "pediatric-musculoskeletal"
+  ],
   "內外-Ch10腎臟與泌尿系統疾病 > 腎臟疾病": [
    "glomerular-diseases",
    "uacr"
   ],
-  "病理-Ch15生殖系統與乳房疾病 > 女性生殖系統疾病": [
-   "gynecologic-cancers"
-  ],
   "微免-Ch11病毒學總論與DNA病毒 > 乳突病毒與多瘤病毒": [
    "gynecologic-cancers",
    "dna-viruses",
-   "human-papillomavirus"
-  ],
-  "產科-Ch13婦科常見疾病 > 子宮頸疾病": [
-   "gynecologic-cancers",
    "human-papillomavirus"
   ],
   "產科-Ch13婦科常見疾病 > 卵巢癌": [
@@ -945,17 +1207,30 @@
   ],
   "藥理-Ch08心血管藥物 > 心臟前後負荷與心衰竭/休克用藥綜合應用": [
    "heart-failure",
+   "antiarrhythmics",
    "digoxin",
    "inotropes",
    "echocardiography",
    "cardiac-output"
   ],
-  "內外-Ch13心血管系統疾病 > 心衰竭與心肌病變": [
-   "heart-failure",
-   "digoxin",
-   "inotropes",
-   "bnp",
-   "echocardiography"
+  "產科-Ch10高危險妊娠之護理 > 高危險妊娠定義與因素": [
+   "high-risk-pregnancy"
+  ],
+  "產科-Ch10高危險妊娠之護理 > 妊娠前的內科疾病": [
+   "high-risk-pregnancy"
+  ],
+  "產科-Ch10高危險妊娠之護理 > 伴隨懷孕發生的內科疾病": [
+   "high-risk-pregnancy"
+  ],
+  "產科-Ch10高危險妊娠之護理 > 高血壓性疾病": [
+   "high-risk-pregnancy",
+   "hypertension"
+  ],
+  "產科-Ch10高危險妊娠之護理 > Rh因子與ABO血型不合": [
+   "high-risk-pregnancy"
+  ],
+  "產科-Ch10高危險妊娠之護理 > 早產與安胎照護": [
+   "high-risk-pregnancy"
   ],
   "病理-Ch05免疫系統疾病 > 免疫不全疾病": [
    "hiv-aids",
@@ -1000,9 +1275,6 @@
    "direct-vasodilators"
   ],
   "內外-Ch13心血管系統疾病 > 周圍血管疾病 > 高血壓": [
-   "hypertension"
-  ],
-  "產科-Ch10高危險妊娠之護理 > 高血壓性疾病": [
    "hypertension"
   ],
   "內外-Ch08內分泌系統疾病 > 甲狀腺與副甲狀腺疾病": [
@@ -1056,7 +1328,8 @@
    "staphylococcus-aureus"
   ],
   "內外-Ch13心血管系統疾病 > 發炎性與瓣膜性心臟病": [
-   "infective-endocarditis"
+   "infective-endocarditis",
+   "valvular-heart-disease"
   ],
   "兒科-Ch09兒童循環系統疾病 > 後天性心臟血管疾病": [
    "kawasaki-disease"
@@ -1064,6 +1337,33 @@
   "藥理-Ch04止痛藥與麻醉藥物 > 非成癮性鎮痛劑": [
    "kawasaki-disease",
    "nsaids-acetaminophen"
+  ],
+  "產科-Ch11分娩期異常之護理 > 功能不良性分娩": [
+   "labor-complications"
+  ],
+  "產科-Ch11分娩期異常之護理 > 子宮方面的問題": [
+   "labor-complications"
+  ],
+  "產科-Ch11分娩期異常之護理 > 異常胎產式": [
+   "labor-complications"
+  ],
+  "產科-Ch11分娩期異常之護理 > 胎兒異常與多胞胎": [
+   "labor-complications"
+  ],
+  "產科-Ch11分娩期異常之護理 > 羊水方面的問題": [
+   "labor-complications"
+  ],
+  "產科-Ch11分娩期異常之護理 > 胎盤和臍帶異常與胎兒窘迫": [
+   "labor-complications"
+  ],
+  "產科-Ch11分娩期異常之護理 > 引產與產科手術處置": [
+   "labor-complications"
+  ],
+  "產科-Ch11分娩期異常之護理 > 產前破水": [
+   "labor-complications"
+  ],
+  "產科-Ch11分娩期異常之護理 > 早產與過期妊娠": [
+   "labor-complications"
   ],
   "病理-Ch10血液、造血與淋巴系統疾病 > 血液系統之惡性腫瘤": [
    "leukemia",
@@ -1096,14 +1396,33 @@
   "病理-Ch11呼吸系統疾病 > 肺部腫瘤與肉芽腫性疾病": [
    "lung-cancer"
   ],
+  "病理-Ch15生殖系統與乳房疾病 > 男性生殖系統疾病": [
+   "male-reproductive-disorders"
+  ],
+  "產科-Ch13婦科常見疾病 > 月經問題": [
+   "menstrual-disorders"
+  ],
+  "兒科-Ch04高危險新生兒之護理 > 常見之高危險性新生兒疾病": [
+   "neonatal-disorders"
+  ],
   "精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理 > 強迫症及相關障礙症": [
    "obsessive-compulsive-disorder"
   ],
+  "內外-Ch16肌肉骨骼系統疾病 > 特定肌肉骨骼疾病": [
+   "osteoarthritis",
+   "osteoporosis",
+   "rheumatoid-arthritis"
+  ],
+  "內外-Ch16肌肉骨骼系統疾病 > 肌肉骨骼系統基本概念": [
+   "osteoarthritis",
+   "skeletal-system"
+  ],
+  "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 關節疾病": [
+   "osteoarthritis",
+   "rheumatoid-arthritis"
+  ],
   "病理-Ch16內分泌系統疾病 > 副甲狀腺疾病": [
    "parathyroid-disorders"
-  ],
-  "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 骨骼疾病": [
-   "pediatric-cancers"
   ],
   "病理-Ch18感官與神經系統疾病 > 中樞神經系統腫瘤與癲癇": [
    "pediatric-cancers"
@@ -1138,6 +1457,9 @@
   "產科-Ch12產後期異常之護理 > 產褥感染": [
    "perinatal-infections"
   ],
+  "內外-Ch13心血管系統疾病 > 周圍血管疾病": [
+   "peripheral-vascular-disease"
+  ],
   "精神-Ch11人格障礙病人的護理 > A群人格障礙症": [
    "personality-disorders"
   ],
@@ -1167,6 +1489,21 @@
   "內外-Ch09呼吸系統疾病 > 肺實質病變 > 肺炎、肺膿瘍與肺結核": [
    "pneumonia"
   ],
+  "產科-Ch12產後期異常之護理 > 產後出血": [
+   "postpartum-complications"
+  ],
+  "產科-Ch12產後期異常之護理 > 子宮復舊不全": [
+   "postpartum-complications"
+  ],
+  "產科-Ch12產後期異常之護理 > 血栓栓塞性疾病": [
+   "postpartum-complications"
+  ],
+  "產科-Ch12產後期異常之護理 > 產後心理異常": [
+   "postpartum-complications"
+  ],
+  "兒科-Ch04高危險新生兒之護理 > 早產兒之護理": [
+   "preterm-infant"
+  ],
   "內外-Ch09呼吸系統疾病 > 血管性病變": [
    "pulmonary-embolism-hypertension",
    "anticoagulants",
@@ -1176,17 +1513,11 @@
   "微免-Ch12RNA病毒 > 正黏液病毒與副黏液病毒": [
    "respiratory-viral-infections"
   ],
-  "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 關節疾病": [
-   "rheumatoid-arthritis"
-  ],
   "藥理-Ch12癌症藥物與免疫製劑 > 免疫製劑": [
    "rheumatoid-arthritis",
    "sle",
    "immunosuppressants",
    "monoclonal-antibodies"
-  ],
-  "內外-Ch16肌肉骨骼系統疾病 > 特定肌肉骨骼疾病": [
-   "rheumatoid-arthritis"
   ],
   "藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 抗精神病藥物": [
    "schizophrenia",
@@ -1252,9 +1583,6 @@
    "sexually-transmitted-infections",
    "atypical-bacteria"
   ],
-  "產科-Ch13婦科常見疾病 > 陰道方面的問題": [
-   "sexually-transmitted-infections"
-  ],
   "產科-Ch13婦科常見疾病 > 骨盆腔炎症": [
    "sexually-transmitted-infections"
   ],
@@ -1263,7 +1591,14 @@
   ],
   "內外-Ch12皮膚疾病 > 皮膚感染與發炎性疾病": [
    "skin-bone-infections",
+   "skin-diseases",
    "helminths-ectoparasites"
+  ],
+  "內外-Ch12皮膚疾病 > 皮膚特殊損傷與腫瘤": [
+   "skin-diseases"
+  ],
+  "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 皮膚疾病": [
+   "skin-diseases"
   ],
   "精神-Ch10身體症狀障礙症與解離症病人的護理 > 身體症狀及相關障礙症": [
    "somatic-dissociative-disorders"
@@ -1447,6 +1782,12 @@
   "藥理-Ch04止痛藥與麻醉藥物 > 痛風治療藥物": [
    "gout-drugs"
   ],
+  "藥理-Ch09血液系統藥物 > 抗貧血藥物": [
+   "hematinics"
+  ],
+  "藥理-Ch09血液系統藥物 > 綜合題型": [
+   "hematinics"
+  ],
   "藥理-Ch07泌尿系統與利尿劑 > 利尿劑": [
    "loop-diuretics",
    "potassium-sparing-diuretics",
@@ -1487,24 +1828,34 @@
   ],
   "生解-Ch07血液、心血管與淋巴系統 > 血液": [
    "complete-blood-count",
+   "blood-hemostasis",
    "immunoglobulins-hla"
   ],
   "基護-Ch18出入院護理與檢體收集 > 入院之常規檢體收集": [
    "culture-and-sensitivity",
    "admission-discharge-specimens"
   ],
-  "藥理-Ch08心血管藥物 > 抗心律不整藥物": [
-   "ecg"
-  ],
-  "內外-Ch13心血管系統疾病 > 心律不整疾病": [
-   "ecg"
-  ],
   "內外-Ch02免疫系統疾病 > 免疫系統基本概念": [
    "immunology-labs"
+  ],
+  "產科-Ch07待產及分娩期之護理評估及護理 > 分娩期護理評估 > 胎兒的評估（胎心率評估、胎心率基準線與變異性、子宮收縮與胎心率變化）": [
+   "intrapartum-fetal-monitoring"
   ],
   "生解-Ch11體液、電解質與酸鹼平衡 > 電解質": [
    "potassium",
    "fluid-electrolytes"
+  ],
+  "產科-Ch03妊娠期的診斷與評估 > 妊娠診斷與孕期評估": [
+   "prenatal-assessment"
+  ],
+  "產科-Ch03妊娠期的診斷與評估 > 產前檢查": [
+   "prenatal-assessment"
+  ],
+  "產科-Ch03妊娠期的診斷與評估 > 產前胎兒監測與診斷技術": [
+   "prenatal-assessment"
+  ],
+  "產科-Ch03妊娠期的診斷與評估 > 綜合題型": [
+   "prenatal-assessment"
   ],
   "內外-Ch10腎臟與泌尿系統疾病 > 腎臟疾病 > 腎臟與泌尿系統評估及檢查": [
    "renal-function-tests",
@@ -1603,8 +1954,14 @@
    "immune-system-basics",
    "t-lymphocytes"
   ],
+  "內外-Ch14血液系統疾病 > 血液系統基本概念": [
+   "blood-hemostasis"
+  ],
   "生解-Ch07血液、心血管與淋巴系統 > 血管與循環路線 > 循環生理學（血量、血壓與血流、微血管物質交換、靜脈回流）": [
    "blood-pressure-regulation"
+  ],
+  "生解-Ch07血液、心血管與淋巴系統 > 血管與循環路線": [
+   "blood-vessels"
   ],
   "生解-Ch05神經系統 > 腦與腦神經": [
    "brain-anatomy",
@@ -1653,6 +2010,34 @@
   ],
   "病理-Ch07環境傷害與營養疾病 > 物理性傷害": [
    "environmental-injury"
+  ],
+  "生解-Ch13生殖系統 > 女性生殖系統": [
+   "female-reproductive-system"
+  ],
+  "產科-Ch02生殖系統及受孕 > 生殖內分泌機轉": [
+   "female-reproductive-system"
+  ],
+  "產科-Ch02生殖系統及受孕 > 女性生殖系統": [
+   "female-reproductive-system"
+  ],
+  "產科-Ch02生殖系統及受孕 > 受精與胚胎分化": [
+   "fertilization-embryology"
+  ],
+  "生解-Ch14胚胎學 > 受精與著床": [
+   "fertilization-embryology"
+  ],
+  "生解-Ch14胚胎學 > 胚層分化與器官形成期": [
+   "fertilization-embryology"
+  ],
+  "生解-Ch14胚胎學 > 胎兒附屬構造": [
+   "fertilization-embryology"
+  ],
+  "生解-Ch14胚胎學 > 胎兒生長與生理發育": [
+   "fertilization-embryology"
+  ],
+  "生解-Ch14胚胎學 > 各系統的胚胎發育起源": [
+   "fertilization-embryology",
+   "male-reproductive-system"
   ],
   "生解-Ch11體液、電解質與酸鹼平衡 > 體液區間與體液平衡": [
    "fluid-electrolytes"
@@ -1718,11 +2103,38 @@
   "生解-Ch10泌尿系統 > 綜合題型": [
    "kidney-urinary-physiology"
   ],
+  "產科-Ch06分娩過程與娩出階段 > 分娩機轉（胎兒位置改變）": [
+   "labor-process"
+  ],
+  "產科-Ch06分娩過程與娩出階段 > 影響分娩的因素": [
+   "labor-process"
+  ],
+  "產科-Ch06分娩過程與娩出階段 > 母體與胎兒對分娩的反應": [
+   "labor-process"
+  ],
+  "產科-Ch06分娩過程與娩出階段 > 分娩開始與產兆": [
+   "labor-process"
+  ],
+  "產科-Ch06分娩過程與娩出階段 > 分娩與娩出階段": [
+   "labor-process"
+  ],
   "生解-Ch09消化系統 > 胰臟": [
    "liver-biliary-pancreas"
   ],
   "生解-Ch09消化系統 > 肝臟與膽囊": [
    "liver-biliary-pancreas"
+  ],
+  "生解-Ch13生殖系統 > 男性生殖系統": [
+   "male-reproductive-system"
+  ],
+  "產科-Ch04妊娠期婦女的生理及心理變化 > 懷孕時生理變化": [
+   "maternal-adaptation"
+  ],
+  "產科-Ch04妊娠期婦女的生理及心理變化 > 懷孕時心理變化": [
+   "maternal-adaptation"
+  ],
+  "產科-Ch04妊娠期婦女的生理及心理變化 > 綜合題型": [
+   "maternal-adaptation"
   ],
   "微免-Ch11病毒學總論與DNA病毒 > 病毒學總論": [
    "microbial-pathogenesis"
@@ -1736,6 +2148,21 @@
   "微免-Ch04細菌學總論與致病機制 > 感染症之發生與宿主反應": [
    "microbial-pathogenesis"
   ],
+  "生解-Ch04肌肉系統 > 肌肉組織總論": [
+   "muscular-system"
+  ],
+  "生解-Ch04肌肉系統 > 骨骼肌組織構造": [
+   "muscular-system"
+  ],
+  "生解-Ch04肌肉系統 > 肌肉之收縮生理": [
+   "muscular-system"
+  ],
+  "生解-Ch04肌肉系統 > 心肌與平滑肌組織": [
+   "muscular-system"
+  ],
+  "生解-Ch04肌肉系統 > 主要的骨骼肌": [
+   "muscular-system"
+  ],
   "生解-Ch05神經系統 > 神經系統總論": [
    "neuron-synapse"
   ],
@@ -1745,14 +2172,53 @@
   "生解-Ch05神經系統 > 神經生理學基礎": [
    "neuron-synapse"
   ],
+  "產科-Ch09新生兒的評估與護理 > 生理的調適": [
+   "newborn-adaptation"
+  ],
   "病理-Ch07環境傷害與營養疾病 > 營養疾病": [
    "nutritional-disorders"
+  ],
+  "產科-Ch08產後期之護理 > 產後的生理調適": [
+   "postpartum-adaptation"
   ],
   "生解-Ch08呼吸系統 > 呼吸器官": [
    "respiratory-anatomy"
   ],
   "兒科-Ch08兒童呼吸系統疾病 > 兒童呼吸系統之解剖生理與評估": [
    "respiratory-anatomy"
+  ],
+  "生解-Ch03骨骼系統與關節 > 骨骼組織總論": [
+   "skeletal-system"
+  ],
+  "生解-Ch03骨骼系統與關節 > 顱骨": [
+   "skeletal-system"
+  ],
+  "生解-Ch03骨骼系統與關節 > 脊柱": [
+   "skeletal-system"
+  ],
+  "生解-Ch03骨骼系統與關節 > 胸廓": [
+   "skeletal-system"
+  ],
+  "生解-Ch03骨骼系統與關節 > 上肢骨骼": [
+   "skeletal-system"
+  ],
+  "生解-Ch03骨骼系統與關節 > 下肢骨骼": [
+   "skeletal-system"
+  ],
+  "生解-Ch03骨骼系統與關節 > 關節系統": [
+   "skeletal-system"
+  ],
+  "生解-Ch03骨骼系統與關節 > 綜合題型": [
+   "skeletal-system"
+  ],
+  "生解-Ch02皮膚系統 > 皮膚之構造": [
+   "skin"
+  ],
+  "生解-Ch02皮膚系統 > 皮膚之功能": [
+   "skin"
+  ],
+  "生解-Ch02皮膚系統 > 表皮之衍生物": [
+   "skin"
   ],
   "生解-Ch06感覺器官 > 感覺總論與體感覺": [
    "special-senses"
@@ -1800,6 +2266,9 @@
   ],
   "基護-Ch15排泄需要 > 腸道排泄需要": [
    "bowel-elimination"
+  ],
+  "兒科-Ch16兒童事故傷害及其護理 > 嬰幼兒急救與護理重點": [
+   "cpr"
   ],
   "基護-Ch12營養的需要 > 營養需要的護理過程": [
    "enteral-parenteral-nutrition"
@@ -1852,31 +2321,13 @@
    ]
   },
   "生解-Ch02皮膚系統": {
-   "missing": [
-    "皮膚之構造",
-    "皮膚之功能",
-    "表皮之衍生物"
-   ]
+   "missing": []
   },
   "生解-Ch03骨骼系統與關節": {
-   "missing": [
-    "骨骼組織總論",
-    "顱骨",
-    "脊柱",
-    "胸廓",
-    "上肢骨骼",
-    "下肢骨骼",
-    "關節系統"
-   ]
+   "missing": []
   },
   "生解-Ch04肌肉系統": {
-   "missing": [
-    "肌肉組織總論",
-    "骨骼肌組織構造",
-    "肌肉之收縮生理",
-    "心肌與平滑肌組織",
-    "主要的骨骼肌"
-   ]
+   "missing": []
   },
   "生解-Ch05神經系統": {
    "missing": []
@@ -1905,19 +2356,10 @@
    "missing": []
   },
   "生解-Ch13生殖系統": {
-   "missing": [
-    "男性生殖系統",
-    "女性生殖系統"
-   ]
+   "missing": []
   },
   "生解-Ch14胚胎學": {
-   "missing": [
-    "胎兒附屬構造",
-    "各系統的胚胎發育起源",
-    "胎兒生長與生理發育",
-    "受精與著床",
-    "胚層分化與器官形成期"
-   ]
+   "missing": []
   },
   "病理-Ch01緒論與細胞傷害、適應": {
    "missing": []
@@ -1952,11 +2394,7 @@
    "missing": []
   },
   "病理-Ch10血液、造血與淋巴系統疾病": {
-   "missing": [
-    "貧血",
-    "白血球與骨髓增生性疾病",
-    "出血與凝血疾病"
-   ]
+   "missing": []
   },
   "病理-Ch11呼吸系統疾病": {
    "missing": []
@@ -1971,16 +2409,13 @@
    "missing": []
   },
   "病理-Ch15生殖系統與乳房疾病": {
-   "missing": [
-    "男性生殖系統疾病"
-   ]
+   "missing": []
   },
   "病理-Ch16內分泌系統疾病": {
    "missing": []
   },
   "病理-Ch17骨骼、關節、軟組織與皮膚系統疾病": {
    "missing": [
-    "皮膚疾病",
     "肌肉與神經肌肉疾病"
    ]
   },
@@ -2024,9 +2459,7 @@
    ]
   },
   "藥理-Ch09血液系統藥物": {
-   "missing": [
-    "抗貧血藥物"
-   ]
+   "missing": []
   },
   "藥理-Ch10內分泌與新陳代謝藥物": {
    "missing": []
@@ -2205,9 +2638,7 @@
    ]
   },
   "內外-Ch06急重症與疼痛護理": {
-   "missing": [
-    "重症護理"
-   ]
+   "missing": []
   },
   "內外-Ch07消化系統疾病": {
    "missing": []
@@ -2231,142 +2662,65 @@
    ]
   },
   "內外-Ch12皮膚疾病": {
-   "missing": [
-    "皮膚系統基本概念",
-    "皮膚特殊損傷與腫瘤",
-    "燒傷與整形重建護理"
-   ]
+   "missing": []
   },
   "內外-Ch13心血管系統疾病": {
-   "missing": [
-    "心臟基本概念與評估"
-   ]
+   "missing": []
   },
   "內外-Ch14血液系統疾病": {
-   "missing": [
-    "血液系統基本概念",
-    "紅血球疾病",
-    "血小板與凝血疾病"
-   ]
+   "missing": []
   },
   "內外-Ch15神經系統疾病": {
    "missing": []
   },
   "內外-Ch16肌肉骨骼系統疾病": {
-   "missing": [
-    "肌肉骨骼系統基本概念",
-    "肌肉骨骼創傷與處理",
-    "肌肉骨骼系統功能不良病人之處理"
-   ]
+   "missing": []
   },
   "內外-Ch17感覺機能與眼耳鼻喉科疾病": {
    "missing": []
   },
   "產科-Ch01緒論": {
    "missing": [
-    "產科護理的倫理和法律觀",
-    "產科史的發展",
-    "以家庭為中心的周產期照護",
-    "母親及嬰兒生命統計",
-    "產科護理人員的角色"
+    "母親及嬰兒生命統計"
    ]
   },
   "產科-Ch02生殖系統及受孕": {
-   "missing": [
-    "生殖內分泌機轉",
-    "受精與胚胎分化",
-    "女性生殖系統",
-    "避孕與家庭計畫",
-    "不孕症與人工生殖"
-   ]
+   "missing": []
   },
   "產科-Ch03妊娠期的診斷與評估": {
-   "missing": [
-    "妊娠診斷與孕期評估",
-    "產前檢查",
-    "產前胎兒監測與診斷技術"
-   ]
+   "missing": []
   },
   "產科-Ch04妊娠期婦女的生理及心理變化": {
-   "missing": [
-    "懷孕時生理變化",
-    "懷孕時心理變化"
-   ]
+   "missing": []
   },
   "產科-Ch05妊娠期之護理": {
-   "missing": [
-    "懷孕時常見不適之處理",
-    "妊娠期間常見問題及處理",
-    "妊娠期的營養",
-    "生產準備"
-   ]
+   "missing": []
   },
   "產科-Ch06分娩過程與娩出階段": {
-   "missing": [
-    "分娩機轉（胎兒位置改變）",
-    "影響分娩的因素",
-    "母體與胎兒對分娩的反應",
-    "分娩開始與產兆",
-    "分娩與娩出階段"
-   ]
+   "missing": []
   },
   "產科-Ch07待產及分娩期之護理評估及護理": {
-   "missing": [
-    "分娩期護理評估",
-    "分娩期護理活動"
-   ]
+   "missing": []
   },
   "產科-Ch08產後期之護理": {
-   "missing": [
-    "產後的生理調適",
-    "產後評估",
-    "產後護理措施",
-    "產後心理調適"
-   ]
+   "missing": []
   },
   "產科-Ch09新生兒的評估與護理": {
-   "missing": [
-    "成熟度評估",
-    "生理的調適",
-    "評估與監測",
-    "新生兒立即護理",
-    "新生兒篩檢與日常照護"
-   ]
+   "missing": []
   },
   "產科-Ch10高危險妊娠之護理": {
-   "missing": [
-    "高危險妊娠定義與因素",
-    "伴隨懷孕發生的內科疾病",
-    "Rh因子與ABO血型不合",
-    "早產與安胎照護"
-   ]
+   "missing": []
   },
   "產科-Ch11分娩期異常之護理": {
-   "missing": [
-    "功能不良性分娩",
-    "子宮方面的問題",
-    "異常胎產式",
-    "胎兒異常與多胞胎",
-    "羊水方面的問題",
-    "胎盤和臍帶異常與胎兒窘迫",
-    "引產與產科手術處置"
-   ]
+   "missing": []
   },
   "產科-Ch12產後期異常之護理": {
-   "missing": [
-    "產後出血",
-    "子宮復舊不全",
-    "血栓栓塞性疾病",
-    "產後心理異常"
-   ]
+   "missing": []
   },
   "產科-Ch13婦科常見疾病": {
    "missing": [
-    "常見的婦科手術、檢查及其護理",
     "女陰的疾病",
-    "子宮疾病",
-    "壓力性尿失禁",
-    "月經問題"
+    "壓力性尿失禁"
    ]
   },
   "兒科-Ch01緒論": {
@@ -2385,17 +2739,11 @@
   },
   "兒科-Ch03新生兒及其護理": {
    "missing": [
-    "新生兒特徵與評估",
-    "新生兒餵食",
-    "新生兒常見健康問題及其護理",
     "先天性代謝異常之篩檢及護理"
    ]
   },
   "兒科-Ch04高危險新生兒之護理": {
-   "missing": [
-    "早產兒之護理",
-    "常見之高危險性新生兒疾病"
-   ]
+   "missing": []
   },
   "兒科-Ch05住院兒童之反應及其護理": {
    "missing": [
@@ -2420,14 +2768,10 @@
    "missing": []
   },
   "兒科-Ch09兒童循環系統疾病": {
-   "missing": [
-    "兒童循環系統之解剖生理與評估"
-   ]
+   "missing": []
   },
   "兒科-Ch10兒童血液疾病": {
    "missing": [
-    "貧血",
-    "凝血功能障礙",
     "血液疾病遺傳模式比較"
    ]
   },
@@ -2445,8 +2789,7 @@
   },
   "兒科-Ch14兒童免疫及肌肉骨骼系統疾病": {
    "missing": [
-    "兒童免疫系統疾病",
-    "兒童肌肉骨骼系統疾病"
+    "兒童免疫系統疾病"
    ]
   },
   "兒科-Ch15兒童內分泌系統疾病與慢性病": {
@@ -2454,8 +2797,7 @@
   },
   "兒科-Ch16兒童事故傷害及其護理": {
    "missing": [
-    "事故傷害的預防",
-    "嬰幼兒急救與護理重點"
+    "事故傷害的預防"
    ]
   },
   "兒科-Ch17兒童、青少年發展及心理社會健康問題之護理": {
@@ -2520,53 +2862,28 @@
    "missing": []
   },
   "社區-Ch02流行病學": {
-   "missing": [
-    "流行病學緒論",
-    "疾病的致病模式",
-    "流行病學研究方法",
-    "因果關係的判定與應用"
-   ]
+   "missing": []
   },
   "社區-Ch03生命統計": {
    "missing": []
   },
   "社區-Ch04衛生教育與健康促進": {
-   "missing": [
-    "健康促進與衛生教育的定義與目的",
-    "國內外重要的政策和會議",
-    "健康促進與衛生教育理論模式",
-    "衛生教育的學習範圍、原則與方法",
-    "衛生教育應用實例"
-   ]
+   "missing": []
   },
   "社區-Ch05社區評估與社區健康營造": {
    "missing": []
   },
   "社區-Ch06家庭評估與護理": {
-   "missing": [
-    "家庭評估",
-    "家庭護理過程",
-    "家庭與家庭護理概論"
-   ]
+   "missing": []
   },
   "社區-Ch07婦幼衛生": {
-   "missing": [
-    "婦幼衛生概論",
-    "生育保健",
-    "兒童及青少年健康照護"
-   ]
+   "missing": []
   },
   "社區-Ch08中老年人的護理": {
-   "missing": [
-    "老年人與老化",
-    "中老年保健政策",
-    "社區衛生護理人員在老人護理方面的職責"
-   ]
+   "missing": []
   },
   "社區-Ch09慢性疾病的護理": {
-   "missing": [
-    "慢性病概論"
-   ]
+   "missing": []
   },
   "社區-Ch10長期照護": {
    "missing": []
@@ -2575,12 +2892,7 @@
    "missing": []
   },
   "社區-Ch12學校衛生與護理": {
-   "missing": [
-    "學校衛生行政組織",
-    "學校衛生工作模式",
-    "學校衛生工作項目及內容",
-    "學校護理實務框架、實作標準及角色功能"
-   ]
+   "missing": []
   },
   "社區-Ch13職業衛生與護理": {
    "missing": []
@@ -2592,9 +2904,6 @@
   },
   "社區-Ch15環境衛生與食品衛生": {
    "missing": [
-    "環境衛生涵蓋的內容",
-    "公害防治",
-    "氣候變遷與健康調適",
     "社區衛生護理人員在環境衛生工作中之職責"
    ]
   }

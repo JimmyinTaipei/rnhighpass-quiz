@@ -4,6 +4,7 @@ subtitle: Chest tube and underwater-seal chest drainage
 aliases: [胸管, 胸腔引流管, 胸腔管, Chest tube, Chest drain, 肋間引流管, Intercostal drain, ICD, 胸腔水下引流, 水下引流, 水封引流, 胸腔閉鎖式引流, 閉鎖式胸腔引流, Underwater seal drainage, Water seal, 水封瓶, 收集瓶, 抽吸控制瓶, 單瓶式, 雙瓶式, 三瓶式, 胸瓶, 引流瓶, 水柱波動, 液面波動, Tidaling, 氣泡, 漏氣, Air leak, 支氣管肋膜瘻管, 擠壓胸管, Milking, Stripping, 夾管, 胸管拔除, 拔胸管, 凡士林紗布, 皮下氣腫, 捻髮音, 胸腔手術, 肺葉切除術, 全肺切除術, 胸腔鏡手術]
 dzTags: [皮下氣腫]
 system: critical-care
+group: icu-devices
 alsoIn: [respiratory]
 chapters:
   - 內外-Ch09呼吸系統疾病 > 胸廓與肋膜病變

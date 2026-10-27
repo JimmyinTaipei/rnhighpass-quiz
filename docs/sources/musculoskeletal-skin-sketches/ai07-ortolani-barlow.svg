@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="PingFang TC, sans-serif" font-size="14"><rect width="800" height="300" fill="#fff"/><style>.b{fill:none;stroke:#333;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.t{fill:#333}.x{fill:#c62828;font-weight:bold;font-size:22px}.o{fill:#2e7d32;font-weight:bold;font-size:22px}.n{fill:#666;font-size:12px}.a{fill:none;stroke:#1565c0;stroke-width:2;marker-end:url(#m)}</style><defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#1565c0"/></marker></defs>
+<text x="400" y="22" text-anchor="middle" class="t" font-size="16">AI-7 新生兒髖關節檢查：Barlow(內收往後推)、Ortolani(外展抬起)</text>
+<g transform="translate(90,50)"><circle cx="120" cy="20" r="18" class="b"/><path d="M100 40 H140 V110 H100 Z" class="b"/><path d="M105 110 L90 160 L95 200 M135 110 L150 160 L145 200" class="b"/>
+<path d="M150 160 L120 165" class="a"/><path d="M90 160 L120 165" class="a"/><text x="40" y="225" class="t">Barlow：髖膝屈曲 90°、內收＋向後壓 → 滑出</text></g>
+<g transform="translate(470,50)"><circle cx="120" cy="20" r="18" class="b"/><path d="M100 40 H140 V110 H100 Z" class="b"/><path d="M105 110 L60 150 L55 190 M135 110 L180 150 L185 190" class="b"/>
+<path d="M100 160 L65 150" class="a"/><path d="M140 160 L175 150" class="a"/><text x="10" y="225" class="t">Ortolani：外展＋大轉子往前抬 → 「卡嗒」復位</text></g>
+<text x="400" y="290" text-anchor="middle" class="n">AI 圖要畫出檢查者的手：拇指在大腿內側、食中指在大轉子</text>
+</svg>

@@ -18,7 +18,7 @@
 | 兒科 Ch13 兒童神經 | 約 40 | I 組 pediatric-neuro；熱性痙攣在 epilepsy |
 | 病理 Ch18 感官與神經 | 17 | 併入各疾病頁的病理段落 |
 
-題號取法：`多保命護理分章/subject mappings/章節架構/<科>/Ch*_mapping_*.md`(JSON，每小節的題號清單)；chapters 欄位用分章題本的 H2 名稱
+題號取法：`多保命護理分章/chapter_maps/章節架構/<科>/Ch*_mapping_*.md`(JSON，每小節的題號清單)；chapters 欄位用分章題本的 H2 名稱
 
 ## 二、手上已有的資料
 

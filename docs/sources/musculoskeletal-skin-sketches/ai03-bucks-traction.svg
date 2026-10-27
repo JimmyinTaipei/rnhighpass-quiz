@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="PingFang TC, sans-serif" font-size="14"><rect width="800" height="300" fill="#fff"/><style>.b{fill:none;stroke:#333;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.t{fill:#333}.x{fill:#c62828;font-weight:bold;font-size:22px}.o{fill:#2e7d32;font-weight:bold;font-size:22px}.n{fill:#666;font-size:12px}.a{fill:none;stroke:#1565c0;stroke-width:2;marker-end:url(#m)}</style><defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#1565c0"/></marker></defs>
+<text x="400" y="22" text-anchor="middle" class="t" font-size="16">AI-3 勃克式牽引(側面，病床、腿套、滑輪、重錘懸空)</text>
+<path d="M60 200 H640 M60 200 V250 M640 200 V250" class="b" stroke="#999"/>
+<circle cx="110" cy="170" r="18" class="b"/><path d="M128 175 H380 L560 185" class="b"/><path d="M380 172 L560 178" class="b"/>
+<rect x="470" y="168" width="90" height="26" fill="#bbdefb" stroke="#555"/><text x="470" y="160" class="n">泡棉腿套(皮膚牽引)</text>
+<path d="M560 182 H690" class="b" stroke="#795548"/><circle cx="690" cy="182" r="10" class="b"/><path d="M700 182 V250" class="b" stroke="#795548"/><rect x="688" y="250" width="24" height="30" fill="#757575"/>
+<text x="600" y="295" class="n">重錘懸空、不碰地不碰床</text><text x="380" y="140" class="n">拉力方向與骨長軸平行</text>
+<text x="120" y="290" class="n">足跟、膝窩處理請以課本為準(待核對)</text>
+</svg>

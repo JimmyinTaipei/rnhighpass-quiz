@@ -4,6 +4,7 @@ subtitle: Pressure injury (pressure ulcer) — pressure, shear, friction and moi
 aliases: [壓力性損傷, Pressure injury, 壓瘡, 褥瘡, 壓傷, Pressure ulcer, Pressure sore, Decubitus ulcer, Bedsore, 剪力, Shear, 摩擦力, Friction, Braden scale, Braden 量表, 壓力性損傷風險評估, Norton scale, NPIAP, NPUAP, 第一期壓力性損傷, 第二期壓力性損傷, 第三期壓力性損傷, 第四期壓力性損傷, 無法分期, Unstageable, 深部組織損傷, Deep tissue pressure injury, DTPI, 醫療器材相關壓力性損傷, 黏膜壓力性損傷, 不可反白之紅斑, Non-blanchable erythema, 氣圈, 氣墊床, 減壓床墊]
 dzTags: [壓力性損傷]
 system: integumentary
+group: burns-wounds
 alsoIn: [fundamentals]
 chapters:
   - 基護-Ch08活動與運動 > 身體對制動的反應
@@ -173,7 +174,7 @@ references:
 3. **第 3、4 期**：清創(移除壞死與汙染組織)、處理感染與潛行；傷口深或癒合慢考慮**皮瓣重建手術**
 4. **無法分期**：清創後分期；足跟穩定乾燥焦痂保留
 5. 全程：找出並移除原因(壓力、剪力、潮濕、營養)、疼痛控制、**評估影響癒合的因素**
-6. 傷口分類、顏色(紅黃黑)與評估見 [[bandaging#wounds]]；發炎與修復見 [[inflammation-repair]]
+6. 傷口分類、顏色(紅黃黑)與評估見 [[bandaging#wounds]]；敷料種類見 [[wound-dressings#dressing-types]]；發炎與修復見 [[inflammation-repair]]
 
 ## 護理 {#nursing}
 

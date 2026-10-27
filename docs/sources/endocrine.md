@@ -16,7 +16,7 @@
 | 兒科 Ch15 兒童內分泌與慢性病 | 43 | I 組 pediatric-endocrine、chronically-ill-children |
 | 病理 Ch16 內分泌系統疾病 | 22 | 併入各疾病頁的病理段落 |
 
-題號取法：`多保命護理分章/subject mappings/章節架構/<科>/Ch*_mapping_*.md`；chapters 欄位用分章題本的 H2 名稱
+題號取法：`多保命護理分章/chapter_maps/章節架構/<科>/Ch*_mapping_*.md`；chapters 欄位用分章題本的 H2 名稱
 留給其他輪：骨質疏鬆疾病頁(第 14 輪肌骨)、家庭計畫護理與避孕方式比較(第 16 輪產科)、急性胰臟炎(第 11 輪消化)
 
 ## 二、手上已有的資料

@@ -1,0 +1,131 @@
+{
+ "image": "servier-hematopoiesis.svg",
+ "_說明": "造血：造血幹細胞分成骨髓系與淋巴系前驅細胞；骨髓系產生紅血球、巨核細胞(血小板)、三種顆粒球、單核球(巨噬細胞)；淋巴系產生 T、B、NK 細胞(2026-10-22 第 12 輪 A 組，放大格線核對點位)",
+ "labels": [
+  {
+   "id": "stem",
+   "zh": "造血幹細胞",
+   "en": "Hematopoietic stem cell",
+   "x": 60,
+   "y": 6,
+   "tx": 54,
+   "ty": 5,
+   "align": "end"
+  },
+  {
+   "id": "myeloid",
+   "zh": "骨髓系前驅細胞",
+   "en": "Common myeloid progenitor",
+   "x": 48,
+   "y": 24,
+   "tx": 44,
+   "ty": 14,
+   "align": "end"
+  },
+  {
+   "id": "lymphoid",
+   "zh": "淋巴系前驅細胞",
+   "en": "Common lymphoid progenitor",
+   "x": 74,
+   "y": 22,
+   "tx": 66,
+   "ty": 8,
+   "align": "start"
+  },
+  {
+   "id": "lymphocytes",
+   "zh": "T、B、NK 細胞",
+   "en": "T, B and NK cells",
+   "x": 86,
+   "y": 48,
+   "tx": 86,
+   "ty": 57
+  },
+  {
+   "id": "rbc",
+   "zh": "紅血球",
+   "en": "Erythrocyte",
+   "x": 12,
+   "y": 93,
+   "tx": 8,
+   "ty": 86,
+   "align": "end"
+  },
+  {
+   "id": "megakaryocyte",
+   "zh": "巨核細胞",
+   "en": "Megakaryocyte",
+   "x": 24,
+   "y": 66,
+   "tx": 30,
+   "ty": 72,
+   "align": "start"
+  },
+  {
+   "id": "platelet",
+   "zh": "血小板",
+   "en": "Platelets",
+   "x": 24,
+   "y": 84,
+   "tx": 24,
+   "ty": 95
+  },
+  {
+   "id": "neutrophil",
+   "zh": "嗜中性球",
+   "en": "Neutrophil",
+   "x": 35,
+   "y": 81,
+   "tx": 35,
+   "ty": 91
+  },
+  {
+   "id": "eosinophil",
+   "zh": "嗜酸性球",
+   "en": "Eosinophil",
+   "x": 44,
+   "y": 81,
+   "tx": 44,
+   "ty": 96
+  },
+  {
+   "id": "basophil",
+   "zh": "嗜鹼性球",
+   "en": "Basophil",
+   "x": 52,
+   "y": 81,
+   "tx": 52,
+   "ty": 91
+  },
+  {
+   "id": "monocyte",
+   "zh": "單核球",
+   "en": "Monocyte",
+   "x": 62,
+   "y": 60,
+   "tx": 66,
+   "ty": 60,
+   "align": "start"
+  },
+  {
+   "id": "macrophage",
+   "zh": "巨噬細胞",
+   "en": "Macrophage",
+   "x": 63,
+   "y": 79,
+   "tx": 66,
+   "ty": 88,
+   "align": "start"
+  },
+  {
+   "id": "marrow",
+   "zh": "紅骨髓",
+   "en": "Red bone marrow",
+   "x": 86,
+   "y": 80,
+   "tx": 92,
+   "ty": 64,
+   "align": "start"
+  }
+ ]
+}

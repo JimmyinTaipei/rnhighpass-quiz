@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="PingFang TC, sans-serif" font-size="14"><rect width="800" height="300" fill="#fff"/><style>.b{fill:none;stroke:#333;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.t{fill:#333}.x{fill:#c62828;font-weight:bold;font-size:22px}.o{fill:#2e7d32;font-weight:bold;font-size:22px}.n{fill:#666;font-size:12px}.a{fill:none;stroke:#1565c0;stroke-width:2;marker-end:url(#m)}</style><defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#1565c0"/></marker></defs>
+<text x="400" y="22" text-anchor="middle" class="t" font-size="16">AI-2 燒傷抗攣縮擺位(仰臥、俯視角度、全身一張)</text>
+<circle cx="110" cy="150" r="22" class="b"/>
+<path d="M132 150 H160" class="b"/><text x="70" y="200" class="n">頸微伸展、不墊枕</text>
+<path d="M160 120 H420 V180 H160 Z" class="b"/>
+<path d="M200 120 L220 40 M200 180 L220 260" class="b"/><text x="230" y="50" class="n">肩外展 90°、肘伸直、手功能位</text>
+<path d="M420 135 H640 M420 165 H640" class="b"/><path d="M640 135 V110 M640 165 V190" class="b"/>
+<text x="460" y="125" class="n">髖伸直(0°)、微外展</text><text x="500" y="195" class="n">膝伸直(膝蓋副木)</text>
+<text x="650" y="100" class="n">踝 90° 背屈(足托)</text>
+<text x="400" y="285" text-anchor="middle" class="n">原則：放在「攣縮的反方向」；燒傷在屈側就擺伸展</text>
+</svg>

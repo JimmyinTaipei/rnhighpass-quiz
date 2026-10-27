@@ -6,7 +6,7 @@ dzTags: [糖尿病, 妊娠糖尿病]
 system: endocrine
 method: blood
 bloodGroup: chemistry
-alsoIn: [reproductive]
+alsoIn: [obstetrics]
 group: glucose-labs
 chapters:
   - 藥理-Ch10內分泌與新陳代謝藥物 > 糖尿病用藥

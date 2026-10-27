@@ -58,6 +58,8 @@ references:
 
 各類降壓藥作用位置總覽見 [[blood-pressure-regulation#drug-sites]]。
 
+::questions{ids="107-2_MS_037"}
+
 ## 代表藥物 {#agents}
 
 字尾 **-pril**。

@@ -272,7 +272,7 @@ references:
 3. 依**尿量**與生命徵象調整滴速
 4. 休克期止痛藥走**靜脈**(皮下、肌肉吸收差)
 5. 兒童三度燒傷 > 10% 屬**重度**；熱量需求比平常高
-6. 燒傷照護(面積、傷口、營養)在第 14 輪寫，機轉見 [[environmental-injury#burn-depth]]
+6. 燒傷照護(面積、嚴重度、傷口、植皮)見 [[burns]]，機轉見 [[environmental-injury#burn-depth]]
 
 ::questions{ids="112-3_OP_026,110-1_OP_043,107-2_OP_055,107-1_OP_042"}
 

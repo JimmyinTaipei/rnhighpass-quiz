@@ -4,6 +4,7 @@ subtitle: Artificial airways — endotracheal tube, tracheostomy tube, cuff care
 aliases: [人工氣道, Artificial airway, 氣管內管, 氣管內插管, 氣管插管, Endotracheal tube, ETT, Endo, 經口氣管內管, 經鼻氣管內管, 插管, Intubation, 快速插管, RSI, 喉頭鏡, 環狀軟骨加壓, Sellick 手法, 沙立克手法, Cricoid pressure, 潮氣末二氧化碳, EtCO2, 波形二氧化碳監測, Capnography, 右主支氣管插管, 非計畫性拔管, 自拔, 拔管, Extubation, 氣切, 氣管切開術, 氣管造口, 氣切造口, Tracheostomy, 氣切管, 外管, 內管, 管芯, Obturator, 頸板, 氣切綁帶, 氣切口護理, 說話瓣膜, 套囊, 氣囊, Cuff, 套囊壓, 氣囊壓, 指示氣球, Pilot balloon, 聲門下抽吸, 環甲膜切開術, 口咽人工氣道, 鼻咽人工氣道, Oropharyngeal airway, 甦醒球, 手壓式甦醒球, Ambu bag, Bag-valve-mask, BVM, E-C 手法, 儲氧袋]
 dzTags: []
 system: critical-care
+group: icu-devices
 alsoIn: [respiratory]
 chapters: []
 reviewed: false
@@ -127,7 +128,7 @@ references:
 3. 面罩：**尖端對準鼻樑**、寬端對準下巴；用 **E-C 手法**(拇指與食指成 C 壓住面罩，其餘三指成 E 托起下顎)讓面罩密合並打開呼吸道
 4. 擠壓：每口約 **1 秒**、擠到**看見胸部起伏**即可；**不要把球囊完全壓扁**，過量通氣會造成胃脹氣、嘔吐吸入，並增加胸內壓
 5. 有人工氣道時直接接在氣管內管或氣切管上
-6. 新生兒胎便吸入的處置見第 16 輪產科新生兒
+6. 新生兒胎便吸入的處置見 [[neonatal-disorders#meconium-aspiration]]
 
 ::questions{ids="112-1_MS_075"}
 

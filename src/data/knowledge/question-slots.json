@@ -440,6 +440,159 @@
     "limit": null
   },
   {
+    "qkey": "breastfeeding#lactation-physiology",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_022",
+      "109-1_OP_024",
+      "105-1_BM_024",
+      "106-1_OP_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#nutrients",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_023",
+      "110-2_OP_019",
+      "109-2_OP_025",
+      "106-2_OP_020",
+      "115-2_OP_013",
+      "106-2_makeup_OP_027",
+      "112-1_OP_020",
+      "112-1_OP_022",
+      "111-2_OP_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#ten-steps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#feeding-cues",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_015",
+      "110-2_OP_022",
+      "106-2_makeup_OP_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#position-latch",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_002",
+      "113-2_OP_019",
+      "105-2_OP_018",
+      "114-3_OP_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#adequate-intake",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_015",
+      "113-1_OP_013",
+      "112-2_OP_025",
+      "115-1_OP_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#engorgement",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_016",
+      "110-1_OP_020",
+      "115-2_OP_014",
+      "105-2_OP_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#plugged-duct",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#nipple-problems",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#breastfeeding-jaundice",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#weaning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_021",
+      "106-1_OP_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "breastfeeding#questions",
+    "tag": "產後乳房脹痛|乳腺管阻塞|乳汁分泌不足|母乳哺育問題|退奶|母乳黃疸",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
     "qkey": "cancer-treatment-toxicities#questions",
     "tag": null,
     "adm": null,
@@ -1031,6 +1184,91 @@
     "limit": 10
   },
   {
+    "qkey": "emergency-nursing#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_077",
+      "109-2_MS_076",
+      "107-1_MS_077",
+      "106-2_makeup_MS_075"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "emergency-nursing#poisoning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_076",
+      "106-2_MS_074"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "emergency-nursing#paraquat",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_073",
+      "106-1_MS_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "emergency-nursing#ed-management",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_044",
+      "114-3_MS_046",
+      "105-2_MS_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "emergency-nursing#drowning-ed",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_078",
+      "113-2_MS_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "emergency-nursing#hypothermia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_080",
+      "110-2_OP_042",
+      "105-2_OP_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "emergency-nursing#questions",
+    "tag": "毒蛇咬傷|巴拉刈中毒|溺水",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
     "qkey": "end-of-life-care#other-psych",
     "tag": null,
     "adm": null,
@@ -1203,6 +1441,489 @@
     "limit": 10
   },
   {
+    "qkey": "environmental-food-hygiene#sewage",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_PC_061",
+      "111-1_PC_060",
+      "107-2_PC_060",
+      "106-1_PC_058",
+      "105-1_PC_059",
+      "108-1_PC_050",
+      "110-1_PC_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-food-hygiene#waste",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_PC_038",
+      "112-3_PC_039",
+      "112-1_PC_060",
+      "110-2_PC_061",
+      "110-1_PC_058",
+      "109-2_PC_058",
+      "107-2_PC_066",
+      "106-1_PC_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-food-hygiene#school-environment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_PC_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-food-hygiene#indoor-air",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_PC_038",
+      "114-2_PC_038",
+      "109-2_PC_059",
+      "109-1_PC_065",
+      "105-2_PC_048",
+      "110-2_PC_069",
+      "108-1_PC_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-food-hygiene#food",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_PC_041",
+      "106-2_makeup_PC_066",
+      "109-2_PC_057"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-food-hygiene#global-issues",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_PC_039",
+      "113-1_PC_037",
+      "110-1_PC_061",
+      "109-1_PC_063",
+      "108-2_PC_049",
+      "106-2_makeup_PC_067",
+      "105-1_PC_060",
+      "113-1_PC_039",
+      "111-1_PC_058",
+      "106-2_PC_049",
+      "109-1_PC_064",
+      "109-1_PC_062",
+      "106-1_PC_059",
+      "114-2_PC_039",
+      "106-1_PC_061",
+      "114-3_PC_039",
+      "108-2_PC_072",
+      "105-1_PC_061",
+      "106-2_makeup_PC_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "environmental-food-hygiene#questions",
+    "tag": "病態建築症候群|水俁病|烏腳病|痛痛病|噪音危害",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "epidemiology#definition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_PC_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epidemiology#prevention-levels",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_PC_034",
+      "112-1_PC_048",
+      "112-1_PC_068",
+      "108-2_PC_053",
+      "108-1_PC_045",
+      "106-2_makeup_PC_053",
+      "105-2_PC_049",
+      "105-1_PC_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epidemiology#causation-models",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_PC_030",
+      "112-1_PC_047",
+      "109-2_PC_063",
+      "106-1_PC_049",
+      "114-2_PC_030",
+      "106-1_PC_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epidemiology#descriptive",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_PC_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epidemiology#study-designs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_PC_028",
+      "113-1_PC_029",
+      "112-2_PC_050",
+      "112-1_PC_046",
+      "111-1_PC_046",
+      "110-1_PC_044",
+      "109-2_PC_044",
+      "109-1_PC_046",
+      "108-2_PC_041",
+      "107-2_PC_042",
+      "105-2_PC_046",
+      "105-1_PC_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epidemiology#bias",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_PC_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epidemiology#experimental",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_PC_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epidemiology#causality",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_PC_043",
+      "106-1_PC_044",
+      "105-2_PC_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epidemiology#screening-examples",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_PC_030",
+      "109-1_PC_047",
+      "115-1_PC_030",
+      "113-2_PC_028",
+      "112-2_PC_046",
+      "112-1_PC_050",
+      "111-2_PC_047",
+      "111-1_PC_047",
+      "110-2_PC_049",
+      "105-1_PC_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epidemiology#community-application",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_PC_071"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "epidemiology#questions",
+    "tag": "傳染病",
+    "adm": null,
+    "drug": null,
+    "keyword": "(三段五級|三角|致病模式|研究法|篩檢|敏感|特異)",
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "family-nursing#family-definition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_PC_070",
+      "106-1_PC_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-nursing#family-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_PC_065",
+      "110-1_PC_063",
+      "108-1_PC_069",
+      "107-2_PC_068",
+      "110-2_PC_068"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-nursing#development",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_PC_040",
+      "112-1_PC_064",
+      "111-1_PC_064",
+      "110-2_PC_064",
+      "108-2_PC_071",
+      "105-2_PC_061"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-nursing#communication-values",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_PC_052",
+      "107-1_PC_069",
+      "114-3_PC_040",
+      "113-1_PC_040",
+      "113-1_PC_041",
+      "105-1_PC_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-nursing#function",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_PC_041",
+      "111-2_PC_063",
+      "111-1_PC_062",
+      "107-2_PC_070",
+      "107-1_PC_070"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-nursing#resources",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_PC_040",
+      "112-1_PC_055",
+      "112-1_PC_063",
+      "110-2_PC_062",
+      "105-1_PC_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-nursing#calgary",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_PC_062",
+      "105-2_PC_011",
+      "108-2_PC_051",
+      "106-2_makeup_PC_007",
+      "112-2_PC_063",
+      "107-2_PC_069",
+      "109-2_PC_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-nursing#nursing-process",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_PC_054",
+      "107-1_PC_073",
+      "105-1_PC_065",
+      "110-2_PC_063",
+      "110-1_PC_065",
+      "105-2_PC_062",
+      "114-1_PC_040",
+      "115-1_PC_042",
+      "108-1_PC_068",
+      "106-2_PC_053"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-nursing#empowerment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_PC_064",
+      "108-1_PC_067",
+      "107-2_PC_055",
+      "106-2_makeup_PC_068",
+      "105-1_PC_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-nursing#special-groups",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_PC_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-nursing#questions",
+    "tag": "家庭功能障礙",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "family-planning#calendar",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-planning#bbt",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-planning#sterilization",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-planning#postpartum",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "family-planning#questions",
+    "tag": null,
+    "adm": null,
+    "drug": [
+      "避孕用藥"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "family-violence#questions",
     "tag": null,
     "adm": null,
@@ -1302,6 +2023,110 @@
     "limit": 60
   },
   {
+    "qkey": "health-education#concepts",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_PC_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-education#domains",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_PC_059",
+      "109-1_PC_057",
+      "107-1_PC_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-education#principles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_PC_080"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-education#objectives",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_PC_059",
+      "105-1_PC_057",
+      "113-2_PC_036",
+      "115-1_PC_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-education#method-details",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_PC_034",
+      "112-3_PC_035",
+      "112-2_PC_057",
+      "112-2_PC_058",
+      "111-1_PC_055",
+      "109-2_PC_056",
+      "108-1_PC_049",
+      "107-2_PC_061",
+      "107-2_PC_064",
+      "107-1_PC_065",
+      "106-2_PC_078",
+      "106-2_makeup_PC_046",
+      "105-2_PC_057"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-education#program-evaluation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_PC_032",
+      "114-3_PC_031",
+      "112-2_PC_055",
+      "112-1_PC_054",
+      "111-2_PC_057",
+      "111-1_PC_051",
+      "110-2_PC_057",
+      "110-1_PC_057",
+      "109-1_PC_053",
+      "109-1_PC_054",
+      "108-1_PC_060",
+      "107-2_PC_058",
+      "106-2_makeup_PC_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-education#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(衛生教育|教學法|行為目標|形成性評價|總結性評價)",
+    "ids": [],
+    "limit": 6
+  },
+  {
     "qkey": "health-equity#questions",
     "tag": null,
     "adm": null,
@@ -1327,6 +2152,212 @@
       "110-2_PC_066"
     ],
     "limit": 60
+  },
+  {
+    "qkey": "health-promotion#intervention-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_PC_034",
+      "111-2_PC_058",
+      "110-2_PC_056",
+      "109-2_PC_054",
+      "108-1_PC_064",
+      "107-1_PC_052",
+      "107-2_PC_080"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#fitness",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_PC_035",
+      "111-1_PC_057",
+      "110-2_PC_059",
+      "108-1_PC_070",
+      "106-2_makeup_PC_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#health-literacy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_PC_041",
+      "114-1_PC_026",
+      "111-1_PC_056",
+      "109-1_PC_059",
+      "109-1_PC_069"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#determinants",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_PC_035",
+      "105-1_PC_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#ottawa",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_PC_036",
+      "114-2_PC_034",
+      "113-3_PC_035",
+      "112-3_PC_037",
+      "112-1_PC_056",
+      "110-1_PC_056",
+      "109-2_PC_053",
+      "109-1_PC_058",
+      "108-2_PC_047",
+      "108-1_PC_065",
+      "106-2_PC_056",
+      "105-1_PC_053"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#healthy-cities",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_PC_045",
+      "106-1_PC_052",
+      "106-1_PC_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#tobacco-control",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_PC_036",
+      "115-2_PC_035",
+      "111-1_PC_078"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#hbm",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_PC_034",
+      "114-3_PC_034",
+      "114-3_PC_035",
+      "114-2_PC_040",
+      "112-3_PC_034",
+      "112-1_PC_059",
+      "111-2_PC_056",
+      "109-1_PC_079",
+      "106-2_PC_079",
+      "106-2_makeup_PC_065"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#pender",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_PC_045",
+      "109-1_PC_060",
+      "108-2_PC_068",
+      "107-2_PC_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#other-models",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_PC_034",
+      "113-1_PC_036",
+      "106-2_PC_080"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#precede-proceed",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_PC_067",
+      "108-1_PC_072",
+      "107-2_PC_063",
+      "106-2_makeup_PC_064",
+      "106-1_PC_057"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#ttm",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_PC_058",
+      "109-1_PC_068",
+      "108-1_PC_066",
+      "105-1_PC_058",
+      "115-2_PC_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#applications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_PC_056",
+      "108-2_PC_056",
+      "112-3_PC_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "health-promotion#questions",
+    "tag": "菸草使用障礙症|尼古丁戒斷症候群|代謝症候群",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
   },
   {
     "qkey": "home-care-discharge-planning#questions",
@@ -1561,6 +2592,367 @@
     "limit": null
   },
   {
+    "qkey": "infertility#male-factors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "infertility#diagnosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "infertility#timing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "infertility#iui",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_024",
+      "112-2_OP_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "infertility#art",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_039",
+      "106-2_makeup_OP_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "infertility#law",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "infertility#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "infertility#questions",
+    "tag": "不孕症|男性不孕症",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "intrapartum-care#evidence-based-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_001",
+      "111-2_OP_015",
+      "110-1_OP_011",
+      "105-1_OP_015",
+      "112-1_OP_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#vaginal-exam",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_013",
+      "109-2_OP_018",
+      "113-3_OP_007",
+      "106-2_OP_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#station",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_012",
+      "109-1_OP_011",
+      "106-1_OP_017",
+      "105-2_OP_014",
+      "105-1_OP_017",
+      "108-1_OP_018",
+      "112-3_OP_009",
+      "108-2_OP_012",
+      "111-1_OP_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#contractions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_017",
+      "107-2_OP_017",
+      "110-1_OP_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#maternal-behavior",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_010",
+      "107-2_OP_004",
+      "115-1_OP_011",
+      "112-2_OP_015",
+      "107-2_OP_018",
+      "108-2_OP_014",
+      "114-2_OP_007",
+      "105-1_OP_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#first-stage-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_007",
+      "109-2_OP_013",
+      "105-2_OP_012",
+      "113-2_OP_007",
+      "111-2_OP_012",
+      "106-2_OP_014",
+      "105-2_OP_015",
+      "106-2_makeup_OP_018",
+      "109-2_OP_012",
+      "112-1_OP_011",
+      "110-2_OP_016",
+      "106-2_makeup_OP_017",
+      "113-2_OP_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#rupture-of-membranes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_014",
+      "113-1_OP_007",
+      "108-2_OP_010",
+      "110-2_OP_017",
+      "107-1_OP_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#second-stage-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_014",
+      "111-2_OP_016",
+      "109-1_OP_014",
+      "114-3_OP_010",
+      "113-3_OP_009",
+      "109-1_OP_012",
+      "108-2_OP_016",
+      "107-1_OP_016",
+      "108-1_OP_014",
+      "108-1_OP_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#episiotomy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#perineal-lacerations",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_009",
+      "106-2_makeup_OP_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#third-stage-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_011",
+      "106-2_OP_011",
+      "107-1_OP_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#fourth-stage-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#labor-support",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_012",
+      "107-2_OP_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-care#questions",
+    "tag": "正常分娩|破水|會陰裂傷|羊水胎糞污染",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 20
+  },
+  {
+    "qkey": "labor-pain-relief#pain-sources",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_010",
+      "110-1_OP_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-pain-relief#theories",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-pain-relief#non-pharmacologic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_008",
+      "106-1_OP_011",
+      "112-1_OP_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-pain-relief#hyperventilation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_OP_012",
+      "106-2_makeup_OP_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-pain-relief#pharmacologic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-pain-relief#questions",
+    "tag": "生產疼痛|換氣過度",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 20
+  },
+  {
     "qkey": "long-term-care-services#questions",
     "tag": null,
     "adm": null,
@@ -1656,6 +3048,139 @@
       "112-1_PC_078"
     ],
     "limit": 60
+  },
+  {
+    "qkey": "maternal-child-health#overview",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_001",
+      "108-2_OP_054",
+      "107-2_OP_002",
+      "107-1_OP_056",
+      "108-1_PC_078",
+      "106-1_PC_066"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-child-health#women",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-child-health#family-planning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_PC_066"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-child-health#prenatal",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_004",
+      "110-2_PC_065",
+      "110-1_PC_066",
+      "110-1_PC_067",
+      "106-2_PC_055",
+      "106-1_PC_067",
+      "105-2_PC_067",
+      "105-1_PC_046",
+      "107-1_PC_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-child-health#breastfeeding",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_001",
+      "109-1_OP_001",
+      "108-2_OP_001",
+      "108-1_OP_002",
+      "112-3_OP_013",
+      "112-3_PC_042",
+      "107-1_PC_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-child-health#eugenics-art",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_023",
+      "109-2_OP_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-child-health#oral-health",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_PC_042",
+      "113-1_PC_042",
+      "109-1_PC_042",
+      "106-2_makeup_PC_071"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-child-health#obesity",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_PC_042",
+      "112-2_PC_065"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-child-health#injury",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_042",
+      "113-2_PC_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-child-health#questions",
+    "tag": "齲齒",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 6
   },
   {
     "qkey": "milieu-therapy#questions",
@@ -1842,6 +3367,210 @@
     "keyword": "(GCS|昏迷量表|昏迷指數|Glasgow|意識程度|瞳孔|肌力|Babinski|巴賓斯基|Kernig|Brudzinski|Romberg|腦波|腰椎穿刺|腦血管攝影|脊髓攝影)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "newborn-assessment#apgar",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_056",
+      "109-1_OP_026",
+      "106-1_OP_027",
+      "111-1_OP_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-assessment#vital-signs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_018",
+      "113-2_OP_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-assessment#head",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_047",
+      "108-2_OP_028",
+      "106-1_OP_028",
+      "115-1_OP_017",
+      "114-2_OP_018",
+      "105-1_OP_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-assessment#face",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-assessment#skin",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_019",
+      "110-1_OP_028",
+      "109-1_OP_030",
+      "108-1_OP_029",
+      "111-2_OP_019",
+      "106-2_makeup_OP_031",
+      "105-2_OP_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-assessment#genitalia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_028",
+      "105-1_OP_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-assessment#physical-maturity",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_048",
+      "113-3_OP_017",
+      "107-2_OP_030",
+      "107-1_OP_027",
+      "106-2_makeup_OP_028",
+      "112-2_OP_029",
+      "109-2_OP_028",
+      "106-2_OP_029",
+      "105-2_OP_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-assessment#classification",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-assessment#questions",
+    "tag": "產瘤|頭血腫|新生兒頭部產傷|蒙古斑|新生兒毒性紅斑|粟粒疹|血管瘤",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "newborn-care#immediate-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-care#diaper-rash",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_017",
+      "111-1_OP_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-care#weight-feeding",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_017",
+      "114-1_OP_019",
+      "107-1_OP_026",
+      "106-2_OP_027",
+      "111-2_OP_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-care#screening",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_018",
+      "112-2_OP_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-care#safe-sleep",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_036",
+      "111-1_OP_058"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-care#questions",
+    "tag": "嬰兒猝死症候群|尿布疹|新生兒生理性體重流失|臍炎",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "notifiable-diseases#control-principles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_079",
+      "108-2_PC_064"
+    ],
+    "limit": null
   },
   {
     "qkey": "notifiable-diseases#questions",
@@ -2520,6 +4249,103 @@
     "limit": 10
   },
   {
+    "qkey": "obstetric-nursing-foundations#history",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_002",
+      "106-1_OP_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "obstetric-nursing-foundations#family-centered",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_001",
+      "111-1_OP_001",
+      "110-1_OP_001",
+      "109-2_OP_002",
+      "106-2_OP_001",
+      "106-2_makeup_OP_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "obstetric-nursing-foundations#gentle-birth",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_002",
+      "110-2_OP_001",
+      "108-1_OP_001",
+      "105-2_OP_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "obstetric-nursing-foundations#childbirth-education",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "obstetric-nursing-foundations#nurse-roles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_001",
+      "106-2_makeup_OP_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "obstetric-nursing-foundations#cultural-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_001",
+      "114-3_OP_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "obstetric-nursing-foundations#ethics-law",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "obstetric-nursing-foundations#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "以家庭為中心|溫柔生產|友善生產|拉梅茲|產科護理",
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "occupational-health-nursing#questions",
     "tag": null,
     "adm": null,
@@ -2579,6 +4405,116 @@
       "107-2_PC_076"
     ],
     "limit": 60
+  },
+  {
+    "qkey": "older-adult-chronic-disease#aging",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_PC_075",
+      "105-1_PC_080",
+      "112-3_PC_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "older-adult-chronic-disease#frailty",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_PC_080",
+      "110-2_PC_079",
+      "114-2_PC_048",
+      "111-1_PC_073",
+      "112-2_PC_077",
+      "113-3_PC_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "older-adult-chronic-disease#osteoporosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_PC_043",
+      "113-3_PC_039",
+      "111-1_PC_076",
+      "110-2_PC_067",
+      "109-2_PC_064",
+      "109-1_PC_078",
+      "107-1_PC_050",
+      "106-2_PC_061",
+      "105-2_PC_079",
+      "105-1_PC_079"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "older-adult-chronic-disease#policy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_PC_076",
+      "111-2_PC_066",
+      "112-2_PC_066",
+      "110-1_PC_068"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "older-adult-chronic-disease#chronic-disease",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_PC_077",
+      "108-1_PC_079",
+      "106-2_PC_060",
+      "106-2_PC_075",
+      "111-2_PC_080",
+      "105-1_PC_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "older-adult-chronic-disease#lifestyle",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_PC_080",
+      "105-2_PC_080",
+      "108-1_PC_080",
+      "106-1_PC_077",
+      "112-2_PC_078",
+      "108-2_PC_057",
+      "108-1_PC_051",
+      "107-2_PC_079",
+      "106-1_PC_078",
+      "107-2_PC_047",
+      "105-1_PC_071",
+      "109-2_PC_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "older-adult-chronic-disease#questions",
+    "tag": "衰弱症|慢性病",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 6
   },
   {
     "qkey": "pain-management#assessment-principles",
@@ -2806,6 +4742,411 @@
     "limit": 10
   },
   {
+    "qkey": "postpartum-care#assessment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_019",
+      "107-1_OP_022",
+      "110-1_OP_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-care#voiding",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_014",
+      "111-2_OP_011",
+      "109-1_OP_019",
+      "106-1_OP_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-care#bowel",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_024",
+      "106-2_makeup_OP_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-care#nutrition-rest",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_024",
+      "107-2_OP_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-care#exercise",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_014",
+      "108-2_OP_030",
+      "106-2_OP_024",
+      "106-2_makeup_OP_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-care#perineal-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_019",
+      "108-1_OP_028",
+      "107-2_OP_025",
+      "105-2_OP_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-care#afterpain-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_020",
+      "107-2_OP_020",
+      "106-2_OP_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-care#doing-the-month",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-care#cesarean-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_019",
+      "109-2_OP_021",
+      "107-1_OP_021",
+      "114-2_OP_012",
+      "108-1_OP_021",
+      "106-2_makeup_OP_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-care#sexuality-contraception",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_014",
+      "111-2_OP_025",
+      "111-1_OP_022",
+      "113-2_OP_016",
+      "106-2_OP_022",
+      "106-1_OP_020",
+      "105-1_OP_022",
+      "107-2_OP_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-care#questions",
+    "tag": "尿滯留|腹脹|剖腹產|會陰傷口|產後照護",
+    "adm": null,
+    "drug": null,
+    "keyword": "產",
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#rubin-phases",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_015",
+      "114-3_OP_015",
+      "112-1_OP_027",
+      "110-1_OP_022",
+      "107-2_OP_027",
+      "106-1_OP_024",
+      "105-2_OP_017",
+      "105-1_OP_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#maternal-role",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#attachment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_OP_022",
+      "106-2_makeup_OP_022",
+      "106-2_OP_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#early-contact",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_011",
+      "106-2_makeup_OP_002",
+      "108-2_OP_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#rooming-in",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_012",
+      "106-2_makeup_OP_026",
+      "105-1_OP_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#separated",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#father",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_024",
+      "109-2_OP_022",
+      "108-1_OP_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#siblings-family",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_012",
+      "112-1_OP_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#siblings-family~2",
+    "tag": "手足競爭",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#warning-signs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_029",
+      "112-2_OP_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-psychosocial-adaptation#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "接受期|緊執期|放手期|親子同室|依附",
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "prenatal-care#first-trimester",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-care#later-trimesters",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_006",
+      "113-3_OP_006",
+      "105-1_OP_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-care#posture",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-care#exercise",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_005",
+      "110-2_OP_010",
+      "109-1_OP_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-care#perineal-massage",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_005",
+      "110-2_OP_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-care#daily-living",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-care#diet-principles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_003",
+      "111-1_OP_007",
+      "109-1_OP_006",
+      "107-1_OP_006",
+      "112-3_OP_004",
+      "111-2_OP_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-care#weight-gain",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_002",
+      "112-1_OP_010",
+      "109-2_OP_005",
+      "108-1_OP_005",
+      "107-1_OP_005",
+      "105-1_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-care#childbirth-preparation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_005",
+      "109-2_OP_006",
+      "106-2_makeup_OP_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-care#questions",
+    "tag": "妊娠水腫|下背痛|頻尿|妊娠嘔吐|體重不足|會陰裂傷",
+    "adm": null,
+    "drug": null,
+    "keyword": "孕|妊娠|懷孕",
+    "ids": [],
+    "limit": 15
+  },
+  {
     "qkey": "psychiatric-nursing-foundations#questions",
     "tag": null,
     "adm": null,
@@ -3001,6 +5342,87 @@
     "limit": 8
   },
   {
+    "qkey": "school-health#administration",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_PC_034",
+      "110-2_PC_070",
+      "108-2_PC_075",
+      "106-1_PC_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "school-health#models",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_PC_044",
+      "107-1_PC_075",
+      "106-2_makeup_PC_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "school-health#vision",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_PC_069",
+      "106-1_PC_070",
+      "111-1_PC_070",
+      "107-1_PC_047",
+      "107-1_PC_074",
+      "114-2_PC_045",
+      "110-1_PC_071",
+      "110-1_PC_072",
+      "109-2_PC_066",
+      "109-1_PC_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "school-health#fitness",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_PC_044",
+      "112-1_PC_071"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "school-health#roles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_PC_054",
+      "113-3_PC_036",
+      "107-2_PC_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "school-health#questions",
+    "tag": "視力不良",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 6
+  },
+  {
     "qkey": "sleep-rest#sleep-stages",
     "tag": null,
     "adm": null,
@@ -3156,7 +5578,8 @@
       "105-2_OP_050",
       "111-2_FA_031",
       "106-2_makeup_BM_077",
-      "115-2_OP_042"
+      "115-2_OP_042",
+      "114-2_MS_026"
     ],
     "limit": null
   },
@@ -3225,6 +5648,49 @@
     "limit": 60
   },
   {
+    "qkey": "wound-dressings#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_028",
+      "110-2_MS_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "wound-dressings#questions",
+    "tag": "傷口",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
+    "qkey": "arterial-line#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_FA_054",
+      "109-2_MS_029",
+      "115-2_MS_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "arterial-line#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(動脈內導管|動脈留置|Allen|艾倫|亞倫|侵入性血壓)",
+    "ids": [],
+    "limit": 8
+  },
+  {
     "qkey": "artificial-airway#principle",
     "tag": null,
     "adm": null,
@@ -3281,6 +5747,48 @@
     "keyword": "(氣管內管|氣管內插管|氣管插管|氣切|氣管造口|套囊|甦醒球|Ambu)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "central-venous-catheter#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_032",
+      "110-1_MS_033",
+      "108-2_MS_023",
+      "109-1_MS_074",
+      "109-1_MS_041",
+      "115-2_FA_016",
+      "111-1_FA_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "central-venous-catheter#pulmonary-artery-catheter",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_026",
+      "112-2_MS_052",
+      "113-2_MS_020",
+      "107-1_MS_051",
+      "110-1_MS_032",
+      "109-1_MS_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "central-venous-catheter#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(中心靜脈導管|中心靜脈壓|CVP|肺動脈楔壓|肺微血管楔壓|PCWP|PAWP|空氣栓塞)",
+    "ids": [],
+    "limit": 12
   },
   {
     "qkey": "chest-tube#reading",
@@ -3438,6 +5946,29 @@
       "108-1_MS_080"
     ],
     "limit": null
+  },
+  {
+    "qkey": "iabp-ecmo#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_026",
+      "114-3_MS_024",
+      "113-2_MS_048",
+      "115-1_MS_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "iabp-ecmo#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(IABP|主動脈內氣球|主動脈氣球|葉克膜|ECMO|心室輔助器)",
+    "ids": [],
+    "limit": 8
   },
   {
     "qkey": "icp-monitoring#alarms",
@@ -3724,6 +6255,170 @@
     "limit": null
   },
   {
+    "qkey": "anemias#classification",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_035",
+      "108-2_BM_044",
+      "113-2_BM_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anemias#nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_067",
+      "106-2_MS_011",
+      "111-1_MS_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anemias#iron-deficiency",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_BM_026",
+      "106-2_BM_041",
+      "110-1_MS_042",
+      "109-1_MS_033",
+      "112-2_MS_038",
+      "113-1_OP_041",
+      "105-2_OP_029",
+      "106-1_OP_009",
+      "106-2_OP_032",
+      "106-2_MS_037",
+      "112-3_MS_023",
+      "108-1_OP_047",
+      "111-1_MS_035",
+      "107-2_MS_042",
+      "111-2_MS_039",
+      "115-1_OP_041",
+      "111-2_OP_068",
+      "112-3_OP_041",
+      "111-1_OP_067"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anemias#pernicious",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_BM_041",
+      "110-1_BM_066",
+      "108-2_MS_030",
+      "107-2_MS_043",
+      "108-1_MS_040",
+      "110-2_MS_043",
+      "113-2_MS_021",
+      "113-2_MS_010",
+      "107-1_BM_041",
+      "109-2_BM_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anemias#aplastic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_038",
+      "105-2_OP_064",
+      "110-1_OP_068",
+      "114-3_OP_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anemias#thalassemia-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_067",
+      "110-1_OP_055",
+      "114-1_OP_041",
+      "115-2_OP_042",
+      "112-3_OP_022",
+      "114-2_OP_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anemias#g6pd-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_055",
+      "110-2_OP_067",
+      "115-1_PC_043",
+      "105-2_OP_066"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anemias#sickle-cell-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_066",
+      "110-2_OP_068"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anemias#polycythemia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_042",
+      "110-1_MS_036",
+      "113-1_MS_026",
+      "114-3_MS_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anemias#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_063",
+      "106-2_MS_078",
+      "111-1_MS_064",
+      "107-2_MS_066",
+      "112-1_OP_073",
+      "115-1_BM_050",
+      "110-2_FA_055",
+      "106-1_OP_010",
+      "113-1_OP_005"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "anxiety-disorders#questions",
     "tag": null,
     "adm": null,
@@ -3847,6 +6542,119 @@
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "arrhythmias#sinus",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_FA_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "arrhythmias#af",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_028",
+      "113-2_MS_018",
+      "107-2_MS_027",
+      "112-1_MS_028",
+      "110-2_MS_031",
+      "106-2_MS_029",
+      "106-2_makeup_MS_030",
+      "109-2_FA_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "arrhythmias#psvt",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_019",
+      "112-1_MS_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "arrhythmias#vf",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_042",
+      "109-2_MS_033",
+      "111-1_MS_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "arrhythmias#blocks",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_075",
+      "108-1_BM_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "arrhythmias#electrical-therapy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_019",
+      "112-3_MS_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "arrhythmias#pacemaker-teaching",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_MS_017",
+      "111-1_MS_029",
+      "105-2_MS_032",
+      "113-1_MS_019",
+      "112-2_MS_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "arrhythmias#icd",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "arrhythmias#questions",
+    "tag": "心律不整|心房顫動|心室顫動|心室頻脈|房室傳導阻斷|心室上心搏過速",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
   },
   {
     "qkey": "asthma#pef",
@@ -3976,6 +6784,156 @@
       "109-2_BM_047"
     ],
     "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#exams",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#hysterectomy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_038",
+      "106-1_OP_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#laparoscopy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#fibroids",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_OP_036",
+      "112-2_OP_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#endometriosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_035",
+      "113-3_BM_029",
+      "105-2_BM_045",
+      "105-1_BM_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#prolapse",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_025",
+      "108-2_OP_038",
+      "106-1_OP_035",
+      "105-2_OP_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#cervical-ectropion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#discharge",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#fistula",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#dyspareunia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#ovarian-benign",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#breast",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_040",
+      "114-3_BM_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "benign-gynecologic-disorders#questions",
+    "tag": "子宮肌瘤|子宮內膜異位症|子宮腺肌症|子宮脫垂|子宮移位|子宮後傾|子宮頸糜爛|陰道瘻管|性交疼痛|卵巢腫瘤|畸胎瘤|乳房纖維腺瘤|乳房良性腫瘤",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 15
   },
   {
     "qkey": "biliary-pancreatic#cholelithiasis",
@@ -4206,6 +7164,115 @@
     "limit": null
   },
   {
+    "qkey": "bleeding-disorders#causes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_BM_044",
+      "114-1_BM_022",
+      "112-2_MS_043",
+      "105-2_MS_060",
+      "106-2_makeup_MS_062"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bleeding-disorders#thrombocytopenia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_MS_041",
+      "108-1_MS_035",
+      "110-1_MS_039",
+      "112-1_MS_040",
+      "110-2_MS_037",
+      "113-3_FA_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bleeding-disorders#itp",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_039",
+      "105-1_OP_066",
+      "112-1_OP_068",
+      "111-1_MS_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bleeding-disorders#hemophilia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_043",
+      "111-1_OP_068",
+      "105-2_OP_049",
+      "106-1_OP_066",
+      "114-2_MS_023",
+      "110-1_OP_067",
+      "115-2_OP_043",
+      "109-2_OP_067",
+      "112-2_OP_068",
+      "112-1_OP_067",
+      "109-1_OP_074",
+      "109-2_OP_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bleeding-disorders#vitamin-k",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bleeding-disorders#dic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_040",
+      "112-1_MS_035",
+      "106-2_makeup_MS_042",
+      "112-1_OP_033",
+      "110-1_MS_078",
+      "107-2_MS_045",
+      "105-2_OP_033",
+      "114-3_OP_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "bleeding-disorders#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_026",
+      "106-2_makeup_OP_065",
+      "108-1_MS_025"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "brain-tumors#manifestations",
     "tag": null,
     "adm": null,
@@ -4250,6 +7317,17 @@
     "keyword": "(腦瘤|腦腫瘤|顱內腫瘤|膠質|腦膜瘤|開顱|伽[瑪馬]刀|脊髓腫瘤|脊髓壓迫)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "breast-cancer#pathology",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_BM_039"
+    ],
+    "limit": null
   },
   {
     "qkey": "breast-cancer#questions",
@@ -4300,6 +7378,217 @@
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "burns#depth",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_047",
+      "107-2_MS_047",
+      "106-2_MS_045",
+      "105-2_MS_048",
+      "112-1_MS_044",
+      "113-1_MS_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#tbsa",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_027",
+      "105-1_MS_080",
+      "109-2_MS_048",
+      "112-3_MS_029",
+      "107-1_OP_058"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#severity",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_044",
+      "111-2_OP_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#systemic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_041",
+      "113-3_MS_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#five-steps",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_045",
+      "111-2_MS_044",
+      "113-2_OP_027",
+      "105-1_OP_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#chemical",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#electrical",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#inhalation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#resuscitation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_028",
+      "112-3_MS_030",
+      "108-2_OP_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#wound-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_043",
+      "113-3_MS_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#hydrotherapy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_046",
+      "108-2_MS_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#escharotomy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_044",
+      "106-2_makeup_MS_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#graft-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_MS_029",
+      "108-1_MS_046",
+      "107-1_MS_045",
+      "106-2_makeup_MS_046",
+      "106-1_MS_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#positioning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_046",
+      "105-2_MS_045",
+      "105-1_MS_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#scar-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#pediatric",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_044",
+      "106-2_makeup_OP_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "burns#questions",
+    "tag": "燒傷|化學性灼傷|電燒傷",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
   },
   {
     "qkey": "cancer#questions",
@@ -4668,6 +7957,135 @@
     "limit": 10
   },
   {
+    "qkey": "congenital-heart-disease#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_040",
+      "106-2_makeup_OP_063",
+      "112-1_OP_064",
+      "106-1_OP_065",
+      "109-1_OP_073",
+      "105-2_OP_062",
+      "111-2_OP_065",
+      "110-2_OP_066",
+      "112-1_OP_066",
+      "111-1_OP_064",
+      "109-1_OP_049",
+      "108-2_OP_045",
+      "112-2_OP_066",
+      "105-1_OP_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "congenital-heart-disease#assessment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_066"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "congenital-heart-disease#left-to-right",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_048",
+      "112-2_OP_065",
+      "111-1_OP_065"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "congenital-heart-disease#tof-surgery",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_038",
+      "105-2_OP_063",
+      "106-2_OP_064",
+      "105-1_OP_064",
+      "106-2_makeup_OP_062",
+      "108-2_OP_046",
+      "109-2_OP_064",
+      "115-1_OP_040",
+      "111-2_OP_066",
+      "110-2_OP_065",
+      "113-2_OP_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "congenital-heart-disease#other-cyanotic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_063",
+      "108-1_OP_070",
+      "114-3_OP_041",
+      "106-2_OP_065"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "congenital-heart-disease#drugs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_073",
+      "107-2_OP_071",
+      "114-2_OP_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "congenital-heart-disease#feeding",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_063",
+      "107-1_OP_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "congenital-heart-disease#surgery",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_040",
+      "107-2_OP_073"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "congenital-heart-disease#questions",
+    "tag": "先天性心臟病|心房中膈缺損|心室中膈缺損|開放性動脈導管|主動脈瓣狹窄|主動脈縮窄|法洛氏四重畸形|大血管轉位",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 20
+  },
+  {
     "qkey": "copd#bronchitis-vs-emphysema",
     "tag": null,
     "adm": null,
@@ -4803,6 +8221,17 @@
     "limit": 6
   },
   {
+    "qkey": "coronary-artery-disease#risk-factors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_BM_027"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "coronary-artery-disease#pathology-timeline",
     "tag": "心肌梗塞|急性心肌梗塞|動脈粥狀硬化|動脈硬化",
     "adm": null,
@@ -4810,6 +8239,17 @@
     "keyword": "(病理|病因|機轉|粥狀|斑塊|壞死|嗜中性|巨噬|肉芽|纖維化|危險因子)",
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "coronary-artery-disease#pathology-timeline~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_039"
+    ],
+    "limit": null
   },
   {
     "qkey": "coronary-artery-disease#acs",
@@ -4830,6 +8270,18 @@
     "limit": 10
   },
   {
+    "qkey": "coronary-artery-disease#angina-vs-mi~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_016",
+      "105-1_MS_028"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "coronary-artery-disease#other-tests",
     "tag": "心肌梗塞|急性心肌梗塞|急性冠狀動脈症候群",
     "adm": null,
@@ -4839,6 +8291,17 @@
     "limit": 10
   },
   {
+    "qkey": "coronary-artery-disease#other-tests~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_029"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "coronary-artery-disease#in-hospital",
     "tag": "心肌梗塞|急性心肌梗塞|急性冠狀動脈症候群",
     "adm": null,
@@ -4846,6 +8309,17 @@
     "keyword": "(MONA|嗎啡|morphine|氧氣|aspirin|Aspirin|血栓溶解|再灌流|PCI|緊急|優先|處置)",
     "ids": [],
     "limit": 12
+  },
+  {
+    "qkey": "coronary-artery-disease#in-hospital~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_024"
+    ],
+    "limit": null
   },
   {
     "qkey": "coronary-artery-disease#complications",
@@ -4897,6 +8371,17 @@
       "110-1_OP_064",
       "109-2_MS_035",
       "109-1_OP_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "coronary-artery-disease#activity-monitoring",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_030"
     ],
     "limit": null
   },
@@ -6049,6 +9534,158 @@
     "limit": 8
   },
   {
+    "qkey": "fractures#types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_BM_048"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#first-aid",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_076",
+      "106-2_MS_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#healing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_021",
+      "110-1_BM_048",
+      "113-1_MS_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#complications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_MS_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#compartment-syndrome",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_049",
+      "113-2_MS_012",
+      "108-1_MS_019",
+      "110-2_MS_018",
+      "107-2_MS_019",
+      "105-2_MS_017",
+      "112-2_MS_018",
+      "112-2_MS_019",
+      "115-1_OP_049"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#cast-removal",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_020",
+      "109-1_MS_020",
+      "105-1_MS_019",
+      "109-2_MS_021",
+      "114-2_MS_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#pelvic-traction",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_013",
+      "107-2_MS_017",
+      "113-1_MS_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#external-fixator",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#hip-fracture",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#amputation-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_MS_013",
+      "107-2_MS_020",
+      "107-1_MS_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#clavicle-newborn",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_048",
+      "110-1_OP_077",
+      "108-2_OP_076",
+      "108-1_OP_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fractures#questions",
+    "tag": "骨折|腔室症候群|股骨骨折|髖關節骨折|鎖骨骨折|開放性骨折|病理性骨折|脫臼|截肢",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
     "qkey": "glomerular-diseases#exam-points",
     "tag": null,
     "adm": null,
@@ -6169,6 +9806,28 @@
       "110-2_OP_076",
       "108-2_OP_066",
       "108-2_OP_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gynecologic-cancers#endometrial",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "gynecologic-cancers#vaginal",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_047"
     ],
     "limit": null
   },
@@ -6376,6 +10035,18 @@
     "limit": 8
   },
   {
+    "qkey": "heart-failure#causes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_016",
+      "112-2_MS_026"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "heart-failure#edema-mechanism",
     "tag": "心臟衰竭",
     "adm": null,
@@ -6401,6 +10072,31 @@
     "keyword": "(頸靜脈壓|頸靜脈怒張|S3|第三心音|肺微血管楔壓|PCWP|中心靜脈壓|CVP)",
     "ids": [],
     "limit": 6
+  },
+  {
+    "qkey": "heart-failure#physical-assessment~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_029",
+      "106-2_makeup_MS_026",
+      "105-1_MS_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "heart-failure#pediatric",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_063",
+      "105-1_OP_065"
+    ],
+    "limit": null
   },
   {
     "qkey": "heart-failure#staging",
@@ -6468,6 +10164,155 @@
     "keyword": "(衛教|出院|居家|飲食|體重|疫苗)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "high-risk-pregnancy#risk-factors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_OP_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#cardiac",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_020",
+      "108-1_OP_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#diabetes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_031",
+      "105-2_OP_032",
+      "109-1_OP_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#abortion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_034",
+      "112-1_OP_035",
+      "107-1_OP_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#cervical-insufficiency",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_021",
+      "112-3_OP_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#ectopic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#molar-pregnancy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#late-bleeding",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_020",
+      "115-1_OP_020",
+      "113-3_OP_016",
+      "107-1_OP_033",
+      "107-1_OP_034",
+      "111-2_OP_032",
+      "110-2_OP_031",
+      "110-1_OP_034",
+      "108-2_OP_033",
+      "108-1_OP_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#hypertensive-disorders",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_022",
+      "113-2_OP_022",
+      "112-3_OP_021",
+      "108-2_OP_029",
+      "105-1_OP_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#rh",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#preterm-risk",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "high-risk-pregnancy#questions",
+    "tag": "高危險妊娠|妊娠合併心臟病|前置胎盤|胎盤早期剝離|流產|先兆性流產|習慣性流產|子宮頸閉鎖不全|子宮外孕|葡萄胎|HELLP症候群|子癇前症|子癇症|Rh血型不合|妊娠劇吐",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 20
   },
   {
     "qkey": "hiv-aids#questions",
@@ -6628,6 +10473,17 @@
     "limit": 10
   },
   {
+    "qkey": "hypertension#drug-classes~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_MS_029"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "hypertension#medication-education",
     "tag": "高血壓",
     "adm": null,
@@ -6635,6 +10491,17 @@
     "keyword": "(護理|衛教|自行停藥|服藥|低血鉀|排便)",
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "hypertension#weight-alcohol",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_032"
+    ],
+    "limit": null
   },
   {
     "qkey": "hypertension#other-lifestyle",
@@ -7111,6 +10978,166 @@
     "limit": null
   },
   {
+    "qkey": "labor-complications#dysfunctional-labor",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_010",
+      "109-1_OP_031",
+      "113-1_OP_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#precipitate-labor",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#occiput-posterior",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_016",
+      "106-2_OP_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#shoulder-dystocia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#uterine-rupture",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#cord-prolapse",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#preterm-labor",
+    "tag": "早產",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "labor-complications#bishop-score",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_021",
+      "112-2_OP_033",
+      "107-2_OP_033",
+      "106-1_OP_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#induction-methods",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#operative-vaginal",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_021",
+      "105-2_OP_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#cesarean",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_023",
+      "111-1_OP_015",
+      "108-1_OP_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#vbac",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-complications#questions",
+    "tag": "難產|產程延長|急產|子宮破裂|肩難產|臍帶脫垂|胎位不正|過期妊娠|剖腹產|胎死腹中",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 20
+  },
+  {
+    "qkey": "leukemia#prognosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_042",
+      "106-2_makeup_OP_071"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "leukemia#questions",
     "tag": null,
     "adm": null,
@@ -7518,6 +11545,28 @@
     "limit": 10
   },
   {
+    "qkey": "lymphoma-myeloma#lymphoma-symptoms",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "lymphoma-myeloma#nhl-subtypes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_BM_036"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "lymphoma-myeloma#questions",
     "tag": null,
     "adm": null,
@@ -7558,6 +11607,207 @@
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "male-reproductive-disorders#testicular-tumors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_028",
+      "109-2_BM_046",
+      "107-1_BM_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "male-reproductive-disorders#penis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "male-reproductive-disorders#questions",
+    "tag": "睪丸腫瘤|陰莖癌|波恩氏病|逆行性射精|性腺功能低下",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "menstrual-disorders#normal-menstruation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_037",
+      "112-2_OP_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "menstrual-disorders#aub",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_BM_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "menstrual-disorders#pcos",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_039",
+      "110-1_OP_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "menstrual-disorders#dysmenorrhea",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_034",
+      "110-2_OP_039",
+      "105-2_OP_035",
+      "105-1_OP_037"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "menstrual-disorders#pms",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_039",
+      "110-1_OP_037",
+      "106-1_OP_039",
+      "105-1_OP_039"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "menstrual-disorders#menopause",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_025",
+      "110-1_OP_021",
+      "109-1_OP_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "menstrual-disorders#questions",
+    "tag": "痛經|經前症候群|多囊性卵巢症候群|無月經|月經過多|不正常子宮出血|更年期症候群|經期前情緒低落症",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 15
+  },
+  {
+    "qkey": "neonatal-disorders#jaundice-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neonatal-disorders#kernicterus",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neonatal-disorders#phototherapy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_034",
+      "113-2_OP_036",
+      "112-2_OP_055",
+      "106-1_OP_051",
+      "105-1_OP_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neonatal-disorders#hypoglycemia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_052",
+      "108-1_OP_043"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neonatal-disorders#meconium-aspiration",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_055",
+      "106-1_OP_053",
+      "105-1_OP_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neonatal-disorders#birth-injuries",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_051",
+      "105-1_OP_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "neonatal-disorders#questions",
+    "tag": "新生兒黃疸|新生兒溶血症|核黃疸|新生兒低血糖|胎便吸入症候群|新生兒暫時性呼吸急促|臂神經叢損傷",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 15
   },
   {
     "qkey": "neuromuscular-demyelinating#myasthenia-gravis",
@@ -7672,6 +11922,177 @@
       "114-1_PC_003"
     ],
     "limit": null
+  },
+  {
+    "qkey": "osteoarthritis#clinical",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_011",
+      "112-1_MS_030",
+      "110-1_MS_019",
+      "109-2_MS_019",
+      "109-1_MS_017",
+      "106-1_MS_018",
+      "113-1_MS_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoarthritis#oa-nursing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_012",
+      "111-2_MS_018",
+      "107-2_MS_018",
+      "109-2_MS_018",
+      "108-2_MS_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoarthritis#gout",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_BM_030",
+      "110-2_MS_020",
+      "115-1_MS_012",
+      "112-1_MS_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoarthritis#tha-complications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_MS_011",
+      "113-2_MS_038",
+      "110-2_MS_021",
+      "105-2_MS_018",
+      "105-1_MS_021",
+      "106-2_makeup_MS_020",
+      "106-2_MS_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoarthritis#tka",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_019",
+      "114-2_MS_012",
+      "115-1_FA_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoarthritis#arthroscopy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoarthritis#physical-exam",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_MS_012",
+      "108-1_MS_018",
+      "106-1_MS_019",
+      "105-1_MS_022",
+      "106-2_makeup_MS_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoarthritis#carpal-tunnel",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_019",
+      "111-1_MS_018",
+      "110-1_MS_021"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoarthritis#back-brace",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoporosis#definition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_019",
+      "112-3_BM_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoporosis#risk-factors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoporosis#clinical",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_020",
+      "106-1_MS_021",
+      "110-1_BM_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "osteoporosis#questions",
+    "tag": "骨質疏鬆症",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
   },
   {
     "qkey": "parathyroid-disorders#hyper-manifestations",
@@ -7818,6 +12239,18 @@
     "keyword": "(巴金森|帕金森|Parkinson|亨丁頓|亨汀頓|舞蹈症|靜止性顫抖|錳)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "pediatric-cancers#bone-tumors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_016",
+      "106-1_BM_048"
+    ],
+    "limit": null
   },
   {
     "qkey": "pediatric-cancers#questions",
@@ -8245,6 +12678,99 @@
     "limit": 10
   },
   {
+    "qkey": "pediatric-musculoskeletal#ddh-assessment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_018",
+      "114-3_OP_019",
+      "113-3_OP_050",
+      "110-2_OP_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-musculoskeletal#ddh-treatment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_048",
+      "111-1_OP_077",
+      "109-2_OP_078"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-musculoskeletal#scoliosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_048",
+      "111-1_OP_078",
+      "106-2_makeup_OP_078"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-musculoskeletal#flat-foot",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_080"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-musculoskeletal#growing-pains",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-musculoskeletal#jia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-musculoskeletal#dermatomyositis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_078"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "pediatric-musculoskeletal#questions",
+    "tag": "發展性髖關節發育不良|脊柱側彎|扁平足|生長痛|幼年特發性關節炎|皮肌炎",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
     "qkey": "pediatric-neuro#cerebral-palsy",
     "tag": null,
     "adm": null,
@@ -8485,6 +13011,71 @@
       "111-2_OP_017"
     ],
     "limit": null
+  },
+  {
+    "qkey": "peripheral-vascular-disease#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_MS_029",
+      "111-2_MS_031",
+      "111-1_MS_027",
+      "110-1_BM_035",
+      "111-2_MS_027",
+      "110-1_MS_028",
+      "106-1_MS_030",
+      "105-2_MS_027",
+      "114-1_BM_025",
+      "113-3_MS_019",
+      "107-2_MS_031",
+      "112-2_MS_032",
+      "110-1_MS_030",
+      "114-1_MS_020",
+      "115-1_MS_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "peripheral-vascular-disease#takayasu",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_040",
+      "112-2_BM_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "peripheral-vascular-disease#venous-thrombosis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_MS_033",
+      "106-1_MS_033",
+      "107-2_MS_035",
+      "105-2_MS_033",
+      "114-2_MS_018",
+      "110-2_MS_033",
+      "109-2_MS_029",
+      "115-2_MS_020",
+      "110-1_MS_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "peripheral-vascular-disease#questions",
+    "tag": "周邊動脈疾病|柏格氏病|雷諾氏病|腹主動脈瘤|主動脈剝離|靜脈曲張|慢性靜脈功能不全|高安氏動脈炎",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 20
   },
   {
     "qkey": "personality-disorders#questions",
@@ -8859,6 +13450,151 @@
     "limit": null
   },
   {
+    "qkey": "postpartum-complications#pph-definition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_023",
+      "109-2_OP_035",
+      "106-2_OP_034",
+      "106-1_OP_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-complications#four-ts",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_023",
+      "112-1_OP_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-complications#pph-prevention",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-complications#uterine-atony",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_033",
+      "114-2_OP_023",
+      "107-1_OP_031",
+      "110-2_OP_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-complications#lacerations-hematoma",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_012",
+      "112-2_OP_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-complications#uterine-inversion",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-complications#subinvolution",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_033"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-complications#subinvolution~2",
+    "tag": "子宮復舊不全",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "postpartum-complications#postpartum-vte",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_025",
+      "115-1_OP_022",
+      "114-2_OP_021",
+      "114-1_OP_022",
+      "112-2_OP_031",
+      "105-2_OP_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-complications#postpartum-vte~2",
+    "tag": "血栓性靜脈炎|深部靜脈血栓|肺栓塞",
+    "adm": null,
+    "drug": null,
+    "keyword": "產",
+    "ids": [],
+    "limit": 8
+  },
+  {
+    "qkey": "postpartum-complications#postpartum-mood",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_013",
+      "111-1_OP_018",
+      "110-1_OP_024",
+      "114-3_OP_016",
+      "113-3_OP_012",
+      "112-2_OP_021",
+      "112-3_OP_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-complications#questions",
+    "tag": "產後出血|產道撕裂傷|子宮內翻|產後憂鬱症|產後情緒低落|產後精神病",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 15
+  },
+  {
     "qkey": "pressure-injury#risk-factors",
     "tag": null,
     "adm": null,
@@ -8942,6 +13678,103 @@
       "110-1_FA_048"
     ],
     "limit": 10
+  },
+  {
+    "qkey": "preterm-infant#features",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_053",
+      "105-1_OP_056"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "preterm-infant#systems",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_034",
+      "112-3_OP_033",
+      "110-1_OP_053",
+      "106-2_makeup_OP_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "preterm-infant#nec",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_033",
+      "113-1_OP_035",
+      "108-2_OP_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "preterm-infant#thermoregulation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_052",
+      "106-1_OP_054"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "preterm-infant#feeding",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_053",
+      "106-2_OP_056",
+      "110-1_OP_047",
+      "111-2_OP_053"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "preterm-infant#developmental-care",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_033",
+      "112-3_OP_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "preterm-infant#family",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "preterm-infant#questions",
+    "tag": "早產兒|早產兒呼吸暫停|壞死性腸炎|支氣管肺發育不良",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 15
   },
   {
     "qkey": "primary-immunodeficiency#questions",
@@ -9591,6 +14424,80 @@
     "limit": null
   },
   {
+    "qkey": "shock#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_MS_047",
+      "111-2_MS_078",
+      "115-2_MS_050",
+      "115-1_MS_019",
+      "112-1_MS_077",
+      "113-3_MS_050",
+      "113-2_MS_048",
+      "111-1_MS_030",
+      "113-1_BM_022",
+      "114-1_MS_019",
+      "111-1_MS_077",
+      "112-2_MS_078",
+      "110-1_MS_079",
+      "107-2_MS_080"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "shock#types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_076",
+      "105-1_MS_077",
+      "105-2_MS_075",
+      "106-1_MS_026",
+      "109-2_MS_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "shock#distributive",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_076",
+      "112-3_MS_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "shock#assessment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_FA_040",
+      "115-2_FA_024",
+      "114-2_FA_026",
+      "108-2_MS_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "shock#questions",
+    "tag": "休克|低血容積性休克|出血性休克|心因性休克",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 20
+  },
+  {
     "qkey": "single-gene-disorders#thalassemia",
     "tag": null,
     "adm": null,
@@ -9776,6 +14683,71 @@
       "110-2_MS_045"
     ],
     "limit": null
+  },
+  {
+    "qkey": "skin-diseases#secondary-lesions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skin-diseases#psoriasis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_MS_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skin-diseases#benign-tumors",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_MS_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skin-diseases#skin-cancer",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skin-diseases#prevention",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_045",
+      "111-2_MS_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skin-diseases#questions",
+    "tag": "乾癬|皮膚癌|皮膚腫瘤|脂漏性角化症|皮膚病灶",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
   },
   {
     "qkey": "sle#questions",
@@ -10562,7 +15534,8 @@
     "ids": [
       "111-2_MS_063",
       "111-1_MS_043",
-      "112-2_MS_060"
+      "112-2_MS_060",
+      "106-1_BM_044"
     ],
     "limit": null
   },
@@ -10697,6 +15670,46 @@
     "limit": null
   },
   {
+    "qkey": "valvular-heart-disease#exam-points",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_032",
+      "109-2_MS_026",
+      "113-2_MS_020",
+      "109-1_MS_030",
+      "108-1_MS_031",
+      "112-3_MS_021",
+      "113-3_MS_020",
+      "112-1_MS_032",
+      "109-1_MS_025",
+      "111-2_MS_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "valvular-heart-disease#comparison",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_BM_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "valvular-heart-disease#questions",
+    "tag": "心臟瓣膜疾病|二尖瓣狹窄|僧帽瓣疾病|三尖瓣閉鎖不全|二尖瓣閉鎖不全",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 15
+  },
+  {
     "qkey": "vector-borne-zoonotic#questions",
     "tag": null,
     "adm": null,
@@ -10771,6 +15784,17 @@
       "108-1_OP_019",
       "112-3_FA_001",
       "106-2_makeup_PC_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ace-inhibitors#mechanism",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_037"
     ],
     "limit": null
   },
@@ -11032,6 +16056,65 @@
     "limit": null
   },
   {
+    "qkey": "antiarrhythmics#adenosine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_BM_037",
+      "108-2_BM_059",
+      "105-2_BM_055",
+      "111-2_BM_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiarrhythmics#acls-drugs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_079"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiarrhythmics#adverse-effects",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_032",
+      "107-2_BM_056",
+      "106-2_makeup_BM_056",
+      "109-2_BM_058",
+      "107-1_BM_057",
+      "115-2_BM_037",
+      "111-1_BM_051",
+      "109-2_BM_050",
+      "108-1_BM_060",
+      "106-2_BM_057",
+      "108-1_BM_051",
+      "108-1_MS_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "antiarrhythmics#questions",
+    "tag": null,
+    "adm": null,
+    "drug": [
+      "抗心律不整用藥",
+      "急救用藥"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 12
+  },
+  {
     "qkey": "antibiotics-overview#questions",
     "tag": null,
     "adm": null,
@@ -11067,6 +16150,70 @@
       "106-2_makeup_OP_033",
       "113-1_FA_047",
       "112-2_MS_077"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anticoagulants#parenteral-others",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_057"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anticoagulants#indications",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_032",
+      "111-2_MS_026",
+      "109-1_MS_025",
+      "107-2_MS_027",
+      "110-2_MS_031",
+      "106-2_MS_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anticoagulants#warfarin-teaching",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_028",
+      "110-1_MS_056",
+      "110-2_MS_026",
+      "107-1_MS_032",
+      "112-1_MS_029",
+      "113-1_BM_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "anticoagulants#dvt-assessment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_033",
+      "107-2_MS_035",
+      "106-1_MS_033",
+      "109-2_MS_029",
+      "110-2_MS_033",
+      "115-2_MS_020",
+      "105-2_OP_022",
+      "107-2_OP_026",
+      "108-2_OP_023",
+      "112-2_OP_031",
+      "114-2_MS_018"
     ],
     "limit": null
   },
@@ -11475,6 +16622,17 @@
     "keyword": "(巴金森|帕金森|levodopa|左多巴|Sinemet|carbidopa|pramipexole|ropinirole|selegiline|entacapone|amantadine|trihexyphenidyl|Artane|benztropine|riluzole|on-off)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "antiplatelets#others",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_BM_057"
+    ],
+    "limit": null
   },
   {
     "qkey": "antiplatelets#questions",
@@ -12116,6 +17274,33 @@
     "limit": 8
   },
   {
+    "qkey": "digoxin#toxicity",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_MS_030",
+      "106-2_MS_027",
+      "106-2_makeup_MS_025",
+      "105-1_BM_058",
+      "108-2_OP_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "digoxin#pediatric",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_072",
+      "106-2_OP_066"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "digoxin#questions",
     "tag": null,
     "adm": null,
@@ -12340,6 +17525,117 @@
     "limit": 8
   },
   {
+    "qkey": "hematinics#iron",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_MS_037",
+      "112-3_MS_023",
+      "106-2_OP_032",
+      "108-1_OP_047",
+      "111-1_MS_035",
+      "111-2_MS_039",
+      "107-2_MS_042",
+      "115-1_OP_041",
+      "111-2_OP_068",
+      "112-3_OP_041",
+      "107-2_FA_016",
+      "108-2_FA_031",
+      "113-2_FA_011",
+      "106-2_FA_020",
+      "106-2_FA_033",
+      "107-2_FA_028",
+      "111-2_FA_032",
+      "106-2_FA_038",
+      "113-3_FA_020",
+      "112-2_MS_059",
+      "106-2_makeup_FA_020",
+      "107-2_FA_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hematinics#iron-poisoning",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_042",
+      "113-1_OP_026",
+      "107-1_OP_049",
+      "111-2_OP_045"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hematinics#b12-folate",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_043",
+      "113-2_MS_021",
+      "111-1_MS_064",
+      "107-2_MS_066",
+      "111-1_FA_052"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hematinics#esa",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_057",
+      "106-2_MS_078",
+      "105-2_MS_063"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hematinics#g-csf",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_MS_042",
+      "105-1_MS_038",
+      "112-1_MS_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hematinics#chelators",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_041",
+      "115-2_OP_042"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "hematinics#questions",
+    "tag": null,
+    "adm": null,
+    "drug": [
+      "貧血用藥",
+      "排鐵劑用藥"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 10
+  },
+  {
     "qkey": "immunosuppressants#questions",
     "tag": null,
     "adm": null,
@@ -12395,6 +17691,17 @@
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "inotropes#others",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_026"
+    ],
+    "limit": null
   },
   {
     "qkey": "inotropes#questions",
@@ -12592,6 +17899,28 @@
     "keyword": null,
     "ids": [],
     "limit": 12
+  },
+  {
+    "qkey": "nitrates#assessment",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_FA_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "nitrates#storage",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_MS_030"
+    ],
+    "limit": null
   },
   {
     "qkey": "nitrates#questions",
@@ -13411,6 +18740,65 @@
     "limit": null
   },
   {
+    "qkey": "cardiac-catheterization#post-care~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_MS_028",
+      "106-1_MS_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cardiac-catheterization#post-care~3",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_047",
+      "106-2_makeup_OP_064"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "coagulation-tests#tests",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_MS_052",
+      "106-1_FA_020",
+      "107-1_MS_032",
+      "113-1_MS_020",
+      "114-3_MS_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "coagulation-tests#interpretation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_065",
+      "106-2_makeup_MS_042",
+      "112-1_OP_033",
+      "109-1_MS_012",
+      "111-2_MS_017",
+      "114-3_MS_050",
+      "112-3_MS_008",
+      "112-3_MS_022",
+      "114-3_MS_034",
+      "112-1_MS_029"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "complete-blood-count#questions",
     "tag": null,
     "adm": null,
@@ -13488,6 +18876,28 @@
       "107-1_OP_068",
       "109-2_OP_060",
       "113-2_MS_040"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ecg#other-changes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "ecg#mi-evolution",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_027"
     ],
     "limit": null
   },
@@ -13701,6 +19111,113 @@
     "limit": null
   },
   {
+    "qkey": "intrapartum-fetal-monitoring#intermittent-auscultation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-fetal-monitoring#efm",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_OP_009",
+      "112-2_OP_017",
+      "111-1_OP_013",
+      "114-2_OP_009"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-fetal-monitoring#auscultation-site",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_009",
+      "108-2_OP_013",
+      "114-2_OP_008",
+      "113-3_OP_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-fetal-monitoring#baseline",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_016",
+      "112-1_OP_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-fetal-monitoring#variability",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_016",
+      "108-2_OP_011",
+      "112-2_OP_014"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-fetal-monitoring#periodic-changes",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_014",
+      "109-1_OP_017",
+      "108-1_OP_011",
+      "113-3_OP_024",
+      "107-1_OP_029",
+      "107-1_OP_030",
+      "105-2_OP_016",
+      "112-1_OP_014",
+      "108-2_OP_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-fetal-monitoring#intrauterine-resuscitation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_013",
+      "106-2_makeup_OP_015",
+      "106-1_OP_015",
+      "113-1_OP_023",
+      "109-1_OP_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "intrapartum-fetal-monitoring#questions",
+    "tag": "胎兒窘迫|早發性減速",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 20
+  },
+  {
     "qkey": "ketones#questions",
     "tag": "糖尿病酮酸中毒|酮酸中毒|酮尿症",
     "adm": null,
@@ -13708,6 +19225,18 @@
     "keyword": "(酮體|尿酮|ketone|酮)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "lipid-profile#metabolic-syndrome",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_MS_031",
+      "105-2_MS_029"
+    ],
+    "limit": null
   },
   {
     "qkey": "lipid-profile#questions",
@@ -13846,6 +19375,189 @@
     "keyword": null,
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "prenatal-assessment#signs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_005",
+      "114-2_OP_002",
+      "106-1_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#pregnancy-test",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#obstetric-history",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_004",
+      "114-3_OP_007",
+      "108-2_OP_007",
+      "105-1_OP_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#due-date",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_008",
+      "107-1_OP_003",
+      "106-2_OP_003",
+      "105-2_OP_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#leopold",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_OP_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#fetal-heart",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_OP_004",
+      "111-2_OP_010",
+      "112-1_OP_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#fetal-movement",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_OP_005",
+      "113-2_OP_006",
+      "112-2_OP_010",
+      "106-2_makeup_OP_008",
+      "111-2_OP_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#ultrasound",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_004",
+      "105-2_OP_003",
+      "107-1_OP_009",
+      "107-1_OP_008",
+      "109-1_OP_008",
+      "108-2_OP_006",
+      "112-2_OP_008",
+      "107-2_OP_008",
+      "106-1_OP_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#nst",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_002",
+      "114-3_OP_006",
+      "114-2_OP_006",
+      "113-2_OP_003",
+      "111-2_OP_006",
+      "110-1_OP_006",
+      "108-1_OP_008",
+      "106-2_OP_008",
+      "105-1_OP_007",
+      "106-2_OP_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#bpp",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_005",
+      "106-2_OP_007",
+      "106-1_OP_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#screening",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_003",
+      "107-2_OP_010",
+      "105-2_OP_006",
+      "113-1_OP_004",
+      "111-1_OP_010",
+      "111-2_OP_005",
+      "112-3_OP_005",
+      "108-1_OP_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#diagnostic-tests",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_OP_005",
+      "109-1_OP_004",
+      "106-2_makeup_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "prenatal-assessment#questions",
+    "tag": "妊娠|唐氏症|羊水過少|羊水過多|胎兒生長受限",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 15
   },
   {
     "qkey": "renal-function-tests#creatinine",
@@ -14888,6 +20600,135 @@
     "limit": null
   },
   {
+    "qkey": "blood-hemostasis#composition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_004",
+      "108-1_FA_025",
+      "114-3_FA_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-hemostasis#hematopoiesis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_007",
+      "108-2_BM_009",
+      "105-1_BM_026",
+      "110-1_BM_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-hemostasis#iron",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_BM_005",
+      "107-2_BM_026",
+      "112-2_BM_003",
+      "110-2_BM_011",
+      "106-2_BM_031",
+      "107-2_BM_031",
+      "112-2_PC_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-hemostasis#wbc",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_026",
+      "105-2_BM_009",
+      "112-3_BM_041",
+      "114-2_BM_005",
+      "107-2_BM_008",
+      "106-2_BM_006",
+      "105-1_FA_051",
+      "115-1_FA_035",
+      "105-2_MS_037",
+      "114-2_OP_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-hemostasis#hemostasis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_021",
+      "105-2_BM_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-hemostasis#coagulation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_026",
+      "106-2_makeup_OP_065"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-hemostasis#anticoagulation-fibrinolysis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_BM_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-hemostasis#blood-groups",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_068",
+      "112-1_BM_050",
+      "105-2_OP_050",
+      "109-1_FA_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-hemostasis#bone-marrow-exam",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_MS_037",
+      "112-1_MS_038",
+      "113-3_OP_041",
+      "115-1_MS_026",
+      "114-3_MS_018",
+      "113-3_MS_024"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "blood-pressure-regulation#determinants",
     "tag": null,
     "adm": null,
@@ -14897,6 +20738,22 @@
     "limit": 8
   },
   {
+    "qkey": "blood-pressure-regulation#determinants~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_016",
+      "111-2_BM_013",
+      "111-1_BM_023",
+      "108-2_BM_019",
+      "108-1_BM_019",
+      "105-1_BM_006"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "blood-pressure-regulation#map",
     "tag": null,
     "adm": null,
@@ -14904,6 +20761,17 @@
     "keyword": "(平均動脈壓|脈搏壓|脈壓|pulse pressure|MAP)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "blood-pressure-regulation#map~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_BM_007"
+    ],
+    "limit": null
   },
   {
     "qkey": "blood-pressure-regulation#chemoreceptor",
@@ -14974,6 +20842,105 @@
       "110-2_FA_045"
     ],
     "limit": null
+  },
+  {
+    "qkey": "blood-vessels#structure",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_014",
+      "107-1_BM_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-vessels#arteries",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_015",
+      "112-2_BM_005",
+      "112-2_BM_006",
+      "111-1_BM_014",
+      "109-1_BM_005",
+      "108-1_BM_004",
+      "108-1_BM_010",
+      "105-2_BM_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-vessels#veins",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_006",
+      "109-1_BM_010",
+      "106-2_makeup_BM_006",
+      "106-2_makeup_BM_008",
+      "106-1_BM_006",
+      "112-3_BM_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-vessels#portal",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-vessels#cvp",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-vessels#transition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_007",
+      "108-1_BM_009",
+      "106-1_BM_026",
+      "105-1_BM_008",
+      "108-1_OP_010",
+      "112-2_OP_064",
+      "110-1_OP_066",
+      "109-2_OP_065",
+      "109-1_OP_071",
+      "107-1_OP_071",
+      "105-2_OP_048",
+      "112-3_OP_017"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "blood-vessels#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "(彈性動脈|肌肉動脈|腹腔動脈|腸繫膜.*動脈|髂(內|外)動脈|頭臂靜脈|貴要靜脈|頭靜脈|奇靜脈|隱靜脈|肝門靜脈|胎兒循環|胎血循環|卵圓孔|動脈導管|靜脈導管|臍動脈|臍靜脈)",
+    "ids": [],
+    "limit": 10
   },
   {
     "qkey": "brain-anatomy#brain-metabolism",
@@ -15148,7 +21115,50 @@
     "limit": 8
   },
   {
+    "qkey": "cardiac-output#valves",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_004",
+      "106-2_makeup_BM_007",
+      "110-2_BM_010",
+      "106-2_makeup_OP_050",
+      "105-1_BM_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cardiac-output#valves~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_BM_004",
+      "113-1_BM_014",
+      "108-2_BM_010",
+      "115-2_BM_005",
+      "109-1_MS_030"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "cardiac-output#cardiac-cycle",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_MS_031",
+      "105-2_BM_024",
+      "105-2_BM_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cardiac-output#cardiac-cycle~2",
     "tag": null,
     "adm": null,
     "drug": null,
@@ -15184,6 +21194,24 @@
     "limit": 8
   },
   {
+    "qkey": "cardiac-output#determinants~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_MS_034",
+      "110-1_MS_033",
+      "105-1_BM_027",
+      "109-1_OP_021",
+      "111-1_MS_032",
+      "109-1_MS_028",
+      "105-1_OP_011",
+      "109-2_OP_011"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "cardiac-output#afterload",
     "tag": null,
     "adm": null,
@@ -15191,6 +21219,19 @@
     "keyword": "(前負荷|後負荷|preload|afterload)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "cardiac-output#myocyte",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_017",
+      "109-1_BM_025",
+      "109-2_BM_028"
+    ],
+    "limit": null
   },
   {
     "qkey": "cardiac-output#frank-starling",
@@ -15212,6 +21253,17 @@
   },
   {
     "qkey": "cardiac-output#autonomic",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cardiac-output#autonomic~2",
     "tag": null,
     "adm": null,
     "drug": null,
@@ -15355,6 +21407,18 @@
     "limit": 6
   },
   {
+    "qkey": "coronary-circulation#anatomy~2",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_007",
+      "105-2_BM_008"
+    ],
+    "limit": null
+  },
+  {
     "qkey": "coronary-circulation#antianginal",
     "tag": null,
     "adm": null,
@@ -15425,6 +21489,18 @@
     "keyword": "(腦神經|嗅神經|視神經|動眼神經|滑車神經|三叉神經|外展神經|顏面神經|舌咽神經|迷走神經|副神經|舌下神經)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "edema-shock#starling",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_006",
+      "111-1_BM_024"
+    ],
+    "limit": null
   },
   {
     "qkey": "edema-shock#edema",
@@ -15795,6 +21871,256 @@
     "keyword": null,
     "ids": [],
     "limit": 12
+  },
+  {
+    "qkey": "female-reproductive-system#vulva",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_006",
+      "113-2_BM_006",
+      "111-2_BM_009",
+      "110-1_BM_016",
+      "109-2_BM_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "female-reproductive-system#vagina",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "female-reproductive-system#uterus",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_017",
+      "114-3_BM_007",
+      "114-1_BM_016",
+      "112-3_BM_006",
+      "112-2_BM_007",
+      "106-2_BM_010",
+      "105-2_BM_027",
+      "109-1_OP_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "female-reproductive-system#fallopian-tube",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "female-reproductive-system#oogenesis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_007",
+      "105-1_OP_006",
+      "111-1_BM_010",
+      "110-1_BM_017",
+      "106-1_BM_008",
+      "106-2_BM_025",
+      "111-1_BM_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "female-reproductive-system#follicles",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_BM_016",
+      "113-1_BM_017",
+      "109-1_BM_006",
+      "108-2_BM_025",
+      "108-1_BM_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "female-reproductive-system#menstrual-cycle",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_015",
+      "113-2_BM_002",
+      "110-2_BM_026",
+      "109-1_BM_024",
+      "107-2_BM_024",
+      "106-1_BM_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "female-reproductive-system#ovulation-signs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_022"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "female-reproductive-system#breast",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_BM_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "female-reproductive-system#menopause",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_BM_017",
+      "106-2_makeup_BM_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "female-reproductive-system#questions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": "月經週期|排卵|濾泡|黃體素|子宮內膜",
+    "ids": [],
+    "limit": 10
+  },
+  {
+    "qkey": "fertilization-embryology#fertilization",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fertilization-embryology#implantation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_008",
+      "105-1_OP_010",
+      "107-1_BM_024",
+      "107-1_BM_046"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fertilization-embryology#amniotic-fluid",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_OP_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fertilization-embryology#placenta",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_003",
+      "106-2_makeup_OP_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fertilization-embryology#germ-layers",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_007",
+      "114-2_OP_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fertilization-embryology#development-periods",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_OP_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fertilization-embryology#fetal-development",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-2_OP_010",
+      "109-1_OP_005",
+      "108-2_OP_060"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fertilization-embryology#lung-maturity",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "fertilization-embryology#questions",
+    "tag": "妊娠",
+    "adm": null,
+    "drug": null,
+    "keyword": "胚胎|胎盤|著床|受精|羊水|胎兒發育",
+    "ids": [],
+    "limit": 10
   },
   {
     "qkey": "fluid-electrolytes#compartments",
@@ -16732,6 +23058,180 @@
     "limit": null
   },
   {
+    "qkey": "labor-process#premonitory-signs",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_008",
+      "112-2_OP_016",
+      "108-2_OP_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#true-false-labor",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_OP_007",
+      "111-2_OP_018",
+      "110-2_OP_013",
+      "105-1_OP_016",
+      "114-3_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#rupture-tests",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#passage",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#fetal-skull",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_009",
+      "113-1_OP_010",
+      "106-1_OP_014",
+      "109-2_OP_030",
+      "108-2_OP_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#fetal-position-terms",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_009",
+      "110-2_OP_009",
+      "110-2_OP_015",
+      "110-1_OP_008",
+      "109-2_OP_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#powers",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_017",
+      "107-2_OP_012",
+      "107-1_OP_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#position-psyche",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#cardinal-movements",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_009",
+      "111-2_OP_014",
+      "108-1_OP_015",
+      "107-2_OP_016"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#stages",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_011",
+      "115-1_OP_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#first-stage",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_015"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#second-stage",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_022",
+      "113-1_OP_008"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#third-stage",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_012",
+      "112-1_OP_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "labor-process#questions",
+    "tag": "正常分娩|真陣痛|假陣痛|胎頭下降",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 20
+  },
+  {
     "qkey": "liver-biliary-pancreas#liver-anatomy",
     "tag": null,
     "adm": null,
@@ -16829,6 +23329,233 @@
     "limit": null
   },
   {
+    "qkey": "male-reproductive-system#testis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_016",
+      "110-2_BM_012",
+      "107-2_BM_009",
+      "107-1_BM_025",
+      "106-2_makeup_BM_010",
+      "106-1_BM_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "male-reproductive-system#spermatogenesis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_BM_015",
+      "107-1_BM_011",
+      "106-2_makeup_BM_027",
+      "105-1_BM_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "male-reproductive-system#ducts-glands",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_008",
+      "115-2_BM_007",
+      "110-1_BM_011",
+      "108-1_BM_020",
+      "111-1_BM_005",
+      "106-2_makeup_BM_009",
+      "108-1_BM_006",
+      "108-2_BM_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "male-reproductive-system#penis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_BM_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "male-reproductive-system#semen-collection",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_OP_037",
+      "106-2_OP_004",
+      "111-2_OP_038"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "male-reproductive-system#semen-values",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_036"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "male-reproductive-system#sexual-differentiation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_005",
+      "115-2_BM_006"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "male-reproductive-system#questions",
+    "tag": "男性不孕症",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 6
+  },
+  {
+    "qkey": "maternal-adaptation#reproductive",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_004",
+      "109-2_OP_004",
+      "107-2_OP_005",
+      "112-2_OP_007",
+      "111-2_OP_013",
+      "113-3_OP_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-adaptation#cardiovascular",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_008",
+      "111-1_OP_032"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-adaptation#other-systems",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_003",
+      "106-1_OP_005",
+      "106-1_OP_034"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-adaptation#skin-msk-endocrine",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_OP_007",
+      "108-2_OP_003",
+      "112-2_OP_006",
+      "113-2_OP_004",
+      "111-2_OP_001",
+      "107-1_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-adaptation#pharmacokinetics",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-adaptation#psychological",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_OP_006",
+      "110-2_OP_007",
+      "109-1_OP_003",
+      "107-2_OP_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-adaptation#rubin-tasks",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_OP_005",
+      "114-1_OP_004",
+      "113-2_OP_005",
+      "112-2_OP_009",
+      "112-1_OP_009",
+      "109-2_OP_009",
+      "108-1_OP_003",
+      "109-2_OP_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-adaptation#family",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_002",
+      "113-1_OP_003",
+      "111-1_OP_009",
+      "106-2_OP_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "maternal-adaptation#questions",
+    "tag": "妊娠生理變化|妊娠色素沉著|布拉克斯頓希克斯收縮|妊娠心理反應|擬娩症候群|手足競爭|心灼熱感|妊娠腸胃不適",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 15
+  },
+  {
     "qkey": "microbial-pathogenesis#questions",
     "tag": null,
     "adm": null,
@@ -16879,6 +23606,187 @@
       "113-2_BM_041",
       "106-2_BM_073",
       "112-2_BM_050"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#muscle-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_BM_018",
+      "105-2_BM_001",
+      "107-2_BM_003",
+      "110-1_BM_009",
+      "110-1_BM_018",
+      "106-2_BM_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#sarcomere",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_BM_002",
+      "108-2_BM_020",
+      "113-1_BM_002",
+      "109-1_BM_021",
+      "105-2_BM_002",
+      "115-2_BM_012",
+      "111-1_BM_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#excitation-contraction",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_BM_018",
+      "113-2_BM_011",
+      "106-1_BM_017",
+      "113-3_BM_011",
+      "110-1_BM_023",
+      "112-1_BM_014",
+      "108-1_BM_026",
+      "106-2_makeup_BM_018",
+      "111-1_FA_055"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#energy",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_012",
+      "108-1_BM_018",
+      "111-1_BM_018",
+      "112-2_BM_011"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#fiber-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_BM_011",
+      "105-2_BM_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#contraction-types",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-1_BM_002",
+      "114-2_FA_031",
+      "110-1_FA_046",
+      "108-2_FA_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#cardiac",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-1_BM_001",
+      "110-1_BM_019",
+      "110-2_BM_017",
+      "109-2_BM_018"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#smooth",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_017",
+      "113-1_BM_010",
+      "114-3_BM_020",
+      "114-2_BM_012"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#head-neck",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-2_BM_004",
+      "105-1_BM_005",
+      "105-2_BM_006",
+      "112-1_BM_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#trunk",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-1_BM_005",
+      "109-2_BM_003",
+      "105-2_BM_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#upper-limb",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_BM_013",
+      "112-3_BM_001",
+      "111-2_BM_003",
+      "109-1_BM_004",
+      "108-2_BM_004",
+      "107-1_BM_003",
+      "115-2_BM_010"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "muscular-system#lower-limb",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_BM_003",
+      "110-2_BM_003",
+      "110-1_BM_003",
+      "106-2_makeup_BM_003",
+      "107-2_BM_004",
+      "115-1_BM_013",
+      "113-3_BM_002"
     ],
     "limit": null
   },
@@ -17176,6 +24084,122 @@
     "limit": null
   },
   {
+    "qkey": "newborn-adaptation#respiration",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-1_OP_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-adaptation#thermoregulation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_OP_029",
+      "112-1_OP_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-adaptation#glucose",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_OP_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-adaptation#gastrointestinal",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_029",
+      "111-1_OP_051"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-adaptation#liver-jaundice",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_OP_027",
+      "107-2_OP_029",
+      "106-2_OP_030",
+      "106-1_OP_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-adaptation#blood",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_OP_030"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-adaptation#hormone-effects",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "109-1_OP_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-adaptation#transition",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_OP_018",
+      "107-2_OP_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-adaptation#behavioral-states",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_030",
+      "108-1_OP_030",
+      "108-2_OP_027"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "newborn-adaptation#questions",
+    "tag": "新生兒假月經",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 6
+  },
+  {
     "qkey": "nutritional-disorders#protein-energy-malnutrition",
     "tag": null,
     "adm": null,
@@ -17218,6 +24242,136 @@
     "keyword": null,
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "postpartum-adaptation#puerperium",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_OP_026",
+      "112-2_OP_020",
+      "109-2_OP_026"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-adaptation#fundus",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-2_OP_010",
+      "105-1_OP_032",
+      "109-2_OP_019",
+      "108-2_OP_018",
+      "113-2_OP_012",
+      "111-2_OP_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-adaptation#afterpains",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_OP_016",
+      "111-1_OP_020",
+      "108-2_OP_021",
+      "107-1_OP_020",
+      "106-2_OP_025"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-adaptation#lochia",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_024",
+      "108-1_OP_023",
+      "112-2_OP_027",
+      "115-1_OP_013"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-adaptation#cervix-vagina-perineum",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-2_OP_035"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-adaptation#ovulation-menstruation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_OP_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-adaptation#cardiovascular-blood",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_021",
+      "110-2_OP_018",
+      "105-1_OP_023"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-adaptation#urinary",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_OP_021",
+      "109-1_OP_023",
+      "112-1_OP_026",
+      "109-2_OP_024",
+      "108-2_OP_020"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-adaptation#lactation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-2_OP_022",
+      "109-1_OP_024",
+      "105-1_BM_024"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "postpartum-adaptation#questions",
+    "tag": "產後惡露|產後痛|產後子宮復舊",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
   },
   {
     "qkey": "respiratory-anatomy#zones",
@@ -17338,6 +24492,227 @@
     "keyword": "(肺泡|支氣管|氣管|喉|會厭|胸膜|肺門|表面張力|肺葉)",
     "ids": [],
     "limit": 8
+  },
+  {
+    "qkey": "skeletal-system#functions",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-3_BM_003",
+      "110-2_BM_002",
+      "114-1_FA_031"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#bone-cells",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#ossification",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-1_BM_001",
+      "105-1_BM_002",
+      "112-3_BM_016",
+      "105-2_MS_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#skull-bones",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_BM_003",
+      "109-1_BM_007",
+      "108-1_BM_005",
+      "107-1_BM_004",
+      "111-2_BM_007",
+      "106-1_BM_003",
+      "106-2_BM_004",
+      "105-1_BM_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#foramina",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "108-1_BM_003",
+      "108-2_BM_003"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#curves",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_BM_002",
+      "105-1_OP_050",
+      "110-1_BM_002",
+      "114-1_BM_013",
+      "109-2_BM_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#thorax",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#upper-limb",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "107-2_BM_005",
+      "114-1_BM_019"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#pelvis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_BM_003",
+      "105-2_BM_004",
+      "106-2_BM_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#leg-bones",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_BM_001",
+      "112-1_OP_071"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#synovial",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_004"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#major-joints",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "106-2_makeup_BM_005",
+      "113-1_BM_012",
+      "106-1_BM_004",
+      "114-2_FA_029"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skeletal-system#immobility",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_FA_026",
+      "112-3_FA_028"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skin#epidermal-layers",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "110-2_BM_009",
+      "107-1_BM_001",
+      "106-1_BM_001",
+      "108-2_BM_002"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skin#epidermal-cells",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "111-1_MS_044",
+      "113-2_BM_001"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skin#dermis",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "115-2_MS_027",
+      "115-2_BM_002",
+      "112-1_BM_005"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "skin#glands",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_BM_001",
+      "114-3_BM_002",
+      "109-1_BM_001",
+      "109-2_MS_044"
+    ],
+    "limit": null
   },
   {
     "qkey": "special-senses#general-senses",
@@ -18529,6 +25904,128 @@
       "108-1_MS_013"
     ],
     "limit": 10
+  },
+  {
+    "qkey": "cpr#chain-of-survival",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-3_MS_050",
+      "114-1_MS_047",
+      "108-2_MS_077",
+      "114-1_OP_026",
+      "114-2_MS_047"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cpr#activation",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-2_MS_047",
+      "106-1_PC_070"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cpr#adult",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_MS_049",
+      "109-1_MS_072",
+      "106-1_MS_075",
+      "110-1_MS_076"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cpr#airway-breathing",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "105-1_MS_075",
+      "107-2_MS_079",
+      "105-1_OP_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cpr#pediatric",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "114-2_OP_029",
+      "110-2_OP_041",
+      "108-2_OP_053",
+      "108-1_OP_055",
+      "115-1_OP_026",
+      "111-2_OP_044",
+      "106-2_OP_044"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cpr#aed",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-1_MS_049",
+      "112-3_MS_048",
+      "108-2_MS_078",
+      "106-2_MS_072"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cpr#rosc",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "112-1_MS_076",
+      "113-3_FA_007"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cpr#fbao-relief",
+    "tag": null,
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [
+      "113-3_MS_048",
+      "105-2_OP_041",
+      "109-1_MS_073",
+      "111-1_OP_042",
+      "107-1_OP_059",
+      "108-1_OP_041"
+    ],
+    "limit": null
+  },
+  {
+    "qkey": "cpr#questions",
+    "tag": "心肺停止|呼吸道異物阻塞",
+    "adm": null,
+    "drug": null,
+    "keyword": null,
+    "ids": [],
+    "limit": 12
   },
   {
     "qkey": "enteral-parenteral-nutrition#routes",

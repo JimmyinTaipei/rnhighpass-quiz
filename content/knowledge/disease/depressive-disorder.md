@@ -4,7 +4,7 @@ subtitle: Depressive disorders(鬱症 Major depressive disorder)
 aliases: [鬱症, 重鬱症, 重度憂鬱症, Major depressive disorder, MDD, 憂鬱, 持續性憂鬱症, 輕鬱症, Dysthymia, 經期前情緒低落症, PMDD, 侵擾性情緒失調症, 季節性憂鬱, 產後憂鬱, 產後憂鬱症, Postpartum depression, 產後情緒低落, 產後精神病, 老年憂鬱, 青少年憂鬱, 假性失智, 自殺, 自殺防治, 自殺評估, 自殺意念, 自殺企圖, 心情溫度計, BSRS-5, 1925, 守門人, 危機處理, 危機理論, 災難, 電氣痙攣療法, ECT, 電痙攣, 光照治療]
 dzTags: [憂鬱症]
 system: psychiatric
-alsoIn: [reproductive, community]
+alsoIn: [obstetrics, community]
 chapters:
   - 藥理-Ch03中樞神經與精神科藥物 > 精神科治療藥物 > 抗憂鬱劑
   - 精神-Ch03精神疾病的病因、症狀、診斷與分類 > 精神疾病的相關因素與致病理論

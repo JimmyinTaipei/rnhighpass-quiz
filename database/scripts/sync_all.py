@@ -15,7 +15,7 @@ import psycopg2.extras
 
 sys.path.insert(0, __file__.rsplit("/scripts/", 1)[0] + "/scripts")
 
-from lib.common import EXAM_GROUPS, list_subject_dirs
+from lib.common import EXAM_GROUPS, list_subject_dirs, validate_source_paths
 from lib.db import get_connection, upsert
 from lib.parse_cards import parse_all_cards
 from lib.parse_chapters import natural_key_from, parse_all_chapters
@@ -24,6 +24,7 @@ from lib.parse_tables import parse_all_tables
 
 
 def main():
+    validate_source_paths()
     counts = {}
     conn = get_connection()
     cur = conn.cursor()

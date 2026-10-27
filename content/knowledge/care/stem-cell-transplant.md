@@ -4,6 +4,7 @@ subtitle: Hematopoietic stem cell transplantation(HSCT；骨髓移植、周邊�
 aliases: [造血幹細胞移植, 幹細胞移植, 骨髓移植, 周邊血液幹細胞移植, HSCT, HCT, BMT, PBSCT, 自體移植, 異體移植, 臍帶血移植, 移植物對抗宿主疾病, 移植體對抗宿主疾病, GVHD, 肝靜脈阻塞疾病, VOD, 竇狀隙阻塞症候群, 植入, Engraftment, 預處理, 保護性隔離, Hickman 導管, 骨髓捐贈]
 dzTags: [造血幹細胞移植, 移植物對抗宿主疾病]
 system: hematology-immunology
+group: transfusion-transplant
 alsoIn: [oncology]
 chapters:
   - 內外-Ch02免疫系統疾病 > 器官移植與護理
