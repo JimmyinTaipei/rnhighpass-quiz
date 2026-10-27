@@ -8,7 +8,6 @@ group: fungi-parasites
 chapters:
   - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗寄生蟲疾病藥物
   - 微免-Ch15寄生蟲學 > 原蟲
-  - 微免-Ch15寄生蟲學 > 蠕蟲
 alsoIn: [digestive, reproductive, community]
 pathogens:
   - id: entamoeba-histolytica

@@ -8,6 +8,7 @@ group: admission-specimens
 chapters:
   - 基護-Ch16繃帶束帶的運用 > 繃帶的運用
   - 基護-Ch16繃帶束帶的運用 > 繃帶、束帶包紮的護理過程應用
+  - 基護-Ch16繃帶束帶的運用 > 束帶的應用
 reviewed: false
 updated: 2026-10-22
 summary: |

@@ -7,6 +7,7 @@ system: neuro
 alsoIn: [critical-care]
 chapters:
   - 內外-Ch15神經系統疾病 > 神經系統創傷
+  - 病理-Ch18感官與神經系統疾病 > 中樞神經系統血管與外傷性疾病
 reviewed: false
 updated: 2026-10-06
 summary: |

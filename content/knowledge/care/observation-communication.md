@@ -8,6 +8,7 @@ chapters:
   - 基護-Ch03觀察與溝通 > 觀察
   - 基護-Ch03觀察與溝通 > 溝通
   - 基護-Ch03觀察與溝通 > 專業性人際關係
+  - 精神-Ch04治療性溝通與人際關係 > 治療性人際關係
 reviewed: false
 updated: 2026-10-22
 summary: |

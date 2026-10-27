@@ -10,6 +10,8 @@ related: { lab: [urinalysis, urologic-diagnostic-procedures], drug: [alpha-block
 chapters:
   - 內外-Ch10腎臟與泌尿系統疾病 > 泌尿道疾病
   - 病理-Ch14泌尿系統疾病 > 泌尿道疾病
+  - 內外-Ch11生殖系統疾病 > 男性生殖系統疾病
+  - 產科-Ch13婦科常見疾病 > 壓力性尿失禁
 reviewed: false
 updated: 2026-10-21
 summary: |

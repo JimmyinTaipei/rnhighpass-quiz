@@ -8,6 +8,8 @@ alsoIn: [hematology-immunology]
 chapters:
   - 內外-Ch15神經系統疾病 > 神經系統退化性疾病
   - 內外-Ch15神經系統疾病 > 神經系統腫瘤與感染疾病
+  - 病理-Ch18感官與神經系統疾病 > 去髓鞘與神經退化性疾病
+  - 病理-Ch17骨骼、關節、軟組織與皮膚系統疾病 > 肌肉與神經肌肉疾病
 reviewed: false
 updated: 2026-10-06
 summary: |

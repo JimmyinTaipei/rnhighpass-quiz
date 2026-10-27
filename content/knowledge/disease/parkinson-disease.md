@@ -7,6 +7,8 @@ system: neuro
 alsoIn: [psychiatric]
 chapters:
   - 內外-Ch15神經系統疾病 > 神經系統退化性疾病
+  - 藥理-Ch03中樞神經與精神科藥物 > 神經退化性疾病治療藥物
+  - 病理-Ch18感官與神經系統疾病 > 去髓鞘與神經退化性疾病
 reviewed: false
 updated: 2026-10-06
 summary: |

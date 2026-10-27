@@ -14,6 +14,7 @@ alsoIn: [endocrine]
 chapters:
   - 生解-Ch13生殖系統 > 男性生殖系統
   - 生解-Ch14胚胎學 > 各系統的胚胎發育起源
+  - 藥理-Ch07泌尿系統與利尿劑 > 男性泌尿生殖系統用藥
 reviewed: false
 updated: 2026-10-27
 references:

@@ -9,6 +9,7 @@ alsoIn: [psychiatric]
 chapters:
   - 藥理-Ch03中樞神經與精神科藥物 > 抗癲癇藥物
   - 藥理-Ch03中樞神經與精神科藥物 > 綜合題型
+  - 內外-Ch15神經系統疾病 > 其他腦神經疾病與特殊問題
 reviewed: false
 updated: 2026-10-06
 summary: |

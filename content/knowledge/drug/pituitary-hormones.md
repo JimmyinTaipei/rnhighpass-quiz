@@ -9,6 +9,7 @@ alsoIn: [reproductive]
 chapters:
   - 藥理-Ch10內分泌與新陳代謝藥物 > 腦下垂體激素相關藥物
   - 內外-Ch08內分泌系統疾病 > 腦下垂體與下視丘疾病
+  - 產科-Ch11分娩期異常之護理 > 引產與產科手術處置
 reviewed: false
 updated: 2026-10-14
 references:

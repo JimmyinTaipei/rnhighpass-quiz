@@ -9,6 +9,7 @@ chapters:
   - 病理-Ch11呼吸系統疾病 > 上呼吸道疾病
   - 微免-Ch11病毒學總論與DNA病毒 > 疱疹病毒
   - 內外-Ch17感覺機能與眼耳鼻喉科疾病 > 鼻科疾病與護理
+  - 病理-Ch08感染性疾病 > 病毒感染
 alsoIn: [integumentary, reproductive, community]
 pathogens:
   - id: herpes-simplex-virus

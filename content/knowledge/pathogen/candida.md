@@ -7,7 +7,6 @@ system: infection
 group: fungi-parasites
 chapters:
   - 藥理-Ch11抗細菌藥物與抗感染藥 > 抗黴菌藥物
-  - 微免-Ch14真菌學 > 真菌學總論
   - 微免-Ch14真菌學 > 深部性黴菌病（伺機性/全身性感染）
 alsoIn: [reproductive, integumentary]
 pathogens:

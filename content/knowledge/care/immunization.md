@@ -7,6 +7,8 @@ system: infection
 alsoIn: [community, hematology-immunology]
 chapters:
   - 微免-Ch03免疫異常與疫苗應用 > 疫苗與預防接種應用
+  - 兒科-Ch07兒童傳染病 > 傳染病兒童之健康評估
+  - 社區-Ch14傳染病防治與護理 > 傳染病管制工作現況
 reviewed: false
 updated: 2026-09-28
 references:

@@ -7,6 +7,7 @@ system: administration
 group: ethics-law-safety
 chapters:
   - 行政-Ch08倫理法律與醫院安全環境 > 護理行政管理之倫理考量
+  - 精神-Ch02精神科護理的倫理與法律觀 > 護理倫理與倫理原則
 reviewed: false
 updated: 2026-10-01
 references:

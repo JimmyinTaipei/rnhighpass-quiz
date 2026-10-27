@@ -12,6 +12,7 @@ group: gi-physiology
 chapters:
   - 生解-Ch09消化系統 > 胰臟
   - 生解-Ch09消化系統 > 肝臟與膽囊
+  - 病理-Ch13肝、膽、胰疾病 > 膽道系統疾病
 reviewed: false
 updated: 2026-10-22
 references:

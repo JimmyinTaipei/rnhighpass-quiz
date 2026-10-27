@@ -9,6 +9,7 @@ alsoIn: [obstetrics]
 chapters:
   - 藥理-Ch04止痛藥與麻醉藥物 > 麻醉劑
   - 藥理-Ch04止痛藥與麻醉藥物 > 綜合題型
+  - 產科-Ch07待產及分娩期之護理評估及護理 > 分娩期間疼痛的處理
 reviewed: false
 updated: 2026-10-06
 summary: |

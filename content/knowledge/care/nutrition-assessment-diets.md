@@ -8,6 +8,7 @@ group: basic-needs
 chapters:
   - 基護-Ch12營養的需要 > 營養的基本概念
   - 基護-Ch12營養的需要 > 飲食治療
+  - 生解-Ch09消化系統 > 營養物質的代謝
 reviewed: false
 updated: 2026-10-22
 summary: |

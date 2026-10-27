@@ -7,6 +7,7 @@ system: administration
 group: ethics-law-safety
 chapters:
   - 行政-Ch08倫理法律與醫院安全環境 > 護理行政管理之法律考量
+  - 基護-Ch04護理記錄 > 病歷的內容及保存
 reviewed: false
 updated: 2026-10-01
 references:

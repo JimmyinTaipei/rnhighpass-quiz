@@ -9,6 +9,7 @@ alsoIn: [fundamentals]
 chapters:
   - 基護-Ch08活動與運動 > 身體對制動的反應
   - 基護-Ch08活動與運動 > 滿足活動及運動需要的護理過程
+  - 內外-Ch12皮膚疾病 > 皮膚特殊損傷與腫瘤
 reviewed: false
 updated: 2026-10-22
 summary: |

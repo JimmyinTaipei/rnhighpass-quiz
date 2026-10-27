@@ -8,6 +8,10 @@ group: genetic-disorders
 alsoIn: [hematology-immunology, musculoskeletal]
 chapters:
   - 病理-Ch06遺傳與基因疾病 > 單一基因與非典型遺傳疾病
+  - 兒科-Ch03新生兒及其護理 > 先天性代謝異常之篩檢及護理
+  - 兒科-Ch10兒童血液疾病 > 貧血
+  - 兒科-Ch10兒童血液疾病 > 血液疾病遺傳模式比較
+  - 病理-Ch10血液、造血與淋巴系統疾病 > 貧血
 reviewed: false
 updated: 2026-10-15
 summary: |

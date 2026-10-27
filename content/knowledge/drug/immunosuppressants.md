@@ -9,6 +9,7 @@ chapters:
   - 病理-Ch05免疫系統疾病 > 器官移植與其他免疫疾病
   - 藥理-Ch12癌症藥物與免疫製劑 > 免疫製劑
   - 內外-Ch02免疫系統疾病 > 器官移植與護理
+  - 微免-Ch03免疫異常與疫苗應用 > 移植免疫與腫瘤免疫
 alsoIn: [renal, oncology]
 reviewed: false
 updated: 2026-09-27

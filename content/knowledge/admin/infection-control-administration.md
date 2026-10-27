@@ -8,6 +8,7 @@ alsoIn: [infection]
 group: ethics-law-safety
 chapters:
   - 行政-Ch08倫理法律與醫院安全環境 > 病人安全管理與傳染病防治
+  - 社區-Ch14傳染病防治與護理 > 傳染病管制工作現況
 reviewed: false
 updated: 2026-10-01
 references:

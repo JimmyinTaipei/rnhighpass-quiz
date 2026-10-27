@@ -8,6 +8,8 @@ alsoIn: [infection, administration]
 chapters:
   - 社區-Ch14傳染病防治與護理 > 重要傳染病流行病學及管制概況
   - 社區-Ch14傳染病防治與護理 > 傳染病防治相關概念
+  - 社區-Ch14傳染病防治與護理 > 傳染病管制工作現況
+  - 內外-Ch05傳染病 > 傳染病基本概念
 reviewed: false
 updated: 2026-09-28
 references:

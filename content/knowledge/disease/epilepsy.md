@@ -7,6 +7,7 @@ system: neuro
 alsoIn: []
 chapters:
   - 內外-Ch15神經系統疾病 > 其他腦神經疾病與特殊問題
+  - 藥理-Ch03中樞神經與精神科藥物 > 抗癲癇藥物
 reviewed: false
 updated: 2026-10-06
 summary: |

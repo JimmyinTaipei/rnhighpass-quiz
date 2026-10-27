@@ -7,7 +7,6 @@ system: cardiovascular
 method: invasive
 group: cardiac-labs
 chapters:
-  - 藥理-Ch08心血管藥物 > 抗心絞痛藥物
   - 內外-Ch13心血管系統疾病 > 冠狀動脈疾病
   - 兒科-Ch09兒童循環系統疾病 > 先天性心臟病 > 先天性心臟病兒童之護理與手術護理
 reviewed: false

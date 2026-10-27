@@ -12,6 +12,7 @@ chapters:
   - 社區-Ch10長期照護 > 現行長期照護服務
   - 內外-Ch15神經系統疾病 > 神經系統退化性疾病
   - 內外-Ch01緒論、老年人與瀕死護理 > 老年人護理
+  - 病理-Ch18感官與神經系統疾病 > 去髓鞘與神經退化性疾病
 related:
   drug: [anti-dementia-drugs, antipsychotics, anxiolytics-hypnotics]
   physiology: [neurotransmitters-psychiatry]

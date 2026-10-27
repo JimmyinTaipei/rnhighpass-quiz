@@ -9,6 +9,7 @@ peds: true
 chapters:
   - 精神-Ch12其他精神科疾病的護理 > 兒童及青少年精神疾病
   - 兒科-Ch17兒童、青少年發展及心理社會健康問題之護理 > 常見的發展、心理健康問題及護理
+  - 藥理-Ch03中樞神經與精神科藥物 > 中樞神經興奮劑
 related:
   drug: [cns-stimulants]
   physiology: [neurotransmitters-psychiatry]

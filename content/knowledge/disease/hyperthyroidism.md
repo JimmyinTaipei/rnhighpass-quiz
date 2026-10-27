@@ -8,6 +8,7 @@ alsoIn: []
 chapters:
   - 內外-Ch08內分泌系統疾病 > 甲狀腺與副甲狀腺疾病
   - 病理-Ch16內分泌系統疾病 > 甲狀腺疾病
+  - 藥理-Ch10內分泌與新陳代謝藥物 > 甲狀腺相關藥物
 reviewed: false
 updated: 2026-10-14
 summary: |

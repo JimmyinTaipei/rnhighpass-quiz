@@ -13,6 +13,7 @@ chapters:
   - 產科-Ch13婦科常見疾病 > 陰道方面的問題
   - 產科-Ch13婦科常見疾病 > 性接觸傳染疾病
   - 產科-Ch13婦科常見疾病 > 骨盆腔炎症
+  - 內外-Ch11生殖系統疾病 > 性學、性健康與性傳染疾病
 pathogens:
   - id: treponema-pallidum
     name: 梅毒螺旋體

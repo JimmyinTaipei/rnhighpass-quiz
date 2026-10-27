@@ -8,6 +8,7 @@ group: bacteria
 chapters:
   - 微免-Ch06革蘭氏陽性桿菌與分枝桿菌 > 白喉棒狀桿菌
   - 微免-Ch06革蘭氏陽性桿菌與分枝桿菌 > 其他革蘭氏陽性桿菌
+  - 微免-Ch06革蘭氏陽性桿菌與分枝桿菌 > 需氧革蘭氏陽性帶芽孢桿菌屬
 alsoIn: []
 pathogens:
   - id: coagulase-negative-staphylococci

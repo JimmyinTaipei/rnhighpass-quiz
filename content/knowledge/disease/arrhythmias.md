@@ -9,6 +9,7 @@ alsoIn: [critical-care]
 chapters:
   - 內外-Ch13心血管系統疾病 > 心律不整疾病
   - 藥理-Ch08心血管藥物 > 抗心律不整藥物
+  - 基護-Ch10生命徵象 > 脈搏
 reviewed: false
 updated: 2026-10-26
 references:

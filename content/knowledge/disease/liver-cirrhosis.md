@@ -11,6 +11,7 @@ group: hepatobiliary-diseases
 chapters:
   - 內外-Ch07消化系統疾病 > 肝膽胰疾病
   - 病理-Ch13肝、膽、胰疾病 > 肝臟疾病
+  - 病理-Ch03代謝、體液與循環障礙 > 體液障礙
 reviewed: false
 updated: 2026-10-22
 references:

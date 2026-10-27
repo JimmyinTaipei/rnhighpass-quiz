@@ -6,7 +6,6 @@ dzTags: [過敏反應, 異位性皮膚炎]
 system: hematology-immunology
 group: immunology-basics
 chapters:
-  - 病理-Ch05免疫系統疾病 > 免疫系統基礎與免疫反應
   - 病理-Ch05免疫系統疾病 > 過敏反應
   - 微免-Ch03免疫異常與疫苗應用 > 過敏反應
   - 內外-Ch02免疫系統疾病 > 過敏反應疾病

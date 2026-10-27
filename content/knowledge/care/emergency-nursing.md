@@ -7,6 +7,7 @@ system: critical-care
 group: emergency-care
 chapters:
   - 內外-Ch06急重症與疼痛護理 > 急症護理
+  - 藥理-Ch13毒理學、成癮藥物與生物製劑 > 毒理學總論
 reviewed: false
 updated: 2026-10-27
 summary: |

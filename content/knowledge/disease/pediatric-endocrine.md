@@ -7,6 +7,7 @@ system: endocrine
 alsoIn: []
 chapters:
   - 兒科-Ch15兒童內分泌系統疾病與慢性病 > 常見內分泌系統疾病
+  - 兒科-Ch03新生兒及其護理 > 先天性代謝異常之篩檢及護理
 reviewed: false
 updated: 2026-10-14
 summary: |

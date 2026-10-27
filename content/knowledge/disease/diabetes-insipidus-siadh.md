@@ -8,6 +8,7 @@ alsoIn: [neuro, renal]
 chapters:
   - 內外-Ch08內分泌系統疾病 > 腦下垂體與下視丘疾病
   - 病理-Ch16內分泌系統疾病 > 腦下垂體疾病
+  - 藥理-Ch10內分泌與新陳代謝藥物 > 腦下垂體激素相關藥物
 reviewed: false
 updated: 2026-10-14
 summary: |

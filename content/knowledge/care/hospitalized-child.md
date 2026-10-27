@@ -16,6 +16,7 @@ peds: true
 chapters:
   - 兒科-Ch05住院兒童之反應及其護理 > 住院兒童的壓力反應
   - 兒科-Ch05住院兒童之反應及其護理 > 協助兒童及家庭因應住院壓力
+  - 兒科-Ch05住院兒童之反應及其護理 > 住院過程中的護理
 reviewed: false
 updated: 2026-10-27
 references:

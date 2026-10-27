@@ -9,6 +9,7 @@ alsoIn: [critical-care]
 chapters:
   - 內外-Ch06急重症與疼痛護理 > 重症護理
   - 內外-Ch13心血管系統疾病 > 心衰竭與心肌病變
+  - 病理-Ch03代謝、體液與循環障礙 > 循環障礙
 reviewed: false
 updated: 2026-10-27
 summary: |

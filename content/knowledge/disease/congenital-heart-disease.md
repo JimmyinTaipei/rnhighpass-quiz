@@ -8,6 +8,7 @@ group: pediatric-cardiac-diseases
 chapters:
   - 兒科-Ch09兒童循環系統疾病 > 先天性心臟病
   - 兒科-Ch09兒童循環系統疾病 > 兒童循環系統之解剖生理與評估
+  - 藥理-Ch08心血管藥物 > 小兒先天性心臟病用藥
 reviewed: false
 updated: 2026-10-27
 summary: |

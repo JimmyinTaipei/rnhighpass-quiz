@@ -7,6 +7,7 @@ system: fundamentals
 group: medication-administration
 chapters:
   - 基護-Ch13給藥法 > 給藥途徑 > 注射給藥（肌肉、皮下、皮內、靜脈注射）
+  - 兒科-Ch05住院兒童之反應及其護理 > 住院過程中的護理
 reviewed: false
 updated: 2026-10-21
 summary: |

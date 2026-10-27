@@ -7,6 +7,8 @@ system: infection
 group: viruses
 chapters:
   - 微免-Ch13肝炎病毒、反轉錄病毒與變性蛋白質 > 變性蛋白質（普利昂蛋白）
+  - 病理-Ch08感染性疾病 > 病原體總論與比較
+  - 微免-Ch01微生物學總論與微生物控制 > 微生物學基本概念
 alsoIn: [neuro]
 pathogens:
   - id: prion

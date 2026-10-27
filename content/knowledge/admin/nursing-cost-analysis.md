@@ -7,6 +7,7 @@ system: administration
 group: finance-budget
 chapters:
   - 行政-Ch06財務預算與成本控制 > 成本分析與控制
+  - 行政-Ch04人力資源管理與排班 > 病人分類系統與護理生產力
 reviewed: false
 updated: 2026-10-01
 references:

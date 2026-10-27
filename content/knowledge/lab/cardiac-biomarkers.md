@@ -8,7 +8,6 @@ method: blood
 bloodGroup: marker
 group: cardiac-labs
 chapters:
-  - 藥理-Ch08心血管藥物 > 抗心絞痛藥物
   - 內外-Ch13心血管系統疾病 > 冠狀動脈疾病
 reviewed: false
 updated: 2026-09-25

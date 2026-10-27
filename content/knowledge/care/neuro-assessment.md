@@ -8,6 +8,7 @@ alsoIn: [fundamentals, critical-care]
 chapters:
   - 內外-Ch15神經系統疾病 > 神經系統基本概念與評估
   - 內外-Ch15神經系統疾病 > 神經系統常見問題
+  - 兒科-Ch13兒童神經系統疾病 > 兒童神經系統之解剖生理與評估
 reviewed: false
 updated: 2026-10-06
 summary: |

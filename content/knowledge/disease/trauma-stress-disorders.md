@@ -8,6 +8,7 @@ alsoIn: []
 chapters:
   - 精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理 > 創傷及壓力相關障礙症
   - 精神-Ch09焦慮障礙、強迫症和創傷及壓力相關障礙病人的護理 > 護理處置
+  - 精神-Ch13危機處理與意外事件的護理 > 危機處理
 related:
   drug: [antidepressants]
   physiology: [neurotransmitters-psychiatry]

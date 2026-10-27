@@ -14,6 +14,7 @@ group: perinatal-care
 chapters:
   - 產科-Ch07待產及分娩期之護理評估及護理 > 分娩期護理評估
   - 產科-Ch07待產及分娩期之護理評估及護理 > 分娩期護理活動
+  - 產科-Ch06分娩過程與娩出階段 > 影響分娩的因素
 reviewed: false
 updated: 2026-10-27
 references:

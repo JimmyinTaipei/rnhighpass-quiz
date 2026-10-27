@@ -7,6 +7,8 @@ system: fundamentals
 group: nutrition-elimination
 chapters:
   - 基護-Ch15排泄需要 > 腸道排泄需要
+  - 藥理-Ch06消化系統藥物 > 排便相關藥物
+  - 兒科-Ch11兒童消化系統疾病 > 常見消化系統問題及其護理
 reviewed: false
 updated: 2026-10-22
 summary: |

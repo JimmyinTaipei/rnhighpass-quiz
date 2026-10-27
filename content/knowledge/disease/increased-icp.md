@@ -7,6 +7,8 @@ system: neuro
 alsoIn: [critical-care]
 chapters:
   - 內外-Ch15神經系統疾病 > 神經系統常見問題
+  - 兒科-Ch13兒童神經系統疾病 > 顱內壓增高
+  - 藥理-Ch07泌尿系統與利尿劑 > 利尿劑
 reviewed: false
 updated: 2026-10-06
 summary: |

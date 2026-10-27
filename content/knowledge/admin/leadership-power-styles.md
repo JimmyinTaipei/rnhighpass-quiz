@@ -7,6 +7,7 @@ system: administration
 group: leadership-communication
 chapters:
   - 行政-Ch05領導統御與溝通激勵 > 領導型態與護理管理者角色
+  - 行政-Ch03組織結構與照護模式 > 授權、賦權與分權
 reviewed: false
 updated: 2026-10-01
 references:
