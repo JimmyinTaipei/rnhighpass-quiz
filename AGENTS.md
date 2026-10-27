@@ -24,6 +24,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 ## 寫作格式補充
 
 - **句尾不加句號**：每一行最後的「。」都省略(列點、段落、方塊皆同)。一行內有兩句以上時，句間的「。」保留當分隔，但盡量拆成兩個列點。
+- **括號**：括號內有中文(含中英混合)用全形「（）」；內容只有英文、縮寫、數字時用半形「()」。改全形時不留括號旁的空白。連結網址、`{#id}`、程式碼等語法處保留半形。中文旁的分號、逗號、冒號用全形。檢查或整理可跑 `python3 scripts/normalize-punctuation.py`(預設 dry-run，`--write` 寫入)
 
 ## 版權與來源規則(雲端 session 與本機 session 都要遵守)
 

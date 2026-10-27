@@ -2,7 +2,7 @@
 # 範本：疾病頁。複製到 content/knowledge/disease/<slug>.md 後改寫。
 # slug 用英文小寫與 -(例：heart-failure、schizophrenia)，發布後不要改名。
 title: 疾病中文名
-subtitle: English name(縮寫)
+subtitle: English name（縮寫）
 aliases: [縮寫, 別名, 英文名]
 dzTags: [題庫的 dz 標籤, 可多個]   # 依護理分章 01_exam_papers/ 的現行 tag: 核對;疾病標籤頁會反向連到本頁
 system: cardiovascular              # 必填，taxonomy.yml 的 domain id
@@ -18,21 +18,21 @@ references:
   - title: OpenStax. <書名>(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考
 ---
-一段 2–3 句的定義與重要性(會成為預覽卡與清單的摘要)。
+一段 2–3 句的定義與重要性（會成為預覽卡與清單的摘要）
 
 ## 重點摘要 {#summary}
 
-- 重點一(3–5 點，一行一件事；考前只看這一區也夠用)
+- 重點一（3–5 點，一行一件事；考前只看這一區也夠用）
 - 重點二
 
 ### 國考常考點 {#exam-points}
 
-- 考點一(國考的標準答案)
+- 考點一（國考的標準答案）
 - 常見錯誤選項
 
 ## 相關生理 {#physiology}
 
-只寫與本病、用藥直接相關的重點;細節連到生理頁或嵌入：
+只寫與本病、用藥直接相關的重點；細節連到生理頁或嵌入：
 ![[生理頁slug#段落id]]
 
 ## 病因與病理生理 {#pathophysiology}
@@ -56,7 +56,7 @@ references:
 | 某檢驗 | 數值 | [[檢驗頁slug]] |
 
 :::exam[國考重點]
-最常考的數字與易混淆選項。
+最常考的數字與易混淆選項
 :::
 
 ## 併發症 {#complications}

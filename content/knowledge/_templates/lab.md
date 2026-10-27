@@ -2,10 +2,10 @@
 # 範本：檢驗頁(段落結構參考 Medscape Laboratory Medicine，內容須原創)。
 # 複製到 content/knowledge/lab/<slug>.md 後改寫。
 title: 檢驗中文名
-subtitle: English name(縮寫)
+subtitle: English name（縮寫）
 aliases: [縮寫, 別名]
 dzTags: []
-summary: |                          # 選填,3–5 行(最多 220 字):預覽卡、疾病頁卡片、|basics 整頁引用會用
+summary: |                          # 選填,3–5 行（最多 220 字）:預覽卡、疾病頁卡片、|basics 整頁引用會用
   一句話講它是什麼、做什麼。
   國考最常考的一兩點。
 system: renal                       # 必填
@@ -20,16 +20,16 @@ references:
   - title: 參考來源
     url: https://
 ---
-一段說明：這項檢驗測什麼、反映什麼生理狀態。
+一段說明：這項檢驗測什麼、反映什麼生理狀態
 
 ## 重點摘要 {#summary}
 
-- 重點一(3–5 點，一行一件事；考前只看這一區也夠用)
+- 重點一（3–5 點，一行一件事；考前只看這一區也夠用）
 - 重點二
 
 ### 國考常考點 {#exam-points}
 
-- 考點一(國考的標準答案)
+- 考點一（國考的標準答案）
 - 常見錯誤選項
 
 ## 參考值 {#reference-range}

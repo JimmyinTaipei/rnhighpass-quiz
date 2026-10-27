@@ -5,6 +5,8 @@
 
 ## 目前輪次
 
+- **收尾(第 17 輪之後)**：計畫在 [wrap-up-plan.md](wrap-up-plan.md)，功能待辦在 [feature-backlog.md](feature-backlog.md)；收尾 A 標點完成(2026-10-27)；下一步收尾 A2(題目 AI 詳解標點)或收尾 B(補連結)
+
 - **輪次**：第 17 輪 兒科通論＋藥理生解剩餘＋總收尾(拆 17a 兒科通論、17b 藥理生解剩餘與零星題＋總收尾)；**在分支 claude/knowledge-assets 做**
 - **計畫**：[round-plans-13-17.md](round-plans-13-17.md)「第 17 輪」
 - **寫回與部署**：**只在 17b 結束**寫回 Supabase＋照 [deploy-size-plan.md](deploy-size-plan.md) 第 4 步部署；17a 不寫回、不部署；17b 做完再 git commit＋push(使用者 2026-10-27 要求)
