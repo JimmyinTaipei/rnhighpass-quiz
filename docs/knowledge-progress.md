@@ -13,7 +13,7 @@
 ## 下一步
 
 1. **收尾 A2**：題目 AI 詳解套用標點規則(使用者已同意)；詳解錯誤更正要**先給使用者看做法**
-2. **Batch 全面檢查**(Gemini 3.8 Flash，剩 NT$2007)：順序 知識頁 → 圖片 → AI 詳解。知識頁請求檔已備好(`batch/knowledge-review/`，`scripts/batch-knowledge-review.py`)，**等使用者先送 6 篇試跑**，回傳後 parse、Claude 逐條查證再列給使用者
+2. **Batch 全面檢查**(Gemini 3.8 Flash，剩 NT$2007)：順序 知識頁 → 圖片 → AI 詳解。知識頁請求檔已備好(`batch/knowledge-review/`，`scripts/batch-knowledge-review.py`)，6 篇試跑完成(2026-10-27，0 個真錯誤；敗血症熱型是誤報，國考題答案就是間歇熱)，all 檔已改思考 high 重產，**等使用者送 all**；用量記在 `batch/usage-log.md`
 3. **功能**：見 [feature-backlog.md](feature-backlog.md)；「功能備忘錄」的項目要先跟使用者討論
 4. **指引追蹤**：見 [guideline-watchlist.md](guideline-watchlist.md)，先查「優先」6 項有沒有新版，結果列給使用者決定
 5. **需確認項目**：見 [review-checklist.md](review-checklist.md)，「待核對」使用者之後再看

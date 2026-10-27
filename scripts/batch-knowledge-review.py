@@ -21,6 +21,9 @@ CONTENT = ROOT / "content" / "knowledge"
 WORK = ROOT / "batch" / "knowledge-review"
 PROMPT = WORK / "prompt.md"
 
+# Gemini 3.8 Flash batch 價格(USD／百萬 tokens，思考算輸出)，到 2026-12-31
+PRICE_IN, PRICE_OUT, TWD = 0.375, 1.875, 32.5
+
 # 送給模型的 frontmatter 只留有助判斷的欄位
 KEEP_FM = ("title", "subtitle", "summary", "updated", "references")
 
@@ -74,14 +77,15 @@ def page_text(p):
     return "---\n" + "\n".join(keep) + "\n---\n" + body.strip() + "\n"
 
 
-def request(p, system):
+def request(p, system, thinking=None):
     slug = p.stem
     user = f"slug: {slug}\n分類：{p.parent.name}\n\n{page_text(p)}"
     return {
         "request": {
             "contents": [{"role": "user", "parts": [{"text": user}]}],
             "systemInstruction": {"parts": [{"text": system}]},
-            "generationConfig": {"responseMimeType": "application/json", "responseSchema": SCHEMA},
+            "generationConfig": {"responseMimeType": "application/json", "responseSchema": SCHEMA}
+            | ({"thinkingConfig": {"thinkingLevel": thinking.upper()}} if thinking else {}),
         }
     }
 
@@ -97,7 +101,7 @@ def prep(a):
     chars = 0
     with out.open("w", encoding="utf-8") as f:
         for p in ps:
-            r = request(p, system)
+            r = request(p, system, a.thinking)
             chars += len(r["request"]["contents"][0]["parts"][0]["text"]) + len(system)
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
     print(f"{len(ps)} 篇 → {out.relative_to(ROOT)}；約 {chars:,} 字(粗估輸入 tokens 同量級)")
@@ -125,10 +129,15 @@ def response_json(line):
 def parse(a):
     files = {p.stem: p for p in pages()}
     rows, errors, seen = [], [], set()
+    usage = {"in": 0, "out": 0, "thought": 0}
     for path in a.files:
         for line in pathlib.Path(path).read_text(encoding="utf-8").splitlines():
             if not line.strip():
                 continue
+            u = (json.loads(line).get("response") or {}).get("usageMetadata") or {}
+            usage["in"] += u.get("promptTokenCount", 0)
+            usage["out"] += u.get("candidatesTokenCount", 0)
+            usage["thought"] += u.get("thoughtsTokenCount", 0)
             slug, data, err = response_json(line)
             seen.add(slug)
             if err:
@@ -148,6 +157,9 @@ def parse(a):
     stem = pathlib.Path(a.files[0]).stem
     (rep / f"{stem}.issues.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows), encoding="utf-8")
     md = [f"# 知識頁審稿結果：{stem}", "", f"{len(seen)} 篇回傳、{len(rows)} 個候選問題、{len(errors)} 篇失敗" + (f"、{len(missing)} 篇缺漏" if missing else ""), ""]
+    cost = usage["in"] * PRICE_IN / 1e6 + (usage["out"] + usage["thought"]) * PRICE_OUT / 1e6
+    use = f"tokens：輸入 {usage['in']:,}、輸出 {usage['out']:,}、思考 {usage['thought']:,}；約 US${cost:.3f}(NT${cost * TWD:.1f})"
+    md += [use, ""]
     md += ["> 這是模型的候選問題，Claude 逐條查證後才改頁面；「原文找不到」表示 quote 不是逐字複製，要人工定位", ""]
     md += ["| 嚴重 | 信心 | 頁面 | 段落 | 問題 | 建議 | 依據 | 原文 |", "|---|---|---|---|---|---|---|---|"]
     esc = lambda s: str(s or "").replace("|", "／").replace("\n", " ")
@@ -158,6 +170,7 @@ def parse(a):
     if missing:
         md += ["", "## 缺漏", ""] + [f"- `{s}`" for s in missing]
     (rep / f"{stem}.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    print(use)
     print(f"{len(seen)} 篇、{len(rows)} 個問題、{len(errors)} 篇失敗 → {(rep / (stem + '.md')).relative_to(ROOT)}")
 
 
@@ -166,6 +179,7 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("prep")
     p.add_argument("--pilot", type=int, default=0)
+    p.add_argument("--thinking", choices=["low", "high"], help="思考程度；不加就用模型預設")
     p = sub.add_parser("parse")
     p.add_argument("files", nargs="+")
     p.add_argument("--expect-all", action="store_true", help="檢查 404 篇有沒有缺漏")
