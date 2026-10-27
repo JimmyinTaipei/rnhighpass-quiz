@@ -176,6 +176,8 @@ references:
 | 用**長柄取物器、穿鞋襪輔具**或請人協助 | 6 週內**開車、性交**（依醫囑） |
 | 上樓**健側先上**、下樓**患側先下**（好上壞下） | 提重物、跑、跳 |
 
+::figure{src="/knowledge-images/msk-tha-precautions.svg" labels="msk-tha-precautions" alt="全髖關節置換術後（後側入路）防脫位：坐矮椅彎腰、蹺腳內收、腳尖向內是禁止動作；平躺時兩腿外展、中間放外展枕（簡易示意圖，之後換成 AI 底圖）"}
+
 - 實證提醒：2020、2023 系統回顧發現後側入路術後有沒有這些限制，**脫位率沒有明顯差異**（約 2.2% vs 2.0%），前側入路多不設限；國考與多數醫院仍照上表，**依醫囑**
 
 #### 合併症 {#tha-complications}
@@ -220,6 +222,8 @@ references:
 | **Phalen 試驗** | **兩手背相貼、腕屈曲 60 秒** | 手指麻木刺痛 → **腕隧道症候群** |
 | **Tinel 徵象** | **敲擊**腕部掌側正中神經 | 刺痛放射到手指 → **腕隧道症候群**（也用於其他神經壓迫） |
 | Homan 徵象 | 足背屈 | 小腿痛 → 深部靜脈血栓（見 [[anticoagulants#dvt-assessment]]） |
+
+::figure{src="/knowledge-images/msk-exam-tests.svg" labels="msk-exam-tests" alt="骨科身體檢查：左上 Thomas 試驗、右上 Phalen 試驗、左下 Tinel 徵象、右下前抽屜試驗（簡易示意圖，之後換成 AI 底圖）"}
 
 - **肌力 0–5 分**：0 無收縮、1 只有收縮、2 去除重力可動、**3 可抗重力但不能抗阻力**、4 可抗部分阻力、5 正常（見 [[activity-immobility#muscle-strength]]）
 - 步態、關節活動度、肢體長度與周徑也是評估重點

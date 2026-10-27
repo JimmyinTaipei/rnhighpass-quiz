@@ -4,7 +4,7 @@ subtitle: Urinary tract infection（膀胱炎、腎盂腎炎、尿道炎、導�
 aliases: [泌尿道感染, 尿路感染, UTI, 下泌尿道感染, 上泌尿道感染, 膀胱炎, Cystitis, 急性膀胱炎, 腎盂腎炎, 急性腎盂腎炎, Pyelonephritis, 尿道炎, Urethritis, 導尿管相關泌尿道感染, CAUTI, 無症狀菌尿, 膀胱輸尿管逆流, VUR, 排尿性膀胱尿道攝影, VCUG, 肋骨脊柱角壓痛, CVA 壓痛, 酸灰性食物, 鹼灰性食物, 蔓越莓, 間質性膀胱炎, K 他命膀胱炎, 腎結核]
 dzTags: [泌尿道感染, 膀胱炎, 急性腎盂腎炎, 腎盂腎炎, 尿道炎, 間質性膀胱炎, 膀胱輸尿管逆流]
 system: renal
-alsoIn: [infection, reproductive]
+alsoIn: [infection]
 group: urologic-diseases
 chapters:
   - 微免-Ch07革蘭氏陰性球菌與腸內桿菌 > 腸內桿菌科

@@ -8554,14 +8554,12 @@
     "qkey": "congenital-heart-disease#drugs",
     "tag": null,
     "adm": null,
-    "drug": null,
-    "keyword": null,
-    "ids": [
-      "107-1_OP_073",
-      "107-2_OP_071",
-      "114-2_OP_041"
+    "drug": [
+      "先天性心臟病用藥"
     ],
-    "limit": null
+    "keyword": null,
+    "ids": [],
+    "limit": 10
   },
   {
     "qkey": "congenital-heart-disease#feeding",
@@ -18594,6 +18592,18 @@
     "keyword": "aspirin|阿斯匹|NSAID|非類固醇|acetaminophen|乙醯胺酚|ibuprofen|celecoxib|COX",
     "ids": [],
     "limit": 10
+  },
+  {
+    "qkey": "obstetric-drugs#questions",
+    "tag": null,
+    "adm": null,
+    "drug": [
+      "子宮收縮劑",
+      "安胎藥物"
+    ],
+    "keyword": null,
+    "ids": [],
+    "limit": 12
   },
   {
     "qkey": "opioids#questions",

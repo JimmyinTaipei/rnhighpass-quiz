@@ -281,6 +281,7 @@ references:
 
 - **早產**：懷孕 **20（或 24）週到未滿 37 週**出現規則宮縮與子宮頸變化
 - 危險因子、徵兆與高危險孕婦的自我照顧見 [[high-risk-pregnancy#preterm-risk]]；早期破水見 [[perinatal-infections#prom-chorioamnionitis]]
+- 產科用藥的整體對照見 [[obstetric-drugs]]
 - 治療目標：安胎約 **48 小時**，爭取時間給**產前類固醇**與轉送到有新生兒加護病房的醫院(ACOG PB 171)
 
 | 安胎藥 | 機轉 | 副作用與監測 |

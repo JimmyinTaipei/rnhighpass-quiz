@@ -1,0 +1,76 @@
+{
+ "image": "msk-burn-positioning.svg",
+ "_說明": "燒傷抗攣縮姿位（仰臥由上往下看）：頸部伸展不睡枕頭、肩外展、肘與膝伸直、腕與膝用副木、踝背屈；簡易示意圖，之後換成 AI 底圖時沿用標籤、只調座標",
+ "labels": [
+  {
+   "id": "neck",
+   "zh": "頸部伸展、不睡枕頭（肩下毛巾捲）",
+   "en": "Neck extension",
+   "x": 50.0,
+   "y": 23.1,
+   "tx": 58.8,
+   "ty": 6.7,
+   "align": "start"
+  },
+  {
+   "id": "shoulder",
+   "zh": "肩外展 90–110°",
+   "en": "Shoulder abduction",
+   "x": 37.5,
+   "y": 26.0,
+   "tx": 28.7,
+   "ty": 37.8,
+   "align": "end"
+  },
+  {
+   "id": "elbow",
+   "zh": "肘伸直",
+   "en": "Elbow extension",
+   "x": 65.0,
+   "y": 26.0,
+   "tx": 70.0,
+   "ty": 37.8,
+   "align": "start"
+  },
+  {
+   "id": "wrist",
+   "zh": "腕伸展（副木）",
+   "en": "Wrist splint",
+   "x": 75.9,
+   "y": 26.0,
+   "tx": 82.5,
+   "ty": 15.6,
+   "align": "start"
+  },
+  {
+   "id": "hip",
+   "zh": "髖伸直、中立（屈曲 0 度）",
+   "en": "Hip extension",
+   "x": 48.2,
+   "y": 58.2,
+   "tx": 31.2,
+   "ty": 58.2,
+   "align": "end"
+  },
+  {
+   "id": "knee",
+   "zh": "膝伸直、膝下不墊枕（膝副木）",
+   "en": "Knee splint",
+   "x": 53.8,
+   "y": 72.2,
+   "tx": 70.0,
+   "ty": 71.1,
+   "align": "start"
+  },
+  {
+   "id": "ankle",
+   "zh": "踝背屈（垂足板）、足跟不受壓",
+   "en": "Ankle dorsiflexion",
+   "x": 54.6,
+   "y": 89.3,
+   "tx": 70.0,
+   "ty": 88.9,
+   "align": "start"
+  }
+ ]
+}

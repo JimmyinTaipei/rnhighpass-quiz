@@ -123,7 +123,7 @@ references:
 
 ### 其他子宮收縮劑：麥角鹼與前列腺素 {#other-uterotonics}
 
-- 不是腦下垂體激素，但常和催產素一起考，先整理在這裡；產後出血的完整處置見 [[postpartum-complications#uterine-atony]]
+- 不是腦下垂體激素，但常和催產素一起考，先整理在這裡；產後出血的完整處置見 [[postpartum-complications#uterine-atony]]；所有產科用藥的對照見 [[obstetric-drugs]]
 
 | 藥物 | 作用 | 使用時機 | 禁忌與監測 |
 |---|---|---|---|

@@ -1,0 +1,42 @@
+{
+ "image": "msk-exam-tests.svg",
+ "_說明": "骨科身體檢查：左上 Thomas 試驗、右上 Phalen 試驗、左下 Tinel 徵象、右下前抽屜試驗；簡易示意圖，之後換成 AI 底圖時沿用標籤、只調座標",
+ "labels": [
+  {
+   "id": "thomas",
+   "zh": "Thomas：對側大腿抬離床面",
+   "en": "Thomas test",
+   "x": 33.8,
+   "y": 31.1,
+   "tx": 25.0,
+   "ty": 8.9
+  },
+  {
+   "id": "phalen",
+   "zh": "Phalen：手背相貼、腕屈曲 60 秒",
+   "en": "Phalen test",
+   "x": 75.0,
+   "y": 31.1,
+   "tx": 75.0,
+   "ty": 47.6
+  },
+  {
+   "id": "tinel",
+   "zh": "Tinel：敲腕部正中神經",
+   "en": "Tinel sign",
+   "x": 32.8,
+   "y": 73.3,
+   "tx": 25.0,
+   "ty": 93.3
+  },
+  {
+   "id": "drawer",
+   "zh": "前抽屜：屈膝 90 度往前拉脛骨",
+   "en": "Anterior drawer test",
+   "x": 87.5,
+   "y": 71.1,
+   "tx": 73.8,
+   "ty": 58.2
+  }
+ ]
+}

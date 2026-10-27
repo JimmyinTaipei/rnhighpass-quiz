@@ -1,0 +1,66 @@
+{
+ "image": "msk-pavlik-harness.svg",
+ "_說明": "帕米利克吊帶（嬰兒仰臥由上往下看）：胸帶、肩帶與腳蹬，前帶與後帶讓髖維持屈曲約 90–100 度並外展（蛙腿姿勢）；簡易示意圖，之後換成 AI 底圖時沿用標籤、只調座標",
+ "labels": [
+  {
+   "id": "chest",
+   "zh": "胸帶",
+   "en": "Chest strap",
+   "x": 55.8,
+   "y": 35.3,
+   "tx": 70.0,
+   "ty": 33.3,
+   "align": "start"
+  },
+  {
+   "id": "shoulder",
+   "zh": "肩帶",
+   "en": "Shoulder strap",
+   "x": 53.8,
+   "y": 30.7,
+   "tx": 70.0,
+   "ty": 22.2,
+   "align": "start"
+  },
+  {
+   "id": "anterior",
+   "zh": "前帶（實線）",
+   "en": "Anterior strap",
+   "x": 43.8,
+   "y": 56.7,
+   "tx": 30.0,
+   "ty": 51.1,
+   "align": "end"
+  },
+  {
+   "id": "posterior",
+   "zh": "後帶（虛線）",
+   "en": "Posterior strap",
+   "x": 59.5,
+   "y": 71.1,
+   "tx": 70.0,
+   "ty": 64.4,
+   "align": "start"
+  },
+  {
+   "id": "stirrup",
+   "zh": "腳蹬",
+   "en": "Stirrup",
+   "x": 41.1,
+   "y": 80.9,
+   "tx": 30.0,
+   "ty": 84.4,
+   "align": "end"
+  },
+  {
+   "id": "position",
+   "zh": "屈髖 90–100°＋外展",
+   "en": "Hip flexion 90–100° with abduction",
+   "x": 62.5,
+   "y": 66.7,
+   "tx": 70.0,
+   "ty": 91.1,
+   "align": "start"
+  }
+ ]
+}

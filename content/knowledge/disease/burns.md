@@ -104,6 +104,8 @@ references:
 | 單側下肢 | **18%**（前、後各 9%） | **14%** |
 | 會陰 | 1% | 1% |
 
+::figure{src="/knowledge-images/msk-rule-of-nines.svg" labels="msk-rule-of-nines" alt="成人九法則（左正面、右背面）：頭頸 9%、單側上肢 9%、軀幹前面 18%、軀幹後面 18%、單側下肢 18%、會陰 1%（簡易示意圖，之後換成 AI 底圖）"}
+
 - 1 歲以後每長 1 歲，頭頸**減 1%**、雙下肢共**加 1%**，約 10 歲接近成人比例（實用兒科護理書頁 902；待核對）
 - **Lund-Browder** 圖表依年齡把頭、大腿、小腿分得更細，最準確，兒童建議使用
 - 只計算**二度以上**；一度燒傷不算入 TBSA
@@ -293,7 +295,7 @@ references:
 | 踝 | 蹠屈（垂足） | 背屈；加墊垂足板，足跟不受壓 |
 
 - 搭配**主動或被動關節運動**、**早期下床**做日常活動
-- AI 底圖：抗攣縮姿位示意圖待製作（見 docs/sources/musculoskeletal-skin-images.md AI-2）
+::figure{src="/knowledge-images/msk-burn-positioning.svg" labels="msk-burn-positioning" alt="燒傷抗攣縮姿位（仰臥由上往下看）：頸部伸展不睡枕頭、肩外展、肘與膝伸直、腕與膝用副木、踝背屈（簡易示意圖，之後換成 AI 底圖）"}
 
 ::questions{ids="109-2_MS_046,105-2_MS_045,105-1_MS_047"}
 

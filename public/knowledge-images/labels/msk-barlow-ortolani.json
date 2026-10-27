@@ -1,0 +1,52 @@
+{
+ "image": "msk-barlow-ortolani.svg",
+ "_說明": "發展性髖關節發育不良的新生兒檢查（由腳端看，髖膝屈曲 90 度）：左 Barlow 內收往後壓，右 Ortolani 外展並把大轉子往前抬；簡易示意圖，之後換成 AI 底圖時沿用標籤、只調座標",
+ "labels": [
+  {
+   "id": "barlow",
+   "zh": "Barlow：內收＋往後下壓",
+   "en": "Barlow: adduct and push back",
+   "x": 25.0,
+   "y": 42.2,
+   "tx": 25.0,
+   "ty": 11.1
+  },
+  {
+   "id": "barlow-pos",
+   "zh": "陽性：股骨頭滑出髖臼",
+   "en": "Positive: hip dislocates",
+   "x": 25.0,
+   "y": 66.7,
+   "tx": 25.0,
+   "ty": 88.9
+  },
+  {
+   "id": "ortolani",
+   "zh": "Ortolani：外展＋大轉子往前抬",
+   "en": "Ortolani: abduct and lift",
+   "x": 75.0,
+   "y": 42.2,
+   "tx": 75.0,
+   "ty": 11.1
+  },
+  {
+   "id": "ortolani-pos",
+   "zh": "陽性：喀嗒聲、股骨頭復位",
+   "en": "Positive: clunk, hip reduces",
+   "x": 75.0,
+   "y": 66.7,
+   "tx": 75.0,
+   "ty": 88.9
+  },
+  {
+   "id": "hand",
+   "zh": "手指在大轉子",
+   "en": "Fingers on greater trochanter",
+   "x": 84.8,
+   "y": 46.7,
+   "tx": 87.5,
+   "ty": 66.7,
+   "align": "start"
+  }
+ ]
+}

@@ -149,6 +149,7 @@ references:
 
 1. **NSAID（例如 indomethacin、ibuprofen）**用於**關閉動脈導管**（早產兒開放性動脈導管）；**PGE1 則是打開**，兩者作用相反
 2. 與 NSAID、aspirin 的作用與副作用相反，所以**PGE 與 NSAID 不是同類藥物**
+3. 先天性心臟病兒童的 PGE1、indomethacin、digoxin 等用藥護理見 [[congenital-heart-disease#drugs]]
 
 ## 血清胺(5-HT)相關藥物 {#serotonin-drugs}
 

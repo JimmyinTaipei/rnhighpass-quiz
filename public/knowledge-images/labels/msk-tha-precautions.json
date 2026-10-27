@@ -1,0 +1,60 @@
+{
+ "image": "msk-tha-precautions.svg",
+ "_說明": "全髖關節置換術後（後側入路）防脫位：坐矮椅彎腰、蹺腳內收、腳尖向內是禁止動作；平躺時兩腿外展、中間放外展枕；簡易示意圖，之後換成 AI 底圖時沿用標籤、只調座標",
+ "labels": [
+  {
+   "id": "flexion",
+   "zh": "✕ 髖屈曲 > 90 度",
+   "en": "Hip flexion > 90°",
+   "x": 9.0,
+   "y": 77.3,
+   "tx": 12.5,
+   "ty": 15.6
+  },
+  {
+   "id": "low-chair",
+   "zh": "坐矮椅、彎腰撿東西",
+   "en": "Low chair, bending",
+   "x": 16.0,
+   "y": 66.7,
+   "tx": 12.5,
+   "ty": 24.4
+  },
+  {
+   "id": "adduction",
+   "zh": "✕ 內收：蹺腳",
+   "en": "Adduction",
+   "x": 39.0,
+   "y": 75.6,
+   "tx": 37.5,
+   "ty": 15.6
+  },
+  {
+   "id": "rotation",
+   "zh": "✕ 內旋：腳尖向內",
+   "en": "Internal rotation",
+   "x": 60.0,
+   "y": 88.4,
+   "tx": 62.5,
+   "ty": 15.6
+  },
+  {
+   "id": "abduction",
+   "zh": "✓ 外展、腳尖朝上",
+   "en": "Abduction, neutral",
+   "x": 90.5,
+   "y": 76.7,
+   "tx": 87.5,
+   "ty": 15.6
+  },
+  {
+   "id": "pillow",
+   "zh": "外展枕",
+   "en": "Abduction pillow",
+   "x": 87.5,
+   "y": 84.4,
+   "tx": 87.5,
+   "ty": 26.7
+  }
+ ]
+}

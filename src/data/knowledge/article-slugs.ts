@@ -277,6 +277,7 @@ export const ARTICLE_SLUGS: readonly string[] = [
   "mood-stabilizers",
   "nitrates",
   "nsaids-acetaminophen",
+  "obstetric-drugs",
   "opioids",
   "pharmacokinetics-pharmacodynamics",
   "pituitary-hormones",

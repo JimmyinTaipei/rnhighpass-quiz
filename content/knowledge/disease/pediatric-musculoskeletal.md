@@ -73,6 +73,8 @@ references:
 | 外展 | 3 個月以後 | 屈髖後外展 | 患側**外展受限、有阻力** |
 | **Trendelenburg** | 會走以後 | 患肢單腳站立 | **健側骨盆下垂**（患側臀中肌無力）；鴨步、跛行 |
 
+::figure{src="/knowledge-images/msk-barlow-ortolani.svg" labels="msk-barlow-ortolani" alt="發展性髖關節發育不良的新生兒檢查（由腳端看，髖膝屈曲 90 度）：左 Barlow 內收往後壓，右 Ortolani 外展並把大轉子往前抬（簡易示意圖，之後換成 AI 底圖）"}
+
 - 6 個月以下用**髖關節超音波**（股骨頭還沒骨化），較大用 X 光
 - 新生兒身體評估流程見 [[newborn-assessment#extremities]]
 
@@ -85,6 +87,8 @@ references:
 | **0–6 個月**（黃金期） | **Pavlik 吊帶**：維持髖**屈曲**（約 90–100 度）與**外展**，讓股骨頭自然對進髖臼；全天穿，依醫囑調整 |
 | 6 個月–2 歲 | 牽引（含 **Bryant 牽引**）後**閉鎖性復位**＋**髖部人字形石膏** |
 | 2 歲以上 | **開放性復位**、骨盆或股骨截骨；**不能只靠吊帶** |
+
+::figure{src="/knowledge-images/msk-pavlik-harness.svg" labels="msk-pavlik-harness" alt="帕米利克吊帶（嬰兒仰臥由上往下看）：胸帶、肩帶與腳蹬，前帶與後帶讓髖維持屈曲約 90–100 度並外展（蛙腿姿勢）（簡易示意圖，之後換成 AI 底圖）"}
 
 - **Pavlik 吊帶**護理
    1. 教父母正確穿戴，**在帶子正確位置做記號**；**不自行調整**鬆緊與角度
@@ -119,6 +123,8 @@ references:
    2. **腰線（手臂與軀幹間的空隙）不對稱**、**骨盆傾斜**、長短腳
    3. **前彎試驗(Adams test)**：彎腰 90 度，從背後看到**單側肋骨隆起**（脊椎旋轉造成）
    4. 嚴重時影響**肺功能**
+::figure{src="/knowledge-images/msk-scoliosis-adams.svg" labels="msk-scoliosis-adams" alt="脊柱側彎：左為站立背面（兩肩不等高、肩胛骨一側突出、腰線不對稱），右為前彎試驗由背後看到單側肋骨隆起（簡易示意圖，之後換成 AI 底圖）"}
+
 - 篩檢：學校健康檢查（見 [[school-health]]）；確診用**全脊椎 X 光**，量 **Cobb 角**；追蹤用 X 光，不常規做電腦斷層
 - 治療（教科書與國考詳解常用的分法，SOSORT 2016 原文待核對）
 

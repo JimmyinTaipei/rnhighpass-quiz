@@ -1,0 +1,55 @@
+{
+ "image": "msk-scoliosis-adams.svg",
+ "_說明": "脊柱側彎：左為站立背面（兩肩不等高、肩胛骨一側突出、腰線不對稱），右為前彎試驗由背後看到單側肋骨隆起；簡易示意圖，之後換成 AI 底圖時沿用標籤、只調座標",
+ "labels": [
+  {
+   "id": "shoulder",
+   "zh": "兩肩不等高",
+   "en": "Uneven shoulders",
+   "x": 32.8,
+   "y": 23.1,
+   "tx": 41.2,
+   "ty": 13.3,
+   "align": "start"
+  },
+  {
+   "id": "scapula",
+   "zh": "肩胛骨一側突出",
+   "en": "Prominent scapula",
+   "x": 30.0,
+   "y": 33.3,
+   "tx": 41.2,
+   "ty": 31.1,
+   "align": "start"
+  },
+  {
+   "id": "curve",
+   "zh": "脊柱側彎合併旋轉",
+   "en": "Spinal curve",
+   "x": 27.8,
+   "y": 38.9,
+   "tx": 41.2,
+   "ty": 46.7,
+   "align": "start"
+  },
+  {
+   "id": "waist",
+   "zh": "腰線不對稱、骨盆傾斜",
+   "en": "Uneven waist and pelvis",
+   "x": 19.0,
+   "y": 60.0,
+   "tx": 7.5,
+   "ty": 73.3,
+   "align": "end"
+  },
+  {
+   "id": "adams",
+   "zh": "前彎 90 度：單側肋骨隆起",
+   "en": "Adams test: rib hump",
+   "x": 85.0,
+   "y": 35.6,
+   "tx": 75.0,
+   "ty": 13.3
+  }
+ ]
+}
