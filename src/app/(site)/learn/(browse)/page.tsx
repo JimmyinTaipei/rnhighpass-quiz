@@ -51,7 +51,7 @@ export default async function LearnPage(props: PageProps<"/learn">) {
         <Library className="text-accent" /> 知識庫
       </h1>
       <p className="mb-6 text-sm text-body">以知識點為單位整理、依系統分類，彼此互相連結。數字是相關國考題數。</p>
-      <LearnIndex domains={taxonomy.domains} query={q} type={type} results={searchKnowledge(q, type)}>
+      <LearnIndex domains={taxonomy.domains} query={q} type={type} results={await searchKnowledge(q, type)}>
         <Suspense fallback={null}>
           <ContinueLastVisit />
         </Suspense>

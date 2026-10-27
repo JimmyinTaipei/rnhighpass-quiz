@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // 知識庫全文在 public/knowledge-data,執行時由 ASSETS 讀取(src/lib/knowledge/data-files.ts),
+  // 不要被檔案追蹤複製進伺服器輸出
+  outputFileTracingExcludes: {
+    "**": ["public/knowledge-data/**/*"],
+  },
   // 「體液、電解質與酸鹼」併入泌尿系統(2026-10);舊網址永久轉址
   async redirects() {
     return [{ source: "/learn/system/fluid-acid-base", destination: "/learn/system/renal", permanent: true }];

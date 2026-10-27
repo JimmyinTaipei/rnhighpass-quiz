@@ -34,6 +34,9 @@ import YAML from "yaml";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT_DIR = path.join(ROOT, "content/knowledge");
 const OUT_DIR = path.join(ROOT, "src/data/knowledge");
+// 文章全文與搜尋索引放靜態資產,執行時才讀(見 src/lib/knowledge/data-files.ts);
+// 打包進 Worker 會超過 Cloudflare 64 MiB 上限(2026-10-27,docs/deploy-size-plan.md)
+const DATA_DIR = path.join(ROOT, "public/knowledge-data");
 const CREDITS_FILE = path.join(ROOT, "public/knowledge-images/credits.json");
 const LABELS_DIR = path.join(ROOT, "public/knowledge-images/labels");
 const TAXONOMY_FILE = path.join(CONTENT_DIR, "taxonomy.yml");
@@ -1192,16 +1195,20 @@ function main() {
     process.exit(1);
   }
 
+  // 舊版輸出在 src/data/knowledge 的 articles/、search.json、loaders.ts,留著會被打包,一併清掉
   fs.rmSync(path.join(OUT_DIR, "articles"), { recursive: true, force: true });
-  fs.mkdirSync(path.join(OUT_DIR, "articles"), { recursive: true });
+  fs.rmSync(path.join(OUT_DIR, "search.json"), { force: true });
+  fs.rmSync(path.join(OUT_DIR, "loaders.ts"), { force: true });
+  fs.rmSync(path.join(DATA_DIR, "articles"), { recursive: true, force: true });
+  fs.mkdirSync(path.join(DATA_DIR, "articles"), { recursive: true });
   for (const { slug, json } of outputs) {
-    fs.writeFileSync(path.join(OUT_DIR, "articles", `${slug}.json`), JSON.stringify(json));
+    fs.writeFileSync(path.join(DATA_DIR, "articles", `${slug}.json`), JSON.stringify(json));
   }
   fs.writeFileSync(path.join(OUT_DIR, "index.json"), JSON.stringify(index));
   fs.writeFileSync(path.join(OUT_DIR, "question-slots.json"), JSON.stringify(slots, null, 2) + "\n");
   fs.writeFileSync(path.join(OUT_DIR, "credits.json"), JSON.stringify(credits));
   fs.writeFileSync(path.join(OUT_DIR, "taxonomy.json"), JSON.stringify(taxonomyOutput(taxonomy, articles)));
-  fs.writeFileSync(path.join(OUT_DIR, "search.json"), JSON.stringify(searchOutput(articles, index)));
+  fs.writeFileSync(path.join(DATA_DIR, "search.json"), JSON.stringify(searchOutput(articles, index)));
   fs.writeFileSync(path.join(OUT_DIR, "pathogen-index.json"), JSON.stringify(pathogenIndex, null, 2) + "\n");
   fs.writeFileSync(path.join(OUT_DIR, "chapter-map.json"), JSON.stringify(chapterMap.output, null, 1) + "\n");
   fs.writeFileSync(path.join(OUT_DIR, "chapter-points.json"), JSON.stringify(chapterPoints));
@@ -1209,20 +1216,15 @@ function main() {
   const mapFile = path.join(OUT_DIR, "question-map.json");
   if (!fs.existsSync(mapFile)) fs.writeFileSync(mapFile, "{}\n");
 
-  // 動態 import 的對照表:讓每篇文章各自成為一個 chunk,不必整包載入
-  const loader = [
+  // 文章 slug 清單:檢查 slug 是否存在、列出全部文章用;全文不打包
+  const slugList = [
     "// 由 scripts/build-knowledge.mjs 產生,請勿手改。",
-    'import type { KnowledgeArticle } from "@/lib/knowledge/types";',
-    "",
-    "export const ARTICLE_LOADERS: Record<string, () => Promise<KnowledgeArticle>> = {",
-    ...outputs.map(
-      ({ slug }) =>
-        `  ${JSON.stringify(slug)}: () => import("./articles/${slug}.json").then((m) => m.default as unknown as KnowledgeArticle),`,
-    ),
-    "};",
+    "export const ARTICLE_SLUGS: readonly string[] = [",
+    ...outputs.map(({ slug }) => `  ${JSON.stringify(slug)},`),
+    "];",
     "",
   ].join("\n");
-  fs.writeFileSync(path.join(OUT_DIR, "loaders.ts"), loader);
+  fs.writeFileSync(path.join(OUT_DIR, "article-slugs.ts"), slugList);
 
   for (const w of warnings) console.warn("  ⚠ " + w);
   const linkCount = Object.values(index.links).reduce((n, l) => n + l.length, 0);

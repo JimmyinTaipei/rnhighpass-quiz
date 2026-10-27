@@ -3,8 +3,8 @@ import creditsJson from "@/data/knowledge/credits.json";
 import questionMapJson from "@/data/knowledge/question-map.json";
 import questionSlotsJson from "@/data/knowledge/question-slots.json";
 import taxonomyJson from "@/data/knowledge/taxonomy.json";
-import searchJson from "@/data/knowledge/search.json";
-import { ARTICLE_LOADERS } from "@/data/knowledge/loaders";
+import { ARTICLE_SLUGS } from "@/data/knowledge/article-slugs";
+import { readKnowledgeData } from "./data-files";
 import { examCountFor, examStatsFor } from "./exam";
 import type {
   ArticleSummary,
@@ -27,7 +27,6 @@ import { RELATED_GROUPS } from "./types";
 export const knowledgeIndex = indexJson as unknown as KnowledgeIndex;
 export const imageCredits = creditsJson as unknown as Record<string, ImageCredit>;
 export const taxonomy = taxonomyJson as unknown as Taxonomy;
-const searchEntries = searchJson as unknown as SearchEntry[];
 
 interface QuestionMapEntry {
   auto?: string[];
@@ -47,13 +46,37 @@ const questionSlots = new Map(
   (questionSlotsJson as QuestionSlot[]).map((s) => [s.qkey, s]),
 );
 
+const articleSlugSet = new Set(ARTICLE_SLUGS);
+
 export function getArticleSlugs(): string[] {
-  return Object.keys(ARTICLE_LOADERS);
+  return [...ARTICLE_SLUGS];
 }
 
+// 全文放在靜態資產(見 data-files.ts),同一個 isolate 內留最近讀過的幾篇
+const ARTICLE_CACHE_SIZE = 64;
+const articleCache = new Map<string, KnowledgeArticle>();
+
 export async function loadArticle(slug: string): Promise<KnowledgeArticle | null> {
-  const loader = ARTICLE_LOADERS[slug];
-  return loader ? loader() : null;
+  if (!articleSlugSet.has(slug)) return null;
+  const cached = articleCache.get(slug);
+  if (cached) return cached;
+  const article = await readKnowledgeData<KnowledgeArticle>(`articles/${slug}.json`);
+  if (!article) return null;
+  if (articleCache.size >= ARTICLE_CACHE_SIZE) {
+    articleCache.delete(articleCache.keys().next().value as string);
+  }
+  articleCache.set(slug, article);
+  return article;
+}
+
+// 搜尋索引約 5 MB,第一次搜尋才讀,之後留在記憶體;讀取失敗不快取,下次再試
+let searchEntriesPromise: Promise<SearchEntry[] | null> | null = null;
+
+async function loadSearchEntries(): Promise<SearchEntry[]> {
+  searchEntriesPromise ??= readKnowledgeData<SearchEntry[]>("search.json");
+  const entries = await searchEntriesPromise;
+  if (!entries) searchEntriesPromise = null;
+  return entries ?? [];
 }
 
 let summaries: ArticleSummary[] | null = null;
@@ -220,9 +243,10 @@ function snippetOf(text: string, pos: number, len: number): [string, string, str
 /**
  * 排序:標題開頭符合 < 標題包含 < 別名/麵包屑 < 只有內文符合;同分時整篇文章在前。
  */
-export function searchKnowledge(query: string, type: KnowledgeCategory | null): SearchResult[] {
+export async function searchKnowledge(query: string, type: KnowledgeCategory | null): Promise<SearchResult[]> {
   const q = query.trim().toLowerCase();
   if (!q) return [];
+  const searchEntries = await loadSearchEntries();
   const hits: { rank: number; result: SearchResult }[] = [];
   for (const e of searchEntries) {
     if (type && e.c !== type) continue;
