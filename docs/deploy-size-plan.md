@@ -62,4 +62,4 @@
 | 1 | 提交目前內容(7c91d9b，已推到 GitHub)、開分支 claude/knowledge-assets | ✅ 2026-10-27 |
 | 2 | 第一、二階段修改：build-knowledge 輸出到 public/knowledge-data、article-slugs.ts 取代 loaders.ts、data-files.ts(ASSETS／本機讀磁碟)、loadArticle 加快取、searchKnowledge 改 async、next.config 排除檔案追蹤 | ✅ 2026-10-27 |
 | 3 | 測試：型別檢查通過；next dev 文章、搜尋、嵌入、404 正常；OpenNext 建置 handler **59 MB → 20.4 MB**；wrangler dev 396 篇全部 200 且含標題(本機中位數 213 ms)、搜尋、/k 面板、Apgar 嵌入、/quiz 登入導向(307)正常；不存在頁面回 200 是原本就有的行為(線上舊版也一樣) | ✅ 2026-10-27 |
-| 4 | 部署、檢查、實測速度(改前線上基準：20 篇中位數約 3.4 秒) | ⬜ 等使用者同意 |
+| 4 | 部署、檢查、實測速度(改前線上基準：20 篇中位數約 3.4 秒) | ⬜ **使用者決定第 17 輪(17b)做完再部署** |

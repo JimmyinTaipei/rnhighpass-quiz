@@ -5,7 +5,7 @@
 
 ## 目前輪次
 
-- **輪次**：第 16 輪 產科＋新生兒(拆 16a 生殖婦科、16b 妊娠期、16c 分娩、16d 產後、16e 新生兒)；**第 16 輪全部完成(2026-10-27)**：16-0、16a–16e；下一輪第 17 輪(17a、17b，17b 結束才寫回部署)；**16e 部署失敗：Worker 超過大小上限，見狀態**
+- **輪次**：第 16 輪 產科＋新生兒(拆 16a 生殖婦科、16b 妊娠期、16c 分娩、16d 產後、16e 新生兒)；**第 16 輪全部完成(2026-10-27)**：16-0、16a–16e；下一輪第 17 輪(17a、17b，17b 結束才寫回部署)；**部署延到 17b，第 17 輪在分支 claude/knowledge-assets 做**
 - **計畫**：[round-plans-13-17.md](round-plans-13-17.md)「第 16 輪」；本檔下方步驟表是細分組
 - **每小輪一個新對話**：開工先讀本檔 → round-plans-13-17.md 第 16 輪 → [sources/obstetrics.md](sources/obstetrics.md)(**第一節題本章 → 課本章對照，章號不一樣**；第七節是這輪的移交 14 列與分配)
 - **寫回與部署(使用者 2026-10-27 決定)**：第 16、17 輪**只在最後一批做**：**16e 結束**時寫回 Supabase＋部署 workers.dev，**17b 結束**時再做一次；16b、16c、16d、17a 收尾**不寫回、不部署**(只跑 build、resolver、涵蓋報告、source-scan)。16a 在決定前已寫回並部署(版本 ed3095ba)
@@ -19,7 +19,7 @@
    3. 16d 的 7 處已改成連結 ✅(另 maternal-child-health#breastfeeding 1 處)
    4. 16e 的全部已改成連結 ✅(原清單：fertilization-embryology 2 處(單一臍動脈、斷臍與臍帶護理)、high-risk-pregnancy 2 處(新生兒低血糖、ABO 黃疸)、labor-process 1 處(產瘤、頭血腫)、intrapartum-care 2 處(新生兒復甦、新生兒評估；**Apgar 表暫放 intrapartum-care#third-stage-care**，16e 決定搬到新生兒頁再嵌入)、labor-complications 2 處(早產兒照護、頭血腫與產瘤比較)、**breastfeeding 2 處**(#nutrients 維生素 D、#adequate-intake 新生兒評估)＋#breastfeeding-jaundice 1 處(新生兒黃疸照光))
    5. 用 `grep -rn "16[de] 待寫" content/knowledge` 找全部
-- **狀態**：**第 16 輪內容全部完成**；16e 收尾已寫回 Supabase；**部署失敗(Worker 超過 64 MiB 上限)，待使用者決定打包方式**；之後第 17 輪 17a(新對話)
+- **狀態**：**第 16 輪內容全部完成**；16e 收尾已寫回 Supabase；16e 部署因 Worker 超過 64 MiB 失敗，**打包方式已改好(分支 claude/knowledge-assets，見 [deploy-size-plan.md](deploy-size-plan.md))，使用者決定第 17 輪做完再部署**；下一步第 17 輪 17a(新對話，**在 claude/knowledge-assets 分支上做**)
 
 ### 第 16 輪步驟
 
