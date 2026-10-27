@@ -8,6 +8,7 @@
 |---|---|
 | [review-checklist.md](review-checklist.md) | **需確認總表**：圖片待審、待核對、國考與現行不同，勾選或在行尾留意見 |
 | [feature-backlog.md](feature-backlog.md) | **功能列表**：「功能備忘錄」放你的想法，討論後才移到下面的表格 |
+| [guideline-watchlist.md](guideline-watchlist.md) | **指引追蹤清單**：每年或 2–3 年改版的指引、頁面目前版本、下次要查什麼(AI 定期檢查用) |
 
 ## Claude 工作用(你不用看)
 
