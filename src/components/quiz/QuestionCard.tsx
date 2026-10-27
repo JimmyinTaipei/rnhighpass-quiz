@@ -12,6 +12,7 @@ import {
   type OptionKey,
 } from "@/lib/quiz-utils";
 import { useIsClient } from "@/lib/use-is-client";
+import { useViewer } from "@/components/viewer/ViewerProvider";
 import { TableModalLink } from "@/components/tables/TableModalLink";
 import { QuestionEditForm } from "@/components/admin/QuestionEditForm";
 import { FavoriteButton } from "@/components/favorites/FavoriteButton";
@@ -44,7 +45,7 @@ interface QuestionCardProps {
   /** 相關知識頁(knowledgeForQuestions)，作答後在詳解底下列「複習知識點」，點開是知識面板 */
   knowledge?: KnowledgeRef[];
   /**
-   * dev mode：由 server 端 getDevMode()(admin 且開關打開)決定。
+   * dev mode：由 server 端 getDevMode()(admin 且開關打開)決定；靜態頁傳 false，改看 useViewer()。
    * 只影響要不要渲染編輯工具，實際授權在 updateQuestion action 與 RLS。
    */
   devMode?: boolean;
@@ -68,7 +69,7 @@ interface QuestionCardProps {
 export function QuestionCard({
   question,
   mode = "practice",
-  isLoggedIn,
+  isLoggedIn: isLoggedInProp,
   onAnswered,
   hideExplanationWhenCorrect = false,
   revealAnswer,
@@ -77,13 +78,17 @@ export function QuestionCard({
   otherChapters,
   diseaseTags,
   knowledge,
-  devMode = false,
+  devMode: devModeProp = false,
   shuffleOptions = true,
   selected: selectedProp,
   onSelect,
   reveal,
   optionOrder,
 }: QuestionCardProps) {
+  // 靜態頁(知識頁)由伺服器傳進來的都是 false，實際狀態以瀏覽器端讀到的使用者為準
+  const viewer = useViewer();
+  const isLoggedIn = isLoggedInProp || viewer.loggedIn;
+  const devMode = devModeProp || viewer.devMode;
   const controlled = onSelect !== undefined;
   const [innerSelected, setSelected] = useState<OptionKey | null>(
     (revealAnswer as OptionKey | undefined) ?? null,

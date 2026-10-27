@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { isMockOnly } from "@/lib/site-mode";
 import { FavoritesProvider } from "@/components/favorites/FavoritesProvider";
@@ -9,8 +8,8 @@ import { MobileTabBar } from "@/components/shell/MobileTabBar";
 import { MobileTopBar } from "@/components/shell/MobileTopBar";
 import { NavHistoryTracker } from "@/components/shell/NavHistoryTracker";
 import { ScrollTopButton } from "@/components/shell/ScrollTopButton";
-import { Skeleton } from "@/components/ui/Skeleton";
 import { UserStatus } from "@/components/ui/UserStatus";
+import { ViewerProvider } from "@/components/viewer/ViewerProvider";
 
 // 主站外框：md 以上是左側分區側邊欄(iPad 的 sidebar)，手機是頂部標題列＋底部頁籤(iPhone 的
 // navigation bar + tab bar)。兩者讀同一份 lib/nav-items.ts，同一頁在兩種裝置上屬於同一個分區。
@@ -28,43 +27,31 @@ export default function SiteLayout({
   if (isMockOnly()) notFound();
 
   return (
-    <FavoritesProvider>
-      {/* data-ui="apple":主站的 Apple 風格 token(globals.css)，模擬考與列印頁不受影響 */}
-      <div data-ui="apple" className="flex flex-1 flex-col">
-        {/* 讀 cookie 的部分都包 Suspense：layout 讀 runtime 資料時 loading.tsx 不會顯示，
-            導覽會卡到 layout 渲染完才換頁(Next 16 文件) */}
-        <Suspense fallback={null}>
+    <ViewerProvider>
+      <FavoritesProvider>
+        {/* data-ui="apple":主站的 Apple 風格 token(globals.css)，模擬考與列印頁不受影響 */}
+        <div data-ui="apple" className="flex flex-1 flex-col">
+          {/* 外框不讀 cookie：登入狀態與 dev mode 由 ViewerProvider 在瀏覽器端讀 /api/me，
+              知識頁才能預先產生成靜態頁(docs/deploy-size-plan.md) */}
           <DevBanner />
-        </Suspense>
-        <div className="flex flex-1">
-          <AppSidebar
-            account={
-              <Suspense fallback={<Skeleton className="h-9 w-full rounded-lg" />}>
-                <UserStatus />
-              </Suspense>
-            }
-          />
-          <div className="flex min-w-0 flex-1 flex-col">
-            <MobileTopBar
-              trailing={
-                <Suspense fallback={null}>
-                  <UserStatus variant="mobile" />
-                </Suspense>
-              }
-            />
-            {/* 電腦版左上角返回(手機用上面 MobileTopBar 的返回鍵) */}
-            <DesktopBackBar />
-            {/* 手機底部頁籤 3.5rem + Home 指示條，內容不能被蓋住 */}
-            <div className="flex flex-1 flex-col pb-[calc(3.5rem+env(safe-area-inset-bottom))] md:pb-0">
-              {children}
+          <div className="flex flex-1">
+            <AppSidebar account={<UserStatus />} />
+            <div className="flex min-w-0 flex-1 flex-col">
+              <MobileTopBar trailing={<UserStatus variant="mobile" />} />
+              {/* 電腦版左上角返回(手機用上面 MobileTopBar 的返回鍵) */}
+              <DesktopBackBar />
+              {/* 手機底部頁籤 3.5rem + Home 指示條，內容不能被蓋住 */}
+              <div className="flex flex-1 flex-col pb-[calc(3.5rem+env(safe-area-inset-bottom))] md:pb-0">
+                {children}
+              </div>
             </div>
           </div>
+          <MobileTabBar />
+          <ScrollTopButton />
+          <NavHistoryTracker />
+          {panel}
         </div>
-        <MobileTabBar />
-        <ScrollTopButton />
-        <NavHistoryTracker />
-        {panel}
-      </div>
-    </FavoritesProvider>
+      </FavoritesProvider>
+    </ViewerProvider>
   );
 }

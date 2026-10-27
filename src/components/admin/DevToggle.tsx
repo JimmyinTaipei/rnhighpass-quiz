@@ -7,9 +7,10 @@ import { setDevMode } from "@/lib/actions";
 /**
  * dev mode 開關。只會被 UserStatus 在「已確認是 admin」時渲染，
  * 非 admin 的頁面 payload 裡不會有這個元件。
- * 切換後 server action 設定 cookie，Next 會在同一次往返重新渲染頁面。
+ * 切換後 server action 設定 cookie，Next 會在同一次往返重新渲染頁面；
+ * 靜態頁(知識頁)不會重新渲染，所以再呼叫 onChanged 讓瀏覽器端的使用者狀態更新。
  */
-export function DevToggle({ enabled }: { enabled: boolean }) {
+export function DevToggle({ enabled, onChanged }: { enabled: boolean; onChanged?: () => Promise<void> }) {
   const [isPending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
 
@@ -18,6 +19,7 @@ export function DevToggle({ enabled }: { enabled: boolean }) {
     startTransition(async () => {
       const result = await setDevMode(!enabled);
       if (!result.ok) setError(result.reason ?? "切換失敗");
+      else await onChanged?.();
     });
   };
 

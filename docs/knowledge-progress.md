@@ -10,7 +10,7 @@
 - **寫回與部署**：**只在 17b 結束**寫回 Supabase＋照 [deploy-size-plan.md](deploy-size-plan.md) 第 4 步部署；17a 不寫回、不部署；17b 做完再 git commit＋push(使用者 2026-10-27 要求)
 - **範圍**(涵蓋)：第 17 輪開始 8827/8960；17a 後 8911/8960；**17b 後 8960/8960(11 科全部 100%，知識庫建完)**
 - **taxonomy**：fundamentals 新增 group `child-health`(兒童生長發展與照護，care)、`pharmacology-principles`(藥理學總論，drug)；general-pathology 新增 `cell-biology`(細胞與組織，physiology)；critical-care 新增 `antidotes`(中毒與解毒劑，drug，drugTags 中毒解毒劑)
-- **狀態**：17a、17b 內容完成(2026-10-27)；17b 收尾：Supabase 已寫回；**部署失敗已 rollback**：新版 6ab748bf 上線後 Cloudflare 1102(超過資源上限)全站 503，已退回 ed3095ba；調查與選項見 deploy-size-plan.md「17b 部署失敗的調查」
+- **狀態**：17a、17b 內容完成(2026-10-27)；17b 收尾：Supabase 已寫回；**已部署 workers.dev(版本 7925bdc4)**：第一次部署因免費方案 CPU 上限 1102 而 rollback，知識頁改成預先產生(SSG)後上線，403 篇全部 200；細節見 deploy-size-plan.md；**請使用者登入確認首頁「上次開啟」與登入顯示**
 
 ### 第 17 輪步驟
 

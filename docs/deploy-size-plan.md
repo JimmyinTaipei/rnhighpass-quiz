@@ -1,6 +1,6 @@
 # Worker 大小超限：改打包方式的計畫
 
-> 2026-10-27 建立。狀態：**程式已改好並在本機測試通過(分支 claude/knowledge-assets)，等使用者同意部署**
+> 2026-10-27 建立。狀態：**已上線(版本 7925bdc4，知識頁 SSG)**
 
 ## 問題
 
@@ -62,7 +62,7 @@
 | 1 | 提交目前內容(7c91d9b，已推到 GitHub)、開分支 claude/knowledge-assets | ✅ 2026-10-27 |
 | 2 | 第一、二階段修改：build-knowledge 輸出到 public/knowledge-data、article-slugs.ts 取代 loaders.ts、data-files.ts(ASSETS／本機讀磁碟)、loadArticle 加快取、searchKnowledge 改 async、next.config 排除檔案追蹤 | ✅ 2026-10-27 |
 | 3 | 測試：型別檢查通過；next dev 文章、搜尋、嵌入、404 正常；OpenNext 建置 handler **59 MB → 20.4 MB**；wrangler dev 396 篇全部 200 且含標題(本機中位數 213 ms)、搜尋、/k 面板、Apgar 嵌入、/quiz 登入導向(307)正常；不存在頁面回 200 是原本就有的行為(線上舊版也一樣) | ✅ 2026-10-27 |
-| 4 | 部署、檢查、實測速度(改前線上基準：20 篇中位數約 3.4 秒；17b 部署前實測 2.9 秒) | ❌ 2026-10-27 部署 6ab748bf(handler 20.6 MB)後全站 503(Cloudflare 1102 Worker exceeded resource limits)，已 **rollback 到 ed3095ba**，線上正常 |
+| 4 | 部署、檢查、實測速度(改前線上基準：20 篇中位數約 3.4 秒；17b 部署前實測 2.9 秒) | ❌ 6ab748bf 全站 1102 已 rollback → ✅ 2026-10-27 改 SSG 後部署 **7925bdc4**，403 篇全部 200，中位數 1.10 秒 |
 
 ### 17b 部署失敗的調查(2026-10-27)
 
@@ -72,5 +72,18 @@
 - 舊版 ed3095ba 的預覽網址跑同樣 150 次：全部正常(3 次超限)
 - GraphQL 分析：新版失敗的請求 CPU 中位數都剛好 **10 ms**(Workers 免費方案的每次請求 CPU 上限)；新版成功請求 CPU 中位數 65–109 ms；舊版成功請求 CPU 中位數約 900 ms(多半是 60 MB 腳本的冷啟動)，偶有在 2,010 ms 超限
 - 推測：帳號是 Workers 免費方案(每請求 10 ms CPU，平時容許超出、超出太多就開始強制)，新版在短時間大量請求後被強制限制；**尚未確認方案**(API 權杖沒有讀取訂閱的權限)
-- 待決定：①升級 Workers Paid(每月 5 美元，CPU 上限 30 秒)；②改成預先產生知識頁(SSG，靜態檔直接回應、幾乎不耗 CPU)；③確認方案後再測
+- 慢速(每 6 秒一頁)也會被擋，越跑失敗越多 → 確定是免費方案 CPU 上限(使用者確認 Cloudflare 與 Supabase 都是免費版)
+
+### 解法：知識頁改成預先產生(SSG)(2026-10-27 上線，版本 7925bdc4)
+
+1. `/learn/[slug]`：`dynamic = "force-static"`、`dynamicParams = false`、`generateStaticParams` 產生全部文章；題目在 build 時向 Supabase 查好
+2. 外框不再讀 cookie：新增 `/api/me`(登入、名稱、admin、dev mode)與 `ViewerProvider`(瀏覽器端讀取，登入登出時重新讀)；`UserStatus`、`DevBanner` 改成用戶端元件；`QuestionCard` 的登入與 dev mode 改成「props 或 useViewer()」；`DevToggle` 切換後呼叫 refresh
+3. `open-next.config.ts`：`staticAssetsIncrementalCache`＋`enableCacheInterception`(預先產生的頁從靜態資產讀，在載入 Next 前就回應)
+4. `proxy.ts` matcher 跳過 `/learn/<slug>`、`/k/`、`/knowledge-data/`(`/learn/<slug>/quiz` 仍經過)
+5. 結果：每請求 CPU 中位數 **11 ms**(P90 20 ms，原本 65–109 ms)，預覽版與正式站各跑全部 403 頁都 200；20 頁速度中位數 **1.10 秒**(部署前 2.88 秒)
+6. 取捨：
+   1. 知識頁的題目內容是 build 當下的，題目或詳解改了要重新部署才會更新
+   2. 本機 `next dev` 的知識頁網頁編輯(editSlug)需要伺服器端 dev mode，靜態頁拿不到，**目前不能用**；題目卡的編輯表單仍可用(看 useViewer)
+   3. 登入狀態在頁面載入後才出現(先顯示骨架)
+7. 部署流程改為：`npx opennextjs-cloudflare build` → `npx opennextjs-cloudflare upload -- --tag=...`(預覽網址測試) → `npx wrangler versions deploy <id>@100`
 

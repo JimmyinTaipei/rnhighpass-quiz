@@ -71,6 +71,8 @@ export async function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
+    // 知識頁(/learn/<slug>)、知識面板(/k/<slug>)與知識資料是公開的靜態內容，不需要刷新 session，
+    // 跳過 proxy 以免每次請求都跑 Supabase 驗證(免費方案 CPU 10 ms)；/learn/<slug>/quiz 仍會經過
+    '/((?!_next/static|_next/image|favicon.ico|learn/[^/]+/?$|k/|knowledge-data/|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
   ],
 }

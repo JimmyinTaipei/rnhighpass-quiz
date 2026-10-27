@@ -5,7 +5,17 @@ import { ArticleToc } from "@/components/learn/ArticleToc";
 import { TrackVisit } from "@/components/learn/TrackVisit";
 import { ArticleView } from "@/components/learn/ArticleView";
 import { buildToc } from "@/components/learn/toc";
-import { knowledgeIndex, loadArticle } from "@/lib/knowledge";
+import { getArticleSlugs, knowledgeIndex, loadArticle } from "@/lib/knowledge";
+
+// 知識頁在 build 時預先產生(題目也在 build 時查好)，請求時直接回靜態檔，不在 Worker 上重新渲染：
+// Cloudflare 免費方案每次請求 CPU 只有 10 ms(docs/deploy-size-plan.md)。
+// 登入狀態、dev mode 由瀏覽器端的 ViewerProvider 決定；內容更新要重新 build 部署。
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getArticleSlugs().map((slug) => ({ slug }));
+}
 
 export async function generateMetadata(props: PageProps<"/learn/[slug]">): Promise<Metadata> {
   const { slug } = await props.params;
