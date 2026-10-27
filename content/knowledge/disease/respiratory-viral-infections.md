@@ -81,7 +81,7 @@ references:
 
 **診斷與治療**：
 - 鼻咽拭子**快速抗原篩檢**（敏感度有限，陰性不能完全排除）、分子檢驗
-- **神經胺酸酶抑制劑**（oseltamivir 口服、zanamivir 吸入、peramivir 靜脈）或 baloxavir；**48 小時內**開始效果最好，高風險與住院病人不論時間都應治療([[antivirals#anti-influenza]])；疾管署提供公費抗病毒藥劑
+- **神經胺酸酶抑制劑**（oseltamivir 口服、zanamivir 吸入、peramivir 靜脈）或 baloxavir；**48 小時內**開始效果最好，高風險與住院病人不論時間都應治療（[[antivirals#anti-influenza]]）；疾管署提供公費抗病毒藥劑
 
 **預防與護理**：
 - 每年接種**流感疫苗**（不活化、滿 6 個月以上、10 月開始），見 [[immunization#influenza-vaccine]]
@@ -105,7 +105,7 @@ references:
 - 重症照護重點：
   - 避免使用**噴霧(nebulizer)**等產生氣膠的治療，改用定量噴霧劑加吸藥輔助器；產生氣膠的處置在負壓病室執行、人員戴 N95
   - 急性呼吸窘迫症候群：**俯臥姿勢**、**保守輸液**（體液負平衡）有助改善氧合；沒有休克不給大量輸液；必要時鎮靜與肌肉鬆弛劑配合呼吸器
-  - 類固醇(dexamethasone)用於**需要氧氣**的病人，**不是常規**給所有人；抗病毒藥 nirmatrelvir/ritonavir、remdesivir([[antivirals#anti-covid]])
+  - 類固醇(dexamethasone)用於**需要氧氣**的病人，**不是常規**給所有人；抗病毒藥 nirmatrelvir/ritonavir、remdesivir（[[antivirals#anti-covid]]）
 - 預防：疫苗、口罩、手部衛生、通風；疫苗與口罩屬**初段預防的特殊保護**
 - 病人臨終時仍可在感控措施下讓家屬以適當方式陪伴，並關注家屬的**複雜性哀傷**
 

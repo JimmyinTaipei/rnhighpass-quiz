@@ -57,7 +57,7 @@ references:
 
 ## 預防與感染管制 {#prevention}
 
-疫苗、隔離防護類別([[infection-control]])、衛教
+疫苗、隔離防護類別（[[infection-control]]）、衛教
 
 ## 易混淆比較 {#comparison}
 

@@ -83,7 +83,7 @@ references:
 | **artemisinin**（青蒿素）類：artesunate、artemether | 紅血球期，作用最快；**青蒿素複方療法**(ACT)是**非重症惡性瘧的第一線**；**靜脈 artesunate** 是**重症瘧疾首選** | 耐受性好；治療後數週可能延遲性溶血 |
 | **mefloquine** | **chloroquine 抗藥地區的預防**（每週一次）與治療 | **神經精神副作用**（失眠、惡夢、焦慮、憂鬱、幻覺）；有精神病史、癲癇者避免 |
 | atovaquone-proguanil(Malarone) | 預防（每天一次）與治療 | 耐受性好；隨含脂肪的食物服用 |
-| doxycycline | 預防（每天一次） | 光敏感、食道炎；孕婦與 8 歲以下兒童避免([[protein-synthesis-inhibitors]]) |
+| doxycycline | 預防（每天一次） | 光敏感、食道炎；孕婦與 8 歲以下兒童避免（[[protein-synthesis-inhibitors]]） |
 | **pyrimethamine** | 抑制葉酸合成；與 **sulfadoxine** 合用(Fansidar)治瘧疾，與 sulfadiazine 合用治**弓漿蟲** | 葉酸缺乏 → 骨髓抑制，要加 **leucovorin**（亞葉酸） |
 
 **出國旅遊預防**：
@@ -98,7 +98,7 @@ references:
   - 服藥期間與停藥後至少 **72 小時**內**禁酒**（類戒酒反應）；尿液可能變深色、口中有金屬味
   - 阿米巴痢疾：metronidazole 殺組織中的滋養體後，再用**腸腔藥**(paromomycin)清除腸內的囊體，避免復發與帶原
 - **tinidazole**：單次口服，用於滴蟲、梨形鞭毛蟲
-- **pyrimethamine＋sulfadiazine＋leucovorin**：**弓漿蟲**（先天性弓漿蟲症、愛滋病人弓漿蟲腦炎）；**TMP-SMX** 可替代，也用於愛滋病人的預防([[hiv-aids#opportunistic-infections]])
+- **pyrimethamine＋sulfadiazine＋leucovorin**：**弓漿蟲**（先天性弓漿蟲症、愛滋病人弓漿蟲腦炎）；**TMP-SMX** 可替代，也用於愛滋病人的預防（[[hiv-aids#opportunistic-infections]]）
 - **pentamidine**：肺囊蟲肺炎的替代藥（靜脈或吸入）；副作用**低血糖**、低血壓、腎毒性、胰臟炎
 - **nitazoxanide**：隱孢子蟲、梨形鞭毛蟲
 

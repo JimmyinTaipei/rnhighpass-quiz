@@ -93,16 +93,16 @@ references:
 
 1. **IgG 有 4 個次類別**：IgG1、IgG3 最會活化補體與結合 Fc 受體，IgG4 與過敏耐受、自體免疫有關
 2. **IgA 為什麼是二聚體**：J 鏈連接兩個單體，**poly-Ig 受體**在黏膜上皮細胞基底側結合並運送到管腔，剪下的部分成為 **secretory component**，保護它不被消化酶破壞
-3. **胎兒自己能製造 IgM**，**IgG 來自母親（妊娠後期大量經胎盤）**，**IgA 由母乳提供**([[immune-system-basics#newborn]])
+3. **胎兒自己能製造 IgM**，**IgG 來自母親（妊娠後期大量經胎盤）**，**IgA 由母乳提供**（[[immune-system-basics#newborn]]）
 4. **血型抗體**：ABO 的天然抗體以 **IgM** 為主，所以不匹配輸血會**立即**血管內溶血
 
 ### 抗體的功能 {#antibody-functions}
 
 1. **中和**：直接結合毒素或病毒，使它們無法結合細胞受體（**Fab** 的功能，**不需要補體或吞噬細胞**）
 2. **調理**：IgG 的 Fc 被吞噬細胞的 **FcγR** 辨認，增加吞噬；也可透過補體 **C3b**
-3. **活化補體**：IgG、IgM 與抗原結合後走**古典路徑**([[complement-system#classical-pathway]])
+3. **活化補體**：IgG、IgM 與抗原結合後走**古典路徑**（[[complement-system#classical-pathway]]）
 4. **ADCC**：NK 細胞的 **CD16(FcγRIII)**結合 **IgG** 的 Fc，殺死被抗體包覆的細胞
-5. **肥大細胞去顆粒**：**IgE** 與 **FcεRI** 結合，抗原交聯後釋出組織胺，見過敏反應
+5. **肥大細胞去顆粒**：**IgE** 與 **FcεRI** 結合，抗原交聯後釋出組織胺，見 [[hypersensitivity-reactions#type-1]]
 6. **黏膜防護**：**sIgA** 阻止病原黏附上皮，不引發發炎
 
 ## 抗體的多樣性 {#diversity}

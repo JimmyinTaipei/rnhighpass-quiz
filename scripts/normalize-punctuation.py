@@ -53,8 +53,14 @@ def restore(line, saved):
     return re.sub(r"\x00(\d+)\x00", lambda m: saved[int(m.group(1))], line)
 
 
+def wiki_text(token):
+    if not token.startswith("[["):
+        return ""
+    return token[2:-2].split("|", 1)[1] if "|" in token else "中"
+
+
 def convert_brackets(s, saved=()):
-    """由內往外判斷每一對括號，s 已保護過語法片段；[[slug|中文]] 的顯示文字要算進去"""
+    """由內往外判斷每一對括號，s 已保護過語法片段；[[slug]] 連結也算中文"""
     while True:
         m = PAIR.search(s)
         if not m:
@@ -62,7 +68,8 @@ def convert_brackets(s, saved=()):
         inner = m.group(1)
         shown = re.sub(
             r"\x00(\d+)\x00",
-            lambda x: saved[int(x.group(1))] if saved[int(x.group(1))].startswith("[[") else "",
+            # [[slug]] 畫面顯示中文標題，[[slug|文字]] 看顯示文字；其他保護片段不算
+            lambda x: wiki_text(saved[int(x.group(1))]),
             inner,
         )
         full = bool(CJK.search(shown))

@@ -202,7 +202,7 @@ references:
 | 受體 | 主要位置 | 活化時 | 對血壓 | 相關藥物 |
 |---|---|---|---|---|
 | **α1** | 皮膚、腹腔內臟等小動脈與靜脈平滑肌 | **血管收縮** | SVR↑ → 血壓↑ | 促效：phenylephrine、norepinephrine；阻斷：prazosin 等 [[alpha-blockers]] |
-| α2（中樞、突觸前） | 延腦、交感神經末梢 | 抑制正腎上腺素釋放 → 交感輸出↓ | 血壓↓ | 促效：clonidine、methyldopa([[central-alpha2-agonists]]) |
+| α2（中樞、突觸前） | 延腦、交感神經末梢 | 抑制正腎上腺素釋放 → 交感輸出↓ | 血壓↓ | 促效：clonidine、methyldopa（[[central-alpha2-agonists]]） |
 | **β1** | 心臟；腎臟近腎絲球細胞 | 心跳、收縮力、傳導↑；**腎素分泌↑** | CO↑ → 血壓↑ | 促效：dobutamine；阻斷：[[beta-blockers]] |
 | β2 | 骨骼肌小動脈、支氣管、子宮 | 血管擴張、支氣管擴張 | 輕度 SVR↓ | 非選擇性 β 阻斷劑會阻斷 → 氣喘禁用 |
 | M（蕈毒鹼型） | 竇房結、房室結 | 心跳↓ | 血壓↓ | atropine 阻斷 → 心跳↑ |

@@ -70,7 +70,7 @@ references:
   - title: OpenStax. Microbiology(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考，本頁文字與表格為重新整理撰寫
 ---
-這一群細菌在構造或生活方式上與一般細菌不同，**一般的革蘭氏染色或培養不容易看到或養出來**：**螺旋體**細長會旋轉運動；**黴漿菌沒有細胞壁**；**立克次體**與**披衣菌**是**絕對細胞內寄生**。因此 β-lactam 類常常無效，多用 **tetracycline 類**(doxycycline)或 **macrolide**([[protein-synthesis-inhibitors]])
+這一群細菌在構造或生活方式上與一般細菌不同，**一般的革蘭氏染色或培養不容易看到或養出來**：**螺旋體**細長會旋轉運動；**黴漿菌沒有細胞壁**；**立克次體**與**披衣菌**是**絕對細胞內寄生**。因此 β-lactam 類常常無效，多用 **tetracycline 類**(doxycycline)或 **macrolide**（[[protein-synthesis-inhibitors]]）
 
 ## 重點摘要 {#summary}
 
@@ -98,7 +98,7 @@ references:
 
 | 病原 | 構造特點 | 主要疾病 | 傳染途徑 | 治療 |
 |---|---|---|---|---|
-| 梅毒螺旋體 | 螺旋體，無法人工培養 | 梅毒([[sexually-transmitted-infections#treponema-pallidum]]) | **性行為**、胎盤（可**直接人傳人**） | **青黴素** |
+| 梅毒螺旋體 | 螺旋體，無法人工培養 | 梅毒（[[sexually-transmitted-infections#treponema-pallidum]]） | **性行為**、胎盤（可**直接人傳人**） | **青黴素** |
 | 伯氏疏螺旋體 | 螺旋體 | **萊姆病**（遊走性紅斑） | **硬蜱**叮咬 | doxycycline |
 | 回歸熱疏螺旋體 | 螺旋體，**抗原變異** | 回歸熱 | **體蝨**（流行性）、軟蜱 | doxycycline |
 | 鉤端螺旋體 | 螺旋體，一端呈鉤狀 | 鉤端螺旋體病 | 接觸**鼠類尿液**污染的水與土壤 | doxycycline、青黴素 |
@@ -153,7 +153,7 @@ references:
 - 胸部 X 光：**間質性浸潤**，表現常比聽診嚴重；病理為淋巴球與組織球浸潤在**細支氣管周圍與肺泡間質**，而不是大葉性肺炎
 - 檢驗：白血球常**正常**；**血清特定抗體**上升、冷凝集素、PCR
 - 治療：**macrolide**（**azithromycin** 療程短、副作用少；erythromycin、clarithromycin），機轉是**抑制蛋白質合成**；8 歲以上或成人也可用 doxycycline 或 fluoroquinolone。台灣兒童 macrolide 抗藥株增加
-- 相對於黴漿菌，**細菌性肺炎**（典型肺炎）的特點是**高燒**、痰多、白血球上升，**最常見的致病菌是肺炎鏈球菌**([[streptococci#streptococcus-pneumoniae]])，不是黴漿菌。肺炎的分類與護理見 [[pneumonia]]
+- 相對於黴漿菌，**細菌性肺炎**（典型肺炎）的特點是**高燒**、痰多、白血球上升，**最常見的致病菌是肺炎鏈球菌**（[[streptococci#streptococcus-pneumoniae]]），不是黴漿菌。肺炎的分類與護理見 [[pneumonia]]
 - 其他黴漿菌：人型黴漿菌、尿素原漿菌可造成生殖道感染與骨盆腔炎
 
 ## 立克次體 Rickettsia {#rickettsiae}

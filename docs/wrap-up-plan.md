@@ -22,8 +22,8 @@
 |---|---|---|---|
 | 收尾 0 | 使用者登入確認首頁「上次開啟」與登入顯示(17b 部署後還沒確認) | 使用者 | ✅ 2026-10-27 |
 | 收尾 A | 標點批次：句尾句號＋括號(規則見下)；先跑 dry-run 給使用者看 30 處樣本，同意後才寫入；腳本 `scripts/normalize-punctuation.py` | Claude | ✅ 2026-10-27(414 檔、20,978 行；建置結果與原本相同) |
-| 收尾 A2 | 題目 AI 詳解套用同樣標點規則；順便標出確定有錯的詳解另外更正 | Claude | ⬜ |
-| 收尾 B | 補連結：純文字「之後的 XX 頁」改 `[[slug]]`；逐條核對 progress 各輪「之後要回補的連結」，已補的劃掉、沒補的補上；跑 resolver 確認沒有壞連結 | Claude | ⬜ |
+| 收尾 A2 | 題目 AI 詳解套用同樣標點規則(使用者已同意)；詳解錯誤更正要**先給使用者看做法**再決定採不採用 | Claude | ⬜ 排在 B 之後 |
+| 收尾 B | 補連結：純文字「之後的 XX 頁」改 `[[slug]]`；逐條核對 progress 各輪「之後要回補的連結」，已補的劃掉、沒補的補上；跑 resolver 確認沒有壞連結 | Claude | ✅ 2026-10-27(見下方紀錄) |
 | 收尾 C | `chapters:` 抽查：腳本比對每篇的 chapters 與相關考題實際落在的章節，列出差異大的篇，人工修 | Claude | ⬜ |
 | 收尾 D | 需確認清單整併：第 6–17 輪清單合成一份 [review-checklist.md](review-checklist.md)，依類型分組(圖片待審、建議做的圖、待核對、只依國考、國考答案與新指引不同)，每項 checkbox＋連到頁面 | Claude 整理、使用者勾 | ⬜ |
 | 收尾 E | build、export、source-scan；重新部署 workers.dev(內容改了要重建靜態資產) | Claude | ⬜ |
@@ -61,3 +61,11 @@ A、B 都會改很多頁，各自一個 commit，有問題可以整批還原。
 4. 括號內只有 `[[slug|中文]]` 連結，或含「、，；：」時算有中文
 5. 雙層全形括號照規則，不改用〔〕
 6. 中文旁的半形分號、逗號、冒號一起轉全形(原有分號 1,859、逗號 120、冒號 25 處)；數字中的 `3:1`、`1,000` 與 YAML 語法不動
+
+## 收尾 B 紀錄(2026-10-27)
+
+1. 純文字改連結 42 處：「見之後的 XX 頁」「留給 XX 那一輪」「見第 N 輪」「之後在 XX 頁整理」「（G 組）」等，掃描後已清空
+2. 各輪「之後要回補的連結」逐條核對 29 條未連：原頁**有提到**的 9 條補上(individual-cognitive-behavioral-therapy → eating-disorders、rheumatoid-arthritis 與 sle → immunology-labs、hypersensitivity-reactions → transfusion-reactions、immunoglobulins-hla 與 t-lymphocytes → hypersensitivity-reactions、complement-system → urticaria-angioedema、sle 等)
+3. 原頁**沒有提到**對方的不硬加，例如 family-violence ↔ community-mental-health、dementia ↔ community-mental-health、child-adolescent-mental-health ↔ milieu-therapy、somatic-dissociative-disorders → personality-disorders、autoimmune-diseases → monoclonal-antibodies、hypothalamus-pituitary → thyroid-parathyroid、sex-hormones；之後改寫到那段時再加
+4. 標點規則補一條：括號內只有 `[[slug]]`(畫面顯示中文標題)也算中文，用全形；收尾 A 時被轉成半形的 214 處已改回
+5. 連結 3,927 → 3,984；build 通過，normalize-punctuation 0 處

@@ -58,7 +58,7 @@ references:
 - **膿瘍**：腹內、骨盆腔、肺（吸入性肺炎後的**肺膿瘍**）、腦、牙周
 - 分泌物**惡臭**、組織中產生**氣體**（捻髮音）、壞死組織
 - 常與需氧菌混合感染（例如腸穿孔後的腹膜炎）
-- 檢體要用**厭氧運送容器**、避免接觸空氣、儘快送驗([[culture-and-sensitivity#other-specimens]])
+- 檢體要用**厭氧運送容器**、避免接觸空氣、儘快送驗（[[culture-and-sensitivity#other-specimens]]）
 - 常用藥：**metronidazole**、**clindamycin**、β-lactam/β-lactamase 抑制劑（amoxicillin-clavulanate、piperacillin-tazobactam）、carbapenem（[[fluoroquinolones-sulfonamides#metronidazole]]、[[protein-synthesis-inhibitors#clindamycin]]）
 
 ## 總覽比較表 {#overview}

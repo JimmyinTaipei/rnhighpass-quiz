@@ -49,7 +49,7 @@ references:
   - title: OpenStax. Microbiology(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考，本頁文字與表格為重新整理撰寫
 ---
-**革蘭氏陽性菌**的細胞壁有**厚的胜肽聚糖層**與**壁酸**，革蘭氏染色呈**紫色**，**沒有外膜與內毒素**（脂多醣），致病多靠**外毒素**與侵襲力([[microbial-pathogenesis#gram-stain]])。本頁整理常考的革蘭氏陽性球菌與桿菌；**金黃色葡萄球菌**與**鏈球菌**另有獨立頁，產芽孢的厭氧梭菌見 [[clostridium-botulinum-tetani]] 與 [[anaerobes]]，結核菌見 [[tuberculosis#mycobacterium-tuberculosis]]
+**革蘭氏陽性菌**的細胞壁有**厚的胜肽聚糖層**與**壁酸**，革蘭氏染色呈**紫色**，**沒有外膜與內毒素**（脂多醣），致病多靠**外毒素**與侵襲力（[[microbial-pathogenesis#gram-stain]]）。本頁整理常考的革蘭氏陽性球菌與桿菌；**金黃色葡萄球菌**與**鏈球菌**另有獨立頁，產芽孢的厭氧梭菌見 [[clostridium-botulinum-tetani]] 與 [[anaerobes]]，結核菌見 [[tuberculosis#mycobacterium-tuberculosis]]
 
 ## 重點摘要 {#summary}
 
@@ -81,7 +81,7 @@ references:
 | 李斯特菌 | 耐冷、細胞內寄生 | 孕婦流產死產、新生兒與老人腦膜炎 | **食物**（即食肉品、未消毒乳品） | ampicillin |
 | 炭疽桿菌 | **需氧產芽孢**大桿菌，蛋白質莢膜 | 皮膚（黑色焦痂）、吸入、腸胃型炭疽 | 接觸動物與毛皮、吸入芽孢 | ciprofloxacin、doxycycline |
 | 蠟樣桿菌 | 需氧產芽孢，耐熱嘔吐毒素 | 食物中毒（炒飯）、眼睛感染 | 食物 | 支持療法 |
-| 結核分枝桿菌 | **抗酸性**，生長慢 | 結核病 | 空氣 | 抗結核四藥([[antituberculars]]) |
+| 結核分枝桿菌 | **抗酸性**，生長慢 | 結核病 | 空氣 | 抗結核四藥（[[antituberculars]]） |
 | 痲瘋分枝桿菌 | 抗酸性，**無法人工培養** | 漢生病（皮膚與周邊神經） | 長期密切接觸 | 多重藥物合併療法 |
 
 - 革蘭氏陽性**桿菌**常考：白喉桿菌、李斯特菌、**炭疽桿菌**、**蠟樣桿菌**、**梭狀芽孢桿菌**（肉毒、破傷風、困難梭菌、產氣莢膜）；**大腸桿菌是革蘭氏陰性**
@@ -90,7 +90,7 @@ references:
 ## 凝固酶陰性葡萄球菌 Coagulase-negative staphylococci {#coagulase-negative-staphylococci}
 
 - **表皮葡萄球菌**：皮膚最常見的正常菌叢；會形成**生物膜**附著在**中心靜脈導管、人工瓣膜、人工關節、腦室引流管**上，造成醫療器材相關感染
-- 是血液培養最常見的**污染菌**：只有一套陽性、而且病人沒有導管或人工植入物時，多半是採檢時皮膚消毒不足([[culture-and-sensitivity#contamination]])
+- 是血液培養最常見的**污染菌**：只有一套陽性、而且病人沒有導管或人工植入物時，多半是採檢時皮膚消毒不足（[[culture-and-sensitivity#contamination]]）
 - **腐生葡萄球菌**：**性生活活躍年輕女性**的單純性泌尿道感染（僅次於大腸桿菌）
 - 多數對 methicillin 抗藥，常用 vancomycin；器材感染常需要**移除導管或植入物**
 
@@ -168,7 +168,7 @@ references:
 | 神經 | 早期局部神經受損 | 廣泛周邊神經病變 |
 
 - 周邊神經受損 → **感覺喪失**（痛覺、溫覺）、肌肉無力、手足變形；病人**感覺不到疼痛**，所以容易燙傷、割傷而不自知
-- 治療：**多重藥物合併療法**(dapsone＋rifampin＋clofazimine)，開始治療後很快失去傳染力([[antituberculars]])
+- 治療：**多重藥物合併療法**(dapsone＋rifampin＋clofazimine)，開始治療後很快失去傳染力（[[antituberculars]]）
 - 護理：
   - **保持皮膚完整**、每天檢查手腳、避免受傷與燙傷、穿合適的鞋；
   - 協助**身體心像**調適、減少污名；

@@ -31,7 +31,7 @@ references:
     note: 0–2 低量級、3–5 中量級、6–7 高量級、8–10 過量級、11 以上危險級
   - title: 圖：燒傷深度圖為原創
 ---
-環境中的**物理因子**（輻射、溫度）與**化學物質**（一氧化碳、重金屬、菸、酒、空氣汙染物）都會造成細胞傷害（機轉見 [[cell-injury-adaptation#cell-injury]]）。本頁整理國考常考的幾種；燒傷的面積估計、輸液與植皮照護見 [[burns]]；職業暴露的法規、特殊健檢與職護工作見 [[occupational-health-nursing]]；水、空氣、廢棄物與公害見 [[environmental-food-hygiene]]；其他中毒與解毒劑留給藥理毒理那一輪（第 17 輪）
+環境中的**物理因子**（輻射、溫度）與**化學物質**（一氧化碳、重金屬、菸、酒、空氣汙染物）都會造成細胞傷害（機轉見 [[cell-injury-adaptation#cell-injury]]）。本頁整理國考常考的幾種；燒傷的面積估計、輸液與植皮照護見 [[burns]]；職業暴露的法規、特殊健檢與職護工作見 [[occupational-health-nursing]]；水、空氣、廢棄物與公害見 [[environmental-food-hygiene]]；其他中毒與解毒劑見 [[antidotes]]
 
 ## 重點摘要 {#summary}
 

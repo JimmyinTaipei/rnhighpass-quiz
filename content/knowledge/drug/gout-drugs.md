@@ -20,7 +20,7 @@ references:
   - title: OpenStax. Pharmacology for Nurses，Antigout Drugs(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考，本頁文字與表格為重新整理撰寫
 ---
-**痛風**是血中尿酸過高、**尿酸鈉結晶**沉積在關節與組織，引起急性關節炎與痛風石。藥物分成兩大類：**急性發作時消炎止痛**的藥，以及**長期降低尿酸**的藥。疾病本身與飲食之後在骨骼肌肉輪整理；NSAIDs 見 [[nsaids-acetaminophen]]
+**痛風**是血中尿酸過高、**尿酸鈉結晶**沉積在關節與組織，引起急性關節炎與痛風石。藥物分成兩大類：**急性發作時消炎止痛**的藥，以及**長期降低尿酸**的藥。疾病本身見 [[osteoarthritis#gout]]，飲食衛教見 [[older-adult-chronic-disease#lifestyle]]；NSAIDs 見 [[nsaids-acetaminophen]]
 
 ## 重點摘要 {#summary}
 

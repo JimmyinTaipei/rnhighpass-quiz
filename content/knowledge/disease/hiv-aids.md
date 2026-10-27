@@ -73,7 +73,7 @@ references:
 | 共同受體 | **CCR5**（巨噬細胞嗜性，感染早期）或 **CXCR4**（T 細胞嗜性） |
 | 抵抗力 | 離開人體後很脆弱，怕熱、怕乾燥、一般消毒劑（漂白水、70% 酒精）即可殺滅 |
 
-**複製週期**([[microbial-pathogenesis#replication]])：
+**複製週期**（[[microbial-pathogenesis#replication]]）：
 1. **吸附**：gp120 與 CD4、再與共同受體結合
 2. **融合、進入**：gp41 使套膜與細胞膜融合
 3. **反轉錄**：以 RNA 為模板合成 DNA（反轉錄酶錯誤率高 → 突變快、容易抗藥）
@@ -130,11 +130,11 @@ references:
 
 | 疾病 | 病原或原因 | 發生時的 CD4 | 重點 |
 |---|---|---|---|
-| **肺囊蟲肺炎**(PCP/PJP) | 肺囊蟲（*Pneumocystis jirovecii*，真菌） | **< 200** | **最常見**的伺機性感染與愛滋兒童常見死因；**乾咳**、漸進性呼吸喘、發燒、低血氧；病理見肺泡內**泡沫狀嗜酸性物質**；治療與預防用 **TMP-SMX**([[fluoroquinolones-sulfonamides#sulfonamides]]) |
-| **口腔念珠菌感染**（鵝口瘡）、食道念珠菌 | 白色念珠菌 | < 200–350 | 口腔白斑、吞嚥痛；**nystatin 含漱後吞服**或 fluconazole([[antifungals#nystatin]]) |
+| **肺囊蟲肺炎**(PCP/PJP) | 肺囊蟲（*Pneumocystis jirovecii*，真菌） | **< 200** | **最常見**的伺機性感染與愛滋兒童常見死因；**乾咳**、漸進性呼吸喘、發燒、低血氧；病理見肺泡內**泡沫狀嗜酸性物質**；治療與預防用 **TMP-SMX**（[[fluoroquinolones-sulfonamides#sulfonamides]]） |
+| **口腔念珠菌感染**（鵝口瘡）、食道念珠菌 | 白色念珠菌 | < 200–350 | 口腔白斑、吞嚥痛；**nystatin 含漱後吞服**或 fluconazole（[[antifungals#nystatin]]） |
 | **隱球菌腦膜炎** | 新型隱球菌（鴿糞） | < 100 | 愛滋病人**最常見的中樞神經感染**；頭痛、發燒、顱內壓升高；amphotericin B 加 flucytosine，之後 fluconazole |
-| **弓漿蟲腦炎** | 弓漿蟲（未煮熟肉類、貓砂） | < 100（< 50 風險大增） | 頭痛、意識混亂、局部神經症狀；治療 pyrimethamine＋sulfadiazine＋leucovorin([[antiparasitics#antiprotozoals]]) |
-| **巨細胞病毒**(CMV)**視網膜炎** | CMV | **< 50** | 視力模糊、飛蚊、視野缺損，可致盲；**ganciclovir**、foscarnet([[antivirals#anti-herpes]])，**不是**用 acyclovir(Zovirax) |
+| **弓漿蟲腦炎** | 弓漿蟲（未煮熟肉類、貓砂） | < 100（< 50 風險大增） | 頭痛、意識混亂、局部神經症狀；治療 pyrimethamine＋sulfadiazine＋leucovorin（[[antiparasitics#antiprotozoals]]） |
+| **巨細胞病毒**(CMV)**視網膜炎** | CMV | **< 50** | 視力模糊、飛蚊、視野缺損，可致盲；**ganciclovir**、foscarnet（[[antivirals#anti-herpes]]），**不是**用 acyclovir(Zovirax) |
 | 瀰漫性非結核分枝桿菌 | 鳥型分枝桿菌(MAC) | < 50 | 發燒、體重減輕、腹瀉 |
 | **結核病** | 結核分枝桿菌 | **任何 CD4** 都可能 | 常不典型、肺外結核多；rifampin 與蛋白酶抑制劑交互作用（[[antituberculars]]、[[tuberculosis]]） |
 | 帶狀疱疹、單純疱疹 | 水痘帶狀疱疹病毒、HSV | 任何 | 反覆、範圍大 |
@@ -143,7 +143,7 @@ references:
 
 - **淋巴腺腫大**是 HIV 本身的表現，**不是**伺機性感染
 - **預防性用藥**（台灣愛滋病學會指引第 3 章）：CD4 **< 200** 給 TMP-SMX 預防肺囊蟲肺炎；弓漿蟲抗體陽性且 CD4 < 100 也用 TMP-SMX 預防。開始抗病毒治療後 CD4 回升到 **200 以上超過 3 個月**可停止
-- 念珠菌也是口腔與陰道的正常菌叢；**擴散性念珠菌症**主要發生在**血液惡性疾病、嗜中性白血球低下、持續使用免疫抑制劑**的病人([[cancer-treatment-toxicities#febrile-neutropenia]])；**鼻腦白黴菌病**（毛黴菌）則主要見於**糖尿病酮酸中毒**
+- 念珠菌也是口腔與陰道的正常菌叢；**擴散性念珠菌症**主要發生在**血液惡性疾病、嗜中性白血球低下、持續使用免疫抑制劑**的病人（[[cancer-treatment-toxicities#febrile-neutropenia]]）；**鼻腦白黴菌病**（毛黴菌）則主要見於**糖尿病酮酸中毒**
 - **免疫重建發炎症候群**(IRIS)：開始抗病毒治療後免疫恢復，對原本潛伏的感染產生強烈發炎，症狀反而暫時惡化，常見於 CD4 很低、合併結核或隱球菌的病人
 
 ## 抗愛滋病毒藥物 {#art}
@@ -163,7 +163,7 @@ references:
 | 進入抑制劑 | maraviroc（CCR5 拮抗劑）、enfuvirtide（融合抑制劑，皮下注射） | 阻止吸附或融合 | 用於抗藥病人 |
 | **長效針劑** | cabotegravir＋rilpivirine | — | 每 1–2 個月**兩側臀部肌肉注射**各一劑；給病毒已穩定抑制的病人，台灣 2024 年 4 月起納入健保（第二線） |
 
-- **神經胺酸酶抑制劑**（oseltamivir 等）是抗流感藥，**不能**用於 HIV；**adefovir** 是 B 肝藥，不用於 HIV([[antivirals#anti-influenza]])
+- **神經胺酸酶抑制劑**（oseltamivir 等）是抗流感藥，**不能**用於 HIV；**adefovir** 是 B 肝藥，不用於 HIV（[[antivirals#anti-influenza]]）
 - 長期治療的慢性問題：**心血管疾病**、**糖尿病**、**骨質疏鬆**、腎功能下降、高血脂（是低密度膽固醇上升，**不會**讓高密度膽固醇升高）
 - **U=U**(Undetectable＝Untransmittable)：持續服藥使病毒量**測不到**超過 6 個月，**不會經由性行為**傳染給伴侶；這也是「**治療即預防**」
 

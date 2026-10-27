@@ -44,7 +44,7 @@ references:
 - 經**需氧**的主動運輸進入菌體，與 **30S 核糖體**結合，讓細菌讀錯密碼、做出錯誤蛋白質並破壞細胞膜 → **殺菌**
 - **厭氧菌天然抗藥**：藥物進入細菌需要氧氣
 - 在**酸性環境**（膿瘍、支氣管分泌物）效果下降，**鹼性尿液**中較有效
-- 與 **β-lactam 或 vancomycin** 併用有**協同作用**：細胞壁受損後藥物更容易進入（例如腸球菌心內膜炎的 ampicillin＋gentamicin）([[antibiotics-overview#combinations]])
+- 與 **β-lactam 或 vancomycin** 併用有**協同作用**：細胞壁受損後藥物更容易進入（例如腸球菌心內膜炎的 ampicillin＋gentamicin）（[[antibiotics-overview#combinations]]）
 
 ## 代表藥物 {#agents}
 
@@ -107,7 +107,7 @@ references:
 4. 記錄**輸出入量**，鼓勵攝取足夠水分（無限水者）；觀察尿量減少、肌酸酐上升
 5. 定期詢問**耳鳴、聽力變化、頭暈、走路不穩**；高齡者預防跌倒
 6. 出現呼吸變淺、肌肉無力時立即通知醫師
-7. 使用 neomycin 時，**酸化尿液沒有幫助**（胺基配醣體在鹼性環境才有效）；「需要酸性尿液才有效」的是泌尿道消毒劑 methenamine([[fluoroquinolones-sulfonamides#urinary-antiseptics]])
+7. 使用 neomycin 時，**酸化尿液沒有幫助**（胺基配醣體在鹼性環境才有效）；「需要酸性尿液才有效」的是泌尿道消毒劑 methenamine（[[fluoroquinolones-sulfonamides#urinary-antiseptics]]）
 
 ## 相關考題 {#questions}
 

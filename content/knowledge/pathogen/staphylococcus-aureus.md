@@ -98,7 +98,7 @@ references:
 - 由 **TSST-1**（超級抗原）造成**全身性**反應：**高燒**、低血壓休克、**瀰漫性曬傷樣紅疹**、1–2 週後手掌腳底**脫皮**、**多重器官**（腸胃、肝、腎、血小板、意識）異常
 - 處置：移除感染源（取出棉條）、輸液與升壓劑、抗生素（常併用 clindamycin 抑制毒素生成）
 - 預防：棉條**每 4–8 小時更換**、使用最低吸收量、日夜交替使用衛生棉
-- A 族鏈球菌也會造成類似的**鏈球菌毒性休克症候群**([[streptococci#streptococcus-pyogenes]])
+- A 族鏈球菌也會造成類似的**鏈球菌毒性休克症候群**（[[streptococci#streptococcus-pyogenes]]）
 
 ### 葡萄球菌燙傷皮膚症候群 {#scalded-skin-syndrome}
 
@@ -107,10 +107,10 @@ references:
 
 ## 抗藥性：MRSA {#mrsa}
 
-- **機轉**：帶有 *mecA* 基因，製造**改變的青黴素結合蛋白**(PBP2a)，β-lactam 類無法結合，所以對 **methicillin、oxacillin** 及幾乎所有 β-lactam 類（包括頭孢菌素）抗藥([[beta-lactams#resistance]])；**不是**靠 β-lactamase 分解 methicillin
+- **機轉**：帶有 *mecA* 基因，製造**改變的青黴素結合蛋白**(PBP2a)，β-lactam 類無法結合，所以對 **methicillin、oxacillin** 及幾乎所有 β-lactam 類（包括頭孢菌素）抗藥（[[beta-lactams#resistance]]）；**不是**靠 β-lactamase 分解 methicillin
 - **院內型 MRSA**：多重抗藥，見於住院、長照、洗腎、有導管或傷口的病人
 - **社區型 MRSA**(CA-MRSA)：沒有醫療暴露的健康人也會感染，常見**反覆皮膚膿瘍**、運動員或軍隊群聚，可能造成壞死性肺炎；對較多非 β-lactam 藥仍有感受性（疾管署：社區型MRSA）
-- **治療 MRSA**：**vancomycin**（首選之一）、teicoplanin、**linezolid**、**daptomycin**、telavancin、TMP-SMX、clindamycin、doxycycline（輕症皮膚感染）([[glycopeptides]])
+- **治療 MRSA**：**vancomycin**（首選之一）、teicoplanin、**linezolid**、**daptomycin**、telavancin、TMP-SMX、clindamycin、doxycycline（輕症皮膚感染）（[[glycopeptides]]）
   - **daptomycin 不能治療肺炎**：會被**肺泡表面張力素**失去活性；可用於菌血症、心內膜炎、皮膚感染
 - **VISA/VRSA**：對 vancomycin 感受性降低或抗藥的金黃色葡萄球菌，檢出要依疾管署規定送驗
 - **甲氧西林敏感菌**(MSSA)首選抗葡萄球菌青黴素(oxacillin)或第一代頭孢菌素(cefazolin)，效果比 vancomycin 好
@@ -118,7 +118,7 @@ references:
 ## 診斷 {#diagnosis}
 
 - 膿液、傷口、血液、痰培養；革蘭氏染色見**成串葡萄狀革蘭氏陽性球菌**
-- 做**抗生素感受性試驗**確認是否為 MRSA([[culture-and-sensitivity]])
+- 做**抗生素感受性試驗**確認是否為 MRSA（[[culture-and-sensitivity]]）
 - **金黃色葡萄球菌菌血症**一律視為真正感染（不是污染菌）：需重複血液培養、找感染源（導管、骨髓炎、心內膜炎），常規做**心臟超音波**
 - 食物中毒以臨床與流行病學判斷，可檢驗剩餘食物中的腸毒素
 

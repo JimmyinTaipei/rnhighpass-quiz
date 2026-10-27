@@ -65,7 +65,7 @@ references:
 | **青黴素結合蛋白構造改變** | **MRSA**（染色體 *mecA* 基因產生 PBP2a，對所有傳統 β-lactam 都有抗藥性）；抗青黴素的肺炎鏈球菌 |
 | 外膜通透性下降、排出幫浦 | 綠膿桿菌等 G− 菌 |
 
-對策：加上 **β-內醯胺酶抑制劑**（clavulanic acid、sulbactam、tazobactam），或改用 carbapenem；MRSA 則改用 vancomycin 等藥物([[glycopeptides]])
+對策：加上 **β-內醯胺酶抑制劑**（clavulanic acid、sulbactam、tazobactam），或改用 carbapenem；MRSA 則改用 vancomycin 等藥物（[[glycopeptides]]）
 
 ## 代表藥物 {#agents}
 
@@ -97,7 +97,7 @@ references:
 - **ceftriaxone**：
   - **不可與含鈣溶液**（例如**林格氏液**、乳酸林格氏液）混合或經同一管路輸注，會在肺、腎形成鈣鹽沉澱；**新生兒**曾發生致死個案，新生兒需要靜脈鈣劑時避免使用
   - 大量經膽汁排出，可在膽囊形成**膽泥**（假性膽結石）
-- 新一代合併藥物用於**多重抗藥性 G− 菌**（ESBL、CRE、多重抗藥綠膿桿菌）：**ceftazidime-avibactam**、**ceftolozane-tazobactam**，以及鐵載體頭孢菌素 **cefiderocol**；屬於需管制的後線抗生素([[antibiotics-overview#mdro]])
+- 新一代合併藥物用於**多重抗藥性 G− 菌**（ESBL、CRE、多重抗藥綠膿桿菌）：**ceftazidime-avibactam**、**ceftolozane-tazobactam**，以及鐵載體頭孢菌素 **cefiderocol**；屬於需管制的後線抗生素（[[antibiotics-overview#mdro]]）
 
 ### Carbapenems 與 monobactam {#carbapenems}
 
@@ -142,7 +142,7 @@ carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲�
 | 副作用 | 說明與處置 |
 |---|---|
 | **過敏反應** | **最常見也最危險**：蕁麻疹、血管性水腫、支氣管痙攣、**過敏性休克**（第 I 型，IgE 媒介）；也可能出現延遲型皮疹、血清病。立即停藥並處置（見[[antibiotics-overview#allergy]]） |
-| 腸胃 | **腹瀉**（amoxicillin-clavulanate 最常見）、噁心；**困難梭狀桿菌腸炎**([[antibiotics-overview#c-difficile]]) |
+| 腸胃 | **腹瀉**（amoxicillin-clavulanate 最常見）、噁心；**困難梭狀桿菌腸炎**（[[antibiotics-overview#c-difficile]]） |
 | 皮疹 | 胺基青黴素用於 **EB 病毒感染性單核球症**時，很容易出現斑丘疹（不一定是真正過敏） |
 | 神經毒性 | **大劑量**或**腎功能不全**時的**癲癇**、腦病變（青黴素、imipenem、cefepime） |
 | 腎臟 | 間質性腎炎（methicillin 最典型） |

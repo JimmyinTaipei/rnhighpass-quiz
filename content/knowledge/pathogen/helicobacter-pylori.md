@@ -68,11 +68,11 @@ references:
 | **慢性胃炎** | 屬**B 型慢性胃炎**，好發於**胃竇**（幽門部）；**A 型**慢性胃炎是**自體免疫**造成，位於胃體與胃底，破壞壁細胞 → 缺乏內在因子 → **惡性貧血**，胃泌素反而升高 |
 | **消化性潰瘍** | 大多數**十二指腸潰瘍**與多數胃潰瘍與它有關（另一主因是 NSAIDs）；**除菌**可大幅降低潰瘍復發 |
 | 急性胃炎 | 初次感染可引起 |
-| **胃癌** | 長期感染 → 萎縮性胃炎 → 腸上皮化生 → 胃腺癌([[cancer]]) |
-| **胃 MALT 淋巴瘤** | 黏膜相關淋巴組織淋巴瘤，屬**B 細胞**、低惡性度淋巴瘤；早期可**只靠除菌治療**就緩解([[lymphoma-myeloma]]) |
+| **胃癌** | 長期感染 → 萎縮性胃炎 → 腸上皮化生 → 胃腺癌（[[cancer]]） |
+| **胃 MALT 淋巴瘤** | 黏膜相關淋巴組織淋巴瘤，屬**B 細胞**、低惡性度淋巴瘤；早期可**只靠除菌治療**就緩解（[[lymphoma-myeloma]]） |
 
 - 與**大腸癌、食道癌、膽囊炎、胃食道逆流**沒有直接因果關係；食道癌的危險因子是吸菸、喝酒、檳榔、熱食等
-- 會造成 **Guillain-Barré 症候群**的是**空腸曲狀桿菌**，不是幽門桿菌([[gram-negative-bacteria#campylobacter-jejuni]])
+- 會造成 **Guillain-Barré 症候群**的是**空腸曲狀桿菌**，不是幽門桿菌（[[gram-negative-bacteria#campylobacter-jejuni]]）
 
 ## 診斷 {#diagnosis}
 
@@ -91,7 +91,7 @@ references:
 
 - **三合一療法**（國考經典）：**氫離子幫浦抑制劑**（omeprazole 等）＋**clarithromycin**＋**amoxicillin**（青黴素過敏改 metronidazole），療程 **7–14 天**；**不含** erythromycin
 - 台灣 clarithromycin 抗藥率上升，現行常用 **14 天**療程，或含**鉍劑的四合一療法**（PPI＋鉍劑＋tetracycline＋metronidazole），也可依抗藥性檢測選藥（國健署篩檢指引）
-- 抗生素機轉：clarithromycin 抑制蛋白質合成([[protein-synthesis-inhibitors#macrolides]])、amoxicillin 抑制細胞壁([[beta-lactams]])
+- 抗生素機轉：clarithromycin 抑制蛋白質合成（[[protein-synthesis-inhibitors#macrolides]]）、amoxicillin 抑制細胞壁（[[beta-lactams]]）
 - 護理衛教
   1. **按時服完全部療程**（漏服會增加抗藥性與失敗率）
   2. metronidazole 服藥期間禁酒

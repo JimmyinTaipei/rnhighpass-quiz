@@ -79,7 +79,7 @@ references:
 
 - 經性接觸傳染的**細菌**：梅毒螺旋體、淋病雙球菌、砂眼披衣菌。**立克次體**不是性傳染病
 - **可以直接人傳人**的是**梅毒螺旋體**；法蘭西氏菌、巴東氏菌、包氏螺旋體都要經動物或病媒
-- **沒有疫苗**：**梅毒、淋病**、披衣菌；**HPV 有疫苗**([[human-papillomavirus#prevention]])，B 肝有疫苗
+- **沒有疫苗**：**梅毒、淋病**、披衣菌；**HPV 有疫苗**（[[human-papillomavirus#prevention]]），B 肝有疫苗
 
 ## 梅毒螺旋體 Treponema pallidum {#treponema-pallidum}
 
@@ -183,7 +183,7 @@ references:
 - **生殖器疱疹**：
   - **第二型單純疱疹病毒為主**（第一型也可以），不是帶狀水痘病毒
   - 初次感染常有**發燒**、倦怠與疼痛性水疱，之後潛伏在**薦神經節**反覆發作
-  - **acyclovir** 可縮短病程，**無法根治**([[herpesviruses#herpes-simplex-virus]])
+  - **acyclovir** 可縮短病程，**無法根治**（[[herpesviruses#herpes-simplex-virus]]）
   - 病灶期避免擠壓水疱，避免性接觸到病灶完全癒合
   - **新生兒經產道感染**會造成嚴重的新生兒疱疹；**分娩時有活動性病灶應剖腹產**
   - 乳房沒有病灶時**可以哺餵母乳**
@@ -192,7 +192,7 @@ references:
   - 潛伏期約 2 週到 8 個月
   - 發生在生殖器、肛門
   - 病理可見**空凹細胞**(koilocyte)
-  - 治療用冷凍、雷射、電燒或外用藥；HPV 疫苗（九價）可預防([[human-papillomavirus#condyloma]])
+  - 治療用冷凍、雷射、電燒或外用藥；HPV 疫苗（九價）可預防（[[human-papillomavirus#condyloma]]）
 
 ## 陰道炎比較 {#vaginitis}
 
@@ -203,10 +203,10 @@ references:
 | 其他 | **外陰劇癢**、灼熱感；陰道壁白色附著物 | 搔癢、**子宮頸草莓狀紅點** | 通常不癢；線索細胞 | 陰道黏膜變薄、乾澀、刺痛、性交痛 |
 | 陰道 pH | **< 4.5**（正常） | **> 4.5** | **> 4.5** | 升高 |
 | 誘因 | **抗生素、類固醇、口服避孕藥**、懷孕、糖尿病 | **性行為**（也可經潮濕物品） | 陰道灌洗、多重性伴侶 | 雌激素下降 |
-| 治療 | azole 類陰道塞劑或口服 fluconazole([[candida]]) | 口服 **metronidazole**，**性伴侶同時治療** | metronidazole | 局部雌激素 |
+| 治療 | azole 類陰道塞劑或口服 fluconazole（[[candida]]） | 口服 **metronidazole**，**性伴侶同時治療** | metronidazole | 局部雌激素 |
 
 - **滴蟲**：
-  - **metronidazole** 最有效([[antiparasitics#antiprotozoals]])
+  - **metronidazole** 最有效（[[antiparasitics#antiprotozoals]]）
   - 服藥期間到停藥後數天**不可喝酒**（雙硫崙樣反應）
   - **性伴侶一起治療**，不是等無效後才治療
   - 停經後婦女也可能感染

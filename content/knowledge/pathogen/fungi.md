@@ -42,7 +42,7 @@ references:
   - title: OpenStax. Microbiology(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考，本頁文字與表格為重新整理撰寫
 ---
-真菌是**真核生物**，有細胞核與粒線體等胞器；和人類細胞**最大的差別是細胞壁**（葡聚醣、幾丁質），細胞膜含**麥角固醇**，這兩處也是抗黴菌藥的標的([[antifungals#mechanisms]])。常考的**念珠菌**另有專頁 [[candida]]；細菌與真菌的比較見 [[microbial-pathogenesis#bacteria-vs-fungi]]
+真菌是**真核生物**，有細胞核與粒線體等胞器；和人類細胞**最大的差別是細胞壁**（葡聚醣、幾丁質），細胞膜含**麥角固醇**，這兩處也是抗黴菌藥的標的（[[antifungals#mechanisms]]）。常考的**念珠菌**另有專頁 [[candida]]；細菌與真菌的比較見 [[microbial-pathogenesis#bacteria-vs-fungi]]
 
 ## 重點摘要 {#summary}
 
@@ -92,7 +92,7 @@ references:
 
 - 三屬：**毛髮癬菌**(*Trichophyton*)、**小芽孢菌**(*Microsporum*)、**表皮癬菌**(*Epidermophyton*)；分解角質，侵犯皮膚、毛髮、指甲。**隱球菌**、絲孢酵母菌**不是**皮癬菌
 - **足癬**（香港腳）：**黴菌感染**，**穿不透氣鞋襪**、潮濕悶熱是主因；趾間脫皮、浸潤發白、搔癢、水泡。護理：保持**乾燥**（趾間可灑爽身粉）、穿透氣鞋襪、不共用拖鞋毛巾、外用抗黴菌藥並持續到症狀消失後 1–2 週
-- 頭癬（兒童）：口服 griseofulvin 或 terbinafine；**甲癬**：口服 terbinafine 數個月([[antifungals#dermatophyte-drugs]])
+- 頭癬（兒童）：口服 griseofulvin 或 terbinafine；**甲癬**：口服 terbinafine 數個月（[[antifungals#dermatophyte-drugs]]）
 - 糖尿病病人足部：保持乾燥，但不穿涼鞋外出（避免受傷）
 
 ## 馬拉色氏菌 Malassezia {#malassezia}
@@ -131,7 +131,7 @@ references:
 - 過去歸為原蟲，現在分類為**真菌**，但對一般抗黴菌藥無效
 - **肺囊蟲肺炎**：愛滋病人(CD4 < 200)**最常見**的伺機性感染，也是垂直感染愛滋兒童常見死因；化學治療、移植、長期類固醇病人也會發生
 - 初期**乾咳**、漸進性呼吸喘、發燒、低血氧；病理見肺泡內**泡沫狀嗜酸性物質**
-- 治療與預防：**TMP-SMX**([[hiv-aids#opportunistic-infections]])
+- 治療與預防：**TMP-SMX**（[[hiv-aids#opportunistic-infections]]）
 
 ## 雙型性真菌 Dimorphic fungi {#dimorphic-fungi}
 

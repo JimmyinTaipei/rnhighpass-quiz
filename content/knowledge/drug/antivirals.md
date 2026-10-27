@@ -50,7 +50,7 @@ references:
 
 ## 抗病毒藥物概論 {#overview}
 
-| 病毒複製步驟([[microbial-pathogenesis#replication]]) | 藥物 |
+| 病毒複製步驟（[[microbial-pathogenesis#replication]]） | 藥物 |
 |---|---|
 | 附著、進入 | HIV 融合抑制劑、CCR5 拮抗劑；單株抗體(palivizumab) |
 | 去殼 | amantadine（A 型流感 M2 蛋白） |
@@ -110,7 +110,7 @@ references:
 | **干擾素 α**(peginterferon) | 皮下注射、療程有限；**阻斷病毒複製並增強宿主免疫**；副作用見下方 |
 
 - **不可自行停藥**：停藥可能導致 B 肝**急性發作**甚至肝衰竭
-- **化學治療、免疫抑制劑、rituximab**前要篩檢 HBsAg，陽性者**預防性**使用抗病毒藥（如 entecavir、lamivudine），避免 B 肝再活化([[lymphoma-myeloma]])
+- **化學治療、免疫抑制劑、rituximab**前要篩檢 HBsAg，陽性者**預防性**使用抗病毒藥（如 entecavir、lamivudine），避免 B 肝再活化（[[lymphoma-myeloma]]）
 - 母親 HBsAg、HBeAg 皆陽性：新生兒出生 **24 小時內**（越快越好）注射 **B 型肝炎免疫球蛋白**(HBIG)與**第一劑 B 肝疫苗**；高病毒量孕婦在**懷孕第三孕期**服用 tenofovir 降低垂直傳染
 
 ## 抗 C 型肝炎病毒藥物 {#anti-hcv}

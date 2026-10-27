@@ -39,7 +39,7 @@ references:
   - title: OpenStax. Microbiology(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考，本頁文字與表格為重新整理撰寫
 ---
-疱疹病毒是**有套膜的雙股 DNA 病毒**，在細胞核內複製。最大特色是**潛伏感染**：初次感染痊癒後，病毒終生潛伏在體內，免疫力下降時**再活化**。抗病毒藥物（acyclovir、ganciclovir）只能抑制複製、無法清除潛伏病毒([[antivirals#anti-herpes]])
+疱疹病毒是**有套膜的雙股 DNA 病毒**，在細胞核內複製。最大特色是**潛伏感染**：初次感染痊癒後，病毒終生潛伏在體內，免疫力下降時**再活化**。抗病毒藥物（acyclovir、ganciclovir）只能抑制複製、無法清除潛伏病毒（[[antivirals#anti-herpes]]）
 
 ## 重點摘要 {#summary}
 
@@ -112,8 +112,8 @@ references:
 
 - 健康人感染多**無症狀**；經唾液、尿液、性行為、**胎盤**、母乳、**輸血**與**器官移植**傳染
 - **先天性 CMV 感染**：**最常見的先天性病毒感染**（TORCH 的 C），造成**感覺神經性聽力喪失**、小頭症、腦室周圍鈣化、肝脾腫大、黃疸、瘀點；新生兒血中 **IgM** 升高代表子宮內感染（IgM 不通過胎盤）
-- **移植病人**：腎臟、骨髓移植後使用免疫抑制劑時容易**再活化**，造成肺炎、腸炎；骨髓移植後多發生在植入後（約第 3 週以後），移植後 2 週內的感染以**細菌與黴菌**為主([[stem-cell-transplant]])。輸血可用減除白血球或 CMV 陰性血品預防
-- **愛滋病人**(CD4 < 50)：**CMV 視網膜炎**([[hiv-aids#opportunistic-infections]])
+- **移植病人**：腎臟、骨髓移植後使用免疫抑制劑時容易**再活化**，造成肺炎、腸炎；骨髓移植後多發生在植入後（約第 3 週以後），移植後 2 週內的感染以**細菌與黴菌**為主（[[stem-cell-transplant]]）。輸血可用減除白血球或 CMV 陰性血品預防
+- **愛滋病人**(CD4 < 50)：**CMV 視網膜炎**（[[hiv-aids#opportunistic-infections]]）
 - 病理：巨大細胞內的**鷹眼狀核內包涵體**
 - 治療：**ganciclovir**（骨髓抑制）、valganciclovir、foscarnet（對 acyclovir 抗藥的疱疹也有效）；**不是**用 acyclovir(Zovirax)
 

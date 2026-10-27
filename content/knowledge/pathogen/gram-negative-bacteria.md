@@ -110,7 +110,7 @@ references:
   - title: OpenStax. Microbiology(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考，本頁文字與表格為重新整理撰寫
 ---
-**革蘭氏陰性菌**的細胞壁只有**薄的胜肽聚糖**，外面多一層含**脂多醣**的**外膜**，革蘭氏染色呈**紅色**（番紅）。脂多醣的脂質 A 就是**內毒素**：大量進入血液會造成發燒、低血壓、瀰漫性血管內凝血與**敗血性休克**([[microbial-pathogenesis#toxins]])。外膜也擋住許多抗生素，所以革蘭氏陰性菌較容易抗藥（ESBL、CRE，見 [[antibiotics-overview#mdro]]）。革蘭氏陰性菌**不產芽孢**
+**革蘭氏陰性菌**的細胞壁只有**薄的胜肽聚糖**，外面多一層含**脂多醣**的**外膜**，革蘭氏染色呈**紅色**（番紅）。脂多醣的脂質 A 就是**內毒素**：大量進入血液會造成發燒、低血壓、瀰漫性血管內凝血與**敗血性休克**（[[microbial-pathogenesis#toxins]]）。外膜也擋住許多抗生素，所以革蘭氏陰性菌較容易抗藥（ESBL、CRE，見 [[antibiotics-overview#mdro]]）。革蘭氏陰性菌**不產芽孢**
 
 ## 重點摘要 {#summary}
 
@@ -145,7 +145,7 @@ references:
 | 類別 | 病原 | 主要疾病 | 傳染途徑 | 法定傳染病（疾管署） |
 |---|---|---|---|---|
 | 雙球菌 | 腦膜炎雙球菌 | 流行性腦脊髓膜炎、猛爆性敗血症 | **飛沫** | 第二類 |
-| 雙球菌 | 淋病雙球菌 | 淋病、骨盆腔炎、新生兒眼炎 | 性行為、產道 | 第三類([[sexually-transmitted-infections#neisseria-gonorrhoeae]]) |
+| 雙球菌 | 淋病雙球菌 | 淋病、骨盆腔炎、新生兒眼炎 | 性行為、產道 | 第三類（[[sexually-transmitted-infections#neisseria-gonorrhoeae]]） |
 | 腸內桿菌 | **大腸桿菌** | **泌尿道感染**、新生兒腦膜炎、敗血症、腹瀉 | 內生性、糞口 | EHEC 第二類 |
 | 腸內桿菌 | **沙門氏菌** | 傷寒、副傷寒、腸胃炎（蛋類） | 糞口、食物 | 傷寒、副傷寒第二類 |
 | 腸內桿菌 | 志賀氏菌 | **桿菌性痢疾** | 糞口、極少量即可感染 | 第二類 |
@@ -189,7 +189,7 @@ references:
 ### 大腸桿菌 Escherichia coli {#escherichia-coli}
 
 **腸外感染**：
-- **泌尿道感染最常見的致病菌**：婦女單純膀胱炎、腎盂腎炎、幼兒泌尿道感染、**導尿管相關泌尿道感染**；以菌毛黏附尿路上皮。尿液培養菌數 **≥ 10⁵ CFU/mL** 確立診斷([[culture-and-sensitivity#urine-colony-count]])
+- **泌尿道感染最常見的致病菌**：婦女單純膀胱炎、腎盂腎炎、幼兒泌尿道感染、**導尿管相關泌尿道感染**；以菌毛黏附尿路上皮。尿液培養菌數 **≥ 10⁵ CFU/mL** 確立診斷（[[culture-and-sensitivity#urine-colony-count]]）
 - **新生兒腦膜炎**與敗血症最常見的致病菌之一（與 B 族鏈球菌並列），K1 莢膜菌株
 - **革蘭氏陰性菌敗血症**、**敗血性休克**（內毒素）、腹膜炎、膽道感染；是各器官**伺機性感染**的主要細菌
 - 公共衛生上是**糞便污染的指標菌**（大腸桿菌群）：檢驗飲水與食物是否被糞便污染
@@ -255,7 +255,7 @@ references:
 - **需氧**、不發酵；喜歡**潮濕環境**（水槽、呼吸治療器材、花瓶、溫水池）；產生**綠色色素**、**葡萄味**
 - **院內感染最常見的致病菌之一**：**呼吸器相關肺炎**、**燒燙傷傷口感染（最容易發生）**、導尿管泌尿道感染、手術傷口、菌血症；也造成囊性纖維化病人的慢性肺部感染、**外耳炎**（游泳耳）、**隱形眼鏡角膜炎**、溫泉毛囊炎
 - **天生抗藥性高**，需選**抗綠膿桿菌藥物**
-  1. 可用：**piperacillin**(-tazobactam)、ceftazidime、cefepime、carbapenem（imipenem、meropenem，ertapenem 除外）、aminoglycoside、ciprofloxacin、colistin([[beta-lactams]])
+  1. 可用：**piperacillin**(-tazobactam)、ceftazidime、cefepime、carbapenem（imipenem、meropenem，ertapenem 除外）、aminoglycoside、ciprofloxacin、colistin（[[beta-lactams]]）
   2. amoxicillin、ampicillin、oxacillin **無效**
 
 ### 鮑氏不動桿菌 Acinetobacter baumannii {#acinetobacter-baumannii}

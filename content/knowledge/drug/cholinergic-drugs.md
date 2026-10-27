@@ -112,7 +112,7 @@ references:
 - **服藥後再運動或活動**，避免過度勞累
 - 國考答案：鼓勵攝取**高蛋白**食物（考選部列為正確）
 - 觀察過量徵象：**腹部絞痛、腹瀉、流涎、出汗、肌束顫動**，是**劑量過多**，不是不足
-- 疾病本身（自體抗體破壞 ACh 受體）與危象處理見 [[neuron-synapse#neuromuscular-junction]]；神經疾病頁之後會整理在 H 組
+- 疾病本身（自體抗體破壞 ACh 受體）與危象處理見 [[neuron-synapse#neuromuscular-junction]]；疾病的照護見 [[neuromuscular-demyelinating#myasthenia-gravis]]
 
 | | 肌無力危象(myasthenic crisis) | 膽鹼性危象(cholinergic crisis) |
 |---|---|---|
@@ -187,7 +187,7 @@ references:
 | 高張劑 | Mannitol | 急性青光眼時快速降眼壓 |
 
 - **抗膽鹼藥**（atropine、cyclopentolate）會散瞳、使房角變窄、房水排出受阻，**閉角型青光眼禁用**，也**不能**用來治療廣角性青光眼
-- 青光眼本身與點眼方法之後在眼疾病頁（J 組）整理
+- 青光眼本身與點眼方法見 [[eye-disorders]]
 
 ::questions{ids="115-2_BM_032,112-3_BM_031,108-2_MS_008,107-2_MS_022"}
 

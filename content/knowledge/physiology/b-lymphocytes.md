@@ -110,7 +110,7 @@ references:
 | 特點 | — | **快**；**不類別轉換、無親和力成熟、記憶差**；**嬰幼兒（約 2 歲前）反應不佳**；**脾臟邊緣區 B 細胞**重要 |
 
 1. **脾臟切除者**對莢膜細菌特別容易敗血症，需要接種對應疫苗
-2. **結合型疫苗**（把多醣接在**蛋白質載體**上，例如 Hib、結合型肺炎鏈球菌、腦膜炎雙球菌）讓這些抗原變成 **T 依賴**，嬰幼兒也能產生 IgG 與記憶([[immunization#vaccine-types]])
+2. **結合型疫苗**（把多醣接在**蛋白質載體**上，例如 Hib、結合型肺炎鏈球菌、腦膜炎雙球菌）讓這些抗原變成 **T 依賴**，嬰幼兒也能產生 IgG 與記憶（[[immunization#vaccine-types]]）
 3. 未結合的多醣疫苗（例如 23 價肺炎鏈球菌多醣疫苗）對 2 歲以下效果差
 
 ## 初次與二次免疫反應 {#primary-secondary}
@@ -126,7 +126,7 @@ references:
 
 1. 這是**追加劑(booster)**的原理：第二、三劑使抗體濃度更高、更持久
 2. **IgM** 有半衰期短（約 5 天）的特性，所以血中**只有 IgM 升高**常表示**近期感染**；**IgG 升高而 IgM 不高**代表過去感染或接種
-3. 新生兒臍帶血 **IgM 升高** = 子宮內感染([[immune-system-basics#newborn]])
+3. 新生兒臍帶血 **IgM 升高** = 子宮內感染（[[immune-system-basics#newborn]]）
 4. 以上時間為教科書常見的大約值，不同抗原與個體有差異（屬「標示為教科書常見值」，非單一指引數字）
 
 ## 體液性與細胞性免疫的比較 {#humoral-vs-cellular}
@@ -151,7 +151,7 @@ references:
 ## B 細胞的臨床連結 {#clinical}
 
 1. **XLA、普通變異型免疫缺乏、選擇性 IgA 缺乏**等體液性缺陷：見 [[primary-immunodeficiency]]
-2. **B 細胞腫瘤**：多發性骨髓瘤（漿細胞），**輕鏈沉積**形成類澱粉([[lymphoma-myeloma#myeloma]])；胃的 **MALT 淋巴瘤**為 B 細胞，與**幽門螺旋桿菌**慢性胃炎有關，早期**根除 H. pylori** 即可治療
+2. **B 細胞腫瘤**：多發性骨髓瘤（漿細胞），**輕鏈沉積**形成類澱粉（[[lymphoma-myeloma#myeloma]]）；胃的 **MALT 淋巴瘤**為 B 細胞，與**幽門螺旋桿菌**慢性胃炎有關，早期**根除 H. pylori** 即可治療
 3. **B 細胞抗體製造異常**：自體抗體（SLE、第二型與第三型過敏）見 [[hypersensitivity-reactions]]
 4. **抗 CD20 單株抗體(rituximab)**清除 B 細胞，用於淋巴瘤與自體免疫病，詳見 [[monoclonal-antibodies]]
 5. 抗體的結構、五類 Ig 與血型：見 [[immunoglobulins-hla]]

@@ -50,7 +50,7 @@ references:
 
 ### 機轉與代表藥 {#fq-agents}
 
-抑制細菌 **DNA gyrase**（拓撲異構酶 II）與**拓撲異構酶 IV**，使 DNA 無法解旋與複製 → **殺菌**、濃度依賴型([[antibiotics-overview#mechanism]])
+抑制細菌 **DNA gyrase**（拓撲異構酶 II）與**拓撲異構酶 IV**，使 DNA 無法解旋與複製 → **殺菌**、濃度依賴型（[[antibiotics-overview#mechanism]]）
 
 | 藥物 | 特色 |
 |---|---|
@@ -124,7 +124,7 @@ references:
 | **1% silver sulfadiazine**（磺胺嘧啶銀） | 最常用；穿透焦痂能力中等；**不影響酸鹼與電解質**；可能出現**暫時性白血球減少**；對磺胺過敏者慎用；臉部與孕婦末期、新生兒避免 |
 | **mafenide acetate**(Sulfamylon) | **穿透焦痂**能力強；抑制碳酸酐酶 → **代謝性酸中毒**；塗抹時**疼痛** |
 | 0.5% **silver nitrate** | 低張溶液會把電解質吸出：**低血鈉**、低血氯、低血鉀（不是高血鈉）；會把皮膚與床單染黑 |
-| gentamicin 乳膏 | 可用於臉部；大面積使用要**監測腎功能**([[aminoglycosides]]) |
+| gentamicin 乳膏 | 可用於臉部；大面積使用要**監測腎功能**（[[aminoglycosides]]） |
 
 ## Metronidazole {#metronidazole}
 

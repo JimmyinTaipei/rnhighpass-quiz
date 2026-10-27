@@ -132,8 +132,8 @@ references:
 |---|---|---|
 | 第 2 型糖尿病、高血壓、冠心病 | 家族史是危險因子，但生活型態影響更大 | [[diabetes]]、[[hypertension]] |
 | **唇顎裂** | 胚胎第 4–10 週顏面癒合失敗 | 照護見 [[pediatric-gi#cleft]] |
-| **神經管缺陷**（脊柱裂、無腦症） | 孕前與孕早期補充**葉酸**可預防 | 產科那一輪 |
-| **先天性心臟病** | 最常見的是心室中膈缺損 | 心血管補完那一輪 |
+| **神經管缺陷**（脊柱裂、無腦症） | 孕前與孕早期補充**葉酸**可預防 | [[pediatric-neuro#neural-tube-defects]]、[[prenatal-care#nutrition]] |
+| **先天性心臟病** | 最常見的是心室中膈缺損 | [[congenital-heart-disease]] |
 | 肥厚性幽門狹窄 | 男嬰多（尤其第一胎） | 照護見 [[pediatric-gi#pyloric-stenosis]] |
 | 發展性髖關節發育不良 | 女嬰、臀位產多 | [[pediatric-musculoskeletal#ddh]] |
 

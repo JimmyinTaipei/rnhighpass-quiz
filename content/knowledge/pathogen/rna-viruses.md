@@ -85,7 +85,7 @@ RNA 病毒複製時使用 **RNA 依賴性 RNA 聚合酶**（反轉錄病毒則�
 | [[respiratory-viral-infections#influenza-virus\|流行性感冒病毒]] | 分 8 段的負股 RNA、有套膜 | 流感 | 飛沫、接觸 | 疫苗、oseltamivir |
 | [[respiratory-viral-infections#sars-cov-2\|冠狀病毒]] | 正股、有套膜 | COVID-19、SARS、MERS | 飛沫、接觸 | 疫苗、抗病毒藥 |
 | 麻疹、腮腺炎、德國麻疹病毒 | 有套膜 | 出疹性疾病、先天性德國麻疹 | 空氣、飛沫 | MMR 疫苗（[[childhood-infectious-diseases#measles-virus]]、[[childhood-infectious-diseases#rubella-virus]]、[[childhood-infectious-diseases#mumps-virus]]） |
-| 腸病毒（克沙奇、伊科、EV71） | 無套膜、正股 | 手足口病、疱疹性咽峽炎、重症 | 糞口、飛沫、接觸 | 洗手([[childhood-infectious-diseases#enteroviruses]]) |
+| 腸病毒（克沙奇、伊科、EV71） | 無套膜、正股 | 手足口病、疱疹性咽峽炎、重症 | 糞口、飛沫、接觸 | 洗手（[[childhood-infectious-diseases#enteroviruses]]） |
 | [[vector-borne-zoonotic#dengue-virus\|登革熱]]、[[vector-borne-zoonotic#japanese-encephalitis-virus\|日本腦炎]]、[[vector-borne-zoonotic#zika-virus\|茲卡病毒]] | 黃病毒、有套膜 | 病媒蚊傳染病 | 蚊子 | 防蚊、日本腦炎疫苗 |
 | A、C、E 型肝炎病毒 | RNA | 病毒性肝炎 | A、E 糞口；C 血液 | [[viral-hepatitis#comparison]] |
 | [[hiv-aids#human-immunodeficiency-virus\|HIV]] | 反轉錄病毒 | 愛滋病 | 性行為、血液、垂直 | 抗愛滋病毒藥物 |
@@ -100,7 +100,7 @@ RNA 病毒複製時使用 **RNA 依賴性 RNA 聚合酶**（反轉錄病毒則�
 | HTLV-1 | 反轉錄病毒 | 成人 T 細胞白血病 | 母乳、性行為、血液 | — |
 
 **病毒學重點**：
-- 複製步驟：**辨認目標細胞 → 附著、穿入 → 去殼 → 巨分子合成 → 組合 → 釋出**([[microbial-pathogenesis#replication]])
+- 複製步驟：**辨認目標細胞 → 附著、穿入 → 去殼 → 巨分子合成 → 組合 → 釋出**（[[microbial-pathogenesis#replication]]）
 - **套膜**來自宿主細胞膜（含脂質與病毒蛋白），負責與標的細胞結合；有套膜的病毒**反而怕**乾燥、酸、膽汁與清潔劑。所以經**糞口傳染**的病毒多是**無套膜**病毒（腸病毒、輪狀、諾羅、A 型肝炎）
 - 經病媒蚊傳播的病毒必須能在**蚊子體內複製**；抑制病毒在族群散播最好的方法是**疫苗接種**
 - **反轉錄病毒**是有套膜的**正股** RNA 病毒，主要基因為 gag、pol、env；HIV、HTLV 與 **B 型肝炎病毒**的複製都經過反轉錄，**伊波拉病毒沒有**
@@ -204,14 +204,14 @@ RNA 病毒複製時使用 **RNA 依賴性 RNA 聚合酶**（反轉錄病毒則�
 - 經**飛沫與接觸**傳染（病毒可在手與物品表面存活數小時） → 接觸與飛沫防護、勤洗手
 - 表現：流鼻水、咳嗽、**呼氣喘鳴**、呼吸急促、胸凹、低血氧、肺擴張不全
 - 診斷：**鼻咽分泌物**抗原快速檢測或病毒檢驗（不是細菌培養）
-- 治療以**支持療法**為主（給氧、補充水分、抽吸鼻分泌物）；吸入 ribavirin 只用於少數重症；高風險嬰兒以**單株抗體**（palivizumab、nirsevimab）預防([[antivirals#anti-rsv]])
+- 治療以**支持療法**為主（給氧、補充水分、抽吸鼻分泌物）；吸入 ribavirin 只用於少數重症；高風險嬰兒以**單株抗體**（palivizumab、nirsevimab）預防（[[antivirals#anti-rsv]]）
 
 ## 副流行性感冒病毒 Parainfluenza virus {#parainfluenza-virus}
 
 - **哮吼**（急性喉氣管支氣管炎）最常見的病原，好發 **6 個月到 3 歲**；**不是**鏈球菌造成
 - 表現：**狗吠式咳嗽**、聲音沙啞、**吸氣性喘鳴**，夜間加重
 - 處置：保持安靜、冷濕空氣、口服或吸入類固醇、嚴重時吸入腎上腺素；**避免不必要的抽痰與刺激**，觀察呼吸窘迫（心跳加快、鼻翼搧動、胸凹）；吸入類固醇後漱口
-- 與**會厭炎**（細菌性，流感嗜血桿菌）區分([[gram-negative-bacteria#haemophilus-influenzae]])
+- 與**會厭炎**（細菌性，流感嗜血桿菌）區分（[[gram-negative-bacteria#haemophilus-influenzae]]）
 
 ## 人類嗜 T 淋巴球病毒 Human T-lymphotropic virus {#human-t-lymphotropic-virus}
 

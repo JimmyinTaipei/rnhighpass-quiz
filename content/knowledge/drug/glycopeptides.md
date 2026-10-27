@@ -71,8 +71,8 @@ references:
 - **MRSA** 感染：院內肺炎、菌血症、心內膜炎、骨髓炎、皮膚軟組織感染（社區型 MRSA 輕症可口服 TMP-SMX、doxycycline、clindamycin）
 - 金黃色葡萄球菌造成的**院內感染**：在抗藥性尚未確定前，常以 vancomycin 經驗性治療
 - 對青黴素嚴重過敏的 G+ 感染
-- **口服 vancomycin**：困難梭狀桿菌腸炎([[antibiotics-overview#c-difficile]])
-- 對 oxacillin 敏感的金黃色葡萄球菌(MSSA)，**oxacillin 或 cefazolin 比 vancomycin 更好**，確定敏感後應改藥([[beta-lactams#penicillins]])
+- **口服 vancomycin**：困難梭狀桿菌腸炎（[[antibiotics-overview#c-difficile]]）
+- 對 oxacillin 敏感的金黃色葡萄球菌(MSSA)，**oxacillin 或 cefazolin 比 vancomycin 更好**，確定敏感後應改藥（[[beta-lactams#penicillins]]）
 
 ## 藥動與濃度監測 {#monitoring}
 

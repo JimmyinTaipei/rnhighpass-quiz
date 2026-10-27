@@ -117,8 +117,8 @@ references:
 ## 治療 {#treatment}
 
 - 活動性結核：**2HRZE/4HR** 共 6 個月，多藥合併、規則服藥、完成療程；藥物細節見[[antituberculars]]
-- 潛伏結核感染：**3HP**（每週一次、12 劑）、1HP、9H、4R、3HR([[antituberculars#ltbi]])
-- 多重抗藥性結核：轉介抗藥性結核醫療照護體系，進階都治([[antituberculars#drug-resistant]])
+- 潛伏結核感染：**3HP**（每週一次、12 劑）、1HP、9H、4R、3HR（[[antituberculars#ltbi]]）
+- 多重抗藥性結核：轉介抗藥性結核醫療照護體系，進階都治（[[antituberculars#drug-resistant]]）
 
 ## 感染管制與隔離 {#isolation}
 

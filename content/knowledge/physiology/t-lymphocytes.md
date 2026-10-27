@@ -110,7 +110,7 @@ T 細胞**看不到完整的蛋白**，只看得到**被切成短胜肽、放在
 
 1. 腫瘤或病毒常**下調 MHC I** 逃避 CD8 T 細胞，這時 **NK 細胞**因為偵測到「缺少自己(missing self)」而出手；MHC 表現被抑制與**癌症**發生有關
 2. **MHC II 缺陷**（裸淋巴球症候群）：CD4 T 細胞無法成熟，T 細胞缺乏而易感染
-3. **移植排斥**：外來 HLA 被 T 細胞當成抗原，所以移植要做 HLA 配對([[immunosuppressants#tissue-typing]])
+3. **移植排斥**：外來 HLA 被 T 細胞當成抗原，所以移植要做 HLA 配對（[[immunosuppressants#tissue-typing]]）
 4. 每個人的 MHC 是**父母各一組（單倍型）**組成，不是只和其中一人完全相同
 
 ### 抗原呈現細胞 {#apc}
@@ -228,10 +228,10 @@ CD4 T 細胞活化後，依環境中的細胞激素分化成不同亞群，各�
 
 ## T 細胞相關的臨床連結 {#clinical}
 
-1. **HIV**：gp120 結合 **CD4**（及輔助受體 CCR5／CXCR4），破壞 CD4 T 細胞，CD4 < 200/μL 易伺機性感染，CD4／CD8 比值**下降**([[hiv-aids]])
+1. **HIV**：gp120 結合 **CD4**（及輔助受體 CCR5／CXCR4），破壞 CD4 T 細胞，CD4 < 200/μL 易伺機性感染，CD4／CD8 比值**下降**（[[hiv-aids]]）
 2. **T 細胞缺乏**：易有**病毒、真菌、原蟲、細胞內菌**感染（例如卡氏肺囊蟲、念珠菌、結核），B 細胞缺乏則以胞外化膿菌為主
-3. **移植排斥與 GVHD**：T 細胞辨認外來 HLA；**環孢素**結合 cyclophilin，抑制 calcineurin，阻斷 **IL-2** 產生，抑制 T 細胞活化([[immunosuppressants#cni]])；骨髓移植後皮疹是 **T 細胞媒介**的 GVHD([[stem-cell-transplant#gvhd]])
-4. **第四型（遲發型）過敏**：Th1 與 CD8 媒介，24–72 小時才出現
+3. **移植排斥與 GVHD**：T 細胞辨認外來 HLA；**環孢素**結合 cyclophilin，抑制 calcineurin，阻斷 **IL-2** 產生，抑制 T 細胞活化（[[immunosuppressants#cni]]）；骨髓移植後皮疹是 **T 細胞媒介**的 GVHD（[[stem-cell-transplant#gvhd]]）
+4. **第四型（遲發型）過敏**：Th1 與 CD8 媒介，24–72 小時才出現（見 [[hypersensitivity-reactions#type-4]]）
 5. **TNF-α 抑制劑**（etanercept 等）用於類風濕性關節炎，結合 TNF-α
 
 ## 相關考題 {#questions}

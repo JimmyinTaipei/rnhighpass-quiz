@@ -149,7 +149,7 @@ references:
    2. **高血鉀**：葡萄糖酸鈣穩定心肌、RI(regular insulin)＋葡萄糖、碳酸氫鈉把鉀移入細胞、Kayexalate（口服或灌腸）由腸道排鉀、必要時透析（詳見 [[potassium#hyperkalemia-treatment]]）
    3. 高血磷：限磷、**磷結合劑**；高血鎂：避免含鎂制酸劑與灌腸劑
    4. **代謝性酸中毒**：依醫囑**碳酸氫鈉**
-   5. 體液過多：依醫囑 furosemide([[loop-diuretics]])，無效時透析
+   5. 體液過多：依醫囑 furosemide（[[loop-diuretics]]），無效時透析
 3. **營養**：**高熱量**（避免自身蛋白質分解）、**限蛋白**（以高生物價蛋白為主）、**限鈉、限鉀、限磷**；不能吃就管灌或 TPN(total parenteral nutrition)
 4. **腎臟替代療法**（透析）：見下方適應症；做法見 [[dialysis-crrt]]，加護病房常用 [[dialysis-crrt#crrt]]
 

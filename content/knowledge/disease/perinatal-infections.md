@@ -51,10 +51,10 @@ references:
 
 | 項目 | 時間 | 陽性的處置 |
 |---|---|---|
-| **B 型肝炎** HBsAg | **第 1 次產檢**（建議 12 週前） | 驗病毒量；**≥ 10⁶ IU/mL** 者自 2018 年 2 月起可經專科醫師評估用抗病毒藥；新生兒出生 24 小時內給 **HBIG＋B 肝疫苗**([[viral-hepatitis#vertical-transmission]]) |
-| **德國麻疹 IgG** | 第一孕期 | 陰性：孕期避免接觸病人，**產後**儘速接種公費 MMR，接種後 4 週內避孕([[childhood-infectious-diseases#congenital-rubella]]) |
-| **愛滋病毒** | 第一孕期（第 1 次產檢 8 週後或第 2 次產檢）；有風險者第三孕期再驗 | 抗病毒藥、預防性措施，新生兒口服預防藥，**不哺餵母乳**([[hiv-aids#vertical-transmission]]) |
-| **梅毒** | 第一孕期與**第三孕期（約 32 週）** | 青黴素治療，生產前 30 天完成([[sexually-transmitted-infections#congenital-syphilis]]) |
+| **B 型肝炎** HBsAg | **第 1 次產檢**（建議 12 週前） | 驗病毒量；**≥ 10⁶ IU/mL** 者自 2018 年 2 月起可經專科醫師評估用抗病毒藥；新生兒出生 24 小時內給 **HBIG＋B 肝疫苗**（[[viral-hepatitis#vertical-transmission]]） |
+| **德國麻疹 IgG** | 第一孕期 | 陰性：孕期避免接觸病人，**產後**儘速接種公費 MMR，接種後 4 週內避孕（[[childhood-infectious-diseases#congenital-rubella]]） |
+| **愛滋病毒** | 第一孕期（第 1 次產檢 8 週後或第 2 次產檢）；有風險者第三孕期再驗 | 抗病毒藥、預防性措施，新生兒口服預防藥，**不哺餵母乳**（[[hiv-aids#vertical-transmission]]） |
+| **梅毒** | 第一孕期與**第三孕期（約 32 週）** | 青黴素治療，生產前 30 天完成（[[sexually-transmitted-infections#congenital-syphilis]]） |
 | **乙型（B 族）鏈球菌** | **35–37 週**，陰道與肛門拭子培養 | **待產時**預防性靜脈抗生素 |
 
 - **乙型鏈球菌篩檢不在第一孕期**，也不在第二孕期
@@ -70,10 +70,10 @@ references:
 
 | 病原 | 母親感染來源 | 新生兒特徵 | 預防 |
 |---|---|---|---|
-| **弓形蟲** | **貓糞**、**生或未熟的肉** | **水腦**、**顱內鈣化**（散在）、**脈絡膜視網膜炎** | 不吃生肉、戴手套處理貓砂與園藝([[protozoa#toxoplasma-gondii]]) |
+| **弓形蟲** | **貓糞**、**生或未熟的肉** | **水腦**、**顱內鈣化**（散在）、**脈絡膜視網膜炎** | 不吃生肉、戴手套處理貓砂與園藝（[[protozoa#toxoplasma-gondii]]） |
 | 梅毒 | 性行為 | 皮疹、鼻漏、肝脾腫大、骨軟骨炎 | 產檢篩檢、青黴素 |
 | **德國麻疹** | 飛沫 | **白內障、耳聾、先天性心臟病** | 孕前接種 MMR |
-| **巨細胞病毒** | 幼兒**唾液、尿液**、性行為 | **最常見的先天性感染**；**感覺神經性聽力喪失**（最常見的後遺症）、**小頭症**、**腦室周圍鈣化**、肝脾腫大、紫斑 | 照顧幼兒後洗手、不共用餐具([[herpesviruses#cytomegalovirus]]) |
+| **巨細胞病毒** | 幼兒**唾液、尿液**、性行為 | **最常見的先天性感染**；**感覺神經性聽力喪失**（最常見的後遺症）、**小頭症**、**腦室周圍鈣化**、肝脾腫大、紫斑 | 照顧幼兒後洗手、不共用餐具（[[herpesviruses#cytomegalovirus]]） |
 | **單純疱疹** | 多在**分娩經產道**時感染 | 皮膚水疱、腦炎、播散性感染 | 分娩時有活動性生殖器病灶應**剖腹產** |
 
 - **IgM 不能通過胎盤**：新生兒血中 **IgM** 上升，表示**子宮內感染**；IgG 可能來自母親
@@ -147,11 +147,11 @@ references:
 - **新生兒敗血症**：
   - 早發型多為 B 族鏈球菌、**大腸桿菌**；晚發型包括院內感染菌
   - 症狀**不典型**：體溫不穩（發燒或體溫過低）、**活動力差、吸吮差**、呼吸暫停、黃疸、嘔吐
-  - 治療常用 ampicillin＋gentamicin；新生兒用藥以**青黴素類最安全**。**chloramphenicol**（灰嬰症候群）、**sulfonamide**（核黃疸）、**tetracycline**（牙齒骨骼）都要避免([[protein-synthesis-inhibitors#chloramphenicol]])
-- **眼睛**：出生後常規點**抗生素眼藥膏**(erythromycin)預防**淋病與披衣菌結膜炎**([[sexually-transmitted-infections#neisseria-gonorrhoeae]])
+  - 治療常用 ampicillin＋gentamicin；新生兒用藥以**青黴素類最安全**。**chloramphenicol**（灰嬰症候群）、**sulfonamide**（核黃疸）、**tetracycline**（牙齒骨骼）都要避免（[[protein-synthesis-inhibitors#chloramphenicol]]）
+- **眼睛**：出生後常規點**抗生素眼藥膏**(erythromycin)預防**淋病與披衣菌結膜炎**（[[sexually-transmitted-infections#neisseria-gonorrhoeae]]）
 - **鵝口瘡**：
   - 舌頭與頰黏膜上**擦不掉**的**白色凝乳狀斑點**（奶垢可擦掉），屬於異常
-  - 用 **nystatin** 懸浮液塗抹口腔，劑量計算例：100,000 units/mL，給 250,000 units = **2.5 mL**([[antifungals#nystatin]])
+  - 用 **nystatin** 懸浮液塗抹口腔，劑量計算例：100,000 units/mL，給 250,000 units = **2.5 mL**（[[antifungals#nystatin]]）
   - 奶嘴、奶瓶煮沸消毒；哺乳母親的乳頭也要一起治療
 - **臍帶護理**：
   - 保持**清潔乾燥**，尿布**反摺在臍部以下**避免尿液污染
@@ -170,7 +170,7 @@ references:
 |---|---|
 | **流感疫苗** | **任何孕期**都可以接種；孕婦與 6 個月內嬰兒的父母是公費對象（每年 10 月起）；可保護出生後 6 個月內的嬰兒 |
 | **Tdap**（百日咳） | 建議**懷孕 28–36 週**自費接種，讓抗體經胎盤傳給嬰兒；孕期未接種者**產後立即**接種；家人也建議在寶寶出生前接種 |
-| **活性減毒疫苗**（MMR、水痘） | **懷孕期間禁止**；接種後 4 週內避免懷孕([[immunization#contraindications]]) |
+| **活性減毒疫苗**（MMR、水痘） | **懷孕期間禁止**；接種後 4 週內避免懷孕（[[immunization#contraindications]]） |
 
 ## 相關考題 {#questions}
 

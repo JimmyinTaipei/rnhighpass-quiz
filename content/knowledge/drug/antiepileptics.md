@@ -25,7 +25,7 @@ references:
   - title: OpenStax. Pharmacology for Nurses，Antiseizure Drugs(CC BY-NC-SA 4.0)
     note: 僅作為撰寫參考，本頁文字與表格為重新整理撰寫
 ---
-**抗癲癇藥**（新名稱是抗發作藥物）用來減少神經元的異常同步放電，預防癲癇發作。多數病人要長期甚至終身服藥，所以護理重點在**規律服藥、監測血中濃度與副作用、不可自行停藥**。癲癇的分類、發作時的照護與熱性痙攣之後在 G 組癲癇頁整理；精神科用的情緒穩定劑（valproate、carbamazepine、lamotrigine）見 [[mood-stabilizers]]
+**抗癲癇藥**（新名稱是抗發作藥物）用來減少神經元的異常同步放電，預防癲癇發作。多數病人要長期甚至終身服藥，所以護理重點在**規律服藥、監測血中濃度與副作用、不可自行停藥**。癲癇的分類與發作時的照護見 [[epilepsy]]，熱性痙攣見 [[pediatric-respiratory-infections#febrile-seizure]]；精神科用的情緒穩定劑（valproate、carbamazepine、lamotrigine）見 [[mood-stabilizers]]
 
 ## 重點摘要 {#summary}
 

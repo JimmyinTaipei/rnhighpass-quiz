@@ -145,7 +145,7 @@ references:
 - **疫苗**：
   - **結合型疫苗**（PCV13、PCV15、PCV20）：嬰幼兒**常規公費接種**（2、4 個月與 12–15 個月）
   - **多醣體疫苗**(PPV23)與結合型疫苗：**65 歲以上**長者公費接種，常與**流感疫苗**一起推廣
-- 微生物學史：**Griffith 實驗**以肺炎鏈球菌證明**轉形作用**：無毒的活菌吸收死亡有毒菌的 **DNA** 後變成有毒株([[microbial-pathogenesis#gene-transfer]])
+- 微生物學史：**Griffith 實驗**以肺炎鏈球菌證明**轉形作用**：無毒的活菌吸收死亡有毒菌的 **DNA** 後變成有毒株（[[microbial-pathogenesis#gene-transfer]]）
 
 ## 草綠色鏈球菌與其他 Viridans streptococci {#viridans-streptococci}
 

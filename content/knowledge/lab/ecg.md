@@ -318,7 +318,7 @@ V1–V6 的正極就是胸前那顆電極，由右前(V1)排到左側(V6)。V1 �
 - **Q 波 = 心肌壞死（全層）**，出現後通常**永久存在**；「Q 波表示心肌受損在表層」是錯的
 - ST 段與 T 波的變化可協助判斷心肌是**缺血、損傷或壞死**
 - 變異型心絞痛發作時**ST 上升**；穩定型心絞痛由費力誘發、休息可緩解
-- 心電圖用來**快速分類與定位**，但診斷心肌受損**最具專一性**的是 **cardiac troponin**([[cardiac-biomarkers]])
+- 心電圖用來**快速分類與定位**，但診斷心肌受損**最具專一性**的是 **cardiac troponin**（[[cardiac-biomarkers]]）
 :::
 
 ## 急性冠心症的心電圖分類 {#acs-ecg}
@@ -424,7 +424,7 @@ MI 後最可能**永遠不會消失**的是**不正常 Q 波**；ST 上升與 T 
 - **連續心電監測、備好去顫器**：急性 MI 最常見的死因是**心律不整**（尤其心室顫動）
 - 依醫囑給 **Aspirin 162–325 mg 嚼碎**、舌下 **Nitroglycerin**；血氧 **< 90% 才需給氧**；其他抗缺血藥無效的胸痛才給 Morphine 或 Fentanyl（來源：[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)）（劑量僅供參考，以醫囑為準）
 - **Nitroglycerin 前先量血壓**：收縮壓 < 90 mmHg 或比基準下降 > 30 mmHg、**右心室梗塞**（下壁 MI 要加做右胸導程）、近期用過 **PDE5 抑制劑**（sildenafil 24 小時、tadalafil 48 小時內）者不可給（同上來源；[[nitrates]]）
-- 建立靜脈管路、抽血追蹤 **troponin**([[cardiac-biomarkers]])，但**不可因等待酵素或胸部 X 光延誤再灌流**
+- 建立靜脈管路、抽血追蹤 **troponin**（[[cardiac-biomarkers]]），但**不可因等待酵素或胸部 X 光延誤再灌流**
 - 焦慮的胸痛病人以解釋、陪伴為主；鎮靜劑（如 Lorazepam 靜注）不是急性冠心症的常規處置，可能掩蓋症狀、抑制呼吸
 - 再灌流藥物見 [[antiplatelets]]、[[anticoagulants]]、[[thrombolytics]];PCI 前後照護見 [[cardiac-catheterization]]
 

@@ -123,14 +123,14 @@ references:
 ## 診斷 {#diagnosis}
 
 - **必要檢查**：**胸部 X 光**（新出現的肺浸潤）＋**痰液檢查**（革蘭氏染色與培養）。電腦斷層、肺功能不是必要檢查
-- 住院病人：**血液培養**、血液氣體或血氧、白血球、CRP 或 procalcitonin([[inflammatory-markers]])；依情況做尿液肺炎鏈球菌與退伍軍人菌抗原、流感與 COVID 快篩
-- **痰液檢體**：**清晨、漱口後深咳**，在**給抗生素前**採檢([[culture-and-sensitivity#sputum-culture]])
+- 住院病人：**血液培養**、血液氣體或血氧、白血球、CRP 或 procalcitonin（[[inflammatory-markers]]）；依情況做尿液肺炎鏈球菌與退伍軍人菌抗原、流感與 COVID 快篩
+- **痰液檢體**：**清晨、漱口後深咳**，在**給抗生素前**採檢（[[culture-and-sensitivity#sputum-culture]]）
 
 ## 治療 {#treatment}
 
 - **經驗性抗生素**：依社區型或院內型、嚴重度與抗藥性風險選藥；社區型常用 β-lactam（例如 ceftriaxone）＋macrolide，或呼吸道 fluoroquinolone（[[beta-lactams]]、[[protein-synthesis-inhibitors#macrolides]]、[[fluoroquinolones-sulfonamides#fluoroquinolones]]）
 - **黴漿菌**：黴漿菌**沒有細胞壁**，青黴素無效；用 **macrolide**（azithromycin、erythromycin）
-- **MRSA 肺炎**：用 vancomycin、linezolid 或 teicoplanin；**daptomycin 會被肺表面張力素破壞，不能治療肺炎**([[glycopeptides]])
+- **MRSA 肺炎**：用 vancomycin、linezolid 或 teicoplanin；**daptomycin 會被肺表面張力素破壞，不能治療肺炎**（[[glycopeptides]]）
 - **療效評估**：**體溫下降、濃痰減少**、血氧改善，代表抗生素有效；X 光實質化範圍擴大或血氧下降表示惡化。社區型肺炎用藥 72 小時內惡化為**早期治療失敗**，要重新評估
 - 給氧、補充水分、退燒止痛；嚴重者依呼吸衰竭處理
 
@@ -161,7 +161,7 @@ references:
 
 ## 呼吸器相關肺炎的預防 {#vap-prevention}
 
-- 組合式照護：**床頭抬高 30–45 度**、每日中斷鎮靜並評估脫離呼吸器、口腔護理、聲門下抽吸([[infection-control#bundles]])
+- 組合式照護：**床頭抬高 30–45 度**、每日中斷鎮靜並評估脫離呼吸器、口腔護理、聲門下抽吸（[[infection-control#bundles]]）
 - 氣管內管氣囊壓力維持 **20–30 cmH₂O**（約 15–22 mmHg）；壓力過高（例如 35 mmHg）會壓傷氣管黏膜
 - 抽痰時採無菌技術；依需要才抽痰，不要定時常規抽痰
 - 呼吸器組合式照護、套囊壓與抽痰原則見 [[mechanical-ventilation#nursing]]、[[artificial-airway#nursing]]

@@ -21,7 +21,7 @@ references:
     url: https://medlineplus.gov/genetics/
   - title: 圖：核型為 Servier Medical Art(smart.servier.com，CC BY 4.0)；不分離示意圖為原創
 ---
-**染色體異常**是整條染色體多了、少了，或一段斷掉、搬家。最常見的機轉是減數分裂時同源染色體沒有分開（**不分離**），因此和**母親年齡**有關、多半**不是遺傳**而來。遺傳模式的總覽與全部遺傳疾病的分類見 [[genetic-inheritance]]；產前篩檢與診斷的方法留給產科那一輪
+**染色體異常**是整條染色體多了、少了，或一段斷掉、搬家。最常見的機轉是減數分裂時同源染色體沒有分開（**不分離**），因此和**母親年齡**有關、多半**不是遺傳**而來。遺傳模式的總覽與全部遺傳疾病的分類見 [[genetic-inheritance]]；產前篩檢與診斷的方法見 [[prenatal-assessment#genetic-screening]]
 
 ## 重點摘要 {#summary}
 
@@ -77,7 +77,7 @@ references:
    5. **甲狀腺功能低下**
    6. 第 21 號染色體上有類澱粉前驅蛋白(APP)基因，40 歲後幾乎都有阿茲海默症的腦部變化（見 [[dementia#ad-pathology]]）
    7. 寰樞椎不穩定、聽力與視力問題、反覆感染
-- 照護重點：早期療育、心臟與甲狀腺追蹤、餵食與預防感染；產前篩檢方式留給產科那一輪
+- 照護重點：早期療育、心臟與甲狀腺追蹤、餵食與預防感染；產前篩檢方式見 [[prenatal-assessment#genetic-screening]]
 
 ::questions{ids="111-2_BM_025,112-3_BM_024"}
 
