@@ -5,7 +5,7 @@
 
 ## 目前輪次
 
-- **收尾(第 17 輪之後)**：計畫在 [wrap-up-plan.md](wrap-up-plan.md)，功能待辦在 [feature-backlog.md](feature-backlog.md)；收尾 A 標點、收尾 B 補連結完成(2026-10-27)；下一步收尾 C(chapters 抽查)或 D(需確認清單整併)；A2 詳解更正做法要先給使用者看
+- **收尾(第 17 輪之後)**：計畫在 [wrap-up-plan.md](wrap-up-plan.md)，功能待辦在 [feature-backlog.md](feature-backlog.md)；收尾 A、B、D 完成(2026-10-27；需確認總表在 [review-checklist.md](review-checklist.md))；下一步收尾 C(chapters 抽查)；A2 詳解更正做法要先給使用者看
 
 - **輪次**：第 17 輪 兒科通論＋藥理生解剩餘＋總收尾(拆 17a 兒科通論、17b 藥理生解剩餘與零星題＋總收尾)；**在分支 claude/knowledge-assets 做**
 - **計畫**：[round-plans-13-17.md](round-plans-13-17.md)「第 17 輪」
