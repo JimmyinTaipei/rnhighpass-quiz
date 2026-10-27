@@ -1,7 +1,7 @@
 # 第 3 輪(神經與感官)來源包
 
 > 狀態：2026-10-06 使用者核准計畫；本機 session 製作。計畫檔：`~/.claude/plans/plan-glowing-sunset.md`；進度以 [knowledge-progress.md](../knowledge-progress.md) 為準
-> 圖片另見 [neuro-images.md](neuro-images.md)；標籤合併見 [tag-merge-neuro.md](../tag-merge-neuro.md)
+> 圖片另見 [neuro-images.md](neuro-images.md)；標籤合併見 [tag-merge-neuro.md](../archive/tag-merge/tag-merge-neuro.md)
 > 版權原則見 [knowledge-roadmap.md](../knowledge-roadmap.md)「版權優先與 UpToDate 使用原則」：所有來源只當參考，用自己的話與結構重寫
 
 ## 一、範圍

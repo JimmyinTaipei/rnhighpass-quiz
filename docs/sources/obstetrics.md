@@ -3,7 +3,7 @@
 > 2026-10-27 建立。版權規則見 AGENTS.md：課本、國考書、OpenStax 只參考，用自己的話與結構重寫，**不照抄、不重製表與圖**；指引、政府資料可以引用數字與分級，事實在當行標注來源；數字沒有權威來源就標「待核對」
 > 國考舊考點與新指引不同時：保留國考答案，旁邊標注新指引(第六節新舊說法表)
 > 台灣資料優先(國健署、衛福部、疾管署、醫學中心衛教單張)；國際指引以 ACOG、WHO 2018 產時照護、2025 AHA／AAP 新生兒復甦為主
-> 圖片盤點見 [obstetrics-images.md](obstetrics-images.md)；標籤合併見 [../tag-merge-round16.md](../tag-merge-round16.md)
+> 圖片盤點見 [obstetrics-images.md](obstetrics-images.md)；標籤合併見 [../tag-merge-round16.md](../archive/tag-merge/tag-merge-round16.md)
 
 ## 一、課本對照(已持有，只參考)
 

@@ -18,7 +18,7 @@
 
 ## 一、需要你決定
 
-- [x] R16 產科拆分 ⚠ 項：性傳染病、疱疹病毒要不要加 alsoIn 產科；泌尿道感染的 alsoIn 生殖要不要拿掉(見 [obstetrics-split-review.md](obstetrics-split-review.md))
+- [x] R16 產科拆分 ⚠ 項：性傳染病、疱疹病毒要不要加 alsoIn 產科；泌尿道感染的 alsoIn 生殖要不要拿掉(見 [obstetrics-split-review.md](archive/reviews/obstetrics-split-review.md))
   - ✅ 2026-10-27：泌尿道感染拿掉 alsoIn 生殖；性傳染病、疱疹病毒不加產科(婦科已在生殖系統分開，維持現狀)
 - [x] R16 早產兒與新生兒疾病頁放產科 neonatal-diseases 組＋`peds: true`(pediatric-review 原本寫放器官系統)，維持現狀嗎
   - ✅ 維持現狀，使用者之後再想怎麼做更好
@@ -38,8 +38,10 @@
   - ✅ 維持兩個
 - [x] R7 衛生福利部組織法新設兩署：行政院公告施行日後要改 `health-administration-system`、`long-term-care`(到時提醒 Claude)
   - ✅ 使用者知道，公告後再改
-- [x] R2 精神科標籤合併待決定：[tag-merge-psychiatry.md](tag-merge-psychiatry.md) 第三節
+- [x] R2 精神科標籤合併待決定：[tag-merge-psychiatry.md](archive/tag-merge/tag-merge-psychiatry.md) 第三節
   - ✅ 2026-10-27 新版清單：舊 10 列大多已處理，剩 4 項待決定，見該檔第三節「還要決定」
+
+- [x] 各輪標籤合併紀錄的「待使用者決定」(收尾整理 docs 時補查)：都已處理；只剩 dz:燙傷(10 題)維持獨立、由 heat-cold-therapy 認領，不併入燒傷
 
 ## 二、圖片待審核
 

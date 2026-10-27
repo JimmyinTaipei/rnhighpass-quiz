@@ -4,7 +4,7 @@
 //
 // 把頁面底部「## 國考常考點」callout 的每一條,建議搬到最相關段落的結尾。
 //
-//   node scripts/suggest-exam-points.mjs                      產生審閱檔 docs/exam-points-review/<系統>.md(不改 content/)
+//   node scripts/suggest-exam-points.mjs                      產生審閱檔 docs/archive/reviews/exam-points-review/<系統>.md(不改 content/)
 //   node scripts/suggest-exam-points.mjs --apply --only <slug|系統id>   依審閱檔實際改寫 .md(預設是 dry-run,不加 --apply 只印出會做什麼)
 //
 // 審閱檔每條長這樣:
@@ -27,7 +27,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT = path.join(ROOT, "content/knowledge");
-const OUT = path.join(ROOT, "docs/exam-points-review");
+const OUT = path.join(ROOT, "docs/archive/reviews/exam-points-review");
 const index = JSON.parse(fs.readFileSync(path.join(ROOT, "src/data/knowledge/index.json"), "utf8"));
 const taxonomy = JSON.parse(fs.readFileSync(path.join(ROOT, "src/data/knowledge/taxonomy.json"), "utf8"));
 const domainName = new Map(taxonomy.domains.map((d) => [d.id, d.name]));

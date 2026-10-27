@@ -47,7 +47,7 @@
 
 | 步 | 內容 |
 |---|---|
-| 8-0a | 標籤合併：基護 Ch10、13、14 ＋ **肌骨皮膚**(內外 Ch12、16，生解 Ch02–04，病理 Ch17，兒科 Ch14；例：骨折各類、壓力性損傷／褥瘡、骨質疏鬆)；`docs/tag-merge-round8.md` |
+| 8-0a | 標籤合併：基護 Ch10、13、14 ＋ **肌骨皮膚**(內外 Ch12、16，生解 Ch02–04，病理 Ch17，兒科 Ch14；例：骨折各類、壓力性損傷／褥瘡、骨質疏鬆)；`docs/archive/tag-merge/tag-merge-round8.md` |
 | 8-0b | OCR 基護上下冊與內外科護理技術的目錄(建 PDF 頁↔書頁對照表，後面幾輪共用)＋本輪章節；來源包 `sources/fundamentals-a.md`：課本頁碼、醫院給藥安全(病人安全目標、高警訊藥物、ISMP)、TFDA 用藥安全、醫學中心注射與輸液衛教單張、靜脈注射外滲處理；新舊說法表(三讀五對 → 七對／十對、IM 部位背臀肌 → 腹臀肌、Z 字注射回抽與否、體溫計種類) |
 | 8-0c | taxonomy：fundamentals domain 加 groups(給藥、生命徵象、體液與輸液、安全環境)；原創圖：注射角度、肌肉注射部位(腹臀肌、股外側肌、三角肌)、體溫調節迴路 |
 | A | `procedure/medication-administration-principles`(醫囑類型與執行、給藥原則與核對、給藥時間縮寫、藥物管理與管制藥品、給藥錯誤與通報；藥物概述 11 題的藥動學部分寫一節，深入內容留第 17 輪藥理 Ch01；約 68 題) |
@@ -129,7 +129,7 @@
 
 | 步 | 內容 |
 |---|---|
-| 11-0a | 標籤合併：消化同義標籤＋tag-merge-round5.md 第四節剩餘＋生殖系統；`docs/tag-merge-round11.md` |
+| 11-0a | 標籤合併：消化同義標籤＋tag-merge-round5.md 第四節剩餘＋生殖系統；`docs/archive/tag-merge/tag-merge-round11.md` |
 | 11-0b | 來源包 `sources/digestive.md`(課本書頁、H. pylori 台灣共識、AASLD、消化醫學會；新舊說法表) |
 | 11-0c | taxonomy digestive groups(生理、上消化道、下消化道、肝膽胰、兒科、檢驗與檢查)，既有 5 頁歸組；Servier 消化圖盤點 |
 | A | `physiology/gi-anatomy-physiology`(口腔到大腸、消化酶與激素)、`physiology/liver-biliary-pancreas`(生解 Ch09 剩餘) |
@@ -161,7 +161,7 @@
 
 | 步 | 內容 |
 |---|---|
-| 12-0a | 標籤合併：血液重查(第 7 輪後新增、抗血栓與貧血用藥)＋社區 B(社區 Ch02、04、06–09、11、12、15)；`docs/tag-merge-round12.md` |
+| 12-0a | 標籤合併：血液重查(第 7 輪後新增、抗血栓與貧血用藥)＋社區 B(社區 Ch02、04、06–09、11、12、15)；`docs/archive/tag-merge/tag-merge-round12.md` |
 | 12-0b | 來源包 `sources/hematology.md`(內外、兒科課本書頁、血液病學會、輸血作業規範、ASH ITP 2019、ISTH DIC；新舊說法表) |
 | 12-0c | taxonomy hematology groups(血液生理、貧血、出血凝血、檢驗)；圖片盤點(Servier 血球生成＋原創凝血瀑布) |
 | A | `physiology/blood-hemostasis`(血球生成、EPO、血紅素、血型、凝血瀑布與纖溶；病理止血留 thrombosis 頁並互連)、`disease/anemias`(缺鐵、巨球性、再生不良、溶血含海洋性輸血排鐵與 G6PD 照護、真性紅血球增多症；移交) |

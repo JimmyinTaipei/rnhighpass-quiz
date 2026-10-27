@@ -26,8 +26,8 @@
 | 收尾 B | 補連結：純文字「之後的 XX 頁」改 `[[slug]]`；逐條核對 progress 各輪「之後要回補的連結」，已補的劃掉、沒補的補上；跑 resolver 確認沒有壞連結 | Claude | ✅ 2026-10-27(見下方紀錄) |
 | 收尾 C | `chapters:` 抽查：腳本比對每篇的 chapters 與相關考題實際落在的章節，列出差異大的篇，人工修 | Claude | ✅ 2026-10-27(見下方紀錄) |
 | 收尾 D | 需確認清單整併：第 6–17 輪清單合成一份 [review-checklist.md](review-checklist.md)，依類型分組(圖片待審、建議做的圖、待核對、只依國考、國考答案與新指引不同)，每項 checkbox＋連到頁面 | Claude 整理、使用者勾 | ✅ 2026-10-27(使用者勾選中) |
-| 收尾 E | build、export、source-scan；重新部署 workers.dev(內容改了要重建靜態資產) | Claude | ⬜ |
-| 收尾 F | 分支 `claude/knowledge-assets` 合併回 main(目前領先 main 14 個 commit，部署是從這個分支做的) | 使用者同意後 Claude | ⬜ |
+| 收尾 E | build、export、source-scan；重新部署 workers.dev(內容改了要重建靜態資產) | Claude | ✅ 2026-10-27 |
+| 收尾 F | 分支 `claude/knowledge-assets` 合併回 main(目前領先 main 14 個 commit，部署是從這個分支做的) | 使用者同意後 Claude | ✅ 2026-10-27 |
 
 A、B 都會改很多頁，各自一個 commit，有問題可以整批還原。
 
@@ -80,3 +80,10 @@ A、B 都會改很多頁，各自一個 commit，有問題可以整批還原。
 3. **多寫 25 → 13**：刪 12 條明顯不相關(neurotransmitters-psychiatry 對到護理處置、protozoa 對到蠕蟲、ogtt 與 hba1c 對到糖尿病用藥等)；fluid-electrolytes 的酸鹼段改給 abg
    1. 保留的 13 條是內容相關、只是題目沒點名本頁(arni → 心衰竭與高血壓用藥、lithium-level → 雙相、ecg → 抗心律不整藥物、immunology-labs → 自體免疫等)，或段落本身 0 題
 4. 已跑 build、export_knowledge_questions、resolver；之後新增或改 chapters 可再跑 `database/.venv/bin/python database/scripts/audit_chapter_refs.py`
+
+## 收尾 E、F 紀錄(2026-10-27)
+
+1. Supabase：sync_all 寫回(questions 8960、question_tags 16674)；刪除 2 筆來源已換掉的舊標籤列(105-1_OP_042 認知功能障礙、107-1_BM_049 中樞神經作用藥物)；112-1_OP_024 新詳解已進 DB
+2. 部署：opennextjs build → upload 預覽版 ad054753 → 抽 40 頁 200 → `wrangler versions deploy` 100%
+3. 合併：claude/knowledge-assets 快轉合併到 main 並 push
+4. docs 整理：做完的紀錄搬到 docs/archive/，新增 docs/README.md 索引，knowledge-progress.md 改成精簡版(舊的完整紀錄在 archive/rounds/)

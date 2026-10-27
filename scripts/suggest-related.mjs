@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // 為疾病頁產生 related 欄位的「建議」,只輸出審閱檔,不改任何 .md。
 //
-//   node scripts/suggest-related.mjs            → docs/related-review/<system>.md(每個系統一份)
+//   node scripts/suggest-related.mjs            → docs/archive/reviews/related-review/<system>.md(每個系統一份)
 //
 // 證據來源(寫在每一條後面,方便你判斷):
 //   link×N  疾病頁內文有 N 個段落連到該頁([[slug]])
@@ -19,7 +19,7 @@ import YAML from "yaml";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const index = JSON.parse(fs.readFileSync(path.join(ROOT, "src/data/knowledge/index.json"), "utf8"));
 const taxonomy = JSON.parse(fs.readFileSync(path.join(ROOT, "src/data/knowledge/taxonomy.json"), "utf8"));
-const OUT = path.join(ROOT, "docs/related-review");
+const OUT = path.join(ROOT, "docs/archive/reviews/related-review");
 const KEYS = [
   ["lab", "檢驗"],
   ["drug", "藥物"],

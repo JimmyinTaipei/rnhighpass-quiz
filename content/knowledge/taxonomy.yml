@@ -213,7 +213,7 @@ domains:
     kind: system
     blockTag: 神經
     groups:
-      # drugTags：精神範圍標籤合併後的標準名(2026-10-06 合併並寫回 Supabase，見 docs/tag-merge-psychiatry.md)
+      # drugTags：精神範圍標籤合併後的標準名(2026-10-06 合併並寫回 Supabase，見 docs/archive/tag-merge/tag-merge-psychiatry.md)
       - { id: antipsychotics, name: 抗精神病藥, type: drug, drugTags: [抗精神病藥物] }
       - { id: antidepressants, name: 抗憂鬱藥, type: drug, drugTags: [抗憂鬱用藥] }
       - { id: mood-stabilizers, name: 情緒穩定劑, type: drug, drugTags: [情緒穩定劑] }

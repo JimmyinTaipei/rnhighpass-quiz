@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // 列出「想打好基礎」的候選概念,只輸出審閱檔,不改任何 .md。
 //
-//   node scripts/suggest-basics.mjs      → docs/basics-candidates.md
+//   node scripts/suggest-basics.mjs      → docs/archive/reviews/basics-candidates.md
 //
 // 兩種來源:
 //   A. 已經有現成段落:兩頁以上連到(或嵌入)同一個解剖&生理頁/段落 → 可直接 ![[slug#id|basics]]
@@ -17,7 +17,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = path.join(ROOT, "src/data/knowledge");
-const OUT = path.join(ROOT, "docs/basics-candidates.md");
+const OUT = path.join(ROOT, "docs/archive/reviews/basics-candidates.md");
 // 與 build-knowledge.mjs 相同:約 8 行
 const BASICS_SECTION_WARN_CHARS = 320;
 

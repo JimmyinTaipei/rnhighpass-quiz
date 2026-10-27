@@ -80,7 +80,7 @@ related:
 疾病頁會顯示「相關檢驗/藥物/病原體/生理機轉」分組卡片;被連到的頁面會**自動**出現「用於哪些疾病」,不必在檢驗或藥物頁另外寫。
 
 還沒寫 `related` 的疾病頁,暫時由內文的 `[[連結]]` 依目標類型推導(遷移期 fallback)。一旦寫了 `related` 就只用它。
-候選清單用 `node scripts/suggest-related.mjs` 產生到 `docs/related-review/<系統>.md`,審閱後再抄進 frontmatter。
+候選清單用 `node scripts/suggest-related.mjs` 產生到 `docs/archive/reviews/related-review/<系統>.md`,審閱後再抄進 frontmatter。
 
 ## 章節對照(chapters)
 
