@@ -13,7 +13,7 @@
 ## 下一步
 
 1. **收尾 A2**：題目 AI 詳解套用標點規則(使用者已同意)；詳解錯誤更正要**先給使用者看做法**
-2. **Batch 全面檢查**：用 Batch 檢查知識頁內容、圖片與表格的錯誤(使用者 2026-10-27 提出，做法待確認)
+2. **Batch 全面檢查**(Gemini 3.8 Flash，剩 NT$2007)：順序 知識頁 → 圖片 → AI 詳解。知識頁請求檔已備好(`batch/knowledge-review/`，`scripts/batch-knowledge-review.py`)，**等使用者先送 6 篇試跑**，回傳後 parse、Claude 逐條查證再列給使用者
 3. **功能**：見 [feature-backlog.md](feature-backlog.md)；「功能備忘錄」的項目要先跟使用者討論
 4. **需確認項目**：見 [review-checklist.md](review-checklist.md)，「待核對」使用者之後再看
 

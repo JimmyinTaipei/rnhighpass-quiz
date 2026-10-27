@@ -48,3 +48,5 @@ next-env.d.ts
 database/.venv
 database/__pycache__
 database/**/__pycache__
+batch/knowledge-review/requests/
+batch/knowledge-review/responses/
