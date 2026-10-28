@@ -9,6 +9,7 @@ import {
   useState,
 } from "react";
 import { List, X } from "lucide-react";
+import { DesktopBackLink } from "@/components/shell/DesktopBackBar";
 import type { TocNode } from "./toc";
 
 interface ArticleContextValue {
@@ -179,19 +180,24 @@ export function ArticleShell({
 
   return (
     <ArticleContext.Provider value={value}>
-      <div className="mx-auto grid w-full max-w-6xl flex-1 gap-6 px-4 py-6 lg:grid-cols-[240px_minmax(0,1fr)]">
-        <aside className="hidden lg:block">
-          <div className="sticky top-[calc(var(--desk-bar)+1rem)] max-h-[calc(100vh-2rem-var(--desk-bar))] overflow-y-auto pr-1">{tocPanel}</div>
+      {/* lg：目錄＋內文兩欄。xl 以上內文欄固定寬度、放在畫面正中央，目錄靠在內文左邊(第三欄留白與第一欄對稱) */}
+      <div className="mx-auto grid w-full max-w-6xl flex-1 gap-6 px-4 py-6 lg:grid-cols-[240px_minmax(0,1fr)] xl:max-w-none xl:grid-cols-[minmax(240px,1fr)_minmax(0,54rem)_minmax(0,1fr)]">
+        <aside className="hidden lg:block xl:w-[240px] xl:justify-self-end">
+          <div className="sticky top-[calc(var(--desk-bar)+1rem)] max-h-[calc(100vh-2rem-var(--desk-bar))] overflow-y-auto pr-1">
+            <DesktopBackLink className="-ml-1 mb-2" />
+            {tocPanel}
+          </div>
         </aside>
 
         <main className="min-w-0">{children}</main>
       </div>
 
-      {/* 窄螢幕:目錄改成底部抽屜。bottom-20 讓開手機的底部頁籤 */}
+      {/* 窄螢幕:目錄改成底部抽屜。按鈕疊在「回到頂端」(ScrollTopButton，size-11)上方，兩顆不重疊；
+          手機還要讓開底部頁籤 */}
       <button
         type="button"
         onClick={() => setDrawer(true)}
-        className="fixed right-4 bottom-20 z-30 flex items-center gap-1.5 rounded-full bg-deep px-3.5 py-2 text-sm font-medium text-on-accent shadow-md hover:opacity-90 md:bottom-6 lg:hidden"
+        className="fixed right-4 bottom-[calc(3.5rem+env(safe-area-inset-bottom)+1rem+2.75rem+0.75rem)] z-30 flex items-center gap-1.5 rounded-full bg-deep px-3.5 py-2 text-sm font-medium text-on-accent shadow-md hover:opacity-90 md:right-6 md:bottom-[calc(1.5rem+2.75rem+0.75rem)] lg:hidden"
       >
         <List size={16} /> 目錄
       </button>

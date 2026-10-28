@@ -6,7 +6,7 @@ import { ExamPresence } from "@/components/learn/ExamPresence";
 import { renderHast, SectionView, type RenderContext } from "@/components/learn/ArticleRenderer";
 import { ArticleMetaEditor } from "@/components/learn/KnowledgeEditors";
 import { RelatedCards } from "@/components/learn/RelatedCards";
-import { SeeAlso, type CitingArticle } from "@/components/learn/SeeAlso";
+import { SeeAlso, type CitingArticle, type CitingGroup } from "@/components/learn/SeeAlso";
 import {
   getCurrentUser,
   getDiseaseTagsForQuestions,
@@ -25,9 +25,10 @@ import {
   questionIdsFor,
   relatedGroupsFor,
   siblingArticles,
+  taxonomy,
   usedByFor,
 } from "@/lib/knowledge";
-import { examStatsFor } from "@/lib/knowledge/exam";
+import { examCountFor, examStatsFor } from "@/lib/knowledge/exam";
 import {
   CATEGORY_LABELS,
   chipKeyOf,
@@ -79,11 +80,35 @@ function citingArticles(slug: string, sections: KnowledgeSection[]): CitingArtic
   const bySource = new Map<string, CitingArticle>();
   for (const p of places.values()) {
     const src = p.key.split("#")[0];
-    const entry = bySource.get(src) ?? { slug: src, title: p.articleTitle, places: [] };
+    const entry = bySource.get(src) ?? {
+      slug: src,
+      title: p.articleTitle,
+      system: knowledgeIndex.articles[src]?.system ?? "",
+      examCount: examCountFor(src),
+      places: [],
+    };
     entry.places.push(p);
     bySource.set(src, entry);
   }
   return [...bySource.values()];
+}
+
+/**
+ * 引用本頁的頁面依主系統分組(系統順序同 taxonomy)，組內依相關題數由高到低。
+ * 讀者想知道的是「哪些疾病、哪個系統用到這頁」，所以先分系統，再把常考的放前面。
+ */
+function groupCitingBySystem(citing: CitingArticle[]): CitingGroup[] {
+  const order = new Map(taxonomy.domains.map((d, i) => [d.id, i]));
+  const groups = new Map<string, CitingGroup>();
+  for (const c of citing) {
+    const g = groups.get(c.system) ?? { id: c.system, name: getDomain(c.system)?.name ?? "其他", articles: [] };
+    g.articles.push(c);
+    groups.set(c.system, g);
+  }
+  for (const g of groups.values()) {
+    g.articles.sort((a, b) => b.examCount - a.examCount || a.title.localeCompare(b.title, "zh-Hant"));
+  }
+  return [...groups.values()].sort((a, b) => (order.get(a.id) ?? 999) - (order.get(b.id) ?? 999));
 }
 
 interface ArticleViewProps {
@@ -253,7 +278,7 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
 
       <RelatedCards groups={relatedGroupsFor(slug)} usedBy={usedByFor(slug)} showDraft={admin} />
 
-      <SeeAlso citing={citing} group={group} siblings={siblings} alsoIn={alsoIn} />
+      <SeeAlso citing={groupCitingBySystem(citing)} group={group} siblings={siblings} alsoIn={alsoIn} />
 
       {article.references.length > 0 && (
         <footer className="mt-10 border-t border-card-border pt-5 text-sm text-body">

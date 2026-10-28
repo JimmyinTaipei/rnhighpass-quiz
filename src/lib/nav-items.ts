@@ -130,6 +130,16 @@ export function hasDesktopBack(pathname: string): boolean {
   return !!m && !["system", "type", "peds"].includes(m[1]);
 }
 
+/**
+ * 有左側目錄欄的閱讀頁(章節頁、知識頁，不含做題)：lg 以上返回放在目錄欄上方，
+ * 頂端返回列只在 md–lg(目錄收成抽屜時)出現。
+ */
+export function hasSideToc(pathname: string): boolean {
+  if (/^\/chapters\/\d+\/?$/.test(pathname)) return true;
+  const m = pathname.match(/^\/learn\/([^/]+)\/?$/);
+  return !!m && !["system", "type", "peds"].includes(m[1]);
+}
+
 export function parentOf(pathname: string): ParentLink | null {
   const seg = pathname.split("/").filter(Boolean);
   const [a, b, c] = seg;

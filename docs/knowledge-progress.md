@@ -7,9 +7,9 @@
 
 - **知識庫建完**：404 篇、題目涵蓋 8960/8960(11 科 100%)、chapters 對照涵蓋 660/660 個有題目的 H2
 - **收尾**：A 標點、B 補連結、C chapters 抽查、D 需確認總表、E 寫回 Supabase 與部署、F 合併 main 都完成，見 [wrap-up-plan.md](wrap-up-plan.md)
-- **線上版本**：workers.dev 仍是 ad054753(2026-10-27)。batch 審稿修正版 6da038cd 已上傳，2026-10-28 部署兩次都在幾分鐘內出現 1102(CPU 超限)，已退回；當時正式網址每分鐘 1,000–2,500 個請求(舊版只有幾十個、預覽網址正常)，疑似有開著的舊版分頁或外部用戶端在新版下重複請求，原因待查
+- **線上版本**：workers.dev **132f64cf**(2026-10-28，含 Batch 審稿修正 262 條＋介面小修)。免費方案的 10 ms CPU 上限造成之前兩次 1102，**使用者 2026-10-28 改訂 Workers Paid(US$5/月)**；部署後 414 篇知識頁全部 200、前 8 分鐘 480 個請求 0 錯誤(CPU p50 14–26 ms)。可以之後降回免費，降之前要先把各頁 CPU 壓到 10 ms 以下(模擬考站 p90 約 230–420 ms 也要處理)
 - **Supabase**：questions 8960、question_tags 16674，與來源一致
-- **Batch 知識頁審稿完成**(2026-10-28)：549 個候選問題，改 262(162 頁)、誤報 282、待確認 5(4 項，已列入 review-checklist)；紀錄見 [archive/reviews/batch-knowledge-review-2026-10-28.md](archive/reviews/batch-knowledge-review-2026-10-28.md)，**尚未上線**(見線上版本)
+- **Batch 知識頁審稿完成**(2026-10-28)：549 個候選問題，改 262(162 頁)、誤報 282、待確認 5(4 項，已列入 review-checklist)；紀錄見 [archive/reviews/batch-knowledge-review-2026-10-28.md](archive/reviews/batch-knowledge-review-2026-10-28.md)，已上線(132f64cf)
 
 ## 下一步
 

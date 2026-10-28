@@ -35,7 +35,7 @@ export function CollapsibleSection({ id, depth, number, title, children, titleEd
     <section
       className={
         highlight
-          ? "mt-8 rounded-card bg-(--surface-inset) p-4 first:mt-0 sm:p-5"
+          ? "surface-white mt-8 rounded-card p-4 first:mt-0 sm:p-5"
           : depth === 2
             ? "mt-8 border-t border-card-border pt-5 first:mt-0 first:border-t-0 first:pt-0"
             : "mt-5"

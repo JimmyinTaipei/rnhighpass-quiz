@@ -235,6 +235,18 @@ body {
 .kb-table-wrap th, .kb-table-wrap td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-card-border); vertical-align: top; }
 .kb-table-wrap tr:last-child td { border-bottom: 0; }
 .kb-table-wrap td:first-child { font-weight: 500; }
+/* 每欄有最小寬度：欄位多或螢幕窄時表格撐出外框、改成左右滑，不把字擠成一字一行(手機、電腦版都一樣)。
+   外框左右的陰影提示「還有內容可以滑」：捲到最邊邊時被同色的 local 背景蓋掉(Lea Verou 的 scrolling shadows) */
+.kb-table-wrap th, .kb-table-wrap td { min-width: 8.5em; }
+.kb-table-wrap th:first-child, .kb-table-wrap td:first-child { min-width: 6.5em; }
+.kb-table-wrap {
+  background:
+    linear-gradient(to right, var(--color-card) 30%, transparent) left / 2rem 100% no-repeat local,
+    linear-gradient(to left, var(--color-card) 30%, transparent) right / 2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.14), transparent) left / 0.75rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.14), transparent) right / 0.75rem 100% no-repeat scroll;
+  background-color: var(--color-card);
+}
 
 /* 行內知識點連結:點線底線,和一般外部連結區分 */
 .kb-link {
@@ -271,6 +283,12 @@ html {
 @media (min-width: 48rem) {
   :root:has(.desk-back-bar) {
     --desk-bar: var(--desk-bar-h);
+  }
+}
+/* 有目錄欄的頁面在 lg 以上返回改放目錄欄上方，返回列藏起來 */
+@media (min-width: 64rem) {
+  :root:has(.desk-back-bar[data-side-toc]) {
+    --desk-bar: 0px;
   }
 }
 html {
@@ -323,6 +341,15 @@ button,
 [data-ui="apple"] .on-white {
   --surface-inset: var(--color-page);
   --surface-row: #FFFFFF;
+}
+
+/* 白底卡片(重點摘要、題目、段落考題)：不論外層是白是灰都用白底，靠細框線和內文分開；
+   卡裡的列(選項、詳解段落)用半透明灰，內嵌卡用頁面灰 */
+[data-ui="apple"] .surface-white {
+  background: var(--color-card);
+  border: 1px solid var(--color-card-border);
+  --surface-inset: var(--color-page);
+  --surface-row: var(--color-fill);
 }
 
 /* 只在 md 以上是白色容器(手機上閱讀頁不包面板，內容直接放在灰色頁面上) */

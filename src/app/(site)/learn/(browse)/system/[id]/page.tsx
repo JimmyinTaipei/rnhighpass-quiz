@@ -5,6 +5,7 @@ import { ChevronRight } from "lucide-react";
 import { isAdmin } from "@/lib/auth";
 import { ArticleRow, ArticleRowList } from "@/components/learn/ArticleRow";
 import { ComingSoon } from "@/components/learn/ComingSoon";
+import { FilterSheet } from "@/components/learn/FilterSheet";
 import { OrganGroups } from "@/components/learn/OrganGroups";
 import { groupByOrgan } from "@/lib/knowledge/grouping";
 import { isPeds } from "@/lib/knowledge/nav";
@@ -47,7 +48,7 @@ const chipClass = (active: boolean) =>
 
 /**
  * 一個系統(或護理專業)底下的頁面。
- * 系統:上方類型 chips(?type=)與右上排序切換(預設依類型分區塊;?sort=exam 混成一個清單)。
+ * 系統:上方類型 chips(?type=，手機版收成 FilterSheet 底部選單)與右上排序切換(預設依類型分區塊;?sort=exam 混成一個清單)。
  *   區塊與 chips 順序同 SYSTEM_TYPE_CHIPS;沒有頁面的類型隱藏;病原體不出現。
  * 護理專業:沒有 chips、切換與區塊標題,單一清單依題數排序。
  * 跨系統(腫瘤、感染):依器官系統分組(lib/knowledge/grouping.ts),沒有 chips 與切換。
@@ -151,7 +152,16 @@ export default async function LearnSystemPage(props: PageProps<"/learn/system/[i
       {!isNursing && (chips.length > 1 || hasPeds) && (
         <div className="mb-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
           {chips.length > 1 && (
-            <nav aria-label="類型篩選" className="flex flex-wrap gap-2">
+            <FilterSheet
+              label="分類"
+              options={[
+                { key: "all", label: "全部", href: href(null, byExam), active: !chip },
+                ...chips.map((c) => ({ key: c.key, label: c.label, href: href(c.key, byExam), active: chip?.key === c.key })),
+              ]}
+            />
+          )}
+          {chips.length > 1 && (
+            <nav aria-label="類型篩選" className="hidden flex-wrap gap-2 md:flex">
               <Link href={href(null, byExam)} scroll={false} aria-current={!chip ? "true" : undefined} className={chipClass(!chip)}>
                 全部
               </Link>

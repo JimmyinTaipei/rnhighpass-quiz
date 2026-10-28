@@ -11,6 +11,7 @@ import { writePosition } from "@/lib/reading-position";
 import { buildChapterGroups, buildSidebarChapters, type TreeNode } from "@/lib/reading-nav";
 import { subjectGroup } from "@/lib/subject-groups";
 import type { Chapter, Subject } from "@/lib/types";
+import { DesktopBackLink } from "@/components/shell/DesktopBackBar";
 
 interface ReadingSidebarProps {
   subjects: Subject[];
@@ -233,6 +234,7 @@ export function ReadingSidebar({
         aria-label="章節目錄"
         className="sticky top-[calc(var(--desk-bar)+1rem)] hidden h-[calc(100vh-2rem-var(--desk-bar))] w-64 shrink-0 self-start overflow-y-auto rounded-card bg-card p-3 shadow-sm lg:block"
       >
+        <DesktopBackLink className="mb-2" />
         {body}
       </nav>
 

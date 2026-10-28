@@ -100,7 +100,7 @@ function RelatedQuestions({ qkey, ctx }: { qkey: string; ctx: RenderContext }) {
   const questions = ctx.questions.get(qkey) ?? [];
   if (questions.length === 0) return null;
   return (
-    <details className="kb-questions group my-4 rounded-card bg-(--surface-inset)">
+    <details className="kb-questions surface-white group my-4 rounded-card">
       <summary className="flex cursor-pointer list-none items-center gap-2 px-4 py-2.5 text-sm font-semibold text-deep select-none hover:bg-surface-hover [&::-webkit-details-marker]:hidden">
         <ListChecks size={16} className="text-accent" />
         相關考題 {questions.length} 題
