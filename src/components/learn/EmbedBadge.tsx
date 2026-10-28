@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { overlayMotion } from "@/lib/motion";
 import type { KnowledgePreview } from "@/lib/knowledge/types";
 
 /**
@@ -9,6 +11,7 @@ import type { KnowledgePreview } from "@/lib/knowledge/types";
  */
 export function EmbedBadge({ places }: { places: KnowledgePreview[] }) {
   const [open, setOpen] = useState(false);
+  const reduce = useReducedMotion();
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -36,30 +39,37 @@ export function EmbedBadge({ places }: { places: KnowledgePreview[] }) {
       >
         {places.length}
       </button>
-      {open && (
-        <div className="absolute right-0 z-30 mt-1 w-64 rounded-card border border-card-border bg-card p-2 shadow-lg">
-          <p className="px-2 py-1 text-xs text-muted">引用這段內容的地方</p>
-          <ul>
-            {places.map((p) => (
-              <li key={p.key}>
-                <Link
-                  href={p.href}
-                  className="block rounded px-2 py-1.5 text-sm text-body hover:bg-surface-hover"
-                >
-                  <span className="font-medium text-deep">{p.articleTitle}</span>
-                  {p.number !== null && (
-                    <span className="text-muted">
-                      {" › "}
-                      {p.number}
-                      {p.title}
-                    </span>
-                  )}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      {/* 從右上角的數字長出來，收起時縮回去 */}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            key="places"
+            {...overlayMotion("popover", reduce)}
+            className="absolute right-0 z-30 mt-1 w-64 origin-top-right rounded-card border border-card-border bg-card p-2 shadow-lg"
+          >
+            <p className="px-2 py-1 text-xs text-muted">引用這段內容的地方</p>
+            <ul>
+              {places.map((p) => (
+                <li key={p.key}>
+                  <Link
+                    href={p.href}
+                    className="block rounded px-2 py-1.5 text-sm text-body hover:bg-surface-hover"
+                  >
+                    <span className="font-medium text-deep">{p.articleTitle}</span>
+                    {p.number !== null && (
+                      <span className="text-muted">
+                        {" › "}
+                        {p.number}
+                        {p.title}
+                      </span>
+                    )}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

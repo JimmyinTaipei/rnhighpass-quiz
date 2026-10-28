@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { useRouter } from "next/navigation";
 import {
   ChevronLeft,
@@ -23,6 +24,8 @@ import {
   type OptionKey,
 } from "@/lib/quiz-utils";
 import { pillGray, pillTint } from "@/lib/ui";
+import { EASE_OUT, overlayMotion } from "@/lib/motion";
+import { useMediaQuery } from "@/lib/use-media-query";
 import type { KnowledgeRef } from "@/lib/knowledge/exam";
 import type { Question } from "@/lib/types";
 
@@ -90,6 +93,9 @@ export function ChapterQuizRunner({
   const prefs = usePreferences();
   const [answers, setAnswers] = useState<Record<string, AnswerState>>({});
   const [index, setIndex] = useState(0);
+  // 換題的方向與要不要播動畫：點按鈕、滑動才播(很輕的 8px 淡入)，鍵盤換題一天上百次，直接換
+  const [nav, setNav] = useState<{ dir: 1 | -1; animate: boolean }>({ dir: 1, animate: false });
+  const reduceMotion = useReducedMotion();
   const [finished, setFinished] = useState(false);
   const [dialog, setDialog] = useState<Dialog>(null);
   const [recordOnLeave, setRecordOnLeave] = useState(true);
@@ -205,14 +211,16 @@ export function ChapterQuizRunner({
   }, []);
 
   const goTo = useCallback(
-    (i: number) => {
+    (i: number, animate = true) => {
       if (advanceTimer.current) clearTimeout(advanceTimer.current);
-      setIndex(Math.max(0, Math.min(questions.length - 1, i)));
+      const next = Math.max(0, Math.min(questions.length - 1, i));
+      setNav({ dir: next < index ? -1 : 1, animate });
+      setIndex(next);
     },
-    [questions.length],
+    [questions.length, index],
   );
 
-  const select = (key: OptionKey) => {
+  const select = (key: OptionKey, viaKeyboard = false) => {
     if (!question) return;
     if (lockedFeedback === null) setLockedFeedback(feedback);
     setAnswers((prev) => {
@@ -221,7 +229,7 @@ export function ChapterQuizRunner({
     });
     // 立即對答：答對自動下一題，答錯停下來看詳解
     if (immediate && isAnswerCorrect(question.answer, key) && index < questions.length - 1) {
-      advanceTimer.current = setTimeout(() => goTo(index + 1), AUTO_ADVANCE_DELAY_MS);
+      advanceTimer.current = setTimeout(() => goTo(index + 1, !viaKeyboard), AUTO_ADVANCE_DELAY_MS);
     }
   };
 
@@ -281,15 +289,15 @@ export function ChapterQuizRunner({
         const opt = question && key ? question[`option_${key.toLowerCase()}` as "option_a"] : "";
         if (key && opt && !revealed) {
           e.preventDefault();
-          select(key);
+          select(key, true);
         }
       } else if (e.key === "ArrowLeft") {
         e.preventDefault();
-        goTo(index - 1);
+        goTo(index - 1, false);
       } else if (e.key === "ArrowRight" || e.key === "Enter") {
         e.preventDefault();
         if (index === questions.length - 1 && e.key === "Enter") requestSubmit();
-        else goTo(index + 1);
+        else goTo(index + 1, false);
       } else if (e.key === "Backspace" || e.key === "Delete") {
         e.preventDefault();
         clearAnswer();
@@ -430,15 +438,27 @@ export function ChapterQuizRunner({
       </div>
 
       <div className="mb-3 h-1 w-full overflow-hidden rounded-full bg-fill">
+        {/* 用 scaleX 而不是 width：不觸發重排；外框 overflow-hidden 圓角會裁掉兩端 */}
         <div
-          className="h-full rounded-full bg-accent transition-[width] duration-300 ease-out"
-          style={{ width: `${(answeredCount / questions.length) * 100}%` }}
+          className="h-full origin-left bg-accent transition-transform duration-300 ease-[var(--ease-out)]"
+          style={{ transform: `scaleX(${answeredCount / questions.length})` }}
         />
       </div>
 
-      <div onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
+      <motion.div
+        key={`${round}-${question.id}`}
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+        // 舊題直接換掉、新題從換題方向淡入 8px，150ms；減少動態時只淡入
+        initial={
+          nav.animate
+            ? { opacity: 0, transform: reduceMotion ? "none" : `translateX(${nav.dir * 8}px)` }
+            : false
+        }
+        animate={{ opacity: 1, transform: "translateX(0px)" }}
+        transition={{ duration: 0.15, ease: EASE_OUT }}
+      >
         <QuestionCard
-          key={`${round}-${question.id}`}
           question={question}
           mode={mode}
           isLoggedIn={isLoggedIn}
@@ -451,7 +471,7 @@ export function ChapterQuizRunner({
           onSelect={select}
           reveal={immediate}
         />
-      </div>
+      </motion.div>
 
       {immediate && current.first !== null && current.selected !== current.first && (
         <p className="-mt-2 mb-3 text-xs text-muted">
@@ -512,117 +532,137 @@ export function ChapterQuizRunner({
         快捷鍵：1–4 或 A–D 作答・← → 換題・Backspace 取消作答・Enter 下一題
       </p>
 
-      {dialog === "sheet" && (
-        <Sheet title="瀏覽作答情形" onClose={() => setDialog(null)}>
-          <p className="mb-3 text-sm text-muted">
-            已作答 {answeredCount} 題・未作答 {questions.length - answeredCount} 題（粉紅色格子）。點題號可以跳到該題。
-          </p>
-          <AnswerSheet
-            cells={sheetCells}
-            activeId={question.id}
-            onSelect={(id) => {
-              goTo(questions.findIndex((q) => q.id === id));
-              setDialog(null);
-            }}
-          />
-          <div className="mt-4 flex justify-end gap-2">
-            <button type="button" onClick={() => setDialog(null)} className={pillGray}>
-              繼續作答
-            </button>
-            <button type="button" onClick={requestSubmit} className={pillTint}>
-              交卷
-            </button>
+      <Sheet open={dialog === "sheet"} title="瀏覽作答情形" onClose={() => setDialog(null)}>
+        <p className="mb-3 text-sm text-muted">
+          已作答 {answeredCount} 題・未作答 {questions.length - answeredCount} 題（粉紅色格子）。點題號可以跳到該題。
+        </p>
+        <AnswerSheet
+          cells={sheetCells}
+          activeId={question.id}
+          onSelect={(id) => {
+            goTo(questions.findIndex((q) => q.id === id));
+            setDialog(null);
+          }}
+        />
+        <div className="mt-4 flex justify-end gap-2">
+          <button type="button" onClick={() => setDialog(null)} className={pillGray}>
+            繼續作答
+          </button>
+          <button type="button" onClick={requestSubmit} className={pillTint}>
+            交卷
+          </button>
+        </div>
+      </Sheet>
+
+      <Sheet open={dialog === "settings"} title="作答設定" onClose={() => setDialog(null)}>
+        <SettingRow
+          label="對答時機"
+          hint={lockedFeedback ? "已開始作答，這一輪不能切換" : "立即對答：選了馬上看詳解；交卷後對答：像模擬考，交卷前可以改答"}
+        >
+          <div className="segmented">
+            {(["immediate", "end"] as const).map((f) => (
+              <button
+                key={f}
+                type="button"
+                disabled={lockedFeedback !== null}
+                aria-pressed={feedback === f}
+                onClick={() => setPreference("feedback", f)}
+                className="disabled:opacity-50"
+              >
+                {f === "immediate" ? "立即對答" : "交卷後對答"}
+              </button>
+            ))}
           </div>
-        </Sheet>
-      )}
+        </SettingRow>
+        <SettingRow label="計時" hint="在上方顯示已用時間，結果頁會列出每題平均">
+          <Toggle checked={prefs.timer} onChange={(v) => setPreference("timer", v)} />
+        </SettingRow>
+        <SettingRow label="選項打亂" hint="作答前打亂 A–D 的順序，避免記位置">
+          <Toggle checked={prefs.shuffleOptions} onChange={(v) => setPreference("shuffleOptions", v)} />
+        </SettingRow>
+        <p className="mt-3 text-xs text-muted">設定會記在這台裝置上，下次練習沿用。</p>
+      </Sheet>
 
-      {dialog === "settings" && (
-        <Sheet title="作答設定" onClose={() => setDialog(null)}>
-          <SettingRow
-            label="對答時機"
-            hint={lockedFeedback ? "已開始作答，這一輪不能切換" : "立即對答：選了馬上看詳解；交卷後對答：像模擬考，交卷前可以改答"}
-          >
-            <div className="segmented">
-              {(["immediate", "end"] as const).map((f) => (
-                <button
-                  key={f}
-                  type="button"
-                  disabled={lockedFeedback !== null}
-                  aria-pressed={feedback === f}
-                  onClick={() => setPreference("feedback", f)}
-                  className="disabled:opacity-50"
-                >
-                  {f === "immediate" ? "立即對答" : "交卷後對答"}
-                </button>
-              ))}
-            </div>
-          </SettingRow>
-          <SettingRow label="計時" hint="在上方顯示已用時間，結果頁會列出每題平均">
-            <Toggle checked={prefs.timer} onChange={(v) => setPreference("timer", v)} />
-          </SettingRow>
-          <SettingRow label="選項打亂" hint="作答前打亂 A–D 的順序，避免記位置">
-            <Toggle checked={prefs.shuffleOptions} onChange={(v) => setPreference("shuffleOptions", v)} />
-          </SettingRow>
-          <p className="mt-3 text-xs text-muted">設定會記在這台裝置上，下次練習沿用。</p>
-        </Sheet>
-      )}
+      <ConfirmDialog
+        open={dialog === "submit"}
+        title="確定要交卷嗎？"
+        message={`還有 ${questions.length - answeredCount} 題沒有作答，未答的題目不會記錄。`}
+        confirmLabel="交卷"
+        cancelLabel="繼續作答"
+        onConfirm={submit}
+        onCancel={() => setDialog(null)}
+      />
 
-      {dialog === "submit" && (
-        <ConfirmDialog
-          title="確定要交卷嗎？"
-          message={`還有 ${questions.length - answeredCount} 題沒有作答，未答的題目不會記錄。`}
-          confirmLabel="交卷"
-          cancelLabel="繼續作答"
-          onConfirm={submit}
-          onCancel={() => setDialog(null)}
-        />
-      )}
-
-      {dialog === "leave" && (
-        <ConfirmDialog
-          title="要離開這次練習嗎？"
-          message={
-            answeredCount === 0 ? (
-              "還沒有作答，離開後不會留下紀錄。"
-            ) : (
-              <label className="flex items-center justify-center gap-2 text-strong">
-                <input
-                  type="checkbox"
-                  checked={recordOnLeave}
-                  onChange={(e) => setRecordOnLeave(e.target.checked)}
-                  className="size-4 accent-[var(--color-accent)]"
-                />
-                記錄已作答的 {answeredCount} 題{isLoggedIn ? "（答錯的會收進題本）" : "（需登入）"}
-              </label>
-            )
-          }
-          confirmLabel="離開"
-          cancelLabel="繼續作答"
-          onConfirm={() => leave(recordOnLeave)}
-          onCancel={() => setDialog(null)}
-        />
-      )}
+      <ConfirmDialog
+        open={dialog === "leave"}
+        title="要離開這次練習嗎？"
+        message={
+          answeredCount === 0 ? (
+            "還沒有作答，離開後不會留下紀錄。"
+          ) : (
+            <label className="flex items-center justify-center gap-2 text-strong">
+              <input
+                type="checkbox"
+                checked={recordOnLeave}
+                onChange={(e) => setRecordOnLeave(e.target.checked)}
+                className="size-4 accent-[var(--color-accent)]"
+              />
+              記錄已作答的 {answeredCount} 題{isLoggedIn ? "（答錯的會收進題本）" : "（需登入）"}
+            </label>
+          )
+        }
+        confirmLabel="離開"
+        cancelLabel="繼續作答"
+        onConfirm={() => leave(recordOnLeave)}
+        onCancel={() => setDialog(null)}
+      />
     </div>
   );
 }
 
-/** 底部拉起(手機)／置中(桌機)的面板 */
-function Sheet({ title, onClose, children }: { title: string; onClose: () => void; children: React.ReactNode }) {
+/** 底部拉起(手機)／置中(桌機)的面板。開關都有轉場：手機從底部滑上來、滑回去；桌機縮放淡入淡出 */
+function Sheet({
+  open,
+  title,
+  onClose,
+  children,
+}: {
+  open: boolean;
+  title: string;
+  onClose: () => void;
+  children: React.ReactNode;
+}) {
+  const reduce = useReducedMotion();
+  const wide = useMediaQuery("(min-width: 48rem)");
   useEffect(() => {
+    if (!open) return;
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [onClose]);
+  }, [open, onClose]);
   return (
-    <div role="dialog" aria-modal="true" aria-label={title} className="fixed inset-0 z-50 flex items-end justify-center md:items-center">
-      <button type="button" aria-label="關閉" onClick={onClose} className="absolute inset-0 bg-black/30" />
-      <div className="relative max-h-[85dvh] w-full overflow-y-auto rounded-t-2xl bg-card p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] shadow-2xl md:max-w-2xl md:rounded-2xl md:pb-5">
-        <h2 className="mb-3 text-lg font-bold text-strong">{title}</h2>
-        {children}
-      </div>
-    </div>
+    <AnimatePresence>
+      {open && (
+        <div key="sheet" role="dialog" aria-modal="true" aria-label={title} className="fixed inset-0 z-50 flex items-end justify-center md:items-center">
+          <motion.button
+            {...overlayMotion("scrim", reduce)}
+            type="button"
+            aria-label="關閉"
+            onClick={onClose}
+            className="absolute inset-0 bg-black/30"
+          />
+          <motion.div
+            {...overlayMotion(wide ? "dialog" : "sheet", reduce)}
+            className="relative max-h-[85dvh] w-full overflow-y-auto rounded-t-2xl bg-card p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] shadow-2xl md:max-w-2xl md:rounded-2xl md:pb-5"
+          >
+            <h2 className="mb-3 text-lg font-bold text-strong">{title}</h2>
+            {children}
+          </motion.div>
+        </div>
+      )}
+    </AnimatePresence>
   );
 }
 

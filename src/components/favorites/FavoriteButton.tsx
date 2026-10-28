@@ -2,12 +2,15 @@
 
 import { useEffect, useState } from "react";
 import { Star } from "lucide-react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { EASE_OUT } from "@/lib/motion";
 import { useFavorites } from "./FavoritesProvider";
 
 /** 題目卡右上角的收藏星號。沒有 Provider 的地方(例如模擬考站)不渲染。 */
 export function FavoriteButton({ questionId }: { questionId: string }) {
   const favorites = useFavorites();
   const [hint, setHint] = useState<string | null>(null);
+  const reduce = useReducedMotion();
   useEffect(() => {
     if (!hint) return;
     const t = setTimeout(() => setHint(null), 2500);
@@ -42,14 +45,22 @@ export function FavoriteButton({ questionId }: { questionId: string }) {
       >
         <Star size={18} fill={active ? "currentColor" : "none"} />
       </button>
-      {hint && (
-        <span
-          role="status"
-          className="absolute top-full right-0 z-10 mt-1 whitespace-nowrap rounded-btn bg-strong px-2 py-1 text-xs text-white shadow"
-        >
-          {hint}
-        </span>
-      )}
+      {/* 提示淡入並往上 4px，消失時反過來 */}
+      <AnimatePresence>
+        {hint && (
+          <motion.span
+            key="hint"
+            role="status"
+            initial={{ opacity: 0, transform: reduce ? "none" : "translateY(4px)" }}
+            animate={{ opacity: 1, transform: "translateY(0px)" }}
+            exit={{ opacity: 0, transform: reduce ? "none" : "translateY(4px)" }}
+            transition={{ duration: 0.15, ease: EASE_OUT }}
+            className="absolute top-full right-0 z-10 mt-1 whitespace-nowrap rounded-btn bg-strong px-2 py-1 text-xs text-white shadow"
+          >
+            {hint}
+          </motion.span>
+        )}
+      </AnimatePresence>
     </span>
   );
 }

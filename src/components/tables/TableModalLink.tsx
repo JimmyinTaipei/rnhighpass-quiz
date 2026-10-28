@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ArrowUpRight, Table2, X } from "lucide-react";
 import type { ComparisonTable } from "@/lib/types";
 import { ComparisonTableView } from "./ComparisonTableView";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { overlayMotion } from "@/lib/motion";
 
 interface TableModalLinkProps {
   tableId: string;
@@ -21,6 +23,7 @@ interface TableModalLinkProps {
  */
 export function TableModalLink({ tableId, title, variant = "inline" }: TableModalLinkProps) {
   const [open, setOpen] = useState(false);
+  const reduce = useReducedMotion();
   const [table, setTable] = useState<ComparisonTable | null>(null);
   const [error, setError] = useState(false);
   const closeRef = useRef<HTMLButtonElement>(null);
@@ -73,52 +76,57 @@ export function TableModalLink({ tableId, title, variant = "inline" }: TableModa
         <span>{title}</span>
       </button>
 
-      {open && (
-        <div
-          className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/40 p-4 sm:p-8"
-          // 點背景關閉；用 e.target === e.currentTarget 避免點到內容也被關掉
-          onClick={(e) => {
-            if (e.target === e.currentTarget) setOpen(false);
-          }}
-          role="dialog"
-          aria-modal="true"
-          aria-label={title}
-        >
-          <div className="w-full max-w-5xl rounded-card bg-card shadow-xl">
-            <div className="flex items-start justify-between gap-3 border-b border-card-border p-4">
-              <h2 className="text-lg font-bold text-subj-deep">{title}</h2>
-              <button
-                ref={closeRef}
-                onClick={() => setOpen(false)}
-                aria-label="關閉"
-                className="shrink-0 rounded-btn p-1 text-muted transition-colors hover:bg-page hover:text-subj-deep"
-              >
-                <X size={20} />
-              </button>
-            </div>
+      {/* 暗幕淡入、內容從 96% 縮放淡入；關閉時反過來 */}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            key="table"
+            {...overlayMotion("scrim", reduce)}
+            className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/40 p-4 sm:p-8"
+            // 點背景關閉；用 e.target === e.currentTarget 避免點到內容也被關掉
+            onClick={(e) => {
+              if (e.target === e.currentTarget) setOpen(false);
+            }}
+            role="dialog"
+            aria-modal="true"
+            aria-label={title}
+          >
+            <motion.div {...overlayMotion("dialog", reduce)} className="w-full max-w-5xl rounded-card bg-card shadow-xl">
+              <div className="flex items-start justify-between gap-3 border-b border-card-border p-4">
+                <h2 className="text-lg font-bold text-subj-deep">{title}</h2>
+                <button
+                  ref={closeRef}
+                  onClick={() => setOpen(false)}
+                  aria-label="關閉"
+                  className="shrink-0 rounded-btn p-1 text-muted transition-colors hover:bg-page hover:text-subj-deep"
+                >
+                  <X size={20} />
+                </button>
+              </div>
 
-            <div className="p-4">
-              {error ? (
-                <p className="text-sm text-incorrect">比較表載入失敗，請再試一次。</p>
-              ) : !table ? (
-                <p className="text-sm text-muted">載入中…</p>
-              ) : (
-                <ComparisonTableView table={table} />
-              )}
-            </div>
+              <div className="p-4">
+                {error ? (
+                  <p className="text-sm text-incorrect">比較表載入失敗，請再試一次。</p>
+                ) : !table ? (
+                  <p className="text-sm text-muted">載入中…</p>
+                ) : (
+                  <ComparisonTableView table={table} />
+                )}
+              </div>
 
-            <div className="border-t border-card-border p-4">
-              <Link
-                href={`/tables/${encodeURIComponent(tableId)}`}
-                className="inline-flex items-center gap-1 text-sm font-medium text-subj-deep hover:underline"
-              >
-                看完整頁面
-                <ArrowUpRight size={14} />
-              </Link>
-            </div>
-          </div>
-        </div>
-      )}
+              <div className="border-t border-card-border p-4">
+                <Link
+                  href={`/tables/${encodeURIComponent(tableId)}`}
+                  className="inline-flex items-center gap-1 text-sm font-medium text-subj-deep hover:underline"
+                >
+                  看完整頁面
+                  <ArrowUpRight size={14} />
+                </Link>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 }

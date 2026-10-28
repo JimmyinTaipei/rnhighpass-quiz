@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { Flag, X } from "lucide-react";
 import { useFavorites } from "@/components/favorites/FavoritesProvider";
 import { ReportForm } from "./ReportForm";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { overlayMotion } from "@/lib/motion";
 
 interface ReportButtonProps {
   questionId?: string;
@@ -16,6 +18,7 @@ interface ReportButtonProps {
 /** 開啟錯誤回報 modal。登入狀態沿用 FavoritesProvider 已經抓好的結果。 */
 export function ReportButton({ questionId, tableId, targetLabel, variant = "icon" }: ReportButtonProps) {
   const [open, setOpen] = useState(false);
+  const reduce = useReducedMotion();
   const loggedIn = useFavorites()?.loggedIn ?? null;
   const closeRef = useRef<HTMLButtonElement>(null);
 
@@ -51,40 +54,45 @@ export function ReportButton({ questionId, tableId, targetLabel, variant = "icon
         {variant === "text" && "回報錯誤"}
       </button>
 
-      {open && (
-        <div
-          className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/40 p-4 sm:p-8"
-          onClick={(e) => {
-            if (e.target === e.currentTarget) setOpen(false);
-          }}
-          role="dialog"
-          aria-modal="true"
-          aria-label="回報錯誤"
-        >
-          <div className="w-full max-w-lg rounded-card bg-card shadow-xl">
-            <div className="flex items-center justify-between border-b border-card-border p-4">
-              <h2 className="text-lg font-bold text-subj-deep">回報錯誤</h2>
-              <button
-                ref={closeRef}
-                onClick={() => setOpen(false)}
-                aria-label="關閉"
-                className="rounded-btn p-1 text-muted hover:bg-page hover:text-subj-deep"
-              >
-                <X size={20} />
-              </button>
-            </div>
-            <div className="p-4">
-              <ReportForm
-                questionId={questionId}
-                tableId={tableId}
-                targetLabel={targetLabel}
-                loggedIn={loggedIn}
-                onDone={() => setOpen(false)}
-              />
-            </div>
-          </div>
-        </div>
-      )}
+      {/* 暗幕淡入、內容從 96% 縮放淡入；關閉時反過來 */}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            key="report"
+            {...overlayMotion("scrim", reduce)}
+            className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/40 p-4 sm:p-8"
+            onClick={(e) => {
+              if (e.target === e.currentTarget) setOpen(false);
+            }}
+            role="dialog"
+            aria-modal="true"
+            aria-label="回報錯誤"
+          >
+            <motion.div {...overlayMotion("dialog", reduce)} className="w-full max-w-lg rounded-card bg-card shadow-xl">
+              <div className="flex items-center justify-between border-b border-card-border p-4">
+                <h2 className="text-lg font-bold text-subj-deep">回報錯誤</h2>
+                <button
+                  ref={closeRef}
+                  onClick={() => setOpen(false)}
+                  aria-label="關閉"
+                  className="rounded-btn p-1 text-muted hover:bg-page hover:text-subj-deep"
+                >
+                  <X size={20} />
+                </button>
+              </div>
+              <div className="p-4">
+                <ReportForm
+                  questionId={questionId}
+                  tableId={tableId}
+                  targetLabel={targetLabel}
+                  loggedIn={loggedIn}
+                  onDone={() => setOpen(false)}
+                />
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 }

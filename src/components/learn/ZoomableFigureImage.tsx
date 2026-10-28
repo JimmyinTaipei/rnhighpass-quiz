@@ -3,6 +3,9 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { ExternalLink, Maximize2, Minus, Plus, Shrink, X } from "lucide-react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { overlayMotion } from "@/lib/motion";
+import { useIsClient } from "@/lib/use-is-client";
 
 const ZOOMS = [1, 1.5, 2, 3, 4];
 /** 拖曳超過這個距離就不算「點一下」 */
@@ -26,6 +29,8 @@ export function ZoomableFigureImage({
   toolbar?: ReactNode;
 }) {
   const [open, setOpen] = useState(false);
+  const isClient = useIsClient();
+  const reduce = useReducedMotion();
   const [zoomIndex, setZoomIndex] = useState(0);
   const [fitWidth, setFitWidth] = useState<number | null>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
@@ -148,105 +153,117 @@ export function ZoomableFigureImage({
         {overlay?.("inline")}
       </div>
 
-      {open &&
+      {/* 全螢幕檢視淡入淡出(不縮放，避免和圖的倍率混在一起) */}
+      {isClient &&
         createPortal(
-          <div className="fixed inset-0 z-50 flex flex-col bg-black/90 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={alt}>
-            <div className="flex shrink-0 items-center gap-1 px-2 py-2 sm:px-4">
-              <p className="mr-auto line-clamp-1 min-w-0 px-1 text-sm text-white/90">{alt}</p>
-              {/* 手機寬度放不下:額外按鈕改到下一列 */}
-              {toolbar && <div className="hidden sm:block">{toolbar}</div>}
-              <button type="button" className={toolButton} onClick={() => changeZoom(zoomIndex - 1)} disabled={zoomIndex === 0} aria-label="縮小">
-                <Minus size={18} />
-              </button>
-              <span className="w-12 text-center text-sm text-white/90 tabular-nums">{Math.round(zoom * 100)}%</span>
-              <button
-                type="button"
-                className={toolButton}
-                onClick={() => changeZoom(zoomIndex + 1)}
-                disabled={zoomIndex === ZOOMS.length - 1}
-                aria-label="放大"
+          <AnimatePresence>
+            {open && (
+              <motion.div
+                key="zoom"
+                {...overlayMotion("fade", reduce)}
+                className="fixed inset-0 z-50 flex flex-col bg-black/90 backdrop-blur-sm"
+                role="dialog"
+                aria-modal="true"
+                aria-label={alt}
               >
-                <Plus size={18} />
-              </button>
-              <button type="button" className={toolButton} onClick={() => changeZoom(0)} disabled={zoomIndex === 0} aria-label="符合畫面">
-                <Shrink size={18} />
-              </button>
-              <a href={src} target="_blank" rel="noreferrer" className={toolButton} aria-label="在新分頁開啟原圖">
-                <ExternalLink size={18} />
-              </a>
-              <button ref={closeRef} type="button" className={toolButton} onClick={close} aria-label="關閉">
-                <X size={20} />
-              </button>
-            </div>
-
-            {toolbar && <div className="flex shrink-0 justify-center px-2 pb-2 sm:hidden">{toolbar}</div>}
-
-            <div
-              ref={viewportRef}
-              className={`flex min-h-0 flex-1 overflow-auto p-2 sm:p-4 ${zoom > 1 ? "cursor-grab active:cursor-grabbing" : ""}`}
-              // 點背景關閉;用 e.target === e.currentTarget 避免點到圖也被關掉
-              onClick={(e) => {
-                if (e.target === e.currentTarget) close();
-              }}
-              onPointerDown={(e) => {
-                // 觸控用原生捲動平移;滑鼠才自己處理拖曳
-                if (e.pointerType !== "mouse" || zoom === 1) return;
-                const el = e.currentTarget;
-                drag.current = { x: e.clientX, y: e.clientY, left: el.scrollLeft, top: el.scrollTop, moved: false };
-              }}
-              onPointerMove={(e) => {
-                const d = drag.current;
-                if (!d) return;
-                const dx = e.clientX - d.x;
-                const dy = e.clientY - d.y;
-                if (Math.abs(dx) + Math.abs(dy) > DRAG_THRESHOLD) d.moved = true;
-                e.currentTarget.scrollLeft = d.left - dx;
-                e.currentTarget.scrollTop = d.top - dy;
-              }}
-              onPointerUp={() => {
-                // moved 留到 click 事件判斷完才清掉
-                setTimeout(() => {
-                  drag.current = null;
-                });
-              }}
-            >
-              {/* m-auto:圖比視窗小時置中,放大後也不會被裁掉左上角 */}
-              {overlay ? (
-                // 有疊加層:圖與標籤包在同一個定寬容器裡一起放大
-                <div className="relative m-auto shrink-0" style={fitWidth ? { width: fitWidth * zoom } : { visibility: "hidden" }}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    ref={imgRef}
-                    src={src}
-                    alt={alt}
-                    draggable={false}
-                    onLoad={measure}
-                    onClick={() => {
-                      if (drag.current?.moved) return;
-                      changeZoom(zoom === 1 ? ZOOMS.indexOf(2) : 0);
-                    }}
-                    className={`block h-auto w-full rounded-btn bg-white select-none ${zoom === 1 ? "cursor-zoom-in" : ""}`}
-                  />
-                  {overlay("modal")}
+                <div className="flex shrink-0 items-center gap-1 px-2 py-2 sm:px-4">
+                  <p className="mr-auto line-clamp-1 min-w-0 px-1 text-sm text-white/90">{alt}</p>
+                  {/* 手機寬度放不下:額外按鈕改到下一列 */}
+                  {toolbar && <div className="hidden sm:block">{toolbar}</div>}
+                  <button type="button" className={toolButton} onClick={() => changeZoom(zoomIndex - 1)} disabled={zoomIndex === 0} aria-label="縮小">
+                    <Minus size={18} />
+                  </button>
+                  <span className="w-12 text-center text-sm text-white/90 tabular-nums">{Math.round(zoom * 100)}%</span>
+                  <button
+                    type="button"
+                    className={toolButton}
+                    onClick={() => changeZoom(zoomIndex + 1)}
+                    disabled={zoomIndex === ZOOMS.length - 1}
+                    aria-label="放大"
+                  >
+                    <Plus size={18} />
+                  </button>
+                  <button type="button" className={toolButton} onClick={() => changeZoom(0)} disabled={zoomIndex === 0} aria-label="符合畫面">
+                    <Shrink size={18} />
+                  </button>
+                  <a href={src} target="_blank" rel="noreferrer" className={toolButton} aria-label="在新分頁開啟原圖">
+                    <ExternalLink size={18} />
+                  </a>
+                  <button ref={closeRef} type="button" className={toolButton} onClick={close} aria-label="關閉">
+                    <X size={20} />
+                  </button>
                 </div>
-              ) : (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  ref={imgRef}
-                  src={src}
-                  alt={alt}
-                  draggable={false}
-                  onLoad={measure}
-                  onClick={() => {
-                    if (drag.current?.moved) return;
-                    changeZoom(zoom === 1 ? ZOOMS.indexOf(2) : 0);
+
+                {toolbar && <div className="flex shrink-0 justify-center px-2 pb-2 sm:hidden">{toolbar}</div>}
+
+                <div
+                  ref={viewportRef}
+                  className={`flex min-h-0 flex-1 overflow-auto p-2 sm:p-4 ${zoom > 1 ? "cursor-grab active:cursor-grabbing" : ""}`}
+                  // 點背景關閉;用 e.target === e.currentTarget 避免點到圖也被關掉
+                  onClick={(e) => {
+                    if (e.target === e.currentTarget) close();
                   }}
-                  style={zoom > 1 && fitWidth ? { width: fitWidth * zoom, maxWidth: "none", maxHeight: "none" } : undefined}
-                  className={`m-auto max-h-full max-w-full rounded-btn bg-white select-none ${zoom === 1 ? "cursor-zoom-in" : ""}`}
-                />
-              )}
-            </div>
-          </div>,
+                  onPointerDown={(e) => {
+                    // 觸控用原生捲動平移;滑鼠才自己處理拖曳
+                    if (e.pointerType !== "mouse" || zoom === 1) return;
+                    const el = e.currentTarget;
+                    drag.current = { x: e.clientX, y: e.clientY, left: el.scrollLeft, top: el.scrollTop, moved: false };
+                  }}
+                  onPointerMove={(e) => {
+                    const d = drag.current;
+                    if (!d) return;
+                    const dx = e.clientX - d.x;
+                    const dy = e.clientY - d.y;
+                    if (Math.abs(dx) + Math.abs(dy) > DRAG_THRESHOLD) d.moved = true;
+                    e.currentTarget.scrollLeft = d.left - dx;
+                    e.currentTarget.scrollTop = d.top - dy;
+                  }}
+                  onPointerUp={() => {
+                    // moved 留到 click 事件判斷完才清掉
+                    setTimeout(() => {
+                      drag.current = null;
+                    });
+                  }}
+                >
+                  {/* m-auto:圖比視窗小時置中,放大後也不會被裁掉左上角 */}
+                  {overlay ? (
+                    // 有疊加層:圖與標籤包在同一個定寬容器裡一起放大
+                    <div className="relative m-auto shrink-0" style={fitWidth ? { width: fitWidth * zoom } : { visibility: "hidden" }}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        ref={imgRef}
+                        src={src}
+                        alt={alt}
+                        draggable={false}
+                        onLoad={measure}
+                        onClick={() => {
+                          if (drag.current?.moved) return;
+                          changeZoom(zoom === 1 ? ZOOMS.indexOf(2) : 0);
+                        }}
+                        className={`block h-auto w-full rounded-btn bg-white select-none ${zoom === 1 ? "cursor-zoom-in" : ""}`}
+                      />
+                      {overlay("modal")}
+                    </div>
+                  ) : (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      ref={imgRef}
+                      src={src}
+                      alt={alt}
+                      draggable={false}
+                      onLoad={measure}
+                      onClick={() => {
+                        if (drag.current?.moved) return;
+                        changeZoom(zoom === 1 ? ZOOMS.indexOf(2) : 0);
+                      }}
+                      style={zoom > 1 && fitWidth ? { width: fitWidth * zoom, maxWidth: "none", maxHeight: "none" } : undefined}
+                      className={`m-auto max-h-full max-w-full rounded-btn bg-white select-none ${zoom === 1 ? "cursor-zoom-in" : ""}`}
+                    />
+                  )}
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>,
           document.body,
         )}
     </>

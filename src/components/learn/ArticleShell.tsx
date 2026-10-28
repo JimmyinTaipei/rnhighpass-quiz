@@ -9,6 +9,8 @@ import {
   useState,
 } from "react";
 import { List, X } from "lucide-react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { overlayMotion } from "@/lib/motion";
 import { DesktopBackLink } from "@/components/shell/DesktopBackBar";
 import { useHideOnScrollDown } from "@/lib/use-hide-on-scroll";
 import type { TocNode } from "./toc";
@@ -75,6 +77,7 @@ export function ArticleShell({
   const [activeId, setActiveId] = useState<string | null>(null);
   const [drawer, setDrawer] = useState(false);
   const tocHidden = useHideOnScrollDown();
+  const reduce = useReducedMotion();
 
   const ancestorsOf = useCallback(
     (id: string) => {
@@ -206,29 +209,36 @@ export function ArticleShell({
         <List size={16} /> 目錄
       </button>
 
-      {drawer && (
-        <div className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true">
-          <button
-            type="button"
-            aria-label="關閉"
-            className="absolute inset-0 bg-black/30"
-            onClick={() => setDrawer(false)}
-          />
-          <div className="absolute inset-x-0 bottom-0 max-h-[75vh] overflow-y-auto rounded-t-2xl bg-card p-4 pb-8 shadow-xl">
-            <div className="mb-2 flex justify-end">
-              <button
-                type="button"
-                onClick={() => setDrawer(false)}
-                className="rounded p-1 text-muted hover:bg-surface-hover"
-                aria-label="關閉"
-              >
-                <X size={18} />
-              </button>
-            </div>
-            {tocPanel}
+      {/* 目錄抽屜：從底部滑上來、關閉時滑回去 */}
+      <AnimatePresence>
+        {drawer && (
+          <div key="toc" className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true">
+            <motion.button
+              {...overlayMotion("scrim", reduce)}
+              type="button"
+              aria-label="關閉"
+              className="absolute inset-0 bg-black/30"
+              onClick={() => setDrawer(false)}
+            />
+            <motion.div
+              {...overlayMotion("sheet", reduce)}
+              className="absolute inset-x-0 bottom-0 max-h-[75vh] overflow-y-auto rounded-t-2xl bg-card p-4 pb-8 shadow-xl"
+            >
+              <div className="mb-2 flex justify-end">
+                <button
+                  type="button"
+                  onClick={() => setDrawer(false)}
+                  className="rounded p-1 text-muted hover:bg-surface-hover"
+                  aria-label="關閉"
+                >
+                  <X size={18} />
+                </button>
+              </div>
+              {tocPanel}
+            </motion.div>
           </div>
-        </div>
-      )}
+        )}
+      </AnimatePresence>
     </ArticleContext.Provider>
   );
 }

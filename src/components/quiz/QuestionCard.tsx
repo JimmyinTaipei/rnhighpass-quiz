@@ -218,7 +218,8 @@ export function QuestionCard({
       </div>
 
       {(browseMode || (revealed && !(hideExplanationWhenCorrect && isCorrect))) && (
-        <div className="mt-5">
+        // 作答後詳解淡入(不動高度)；純瀏覽一開始就在，不需要
+        <div className={`mt-5 ${browseMode ? "" : "fade-in"}`}>
           <div className="mb-2 flex items-center gap-2 font-bold text-deep">
             <BookOpenCheck size={18} />
             <span>詳解</span>

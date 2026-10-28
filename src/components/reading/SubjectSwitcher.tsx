@@ -3,6 +3,8 @@
 import { useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import { Check, ChevronDown, Stethoscope } from "lucide-react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { overlayMotion } from "@/lib/motion";
 import { groupSubjects, subjectGroup } from "@/lib/subject-groups";
 import { entryHref, useReadingStore } from "@/lib/reading-position";
 import type { NavScope } from "@/lib/reading-nav";
@@ -22,6 +24,7 @@ interface SubjectSwitcherProps {
  */
 export function SubjectSwitcher({ subjects, current }: SubjectSwitcherProps) {
   const [open, setOpen] = useState(false);
+  const reduce = useReducedMotion();
   const rootRef = useRef<HTMLDivElement>(null);
   // 寬螢幕側邊欄與窄螢幕目錄會同時掛載兩份，id 必須各自唯一
   const menuId = useId();
@@ -63,48 +66,53 @@ export function SubjectSwitcher({ subjects, current }: SubjectSwitcherProps) {
         />
       </button>
 
-      {open && (
-        <div
-          id={menuId}
-          className="absolute left-0 right-0 z-20 mt-1 max-h-[60vh] overflow-y-auto rounded-card bg-card p-1.5 shadow-lg ring-1 ring-card-border"
-        >
-          {groups.map((g) => (
-            <div key={g.id} className="mb-1 last:mb-0">
-              <p className="px-2 py-1 text-xs text-muted">{g.label}</p>
-              {g.subjects.map((s) => {
-                const isCurrent = current.kind === "subject" && current.id === s.id;
-                return (
-                  <a
-                    key={s.id}
-                    href={entryHref(store, s.id)}
-                    data-group={subjectGroup(s)}
-                    onClick={() => setOpen(false)}
-                    className={`flex items-center gap-2 rounded px-2 py-1.5 text-sm transition-colors duration-150 hover:bg-surface-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-subj-accent motion-reduce:transition-none ${
-                      isCurrent ? "font-medium text-subj-deep" : "text-body"
-                    }`}
-                  >
-                    <span className="min-w-0 flex-1 truncate">{s.name}</span>
-                    {isCurrent && <Check size={14} className="shrink-0 text-subj-accent" />}
-                  </a>
-                );
-              })}
-            </div>
-          ))}
+      {/* 從按鈕往下長出來(origin-top)，收起時縮回去 */}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            key="menu"
+            {...overlayMotion("popover", reduce)}
+            id={menuId}
+            className="absolute left-0 right-0 z-20 mt-1 max-h-[60vh] origin-top overflow-y-auto rounded-card bg-card p-1.5 shadow-lg ring-1 ring-card-border"
+          >
+            {groups.map((g) => (
+              <div key={g.id} className="mb-1 last:mb-0">
+                <p className="px-2 py-1 text-xs text-muted">{g.label}</p>
+                {g.subjects.map((s) => {
+                  const isCurrent = current.kind === "subject" && current.id === s.id;
+                  return (
+                    <a
+                      key={s.id}
+                      href={entryHref(store, s.id)}
+                      data-group={subjectGroup(s)}
+                      onClick={() => setOpen(false)}
+                      className={`flex items-center gap-2 rounded px-2 py-1.5 text-sm transition-colors duration-150 hover:bg-surface-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-subj-accent motion-reduce:transition-none ${
+                        isCurrent ? "font-medium text-subj-deep" : "text-body"
+                      }`}
+                    >
+                      <span className="min-w-0 flex-1 truncate">{s.name}</span>
+                      {isCurrent && <Check size={14} className="shrink-0 text-subj-accent" />}
+                    </a>
+                  );
+                })}
+              </div>
+            ))}
 
-          {/* 第二條軸(demo)。疾病標籤是跨科的，所以不放在任何一個大類底下，
-              而是自成一區，連到 /diseases 由那邊的 redirect 決定落在哪個標籤。 */}
-          <div className="mt-1 border-t border-card-border pt-1">
-            <Link
-              href="/diseases"
-              onClick={() => setOpen(false)}
-              className="flex items-center gap-2 rounded px-2 py-1.5 text-sm text-body transition-colors duration-150 hover:bg-surface-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-subj-accent motion-reduce:transition-none"
-            >
-              <Stethoscope size={14} className="shrink-0 text-muted" />
-              <span className="min-w-0 flex-1 truncate">依疾病瀏覽</span>
-            </Link>
-          </div>
-        </div>
-      )}
+            {/* 第二條軸(demo)。疾病標籤是跨科的，所以不放在任何一個大類底下，
+                而是自成一區，連到 /diseases 由那邊的 redirect 決定落在哪個標籤。 */}
+            <div className="mt-1 border-t border-card-border pt-1">
+              <Link
+                href="/diseases"
+                onClick={() => setOpen(false)}
+                className="flex items-center gap-2 rounded px-2 py-1.5 text-sm text-body transition-colors duration-150 hover:bg-surface-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-subj-accent motion-reduce:transition-none"
+              >
+                <Stethoscope size={14} className="shrink-0 text-muted" />
+                <span className="min-w-0 flex-1 truncate">依疾病瀏覽</span>
+              </Link>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

@@ -94,13 +94,32 @@
   --color-incorrect-text: #791F1F;
 }
 
+/* 動態 token(docs/motion-audit-2026-10-28.md)：JS 那邊同一組值在 src/lib/motion.ts */
+:root {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);      /* 先快後慢：出現、消失、一般介面 */
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);   /* iOS 抽屜：底部、側邊面板 */
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);  /* 畫面上的東西移到另一個位置 */
+  --dur-fast: 150ms;   /* 小提示、小選單、按壓 */
+  --dur-base: 200ms;   /* 對話框、暗幕 */
+  --dur-panel: 300ms;  /* 底部面板 */
+}
+
+/* 收藏的星星：從 60% 放大到原尺寸(不從 0 長出來、不彈過頭) */
 @keyframes icon-pop {
-  0%   { transform: scale(0);    opacity: 0; }
-  60%  { transform: scale(1.2); }
-  100% { transform: scale(1);    opacity: 1; }
+  from { transform: scale(0.6); opacity: 0; }
+  to   { transform: scale(1);   opacity: 1; }
 }
 .icon-pop {
-  animation: icon-pop 220ms ease-out;
+  animation: icon-pop 160ms var(--ease-out);
+}
+@keyframes icon-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+/* 剛出現的內容(詳解、展開的段落)淡入；不動高度，長段落動高度會卡 */
+.fade-in,
+.kb-questions[open] > summary + * {
+  animation: icon-fade var(--dur-fast) var(--ease-out);
 }
 
 @theme inline {
@@ -434,14 +453,34 @@ nav[aria-label="麵包屑"] a {
 [data-ui="apple"] :where(button:not(:disabled), summary, [role="button"], a) {
   -webkit-tap-highlight-color: transparent;
 }
+/* 放開時淡回來：沒有自己 transition 的按鈕在 base 層補 opacity(暗幕 inset-0 由 motion 控制，排除)；
+   有 transition-colors 的按鈕把 opacity 加進去(不在 layer 裡才蓋得過 Tailwind 的 utility) */
+@layer base {
+  [data-ui="apple"] :where(button:not(:disabled):not(.inset-0), summary, [role="button"]) {
+    transition: opacity var(--dur-base) var(--ease-out);
+  }
+}
+[data-ui="apple"] :where(button:not(:disabled), summary, [role="button"]).transition-colors {
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity;
+}
 [data-ui="apple"] :where(button:not(:disabled), summary, [role="button"]):active {
   opacity: 0.6;
   transition: opacity 0s;
 }
+/* 減少動態：拿掉位移、縮放與 keyframes 動畫，保留淡入淡出與變色(還是看得出「有反應」) */
 @media (prefers-reduced-motion: reduce) {
-  [data-ui="apple"] * {
+  [data-ui="apple"] :is(.transition-transform, .transition-all, .transition) {
     transition-duration: 0s !important;
+  }
+  [data-ui="apple"] *:not(.icon-pop, .fade-in, .kb-questions > summary + *) {
     animation-duration: 0s !important;
+  }
+  [data-ui="apple"] .icon-pop {
+    animation: icon-fade var(--dur-fast) var(--ease-out);
+  }
+  /* 捲動時藏起來的浮動按鈕：只淡出，不往下滑 */
+  [data-ui="apple"] [class*="transition-[opacity,translate]"] {
+    transition-property: opacity !important;
   }
 }
 

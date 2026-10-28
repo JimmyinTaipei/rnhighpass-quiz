@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { ChevronRight } from "lucide-react";
 import { useArticle } from "./ArticleShell";
 
@@ -29,6 +30,8 @@ const HEADING_STYLE: Record<number, string> = {
 export function CollapsibleSection({ id, depth, number, title, children, titleEditor, highlight }: CollapsibleSectionProps) {
   const ctx = useArticle();
   const collapsed = ctx?.isCollapsed(id) ?? false;
+  // 使用者點過才加淡入：頁面剛載入時展開的段落不要整頁一起淡入
+  const [touched, setTouched] = useState(false);
   const Heading = `h${Math.min(depth, 6)}` as "h2";
 
   return (
@@ -49,7 +52,10 @@ export function CollapsibleSection({ id, depth, number, title, children, titleEd
         >
           <button
             type="button"
-            onClick={() => ctx?.toggle(id)}
+            onClick={() => {
+              setTouched(true);
+              ctx?.toggle(id);
+            }}
             aria-expanded={!collapsed}
             className="-ml-1 flex w-full items-start gap-1.5 rounded px-1 py-0.5 text-left hover:bg-surface-hover"
           >
@@ -65,7 +71,8 @@ export function CollapsibleSection({ id, depth, number, title, children, titleEd
         </Heading>
         {titleEditor}
       </div>
-      <div hidden={collapsed} className={depth >= 3 ? "pl-2 sm:pl-4" : ""}>
+      {/* hidden → 顯示時 CSS 動畫會重新播一次，所以每次展開都會淡入；收起維持瞬間 */}
+      <div hidden={collapsed} className={`${depth >= 3 ? "pl-2 sm:pl-4" : ""} ${touched ? "fade-in" : ""}`}>
         {children}
       </div>
     </section>
