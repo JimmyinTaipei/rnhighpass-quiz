@@ -41,8 +41,10 @@ export function MobileTopBar({ trailing }: MobileTopBarProps) {
         <p className="min-w-0 flex-1 truncate text-lg font-semibold text-strong">
           {parent ? "" : titleOf(pathname)}
         </p>
-        {/* 「我的」頁的帳號卡片已經有登入鈕 */}
-        <div className="flex min-w-[2.5rem] shrink-0 justify-end">{pathname !== "/me" && trailing}</div>
+        {/* 「我的」頁的帳號卡片、首頁的大按鈕已經有登入鈕，右上角不再重複 */}
+        <div className="flex min-w-[2.5rem] shrink-0 justify-end">
+          {pathname !== "/me" && pathname !== "/" && trailing}
+        </div>
       </div>
 
       {segments && (

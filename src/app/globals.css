@@ -185,12 +185,20 @@ body {
 @media (min-width: 1024px) { .hb-cover { display: block; } }
 /* 手機：兩本從左右下角的海裡探出頭(蓋掉桌機的 inline 位置) */
 @media (max-width: 767px) {
+  /* 雲都放在標題上方的空白：左邊的雲原本在 30% 高會壓到副標題；
+     右邊的雲在內容較多(例如「這個功能需要登入」)時會碰到標題，所以兩朵都縮小上移、左右錯開 */
+  .hb-cloud--a { top: 3%; width: 116px; }
+  .hb-cloud--b { top: 1%; width: 88px; }
   .hb-cover[data-peek] {
     display: block; width: 74px !important;
     top: auto !important; bottom: calc(var(--hb-wave-h) - 48px);
   }
   .hb-cover[data-peek="left"] { left: 10px !important; --r: -10deg; }
   .hb-cover[data-peek="right"] { right: 10px !important; --r: 9deg; }
+}
+/* 最窄的手機(320px)標題會碰到右邊的雲，再縮一點 */
+@media (max-width: 359px) {
+  .hb-cloud--a { top: 1%; width: 84px; }
 }
 
 .hb-waves {

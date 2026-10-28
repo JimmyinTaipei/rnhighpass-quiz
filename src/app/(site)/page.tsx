@@ -43,15 +43,27 @@ export default async function Home(props: PageProps<"/">) {
           <p className="text-sm text-incorrect">登入沒有完成，請再試一次。</p>
         )}
 
-        <div className="flex flex-wrap items-center justify-center gap-3">
+        {/* 主次：一般情況「開始讀書」是主要動作、登入是次要；從需要登入的頁面被導回來時反過來。
+            手機上下排、同寬，電腦版並排 */}
+        <div className="flex w-full max-w-sm flex-col items-center gap-3 md:max-w-none md:flex-row md:justify-center">
           <Link
             href="/subjects"
-            className="rounded-full bg-mid px-6 py-3 text-sm font-semibold text-on-mid hover:bg-accent"
+            className={`flex h-12 w-full items-center justify-center rounded-full px-6 text-[15px] transition-colors md:w-[220px] ${
+              wasRedirected
+                ? "border border-card-border bg-card font-medium text-deep hover:bg-surface-hover"
+                : "bg-mid font-semibold text-on-mid hover:bg-accent"
+            }`}
           >
             {wasRedirected ? "先去閱讀模式" : "開始讀書"}
           </Link>
-          {!user && <GoogleLoginButton next={wasRedirected ? nextPath : undefined} />}
+          {!user && (
+            <GoogleLoginButton
+              next={wasRedirected ? nextPath : undefined}
+              tone={wasRedirected ? "primary" : "secondary"}
+            />
+          )}
         </div>
+        {!user && !wasRedirected && <p className="-mt-3 text-xs text-muted">登入後才會記錄作答與錯題</p>}
 
         {/* 閱讀位置存在這台裝置上，未登入也有；沒有紀錄時整列不出現 */}
         {!wasRedirected && (
