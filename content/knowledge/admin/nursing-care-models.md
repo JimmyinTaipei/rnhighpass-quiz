@@ -1,6 +1,6 @@
 ---
 title: 護理照護模式：個案、功能性、成組、全責、綜合與技術混合
-subtitle: Nursing care delivery models（個案護理、功能性護理、成組護理、全責護理、綜合護理、技術混合、個案管理與臨床路徑）
+subtitle: Nursing care delivery models
 aliases: [護理照護模式, 護理工作模式, 護理型態, 個案護理, Case method, 功能性護理, 功能護理, Functional nursing, 成組護理, 小組護理, Team nursing, 全責護理, 主責護理, 主護護理, Primary nursing, 綜合護理, 綜合性護理, 模組護理, Modular nursing, 技術混合, Skill mix, 輔助人員, 護佐, 照顧服務員, 護理佐理員, 個案管理, Case management, 臨床路徑, Clinical pathway, 分層執行, 參與管理, 組長, 協同護理師, 責任護理師, 整體性護理]
 admTags: [全責護理, 功能性護理, 護理照護模式, 技術混合照護模式, 個案管理模式, 小組護理]
 system: administration

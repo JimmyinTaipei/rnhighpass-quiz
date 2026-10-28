@@ -1,6 +1,6 @@
 ---
 title: 高危險妊娠
-subtitle: High-risk pregnancy — definition and risk scoring, pregnancy with heart disease, pregestational and gestational diabetes, hyperemesis gravidarum, anemia, bleeding in early pregnancy (types of abortion, cervical insufficiency and cerclage, ectopic pregnancy, hydatidiform mole), third-trimester bleeding (placenta previa versus placental abruption), hypertensive disorders with severe features and HELLP syndrome, Rh and ABO incompatibility, and self-care for women at risk of preterm birth
+subtitle: High-risk pregnancy
 aliases: [高危險妊娠, High-risk pregnancy, 高危險孕婦, Goodwin 計分, 產前危險計分, 妊娠合併心臟病, 心臟病孕婦, 妊娠糖尿病, 妊娠前糖尿病, 巨嬰, 妊娠劇吐, Hyperemesis gravidarum, 妊娠貧血, 流產, Abortion, 先兆性流產, 脅迫性流產, Threatened abortion, 迫切性流產, 不可避免流產, Inevitable abortion, 不完全流產, 完全流產, 稽留流產, 過期流產, Missed abortion, 習慣性流產, 反覆性流產, 敗血性流產, 子宮頸閉鎖不全, 子宮頸機能不全, Cervical insufficiency, 子宮頸環紮術, Cerclage, 子宮外孕, 異位妊娠, Ectopic pregnancy, 葡萄胎, 水囊狀胎塊, Hydatidiform mole, 妊娠期出血, 前置胎盤, Placenta previa, 胎盤早期剝離, Placental abruption, 庫弗萊爾氏子宮, Couvelaire uterus, 子癇前症, 重度子癇前症, 子癇症, HELLP 症候群, Rh 血型不合, Rh 同種免疫, 抗 D 免疫球蛋白, RhoGAM, ABO 血型不合, 早產高危險]
 dzTags: [高危險妊娠, 妊娠合併心臟病, 前置胎盤, 胎盤早期剝離, 流產, 先兆性流產, 習慣性流產, 子宮頸閉鎖不全, 子宮外孕, 葡萄胎, HELLP症候群, 子癇前症, 子癇症, Rh血型不合, 妊娠劇吐]
 summary: |

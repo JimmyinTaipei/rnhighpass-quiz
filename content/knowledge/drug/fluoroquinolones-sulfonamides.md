@@ -1,6 +1,6 @@
 ---
 title: 奎諾酮類、磺胺類與其他抗菌藥
-subtitle: Fluoroquinolones, sulfonamides, metronidazole, urinary antiseptics, polymyxins
+subtitle: Fluoroquinolones, sulfonamides and others
 aliases: [奎諾酮類, 喹諾酮類, 氟奎諾酮, Quinolones, Fluoroquinolones, Ciprofloxacin, Ciproxin, Levofloxacin, Cravit, Moxifloxacin, Norfloxacin, Ofloxacin, Tarivid, 磺胺類, 磺胺藥, Sulfonamides, Sulfamethoxazole, Trimethoprim, TMP-SMX, Co-trimoxazole, Bactrim, Baktar, Silver sulfadiazine, 磺胺嘧啶銀, Mafenide, Sulfamylon, Metronidazole, Flagyl, 滅滴靈, Nitrofurantoin, Methenamine, 泌尿道消毒劑, Fosfomycin, Colistin, Polymyxin, Bacitracin]
 dzTags: [細菌感染]
 system: infection

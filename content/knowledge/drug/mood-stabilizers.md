@@ -1,6 +1,6 @@
 ---
 title: 情緒穩定劑
-subtitle: Mood stabilizers（鋰鹽與抗癲癇類）
+subtitle: Mood stabilizers
 aliases: [情緒安定劑, 抗躁藥, 鋰鹽, Lithium, Lithium carbonate, Lidin, Valproate, Valproic acid, Depakine, 帝拔癲, Carbamazepine, Tegretol, 癲通, Oxcarbazepine, Trileptal, Lamotrigine, Lamictal, HLA-B*1502, 史蒂文生氏-強生症候群, SJS, 鋰中毒]
 dzTags: [雙相情緒障礙症]
 system: psychiatric

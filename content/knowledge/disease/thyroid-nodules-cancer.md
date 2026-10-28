@@ -1,6 +1,6 @@
 ---
 title: 甲狀腺結節與甲狀腺癌：四種病理型與術後放射碘
-subtitle: Thyroid nodules and thyroid cancer — papillary, follicular, medullary, anaplastic carcinoma; surgery and radioactive iodine
+subtitle: Thyroid nodules and thyroid cancer
 aliases: [甲狀腺結節, Thyroid nodule, 甲狀腺癌, Thyroid cancer, 甲狀腺腫瘤, 乳突癌, 乳頭狀癌, Papillary carcinoma, 濾泡癌, 濾泡狀癌, Follicular carcinoma, 髓質癌, 髓狀癌, Medullary carcinoma, 未分化癌, 退行性分化癌, Anaplastic carcinoma, 分化型甲狀腺癌, 毛玻璃樣核, 核溝, 核內假包涵體, 沙狀瘤小體, Psammoma body, 類澱粉, 降鈣素, 甲狀腺球蛋白, 多發性內分泌腫瘤, MEN2, RET, BRAF, 細針抽吸, FNA, 放射碘治療, 低碘飲食]
 dzTags: [甲狀腺癌, 甲狀腺腫瘤, 甲狀腺髓質癌]
 system: oncology

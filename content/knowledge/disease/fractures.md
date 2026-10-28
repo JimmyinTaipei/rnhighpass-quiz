@@ -1,6 +1,6 @@
 ---
 title: 骨折與骨科創傷
-subtitle: Fractures and orthopedic trauma — fracture types and signs, first aid, bone healing stages, delayed union and nonunion, complications, compartment syndrome and the 6 Ps, casts, traction, external fixators, hip fracture, dislocation, amputation, and fractures in children and newborns
+subtitle: Fractures and orthopedic trauma
 aliases: [骨折, Fracture, 閉鎖性骨折, 開放性骨折, Open fracture, 複雜性骨折, 完全骨折, 不完全骨折, 青枝骨折, Greenstick fracture, 粉碎性骨折, Comminuted fracture, 螺旋骨折, 斜骨折, 橫骨折, 壓迫性骨折, 嵌入性骨折, 撕裂性骨折, 病理性骨折, Pathological fracture, 疲勞性骨折, Stress fracture, 骨骺骨折, 柯雷氏骨折, Colles fracture, 髖骨骨折, 髖部骨折, Hip fracture, 股骨頸骨折, 股骨粗隆間骨折, 股骨骨折, 鎖骨骨折, 骨折癒合, 血腫期, 骨痂, Callus, 重塑期, 延遲癒合, Delayed union, 骨折不癒合, Nonunion, 癒合不正, Malunion, 復位, Reduction, 閉鎖性復位, 開放性復位內固定, ORIF, 腔室症候群, 腔隙症候群, Compartment syndrome, 筋膜切開術, Fasciotomy, 6P, 5P, 神經血管評估, Neurovascular assessment, 脂肪栓塞, 缺血性壞死, 股骨頭壞死, 石膏, Cast, 石膏照護, 玻璃纖維石膏, 長腿石膏, 短腿石膏, 人字形石膏, Spica cast, 石膏窗, 石膏剖開, 灼熱點, 牽引, Traction, 皮膚牽引, Skin traction, 骨骼牽引, Skeletal traction, 勃克式牽引, 勃克氏牽引, Buck's traction, 骨盆牽引, Pelvic traction, 反牽引, 平衡懸吊牽引, 外固定器, External fixator, 插針處照護, Pin care, 脫臼, 脫位, Dislocation, 半脫位, 截肢, Amputation, 膝上截肢, 膝下截肢, 殘肢, 殘肢照護, 幻肢痛, Phantom limb pain, 幻肢感, 義肢, Aircast, 加壓冷療, 新生兒鎖骨骨折]
 dzTags: [骨折, 腔室症候群, 股骨骨折, 髖關節骨折, 鎖骨骨折, 開放性骨折, 病理性骨折, 脫臼, 截肢]
 summary: |

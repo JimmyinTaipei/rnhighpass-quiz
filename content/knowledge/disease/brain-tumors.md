@@ -1,6 +1,6 @@
 ---
 title: 成人腦瘤與脊髓腫瘤
-subtitle: Adult brain tumors and spinal cord tumors — types, symptoms by location, surgery, radiotherapy, steroids and craniotomy care
+subtitle: Adult brain tumors and spinal cord tumors
 aliases: [腦瘤, 腦腫瘤, 顱內腫瘤, Brain tumor, Intracranial tumor, 原發性腦瘤, 轉移性腦瘤, Brain metastasis, 膠質瘤, 神經膠質瘤, Glioma, 星狀細胞瘤, Astrocytoma, 多形性膠質母細胞瘤, 膠質母細胞瘤, Glioblastoma, GBM, 腦膜瘤, Meningioma, 聽神經瘤, 前庭神經鞘瘤, Acoustic neuroma, Vestibular schwannoma, 脊髓腫瘤, Spinal cord tumor, 脊髓壓迫, Spinal cord compression, 開顱術, Craniotomy, 天幕上, 天幕下, Supratentorial, Infratentorial, 立體定位放射手術, Stereotactic radiosurgery, 伽瑪刀, 伽馬刀, Gamma knife, 近接治療, I-125, Temozolomide, Dexamethasone]
 dzTags: [腦瘤]
 system: oncology

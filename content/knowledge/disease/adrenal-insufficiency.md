@@ -1,6 +1,6 @@
 ---
 title: 腎上腺功能不足：愛迪生氏病、腎上腺危象與類固醇減量
-subtitle: Adrenal insufficiency — Addison disease, secondary and glucocorticoid-induced insufficiency, adrenal crisis, stress dosing
+subtitle: Adrenal insufficiency
 aliases: [腎上腺功能不足, 腎上腺功能不全, 腎上腺皮質功能低下, 腎上腺皮質功能不全, 腎上腺機能不全, Adrenal insufficiency, 愛迪生氏病, 愛迪生氏症, 艾迪生氏病, Addison disease, Addison's disease, 原發性腎上腺功能不足, 次發性腎上腺功能不足, 愛迪生氏危機, 愛迪生危機, 腎上腺危象, 腎上腺危機, Adrenal crisis, Addisonian crisis, 色素沉著, 壓力劑量, Stress dose, 生病日規則, Sick day rules, hydrocortisone, fludrocortisone, 類固醇減量, 類固醇戒斷, ACTH 刺激試驗, Cosyntropin]
 dzTags: [愛迪生氏病, 愛迪生氏危機, 腎上腺皮質功能不全]
 system: endocrine

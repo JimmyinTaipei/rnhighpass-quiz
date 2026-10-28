@@ -1,6 +1,6 @@
 ---
 title: 頭頸癌
-subtitle: Head and neck cancers（鼻咽癌、口腔癌、喉癌）
+subtitle: Head and neck cancers
 aliases: [頭頸癌, 頭頸部癌, Head and neck cancer, 鼻咽癌, Nasopharyngeal carcinoma, NPC, EB 病毒, EBV, 口腔癌, Oral cancer, 舌癌, 頰癌, 檳榔, 白斑, 紅斑, 口腔黏膜下纖維化, 口腔黏膜檢查, 頸部淋巴廓清術, 喉癌, Laryngeal cancer, 全喉切除術, 部分喉切除, 聲門上喉切除, 永久性氣管造口, 喉切除管, 食道語, 電子喉, 下咽癌]
 dzTags: [鼻咽癌, 口腔癌, 喉癌, 下咽癌, 舌癌, 頭頸癌, 口腔癌前病變, 唾液腺腫瘤]
 system: oncology

@@ -1,6 +1,6 @@
 ---
 title: 規劃、願景使命與策略性規劃
-subtitle: Planning and strategic planning（規劃的意義與目的、5W1H、規劃類型與層級、願景／使命／價值觀／理念、策略性規劃步驟、SWOT）
+subtitle: Planning and strategic planning
 aliases: [規劃, 規劃概論, 規劃的意義, 規劃的目的, 規劃的原則, 規劃的特性, 規劃過程, 規劃類型, 策略性規劃, 策略規劃, 功能性規劃, 戰術性規劃, 操作性規劃, 作業性規劃, 長程計畫, 中程計畫, 短程計畫, 專案規劃, 例行規劃, 偶發性規劃, 方案規劃, 5W1H, 6W, 目標設定, 願景, Vision, 使命, 任務, Mission, 價值觀, 理念, Philosophy, 宗旨, SWOT, 優勢, 劣勢, 機會, 威脅, 效率標準, 效能標準, 速度標準, Gillies, 管理過程]
 admTags: [規劃概論, 願景使命與策略規劃, SWOT分析, 目標設定5W1H, 規劃類型與層級]
 system: administration

@@ -1,6 +1,6 @@
 ---
 title: 臥位、翻身擺位與身體力學
-subtitle: Positioning and body mechanics — turning principles, general and examination positions (Fowler, Sims, knee-chest, dorsal recumbent, Trendelenburg, lithotomy, jackknife), support devices and safe patient handling
+subtitle: Positioning and body mechanics
 aliases: [臥位, 姿勢, 擺位, Positioning, 翻身, 翻身擺位, 身體力學, Body mechanics, 省力原則, 仰臥, Supine position, 俯臥, Prone position, 側臥, Lateral position, 坐臥, 半坐臥, 高坐臥, Fowler's position, Semi-Fowler's position, 辛氏臥姿, Sims' position, 3/4 俯臥, 膝胸臥姿, Knee-chest position, 屈膝仰臥, Dorsal recumbent position, 垂頭仰臥, Trendelenburg position, 膀胱截石術臥姿, 截石臥位, Lithotomy position, 截刀式臥姿, Jackknife position, 圓滾木翻身, Log roll, 支托物, 粗隆捲軸, Trochanter roll, 足托板, Footboard, 砂袋, 床上支架, 床上護架, Bed cradle, 手捲軸, Hand roll, 足跟保護器, 剪力]
 dzTags: [關節攣縮, 垂足]
 system: fundamentals

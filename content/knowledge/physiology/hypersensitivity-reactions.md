@@ -1,6 +1,6 @@
 ---
 title: 過敏反應（第一至四型）
-subtitle: Hypersensitivity reactions（Gell 與 Coombs 分類、各型機轉與疾病、過敏檢查、異位性體質）
+subtitle: Hypersensitivity reactions
 aliases: [過敏反應, 過敏, 過敏性疾病, 超敏反應, 過敏症, Hypersensitivity, Allergy, 第一型過敏, 第二型過敏, 第三型過敏, 第四型過敏, 即發型過敏, 立即型過敏, 遲發型過敏, Type I hypersensitivity, Type II hypersensitivity, Type III hypersensitivity, Type IV hypersensitivity, 肥大細胞, 肥胖細胞, 嗜鹼性球, 去顆粒, 組織胺, Histamine, 異位性, 異位性體質, Atopy, 異位性皮膚炎, Atopic dermatitis, 氣喘, 枯草熱, 細胞毒殺過敏, 免疫複合體, 免疫複合物, 血清病, Serum sickness, Arthus 反應, 阿圖斯氏反應, 皮膚點刺試驗, 皮膚試驗, 過敏原檢測, 特異性 IgE, 結核菌素試驗, 遲發型過敏反應, DTH]
 dzTags: [過敏反應, 異位性皮膚炎]
 system: hematology-immunology

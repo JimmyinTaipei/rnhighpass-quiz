@@ -1,6 +1,6 @@
 ---
 title: 凝血功能檢驗
-subtitle: Coagulation tests — PT and INR, aPTT, bleeding time, clotting time, platelet count, fibrinogen, FDP and D-dimer, specimen collection, interpretation by disease and by anticoagulant
+subtitle: Coagulation tests
 aliases: [凝血功能, 凝血功能檢查, 凝血檢驗, Coagulation test, 凝血酶原時間, Prothrombin time, PT, 國際標準化比值, International normalized ratio, INR, 活化部分凝血活酶時間, 部分凝血活酶時間, 活化部分凝血酶原時間, Activated partial thromboplastin time, aPTT, APTT, PTT, 出血時間, Bleeding time, 凝血時間, Clotting time, 活化凝血時間, Activated clotting time, ACT, 纖維蛋白原, Fibrinogen, 纖維蛋白分解產物, FDP, D-dimer, D 雙體, 檸檬酸鈉試管, 藍頭管, 凝血檢體, Wells 分數]
 dzTags: []
 system: hematology-immunology

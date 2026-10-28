@@ -1,6 +1,6 @@
 ---
 title: 抗精神病藥物
-subtitle: Antipsychotics（第一代 FGA／第二代 SGA）
+subtitle: Antipsychotics
 aliases: [抗精神病藥, 抗思覺失調症藥物, 神經安定劑, Neuroleptics, 典型抗精神病藥, 非典型抗精神病藥, FGA, SGA, Haloperidol, Haldol, 好度, Chlorpromazine, Wintermin, Thioridazine, Fluphenazine, Sulpiride, Risperidone, Risperdal, Paliperidone, Invega, Olanzapine, Zyprexa, Quetiapine, Seroquel, Clozapine, Clozaril, Aripiprazole, Abilify, Amisulpride, Solian, Ziprasidone, Lurasidone, 長效針劑, LAI, EPS, 錐體外徑症候群, NMS, 抗精神病藥物惡性症候群, 遲發性運動異常, 靜坐不能]
 dzTags: [思覺失調症, 雙相情緒障礙症]
 system: psychiatric

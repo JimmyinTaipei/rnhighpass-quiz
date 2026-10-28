@@ -1,6 +1,6 @@
 ---
 title: 醫院環境安全、災害應變與職業災害預防
-subtitle: Hospital environmental safety, disaster response and occupational safety（緊急災害應變、HVA、RACE、醫療廢棄物、職業危害、針扎、人因工程、職場暴力）
+subtitle: Hospital safety and disaster response
 aliases: [醫院環境安全, 環境安全管理, 緊急災害應變, 災害應變計畫, 風險危害分析, HVA, 大量傷病患, MCI, 火災應變, RACE, R.A.C.E., 醫療廢棄物, 生物醫療廢棄物, 感染性廢棄物, 廢尖銳器具, 職業災害, 職業危害, 物理性危害, 化學性危害, 生物性危害, 針扎, 下背痛, 人因工程, 職場暴力, 勞工健康檢查, 職業安全衛生法]
 admTags: [醫院環境安全管理, 醫療廢棄物處理, 針扎與職業災害, 危機管理, 職場暴力與勞動權益]
 system: administration

@@ -1,6 +1,6 @@
 ---
 title: 甲狀腺功能低下：橋本氏甲狀腺炎、黏液水腫與黏液水腫昏迷
-subtitle: Hypothyroidism — Hashimoto thyroiditis, myxedema, levothyroxine therapy, myxedema coma
+subtitle: Hypothyroidism
 aliases: [甲狀腺功能低下, 甲狀腺機能低下, Hypothyroidism, 橋本氏甲狀腺炎, Hashimoto thyroiditis, 慢性淋巴球性甲狀腺炎, 亞急性甲狀腺炎, 產後甲狀腺炎, 甲狀腺炎, Thyroiditis, 黏液水腫, 黏液性水腫, Myxedema, 黏液水腫昏迷, Myxedema coma, 非凹陷性水腫, 甲狀腺素, levothyroxine, Eltroxin, 先天性甲狀腺功能低下]
 dzTags: [甲狀腺功能低下, 黏液水腫, 黏液水腫昏迷]
 system: endocrine

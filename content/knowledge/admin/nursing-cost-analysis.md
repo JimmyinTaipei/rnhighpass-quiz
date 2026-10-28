@@ -1,6 +1,6 @@
 ---
 title: 護理成本分析、成本控制與損益平衡
-subtitle: Nursing cost analysis, cost control and break-even analysis（成本分類、成本控制、護理人力成本計算、損益平衡點 BEP）
+subtitle: Nursing cost analysis, cost control and break-even analysis
 aliases: [成本分析, 成本分類, 直接成本, 間接成本, 固定成本, 變動成本, 半變動成本, 可控制成本, 不可控制成本, 營運成本, 非營運成本, 成本控制, 成本效益分析, 零存貨, JIT, ABC分析, 護理人力成本, 時薪, 每日人力成本, 損益平衡點, BEP, Break-even point, 邊際貢獻, 邊際貢獻率, 損益表, 財務控制, 成本中心]
 admTags: [成本分類, 成本控制, 護理人力成本計算, 損益平衡點BEP, 護理生產力與HPPD, 預算概論]
 system: administration

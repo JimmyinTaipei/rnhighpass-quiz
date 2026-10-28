@@ -1,6 +1,6 @@
 ---
 title: 神經系統評估與檢查
-subtitle: Neurological assessment — consciousness, GCS, pupils, motor and reflexes, meningeal signs and diagnostic tests
+subtitle: Neurological assessment
 aliases: [神經學評估, 神經評估, 神經學檢查, Neurological assessment, Neuro check, 意識程度, 意識狀態, 意識障礙, 嗜睡, Lethargy, 混亂, 木僵, Stupor, 昏迷, Coma, 昏迷指數, 昏迷量表, 格拉斯哥昏迷量表, 葛氏昏迷量表, Glasgow Coma Scale, GCS, 兒童昏迷量表, PGCS, 心智狀態評估, 簡易心智量表, MMSE, 瞳孔評估, 瞳孔對光反射, 肌力, 肌力分級, 徒手肌肉測試, Manual muscle test, MMT, 拉維特量表, Lovett scale, 病理反射, 巴賓斯基徵象, Babinski sign, 霍夫曼氏反射, Hoffmann sign, 小腦功能, 隆伯氏測驗, Romberg test, 指鼻試驗, 腦膜刺激徵象, 頸部僵硬, Kernig sign, 克尼格氏徵象, Brudzinski sign, 布魯辛斯基氏徵象, 頭眼反射, 洋娃娃眼, Doll's eye, 冰水試驗, 腦波, EEG, 誘發電位, Evoked potential, 肌電圖, EMG, 電腦斷層, CT, 磁振造影, MRI, 正子造影, PET, SPECT, 腦血管攝影, Cerebral angiography, 脊髓攝影, Myelography]
 dzTags: [意識障礙, 昏迷]
 system: neuro

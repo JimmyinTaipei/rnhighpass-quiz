@@ -1,6 +1,6 @@
 ---
 title: 接觸性皮膚炎與乳膠過敏
-subtitle: Allergic contact dermatitis and latex allergy（第Ⅳ型過敏、貼膚試驗、刺激性與過敏性比較、乳膠過敏的類型與醫療環境預防）
+subtitle: Allergic contact dermatitis and latex allergy
 aliases: [接觸性皮膚炎, 過敏性接觸性皮膚炎, 刺激性接觸性皮膚炎, 接觸性皮膚炎衛教, Contact dermatitis, Allergic contact dermatitis, ACD, Irritant contact dermatitis, ICD, 貼膚試驗, Patch test, 鎳過敏, 毒藤, 常春藤皮膚炎, 乳膠過敏, 乳膠手套過敏, 天然橡膠乳膠, Latex allergy, Natural rubber latex, 乳膠水果症候群, Latex-fruit syndrome, 無粉手套, 無乳膠, Latex-free, 手部皮膚炎, 洗手皮膚炎]
 dzTags: [接觸性皮膚炎]
 system: hematology-immunology

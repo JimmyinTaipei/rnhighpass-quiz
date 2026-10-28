@@ -1,6 +1,6 @@
 ---
 title: 學校衛生與護理
-subtitle: School health nursing（學校衛生法、行政組織、護理人員與營養師配置、健康中心、學生健康檢查、常見體格缺點、健康體適能、視力保健、健康促進學校、學校護理師角色）
+subtitle: School health nursing
 aliases: [學校衛生, 學校護理, 學校衛生護理, School health, School nursing, 學校衛生法, 學校衛生委員會, 衛生保健組, 健康中心, 護理人員配置, 學校營養師, 學生健康檢查, 學生健康檢查實施辦法, 學童體格缺點, 缺點矯治, 健康體適能, 體適能四要素, 心肺耐力, 視力保健, 近視, 健康促進學校, Health-promoting school, 學校健康政策, 例行性教學, 非例行性教學, 學校護理師角色, Wold, 校園禁菸, 月經教育, 生理用品]
 dzTags: [視力不良]
 system: community

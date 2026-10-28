@@ -1,6 +1,6 @@
 ---
 title: 法定傳染病與傳染病防治
-subtitle: Notifiable diseases and communicable disease control（傳染病防治法、第一至五類法定傳染病與通報時限、潛伏期與檢疫、流行病學名詞、TOCC）
+subtitle: Notifiable diseases and communicable disease control
 aliases: [法定傳染病, 傳染病防治法, 傳染病通報, 通報時限, 第一類傳染病, 第二類傳染病, 第三類傳染病, 第四類傳染病, 第五類傳染病, 潛伏期, 可傳染期, 傳染期, 檢疫, 隔離, 自主健康管理, 疫情調查, 接觸者追蹤, TOCC, 流行病, Epidemic, 地方性流行, Endemic, 大流行, Pandemic, 散發, 發生率, 盛行率, 致死率, 死亡率, 侵襲率, 食品中毒通報, 1922]
 dzTags: []
 system: community

@@ -1,6 +1,6 @@
 ---
 title: 甲狀腺機能亢進：葛瑞夫茲氏病、甲狀腺風暴與甲狀腺切除術
-subtitle: Hyperthyroidism — Graves disease, antithyroid drugs, radioactive iodine, thyroid storm, thyroidectomy nursing
+subtitle: Hyperthyroidism
 aliases: [甲狀腺機能亢進, 甲狀腺功能亢進, 甲亢, Hyperthyroidism, 甲狀腺毒症, Thyrotoxicosis, 葛瑞夫茲氏病, 葛瑞夫氏症, 格雷氏病, Graves disease, 突眼, 眼球突出, Exophthalmos, 甲狀腺眼病變, 脛前黏液水腫, Pretibial myxedema, 甲狀腺刺激抗體, TSI, TRAb, 毒性多結節性甲狀腺腫, 甲狀腺風暴, 甲狀腺危象, Thyroid storm, 抗甲狀腺藥, 硫醯胺類, Thionamides, PTU, propylthiouracil, methimazole, 飽和碘化鉀溶液, SSKI, 盧戈氏液, Lugol, 放射性碘, 131I, 甲狀腺切除術, Thyroidectomy, 喉返神經, 手足抽搐, Chvostek 徵象, Trousseau 徵象]
 dzTags: [甲狀腺機能亢進, 葛瑞夫茲氏病, 甲狀腺風暴]
 system: endocrine

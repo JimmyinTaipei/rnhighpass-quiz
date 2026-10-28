@@ -1,6 +1,6 @@
 ---
 title: 免疫球蛋白、HLA 與血清學
-subtitle: Immunoglobulins, HLA and serology（抗體構造、五類 Ig、抗體多樣性、HLA 與疾病、血清學反應、ABO 與 Rh）
+subtitle: Immunoglobulins, HLA and serology
 aliases: [免疫球蛋白, 抗體, Antibody, Immunoglobulin, Ig, IgG, IgM, IgA, IgE, IgD, 分泌型 IgA, 抗體構造, 重鏈, 輕鏈, Fab, Fc, 可變區, 恆定區, 高變異區, CDR, 鉸鏈區, J 鏈, 半衰期, 抗原, Antigen, 抗原決定位, 表位, Epitope, 半抗原, Hapten, 免疫原性, V(D)J 重組, 抗體多樣性, RAG1, RAG2, TdT, 等位基因排斥, HLA, 人類白血球抗原, 主要組織相容性複合體, HLA-B27, HLA-B*1502, HLA-B*5701, HLA-DR, HLA-DQ, 單倍型, Haplotype, 混合淋巴球反應, 交叉配對, Crossmatch, 血清學, 凝集, Agglutination, 沉澱, Precipitation, ELISA, 酵素免疫分析, 西方墨點, Western blot, 免疫螢光, 補體結合試驗, ABO 血型, ABO, Rh 血型, Rh, RhD, 血型, 萬能捐血者, 萬能受血者, 溶血性新生兒疾病, 胎兒紅血球母細胞症, Erythroblastosis fetalis]
 dzTags: []
 system: hematology-immunology

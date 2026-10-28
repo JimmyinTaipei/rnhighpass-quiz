@@ -1,6 +1,6 @@
 ---
 title: 中樞 α2 致效劑
-subtitle: Centrally acting alpha-2 agonists（clonidine、methyldopa）
+subtitle: Centrally acting alpha-2 agonists
 aliases: [Central α2 agonist, 中樞性降壓藥, α2 促效劑, α2 致效劑, Clonidine, Methyldopa, α-methyldopa, Guanfacine, Dexmedetomidine, Catapres, Aldomet]
 dzTags: [高血壓, 妊娠高血壓]
 system: cardiovascular

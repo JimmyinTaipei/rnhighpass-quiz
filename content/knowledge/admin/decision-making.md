@@ -1,6 +1,6 @@
 ---
 title: 決策與問題解決
-subtitle: Decision making and problem solving（決策過程、問題解決原則、Vroom-Yetton 決策模式、決策策略、直覺決策、團體決策技術、決策工具）
+subtitle: Decision making and problem solving
 aliases: [決策, 決策過程, 決策步驟, 問題解決, 問題解決步驟, 問題解決原則, Sullivan, Keeney, 價值導向思考, Vroom, Yetton, Vroom-Yetton, 獨裁型, 諮商型, 團體型, 授權型, 決策模式, 理性決策, 政治決策, 行為決策, 規範決策, 決策策略, 最大極限, 最小極限, 最少缺憾, 樂觀性策略, 滿意性策略, 直覺決策, 直覺思考, Klein, 克萊恩, 決策陷阱, 先入為主, 錨定, 腦力激盪, 德爾菲, Delphi, 名義團體, 記名式團體, NGT, 決策矩陣, 決策樹, 量性決策工具, 非量性決策工具, 團體決策]
 admTags: [決策過程與問題解決, 直覺決策, Vroom-Yetton決策模式, 決策模式, 決策輔助工具, 名義團體技術, 德爾菲法, 決策陷阱, 腦力激盪法]
 system: administration

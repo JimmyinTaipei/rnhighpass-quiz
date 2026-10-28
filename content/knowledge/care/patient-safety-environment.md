@@ -1,6 +1,6 @@
 ---
 title: 病人安全與醫療環境：舒適、跌倒、約束、火災與災害
-subtitle: Patient safety and the care environment — temperature, humidity, light, noise, falls, restraints, fire (RACE, PASS), burns and electrical safety, radiation, earthquakes, medical waste and the patient unit
+subtitle: Patient safety and the care environment
 aliases: [醫療環境, 醫療環境的控制, 病人安全環境, 安全環境, 舒適環境, 室溫, 相對溼度, 相對濕度, 病房溼度, 光線, 照度, 米燭光, lux, 通風, 噪音, 分貝, 病房色彩, 機械性傷害, 化學性傷害, 溫度性傷害, 跌倒, Fall, 預防跌倒, 跌倒高危險群, 跌倒危險因子, 內因性危險因子, 外因性危險因子, 約束, 身體約束, Restraint, 保護性約束, C.T.M.S., CTMS, 木乃伊約束法, 手肘約束法, 雙套結, 約束手套, 背心約束, 火災, RACE, R.A.C.E., PASS, 滅火器, 火災種類, 泡沫滅火器, 乾粉滅火器, 二氧化碳滅火器, 燙傷預防, 觸電, 用電安全, 放射線傷害, 輻射防護, 時間距離屏蔽, 地震, 病人單位, Patient unit, 病床, 血漬, 去除汙漬]
 dzTags: [跌倒]
 system: fundamentals

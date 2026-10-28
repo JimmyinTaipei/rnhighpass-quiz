@@ -1,6 +1,6 @@
 ---
 title: 骨鈣代謝藥物：雙磷酸鹽、denosumab、teriparatide、鈣片與維生素 D
-subtitle: Bone and calcium drugs — bisphosphonates, denosumab, teriparatide, romosozumab, raloxifene, calcitonin, calcium and vitamin D supplements, calcimimetics
+subtitle: Bone and calcium drugs
 aliases: [骨鈣代謝藥物, 骨質疏鬆症用藥, 骨質疏鬆用藥, 骨質代謝用藥, 高血鈣用藥, 雙磷酸鹽, 雙磷酸鹽類, Bisphosphonates, alendronate, Fosamax, risedronate, ibandronate, zoledronic acid, Zometa, Aclasta, denosumab, Prolia, Xgeva, teriparatide, Forteo, 副甲狀腺素類似物, romosozumab, Evenity, raloxifene, Evista, 降鈣素, calcitonin, Miacalcic, 碳酸鈣, calcium carbonate, 檸檬酸鈣, calcium citrate, 維生素 D, 活性維生素 D, calcitriol, cinacalcet, 顎骨壞死, 非典型股骨骨折, 變形性骨炎, Paget disease, 葡萄糖胺]
 dzTags: []
 system: endocrine

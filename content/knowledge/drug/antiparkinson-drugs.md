@@ -1,6 +1,6 @@
 ---
 title: 巴金森氏症與神經退化疾病用藥
-subtitle: Antiparkinson drugs（levodopa、dopamine agonists、MAO-B、COMT、anticholinergics、amantadine）and ALS drugs
+subtitle: Antiparkinson drugs and ALS drugs
 aliases: [巴金森氏症用藥, 巴金森氏病用藥, 帕金森氏症用藥, 抗帕金森氏症用藥, 抗巴金森藥物, Antiparkinson drugs, Levodopa, 左多巴, L-dopa, Carbidopa, Benserazide, Sinemet, Madopar, 多巴脫羧酶抑制劑, DOPA decarboxylase inhibitor, 多巴胺致效劑, Dopamine agonist, Pramipexole, Mirapex, Ropinirole, Requip, Rotigotine, Neupro, Apomorphine, Bromocriptine, MAO-B 抑制劑, Selegiline, Rasagiline, Azilect, Safinamide, COMT 抑制劑, Entacapone, Comtan, Stalevo, Opicapone, Tolcapone, Amantadine, Trihexyphenidyl, Artane, Benztropine, On-off 現象, On-off phenomenon, 藥效減退, Wearing-off, 異動症, Dyskinesia, 肌萎縮性側索硬化症用藥, 漸凍人, ALS, Riluzole, Rilutek, Edaravone, Radicut]
 dzTags: []
 system: neuro

@@ -1,6 +1,6 @@
 ---
 title: 權力與影響力、領導型態與管理者角色
-subtitle: Power, leadership styles and manager roles（職權、French & Raven 權力來源、Douglass 領導型態、管理與領導的比較、Mintzberg 與 Quinn 角色）
+subtitle: Power, leadership styles and manager roles
 aliases: [權力, 影響力, 權力來源, French, Raven, 法統權, 合法權, 法定權, 強制權, 脅迫權, 獎賞權, 獎勵權, 獎酬權, 專家權, 專技權, 參考權, 參照權, 榜樣影響力, 資訊權, 連結權, 關係影響力, 職位權力, 個人權力, 職權, 直線職權, 幕僚職權, 功能職權, 領導型態, Douglass, 獨裁式, 專制式, 集權式領導, 民主式領導, 放任式領導, 參與式領導, 管理者與領導者, 非正式領導人物, Mintzberg, 明茲伯格, 管理者角色, 人際角色, 資訊角色, 決策角色, 資源分配者, 傳播者, 發言人, 聯絡者, Quinn, 競合價值架構, 指導者, 促進者, 生產者, 創新者]
 admTags: [權力來源, 領導風格(民主專制放任), 管理與領導比較, Mintzberg管理者角色, 競合價值架構(Quinn), 授權]
 system: administration

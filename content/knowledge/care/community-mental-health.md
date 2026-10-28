@@ -1,6 +1,6 @@
 ---
 title: 社區心理衛生與精神復健
-subtitle: Community mental health（去機構化、三級預防、心理健康促進、社區精神醫療與復健資源、社區心理衛生中心、居家治療、個案管理、復元與賦能、社區護理角色）
+subtitle: Community mental health
 aliases: [社區心理衛生, 社區精神心理衛生, 社區精神醫學, 社區精神衛生護理, Community mental health, Community psychiatry, 去機構化, Deinstitutionalization, 機構化, 三級預防, 初級預防, 次級預防, 三段五級, 四段七級, 心理健康促進, 精神疾病防治, 社區心理衛生中心, 社會安全網, 強化社會安全網, 關懷訪視, 精神復健, 精神復健機構, 社區復健中心, 康復之家, 精神護理之家, 日間留院, 居家治療, 精神科居家護理, 庇護性工場, 庇護工場, 復健商店, 會所, Clubhouse, 個案管理, Case management, 積極性社區治療, ACT, 復元, Recovery, 賦能, Empowerment, 優勢觀點, 遊民收容輔導]
 dzTags: [精神疾病, 慢性精神病]
 system: community

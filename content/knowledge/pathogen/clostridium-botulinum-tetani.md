@@ -1,6 +1,6 @@
 ---
 title: 肉毒桿菌與破傷風桿菌
-subtitle: Clostridium botulinum 與 Clostridium tetani（神經毒素、肉毒桿菌中毒、破傷風）
+subtitle: Clostridium botulinum 與 Clostridium tetani
 aliases: [肉毒桿菌, 臘腸桿菌, 臘腸毒桿菌, 肉毒梭狀桿菌, 肉毒梭孢桿菌, Clostridium botulinum, C. botulinum, 肉毒桿菌中毒, Botulism, 嬰兒肉毒桿菌中毒, 肉毒桿菌毒素, Botulinum toxin, Botox, 破傷風, 破傷風桿菌, 破傷風梭狀桿菌, 破傷風梭孢桿菌, Clostridium tetani, C. tetani, Tetanus, 新生兒破傷風, 牙關緊閉, 痙笑, 角弓反張, 破傷風類毒素, 破傷風免疫球蛋白, TIG, 破傷風抗毒素, Td, Tdap]
 dzTags: [肉毒桿菌中毒, 破傷風, 食物中毒]
 system: infection

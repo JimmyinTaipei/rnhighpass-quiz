@@ -1,6 +1,6 @@
 ---
 title: 新生兒生理調適
-subtitle: Newborn physiological adaptation — first breath and lung fluid clearance, transition from fetal circulation, thermoregulation (four routes of heat loss, brown fat, cold stress), glucose and energy, gastrointestinal function and stools, liver and physiological jaundice, blood, vitamin K and iron, kidneys, immunity, maternal-hormone effects, periods of reactivity, sleep–wake states and behavioral cues
+subtitle: Newborn physiological adaptation
 aliases: [新生兒生理, 新生兒生理調適, Neonatal transition, 新生兒過渡期, 第一次呼吸, 首次呼吸, 肺液, 胎兒循環轉換, 卵圓孔關閉, 動脈導管關閉, 新生兒體溫, 新生兒體溫調節, 體熱散失, 傳導, 對流, 輻射, 蒸發, 棕色脂肪, Brown fat, 非顫抖性產熱, 冷壓力, Cold stress, 中性溫度環境, 新生兒血糖, 新生兒能量來源, 新生兒腸胃, 胎便, Meconium, 過渡便, 母乳便, 配方奶便, 胃結腸反射, 胃排空, 賁門括約肌, 新生兒肝臟, 生理性黃疸, 新生兒維生素 K, 新生兒鐵質, 新生兒腎臟, 新生兒免疫, 被動免疫, 假月經, 新生兒乳房腫大, 巫婆乳, 第一反應期, 相對不反應期, 第二反應期, 睡眠活動狀態, 安靜睡眠, 活動睡眠, 安靜清醒, 活動清醒, 投入性暗示, 脫離性暗示, Brazelton]
 dzTags: [新生兒假月經, 低體溫]
 system: obstetrics

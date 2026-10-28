@@ -1,6 +1,6 @@
 ---
 title: 麻醉藥
-subtitle: General anesthetics（inhaled、intravenous）and local anesthetics(including spinal and epidural anesthesia)
+subtitle: General and local anesthetics
 aliases: [麻醉用藥, 麻醉藥物, 麻醉劑, 全身麻醉, 全身麻醉劑, General anesthesia, 吸入性麻醉劑, 吸入性麻醉藥, Inhalational anesthetic, 最低肺泡濃度, MAC, Minimum alveolar concentration, 一氧化二氮, 笑氣, Nitrous oxide, N2O, Sevoflurane, Desflurane, Isoflurane, Halothane, 靜脈麻醉劑, Propofol, 異丙酚, Thiopental, Ketamine, 愷他命, Etomidate, Midazolam, Dexmedetomidine, Precedex, 再分布, Redistribution, 局部麻醉藥, 局部麻醉劑, 局部麻醉用藥, 局部麻醉藥物, Local anesthetic, Lidocaine, Xylocaine, Bupivacaine, Marcaine, Ropivacaine, Mepivacaine, Procaine, Tetracaine, Benzocaine, 酯類局部麻醉藥, 醯胺類局部麻醉藥, 局部麻醉劑全身毒性, LAST, 脂肪乳劑, Lipid emulsion, 脊髓麻醉, 脊椎麻醉, 脊髓阻斷, Spinal anesthesia, 蜘蛛膜下腔麻醉, 硬膜外麻醉, 硬脊膜外麻醉, 腰椎硬膜外麻醉, Epidural anesthesia, Epidural analgesia, 減痛分娩, 無痛分娩, 陰部阻斷, Pudendal block, 脊髓麻醉後頭痛, 硬腦膜穿刺後頭痛, PDPH, Post-dural puncture headache, 血液補綴, Epidural blood patch]
 dzTags: []
 system: neuro

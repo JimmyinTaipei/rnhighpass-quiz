@@ -1,6 +1,6 @@
 ---
 title: 氣喘與呼吸道用藥
-subtitle: Asthma and respiratory drugs（支氣管擴張劑、吸入型類固醇、白三烯拮抗劑、茶鹼、抗膽鹼、生物製劑、吸入器、去鼻充血與鎮咳祛痰）
+subtitle: Asthma and respiratory drugs
 aliases: [氣喘藥物, 氣喘用藥, 抗氣喘藥, 抗氣喘用藥, 呼吸系統用藥, 呼吸道用藥, 支氣管擴張劑, 控制型藥物, 緩解型藥物, Controller, Reliever, 短效乙二型作用劑, SABA, Salbutamol, Albuterol, Ventolin, Terbutaline, Fenoterol, Berotec, 長效乙二型作用劑, LABA, Salmeterol, Formoterol, Indacaterol, Vilanterol, 吸入型類固醇, 吸入性類固醇, ICS, Budesonide, Fluticasone, Beclomethasone, Ciclesonide, Mometasone, ICS-formoterol, Symbicort, MART, 白三烯拮抗劑, 白三烯素調節劑, Leukotriene receptor antagonist, LTRA, Montelukast, Singulair, Zafirlukast, Zileuton, 茶鹼, 氨茶鹼, Theophylline, Aminophylline, Xanthine, 黃嘌呤, 咖啡因, Caffeine, 抗膽鹼, Ipratropium, Atrovent, Tiotropium, LAMA, SAMA, 色甘酸鈉, 肥大細胞穩定劑, Cromolyn, Omalizumab, Xolair, Mepolizumab, Benralizumab, Dupilumab, Tezepelumab, 氣喘生物製劑, 定量噴霧吸入器, MDI, pMDI, 乾粉吸入器, DPI, 輔助器, Spacer, Aerochamber, 噴霧器, 吸入器技巧, 去鼻充血劑, Pseudoephedrine, Oxymetazoline, 藥物性鼻炎, 鎮咳藥, Dextromethorphan, Codeine, Benzonatate, 祛痰藥, Guaifenesin, Acetylcysteine, 口腔念珠菌, 鵝口瘡]
 dzTags: []
 system: respiratory

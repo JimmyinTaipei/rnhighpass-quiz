@@ -1,6 +1,6 @@
 ---
 title: 分娩期異常
-subtitle: Complications of labor and birth — dysfunctional labor (hypertonic and hypotonic contractions, prolonged and arrested labor, precipitate labor), malpresentation and malposition (occiput posterior, breech, transverse lie, face and brow), cephalopelvic disproportion, macrosomia and shoulder dystocia, multiple pregnancy, uterine rupture and inversion, amniotic fluid embolism, abnormal amniotic fluid volume, cord prolapse, fetal distress, intrauterine fetal death, preterm labor and tocolysis, post-term pregnancy, induction of labor and the Bishop score, vacuum and forceps delivery, cesarean birth and VBAC
+subtitle: Complications of labor and birth
 aliases: [分娩期異常, 難產, Dystocia, 功能不良性分娩, 子宮收縮異常, 高張性子宮收縮, 低張性子宮收縮, 產程延長, 產程停滯, 產程遲滯, 急產, Precipitate labor, 胎位不正, 枕後位, Occiput posterior, 臀產式, 臀位, Breech, 外轉術, 外迴轉術, ECV, 橫位, 肩產式, 面產式, 額產式, 胎頭骨盆不對稱, CPD, 巨嬰, Macrosomia, 肩難產, Shoulder dystocia, McRoberts, 多胞胎, 雙胞胎妊娠, 雙胞胎輸血症候群, 子宮破裂, Uterine rupture, 病理性收縮環, 班德爾環, Bandl's ring, 子宮內翻, Uterine inversion, 羊水栓塞, Amniotic fluid embolism, 羊水過多, 羊水過少, 臍帶脫垂, Cord prolapse, 胎兒窘迫, Fetal distress, 胎死腹中, IUFD, 早產, Preterm labor, 安胎, 安胎藥, Tocolysis, Ritodrine, Yutopar, Nifedipine, Atosiban, 硫酸鎂, 產前類固醇, Betamethasone, 過期妊娠, Post-term pregnancy, 引產, Induction of labor, 催生, 比夏計分, Bishop score, 子宮頸成熟, 剝膜, 人工破水, 羊膜切開術, Amniotomy, 前列腺素引產, Dinoprostone, Misoprostol, 催產素引產, 器械生產, 真空吸引, 真空吸出術, Vacuum extraction, 產鉗, Forceps, 剖腹產, Cesarean section, 剖腹產後陰道生產, VBAC, TOLAC]
 dzTags: [難產, 產程延長, 急產, 子宮破裂, 肩難產, 臍帶脫垂, 胎位不正, 早產, 過期妊娠, 剖腹產, 胎死腹中]
 summary: |

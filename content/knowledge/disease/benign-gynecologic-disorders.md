@@ -1,6 +1,6 @@
 ---
 title: 婦科良性疾病與婦科手術護理
-subtitle: Benign gynecologic disorders — gynecologic examinations, hysterectomy and laparoscopic surgery nursing, uterine fibroids, endometriosis and adenomyosis, uterine prolapse and displacement, benign cervical lesions, normal vaginal discharge, genital fistulas, dyspareunia, benign ovarian tumors including teratoma, and benign breast lesions such as fibroadenoma
+subtitle: Benign gynecologic disorders
 aliases: [婦科良性疾病, Benign gynecologic disorders, 婦科檢查, 內診, 骨盆腔檢查, 腹部超音波, 陰道超音波, 子宮切除術, 全子宮切除術, Hysterectomy, 腹腔鏡手術, Laparoscopy, 子宮肌瘤, 子宮平滑肌瘤, Uterine fibroid, Leiomyoma, Myoma, 肌層內肌瘤, 黏膜下肌瘤, 漿膜下肌瘤, 肌瘤切除術, 子宮動脈栓塞, 子宮內膜異位症, Endometriosis, 巧克力囊腫, Chocolate cyst, 子宮內膜瘤, 子宮腺肌症, 子宮肌腺症, Adenomyosis, 子宮脫垂, Uterine prolapse, 骨盆器官脫垂, 膀胱膨出, 直腸膨出, 子宮托, Pessary, 子宮移位, 子宮後傾, 子宮後屈, 子宮頸糜爛, 子宮頸外翻, 子宮頸炎, 冷凍治療, 白帶, Leukorrhea, 陰道分泌物, 陰道瘻管, 膀胱陰道瘻管, 直腸陰道瘻管, 性交疼痛, Dyspareunia, 卵巢囊腫, 功能性囊腫, 卵巢腫瘤, 畸胎瘤, 皮樣囊腫, Teratoma, 卵巢甲狀腺腫, Struma ovarii, 卵巢扭轉, 乳房良性腫瘤, 乳房纖維腺瘤, Fibroadenoma, 纖維囊腫變化]
 dzTags: [子宮肌瘤, 子宮內膜異位症, 子宮腺肌症, 子宮脫垂, 子宮移位, 子宮後傾, 子宮頸糜爛, 白帶, 陰道瘻管, 性交疼痛, 卵巢腫瘤, 畸胎瘤, 乳房纖維腺瘤, 乳房良性腫瘤]
 summary: |

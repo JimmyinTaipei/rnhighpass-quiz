@@ -1,6 +1,6 @@
 ---
 title: 不孕症與人工生殖
-subtitle: Infertility and assisted reproduction — definition and classification, female factors (ovulatory, tubal, uterine, cervical, age) and male factors, diagnostic tests (ovulation tracking, hormones and AMH, hysterosalpingography, semen analysis), timing intercourse, ovulation induction, intrauterine insemination, IVF-ET and its steps, complications such as ovarian hyperstimulation and multiple pregnancy, Taiwan's Assisted Reproduction Act, and psychosocial nursing care
+subtitle: Infertility and assisted reproduction
 aliases: [不孕症, 不孕, Infertility, 原發性不孕, 繼發性不孕, 女性不孕, 男性不孕, 男性不孕症, 不孕症檢查, 輸卵管攝影, 子宮輸卵管攝影, HSG, 抗穆勒氏管荷爾蒙, 抗穆氏管荷爾蒙, AMH, 卵巢庫存量, 卵巢儲備, 性交後試驗, 人工生殖, 人工生殖技術, ART, 人工授精, 人工受精, 子宮內人工授精, IUI, 試管嬰兒, 體外受精, 體外受精胚胎植入術, IVF-ET, IVF, 單一精蟲顯微注射, ICSI, 取卵, 胚胎植入, 囊胚植入, 冷凍胚胎, 禮物嬰兒, GIFT, ZIFT, 排卵誘導, 促排卵, 黃體支持, 卵巢過度刺激症候群, OHSS, 減胎, 精卵捐贈, 人工生殖法, 代理孕母]
 dzTags: [不孕症, 男性不孕症]
 summary: |

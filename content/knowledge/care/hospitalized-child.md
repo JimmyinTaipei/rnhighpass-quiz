@@ -1,6 +1,6 @@
 ---
 title: 住院兒童的反應與護理
-subtitle: The hospitalized child — stressors of hospitalization, separation anxiety (protest, despair, detachment), age-specific reactions and nursing care, communicating with children, therapeutic play versus play therapy, preparation for procedures and surgery, children's concepts of pain, and supporting parents and siblings
+subtitle: The hospitalized child
 aliases: [住院兒童, 兒童住院反應, 住院壓力, Hospitalized child, 分離焦慮, Separation anxiety, 抗議期, 失望期, 絕望期, 去依戀期, 否認期, Protest, Despair, Detachment, Bowlby, Robertson, 失去控制力, 身體完整性, 退化行為, 治療性遊戲, Therapeutic play, 遊戲治療, Play therapy, 情緒宣洩性遊戲, 指導性遊戲, 生理健康促進性遊戲, 醫療遊戲, 第三者技巧, 三個願望, 醫院之旅, 術前準備, 兒童疼痛概念, 手足, 住院兒童的手足, 遊戲室]
 summary: |
   住院壓力源：分離、失去控制、身體傷害與疼痛、陌生事件；6 個月到 5 歲最易受影響

@@ -1,6 +1,6 @@
 ---
 title: 給藥原則：醫囑、三讀五對與給藥安全
-subtitle: Principles of medication administration — orders and abbreviations, three checks and five rights, dose calculation, high-alert and controlled drugs, medication safety
+subtitle: Principles of medication administration
 aliases: [給藥原則, 給藥法, 給藥安全, 用藥安全, Medication administration, Medication safety, 三讀五對, 三核五對, Three checks five rights, 五對, Five rights, 七對, 給藥醫囑, 醫囑縮寫, 給藥縮寫, 長期醫囑, 臨時醫囑, St., Stat, STAT, S.O.S., p.r.n., PRN, q.o.d., q.i.d., 口頭醫囑, 電話醫囑, 劑量計算, 藥量計算, 克拉克氏法則, Clark's rule, 楊氏法則, Young's rule, 佛氏法則, Fried's rule, 體表面積, 藥物劑型, 藥物交互作用, 習慣性, 成癮性, 耐受性, 給藥系統, 單一劑量系統, Unit dose, 自動化調劑藥櫃, 條碼給藥, BCMA, 給藥記錄單, MAR, 高警訊藥物, High-alert medication, 管制藥品, 管制藥物, Controlled drugs, 藥物保存, 給藥錯誤, 拒服藥, 漏服藥]
 dzTags: []
 system: fundamentals

@@ -1,6 +1,6 @@
 ---
 title: 智能不足與早期療育
-subtitle: Intellectual disability（智能發展障礙症的診斷、適應功能三領域、嚴重度、病因、照護與台灣早期療育流程）
+subtitle: Intellectual disability
 aliases: [智能不足, 智能障礙, 智能發展障礙症, 智力障礙, 智能遲緩, 心智遲緩, Intellectual disability, Intellectual developmental disorder, Mental retardation, 適應功能, 概念領域, 社會領域, 實務領域, 輕度智能不足, 中度智能不足, 重度智能不足, 極重度智能不足, 唐氏症, 發展遲緩, 全面性發展遲緩, 早期療育, 早療, 通報轉介中心, 兒童發展聯合評估中心, 個案管理中心]
 dzTags: [智能障礙, 發展遲緩]
 system: psychiatric

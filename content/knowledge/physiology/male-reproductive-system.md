@@ -1,6 +1,6 @@
 ---
 title: 男性生殖系統
-subtitle: Male reproductive system — scrotum and testes, seminiferous tubules, Sertoli and Leydig cells, the blood–testis barrier, spermatogenesis, epididymis and the duct system, seminal vesicles, prostate and bulbourethral glands, the penis, semen and semen analysis, and sexual differentiation with male–female homologues
+subtitle: Male reproductive system
 aliases: [男性生殖系統, Male reproductive system, 男性生殖器官, 陰囊, Scrotum, 肉膜肌, Dartos muscle, 提睪肌, Cremaster muscle, 睪丸, Testis, 曲細精管, 細精管, Seminiferous tubule, 直細精管, 睪丸網, Rete testis, 輸出小管, 塞氏細胞, 賽托利氏細胞, 支持細胞, Sertoli cell, 萊氏細胞, 萊迪氏細胞, 間質細胞, Leydig cell, 血睪障壁, 血睪丸障壁, Blood-testis barrier, 雄性素結合蛋白, Androgen-binding protein, ABP, 抑制素, Inhibin, 精子生成, Spermatogenesis, 精原細胞, 初級精母細胞, 次級精母細胞, 精細胞, Spermatid, 精子, Sperm, 副睪, Epididymis, 靜纖毛, 輸精管, Vas deferens, 精索, Spermatic cord, 射精管, 精囊, 儲精囊, Seminal vesicle, 前列腺, 攝護腺, Prostate, 尿道球腺, 考伯氏腺, Bulbourethral gland, 陰莖, Penis, 陰莖海綿體, 尿道海綿體, Corpus spongiosum, 龜頭, 陰莖球, 陰莖腳, 包皮, 勃起, 射精, 精液, Semen, 精液分析, Semen analysis, 精蟲減少症, 寡精症, 無精症, 弱精症, 精子畸形症, 性分化, 雙氫睪固酮, DHT, SRY, 同源器官]
 summary: |
   睪丸的曲細精管產生精子；塞氏細胞形成血睪障壁、分泌雄性素結合蛋白；萊氏細胞受 LH 刺激分泌睪固酮

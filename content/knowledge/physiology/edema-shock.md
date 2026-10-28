@@ -1,6 +1,6 @@
 ---
 title: 水腫、充血與休克
-subtitle: Edema, hyperemia and congestion, and shock — Starling forces, mechanisms of edema, classification and stages of shock
+subtitle: Edema, hyperemia and congestion, and shock
 aliases: [水腫, Edema, 組織水腫, 凹陷性水腫, 全身性水腫, Anasarca, 腹水, Ascites, Starling 力, 靜水壓, Hydrostatic pressure, 膠體滲透壓, Colloid osmotic pressure, Oncotic pressure, 血漿滲透壓, 白蛋白, 低白蛋白血症, 淋巴水腫, 象皮腫, 主動充血, Hyperemia, 被動充血, 鬱血, Congestion, 荳蔻肝, Nutmeg liver, 休克, Shock, 低血容積性休克, Hypovolemic shock, 出血性休克, 心因性休克, Cardiogenic shock, 阻塞性休克, Obstructive shock, 分布性休克, Distributive shock, 敗血性休克, 過敏性休克, 神經性休克, 代償期, 進行期, 漸進期, 不可逆期, 失血分級, CVP, 肺動脈楔壓, PCWP, 全身血管阻力, SVR]
 dzTags: [水腫, 組織水腫, 充血, 休克, 低血容積性休克, 出血性休克, 心因性休克]
 system: general-pathology

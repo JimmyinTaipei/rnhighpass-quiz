@@ -1,6 +1,6 @@
 ---
 title: 授權、賦權與分權
-subtitle: Delegation, empowerment and decentralization（授權的過程與原則、授權不授責、授權錯誤、賦權與心理賦權、集權與分權的比較）
+subtitle: Delegation, empowerment and decentralization
 aliases: [授權, Delegation, 授權原則, 授權過程, 授權不授責, 授權不卸責, 授與性權威, 責任, Responsibility, 權限, Authority, 成敗責任, Accountability, 逐級授權, 公開授權, 重複授權, 越級, 授權不足, 不適當授權, 賦權, 賦能, Empowerment, 授能, 心理賦權, Spreitzer, 史瑞則, 工作意義, 自我效能, 自主性, 影響力, 賦權領導, 集權, 分權, 授權分權賦權比較]
 admTags: [授權, 賦權, 集權與分權]
 system: administration

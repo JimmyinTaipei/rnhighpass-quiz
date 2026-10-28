@@ -1,6 +1,6 @@
 ---
 title: 家庭暴力與虐待
-subtitle: Family violence and abuse（親密關係暴力、兒童虐待與疏忽、嬰兒搖晃症候群、老人虐待、性侵害；暴力週期、迷思、評估與身體表徵、責任通報與保護令、護理）
+subtitle: Family violence and abuse
 aliases: [家庭暴力, 家暴, 親密關係暴力, 婚姻暴力, 配偶暴力, Intimate partner violence, IPV, Domestic violence, Family violence, 暴力週期, Cycle of violence, 蜜月期, 兒童虐待, 兒虐, 兒童疏忽, Child abuse, Child neglect, 身體虐待, 精神虐待, 情緒虐待, 心理虐待, 性虐待, 疏忽, Neglect, 嬰兒搖晃症候群, 新生兒搖晃症候群, Shaken baby syndrome, 虐待性頭部外傷, 目睹家暴, 目睹兒少, 老人虐待, 老人保護, Elder abuse, 遺棄, 經濟剝削, 性侵害, 性暴力, 強暴, Sexual assault, 責任通報, 24 小時通報, 113 保護專線, 保護令, 緊急保護令, 暫時保護令, 通常保護令, 家庭暴力防治法, 兒童及少年福利與權益保障法, 老人福利法, 性侵害犯罪防治法, 驗傷, 採證, 減述]
 dzTags: [家庭暴力, 兒童虐待]
 system: psychiatric

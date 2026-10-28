@@ -1,6 +1,6 @@
 ---
 title: 兒童泌尿生殖系統先天異常
-subtitle: Vesicoureteral reflux, cryptorchidism, hypospadias, epispadias and phimosis
+subtitle: Pediatric genitourinary disorders
 aliases: [兒童泌尿生殖, 兒童泌尿系統, 膀胱輸尿管逆流, VUR, Vesicoureteral reflux, 排尿性膀胱尿道攝影, 排空性膀胱尿道攝影, VCUG, Voiding cystourethrography, 輸尿管再植入術, Deflux, 隱睪症, 隱睪, 睪丸未下降, Cryptorchidism, Undescended testis, 回縮型睪丸, 提睪反射, 睪丸固定術, Orchidopexy, 尿道下裂, Hypospadias, 陰莖彎曲, Chordee, 尿道重建術, 雙層尿布, 尿道上裂, Epispadias, 膀胱外翻, 包莖, Phimosis, 生理性包莖, 包皮環切術, 陰囊水腫, 兒童腎絲球過濾率, 兒童尿量]
 dzTags: [膀胱輸尿管逆流, 尿道下裂, 隱睪症]
 system: renal

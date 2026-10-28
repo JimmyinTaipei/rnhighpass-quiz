@@ -1,6 +1,6 @@
 ---
 title: 產後合併症
-subtitle: Postpartum complications — postpartum hemorrhage (definitions old and new, early versus late, the 4 Ts, uterine atony and uterotonics, genital tract lacerations and hematoma, retained placenta, uterine inversion, coagulopathy and DIC, Sheehan syndrome), subinvolution, puerperal infection and mastitis, venous thromboembolism, postpartum hypertension, and postpartum mood disorders (blues, depression, psychosis)
+subtitle: Postpartum complications
 aliases: [產後合併症, 產後異常, 產後併發症, Postpartum complications, 產後出血, Postpartum hemorrhage, PPH, 產後大出血, 早期產後出血, 晚期產後出血, 原發性產後出血, 續發性產後出血, 4T, 子宮收縮無力, 子宮弛緩, Uterine atony, 子宮按摩, 雙手壓迫子宮, 子宮收縮劑, 麥角鹼, Methergine, Ergonovine, Carboprost, Misoprostol, Tranexamic acid, 產道撕裂傷, 子宮頸裂傷, 陰道血腫, 會陰血腫, 胎盤碎片殘留, 胎盤殘留, 植入性胎盤, 子宮內翻, 產後 DIC, 席漢氏症候群, 子宮復舊不全, Subinvolution, 產後血栓靜脈炎, 產後深部靜脈血栓, 霍曼氏徵象, Homan's sign, 產後肺栓塞, 產後高血壓, 產後子癇前症, 產後情緒低落, Postpartum blues, 產後沮喪, 產後憂鬱, 產後憂鬱症, 產後精神病, 愛丁堡產後憂鬱量表, EPDS]
 dzTags: [產後出血, 產道撕裂傷, 子宮復舊不全, 子宮內翻, 產後憂鬱症, 產後情緒低落, 產後精神病]
 system: obstetrics

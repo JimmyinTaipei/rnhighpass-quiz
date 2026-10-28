@@ -1,6 +1,6 @@
 ---
 title: 非類固醇抗發炎藥與乙醯胺酚
-subtitle: NSAIDs（含 aspirin、COX-2 抑制劑）與 Acetaminophen
+subtitle: NSAIDs
 aliases: [NSAIDs, NSAID, 非類固醇抗發炎藥, 非類固醇消炎止痛藥, 非固醇類抗炎藥, 解熱鎮痛劑, 阿斯匹靈, 阿斯匹林, Aspirin, 乙醯水楊酸, 水楊酸, Salicylates, Ibuprofen, 布洛芬, Naproxen, Diclofenac, Voltaren, Ketorolac, Indomethacin, Mefenamic acid, Celecoxib, Celebrex, COX-2 抑制劑, Etoricoxib, 乙醯胺酚, 普拿疼, Panadol, Tinten, Paracetamol, Acetaminophen, N-acetylcysteine, NAC, 雷氏症候群, Reye syndrome, 止痛劑腎病, 前列腺素, 環氧化酶, COX]
 dzTags: [止痛劑腎病]
 system: neuro

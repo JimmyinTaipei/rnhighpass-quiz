@@ -1,6 +1,6 @@
 ---
 title: 泌尿系統影像與侵入性檢查
-subtitle: Urologic diagnostic procedures — KUB, intravenous pyelography(IVP), retrograde pyelography, renal angiography, renal biopsy, cystoscopy and uroflowmetry
+subtitle: Urologic diagnostic procedures
 aliases: [泌尿系統檢查, 泌尿道檢查, 腎臟輸尿管膀胱X光, KUB, 靜脈腎盂攝影, 靜脈注射腎盂攝影術, IVP, IVU, Intravenous pyelography, 逆行性腎盂攝影, 逆行性腎盂造影術, Retrograde pyelography, RP, 腎動脈攝影, 腎血管攝影, Renal angiography, 腎臟超音波, 腎臟切片, 腎臟活體組織切片, 經皮腎臟切片, Renal biopsy, 膀胱鏡, 膀胱鏡檢查, Cystoscopy, 尿流速, 尿流速檢查, Uroflowmetry, 最大尿流速, Qmax, 尿路動力學, Urodynamic study, 膀胱容積壓力圖, 餘尿, 餘尿量, Post-void residual, PVR, 顯影劑, 碘過敏, 顯影劑腎病變]
 dzTags: [腎臟疾病, 尿道阻塞]
 system: renal

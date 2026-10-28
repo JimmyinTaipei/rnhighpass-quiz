@@ -1,6 +1,6 @@
 ---
 title: 內分泌系統總論：激素、內分泌腺、回饋與松果腺
-subtitle: Endocrine system overview — hormones, glands, feedback, pineal gland, gonads and placenta
+subtitle: Endocrine system overview
 aliases: [內分泌系統, 內分泌腺, Endocrine system, 激素, 荷爾蒙, Hormone, 外分泌腺, 胜肽類激素, 蛋白質激素, 醣蛋白激素, 胺類激素, 類固醇激素, Steroid hormone, 膽固醇衍生物, 水溶性激素, 脂溶性激素, 膜受體, 核受體, 第二訊息傳遞物, cAMP, IP3, 酪胺酸激酶受體, 負回饋, 正回饋, 前饋, Feedforward, 松果腺, 松果體, Pineal gland, 褪黑激素, Melatonin, 腦砂, 心房利鈉胜肽, ANP, 紅血球生成素, 瘦素, 胸腺素, 萊氏細胞, Leydig cell, 塞氏細胞, 賽氏細胞, Sertoli cell, 抑制素, Inhibin, 雙氫睪固酮, DHT, 5α 還原酶, 芳香環轉化酶, 芳香化酶, Aromatase, 人類絨毛膜促性腺激素, hCG, 人類胎盤泌乳素, hPL, 雄性素不敏感症, 更年期, 熱潮紅]
 dzTags: [更年期症候群, 雄性素不敏感症]
 system: endocrine

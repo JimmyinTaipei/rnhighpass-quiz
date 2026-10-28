@@ -1,6 +1,6 @@
 ---
 title: 譫妄
-subtitle: Delirium（急性腦衰竭：注意力與意識障礙、波動病程、病因與誘因、CAM 評估、與失智和憂鬱的鑑別、預防與護理）
+subtitle: Delirium
 aliases: [譫妄, 譫妄症, 急性混亂, 急性意識混亂, 急性腦症候群, 急性腦衰竭, Delirium, Acute confusional state, 加護病房症候群, ICU 譫妄, ICU psychosis, 術後譫妄, 過動型譫妄, 活動低下型譫妄, 混合型譫妄, Hyperactive delirium, Hypoactive delirium, CAM, Confusion Assessment Method, CAM-ICU, 視幻覺, 錯覺, 感覺剝奪, 感覺超載, 拔管, 身體約束]
 dzTags: [譫妄]
 system: psychiatric

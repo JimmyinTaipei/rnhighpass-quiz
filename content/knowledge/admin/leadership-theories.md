@@ -1,6 +1,6 @@
 ---
 title: 領導理論：特質、行為、情境與現代領導
-subtitle: Leadership theories（管理方格、情境領導 Hersey-Blanchard、Fiedler 權變、路徑—目標、交易型與轉換型領導）
+subtitle: Leadership theories
 aliases: [領導, 領導理論, 領導概念, 領導特質理論, 偉人理論, 行為理論, 管理方格, Managerial Grid, Blake, Mouton, 無為型, 貧乏型, 鄉村俱樂部, 懷柔型, 業績中心型, 職責管理, 中庸型, 團隊型, 理想型, 工作中心式, 員工中心式, 兩構面理論, 關懷, 定規, 連續構面理論, 情勢理論, 權變理論, Fiedler, 費德勒, 情境領導, Hersey, Blanchard, 告知型, 推銷型, 參與型, 授權型, 成熟度, 路徑目標, Path-goal, House, 指導式, 支援式, 成就導向, 現代領導, 交易型領導, 轉換型領導, 魅力型領導, 分享型領導, 柯林斯, 第五級領導者]
 admTags: [管理方格理論, 情境領導(Hersey-Blanchard), 路徑目標理論, Fiedler權變領導, 轉換型與交易型領導, 權變理論, 賦權]
 system: administration

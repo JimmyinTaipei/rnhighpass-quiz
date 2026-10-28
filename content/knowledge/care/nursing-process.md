@@ -1,6 +1,6 @@
 ---
 title: 護理過程：評估、診斷、計畫、執行與評值
-subtitle: Nursing process — characteristics and functions, nursing vs medical process, subjective vs objective data and primary vs secondary sources, assessment frameworks (Gordon, NANDA-I), PES nursing diagnosis and writing rules, prioritizing (Maslow), goal types and criteria, independent/dependent/interdependent interventions, implementation and evaluation
+subtitle: Nursing process
 aliases: [護理過程, Nursing process, 問題解決法, 護理評估, Nursing assessment, 主觀資料, Subjective data, 客觀資料, Objective data, 初級資料來源, 第一手資料, Primary source, 次級資料來源, Secondary source, 功能性健康型態, Gordon 十一項功能性健康型態, NANDA-I, 分類型態 II, 護理診斷, Nursing diagnosis, PES, P.E.S., 健康問題, 相關因素, 定義特徵, 鑑定性特徵, 問題焦點性護理診斷, 潛在危險性護理診斷, 健康促進性護理診斷, 增進的準備度, 護理計畫, Nursing plan, 優先順序, 馬斯洛, Maslow, 護理目標, 短程目標, 長程目標, 過程目標, 成果目標, 認知目標, 情意目標, 技能目標, 獨立性護理功能, 非獨立性護理功能, 相依性護理功能, 護理處方, 治療性護理措施, 預防性護理措施, 護理執行, Implementation, 護理評值, Nursing evaluation, 護理計畫表單]
 system: fundamentals
 group: nursing-process-communication

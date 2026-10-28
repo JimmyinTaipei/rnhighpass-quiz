@@ -1,6 +1,6 @@
 ---
 title: T 淋巴球與細胞性免疫
-subtitle: T lymphocytes and cell-mediated immunity（胸腺發育、MHC 與抗原呈現、T 細胞活化、Th 亞群、細胞激素、CTL、記憶）
+subtitle: T lymphocytes and cell-mediated immunity
 aliases: [T 細胞, T細胞, T 淋巴球, T淋巴球, T cell, T lymphocyte, 細胞性免疫, 細胞媒介免疫, Cell-mediated immunity, 輔助型 T 細胞, 輔助性 T 細胞, Helper T cell, CD4, CD4 T 細胞, Th 細胞, Th1, TH1, Th2, TH2, Th17, TH17, Tfh, 濾泡輔助 T 細胞, Treg, 調節型 T 細胞, 調節性 T 細胞, Regulatory T cell, FOXP3, 細胞毒殺性 T 細胞, 毒殺 T 細胞, 毒殺性 T 細胞, Cytotoxic T cell, CTL, CD8, CD8 T 細胞, T 細胞受體, TCR, CD3, 主要組織相容性複合體, MHC, MHC class I, MHC class II, 第一類 MHC, 第二類 MHC, 抗原呈現, 抗原處理, 抗原呈現細胞, APC, 協同刺激, CD28, B7, CD80, CD86, CTLA-4, PD-1, PD-L1, 免疫檢查點, 正向選擇, 負向選擇, 中樞耐受, 周邊耐受, Anergy, 細胞激素, Cytokine, 介白素, Interleukin, IL-2, IL-4, IL-5, IL-12, IFN-γ, 超抗原, Superantigen, 記憶 T 細胞, Memory T cell, 穿孔素, Perforin, Granzyme, 顆粒酶]
 dzTags: []
 system: hematology-immunology

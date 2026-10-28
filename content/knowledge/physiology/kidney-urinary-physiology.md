@@ -1,6 +1,6 @@
 ---
 title: 腎臟與泌尿道：構造、尿液形成與排尿
-subtitle: Kidney and urinary tract — anatomy, nephron function, urine concentration, renal hormones and micturition
+subtitle: Kidney and urinary tract
 aliases: [腎臟, Kidney, 泌尿系統, Urinary system, 腎元, Nephron, 腎小體, Renal corpuscle, 腎絲球, Glomerulus, 鮑氏囊, Bowman capsule, 足細胞, Podocyte, 過濾膜, 過濾屏障, 近曲小管, Proximal convoluted tubule, 亨利氏環, 亨氏彎管, Loop of Henle, 遠曲小管, Distal convoluted tubule, 集尿管, Collecting duct, 近腎絲球器, 近腎絲球細胞, Juxtaglomerular cell, 緻密斑, Macula densa, 腎皮質, 腎髓質, 腎錐體, 腎柱, 腎盞, 腎盂, 腎門, 腎絲球過濾率, GFR, 過濾, 再吸收, 分泌, 最大運輸量, Tm, 腎糖閾, 清除率, Clearance, 菊糖, PAH, 逆流倍增, 逆流交換, 直血管, Vasa recta, 尿液濃縮, 水通道, Aquaporin, 紅血球生成素, Erythropoietin, EPO, 活性維生素 D, 1α-羥化酶, 輸尿管, 輸尿管狹窄, 膀胱, 逼尿肌, 膀胱三角, 尿道, 尿道內括約肌, 尿道外括約肌, 排尿反射, 排尿中樞, 骨盆內臟神經, 陰部神經, 男性尿道, 前列腺段尿道, 膜部尿道, 海綿體部尿道, 妊娠腎臟變化, 新生兒腎功能, 老年腎功能]
 dzTags: [糖尿]
 system: renal

@@ -1,6 +1,6 @@
 ---
 title: 環境治療與精神復健機構
-subtitle: Milieu therapy and psychiatric rehabilitation settings（治療性環境、現實導向、態度治療、日間留院、康復之家、庇護性工廠、活動治療）
+subtitle: Milieu therapy and psychiatric rehabilitation settings
 aliases: [環境治療, 治療性環境, 治療性社區, Milieu therapy, Therapeutic community, 環境治療功能, 保護, 支持, 結構, 使參與, 肯定, Containment, 生活討論會, 病友會, 住院生活作息表, 現實導向, Reality orientation, 時鐘, 月曆, 保護室, 態度治療, Attitude therapy, 門寧格, Menninger, 主動友善, 被動友善, 就事論事, Matter-of-fact, 堅定溫和, 日間留院, 日間住院, 日間病房, 康復之家, 中途之家, 日間型精神復健機構, 住宿型精神復健機構, 精神護理之家, 慢性病房, 庇護性工廠, 庇護性工作, 支持性就業, 職業復健, 社區精神復健, 精神復健, 活動治療, 職能治療, 娛樂治療, 藝術治療, 音樂治療]
 dzTags: []
 system: psychiatric

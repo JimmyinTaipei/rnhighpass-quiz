@@ -1,6 +1,6 @@
 ---
 title: 癲癇
-subtitle: Epilepsy and seizures — classification, tonic-clonic seizures, status epilepticus, first aid and nursing
+subtitle: Epilepsy and seizures
 aliases: [癲癇, 癲癇症, Epilepsy, 發作, 癲癇發作, Seizure, 痙攣, 抽搐, Convulsion, 全身強直陣攣發作, 強直陣攣型癲癇, Tonic-clonic seizure, 大發作, Grand mal, 失神發作, 小發作, Absence seizure, Petit mal, 局部發作, 部分發作, 複雜性部分發作, 單純性部分發作, Focal seizure, 顳葉癲癇, 肌躍發作, Myoclonic seizure, 失張力發作, 先兆, Aura, 發作後期, Postictal, 癲癇重積狀態, 重積性癲癇, Status epilepticus, 癲癇急救, 生酮飲食, Ketogenic diet, 難治型癲癇, 頑固型癲癇]
 dzTags: [癲癇, 癲癇重積狀態, 抽搐]
 system: neuro

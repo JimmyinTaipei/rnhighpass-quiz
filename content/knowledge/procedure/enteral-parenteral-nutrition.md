@@ -1,6 +1,6 @@
 ---
 title: 管灌與靜脈營養：鼻胃管置入、灌食、照護與 TPN
-subtitle: Enteral and parenteral nutrition — feeding routes, nasogastric tube insertion and placement verification, bolus, intermittent and continuous feeding, gastric residual, complications, NG tube care and removal, pediatric tube feeding, TPN and PPN
+subtitle: Enteral and parenteral nutrition
 aliases: [管灌, 管灌飲食, 管灌餵食, Tube feeding, Enteral nutrition, 腸道營養, 鼻胃管, Nasogastric tube, NG tube, NG feeding, 鼻胃管灌食, 口胃管, Orogastric tube, 胃造瘻, PEG, 空腸造瘻, 鼻腸管, NEX, 鼻尖耳垂劍突, 鼻胃管位置確認, 反抽, 胃殘餘量, Gastric residual volume, pH 試紙, 批式灌食, Bolus feeding, 間歇性灌食, 連續性灌食, 灌食幫浦, 管灌腹瀉, 吸入性肺炎, 鼻胃管護理, 鼻胃管拔除, 靜脈營養, Parenteral nutrition, 全靜脈營養, 中央靜脈營養, TPN, Total parenteral nutrition, 周邊靜脈營養, PPN, 脂肪乳劑, 空氣栓塞, 早產兒灌食]
 dzTags: [胃殘留量過多, 吸入性肺炎, 短腸症候群]
 system: fundamentals

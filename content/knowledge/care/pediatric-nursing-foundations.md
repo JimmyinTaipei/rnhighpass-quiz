@@ -1,6 +1,6 @@
 ---
 title: 兒科護理概論
-subtitle: Foundations of pediatric nursing — the scope and age range of pediatric care, roles and functions of the pediatric nurse, family-centered care (enabling and empowerment, partnership), atraumatic care, the nursing process in children, and child health and welfare policy in Taiwan
+subtitle: Foundations of pediatric nursing
 aliases: [兒科護理概論, 兒科護理, Pediatric nursing, 兒科護理人員的角色, 兒科護理師角色, 預防保健照護者, 兒童代言人, 兒科專科護理師, 以家庭為中心的照護, 以家庭為中心, Family-centered care, FCC, 賦權, 賦能, 增能, Empowerment, Enabling, 增強能力, 夥伴關係, Partnership, 無創傷性照護, Atraumatic care, 兒童及少年福利與權益保障法, 兒少法, 兒少權法, 2025 衛生福利政策白皮書, 少子化]
 summary: |
   兒科護理的對象是新生兒到青少年（兒少法：未滿 18 歲），照顧身、心、社會的整體健康，以家庭為照護單位

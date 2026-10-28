@@ -1,6 +1,6 @@
 ---
 title: 十二對腦神經
-subtitle: Cranial nerves I–XII（功能、出腦位置、檢查方法、受損表現與腦幹反射）
+subtitle: Cranial nerves I–XII
 aliases: [腦神經, Cranial nerves, 十二對腦神經, 嗅神經, Olfactory nerve, 視神經, Optic nerve, 動眼神經, Oculomotor nerve, 滑車神經, Trochlear nerve, 三叉神經, Trigeminal nerve, 外展神經, 外旋神經, Abducens nerve, 顏面神經, Facial nerve, 前庭耳蝸神經, 聽神經, Vestibulocochlear nerve, 舌咽神經, Glossopharyngeal nerve, 迷走神經, Vagus nerve, 副神經, Accessory nerve, 舌下神經, Hypoglossal nerve, 喉返神經, Recurrent laryngeal nerve, 眼外肌, 上斜肌, 外直肌, 複視, Diplopia, 瞳孔對光反射, 角膜反射, 頭眼反射, 娃娃眼, 前庭動眼反射, 冰水試驗, 作嘔反射, 咳嗽反射, 腦幹反射, 耳下腺, 腮腺, 下頷下腺, 淚腺, 舌乳頭, 絲狀乳頭, 蕈狀乳頭, 輪廓狀乳頭, 味蕾, 頸動脈竇, 頸動脈體, 主動脈體, 吞嚥, 聲帶]
 dzTags: []
 system: neuro

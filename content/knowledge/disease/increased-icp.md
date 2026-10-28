@@ -1,6 +1,6 @@
 ---
 title: 顱內壓升高
-subtitle: Increased intracranial pressure(IICP)— cerebral edema, Cushing's triad, herniation and management
+subtitle: Increased intracranial pressure(IICP)
 aliases: [顱內壓升高, 顱內壓上升, 顱內壓增高, 腦壓升高, 腦壓過高, IICP, ICP, Increased intracranial pressure, Intracranial hypertension, 腦水腫, Cerebral edema, 血管性腦水腫, 細胞毒性腦水腫, 腦灌流壓, CPP, Cerebral perfusion pressure, 庫欣氏三徵, 庫欣氏反應, Cushing's triad, Cushing reflex, 腦疝脫, 腦疝, Herniation, 天幕疝脫, 鉤回疝脫, Uncal herniation, 小腦扁桃體疝脫, 枕骨大孔疝脫, Monro-Kellie, 降腦壓藥物, 降腦壓用藥, Mannitol, 甘露醇, Glycerol, 高張食鹽水, 3% saline, 回躍現象, Rebound, 過度換氣, 巴比妥昏迷, Barbiturate coma, 顱骨切除術, Decompressive craniectomy, 顱內調適能力降低, 視乳突水腫, Papilledema, 噴射狀嘔吐]
 dzTags: [顱內壓升高, 腦水腫, 腦疝脫]
 system: neuro

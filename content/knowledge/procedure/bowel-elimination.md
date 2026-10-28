@@ -1,6 +1,6 @@
 ---
 title: 腸道排泄：糞便評估、便秘、腹瀉、失禁與灌腸
-subtitle: Bowel elimination — colon motility and defecation reflex, stool characteristics, factors, constipation, fecal impaction, diarrhea, bowel incontinence and training, enema types, volumes, temperatures, heights, tube sizes and depths, colonic irrigation, stoma sites
+subtitle: Bowel elimination
 aliases: [腸道排泄, 排便, Bowel elimination, Defecation, 結腸袋攪拌運動, Haustral churning, 質塊運動, 大蠕動, Mass movement, 胃結腸反射, Gastrocolic reflex, 十二指腸結腸反射, 排便反射, 伐氏操作, 伐耳沙伐氏操作, Valsalva maneuver, 糞便性狀, 灰白色便, 陶土色便, 黑便, 柏油便, 鉛筆狀糞便, 便秘, 便祕, Constipation, 感受性便秘, 糞便嵌塞, Fecal impaction, 指挖, 腹瀉, Diarrhea, 排便失禁, 大便失禁, Bowel incontinence, 排便訓練, 灌腸, Enema, 大量灌腸, 小量灌腸, 清潔灌腸, Cleansing enema, 肥皂水灌腸, 保留灌腸, Retention enema, 非保留灌腸, 甘油灌腸, 甘油球, 驅風灌腸, 收斂灌腸, 安撫灌腸, 驅蟲灌腸, 營養灌腸, 鎮靜劑灌腸, 鋇劑灌腸, 意福灌腸液, 可棄式灌腸器, 肛管, 灌腸筒, 結腸灌洗, Colonic irrigation, 腸造口位置, 迴腸造口, 結腸造口, 大腸鏡檢查準備]
 dzTags: [便秘, 糞便嵌塞, 腹瀉, 大便失禁, 腸道痙攣, 黑便]
 system: fundamentals

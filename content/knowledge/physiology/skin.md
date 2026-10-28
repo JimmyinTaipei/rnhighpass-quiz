@@ -1,6 +1,6 @@
 ---
 title: 皮膚的構造與功能
-subtitle: Integumentary system — epidermis layers and cells (keratinocyte, melanocyte, Langerhans cell, Merkel cell), dermis (papillary and reticular layers), hypodermis, sensory receptors, hair, nails, sebaceous, eccrine and apocrine glands, and skin functions
+subtitle: Integumentary system
 aliases: [皮膚系統, 皮膚, Integumentary system, Skin, 表皮, Epidermis, 真皮, Dermis, 皮下組織, Hypodermis, Subcutaneous tissue, 角質層, Stratum corneum, 透明層, Stratum lucidum, 顆粒層, Stratum granulosum, 棘狀層, 棘細胞層, Stratum spinosum, 基底層, 生發層, Stratum basale, 角質細胞, Keratinocyte, 黑色素細胞, Melanocyte, 黑色素, Melanin, 蘭氏細胞, 蘭格漢氏細胞, Langerhans cell, 牟克耳氏細胞, 梅克爾細胞, Merkel cell, 乳頭層, Papillary layer, 網狀層, Reticular layer, 膠原纖維, 彈性纖維, 纖維母細胞, 巴齊尼小體, 環層小體, Pacinian corpuscle, 梅斯納小體, 觸覺小體, Meissner corpuscle, 毛髮, 毛囊, Hair follicle, 豎毛肌, 指甲, 皮脂腺, Sebaceous gland, 全泌腺, 汗腺, 外泌汗腺, 小汗腺, Eccrine gland, 頂漿汗腺, 頂漿腺, 大汗腺, Apocrine gland, 耵聹腺, Ceruminous gland, 體臭, 厚皮膚, 薄皮膚, 皮膚的功能, 皮膚老化]
 summary: |
   皮膚分表皮（角質化複層鱗狀上皮、沒有血管）、真皮（結締組織、血管與神經）與皮下組織（脂肪）

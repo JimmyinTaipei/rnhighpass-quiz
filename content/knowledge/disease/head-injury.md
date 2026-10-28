@@ -1,6 +1,6 @@
 ---
 title: 頭部外傷
-subtitle: Traumatic brain injury — skull fractures, concussion, contusion, epidural and subdural hematoma
+subtitle: Traumatic brain injury
 aliases: [頭部外傷, 頭部創傷, 頭部受傷, 腦外傷, 創傷性腦損傷, Traumatic brain injury, TBI, Head injury, 顱骨骨折, 線狀骨折, 凹陷性骨折, 顱底骨折, 顱底骨骨折, Basilar skull fracture, 浣熊眼, 熊貓眼, Raccoon eyes, 巴特爾氏徵象, Battle sign, 鼓室積血, Hemotympanum, 腦脊髓液鼻漏, 腦脊髓液耳漏, 鼻漏, 耳漏, Rhinorrhea, Otorrhea, 光暈徵象, 暈輪徵, Halo sign, 腦脊髓液瘻管, 腦震盪, Concussion, 腦震盪症候群, 腦震盪後症候群, 創傷後症候群, 腦挫傷, Contusion, 瀰漫性軸突損傷, Diffuse axonal injury, 硬腦膜上出血, 硬膜上出血, 硬腦膜外血腫, Epidural hematoma, 清醒期, Lucid interval, 腦膜中動脈, 硬腦膜下出血, 硬膜下出血, 硬腦膜下血腫, Subdural hematoma, 急性硬膜下出血, 慢性硬膜下出血, 橋靜脈, 顱骨鑽孔術, Burr hole, 外傷後癲癇]
 dzTags: [頭部外傷, 顱底骨折, 硬腦膜上出血, 硬膜下出血, 慢性硬膜下出血, 腦震盪]
 system: neuro

@@ -1,6 +1,6 @@
 ---
 title: 衝突處理與組織變革管理
-subtitle: Conflict management and organizational change（衝突類型與原因、衝突過程、Thomas 五種處理行為、Douglass 模式、Lewin 解凍—改變—再凍結）
+subtitle: Conflict management and organizational change
 aliases: [危機管理, 危機處理, 危機, 挫折反應, 攻擊反應, 退行, 固著, 衝突, 衝突處理, 衝突管理, 衝突類型, 個人內在衝突, 雙趨衝突, 雙避衝突, 趨避衝突, 任務衝突, 關係衝突, 程序衝突, 團體間衝突, 衝突原因, Daft, 衝突過程, 潛在對立, 認知與個人化, 意圖, 行為, 結果, 建設性衝突, 破壞性衝突, 功能性衝突, Thomas, Thomas-Kilmann, 逃避, 迴避, 競爭, 支配, 順從, 妥協, 合作, 整合, 雙贏, Douglass, 組織變革, 變革, 變革抗拒, Lewin, 解凍, 再凍結, 改變推動者, Change agent, 改變標的, Change target]
 admTags: [衝突的類型與階段, 衝突處理策略, Thomas衝突處理模式, 變革管理與抗拒, Lewin變革三階段, 危機管理, 職業倦怠與壓力]
 system: administration

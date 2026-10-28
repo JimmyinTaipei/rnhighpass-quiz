@@ -1,6 +1,6 @@
 ---
 title: 產後護理
-subtitle: Postpartum nursing care — admission and BUBBLE-HE assessment, fundal and lochia checks, vital-sign schedule and first ambulation, bladder and bowel care, nutrition, rest and edema, postpartum exercises by day, perineal care (REEDA, ice then sitz bath), uterine care and afterpain relief, doing the month (zuo yuezi) and cultural care, cesarean recovery, resuming sex and postpartum contraception, and discharge teaching
+subtitle: Postpartum nursing care
 aliases: [產後護理, 產後照護, Postpartum care, 產後評估, BUBBLE-HE, BUBBLEHE, 產後護理評估, 子宮底評估, 子宮按摩, 產後生命徵象測量, 產後第一次下床, 姿位性低血壓, 產後解尿, 產後誘尿, 產後尿瀦留護理, 產後導尿, 產後便秘, 產後痔瘡, 產後營養, 產後飲食, 產後水腫, 產後休息, 產後運動, 凱格爾運動, 骨盆搖擺運動, 胸部運動, 頸部運動, 腿部運動, 膝胸臥式, 子宮收縮運動, 仰臥起坐, 會陰護理, 會陰沖洗, REEDA, 會陰冰敷, 坐浴, 溫水坐浴, 烤燈, 產後痛護理, 坐月子, 做月子, Doing the month, 麻油雞, 生化湯, 月子餐, 產後護理之家, 剖腹產護理, 剖腹產術後, Cesarean care, 剖腹產後腹脹, 剖腹產後飲食, 產後性生活, 產後避孕, 哺乳期避孕, 泌乳無月經法, LAM, 產後裝避孕器, 產後檢查, 出院衛教]
 dzTags: [產後照護, 剖腹產, 會陰傷口]
 system: obstetrics

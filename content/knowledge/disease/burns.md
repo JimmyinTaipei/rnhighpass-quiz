@@ -1,6 +1,6 @@
 ---
 title: 燒傷
-subtitle: Burns — burn depth, rule of nines and Lund-Browder, ABA severity classification, burn shock pathophysiology, first aid, chemical, electrical and inhalation injury, fluid resuscitation, wound care, hydrotherapy, escharotomy, skin grafts, hyperbaric oxygen, antideformity positioning, pressure garments, and pediatric burns
+subtitle: Burns
 aliases: [燒傷, 燙傷, 燒燙傷, Burn, Burns, 熱燒傷, Thermal burn, 火焰燒傷, 燒傷深度, 一度燒傷, 二度燒傷, 淺二度燒傷, 深二度燒傷, 三度燒傷, 四度燒傷, 表淺燒傷, 部分皮層燒傷, Partial-thickness burn, 全皮層燒傷, Full-thickness burn, 燒傷面積, 九法則, 九的法則, 九分法, Rule of nines, 嬰兒九分法, 蘭德布諾得, Lund-Browder, 手掌法, 總體表面積, TBSA, 燒傷嚴重度, 美國燒傷協會, ABA, 燒傷休克, Burn shock, 急救期, 休克期, 急性期, 復健期, 沖脫泡蓋送, 化學性灼傷, 化學燒傷, Chemical burn, 酸灼傷, 鹼灼傷, 電燒傷, 電擊傷, Electrical burn, 交流電, 直流電, 肌球蛋白尿, 帕克蘭公式, Parkland formula, 液體復甦, Fluid resuscitation, 焦痂, Eschar, 焦痂切開術, Escharotomy, 筋膜切開術, 環形燒傷, Circumferential burn, 擴創術, 清創, 水療法, Hydrotherapy, 植皮, Skin graft, 自體移植, Autograft, 異體移植, Allograft, 異種移植, Xenograft, 豬皮, 生物性敷料, 供皮區, Donor site, 受皮區, 分層皮膚移植, 全層皮膚移植, 網狀植皮, 高壓氧, Hyperbaric oxygen, 抗攣縮姿位, 治療性姿位, 攣縮, Contracture, 增生性疤痕, 肥厚性瘢痕, Hypertrophic scar, 壓力衣, 彈性衣, Pressure garment, 疤痕按摩, 磺胺嘧啶銀, Silver sulfadiazine, Mafenide, 兒童燒燙傷]
 dzTags: [燒傷, 化學性灼傷, 電燒傷]
 summary: |

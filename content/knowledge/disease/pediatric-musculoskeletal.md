@@ -1,6 +1,6 @@
 ---
 title: 兒童骨骼肌肉疾病
-subtitle: Pediatric musculoskeletal disorders — developmental dysplasia of the hip (Ortolani, Barlow, Galeazzi, Pavlik harness, Bryant traction, spica cast), clubfoot, scoliosis (Adams test, Cobb angle, bracing), flat foot, growing pains, juvenile idiopathic arthritis, juvenile dermatomyositis
+subtitle: Pediatric musculoskeletal disorders
 aliases: [兒童骨骼肌肉疾病, 發展性髖關節發育不良, 先天性髖關節脫臼, 髖關節發育不良, Developmental dysplasia of the hip, DDH, 歐特蘭尼徵象, 歐氏徵象, Ortolani sign, Ortolani maneuver, 巴羅徵象, 巴氏徵象, Barlow sign, Barlow maneuver, 蓋利亞齊徵象, 加利亞齊徵象, Galeazzi sign, 艾利斯徵象, Allis sign, 特倫德倫堡徵象, Trendelenburg sign, 皮膚皺褶不對稱, 帕米利克吊帶, 帕米利克背帶, Pavlik harness, 布萊安特牽引, 布萊安特氏牽引, Bryant traction, 髖部人字形石膏, Spica cast, 馬蹄內翻足, Clubfoot, Talipes equinovarus, Ponseti, 脊柱側彎, Scoliosis, 特發性脊柱側彎, 青少年特發性脊柱側彎, 前彎試驗, Adams forward bend test, 肋骨隆起, Rib hump, Cobb 角, Cobb angle, 背架, Brace, 脊柱融合術, 脊柱後凸, 駝背, Kyphosis, 脊柱前凸, Lordosis, 扁平足, Flat foot, 矯正鞋墊, 生長痛, Growing pains, 幼年特發性關節炎, 幼年型類風濕性關節炎, Juvenile idiopathic arthritis, JIA, 皮肌炎, 幼年皮肌炎, Dermatomyositis, 向陽疹, Heliotrope rash, 高特隆丘疹, Gottron papules, 牽引肘, Nursemaid's elbow]
 dzTags: [發展性髖關節發育不良, 脊柱側彎, 扁平足, 生長痛, 幼年特發性關節炎, 皮肌炎]
 summary: |

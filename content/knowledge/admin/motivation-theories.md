@@ -1,6 +1,6 @@
 ---
 title: 激勵理論：馬斯洛、赫茲伯格、公平理論與激勵技巧
-subtitle: Motivation theories（需求層級、雙因子理論、Jaques 能力—生產力—報酬、公平與期望理論、增強理論、激勵氛圍與懲戒）
+subtitle: Motivation theories
 aliases: [激勵, 激勵理論, 內容理論, 過程理論, 增強理論, 馬斯洛, Maslow, 需求層級, 需求層次, 生理需求, 安全需求, 愛與歸屬, 自尊, 自我實現, 赫茲伯格, Herzberg, 雙因子理論, 二元因素理論, 激勵因素, 保健因素, 維持因素, ERG, Alderfer, 成就動機, McClelland, 期望理論, Vroom, 公平理論, Adams, Equity, 認知評價理論, 目標設定理論, 目標特定理論, Skinner, 工作設計理論, Jaques, 傑克斯, 能力生產力報酬, C-W-P, 工作滿意度, 李克, Likert, 系統四, Marquis, Huston, 激勵氛圍, 激勵技巧, 懲戒, 心理賦權, 移轉策略, 激發策略, 增強策略, 發展策略]
 admTags: [馬斯洛需求層次, 赫茲伯格雙因子理論, 激勵理論總論, 工作滿意度理論(Jaques), 公平理論]
 system: administration

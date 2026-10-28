@@ -113,7 +113,7 @@ chapters:
 ```yaml
 ---
 title: SGLT2 抑制劑
-subtitle: SGLT2 inhibitors(-gliflozin)
+subtitle: SGLT2 inhibitors(-gliflozin)   # 只寫英文名稱(可帶縮寫),不寫內容清單;清單上電腦版接在中文標題右側
 aliases: [SGLT2i, Empagliflozin, Dapagliflozin]
 dzTags: [糖尿病]          # 題庫的 dz: 標籤;疾病頁會反向連到這篇
 admTags: [X理論與Y理論]   # 只有 admin 類型頁用:題庫的 adm: 標籤(護理行政)

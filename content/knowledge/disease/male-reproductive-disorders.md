@@ -1,6 +1,6 @@
 ---
 title: 男性生殖系統疾病
-subtitle: Male reproductive disorders — testicular tumors (seminoma and nonseminomatous germ cell tumors, tumor markers, testicular self-examination), testicular torsion, epididymitis and orchitis, varicocele and hydrocele, adult phimosis and paraphimosis, penile carcinoma and Bowen disease, and ejaculatory and erectile problems
+subtitle: Male reproductive disorders
 aliases: [男性生殖系統疾病, Male reproductive disorders, 睪丸腫瘤, 睪丸癌, Testicular tumor, Testicular cancer, 生殖細胞腫瘤, Germ cell tumor, 精原細胞瘤, 精細胞瘤, Seminoma, 非精原細胞瘤, NSGCT, 胚胎癌, Embryonal carcinoma, 卵黃囊瘤, 卵黃囊腫瘤, Yolk sac tumor, 絨毛膜癌, 絨毛上皮癌, Choriocarcinoma, 畸胎瘤, 睪丸自我檢查, 睪丸扭轉, 精索扭轉, Testicular torsion, 提睪反射, 副睪炎, Epididymitis, 睪丸炎, Orchitis, 腮腺炎睪丸炎, 精索靜脈曲張, Varicocele, 陰囊水腫, 睪丸鞘膜積液, Hydrocele, 包莖, Phimosis, 嵌頓包莖, Paraphimosis, 包皮環切術, 陰莖癌, Penile cancer, 波恩氏病, Bowen disease, 原位鱗狀細胞癌, 逆行性射精, Retrograde ejaculation, 性腺功能低下]
 dzTags: [睪丸腫瘤, 陰莖癌, 波恩氏病, 逆行性射精, 性腺功能低下]
 summary: |

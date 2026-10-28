@@ -1,6 +1,6 @@
 ---
 title: 人類乳突病毒
-subtitle: Human papillomavirus（HPV；子宮頸癌、尖形濕疣、HPV 疫苗）
+subtitle: Human papillomavirus(HPV)
 aliases: [人類乳突病毒, 人類乳頭瘤病毒, 人類乳突狀病毒, 乳突病毒, HPV, Human papillomavirus, HPV-16, HPV-18, 高危險型 HPV, 低危險型 HPV, 尖形濕疣, 尖型濕疣, 菜花, 生殖器疣, Condyloma acuminatum, 空凹細胞, Koilocyte, 疣, HPV 疫苗, 子宮頸癌疫苗, 嘉喜, Gardasil, 保蓓, Cervarix]
 dzTags: [子宮頸癌, 尖形濕疣]
 system: infection

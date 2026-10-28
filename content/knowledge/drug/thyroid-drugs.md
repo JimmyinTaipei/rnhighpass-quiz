@@ -1,6 +1,6 @@
 ---
 title: 甲狀腺用藥：甲狀腺素、抗甲狀腺藥、碘劑與放射性碘
-subtitle: Thyroid drugs — levothyroxine, thionamides (methimazole, propylthiouracil), iodides, radioactive iodine, beta blockers
+subtitle: Thyroid drugs
 aliases: [甲狀腺用藥, 甲狀腺疾病用藥, Thyroid drugs, 甲狀腺素, 甲狀腺素製劑, levothyroxine, L-thyroxine, Eltroxin, liothyronine, T3 製劑, 抗甲狀腺藥, 硫醯胺類, Thionamides, methimazole, Tapazole, carbimazole, propylthiouracil, PTU, 碘劑, 飽和碘化鉀溶液, SSKI, 盧戈氏液, Lugol's solution, 碘化物, Iodides, 放射性碘, ¹³¹I, Radioactive iodine, 顆粒性白血球缺乏, Agranulocytosis, Wolff-Chaikoff 效應, 逸脫現象, amiodarone]
 dzTags: [甲狀腺機能亢進, 甲狀腺功能低下, 甲狀腺風暴]
 system: endocrine

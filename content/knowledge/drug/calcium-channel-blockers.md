@@ -1,6 +1,6 @@
 ---
 title: 鈣離子通道阻斷劑
-subtitle: Calcium channel blockers（CCB;-dipine、verapamil、diltiazem）
+subtitle: Calcium channel blockers(CCB)
 aliases: [CCB, 鈣離子阻斷劑, 鈣離子拮抗劑, 鈣通道阻斷劑, Nifedipine, Amlodipine, Felodipine, Nicardipine, Nimodipine, Verapamil, Diltiazem, Adalat, Norvasc, Isoptin, Herbesser, Perdipine, dipine]
 dzTags: [高血壓, 心絞痛, 心律不整, 妊娠高血壓]
 system: cardiovascular

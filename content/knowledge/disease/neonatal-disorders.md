@@ -1,6 +1,6 @@
 ---
 title: 新生兒常見疾病
-subtitle: Common neonatal disorders — hyperbilirubinemia (physiological versus pathological jaundice, hemolysis from Rh and ABO incompatibility, phototherapy nursing, exchange transfusion, kernicterus), neonatal hypoglycemia and the infant of a diabetic mother, transient tachypnea of the newborn, meconium aspiration syndrome, birth injuries (clavicle fracture, brachial plexus and facial nerve injury), and links to neonatal infection
+subtitle: Common neonatal disorders
 aliases: [新生兒疾病, 高危險新生兒, High-risk newborn, 新生兒黃疸, 新生兒高膽紅素血症, Hyperbilirubinemia, 病理性黃疸, Pathologic jaundice, 核黃疸, Kernicterus, 膽紅素腦病變, 照光治療, 光照療法, Phototherapy, 照光眼罩, 古銅色嬰兒症候群, 換血, Exchange transfusion, 新生兒溶血症, ABO 血型不合, Rh 血型不合, 胎兒水腫, 新生兒低血糖, 糖尿病母親的新生兒, IDM, 新生兒暫時性呼吸急促, 暫時性呼吸過速, TTN, 濕肺症, 胎便吸入症候群, Meconium aspiration syndrome, MAS, 胎便染色羊水, 產傷, 生產損傷, Birth injury, 新生兒鎖骨骨折, 臂神經叢損傷, 爾勃氏麻痺, Erb palsy, 顏面神經麻痺, 新生兒紅血球增多症]
 dzTags: [新生兒黃疸, 新生兒溶血症, 核黃疸, 新生兒低血糖, 胎便吸入症候群, 新生兒暫時性呼吸急促, 臂神經叢損傷]
 system: obstetrics

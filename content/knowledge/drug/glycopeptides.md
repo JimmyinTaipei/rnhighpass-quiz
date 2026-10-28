@@ -1,6 +1,6 @@
 ---
 title: 醣胜肽類與其他抗 MRSA 藥物
-subtitle: Glycopeptides and anti-MRSA agents（vancomycin、teicoplanin、linezolid、daptomycin）
+subtitle: Glycopeptides and anti-MRSA agents
 aliases: [醣胜肽類, 糖肽類, Glycopeptides, 萬古黴素, Vancomycin, Vancocin, Teicoplanin, Targocid, Linezolid, Zyvox, 利奈唑胺, Daptomycin, Cubicin, Telavancin, 紅人症候群, Red man syndrome, 萬古黴素輸注反應, Vancomycin infusion reaction, VIR, 抗 MRSA 藥物]
 dzTags: [細菌感染]
 system: infection

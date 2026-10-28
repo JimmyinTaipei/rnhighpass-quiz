@@ -1,6 +1,6 @@
 ---
 title: 強心劑與升壓劑
-subtitle: Inotropes and vasopressors（dopamine、dobutamine、milrinone、norepinephrine、epinephrine）
+subtitle: Inotropes and vasopressors
 aliases: [強心劑, 升壓劑, 升壓藥, 強心升壓藥物, Inotropes, Vasopressors, Dopamine, Dobutamine, Milrinone, Norepinephrine, Levophed, Epinephrine, Adrenaline, Bosmin, Vasopressin, Levosimendan, PDE3 inhibitor]
 dzTags: [心臟衰竭, 休克, 心因性休克, 低血壓]
 system: cardiovascular

@@ -1,6 +1,6 @@
 ---
 title: 擬交感神經藥物
-subtitle: Adrenergic agonists(sympathomimetics)— catecholamines, α1, α2, β1 and β2 agonists
+subtitle: Adrenergic agonists(sympathomimetics)
 aliases: [擬交感神經藥物, 擬交感神經用藥, 擬交感神經劑, 擬腎上腺素藥物, 交感神經作用劑, 腎上腺素性致效劑, 腎上腺素受體促效劑, Adrenergic agonist, Sympathomimetic, 兒茶酚胺, Catecholamine, 腎上腺素, Epinephrine, Adrenaline, Bosmin, 正腎上腺素, Norepinephrine, Levophed, 多巴胺, Dopamine, Dobutamine, Isoproterenol, Isoprenaline, Ephedrine, 麻黃素, Pseudoephedrine, Phenylephrine, 去氧腎上腺素, Midodrine, Oxymetazoline, 鼻充血解除劑, α1 致效劑, β1 致效劑, β2 致效劑, 乙二型交感神經致效劑, Terbutaline, Salbutamol, Albuterol, Fenoterol, Metaproterenol, Ritodrine, Yutopar, 安胎藥, 瘦肉精, 萊克多巴胺, Ractopamine, Clenbuterol, 受體去敏感化, 快速耐藥性, Tachyphylaxis, 局部麻醉劑併用腎上腺素]
 dzTags: []
 system: neuro

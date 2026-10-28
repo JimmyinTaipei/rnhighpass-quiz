@@ -1,6 +1,6 @@
 ---
 title: 敗血症與敗血性休克
-subtitle: Sepsis and septic shock（Sepsis-3 定義、SIRS 與舊分級、病理生理、1 小時組合照護、護理）
+subtitle: Sepsis and septic shock
 aliases: [敗血症, 敗血病, 菌血症, Sepsis, 敗血性休克, Septic shock, 嚴重敗血症, Severe sepsis, 全身性發炎反應症候群, 系統性炎性反應症候群, SIRS, qSOFA, SOFA, Sepsis-3, 1 小時組合照護, Hour-1 bundle, 早期目標導向治療, EGDT, 分布性休克, 血管性休克, 暖休克, 冷休克]
 dzTags: [敗血症, 敗血性休克, 全身性發炎反應症候群]
 system: infection

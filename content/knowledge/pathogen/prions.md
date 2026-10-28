@@ -1,6 +1,6 @@
 ---
 title: 普利昂蛋白
-subtitle: Prions（庫賈氏病、新型庫賈氏病、狂牛症）
+subtitle: Prions
 aliases: [普利昂, 普利昂蛋白, 普利子, 普利子蛋白, 變性普利昂蛋白, 傳染性蛋白質, 蛋白質感染原, Prion, PrP, 庫賈氏病, Creutzfeldt-Jakob disease, CJD, 新型庫賈氏病, vCJD, 狂牛症, 狂牛病, 牛海綿狀腦病, BSE, 羊搔癢症, Scrapie, 庫魯病, Kuru, 海綿狀腦病變]
 dzTags: [庫賈氏病]
 system: infection

@@ -1,6 +1,6 @@
 ---
 title: 長期照護概論與服務類型
-subtitle: Long-term care（長照定義與 6 個月門檻、服務對象與特性、發展趨勢、需求評估 ADLs／IADLs／修正版柯氏量表／SOF、居家式／社區式／機構住宿式、護理之家與老人福利機構人力、品質指標、遷移壓力）
+subtitle: Long-term care
 aliases: [長期照護, 長期照顧, 長照, Long-term care, LTC, 長期照顧服務法, 長照服務法, 身心失能, 失能, 家庭照顧者, 在地老化, Aging in place, 去機構化, 正式資源, 非正式資源, 巴氏量表, Barthel index, ADLs, 日常生活活動功能量表, IADLs, 工具性日常生活活動功能量表, 修正版柯氏量表, Modified Karnofsky scale, SPMSQ, 簡易心智狀態問卷, CDR, 臨床失智評分量表, MMSE, 多元評估量表, MDAI, 衰弱, SOF, 長照需要等級, 居家式, 社區式, 機構住宿式, 日間照顧, 日間照護, 家庭托顧, 團體家屋, 小規模多機能, 居家服務, 居家護理, 護理之家, 一般護理之家, 精神護理之家, 長期照護型機構, 養護型機構, 失智照顧型機構, 安養機構, 老人福利機構設立標準, 護理機構分類設置標準, 機構品質指標, 約束, 遷移壓力症候群, Relocation stress syndrome, 長期照顧司, 長照十年計畫 1.0]
 system: community
 group: long-term-care

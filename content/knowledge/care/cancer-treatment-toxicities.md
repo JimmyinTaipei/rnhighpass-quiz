@@ -1,6 +1,6 @@
 ---
 title: 癌症治療副作用與腫瘤急症護理
-subtitle: Cancer treatment toxicities and oncologic emergencies（骨髓抑制、口腔黏膜炎、放射性皮膚炎、腫瘤急症）
+subtitle: Cancer treatment toxicities and oncologic emergencies
 aliases: [化療副作用, 放療副作用, 骨髓抑制, Myelosuppression, 嗜中性白血球低下, Neutropenia, 嗜中性白血球低下發燒, Febrile neutropenia, 保護性隔離, 低微生物飲食, 血小板減少, 出血預防, 口腔黏膜炎, 口腔炎, Mucositis, 口乾, 放射性皮膚炎, Radiation dermatitis, 掉髮, 癌因性疲憊, 惡病質, 腫瘤急症, Oncologic emergencies, 腫瘤溶解症候群, Tumor lysis syndrome, TLS, 上腔靜脈症候群, SVC syndrome, 脊髓壓迫, 惡性高血鈣, SIADH, G-CSF, Nystatin, Mycostatin]
 dzTags: [骨髓抑制, 腫瘤溶解症候群, 上腔靜脈症候群, 口腔炎, 放射性皮膚炎, 輻射傷害]
 system: oncology

@@ -1,6 +1,6 @@
 ---
 title: 預防接種
-subtitle: Immunization（疫苗種類、台灣兒童與成人接種時程、禁忌與間隔、給藥途徑、卡介苗、冷運冷藏）
+subtitle: Immunization
 aliases: [預防接種, 疫苗, 疫苗接種, Vaccine, Immunization, 主動免疫, 被動免疫, 活性減毒疫苗, 不活化疫苗, 類毒素, 結合型疫苗, mRNA 疫苗, 接種時程, 兒童預防接種時程, 成人預防接種, 卡介苗, BCG, B 型肝炎疫苗, B 型肝炎免疫球蛋白, HBIG, 五合一疫苗, DTaP-Hib-IPV, DTaP-IPV, Tdap, Td, 結合型肺炎鏈球菌疫苗, PCV13, 水痘疫苗, MMR, 麻疹腮腺炎德國麻疹混合疫苗, 日本腦炎疫苗, 流感疫苗, A 型肝炎疫苗, HPV 疫苗, 帶狀疱疹疫苗, 輪狀病毒疫苗, 接種禁忌, 接種間隔, 冷運冷藏, 冷鏈, 佐劑]
 dzTags: []
 system: infection

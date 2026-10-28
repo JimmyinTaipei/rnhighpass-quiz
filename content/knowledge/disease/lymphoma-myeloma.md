@@ -1,6 +1,6 @@
 ---
 title: 淋巴瘤與多發性骨髓瘤
-subtitle: Lymphoma（Hodgkin 與非何杰金氏）and multiple myeloma
+subtitle: Lymphoma
 aliases: [淋巴瘤, 惡性淋巴瘤, 淋巴癌, Lymphoma, 何杰金氏淋巴瘤, 何杰金氏病, Hodgkin lymphoma, 非何杰金氏淋巴瘤, NHL, 瀰漫性大 B 細胞淋巴瘤, DLBCL, 濾泡性淋巴瘤, 勃氏淋巴瘤, Burkitt lymphoma, MALT 淋巴瘤, Reed-Sternberg 細胞, B 症狀, Ann Arbor 分期, 國際預後指標, IPI, 多發性骨髓瘤, Multiple myeloma, 漿細胞, M 蛋白, Bence Jones 蛋白, 類澱粉沉積症]
 dzTags: [淋巴瘤, 何杰金氏淋巴瘤, 非何杰金氏淋巴瘤, 多發性骨髓瘤, 胃MALT淋巴瘤]
 system: oncology

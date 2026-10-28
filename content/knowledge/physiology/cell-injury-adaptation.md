@@ -1,6 +1,6 @@
 ---
 title: 細胞適應、細胞傷害與細胞死亡
-subtitle: Cellular adaptation, cell injury and cell death — hypertrophy, hyperplasia, atrophy, metaplasia, reversible injury, necrosis, apoptosis
+subtitle: Cellular adaptation, cell injury and cell death
 aliases: [細胞適應, Cellular adaptation, 肥大, Hypertrophy, 增生, Hyperplasia, 萎縮, Atrophy, 廢用性萎縮, 化生, Metaplasia, 腸化生, 異生, Dysplasia, 細胞傷害, 細胞損傷, Cell injury, 可逆性傷害, 不可逆性傷害, 細胞腫脹, 水腫變性, Hydropic change, 脂肪變性, Fatty change, 細胞內堆積, 脂褐質, 褐脂質, Lipofuscin, 耗損性色素, 褐色萎縮, 血鐵質, Hemosiderin, 病理性鈣化, 營養不良性鈣化, Dystrophic calcification, 轉移性鈣化, Metastatic calcification, 細胞死亡, 壞死, Necrosis, 核濃縮, Pyknosis, 核碎裂, 核破裂, Karyorrhexis, 核溶解, Karyolysis, 凝固性壞死, 凝固樣壞死, Coagulative necrosis, 液化性壞死, 液化壞死, Liquefactive necrosis, 乾酪性壞死, Caseous necrosis, 脂肪壞死, Fat necrosis, 類纖維蛋白樣壞死, Fibrinoid necrosis, 壞疽, Gangrene, 凋亡, 細胞凋亡, Apoptosis, 程式性細胞死亡, 凋亡小體, 不穩定細胞, 穩定細胞, 永久細胞, 屍僵, Rigor mortis]
 dzTags: [細胞傷害, 細胞凋亡, 壞死, 細胞適應, 營養不良性鈣化, 轉移性鈣化, 肌肉萎縮]
 system: general-pathology

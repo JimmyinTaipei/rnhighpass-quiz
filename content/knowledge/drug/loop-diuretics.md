@@ -1,6 +1,6 @@
 ---
 title: 亨利氏環利尿劑
-subtitle: Loop diuretics（高效能利尿劑）
+subtitle: Loop diuretics
 aliases: [Loop diuretics, 環利尿劑, 環狀利尿劑, 亨利氏環利尿劑, Furosemide, Lasix, Bumetanide, Torsemide, Ethacrynic acid, 排鉀利尿劑]
 dzTags: [心臟衰竭, 急性肺水腫, 水腫, 腹水, 高血鈣, 急性腎衰竭]
 system: renal

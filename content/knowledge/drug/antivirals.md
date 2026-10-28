@@ -1,6 +1,6 @@
 ---
 title: 抗病毒藥物
-subtitle: Antiviral drugs（抗疱疹、抗流感、抗肝炎、抗 COVID-19 與干擾素；抗愛滋藥見愛滋病頁）
+subtitle: Antiviral drugs
 aliases: [抗病毒藥, Antivirals, Acyclovir, Zovirax, 熱威樂素, Valacyclovir, Valtrex, Famciclovir, Ganciclovir, Valganciclovir, Foscarnet, Cidofovir, Oseltamivir, Tamiflu, 克流感, Zanamivir, Relenza, 瑞樂沙, Peramivir, Baloxavir, Xofluza, 紓伏效, Amantadine, 神經胺酸酶抑制劑, Neuraminidase inhibitor, Ribavirin, Entecavir, Baraclude, Tenofovir, TDF, TAF, Lamivudine, Adefovir, Sofosbuvir, DAA, 直接作用抗病毒藥, 干擾素, Interferon, Peginterferon, Paxlovid, Nirmatrelvir, Molnupiravir, Remdesivir, Palivizumab, Nirsevimab]
 dzTags: [流行性感冒, 帶狀疱疹, 單純疱疹, 水痘, B型肝炎, C型肝炎, 病毒性肝炎, 巨細胞病毒感染]
 system: infection

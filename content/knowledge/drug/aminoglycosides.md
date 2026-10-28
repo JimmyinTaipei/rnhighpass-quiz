@@ -1,6 +1,6 @@
 ---
 title: 胺基配醣體類
-subtitle: Aminoglycosides（gentamicin、amikacin、tobramycin、streptomycin、neomycin）
+subtitle: Aminoglycosides
 aliases: [胺基配醣體, 胺基糖苷類, 胺醣類, Aminoglycosides, Gentamicin, Gentamycin, 見大黴素, Amikacin, Tobramycin, Streptomycin, 鏈黴素, Neomycin, 新黴素, Kanamycin, Plazomicin]
 dzTags: [細菌感染]
 system: infection

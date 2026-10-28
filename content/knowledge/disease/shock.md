@@ -1,6 +1,6 @@
 ---
 title: 休克的處置與護理
-subtitle: Shock — types and how to tell them apart at the bedside, treatment by type (hypovolemic, cardiogenic, obstructive, distributive), fluids and vasoactive drugs, positioning, temperature, monitoring and nursing assessment
+subtitle: Shock
 aliases: [休克, Shock, 休克護理, 休克處置, 低血容積性休克, 低血容積休克, 低血量性休克, Hypovolemic shock, 出血性休克, Hemorrhagic shock, 心因性休克, Cardiogenic shock, 阻塞性休克, Obstructive shock, 分布性休克, 血管性休克, Distributive shock, Vasogenic shock, 神經性休克, 過敏性休克, 敗血性休克, 暖休克, 冷休克, 休克分期, 代償期, 進行期, 漸進期, 不可逆期, 休克指數, Shock index, 被動抬腿, Passive leg raising, 抗休克褲, MAST, 輸液復甦, 晶體液, 大管徑靜脈導管, 3:1 法則, 組織灌流]
 dzTags: [休克, 低血容積性休克, 出血性休克, 心因性休克]
 system: cardiovascular

@@ -1,6 +1,6 @@
 ---
 title: 泌尿道排泄：尿瀦留、誘尿、尿失禁、膀胱訓練與導尿
-subtitle: Urinary elimination — micturition reflex, voiding problems, urinary retention and stimulating voiding, incontinence types and care, UTI prevention, bladder training, intermittent and indwelling catheterization (sizes, materials, depth, balloon, fixation), catheter care, bladder irrigation and instillation
+subtitle: Urinary elimination
 aliases: [泌尿道排泄, 排尿, Urinary elimination, Micturition, 排尿反射, 逼尿肌, 尿道內括約肌, 尿道外括約肌, 多尿, 少尿, 無尿, 閉尿, 頻尿, 排尿困難, 遺尿, 夜尿, 尿瀦留, 尿滯留, Urinary retention, 溢出性尿瀦留, 餘尿, 餘尿量, Residual urine, 誘尿, 尿失禁, Urinary incontinence, 壓力性尿失禁, Stress incontinence, 急迫性尿失禁, Urge incontinence, 失能相關尿失禁, 功能性尿失禁, 凱格爾運動, 凱格爾氏運動, Kegel exercise, 骨盆底肌肉運動, 膀胱訓練, Bladder training, 夾管訓練, 導尿, Catheterization, 單次導尿, 間歇導尿, Intermittent catheterization, 存留導尿, 留置導尿, Indwelling catheter, Foley, 導尿管, 二路導尿管, 三路導尿管, 3 way Foley, 乳膠導尿管, 矽膠導尿管, 導尿管水球, 氣囊, 蓄尿袋, 集尿袋, 導尿管護理, Foley care, 膀胱灌洗, Bladder irrigation, 連續性膀胱灌洗, CBI, 小量膀胱灌洗, 膀胱滴藥, Bladder instillation, 尿液膽紅素]
 dzTags: [尿滯留, 尿失禁, 壓力性尿失禁, 急迫性尿失禁, 排尿障礙]
 system: fundamentals

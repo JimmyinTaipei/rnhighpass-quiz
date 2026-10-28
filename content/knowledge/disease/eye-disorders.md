@@ -1,6 +1,6 @@
 ---
 title: 眼睛疾病：白內障、青光眼、視網膜疾病與點眼技術
-subtitle: Eye disorders — cataract, glaucoma, retinal detachment, diabetic retinopathy, macular degeneration, retinopathy of prematurity, conjunctivitis, childhood vision and eye drops
+subtitle: Eye disorders
 aliases: [眼睛疾病, 眼疾, 眼科疾病, 白內障, Cataract, 老年性白內障, 晶體乳化術, Phacoemulsification, 囊外摘除術, 人工水晶體, IOL, 白瞳, 青光眼, Glaucoma, 隅角開放性青光眼, 開放性青光眼, Open-angle glaucoma, 隅角閉鎖性青光眼, 閉鎖性青光眼, 急性青光眼, Angle-closure glaucoma, 虹視, 管狀視野, 小樑切除術, 雷射虹膜切開術, 視網膜剝離, Retinal detachment, 飛蚊症, 閃光, 鞏膜扣壓術, 玻璃體切除術, 眼內氣體, 糖尿病視網膜病變, Diabetic retinopathy, 增殖性視網膜病變, 黃斑部退化, 黃斑部病變, Age-related macular degeneration, AMD, 阿姆斯勒方格, Amsler grid, 早產兒視網膜病變, Retinopathy of prematurity, ROP, 結膜炎, Conjunctivitis, 紅眼, 斜視, Strabismus, 弱視, Amblyopia, 遮眼治療, 近視保健, 點眼藥, 眼藥水, 眼藥膏, 眼部給藥, Eye drops, OD, OS, OU]
 dzTags: [白內障, 青光眼, 視網膜剝離, 糖尿病視網膜病變, 黃斑部退化, 早產兒視網膜病變, 結膜炎, 斜視, 弱視, 近視]
 system: neuro

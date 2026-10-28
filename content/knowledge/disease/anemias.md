@@ -1,6 +1,6 @@
 ---
 title: 貧血與紅血球疾病
-subtitle: Anemias and red cell disorders — classification by MCV and cause, iron deficiency anemia, megaloblastic anemia (vitamin B12 and folate deficiency, pernicious anemia), aplastic anemia, hemolytic anemias and the care of thalassemia and G6PD deficiency, polycythemia
+subtitle: Anemias and red cell disorders
 aliases: [貧血, Anemia, 貧血分類, 小球性貧血, Microcytic anemia, 大球性貧血, 巨球性貧血, Macrocytic anemia, 正球性貧血, 缺鐵性貧血, Iron deficiency anemia, IDA, 湯匙狀指甲, 匙狀甲, Koilonychia, 舌炎, 口角炎, 異食癖, Pica, 孕婦貧血, 妊娠貧血, 嬰幼兒缺鐵性貧血, 巨母紅血球性貧血, 巨母細胞貧血, Megaloblastic anemia, 維生素 B12 缺乏, Vitamin B12 deficiency, 惡性貧血, Pernicious anemia, 內在因子, Intrinsic factor, 抗內在因子抗體, 席林氏測驗, Schilling test, 葉酸缺乏, 葉酸缺乏性貧血, Folate deficiency anemia, 再生不良性貧血, Aplastic anemia, 全血球減少, Pancytopenia, 范康尼氏貧血, Fanconi anemia, 抗胸腺細胞球蛋白, ATG, ALG, 溶血性貧血, Hemolytic anemia, 自體免疫溶血性貧血, 庫姆氏試驗, Coombs test, 海洋性貧血照護, 地中海型貧血, 排鐵治療, 鐵沉積, 血色素沉著, 青銅色皮膚, 蠶豆症照護, G6PD 缺乏症照護, 鐮刀型貧血危象, 脾臟切除, 紅血球增多症, 紅血球過多症, Polycythemia, 真性紅血球增多症, Polycythemia vera, 次發性紅血球增多症, 放血術, Phlebotomy, 腎性貧血]
 dzTags: [貧血, 缺鐵性貧血, 惡性貧血, 再生不良性貧血, 溶血性貧血, 真性紅血球增多症, 腎性貧血]
 summary: |

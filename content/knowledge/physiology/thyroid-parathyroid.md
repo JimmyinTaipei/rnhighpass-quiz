@@ -1,6 +1,6 @@
 ---
 title: 甲狀腺與副甲狀腺：甲狀腺素合成、作用與鈣磷調節
-subtitle: Thyroid and parathyroid physiology — thyroid hormone synthesis and actions, calcium and phosphate regulation
+subtitle: Thyroid and parathyroid physiology
 aliases: [甲狀腺, Thyroid gland, 副甲狀腺, Parathyroid gland, 峽部, 錐狀葉, 濾泡, 膠體, Colloid, 甲狀腺球蛋白, Thyroglobulin, 濾泡細胞, 濾泡旁細胞, C 細胞, Parafollicular cell, 主細胞, Chief cell, 甲狀腺素, Thyroxine, T4, 三碘甲狀腺素, Triiodothyronine, T3, 逆三碘甲狀腺素, rT3, 單碘酪胺酸, MIT, 雙碘酪胺酸, DIT, 過氧化酶, TPO, 甲狀腺結合球蛋白, TBG, 基礎代謝率, BMR, 碘, 碘缺乏, 呆小症, 克汀症, 降鈣素, Calcitonin, 副甲狀腺素, Parathyroid hormone, PTH, 維生素 D, 骨化三醇, Calcitriol, 1,25-雙羥維生素 D, 1α-羥化酶, 蝕骨細胞, 破骨細胞, 成骨細胞, 血鈣, 血磷, 骨質密度, 假性副甲狀腺功能低下]
 dzTags: []
 system: endocrine

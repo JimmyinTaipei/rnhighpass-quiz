@@ -1,6 +1,6 @@
 ---
 title: 痛風用藥
-subtitle: Gout drugs — colchicine, NSAIDs and steroids for flares; allopurinol, febuxostat and uricosurics for urate lowering
+subtitle: Gout drugs
 aliases: [痛風用藥, 痛風藥物, 抗痛風藥, Gout drugs, 秋水仙素, Colchicine, 降尿酸藥, Urate-lowering therapy, ULT, 黃嘌呤氧化酶抑制劑, Xanthine oxidase inhibitor, Allopurinol, Zyloprim, Febuxostat, Feburic, 促尿酸排泄劑, Uricosuric, Probenecid, Benemid, Benzbromarone, Sulfinpyrazone, Lesinurad, Pegloticase, Rasburicase, HLA-B*5801, 高尿酸血症, 尿酸結石]
 dzTags: []
 system: musculoskeletal

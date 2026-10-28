@@ -1,6 +1,6 @@
 ---
 title: 周邊血管疾病
-subtitle: Peripheral vascular disease — telling arterial from venous problems, peripheral artery disease and intermittent claudication, ankle-brachial index, acute arterial occlusion (6P), Buerger disease, Raynaud phenomenon, aortic aneurysm and dissection, Takayasu arteritis, varicose veins and their tests, chronic venous insufficiency and stasis ulcers, superficial thrombophlebitis and deep vein thrombosis
+subtitle: Peripheral vascular disease
 aliases: [周邊血管疾病, 周圍血管疾病, Peripheral vascular disease, PVD, 周邊動脈疾病, 周邊動脈阻塞疾病, PAD, PAOD, Peripheral artery disease, 動脈硬化阻塞疾病, 間歇性跛行, Intermittent claudication, 休息時疼痛, 踝肱指數, 踝臂指數, ABI, Ankle-brachial index, 抬腿測驗, 灌注測驗, 伯格艾倫運動, Buerger-Allen exercise, 急性動脈阻塞, 6P, 柏格氏病, 伯格氏病, Buerger disease, 血栓閉塞性脈管炎, 血栓閉鎖性血管炎, Thromboangiitis obliterans, 雷諾氏病, 雷諾氏現象, Raynaud, 動脈瘤, Aneurysm, 腹主動脈瘤, AAA, 胸主動脈瘤, 主動脈剝離, 剝離性動脈瘤, 主動脈夾層, Aortic dissection, 假性動脈瘤, 高安氏動脈炎, 無脈症, Takayasu arteritis, 鎖骨下動脈竊血症候群, 胸腔出口症候群, 靜脈曲張, Varicose veins, 逆行性充盈試驗, 特倫德堡試驗, Trendelenburg test, Retrograde filling test, 手壓測驗, Manual compression test, 硬化療法, 靜脈結紮剝除術, Ligation and stripping, 慢性靜脈功能不全, Chronic venous insufficiency, 靜脈鬱滯性潰瘍, 鬱滯性潰瘍, Venous stasis ulcer, 動脈性潰瘍, 彈性襪, 血栓性靜脈炎, 表淺靜脈炎, 深部靜脈血栓, DVT, 霍曼氏徵象, Homan's sign]
 dzTags: [周邊動脈疾病, 柏格氏病, 雷諾氏病, 腹主動脈瘤, 主動脈剝離, 高安氏動脈炎, 血管炎, 靜脈曲張, 慢性靜脈功能不全, 靜脈炎]
 system: cardiovascular

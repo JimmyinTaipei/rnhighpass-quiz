@@ -1,6 +1,6 @@
 ---
 title: 腦下垂體疾病：腺瘤、肢端肥大症、功能低下與經蝶骨手術
-subtitle: Pituitary disorders — adenomas, acromegaly and gigantism, hyperprolactinemia, hypopituitarism, pituitary apoplexy, transsphenoidal surgery
+subtitle: Pituitary disorders
 aliases: [腦下垂體腫瘤, 腦下垂體腺瘤, Pituitary adenoma, 腦下垂體功能亢進, Hyperpituitarism, 泌乳素瘤, Prolactinoma, 高泌乳素血症, 無月經溢乳, 肢端肥大症, Acromegaly, 巨人症, Gigantism, 庫欣氏病, 庫辛氏病, Cushing disease, 腦下垂體功能低下, Hypopituitarism, 席漢氏症候群, Sheehan syndrome, 腦下垂體中風, Pituitary apoplexy, 生長激素缺乏, 侏儒症, 經蝶骨手術, 經蝶竇手術, Transsphenoidal surgery, 腦脊髓液鼻漏, 伽瑪刀, 伽馬刀, Gamma knife, 雙顳側偏盲, octreotide, cabergoline, bromocriptine]
 dzTags: [腦下垂體腫瘤, 肢端肥大症, 巨人症, 腦下垂體中風, 席漢氏症候群, 腦下垂體功能低下, 腦下垂體功能亢進症]
 system: endocrine

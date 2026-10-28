@@ -1,6 +1,6 @@
 ---
 title: 動脈導管與侵入性血壓監測
-subtitle: Arterial line — indications, Allen's test before radial cannulation, transducer set-up and zeroing, reading the arterial waveform and mean arterial pressure, over- and under-damping, blood sampling, nursing care, complications and removal
+subtitle: Arterial line
 aliases: [動脈導管, 動脈留置針, 動脈內導管, 動脈管路, Arterial line, A-line, Art line, Intra-arterial catheter, 侵入性血壓監測, 動脈血壓監測, IBP, Invasive blood pressure, 橈動脈導管, 股動脈導管, 艾倫試驗, 亞倫氏試驗, Allen's test, 改良式艾倫試驗, 壓力轉換器, Transducer, 歸零, Zeroing, 靜脈靜水壓軸, Phlebostatic axis, 加壓袋, 沖洗系統, 動脈波形, 重搏切跡, Dicrotic notch, 過度阻尼, 阻尼不足, Overdamping, Underdamping, 方波測試, Square wave test, 平均動脈壓, MAP]
 system: critical-care
 group: icu-devices

@@ -1,6 +1,6 @@
 ---
 title: 中老年保健與慢性病防治
-subtitle: Health of older adults and chronic disease prevention（人口老化、正常老化、更年期、衰弱評估 Fried／SOF、ICOPE、長者運動、獨居老人、骨質疏鬆的社區防治、慢性病特性、三高與代謝症候群衛教、痛風、慢性病個案管理）
+subtitle: Health of older adults and chronic disease prevention
 aliases: [中老年保健, 老人保健, 老人護理, 社區老人, 人口老化, 正常老化, 老化生理變化, 衰弱, 衰弱症, Frailty, 衰弱前期, Pre-frail, Fried 衰弱表現型, Fried frailty phenotype, SOF 衰弱指標, Study of Osteoporotic Fractures, ICOPE, 長者整合性照護, 長者功能評估, 內在能力, 延緩失能, 長者運動, 肌力訓練, 獨居老人, 在地老化, 骨質疏鬆防治, 骨密度, T 值, T-score, 負重運動, 慢性病, 慢性病特性, 慢性病個案管理, 三高, 高血壓衛教, 高血脂衛教, 代謝症候群, 代謝症候群判定, 高纖飲食, 膽固醇攝取, 痛風衛教, 普林]
 dzTags: [衰弱症, 慢性病]
 system: community

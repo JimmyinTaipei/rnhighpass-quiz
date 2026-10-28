@@ -1,6 +1,6 @@
 ---
 title: 早產兒
-subtitle: The preterm infant — definitions, causes, physical and neuromuscular features, system-by-system immaturity, common complications (respiratory distress syndrome, apnea of prematurity, patent ductus arteriosus, intraventricular hemorrhage, necrotizing enterocolitis, retinopathy of prematurity, bronchopulmonary dysplasia, anemia, jaundice), thermoregulation and incubator care, feeding (gavage, oral-feeding readiness and stress cues), positioning and developmental care, kangaroo care and family support
+subtitle: The preterm infant
 aliases: [早產兒, 早產新生兒, Preterm infant, Premature infant, 早產兒護理, 晚期早產兒, Late preterm, 極早產兒, 超早產兒, 極低出生體重兒, 超低出生體重兒, 早產兒特徵, 早產兒呼吸暫停, Apnea of prematurity, 咖啡因, 早產兒開放性動脈導管, 早產兒腦室內出血, 壞死性腸炎, 壞死性小腸結腸炎, Necrotizing enterocolitis, NEC, 早產兒視網膜病變, ROP, 支氣管肺發育不良, BPD, 早產兒貧血, 早產兒保溫, 保溫箱, 保溫箱濕度, 中性溫度, 塑膠膜覆蓋, 輻射加溫台, 早產兒餵食, 口胃管灌食, 胃管灌食, 胃殘餘量, 經口餵食準備, 餵食壓力線索, Feeding stress cues, 吸吮吞嚥呼吸協調, 早產兒擺位, 築巢, 鳥巢, 發展性照護, Developmental care, 集中護理, 統整化行為, 袋鼠式護理, 袋鼠護理, Kangaroo care, 寧握, 新生兒加護病房, NICU]
 dzTags: [早產兒, 早產兒呼吸暫停, 壞死性腸炎, 支氣管肺發育不良, 早產兒貧血]
 system: obstetrics

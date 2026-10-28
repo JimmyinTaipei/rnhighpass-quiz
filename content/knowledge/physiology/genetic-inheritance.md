@@ -1,6 +1,6 @@
 ---
 title: 遺傳模式與遺傳疾病總覽
-subtitle: Patterns of inheritance — autosomal dominant and recessive, X-linked, mitochondrial, multifactorial; genetic counseling; classification of genetic disorders
+subtitle: Patterns of inheritance
 aliases: [遺傳, 遺傳學, Genetics, 遺傳模式, Mode of inheritance, 遺傳疾病, 遺傳性疾病, Genetic disorder, 基因, 對偶基因, 等位基因, Allele, 同型合子, 異型合子, 基因型, 表現型, 體染色體顯性, Autosomal dominant, AD, 體染色體隱性, Autosomal recessive, AR, 性聯遺傳, X 性聯隱性, X-linked recessive, X 性聯顯性, X-linked dominant, 帶因者, 帶原者, Carrier, 外顯率, Penetrance, 表現度, Expressivity, 基因印記, Genomic imprinting, 預期現象, Anticipation, 三核苷酸重複, 粒線體遺傳, 母系遺傳, Mitochondrial inheritance, 多因子遺傳, 多基因遺傳, Multifactorial inheritance, 再發率, 家族譜系, Pedigree, 近親結婚, 遺傳諮詢, Genetic counseling, 優生保健法, 遺傳性腫瘤症候群]
 dzTags: [遺傳性疾病, 粒線體疾病]
 system: general-pathology

@@ -1,6 +1,6 @@
 ---
 title: 管理理論的演進：古典、新古典與現代理論
-subtitle: Evolution of management theories（Taylor 科學管理、Fayol 管理程序、Weber 官僚、霍桑實驗、X／Y／Z／L 理論、系統與權變理論）
+subtitle: Evolution of management theories
 aliases: [管理理論, 古典理論, 傳統理論, 新古典理論, 修正理論, 行為科學, 近代理論, 現代理論, 系統理論, 權變理論, 科學管理, Taylor, 泰勒, 管理程序學派, Fayol, 費堯, 十四項管理原則, 官僚, 科層, 層級結構, Weber, 韋伯, 管理科學學派, 計量學派, 人群關係, 霍桑實驗, 霍桑效應, Mayo, 梅歐, 非正式組織, 馬斯洛, 人本心理學, X理論, Y理論, McGregor, 麥克葛羅格, Z理論, Ouchi, 大內, L理論, Adam Smith, 亞當史密斯, 開放系統, 封閉系統, 輸入, 轉化, 輸出, 生產力, Fiedler, Morse, Lorsch, 情境管理, 經濟人, 社會人]
 admTags: [管理理論演進與學派比較, 科學管理理論(Taylor), 韋伯科層體制, 行為科學學派, 霍桑實驗, X理論與Y理論, Z理論, 系統理論, 權變理論]
 system: administration

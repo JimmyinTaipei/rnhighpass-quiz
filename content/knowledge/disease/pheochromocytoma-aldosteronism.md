@@ -1,6 +1,6 @@
 ---
 title: 嗜鉻細胞瘤與原發性醛固酮症：續發性高血壓的腎上腺原因
-subtitle: Pheochromocytoma and primary aldosteronism (Conn syndrome) — catecholamine excess, 5P, VMA and metanephrines, alpha blockade; hypertension with hypokalemia
+subtitle: Pheochromocytoma and primary aldosteronism (Conn syndrome)
 aliases: [嗜鉻細胞瘤, 嗜鉻細胞腫瘤, Pheochromocytoma, 副神經節瘤, Paraganglioma, 兒茶酚胺, Catecholamine, 5P, 陣發性高血壓, 香草杏仁酸, 杏仁酸, VMA, Vanillylmandelic acid, Metanephrine, 甲氧基腎上腺素, α 阻斷劑, phenoxybenzamine, 原發性醛固酮症, 原發性醛固酮過多症, 原發性高醛固酮症, 多醛固酮症, 醛固酮過多症, Primary aldosteronism, Hyperaldosteronism, 康氏症候群, 孔恩氏症, Conn syndrome, Conn's syndrome, 醛固酮瘤, 醛固酮腺瘤, 醛固酮腎素比值, ARR, spironolactone, 續發性醛固酮症]
 dzTags: [嗜鉻細胞瘤, 原發性醛固酮過多症]
 system: endocrine

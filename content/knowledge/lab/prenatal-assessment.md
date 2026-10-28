@@ -1,6 +1,6 @@
 ---
 title: 產前檢查與胎兒評估
-subtitle: Prenatal assessment and fetal surveillance — presumptive, probable and positive signs of pregnancy, pregnancy tests, obstetric history (GPA, GTPAL), estimating the due date (Nägele's and McDonald's rules), fundal height, Leopold maneuvers and fetal heart auscultation, fetal movement counting, ultrasound (CRL, BPD, AFI, umbilical artery Doppler), nonstress test, contraction stress test, biophysical profile, Down syndrome screening and NIPT, chorionic villus sampling, amniocentesis and fetal reduction
+subtitle: Prenatal assessment and fetal surveillance
 aliases: [產前檢查, 產檢, Prenatal assessment, 妊娠診斷, 懷孕徵象, 擬似徵象, 推定徵象, 可能徵象, 確實徵象, 驗孕, 妊娠試驗, Pregnancy test, 孕產史, GPA, GTPAL, 妊娠次數, 生產次數, 預產期, EDC, EDD, 內格萊氏法則, Nägele's rule, Naegele rule, 麥當勞法則, McDonald's rule, 子宮底高度, Fundal height, 腹部四段觸診, 李奧波氏操作法, Leopold maneuvers, 胎心音, 胎心音聽診, 都卜勒, Doppler, 胎動, 胎動計數, 每日胎動紀錄, Fetal movement counting, 產科超音波, 頭臀長, CRL, 雙頂徑, BPD, 股骨長, 腹圍, 羊水指數, AFI, 臍動脈血流, S/D 比值, 高層次超音波, 無壓力試驗, NST, Nonstress test, 反應型, 宮縮壓力試驗, 催產素激素試驗, CST, OCT, 胎兒生理活動評估, 生物物理評分, BPP, Biophysical profile, 唐氏症篩檢, 母血唐氏症篩檢, 四指標, Quadruple test, 第一孕期唐氏症篩檢, 頸部透明帶, NT, PAPP-A, 非侵入性胎兒染色體檢測, NIPT, NIPS, 絨毛膜取樣, CVS, Chorionic villus sampling, 羊膜穿刺, 羊膜腔穿刺, Amniocentesis, 臍帶穿刺, PUBS, 減胎術]
 dzTags: [妊娠, 唐氏症, 羊水過少, 羊水過多, 胎兒生長受限]
 summary: |

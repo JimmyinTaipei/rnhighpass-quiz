@@ -1,6 +1,6 @@
 ---
 title: 新生兒評估
-subtitle: Newborn assessment — neonatal resuscitation (2025 AHA/AAP algorithm), Apgar score, vital signs and measurements, head (fontanelles, molding, caput succedaneum versus cephalohematoma), face and ears, skin findings (vernix, milia, erythema toxicum, Mongolian spots, hemangiomas, port-wine stain), chest, abdomen and cord, genitalia, extremities and hips, gestational-age assessment with the New Ballard Score, and classification by gestational age and birth weight
+subtitle: Newborn assessment
 aliases: [新生兒評估, 新生兒身體評估, Newborn assessment, 新生兒復甦, Neonatal resuscitation, NRP, 新生兒急救, 正壓通氣, 新生兒胸外按壓, 目標血氧, Apgar, Apgar score, 阿帕嘉評分, 阿帕嘉計分, 新生兒生命徵象, 心尖脈, 新生兒頭圍, 胸圍, 身長, 囟門, 前囟門, 後囟門, 胎頭變形, Molding, 產瘤, 胎頭腫塊, Caput succedaneum, 頭血腫, 頭顱血腫, Cephalohematoma, 帽狀腱膜下出血, 低位耳, 艾柏斯坦小珠, Epstein pearls, 結膜下出血, 胎脂, 胎毛, 肢端發紺, 粟粒疹, Milia, 毒性紅斑, Erythema toxicum, 蒙古斑, Mongolian spot, 鸛咬痕, 草莓狀血管瘤, 毛細血管瘤, 葡萄酒色斑, Port-wine stain, 瘀點, 皮膚飽和度, 臍帶血管, 單一臍動脈, 陰囊皺摺, 睪丸下降, 歐特蘭尼, Ortolani, Barlow, 成熟度評估, 妊娠週數評估, New Ballard Score, 新貝拉德量表, Ballard, 方形窗, Square window, 手臂反彈, Arm recoil, 膝膕角, Popliteal angle, 圍巾徵象, Scarf sign, 足跟至耳, Heel to ear, 姿勢, 身體成熟度, 足底皺摺, 乳暈, 耳軟骨, SGA, AGA, LGA, 小於妊娠年齡兒, 大於妊娠年齡兒, 低出生體重兒, 極低出生體重兒, 超低出生體重兒, LBW, VLBW, ELBW, 過期產兒, 足月兒]
 dzTags: [產瘤, 頭血腫, 新生兒頭部產傷, 蒙古斑, 新生兒毒性紅斑, 葡萄酒色斑, 粟粒疹, 血管瘤, 低位耳]
 system: obstetrics

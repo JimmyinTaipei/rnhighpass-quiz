@@ -226,9 +226,7 @@ export function SectionView({ section, ctx }: { section: KnowledgeSection; ctx: 
       depth={section.depth}
       number={section.number}
       title={section.title}
-      titleEditor={slug ? <SectionTitleEditor key={section.title} slug={slug} id={section.id} /> : undefined}
-      highlight={section.depth === 2 && section.id === "summary"}
-    >
+      titleEditor={slug ? <SectionTitleEditor key={section.title} slug={slug} id={section.id} /> : undefined}    >
       {slug && <SectionBodyEditor slug={slug} id={section.id} />}
       <div className="kb-prose">{renderHast(section.content, ctx)}</div>
       {section.children.map((c) =>

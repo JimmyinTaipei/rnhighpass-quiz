@@ -1,6 +1,6 @@
 ---
 title: 呼吸道清潔技術：抽痰、胸腔物理治療與噴霧治療
-subtitle: Airway clearance — suctioning, chest physiotherapy (postural drainage, percussion, vibration), effective cough, incentive spirometry and aerosol therapy
+subtitle: Airway clearance
 aliases: [呼吸道清潔, 呼吸道清除, Airway clearance, 抽痰, 抽吸, Suctioning, 氣管內抽痰, 口鼻抽痰, 鼻咽抽吸, 密閉式抽痰, Closed suction, 抽痰管, 抽吸壓力, 胸腔物理治療, Chest physiotherapy, CPT, 姿位引流, 體位引流, Postural drainage, 叩擊, 扣擊, 拍痰, Percussion, 震顫, Vibration, 有效咳嗽, 哈氣咳嗽, Huff cough, 深呼吸, 誘發性肺量計, Incentive spirometry, 噴霧治療, 小型噴霧器, Nebulizer, 超音波噴霧, 蒸氣吸入, 吸入治療, 呼吸運動, 呼吸肌訓練]
 dzTags: []
 system: respiratory

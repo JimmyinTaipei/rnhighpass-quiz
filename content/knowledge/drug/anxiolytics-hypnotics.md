@@ -1,6 +1,6 @@
 ---
 title: 抗焦慮與鎮靜安眠藥
-subtitle: Anxiolytics and sedative-hypnotics（苯二氮平類、Z 類安眠藥、褪黑激素與食慾素藥物、buspirone、巴比妥類、氟馬西尼）
+subtitle: Anxiolytics and sedative-hypnotics
 aliases: [抗焦慮藥, 抗焦慮用藥, 鎮靜安眠藥, 鎮靜催眠藥, 安眠藥, 鎮靜劑, Anxiolytics, Sedative-hypnotics, Benzodiazepine, Benzodiazepines, BZD, BZDs, 苯二氮平, 苯二氮平類, 苯二氮䓬, Diazepam, Valium, 安定, Lorazepam, Ativan, 安定文, Alprazolam, Xanax, 贊安諾, Clonazepam, Klonopin, Rivotril, 利福全, Chlordiazepoxide, Clorazepate, Oxazepam, Midazolam, Triazolam, Halcion, 酣樂欣, Temazepam, Restoril, Estazolam, Eurodin, 悠樂丁, Flurazepam, Flunitrazepam, Rohypnol, FM2, Zolpidem, Stilnox, 使蒂諾斯, 非苯二氮平, Nonbenzodiazepine, Z 類安眠藥, Z-drugs, Zaleplon, Eszopiclone, Ramelteon, 褪黑激素受體促效劑, Suvorexant, Lemborexant, Daridorexant, 食慾素受體拮抗劑, Buspirone, BuSpar, 5-HT1A, Hydroxyzine, Propranolol, Barbiturate, 巴比妥, Phenobarbital, Luminal, Pentobarbital, Secobarbital, Amobarbital, Thiopental, Flumazenil, Anexate, 氟馬西尼, GABA-A, 苯二氮平戒斷, 反彈性失眠, 順向性失憶, 睡眠衛生]
 dzTags: [焦慮症, 失眠, 睡眠障礙]
 system: psychiatric

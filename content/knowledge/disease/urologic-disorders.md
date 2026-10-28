@@ -1,6 +1,6 @@
 ---
 title: 泌尿道疾病：結石、前列腺、泌尿腫瘤與尿失禁
-subtitle: Urolithiasis, hydronephrosis, BPH, prostate cancer, bladder and renal cancer, urinary incontinence
+subtitle: Urolithiasis, BPH and urologic disorders
 aliases: [泌尿道疾病, 尿石症, 尿路結石, 泌尿道結石, 腎結石, 輸尿管結石, 膀胱結石, 尿道結石, Urolithiasis, 草酸鈣結石, 磷酸銨鎂結石, 感染性結石, 鹿角狀結石, Staghorn, 尿酸結石, 胱胺酸結石, 腎絞痛, 體外震波碎石術, ESWL, 經皮腎造瘻碎石術, PCNL, 經尿道碎石術, 雙J導管, 水腎, 腎盂積水, Hydronephrosis, 阻塞後利尿, 良性前列腺肥大, 前列腺肥大, 攝護腺肥大, BPH, Benign prostatic hyperplasia, 國際前列腺症狀指數, IPSS, 經尿道前列腺切除術, TURP, TUR 症候群, 三腔導尿管, 三叉導尿管, 膀胱連續沖洗, CBI, 逆行性射精, 前列腺癌, 攝護腺癌, Prostate cancer, PSA, 前列腺特異抗原, Gleason, 直腸指診, 膀胱癌, Bladder cancer, 泌尿上皮癌, 移行細胞癌, 膀胱灌藥, 膀胱內灌注, BCG 灌注, 尿路改道, 迴腸導管, Ileal conduit, 輸尿管造瘻, 寇克氏囊, 新膀胱, 腎細胞癌, 腎臟癌, Renal cell carcinoma, RCC, 尿失禁, Urinary incontinence, 壓力性尿失禁, 應力性尿失禁, 急迫性尿失禁, 滿溢性尿失禁, 溢流性尿失禁, 功能性尿失禁, 反射性尿失禁, 完全性尿失禁, 膀胱過動症, OAB, 凱格爾運動, 骨盆底肌肉運動, 一小時棉墊試驗, 解尿日誌, 勃起功能障礙]
 dzTags: [尿路結石, 腎結石, 輸尿管結石, 膀胱結石, 尿道結石, 水腎, 良性前列腺肥大, 膀胱出口阻塞, 前列腺癌, 膀胱癌, 腎臟癌, 尿失禁, 壓力性尿失禁, 膀胱過動症, 勃起功能障礙]
 system: renal

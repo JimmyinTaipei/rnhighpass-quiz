@@ -1,6 +1,6 @@
 ---
 title: 脈搏與血壓測量
-subtitle: Pulse and blood pressure — rate, rhythm, tension and volume, pulse sites, apical-radial pulse, abnormal pulses, BP determinants, cuff size, Korotkoff sounds, measurement errors, and vital signs in children
+subtitle: Pulse and blood pressure
 aliases: [脈搏, Pulse, 脈率, 脈律, 脈壓, 脈量, 脈搏強度, 心尖脈, Apical pulse, 心尖橈動脈脈, 脈搏短絀, Pulse deficit, 二重脈, 三重脈, 間歇脈, 跑脈, 柯利干氏脈, Corrigan's pulse, 水衝脈, 奇脈, 奇異脈, Paradoxical pulse, 竇性心律不整, 交替脈, 絲脈, 洪脈, 橈動脈, 頸動脈, 肱動脈, 股動脈, 膕動脈, 足背動脈, 脛後動脈, 血壓, Blood pressure, BP, 收縮壓, 舒張壓, 脈搏壓, 平均動脈壓, MAP, 血壓計, 壓脈帶, 氣囊寬度, 柯氏音, Korotkoff sounds, 聽診隙, Auscultatory gap, 大腿血壓, 姿位性低血壓, 生命徵象, Vital signs, 兒童生命徵象]
 dzTags: [心搏過速, 奇異脈]
 system: fundamentals

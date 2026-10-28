@@ -1,6 +1,6 @@
 ---
 title: 生命統計
-subtitle: Vital statistics（比、比例與率、發生率與盛行率、死亡率與致死率、婦嬰死亡指標、粗率與標準化、生育率、人口增加率、扶養比與老化指數、平均餘命、統計資料來源）
+subtitle: Vital statistics
 aliases: [生命統計, Vital statistics, 人口統計, 衛生統計, 相對計量, 絕對計量, 比, Ratio, 比例, Proportion, 率, Rate, 性比, 性別比, Sex ratio, 生命指數, Vital index, 人年, Person-year, 發生率, Incidence, 累積發生率, 盛行率, Prevalence, 點盛行率, 期盛行率, 死亡率, 粗死亡率, Crude death rate, 年齡別死亡率, 原因別死亡率, 死因別死亡率, 十大死因, 致死率, Case fatality rate, 嬰兒死亡率, IMR, 新生兒死亡率, 新生兒後期死亡率, 周產期死亡率, 孕產婦死亡率, 5 歲以下兒童死亡率, U5MR, 粗率, 特殊別比率, 標準化比率, 年齡標準化死亡率, 直接標準法, 間接標準法, 標準化死亡比, SMR, 粗出生率, CBR, 一般生育率, GFR, 年齡別生育率, ASFR, 總生育率, TFR, 粗繁殖率, 毛繁殖率, GRR, 淨繁殖率, NRR, 替代水準, 自然增加率, 社會增加率, 扶養比, 依賴指數, 依賴人口指數, Dependency ratio, 扶老比, 扶幼比, 老化指數, Aging index, 高齡化社會, 高齡社會, 超高齡社會, 人口金字塔, 人口結構圖, 平均餘命, 平均壽命, Life expectancy, 生命表, 健康平均餘命, HALE, 不健康餘命, 生命統計年刊, 癌症登記]
 system: community
 alsoIn: [obstetrics]

@@ -1,6 +1,6 @@
 ---
 title: 心臟瓣膜疾病
-subtitle: Valvular heart disease — causes (rheumatic, degenerative, infective), mitral stenosis and regurgitation, aortic stenosis and regurgitation, tricuspid and pulmonary valve disease, murmurs, medical treatment and anticoagulation, valve repair and replacement (mechanical versus bioprosthetic valves, TAVI), and nursing care
+subtitle: Valvular heart disease
 aliases: [心臟瓣膜疾病, 瓣膜性心臟病, Valvular heart disease, 僧帽瓣疾病, 二尖瓣疾病, 僧帽瓣狹窄, 二尖瓣狹窄, MS, Mitral stenosis, 僧帽瓣逆流, 僧帽瓣閉鎖不全, 二尖瓣閉鎖不全, 二尖瓣逆流, MR, Mitral regurgitation, 僧帽瓣脫垂, 二尖瓣脫垂, MVP, 主動脈瓣狹窄, AS, Aortic stenosis, 主動脈瓣逆流, 主動脈瓣閉鎖不全, AR, Aortic regurgitation, 三尖瓣狹窄, 三尖瓣逆流, 三尖瓣閉鎖不全, TR, 肺動脈瓣疾病, 心雜音, 舒張期雜音, 收縮期雜音, 開瓣音, 雙峰 P 波, 水衝脈, Water-hammer pulse, 柯氏脈, Corrigan pulse, 德謬塞氏徵象, 昆氏脈, 瓣膜修補, 瓣膜成形術, 瓣膜置換, 機械瓣膜, 機械性人工瓣膜, 生物瓣膜, 生物組織性瓣膜, 經導管主動脈瓣膜置換術, TAVI, TAVR, 氣球瓣膜擴張術, 心臟麻痺液, 體外循環, 人工心肺機]
 dzTags: [心臟瓣膜疾病, 二尖瓣狹窄, 僧帽瓣疾病, 三尖瓣閉鎖不全, 二尖瓣閉鎖不全]
 system: cardiovascular

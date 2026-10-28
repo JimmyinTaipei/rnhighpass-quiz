@@ -1,6 +1,6 @@
 ---
 title: 性激素藥物：避孕藥、更年期荷爾蒙療法、抗雄性素與不孕症用藥
-subtitle: Sex hormone drugs — estrogens, progestins, combined and progestin-only contraceptives, emergency contraception, mifepristone, menopausal hormone therapy, SERMs, androgens and antiandrogens, ovulation induction
+subtitle: Sex hormone drugs
 aliases: [性激素, 性激素用藥, 性激素及相關藥物, 動情素, 雌激素, 雌性素, Estrogen, ethinyl estradiol, estradiol, 黃體素, 黃體酮, Progestin, Progesterone, levonorgestrel, medroxyprogesterone, 避孕藥, 避孕用藥, 口服避孕藥, 複方口服避孕藥, COC, 迷你丸, Mini pill, 單純黃體素避孕藥, POP, 避孕針, Depo-Provera, DMPA, 避孕貼片, 陰道避孕環, 子宮內避孕器, Mirena, 事後避孕藥, 緊急避孕, 美服錠, RU486, mifepristone, 保諾錠, Apano, misoprostol, ulipristal, 荷爾蒙補充療法, 荷爾蒙替代療法, HRT, MHT, 選擇性雌激素受體調節劑, SERM, tamoxifen, raloxifene, clomiphene, 雄性素, testosterone, 蛋白同化類固醇, danazol, 抗雄性素, finasteride, flutamide, cyproterone, 不孕症用藥, 排卵藥]
 dzTags: []
 system: endocrine

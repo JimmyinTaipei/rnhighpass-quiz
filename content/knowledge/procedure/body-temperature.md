@@ -1,6 +1,6 @@
 ---
 title: 體溫：調節、測量、發燒與低體溫
-subtitle: Body temperature — thermoregulation and heat loss, factors, measurement sites and devices, fever stages and patterns, fever care, heat illness and hypothermia
+subtitle: Body temperature
 aliases: [體溫, Body temperature, BT, 體溫調節, Thermoregulation, 下視丘, 體溫設定點, 產熱, 散熱, 輻射, 傳導, 對流, 蒸發, Radiation, Conduction, Convection, Evaporation, 核心溫度, 體表溫度, 口溫, 腋溫, 肛溫, 耳溫, 額溫, 顳溫, 耳溫槍, 電子體溫計, 水銀體溫計, 基礎體溫, 發燒, Fever, Pyrexia, 發熱, 體溫過高, Hyperthermia, 畏寒期, 發冷期, 發熱期, 極熱期, 退熱期, 恆常熱, 稽留熱, 弛張熱, 間歇熱, 回歸熱, 復發熱, 低體溫, 體溫過低, Hypothermia, 熱衰竭, Heat exhaustion, 中暑, Heat stroke, 熱痙攣, 凍瘡, 溫水拭浴]
 dzTags: [發燒, 低體溫, 體溫過高, 體溫異常, 熱衰竭, 熱中暑]
 system: fundamentals

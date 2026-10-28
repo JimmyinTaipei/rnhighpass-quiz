@@ -1,6 +1,6 @@
 ---
 title: 下消化道疾病：小腸、大腸與肛門
-subtitle: Lower GI disorders — appendicitis, peritonitis, inflammatory bowel disease, malabsorption and celiac disease, intestinal obstruction and mesenteric ischemia, abdominal wall hernia, diverticular disease, Meckel diverticulum, colorectal polyps, hemorrhoids, anal fissure and fistula
+subtitle: Lower GI disorders
 aliases: [下消化道疾病, 闌尾炎, 急性闌尾炎, 盲腸炎, Appendicitis, 麥氏點, McBurney point, 洛夫辛徵象, Rovsing sign, 腰大肌徵象, Psoas sign, 閉孔肌徵象, Obturator sign, 反彈痛, Blumberg sign, 腹膜炎, Peritonitis, 發炎性腸道疾病, IBD, Inflammatory bowel disease, 潰瘍性結腸炎, 潰瘍性大腸炎, Ulcerative colitis, 克隆氏症, 克隆氏病, 區域性腸炎, 區域性結腸炎, Crohn disease, 毒性巨結腸症, 吸收不良症候群, Malabsorption syndrome, 乳糜瀉, 粥狀瀉, 麩質過敏, Celiac disease, 腸阻塞, Intestinal obstruction, 機械性腸阻塞, 麻痺性腸阻塞, 腸扭結, 腸粘連, 腸繫膜缺血, 缺血性腸病, 疝氣, 腹股溝疝氣, 間接性腹股溝疝氣, 直接性腹股溝疝氣, 股疝氣, 臍疝氣, 切口疝氣, 絞窄性疝氣, Hernia, 憩室炎, 憩室症, Diverticulitis, 梅克爾氏憩室, Meckel diverticulum, 大腸息肉, 瘜肉, 腺瘤性息肉, 增生性息肉, 痔瘡, Hemorrhoid, 內痔, 外痔, 齒狀線, 痔瘡切除術, 肛門裂隙, 肛裂, 肛門瘻管, 肛門廔管]
 dzTags: [闌尾炎, 腹膜炎, 發炎性腸道疾病, 潰瘍性結腸炎, 克隆氏症, 吸收不良症候群, 乳糜瀉, 腸阻塞, 缺血性腸病, 疝氣, 腹股溝疝氣, 憩室炎, 梅克爾氏憩室, 大腸息肉, 痔瘡, 肛門瘻管]
 summary: |

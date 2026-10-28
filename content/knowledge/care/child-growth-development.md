@@ -1,6 +1,6 @@
 ---
 title: 兒童的生長與發展
-subtitle: Growth and development of children — principles of development, physical growth (weight, height, head and chest circumference, body proportions, fontanelles, teeth, organ systems), motor and language milestones, Freud, Erikson and Piaget, children's concepts of illness, play and drawing development, temperament, and the Denver Developmental Screening Test II
+subtitle: Growth and development of children
 aliases: [兒童生長發展, 生長與發展, 兒童發展, Growth and development, 發展原則, 頭尾定律, 近遠定律, 體重, 身高, 頭圍, 胸圍, 身體比例, 囟門, 前囟門, 後囟門, 乳齒, 永久齒, 恆齒, 六歲齒, 動作發展, 粗動作, 細動作, 精細動作, 語言發展, 智商, IQ, 佛洛依德, 性心理發展, 艾瑞克森, Erikson, 心理社會發展, 皮亞傑, Piaget, 認知發展, 感覺動作期, 前運思期, 運思前期, 具體運思期, 形式運思期, 物體恆存, Object permanence, 保留概念, 質量保留, Conservation, 自我中心, 泛靈論, 萬物有靈, 可逆性, 疾病概念, 遊戲發展, 單獨遊戲, 旁觀者遊戲, 平行遊戲, 聯合遊戲, 合作遊戲, 繪畫發展, 羅文菲爾特, Lowenfeld, 塗鴉期, 前圖式期, 圖式期, 寫實期, 氣質, Temperament, 趨避性, 反應閾, 反應強度, 適應度, 堅持度, 注意力分散度, 易養育型, 難養育型, 慢吞吞型, 丹佛發展篩檢測驗, 丹佛 II, DDST, DDST-II, Denver II, 矯正年齡]
 summary: |
   體重 6 個月約出生的 2 倍、1 歲 3 倍；身高 4 歲約 2 倍；1 歲胸圍等於頭圍；前囟門 12–18 個月關閉

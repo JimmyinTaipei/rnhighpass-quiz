@@ -1,6 +1,6 @@
 ---
 title: 病人安全通報與年度病人安全目標
-subtitle: Patient safety reporting and national patient safety goals（TPR、警訊事件、跡近錯失、醫院醫療品質及病人安全工作目標）
+subtitle: Patient safety reporting and national patient safety goals
 aliases: [病人安全, 病人安全通報, TPR, 台灣病人安全通報系統, 異常事件通報, 警訊事件, Sentinel Event, 跡近錯失, Near Miss, 無傷害事件, 不良事件, 傷害行為事件, 治安事件, 公共意外事件, 不究責, 病人安全文化, 病人安全工作目標, 醫療品質及病人安全工作目標, 病安目標, 醫療暴力]
 admTags: [病人安全通報與警訊事件, 病人安全管理, 醫院醫療品質及病人安全工作目標]
 system: administration

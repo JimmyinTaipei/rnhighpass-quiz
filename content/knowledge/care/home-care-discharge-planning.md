@@ -1,6 +1,6 @@
 ---
 title: 居家照護、出院準備與長照護理角色
-subtitle: Home care and discharge planning（居家護理機構型態、健保居家照護收案條件與給付、資源耗用群、居家護理師業務範圍、出院準備流程與時機、照顧管理專員與個案管理師職責、個案管理對象、護理人員在長照的角色）
+subtitle: Home care and discharge planning
 aliases: [居家照護, 居家護理, Home care, Home health care, 居家護理所, 居家護理師, 健保居家照護, 居家照護醫囑單, 收案條件, 訪視次數, 資源耗用群, RUGs, Resource utilization groups, 出院準備服務, 出院準備, Discharge planning, 高危險群篩選, 照護銜接, 連續性照護, 轉銜, 個案管理, Case management, 個案管理師, 個管師, 照顧管理專員, 照專, Care manager, 長期照顧管理中心, 長照護理師角色, 多重用藥, 藥物整合, 廢棄藥物, 鼻胃管照護, 氣切照護, 導尿管照護, 管路照護資源]
 system: community
 group: long-term-care

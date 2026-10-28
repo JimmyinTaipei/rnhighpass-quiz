@@ -1,6 +1,6 @@
 ---
 title: 脊髓損傷
-subtitle: Spinal cord injury — levels, spinal shock, neurogenic shock, autonomic dysreflexia, neurogenic bladder and rehabilitation
+subtitle: Spinal cord injury
 aliases: [脊髓損傷, 脊椎損傷, 脊髓受傷, Spinal cord injury, SCI, 頸椎損傷, 頸椎受傷, 頸髓損傷, 胸髓損傷, 四肢癱瘓, Tetraplegia, Quadriplegia, 下半身癱瘓, 截癱, Paraplegia, 完全性脊髓損傷, 不完全性脊髓損傷, ASIA, AIS, 中央脊髓症候群, Central cord syndrome, 前脊髓症候群, Anterior cord syndrome, 脊髓半側截斷症候群, Brown-Séquard syndrome, 馬尾症候群, Cauda equina syndrome, 脊髓休克, Spinal shock, 神經性休克, Neurogenic shock, 自主神經反射異常, 自主神經反射過度, 自主神經過度反射, Autonomic dysreflexia, 神經性膀胱, 神經因性膀胱, 反射性膀胱, 痙攣型膀胱, 弛緩型膀胱, 溢尿性膀胱, 膀胱訓練, Crede, 柯德氏法, 間歇導尿, 圓滾木翻身, Log roll, 頸圈, 骨骼牽引, Gardner-Wells tongs, Crutchfield tongs, 頭環背架, Halo vest, Methylprednisolone, 脊椎手術, 椎板切除術]
 dzTags: [脊髓損傷, 脊髓休克, 神經性休克, 頸椎損傷, 自主神經反射異常, 神經性膀胱]
 system: neuro

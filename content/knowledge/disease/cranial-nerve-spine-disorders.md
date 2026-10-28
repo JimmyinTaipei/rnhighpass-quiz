@@ -1,6 +1,6 @@
 ---
 title: 頭痛、腦神經疾病、椎間盤突出與腦死判定
-subtitle: Headache (migraine, tension, cluster), trigeminal neuralgia, Bell's palsy, herniated intervertebral disc and brain death determination
+subtitle: Headache, cranial nerve and spine disorders
 aliases: [頭痛, Headache, 偏頭痛, Migraine, 先兆, 緊縮型頭痛, 張力型頭痛, Tension-type headache, 叢集性頭痛, 叢性頭痛, Cluster headache, Triptan, Sumatriptan, CGRP, CGRP 拮抗劑, Gepant, Atogepant, Rimegepant, CGRP 單株抗體, 三叉神經痛, Trigeminal neuralgia, 顏面神經麻痺, 貝爾氏麻痺, 貝爾氏麻痹, Bell's palsy, 椎間盤突出, 椎間盤突出症, 腰椎椎間盤突出, 頸椎椎間盤突出, Herniated intervertebral disc, HIVD, 坐骨神經痛, Sciatica, 直腿抬高試驗, Straight leg raising test, 下背痛, 椎板切除術, Laminectomy, 椎間盤切除術, Discectomy, 內視鏡椎間盤切除術, 背架, 威廉氏運動, Williams exercise, 腦死, 腦死判定, Brain death, 無自行呼吸測試, Apnea test]
 dzTags: [偏頭痛, 叢集性頭痛, 三叉神經痛, 顏面神經麻痺, 椎間盤突出, 腦死]
 system: neuro

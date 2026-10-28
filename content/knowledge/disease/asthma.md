@@ -1,6 +1,6 @@
 ---
 title: 氣喘
-subtitle: Asthma（病生理、誘發因子、診斷與肺功能、控制評估與階梯治療、急性發作、兒童氣喘、護理與衛教）
+subtitle: Asthma
 aliases: [氣喘, 支氣管氣喘, 過敏性氣喘, 兒童氣喘, 氣喘發作, 急性氣喘, 氣喘急性發作, 氣喘控制, 氣喘行動計畫, Asthma, Allergic asthma, Bronchial asthma, Asthma exacerbation, Status asthmaticus, 喘鳴, Wheeze, Wheezing, 哮鳴音, 尖峰呼氣流速, 尖峰吐氣流速, 尖峰流速計, PEF, PEFR, Peak flow, 肺功能, 支氣管擴張試驗, 可逆性氣流阻塞, 氣道高反應, 氣道重塑, Airway remodeling, GINA, 運動誘發氣喘, 阿斯匹靈誘發氣喘, AERD, 職業性氣喘, 異位性體質, 氣喘兒童居家照護, 吸入器衛教, 沉默肺, Silent chest, 呼吸性酸中毒, 沙塵暴]
 dzTags: [氣喘]
 system: hematology-immunology

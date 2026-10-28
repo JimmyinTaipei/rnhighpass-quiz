@@ -1,6 +1,6 @@
 ---
 title: 注意力不足過動症
-subtitle: Attention-deficit/hyperactivity disorder, ADHD（核心症狀、診斷條件、病因、藥物與行為治療、教養與學校護理）
+subtitle: Attention-deficit/hyperactivity disorder, ADHD
 aliases: [注意力不足過動症, 注意力不足／過動症, 注意力缺陷過動症, 注意力缺損過動症, 過動症, 過動兒, ADHD, ADD, Attention-deficit hyperactivity disorder, 注意力不集中, 過動, 衝動, 不專注型, 過動衝動型, 合併型, 藥物假期, 親職教育, 行為修正]
 dzTags: [注意力不足過動症]
 system: psychiatric

@@ -1,6 +1,6 @@
 ---
 title: 抗憂鬱藥物
-subtitle: Antidepressants（SSRI、SNRI、TCA、MAOI 與其他）
+subtitle: Antidepressants
 aliases: [抗憂鬱劑, 抗鬱劑, SSRI, SNRI, TCA, 三環抗憂鬱劑, MAOI, 單胺氧化酶抑制劑, Fluoxetine, Prozac, 百憂解, Sertraline, Zoloft, 樂復得, Paroxetine, Paxil, Escitalopram, Lexapro, Citalopram, Fluvoxamine, Luvox, Venlafaxine, Efexor, Duloxetine, Cymbalta, 千憂解, Imipramine, Tofranil, Amitriptyline, Clomipramine, Phenelzine, Tranylcypromine, Moclobemide, Bupropion, Wellbutrin, Mirtazapine, Remeron, Trazodone, Agomelatine, Vortioxetine, Esketamine, 血清素症候群, 酪胺, Tyramine, 停藥症候群]
 dzTags: [憂鬱症]
 system: psychiatric

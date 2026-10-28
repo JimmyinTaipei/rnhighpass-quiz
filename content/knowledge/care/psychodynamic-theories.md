@@ -1,6 +1,6 @@
 ---
 title: 精神動力與心理社會理論
-subtitle: Psychodynamic and psychosocial theories（致病模式、佛洛伊德、心理防衛機轉、人際與發展理論、精神護理概念模式）
+subtitle: Psychodynamic and psychosocial theories
 aliases: [精神分析, 精神分析理論, 心理分析, 心理分析模式, 佛洛伊德, 佛洛依德, Freud, 精神動力, Psychodynamic, 潛意識, 前意識, 意識, 本我, 自我, 超我, Id, Ego, Superego, 心性發展, 心理性欲發展, 口腔期, 肛門期, 性器期, 潛伏期, 兩性期, 情感轉移, 移情, 反情感轉移, 反移情, Transference, Countertransference, 防衛機轉, 防禦機轉, 心理防衛機轉, Defense mechanism, 潛抑, Repression, 壓抑, Suppression, 否認, 否定, Denial, 合理化, Rationalization, 投射, 外射, Projection, 內射, 內攝, Introjection, 認同, 仿同, Identification, 反向, 反向作用, 反應形成, Reaction formation, 轉移, 轉移作用, Displacement, 取代, Substitution, 昇華, Sublimation, 補償, Compensation, 退化, Regression, 抵消, 抵銷, Undoing, 隔離, Isolation, 理智化, Intellectualization, 轉化作用, Conversion, 解離作用, Dissociation, 幻想, Fantasy, 象徵作用, Symbolization, 分裂, Splitting, 沙利文, Sullivan, 人際關係理論, 佩普洛, Peplau, 艾瑞克森, 艾瑞克森, Erikson, 心理社會發展, 皮亞傑, Piaget, 客體關係, Object relations, 依附理論, Attachment, 潛在因素, 促發因素, 續存因素, Predisposing factor, Precipitating factor, Perpetuating factor, 生物心理社會模式, Biopsychosocial model, 精神護理概念模式]
 dzTags: []
 system: psychiatric

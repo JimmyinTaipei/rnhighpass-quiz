@@ -1,6 +1,6 @@
 ---
 title: 抗腫瘤藥物
-subtitle: Antineoplastic agents（化學治療、荷爾蒙治療、標靶治療與免疫治療）
+subtitle: Antineoplastic agents
 aliases: [抗癌藥, 化療藥, 化學治療, Chemotherapy, 化學治療藥物, 抗腫瘤藥, 細胞毒性藥物, 烷基化劑, Alkylating agents, 抗代謝藥物, Antimetabolites, 長春花鹼, Vinca alkaloids, 紫杉醇, Taxanes, 蒽環類, Anthracyclines, 小紅莓, Doxorubicin, Adriamycin, Cyclophosphamide, Cisplatin, Methotrexate, 5-FU, Fluorouracil, Vincristine, Oncovin, Paclitaxel, Taxol, Tamoxifen, Letrozole, Imatinib, Glivec, Trastuzumab, Herceptin, Rituximab, Bevacizumab, Gefitinib, Iressa, Sorafenib, 免疫檢查點抑制劑, Pembrolizumab, Nivolumab, 標靶治療, 外滲, Extravasation, 起疱劑, Vesicant, 止吐劑, Ondansetron, Palonosetron, Aprepitant, Leucovorin, Mesna, Amifostine, Dexrazoxane, 最低點, Nadir, 危害性藥品]
 dzTags: [化學治療藥物滲漏]
 system: oncology

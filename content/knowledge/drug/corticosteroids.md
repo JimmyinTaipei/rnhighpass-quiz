@@ -1,6 +1,6 @@
 ---
 title: 腎上腺皮質類固醇：效價、副作用、減量與壓力劑量
-subtitle: Corticosteroids — glucocorticoid and mineralocorticoid potency, clinical uses, adverse effects, tapering, stress dosing, steroid synthesis inhibitors
+subtitle: Corticosteroids
 aliases: [類固醇, 類固醇用藥, 類固醇製劑, 腎上腺皮質類固醇, 皮質類固醇, Corticosteroid, Corticosteroids, 糖皮質素, 糖皮質類固醇, Glucocorticoid, 礦物皮質素, Mineralocorticoid, hydrocortisone, cortisone, prednisolone, prednisone, methylprednisolone, Solu-Medrol, dexamethasone, Decadron, betamethasone, triamcinolone, fludrocortisone, 類固醇減量, 類固醇副作用, 壓力劑量, 隔日療法, 類固醇抑制劑, metyrapone, ketoconazole, mifepristone, spironolactone, eplerenone]
 dzTags: []
 system: endocrine

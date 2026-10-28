@@ -1,6 +1,6 @@
 ---
 title: 兒童事故傷害
-subtitle: Unintentional injuries in children — epidemiology and developmental risk, injury prevention by age, child car seats, scald and drowning prevention, childhood poisoning (salicylates, acetaminophen, iron, corrosives, hydrocarbons, lead) and decontamination, epistaxis, dental injury, multiple trauma and the Pediatric Trauma Score, and shaken baby syndrome
+subtitle: Unintentional injuries in children
 aliases: [兒童事故傷害, 事故傷害, 意外傷害, Unintentional injury, Childhood injury, 事故傷害預防, 兒童安全座椅, 汽車安全座椅, Child car seat, 後向式安全座椅, 嬰兒用臥床, 洗澡水溫, 先放冷水, 兒童中毒, 誤食, 兒童誤食, 吐根糖漿, Ipecac, 催吐, 洗胃, 活性碳, Activated charcoal, 水楊酸中毒, Salicylate poisoning, 乙醯胺基酚中毒, Acetaminophen poisoning, N-acetylcysteine, NAC, 鐵劑中毒, Iron poisoning, Deferoxamine, 去鐵胺, 腐蝕性物質, 強鹼, 鹼水, 漂白水, 清潔劑, 碳氫化合物, 鉛中毒, Lead poisoning, 齒齦鉛線, EDTA, DMSA, BAL, 流鼻血, 鼻出血, Epistaxis, 牙齒損傷, 牙齒脫落, 多發性創傷, 兒童創傷指數, Pediatric trauma score, PTS, 嬰兒搖晃症候群, Shaken baby syndrome, SBS, 受虐性腦傷, Abusive head trauma]
 summary: |
   事故傷害是 1–14 歲第一大死因，嬰幼兒靠環境改善與監督，學齡前起加上安全教育

@@ -1,6 +1,6 @@
 ---
 title: 血管構造與循環路徑
-subtitle: Blood vessels and circulatory routes — vessel wall layers, elastic and muscular arteries, arterioles, capillaries and veins, major systemic arteries and veins, hepatic portal circulation, central venous and jugular venous pressure, and fetal circulation with the changes at birth
+subtitle: Blood vessels and circulatory routes
 aliases: [血管, Blood vessel, 血管壁, 內膜, 中膜, 外膜, 彈性動脈, Elastic artery, 肌肉動脈, 肌性動脈, 分配動脈, 小動脈, Arteriole, 微血管, Capillary, 小靜脈, 靜脈瓣, 體循環, 肺循環, 主動脈弓, 頭臂動脈幹, 頸總動脈, 頸外動脈, 頸內動脈, 鎖骨下動脈, 肱動脈, Brachial artery, 橈動脈, 腹主動脈, 腹腔動脈幹, Celiac trunk, 腸繫膜上動脈, 腸繫膜下動脈, 腎動脈, 性腺動脈, 卵巢動脈, 睪丸動脈, 髂總動脈, 髂內動脈, 髂外動脈, 股動脈, 支氣管動脈, 陰部內動脈, 上腔靜脈, 下腔靜脈, 頭臂靜脈, 頸內靜脈, 頸外靜脈, 頭靜脈, 貴要靜脈, 肘正中靜脈, 肱靜脈, 腋靜脈, 奇靜脈, Azygos vein, 大隱靜脈, 小隱靜脈, 膕靜脈, 肝靜脈, 肝門靜脈, 肝門循環, Hepatic portal system, 中心靜脈壓, CVP, 頸靜脈壓, JVP, 胎兒循環, Fetal circulation, 胎血循環, 臍靜脈, 臍動脈, 靜脈導管, Ductus venosus, 卵圓孔, Foramen ovale, 動脈導管, Ductus arteriosus, 動脈韌帶, 靜脈韌帶, 肝圓韌帶, 卵圓窩, 內側臍韌帶]
 dzTags: []
 system: cardiovascular

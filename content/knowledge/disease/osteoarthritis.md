@@ -1,6 +1,6 @@
 ---
 title: 退化性關節炎、痛風與關節置換
-subtitle: Osteoarthritis, gouty arthritis, total hip and knee arthroplasty, arthroscopy, orthopedic physical examination (Thomas, McMurray, drawer, Lachman, bulge sign, ballottement, Phalen, Tinel), carpal tunnel syndrome, and back brace care
+subtitle: Osteoarthritis, gout and joint surgery
 aliases: [退化性關節炎, 骨性關節炎, 骨關節炎, Osteoarthritis, OA, 退化性關節疾病, Degenerative joint disease, 骨贅, 骨刺, Osteophyte, 希伯登氏結節, Heberden's node, 布夏氏結節, Bouchard's node, 關節間隙變窄, 輾軋音, 骨擦音, Crepitus, 膝關節退化, 痛風, Gout, 痛風性關節炎, 急性痛風, 痛風石, Tophus, 尿酸鈉結晶, 高尿酸血症, Hyperuricemia, 足痛風, Podagra, 普林, Purine, 人工關節, 關節置換術, Arthroplasty, 全髖關節置換術, Total hip arthroplasty, THA, 全髖關節置換, 人工髖關節, 全膝關節置換術, Total knee arthroplasty, TKA, 人工膝關節, 外展枕, Abduction pillow, 骨泥, 骨水泥, Bone cement, 非骨泥固定, 人工關節脫位, 無菌性鬆脫, 持續被動運動機, CPM, Continuous passive motion, 關節鏡, Arthroscopy, 骨科身體檢查, 湯瑪斯試驗, Thomas test, 麥默雷氏試驗, McMurray test, 抽屜試驗, Drawer test, 前抽屜試驗, 拉克曼檢查, Lachman test, 膨出徵象, Bulge sign, 浮動試驗, 浮髕試驗, Ballottement test, 費林氏徵象, 費林氏測驗, Phalen's test, 廷內爾氏徵象, Tinel's sign, 半月板損傷, 十字韌帶損傷, 膝關節積液, 髖關節屈曲攣縮, 肌力分級, 腕隧道症候群, Carpal tunnel syndrome, 正中神經, 背架, Back brace]
 dzTags: [退化性關節炎, 痛風, 髖關節置換術, 膝關節置換術, 髖關節脫位, 髖關節攣縮, 膝關節損傷, 膝關節積液, 半月板損傷, 腕隧道症候群]
 summary: |

@@ -1,6 +1,6 @@
 ---
 title: 真菌
-subtitle: Fungi（真菌總論、皮癬菌、花斑癬、隱球菌、麴菌、毛黴菌、肺囊蟲、雙型性真菌）
+subtitle: Fungi
 aliases: [真菌, 黴菌, Fungi, 真菌病, Mycoses, 酵母菌, 黴菌絲, 雙型性真菌, 表淺性黴菌病, 皮癬菌, Dermatophytes, 足癬, 香港腳, 股癬, 體癬, 頭癬, 甲癬, 灰指甲, Tinea, 花斑癬, 汗斑, 馬拉色氏菌, Malassezia, 新型隱球菌, 隱球菌, Cryptococcus neoformans, 隱球菌腦膜炎, 麴菌, 麴黴菌, Aspergillus, 麴菌球, 黃麴毒素, 毛黴菌, 接合菌, Mucor, 鼻腦白黴菌症, 肺囊蟲, Pneumocystis jirovecii, 肺囊蟲肺炎, 孢子絲菌, Sporothrix, 組織胞漿菌, Histoplasma, 球黴菌, Coccidioides]
 dzTags: [黴菌感染, 足癬, 隱球菌症, 麴菌病, 肺囊蟲肺炎]
 system: infection

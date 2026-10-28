@@ -1,6 +1,6 @@
 ---
 title: 骨骼系統與關節
-subtitle: Skeletal system and joints — bone tissue, compact and spongy bone, bone cells, ossification and growth plate, skull, vertebral column, thorax, upper and lower limb bones, pelvis, joint classification, synovial joints, knee and ankle
+subtitle: Skeletal system and joints
 aliases: [骨骼系統, Skeletal system, 骨骼, 骨組織, Bone tissue, 緻密骨, Compact bone, 海綿骨, Spongy bone, 骨小樑, Trabecula, 骨單位, 骨元, Osteon, 哈氏系統, 哈佛氏系統, Haversian system, 哈氏管, 中央管, 伏克曼氏管, 穿通管, 骨細胞, Osteocyte, 造骨細胞, 成骨細胞, Osteoblast, 蝕骨細胞, 破骨細胞, Osteoclast, 骨膜, Periosteum, 骨內膜, 骨髓腔, 骨骺, Epiphysis, 骨幹, Diaphysis, 幹骺端, Metaphysis, 骨骺板, 生長板, Epiphyseal plate, 骨骺線, 膜內骨化, 軟骨內骨化, 骨重塑, 長骨, 短骨, 扁平骨, 不規則骨, 種子骨, Sesamoid bone, 顱骨, Skull, 腦顱骨, 顏面骨, 額骨, 頂骨, 顳骨, 枕骨, 蝶骨, 篩骨, 上頜骨, 上頷骨, 下頜骨, 下頷骨, 顴骨, 腭骨, 顎骨, 鼻骨, 淚骨, 犁骨, 舌骨, 聽小骨, 副鼻竇, 鼻旁竇, 枕骨大孔, Foramen magnum, 眶上裂, 卵圓孔, 圓孔, 棘孔, 顴弓, 蝶鞍, 腦下垂體窩, 顱縫, 脊柱, Vertebral column, 脊柱彎曲, 頸曲, 腰曲, 隆椎, 寰椎, 樞椎, 胸廓, Thorax, 胸骨, 肋骨, 真肋, 假肋, 浮肋, 肩胛骨, 鎖骨, 肱骨, 尺骨, 鷹嘴, Olecranon, 橈骨, 腕骨, 髖骨, Coxal bone, 髂骨, 坐骨, 恥骨, 髂嵴, 坐骨粗隆, 坐骨棘, 恥骨聯合, 骨盆, Pelvis, 男女骨盆, 股骨, Femur, 大轉子, Greater trochanter, 髕骨, Patella, 脛骨, Tibia, 腓骨, 跗骨, 距骨, Talus, 跟骨, 關節, Joint, 纖維關節, 軟骨關節, 滑液關節, Synovial joint, 關節囊, 滑液膜, 滑液, 關節軟骨, 關節盤, 半月板, Meniscus, 十字韌帶, 膝關節, 踝關節, 髖關節, 肩關節, 球窩關節, 樞紐關節]
 summary: |
   骨骼外層是緻密骨（骨單位、哈氏管），內層是海綿骨（骨小樑，紅骨髓在其間）；造骨細胞造骨、蝕骨細胞分解，骨細胞住在骨陷窩

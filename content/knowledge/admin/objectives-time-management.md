@@ -1,6 +1,6 @@
 ---
 title: 目標管理(MBO)與時間管理
-subtitle: Management by objectives and time management（MBO 四要素與程序、SMART 原則、優缺點、時間管理矩陣、時間浪費因素、80/20 原理、會議原則）
+subtitle: Management by objectives and time management
 aliases: [目標管理, MBO, Management by Objectives, 杜拉克, Drucker, 參與式管理, 自我控制, 目標特定性, 明確期間, 績效回饋, SMART, SMART原則, 具體, 可測量, 可達成, 時效性, 時間管理, 時間管理矩陣, 緊急且重要, 重要但不緊急, 黃金時段, 80/20, 巴瑞多, Pareto, 內在因素, 外在因素, 時間陷阱, 拖延, 授權, 會議, 成功會議, 開會原則, 甘特圖]
 admTags: [目標管理(MBO), 時間管理]
 system: administration

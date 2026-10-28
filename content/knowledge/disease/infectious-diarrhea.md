@@ -1,6 +1,6 @@
 ---
 title: 感染性腹瀉與食物中毒
-subtitle: Infectious diarrhea and food poisoning（病毒、細菌、寄生蟲性腸胃炎；細菌性食物中毒比較；脫水評估與護理）
+subtitle: Infectious diarrhea and food poisoning
 aliases: [感染性腹瀉, 急性腸胃炎, 腸胃炎, 病毒性腸胃炎, 細菌性腸胃炎, 腹瀉, 痢疾, 水瀉, 血便, 旅行者腹瀉, 食物中毒, 食品中毒, 細菌性食物中毒, 毒素型食物中毒, 感染型食物中毒, 脫水, 脫水程度, 口服電解質液, ORS, 口服葡萄糖電解質水, 止瀉劑, Loperamide, Bismuth subsalicylate, 腸道隔離, 水媒傳染病]
 dzTags: [急性腸胃炎, 腹瀉, 食物中毒]
 system: infection

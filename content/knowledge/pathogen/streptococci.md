@@ -1,6 +1,6 @@
 ---
 title: 鏈球菌
-subtitle: Streptococci（A 族鏈球菌、B 族鏈球菌、肺炎鏈球菌、草綠色鏈球菌）
+subtitle: Streptococci
 aliases: [鏈球菌, Streptococcus, 溶血性鏈球菌, A 族鏈球菌, A 群 β 型溶血性鏈球菌, GAS, 化膿性鏈球菌, Streptococcus pyogenes, 猩紅熱, 風濕熱, 風濕性心臟病, 急性腎絲球腎炎, 壞死性筋膜炎, 嗜肉菌, ASO, ASLO, 瓊斯氏標準, Jones criteria, B 族鏈球菌, 乙型鏈球菌, GBS, Streptococcus agalactiae, 肺炎鏈球菌, 肺炎雙球菌, Streptococcus pneumoniae, Pneumococcus, 結合型肺炎鏈球菌疫苗, PCV, PPV23, 草綠色鏈球菌, Viridans streptococci, 轉形斯鏈球菌, S. mutans, 豬鏈球菌]
 dzTags: [猩紅熱, 風濕熱, 風濕性心臟病, 急性腎絲球腎炎, 扁桃腺炎, 肺炎, 細菌性肺炎]
 system: infection

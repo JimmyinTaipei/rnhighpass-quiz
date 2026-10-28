@@ -1,6 +1,6 @@
 ---
 title: 護理緒論：健康與疾病、預防層級、護理功能與護理理念
-subtitle: Introduction to nursing — WHO definition and theorists' views of health, determinants, Maslow, illness stages and Suchman's illness behavior, health–illness continuum, natural history and three-stage five-level prevention, stress and GAS, scope of practice and levels of nursing, independent/dependent/collaborative functions, philosophy stages (Bevis), theorists, ethics principles and ICN code, legal issues, core competencies and trends
+subtitle: Introduction to nursing
 aliases: [護理緒論, 健康, Health, 健康的定義, WHO 健康定義, 健康與疾病連續線, Health-illness continuum, 影響健康的因素, 馬斯洛, Maslow, 需要層次, 自我實現, 疾病病程, 開始期, 接受期, 恢復期, 沙奇曼, Suchman, 疾病行為, 包曼, Baumann, 疾病自然史, 三段五級, 三段五級健康學說, 促進健康, 特殊保護, 早期診斷適當治療, 限制殘障, 復健, 初段預防, 次段預防, 末段預防, 壓力, Stress, 全身適應症候群, GAS, 警覺期, 抵抗期, 耗竭期, Selye, 護理範圍, 護理人員法第 24 條, 專業性護理, 次專業性護理, 非專業性護理, 獨立性護理功能, 依賴性護理功能, 協同性護理功能, 合作性護理功能, 護理理念, 苦行僧主義, 浪漫主義, 實用主義, 存在主義, Bevis, 南丁格爾, Nightingale, 羅伊, Roy, 適應模式, 歐倫, Orem, 自我照顧, 韓德森, Henderson, 紐曼, Neuman, 羅傑士, Rogers, 佩普洛, Peplau, 護理專業核心素養, 國際護理協會, ICN, 護理倫理規範, 侵權行為, 護理過失]
 system: fundamentals
 group: nursing-process-communication

@@ -1,6 +1,6 @@
 ---
 title: 慢性阻塞性肺病
-subtitle: Chronic obstructive pulmonary disease(COPD)；含支氣管擴張症、囊性纖維化
+subtitle: Chronic obstructive pulmonary disease(COPD)
 aliases: [COPD, 慢性阻塞性肺疾病, 慢阻肺, 肺阻塞, 慢性支氣管炎, Chronic bronchitis, 肺氣腫, Emphysema, 小葉中心型肺氣腫, 全小葉型肺氣腫, α1-抗胰蛋白酶缺乏, Alpha-1 antitrypsin deficiency, 藍色水腫型, Blue bloater, 紅色喘息型, Pink puffer, 桶狀胸, GOLD, GOLD 分級, ABE 分組, 急性惡化, Exacerbation, 長期氧氣治療, LTOT, 居家氧氣, 噘嘴式呼吸, Pursed-lip breathing, 橫膈式呼吸, 腹式呼吸, Diaphragmatic breathing, 肺部復健, 支氣管擴張症, Bronchiectasis, 囊性纖維化, Cystic fibrosis]
 dzTags: [慢性阻塞性肺病, 肺氣腫, 慢性支氣管炎, 支氣管擴張症]
 system: respiratory

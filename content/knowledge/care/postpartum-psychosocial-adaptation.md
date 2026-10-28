@@ -1,6 +1,6 @@
 ---
 title: 產後心理調適與親子依附
-subtitle: Postpartum psychosocial adaptation — Rubin's taking-in, taking-hold and letting-go phases, maternal role attainment, postpartum stress in Taiwanese mothers, bonding and attachment (touch progression, claiming, reciprocity), early skin-to-skin contact and rooming-in, fathers' engrossment, sibling adjustment, warning signs of poor adaptation and therapeutic communication
+subtitle: Postpartum psychosocial adaptation
 aliases: [產後心理調適, 產後心理變化, 產後心理, Postpartum psychological adaptation, Rubin, 魯賓, 接受期, Taking-in phase, 緊執期, 掌握期, Taking-hold phase, 放手期, 釋放期, Letting-go phase, 母性角色獲得, 母職角色, Maternal role attainment, 產後壓力, 親子依附, 依附, Attachment, 親子連結, Bonding, 依附行為, 觸摸順序, 指尖觸摸, 認同行為, Claiming, 宣稱, 互惠期, Reciprocity, 同步, Synchrony, 情緒共生, 分離個別化, 早期肌膚接觸, 親子同室, Rooming-in, 父親依附, 全神貫注, Engrossment, 準父親, 新手爸爸, 手足競爭, 手足適應, Sibling rivalry, 退化行為, 依附不良, 適應不良徵兆]
 dzTags: [手足競爭]
 system: obstetrics

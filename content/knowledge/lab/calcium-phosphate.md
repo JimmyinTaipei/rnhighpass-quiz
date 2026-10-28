@@ -1,6 +1,6 @@
 ---
 title: 血清鈣與磷
-subtitle: Serum calcium and phosphate — total and ionized calcium, albumin correction, hypo- and hypercalcemia, hyperphosphatemia
+subtitle: Serum calcium and phosphate
 aliases: [Ca, Ca2+, 鈣, 血鈣, 血清鈣, 鈣離子, 游離鈣, 離子鈣, Ionized calcium, 校正鈣, Corrected calcium, Calcium, 低血鈣, 低血鈣症, 高血鈣, 高血鈣症, Hypocalcemia, Hypercalcemia, 磷, 血磷, 磷酸鹽, Phosphate, 高血磷, 高血磷症, 低血磷, Hyperphosphatemia, Hypophosphatemia, 磷結合劑, 鈣磷乘積, 惡性腫瘤高血鈣, 檸檬酸, 葡萄糖酸鈣, Zometa, zoledronic acid]
 dzTags: [低血鈣, 高血鈣, 高血磷症]
 system: renal

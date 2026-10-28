@@ -1,6 +1,6 @@
 ---
 title: 中樞神經興奮劑與 ADHD 用藥
-subtitle: CNS stimulants and ADHD medications（methylphenidate、amphetamine、atomoxetine、咖啡因與甲基黃嘌呤、modafinil）
+subtitle: CNS stimulants and ADHD medications
 aliases: [中樞神經興奮劑, 中樞興奮劑, 大腦興奮劑, CNS stimulants, Psychostimulants, ADHD 用藥, 注意力不足過動症用藥, 過動症藥物, Methylphenidate, Ritalin, 利他能, Ritalin LA, 利長能, Concerta, 專思達, Amphetamine, Dextroamphetamine, Lisdexamfetamine, Atomoxetine, Strattera, 思銳, 正腎上腺素再回收抑制劑, NRI, Guanfacine, Clonidine, 咖啡因, Caffeine, 甲基黃嘌呤, Methylxanthine, Theophylline, 茶鹼, 腺苷受體, Adenosine, 磷酸雙酯酶, Phosphodiesterase, PDE, Modafinil, 藥物假期, Drug holiday, Lorcaserin, 食慾抑制劑]
 dzTags: [注意力不足過動症]
 system: psychiatric

@@ -1,6 +1,6 @@
 ---
 title: 結核病
-subtitle: Tuberculosis（肺結核、潛伏結核感染、卡介苗）
+subtitle: Tuberculosis
 aliases: [結核病, 肺結核, TB, Tuberculosis, 肺癆, 潛伏結核感染, LTBI, 開放性肺結核, 粟粒性結核, 結核性腦膜炎, 波特氏病, Pott disease, 岡氏複合體, Ghon complex, 結核菌素試驗, PPD, TST, 丙型干擾素釋放試驗, IGRA, 卡介苗, BCG, 都治]
 dzTags: [結核病, 肺結核, 結核性心包炎]
 system: respiratory

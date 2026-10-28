@@ -1,6 +1,6 @@
 ---
 title: 疼痛護理
-subtitle: Pain assessment and management（疼痛機轉、評估工具、止痛階梯與非藥物處置）
+subtitle: Pain assessment and management
 aliases: [疼痛, 疼痛管理, 疼痛控制, 疼痛評估, Pain, 閘門控制理論, 門閾理論, Gate control theory, 疼痛量表, NRS, 數字量表, VAS, 臉譜量表, Wong-Baker, FLACC, NIPS, CPOT, PAINAD, PQRST, QUESTT, 止痛階梯, 三階梯止痛, WHO analgesic ladder, 病人自控式止痛, PCA, 硬膜外止痛, 癌症疼痛, 急性疼痛, 慢性疼痛, 神經病變性疼痛, 轉移痛, 幻肢痛, 突發性疼痛, 輔助性止痛藥]
 dzTags: [疼痛, 癌症疼痛, 術後疼痛, 急性疼痛, 慢性疼痛, 生產疼痛]
 system: fundamentals

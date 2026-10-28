@@ -1,6 +1,6 @@
 ---
 title: 病媒傳染病與人畜共通傳染病
-subtitle: Vector-borne and zoonotic diseases（登革熱、日本腦炎、茲卡、屈公病、黃熱病、西尼羅熱、SFTS；人畜共通傳染病總覽）
+subtitle: Vector-borne and zoonotic diseases
 aliases: [病媒傳染病, 蟲媒傳染病, 人畜共通傳染病, 登革熱, 斷骨熱, 登革出血熱, 登革熱重症, 登革休克症候群, NS1, 巡倒清刷, 日本腦炎, Japanese encephalitis, 茲卡, 茲卡病毒感染症, 小頭症, 屈公病, Chikungunya, 黃熱病, Yellow fever, 西尼羅熱, West Nile fever, 發熱伴血小板減少綜合症, SFTS, 蜱, 病媒蚊, 埃及斑蚊, 白線斑蚊, 三斑家蚊]
 dzTags: [登革熱, 日本腦炎]
 system: infection

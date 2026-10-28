@@ -1,6 +1,6 @@
 ---
 title: 臨終照護與安寧緩和療護
-subtitle: End-of-life care（瀕死生理變化、心理反應與哀傷、安寧緩和醫療條例、病人自主權利法、遺體護理、兒童與死亡）
+subtitle: End-of-life care
 aliases: [臨終照護, 臨終護理, 瀕死, 瀕死病人, 安寧療護, 安寧緩和療護, 緩和醫療, Palliative care, Hospice, End-of-life care, 臨終嘎嘎音, Death rattle, 陳施氏呼吸, Cheyne-Stokes, 希氏面容, 庫伯勒羅斯, Kübler-Ross, 哀傷, 預期性哀傷, 複雜性哀傷, 生命回顧, 安寧緩和醫療條例, 不施行心肺復甦術, DNR, 病人自主權利法, 預立醫療決定, 預立醫療照護諮商, ACP, 醫療委任代理人, 腦死判定, 遺體護理, 屍冷, 屍斑, 屍僵, 兒童死亡概念, 緩和鎮靜]
 dzTags: [瀕死症狀, 瀕死嘎嘎音, 緩和醫療, 癌症末期]
 system: fundamentals

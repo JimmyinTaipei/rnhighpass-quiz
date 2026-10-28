@@ -1,6 +1,6 @@
 ---
 title: 護理人力推算、病人分類系統與護理生產力
-subtitle: Staffing calculation, patient classification and productivity（護理時數 HPPD、休假係數、護理人力公式、工作量指數、原型與因素型分類、生產力提升）
+subtitle: Staffing calculation, patient classification and productivity
 aliases: [護理人力推算, 護理人力計算, 護理時數, 每位病人每日護理時數, HPPD, Hours per patient day, 直接護理, 間接護理, 額外護理, 相關護理, 占床率, 休假係數, 代班係數, 工作量指數, 嚴重度指數, 病人分類, 病人分類系統, PCS, 原型分類法, 因素型分類法, 因素分類法, 護理依賴度, 護理工作衡量, 工作樣本法, 護理生產力, 生產力, 全日平均護病比, 每日上班人力, DRGs]
 admTags: [護理人力推算公式, 病人分類系統, 護理生產力與HPPD]
 system: administration

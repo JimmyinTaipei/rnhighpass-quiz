@@ -1,6 +1,6 @@
 ---
 title: 肺栓塞、肺水腫與肺高壓
-subtitle: Pulmonary embolism, pulmonary edema, pulmonary hypertension and cor pulmonale
+subtitle: Pulmonary embolism and pulmonary hypertension
 aliases: [肺栓塞, Pulmonary embolism, PE, 肺動脈栓塞, 靜脈血栓栓塞症, VTE, 深部靜脈血栓, DVT, D-dimer, 電腦斷層肺血管攝影, CTPA, 肺通氣灌流掃描, V/Q scan, 阻塞性休克, 血栓溶解, 肺栓塞反應小組, PERT, 下腔靜脈過濾器, IVC filter, 肺水腫, Pulmonary edema, 急性肺水腫, 粉紅色泡沫痰, 肺高壓, 肺動脈高壓, Pulmonary hypertension, PAH, 肺心症, Cor pulmonale, 右心衰竭]
 dzTags: [肺栓塞, 肺水腫, 肺心症]
 system: respiratory

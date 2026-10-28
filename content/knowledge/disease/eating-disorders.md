@@ -1,6 +1,6 @@
 ---
 title: 飲食障礙症
-subtitle: Feeding and eating disorders（神經性厭食症、暴食症、嗜食症；身體併發症、再餵食症候群、行為約定與護理）
+subtitle: Feeding and eating disorders
 aliases: [飲食障礙, 飲食障礙症, 餵食及飲食障礙症, Eating disorders, 厭食症, 神經性厭食症, Anorexia nervosa, AN, 限制型, 嗜食清除型, 暴食症, 神經性暴食症, 心因性暴食症, Bulimia nervosa, BN, 嗜食症, 狂食症, Binge-eating disorder, 催吐, 清除行為, 瀉劑濫用, 身體心像, 體型意象扭曲, 無月經, 胎毛, 羅素徵象, Russell sign, 再餵食症候群, Refeeding syndrome, 低血磷, 飲食行為約定, 體重恢復]
 dzTags: [神經性厭食症, 暴食症, 飲食障礙症, 再餵食症候群]
 system: psychiatric

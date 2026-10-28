@@ -1,6 +1,6 @@
 ---
 title: 直接血管擴張劑
-subtitle: Direct vasodilators（hydralazine、minoxidil、nitroprusside）
+subtitle: Direct vasodilators
 aliases: [Direct vasodilator, 血管擴張劑, Hydralazine, Minoxidil, Nitroprusside, Sodium nitroprusside, SNP, Diazoxide, Apresoline, Loniten, Nipride, 硝普鈉]
 dzTags: [高血壓, 妊娠高血壓, 心臟衰竭]
 system: cardiovascular

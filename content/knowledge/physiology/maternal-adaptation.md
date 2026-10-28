@@ -1,6 +1,6 @@
 ---
 title: 妊娠期生理與心理變化
-subtitle: Maternal adaptation to pregnancy — changes in the uterus, cervix, vagina and breasts, cardiovascular and hematologic, respiratory, renal, gastrointestinal, skin, musculoskeletal and endocrine systems, altered drug handling, psychological responses by trimester, Rubin's maternal tasks and role attainment, and reactions of the expectant father, siblings and grandparents
+subtitle: Maternal adaptation to pregnancy
 aliases: [妊娠生理變化, 懷孕生理變化, 母體生理適應, Maternal physiological adaptation, 妊娠期生理變化, 子宮增大, 子宮峽部, 黑加氏徵象, Hegar sign, 古德爾氏徵象, Goodell sign, 查德威克氏徵象, Chadwick sign, 黏液塞, Mucus plug, 布拉克斯頓希克斯收縮, 假性宮縮, 無痛性子宮收縮, Braxton Hicks contraction, 妊娠期白帶, 血液容積增加, 生理性貧血, 仰臥低血壓症候群, Supine hypotensive syndrome, 妊娠高凝血狀態, 心灼熱感, 妊娠色素沉著, 黃褐斑, 妊娠斑, Chloasma, 腹中線, 黑線, Linea nigra, 妊娠紋, Striae gravidarum, 蜘蛛痣, 手掌紅斑, 脊柱前凸, 鬆弛素, Relaxin, 妊娠藥物動力學, 妊娠心理變化, 妊娠心理反應, 矛盾心理, 魯賓, Rubin, 母性任務, 母性角色獲得, 母性認同, 角色扮演, 模仿, 幻想, 內射投射拒絕, 準父親, 擬娩症候群, Couvade syndrome, 手足競爭]
 dzTags: [妊娠生理變化, 妊娠色素沉著, 布拉克斯頓希克斯收縮, 妊娠心理反應, 擬娩症候群, 手足競爭, 心灼熱感, 妊娠腸胃不適]
 summary: |

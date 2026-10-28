@@ -1,6 +1,6 @@
 ---
 title: β-內醯胺類抗生素
-subtitle: Beta-lactam antibiotics（青黴素類、頭孢菌素類、carbapenems、monobactam）
+subtitle: Beta-lactam antibiotics
 aliases: [β-lactam, Beta-lactam, 乙內醯胺, β-內醯胺, 青黴素, 盤尼西林, Penicillin, Penicillin G, Benzathine penicillin, Penicillin V, Oxacillin, Cloxacillin, Methicillin, Ampicillin, Amoxicillin, Augmentin, Amoxicillin-clavulanate, Ampicillin-sulbactam, Unasyn, Piperacillin, Tazobactam, Tazocin, 頭孢菌素, 頭孢子菌素, Cephalosporins, Cefazolin, Cefuroxime, Ceftriaxone, Rocephin, Cefotaxime, Ceftazidime, Cefepime, Ceftaroline, Carbapenems, Imipenem, Cilastatin, Meropenem, Ertapenem, Aztreonam, Monobactam]
 dzTags: [細菌感染]
 system: infection

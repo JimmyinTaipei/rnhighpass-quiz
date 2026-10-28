@@ -1,6 +1,6 @@
 ---
 title: 成癮戒治用藥
-subtitle: Addiction treatment drugs（美沙冬維持治療、丁基原啡因、naltrexone、naloxone；戒酒藥 disulfiram、acamprosate；酒精戒斷用藥；戒菸藥物；台灣減害計畫）
+subtitle: Addiction treatment drugs
 aliases: [成癮戒治用藥, 成癮藥物, 戒癮藥物, 物質成癮用藥, 物質濫用治療藥物, 戒酒用藥, 戒菸用藥, 美沙冬, 美沙酮, Methadone, Methadose, 美沙冬維持治療, 美沙冬替代療法, 替代療法, 替代治療, 鴉片類物質成癮替代治療, MMT, Methadone maintenance treatment, 丁基原啡因, Buprenorphine, Suboxone, 舌下錠, Subutex, 那囉克松, Naloxone, Narcan, Naltrexone, 拿淬松, Disulfiram, 戒酒發泡錠, 戒酒硫, 制癮劑, 嫌惡療法, Antabuse, Acamprosate, 減害計畫, 減害, Harm reduction, 清潔針具, 針具交換, 尼古丁替代療法, NRT, 尼古丁貼片, 尼古丁口嚼錠, Varenicline, 戒必適, 二代戒菸, Thiamine, 維生素 B1, Chlordiazepoxide, Lorazepam]
 dzTags: [物質使用障礙症, 酒精使用障礙症]
 system: psychiatric

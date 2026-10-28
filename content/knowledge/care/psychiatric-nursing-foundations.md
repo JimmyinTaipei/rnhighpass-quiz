@@ -1,6 +1,6 @@
 ---
 title: 精神衛生護理基礎
-subtitle: Foundations of psychiatric-mental health nursing（精神醫學四次革新、精神衛生護理發展、對精神病人的基本認識、理論模式、醫療團隊、護理人員角色功能與專業認證）
+subtitle: Foundations of psychiatric-mental health nursing
 aliases: [精神衛生護理, 精神科護理, 精神衛生護理基礎, Psychiatric-mental health nursing, 精神醫學發展史, 精神醫學革命, 四次革新, 畢乃爾, Pinel, 韋耶, Weyer, 克雷佩林, Kraepelin, 佛洛伊德, Freud, 瓊斯, Maxwell Jones, 治療性社區, 生物精神醫學, 道德治療, Tuke, Dix, Peplau, 精神衛生護理學會, 精神衛生護理師, 精神衛生臨床護理專家, 社區精神衛生護理能力鑑定, 精神科專科護理師, 代言者, Advocate, 個案管理者, 主責護理, Primary nursing, 精神醫療團隊, 精神衛生工作範圍, 保健性, 治療性, 復健性]
 dzTags: [精神疾病]
 system: psychiatric

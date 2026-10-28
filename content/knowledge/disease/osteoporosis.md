@@ -1,6 +1,6 @@
 ---
 title: 骨質疏鬆症
-subtitle: Osteoporosis — definition, primary and secondary causes, risk factors, fragility fractures, bone densitometry (DXA, T-score, Z-score), FRAX, calcium and vitamin D, exercise, fall prevention, and nursing care (2025 Taiwan guideline)
+subtitle: Osteoporosis
 aliases: [骨質疏鬆症, 骨質疏鬆, 骨鬆, Osteoporosis, 骨質缺乏, 骨質疏少, 低骨量, Osteopenia, 停經後骨質疏鬆症, 老年性骨質疏鬆症, 續發性骨質疏鬆症, 類固醇引起的骨質疏鬆, 脆弱性骨折, Fragility fracture, 低創傷性骨折, 脊椎壓迫性骨折, Vertebral compression fracture, 駝背, 身高變矮, 骨密度, Bone mineral density, BMD, 雙能量 X 光吸收儀, DXA, DEXA, T 值, T-score, Z 值, Z-score, 骨折風險評估工具, FRAX, 定量超音波, 骨代謝指標, CTX, P1NP, 負重運動, 阻力運動, 平衡訓練, 防跌, 骨軟化症, Osteomalacia, 佝僂症, Rickets]
 dzTags: [骨質疏鬆症]
 summary: |

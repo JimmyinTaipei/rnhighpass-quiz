@@ -1,6 +1,6 @@
 ---
 title: 腦的構造與功能
-subtitle: Cerebrum, limbic system, basal ganglia, diencephalon, brainstem, cerebellum, meninges, CSF, blood supply and sleep
+subtitle: Brain anatomy
 aliases: [大腦, Cerebrum, 大腦皮質, Cerebral cortex, 額葉, Frontal lobe, 頂葉, Parietal lobe, 顳葉, Temporal lobe, 枕葉, Occipital lobe, 前額葉, 中央前回, 中央後回, 初級運動區, 初級體感覺區, 布洛卡區, Broca area, 韋尼克區, 渥尼克區, Wernicke area, 表達性失語症, 感覺性失語症, 失語症, Aphasia, 禽距裂, 視覺皮質, 優勢半球, 胼胝體, Corpus callosum, 內囊, Internal capsule, 邊緣系統, Limbic system, 海馬迴, Hippocampus, 杏仁核, Amygdala, 扣帶迴, 穹窿, 乳頭體, 順向失憶症, 基底核, Basal ganglia, 尾核, 殼核, 蒼白球, 紋狀體, 黑質, Substantia nigra, 錐體路徑, 錐體外路徑, 間腦, 視丘, Thalamus, 下視丘, Hypothalamus, 視上核, 室旁核, 視叉上核, 上視丘, 松果腺, 松果體, 褪黑激素, Melatonin, 體溫調節中樞, 飽食中樞, 攝食中樞, 腦幹, Brainstem, 中腦, Midbrain, 紅核, 四疊體, 橋腦, Pons, 延腦, 延髓, Medulla oblongata, 錐體, 錐體交叉, 薄核, 楔狀核, 網狀結構, 網狀活化系統, 嘔吐中樞, 閉鎖症候群, Locked-in syndrome, 去皮質僵直, 去大腦僵直, Decorticate, Decerebrate, 陳施氏呼吸, Cheyne-Stokes, 小腦, Cerebellum, 運動失調, Ataxia, 意向性震顫, 腦膜, 硬腦膜, 蜘蛛膜, 軟腦膜, 大腦鐮, 小腦天幕, 硬腦膜竇, 上矢狀竇, 蜘蛛膜顆粒, 腦室, 側腦室, 第三腦室, 第四腦室, 室間孔, 大腦導水管, 中腦導水管, 脈絡叢, 腦脊髓液循環, 腦池穿刺, Monro-Kellie, 硬腦膜外血腫, 硬腦膜下血腫, 中腦膜動脈, 橋靜脈, 威利氏環, Circle of Willis, 前大腦動脈, 中大腦動脈, 後大腦動脈, 基底動脈, 腦波, EEG, α 波, β 波, θ 波, δ 波, 睡眠週期, 快速動眼期, REM, 非快速動眼期, NREM, 腦部代謝]
 dzTags: []
 system: neuro

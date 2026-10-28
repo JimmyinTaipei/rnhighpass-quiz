@@ -1,6 +1,6 @@
 ---
 title: 雙相情緒障礙症
-subtitle: Bipolar disorder（舊稱躁鬱症、雙極性疾患）
+subtitle: Bipolar disorder
 aliases: [躁鬱症, 雙極性疾患, 雙極性情感疾患, Bipolar disorder, 第一型雙相情緒障礙症, 第二型雙相情緒障礙症, Bipolar I, Bipolar II, 循環性情緒障礙症, Cyclothymic disorder, 躁症, 躁症發作, Manic episode, 輕躁症, Hypomania, 快速循環, Rapid cycling, 混合特徵, 意念飛躍, 誇大]
 dzTags: [雙相情緒障礙症]
 system: psychiatric

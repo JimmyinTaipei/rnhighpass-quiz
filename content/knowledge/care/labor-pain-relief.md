@@ -1,6 +1,6 @@
 ---
 title: 分娩疼痛的處理
-subtitle: Pain relief in labor — sources and pathways of labor pain in each stage, theories behind non-pharmacologic methods (fear–tension–pain cycle, conditioned reflex and psychoprophylaxis, gate control), breathing techniques, counterpressure, massage, heat, water therapy, acupressure and acupuncture, hyperventilation, and pharmacologic options (systemic opioids, epidural and spinal anesthesia, pudendal block, general anesthesia for cesarean) with nursing care
+subtitle: Pain relief in labor
 aliases: [分娩疼痛, 生產疼痛, 產痛, Labor pain, 減痛分娩, 無痛分娩, 分娩減痛, 非藥物減痛, 害怕緊張疼痛循環, Fear-tension-pain cycle, Dick Read, 條件反射, 精神預防性分娩減痛法, Psychoprophylaxis, 拉梅茲, Lamaze, 門閥控制理論, 閘門控制理論, Gate control theory, 呼吸技巧, 呼吸放鬆技巧, 腹部輕撫法, Effleurage, 反向施壓, Counterpressure, 薦骨加壓, 熱敷, 冷敷, 水療, 泡澡, 溫水淋浴, 水中待產, 穴位按壓, 針灸, 皮內注射水阻斷, TENS, 芳香療法, 音樂治療, 意象法, 換氣過度, 硬膜外麻醉, 硬脊膜外麻醉, Epidural, 腰椎硬膜外麻醉, 脊髓麻醉, 陰部神經阻斷, Pudendal block, 產科麻醉, 全身麻醉, meperidine, Demerol, naloxone]
 dzTags: [生產疼痛, 換氣過度]
 summary: |

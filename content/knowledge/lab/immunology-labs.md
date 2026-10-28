@@ -1,6 +1,6 @@
 ---
 title: 免疫檢驗
-subtitle: Immunology laboratory tests（免疫球蛋白、IgE 與過敏檢查、補體、自體抗體 ANA／anti-dsDNA／RF／anti-CCP、Coombs、淋巴球亞群、皮膚試驗）
+subtitle: Immunology laboratory tests
 aliases: [免疫檢驗, 免疫學檢驗, 免疫血清檢驗, 自體抗體檢驗, 免疫球蛋白檢驗, 血清免疫球蛋白, 總 IgE, 特異性 IgE, 過敏原檢測, 過敏原篩檢, 皮膚點刺試驗, 皮膚試驗, 貼膚試驗, Skin prick test, Patch test, RAST, ImmunoCAP, 補體檢驗, C3, C4, CH50, 補體 C3 C4, 抗核抗體, ANA, 抗核抗體檢驗, 間接免疫螢光, HEp-2, 抗雙股 DNA 抗體, anti-dsDNA, 抗 Sm 抗體, 抗 Ro, 抗 La, 抗 Scl-70, 抗著絲點抗體, 類風濕因子, RF, 抗 CCP, 抗環瓜胺酸肽抗體, 庫姆斯試驗, Coombs test, 直接庫姆斯試驗, 間接庫姆斯試驗, DAT, IAT, 淋巴球亞群, CD4 計數, CD4 細胞數, CD4/CD8 比值, 流式細胞, T 細胞計數, 類胰蛋白酶, Tryptase, 結核菌素試驗, TST, 丙型干擾素釋放試驗, IGRA, 血清蛋白電泳, M 蛋白, 嗜酸性球, ASO, 抗鏈球菌溶血素 O]
 dzTags: [抗核抗體, 免疫檢驗]
 system: hematology-immunology

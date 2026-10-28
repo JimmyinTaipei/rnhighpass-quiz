@@ -1,6 +1,6 @@
 ---
 title: 癌症總論與癌症護理
-subtitle: Cancer（流行病學、預防與篩檢、診斷、手術、放射治療與照護）
+subtitle: Cancer
 aliases: [癌症, 惡性腫瘤, Cancer, Malignancy, 腫瘤科, 癌症護理, 癌症篩檢, 五癌篩檢, 四癌篩檢, 子宮頸抹片, 乳房攝影, 糞便潛血, 口腔黏膜檢查, 低劑量電腦斷層, LDCT, 癌症警訊, CAUTION, 放射線治療, 放射治療, 放療, Radiotherapy, 近接治療, 體內放射治療, 後荷式, 體外放射治療, 伽馬刀, 癌症手術, 人工血管, Port-A, PICC, 同步化學放射治療, CCRT, 姑息治療, 癌症登記]
 dzTags: [癌症, 癌症末期, 癌症轉移]
 system: oncology

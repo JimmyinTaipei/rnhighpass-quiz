@@ -1,6 +1,6 @@
 ---
 title: 止血、血栓、栓塞與梗塞
-subtitle: Hemostasis, thrombosis, embolism and infarction — Virchow's triad, DIC, fat and amniotic fluid embolism, red and white infarcts
+subtitle: Hemostasis, thrombosis, embolism and infarction
 aliases: [止血, Hemostasis, 初級止血, 次級止血, 血小板栓, 凝血瀑布, 組織因子, Tissue factor, 內皮素, Endothelin, 類血友病因子, von Willebrand factor, vWF, 凝血酶調節素, Thrombomodulin, 血栓, 血栓形成, Thrombosis, Thrombus, Virchow 三要素, Virchow's triad, 高凝血狀態, 易栓症, 抗磷脂質症候群, 附壁血栓, 靜脈血栓, 淺層靜脈血栓, 深部靜脈血栓, 瀰漫性血管內凝血, DIC, 消耗性凝血病變, D-dimer, FDP, 纖維蛋白原, 栓塞, Embolism, 栓子, Embolus, 血栓栓塞, 肺栓塞, 全身性栓塞, 脂肪栓塞, 脂肪栓塞症候群, Fat embolism, 空氣栓塞, 氣體栓塞, 減壓症, 潛水夫病, Caisson disease, 羊水栓塞, Amniotic fluid embolism, 梗塞, Infarction, 紅色梗塞, 出血性梗塞, 白色梗塞, 貧血性梗塞, 再灌流, 點狀出血, 瘀斑, 紫斑, 血腫]
 dzTags: [血栓形成, 血栓栓塞, 栓塞, 梗塞, 止血與凝血, 瀰漫性血管內凝血, 脂肪栓塞症候群, 減壓症, 羊水栓塞]
 system: general-pathology

@@ -1,6 +1,6 @@
 ---
 title: 酮體
-subtitle: Ketone bodies（血清 β-羥基丁酸、尿酮）
+subtitle: Ketone bodies
 aliases: [酮體, 尿酮, 血酮, Ketone, β-hydroxybutyrate, BHB, β-OHB, Acetoacetate, Acetone]
 dzTags: [糖尿病酮酸中毒, 糖尿病]
 system: endocrine

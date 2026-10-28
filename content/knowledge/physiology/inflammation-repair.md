@@ -1,6 +1,6 @@
 ---
 title: 發炎與組織修復
-subtitle: Inflammation and repair（急性與慢性發炎、白血球外滲、化學介質、發炎種類、肉芽腫、再生與傷口癒合）
+subtitle: Inflammation and repair
 aliases: [發炎, 發炎反應, 炎症, Inflammation, 急性發炎, Acute inflammation, 慢性發炎, Chronic inflammation, 紅腫熱痛, 發炎五徵, 白血球外滲, Extravasation, 著邊, Margination, 鋪道, Pavementing, 穿越, Transmigration, Diapedesis, 趨化, Chemotaxis, 滲出液, Exudate, 漏出液, Transudate, 化學介質, 發炎介質, 組織胺, Histamine, 血清素, Serotonin, 緩激肽, Bradykinin, 前列腺素, Prostaglandin, 白三烯, Leukotriene, 花生四烯酸, Arachidonic acid, 血栓素, 漿液性發炎, 纖維素性發炎, 化膿性發炎, 膿瘍, Abscess, 膿胸, Empyema, 蜂窩性組織炎, 偽膜性發炎, 潰瘍, Ulcer, 肉芽腫, Granuloma, 肉芽腫性發炎, 乾酪性壞死, 類上皮細胞, 多核巨細胞, 肉芽組織, Granulation tissue, 再生, Regeneration, 修復, Repair, 機化, Organization, 傷口癒合, Wound healing, 一期癒合, Primary intention, 二期癒合, Secondary intention, 三期癒合, 疤痕, 瘢痕, 肥厚性疤痕, 蟹足腫, Keloid, 纖維化, 傷口裂開, Dehiscence]
 dzTags: [發炎反應, 發炎]
 system: hematology-immunology

@@ -1,6 +1,6 @@
 ---
 title: 蠕蟲與體外寄生蟲
-subtitle: Helminths and ectoparasites（線蟲、吸蟲、絛蟲、疥蟲、蝨與病媒節肢動物）
+subtitle: Helminths and ectoparasites
 aliases: [蠕蟲, 寄生蟲, Helminths, 線蟲, 蟯蟲, Enterobius vermicularis, 透明膠帶肛門黏貼法, 蛔蟲, Ascaris lumbricoides, 鉤蟲, Hookworm, 鞭蟲, Trichuris trichiura, 糞小桿線蟲, Strongyloides stercoralis, 犬蛔蟲, Toxocara canis, 廣東住血線蟲, Angiostrongylus cantonensis, 旋毛蟲, Trichinella spiralis, 絲蟲, 蟠尾絲蟲, 河盲症, 象皮病, 吸蟲, 中華肝吸蟲, Clonorchis sinensis, 肺吸蟲, 衛氏肺吸蟲, Paragonimus westermani, 血吸蟲, 住血吸蟲, 日本血吸蟲, Schistosoma, 游泳癢, 絛蟲, 有鉤絛蟲, 豬肉絛蟲, Taenia solium, 囊尾蚴病, 無鉤絛蟲, 牛肉絛蟲, Taenia saginata, 亞洲絛蟲, 廣節裂頭絛蟲, 包蟲, 短小包膜絛蟲, 體外寄生蟲, 疥蟲, 人疥蟎, Sarcoptes scabiei, 疥瘡, 頭蝨, 體蝨, 陰蝨, Pediculus, 跳蚤, 蜱, 恙蟎, 病媒蚊, 埃及斑蚊, 白線斑蚊, 三斑家蚊, 瘧蚊, 布氏指數]
 dzTags: [寄生蟲感染, 蟯蟲感染, 疥瘡]
 system: infection

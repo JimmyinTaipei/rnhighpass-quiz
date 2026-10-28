@@ -1,6 +1,6 @@
 ---
 title: 消化系統影像與侵入性檢查
-subtitle: GI diagnostic procedures — upper GI endoscopy, upper and lower GI barium series, colonoscopy, ERCP, oral cholecystography, liver biopsy, abdominal paracentesis, diagnostic laparoscopy, 24-hour esophageal pH monitoring
+subtitle: GI diagnostic procedures
 aliases: [消化系統檢查, 腸胃道檢查, 腸胃檢查, 上消化道內視鏡, 胃鏡, 食道胃十二指腸鏡, EGD, Esophagogastroduodenoscopy, 食道鏡, 上腸胃道攝影, 上消化道攝影, UGI series, Upper GI series, 鋇劑, 鋇餐, Barium meal, 下腸胃道攝影, 鋇劑灌腸攝影, Barium enema, Lower GI series, 大腸鏡, Colonoscopy, 乙狀結腸鏡, 腸道準備, 內視鏡逆行性膽胰管攝影, 內視鏡逆行膽胰攝影, ERCP, Endoscopic retrograde cholangiopancreatography, 口服膽囊攝影, Oral cholecystography, 肝臟切片, 肝切片, 肝穿刺, 肝臟活體組織切片, Liver biopsy, 腹腔穿刺, 腹腔放液術, Abdominal paracentesis, 腹腔鏡檢查, Laparoscopy, 24 小時食道酸鹼值監測, pH monitoring]
 dzTags: [肝疾病, 膽胰疾病]
 system: digestive

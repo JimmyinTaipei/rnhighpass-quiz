@@ -1,6 +1,6 @@
 ---
 title: 護理預算編列與 DRGs 支付制度
-subtitle: Nursing budgeting and DRGs（預算目的、預算內容、傳統/零基/固定限額/彈性/日落預算、資本預算、診斷關聯群）
+subtitle: Nursing budgeting and DRGs
 aliases: [預算, 預算編列, 預算目的, 預算種類, 護理部預算, 人事預算, 營運預算, 經常預算, 資本預算, 傳統預算, 增量預算, 績效預算, 計畫預算, 零基預算, ZBB, 固定預算, 固定限額預算, 彈性預算, 日落預算, 開放式預算, 財務管理, DRG, DRGs, Tw-DRGs, 診斷關聯群, 包裹式給付, 預付制]
 admTags: [預算概論, 預算種類, 預算編制方法, 零基預算, DRGs]
 system: administration

@@ -1,6 +1,6 @@
 ---
 title: 社區護理過程與社區健康營造
-subtitle: Community nursing process and community health making（社區護理診斷、排定優先順序準則（Freeman 等）、計畫與目標、執行與社區動力、評值、社區夥伴關係與賦權、社區健康營造的緣起、步驟與策略、健康城市、安全社區、高齡友善城市）
+subtitle: Community nursing process and community health making
 aliases: [社區護理過程, 以社區為對象之護理過程, 社區護理診斷, 社區健康診斷, 優先順序, 排定優先順序, Freeman, 佛里門, 弗里門, Goeppinger, Muecke, 基本優先順序評比系統, PEARL, 問題的嚴重性, 預防效果, 社會正義, 計畫, 目標, RUMBA, SMART, 執行, 社區動力, 評值, Donabedian, 結構過程結果, 第三類錯誤, MAPP, 社區夥伴關係, Community partnership, 賦權, 增能, Empowerment, 由下而上, 社區健康營造, 社區總體營造, 社區發展, 社區發展協會, 社區健康營造中心, 推動小組, 種子志工, 健康社區評估, 社區資產, 社區能力, 社會資源運用, 健康城市, Healthy cities, 渥太華憲章, 安全社區, 高齡友善城市, 部落社區健康營造, MAP-IT]
 system: community
 group: community-assessment

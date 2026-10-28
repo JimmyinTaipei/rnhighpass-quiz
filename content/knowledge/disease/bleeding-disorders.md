@@ -1,6 +1,6 @@
 ---
 title: 出血與凝血疾病
-subtitle: Bleeding and coagulation disorders — causes of bleeding, thrombocytopenia and bleeding precautions, immune thrombocytopenia (ITP), hemophilia A and B, von Willebrand disease, vitamin K deficiency and the newborn, disseminated intravascular coagulation (DIC)
+subtitle: Bleeding and coagulation disorders
 aliases: [出血疾病, 出血傾向, Bleeding disorder, 凝血疾病, 凝血功能異常, Coagulopathy, 紫斑, 瘀點, Petechiae, 瘀斑, Ecchymosis, 血小板減少症, 血小板低下, Thrombocytopenia, 出血預防措施, Bleeding precautions, 特發性血小板減少性紫斑症, 免疫性血小板減少症, 免疫性血小板減少性紫斑症, ITP, Immune thrombocytopenia, Idiopathic thrombocytopenic purpura, 血栓性血小板減少性紫斑症, TTP, 溶血性尿毒症候群, HUS, 血友病, Hemophilia, A 型血友病, B 型血友病, 第八凝血因子, 第九凝血因子, 關節血腫, Hemarthrosis, 凝血因子補充, 預防性治療, Emicizumab, Hemlibra, 抑制物, Inhibitor, 類血友病, von Willebrand disease, vWD, Desmopressin, DDAVP, 維生素 K 缺乏, 新生兒出血性疾病, 新生兒維生素 K 缺乏性出血, 瀰漫性血管內凝血, DIC, Disseminated intravascular coagulation, 消耗性凝血病變, 血小板無力症]
 dzTags: [血小板減少症, 特發性血小板減少性紫斑症, 血友病, 類血友病, 出血性疾病, 凝血功能異常, 新生兒出血性疾病, 瀰漫性血管內凝血]
 summary: |

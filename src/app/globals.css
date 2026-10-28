@@ -423,7 +423,7 @@ nav[aria-label="麵包屑"] a {
   --surface-row: #FFFFFF;
 }
 
-/* 白底卡片(重點摘要、題目、段落考題)：不論外層是白是灰都用白底，靠細框線和內文分開；
+/* 白底卡片(題目、段落考題)：不論外層是白是灰都用白底，靠細框線和內文分開；
    卡裡的列(選項、詳解段落)用半透明灰，內嵌卡用頁面灰 */
 [data-ui="apple"] .surface-white {
   background: var(--color-card);

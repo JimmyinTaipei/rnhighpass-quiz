@@ -1,6 +1,6 @@
 ---
 title: 造血藥物與排鐵劑
-subtitle: Hematinics and iron chelators — oral and parenteral iron, iron poisoning, vitamin B12, folic acid, erythropoiesis-stimulating agents (epoetin, darbepoetin), myeloid growth factors (G-CSF), deferoxamine, deferasirox, deferiprone
+subtitle: Hematinics and iron chelators
 aliases: [造血藥物, 抗貧血藥, 貧血用藥, Antianemic, Hematinic, 鐵劑, 口服鐵劑, Ferrous sulfate, 硫酸亞鐵, Ferrous gluconate, Ferrous fumarate, 注射鐵劑, Iron dextran, Imferon, Iron sucrose, Venofer, Ferric carboxymaltose, 靜脈鐵劑, Z 字型注射, 鐵劑中毒, Iron poisoning, 維生素 B12, Cyanocobalamin, Hydroxocobalamin, Methylcobalamin, 葉酸, Folic acid, Leucovorin, Folinic acid, 紅血球生成素, Erythropoietin, EPO, Epoetin alfa, Epoetin beta, Darbepoetin alfa, Aranesp, 紅血球生成刺激劑, ESA, 白血球生成激素, 顆粒球聚落刺激因子, G-CSF, Filgrastim, Pegfilgrastim, 排鐵劑, Iron chelator, Deferoxamine, Desferal, Deferasirox, Exjade, Jadenu, Deferiprone, Ferriprox]
 dzTags: [鐵劑中毒]
 drugTags: [貧血用藥, 排鐵劑用藥]

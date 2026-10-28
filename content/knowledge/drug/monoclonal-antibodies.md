@@ -1,6 +1,6 @@
 ---
 title: 單株抗體與生物製劑
-subtitle: Monoclonal antibodies and biologics（命名規則、種類與機轉、輸注反應與細胞激素釋放症候群、感染風險、與免疫抑制劑的分工）
+subtitle: Monoclonal antibodies and biologics
 aliases: [單株抗體, 單株抗體藥物, 生物製劑, 標靶藥物, 標靶治療, Monoclonal antibody, mAb, Biologics, Biologic agents, 嵌合抗體, 人源化抗體, 全人抗體, 融合蛋白, Fusion protein, Fc 融合蛋白, 命名規則, -mab, -ximab, -zumab, -umab, -cept, Etanercept, Infliximab, Adalimumab, Golimumab, Tocilizumab, Anakinra, Abatacept, Rituximab, Trastuzumab, Bevacizumab, Cetuximab, Panitumumab, Pembrolizumab, Nivolumab, Ipilimumab, Omalizumab, Mepolizumab, Dupilumab, Denosumab, Alemtuzumab, Basiliximab, Vedolizumab, Ustekinumab, Palivizumab, 輸注反應, Infusion reaction, 細胞激素釋放症候群, Cytokine release syndrome, CRS, TNF 抑制劑, 抗 TNF, 抗 CD20, 抗 IgE, 抗 IL-5, 檢查點抑制劑, 免疫檢查點抑制劑, 結核再活化, B 型肝炎再活化]
 dzTags: []
 system: hematology-immunology

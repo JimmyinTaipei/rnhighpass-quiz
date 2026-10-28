@@ -1,6 +1,6 @@
 ---
 title: 呼吸系統評估與檢查
-subtitle: Respiratory assessment — respiratory rate and patterns, physical examination, breath sounds, pulse oximetry, bronchoscopy and thoracentesis
+subtitle: Respiratory assessment
 aliases: [呼吸評估, 呼吸系統評估, Respiratory assessment, 呼吸的測量, 呼吸速率, 呼吸次數, 呼吸型態, 呼吸過速, Tachypnea, 呼吸過慢, Bradypnea, 呼吸暫停, Apnea, 庫斯毛耳氏呼吸, 庫斯摩爾氏呼吸, Kussmaul respiration, 陳施氏呼吸, 潮式呼吸, Cheyne-Stokes respiration, 畢歐氏呼吸, Biot respiration, 喟嘆式呼吸, Sighing respiration, 端坐呼吸, Orthopnea, 噘嘴式呼吸, 三腳架姿勢, 鼻翼搧動, 肋間凹陷, 胸骨凹陷, 桶狀胸, 杵狀指, 視診, 觸診, 叩診, 聽診, 觸覺語顫, 反響音, 過度反響音, 濁音, 呼吸音, 肺泡音, 支氣管音, 支氣管肺泡音, 異常呼吸音, 爆裂音, 囉音, 濕囉音, Crackles, Rales, 乾囉音, Rhonchi, 哮鳴音, 喘鳴音, Wheeze, 哮吼音, Stridor, 肋膜摩擦音, 支氣管語音, 羊語音, 耳語胸語音, 呼吸困難, Dyspnea, 發紺, 脈衝式血氧, 脈搏血氧, Pulse oximetry, SpO2, 痰液, 咳血, 胸部 X 光, 支氣管鏡, Bronchoscopy, 胸腔穿刺, 胸腔放液穿刺術, Thoracentesis, 復張性肺水腫, 吸入性灼傷]
 dzTags: [呼吸異常, 呼吸困難, 呼吸音異常, 端坐呼吸, 呼吸急促, 發紺, 呼吸道感染, 吸入性灼傷]
 system: respiratory

@@ -1,6 +1,6 @@
 ---
 title: 兒童消化系統疾病
-subtitle: Pediatric GI disorders — infant GI physiology, dehydration, recurrent abdominal pain, cleft lip and palate, infant GER, esophageal atresia and tracheoesophageal fistula, pyloric stenosis, Hirschsprung disease, anorectal malformation, diaphragmatic and inguinal hernia, intussusception, acute gastroenteritis, biliary atresia
+subtitle: Pediatric GI disorders
 aliases: [兒童消化系統疾病, 兒科消化, 唇裂, 腭裂, 顎裂, 唇顎裂, 唇腭裂, Cleft lip, Cleft palate, 嬰兒胃食道逆流, 溢奶, 食道閉鎖, 氣管食道瘻管, 氣管食道廔管, Esophageal atresia, Tracheoesophageal fistula, TEF, 3C 症狀, VACTERL, 幽門狹窄, 肥厚性幽門狹窄, Pyloric stenosis, 幽門切開術, Pyloromyotomy, 橄欖狀腫塊, 先天性巨結腸症, 先天性無神經節巨結腸症, 巨結腸症, Hirschsprung disease, 何杰金氏, 肛門閉鎖, 無肛症, Imperforate anus, 橫膈疝氣, Diaphragmatic hernia, 臍疝氣, 腹股溝疝氣, 陰囊水腫, 腸套疊, Intussusception, 果醬便, 草莓果醬樣便, 香腸狀腫塊, 鋇劑灌腸復位, 空氣灌腸, 兒童急性腸胃炎, 輪狀病毒疫苗, 膽道閉鎖, Biliary atresia, 葛西手術, Kasai procedure, 嬰兒大便卡, 中鏈脂肪酸, 兒童復發性腹痛, Recurrent abdominal pain]
 dzTags: [唇顎裂, 新生兒溢奶, 食道閉鎖, 肥厚性幽門狹窄, 先天性巨結腸症, 橫膈疝氣, 腸套疊, 膽道閉鎖, 兒童復發性腹痛]
 summary: |

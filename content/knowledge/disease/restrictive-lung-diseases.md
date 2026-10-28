@@ -1,6 +1,6 @@
 ---
 title: 限制性肺病：肺纖維化、塵肺症與肺擴張不全
-subtitle: Restrictive lung diseases — interstitial lung disease, pneumoconiosis, asbestos-related disease and atelectasis
+subtitle: Restrictive lung diseases
 aliases: [限制性肺病, 侷限性肺病, 限制型肺病, Restrictive lung disease, 間質性肺病, Interstitial lung disease, ILD, 肺纖維化, Pulmonary fibrosis, 特發性肺纖維化, IPF, 塵肺症, 肺塵埃沉著症, Pneumoconiosis, 矽肺症, 矽肺病, Silicosis, 煤礦工人塵肺症, 黑肺症, 石綿肺, 石棉肺, Asbestosis, 石綿, 石棉, 肋膜斑, 間皮瘤, 惡性間皮瘤, Mesothelioma, 類肉瘤病, 肉芽腫, Sarcoidosis, 過敏性肺炎, 肺擴張不全, 肺不張, 肺塌陷, Atelectasis, 吸收性肺擴張不全, 壓迫性肺擴張不全, 術後肺擴張不全]
 dzTags: [限制性肺病, 塵肺症, 石棉肺, 間皮瘤, 肺擴張不全]
 system: respiratory

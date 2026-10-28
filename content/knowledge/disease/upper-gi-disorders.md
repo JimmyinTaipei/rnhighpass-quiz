@@ -1,6 +1,6 @@
 ---
 title: 上消化道疾病：食道、胃與十二指腸
-subtitle: Upper GI disorders — GERD, Barrett esophagus, hiatal hernia, achalasia, esophageal diverticulum and cancer, corrosive ingestion, gastritis, peptic and stress ulcer, upper GI bleeding, gastric cancer and GIST, post-gastrectomy dumping syndrome
+subtitle: Upper GI disorders
 aliases: [上消化道疾病, 胃食道逆流, 胃食道逆流症, 胃食道逆流病, GERD, Gastroesophageal reflux disease, 心口灼熱, 心灼熱感, Heartburn, 火燒心, 下食道括約肌, LES, 巴瑞特氏食道, 巴瑞特食道, 波雷特氏食道, Barrett esophagus, 食道裂孔疝氣, 橫膈裂孔疝氣, 膈裂孔疝氣, Hiatal hernia, 滑動型疝氣, 食道旁疝氣, 食道弛緩不能, Achalasia, 食道憩室, Zenker 憩室, 食道癌, Esophageal cancer, 食道腺癌, 食道鱗狀細胞癌, 食道重建, 光動力治療, 腐蝕性物質, 強酸強鹼誤食, 漂白水誤食, 胃炎, 急性胃炎, 慢性胃炎, 自體免疫性胃炎, A 型胃炎, B 型胃炎, 消化性潰瘍, Peptic ulcer, 胃潰瘍, 十二指腸潰瘍, 壓力性潰瘍, 克林氏潰瘍, Curling ulcer, 庫欣氏潰瘍, Cushing ulcer, 潰瘍穿孔, 上消化道出血, 上腸胃道出血, 吐血, 咖啡渣樣嘔吐物, 黑便, 柏油便, Melena, 胃癌, Gastric cancer, 胃切除, 次全胃切除, Billroth I, Billroth II, 全胃切除, 胃腸道基質瘤, GIST, 傾倒症候群, 傾食症候群, Dumping syndrome, 早期傾倒症候群, 晚期傾倒症候群, 輸入環症候群]
 dzTags: [胃食道逆流, 巴瑞特氏食道, 食道裂孔疝氣, 食道弛緩不能, 食道憩室, 食道癌, 食道腺癌, 食道炎, 腐蝕性物質中毒, 急性胃炎, 慢性胃炎, 胃炎, 自體免疫性胃炎, 消化性潰瘍, 胃潰瘍, 十二指腸潰瘍, 壓力性潰瘍, 上消化道出血, 消化道出血, 黑便, 胃癌, 胃腸道基質瘤, 傾倒症候群]
 summary: |

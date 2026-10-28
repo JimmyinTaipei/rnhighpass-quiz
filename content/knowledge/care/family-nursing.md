@@ -1,6 +1,6 @@
 ---
 title: 家庭評估與護理
-subtitle: Family assessment and nursing（家庭定義與類型、Duvall 發展階段、家庭內在結構、關係複雜數、家庭功能與 APGAR、家庭危機與資源 FAMLIS／SCREEEM、家系圖、生態圖、家庭圈、卡加利模式、家庭訪視、賦權與護理契約）
+subtitle: Family assessment and nursing
 aliases: [家庭護理, 家庭評估, Family nursing, 家庭定義, 核心家庭, 折衷家庭, 主幹家庭, 大家庭, 三代家庭, 混合家庭, 重組家庭, 雙核心家庭, 雙人核心家庭, 家族網, Kin network, 公社家庭, 單親家庭, Duvall, 杜瓦爾, 家庭發展階段, 家庭生命週期, 生育期, 成員增加期, 成員擴散期, 獨立期, 空巢期, 家庭內在結構, 角色結構, 角色力竭, 角色衝突, 權力結構, 傳統權威, 情況權威, 工具權威, 分享權威, 溝通過程, 我訊息, 價值系統, 家庭關係複雜數, Bossard, 家庭功能, APGAR, Smilkstein, 適應度, 合作度, 成長度, 情感度, 融洽度, PRACTICE, 家庭危機, 成長性危機, 情境性危機, 生活改變單位, 家庭資源, FAMLIS, SCREEEM, 結構支持, 家系圖, Genogram, 生態圖, 家庭社會關係圖, Eco-map, 家庭圈, Family circle, 卡加利家庭評估模式, Calgary family assessment model, CFAM, 家庭長處, 家庭訪視, 家訪, 家庭賦權, 家庭增能, 護理契約, Contracting, 新住民家庭, 遊民]
 dzTags: [家庭功能障礙]
 system: community

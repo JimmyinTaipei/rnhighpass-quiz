@@ -1,6 +1,6 @@
 ---
 title: 護理行政緒論：管理過程、護理專業形象與衛生行政組織
-subtitle: Introduction to nursing administration（行政與管理、POSDCoRB、Gillies 與 Douglass 的護理管理過程、系統模式、護理專業形象、衛生行政組織）
+subtitle: Introduction to nursing administration
 aliases: [護理行政, 行政, 管理, 護理管理, 病室管理, POSDCoRB, Gulick, 顧力克, 管理功能, 管理過程, 管理程序, 規劃, 組織, 人員管理, 領導, 控制, Gillies, 季麗絲, Douglass, 道格拉斯, 護理管理系統, 輸入, 轉化過程, 輸出, 回饋, 護理專業形象, 行銷護理專業形象, 更正被扭曲的形象, 衛生福利部, 衛生局, 衛生所, 護理行政趨勢, 護理理念, Bevis]
 admTags: [管理功能與管理程序, 護理專業形象, 衛生行政組織, Mintzberg管理者角色, 競合價值架構(Quinn)]
 system: administration

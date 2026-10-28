@@ -1,6 +1,6 @@
 ---
 title: 觀察、溝通與專業性人際關係
-subtitle: Observation, communication and the nurse–patient relationship — types and methods of observation, symptoms vs signs, what to report, process recording, therapeutic communication, Schramm, Berlo and Berne models, verbal and nonverbal channels, Hall's distances, barriers, interview principles, therapeutic vs non-therapeutic techniques, professional vs social relationship, empathy vs sympathy, four phases
+subtitle: Observation, communication and the nurse–patient relationship
 aliases: [觀察, Observation, 護理觀察, 旁觀性觀察, 非參與性觀察, 參與性觀察, 自省性觀察, 內省性觀察, 直接觀察法, 間接觀察法, 症狀, Symptoms, 主觀症狀, 自覺症狀, 客觀症狀, 他覺症狀, 徵象, Signs, 行為過程記錄, Process recording, JOMAC, 溝通, Communication, 治療性溝通, Therapeutic communication, 舒拉姆, Schramm, 伯儂, 伯農, Berlo, 伯恩, Berne, 溝通分析, PAC, 互補溝通, 交錯溝通, 曖昧溝通, 語言溝通, 非語言溝通, 個體距離, 親密距離, 個人距離, 社交距離, 公眾距離, Edward T. Hall, 後溝通, 會談, Interview, 正式會談, 非正式會談, 傾聽, 參與式傾聽, 同理式傾聽, 同理心, Empathy, 同情心, Sympathy, 沉默, 治療性觸摸, 重述, Paraphrase, 澄清, 反映, 集中焦點, 開放式問句, 封閉式問句, 面質, Confrontation, 總結, 非治療性溝通, 改變話題, 不當保證, 切斷式反應, 過早下結論, 批判的態度, 建議性忠告, 防禦性態度, 防衛性態度, 超過負荷, 陳腔濫調, 專業性人際關係, 護病關係, 治療性人際關係, 互動前期, 認識期, 介紹期, 工作期, 結束期, 試探行為]
 system: fundamentals
 group: nursing-process-communication

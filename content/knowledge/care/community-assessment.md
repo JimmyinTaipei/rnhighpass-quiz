@@ -1,6 +1,6 @@
 ---
 title: 社區概念與社區健康評估
-subtitle: Community assessment（社區定義與要素、Ross 社區類型、Warren 五項功能、健康的社區、群體、評估內容（地理、人口、社會系統）、Anderson 與 McFarlane 社區為夥伴模式、評估方法、資源的有形與無形、4A／7A、資料來源）
+subtitle: Community assessment
 aliases: [社區, Community, 社區定義, 地理性社區, 地域性社區, 互動性社區, 功能性社區, 共同利益社區, 羅斯, Ross, 社區功能, 華倫, Warren, 生產分配消費, 社會化, 社會控制, 社會參與, 相互支援, 健康的社區, 群體, Aggregate, 社區健康評估, Community assessment, 社區評估, 社區為夥伴, Community as partner, Anderson, McFarlane, 次系統, 人口核心, 物理環境, 健康及社會服務, 經濟, 安全與交通, 政府與政治, 溝通, 教育, 娛樂, 擋風玻璃式調查, 走街式調查, Windshield survey, 重要人物訪談, Key informant, 參與式觀察, Participant observation, 社會指標, 文獻考察, 社會調查, 民意團體過程, Nominal group, 焦點團體, Focus group, 德爾菲法, 德菲法, Delphi, 影像發聲法, Photovoice, 社區資源, 有形資源, 無形資源, 人力資源, 社區意識, 社區凝聚力, 資源盤點, 可近性, 可用性, 可負擔性, 可接受性, 可信任性, 7A, 社區動力, 社區發展史]
 system: community
 group: community-assessment

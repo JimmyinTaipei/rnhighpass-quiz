@@ -1,6 +1,6 @@
 ---
 title: 尿崩症與抗利尿激素分泌不當症候群(SIADH)
-subtitle: Diabetes insipidus (AVP deficiency / resistance) and syndrome of inappropriate antidiuretic hormone secretion
+subtitle: Diabetes insipidus and SIADH
 aliases: [尿崩症, Diabetes insipidus, DI, 中樞性尿崩症, 腎因性尿崩症, 腎原性尿崩症, 精胺酸血管加壓素缺乏, AVP-D, 精胺酸血管加壓素抗性, AVP-R, 抗利尿激素分泌不當症候群, 抗利尿激素分泌失調症候群, SIADH, 水中毒, 稀釋性低血鈉, 腦耗鹽症候群, 水分剝削試驗, 禁水試驗, Water deprivation test, desmopressin, DDAVP, vasopressin, 3% 生理食鹽水, demeclocycline, tolvaptan, 腦下垂體後葉症候群]
 dzTags: [尿崩症, 抗利尿激素分泌不當症候群]
 system: endocrine

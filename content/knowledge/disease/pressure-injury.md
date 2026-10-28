@@ -1,6 +1,6 @@
 ---
 title: 壓力性損傷（壓瘡）
-subtitle: Pressure injury (pressure ulcer) — pressure, shear, friction and moisture; sites by position; Braden scale; NPIAP stages; prevention and stage-based care
+subtitle: Pressure injury (pressure ulcer)
 aliases: [壓力性損傷, Pressure injury, 壓瘡, 褥瘡, 壓傷, Pressure ulcer, Pressure sore, Decubitus ulcer, Bedsore, 剪力, Shear, 摩擦力, Friction, Braden scale, Braden 量表, 壓力性損傷風險評估, Norton scale, NPIAP, NPUAP, 第一期壓力性損傷, 第二期壓力性損傷, 第三期壓力性損傷, 第四期壓力性損傷, 無法分期, Unstageable, 深部組織損傷, Deep tissue pressure injury, DTPI, 醫療器材相關壓力性損傷, 黏膜壓力性損傷, 不可反白之紅斑, Non-blanchable erythema, 氣圈, 氣墊床, 減壓床墊]
 dzTags: [壓力性損傷]
 system: integumentary

@@ -1,6 +1,6 @@
 ---
 title: 肋膜疾病與胸部外傷：肋膜積水、氣胸、血胸、肋骨骨折與連枷胸
-subtitle: Pleural disorders and chest trauma — pleurisy, pleural effusion, empyema, pneumothorax, hemothorax, rib fractures and flail chest
+subtitle: Pleural disorders and chest trauma
 aliases: [肋膜疾病, 胸膜疾病, 肋膜炎, 胸膜炎, Pleurisy, Pleuritis, 肋膜積水, 肋膜積液, 胸水, 水胸, Pleural effusion, 漏出液, 滲出液, Transudate, Exudate, Light 準則, 膿胸, Empyema, 氣胸, Pneumothorax, 自發性氣胸, 原發性自發性氣胸, 續發性自發性氣胸, 外傷性氣胸, 開放性氣胸, 吸吮性胸部傷口, Sucking chest wound, 張力性氣胸, Tension pneumothorax, 針刺減壓, Needle decompression, 血胸, Hemothorax, 大量血胸, 氣血胸, 肋骨骨折, Rib fracture, 連枷胸, 槤枷胸, Flail chest, 反常呼吸, 奇異性呼吸, Paradoxical respiration, 肺挫傷, Pulmonary contusion, 胸部外傷, Chest trauma, 肋膜沾黏術, Pleurodesis, 肋膜剝離術, Decortication]
 dzTags: [肋膜積水, 膿胸, 氣胸, 張力性氣胸, 氣血胸, 肋骨骨折, 連枷胸, 肺挫傷]
 system: respiratory

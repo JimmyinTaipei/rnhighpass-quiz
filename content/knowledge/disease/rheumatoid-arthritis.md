@@ -1,6 +1,6 @@
 ---
 title: 類風濕性關節炎
-subtitle: Rheumatoid arthritis, RA（病理與血管翳、臨床表現、RF 與 anti-CCP、與退化性關節炎比較、藥物治療、關節保護與護理）
+subtitle: Rheumatoid arthritis, RA
 aliases: [類風濕性關節炎, 類風溼性關節炎, 風濕性關節炎, 類風濕關節炎, RA, Rheumatoid arthritis, 血管翳, Pannus, 滑膜炎, Synovitis, 類風濕因子, RF, Rheumatoid factor, 抗 CCP 抗體, Anti-CCP, 抗環瓜胺酸肽抗體, 晨僵, Morning stiffness, 尺側偏斜, Ulnar deviation, 天鵝頸變形, Swan neck, 鈕釦孔變形, Boutonniere, 類風濕結節, Rheumatoid nodule, 退化性關節炎, 骨關節炎, Osteoarthritis, 關節保護, 疾病修飾抗風濕藥, DMARD, DMARDs, Methotrexate, MTX, 氨甲蝶呤, Sulfasalazine, Leflunomide, Hydroxychloroquine, TNF 抑制劑, Etanercept, Infliximab, Adalimumab, Tocilizumab, Abatacept, Rituximab, JAK 抑制劑, Tofacitinib, 生物製劑, Biologics, 強直性脊椎炎, Ankylosing spondylitis, Felty 症候群]
 dzTags: [類風濕性關節炎]
 system: hematology-immunology

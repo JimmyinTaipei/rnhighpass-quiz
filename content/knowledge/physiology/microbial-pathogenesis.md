@@ -1,6 +1,6 @@
 ---
 title: 微生物總論與致病機轉
-subtitle: Microbiology basics and microbial pathogenesis（細菌構造、毒素、病毒複製、感染鏈）
+subtitle: Microbiology basics and microbial pathogenesis
 aliases: [微生物總論, 細菌學總論, 病毒學總論, 革蘭氏染色, Gram stain, 革蘭氏陽性, 革蘭氏陰性, 胜肽聚醣, Peptidoglycan, 脂多醣, LPS, 內毒素, Endotoxin, 外毒素, Exotoxin, 莢膜, Capsule, 芽孢, 內孢子, Endospore, 質體, Plasmid, 接合作用, Conjugation, 轉化作用, Transformation, 導入作用, Transduction, 噬菌體, 套膜, 外套膜, Envelope, 蛋白殼, Capsid, 組織趨向性, Tropism, 科霍假說, Koch's postulates, 感染鏈, 普利昂, Prion]
 dzTags: []
 system: infection

@@ -1,6 +1,6 @@
 ---
 title: 肝硬化與門脈高壓：腹水、食道靜脈曲張與肝性腦病變
-subtitle: Liver cirrhosis — types, clinical features, portal hypertension and collaterals, ascites and paracentesis, esophageal varices bleeding, hepatic encephalopathy, liver failure, fatty liver disease
+subtitle: Liver cirrhosis
 aliases: [肝硬化, Liver cirrhosis, Cirrhosis, 酒精性肝硬化, 雷氏肝硬化, Laennec cirrhosis, 壞死後肝硬化, 膽源性肝硬化, 心因性肝硬化, 門脈高壓, 門靜脈高壓, Portal hypertension, 側枝循環, 海蛇頭, Caput medusae, 腹水, Ascites, 腹腔放液, 腹腔穿刺, Paracentesis, 自發性細菌性腹膜炎, SBP, 食道靜脈曲張, Esophageal varices, 靜脈曲張出血, 食道靜脈瘤結紮, EVL, 硬化治療, 三腔管, 胃食道氣球管, Sengstaken-Blakemore tube, 肝性腦病變, 肝昏迷, Hepatic encephalopathy, 撲翼樣震顫, Asterixis, 肝臭, 肝衰竭, Hepatic failure, 肝腎症候群, 蜘蛛痣, 手掌紅斑, 肝掌, 男性女乳, 脂肪肝, Fatty liver, 代謝功能障礙相關脂肪性肝病, MASLD]
 dzTags: [肝硬化, 門脈高壓, 腹水, 食道靜脈曲張, 肝性腦病變, 肝衰竭, 脂肪肝]
 summary: |

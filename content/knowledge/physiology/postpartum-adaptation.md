@@ -1,6 +1,6 @@
 ---
 title: 產後生理調適
-subtitle: Postpartum physiological adaptation — the puerperium, uterine involution (fundal height, weight, endometrium and placental site), afterpains, lochia, cervix, vagina and perineum, return of ovulation and menstruation, cardiovascular and blood changes, urinary and bowel changes, skin, muscles and weight, and the hormonal basis of lactation
+subtitle: Postpartum physiological adaptation
 aliases: [產後生理變化, 產後生理, 產褥期, Puerperium, 第四孕期, 第四妊娠期, Fourth trimester, 產後期, Postpartum period, 復舊, Involution, 子宮復舊, Uterine involution, 子宮底高度, 產後子宮底, 自體溶解, Autolysis, 退行性變化, 進行性變化, 胎盤剝離部位, 產後痛, After pain, Afterpains, 惡露, Lochia, 紅惡露, Lochia rubra, 漿液惡露, 漿惡露, Lochia serosa, 白惡露, Lochia alba, 惡露量, 子宮頸復舊, 處女膜痕, 產後月經, 產後排卵, 產後心跳過緩, 產後生命徵象, 產後白血球, 產後高凝血, 產後利尿, Puerperal diuresis, 產後尿瀦留原因, 產後便秘原因, 產後出汗, 產後寒顫, 腹直肌分離, Diastasis recti, 產後體重]
 dzTags: [產後惡露, 產後痛, 產後子宮復舊, 心搏過緩, 多尿]
 system: obstetrics

@@ -1,6 +1,6 @@
 ---
 title: 失智症用藥
-subtitle: Anti-dementia drugs（乙醯膽鹼酯酶抑制劑 donepezil、rivastigmine、galantamine；NMDA 拮抗劑 memantine；精神行為症狀用藥注意事項；健保給付規定）
+subtitle: Anti-dementia drugs
 aliases: [失智症用藥, 樂意保, Leqembi, 欣智樂, Kisunla, 失智症治療藥品, 抗失智藥, 阿茲海默症用藥, 阿茲海默症治療藥物, Anti-dementia drugs, 乙醯膽鹼酯酶抑制劑, 膽鹼酯酶抑制劑, Acetylcholinesterase inhibitor, AChEI, Cholinesterase inhibitor, Donepezil, Aricept, 愛憶欣, Rivastigmine, Exelon, 憶思能, 憶思能貼片, Galantamine, Reminyl, 利憶靈, Memantine, Ebixa, 威智, NMDA 受體拮抗劑, NMDA receptor antagonist, Tacrine, Lecanemab, Donanemab, 抗類澱粉蛋白單株抗體, ARIA, BPSD 用藥, 健保失智症給付]
 dzTags: [失智症, 阿茲海默症]
 system: psychiatric

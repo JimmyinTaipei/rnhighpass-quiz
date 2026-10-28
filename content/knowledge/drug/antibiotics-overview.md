@@ -1,6 +1,6 @@
 ---
 title: 抗生素總論
-subtitle: Principles of antibacterial therapy（作用機轉、使用原則、抗藥性、過敏）
+subtitle: Principles of antibacterial therapy
 aliases: [抗生素, 抗菌藥, Antibiotics, Antibacterial agents, 殺菌劑, 抑菌劑, Bactericidal, Bacteriostatic, 時間依賴型, 濃度依賴型, 峰濃度, 谷濃度, Peak, Trough, 抗藥性, 多重抗藥性菌, MDRO, MRSA, VRE, ESBL, CRE, β-內醯胺酶, Beta-lactamase, 協同作用, Synergism, 困難梭狀桿菌, Clostridioides difficile, 偽膜性腸炎, 抗生素相關腹瀉, 盤尼西林過敏, Penicillin allergy, 皮膚試驗, 抗生素管理]
 dzTags: [細菌感染]
 system: infection

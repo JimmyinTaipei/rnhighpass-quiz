@@ -1,6 +1,6 @@
 ---
 title: 中樞神經系統感染
-subtitle: CNS infections（細菌性、病毒性與黴菌性腦膜炎；腦脊髓液判讀；腦膜刺激徵象；腰椎穿刺；腦炎與腦膿瘍）
+subtitle: CNS infections
 aliases: [中樞神經感染, 腦膜炎, Meningitis, 細菌性腦膜炎, 化膿性腦膜炎, 病毒性腦膜炎, 無菌性腦膜炎, Aseptic meningitis, 流行性腦脊髓膜炎, 腦膜炎雙球菌, 隱球菌腦膜炎, 黴菌性腦膜炎, 結核性腦膜炎, 嗜酸性腦膜炎, 腦炎, Encephalitis, 疱疹性腦炎, 腦膿瘍, Brain abscess, 腦脊髓液, CSF, 腰椎穿刺, Lumbar puncture, 克尼格氏徵象, 柯林氏徵象, Kernig sign, 布魯辛斯基氏徵象, Brudzinski sign, 頸部僵硬, 角弓反張, 腦膜刺激徵象, 腰椎穿刺後頭痛]
 dzTags: [腦膜炎, 細菌性腦膜炎, 病毒性腦膜炎, 嗜酸性腦膜炎]
 system: neuro

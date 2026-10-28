@@ -1,6 +1,6 @@
 ---
 title: 中心靜脈導管與中心靜脈壓
-subtitle: Central venous catheter and central venous pressure — insertion sites and lumens, measuring CVP with a water manometer or transducer, what high and low values mean, dressing care, bundle care to prevent bloodstream infection, air embolism, and removal; pulmonary artery (Swan-Ganz) catheter basics
+subtitle: Central venous catheter and central venous pressure
 aliases: [中心靜脈導管, 中央靜脈導管, CVC, Central venous catheter, 中心靜脈壓, 中央靜脈壓, CVP, Central venous pressure, 頸靜脈壓, JVP, 右心房壓, RAP, 測壓計, 水柱測壓, 零點, 腋中線第四肋間, 靜脈靜水壓軸, Phlebostatic axis, 三管腔, Triple lumen, 遠端管腔, Distal lumen, 鎖骨下靜脈導管, 內頸靜脈導管, 股靜脈導管, 周邊置入中心靜脈導管, PICC, Hickman, 人工血管, 中心導管相關血流感染, CLABSI, CRBSI, 組合式照護, Bundle care, 空氣栓塞, Air embolism, 左側臥頭低, Durant 姿勢, 肺動脈導管, 順流導管, Swan-Ganz, PAC, 肺動脈楔壓, 肺微血管楔壓, PCWP, PAWP, 肺動脈壓, PAP, 熱稀釋法, 心輸出量監測]
 dzTags: [空氣栓塞]
 system: critical-care

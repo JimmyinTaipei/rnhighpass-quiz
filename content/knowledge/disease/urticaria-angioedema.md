@@ -1,6 +1,6 @@
 ---
 title: 蕁麻疹與血管性水腫
-subtitle: Urticaria and angioedema（急慢性蕁麻疹、組織胺與緩激肽型水腫、遺傳性血管性水腫、藥物性水腫）
+subtitle: Urticaria and angioedema
 aliases: [蕁麻疹, 風疹塊, 慢性蕁麻疹, 急性蕁麻疹, 自發性蕁麻疹, 慢性自發性蕁麻疹, 誘發性蕁麻疹, 人為性蕁麻疹, 皮膚劃紋症, 寒冷性蕁麻疹, 膽鹼性蕁麻疹, Urticaria, Hives, Chronic spontaneous urticaria, CSU, 血管性水腫, 血管神經性水腫, Angioedema, Angioneurotic edema, 遺傳性血管性水腫, Hereditary angioedema, HAE, C1 酯酶抑制劑, C1-INH, Icatibant, ACE 抑制劑血管性水腫, ACEI 水腫, 緩激肽, Bradykinin, Omalizumab]
 dzTags: [蕁麻疹]
 system: hematology-immunology

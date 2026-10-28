@@ -1,6 +1,6 @@
 ---
 title: 母乳哺育
-subtitle: Breastfeeding — lactation physiology, colostrum, transitional and mature milk, foremilk and hindmilk, breast milk versus formula and cow's milk, Ten Steps to Successful Breastfeeding and skin-to-skin contact, feeding cues, positioning and latch, signs of adequate intake, common problems (perceived low supply, engorgement, flat nipples, plugged ducts, breastfeeding jaundice), weaning and lactation suppression, contraindications and formula feeding
+subtitle: Breastfeeding
 aliases: [母乳哺育, 母乳哺餵, 哺餵母乳, 餵母奶, 親餵, Breastfeeding, 泌乳, Lactation, 初乳, Colostrum, 過渡乳, 成熟乳, 前奶, Foremilk, 後奶, Hindmilk, 乳清蛋白, 酪蛋白, 乳鐵蛋白, 寡糖, 母乳成分, 配方奶, 牛奶, 嬰兒配方奶, 成功哺餵母乳十措施, 母嬰親善, Baby-friendly, 肌膚接觸, Skin-to-skin, 依需求哺餵, Demand feeding, 飢餓暗示, Feeding cues, 尋乳反射, 含乳, Latch, 正確含乳, 哺乳姿勢, 搖籃式, 橄欖球式, 側躺餵奶, 吸吮吞嚥, 奶水不足, 乳汁分泌不足, 生理性脹奶, 乳房腫脹, Engorgement, 脹奶, 乳腺管阻塞, 乳頭扁平, 乳頭凹陷, 乳頭疼痛, 乳頭破皮, 手擠奶, 擠奶, 母乳保存, 母乳黃疸, 哺乳性黃疸, 退奶, 離乳, 斷奶, 母乳禁忌, 補充開水, 生理性體重減輕]
 dzTags: [產後乳房脹痛, 乳腺管阻塞, 乳汁分泌不足, 母乳哺育問題, 退奶, 母乳黃疸]
 system: obstetrics

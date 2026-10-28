@@ -1,6 +1,6 @@
 ---
 title: 主動脈內氣球幫浦與葉克膜
-subtitle: Mechanical circulatory support — intra-aortic balloon pump (counterpulsation timing, effects, nursing care, complications) and extracorporeal membrane oxygenation (VV versus VA, anticoagulation, nursing care, complications), with ventricular assist devices
+subtitle: Mechanical circulatory support
 aliases: [主動脈內氣球幫浦, 主動脈氣球幫浦, 主動脈內氣球反搏, IABP, Intra-aortic balloon pump, 反搏, Counterpulsation, 舒張期充氣, 收縮期放氣, 增加冠狀動脈灌流, 降低後負荷, 氦氣, 葉克膜, 體外膜性血氧交換器, 體外膜氧合, ECMO, Extracorporeal membrane oxygenation, VV-ECMO, VA-ECMO, 靜脈靜脈葉克膜, 靜脈動脈葉克膜, 體外心肺復甦, ECPR, 體外生命支持, ECLS, 心室輔助器, 左心室輔助器, VAD, LVAD, Ventricular assist device, 機械循環支持, Mechanical circulatory support, 人工心臟]
 system: critical-care
 group: icu-devices

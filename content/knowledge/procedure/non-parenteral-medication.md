@@ -1,6 +1,6 @@
 ---
 title: 口服、栓劑、吸入、滴入與經皮給藥
-subtitle: Non-parenteral medication — oral (incl. children and NG tube), sublingual and buccal, rectal and vaginal suppositories, inhalation, eye/ear/nose instillation and transdermal patches
+subtitle: Non-parenteral medication
 aliases: [口服給藥, Oral administration, 口服藥, PO, 舌下含服, 舌下錠, Sublingual, 口頰溶片, Buccal, 鼻胃管給藥, 管灌給藥, 兒童餵藥, 餵藥器, 鐵劑口服, 栓劑, 塞劑, 栓塞給藥, Suppository, 肛門栓劑, 直腸給藥, Rectal administration, Dulcolax 栓劑, Bisacodyl, 陰道栓劑, Vaginal administration, 吸入法, 蒸氣吸入, 噴霧治療, 滴入法, 眼藥水, 點眼藥, 眼藥膏, Eye drops, 耳藥, 滴耳, Ear drops, 鼻藥, 滴鼻, 經皮給藥, 貼片, Transdermal patch, Fentanyl 貼片, Durogesic, Painkyl, 藥物與食物]
 dzTags: []
 system: fundamentals

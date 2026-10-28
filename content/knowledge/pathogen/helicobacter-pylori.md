@@ -1,6 +1,6 @@
 ---
 title: 幽門螺旋桿菌
-subtitle: Helicobacter pylori（慢性胃炎、消化性潰瘍、胃癌與 MALT 淋巴瘤）
+subtitle: Helicobacter pylori
 aliases: [幽門螺旋桿菌, 幽門桿菌, 胃幽門螺旋桿菌, Helicobacter pylori, H. pylori, HP, 碳十三尿素呼氣試驗, 尿素呼氣試驗, UBT, 糞便抗原檢測, CLO test, 快速尿素酶試驗, 除菌治療, 三合一療法, 四合一療法, MALT 淋巴瘤, MALToma]
 dzTags: [消化性潰瘍, 胃炎, 胃癌]
 system: infection

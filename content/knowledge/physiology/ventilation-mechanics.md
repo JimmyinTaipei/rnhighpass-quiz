@@ -1,6 +1,6 @@
 ---
 title: 肺通氣：呼吸肌、壓力變化、肺容積與肺功能
-subtitle: Pulmonary ventilation — respiratory muscles, pressures, compliance, lung volumes and spirometry
+subtitle: Pulmonary ventilation
 aliases: [肺通氣, 肺換氣作用, Pulmonary ventilation, 呼吸肌, 橫膈, 外肋間肌, 內肋間肌, 呼吸輔助肌, 胸鎖乳突肌, 斜角肌, 腹肌, 波以耳定律, 大氣壓, 肺泡壓, 肺泡內壓, 胸膜內壓, 肋膜內壓, 跨肺壓, 肺間壓, Transpulmonary pressure, 順應性, Compliance, 彈性回縮, 表面張力, 拉普拉斯定律, 呼吸道阻力, 肺容積, 肺容量, 潮氣容積, 潮氣體積, Tidal volume, 吸氣儲備容積, 呼氣儲備容積, 餘氣容積, 肺餘容積, 吸氣容量, 功能肺餘量, 功能性肺餘容積, FRC, 肺活量, Vital capacity, 肺總量, 全肺容量, TLC, 肺量計, Spirometry, 肺功能檢查, FEV1, FVC, FEV1/FVC, 第一秒用力呼氣容積, 用力肺活量, 阻塞性肺病, 限制性肺病, 侷限性肺病, 無效腔, 死腔, 解剖無效腔, 每分鐘通氣量, 肺泡通氣量, 換氣過度, 過度換氣, 換氣不足, Hyperventilation, Hypoventilation]
 dzTags: [換氣過度, 限制性肺病]
 system: respiratory

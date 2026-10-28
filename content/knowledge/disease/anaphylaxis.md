@@ -1,6 +1,6 @@
 ---
 title: 過敏性休克
-subtitle: Anaphylaxis（診斷準則、誘發原因、腎上腺素、急救流程、雙相反應、出院衛教）
+subtitle: Anaphylaxis
 aliases: [過敏性休克, 過敏性休克反應, 全身性過敏反應, 嚴重過敏反應, 類過敏反應, Anaphylaxis, Anaphylactic shock, Anaphylactoid reaction, 腎上腺素, Epinephrine, 腎上腺素自動注射筆, Epinephrine autoinjector, EpiPen, 雙相反應, Biphasic anaphylaxis, 類胰蛋白酶, Tryptase, 藥物過敏, 食物過敏, 昆蟲叮咬過敏, 喉頭水腫, 急救過敏]
 dzTags: [過敏性休克]
 system: hematology-immunology

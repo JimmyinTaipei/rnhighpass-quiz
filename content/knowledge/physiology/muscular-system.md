@@ -1,6 +1,6 @@
 ---
 title: 肌肉系統
-subtitle: Muscular system — skeletal, cardiac and smooth muscle, muscle fiber and sarcomere structure, sliding filament and cross-bridge cycle, excitation–contraction coupling, energy sources, fiber types, types of contraction, rigor mortis, and the major skeletal muscles and their actions
+subtitle: Muscular system
 aliases: [肌肉系統, Muscular system, 肌肉組織, Muscle tissue, 骨骼肌, Skeletal muscle, 心肌, Cardiac muscle, 平滑肌, Smooth muscle, 橫紋肌, Striated muscle, 肌纖維, Muscle fiber, 肌原纖維, Myofibril, 肌絲, Myofilament, 肌節, Sarcomere, Z 線, Z line, I 帶, A 帶, H 區, M 線, 肌動蛋白, Actin, 肌凝蛋白, 肌球蛋白, Myosin, 旋轉素, 肌鈣蛋白, Troponin, 旋轉肌凝素, 原肌球蛋白, Tropomyosin, 攜鈣素, 鈣調素, Calmodulin, 肌漿網, 肌漿質網, Sarcoplasmic reticulum, 橫小管, T 小管, Transverse tubule, 雷恩諾鹼受體, Ryanodine receptor, 滑動肌絲學說, Sliding filament theory, 橫橋, Cross-bridge, 力擊, Power stroke, 興奮收縮耦合, 磷酸肌酸, Creatine phosphate, 肌紅素, Myoglobin, 衛星細胞, Satellite cell, 快肌, 慢肌, 紅肌, 白肌, 等長收縮, Isometric contraction, 等張收縮, Isotonic contraction, 向心收縮, 離心收縮, 強直收縮, 加成作用, Summation, 間盤, Intercalated disc, 屍僵, Rigor mortis, 肌肉疲勞, 肌束, 羽狀肌, 會聚肌, 三角肌, 胸大肌, 斜方肌, 前鋸肌, 背闊肌, 旋轉肌袖, Rotator cuff, 棘上肌, 棘下肌, 小圓肌, 肩胛下肌, 肱二頭肌, 肱三頭肌, 肱橈肌, 臀大肌, 臀中肌, 股四頭肌, 股直肌, 縫匠肌, 股三角, Femoral triangle, 膕旁肌, 腿後肌, 股二頭肌, 半腱肌, 半膜肌, 股薄肌, 內收肌, 腓腸肌, 比目魚肌, 跟腱, 阿基里斯腱, Achilles tendon, 脛前肌, 嚼肌, 顳肌, 翼外肌, 翼內肌, 表情肌, 頸闊肌, 口輪匝肌, 橫膈, 提肛肌, Levator ani, 骨盆底肌, 豎脊肌, Erector spinae, 腹直肌]
 dzTags: [屍僵, 肌肉疲勞, 肌肉損傷]
 summary: |

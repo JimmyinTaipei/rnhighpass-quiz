@@ -1,6 +1,6 @@
 ---
 title: 社區衛生護理概論與健康政策
-subtitle: Community health nursing（學門名稱與定義、發展三階段、臺灣公衛重點變遷、特性、分科與執業場域、12 項角色、核心能力、3E、基層保健 4A、健康政策制定過程與護理人員參與）
+subtitle: Community health nursing
 aliases: [社區衛生護理, 社區護理, Community health nursing, 公共衛生護理, Public health nursing, 地段護理, District nursing, 訪視護理, 保健護士, 以社區為導向, 以社區為基礎, 熱氣球模式, 人口群體, Population-focused, 社區衛生護理特性, 綜合性社區衛生護理, 專科化社區衛生護理, 社區衛生護理師認證, 社區護理師角色, 照護提供者, 教育者, 代言者, 倡議者, 倡導者, Advocate, 個案管理者, 協調者, 照護協調者, 觸媒者, 領導者, 研究者, 顧問, 諮詢者, 個案發現者, 流行病學者, 評值者, 3E, 工程, 教育, 強制, 基層保健醫療, Primary health care, 阿瑪阿塔宣言, Alma-Ata, 全民均健, Health for All, 4A, 可近性, 可用性, 可接受性, 負擔得起, 健康政策, 公共政策, 政策制定過程, 排定議程, 發展政策, 健康融入所有政策, HiAP, 利益團體, 2025 衛生福利政策白皮書]
 system: community
 group: community-health-system

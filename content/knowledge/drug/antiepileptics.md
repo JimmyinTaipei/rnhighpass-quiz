@@ -1,6 +1,6 @@
 ---
 title: 抗癲癇藥
-subtitle: Antiseizure medications(antiepileptic drugs)— mechanisms, phenytoin, monitoring and status epilepticus
+subtitle: Antiseizure medications(antiepileptic drugs)
 aliases: [抗癲癇藥物, 抗癲癇用藥, 癲癇用藥, 抗痙攣藥, Antiepileptic drug, AED, Antiseizure medication, ASM, Phenytoin, Dilantin, 癲能停, Fosphenytoin, Carbamazepine, Tegretol, 癲通, Oxcarbazepine, Trileptal, Valproic acid, Valproate, Depakine, 帝拔癲, Phenobarbital, Luminal, Primidone, Mysoline, Ethosuximide, Zarontin, Lamotrigine, Lamictal, Levetiracetam, Keppra, Brivaracetam, Gabapentin, Neurontin, Pregabalin, Lyrica, Topiramate, Topamax, Lacosamide, Vigabatrin, Perampanel, Felbamate, Acetazolamide, Diamox, 牙齦增生, 齒齦增生, HLA-B*1502, 癲癇重積狀態, 重積狀態, Status epilepticus, 生酮飲食, Ketogenic diet, 血中藥物濃度, 治療藥物監測]
 dzTags: []
 system: neuro

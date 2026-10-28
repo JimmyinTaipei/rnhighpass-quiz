@@ -1,6 +1,6 @@
 ---
 title: 副甲狀腺疾病：機能亢進、功能低下與術後低血鈣
-subtitle: Parathyroid disorders — hyperparathyroidism, hypoparathyroidism, tetany and post-thyroidectomy hypocalcemia
+subtitle: Parathyroid disorders
 aliases: [副甲狀腺疾病, 副甲狀腺機能亢進, 副甲狀腺功能亢進, 副甲狀腺亢進, Hyperparathyroidism, 原發性副甲狀腺機能亢進, 續發性副甲狀腺機能亢進, 次發性副甲狀腺機能亢進, 副甲狀腺腺瘤, 副甲狀腺切除術, Parathyroidectomy, 副甲狀腺功能低下, 副甲狀腺機能低下, Hypoparathyroidism, 假性副甲狀腺功能低下, Pseudohypoparathyroidism, 手足抽搐, Tetany, 沃斯特克氏徵象, Chvostek sign, 特魯索氏徵象, Trousseau sign, 喉部痙攣, 葡萄糖酸鈣, Calcium gluconate, 磷結合劑, 氫氧化鋁, 酸灰性食物]
 dzTags: [副甲狀腺機能亢進, 副甲狀腺功能低下]
 system: endocrine

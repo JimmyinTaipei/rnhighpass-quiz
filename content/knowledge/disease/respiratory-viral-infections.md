@@ -1,6 +1,6 @@
 ---
 title: 呼吸道病毒感染
-subtitle: Respiratory viral infections（流行性感冒、新型 A 型流感、COVID-19、SARS、MERS、一般感冒）
+subtitle: Respiratory viral infections
 aliases: [呼吸道病毒感染, 流行性感冒, 流感, Influenza, 季節性流感, 流感併發重症, 新型 A 型流感, 禽流感, H5N1, H7N9, H1N1, H3N2, 抗原漂移, 抗原移型, 血球凝集素, 神經胺酸酶, 雷氏症候群, COVID-19, 新冠肺炎, 嚴重特殊傳染性肺炎, SARS-CoV-2, 新型冠狀病毒, 新冠併發重症, SARS, 嚴重急性呼吸道症候群, MERS, 中東呼吸症候群, 一般感冒, 普通感冒, 鼻病毒]
 dzTags: [流行性感冒, 嚴重特殊傳染性肺炎]
 system: infection

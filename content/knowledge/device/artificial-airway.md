@@ -1,6 +1,6 @@
 ---
 title: 人工氣道：氣管內管、氣切管與甦醒球
-subtitle: Artificial airways — endotracheal tube, tracheostomy tube, cuff care and bag-valve-mask ventilation
+subtitle: Artificial airways
 aliases: [人工氣道, Artificial airway, 氣管內管, 氣管內插管, 氣管插管, Endotracheal tube, ETT, Endo, 經口氣管內管, 經鼻氣管內管, 插管, Intubation, 快速插管, RSI, 喉頭鏡, 環狀軟骨加壓, Sellick 手法, 沙立克手法, Cricoid pressure, 潮氣末二氧化碳, EtCO2, 波形二氧化碳監測, Capnography, 右主支氣管插管, 非計畫性拔管, 自拔, 拔管, Extubation, 氣切, 氣管切開術, 氣管造口, 氣切造口, Tracheostomy, 氣切管, 外管, 內管, 管芯, Obturator, 頸板, 氣切綁帶, 氣切口護理, 說話瓣膜, 套囊, 氣囊, Cuff, 套囊壓, 氣囊壓, 指示氣球, Pilot balloon, 聲門下抽吸, 環甲膜切開術, 口咽人工氣道, 鼻咽人工氣道, Oropharyngeal airway, 甦醒球, 手壓式甦醒球, Ambu bag, Bag-valve-mask, BVM, E-C 手法, 儲氧袋]
 dzTags: []
 system: critical-care

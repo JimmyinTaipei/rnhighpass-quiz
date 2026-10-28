@@ -1,6 +1,6 @@
 ---
 title: 醫院評鑑與護理評鑑
-subtitle: Hospital accreditation and nursing evaluation（評鑑類別、以病人為焦點的查證 PFM、115 年度醫院評鑑基準的架構、護理評鑑範疇）
+subtitle: Hospital accreditation and nursing evaluation
 aliases: [醫院評鑑, 教學醫院評鑑, 護理評鑑, Nursing audit, 評鑑基準, 評鑑類級, 醫學中心, 區域醫院, 地區醫院, 合格, 不合格, 符合, 待改善, 以病人為焦點的查證方式, PFM, Patient Focus Method, 追蹤方法學, Tracer, 追蹤查證, 案例追查, 系統追查, 交叉查證, 重點條文, 必要條文, 可免評條文, 試評條文, 評鑑改革, 簡化, 優化, 日常化, 人力素質及品質促進, 護理照護品質, 全日平均護病比]
 admTags: [醫院評鑑]
 system: administration

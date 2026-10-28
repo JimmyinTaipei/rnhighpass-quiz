@@ -1,6 +1,6 @@
 ---
 title: 產時胎心監測
-subtitle: Intrapartum fetal heart rate monitoring — intermittent auscultation versus continuous electronic fetal monitoring, applying the transducers and reading the tracing, baseline rate, tachycardia and bradycardia, variability, accelerations, early, late, variable and prolonged decelerations, NICHD three-tier categories, and intrauterine resuscitation
+subtitle: Intrapartum fetal heart rate monitoring
 aliases: [產時胎心監測, 胎心音監測, 胎心率監測, 胎兒監測器, 電子胎兒監測, EFM, Electronic fetal monitoring, CTG, Cardiotocography, 胎心音及宮縮監測器, 間歇性聽診, Intermittent auscultation, 子宮收縮壓力計, Tocodynamometer, 胎兒心跳轉送器, 胎兒頭皮電極, 子宮內壓導管, IUPC, 胎心率基準線, Baseline FHR, 胎兒心搏過速, 胎兒心搏過緩, 胎心率變異性, Variability, 胎心率加速, Acceleration, 胎心率減速, Deceleration, 早期減速, 早發性減速, Early deceleration, 晚期減速, 晚發性減速, Late deceleration, 變異性減速, Variable deceleration, 延長減速, Prolonged deceleration, 正弦波形, Sinusoidal pattern, NICHD 三級分類, 胎心率分類, Category I, Category II, Category III, 子宮內復甦, Intrauterine resuscitation, 胎兒窘迫, Fetal distress, 羊水胎便染色, 胎心音聽診位置]
 dzTags: [胎兒窘迫, 早發性減速, 羊水胎糞污染]
 summary: |

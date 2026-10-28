@@ -1,6 +1,6 @@
 ---
 title: 慢性病兒童與家庭的護理：以家庭為中心、正常化與學校適應
-subtitle: Nursing care of children with chronic conditions and their families — family-centered care, normalization, developmental impact, parental coping, school adjustment
+subtitle: Nursing care of children with chronic conditions and their families
 aliases: [慢性病兒童, 慢性疾病兒童, 兒童慢性病, Chronically ill children, Children with chronic conditions, 以家庭為中心, 家庭中心照護, Family-centered care, 正常化, Normalization, 賦能, 增能, Empowerment, 過度保護, 手足, 慢性悲傷, 學校適應, 個別化健康照護計畫, 學校護理師]
 dzTags: []
 system: fundamentals

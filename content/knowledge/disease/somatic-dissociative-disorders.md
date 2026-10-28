@@ -1,6 +1,6 @@
 ---
 title: 身體症狀障礙症與解離症
-subtitle: Somatic symptom and related disorders, dissociative disorders（身體症狀障礙症、罹病焦慮症、轉化症、人為障礙症、原始與附帶收穫、解離性失憶、解離性身分障礙、失自我感）
+subtitle: Somatic symptom and related disorders, dissociative disorders
 aliases: [身體症狀障礙症, 身體症狀及相關障礙症, 身體化症, 身體化疾患, Somatic symptom disorder, SSD, 罹病焦慮症, 疾病焦慮症, 慮病症, Illness anxiety disorder, Hypochondriasis, 轉化症, 轉換症, 功能性神經症狀障礙症, Conversion disorder, Functional neurological symptom disorder, 人為障礙症, 做作性疾患, 孟喬森症候群, Factitious disorder, Munchausen, 詐病, Malingering, 原始收穫, 原發性獲益, Primary gain, 附帶收穫, 次級獲益, 次發性獲益, Secondary gain, 泰然漠視, La belle indifférence, 藥物催眠會談, Amobarbital interview, 解離症, 解離性疾患, Dissociative disorders, 解離性失憶症, Dissociative amnesia, 解離性漫遊, Dissociative fugue, 解離性身分障礙症, 多重人格, Dissociative identity disorder, 失自我感, 失現實感, 自我感消失, Depersonalization, Derealization]
 dzTags: [身體症狀障礙症, 轉化症, 解離症, 解離性失憶症]
 system: psychiatric

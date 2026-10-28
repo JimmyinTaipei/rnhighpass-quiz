@@ -1,6 +1,6 @@
 ---
 title: 護理品質管理的基本概念：QA 到 TQM、Donabedian 與控制
-subtitle: Nursing quality management concepts（品質演進 QC→QA→TQC→TQM、QUACERS、Donabedian 結構／過程／結果、效率與效能、控制類型、改善主題選擇）
+subtitle: Nursing quality management concepts
 aliases: [護理品質, 品質管理, 品質保證, QA, Quality Assurance, 品質控制, QC, TQC, 全面品質管制, TQM, 全面品質管理, 全方位品質管理, CQI, 持續性品質改善, 品質演進, Deming, 戴明, Juran, 朱蘭, Ishikawa, 石川馨, Feigenbaum, QUACERS, ANA品質保證模式, Donabedian, 唐納貝登, 結構面, 過程面, 結果面, 結構指標, 過程指標, 結果指標, 效率標準, 效能標準, 控制, 事前控制, 事後控制, 前饋控制, 護理標準, 品質指標, 三讀五對, 洗手遵從率]
 admTags: [品質管理學者與理論, TQM與CQI, Donabedian品質三面向, 護理品質指標與標準, 控制類型與程序, 品質改善主題與工具選擇]
 system: administration

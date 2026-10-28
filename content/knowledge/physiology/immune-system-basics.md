@@ -1,6 +1,6 @@
 ---
 title: 免疫系統總覽與先天免疫
-subtitle: Immune system overview and innate immunity（三道防線、免疫器官、免疫細胞、先天免疫、新生兒與老年免疫）
+subtitle: Immune system overview and innate immunity
 aliases: [免疫系統, 免疫, Immune system, 先天免疫, 先天性免疫, 非特異性免疫, 非特異性防禦, Innate immunity, 後天免疫, 後天性免疫, 特異性免疫, Adaptive immunity, 淋巴器官, 淋巴系統, 淋巴組織, 淋巴管, 淋巴循環, 胸腺, Thymus, 脾臟, Spleen, 淋巴結, Lymph node, 扁桃腺, 扁桃體, 派亞氏斑, Peyer's patch, 黏膜相關淋巴組織, MALT, 中央淋巴器官, 周邊淋巴器官, 嗜中性球, 嗜中性白血球, Neutrophil, 多型核白血球, 巨噬細胞, Macrophage, 單核球, Monocyte, 樹突細胞, Dendritic cell, 自然殺手細胞, NK 細胞, Natural killer cell, 肥大細胞, 肥胖細胞, Mast cell, 嗜酸性球, Eosinophil, 嗜鹼性球, Basophil, 蘭氏細胞, Langerhans cell, 庫佛氏細胞, Kupffer cell, 類鐸受體, Toll-like receptor, TLR, TLR4, 病原體相關分子模式, PAMP, DAMP, PRR, 干擾素, Interferon, 吞噬作用, Phagocytosis, 趨化, Chemotaxis, 調理素, Opsonin, 急性期反應, 急性期蛋白, 溶菌酶, Lysozyme, 防禦素, Defensin, 正常菌叢, 新生兒免疫, 母乳免疫, 初乳, 分泌型 IgA, sIgA, 免疫老化, Immunosenescence]
 dzTags: []
 system: hematology-immunology

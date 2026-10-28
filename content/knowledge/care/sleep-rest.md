@@ -1,6 +1,6 @@
 ---
 title: 休息與睡眠：睡眠週期、影響因素與促進睡眠的護理
-subtitle: Rest and sleep — NREM and REM stages, sleep cycles across the lifespan, factors and drugs affecting sleep, insomnia criteria, sleep deprivation and nursing measures (sleep hygiene)
+subtitle: Rest and sleep
 aliases: [休息, Rest, 睡眠, Sleep, 睡眠週期, Sleep cycle, 非快速動眼期, NREM, 快速動眼期, REM, 慢波睡眠, 深睡期, 沉睡期, 褪黑激素, Melatonin, 色胺酸, Tryptophan, 生理時鐘, 晝夜節律, Circadian rhythm, 失眠, Insomnia, 入睡困難, 睡眠維持困難, 早醒, 睡眠效率, 嗜睡, Hypersomnia, 睡眠剝削, 睡眠剝奪, Sleep deprivation, 睡眠呼吸中止, 睡眠衛生, Sleep hygiene, 刺激控制法, 集中護理, 安眠藥]
 dzTags: [睡眠障礙, 失眠]
 system: fundamentals

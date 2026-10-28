@@ -1,6 +1,6 @@
 ---
 title: 月經問題與更年期
-subtitle: Menstrual disorders and menopause — normal menstruation and menstrual hygiene, abnormal uterine bleeding and its terms, amenorrhea, polycystic ovary syndrome, primary and secondary dysmenorrhea, premenstrual syndrome and PMDD, toxic shock syndrome, and the menopausal transition with symptoms and nursing care
+subtitle: Menstrual disorders and menopause
 aliases: [月經問題, 月經異常, Menstrual disorders, 月經, 初經, Menarche, 經期衛生, 不正常子宮出血, 異常子宮出血, Abnormal uterine bleeding, AUB, 功能失調性子宮出血, 無排卵性出血, 月經過多, Menorrhagia, 經血過多, 月經過少, 月經頻繁, 月經過稀, Oligomenorrhea, 經間出血, 子宮不規則出血, 無月經, Amenorrhea, 原發性無月經, 續發性無月經, 多囊性卵巢症候群, 多囊性卵巢疾病, 多囊卵巢, PCOS, Polycystic ovary syndrome, 痛經, 經痛, Dysmenorrhea, 原發性痛經, 續發性痛經, 經前症候群, PMS, Premenstrual syndrome, 經期前情緒低落症, 經前不悅症, PMDD, 毒性休克症候群, 中毒性休克症候群, Toxic shock syndrome, 更年期, 更年期症候群, 停經, Menopause, 停經前期, 停經過渡期, Perimenopause, 停經後, 熱潮紅, Hot flash, 更年期保健]
 dzTags: [痛經, 經前症候群, 多囊性卵巢症候群, 無月經, 月經過多, 不正常子宮出血, 更年期症候群]
 summary: |

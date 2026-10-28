@@ -1,6 +1,6 @@
 ---
 title: 護理記錄與醫囑：記錄原則、SOAPIE 與焦點記錄、TPR 單與醫囑處理
-subtitle: Documentation and orders — purposes and principles of recording, corrections and e-signature, what to report, source-oriented vs problem-oriented (SOAPIER) vs focus charting (DART), vital-sign sheet conventions, medical record retention, standing/stat/p.r.n./S.O.S./verbal orders, order renew, record abbreviations, shift report and ISBAR
+subtitle: Documentation and orders
 aliases: [護理記錄, 記錄, Documentation, 病歷, Medical record, 記錄的目的, 記錄的原則, 正確性, 完整性, 簡潔明瞭, 時效性, 組織性, 電子簽章, 醫事人員憑證 IC 卡, error, 傳統式記錄, 資料來源導向記錄法, SOR, 敘述記錄法, 行為過程記錄, Process recording, 以問題為導向的記錄法, POR, POMR, POHR, SOAP, SOAPIE, SOAPIER, 護理焦點記錄法, Focus charting, DART, D.A.R.T., 生命徵象記錄表, TPR 單, 體溫單, 1/E, OP day, 輸出入量, 病歷保存, 醫囑, Doctor's order, 長期醫囑, Standing order, 臨時醫囑, Stat order, p.r.n., S.O.S., 口頭醫囑, 電話醫囑, order renew, 醫囑重整, D.C., R/O, M.B.D., A.A.D., 許可出院, 自動出院, 交班, 交班報告, Kardex, ISBAR]
 system: fundamentals
 group: nursing-process-communication

@@ -1,6 +1,6 @@
 ---
 title: 人格障礙症
-subtitle: Personality disorders（DSM-5 總論、A／B／C 三群十種類型、病因、治療、分裂與操縱行為、設限與護理）
+subtitle: Personality disorders
 aliases: [人格障礙症, 人格障礙, 人格違常, 人格疾患, Personality disorder, A 群人格障礙症, B 群人格障礙症, C 群人格障礙症, 妄想型人格障礙症, Paranoid personality disorder, 孤僻型人格障礙症, 類分裂型人格, Schizoid personality disorder, 思覺失調型人格障礙症, 分裂病型人格, Schizotypal personality disorder, 反社會型人格障礙症, 反社會人格, Antisocial personality disorder, 邊緣型人格障礙症, 邊緣性人格, Borderline personality disorder, BPD, 做作型人格障礙症, 戲劇型人格, Histrionic personality disorder, 自戀型人格障礙症, Narcissistic personality disorder, 畏避型人格障礙症, 迴避型人格, Avoidant personality disorder, 依賴型人格障礙症, Dependent personality disorder, 強迫型人格障礙症, 強迫性人格, Obsessive-compulsive personality disorder, OCPD, 分裂, Splitting, 投射性認同, 操縱行為, Manipulation, 設限, Limit setting, 辯證行為治療, DBT, 自我協調, Ego-syntonic, 自傷, 割腕]
 dzTags: [人格障礙症, 邊緣型人格障礙症, 反社會型人格障礙症, 思覺失調型人格障礙症, 做作型人格障礙症, 自戀型人格障礙症]
 system: psychiatric

@@ -1,6 +1,6 @@
 ---
 title: 受精與胚胎、胎兒發育
-subtitle: Fertilization and embryology — capacitation and fertilization, cleavage and the blastocyst, implantation and the decidua, hCG, ectopic implantation sites, fetal membranes and amniotic fluid, the placenta and umbilical cord, germ layers and organogenesis, the pre-embryonic, embryonic and fetal periods, fetal growth milestones, lung maturity, and twins
+subtitle: Fertilization and embryology
 aliases: [受精, Fertilization, 受孕, Conception, 精子獲能, Capacitation, 頂體反應, 透明帶, 卵裂, Cleavage, 桑椹胚, Morula, 囊胚, 胚囊, Blastocyst, 內細胞團, 滋養層, Trophoblast, 融合滋養層, 細胞滋養層, 著床, Implantation, 蛻膜, Decidua, 底蛻膜, 包蛻膜, 真蛻膜, 壁蛻膜, 子宮外孕, 異位妊娠, Ectopic pregnancy, 胚胎膜, 胎膜, 羊膜, Amnion, 絨毛膜, Chorion, 絨毛, 羊水, Amniotic fluid, 胎盤, Placenta, 胎盤功能, 臍帶, Umbilical cord, 華通氏膠, Wharton's jelly, 三胚層, 外胚層, 中胚層, 內胚層, Ectoderm, Mesoderm, Endoderm, 器官形成期, Organogenesis, 胚胎前期, 胚胎期, 胎兒期, 致畸胎, 致畸形, Teratogen, 胎兒發育, 胎兒生長, 胎毛, 胎脂, 胎動, 胎便, 肺成熟, 表面張力素, L/S 比, 卵磷脂, 雙胞胎, 同卵雙胞胎, 異卵雙胞胎, 單卵雙胞胎, 雙卵雙胞胎]
 summary: |
   受精最常在輸卵管壺腹部；精子要穿過放射冠與透明帶，單套精子與單套卵子結合

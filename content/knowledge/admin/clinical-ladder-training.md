@@ -1,6 +1,6 @@
 ---
 title: 護理專業發展：臨床進階制度、Benner 模式與在職教育
-subtitle: Professional development of nurses（N0–N4 進階制度、Benner 從生手到專家、在職教育、生涯規劃、教學評量）
+subtitle: Professional development of nurses
 aliases: [臨床進階制度, 臨床專業能力進階制度, 基層護理人員臨床專業能力進階, 專業能力進階, N1, N2, N3, N4, Clinical ladder, Benner, 班納, 從生手到專家, 生手, 進階學習者, 勝任者, 精通者, 專家, Dreyfus, 在職教育, 繼續教育, 新進人員訓練, 到職訓練, Orientation, 生涯規劃, 前程管理, 學習需求評估, DOPS, OSCE, 護理專業形象]
 admTags: [臨床專業能力進階制度, Benner臨床能力五階段, 在職教育與新進人員訓練, 護理生涯規劃與發展, 臨床教學評量, 護理專業形象, 赫茲伯格雙因子理論]
 system: administration

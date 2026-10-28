@@ -1,6 +1,6 @@
 ---
 title: 藥物動力學與藥效學
-subtitle: General pharmacology — pharmacokinetics (absorption, bioavailability, first-pass effect, bioequivalence, distribution, metabolism by phase I and II reactions and cytochrome P450, excretion, half-life, steady state, clearance) and pharmacodynamics (receptors and G proteins, dose-response, potency and efficacy, therapeutic index, agonists and types of antagonism), drug interactions and pregnancy
+subtitle: General pharmacology
 aliases: [藥理學總論, 藥物動力學, 藥動學, Pharmacokinetics, PK, ADME, 吸收, 分布, 代謝, 排泄, 生體可用率, Bioavailability, 首渡效應, 首度效應, First-pass effect, 生體相等性, Bioequivalence, AUC, 血腦障壁, 再分布, Redistribution, 第一相反應, 第二相反應, Phase I, Phase II, 接合反應, 葡萄糖醛酸化, 細胞色素 P450, CYP450, CYP3A4, CYP2C19, 酵素誘導, 酵素抑制, 前驅藥, Prodrug, 半衰期, Half-life, 穩定狀態, Steady state, 清除率, Clearance, 藥效學, Pharmacodynamics, PD, 受體, G 蛋白偶合受體, GPCR, Gs, Gi, Gq, Adenylyl cyclase, cAMP, 去敏感化, 劑量反應曲線, 效價, Potency, 效能, Efficacy, 治療指數, Therapeutic index, TI, ED50, LD50, MAC, 致效劑, Agonist, 拮抗劑, Antagonist, 藥理性拮抗, 生理性拮抗, 化學性拮抗, 藥物交互作用, 葡萄柚汁, 甘草, 懷孕期藥物動力學]
 summary: |
   藥動學是身體怎麼處理藥物（吸收、分布、代謝、排泄）；藥效學是藥物怎麼作用在身體（機轉、劑量反應）

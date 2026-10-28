@@ -1,6 +1,6 @@
 ---
 title: 兒童與青少年心理健康問題
-subtitle: Child and adolescent mental health（神經發展障礙症總覽、照護原則、學習障礙、抽搐症與妥瑞氏症、排泄障礙症、行為規範障礙症、青少年憂鬱、校園霸凌、慢性病青少年）
+subtitle: Child and adolescent mental health
 aliases: [兒童精神疾病, 青少年精神疾病, 兒童青少年精神醫學, 兒童心智科, 神經發展障礙症, Neurodevelopmental disorders, 內向性障礙, 外向性障礙, Internalizing, Externalizing, 學習障礙, 特定學習障礙症, Specific learning disorder, 閱讀障礙, 閱讀障礙症, 失讀症, Dyslexia, 書寫障礙, 數學障礙, 抽搐症, 抽動症, Tic disorder, 妥瑞氏症, 妥瑞症, 妥瑞氏症候群, Tourette's disorder, Tourette syndrome, 動作型抽動, 聲語型抽動, 穢語症, 回音性言語, 習慣反轉訓練, 排泄障礙症, 遺尿症, 尿床, Enuresis, 遺糞症, Encopresis, 行為規範障礙症, 品行障礙症, 規範障礙, Conduct disorder, 對立反抗症, Oppositional defiant disorder, 侵擾行為, 衝動控制及行為規範障礙症, 校園霸凌, 霸凌, 網路霸凌, Bullying, 青少年憂鬱症, 兒童憂鬱症, 語言障礙症]
 dzTags: [閱讀障礙症, 妥瑞氏症, 遺尿症, 行為規範障礙症, 神經發展障礙症]
 system: psychiatric

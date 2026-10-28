@@ -1,6 +1,6 @@
 ---
 title: 營養疾病：蛋白質熱量營養不良與維生素缺乏
-subtitle: Nutritional diseases — protein-energy malnutrition (marasmus, kwashiorkor), fat-soluble and water-soluble vitamin deficiencies, obesity
+subtitle: Nutritional diseases
 aliases: [營養疾病, 營養不良, Malnutrition, 蛋白質熱量營養不良, Protein-energy malnutrition, PEM, 消瘦症, 乾瘦症, Marasmus, 紅孩兒病, 惡性營養不良, Kwashiorkor, 蛋白質營養不良, 維生素缺乏, 維生素缺乏症, 脂溶性維生素, 水溶性維生素, 維生素 A, 夜盲症, 乾眼症, 維生素 D, 佝僂病, 軟骨症, 維生素 E, 維生素 K, 新生兒出血症, 維生素 B1, 硫胺素, Thiamine, 腳氣病, Beriberi, 魏尼克腦病變, 維生素 B2, 核黃素, 口角炎, 菸鹼酸, Niacin, 糙皮病, 癩皮病, Pellagra, 維生素 B6, 葉酸, Folate, 維生素 B12, 巨球性貧血, 維生素 C, 壞血病, Scurvy, 肥胖, Obesity, BMI]
 dzTags: [營養不良, 蛋白質營養不良, 紅孩兒病, 壞血病, 維生素缺乏症, 營養缺乏]
 system: general-pathology

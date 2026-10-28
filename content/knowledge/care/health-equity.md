@@ -1,6 +1,6 @@
 ---
 title: 健康不平等與弱勢族群照護
-subtitle: Health equity and vulnerable populations（健康不平等的定義與成因、健康白皮書策略、原住民族健康政策、新住民、身心障礙鑑定、遊民、文化能力、SDGs 與 WHO）
+subtitle: Health equity and vulnerable populations
 aliases: [健康不平等, 健康平等, Health inequity, Health equity, 健康差距, 健康的社會決定因素, Social determinants of health, 弱勢族群, Vulnerable population, 易感族群, 原住民族健康, 原鄉健康不平等, 原住民族文化健康站, 文化健康站, 文健站, 新住民, 新移民, 外籍配偶, 身心障礙, 身心障礙鑑定, 身心障礙證明, ICF, 國際功能分類, 遊民, 貧窮, 低收入戶, 文化能力, Cultural competence, 文化敏感度, 文化安全, Cultural safety, 永續發展目標, SDGs, Sustainable Development Goals, SDG 3, 良好健康與福祉, 世界衛生組織, WHO, 世界衛生大會, WHA, 2020 健康國民白皮書, 2025 衛生福利政策白皮書, 數位健康]
 system: community
 group: community-health-system

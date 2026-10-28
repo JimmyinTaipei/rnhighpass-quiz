@@ -1,6 +1,6 @@
 ---
 title: 繃帶、三角巾與束帶包紮；傷口的分類與評估
-subtitle: Bandaging — purposes, roller bandage materials (elastic, gauze, flannel, plaster), tubular bandage, triangular sling, binders; circulation assessment, principles before/during/after bandaging, anchoring and tying, circular, spiral, spiral-reverse, figure-of-eight, spica and recurrent turns; wound classification, color, healing phases, infection signs and drainage
+subtitle: Bandaging
 aliases: [繃帶, Bandage, 包紮, 捲軸繃帶, Roller bandage, 彈性繃帶, Elastic bandage, 自黏彈性繃帶, 紗布繃帶, Gauze bandage, 棉布繃帶, 法蘭絨繃帶, 石膏繃帶, 套入式繃帶, 彈性網狀繃帶, Tubinette, 三角巾, Triangular bandage, 懸臂帶, Arm sling, 褶帶繃帶, 束帶, Binder, 丁字帶, T-binder, 四頭帶, 多頭帶, 束腹帶, 腹帶, 定帶, 結帶, 環形包紮法, Circular turn, 螺旋形包紮法, Spiral turn, 急螺旋, 緩螺旋, 螺旋回反形包紮法, Spiral reverse, 8 字形包紮法, Figure-of-eight, 人字形包紮法, Spica, 回反摺形包紮法, Recurrent turn, 殘肢包紮, 截肢殘肢, 蒼白試驗, Blanching test, 末梢血循評估, 傷口, Wound, 傷口分類, 急性傷口, 慢性傷口, 開放性傷口, 封閉性傷口, 切割傷, 撕裂傷, 刺傷, 擦傷, 挫傷, 部分皮層傷口, 全皮層傷口, 紅黃黑傷口, 傷口癒合, 發炎期, 纖維增生期, 重塑期, 傷口感染, 傷口引流]
 dzTags: [創傷, 傷口, 軟組織損傷, 截肢]
 system: fundamentals

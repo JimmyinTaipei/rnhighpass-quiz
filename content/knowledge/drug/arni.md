@@ -1,6 +1,6 @@
 ---
 title: 血管收縮素受體-腦啡肽酶抑制劑
-subtitle: ARNI(Angiotensin receptor–neprilysin inhibitor):sacubitril/valsartan
+subtitle: ARNI(sacubitril/valsartan)
 aliases: [ARNI, Sacubitril/valsartan, Sacubitril, Entresto, 健安心, Neprilysin inhibitor, 腦啡肽酶抑制劑, 中性內肽酶抑制劑]
 dzTags: [心臟衰竭]
 system: cardiovascular

@@ -1,6 +1,6 @@
 ---
 title: 物質使用障礙症
-subtitle: Substance use disorders（名詞定義、DSM-5 診斷、病因、台灣毒品分級與法律處遇、各類物質的中毒與戒斷、新興毒品、治療分期、動機式晤談、護理）
+subtitle: Substance use disorders
 aliases: [物質使用障礙症, 物質相關及成癮障礙症, 物質濫用, 物質依賴, 藥物濫用, 藥物成癮, 藥物使用障礙症, 毒品, 吸毒, 藥癮, Substance use disorder, Substance abuse, Addiction, 耐受性, Tolerance, 戒斷, Withdrawal, 心理依賴, 生理依賴, 身體依賴, 交叉耐受, 渴求, Craving, 酬償系統, 海洛因, Heroin, 嗎啡, 鴉片類, Opioids, 安非他命, Amphetamine, 甲基安非他命, 冰毒, 古柯鹼, Cocaine, 搖頭丸, MDMA, K 他命, 愷他命, Ketamine, 天使塵, PCP, Phencyclidine, 大麻, Cannabis, THC, LSD, 迷幻藥, FM2, Flunitrazepam, 新興影響精神物質, NPS, 毒咖啡包, 依托咪酯, 喪屍煙彈, Etomidate, 間質性膀胱炎, 毒品危害防制條例, 觀察勒戒, 強制戒治, 動機式晤談, Motivational interviewing, 改變階段, 嗜賭症, 賭博障礙症, 網路成癮]
 dzTags: [物質使用障礙症]
 system: psychiatric

@@ -1,6 +1,6 @@
 ---
 title: 個別心理治療、行為治療與認知治療
-subtitle: Individual psychotherapy, behavior therapy and cognitive therapy（支持性與分析式治療、人本與人際治療、動機式晤談、增強與代幣、系統減敏、認知扭曲、理情與現實治療）
+subtitle: Individual psychotherapy, behavior therapy and cognitive therapy
 aliases: [個別心理治療, 心理治療, 支持性心理治療, Supportive psychotherapy, 心理分析治療, 精神分析治療, Psychoanalysis, 自由聯想, 夢的解析, 抗拒的解析, 再教育性心理治療, 人文心理治療, 個人中心治療, 個人為中心式治療, Person-centered therapy, 羅傑斯, Rogers, 無條件正向關懷, 存在主義治療, 存在人文主義治療, 人際關係心理治療, 人際心理治療, IPT, 動機式晤談, 動機式晤談法, Motivational interviewing, 行為治療, Behavior therapy, 行為治療法, 古典制約, 操作制約, 古典制約論, 操作性制約論, 社會學習理論, 正增強, 正向增強, 負增強, 負向增強, 處罰, 懲罰, 消弱, 消去, 增強物, 逐步養成法, 塑造法, Shaping, 連鎖, 代幣制度, 代幣制, Token economy, 行為契約, 行為修正, 行為矯正, ABC 分析, 社交技巧訓練, 社交技巧, Social skills training, SST, 肯定訓練, 自我肯定訓練, Assertiveness training, 系統減敏感法, 系統減敏法, Systematic desensitization, 相互抑制, 暴露及反應預防, 暴露與反應阻止法, ERP, 洪水法, Flooding, 內爆法, 生理回饋, Biofeedback, 思考中斷法, Thought stopping, 認知治療, Cognitive therapy, 認知行為治療, 認知行為療法, CBT, Cognitive behavioral therapy, 貝克, Beck, 認知三合一, 自動化想法, 認知扭曲, 認知偏差, 非黑即白, 二分法思考, 思考兩極化, 過度概括, 過度推論, Overgeneralization, 選擇性偏差推論, 選擇性摘取, 武斷推論, 災難化, 個人化, 讀心術, 情緒推理, 控制的謬誤, 理情治療, 理情行為治療, 理情行為療法, REBT, RET, 艾利斯, Ellis, ABCDE 理論, 現實治療, Reality therapy, 葛拉瑟, Glasser, 選擇理論]
 dzTags: []
 system: psychiatric

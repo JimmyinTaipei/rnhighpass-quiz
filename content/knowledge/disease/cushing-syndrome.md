@@ -1,6 +1,6 @@
 ---
 title: 庫欣氏症候群：皮質醇過多、診斷檢查與腎上腺切除術
-subtitle: Cushing syndrome — exogenous and endogenous hypercortisolism, Cushing disease, diagnostic tests, adrenalectomy
+subtitle: Cushing syndrome
 aliases: [庫欣氏症候群, 庫欣氏症, 庫欣症候群, 庫辛氏症候群, Cushing syndrome, Cushing's syndrome, 庫欣氏病, 庫辛氏病, Cushing disease, 皮質醇過多, 高皮質醇血症, Hypercortisolism, 醫源性庫欣氏症候群, 外源性類固醇, 月亮臉, 水牛肩, 向心性肥胖, 紫紋, 24 小時尿液游離皮質醇, 地塞米松抑制試驗, Dexamethasone suppression test, 深夜唾液皮質醇, 異位 ACTH, 腎上腺切除術, Adrenalectomy, 腎上腺皮質腺瘤]
 dzTags: [庫欣氏症候群, 庫欣氏病]
 system: endocrine

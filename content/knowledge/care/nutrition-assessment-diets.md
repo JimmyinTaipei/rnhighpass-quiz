@@ -1,6 +1,6 @@
 ---
 title: 營養評估、均衡飲食與治療飲食
-subtitle: Nutrition — macronutrients and micronutrients, Taiwan daily food guide (six food groups, My Plate), nutrition assessment (BMI, ideal body weight, waist, skinfolds, albumin, MUST) and therapeutic diets by texture and composition
+subtitle: Nutrition
 aliases: [營養, Nutrition, 營養素, 六大營養素, 醣類, 碳水化合物, 蛋白質, 脂肪, 必需胺基酸, 膳食纖維, 維生素, 礦物質, 均衡飲食, 每日飲食指南, 六大類食物, 全穀雜糧類, 豆魚蛋肉類, 乳品類, 蔬菜類, 水果類, 油脂與堅果種子類, 我的餐盤, 國民飲食指標, 營養評估, Nutritional assessment, 身體質量指數, BMI, Body mass index, 標準體重, 理想體重, IBW, 腰圍, 腰臀比, 體脂肪率, 三頭肌皮層厚度, TSF, 上臂中點肌肉環圍, MAMC, 白蛋白, Albumin, 運鐵蛋白, Transferrin, 全淋巴球計數, 氮平衡, 營養不良通用篩檢工具, MUST, MNA, 治療飲食, Therapeutic diet, 普通飲食, 軟質飲食, 剁碎飲食, 溫和飲食, 半流質飲食, 全流質飲食, 清流質飲食, Clear liquid diet, Full liquid diet, 低渣飲食, 高纖維飲食, 高蛋白飲食, 低蛋白飲食, 低油飲食, 低鈉飲食, 低鉀飲食, 低磷飲食, 低普林飲食, 孕期營養, 素食, 葉酸]
 dzTags: [營養不良, 營養缺乏, 肥胖, 體重不足, 體重減輕, 食慾不振]
 system: fundamentals

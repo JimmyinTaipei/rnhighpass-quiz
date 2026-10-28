@@ -1,6 +1,6 @@
 ---
 title: 團體治療與家庭治療
-subtitle: Group therapy and family therapy（團體療效因子、發展階段、各型團體；家庭系統理論與各學派、家庭評估與護理）
+subtitle: Group therapy and family therapy
 aliases: [團體治療, 團體心理治療, Group therapy, 團體療效因子, 療效因子, 治療性因子, 治療性因素, Yalom, 亞隆, 耶隆, 灌注希望, 希望灌注, 普遍性, 普及性, 共通性, Universality, 凝聚力, 團體凝聚力, Cohesiveness, 利他, 利他性, Altruism, 人際學習, Interpersonal learning, 情緒宣洩, 情感宣洩, Catharsis, 存在因素, 存在因子, 模仿行為, 發展社交技巧, 原生家庭經驗再現, 傳達訊息, 團體規範, 團體發展階段, 初始期, 工作期, 結束期, 開放性團體, 封閉性團體, 同質性團體, 異質性團體, 會心團體, Encounter group, 心理演劇, 心理劇, Psychodrama, 懷舊團體, 懷舊治療, Reminiscence therapy, 閱讀治療, Bibliotherapy, 娛樂團體, 職能治療團體, 健康指導團體, 家庭治療, Family therapy, 家庭系統理論, 系統性家庭治療, 結構性家庭治療, 策略性家庭治療, 鮑恩, Bowen, 自我分化, 三角關係, Triangles, 米紐慶, Minuchin, 次系統, 界線, 糾結, 疏離, 薩提爾, Satir, 雙重束縛, Double bind, 假性和諧, 自我界域, 代罪羔羊, 家庭結構評估, 內在結構, 外在結構, 家庭依附關係治療]
 dzTags: []
 system: psychiatric

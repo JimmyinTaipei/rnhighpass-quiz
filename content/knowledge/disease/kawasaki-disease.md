@@ -1,6 +1,6 @@
 ---
 title: 川崎氏症
-subtitle: Kawasaki disease（診斷準則與不完整川崎氏症、冠狀動脈病變、IVIG 與阿斯匹靈、衛教與護理）
+subtitle: Kawasaki disease
 aliases: [川崎氏症, 川崎病, 川崎氏病, 皮膚黏膜淋巴結症候群, 黏膜皮膚淋巴結症候群, Kawasaki disease, Kawasaki syndrome, KD, 不完整川崎氏症, Incomplete Kawasaki disease, 冠狀動脈瘤, 冠狀動脈病變, Coronary artery aneurysm, CAA, 草莓舌, Strawberry tongue, 免疫球蛋白靜脈注射, IVIG, 靜脈注射免疫球蛋白, 阿斯匹靈, Aspirin, 雷氏症候群, Reye syndrome, 血管炎, Vasculitis, 小兒血管炎, 兒童後天性心臟病, 脫皮]
 dzTags: [川崎氏症]
 system: hematology-immunology

@@ -1,6 +1,6 @@
 ---
 title: 產科常用藥物總覽
-subtitle: Obstetric drugs（子宮收縮劑、安胎藥、產前類固醇、子癇前症用藥、Rh 免疫球蛋白、其他孕產期用藥）
+subtitle: Obstetric drugs
 aliases: [產科用藥, 產科常用藥物, 產科藥物, Obstetric drugs, 子宮收縮劑, 宮縮劑, Uterotonics, 安胎藥, 安胎藥物, Tocolytics, 催產素, Oxytocin, Pitocin, 麥角鹼, Methylergonovine, Methergine, Ergonovine, Dinoprostone, Carboprost, Misoprostol, Ritodrine, Yutopar, Atosiban, Tractocile, Nifedipine, 硫酸鎂, MgSO4, Magnesium sulfate, 葡萄糖酸鈣, Betamethasone, 產前類固醇, Labetalol, Hydralazine, 低劑量阿斯匹靈, Rh 免疫球蛋白, RhIG, 抗 D 免疫球蛋白, Tranexamic acid]
 summary: |
   產科用藥分成「讓子宮收縮」與「讓子宮放鬆」兩大類，加上產前類固醇、子癇前症用藥與 Rh 免疫球蛋白

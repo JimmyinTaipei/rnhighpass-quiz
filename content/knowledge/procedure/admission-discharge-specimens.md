@@ -1,6 +1,6 @@
 ---
 title: 入院、轉出與出院護理；常規檢體收集與靜脈採血
-subtitle: Admission, transfer and discharge — ward nurse duties on admission, psychological reactions, valuables, discharge types (MBD, AAD, referral, death), discharge planning (METHOD), terminal disinfection; routine specimen collection, venous blood sampling, hemolysis, CBC reference values, special specimens
+subtitle: Admission, transfer and discharge
 aliases: [入院護理, Admission, 入院, 住院, 病房護理人員職責, 入院心理反應, 貴重物品, 轉出, Transfer, 轉床, 轉科, 出院, Discharge, 出院方式, 同意出院, MBD, May be discharged, 自動出院, AAD, Against advice discharge, 轉院, Referral, 出院計畫, Discharge planning, METHOD, 終期消毒, Terminal disinfection, 病人單位消毒, 檢體收集, Specimen collection, 常規檢查, 靜脈採血, Venipuncture, 抽血, 止血帶, Tourniquet, 真空採血管, 採血順序, Order of draw, 溶血, Hemolysis, 禁食抽血, 全血球計數, 血液常規, 精液檢查, Semen analysis, 精液檢體]
 dzTags: [溶血, 血腫]
 system: fundamentals

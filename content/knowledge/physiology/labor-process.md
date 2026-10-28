@@ -1,6 +1,6 @@
 ---
 title: 分娩的過程與機轉
-subtitle: The process of labor — premonitory signs and true versus false labor, the four Ps (passage and pelvic types, passenger — fetal skull sutures, fontanels and diameters, attitude, lie, presentation and position, powers — uterine contractions and the physiologic retraction ring, maternal position), cardinal movements of labor, the four stages of labor and how to time them, placental separation (Schultze and Duncan mechanisms), and maternal and fetal responses to labor
+subtitle: The process of labor
 aliases: [分娩, 分娩過程, 生產過程, Labor, 正常分娩, 產兆, 分娩徵兆, 真陣痛, 假陣痛, True labor, False labor, 腹輕感, 胎頭下降感, Lightening, 現血, 見紅, Bloody show, 黏液栓, 破水, 分娩 4P, 產道, 骨盆入口, 骨盆出口, 真骨盆, 假骨盆, 女型骨盆, 男型骨盆, 類人猿型骨盆, 扁平型骨盆, Gynecoid pelvis, 胎頭, 顱縫, 矢狀縫, 冠狀縫, 人字縫, 額縫, 前囟門, 後囟門, Fontanel, 胎頭塑形, Molding, 枕下前囟徑, SOB, 枕額徑, OF, 枕頦徑, OM, 頦下前囟徑, SMB, 雙頂徑, 胎勢, Fetal attitude, 胎姿, Fetal lie, 縱位, 橫位, 胎產式, Fetal presentation, 頭產式, 頭頂產式, 前頂產式, 額產式, 面產式, 臀產式, 肩產式, 先露部位, 胎位, Fetal position, LOA, ROA, LOP, ROP, OA, OP, 生理性收縮環, 子宮收縮, 分娩機轉, Cardinal movements, 銜接, 下降, 俯屈, 內迴轉, 伸展, 復位, 外迴轉, 娩出, 產程, 第一產程, 第二產程, 第三產程, 第四產程, 潛伏期, 活動期, 過渡期, 撥露, 著冠, Crowning, 胎盤剝離, 希氏法, Schultze mechanism, 鄧氏法, Duncan mechanism]
 dzTags: [正常分娩, 真陣痛, 假陣痛, 胎頭下降]
 summary: |

@@ -1,6 +1,6 @@
 ---
 title: 人員流動、缺勤與職業倦怠
-subtitle: Turnover, absenteeism and burnout（離職率、缺勤率、穩定率計算、理想流動率、勞基法終止契約）
+subtitle: Turnover, absenteeism and burnout
 aliases: [人員流動, 流動率, 離職率, 缺勤率, 年缺勤發生率, 穩定率, 自願離職率, 非自願離職, 倦勤, 職業倦怠, Burnout, 護理人員流失, 留任, 流動率理想範圍, 曠工, 勞基法第12條, 預告期間, 資遣費, 員工關懷]
 admTags: [離職率與缺勤率計算, 離職率與留任, 職業倦怠與壓力, 勞動基準法]
 system: administration

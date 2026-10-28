@@ -1,6 +1,6 @@
 ---
 title: 注射法：肌肉、皮下、皮內與靜脈注射
-subtitle: Injections — intramuscular (sites, Z-track, air-lock), subcutaneous (insulin, heparin), intradermal (skin tests) and IV push
+subtitle: Injections
 aliases: [注射法, 注射給藥, Injection, Parenteral administration, 肌肉注射, Intramuscular injection, IM, 皮下注射, Subcutaneous injection, SC, Hypodermic, 皮內注射, Intradermal injection, ID, IC, 靜脈注射, Intravenous injection, IV push, 靜脈推注, 三角肌, 腹臀肌, 臀中肌, 背臀肌, 臀大肌, 股外側肌, 股直肌, Ventrogluteal, Dorsogluteal, Vastus lateralis, Deltoid, Z字形注射, Z-track, 預留氣泡法, Air-lock technique, 回抽, 反抽, 安瓿, Ampoule, 藥瓿, Vial, 針頭號數, Gauge, 安全針具, 胰島素注射, 肝素注射, 皮膚試驗, 青黴素試驗, PST, 結核菌素試驗, PPD, TST, 鐵劑注射]
 dzTags: []
 system: fundamentals

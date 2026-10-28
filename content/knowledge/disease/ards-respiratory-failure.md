@@ -1,6 +1,6 @@
 ---
 title: 呼吸衰竭與急性呼吸窘迫症候群
-subtitle: Acute respiratory failure and acute respiratory distress syndrome(ARDS)；含新生兒呼吸窘迫症候群
+subtitle: Acute respiratory failure and acute respiratory distress syndrome(ARDS)
 aliases: [呼吸衰竭, 急性呼吸衰竭, Respiratory failure, 低血氧型呼吸衰竭, 第一型呼吸衰竭, 高碳酸型呼吸衰竭, 第二型呼吸衰竭, 急性呼吸窘迫症候群, ARDS, 成人呼吸窘迫症候群, 非心因性肺水腫, 透明膜, 瀰漫性肺泡傷害, Berlin 定義, 柏林定義, 全球定義, P/F ratio, PaO2/FiO2, 氧合指數, 肺保護性通氣, 俯臥通氣, 俯臥姿, Prone position, 呼氣末正壓, PEEP, 新生兒呼吸窘迫症候群, 早產兒呼吸窘迫症候群, 透明膜疾病, Hyaline membrane disease, RDS, 表面張力素治療, 持續性氣道正壓, CPAP, 呼氣咕嚕聲, Silverman-Anderson 計分, 斯佛門-安德生計分, L/S 比, 卵磷脂與抱合髓磷脂比, 肺心症, 肺高壓]
 dzTags: [呼吸衰竭, 急性呼吸窘迫症候群, 新生兒呼吸窘迫症候群, 高碳酸血症]
 system: respiratory

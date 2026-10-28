@@ -1,6 +1,6 @@
 ---
 title: 抗心律不整藥
-subtitle: Antiarrhythmic drugs — Vaughan Williams classes I–IV (sodium channel blockers, beta-blockers, potassium channel blockers, calcium channel blockers), adenosine, atropine, magnesium, and the drugs used in ACLS
+subtitle: Antiarrhythmic drugs
 aliases: [抗心律不整藥, 抗心律不整藥物, 抗心律不整用藥, Antiarrhythmic, Vaughan Williams 分類, 鈉離子通道阻斷劑, 鉀離子通道阻斷劑, Quinidine, Procainamide, Disopyramide, Lidocaine, Xylocaine, Mexiletine, Tocainide, Phenytoin, Flecainide, Propafenone, Propranolol, Inderal, Esmolol, Amiodarone, Cordarone, Sotalol, Dronedarone, Multaq, Ibutilide, Bretylium, Verapamil, Isoptin, Diltiazem, Adenosine, Atropine, 硫酸鎂, Magnesium sulfate, 急救用藥, ACLS 用藥, 碳酸氫鈉, Sodium bicarbonate, 藥物誘發性狼瘡, 促心律不整作用, Proarrhythmia]
 dzTags: [心律不整, 心室頻脈, 心室上心搏過速, 心房顫動, 心肺停止, 藥物誘發性狼瘡]
 system: cardiovascular

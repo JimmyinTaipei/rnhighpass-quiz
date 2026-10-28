@@ -1,6 +1,6 @@
 ---
 title: 護理人員的法律責任與醫療糾紛處理
-subtitle: Legal liability and medical dispute management（民事、刑事、行政責任、醫療法第 82 條、醫療事故預防及爭議處理法）
+subtitle: Legal liability and medical dispute management
 aliases: [法律責任, 民事責任, 刑事責任, 行政責任, 過失, 注意義務, 醫療過失, 業務過失, 侵權行為, 醫療糾紛, 醫療爭議, 醫療事故, 醫糾法, 醫預法, 醫療事故預防及爭議處理法, 關懷小組, 調解, 重大醫療事故通報, 病人抱怨, 兒少保護通報]
 admTags: [醫療過失與法律責任, 醫療糾紛與醫事法, 兒童及少年福利與權益保障法]
 system: administration

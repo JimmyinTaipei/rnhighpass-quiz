@@ -1,6 +1,6 @@
 ---
 title: 鴉片類止痛藥
-subtitle: Opioid analgesics（嗎啡、吩坦尼、配西汀、可待因、tramadol 與拮抗劑 naloxone）
+subtitle: Opioid analgesics
 aliases: [鴉片類, 類鴉片, 麻醉性止痛劑, 麻醉性鎮痛劑, 成癮性鎮痛劑, Opioids, Narcotics, 嗎啡, Morphine, 吩坦尼, Fentanyl, 多瑞喜, Durogesic, 止痛貼片, 配西汀, Pethidine, Meperidine, Demerol, 可待因, Codeine, Tramadol, 特拉嗎竇, Oxycodone, Hydromorphone, Methadone, 美沙冬, Buprenorphine, 丁基原啡因, Pentazocine, 潘他唑新, Naloxone, Narcan, 拿洛酮, Naltrexone, 海洛因, 鴉片戒斷, 管制藥品, μ 受體]
 dzTags: [嗎啡中毒]
 system: neuro

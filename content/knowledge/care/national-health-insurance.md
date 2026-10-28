@@ -1,6 +1,6 @@
 ---
 title: 全民健康保險與健康照護經濟
-subtitle: National Health Insurance（強制性社會保險、單一保險人、六類被保險人、保險費與補充保費、財源、給付與不給付、部分負擔與免部分負擔、核退自墊、支付制度與總額、預防保健、道德危害與逆選擇）
+subtitle: National Health Insurance
 aliases: [全民健康保險, 全民健保, 健保, National Health Insurance, NHI, 二代健保, 社會保險, 強制納保, 單一保險人, 中央健康保險署, 投保, 被保險人, 眷屬, 六類被保險人, 保險費, 保險費率, 補充保險費, 補充保費, 菸品健康福利捐, 公益彩券, 隨收隨付, 安全準備, 醫療給付, 不給付項目, 義齒, 部分負擔, Copayment, 定額部分負擔, 定率部分負擔, 自負額, 免部分負擔, 重大傷病, 核退自墊醫療費用, 欠費, 暫停給付, 鎖卡, 論量計酬, Fee-for-service, 論病例計酬, 診斷關聯群, DRGs, 論日計酬, 論人計酬, 總額支付制度, Global budget, 資源耗用群, RUGs, 預防保健, 成人預防保健, 兒童預防保健, 健康存摺, 雲端藥歷, 健康照護經濟, 道德危害, Moral hazard, 逆選擇, Adverse selection, 資訊不對稱, 供給誘發需求]
 system: community
 alsoIn: [administration]

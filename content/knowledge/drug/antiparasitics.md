@@ -1,6 +1,6 @@
 ---
 title: 抗寄生蟲藥物
-subtitle: Antiparasitic drugs（抗瘧疾藥、抗原蟲藥、驅蟲藥、疥瘡與頭蝨用藥）
+subtitle: Antiparasitic drugs
 aliases: [抗寄生蟲藥, 抗瘧疾藥, 抗瘧藥, 驅蟲藥, 驅蟲劑, 殺蟲劑, Antiparasitics, Antimalarials, Anthelmintics, Chloroquine, 氯奎寧, Hydroxychloroquine, Plaquenil, 奎寧, Quinine, Mefloquine, Primaquine, Artemisinin, 青蒿素, Artesunate, Atovaquone-proguanil, Malarone, Pyrimethamine, Sulfadoxine, Fansidar, Tinidazole, Paromomycin, Nitazoxanide, Pentamidine, Mebendazole, Albendazole, Pyrantel, Praziquantel, Ivermectin, Diethylcarbamazine, Permethrin, Benzyl benzoate, BB 乳液, Crotamiton, Eurax, 優力斯, Lindane, γ-BHC, 疥瘡用藥, 頭蝨用藥]
 dzTags: [寄生蟲感染, 瘧疾, 阿米巴痢疾, 疥瘡, 蟯蟲感染]
 system: infection

@@ -1,6 +1,6 @@
 ---
 title: 流行病學
-subtitle: Epidemiology（定義與目的、疾病自然史、三段五級、致病模式、描述／分析／實驗流行病學、研究偏差、因果判定、篩檢工具）
+subtitle: Epidemiology
 aliases: [流行病學, Epidemiology, 疾病自然史, Natural history of disease, 易感受期, 臨床前期, 症狀前期, 臨床期, 殘障期, 三段五級, 初段預防, 次段預防, 末段預防, 三角模式, 流行病學三角, Epidemiologic triangle, 網狀模式, Web of causation, 輪狀模式, Wheel model, 螺狀模式, Epidemiologic spiral, 描述流行病學, 分析流行病學, 實驗流行病學, 人時地, 長期趨勢, 週期變動, 短期波動, 橫斷研究, Cross-sectional study, 病例對照研究, Case-control study, 世代研究, Cohort study, 前瞻法, 回溯法, 生態研究, Ecological study, 臨床試驗, Clinical trial, 社區試驗, Community trial, 隨機分派, 相對危險性, Relative risk, 勝算比, Odds ratio, 選樣偏差, 訊息偏差, 回憶偏差, 干擾因子, 因果關係, 時序性, 劑量效應, Hill 準則, 篩檢, 敏感度, Sensitivity, 特異性, Specificity, 偽陽性率, 偽陰性率, 陽性預測值, PPV, 陰性預測值, NPV, 信度, 效度, 雙胞胎研究, 移民研究]
 system: community
 group: community-statistics

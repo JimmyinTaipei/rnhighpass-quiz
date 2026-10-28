@@ -1,6 +1,6 @@
 ---
 title: 兒童內分泌與先天代謝異常：新生兒篩檢、先天性甲狀腺低下、CAH 與性早熟
-subtitle: Pediatric endocrine and inborn errors of metabolism — newborn screening, congenital hypothyroidism, congenital adrenal hyperplasia, precocious puberty, childhood diabetes and obesity, PKU, galactosemia
+subtitle: Pediatric endocrine and inborn errors of metabolism
 aliases: [兒童內分泌, 兒童內分泌疾病, 新生兒篩檢, 新生兒先天性代謝異常篩檢, Newborn screening, 先天性甲狀腺功能低下, 先天性甲狀腺功能低下症, 先天性甲狀腺低能症, Congenital hypothyroidism, 呆小症, 克汀症, Cretinism, 先天性腎上腺增生症, 先天性腎上腺增生, 腎上腺生殖器症候群, Congenital adrenal hyperplasia, CAH, 21-羥化酶缺乏, 17-OHP, 失鹽型, 性早熟, Precocious puberty, 中樞性性早熟, 骨齡, 先天性代謝異常, 苯酮尿症, Phenylketonuria, PKU, Lofenalac, 半乳糖血症, Galactosemia, 楓糖尿症, 楓糖漿尿症, MSUD, 高胱胺酸尿症, Homocystinuria, 異戊酸血症, Isovaleric acidemia, 甲基丙二酸血症, 兒童甲狀腺機能亢進, 兒童副甲狀腺功能低下, 兒童第 1 型糖尿病, 青少年第 2 型糖尿病, 兒童肥胖, Childhood obesity]
 dzTags: [先天性甲狀腺功能低下症, 先天性腎上腺增生症, 性早熟, 苯酮尿症, 先天性代謝異常, 半乳糖血症, 高胱胺酸尿症, 異戊酸血症]
 system: endocrine

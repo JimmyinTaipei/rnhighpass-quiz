@@ -1,6 +1,6 @@
 ---
 title: 醫院感染管制與傳染病通報的行政管理
-subtitle: Infection control and communicable disease reporting in hospital administration（醫療機構感染管制查核、傳染病通報、隔離資源、病人隱私）
+subtitle: Infection control administration
 aliases: [感染管制, 感管會, 感染管制查核, 傳染病防治法, 傳染病通報, 法定傳染病通報, 隔離, 醫療機構執行感染管制措施及查核辦法, 員工保健, 大流行應變, 病室清潔, 被服清洗, 手部衛生, 傳播途徑, HIV 保密]
 admTags: [傳染病防治與感染管制, 法定傳染病分類與通報]
 system: administration

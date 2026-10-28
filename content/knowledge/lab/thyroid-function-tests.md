@@ -1,6 +1,6 @@
 ---
 title: 甲狀腺功能檢驗
-subtitle: Thyroid function tests — TSH, free T4, T3, thyroid antibodies, radioactive iodine uptake and scan, thyroglobulin
+subtitle: Thyroid function tests
 aliases: [甲狀腺功能檢驗, 甲狀腺功能檢查, Thyroid function test, TFT, TSH, 甲狀腺刺激素, 促甲狀腺素, 游離甲狀腺素, Free T4, FT4, T4, T3, 三碘甲狀腺素, 甲狀腺素, TSH 受體抗體, TRAb, TSI, 抗甲狀腺過氧化酶抗體, Anti-TPO, 抗甲狀腺球蛋白抗體, 甲狀腺攝碘率, RAIU, 甲狀腺掃描, 甲狀腺球蛋白, Thyroglobulin, 甲狀腺超音波, 細針抽吸, 新生兒篩檢, 次臨床甲狀腺功能低下]
 dzTags: []
 system: endocrine

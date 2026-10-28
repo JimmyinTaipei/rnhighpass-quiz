@@ -1,6 +1,6 @@
 ---
 title: 體液與電解質平衡
-subtitle: Fluid and electrolyte balance — body fluid compartments, osmolality, regulation, fluid volume deficit and excess, sodium and magnesium
+subtitle: Fluid and electrolyte balance
 aliases: [體液, 體液平衡, 體液電解質, Body fluid, 細胞內液, ICF, 細胞外液, ECF, 組織間液, 血漿, 第三空間, 第三間隙, Third spacing, 總體液量, 擴散, 促進性擴散, 滲透, 濾過, 主動運輸, 鈉鉀幫浦, 滲透壓, 滲透莫耳濃度, Osmolality, Osmolarity, 等張, 高張, 低張, 口渴, 無感性水分流失, 無感覺水分流失, Insensible water loss, 輸入輸出量, I/O, 體液容積缺失, 血容積不足, Hypovolemia, 高張性脫水, 低張性脫水, 等張性脫水, 脫水, Dehydration, 兒童脫水分級, 體液容積過量, Hypervolemia, 水中毒, 電解質, Electrolyte, 鈉, 血鈉, Sodium, 低血鈉, 低鈉血症, Hyponatremia, 高血鈉, 高鈉血症, Hypernatremia, 鎂, 血鎂, Magnesium, 低血鎂, Hypomagnesemia, 高血鎂, Hypermagnesemia, 硫酸鎂中毒, 氯, 燒傷的體液變化]
 dzTags: [脫水, 體液失衡, 體液容積缺失, 體液過多, 水中毒, 電解質不平衡, 低血鈉, 高血鈉]
 system: renal

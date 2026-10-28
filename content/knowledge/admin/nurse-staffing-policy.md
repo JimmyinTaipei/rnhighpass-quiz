@@ -1,6 +1,6 @@
 ---
 title: 護理人力政策與護病比
-subtitle: Nurse staffing policy and nurse-to-patient ratio（全日平均護病比、三班護病比、醫療法第 12 條與第 102-1 條、人力彈性運用、正向執業環境）
+subtitle: Nurse staffing policy and nurse-to-patient ratio
 aliases: [護病比, 全日平均護病比, 三班護病比, 白班護病比, 小夜班護病比, 大夜班護病比, 護理人力, 護理人力短缺, 護理人力政策整備, 夜班獎勵, 三班護病比達標獎勵, 醫療法第12條, 醫療法第102-1條, 醫療機構設置標準第12-1條, 彈性運用, 數量彈性, 功能彈性, 時間彈性, 工作分享, 浮動人力庫, 技術混合, 正向執業環境, PPE, ICN]
 admTags: [護病比, 護理人力政策與短缺因應, 正向執業環境PPE, 三班人力配置比例]
 system: administration

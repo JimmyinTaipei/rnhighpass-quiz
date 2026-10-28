@@ -1,6 +1,6 @@
 ---
 title: 強迫症
-subtitle: Obsessive-compulsive disorder（強迫思考、強迫行為、防衛機轉、ERP 與 SSRI、護理）
+subtitle: Obsessive-compulsive disorder
 aliases: [強迫症, 強迫性疾患, 強迫障礙症, 強迫性精神官能症, OCD, Obsessive-compulsive disorder, 強迫思考, 強迫意念, 強迫觀念, Obsession, Obsessions, 強迫行為, Compulsion, Compulsions, 重複洗手, 重複檢查, 強迫儀式, 強迫症及相關障礙症, 身體臆形症, 拔毛症, 摳皮症, 囤積症, 強迫型人格障礙症, 強迫性人格障礙症, OCPD, 暴露及反應預防, ERP, Fluvoxamine, Luvox]
 dzTags: [強迫症]
 system: psychiatric

@@ -1,6 +1,6 @@
 ---
 title: 衛生教育
-subtitle: Health education（目的、認知情意技能三領域、教學原則與學習律、主副附學習、計畫步驟、行為目標五要素、教學方法選擇、健康傳銷、計畫評價的分類）
+subtitle: Health education
 aliases: [衛生教育, 健康教育, Health education, 護理指導, 衛教, 認知領域, 情意領域, 技能領域, Bloom, 布魯姆, 行為目標, 總目標, 具體目標, Ross and Mico, 主學習, 副學習, 附學習, Kilpatrick, 學習律, 準備律, 練習律, 效果律, 熟練原則, 類化原則, 講述法, 演講法, 小組討論, 示範法, 回覆示教, 回示教, 角色扮演, 價值澄清法, 團體動力, 個別指導, 自學教材, 自我導向學習, 健康傳銷, 社會行銷, Health marketing, 大眾傳播媒體, 形成性評價, Formative evaluation, 總結性評價, Summative evaluation, 診斷性評價, 標準參照, 常模參照, 過程評價, 衝擊評價, 結果評價, 效率評價, 效果評價, 合適性評價, 成效評價, Donabedian, 結構過程結果]
 system: community
 group: health-promotion

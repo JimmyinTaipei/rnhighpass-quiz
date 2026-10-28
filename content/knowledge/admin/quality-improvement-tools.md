@@ -1,6 +1,6 @@
 ---
 title: 品質改善工具與模式：PDCA、品管圈、QC 七手法、RCA、FMEA、BSC
-subtitle: Quality improvement tools and models（PDCA 與 FOCUS-PDCA、品管圈、品管七大手法、新七手法、RCA 與 FMEA／HFMEA、精實、平衡計分卡）
+subtitle: Quality improvement tools and models
 aliases: [品質改善, 品質改善工具, 品管工具, PDCA, 戴明循環, 休氏循環, FOCUS-PDCA, FOCUS, 品管圈, 品質管制圈, QCC, 品管七大手法, QC七手法, 新七手法, 柏拉圖, Pareto, 80/20, 魚骨圖, 特性要因圖, 因果圖, 查檢表, 核對表, 稽核表, Check sheet, 直方圖, 管制圖, 趨勢圖, 推移圖, 散布圖, 甘特圖, 系統圖, 樹狀圖, 關聯圖, 親和圖, 矩陣圖, 箭線圖, PDPC, 根本原因分析, RCA, FMEA, HFMEA, 失效模式與效應分析, 醫療失效模式, 精實管理, Lean, 平衡計分卡, BSC, Kaplan, Norton, 財務面, 顧客面, 內部流程面, 學習與成長面, 事前分析, 事後分析]
 admTags: [PDCA與FOCUS-PDCA, 品管圈, 柏拉圖, 魚骨圖, 查檢表, 管制圖, 新七手法, 根本原因分析RCA, HFMEA與FMEA, 精實管理, 平衡計分卡BSC]
 system: administration

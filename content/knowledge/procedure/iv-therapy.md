@@ -1,6 +1,6 @@
 ---
 title: 靜脈輸液：輸液種類、滴速計算與併發症
-subtitle: Intravenous therapy — fluid assessment, isotonic/hypotonic/hypertonic solutions, vein selection, IV sets and pumps, drip-rate calculation, troubleshooting, and complications (infiltration, phlebitis, air embolism, circulatory overload)
+subtitle: Intravenous therapy
 aliases: [靜脈輸液, 靜脈注射, 點滴, 靜脈灌注, IV therapy, Intravenous infusion, IVF, IV drip, 輸液, 等張溶液, 低張溶液, 高張溶液, Isotonic, Hypotonic, Hypertonic, 生理食鹽水, Normal saline, N/S, Half saline, 0.45% NaCl, D5W, 5% 葡萄糖, 2.5% 葡萄糖, D5S, 林格氏液, Ringer, 乳酸林格氏液, Lactated Ringer, LR, 3% saline, 滴速, 滴數計算, gtt, 普通輸液套管, Macrodrip, 微滴套管, Microdrip, 精密輸液套管, Burette, 輸液幫浦, IV pump, 針筒式幫浦, 靜脈留置針, IC, 頭皮針, 蝴蝶針, 靜脈注射帽, IV lock, T型連接管, 浸潤, Infiltration, 外滲, 靜脈炎, Phlebitis, 血栓性靜脈炎, 空氣栓塞, Air embolism, 循環負荷過量, Circulatory overload, 體液過多, 輸入輸出量, I/O, 無感性水分喪失, 每日體重, Parkland 公式]
 dzTags: [靜脈注射浸潤, 靜脈炎, 血栓性靜脈炎, 循環負荷過量, 空氣栓塞, 靜脈輸液併發症, 體液失衡, 體液容積缺失, 體液過多, 水中毒]
 system: fundamentals

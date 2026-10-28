@@ -1,6 +1,6 @@
 ---
 title: 疱疹病毒
-subtitle: Herpesviruses（單純疱疹、水痘帶狀疱疹、EB 病毒、巨細胞病毒、HHV-6、HHV-8）
+subtitle: Herpesviruses
 aliases: [疱疹病毒, 皰疹病毒, Herpesviridae, 人類疱疹病毒, HHV, 單純疱疹, 單純皰疹, HSV, HSV-1, HSV-2, 唇疱疹, 疱疹性齦口炎, 生殖器疱疹, 水痘, 帶狀疱疹, 帶狀皰疹, 皮蛇, VZV, Varicella, Zoster, 帶狀疱疹後神經痛, EB 病毒, EBV, Epstein-Barr virus, 傳染性單核球增多症, 巨細胞病毒, CMV, Cytomegalovirus, 玫瑰疹, 嬰兒玫瑰疹, Roseola infantum, HHV-6, HHV-8, 卡波西氏肉瘤]
 dzTags: [單純疱疹, 帶狀疱疹, 水痘, 巨細胞病毒感染, 鼻咽癌]
 system: infection

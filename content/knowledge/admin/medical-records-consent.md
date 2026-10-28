@@ -1,6 +1,6 @@
 ---
 title: 病歷管理、知情同意與病人權利
-subtitle: Medical records, informed consent and patient rights（醫療法、病人自主權利法、個人資料保護法、電子病歷）
+subtitle: Medical records, informed consent and patient rights
 aliases: [病歷管理, 病歷保存, 病歷保存年限, 電子病歷, 病歷複製本, 知情同意, 告知後同意, 同意書, 手術同意書, 麻醉同意書, 侵入性檢查同意書, 病人權利, 病人隱私, 個人資料保護法, 個資法, 醫療法第70條, 人體試驗]
 admTags: [病歷管理, 知情同意, 病人權利, 資訊安全與個資]
 system: administration

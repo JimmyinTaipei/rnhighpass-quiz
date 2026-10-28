@@ -1,6 +1,6 @@
 ---
 title: 血液組成、造血與止血凝血
-subtitle: Blood composition, hematopoiesis, red cells and iron, white cells, platelets, hemostasis and the coagulation cascade, natural anticoagulants and fibrinolysis, blood groups, bone marrow examination
+subtitle: Blood and hemostasis
 aliases: [血液, Blood, 血液組成, 血漿, Plasma, 血清, Serum, 血漿蛋白, 白蛋白, Albumin, 球蛋白, 纖維蛋白原, Fibrinogen, 造血, Hematopoiesis, 造血幹細胞, Hematopoietic stem cell, 紅骨髓, 黃骨髓, 胎兒造血, 卵黃囊, 紅血球, Erythrocyte, RBC, 紅血球生成, Erythropoiesis, 紅血球生成素, Erythropoietin, EPO, 網狀紅血球, Reticulocyte, 血紅素, Hemoglobin, Hb, 胎兒血紅素, HbF, 碳酸酐酶, 鐵代謝, 運鐵蛋白, Transferrin, 鐵蛋白, Ferritin, 血鐵質, 白血球, Leukocyte, WBC, 嗜中性球, Neutrophil, 嗜酸性球, Eosinophil, 嗜鹼性球, Basophil, 單核球, Monocyte, 巨噬細胞, Macrophage, 淋巴球, Lymphocyte, 血小板, Platelet, Thrombocyte, 巨核細胞, Megakaryocyte, 血小板生成素, Thrombopoietin, 止血, Hemostasis, 初級止血, 次級止血, 血小板栓, 類血友病因子, von Willebrand factor, vWF, 凝血, Coagulation, 凝血瀑布, Coagulation cascade, 內在路徑, Intrinsic pathway, 外在路徑, Extrinsic pathway, 共同路徑, 凝血因子, Clotting factor, 組織因子, Tissue factor, 凝血酶原, Prothrombin, 凝血酶, Thrombin, 纖維蛋白, Fibrin, 維生素 K 依賴凝血因子, 抗凝血酶, Antithrombin, 抗凝血酶 III, 蛋白質 C, 蛋白質 S, 凝血酶調節素, Thrombomodulin, 纖維蛋白溶解, Fibrinolysis, 胞漿素, Plasmin, 胞漿素原, Plasminogen, t-PA, 組織胞漿素原活化劑, FDP, D-dimer, 血型, ABO 血型, Rh 血型, 骨髓抽吸, Bone marrow aspiration, 骨髓切片, Bone marrow biopsy]
 dzTags: [止血與凝血]
 summary: |

@@ -1,6 +1,6 @@
 ---
 title: 自主神經系統
-subtitle: Autonomic nervous system — sympathetic, parasympathetic, receptors and visceral reflexes
+subtitle: Autonomic nervous system
 aliases: [自主神經, 自律神經, 自律神經系統, Autonomic nervous system, ANS, 交感神經, Sympathetic nervous system, 副交感神經, Parasympathetic nervous system, 戰或逃, Fight or flight, 休息與消化, Rest and digest, 胸腰系統, 顱薦系統, 節前纖維, 節後纖維, 節前神經元, 節後神經元, 交感神經鏈, 椎旁神經節, 椎前神經節, 腹腔神經節, 上腸繫膜神經節, 下腸繫膜神經節, 內臟神經, 大內臟神經, Greater splanchnic nerve, 骨盆內臟神經, 白交通枝, 灰交通枝, White ramus, Gray ramus, 睫狀神經節, 翼腭神經節, 下頜下神經節, 耳神經節, 迷走神經, 膽鹼性受體, 腎上腺素性受體, 菸鹼型受體, 尼古丁型受體, 蕈毒鹼型受體, 毒蕈鹼受體, Muscarinic receptor, Nicotinic receptor, α1 受體, α2 受體, β1 受體, β2 受體, β3 受體, 腎上腺髓質, 雞皮疙瘩, 豎毛肌, 排尿反射, 排便反射, 內臟反射, 自主神經反射異常, 自主神經過度反射, Autonomic dysreflexia, 神經性膀胱]
 dzTags: []
 system: neuro

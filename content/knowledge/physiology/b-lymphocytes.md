@@ -1,6 +1,6 @@
 ---
 title: B 淋巴球與體液性免疫
-subtitle: B lymphocytes and humoral immunity（骨髓發育、BCR、T 依賴與非依賴活化、生發中心、類別轉換、初次與二次反應）
+subtitle: B lymphocytes and humoral immunity
 aliases: [B 細胞, B細胞, B 淋巴球, B淋巴球, B cell, B lymphocyte, 體液性免疫, 體液免疫, Humoral immunity, B 細胞受體, BCR, CD19, CD20, CD21, CD79, 漿細胞, Plasma cell, 記憶 B 細胞, Memory B cell, 生發中心, Germinal center, 親和力成熟, Affinity maturation, 體細胞超突變, Somatic hypermutation, 類別轉換, Class switching, Isotype switching, AID, CD40, CD40L, T 依賴性抗原, T 非依賴性抗原, T-dependent antigen, T-independent antigen, 莢膜多醣, 結合型疫苗, Conjugate vaccine, 初次免疫反應, 二次免疫反應, 初級免疫反應, 次級免疫反應, Primary response, Secondary response, 回憶反應, Anamnestic response, 追加劑, Booster, 抗體依賴性細胞毒殺, ADCC, 濾泡樹突細胞, 高 IgM 症候群, Bruton 氏無伽瑪球蛋白血症, XLA]
 dzTags: []
 system: hematology-immunology

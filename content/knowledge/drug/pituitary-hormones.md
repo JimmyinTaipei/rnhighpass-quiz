@@ -1,6 +1,6 @@
 ---
 title: 腦下垂體激素相關藥物：生長激素、多巴胺致效劑、desmopressin 與催產素
-subtitle: Pituitary and hypothalamic hormone drugs — somatropin, octreotide, pegvisomant, bromocriptine and cabergoline, desmopressin and vasopressin, oxytocin, gonadotropins, GnRH analogues
+subtitle: Pituitary and hypothalamic hormone drugs
 aliases: [腦下垂體激素相關藥物, 腦下垂體激素藥物, 生長激素, 生長素, somatropin, Somatotropin, 體抑素類似物, octreotide, Sandostatin, lanreotide, pegvisomant, 多巴胺致效劑, 多巴胺促效劑, bromocriptine, Parlodel, cabergoline, 抗利尿激素, 血管加壓素, vasopressin, Pitressin, vasopressin tannate, desmopressin, DDAVP, Minirin, 催產素, oxytocin, Pitocin, 引產, 性腺激素, Gonadotropins, FSH, LH, hCG, urofollitropin, menotropin, GnRH 類似物, leuprolide, Leuprorelin, corticotropin, ACTH, 尿崩症用藥, 生長激素相關用藥, 抗利尿激素製劑, 子宮收縮劑, 麥角鹼, Methergine, methylergonovine, ergonovine, dinoprostone, PGE2, carboprost]
 dzTags: []
 system: endocrine

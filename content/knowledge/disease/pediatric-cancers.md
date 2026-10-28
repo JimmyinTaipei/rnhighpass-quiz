@@ -1,6 +1,6 @@
 ---
 title: 兒童癌症
-subtitle: Childhood cancers（腦瘤、神經母細胞瘤、威爾姆氏腫瘤、骨肉瘤、視網膜母細胞瘤等）
+subtitle: Childhood cancers
 aliases: [兒童癌症, 小兒癌症, 兒癌, Childhood cancer, 兒童癌症警訊, 兒童腦瘤, 髓母細胞瘤, 腦幹膠質瘤, 神經母細胞瘤, Neuroblastoma, VMA, 威爾姆氏腫瘤, 威廉氏腫瘤, 腎母細胞瘤, Wilms tumor, 骨肉瘤, Osteosarcoma, 伊汶氏肉瘤, 尤文氏肉瘤, Ewing sarcoma, 視網膜母細胞瘤, Retinoblastoma, 貓眼反射, 白瞳症, 橫紋肌肉瘤, 截肢, 幻肢痛, 癌症病童疫苗]
 dzTags: [兒童癌症, 腦瘤, 神經母細胞瘤, 威爾姆氏腫瘤, 骨肉瘤, 骨腫瘤, 視網膜母細胞瘤, 橫紋肌肉瘤, 髓芽母細胞瘤]
 system: oncology

@@ -1,6 +1,6 @@
 ---
 title: 氧氣治療
-subtitle: Oxygen therapy — delivery devices, FiO₂, humidification, safety and complications
+subtitle: Oxygen therapy
 aliases: [氧氣治療, 給氧, 給氧法, 氧療, Oxygen therapy, 給氧裝置, 鼻套管, 鼻導管, Nasal cannula, 單純面罩, 簡單面罩, Simple face mask, 部分再吸入面罩, 非再吸入面罩, Non-rebreather mask, 儲氧面罩, 卞德里面罩, 文氏面罩, Venturi mask, 空氣稀釋面罩, 高流量鼻導管, 高流量氧氣, HFNC, 氧氣頭罩, O2 hood, 氧氣帳, O2 tent, 潮濕瓶, 氧氣濕化, 流量表, 氧氣筒, 氧氣分析儀, 吸入氧濃度, FiO2, 氧中毒, 吸收性肺擴張不全, 居家氧氣, 長期氧氣治療, 氧氣安全]
 dzTags: [低血氧症]
 system: respiratory

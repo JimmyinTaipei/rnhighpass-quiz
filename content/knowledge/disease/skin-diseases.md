@@ -1,6 +1,6 @@
 ---
 title: 皮膚病灶與皮膚疾病、皮膚腫瘤
-subtitle: Skin lesions and common skin diseases — primary and secondary lesions, psoriasis (Koebner phenomenon, Auspitz sign, Munro microabscess, phototherapy), benign skin tumors (seborrheic keratosis, epidermal cyst, lipoma, hemangioma), skin cancers (basal cell carcinoma, squamous cell carcinoma, melanoma, ABCDE), and sun protection
+subtitle: Skin lesions and common skin diseases
 aliases: [皮膚病灶, 皮膚病變, Skin lesion, 原發性病灶, 原發性皮膚病變, Primary lesion, 續發性病灶, 繼發性病灶, Secondary lesion, 斑疹, Macule, 斑塊, Patch, 丘疹, Papule, 斑塊狀丘疹, Plaque, 結節, Nodule, 腫瘤, 水泡, Vesicle, 大水泡, 大皰, Bulla, 膿疱, Pustule, 膨疹, 風疹塊, Wheal, 鱗屑, Scale, 痂皮, Crust, 糜爛, Erosion, 潰瘍, Ulcer, 抓痕, Excoriation, 裂隙, Fissure, 苔蘚化, Lichenification, 疤痕, Scar, 萎縮, Atrophy, 乾癬, 牛皮癬, Psoriasis, 銀白色鱗屑, 柯納氏現象, 同形反應, Koebner phenomenon, 奧斯匹茲徵象, Auspitz sign, 孟羅氏微膿瘍, Munro microabscess, 乾癬性關節炎, 光照治療, 照光治療, PUVA, UVB, 皮膚腫瘤, 良性皮膚腫瘤, 脂漏性角化症, Seborrheic keratosis, 老人斑, 表皮囊腫, Epidermal cyst, 脂肪瘤, Lipoma, 纖維瘤, Fibroma, 血管瘤, 蜘蛛狀血管瘤, Spider angioma, 日光性角化症, Actinic keratosis, 皮膚癌, Skin cancer, 基底細胞癌, Basal cell carcinoma, BCC, 鱗狀細胞癌, 鱗狀上皮細胞癌, Squamous cell carcinoma, SCC, 黑色素瘤, 惡性黑色素瘤, Melanoma, 肢端黑色素瘤, ABCDE, 痣, Nevus, 防曬, Sunscreen, 防曬係數, SPF, 曬傷, Sunburn]
 dzTags: [乾癬, 皮膚癌, 皮膚腫瘤, 脂漏性角化症, 皮膚病灶]
 summary: |

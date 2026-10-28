@@ -1,6 +1,6 @@
 ---
 title: 革蘭氏陽性菌
-subtitle: Gram-positive bacteria（葡萄球菌、鏈球菌、腸球菌、白喉桿菌、李斯特菌、芽孢桿菌、分枝桿菌）
+subtitle: Gram-positive bacteria
 aliases: [革蘭氏陽性菌, 革蘭氏陽性球菌, 革蘭氏陽性桿菌, Gram-positive bacteria, 表皮葡萄球菌, 腐生葡萄球菌, 凝固酶陰性葡萄球菌, CoNS, 腸球菌, Enterococcus, VRE, 抗萬古黴素腸球菌, 白喉, 白喉桿菌, 白喉棒狀桿菌, Corynebacterium diphtheriae, 偽膜, 李斯特菌, 單核球增多性李斯特菌, 單胞李斯特菌, Listeria monocytogenes, 炭疽, 炭疽病, 炭疽桿菌, Bacillus anthracis, 蠟樣桿菌, 仙人掌桿菌, Bacillus cereus, 痲瘋, 漢生病, 痲瘋分枝桿菌, Mycobacterium leprae, 類結核型痲瘋, 痲瘋瘤型痲瘋]
 dzTags: [白喉, 炭疽病, 漢生病]
 system: infection

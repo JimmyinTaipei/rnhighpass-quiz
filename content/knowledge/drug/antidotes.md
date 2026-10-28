@@ -1,6 +1,6 @@
 ---
 title: 中毒與解毒劑
-subtitle: Toxicology overview and antidotes — general management of poisoning, toxidromes and pupil size, decontamination, enhanced elimination, and an antidote table (naloxone, flumazenil, N-acetylcysteine, atropine and pralidoxime, physostigmine, deferoxamine, chelating agents for lead and other heavy metals, oxygen, hydroxocobalamin, fomepizole, methylene blue, digoxin Fab, protamine, vitamin K, calcium gluconate, glucagon)
+subtitle: Toxicology overview and antidotes
 aliases: [解毒劑, 中毒解毒劑, Antidote, Antidotes, 毒理學, Toxicology, 中毒, Poisoning, 中毒症候群, Toxidrome, 膽鹼症候群, 抗膽鹼症候群, 交感神經興奮症候群, 鴉片症候群, 針狀瞳孔, 去除毒物, 活性碳, 洗胃, 催吐, 吐根糖漿, 尿液鹼化, 血液透析, Naloxone, Narcan, Flumazenil, N-acetylcysteine, NAC, Mucomyst, Atropine, Pralidoxime, PAM, 2-PAM, Physostigmine, Deferoxamine, 去鐵胺, 螯合劑, Chelating agent, EDTA, Calcium disodium edetate, BAL, Dimercaprol, DMSA, Succimer, D-penicillamine, 重金屬中毒, 鉛中毒, 汞中毒, 砷中毒, 錳中毒, Hydroxocobalamin, 氰化物, Fomepizole, 甲醇, Methylene blue, 變性血紅素血症, 毛地黃抗體片段, Digibind, Protamine, 維生素 K, 葡萄糖酸鈣, Glucagon, 河豚毒素, Tetrodotoxin, Apomorphine]
 summary: |
   中毒先穩定呼吸道、呼吸、循環，再確認毒物、去除毒物、給解毒劑、支持療法

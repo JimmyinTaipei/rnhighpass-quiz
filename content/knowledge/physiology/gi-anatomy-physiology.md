@@ -1,6 +1,6 @@
 ---
 title: 消化道：構造、運動、分泌與吸收
-subtitle: Gastrointestinal tract — wall layers, peritoneum, mouth to anus, gastric secretion, digestion and absorption, GI hormones and blood supply
+subtitle: Gastrointestinal tract
 aliases: [消化系統, Digestive system, 消化道, GI tract, 腸胃道, 消化道管壁, 黏膜層, 黏膜下層, 肌肉層, 漿膜層, 外膜, 黏膜肌層, 梅氏神經叢, Meissner plexus, 黏膜下神經叢, 奧氏神經叢, Auerbach plexus, 肌間神經叢, Myenteric plexus, 腸神經系統, Enteric nervous system, 蠕動, Peristalsis, 分節運動, Segmentation, 質塊運動, Mass movement, 結腸袋運動, 腹膜, Peritoneum, 腹膜後器官, 大網膜, 小網膜, 腸繫膜, 鐮狀韌帶, 肝圓韌帶, 唾液, 唾液腺, 腮腺, 耳下腺, 頷下腺, 舌下腺, 唾液澱粉酶, Ptyalin, 牙齒, 乳齒, 恆齒, 琺瑯質, 牙質, 舌乳頭, 絲狀乳頭, 蕈狀乳頭, 輪廓狀乳頭, 吞嚥, 吞嚥反射, 食道, 上食道括約肌, 下食道括約肌, LES, 胃, 賁門, 胃底, 胃體, 胃竇, 幽門, 胃大彎, 胃小彎, 胃腺, 壁細胞, Parietal cell, 主細胞, Chief cell, 黏液頸細胞, G 細胞, 內在因子, Intrinsic factor, 胃酸, 鹽酸, 胃蛋白酶原, Pepsinogen, 胃泌素, Gastrin, 胃液分泌三期, 頭期, 胃期, 腸期, 小腸, 十二指腸, 空腸, 迴腸, 環狀皺襞, 絨毛, 微絨毛, 刷狀緣, 乳糜管, Lacteal, 布氏腺, Brunner gland, 小腸液, 雙醣酶, 乳糖酶, 腸激酶, 微粒, Micelle, 乳糜微粒, Chylomicron, 鐵吸收, 胰泌素, Secretin, 膽囊收縮素, Cholecystokinin, CCK, 體制素, Somatostatin, 大腸, 盲腸, 闌尾, 升結腸, 橫結腸, 降結腸, 乙狀結腸, 直腸, 肛管, 結腸帶, 結腸袋, 腸脂垂, 腹腔動脈幹, Celiac trunk, 腸繫膜上動脈, SMA, 腸繫膜下動脈, IMA]
 summary: |
   消化道管壁由內到外是黏膜、黏膜下層、肌肉層、漿膜；梅氏神經叢在黏膜下層、奧氏（肌間）神經叢在肌肉層；食道與肛門是複層扁平上皮，胃到直腸是單層柱狀上皮

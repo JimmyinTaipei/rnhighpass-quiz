@@ -1,6 +1,6 @@
 ---
 title: 血栓溶解劑
-subtitle: Thrombolytics / Fibrinolytics（Alteplase、Tenecteplase、Streptokinase）
+subtitle: Thrombolytics / Fibrinolytics
 aliases: [血栓溶解劑, 溶栓劑, 纖維蛋白溶解劑, Fibrinolytic, t-PA, tPA, rt-PA, Alteplase, Actilyse, Tenecteplase, TNK, Metalyse, Reteplase, Streptokinase, Urokinase, 尿激酶, 鏈球菌激酶]
 dzTags: [心肌梗塞, 急性心肌梗塞, ST段上升心肌梗塞, 腦中風, 缺血性腦中風, 肺栓塞, 急性冠狀動脈症候群]
 system: hematology-immunology

@@ -1,6 +1,6 @@
 ---
 title: 先天性心臟病
-subtitle: Congenital heart disease — acyanotic and cyanotic classification, left-to-right shunts (ASD, VSD, PDA), obstructive lesions (aortic stenosis, pulmonary stenosis, coarctation), cyanotic lesions (tetralogy of Fallot with hypercyanotic spells, tricuspid atresia, transposition, truncus arteriosus), prostaglandin E1 and indomethacin, feeding and daily care, and heart surgery in children
+subtitle: Congenital heart disease
 aliases: [先天性心臟病, Congenital heart disease, CHD, 非發紺型先天性心臟病, 發紺型先天性心臟病, 左至右分流, 右至左分流, 心房中膈缺損, 心房中隔缺損, ASD, Atrial septal defect, 心室中膈缺損, 心室中隔缺損, VSD, Ventricular septal defect, 開放性動脈導管, 動脈導管未閉, PDA, Patent ductus arteriosus, 主動脈瓣狹窄, AS, Aortic stenosis, 肺動脈瓣狹窄, PS, Pulmonary stenosis, 主動脈縮窄, 主動脈狹窄, 主動脈弓狹窄, COA, Coarctation of the aorta, 法洛氏四重畸形, 法洛氏四重症, 法洛四聯症, TOF, Tetralogy of Fallot, 缺氧發作, Hypercyanotic spell, Tet spell, Blue spell, 膝胸臥式, 蹲姿, 三尖瓣閉鎖, Tricuspid atresia, 大血管轉位, 大動脈轉位, TGA, Transposition of the great arteries, 動脈幹, Truncus arteriosus, 艾森曼格氏症候群, Eisenmenger syndrome, 布萊洛克陶西分流術, Blalock-Taussig shunt, BT shunt, 心房中隔氣球造口術, Rashkind, 大血管轉位手術, Arterial switch, Fontan, Glenn, 肺動脈繃紮術, 前列腺素 E1, PGE1, Alprostadil, Indomethacin, 心雜音, 功能性心雜音, 無害性心雜音, Levine scale, 洪脈, 杵狀指, 紅血球增多症]
 dzTags: [先天性心臟病, 心房中膈缺損, 心室中膈缺損, 開放性動脈導管, 主動脈瓣狹窄, 主動脈縮窄, 法洛氏四重畸形, 大血管轉位, 發紺]
 system: cardiovascular

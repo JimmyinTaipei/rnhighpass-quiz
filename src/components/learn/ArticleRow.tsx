@@ -29,20 +29,24 @@ export function ArticleRow({ article, typeLabel, note, related, showDraft = fals
         className="flex items-start gap-3 px-4 py-2.5 transition-colors duration-150 hover:bg-surface-hover motion-reduce:transition-none"
       >
         <span className="min-w-0 flex-1">
-          <span className="flex flex-wrap items-baseline gap-x-2">
+          <span className="flex flex-wrap items-baseline gap-x-2 md:flex-nowrap">
             <span className="font-semibold text-strong">{article.title}</span>
+            {/* 電腦版英文接在中文右側;手機在下一行 */}
+            {article.subtitle && (
+              <span className="hidden min-w-0 truncate text-sm text-body md:inline">{article.subtitle}</span>
+            )}
             {peds && (
-              <span className="rounded-full bg-light px-1.5 text-xs font-medium text-deep" title="小兒專屬或含小兒段落">
+              <span className="shrink-0 rounded-full bg-light px-1.5 text-xs font-medium text-deep" title="小兒專屬或含小兒段落">
                 小兒
               </span>
             )}
             {tags.map((t) => (
-              <span key={t} className="rounded bg-sidebar px-1.5 text-xs text-muted">
+              <span key={t} className="shrink-0 rounded bg-sidebar px-1.5 text-xs text-muted">
                 {t}
               </span>
             ))}
           </span>
-          {article.subtitle && <span className="block truncate text-sm text-body">{article.subtitle}</span>}
+          {article.subtitle && <span className="block truncate text-sm text-body md:hidden">{article.subtitle}</span>}
           {meta.length > 0 && <span className="block text-xs text-muted">{meta.join("・")}</span>}
         </span>
         <span className="flex shrink-0 flex-col items-end gap-1 pt-0.5">

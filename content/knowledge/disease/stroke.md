@@ -1,6 +1,6 @@
 ---
 title: 腦中風
-subtitle: Stroke — ischemic stroke, TIA, intracerebral and subarachnoid hemorrhage, thrombolysis, thrombectomy and rehabilitation nursing
+subtitle: Stroke
 aliases: [腦中風, 中風, Stroke, 腦血管意外, 腦血管疾病, CVA, Cerebrovascular accident, 缺血性腦中風, Ischemic stroke, 腦梗塞, 血栓型中風, 栓塞型中風, 小洞梗塞, Lacunar infarct, 暫時性腦缺血發作, 暫時性缺血發作, 小中風, TIA, Transient ischemic attack, 出血性腦中風, Hemorrhagic stroke, 腦出血, 腦內出血, Intracerebral hemorrhage, ICH, 蜘蛛膜下腔出血, 蛛網膜下腔出血, Subarachnoid hemorrhage, SAH, 腦動脈瘤, 動脈瘤, 漿果型動脈瘤, Berry aneurysm, 動靜脈畸形, AVM, 血管痙攣, Nimodipine, 靜脈血栓溶解治療, 血栓溶解劑, rt-PA, Alteplase, Actilyse, Tenecteplase, 動脈取栓, 血栓移除術, Thrombectomy, EVT, 偏癱, 半身不遂, 單側忽略, 半側忽略, Unilateral neglect, 同側偏盲, 吞嚥困難, Dysphagia, FAST, BE FAST, 中風復健, 良肢位, 粗隆捲軸, Trochanter roll, 足托板, 功能性尿失禁]
 dzTags: [腦中風, 缺血性腦中風, 出血性腦中風, 腦梗塞, 暫時性腦缺血發作, 蜘蛛膜下腔出血, 動脈瘤, 單側忽略, 偏癱, 腦血管疾病]
 system: neuro

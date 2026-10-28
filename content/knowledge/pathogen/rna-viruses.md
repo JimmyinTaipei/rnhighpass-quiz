@@ -1,6 +1,6 @@
 ---
 title: RNA 病毒
-subtitle: RNA viruses（輪狀病毒、諾羅病毒、小兒麻痺病毒、狂犬病毒、漢他病毒、伊波拉病毒、呼吸道融合病毒、副流感病毒、HTLV）
+subtitle: RNA viruses
 aliases: [RNA 病毒, RNA viruses, 輪狀病毒, Rotavirus, 諾羅病毒, Norovirus, 病毒性腸胃炎, 小兒麻痺病毒, 脊髓灰白質炎病毒, Poliovirus, 沙克疫苗, 沙賓疫苗, IPV, OPV, 狂犬病, 狂犬病毒, Rabies virus, 恐水症, Negri 小體, 漢他病毒, Hantavirus, 伊波拉病毒, Ebola virus, 馬堡病毒, 呼吸道融合病毒, RSV, 副流行性感冒病毒, Parainfluenza virus, 哮吼, HTLV-1, 人類嗜 T 淋巴球病毒]
 dzTags: [病毒性腸胃炎, 狂犬病, 哮吼, 細支氣管炎]
 system: infection

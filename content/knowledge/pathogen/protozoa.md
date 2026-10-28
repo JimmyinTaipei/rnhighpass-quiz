@@ -1,6 +1,6 @@
 ---
 title: 原蟲
-subtitle: Protozoa（痢疾阿米巴、梨形鞭毛蟲、陰道滴蟲、弓漿蟲、瘧原蟲、錐蟲、利什曼原蟲、隱孢子蟲）
+subtitle: Protozoa
 aliases: [原蟲, 原生動物, Protozoa, 痢疾阿米巴, 溶組織阿米巴, 阿米巴原蟲, Entamoeba histolytica, 阿米巴痢疾, 阿米巴性痢疾, 阿米巴肝膿瘍, 梨形鞭毛蟲, 鞭毛蟲, Giardia, 陰道滴蟲, 陰道鞭毛滴蟲, Trichomonas vaginalis, 滴蟲性陰道炎, 弓漿蟲, 弓形蟲, 弓蟲, Toxoplasma gondii, 先天性弓漿蟲症, 瘧原蟲, 惡性瘧原蟲, Plasmodium, 瘧疾, 錐蟲, 非洲錐蟲病, 昏睡病, 查加斯病, Trypanosoma, 利什曼原蟲, Leishmania, 隱孢子蟲, Cryptosporidium, 福氏內格里阿米巴, Naegleria fowleri, 棘狀阿米巴, Acanthamoeba]
 dzTags: [寄生蟲感染, 瘧疾, 阿米巴痢疾]
 system: infection

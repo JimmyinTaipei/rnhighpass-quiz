@@ -1,6 +1,6 @@
 ---
 title: 單基因遺傳疾病
-subtitle: Single-gene (Mendelian) disorders — thalassemia, sickle cell disease, inborn errors of metabolism, cystic fibrosis, Wilson disease, achondroplasia, osteogenesis imperfecta, hemophilia, G6PD deficiency, Duchenne muscular dystrophy
+subtitle: Single-gene (Mendelian) disorders
 aliases: [單基因疾病, 孟德爾遺傳疾病, Single-gene disorder, 海洋性貧血, 地中海型貧血, 地中海貧血, Thalassemia, α 型海洋性貧血, β 型海洋性貧血, 重型海洋性貧血, Hb Bart's, 巴氏血紅素, 鐮刀型貧血, 鐮狀細胞貧血, 鐮刀狀細胞貧血, Sickle cell anemia, HbS, 甲基丙二酸血症, 異戊酸血症, 有機酸血症, 囊性纖維化, 囊性纖維變性, Cystic fibrosis, CFTR, 威爾森氏症, 威爾森氏病, Wilson disease, Kayser-Fleischer 環, 銅藍蛋白, 脊髓性肌肉萎縮症, SMA, 多囊腎, 多囊性腎病, Polycystic kidney disease, 馬凡氏症, 馬凡氏症候群, Marfan syndrome, 軟骨發育不全, Achondroplasia, FGFR3, 侏儒症, 成骨不全, 成骨不全症, Osteogenesis imperfecta, 玻璃娃娃, 藍色鞏膜, 神經纖維瘤症, Neurofibromatosis, 結節性硬化症, 家族性高膽固醇血症, 類血友病, 馮韋伯氏疾病, von Willebrand disease, 遺傳性球形紅血球症, 血友病, Hemophilia, A 型血友病, B 型血友病, 第八凝血因子, 第九凝血因子, G6PD 缺乏症, 葡萄糖-6-磷酸去氫酶缺乏症, 蠶豆症, Heinz 小體, 裘馨氏肌失養症, 裘馨氏假肥大性肌失養症, 肌肉失養症, Duchenne muscular dystrophy, 貝克型肌失養症, Gower 徵象, 雷特氏症, Rett syndrome]
 dzTags: [海洋性貧血, 鐮狀細胞貧血, 囊性纖維化, 威爾森氏病, 脊髓性肌肉萎縮症, 多囊腎, 軟骨發育不全, 成骨不全, 類血友病, 蠶豆症, 裘馨氏肌失養症, 先天性代謝異常, 甲基丙二酸血症]
 system: general-pathology

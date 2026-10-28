@@ -1,6 +1,6 @@
 ---
 title: 細胞的構造與功能
-subtitle: The cell and the organization of the body — levels of organization, anatomical terms and body cavities, abdominal regions, cell membrane and junctions, organelles (single versus double membrane), nucleus and protein synthesis, membrane transport (diffusion, osmosis, primary and secondary active transport), the cell cycle and mitosis, organic compounds, and epithelial tissue
+subtitle: The cell and the organization of the body
 aliases: [細胞, 細胞構造, Cell, 人體組成階層, 組成階層, 解剖學姿勢, 解剖術語, 體腔, 腹骨盆腔, 腹部九分區, 季肋區, 胸膜, 腹膜, 腹膜後器官, 細胞膜, 流體鑲嵌模型, 醣萼, Glycocalyx, 緊密接合, 間隙接合, 裂隙結合, Gap junction, 胞器, Organelle, 粒線體, Mitochondria, 內質網, 高基氏體, 高爾基體, Golgi, 溶小體, 溶酶體, Lysosome, 過氧化體, 核糖體, Ribosome, 中心體, 中心粒, 細胞骨架, 泛素, Ubiquitin, 蛋白酶體, 細胞核, 核仁, Nucleolus, 巴氏體, DNA, RNA, 鹼基配對, 轉錄, 轉譯, 轉譯後修飾, 醣基化, 細胞膜運輸, 簡單擴散, 促進性擴散, 滲透, Osmosis, 主動運輸, 初級主動運輸, 次級主動運輸, 鈉鉀幫浦, 鈣幫浦, 鈉鈣交換子, 胞吞作用, 細胞週期, 有絲分裂, Mitosis, 赤道板, 碳水化合物, 脂質, 飽和脂肪, 磷脂質, 胺基酸, 上皮組織, 四大基本組織]
 summary: |
   人體組成階層：化學（分子，如 DNA）→ 細胞 → 組織 → 器官 → 系統 → 個體；細胞是最基本的構造與功能單位

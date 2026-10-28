@@ -1,6 +1,6 @@
 ---
 title: 環境與職業傷害
-subtitle: Environmental and occupational injury — ionizing and ultraviolet radiation, heat injury and burns, carbon monoxide, lead and other heavy metals, tobacco and alcohol, air pollution and pneumoconiosis
+subtitle: Environmental and occupational injury
 aliases: [環境傷害, 職業傷害, 物理性傷害, 化學性傷害, 游離輻射, 離子性放射線, Ionizing radiation, 輻射傷害, 放射線傷害, 輻射防護, 時間距離屏蔽, 輻射佩章, 紫外線, Ultraviolet, 臭氧層, 紫外線指數, 熱傷害, 熱痙攣, 熱衰竭, 熱暈厥, 熱中暑, 中暑, Heat stroke, Heat exhaustion, 燒傷深度, 一度燒傷, 二度燒傷, 三度燒傷, 全皮層燒傷, 部分皮層燒傷, 一氧化碳中毒, Carbon monoxide poisoning, 碳氧血紅素, COHb, 櫻桃紅, 高壓氧, 鉛中毒, Lead poisoning, 鉛線, 腕垂, 基底點彩, 汞中毒, 水俁病, 鎘中毒, 痛痛病, 砷中毒, 烏腳病, 藍嬰症, 變性血紅素血症, 硝酸鹽, 錳中毒, 吸菸, 菸害, 酒精, 脂肪肝, 懸浮微粒, PM2.5, 空氣汙染, 塵肺症, 肺塵埃沉著症, Pneumoconiosis, 矽肺症, 石綿肺, 石綿, 間皮瘤]
 dzTags: [一氧化碳中毒, 鉛中毒, 熱中暑, 熱傷害, 輻射傷害, 塵肺症, 酒精中毒, 錳中毒, 紫外線傷害]
 system: general-pathology

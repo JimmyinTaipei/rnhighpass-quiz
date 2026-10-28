@@ -1,6 +1,6 @@
 ---
 title: 下視丘與腦下垂體：構造、門脈系統與前後葉激素
-subtitle: Hypothalamus and pituitary gland — nuclei, portal system, anterior and posterior lobe hormones
+subtitle: Hypothalamus and pituitary gland
 aliases: [腦下垂體, 腦下腺, 腦垂體, Pituitary gland, Hypophysis, 下視丘, Hypothalamus, 蝶鞍, Sella turcica, 漏斗柄, 腺垂體, Adenohypophysis, 神經垂體, Neurohypophysis, 中間部, 拉克氏囊, 垂體門脈, 下視丘－垂體門脈系統, Hypophyseal portal system, 下視丘－垂體徑, Hypothalamo-hypophyseal tract, 嗜酸性細胞, 嗜鹼性細胞, 難染細胞, 視上核, Supraoptic nucleus, 室旁核, 旁室核, Paraventricular nucleus, 視交叉上核, 視叉上核, Suprachiasmatic nucleus, 弓狀核, 腹內側核, 飽食中樞, 攝食中樞, 釋放激素, 抑制激素, TRH, CRH, GnRH, GHRH, 體抑素, Somatostatin, 泌乳素抑制因子, 生長激素, Growth hormone, GH, 體介素, 類胰島素生長因子, IGF-1, 泌乳素, 催乳素, 促乳素, Prolactin, 甲狀腺刺激素, 促甲狀腺素, TSH, 促腎上腺皮質素, ACTH, 濾泡刺激素, FSH, 黃體生成素, LH, 促性腺激素, Gonadotropins, 黑色素細胞刺激素, MSH, 抗利尿激素, ADH, 血管加壓素, Vasopressin, 催產素, Oxytocin, 水通道蛋白, Aquaporin, 射乳反射, 排乳反射, 泌乳反射, 哺餵母乳]
 dzTags: []
 system: endocrine

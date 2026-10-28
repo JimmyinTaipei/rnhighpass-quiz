@@ -1,6 +1,6 @@
 ---
 title: 肺炎
-subtitle: Pneumonia（社區型、院內型與呼吸器相關肺炎；吸入性肺炎；肺膿瘍與膿胸；胸腔物理治療）
+subtitle: Pneumonia
 aliases: [肺炎, Pneumonia, 社區型肺炎, 社區性肺炎, CAP, 院內型肺炎, 院內肺炎, HAP, 呼吸器相關肺炎, VAP, 健康照護相關肺炎, HCAP, 吸入性肺炎, Aspiration pneumonia, 細菌性肺炎, 大葉性肺炎, Lobar pneumonia, 支氣管肺炎, Bronchopneumonia, 間質性肺炎, 非典型肺炎, 肺炎鏈球菌肺炎, CURB-65, 肺膿瘍, Lung abscess, 膿胸, Empyema, 肋膜積液, 鐵鏽色痰, 實質化, 胸腔物理治療, 姿位引流, 叩擊, 震顫]
 dzTags: [肺炎, 細菌性肺炎, 吸入性肺炎, 大葉性肺炎, 支氣管肺炎, 肺膿瘍, 膿胸]
 system: respiratory

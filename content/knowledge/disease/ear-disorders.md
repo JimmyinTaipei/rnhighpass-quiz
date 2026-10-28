@@ -1,6 +1,6 @@
 ---
 title: 耳朵疾病：聽力喪失、梅尼爾氏症與眩暈
-subtitle: Ear disorders — hearing loss and tuning fork tests, Ménière's disease, BPPV and vertigo, external and middle ear disorders, ear drops
+subtitle: Ear disorders
 aliases: [耳朵疾病, 耳疾, 耳科疾病, 聽力喪失, 聽力障礙, 聽覺障礙, 聽力損失, Hearing loss, 傳導性聽力喪失, 感覺神經性聽力喪失, 感音性聽力喪失, 混合性聽力喪失, 老年性聽力喪失, Presbycusis, 噪音性聽力損失, 耳毒性藥物, 助聽器, 人工電子耳, Cochlear implant, 音叉, 韋伯試驗, 韋伯氏測驗, Weber test, 任內試驗, 任內氏試驗, Rinne test, 純音聽力檢查, 分貝, 梅尼爾氏症, 美尼爾氏症, 美尼爾氏症候群, 梅尼爾氏病, Ménière's disease, 內淋巴水腫, 迷路水腫, 迷路切除術, 眩暈, Vertigo, 良性陣發性姿勢性眩暈, 耳石症, BPPV, 耳石復位術, Epley maneuver, 前庭神經炎, 動暈症, 暈車, Motion sickness, 聽神經瘤, 外耳炎, Otitis externa, 耳垢栓塞, 耵聹, 耳硬化症, Otosclerosis, 鐙骨切除術, 滴耳藥, 耳滴劑, Ear drops]
 dzTags: [聽力障礙, 美尼爾氏症, 眩暈, 動暈症, 良性陣發性姿勢性眩暈, 外耳炎, 耳硬化症]
 system: neuro

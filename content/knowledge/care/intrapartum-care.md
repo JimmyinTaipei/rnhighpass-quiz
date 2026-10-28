@@ -1,6 +1,6 @@
 ---
 title: 待產與分娩護理
-subtitle: Intrapartum nursing care — when to come to hospital, admission assessment, evidence-based care for low-risk labor (WHO 2018 versus older routines such as enema, shaving, fasting and bed rest), vaginal examination (dilatation, effacement, station), assessing contractions, maternal behavior in each phase, care in the first stage, rupture of membranes, second-stage pushing (open-glottis versus Valsalva) and perineal protection, episiotomy and perineal lacerations, third and fourth stages, immediate newborn care and labor support for partners
+subtitle: Intrapartum nursing care
 aliases: [待產護理, 分娩護理, 產時護理, Intrapartum care, Labor and delivery nursing, 待產, 入院待產, 何時到醫院, 生產包, 陰道內診, Vaginal examination, 子宮頸擴張, Dilatation, 子宮頸變薄, Effacement, 胎頭高度, Station, 先露部位高度, 浮動, Floating, 宮縮頻率, 宮縮持續時間, 宮縮強度, 休息期壓力, 潛伏期護理, 活動期護理, 過渡期護理, 第一產程護理, 第二產程護理, 第三產程護理, 第四產程護理, 下床走動, 待產姿勢, 灌腸, 剃毛, 待產禁食, 破水, 自然破水, 羊水胎便染色, 用力方法, 閉氣用力, Valsalva, 開聲門用力, 自發性用力, 吹蠟燭呼吸, 哈氣, 喘息呼吸, 會陰保護, 會陰切開術, Episiotomy, 正中會陰切開, 側斜會陰切開, 會陰裂傷, 會陰撕裂傷, Perineal laceration, 一度裂傷, 二度裂傷, 三度裂傷, 四度裂傷, 延遲斷臍, 肌膚接觸, 新生兒立即護理, 新生兒抽吸, Apgar 評分, 陪產, 準父親, 支持性照護, WHO 2018 產時照護]
 dzTags: [正常分娩, 破水, 會陰裂傷, 羊水胎糞污染, 呼吸急促]
 summary: |

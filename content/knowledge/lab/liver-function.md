@@ -1,6 +1,6 @@
 ---
 title: 肝功能與膽胰檢驗
-subtitle: Liver function and pancreatic tests — AST, ALT, ALP, GGT, bilirubin(direct and indirect), albumin, prothrombin time, ammonia, amylase and lipase
+subtitle: Liver function and pancreatic tests
 aliases: [肝功能, 肝功能檢查, 肝功能指數, Liver function test, LFT, 肝指數, 轉胺酶, 胺基轉移酶, AST, SGOT, GOT, 天門冬胺酸轉胺酶, ALT, SGPT, GPT, 丙胺酸轉胺酶, ALP, 鹼性磷酸酶, Alkaline phosphatase, GGT, γ-GT, 丙麩胺酸轉移酶, 膽紅素, 總膽紅素, 直接膽紅素, 間接膽紅素, 結合型膽紅素, 非結合型膽紅素, Bilirubin, 白蛋白, Albumin, A/G 比, 凝血酶原時間, Prothrombin time, PT, INR, 血氨, 氨, Ammonia, 澱粉酶, Amylase, 脂肪酶, 解脂酶, Lipase]
 dzTags: []
 system: digestive

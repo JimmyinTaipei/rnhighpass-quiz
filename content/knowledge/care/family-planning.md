@@ -1,6 +1,6 @@
 ---
 title: 家庭計畫與避孕
-subtitle: Family planning and contraception — choosing a method, effectiveness of each method, natural methods (calendar, basal body temperature, cervical mucus, lactational amenorrhea, withdrawal), barrier methods, intrauterine devices, hormonal methods, sterilization (tubal ligation and vasectomy), postpartum and breastfeeding contraception, and nursing counseling
+subtitle: Family planning and contraception
 aliases: [家庭計畫, Family planning, 避孕, 避孕方法, Contraception, 避孕法比較, 避孕失敗率, 自然避孕法, 自然調節生育法, 安全期, 月經週期法, 日曆法, Calendar method, 安全期計算, 危險期, 基礎體溫法, BBT, 子宮頸黏液法, 比林斯法, Billings method, 泌乳無月經法, 哺乳避孕法, LAM, 性交中斷法, 體外射精, Withdrawal, 屏障避孕法, 保險套, 男用保險套, 女用保險套, Condom, 子宮帽, 子宮頸帽, Diaphragm, 殺精劑, Spermicide, 子宮內避孕器, 樂普, IUD, IUS, 銅 T, 結紮, 絕育, Sterilization, 輸卵管結紮, Tubal ligation, 輸精管結紮, Vasectomy, 產後避孕, 哺乳期避孕, 避孕諮詢]
 summary: |
   選擇避孕法看效果、副作用、是否哺乳、生育計畫與夫妻意願；效果最好的是植入劑、子宮內避孕器與結紮

@@ -1,6 +1,6 @@
 ---
 title: 皮膚、軟組織與骨骼感染
-subtitle: Skin, soft tissue, bone and joint infections（膿痂疹、丹毒、蜂窩性組織炎、膿瘍、壞死性筋膜炎、帶狀疱疹、黴菌與寄生蟲皮膚病、骨髓炎、化膿性關節炎）
+subtitle: Skin, soft tissue, bone and joint infections
 aliases: [皮膚感染, 皮膚軟組織感染, 軟組織感染, 膿痂疹, Impetigo, 丹毒, Erysipelas, 蜂窩性組織炎, Cellulitis, 毛囊炎, 癤, 癰, 膿瘍, Abscess, 壞死性筋膜炎, 嗜肉菌, Necrotizing fasciitis, 氣性壞疽, 創傷弧菌, 骨髓炎, Osteomyelitis, 腐骨, 化膿性關節炎, Septic arthritis, 開放性骨折感染, 高壓氧, 傷口感染, 糖尿病足感染]
 dzTags: [蜂窩性組織炎, 骨髓炎, 傷口感染]
 system: integumentary

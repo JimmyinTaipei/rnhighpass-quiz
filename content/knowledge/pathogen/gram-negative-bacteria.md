@@ -1,6 +1,6 @@
 ---
 title: 革蘭氏陰性菌
-subtitle: Gram-negative bacteria（奈瑟氏菌、腸內桿菌、綠膿桿菌、弧菌、嗜血桿菌、百日咳、退伍軍人菌、人畜共通菌）
+subtitle: Gram-negative bacteria
 aliases: [革蘭氏陰性菌, 革蘭氏陰性桿菌, 革蘭氏陰性雙球菌, Gram-negative bacteria, 腸內桿菌科, Enterobacteriaceae, 大腸桿菌, Escherichia coli, E. coli, 腸道出血性大腸桿菌, EHEC, O157:H7, 溶血性尿毒症候群, 沙門氏菌, Salmonella, 傷寒, 副傷寒, 傷寒瑪莉, 志賀氏菌, Shigella, 桿菌性痢疾, 克雷白氏菌, Klebsiella pneumoniae, 變形桿菌, Proteus mirabilis, 綠膿桿菌, Pseudomonas aeruginosa, 鮑氏不動桿菌, Acinetobacter baumannii, 類鼻疽, 霍亂, 霍亂弧菌, Vibrio cholerae, 腸炎弧菌, Vibrio parahaemolyticus, 創傷弧菌, Vibrio vulnificus, 曲狀桿菌, 彎曲桿菌, Campylobacter jejuni, 腦膜炎雙球菌, 流行性腦脊髓膜炎, Neisseria meningitidis, 嗜血桿菌, Haemophilus influenzae, Hib, 會厭炎, 軟性下疳, 杜克氏嗜血桿菌, 百日咳, Bordetella pertussis, 退伍軍人病, 退伍軍人菌, Legionella pneumophila, 鼠疫, Yersinia pestis, 兔熱病, 土倫病, Francisella tularensis, 布氏桿菌, Brucella, 貓抓病, Bartonella henselae, 巴斯德桿菌, Pasteurella multocida]
 dzTags: [傷寒, 桿菌性痢疾, 霍亂, 食物中毒, 百日咳, 泌尿道感染, 退伍軍人病]
 system: infection

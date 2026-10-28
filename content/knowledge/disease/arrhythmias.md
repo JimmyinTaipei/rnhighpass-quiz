@@ -1,6 +1,6 @@
 ---
 title: 心律不整
-subtitle: Cardiac arrhythmias — how to classify a rhythm strip, sinus rhythms, premature beats, atrial fibrillation and flutter, PSVT, ventricular tachycardia and fibrillation, asystole and PEA, sinoatrial and atrioventricular blocks, and nursing for cardioversion, defibrillation, pacemakers and implantable defibrillators
+subtitle: Cardiac arrhythmias
 aliases: [心律不整, Arrhythmia, Dysrhythmia, 節律不整, 竇性心搏過緩, Sinus bradycardia, 竇性心搏過速, Sinus tachycardia, 竇性心律不整, Sinus arrhythmia, 早期收縮, 期外收縮, 心房早期收縮, APC, PAC, 交界區早期收縮, PJC, 心室早期收縮, PVC, VPC, 二聯律, Bigeminy, 三聯律, R on T, 心房撲動, Atrial flutter, AFL, 心房顫動, 心房纖維顫動, Atrial fibrillation, Af, AF, 脈搏短絀, 陣發性上心室心搏過速, 陣發性心室上心搏過速, PSVT, SVT, AVNRT, 交界區節律, Junctional rhythm, 心室自主節律, Idioventricular rhythm, 心室頻脈, 心室心搏過速, Ventricular tachycardia, VT, 無脈搏心室頻脈, pVT, 多形性心室頻脈, Torsades de pointes, TdP, 心室顫動, 心室纖維顫動, Ventricular fibrillation, VF, 心搏停止, Asystole, 無脈搏電氣活動, PEA, 竇性停止, 竇房阻斷, 房室傳導阻斷, AV block, 一度房室傳導阻斷, Mobitz I, Wenckebach, Mobitz II, 三度房室傳導阻斷, 完全房室傳導阻斷, 房室解離, 病竇症候群, Sick sinus syndrome, Adams-Stokes, WPW 症候群, 頸動脈竇按摩, 迷走神經刺激, 伐氏操作, 同步整流, Synchronized cardioversion, 心律轉換術, 去顫術, 去纖維顫動術, Defibrillation, 心臟節律器, 心律調節器, Pacemaker, 暫時性節律器, 永久性節律器, 經皮節律器, VVI, DDD, 植入式心臟去顫器, ICD, AICD]
 dzTags: [心律不整, 心房顫動, 心室顫動, 心室頻脈, 房室傳導阻斷, 心搏過緩, 心搏過速, 心室上心搏過速]
 system: cardiovascular

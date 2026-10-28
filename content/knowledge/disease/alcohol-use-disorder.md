@@ -1,6 +1,6 @@
 ---
 title: 酒精使用障礙症
-subtitle: Alcohol use disorder（酒精代謝、篩檢、急性中毒、戒斷時間軸與震顫性譫妄、CIWA-Ar、威尼克－柯沙可夫症候群、身體合併症、治療與護理）
+subtitle: Alcohol use disorder
 aliases: [酒精使用障礙症, 酒癮, 酒精成癮, 酗酒, 酒精依賴, 酒精濫用, Alcohol use disorder, Alcoholism, 酒精中毒, 急性酒精中毒, 酒精戒斷, 酒精戒斷症候群, Alcohol withdrawal syndrome, 震顫性譫妄, 酒精戒斷譫妄, Delirium tremens, DT, 酒精性幻覺, 酒精戒斷痙攣, CIWA-Ar, 威尼克氏腦病變, 維尼克氏腦症, Wernicke encephalopathy, 柯沙可夫症候群, 柯沙寇夫症候群, Korsakoff syndrome, 虛談, 酒精性嫉妒妄想, 胎兒酒精症候群, 乙醛去氫酶, ALDH2, AUDIT, CAGE, 匿名戒酒會, AA, 酒精性肝炎, Mallory 小體, 周邊神經病變]
 dzTags: [酒精使用障礙症, 物質使用障礙症]
 system: psychiatric

@@ -1,6 +1,6 @@
 ---
 title: 抗結核藥物
-subtitle: Antitubercular drugs（isoniazid、rifampin、pyrazinamide、ethambutol 與潛伏結核治療）
+subtitle: Antitubercular drugs
 aliases: [抗結核藥, 抗結核病藥物, Antituberculosis drugs, Isoniazid, INH, 異菸鹼醯胺, Rifampin, Rifampicin, RMP, RIF, 立汎黴素, Pyrazinamide, PZA, Ethambutol, EMB, Streptomycin, SM, Rifapentine, 速克伏, 3HP, 1HP, 9H, 4R, 3HR, Rifinah, Rifater, Bedaquiline, 抗痲瘋藥, Dapsone, Clofazimine, 都治, DOTS]
 dzTags: [結核病, 肺結核, 漢生病]
 system: infection

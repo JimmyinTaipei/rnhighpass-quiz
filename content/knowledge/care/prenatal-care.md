@@ -1,6 +1,6 @@
 ---
 title: 孕期護理與營養
-subtitle: Prenatal care — managing common discomforts by trimester, warning signs, posture and body mechanics, exercise and prenatal exercises, perineal massage, sexual activity, daily living, nutrition and Taiwan's recommended intakes, weight gain by pre-pregnancy BMI, vegetarian pregnancy, cultural food beliefs, and childbirth preparation (Lamaze breathing, birth plan, birth ball)
+subtitle: Prenatal care
 aliases: [孕期護理, 產前護理, Prenatal care, 孕期衛教, 孕期不適, 懷孕不適, 孕吐, 害喜, 頻尿, 心灼熱感, 胃灼熱, 便秘, 痔瘡, 靜脈曲張, 下肢水腫, 妊娠水腫, 小腿抽筋, 腿抽筋, 下背痛, 妊娠下背痛, 圓韌帶痛, 呼吸短促, 姿勢性低血壓, 腕隧道症候群, 危險徵象, 孕期警訊, 孕婦姿勢, 孕期運動, 產前運動, 蹲踞運動, 盤腿坐, 骨盆搖擺運動, 骨盆傾斜運動, 凱格爾運動, 會陰按摩, 孕期性生活, 孕期營養, 孕婦營養, 孕期熱量, 葉酸, 鐵劑, 素食孕婦, 維生素 B12, 孕期體重, 孕期體重增加, 生產準備, 生產教育, 拉梅茲呼吸, 廓清式呼吸, 胸式呼吸, 生產計畫書, 生產球, 待產包]
 dzTags: [妊娠水腫, 頻尿, 妊娠嘔吐, 體重不足]
 summary: |

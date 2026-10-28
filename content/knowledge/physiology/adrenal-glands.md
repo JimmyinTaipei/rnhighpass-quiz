@@ -1,6 +1,6 @@
 ---
 title: 腎上腺：皮質三層、醛固酮、皮質醇與壓力反應
-subtitle: Adrenal glands — cortical zones, aldosterone, cortisol, adrenal androgens, medulla and the stress response
+subtitle: Adrenal glands
 aliases: [腎上腺, Adrenal gland, 腎上腺皮質, Adrenal cortex, 腎上腺髓質, Adrenal medulla, 絲球帶, 球狀帶, Zona glomerulosa, 束狀帶, Zona fasciculata, 網狀帶, Zona reticularis, 嗜鉻細胞, Chromaffin cell, 礦物皮質素, 鹽皮質激素, Mineralocorticoid, 醛固酮, 留鹽激素, Aldosterone, 糖皮質素, 醣皮質激素, Glucocorticoid, 皮質醇, Cortisol, 腎上腺雄性素, DHEA, 腎上腺素, Epinephrine, 正腎上腺素, Norepinephrine, 兒茶酚胺, 晝夜節律, 地塞米松抑制試驗, Dexamethasone suppression test, DST, 壓力反應, 全身適應症候群, HPA 軸, 壓力性高血糖]
 dzTags: []
 system: endocrine

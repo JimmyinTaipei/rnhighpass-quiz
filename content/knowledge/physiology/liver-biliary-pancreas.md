@@ -1,6 +1,6 @@
 ---
 title: 肝臟、膽道與胰臟：構造與功能
-subtitle: Liver, biliary tract and exocrine pancreas — lobes and ligaments, dual blood supply, liver lobule, liver functions, bile and enterohepatic circulation, bilirubin metabolism and jaundice, pancreatic juice
+subtitle: Liver, biliary tract and exocrine pancreas
 aliases: [肝臟, Liver, 肝臟功能, 肝葉, 尾葉, 方形葉, 肝門, Porta hepatis, 冠狀韌帶, 靜脈韌帶, 肝小葉, Liver lobule, 中央靜脈, 門脈三合體, 門脈三聯, Portal triad, 竇狀隙, 肝竇, Sinusoid, 庫佛氏細胞, Kupffer cell, 肝細胞, 膽小管, Bile canaliculus, 肝門靜脈, Hepatic portal vein, 門靜脈, 肝動脈, 肝靜脈, 雙重血液供應, 膽汁, Bile, 膽鹽, Bile salt, 乳化作用, 腸肝循環, Enterohepatic circulation, 膽囊, Gallbladder, 總肝管, 膽囊管, 總膽管, Common bile duct, 肝胰壺腹, 華特氏壺腹, Ampulla of Vater, 歐迪氏括約肌, Sphincter of Oddi, 膽紅素, Bilirubin, 非結合膽紅素, 間接膽紅素, 結合膽紅素, 直接膽紅素, 葡萄糖醛酸轉移酶, 尿膽素原, Urobilinogen, 糞膽素, 黃疸, Jaundice, 溶血性黃疸, 肝細胞性黃疸, 阻塞性黃疸, 肝前性黃疸, 肝後性黃疸, 照光治療原理, 胰臟, Pancreas, 胰液, 腺泡細胞, 主胰管, 副胰管, 胰澱粉酶, 胰脂解酶, 輔脂解酶, Colipase, 胰蛋白酶原, Trypsinogen, 腸激酶]
 dzTags: [黃疸, 阻塞性黃疸, 溶血性黃疸]
 summary: |

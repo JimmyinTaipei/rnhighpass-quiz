@@ -1,6 +1,6 @@
 ---
 title: 新生兒照護
-subtitle: Newborn nursing care — immediate care after birth (warmth, airway, delayed cord clamping, identification, eye prophylaxis, vitamin K, hepatitis B), cord care, first bath and skin care, diaper rash, feeding volumes and cues, physiological weight loss and output, newborn screening and hearing screening, safe sleep and SIDS prevention, holding and clothing, and parent teaching before discharge
+subtitle: Newborn nursing care
 aliases: [新生兒照護, 新生兒護理, Newborn care, 新生兒立即護理, 新生兒即刻護理, 立即護理順序, 新生兒抽吸, 口鼻抽吸, 延遲斷臍, 斷臍, 新生兒身分辨識, 手圈, 腳印, 新生兒眼藥膏, 結膜炎預防, 維生素 K 注射, 維生素 K1, 新生兒 B 肝疫苗, HBIG, 臍帶護理, 臍帶脫落, 臍炎, 新生兒沐浴, 第一次洗澡, 盆浴, 新生兒皮膚護理, 尿布疹, 痱子粉, 嬰兒油, 精油, 新生兒餵食, 奶量計算, 嬰兒熱量需求, 晚期飢餓暗示, 生理性體重減輕, 生理性體重流失, 新生兒脫水, 新生兒篩檢採血, 足跟採血, 新生兒聽力篩檢, 嬰兒猝死症候群, SIDS, 安全睡眠, 仰睡, 同室不同床, 嬰兒抱法, 搖籃式抱法, 直立式抱法, 拍打嗝, 新生兒衣著, 新生兒出院衛教, 新生兒危險徵象]
 dzTags: [嬰兒猝死症候群, 尿布疹, 新生兒生理性體重流失, 臍炎]
 system: obstetrics

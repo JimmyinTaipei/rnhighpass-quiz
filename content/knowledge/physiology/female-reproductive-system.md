@@ -1,6 +1,6 @@
 ---
 title: 女性生殖系統
-subtitle: Female reproductive system — vulva and perineum, vagina, uterus and its supporting ligaments, fallopian tubes, ovaries and oogenesis, ovarian follicles, the ovarian and uterine (menstrual) cycles with FSH, LH, estrogen and progesterone, basal body temperature and cervical mucus, the breast, and menopause
+subtitle: Female reproductive system
 aliases: [女性生殖系統, Female reproductive system, 女性生殖器官, 外生殖器, 女陰, Vulva, 陰阜, Mons pubis, 大陰唇, Labia majora, 小陰唇, Labia minora, 陰蒂, Clitoris, 陰蒂包皮, 陰道前庭, Vestibule, 前庭球, 前庭大腺, 巴氏腺, Bartholin gland, 會陰, Perineum, 陰道, Vagina, 陰道穹窿, 後穹窿, 子宮, Uterus, 子宮底, 子宮體, 子宮峽部, 子宮頸, Cervix, 子宮內膜, Endometrium, 功能層, 基底層, 子宮肌層, Myometrium, 子宮外膜, 子宮前傾前屈, 子宮韌帶, 闊韌帶, 圓韌帶, 主韌帶, 子宮薦骨韌帶, 子宮骶骨韌帶, 骨盆膈, 輸卵管, Fallopian tube, 繖部, 漏斗部, 壺腹部, 峽部, 卵巢, Ovary, 卵子生成, Oogenesis, 卵原細胞, 初級卵母細胞, 次級卵母細胞, 極體, 原始濾泡, 初級濾泡, 次級濾泡, 葛氏濾泡, 成熟濾泡, Graafian follicle, 顆粒細胞, 內鞘膜細胞, 透明帶, 放射冠, 黃體, Corpus luteum, 白體, 月經週期, Menstrual cycle, 卵巢週期, 子宮週期, 濾泡期, 黃體期, 增生期, 分泌期, 月經期, LH 高峰, LH surge, 排卵, Ovulation, 基礎體溫, BBT, 子宮頸黏液, 乳房, 乳腺, 泌乳, 更年期, 停經, Menopause]
 summary: |
   外生殖器由前往後：陰蒂、尿道口、陰道口；陰蒂與陰莖同源，小陰唇包成陰蒂包皮

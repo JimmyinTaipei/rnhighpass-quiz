@@ -1,6 +1,6 @@
 ---
 title: 人力資源管理、招募甄選與工作分析
-subtitle: Human resource management, recruitment and job analysis（選用育留、招募與甄選、工作分析、工作說明書、工作評價、工作設計）
+subtitle: Human resource management, recruitment and job analysis
 aliases: [人力資源管理, HRM, 人事管理, 選才, 用才, 育才, 留才, 護理人力資源, 行為規範, 招募, 甄選, 內部招募, 外部招募, 面談, 回顧式面談, 前瞻式面談, 工作分析, 工作說明書, 工作規範, 工作評價, 工作分級法, 工作分類法, 因素比較法, 點數法, 工作設計, 工作擴大化, 工作豐富化, 工作輪調, 工作再設計, 專科護理師]
 admTags: [人力資源管理, 招募與甄選, 工作分析與工作說明書, 工作設計, 專科護理師, 護理人力推算公式]
 system: administration

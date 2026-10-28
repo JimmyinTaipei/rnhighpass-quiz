@@ -1,6 +1,6 @@
 ---
 title: 產科護理概論
-subtitle: Foundations of obstetric nursing — the history of obstetric care, trends in Taiwan, family-centered maternity care, gentle and woman-friendly birth, Lamaze healthy birth practices, childbirth education, roles of the obstetric nurse, culturally sensitive care, and ethical and legal issues such as induced abortion
+subtitle: Foundations of obstetric nursing
 aliases: [產科護理概論, 產科護理, Obstetric nursing, Maternity nursing, 產科護理演進, 產科史, Semmelweis, 產褥熱, 產婆, 助產士, 助產師, 以家庭為中心的產科護理, 以家庭為中心的照護, Family-centered maternity care, FCMC, 樂得兒產房, LDR, LDRP, 待產分娩恢復室, 親子同室, Rooming-in, 早期出院, 溫柔生產, 友善生產, 人性化生產, 自然生產, 生產計畫書, Birth plan, 拉梅茲, Lamaze, 健康生產六大措施, Healthy birth practices, 生產教育, 產前教育, 陪產, 導樂, Doula, 產科護理人員角色, 照顧者, 諮詢者, 教育者, 跨文化照護, 新住民, 坐月子, 生化湯, 產科倫理, 知情同意, 生產事故救濟條例, 人工流產]
 summary: |
   以家庭為中心：懷孕生產是正常的生命事件，家庭成員一起參與；陪產、親子同室、樂得兒產房、產後立即肌膚接觸、無合併症提早出院

@@ -1,6 +1,6 @@
 ---
 title: 膽鹼性與抗膽鹼藥物
-subtitle: Cholinergic agonists, anticholinesterases, antimuscarinics and neuromuscular blockers
+subtitle: Cholinergic and anticholinergic drugs
 aliases: [膽鹼性藥物, 擬副交感神經藥物, 擬副交感神經劑, 副交感神經作用劑, 膽鹼性致效劑, 膽鹼酯類藥物, Cholinergic agonist, Parasympathomimetic, Bethanechol, Urecholine, Pilocarpine, Carbachol, 抗膽鹼酯酶藥物, 抗膽鹼酯酶用藥, 乙醯膽鹼酯酶抑制劑, 膽鹼酯酶抑制劑, Anticholinesterase, Cholinesterase inhibitor, Neostigmine, Prostigmin, Pyridostigmine, Mestinon, Physostigmine, Edrophonium, Tensilon, Tensilon test, Echothiophate, 有機磷, 有機磷中毒, Organophosphate, 巴拉松, Parathion, 沙林, Sarin, 神經毒氣, 巴姆, Pralidoxime, PAM, 2-PAM, 阿托品化, Atropinization, 膽鹼性危象, 膽鹼激性危象, Cholinergic crisis, 肌無力危象, Myasthenic crisis, 抗膽鹼用藥, 抗膽鹼藥物, 抗膽鹼激素藥物, 抗蕈毒鹼藥, 毒蕈鹼拮抗劑, 副交感神經阻斷劑, Anticholinergic, Antimuscarinic, Atropine, 阿托平, Scopolamine, Hyoscine, Buscopan, Glycopyrrolate, Ipratropium, Oxybutynin, Tolterodine, Solifenacin, Trihexyphenidyl, Artane, Benztropine, Cyclopentolate, Tropicamide, 散瞳劑, 睫狀肌麻痺劑, 縮瞳劑, 臨終嘎音, Death rattle, 暈車藥, 神經肌肉阻斷劑, 神經肌阻斷劑, 肌肉鬆弛劑, Neuromuscular blocker, Succinylcholine, Suxamethonium, 去極化型, 非去極化型, Tubocurarine, 箭毒, Curare, Pancuronium, Vecuronium, Rocuronium, Atracurium, Cisatracurium, Mivacurium, Sugammadex, 惡性高熱, Dantrolene, 肉毒桿菌毒素, Botulinum toxin, Botox, 青光眼用藥]
 dzTags: []
 system: neuro

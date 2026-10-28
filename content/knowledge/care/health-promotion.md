@@ -1,6 +1,6 @@
 ---
 title: 健康促進
-subtitle: Health promotion（健康促進與疾病預防、健康體適能、健康識能、Lalonde 四大因素、渥太華憲章與國際會議、健康城市與高齡友善城市、菸害防制、健康信念模式、Pender、PRECEDE-PROCEED、跨理論模式、社會生態模式）
+subtitle: Health promotion
 aliases: [健康促進, Health promotion, 疾病預防, 健康體適能, 健康體能, 競技體能, 身體活動, 健康識能, 健康素養, Health literacy, 賦權, 增能, Empowerment, 社區賦權, Lalonde, 拉隆, 健康決定因素, 渥太華憲章, Ottawa charter, 五大行動綱領, 健康的公共政策, 支持性環境, 社區行動力, 個人技能, 調整健康服務, 阿德雷德, 松茲瓦爾, 墨西哥, 曼谷憲章, 上海宣言, 日內瓦福祉憲章, 健康城市, Healthy city, 高齡友善城市, Age-friendly city, 健康人民 2030, Healthy People 2030, 健康的社會決定因素, 菸害防制法, 類菸品, 電子煙, 加熱菸, 健康信念模式, Health Belief Model, HBM, 自覺罹患性, 自覺嚴重性, 自覺利益, 自覺障礙, 行動線索, Pender, 健康促進模式, 自我效能, Self-efficacy, Bandura, PRECEDE-PROCEED, 傾向因素, 性向因素, 促成因素, 增強因素, 理性行為論, 跨理論模式, Transtheoretical model, 改變階段, 無意圖期, 意圖期, 準備期, 行動期, 維持期, 意識覺醒, 自我再評價, 增強管理, 刺激控制, 社會生態模式, Beattie, 社會改變, 行為改變, 非傳染性疾病, NCDs]
 dzTags: [菸草使用障礙症, 尼古丁戒斷症候群, 代謝症候群]
 system: community

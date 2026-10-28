@@ -1,6 +1,6 @@
 ---
 title: 身體清潔與舒適護理：口腔、更衣、沐浴、背部、指甲與會陰
-subtitle: Hygiene and comfort care — oral care and dentures, dressing with an IV line, bed bath, back massage, nail and foot care, perineal care
+subtitle: Hygiene and comfort care
 aliases: [身體清潔, 個人衛生, Hygiene, 口腔護理, Oral care, 特殊口腔護理, 一般口腔護理, 口腔清潔溶液, 漱口水, 水性優碘, Aqua beta-iodine, Chlorhexidine, 寶馬生, Xylocaine solution, 麻醉劑溶液, 假牙, 活動假牙, Denture, 牙線, 更衣, 穿脫衣服, 點滴更衣, 床上沐浴, 床上擦澡, Bed bath, 拋棄式擦澡巾, 50% 酒精, 床上洗頭, 床上洗髮, 梳髮, 背部護理, 背部按摩, Back massage, 按撫法, Stroking, Effleurage, 揉捏法, Kneading, 重擦法, Friction, 敲擊法, Tapotement, 指甲護理, 足部護理, 足部按摩, 嵌甲, 肉刺, 糖尿病足部護理, 會陰護理, 會陰沖洗, Perineal care, 膠帶移除, 醫療黏膠相關皮膚損傷, MARSI]
 dzTags: [口腔潰瘍, 口腔黏膜改變, 醫療性皮膚損傷, 皮膚乾燥]
 system: fundamentals

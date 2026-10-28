@@ -1,6 +1,6 @@
 ---
 title: 急診護理與常見急症
-subtitle: Emergency nursing — Taiwan Triage and Acuity Scale (TTAS), trauma primary and secondary survey, general principles of poisoning care, paraquat and corrosive ingestion, venomous snakebite, drowning, and accidental hypothermia
+subtitle: Emergency nursing
 aliases: [急診護理, 急診, Emergency nursing, 檢傷分類, 急診檢傷, 檢傷, Triage, 臺灣急診檢傷與急迫度分級量表, 台灣急診檢傷與急迫度分級量表, 急診五級檢傷, 五級檢傷, TTAS, Taiwan Triage and Acuity Scale, 復甦急救, 危急, 緊急, 次緊急, 非緊急, 調節變數, 中樞性疼痛, 周邊性疼痛, 初級評估, 次級評估, Primary survey, Secondary survey, ABCDE, AVPU, SAMPLE, 中毒, Poisoning, 中毒處置, 洗胃, 胃灌洗, 催吐, 活性碳, Activated charcoal, 鹼化尿液, 酸化尿液, 血液灌洗, 腐蝕性中毒, 強酸, 強鹼, 巴拉刈, 巴拉刈中毒, Paraquat, 除草劑中毒, 毒蛇咬傷, 蛇咬傷, Snakebite, 出血性毒蛇, 神經性毒蛇, 龜殼花, 赤尾鮐, 赤尾青竹絲, 青竹絲, 百步蛇, 雨傘節, 飯匙倩, 眼鏡蛇, 鎖鏈蛇, 抗蛇毒血清, Antivenin, 五要五不, 溺水, Drowning, 淡水溺水, 鹹水溺水, 海水溺水, 續發性溺水, 浸水症候群, 減壓病, 潛水夫病, 體溫過低, 意外低體溫, Accidental hypothermia, 回溫, 被動回溫, 主動外部回溫, 主動內部回溫, 凍瘡, Frostbite]
 dzTags: [中毒, 巴拉刈中毒, 毒蛇咬傷, 溺水]
 system: critical-care

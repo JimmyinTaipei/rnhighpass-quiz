@@ -73,7 +73,10 @@ export function ArticleShell({
 }: ArticleShellProps) {
   const isPanel = variant === "panel";
   const parentOf = useMemo(() => flatten(toc, null, new Map()), [toc]);
-  const [collapsed, setCollapsed] = useState<Set<string>>(() => new Set());
+  // 重點摘要預設收合(帶 #summary 進頁時 reveal 會展開)
+  const [collapsed, setCollapsed] = useState<Set<string>>(
+    () => new Set(toc.some((n) => n.id === "summary") ? ["summary"] : []),
+  );
   const [activeId, setActiveId] = useState<string | null>(null);
   const [drawer, setDrawer] = useState(false);
   const tocHidden = useHideOnScrollDown();

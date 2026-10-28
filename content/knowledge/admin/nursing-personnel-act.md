@@ -1,6 +1,6 @@
 ---
 title: 護理人員法與護理人員執業
-subtitle: Nursing Personnel Act（證書與執照、執業登記與繼續教育、業務範圍、罰則、專科護理師）
+subtitle: Nursing Personnel Act
 aliases: [護理人員法, 護理人員法施行細則, 護理師證書, 護理人員證書, 執業執照, 執業登記, 繼續教育, 繼續教育積分, 醫療輔助行為, 租借證照, 專科護理師, 護理師護士公會, 停業, 歇業, 復業]
 admTags: [護理人員法, 專科護理師]
 system: administration

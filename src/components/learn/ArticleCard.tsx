@@ -24,10 +24,13 @@ export function ArticleCard({
     <div className="rounded-card bg-card p-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)]">
       <div className="flex items-start gap-2">
         <Link href={`/learn/${article.slug}`} className="group min-w-0 flex-1">
-          <span className="block text-[1.0625rem] font-semibold text-strong group-hover:text-deep group-hover:underline">
-            {article.title}
+          <span className="block md:flex md:items-baseline md:gap-2">
+            <span className="block text-[1.0625rem] font-semibold text-strong group-hover:text-deep group-hover:underline">
+              {article.title}
+            </span>
+            {/* 電腦版英文接在中文右側;手機在下一行 */}
+            {article.subtitle && <span className="block min-w-0 text-sm text-body md:truncate">{article.subtitle}</span>}
           </span>
-          {article.subtitle && <span className="block text-sm text-body">{article.subtitle}</span>}
         </Link>
         <ExamPill count={article.examCount} />
       </div>

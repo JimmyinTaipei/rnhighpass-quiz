@@ -1,6 +1,6 @@
 ---
 title: 染色體異常疾病
-subtitle: Chromosomal disorders — Down syndrome (trisomy 21), trisomy 18 and 13, Turner syndrome, Klinefelter syndrome, deletion syndromes, fragile X syndrome
+subtitle: Chromosomal disorders
 aliases: [染色體異常, 染色體異常疾病, Chromosomal abnormality, 核型, Karyotype, 三體症, Trisomy, 單體症, Monosomy, 不分離, Nondisjunction, 易位, Translocation, 羅伯遜易位, 鑲嵌, Mosaicism, 唐氏症, 唐氏症候群, Down syndrome, 三體 21, Trisomy 21, 蒙古症, 愛德華氏症候群, Edwards syndrome, 三體 18, 巴陶氏症候群, 帕陀氏症候群, Patau syndrome, 三體 13, 透納氏症, 特納氏症候群, 透納式症候群, Turner syndrome, 45 X, 柯林菲特氏症, 科林菲特氏症, Klinefelter syndrome, 47 XXY, 超女性症, 47 XXX, 巴氏體, Barr body, 貓哭症候群, Cri du chat, 迪喬治症候群, DiGeorge syndrome, 22q11.2 缺失, 小胖威利症候群, Prader-Willi syndrome, 天使症候群, Angelman syndrome, X 染色體脆折症, 脆折 X 症候群, Fragile X syndrome, FISH, 費城染色體]
 dzTags: [唐氏症, 透納氏症, 科林菲特氏症, 染色體異常]
 system: general-pathology

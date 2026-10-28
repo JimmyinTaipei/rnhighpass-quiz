@@ -1,6 +1,6 @@
 ---
 title: 腎功能檢驗：BUN、肌酸酐、清除率與 eGFR
-subtitle: Renal function tests — blood urea nitrogen(BUN), serum creatinine, creatinine clearance(CCr) and estimated GFR(eGFR)
+subtitle: Renal function tests
 aliases: [腎功能, 腎功能檢查, 腎功能檢驗, Renal function test, RFT, 尿素氮, 血中尿素氮, 血液尿素氮, BUN, Blood urea nitrogen, 肌酸酐, 肌酐酸, 肌肝酸, 血清肌酸酐, Creatinine, Cr, SCr, BUN/Cr 比值, BUN 與肌酸酐比值, 肌酸酐清除率, 肌酸酐廓清率, 肌酸酐廓清試驗, Creatinine clearance, CCr, 腎絲球過濾率, GFR, eGFR, 估算腎絲球過濾率, CKD-EPI, MDRD, Cockcroft-Gault, Cystatin C, 胱抑素 C, 氮血症, Azotemia]
 dzTags: [腎功能不全, 腎衰竭]
 system: renal

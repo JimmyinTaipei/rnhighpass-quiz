@@ -1,6 +1,6 @@
 ---
 title: 呼吸系統解剖：呼吸道、肺、肺泡與胸膜
-subtitle: Respiratory anatomy — airways, lungs, alveoli and pleura
+subtitle: Respiratory anatomy
 aliases: [呼吸系統解剖, 呼吸器官, 上呼吸道, 下呼吸道, 傳導區, 呼吸區, Conducting zone, Respiratory zone, 鼻腔, 咽, 喉, Larynx, 甲狀軟骨, 喉結, 環狀軟骨, 杓狀軟骨, 會厭, Epiglottis, 聲帶, 環甲肌, 環甲膜, 喉返神經, 氣管, Trachea, 隆凸, Carina, 主支氣管, 右主支氣管, 葉支氣管, 節支氣管, 細支氣管, 終末細支氣管, 呼吸性細支氣管, 肺泡管, 肺泡囊, 肺泡, Alveolus, 第一型肺泡細胞, 第二型肺泡細胞, 肺泡巨噬細胞, 塵細胞, 呼吸膜, Respiratory membrane, 表面張力素, 界面活性劑, Surfactant, 肺葉, 斜裂, 水平裂, 肺門, 胸膜, 肋膜, 臟層胸膜, 壁層胸膜, 肋膜腔, 膈神經, 黏液纖毛清除, 嬰幼兒呼吸道, 耳咽管]
 dzTags: []
 system: respiratory

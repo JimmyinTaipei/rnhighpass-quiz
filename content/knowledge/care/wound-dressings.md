@@ -1,6 +1,6 @@
 ---
 title: 傷口敷料與換藥
-subtitle: Wound dressings and dressing change — moist wound healing, wound bed preparation (TIME), debridement methods, traditional gauze and modern dressings (hydrocolloid, hydrogel, transparent film, foam, alginate, hydrofiber, silver and iodine), choosing by exudate and infection, and dressing change steps
+subtitle: Wound dressings and dressing change
 aliases: [傷口敷料, 敷料, Dressing, Wound dressing, 換藥, Dressing change, 傷口護理, 傷口照護, 濕潤癒合, Moist wound healing, 傷口床準備, Wound bed preparation, TIME 原則, TIMEING, 清創, 清創術, 擴創術, Debridement, 外科清創, 機械性清創, 酵素清創, 自體溶解清創, 生物性清創, 蛆療法, 傳統敷料, 紗布, Gauze, 親水性敷料, 親水性膠體敷料, 水膠體敷料, Hydrocolloid, 親水凝膠, Hydrogel, 透明薄膜敷料, Transparent film, 泡棉敷料, Foam dressing, 藻膠敷料, 海藻酸鈣敷料, Alginate, 親水性纖維敷料, Hydrofiber, 含銀敷料, 銀離子敷料, Silver dressing, 含碘敷料, 蜂蜜敷料, 濕敷, 乾到濕敷料, Wet-to-dry, 傷口培養]
 summary: |
   傷口在濕潤環境中上皮化比乾燥快約 2 倍；乾燥環境不利癒合，太濕則周圍皮膚浸潤

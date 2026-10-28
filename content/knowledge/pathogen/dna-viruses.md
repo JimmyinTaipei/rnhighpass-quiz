@@ -1,6 +1,6 @@
 ---
 title: DNA 病毒
-subtitle: DNA viruses（腺病毒、痘病毒、微小病毒、多瘤病毒；疱疹病毒、HPV、B 肝病毒的比較）
+subtitle: DNA viruses
 aliases: [DNA 病毒, DNA viruses, 腺病毒, Adenovirus, 游泳池結膜炎, 咽結膜熱, 流行性角結膜炎, 痘病毒, Poxvirus, 天花, Smallpox, 天花病毒, M 痘, 猴痘, Mpox, Monkeypox, JYNNEOS, 傳染性軟疣, Molluscum contagiosum, 微小病毒, Parvovirus B19, 傳染性紅斑, 第五病, 多瘤病毒, JC 病毒, BK 病毒, 進行性多灶性白質腦病]
 dzTags: [天花]
 system: infection

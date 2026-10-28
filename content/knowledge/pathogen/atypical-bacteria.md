@@ -1,6 +1,6 @@
 ---
 title: 特殊病原菌
-subtitle: Atypical bacteria（螺旋體、黴漿菌、立克次體、披衣菌）
+subtitle: Atypical bacteria
 aliases: [特殊病原菌, 非典型細菌, 螺旋體, Spirochetes, 疏螺旋體, 包氏螺旋體, 伯氏疏螺旋體, Borrelia burgdorferi, 萊姆病, Lyme disease, 遊走性紅斑, 回歸熱, 回歸熱疏螺旋體, Borrelia recurrentis, 鉤端螺旋體, 鉤端螺旋體病, Leptospira, 黴漿菌, 肺炎黴漿菌, Mycoplasma pneumoniae, 黴漿菌肺炎, 非典型肺炎, 立克次體, Rickettsia, 恙蟲病, 叢林型斑疹傷寒, Scrub typhus, 恙蟎, 焦痂, 恙蟲病東方體, Orientia tsutsugamushi, 地方性斑疹傷寒, 鼠型斑疹傷寒, 流行性斑疹傷寒, Q 熱, 伯納特柯克斯體, Coxiella burnetii, 披衣菌, Chlamydia, 砂眼, 砂眼披衣菌, Chlamydia trachomatis, 肺炎披衣菌, Chlamydophila pneumoniae, 鸚鵡熱, 鸚鵡披衣菌, Chlamydia psittaci, 原質小體, 網狀小體]
 dzTags: [恙蟲病, 黴漿菌肺炎, 披衣菌感染]
 system: infection

@@ -1,6 +1,6 @@
 ---
 title: 心肺復甦術與哽塞急救
-subtitle: Cardiopulmonary resuscitation — chain of survival, high-quality CPR for adults, children and infants, opening the airway and rescue breaths, AED use, adult cardiac arrest algorithm, signs of return of circulation, and relief of foreign-body airway obstruction (2025 AHA)
+subtitle: Cardiopulmonary resuscitation
 aliases: [心肺復甦術, CPR, Cardiopulmonary resuscitation, 心肺腦復甦術, CPCR, 基本救命術, 基本支持生命法, BLS, Basic life support, 高級心臟救命術, ACLS, 小兒高級救命術, PALS, 生存之鏈, 生命之鏈, Chain of survival, 院內心跳停止, IHCA, 到院前心跳停止, OHCA, 叫叫 CABD, 叫叫CAB, 胸部按壓, 心外按摩, 胸外心臟按壓, 高品質 CPR, 人工呼吸, 口對口人工呼吸, 救援呼吸, 壓額抬下巴法, Head tilt–chin lift, 推下顎法, 下顎上推法, Jaw thrust, 復甦姿勢, 自動體外心臟去顫器, 自動體外電擊器, AED, Automated external defibrillator, 開貼插按, 恢復自發循環, ROSC, 哽塞, 噎到, 呼吸道異物梗塞, 異物哽塞, FBAO, 哈姆立克法, Heimlich, 腹戳法, 腹部推擠, 胸戳法, 胸部推擠, 背部拍擊, 拍背戳胸法, 嬰兒心肺復甦術, 兒童心肺復甦術]
 dzTags: [心肺停止, 呼吸道異物阻塞, 呼吸停止]
 system: critical-care

@@ -1,6 +1,6 @@
 ---
 title: 補體系統
-subtitle: Complement system（三條活化路徑、膜攻擊複合體、功能、調控、缺乏症、C3 與 C4 的判讀）
+subtitle: Complement system
 aliases: [補體, 補體系統, Complement, Complement system, 古典路徑, 傳統途徑, Classical pathway, 凝集素路徑, Lectin pathway, 替代路徑, 替代途徑, Alternative pathway, C1q, C1r, C1s, C1 抑制劑, C1 inhibitor, C1-INH, C3, C4, C5, C3a, C3b, C5a, C5b, 過敏毒素, Anaphylatoxin, 調理作用, Opsonization, 免疫黏附, 膜攻擊複合體, Membrane attack complex, MAC, C5b-9, 補體缺乏, 遺傳性血管性水腫, Hereditary angioedema, HAE, 陣發性夜間血紅素尿症, PNH, CD55, DAF, CD59, 因子 B, 因子 D, 因子 H, 因子 I, Properdin, 備解素, 甘露糖結合凝集素, MBL, MASP, CH50, AH50, 補體 C3, 補體 C4, 熱不穩定, Eculizumab]
 dzTags: []
 system: hematology-immunology

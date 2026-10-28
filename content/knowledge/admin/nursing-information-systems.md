@@ -1,6 +1,6 @@
 ---
 title: 護理資訊系統、電子病歷與資訊安全
-subtitle: Nursing information systems（NIS 的定義、功能、目標與助益、資訊科技與病人安全、電子病歷、資訊安全使用原則、異常事件檢討）
+subtitle: Nursing information systems
 aliases: [護理資訊系統, NIS, Nursing Information System, 護理資訊學, 資訊結構, 資訊過程, 資訊技術, 電子病歷, EMR, 完全電子病歷, 稽核軌跡, Audit trail, 資訊安全, 機密性, 完整性, 可用性, 帳號, 密碼, 登出, 條碼給藥, BCMA, CPOE, CDSS, 臨床決策支援, 電子化醫囑, 護理紀錄電子化, 資訊化, 病人安全事件, 非懲罰性文化, 異常事件檢討, 個人資料保護法]
 admTags: [護理資訊系統, 資訊安全與個資, 病人安全通報與警訊事件, 根本原因分析RCA]
 system: administration

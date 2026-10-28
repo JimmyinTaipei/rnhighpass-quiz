@@ -1,6 +1,6 @@
 ---
 title: 創傷後壓力症與急性壓力症
-subtitle: Trauma- and stressor-related disorders（創傷後壓力症、急性壓力症、適應障礙症、壓力反應、創傷知情照護）
+subtitle: Trauma- and stressor-related disorders
 aliases: [創傷後壓力症, 創傷後壓力症候群, 創傷後壓力疾患, PTSD, Posttraumatic stress disorder, Post-traumatic stress disorder, 急性壓力症, 急性壓力反應, 急性壓力疾患, ASD, Acute stress disorder, 適應障礙症, 適應障礙, Adjustment disorder, 創傷及壓力相關障礙症, 回憶重現, 經驗再現, 閃回, Flashback, 侵入性症狀, 逃避, 過度警覺, 警覺性過高, 倖存者罪惡感, 創傷知情照護, Trauma-informed care, TIC, 壓力反應, 全身適應症候群, GAS, 警覺期, 抵抗期, 耗竭期, Selye, 漢斯塞利, HPA 軸, 戰或逃, 洪水法, 延長暴露治療, 創傷焦點認知行為治療, EMDR, 眼動減敏與歷程更新]
 dzTags: [創傷後壓力症, 急性壓力症, 壓力反應]
 system: psychiatric

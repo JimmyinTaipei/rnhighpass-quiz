@@ -1,6 +1,6 @@
 ---
 title: 感覺器官：視覺、聽覺、平衡、味覺與嗅覺
-subtitle: Special senses — eye and vision, ear and hearing, vestibular balance, taste and smell
+subtitle: Special senses
 aliases: [感覺器官, 特殊感覺, Special senses, 感覺接受器, 接受器, 適應, 冷覺, 熱覺, 眼球構造, 角膜, Cornea, 鞏膜, Sclera, 脈絡膜, Choroid, 葡萄膜, 睫狀體, Ciliary body, 睫狀突, 虹膜, Iris, 瞳孔, Pupil, 水晶體, Lens, 玻璃體, Vitreous, 視網膜, Retina, 黃斑部, 中央小窩, Fovea, 視神經盤, 盲點, Optic disc, 房水, 水樣液, Aqueous humor, 許萊姆氏管, Canal of Schlemm, 小樑網, 眼壓, 桿細胞, Rod, 錐細胞, Cone, 視紫質, Rhodopsin, 色盲, Color blindness, 夜盲, 雙極細胞, 神經節細胞, 調節, Accommodation, 近視, Myopia, 遠視, Hyperopia, 老花眼, Presbyopia, 散光, Astigmatism, 視覺徑路, 視交叉, Optic chiasm, 視徑, 外側膝狀體, 視放射, 雙顳側偏盲, 同側偏盲, 淚器, 淚腺, 鼻淚管, 外耳, 中耳, 內耳, 鼓膜, 聽小骨, 錘骨, 砧骨, 鐙骨, 耳咽管, 歐氏管, Eustachian tube, 耳蝸, Cochlea, 柯蒂氏器, Organ of Corti, 前庭, 橢圓囊, 球囊, 耳石, 半規管, 壺腹嵴, 前庭耳蝸神經, 傳導性聽力喪失, 感覺神經性聽力喪失, 韋伯試驗, Weber test, 任內試驗, Rinne test, 味覺, 味蕾, 舌乳頭, 絲狀乳頭, 蕈狀乳頭, 輪廓狀乳頭, 葉狀乳頭, 鮮味, Umami, 嗅覺]
 dzTags: []
 system: neuro

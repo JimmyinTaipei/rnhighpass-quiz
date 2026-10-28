@@ -1,6 +1,6 @@
 ---
 title: 金黃色葡萄球菌
-subtitle: Staphylococcus aureus（含 MRSA、毒性休克症候群、食物中毒）
+subtitle: Staphylococcus aureus
 aliases: [金黃色葡萄球菌, 金黃葡萄球菌, 金葡菌, Staphylococcus aureus, S. aureus, MRSA, 抗藥性金黃色葡萄球菌, 抗二甲氧基苯青黴素金黃色葡萄球菌, CA-MRSA, 社區型MRSA, VISA, VRSA, 毒性休克症候群, Toxic shock syndrome, TSS, 葡萄球菌燙傷皮膚症候群, SSSS, 葡萄球菌食物中毒, 膿痂疹, 癤, 癰, 凝固酶, Coagulase, 腸毒素]
 dzTags: [金黃色葡萄球菌感染, 毒性休克症候群, 食物中毒, 骨髓炎, 蜂窩性組織炎, 乳腺炎, 感染性心內膜炎]
 system: infection

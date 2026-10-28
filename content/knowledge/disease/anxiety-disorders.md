@@ -1,6 +1,6 @@
 ---
 title: 焦慮症
-subtitle: Anxiety disorders（焦慮程度、恐慌症、特定場所畏懼症、社交焦慮症、特定畏懼症、廣泛性焦慮症、分離焦慮症）
+subtitle: Anxiety disorders
 aliases: [焦慮, 焦慮症, 焦慮障礙症, 焦慮性疾患, Anxiety, Anxiety disorders, 焦慮程度, 輕度焦慮, 中度焦慮, 重度焦慮, 恐慌程度, 極重度焦慮, 情境性焦慮, 狀態焦慮, 特質性焦慮, 預期性焦慮, 漂浮性焦慮, 恐慌症, 恐慌發作, Panic disorder, Panic attack, 恐慌, 特定場所畏懼症, 特定場所恐懼症, 懼曠症, 廣場恐懼症, Agoraphobia, 社交焦慮症, 社交畏懼症, 社交恐懼症, Social anxiety disorder, Social phobia, 特定畏懼症, 特定對象畏懼症, 畏懼症, 恐懼症, Specific phobia, Phobia, 懼高症, 幽閉恐懼, 廣泛性焦慮症, 泛焦慮症, 廣泛性焦慮障礙症, GAD, Generalized anxiety disorder, 分離焦慮症, 分離焦慮障礙症, Separation anxiety disorder, 選擇性不語症, Selective mutism, 過度換氣, 紙袋呼吸, 放鬆訓練, 腹式呼吸, 漸進式肌肉放鬆, 一朝被蛇咬十年怕草繩]
 dzTags: [焦慮症, 焦慮, 恐慌症, 廣泛性焦慮症, 社交焦慮症, 特定場所畏懼症, 畏懼症, 分離焦慮症]
 system: psychiatric

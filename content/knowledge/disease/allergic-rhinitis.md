@@ -1,6 +1,6 @@
 ---
 title: 過敏性鼻炎
-subtitle: Allergic rhinitis（表現、誘發原、診斷、藥物階梯、環境控制、免疫治療）
+subtitle: Allergic rhinitis
 aliases: [過敏性鼻炎, 鼻過敏, 枯草熱, 季節性過敏性鼻炎, 常年性過敏性鼻炎, Allergic rhinitis, Hay fever, Seasonal allergic rhinitis, Perennial allergic rhinitis, 鼻炎, Rhinitis, 塵蟎, 屋塵蟎, 蟑螂過敏原, 花粉症, 鼻用類固醇, 鼻噴劑, 去鼻充血劑, 藥物性鼻炎, Rhinitis medicamentosa, 過敏原免疫治療, 脫敏治療, Allergen immunotherapy, 環境控制, 過敏原迴避, 過敏護理指導, 異位性過敏衛教]
 dzTags: [過敏性鼻炎, 鼻炎]
 system: hematology-immunology

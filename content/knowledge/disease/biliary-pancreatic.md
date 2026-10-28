@@ -1,6 +1,6 @@
 ---
 title: 膽道與胰臟疾病：膽結石、膽囊炎、黃疸、胰臟炎與胰臟癌
-subtitle: Biliary and pancreatic disorders — cholelithiasis, cholecystitis and cholangitis, obstructive jaundice, cholecystectomy and T-tube care, gallbladder cancer, acute and chronic pancreatitis, pancreatic cancer
+subtitle: Biliary and pancreatic disorders
 aliases: [膽道疾病, 膽胰疾病, 膽結石, 膽石症, Cholelithiasis, Gallstone, 膽固醇結石, 色素結石, 膽囊炎, 急性膽囊炎, Cholecystitis, 膽絞痛, Biliary colic, 墨菲氏徵象, 摩菲氏徵象, Murphy sign, 膽管炎, Cholangitis, Charcot 三徵, 總膽管結石, 阻塞性黃疸, Obstructive jaundice, 膽囊切除術, 腹腔鏡膽囊切除術, Laparoscopic cholecystectomy, T 型管, T-tube, 口服膽囊攝影, 膽囊癌, Gallbladder cancer, 胰臟炎, 急性胰臟炎, Acute pancreatitis, 出血性胰臟炎, 慢性胰臟炎, Chronic pancreatitis, 澱粉酶, 脂肪酶, Cullen 徵象, Grey Turner 徵象, 透納氏徵象, 胰臟癌, Pancreatic cancer, 胰十二指腸切除術, Whipple 手術]
 dzTags: [膽結石, 膽囊炎, 急性膽囊炎, 膽管炎, 膽道疾病, 阻塞性黃疸, 黃疸, 膽囊癌, 胰臟炎, 急性胰臟炎, 慢性胰臟炎, 胰臟癌]
 summary: |

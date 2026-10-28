@@ -1,6 +1,6 @@
 ---
 title: 毛地黃
-subtitle: Digoxin（強心配醣體 cardiac glycoside）
+subtitle: Digoxin
 aliases: [Digoxin, 毛地黃, Lanoxin, 強心配醣體, 強心劑, Digitalis, 毛地黃製劑, Digibind, DigiFab]
 dzTags: [心臟衰竭, 心房顫動, 毛地黃中毒, 先天性心臟病, 心律不整]
 system: cardiovascular

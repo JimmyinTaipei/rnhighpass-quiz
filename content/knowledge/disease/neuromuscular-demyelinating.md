@@ -1,6 +1,6 @@
 ---
 title: 重症肌無力、格林-巴利、漸凍人與多發性硬化症
-subtitle: Myasthenia gravis, Guillain-Barré syndrome, amyotrophic lateral sclerosis and multiple sclerosis
+subtitle: Myasthenia gravis, GBS, ALS and MS
 aliases: [重症肌無力, 重症肌無力症, 肌無力症, Myasthenia gravis, MG, 眼肌型重症肌無力, 全身型重症肌無力, 胸腺切除術, Thymectomy, 胸腺瘤, 肌無力危象, 格林-巴利症候群, 格林巴利症候群, 急性發炎性脫髓鞘多發性神經病變, Guillain-Barré syndrome, GBS, 上行性麻痺, 蛋白細胞分離, 空腸彎曲桿菌, 肌萎縮性側索硬化症, 漸凍人, 漸凍症, Amyotrophic lateral sclerosis, ALS, 運動神經元疾病, Motor neuron disease, 肌束顫動, Fasciculation, 多發性硬化症, Multiple sclerosis, MS, 脫髓鞘, Demyelination, 斑塊, 寡株帶, Oligoclonal band, 視神經炎, Uhthoff 現象, 復發緩解型, 免疫球蛋白靜脈注射, IVIG, 血漿置換術, Plasmapheresis, 肉毒桿菌中毒, Botulism]
 dzTags: [重症肌無力, 格林-巴利症候群, 肌萎縮性側索硬化症, 多發性硬化症]
 system: neuro

@@ -1,6 +1,6 @@
 ---
 title: 消化系統用藥
-subtitle: Gastrointestinal drugs — PPIs, H2 blockers, antacids, mucosal protectants, antiemetics, prokinetics, laxatives, antidiarrheals, lactulose, IBD drugs
+subtitle: Gastrointestinal drugs
 aliases: [消化系統用藥, 腸胃藥, 胃藥, 消化性潰瘍用藥, 抗潰瘍藥, 質子幫浦抑制劑, Proton pump inhibitor, PPI, Omeprazole, Esomeprazole, Lansoprazole, Pantoprazole, Rabeprazole, H2 受體拮抗劑, H2 阻斷劑, H2 blocker, Cimetidine, Tagamet, Ranitidine, Famotidine, Nizatidine, 制酸劑, Antacid, 氫氧化鎂, Magnesium hydroxide, 氫氧化鋁, Aluminum hydroxide, 碳酸鈣, 胃乳, 黏膜保護劑, Sucralfate, Misoprostol, Cytotec, 鉍劑, Bismuth, Bismuth subsalicylate, 止吐劑, 止吐藥, Antiemetic, Ondansetron, Granisetron, Palonosetron, 5-HT3 拮抗劑, Metoclopramide, Primperan, Domperidone, Prochlorperazine, Aprepitant, NK1 拮抗劑, Dexamethasone 止吐, Meclizine, Scopolamine, 腸胃促動劑, Prokinetic, Erythromycin 促動, Bethanechol, Prucalopride, 瀉劑, 輕瀉劑, 緩瀉劑, Laxative, 容積性瀉劑, 纖維性瀉劑, Psyllium, Methylcellulose, 滲透性瀉劑, 鹽類瀉劑, Magnesium citrate, 氧化鎂, PEG, 刺激性瀉劑, Bisacodyl, Dulcolax, Senna, Sennoside, Castor oil, 蓖麻油, 軟便劑, Docusate, 潤滑性瀉劑, Mineral oil, 礦物油, Glycerin suppository, 甘油栓劑, Lubiprostone, 止瀉劑, 止瀉藥, Antidiarrheal, Loperamide, Imodium, Diphenoxylate, Lomotil, Kaolin-pectin, 吸附劑, Lactulose, 降血氨, Rifaximin, Buscopan, Hyoscine butylbromide, 發炎性腸道疾病用藥, Mesalamine, 5-ASA, Sulfasalazine, Infliximab, Natalizumab, Vedolizumab, Tofacitinib]
 dzTags: []
 drugTags: [消化性潰瘍用藥, 消化系統用藥, 制酸劑, 便秘用藥, 止吐劑, 止瀉劑, 腸胃促動用藥, 發炎性腸道疾病用藥, 肝病用藥]
