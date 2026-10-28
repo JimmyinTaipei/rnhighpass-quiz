@@ -128,7 +128,7 @@ references:
 | 復甦 | 建立靜脈管路、輸血（限制性輸血）、**新鮮冷凍血漿**或血小板矯正凝血 |
 | 藥物 | **血管收縮藥**：vasopressin（出血停止後**逐漸減量**）、terlipressin、**octreotide(Sandostatin)**；**預防性抗生素**(Baveno VII) |
 | 內視鏡 | **食道靜脈瘤結紮（EVL，Endoscopic variceal ligation）**為首選；硬化劑注射（EIS，Endoscopic injection sclerotherapy） |
-| 氣球填塞 | **三腔管(Sengstaken-Blakemore)**：胃球、食道球、胃抽吸；食道球每 6–8 小時放鬆約 30 分鐘、使用不超過 24 小時；三條管要**貼標籤**；床旁備剪刀；現行只當內視鏡前的**暫時過渡**(Baveno VII) |
+| 氣球填塞 | **三腔管(Sengstaken-Blakemore)**：胃球、食道球、胃抽吸；食道球依醫囑定時放鬆（課本多寫每 6–12 小時放鬆約 30 分鐘）、使用不超過 24 小時；三條管要**貼標籤**；床旁備剪刀；現行只當內視鏡前的**暫時過渡**(Baveno VII) |
 | 分流 | TIPS 或手術分流，用於反覆出血 |
 | 預防出血 | **非選擇性 β 阻斷劑**（propranolol、carvedilol）或定期結紮；**furosemide 不是**靜脈曲張用藥 |
 

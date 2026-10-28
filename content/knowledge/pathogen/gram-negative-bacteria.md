@@ -330,7 +330,7 @@ references:
 | 恢復期 | 咳嗽漸減，可持續數週 | 約 3 週後已無傳染性 |
 
 - 治療：**macrolide**（azithromycin、erythromycin）；病人服用抗生素滿 **5 天**前避免接觸嬰幼兒；密切接觸者預防性投藥
-- 預防：**非細胞性百日咳疫苗**（五合一、入國小前的 DTaP-IPV）；孕婦每次懷孕於第 27–36 週接種 Tdap，讓胎兒獲得抗體（疾管署成人預防接種建議）
+- 預防：**非細胞性百日咳疫苗**（五合一、入國小前的 DTaP-IPV）；孕婦每次懷孕於第 28–36 週接種 Tdap，讓胎兒獲得抗體（疾管署成人預防接種建議）
 
 ## 退伍軍人菌 Legionella pneumophila {#legionella-pneumophila}
 

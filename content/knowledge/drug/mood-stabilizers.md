@@ -137,7 +137,7 @@ references:
 
 | 使鋰濃度**上升** | 使鋰濃度**下降** |
 |---|---|
-| **Thiazide 利尿劑** | 保鉀利尿劑 |
+| **Thiazide 利尿劑** | 滲透性利尿劑(mannitol)、碳酸酐酶抑制劑(acetazolamide) |
 | **NSAIDs**（ibuprofen 等，aspirin 除外） | **Theophylline**、**咖啡因** |
 | **ACEI**、ARB | SGLT2 抑制劑 |
 | Tetracycline、metronidazole | **高鈉攝取** |

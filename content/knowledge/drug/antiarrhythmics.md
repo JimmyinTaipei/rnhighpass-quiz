@@ -50,7 +50,7 @@ references:
 
 ## 作用機轉：四類分法 {#mechanism}
 
-心室肌動作電位：第 0 期 Na⁺ 流入去極化 → 第 1、2 期高原期（Ca²⁺ 流入） → 第 3 期 K⁺ 流出再極化 → 第 4 期靜止；竇房結與房室結的去極化靠 **Ca²⁺**，第 4 期緩慢自發去極化決定心跳快慢
+心室肌動作電位：第 0 期 Na⁺ 流入去極化 → 第 1 期短暫 K⁺ 流出、初期再極化 → 第 2 期高原期（Ca²⁺ 流入） → 第 3 期 K⁺ 流出再極化 → 第 4 期靜止；竇房結與房室結的去極化靠 **Ca²⁺**，第 4 期緩慢自發去極化決定心跳快慢
 
 | 類別 | 擋什麼 | 對心電圖與電生理的影響 | 代表藥 |
 |---|---|---|---|
@@ -118,7 +118,7 @@ references:
 - 心搏過緩與房室阻斷：II、IV 類、amiodarone、digoxin
 - 低血壓：靜脈 verapamil、procainamide、amiodarone
 - 特殊副作用：procainamide **類狼瘡**；quinidine 金雞納中毒；lidocaine 中樞神經毒性；amiodarone 甲狀腺、肺、角膜、皮膚、肝
-- 禁忌重點：氣喘禁用非選擇性 β 阻斷劑；寬 QRS 心搏過速與 WPW 合併 AF 禁用 verapamil、diltiazem、adenosine、digoxin
+- 禁忌重點：氣喘禁用非選擇性 β 阻斷劑；不明原因寬 QRS 心搏過速禁用 verapamil、diltiazem（adenosine 只可用於規則單形性）；WPW 合併 AF 禁用 verapamil、diltiazem、adenosine、digoxin
 
 ::questions{ids="109-2_MS_032,107-2_BM_056,106-2_makeup_BM_056,109-2_BM_058,107-1_BM_057,115-2_BM_037,111-1_BM_051,109-2_BM_050,108-1_BM_060,106-2_BM_057,108-1_BM_051,108-1_MS_027"}
 

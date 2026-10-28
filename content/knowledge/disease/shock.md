@@ -107,7 +107,7 @@ references:
 2. 在血流動力學監測下才**謹慎給液**；給液後心輸出量沒增加就停
 3. **強心劑**：dobutamine 增加收縮力；低血壓明顯時用 norepinephrine 或高劑量 dopamine（見 [[inotropes#cardiogenic-shock]]）
 4. 收縮壓 < 90 mmHg **不用血管擴張劑**（如 nitroglycerin）
-5. 嗎啡止痛與減少交感刺激，但會**降低靜脈回流與收縮力** → 小心監測血壓與呼吸
+5. 嗎啡止痛與減少交感刺激，但會**擴張血管、降低靜脈回流（前負荷）與後負荷** → 小心監測血壓與呼吸
 6. 控制心律不整；嚴重傳導阻斷給 atropine 或節律器（見 [[arrhythmias#pacemaker]]）
 7. 藥物無效 → **主動脈內氣球幫浦(IABP)**或其他機械循環支持（見 [[iabp-ecmo]]）；2025 AHA：心跳停止後頑固性心因性休克可考慮臨時機械循環支持
 8. 根本治療是**再灌流**（見 [[coronary-artery-disease#emergency]]）

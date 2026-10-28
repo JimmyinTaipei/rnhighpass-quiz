@@ -16,6 +16,7 @@
 |---|---|
 | [knowledge-progress.md](knowledge-progress.md) | 目前狀態、下一步、常用指令(每次開工先讀) |
 | [wrap-up-plan.md](wrap-up-plan.md) | 知識庫建完後的收尾步驟與紀錄 |
+| [batch-usage-log.md](batch-usage-log.md) | Gemini batch 用量、費用與 Google Cloud 剩餘額度 |
 | [positioning.md](positioning.md) | 知識庫定位、寫作格式、各類型範本、之後的功能順序 |
 | [knowledge-roadmap.md](knowledge-roadmap.md) | 各輪範圍、跨輪移交清單、資料來源原則 |
 | [deploy-size-plan.md](deploy-size-plan.md) | 部署流程(免費方案 CPU 與大小限制) |

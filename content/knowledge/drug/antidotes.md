@@ -104,7 +104,7 @@ references:
 | **鴉片類** | **Naloxone**(Narcan) | 競爭性拮抗；作用比多數鴉片短，可能需要重複給或點滴（見 [[opioids]]） |
 | **BZD** | **Flumazenil** | 競爭性拮抗；長期使用者可能誘發戒斷抽搐（見 [[anxiolytics-hypnotics]]） |
 | **乙醯胺基酚** | **N-acetylcysteine**(Mucomyst) | 補充肝臟麩胱甘肽，中和毒性代謝物；越早給越好（約 8–10 小時內）（見 [[nsaids-acetaminophen]]） |
-| **有機磷**、氨基甲酸鹽、神經毒氣 | **Atropine** ＋ **pralidoxime(PAM)** | Atropine 對抗蕈毒鹼作用（分泌物、心跳慢）；PAM 讓 AChE 重新活化，要在「老化」前給（見 [[cholinergic-drugs#organophosphate-poisoning]]） |
+| **有機磷**、氨基甲酸鹽、神經毒氣 | **Atropine** ＋ **pralidoxime(PAM)** | Atropine 對抗蕈毒鹼作用（分泌物、心跳慢）；PAM 讓 AChE 重新活化，要在「老化」前給；氨基甲酸鹽的抑制可逆、不會老化，以 atropine 為主，通常不需要 PAM（見 [[cholinergic-drugs#organophosphate-poisoning]]） |
 | 抗膽鹼藥 | Physostigmine | 可通過血腦障壁的 AChE 抑制劑 |
 | **鐵** | **Deferoxamine** | 螯合鐵後從尿排出 → 尿液**玫瑰色**；太快輸注會低血壓、休克 |
 | **鉛** | **EDTA**、**DMSA**、**BAL**、D-penicillamine | 嚴重或腦病變：BAL＋EDTA；中度：口服 DMSA |

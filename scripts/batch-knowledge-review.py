@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """知識頁 Batch 審稿(Vertex AI Gemini batch)：準備請求檔、解析回傳
 
-流程：prep 產生 requests/*.jsonl → 使用者在 Google Cloud 提交 batch → 回傳放 responses/ → parse 產生報告
+流程(工作檔在 batch/knowledge-review/，用完就刪，不進 git)：prep 產生 requests/*.jsonl → 使用者在 Google Cloud 提交 batch → 回傳放 responses/ → parse 產生報告
 回傳結果只是候選問題，Claude 逐條查證後才改頁面，不直接套用
 
 用法(在 rnhighpass-quiz/)：
   python3 scripts/batch-knowledge-review.py prep                 # 全部 404 篇 → requests/knowledge-review-all.jsonl
   python3 scripts/batch-knowledge-review.py prep --pilot 6       # 先試 6 篇 → requests/knowledge-review-pilot.jsonl
   python3 scripts/batch-knowledge-review.py parse responses/x.jsonl   # → reports/
+  python3 scripts/batch-knowledge-review.py show reports/x.issues.jsonl abg   # 查證用：候選問題＋原文上下文＋引用的國考原題
 """
 import argparse
 import json
@@ -19,7 +20,9 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content" / "knowledge"
 WORK = ROOT / "batch" / "knowledge-review"
-PROMPT = WORK / "prompt.md"
+PROMPT = ROOT / "scripts" / "batch" / "knowledge-review-prompt.md"
+EXAMS = pathlib.Path("/Users/jimmy/Projects/多保命護理分章/01_exam_papers")
+QID = re.compile(r"\b\d{3}-\d(?:_makeup)?_[A-Z]{2}_\d{3}\b")
 
 # Gemini 3.8 Flash batch 價格(USD／百萬 tokens，思考算輸出)，到 2026-12-31
 PRICE_IN, PRICE_OUT, TWD = 0.375, 1.875, 32.5
@@ -174,6 +177,47 @@ def parse(a):
     print(f"{len(seen)} 篇、{len(rows)} 個問題、{len(errors)} 篇失敗 → {(rep / (stem + '.md')).relative_to(ROOT)}")
 
 
+def exam_question(qid, _cache={}):
+    if not _cache:
+        for f in EXAMS.rglob("*.md"):
+            for block in re.split(r"\n(?=ID: )", f.read_text(encoding="utf-8")):
+                m = re.match(r"ID: (\S+)", block)
+                if m:
+                    _cache[m.group(1)] = block
+    b = _cache.get(qid)
+    if not b:
+        return f"{qid}：找不到"
+    keep = [l for l in b.split("\n") if not re.match(r"(source|chap|xchap|tag|ref):", l)]
+    return "\n".join(keep[:12]).strip()
+
+
+def show(a):
+    files = {p.stem: p for p in pages()}
+    rows = [json.loads(l) for l in pathlib.Path(a.issues).read_text(encoding="utf-8").splitlines() if l.strip()]
+    for slug in a.slugs:
+        page = files[slug].read_text(encoding="utf-8")
+        print(f"===== {slug}  ({files[slug].relative_to(ROOT)})")
+        for n, r in enumerate(x for x in rows if x["slug"] == slug):
+            q = r.get("quote", "")
+            i = page.find(q) if q else -1
+            if i < 0 and q:
+                # quote 常把 ** 粗體拿掉；比對時兩邊都去掉，找到後用最長的去粗體行定位
+                plain = q.replace("**", "")
+                for line in page.split("\n"):
+                    if plain[:30] in line.replace("**", ""):
+                        i, q = page.find(line), line
+                        break
+            print(f"--- #{n} [{r['severity']}/{r['category']}] {r.get('section')}")
+            print("問題：", r.get("problem"))
+            print("建議：", r.get("correction"))
+            print("依據：", r.get("source"))
+            ctx = page[max(0, i - 120):i + len(q) + 120] if i >= 0 else f"(原文找不到) {q}"
+            line = page[page.rfind("\n", 0, max(i, 0)) + 1:page.find("\n", i + len(q))] if i >= 0 else ""
+            print("原文：", ctx.replace("\n", "⏎"))
+            for qid in sorted(set(QID.findall(line + r.get("problem", "") + r.get("correction", "") + r.get("source", "")))):
+                print("  ·", exam_question(qid).replace("\n", "\n    "))
+
+
 def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -183,8 +227,11 @@ def main():
     p = sub.add_parser("parse")
     p.add_argument("files", nargs="+")
     p.add_argument("--expect-all", action="store_true", help="檢查 404 篇有沒有缺漏")
+    p = sub.add_parser("show")
+    p.add_argument("issues")
+    p.add_argument("slugs", nargs="+")
     a = ap.parse_args()
-    {"prep": prep, "parse": parse}[a.cmd](a)
+    {"prep": prep, "parse": parse, "show": show}[a.cmd](a)
 
 
 if __name__ == "__main__":

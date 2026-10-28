@@ -3,17 +3,18 @@
 > **任何知識庫工作開始前先讀這份檔案。** 做完一步就更新「目前狀態」與「下一步」
 > 第 0–17 輪的完整紀錄(每輪步驟、需確認清單原文、各組細節)封存在 [archive/rounds/knowledge-progress-history.md](archive/rounds/knowledge-progress-history.md)；docs 其他檔案見 [README.md](README.md)
 
-## 目前狀態(2026-10-27)
+## 目前狀態(2026-10-28)
 
 - **知識庫建完**：404 篇、題目涵蓋 8960/8960(11 科 100%)、chapters 對照涵蓋 660/660 個有題目的 H2
 - **收尾**：A 標點、B 補連結、C chapters 抽查、D 需確認總表、E 寫回 Supabase 與部署、F 合併 main 都完成，見 [wrap-up-plan.md](wrap-up-plan.md)
 - **線上版本**：workers.dev 版本 ad054753(2026-10-27)，main = claude/knowledge-assets(fddd992 之後)
 - **Supabase**：questions 8960、question_tags 16674，與來源一致
+- **Batch 知識頁審稿完成**(2026-10-28)：549 個候選問題，改 262(162 頁)、誤報 282、待確認 5(4 項，已列入 review-checklist)；紀錄見 [archive/reviews/batch-knowledge-review-2026-10-28.md](archive/reviews/batch-knowledge-review-2026-10-28.md)。**知識頁內容已改，尚未部署**
 
 ## 下一步
 
 1. **收尾 A2**：題目 AI 詳解套用標點規則(使用者已同意)；詳解錯誤更正要**先給使用者看做法**
-2. **Batch 全面檢查**(Gemini 3.8 Flash，剩 NT$2007)：順序 知識頁 → 圖片 → AI 詳解。知識頁請求檔已備好(`batch/knowledge-review/`，`scripts/batch-knowledge-review.py`)，6 篇試跑完成(2026-10-27，0 個真錯誤；敗血症熱型是誤報，國考題答案就是間歇熱)，all 檔已改思考 high 重產，**等使用者送 all**；用量記在 `batch/usage-log.md`
+2. **Batch 全面檢查**(Gemini 3.8 Flash，Google Cloud 剩 **NT$1737.57**，2026-10-28)：知識頁已完成；下一個是**圖片**，再來 AI 詳解。腳本 `scripts/batch-knowledge-review.py`、審稿指示 `scripts/batch/`，工作檔在 `batch/`(用完刪除)；用量記在 [batch-usage-log.md](batch-usage-log.md)。知識頁改動還沒部署 workers.dev
 3. **功能**：見 [feature-backlog.md](feature-backlog.md)；「功能備忘錄」的項目要先跟使用者討論
 4. **指引追蹤**：見 [guideline-watchlist.md](guideline-watchlist.md)，先查「優先」6 項有沒有新版，結果列給使用者決定
 5. **需確認項目**：見 [review-checklist.md](review-checklist.md)，「待核對」使用者之後再看

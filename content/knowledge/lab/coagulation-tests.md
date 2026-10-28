@@ -94,6 +94,6 @@ references:
 ## 護理判讀 {#nursing}
 
 - 抗凝治療中：PT／INR 或 aPTT 超過目標時，**先評估出血徵象**（牙齦、血尿、黑便、瘀斑、頭痛與意識），再依醫囑調整劑量或給解毒劑
-- 開始 warfarin 時 PT 需要數天才上升，所以要和 heparin 或 LMWH **重疊使用**到 INR 達標（見 [[anticoagulants#warfarin]]）
+- 開始 warfarin 時 INR 1–2 天就會上升（第 VII 因子先降），但要數天後凝血酶原下降才有完整抗凝效果，初期還可能因 protein C 先下降而短暫易凝血，所以要和 heparin 或 LMWH **重疊使用**到 INR 達標（見 [[anticoagulants#warfarin]]）
 - 侵入性處置與手術前確認數值與停藥時間；術後監測引流量，冠狀動脈繞道術後縱膈腔引流 > 100 mL/hr 要查凝血功能
 - 凝血異常病人的出血預防措施見 [[bleeding-disorders#thrombocytopenia]]

@@ -84,7 +84,7 @@ references:
 | 射精與性功能 | 勃起功能障礙、**逆行性射精**（射進膀胱）、早洩 |
 | 染色體 | 柯林菲特症候群（見 [[chromosomal-disorders]]） |
 
-- **FSH 低於正常**會讓精子生成不足；精液分析判讀見 [[male-reproductive-system#semen-values]]
+- **FSH 低於正常**（下視丘或腦下垂體問題）會讓精子生成不足(115-2_BM_017)；睪丸本身受損時 FSH 反而**升高**；精液分析判讀見 [[male-reproductive-system#semen-values]]
 
 ::questions{ids="115-2_BM_017"}
 
