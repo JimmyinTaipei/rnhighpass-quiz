@@ -68,7 +68,7 @@ export function TopicSection({
           className={
             depth === 0
               ? "text-xl font-bold tracking-tight text-subj-deep"
-              : "text-[16px] font-semibold text-subj-deep"
+              : "text-[1rem] font-semibold text-subj-deep"
           }
         >
           {topic.heading_text}

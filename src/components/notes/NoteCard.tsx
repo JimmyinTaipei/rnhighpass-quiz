@@ -12,10 +12,10 @@ export function NoteCard({ card }: NoteCardProps) {
         <BookOpen size={13} />
         考點筆記
       </p>
-      <h3 className="text-[17px] font-semibold text-strong">{card.card_title}</h3>
+      <h3 className="text-[1.0625rem] font-semibold text-strong">{card.card_title}</h3>
       {card.card_subtitle && <p className="mt-0.5 text-sm text-muted">{card.card_subtitle}</p>}
       {card.bullets.length > 0 && (
-        <ul className="mt-3 list-disc space-y-1.5 pl-5 text-[15px] leading-relaxed text-strong marker:text-accent">
+        <ul className="mt-3 list-disc space-y-1.5 pl-5 text-[0.9375rem] leading-relaxed text-strong marker:text-accent">
           {card.bullets.map((bullet, idx) => (
             <li key={idx}>{bullet}</li>
           ))}

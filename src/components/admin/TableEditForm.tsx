@@ -73,7 +73,7 @@ export function TableEditForm({ table }: { table: ComparisonTable }) {
           <Pencil size={12} />
           編輯這張表
         </button>
-        <span className="font-mono text-[11px] text-muted">id={table.id}</span>
+        <span className="font-mono text-[0.6875rem] text-muted">id={table.id}</span>
         {edited.length > 0 && (
           <span className="text-xs text-warning">已手改：{edited.join(", ")}</span>
         )}

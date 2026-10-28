@@ -48,7 +48,7 @@ export default async function Home(props: PageProps<"/">) {
         <div className="flex w-full max-w-sm flex-col items-center gap-3 md:max-w-none md:flex-row md:justify-center">
           <Link
             href="/subjects"
-            className={`flex h-12 w-full items-center justify-center rounded-full px-6 text-[15px] transition-colors md:w-[220px] ${
+            className={`flex h-12 w-full items-center justify-center rounded-full px-6 text-[0.9375rem] transition-colors md:w-[220px] ${
               wasRedirected
                 ? "border border-card-border bg-card font-medium text-deep hover:bg-surface-hover"
                 : "bg-mid font-semibold text-on-mid hover:bg-accent"

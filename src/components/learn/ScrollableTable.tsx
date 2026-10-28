@@ -36,7 +36,7 @@ export function ScrollableTable(props: React.ComponentProps<"table">) {
       {overflowing && (
         <span
           aria-hidden
-          className={`pointer-events-none absolute right-2 bottom-2 rounded-full bg-strong/75 px-2 py-0.5 text-[11px] font-medium text-white transition-opacity duration-200 ${
+          className={`pointer-events-none absolute right-2 bottom-2 rounded-full bg-strong/75 px-2 py-0.5 text-[0.6875rem] font-medium text-white transition-opacity duration-200 ${
             scrolled ? "opacity-0" : "opacity-100"
           }`}
         >

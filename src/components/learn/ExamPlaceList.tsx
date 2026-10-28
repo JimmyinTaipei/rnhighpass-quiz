@@ -88,7 +88,7 @@ function PlaceChip({ place }: { place: ExamPlace }) {
     </>
   );
   const cls =
-    "flex max-w-full items-center gap-1.5 rounded-full bg-(--surface-row) px-3 py-1.5 text-[13px] text-strong";
+    "flex max-w-full items-center gap-1.5 rounded-full bg-(--surface-row) px-3 py-1.5 text-[0.8125rem] text-strong";
   return (
     <li className="max-w-full">
       {place.href ? (

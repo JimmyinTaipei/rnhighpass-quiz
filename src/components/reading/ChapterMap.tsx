@@ -98,7 +98,7 @@ function Block({
               <Link
                 href={`/k/${a.slug}`}
                 scroll={false}
-                className="flex max-w-full items-center gap-1.5 rounded-full bg-(--surface-row) px-3 py-1.5 text-[13px] text-strong transition-colors hover:bg-light hover:text-deep"
+                className="flex max-w-full items-center gap-1.5 rounded-full bg-(--surface-row) px-3 py-1.5 text-[0.8125rem] text-strong transition-colors hover:bg-light hover:text-deep"
               >
                 <BookOpenText size={13} className="shrink-0 text-accent" />
                 <span className="truncate font-medium">{a.title}</span>

@@ -31,7 +31,7 @@ import type { Question } from "@/lib/types";
 
 const AUTO_ADVANCE_DELAY_MS = 700;
 /** 作答列按鈕：手機三顆平分寬度、44px 高、15px 字；md 以上回到一般膠囊大小 */
-const answerBarButton = "min-h-11 flex-1 text-[15px] md:min-h-0 md:flex-none md:text-[13px]";
+const answerBarButton = "min-h-11 min-w-0 flex-1 max-md:gap-1 max-md:px-2 max-md:whitespace-normal max-md:leading-tight text-[0.9375rem] md:min-h-0 md:flex-none md:text-[0.8125rem]";
 /** 左右滑動換題：水平位移至少這麼多，而且要比垂直位移大(避免跟上下捲動衝突) */
 const SWIPE_MIN_PX = 60;
 
@@ -386,10 +386,10 @@ export function ChapterQuizRunner({
           </div>
         )}
         <div className="flex flex-wrap gap-3">
-          <button type="button" onClick={retry} className={`${pillGray} px-5 py-2.5 text-[15px]`}>
+          <button type="button" onClick={retry} className={`${pillGray} px-5 py-2.5 text-[0.9375rem]`}>
             重測一次
           </button>
-          <Link href={reviewHref} className={`${pillTint} px-5 py-2.5 text-[15px]`}>
+          <Link href={reviewHref} className={`${pillTint} px-5 py-2.5 text-[0.9375rem]`}>
             {reviewLabel}
           </Link>
         </div>
@@ -670,7 +670,7 @@ function SettingRow({ label, hint, children }: { label: string; hint: string; ch
   return (
     <div className="flex items-center justify-between gap-4 border-b border-card-border py-3 last:border-0">
       <div className="min-w-0">
-        <p className="text-[15px] font-medium text-strong">{label}</p>
+        <p className="text-[0.9375rem] font-medium text-strong">{label}</p>
         <p className="text-xs text-muted">{hint}</p>
       </div>
       <div className="shrink-0">{children}</div>

@@ -251,7 +251,8 @@ body {
 /* ===== 知識庫(/learn) =====
    內文排版。沒有引入 @tailwindcss/typography:只需要少數元素,
    而且表格/清單要跟站內既有 token 一致。 */
-.kb-prose { color: var(--color-strong); line-height: 1.85; overflow-wrap: break-word; } /* 長英文字、網址必要時斷行 */
+/* 內文深灰、粗體黑色加粗：靠深淺＋粗細區分重點，藍色只留給連結(UI 體檢第 2 輪 N2 方案 B) */
+.kb-prose { color: #48484A; line-height: 1.85; overflow-wrap: break-word; } /* 長英文字、網址必要時斷行 */
 .kb-prose > * + *, .kb-callout-body > * + * { margin-top: 0.75rem; }
 .kb-prose p, .kb-callout-body p { margin-top: 0.6rem; }
 .kb-prose ul, .kb-callout-body ul { list-style: disc; padding-left: 1.4rem; margin-top: 0.5rem; }
@@ -266,7 +267,7 @@ body {
 /* 重點摘要裡的國考常考點:沒有標題,條列緊接在重點後面,看起來是同一個清單 */
 .kb-merged-points { margin-top: 0.25rem; }
 .kb-merged-points > ul:first-child, .kb-merged-points > ol:first-child { margin-top: 0; }
-.kb-prose strong { color: var(--color-deep); font-weight: 600; }
+.kb-prose strong { color: #1C1C1E; font-weight: 700; }
 .kb-prose code { font-size: 0.9em; background: var(--color-page); padding: 0.05rem 0.3rem; border-radius: 4px; }
 .kb-table-wrap table { width: 100%; border-collapse: collapse; font-size: 0.925rem; line-height: 1.6; }
 .kb-table-wrap th { background: var(--color-sidebar); color: var(--color-deep); font-weight: 600; text-align: left; white-space: nowrap; }
@@ -356,7 +357,7 @@ button,
 /* iOS Safari 遇到字小於 16px 的輸入框會整頁放大，而且不會縮回去。觸控裝置上一律 16px(主站)。 */
 @media (pointer: coarse) {
   [data-ui="apple"] :is(input, textarea, select) {
-    font-size: 16px;
+    font-size: max(16px, 1rem);
   }
 }
 
@@ -481,6 +482,31 @@ nav[aria-label="麵包屑"] a {
   /* 捲動時藏起來的浮動按鈕：只淡出，不往下滑 */
   [data-ui="apple"] [class*="transition-[opacity,translate]"] {
     transition-property: opacity !important;
+  }
+}
+
+/* 降低透明度(iOS「輔助使用 > 顯示與文字大小 > 降低透明度」)：半透明的頂欄、頁籤、作答列改成不透明，拿掉毛玻璃 */
+@media (prefers-reduced-transparency: reduce) {
+  [data-ui="apple"] [class*="backdrop-blur"] {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+  [data-ui="apple"] [class*="backdrop-blur"]:is([class*="bg-card/"], [class*="bg-page/"]) {
+    background-color: var(--color-card) !important;
+  }
+  [data-ui="apple"] [class*="backdrop-blur"][class*="bg-page/"] {
+    background-color: var(--color-page) !important;
+  }
+}
+@media (prefers-reduced-transparency: reduce) and (min-width: 48rem) {
+  [data-ui="apple"] .quiz-answer-bar {
+    background-color: transparent !important; /* 電腦版作答列在題卡下方，本來就沒有底色 */
+  }
+}
+/* 增加對比：分隔線與卡片邊框加深 */
+@media (prefers-contrast: more) {
+  [data-ui="apple"] {
+    --color-card-border: rgba(60, 60, 67, 0.45);
   }
 }
 

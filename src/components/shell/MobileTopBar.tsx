@@ -31,7 +31,7 @@ export function MobileTopBar({ trailing }: MobileTopBarProps) {
           >
             <ChevronLeft size={26} strokeWidth={2.2} className="shrink-0" />
             {/* 回上一頁(不一定是上一層)，所以不寫上一層的名稱 */}
-            <span className="truncate text-[15px]">返回</span>
+            <span className="truncate text-[0.9375rem]">返回</span>
           </Link>
         ) : (
           <span className="w-2" />

@@ -18,7 +18,7 @@ export function BasicsModeSetting() {
         <span className="flex size-7 shrink-0 items-center justify-center rounded-lg bg-correct text-white">
           <Sprout size={16} />
         </span>
-        <span className="text-[15px] text-strong">想打好基礎</span>
+        <span className="text-[0.9375rem] text-strong">想打好基礎</span>
       </span>
       <div className="segmented" role="group" aria-label="想打好基礎的顯示方式">
         {BASICS_MODES.map((m) => (

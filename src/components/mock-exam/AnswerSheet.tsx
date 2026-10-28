@@ -56,7 +56,7 @@ export function AnswerSheet({
             <span className="flex items-center justify-center gap-0.5 bg-card py-1 text-xs font-medium text-accent">
               [{cell.number}]
               {mark && (
-                <span className={`${mark.className} text-[10px]`} aria-label={mark.label}>
+                <span className={`${mark.className} text-[0.625rem]`} aria-label={mark.label}>
                   {mark.symbol}
                 </span>
               )}
@@ -64,7 +64,7 @@ export function AnswerSheet({
             <span className={`flex min-h-8 flex-col items-center justify-center py-1 text-sm font-medium ${answerStyle}`}>
               <span>{cell.answer || (cell.outcome ? "—" : "")}</span>
               {cell.correctAnswer !== undefined && cell.outcome !== "correct" && (
-                <span className="text-[10px] font-normal">正解 {cell.correctAnswer}</span>
+                <span className="text-[0.625rem] font-normal">正解 {cell.correctAnswer}</span>
               )}
             </span>
           </button>

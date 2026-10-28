@@ -77,7 +77,7 @@ export function SubjectGrid({
                       className="relative text-subj-deep transition-colors duration-300 group-hover:text-white"
                     />
                   </span>
-                  <span className="text-[17px] font-semibold text-strong">{s.name}</span>
+                  <span className="text-[1.0625rem] font-semibold text-strong">{s.name}</span>
                 </>
               );
 

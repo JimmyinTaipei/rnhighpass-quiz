@@ -3,7 +3,7 @@
 
 // 字重不放在 pillBase：同一個元素上 font-medium 和 font-semibold 誰贏取決於 CSS 產生順序，不可靠。
 const pillBase =
-  "inline-flex items-center justify-center gap-1.5 rounded-full px-3.5 py-1.5 text-[13px] whitespace-nowrap transition-colors";
+  "inline-flex items-center justify-center gap-1.5 rounded-full px-3.5 py-1.5 text-[0.8125rem] whitespace-nowrap transition-colors";
 
 /** 次要動作：灰底 */
 export const pillGray = `${pillBase} bg-fill font-medium text-body hover:bg-fill-strong`;
@@ -22,4 +22,4 @@ export const pillSubjectSoft = `${pillBase} bg-subj-light font-medium text-subj-
 
 /** 大顆主要按鈕(首頁、空狀態) */
 export const buttonLarge =
-  "inline-flex items-center justify-center gap-2 rounded-full bg-mid px-6 py-3 text-[15px] font-semibold text-on-mid transition-colors hover:bg-accent";
+  "inline-flex items-center justify-center gap-2 rounded-full bg-mid px-6 py-3 text-[0.9375rem] font-semibold text-on-mid transition-colors hover:bg-accent";

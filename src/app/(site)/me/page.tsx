@@ -119,7 +119,7 @@ export default async function MePage() {
                       <Icon size={16} />
                     </span>
                     <span className="flex min-w-0 flex-1 items-center justify-between">
-                      <span className="text-[15px] text-strong">{r.label}</span>
+                      <span className="text-[0.9375rem] text-strong">{r.label}</span>
                       <ChevronRight size={18} className="text-muted" />
                     </span>
                   </Link>

@@ -85,7 +85,7 @@ export function SectionTitleEditor({ slug, id }: { slug: string; id: string }) {
       <button type="button" onClick={ed.close} className={BTN_CANCEL}>
         <X size={12} /> 取消
       </button>
-      <span className="font-mono text-[11px] text-muted">#{id}</span>
+      <span className="font-mono text-[0.6875rem] text-muted">#{id}</span>
       <Note text={ed.note} />
     </form>
   );

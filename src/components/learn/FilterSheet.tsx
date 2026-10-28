@@ -67,7 +67,7 @@ export function FilterSheet({ label, options }: { label: string; options: Filter
                       scroll={false}
                       onClick={() => setOpen(false)}
                       aria-current={o.active ? "true" : undefined}
-                      className={`flex items-center justify-between rounded-btn px-3 py-3 text-[16px] hover:bg-surface-hover ${
+                      className={`flex items-center justify-between rounded-btn px-3 py-3 text-[1rem] hover:bg-surface-hover ${
                         o.active ? "font-semibold text-deep" : "text-strong"
                       }`}
                     >

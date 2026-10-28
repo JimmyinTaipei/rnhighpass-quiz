@@ -184,7 +184,7 @@ export function QuestionCard({
         </div>
       </div>
 
-      <p className="mb-4 text-[16px] whitespace-pre-wrap leading-relaxed font-medium text-strong [overflow-wrap:anywhere]">
+      <p className="mb-4 text-[1rem] whitespace-pre-wrap leading-relaxed font-medium text-strong [overflow-wrap:anywhere]">
         {question.stem}
       </p>
 
@@ -198,7 +198,7 @@ export function QuestionCard({
               type="button"
               disabled={locked}
               onClick={() => handleSelect(key)}
-              className={`flex w-full items-center justify-between gap-3 rounded-btn px-3.5 py-3 text-left text-[15px] transition-colors duration-150 ${optionStyle(key)}`}
+              className={`flex w-full items-center justify-between gap-3 rounded-btn px-3.5 py-3 text-left text-[0.9375rem] transition-colors duration-150 ${optionStyle(key)}`}
             >
               <div className="flex min-w-0 items-start gap-3">
                 <span className="mt-px flex size-6 shrink-0 items-center justify-center rounded-full bg-fill text-xs font-semibold">
@@ -248,17 +248,17 @@ export function QuestionCard({
                     section.emphasis ? "bg-subj-light/70" : "bg-(--surface-row)"
                   }`}
                 >
-                  <h4 className="mb-1 text-[13px] font-semibold text-subj-deep">
+                  <h4 className="mb-1 text-[0.8125rem] font-semibold text-subj-deep">
                     {section.label}
                   </h4>
-                  <p className="whitespace-pre-wrap text-[15px] leading-[1.7] text-strong [overflow-wrap:anywhere]">
+                  <p className="whitespace-pre-wrap text-[0.9375rem] leading-[1.7] text-strong [overflow-wrap:anywhere]">
                     {section.text}
                   </p>
                 </section>
               ))}
             </div>
           ) : (
-            <p className="whitespace-pre-wrap text-[15px] leading-[1.7] text-strong [overflow-wrap:anywhere]">
+            <p className="whitespace-pre-wrap text-[0.9375rem] leading-[1.7] text-strong [overflow-wrap:anywhere]">
               {question.explanation_text}
             </p>
           )}
@@ -327,7 +327,7 @@ export function QuestionCard({
       )}
 
       {devMode && (
-        <div className="mt-3 flex flex-wrap gap-x-3 gap-y-1 border-t border-dashed border-warning/50 pt-2 font-mono text-[11px] text-muted">
+        <div className="mt-3 flex flex-wrap gap-x-3 gap-y-1 border-t border-dashed border-warning/50 pt-2 font-mono text-[0.6875rem] text-muted">
           <span>id={question.id}</span>
           <span>topic={question.topic_id ?? "—"}</span>
           <span>chapter={question.primary_chapter_id ?? "—"}</span>

@@ -24,7 +24,7 @@ export function ArticleCard({
     <div className="rounded-card bg-card p-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)]">
       <div className="flex items-start gap-2">
         <Link href={`/learn/${article.slug}`} className="group min-w-0 flex-1">
-          <span className="block text-[17px] font-semibold text-strong group-hover:text-deep group-hover:underline">
+          <span className="block text-[1.0625rem] font-semibold text-strong group-hover:text-deep group-hover:underline">
             {article.title}
           </span>
           {article.subtitle && <span className="block text-sm text-body">{article.subtitle}</span>}
