@@ -27,7 +27,7 @@ export function MobileTopBar({ trailing }: MobileTopBarProps) {
           <Link
             href={parent.href}
             onClick={goBack}
-            className="flex min-w-0 items-center rounded-lg py-1.5 pr-2 text-accent active:opacity-60"
+            className="flex min-w-0 items-center rounded-lg py-1.5 pr-2 text-deep active:opacity-60"
           >
             <ChevronLeft size={26} strokeWidth={2.2} className="shrink-0" />
             {/* 回上一頁(不一定是上一層)，所以不寫上一層的名稱 */}

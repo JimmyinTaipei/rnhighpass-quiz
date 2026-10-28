@@ -10,7 +10,9 @@
    (#EE8B9C 2.38:1、#EB986A 2.27:1、#72B68B 2.39:1、#B481BB 3.09:1，
    WCAG AA 正文需 4.5:1)，所以每組多推一階 --subj-deep 專給文字用。
 
-   規則：accent 只用於邊框/色塊/pill 底/選中態；文字一律用 deep。
+   規則：accent 只用於邊框/色塊/選中態；文字一律用 deep。
+   主要按鈕(pillSubject)是 mid 底＋ink 字：保留粉彩底色，字改同色系深色(對比 8:1 以上)，
+   不用白字(白字在粉彩底上只有 2.3–3.2:1，見 docs/ui-audit-2026-10-28.md H1)。
 
    機制：這些是「純 CSS 變數」，由下面的 @theme inline 包成
    bg-subj-light / text-subj-deep 等 utility。因為 @theme inline 產生的是
@@ -23,23 +25,29 @@
   --subj-mid: #B6CCF0;
   --subj-accent: #6592CD;
   --subj-deep: #2C5A96;
+  --subj-ink: #0E2240;
 }
 
 /* deep 欄位後面標的是白底對比值 */
 [data-group="BM"] { /* 基礎醫學 */
   --subj-light: #FDE8EC; --subj-mid: #F8BDC9; --subj-accent: #EE8B9C; --subj-deep: #B4485C; /* 5.22 */
+  --subj-ink: #5A1A28; /* mid 底 8.13、accent 底 5.46 */
 }
 [data-group="FA"] { /* 基本護理學與護理行政 */
   --subj-light: #F9EBE3; --subj-mid: #F8D2B5; --subj-accent: #EB986A; --subj-deep: #AD5C28; /* 4.84 */
+  --subj-ink: #5A2A0C; /* 8.40、5.21 */
 }
 [data-group="MS"] { /* 內外護理學 */
   --subj-light: #DAF0E5; --subj-mid: #B8E0C8; --subj-accent: #72B68B; --subj-deep: #3E7C57; /* 4.97 */
+  --subj-ink: #1E3F2B; /* 8.07、4.87 */
 }
 [data-group="OP"] { /* 產兒科護理學 */
   --subj-light: #D7E1F2; --subj-mid: #B6CCF0; --subj-accent: #6592CD; --subj-deep: #2C5A96; /* 6.98 */
+  --subj-ink: #0E2240; /* 9.75、4.95 */
 }
 [data-group="PC"] { /* 精神與社區衛生護理學 */
   --subj-light: #EADEF4; --subj-mid: #D8BEF0; --subj-accent: #B481BB; --subj-deep: #7A4E86; /* 6.44 */
+  --subj-ink: #3C1F45; /* 8.51、4.61 */
 }
 
 /* 設計 token，比照 多保命-護理線上國考/frontend 的莫蘭迪藍色階。
@@ -59,7 +67,8 @@
   --color-body: #444441;
   --color-strong: #26262B;   /* 詳解區塊內文用，對比 ~14:1 */
   --color-muted: #888780;    /* ~3.4:1，只可用於非必要的輔助字，不可用於正文 */
-  --color-on-accent: #FFFFFF;
+  --color-on-accent: #FFFFFF;   /* 只配 deep 底(7:1)；淺色 accent 底上白字只有 3.2:1 */
+  --color-on-mid: #0E2240;      /* 主要按鈕：mid 底 9.75:1、按下時 accent 底 4.95:1 */
   /* 中性、極淡藍調(不再是明顯藍底，讓五科粉彩色不互相打架) */
   --color-page: #F7F8FB;
   --color-sidebar: #F1F3F8;
@@ -81,6 +90,7 @@
   --color-correct-bg: #EAF3DE;
   --color-correct-text: #27500A;
   --color-incorrect-bg: #FCEBEB;
+  --color-incorrect-bg-strong: #F7D4D3; /* 自己選錯的選項：比 incorrect-bg 深，和灰色選項分得開 */
   --color-incorrect-text: #791F1F;
 }
 
@@ -99,6 +109,7 @@
   --color-subj-mid: var(--subj-mid);
   --color-subj-accent: var(--subj-accent);
   --color-subj-deep: var(--subj-deep);
+  --color-subj-ink: var(--subj-ink);
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -213,7 +224,7 @@ body {
 /* ===== 知識庫(/learn) =====
    內文排版。沒有引入 @tailwindcss/typography:只需要少數元素,
    而且表格/清單要跟站內既有 token 一致。 */
-.kb-prose { color: var(--color-strong); line-height: 1.85; }
+.kb-prose { color: var(--color-strong); line-height: 1.85; overflow-wrap: break-word; } /* 長英文字、網址必要時斷行 */
 .kb-prose > * + *, .kb-callout-body > * + * { margin-top: 0.75rem; }
 .kb-prose p, .kb-callout-body p { margin-top: 0.6rem; }
 .kb-prose ul, .kb-callout-body ul { list-style: disc; padding-left: 1.4rem; margin-top: 0.5rem; }
@@ -304,6 +315,19 @@ button,
 [role="tab"] {
   -webkit-user-select: none;
   user-select: none;
+}
+
+/* iOS Safari 遇到字小於 16px 的輸入框會整頁放大，而且不會縮回去。觸控裝置上一律 16px(主站)。 */
+@media (pointer: coarse) {
+  [data-ui="apple"] :is(input, textarea, select) {
+    font-size: 16px;
+  }
+}
+
+/* 麵包屑的連結只有 20px 高：上下各加 0.6rem 點擊範圍，再用負 margin 抵銷，版面不動 */
+nav[aria-label="麵包屑"] a {
+  padding-block: 0.6rem;
+  margin-block: -0.6rem;
 }
 
 /* ===== 主站的 Apple 風格(只在 (site) 外框的 [data-ui="apple"] 底下生效) =====

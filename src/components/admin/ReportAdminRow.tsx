@@ -80,7 +80,7 @@ export function ReportAdminRow({
         <button
           onClick={save}
           disabled={isPending}
-          className="rounded-btn bg-subj-accent px-3 py-1.5 text-xs font-medium text-on-accent disabled:opacity-50"
+          className="rounded-btn bg-subj-mid px-3 py-1.5 text-xs font-semibold text-subj-ink disabled:opacity-50"
         >
           {isPending ? "儲存中…" : "儲存"}
         </button>

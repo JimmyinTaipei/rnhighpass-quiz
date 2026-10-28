@@ -46,7 +46,7 @@ export default async function Home(props: PageProps<"/">) {
         <div className="flex flex-wrap items-center justify-center gap-3">
           <Link
             href="/subjects"
-            className="rounded-full bg-accent px-6 py-3 text-sm font-medium text-on-accent hover:bg-deep"
+            className="rounded-full bg-mid px-6 py-3 text-sm font-semibold text-on-mid hover:bg-accent"
           >
             {wasRedirected ? "先去閱讀模式" : "開始讀書"}
           </Link>

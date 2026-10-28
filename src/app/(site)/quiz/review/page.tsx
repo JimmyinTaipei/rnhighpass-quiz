@@ -45,7 +45,7 @@ export default async function ReviewPage(props: PageProps<"/quiz/review">) {
           <p className="mb-4 text-sm text-muted">這一科目前沒有{source === "mistakes" ? "錯題" : "收藏"}。</p>
           <Link
             href="/mistakes"
-            className="rounded-btn bg-subj-accent px-4 py-2 text-sm font-medium text-on-accent"
+            className="rounded-btn bg-subj-mid px-4 py-2 text-sm font-semibold text-subj-ink"
           >
             回我的題本
           </Link>

@@ -36,7 +36,7 @@ export function FavoriteButton({ questionId }: { questionId: string }) {
         aria-pressed={active}
         aria-label={active ? "取消收藏" : "收藏這一題"}
         title={active ? "取消收藏" : "收藏這一題"}
-        className={`rounded-btn p-1 transition-colors ${
+        className={`relative rounded-btn p-1 transition-colors after:absolute after:-inset-2.5 after:content-[''] ${
           active ? "text-warning" : "text-muted hover:text-warning"
         }`}
       >

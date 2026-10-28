@@ -43,7 +43,7 @@ export function ReportButton({ questionId, tableId, targetLabel, variant = "icon
         title="回報錯誤"
         className={
           variant === "icon"
-            ? "rounded-btn p-1 text-muted transition-colors hover:text-incorrect"
+            ? "relative rounded-btn p-1 text-muted transition-colors after:absolute after:-inset-2.5 after:content-[''] hover:text-incorrect"
             : "flex items-center gap-1 rounded-full bg-fill px-3 py-1.5 text-xs font-medium text-body transition-colors hover:bg-fill-strong"
         }
       >

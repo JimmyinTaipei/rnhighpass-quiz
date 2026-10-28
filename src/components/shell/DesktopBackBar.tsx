@@ -18,7 +18,7 @@ export function DesktopBackLink({ className = "" }: { className?: string }) {
       href={parent.href}
       onClick={onClick}
       title="回到上一頁"
-      className={`flex w-fit items-center gap-0.5 rounded-lg py-1 pr-2.5 pl-1 text-[15px] text-accent hover:bg-surface-hover active:opacity-60 ${className}`}
+      className={`flex w-fit items-center gap-0.5 rounded-lg py-1 pr-2.5 pl-1 text-[15px] text-deep hover:bg-surface-hover active:opacity-60 ${className}`}
     >
       <ChevronLeft size={20} strokeWidth={2.2} className="shrink-0" />
       返回

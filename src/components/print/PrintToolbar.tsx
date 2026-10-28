@@ -33,7 +33,7 @@ export function PrintToolbar({ title, options = [] }: { title: string; options?:
         ))}
         <button
           onClick={() => window.print()}
-          className="ml-auto flex items-center gap-1.5 rounded-btn bg-accent px-4 py-2 text-sm font-medium text-on-accent hover:bg-deep"
+          className="ml-auto flex items-center gap-1.5 rounded-btn bg-mid px-4 py-2 text-sm font-semibold text-on-mid hover:bg-accent"
         >
           <Printer size={16} />
           列印 / 另存 PDF

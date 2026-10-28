@@ -227,7 +227,7 @@ export function QuizScopeForm({
       <button
         onClick={submit}
         disabled={selected.size === 0}
-        className="flex items-center gap-2 rounded-full bg-subj-accent px-6 py-2.5 font-semibold text-on-accent transition-colors hover:bg-subj-deep disabled:cursor-not-allowed disabled:opacity-40"
+        className="flex items-center gap-2 rounded-full bg-subj-mid px-6 py-2.5 font-semibold text-subj-ink transition-colors hover:bg-subj-accent disabled:cursor-not-allowed disabled:opacity-40"
       >
         <Play size={16} />
         {selected.size === 0 ? "請先選擇章節" : "開始測驗"}

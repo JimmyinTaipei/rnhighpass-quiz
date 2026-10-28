@@ -121,7 +121,7 @@ export function QuestionEditForm({ question }: { question: Question }) {
         <button
           onClick={save}
           disabled={isPending}
-          className="flex items-center gap-1 rounded-btn bg-subj-accent px-4 py-2 text-sm font-medium text-on-accent transition-opacity hover:opacity-90 disabled:opacity-50"
+          className="flex items-center gap-1 rounded-btn bg-subj-mid px-4 py-2 text-sm font-semibold text-subj-ink transition-colors hover:bg-subj-accent disabled:opacity-50"
         >
           <Save size={14} />
           {isPending ? "儲存中…" : "儲存"}

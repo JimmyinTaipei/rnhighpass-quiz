@@ -40,7 +40,7 @@ export default async function KnowledgeQuizPage(props: PageProps<"/learn/[slug]/
           <p className="mb-4 text-sm text-muted">分章題本裡還沒有直接考「{article.title}」的題目。</p>
           <Link
             href={backHref}
-            className="rounded-btn bg-accent px-4 py-2 text-sm font-medium text-on-accent"
+            className="rounded-btn bg-mid px-4 py-2 text-sm font-semibold text-on-mid"
           >
             回到知識頁
           </Link>

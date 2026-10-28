@@ -105,7 +105,7 @@ function TreeLevel({
                   aria-expanded={isOpen}
                   aria-controls={childrenId}
                   aria-label={`${isOpen ? "收合" : "展開"} ${node.label}`}
-                  className="flex size-6 shrink-0 items-center justify-center rounded text-muted transition-colors duration-150 hover:text-body focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-subj-accent motion-reduce:transition-none"
+                  className="relative flex size-6 shrink-0 items-center justify-center rounded text-muted after:absolute after:-inset-y-1 after:-left-2 after:right-0 after:content-[''] transition-colors duration-150 hover:text-body focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-subj-accent motion-reduce:transition-none"
                 >
                   <ChevronRight
                     size={14}

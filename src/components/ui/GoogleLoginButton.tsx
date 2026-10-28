@@ -27,8 +27,8 @@ export function GoogleLoginButton({ next, compact = false }: GoogleLoginButtonPr
       onClick={handleLogin}
       className={
         compact
-          ? 'rounded-full bg-deep px-4 py-2 text-sm font-medium text-on-accent transition-colors hover:bg-accent'
-          : 'flex h-12 w-full items-center justify-center gap-2 rounded-full bg-deep px-5 font-medium text-on-accent transition-colors hover:bg-accent md:w-[220px]'
+          ? 'rounded-full bg-deep px-4 py-2 text-sm font-medium text-on-accent transition-opacity hover:opacity-90'
+          : 'flex h-12 w-full items-center justify-center gap-2 rounded-full bg-deep px-5 font-medium text-on-accent transition-opacity hover:opacity-90 md:w-[220px]'
       }
     >
       {compact ? '登入' : '使用 Google 登入'}

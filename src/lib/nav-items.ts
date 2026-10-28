@@ -80,9 +80,9 @@ export const NAV_SECTIONS: NavSection[] = [
 const under = (pathname: string, prefix: string) =>
   prefix === "/" ? pathname === "/" : pathname === prefix || pathname.startsWith(`${prefix}/`);
 
-/** 做題頁：不論從哪裡進來(章節、知識頁)，都屬於「練習」 */
+/** 做題頁：不論從哪裡進來(章節、知識頁)，都屬於「練習」；/dev/quiz 是只在 next dev 存在的預覽 */
 const isQuizPath = (pathname: string) =>
-  /^\/(chapters|learn)\/[^/]+\/quiz$/.test(pathname);
+  /^\/(chapters|learn)\/[^/]+\/quiz$/.test(pathname) || pathname === "/dev/quiz";
 
 /** 目前網址屬於哪個分區(側邊欄與頁籤亮哪一格) */
 export function sectionOf(pathname: string): SectionKey {

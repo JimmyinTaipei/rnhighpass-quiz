@@ -165,7 +165,7 @@ export function QuestionCard({
       return "bg-correct-bg text-correct-text font-medium";
     }
     if (selected === key) {
-      return "bg-incorrect-bg text-incorrect-text";
+      return "bg-incorrect-bg-strong text-incorrect-text font-medium";
     }
     return "bg-(--surface-row) text-muted";
   }
@@ -177,13 +177,13 @@ export function QuestionCard({
         <span className="rounded-full bg-fill px-2.5 py-0.5 text-xs font-medium text-body">
           {question.source_text}
         </span>
-        <div className="flex shrink-0 items-center gap-0.5">
+        <div className="flex shrink-0 items-center gap-5">
           <ReportButton questionId={question.id} targetLabel={question.source_text} />
           <FavoriteButton questionId={question.id} />
         </div>
       </div>
 
-      <p className="mb-4 text-[16px] whitespace-pre-wrap leading-relaxed font-medium text-strong">
+      <p className="mb-4 text-[16px] whitespace-pre-wrap leading-relaxed font-medium text-strong [overflow-wrap:anywhere]">
         {question.stem}
       </p>
 
@@ -199,17 +199,17 @@ export function QuestionCard({
               onClick={() => handleSelect(key)}
               className={`flex w-full items-center justify-between gap-3 rounded-btn px-3.5 py-3 text-left text-[15px] transition-colors duration-150 ${optionStyle(key)}`}
             >
-              <div className="flex items-start gap-3">
+              <div className="flex min-w-0 items-start gap-3">
                 <span className="mt-px flex size-6 shrink-0 items-center justify-center rounded-full bg-fill text-xs font-semibold">
                   {label}
                 </span>
-                <span className="leading-relaxed">{options[key]}</span>
+                <span className="min-w-0 leading-relaxed [overflow-wrap:anywhere]">{options[key]}</span>
               </div>
               {revealed && (accepted.length === 0 || accepted.includes(key)) && (
-                <CheckCircle2 size={18} className="icon-pop shrink-0 text-correct" />
+                <CheckCircle2 size={20} className="icon-pop shrink-0 text-correct" />
               )}
               {revealed && selected === key && !accepted.includes(key) && accepted.length > 0 && (
-                <XCircle size={18} className="icon-pop shrink-0 text-incorrect" />
+                <XCircle size={20} strokeWidth={2.25} className="icon-pop shrink-0 text-incorrect" />
               )}
             </button>
           );
@@ -232,8 +232,8 @@ export function QuestionCard({
               </span>
             )}
             {!browseMode && !isCorrect && accepted.length <= 1 && (
-              <span className="text-xs font-normal text-incorrect">
-                正解是 {question.answer}
+              <span className="rounded-md bg-correct-bg px-1.5 py-0.5 text-sm font-semibold text-correct-text">
+                正解 {question.answer}
               </span>
             )}
           </div>
@@ -246,17 +246,17 @@ export function QuestionCard({
                     section.emphasis ? "bg-subj-light/70" : "bg-(--surface-row)"
                   }`}
                 >
-                  <h4 className="mb-1 text-xs font-semibold text-subj-deep">
+                  <h4 className="mb-1 text-[13px] font-semibold text-subj-deep">
                     {section.label}
                   </h4>
-                  <p className="whitespace-pre-wrap text-sm leading-relaxed text-strong">
+                  <p className="whitespace-pre-wrap text-[15px] leading-[1.7] text-strong [overflow-wrap:anywhere]">
                     {section.text}
                   </p>
                 </section>
               ))}
             </div>
           ) : (
-            <p className="whitespace-pre-wrap text-sm leading-relaxed text-strong">
+            <p className="whitespace-pre-wrap text-[15px] leading-[1.7] text-strong [overflow-wrap:anywhere]">
               {question.explanation_text}
             </p>
           )}

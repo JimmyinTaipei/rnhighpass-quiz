@@ -82,8 +82,8 @@ export function KnowledgeSearchBox({ mode = "live", className = "" }: KnowledgeS
         value={q}
         onChange={(e) => onChange(e.target.value)}
         aria-label="搜尋知識庫"
-        placeholder="搜尋知識庫(如 Kussmaul、SGLT2、HbA1c)"
-        className="w-full rounded-btn bg-fill py-2 pr-3 pl-9 text-[15px] text-strong outline-none placeholder:text-muted focus:ring-2 focus:ring-accent/40"
+        placeholder="搜尋知識庫(如 SGLT2、HbA1c)"
+        className="w-full rounded-btn bg-fill py-2 pr-3 pl-9 text-base text-strong outline-none placeholder:text-muted focus:ring-2 focus:ring-accent/40"
       />
     </form>
   );

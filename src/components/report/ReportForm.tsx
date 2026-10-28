@@ -140,7 +140,7 @@ export function ReportForm({
           type="button"
           onClick={submit}
           disabled={isPending || loggedIn === null || length < REPORT_MESSAGE_MIN}
-          className="flex items-center gap-1.5 rounded-btn bg-subj-accent px-4 py-2 font-medium text-on-accent transition-opacity hover:opacity-90 disabled:opacity-50"
+          className="flex items-center gap-1.5 rounded-btn bg-subj-mid px-4 py-2 font-semibold text-subj-ink transition-colors hover:bg-subj-accent disabled:opacity-50"
         >
           <Send size={14} />
           {isPending ? "送出中…" : "送出回報"}

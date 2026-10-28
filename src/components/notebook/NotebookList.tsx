@@ -111,7 +111,7 @@ export function NotebookList({
             <Link
               href={exportSelectedHref}
               target="_blank"
-              className="ml-auto flex items-center gap-1 rounded-btn bg-subj-accent px-3 py-1 text-xs font-medium text-on-accent"
+              className="ml-auto flex items-center gap-1 rounded-btn bg-subj-mid px-3 py-1 text-xs font-semibold text-subj-ink"
             >
               <FileDown size={12} />
               匯出選取的題目
