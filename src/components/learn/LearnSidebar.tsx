@@ -31,7 +31,7 @@ function Group({ group, pathname }: { group: LearnNavGroup; pathname: string }) 
                 {e.soon ? (
                   <SoonBadge />
                 ) : (
-                  e.pages > 0 && <span className="shrink-0 text-xs font-normal text-muted">{e.pages}</span>
+                  e.pages > 0 && <span className="shrink-0 text-xs font-normal text-muted">{e.pages} 篇</span>
                 )}
               </Link>
             </li>

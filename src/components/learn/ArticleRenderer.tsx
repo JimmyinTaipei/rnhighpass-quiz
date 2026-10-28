@@ -14,6 +14,7 @@ import { BasicsBox } from "./BasicsBox";
 import { EmbedBadge } from "./EmbedBadge";
 import { KnowledgeLink } from "./KnowledgeLink";
 import { LabeledFigure } from "./LabeledFigure";
+import { ScrollableTable } from "./ScrollableTable";
 import { ZoomableFigureImage } from "./ZoomableFigureImage";
 import { isMergedExamPoints } from "./toc";
 
@@ -101,13 +102,13 @@ function RelatedQuestions({ qkey, ctx }: { qkey: string; ctx: RenderContext }) {
   if (questions.length === 0) return null;
   return (
     <details className="kb-questions surface-white group my-4 rounded-card">
-      <summary className="flex cursor-pointer list-none items-center gap-2 px-4 py-2.5 text-sm font-semibold text-deep select-none hover:bg-surface-hover [&::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer list-none items-center gap-2 py-2.5 text-sm font-semibold text-deep md:px-4 select-none hover:bg-surface-hover [&::-webkit-details-marker]:hidden">
         <ListChecks size={16} className="text-accent" />
         相關考題 {questions.length} 題
         <span className="ml-auto text-xs font-normal text-muted group-open:hidden">點開作答</span>
         <span className="ml-auto hidden text-xs font-normal text-muted group-open:inline">收起</span>
       </summary>
-      <div className="border-t border-card-border p-3 sm:p-4">
+      <div className="border-t border-card-border pt-3 md:p-4">
         {questions.map((q) => (
           <QuestionCard
             key={q.id}
@@ -211,11 +212,7 @@ export function renderHast(root: Root, ctx: RenderContext) {
     "k-figure": ({ src, alt, labels }: { src: string; alt: string; labels?: string }) => (
       <Figure src={src} alt={alt} labels={labels} />
     ),
-    table: (props: React.ComponentProps<"table">) => (
-      <div className="kb-table-wrap my-4 overflow-x-auto rounded-btn border border-card-border">
-        <table {...props} />
-      </div>
-    ),
+    table: (props: React.ComponentProps<"table">) => <ScrollableTable {...props} />,
   } as unknown as Components;
 
   return toJsxRuntime(root, { Fragment, jsx, jsxs, components });

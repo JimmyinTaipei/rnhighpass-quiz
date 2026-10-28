@@ -10,6 +10,7 @@ import {
 } from "react";
 import { List, X } from "lucide-react";
 import { DesktopBackLink } from "@/components/shell/DesktopBackBar";
+import { useHideOnScrollDown } from "@/lib/use-hide-on-scroll";
 import type { TocNode } from "./toc";
 
 interface ArticleContextValue {
@@ -73,6 +74,7 @@ export function ArticleShell({
   const [collapsed, setCollapsed] = useState<Set<string>>(() => new Set());
   const [activeId, setActiveId] = useState<string | null>(null);
   const [drawer, setDrawer] = useState(false);
+  const tocHidden = useHideOnScrollDown();
 
   const ancestorsOf = useCallback(
     (id: string) => {
@@ -193,11 +195,13 @@ export function ArticleShell({
       </div>
 
       {/* 窄螢幕:目錄改成底部抽屜。按鈕疊在「回到頂端」(ScrollTopButton，size-11)上方，兩顆不重疊；
-          手機還要讓開底部頁籤 */}
+          手機還要讓開底部頁籤。往下捲(在讀內文)時收起不擋字，往上捲才出現；鍵盤聚焦時一定看得到 */}
       <button
         type="button"
         onClick={() => setDrawer(true)}
-        className="fixed right-4 bottom-[calc(3.5rem+env(safe-area-inset-bottom)+1rem+2.75rem+0.75rem)] z-30 flex items-center gap-1.5 rounded-full bg-deep px-3.5 py-2 text-sm font-medium text-on-accent shadow-md hover:opacity-90 md:right-6 md:bottom-[calc(1.5rem+2.75rem+0.75rem)] lg:hidden"
+        className={`fixed right-4 bottom-[calc(3.5rem+env(safe-area-inset-bottom)+1rem+2.75rem+0.75rem)] z-30 flex items-center gap-1.5 rounded-full bg-deep px-3.5 py-2 text-sm font-medium text-on-accent shadow-md transition-[opacity,translate] duration-200 ease-out hover:opacity-90 focus-visible:pointer-events-auto focus-visible:translate-y-0 focus-visible:opacity-100 md:right-6 md:bottom-[calc(1.5rem+2.75rem+0.75rem)] lg:hidden ${
+          tocHidden ? "pointer-events-none translate-y-3 opacity-0" : ""
+        }`}
       >
         <List size={16} /> 目錄
       </button>

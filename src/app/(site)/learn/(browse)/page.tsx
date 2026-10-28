@@ -11,7 +11,7 @@ import { CATEGORY_LABELS, type KnowledgeCategory } from "@/lib/knowledge/types";
 
 export const metadata: Metadata = { title: "知識庫" };
 
-/** 一行一項:只有名稱與相關題數;還沒有頁面的顯示「即將推出」 */
+/** 一行一項:名稱、知識頁篇數與相關題數;還沒有頁面的顯示「即將推出」 */
 function RowList({ group }: { group: LearnNavGroup }) {
   return (
     <section className="mb-6">
@@ -27,7 +27,7 @@ function RowList({ group }: { group: LearnNavGroup }) {
                 <SoonBadge />
               ) : (
                 <span className="shrink-0 text-sm tabular-nums text-muted">
-                  {r.questions > 0 ? `${r.questions} 題` : "—"}
+                  {r.pages} 篇{r.questions > 0 && ` · ${r.questions} 題`}
                 </span>
               )}
               <ChevronRight size={16} className="shrink-0 text-muted" />
@@ -50,7 +50,7 @@ export default async function LearnPage(props: PageProps<"/learn">) {
       <h1 className="max-md:sr-only mb-1 flex items-center gap-2 text-3xl font-bold text-strong">
         <Library className="text-accent" /> 知識庫
       </h1>
-      <p className="mb-6 text-sm text-body">以知識點為單位整理、依系統分類，彼此互相連結。數字是相關國考題數。</p>
+      <p className="mb-6 text-sm text-body">以知識點為單位整理、依系統分類，彼此互相連結。每一列標出知識頁篇數與相關國考題數。</p>
       <LearnIndex domains={taxonomy.domains} query={q} type={type} results={await searchKnowledge(q, type)}>
         <Suspense fallback={null}>
           <ContinueLastVisit />

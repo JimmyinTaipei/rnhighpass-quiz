@@ -192,7 +192,8 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
   return (
     <article
       className={
-        isPanel ? "px-4 pb-8 sm:px-6" : "on-white rounded-card bg-card p-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)] sm:p-8"
+        // 手機不包白卡(內容直接放在灰色頁面上，少一層框、文字欄寬一些)；md 以上才是白色容器
+        isPanel ? "px-4 pb-8 sm:px-6" : "md-on-white md:rounded-card md:bg-card md:p-8 md:shadow-[0_1px_2px_rgba(0,0,0,0.04)]"
       }
     >
       <nav aria-label="麵包屑" className="mb-2 flex flex-wrap items-center gap-1 text-sm text-muted">
