@@ -27,6 +27,8 @@ import type { KnowledgeRef } from "@/lib/knowledge/exam";
 import type { Question } from "@/lib/types";
 
 const AUTO_ADVANCE_DELAY_MS = 700;
+/** 作答列按鈕：手機三顆平分寬度、44px 高、15px 字；md 以上回到一般膠囊大小 */
+const answerBarButton = "min-h-11 flex-1 text-[15px] md:min-h-0 md:flex-none md:text-[13px]";
 /** 左右滑動換題：水平位移至少這麼多，而且要比垂直位移大(避免跟上下捲動衝突) */
 const SWIPE_MIN_PX = 60;
 
@@ -457,26 +459,33 @@ export function ChapterQuizRunner({
         </p>
       )}
 
-      <div className="flex items-center gap-2">
-        <button type="button" onClick={() => goTo(index - 1)} disabled={index === 0} className={`${pillGray} disabled:opacity-40`}>
-          <ChevronLeft size={15} /> 上一題
+      {/* 作答列。手機固定在螢幕底部(取代底部頁籤的位置，見 globals.css 的 .quiz-answer-bar)，
+          三顆一樣大、至少 44px 高，詳解再長都按得到；md 以上維持在題卡下方 */}
+      <div className="quiz-answer-bar fixed inset-x-0 bottom-0 z-30 flex items-center gap-2 border-t border-card-border/70 bg-card/85 px-4 pt-1.5 pb-[calc(0.375rem+env(safe-area-inset-bottom))] backdrop-blur-xl backdrop-saturate-150 md:static md:z-auto md:border-0 md:bg-transparent md:p-0 md:backdrop-blur-none md:backdrop-saturate-100">
+        <button
+          type="button"
+          onClick={() => goTo(index - 1)}
+          disabled={index === 0}
+          className={`${pillGray} ${answerBarButton} disabled:opacity-40`}
+        >
+          <ChevronLeft size={16} /> 上一題
         </button>
         <button
           type="button"
           onClick={clearAnswer}
           disabled={current.selected === null}
-          className={`${pillGray} disabled:opacity-40`}
+          className={`${pillGray} ${answerBarButton} disabled:opacity-40`}
         >
-          <Eraser size={14} /> 取消作答
+          <Eraser size={15} /> 取消作答
         </button>
-        <span className="flex-1" />
+        <span className="hidden flex-1 md:block" />
         {isLast ? (
-          <button type="button" onClick={requestSubmit} className={pillTint}>
+          <button type="button" onClick={requestSubmit} className={`${pillTint} ${answerBarButton}`}>
             交卷
           </button>
         ) : (
-          <button type="button" onClick={() => goTo(index + 1)} className={pillTint}>
-            下一題 <ChevronRight size={15} />
+          <button type="button" onClick={() => goTo(index + 1)} className={`${pillTint} ${answerBarButton}`}>
+            下一題 <ChevronRight size={16} />
           </button>
         )}
       </div>

@@ -50,7 +50,8 @@ interface QuestionCardProps {
    */
   devMode?: boolean;
   /**
-   * 作答前打亂選項順序(預設開)。作答後一律排回原始 A–D 順序，方便對照詳解。
+   * 作答前打亂選項順序(預設開)。作答後位置不動(剛點的選項不會跳走)，只把左邊的字母
+   * 換回原始字母，詳解裡的「(D)」才對得上。
    * 瀏覽模式與 revealAnswer(已作答的回顧)本來就是作答後狀態，不會打亂。
    */
   shuffleOptions?: boolean;
@@ -126,9 +127,9 @@ export function QuestionCard({
     { label: "延伸提醒", text: question.extra_notes, emphasis: false },
   ].filter((s): s is { label: string; text: string; emphasis: boolean } => !!s.text);
   const isCorrect = selected !== null && isAnswerCorrect(question.answer, selected);
-  // 作答前用打亂的順序、顯示字母用位置；作答後排回原始順序與原始字母
+  // 打亂的順序作答前後都一樣；字母作答前用位置(A–D 由上到下)，作答後換回原始字母
   const displayOrder: readonly OptionKey[] =
-    needsShuffle && !revealed && isClient ? (optionOrder ?? shuffledOrder) : OPTION_KEYS;
+    needsShuffle && isClient ? (optionOrder ?? shuffledOrder) : OPTION_KEYS;
   const optionsHidden = needsShuffle && !revealed && !isClient;
 
   function handleSelect(key: OptionKey) {
