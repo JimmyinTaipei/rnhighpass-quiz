@@ -7,14 +7,14 @@
 
 - **知識庫建完**：404 篇、題目涵蓋 8960/8960(11 科 100%)、chapters 對照涵蓋 660/660 個有題目的 H2
 - **收尾**：A 標點、B 補連結、C chapters 抽查、D 需確認總表、E 寫回 Supabase 與部署、F 合併 main 都完成，見 [wrap-up-plan.md](wrap-up-plan.md)
-- **線上版本**：workers.dev 版本 ad054753(2026-10-27)，main = claude/knowledge-assets(fddd992 之後)
+- **線上版本**：workers.dev 仍是 ad054753(2026-10-27)。batch 審稿修正版 6da038cd 已上傳，2026-10-28 部署兩次都在幾分鐘內出現 1102(CPU 超限)，已退回；當時正式網址每分鐘 1,000–2,500 個請求(舊版只有幾十個、預覽網址正常)，疑似有開著的舊版分頁或外部用戶端在新版下重複請求，原因待查
 - **Supabase**：questions 8960、question_tags 16674，與來源一致
-- **Batch 知識頁審稿完成**(2026-10-28)：549 個候選問題，改 262(162 頁)、誤報 282、待確認 5(4 項，已列入 review-checklist)；紀錄見 [archive/reviews/batch-knowledge-review-2026-10-28.md](archive/reviews/batch-knowledge-review-2026-10-28.md)。**知識頁內容已改，尚未部署**
+- **Batch 知識頁審稿完成**(2026-10-28)：549 個候選問題，改 262(162 頁)、誤報 282、待確認 5(4 項，已列入 review-checklist)；紀錄見 [archive/reviews/batch-knowledge-review-2026-10-28.md](archive/reviews/batch-knowledge-review-2026-10-28.md)，**尚未上線**(見線上版本)
 
 ## 下一步
 
 1. **收尾 A2**：題目 AI 詳解套用標點規則(使用者已同意)；詳解錯誤更正要**先給使用者看做法**
-2. **Batch 全面檢查**(Gemini 3.8 Flash，Google Cloud 剩 **NT$1737.57**，2026-10-28)：知識頁已完成；下一個是**圖片**，再來 AI 詳解。腳本 `scripts/batch-knowledge-review.py`、審稿指示 `scripts/batch/`，工作檔在 `batch/`(用完刪除)；用量記在 [batch-usage-log.md](batch-usage-log.md)。知識頁改動還沒部署 workers.dev
+2. **Batch 全面檢查**(Gemini 3.8 Flash，Google Cloud 剩 **NT$1737.57**，2026-10-28)：知識頁已完成；**額度 2026-11-10 到期**。順序(2026-10-28 使用者調整)：後醫物理題目 → **圖片**(先審不打算替換的圖)→ AI 詳解。腳本 `scripts/batch-knowledge-review.py`、審稿指示 `scripts/batch/`，工作檔在 `batch/`(用完刪除)；用量記在 [batch-usage-log.md](batch-usage-log.md)
 3. **功能**：見 [feature-backlog.md](feature-backlog.md)；「功能備忘錄」的項目要先跟使用者討論
 4. **指引追蹤**：見 [guideline-watchlist.md](guideline-watchlist.md)，先查「優先」6 項有沒有新版，結果列給使用者決定
 5. **需確認項目**：見 [review-checklist.md](review-checklist.md)，「待核對」使用者之後再看
