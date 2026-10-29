@@ -4,7 +4,7 @@
 
 ## 資料來源與資料庫的關係
 
-來源資料夾（預設 `/Users/jimmy/Projects/多保命護理分章`，可用 `SOURCE_ROOT` 環境變數覆寫）目前是唯一真實來源（single source of truth）。這裡的腳本是**單向**匯入：讀來源檔案 → upsert 進 Supabase。目前還沒有反向（從網站寫回來源檔案）的機制。
+來源資料夾（預設 `/Users/jimmy/Projects/多保命護理分章`，可用 `SOURCE_ROOT` 環境變數覆寫）目前是唯一真實來源（single source of truth）。這裡的腳本主要是匯入：讀來源檔案 → upsert 進 Supabase。網頁 dev mode 改過的題目與比較表，用 `scripts/pull_web_edits.py` 寫回來源檔案(2026-10-29 起，見 docs/new-sitting-import.md 第 0 步)。
 
 同步策略是「全量重建 + upsert」：每次執行都會重新讀取全部來源檔案，並用資料本身自帶的穩定 ID（題目 ID、`table_id`、知識卡 `node_id` 等）做 `ON CONFLICT DO UPDATE`。這代表：
 - 重複執行是安全的（冪等），不會產生重複資料。

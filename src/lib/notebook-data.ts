@@ -18,6 +18,7 @@ import {
   type NotebookSource,
 } from "./notebook";
 import type { Chapter, Subject } from "./types";
+import { reviewSchedule, type ReviewSchedule } from "./spaced-review";
 
 export interface NotebookIndex {
   source: NotebookSource;
@@ -71,4 +72,10 @@ export function idsForSubject(index: NotebookIndex, subjectId: string): string[]
     .sort((a, b) =>
       (index.dateById.get(b) ?? "").localeCompare(index.dateById.get(a) ?? ""),
     );
+}
+
+/** 間隔複習的排程(首頁卡片、今日複習、我的題本共用)。未登入時是空的 */
+export async function loadReviewSchedule(): Promise<ReviewSchedule> {
+  const [answers, favorites] = await Promise.all([getUserAnswers(), getFavorites()]);
+  return reviewSchedule(answers, favorites.map((f) => f.question_id));
 }

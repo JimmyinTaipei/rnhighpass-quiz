@@ -13,7 +13,7 @@ import {
   parseNotebookSource,
   UNCATEGORIZED,
 } from "@/lib/notebook";
-import { idsForSubject, loadNotebookIndex } from "@/lib/notebook-data";
+import { idsForSubject, loadNotebookIndex, loadReviewSchedule } from "@/lib/notebook-data";
 import { subjectGroup } from "@/lib/subject-groups";
 import { Panel } from "@/components/ui/Panel";
 import { SubjectPicker } from "@/components/subjects/SubjectPicker";
@@ -50,10 +50,11 @@ export default async function NotebookPage(props: PageProps<"/mistakes">) {
   const showKnowledge = rawTab === "knowledge";
   const source = parseNotebookSource(rawTab);
 
-  const [index, devMode, knowledgeRows] = await Promise.all([
+  const [index, devMode, knowledgeRows, schedule] = await Promise.all([
     loadNotebookIndex(source),
     getDevMode(),
     getKnowledgeFavorites(),
+    loadReviewSchedule(),
   ]);
   const knowledgeGroups = groupKnowledgeFavorites(knowledgeRows);
   const { subjects, countsBySubject, totals } = index;
@@ -114,6 +115,19 @@ export default async function NotebookPage(props: PageProps<"/mistakes">) {
             我的回報進度
           </Link>
         </div>
+
+        {schedule.due.length > 0 && (
+          <Link
+            href="/quiz/review?source=due"
+            className="mb-4 flex items-center justify-between gap-3 rounded-card bg-light px-4 py-3 text-sm text-deep hover:bg-mid"
+          >
+            <span>
+              <span className="font-semibold">今天該複習 {schedule.due.length} 題</span>
+              <span className="ml-2 text-xs text-body">錯題與收藏依記憶間隔排程</span>
+            </span>
+            <span className="shrink-0 font-semibold">開始 →</span>
+          </Link>
+        )}
 
         <div role="tablist" className="mb-4 flex gap-1 border-b border-card-border">
           {tabs.map((t) => (

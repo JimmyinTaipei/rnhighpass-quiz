@@ -20,6 +20,7 @@
 | [positioning.md](positioning.md) | 知識庫定位、寫作格式、各類型範本、之後的功能順序 |
 | [knowledge-roadmap.md](knowledge-roadmap.md) | 各輪範圍、跨輪移交清單、資料來源原則 |
 | [deploy-size-plan.md](deploy-size-plan.md) | 部署流程(免費方案 CPU 與大小限制) |
+| [new-sitting-import.md](new-sitting-import.md) | 新梯次考題匯入流程(PDF → 題庫 → 網站)、網頁修改拉回本地 |
 | [spec.md](spec.md) | 網站最初的功能規格(2026-09) |
 
 ## 自動產生的報告

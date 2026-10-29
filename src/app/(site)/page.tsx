@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Suspense } from "react";
 import { HomeDashboardCard } from "@/components/dashboard/HomeDashboardCard";
+import { HomeReviewCard } from "@/components/dashboard/HomeReviewCard";
 import { GoogleLoginButton } from "@/components/ui/GoogleLoginButton";
 import { HomeBackdrop } from "@/components/home/HomeBackdrop";
 import { ContinueReading } from "@/components/subjects/ContinueReading";
@@ -74,9 +75,14 @@ export default async function Home(props: PageProps<"/">) {
         )}
 
         {user && !wasRedirected && (
-          <Suspense fallback={null}>
-            <HomeDashboardCard />
-          </Suspense>
+          <>
+            <Suspense fallback={null}>
+              <HomeReviewCard />
+            </Suspense>
+            <Suspense fallback={null}>
+              <HomeDashboardCard />
+            </Suspense>
+          </>
         )}
 
         <Link href="/privacy" className="-my-2 px-3 py-3 text-xs text-muted hover:text-deep">

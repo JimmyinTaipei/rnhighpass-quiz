@@ -1,7 +1,7 @@
 """把各頁頁尾「相關考題」的題目，依文字重疊打分，分配到該頁的段落(H2/H3)。
 輸出 scores.json：{qkey: {qid: {"target": 段落 id 或 None(留在綜合考題), "reason", "t1", "t2", "cands"}}}"""
 # 用法(在 rnhighpass-quiz/)：
-#   1. 匯出題目到工作目錄的 questions.json(id、stem、option_a–d、key_point)
+#   1. database/.venv/bin/python scripts/section-questions/export_questions.py <工作目錄>
 #   2. python3 scripts/section-questions/classify.py $PWD <工作目錄>   → scores.json(可先抽查)
 #   3. python3 scripts/section-questions/apply.py $PWD <工作目錄>      → 改 content/knowledge 與 question-map.json
 #   4. node scripts/build-knowledge.mjs
