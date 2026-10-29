@@ -4,11 +4,15 @@ export const REPORT_CATEGORIES = {
   question: "題目有錯",
   answer: "答案有爭議",
   explanation: "詳解不清楚",
+  content: "內容有錯",
   site: "網站問題",
   suggestion: "建議",
 } as const;
 
 export type ReportCategory = keyof typeof REPORT_CATEGORIES;
+
+/** 知識頁「建議改進」可選的類型 */
+export const KNOWLEDGE_REPORT_CATEGORIES: ReportCategory[] = ["suggestion", "content", "site"];
 
 export const REPORT_STATUS_LABELS = {
   new: "待處理",

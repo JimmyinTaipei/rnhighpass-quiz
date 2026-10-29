@@ -1,10 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import { Check, ChevronDown } from "lucide-react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { overlayMotion } from "@/lib/motion";
+import { useRouter } from "next/navigation";
+import { ChevronDown } from "lucide-react";
 
 export interface FilterOption {
   key: string;
@@ -14,73 +11,32 @@ export interface FilterOption {
 }
 
 /**
- * 手機版的篩選選單：一顆「分類：疾病 ▾」按鈕，點了從底部彈出選項清單(仿 iOS 的 action sheet)。
- * 電腦版仍用一排膠囊，所以這顆按鈕只在 md 以下出現。
+ * 手機版的篩選：「分類：疾病 ▾」，點了是原生下拉選單(iPhone 上是系統的選取器，最接近原生 app)。
+ * 底部彈出清單只留給目錄用。電腦版仍用一排膠囊，所以這個只在 md 以下出現。
  */
 export function FilterSheet({ label, options }: { label: string; options: FilterOption[] }) {
-  const [open, setOpen] = useState(false);
+  const router = useRouter();
   const current = options.find((o) => o.active) ?? options[0];
-  const reduce = useReducedMotion();
-
-  useEffect(() => {
-    if (!open) return;
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [open]);
-
   return (
-    <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        aria-haspopup="dialog"
-        aria-expanded={open}
-        className="inline-flex items-center gap-1 rounded-full border border-card-border bg-card px-3 py-1 text-body hover:bg-surface-hover md:hidden"
+    <label className="relative inline-flex items-center gap-1 rounded-full border border-card-border bg-card px-3 py-1 text-body focus-within:ring-2 focus-within:ring-accent/40 md:hidden">
+      {label}：<span className="font-medium text-deep">{current?.label}</span>
+      <ChevronDown size={15} className="text-muted" />
+      {/* 透明的原生 select 蓋在整顆按鈕上，點哪裡都會打開系統選單；字級 16px 避免 iOS 放大頁面 */}
+      <select
+        aria-label={label}
+        value={current?.key}
+        onChange={(e) => {
+          const next = options.find((o) => o.key === e.target.value);
+          if (next) router.push(next.href, { scroll: false });
+        }}
+        className="absolute inset-0 cursor-pointer appearance-none opacity-0 text-[16px]"
       >
-        {label}：<span className="font-medium text-deep">{current?.label}</span>
-        <ChevronDown size={15} className="text-muted" />
-      </button>
-
-      {/* 從底部滑上來、關閉時滑回去 */}
-      <AnimatePresence>
-        {open && (
-          <div key="filter" className="fixed inset-0 z-50 md:hidden" role="dialog" aria-modal="true" aria-label={label}>
-            <motion.button
-              {...overlayMotion("scrim", reduce)}
-              type="button"
-              aria-label="關閉"
-              className="absolute inset-0 bg-black/30"
-              onClick={() => setOpen(false)}
-            />
-            <motion.div
-              {...overlayMotion("sheet", reduce)}
-              className="absolute inset-x-0 bottom-0 rounded-t-2xl bg-card px-2 pt-2 pb-[calc(1rem+env(safe-area-inset-bottom))] shadow-xl"
-            >
-              <div aria-hidden className="mx-auto mb-2 h-1 w-9 rounded-full bg-fill-strong" />
-              <p className="px-3 pb-1 text-xs font-medium text-muted">{label}</p>
-              <ul>
-                {options.map((o) => (
-                  <li key={o.key}>
-                    <Link
-                      href={o.href}
-                      scroll={false}
-                      onClick={() => setOpen(false)}
-                      aria-current={o.active ? "true" : undefined}
-                      className={`flex items-center justify-between rounded-btn px-3 py-3 text-[1rem] hover:bg-surface-hover ${
-                        o.active ? "font-semibold text-deep" : "text-strong"
-                      }`}
-                    >
-                      {o.label}
-                      {o.active && <Check size={18} className="text-accent" />}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-          </div>
-        )}
-      </AnimatePresence>
-    </>
+        {options.map((o) => (
+          <option key={o.key} value={o.key}>
+            {o.label}
+          </option>
+        ))}
+      </select>
+    </label>
   );
 }

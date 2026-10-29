@@ -2,7 +2,10 @@ import Link from "next/link";
 import { visit } from "unist-util-visit";
 import type { Root } from "hast";
 import { ChevronRight, FilePenLine } from "lucide-react";
+import { FavoriteButton } from "@/components/favorites/FavoriteButton";
 import { ExamPresence } from "@/components/learn/ExamPresence";
+import { ReportButton } from "@/components/report/ReportButton";
+import { KNOWLEDGE_REPORT_CATEGORIES } from "@/lib/report-fields";
 import { renderHast, SectionView, type RenderContext } from "@/components/learn/ArticleRenderer";
 import { ArticleMetaEditor } from "@/components/learn/KnowledgeEditors";
 import { RelatedCards } from "@/components/learn/RelatedCards";
@@ -227,7 +230,20 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
         )}
       </nav>
       <header className="mb-6">
-        <h1 className={`${isPanel ? "text-2xl" : "text-3xl"} font-bold text-deep`}>{article.title}</h1>
+        {/* 全站同一規則：標題右邊依序是回報(旗子)、收藏(星號)，同題目卡 */}
+        <div className="flex items-start justify-between gap-3">
+          <h1 className={`${isPanel ? "text-2xl" : "text-3xl"} min-w-0 font-bold text-deep`}>{article.title}</h1>
+          <div className={`flex shrink-0 items-center gap-5 ${isPanel ? "pt-1" : "pt-2"}`}>
+            <ReportButton
+              title="建議改進"
+              targetLabel={`知識頁「${article.title}」`}
+              defaultCategory="suggestion"
+              categories={KNOWLEDGE_REPORT_CATEGORIES}
+              pagePath={`/learn/${slug}`}
+            />
+            <FavoriteButton questionId={slug} kind="knowledge" label="這一頁" />
+          </div>
+        </div>
         {article.subtitle && <p className="mt-1 text-lg text-body">{article.subtitle}</p>}
         {ctx.editSlug && (
           <div className="mt-2">

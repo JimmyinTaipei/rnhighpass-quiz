@@ -3,11 +3,9 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { ChevronRight, Library } from "lucide-react";
 import { ContinueLastVisit } from "@/components/learn/ContinueLastVisit";
-import { LearnIndex } from "@/components/learn/LearnIndex";
 import { SoonBadge } from "@/components/learn/SoonBadge";
-import { searchKnowledge, taxonomy } from "@/lib/knowledge";
+import { redirect } from "next/navigation";
 import { learnNavGroups, type LearnNavGroup } from "@/lib/knowledge/nav";
-import { CATEGORY_LABELS, type KnowledgeCategory } from "@/lib/knowledge/types";
 
 export const metadata: Metadata = { title: "知識庫" };
 
@@ -40,10 +38,13 @@ function RowList({ group }: { group: LearnNavGroup }) {
 }
 
 export default async function LearnPage(props: PageProps<"/learn">) {
+  // 知識庫搜尋已併進全站搜尋頁；舊網址 /learn?q= 轉過去
   const sp = await props.searchParams;
-  const q = typeof sp.q === "string" ? sp.q : "";
-  const rawType = typeof sp.type === "string" ? sp.type : null;
-  const type = rawType && rawType in CATEGORY_LABELS ? (rawType as KnowledgeCategory) : null;
+  if (typeof sp.q === "string" && sp.q.trim()) {
+    const params = new URLSearchParams({ q: sp.q.trim(), scope: "knowledge" });
+    if (typeof sp.type === "string") params.set("type", sp.type);
+    redirect(`/search?${params}`);
+  }
 
   return (
     <div>
@@ -51,14 +52,14 @@ export default async function LearnPage(props: PageProps<"/learn">) {
         <Library className="text-accent" /> 知識庫
       </h1>
       <p className="mb-6 text-sm text-body">以知識點為單位整理、依系統分類，彼此互相連結。每一列標出知識頁篇數與相關國考題數。</p>
-      <LearnIndex domains={taxonomy.domains} query={q} type={type} results={await searchKnowledge(q, type)}>
+      <div className="mt-6">
         <Suspense fallback={null}>
           <ContinueLastVisit />
         </Suspense>
         {learnNavGroups().map((g) => (
           <RowList key={g.label} group={g} />
         ))}
-      </LearnIndex>
+      </div>
     </div>
   );
 }

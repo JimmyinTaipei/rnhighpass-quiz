@@ -67,7 +67,8 @@ export default async function Home(props: PageProps<"/">) {
 
         {/* 閱讀位置存在這台裝置上，未登入也有；沒有紀錄時整列不出現 */}
         {!wasRedirected && (
-          <div className="w-full max-w-md text-left">
+          // 沒有閱讀紀錄時 ContinueReading 不渲染，empty:hidden 讓空的外框不再多佔一段間距
+          <div className="w-full max-w-md text-left empty:hidden">
             <ContinueReading />
           </div>
         )}
@@ -78,7 +79,7 @@ export default async function Home(props: PageProps<"/">) {
           </Suspense>
         )}
 
-        <Link href="/privacy" className="text-xs text-muted hover:text-deep">
+        <Link href="/privacy" className="-my-2 px-3 py-3 text-xs text-muted hover:text-deep">
           隱私說明
         </Link>
       </div>

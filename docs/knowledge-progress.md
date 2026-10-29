@@ -14,8 +14,8 @@
 ## 下一步
 
 1. **收尾 A2**：題目 AI 詳解套用標點規則(使用者已同意)；詳解錯誤更正要**先給使用者看做法**
-2. **Batch 全面檢查**(Gemini 3.8 Flash，Google Cloud 剩 **NT$1737.57**，2026-10-28)：知識頁已完成；**額度 2026-11-10 到期**。順序(2026-10-28 使用者調整)：後醫物理題目 → **圖片**(先審不打算替換的圖)→ AI 詳解。腳本 `scripts/batch-knowledge-review.py`、審稿指示 `scripts/batch/`，工作檔在 `batch/`(用完刪除)；用量記在 [batch-usage-log.md](batch-usage-log.md)
-3. **功能**：見 [feature-backlog.md](feature-backlog.md)；「功能備忘錄」的項目要先跟使用者討論
+2. **Batch 全面檢查**：2026-10-29 後醫物理用掉約 NT$1300，剩 **NT$437**(額度 2026-11-10 到期)。AI 詳解全量估 NT$380–560、不夠，**不做**；圖片 156 張估 NT$20 以內，使用者要做再做。用量見 [batch-usage-log.md](batch-usage-log.md)
+3. **功能**：見 [feature-backlog.md](feature-backlog.md)；「功能備忘錄」的項目要先跟使用者討論。2026-10-29 完成並 commit(未部署)：段落考題重新分配＋綜合考題(K7)、知識頁收藏(K1)與建議改進(K8)、搜尋合併(P5)、年度次別篩選(L7)、錯題連到知識頁(L1)、UI 小修(P6)。`database/migrations/0014_knowledge_favorites.sql` 已套用到 Supabase(新表 user_knowledge_favorites、回報類型加 content)
 4. **指引追蹤**：見 [guideline-watchlist.md](guideline-watchlist.md)，先查「優先」6 項有沒有新版，結果列給使用者決定
 5. **需確認項目**：見 [review-checklist.md](review-checklist.md)，「待核對」使用者之後再看
 

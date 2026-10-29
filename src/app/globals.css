@@ -519,12 +519,19 @@ nav[aria-label="麵包屑"] a {
   padding: 2px;
 }
 [data-ui="apple"] .segmented > * {
+  position: relative;
   border-radius: 7px;
   padding: 0.3rem 0.85rem;
   font-size: 0.8125rem;
   font-weight: 500;
   color: var(--color-body);
   transition: background-color 150ms ease-out, box-shadow 150ms ease-out;
+}
+/* 外觀約 28px 高，上下各擴 8px 讓可點範圍到 44px(HIG)，外觀不變 */
+[data-ui="apple"] .segmented > *::after {
+  content: "";
+  position: absolute;
+  inset: -8px 0;
 }
 [data-ui="apple"] .segmented > [aria-current],
 [data-ui="apple"] .segmented > [aria-pressed="true"] {

@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { Flag } from "lucide-react";
-import { getQuestionsByIds } from "@/lib/data";
+import { getKnowledgeFavorites, getQuestionsByIds } from "@/lib/data";
+import { hrefFor, knowledgeIndex, previewFor } from "@/lib/knowledge";
+import type { KnowledgePreview } from "@/lib/knowledge/types";
+import { weakArticles } from "@/lib/knowledge/exam";
+import { WeakArticles } from "@/components/learn/WeakArticles";
 import { requireUser } from "@/lib/auth";
 import { getDevMode } from "@/lib/dev-mode";
 import {
@@ -14,17 +18,44 @@ import { subjectGroup } from "@/lib/subject-groups";
 import { Panel } from "@/components/ui/Panel";
 import { SubjectPicker } from "@/components/subjects/SubjectPicker";
 import { NotebookList, type NotebookItem } from "@/components/notebook/NotebookList";
+import { KnowledgeFavoriteList, type KnowledgeFavoriteGroup } from "@/components/notebook/KnowledgeFavoriteList";
+
+/** 收藏的知識頁依頁分組(最近收藏的頁在前)，段落依頁內順序 */
+function groupKnowledgeFavorites(rows: { target: string }[]): KnowledgeFavoriteGroup[] {
+  const groups = new Map<string, KnowledgeFavoriteGroup>();
+  const order = Object.keys(knowledgeIndex.sections);
+  for (const { target } of rows) {
+    const [slug, id] = target.split("#");
+    const article = knowledgeIndex.articles[slug];
+    if (!article) continue; // 頁面已刪除或改名
+    const g = groups.get(slug) ?? { slug, title: article.title, href: hrefFor(slug), pageSaved: false, sections: [] };
+    if (!id) g.pageSaved = true;
+    else {
+      const p = previewFor(target);
+      if (p) g.sections.push(p);
+    }
+    groups.set(slug, g);
+  }
+  const pos = (p: KnowledgePreview) => order.indexOf(p.key);
+  for (const g of groups.values()) g.sections.sort((a, b) => pos(a) - pos(b));
+  return [...groups.values()];
+}
 
 export const metadata = { title: "我的題本 | 多保命" };
 
 export default async function NotebookPage(props: PageProps<"/mistakes">) {
   await requireUser("/mistakes");
   const searchParams = await props.searchParams;
-  const source = parseNotebookSource(
-    typeof searchParams.tab === "string" ? searchParams.tab : undefined,
-  );
+  const rawTab = typeof searchParams.tab === "string" ? searchParams.tab : undefined;
+  const showKnowledge = rawTab === "knowledge";
+  const source = parseNotebookSource(rawTab);
 
-  const [index, devMode] = await Promise.all([loadNotebookIndex(source), getDevMode()]);
+  const [index, devMode, knowledgeRows] = await Promise.all([
+    loadNotebookIndex(source),
+    getDevMode(),
+    getKnowledgeFavorites(),
+  ]);
+  const knowledgeGroups = groupKnowledgeFavorites(knowledgeRows);
   const { subjects, countsBySubject, totals } = index;
 
   // 指定的科目沒有題目時(例如剛答對最後一題)，退回題數最多的科目
@@ -66,7 +97,9 @@ export default async function NotebookPage(props: PageProps<"/mistakes">) {
   const tabs = [
     { key: "mistakes", label: "錯題", count: totals.mistakes },
     { key: "favorites", label: "收藏", count: totals.favorites },
+    { key: "knowledge", label: "知識頁", count: knowledgeRows.length },
   ];
+  const activeTab = showKnowledge ? "knowledge" : source;
 
   return (
     <main className="mx-auto flex w-full max-w-4xl flex-1 flex-col px-4 py-8">
@@ -88,9 +121,9 @@ export default async function NotebookPage(props: PageProps<"/mistakes">) {
               key={t.key}
               href={tabHref(t.key)}
               role="tab"
-              aria-selected={source === t.key}
+              aria-selected={activeTab === t.key}
               className={`-mb-px border-b-2 px-4 py-2 text-sm transition-colors ${
-                source === t.key
+                activeTab === t.key
                   ? "border-accent font-bold text-deep"
                   : "border-transparent text-muted hover:text-body"
               }`}
@@ -100,39 +133,53 @@ export default async function NotebookPage(props: PageProps<"/mistakes">) {
           ))}
         </div>
 
-        <p className="mb-4 text-sm text-muted">
-          {source === "mistakes"
-            ? "答錯自動收錄，答對後自動移出。"
-            : "在任何題目右上角按星號就能收藏。"}
-        </p>
-
-        {!subjectId ? (
-          <p className="text-muted">
-            {source === "mistakes"
-              ? "目前沒有錯題，繼續保持！"
-              : "還沒有收藏的題目。"}
-          </p>
+        {showKnowledge ? (
+          <>
+            <p className="mb-4 text-sm text-muted">在知識頁標題右邊按星號收整頁，或按段落標題旁的星號收單一段。</p>
+            {knowledgeGroups.length === 0 ? (
+              <p className="text-muted">還沒有收藏的知識頁。</p>
+            ) : (
+              <KnowledgeFavoriteList groups={knowledgeGroups} />
+            )}
+          </>
         ) : (
           <>
-            <div className="mb-6">
-              <SubjectPicker
-                subjects={subjects}
-                counts={countsBySubject}
-                selected={subjectId}
-                hrefFor={subjectHref}
-              />
-            </div>
-            <div data-group={subject ? subjectGroup(subject) : undefined}>
-              <NotebookList
-                key={`${source}-${subjectId}`}
-                source={source}
-                subjectName={subjectName}
-                groups={groups}
-                reviewHref={`/quiz/review?${scopeQuery}`}
-                exportHref={`/print/questions?${scopeQuery}`}
-                devMode={devMode}
-              />
-            </div>
+            <p className="mb-4 text-sm text-muted">
+              {source === "mistakes"
+                ? "答錯自動收錄，答對後自動移出。"
+                : "在任何題目右上角按星號就能收藏。"}
+            </p>
+
+            {!subjectId ? (
+              <p className="text-muted">
+                {source === "mistakes"
+                  ? "目前沒有錯題，繼續保持！"
+                  : "還沒有收藏的題目。"}
+              </p>
+            ) : (
+              <>
+                {source === "mistakes" && <WeakArticles articles={weakArticles([...index.dateById.keys()])} />}
+                <div className="mb-6">
+                  <SubjectPicker
+                    subjects={subjects}
+                    counts={countsBySubject}
+                    selected={subjectId}
+                    hrefFor={subjectHref}
+                  />
+                </div>
+                <div data-group={subject ? subjectGroup(subject) : undefined}>
+                  <NotebookList
+                    key={`${source}-${subjectId}`}
+                    source={source}
+                    subjectName={subjectName}
+                    groups={groups}
+                    reviewHref={`/quiz/review?${scopeQuery}`}
+                    exportHref={`/print/questions?${scopeQuery}`}
+                    devMode={devMode}
+                  />
+                </div>
+              </>
+            )}
           </>
         )}
       </Panel>

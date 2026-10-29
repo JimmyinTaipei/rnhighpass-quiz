@@ -4,7 +4,9 @@ import { computeChapterStats } from "@/lib/quiz-utils";
 import { requireUser } from "@/lib/auth";
 import { parseRange, type DashboardRange } from "@/lib/dashboard";
 import { loadDashboard } from "@/lib/dashboard-data";
-import { busiestSubject } from "@/lib/notebook";
+import { busiestSubject, currentMistakeIds } from "@/lib/notebook";
+import { weakArticles } from "@/lib/knowledge/exam";
+import { WeakArticles } from "@/components/learn/WeakArticles";
 import { subjectGroup } from "@/lib/subject-groups";
 import { Panel } from "@/components/ui/Panel";
 import { Dashboard } from "@/components/dashboard/Dashboard";
@@ -48,6 +50,8 @@ export default async function StatsPage(props: PageProps<"/stats">) {
       : busiestSubject(answeredBySubject, subjects);
   const subject = subjects.find((s) => s.id === subjectId);
 
+  const weak = weakArticles(currentMistakeIds(answers));
+
   const statByChapter = new Map(stats.map((s) => [s.chapterId, s]));
   const subjectChapters = chapters
     .filter((c) => c.subject_id === subjectId)
@@ -73,6 +77,12 @@ export default async function StatsPage(props: PageProps<"/stats">) {
           <Dashboard data={dashboard} rangeHref={(r) => href({ range: r })} />
         )}
       </Panel>
+
+      {answers.length > 0 && weak.length > 0 && (
+        <Panel>
+          <WeakArticles articles={weak} />
+        </Panel>
+      )}
 
       {answers.length > 0 && subjectId && (
         <Panel>

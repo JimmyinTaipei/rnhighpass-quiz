@@ -60,8 +60,12 @@ export async function loadArticle(slug: string): Promise<KnowledgeArticle | null
   if (!articleSlugSet.has(slug)) return null;
   const cached = articleCache.get(slug);
   if (cached) return cached;
-  const article = await readKnowledgeData<KnowledgeArticle>(`articles/${slug}.json`);
-  if (!article) return null;
+  const loaded = await readKnowledgeData<KnowledgeArticle>(`articles/${slug}.json`);
+  if (!loaded) return null;
+  // 頁尾「綜合考題」的題目都分進段落後可能一題不剩，整段(含目錄)不顯示
+  const article = hasBottomQuestions(slug)
+    ? loaded
+    : { ...loaded, sections: loaded.sections.filter((s) => s.id !== "questions") };
   if (articleCache.size >= ARTICLE_CACHE_SIZE) {
     articleCache.delete(articleCache.keys().next().value as string);
   }
@@ -143,6 +147,14 @@ export function questionIdsFor(qkey: string): string[] {
   const excluded = new Set(entry.excluded ?? []);
   const ids = [...(slot?.ids ?? []), ...(entry.pinned ?? []), ...(entry.auto ?? [])];
   return [...new Set(ids)].filter((id) => !excluded.has(id));
+}
+
+function hasBottomQuestions(slug: string): boolean {
+  const key = `${slug}#questions`;
+  for (const qkey of questionSlots.keys()) {
+    if ((qkey === key || qkey.startsWith(`${key}~`)) && questionIdsFor(qkey).length > 0) return true;
+  }
+  return false;
 }
 
 export function questionSlot(qkey: string): QuestionSlot | undefined {

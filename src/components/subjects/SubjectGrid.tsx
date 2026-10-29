@@ -108,7 +108,8 @@ export function SubjectGrid({
                   {card}
                   <Link
                     href={practiceHrefFor(s)}
-                    className={`absolute top-1/2 right-3 -translate-y-1/2 ${pillSubjectSoft}`}
+                    // pillBase 帶 relative(擴點擊範圍用)，這裡要蓋過成 absolute
+                    className={`${pillSubjectSoft} absolute! top-1/2 right-3 -translate-y-1/2`}
                   >
                     <ListChecks size={14} /> 練習
                   </Link>

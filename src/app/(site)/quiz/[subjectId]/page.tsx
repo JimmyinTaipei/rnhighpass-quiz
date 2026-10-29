@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { QuizScopeForm } from "@/components/quiz/QuizScopeForm";
 import {
   getChapters,
-  getExamYearRange,
+  getExamSittings,
   getQuestionCountsByChapter,
   getSubject,
 } from "@/lib/data";
@@ -19,9 +19,9 @@ export default async function QuizSubjectPage(props: PageProps<"/quiz/[subjectId
   if (!subject) notFound();
 
   const chapters = await getChapters(subjectId);
-  const [counts, yearRange] = await Promise.all([
+  const [counts, sittings] = await Promise.all([
     getQuestionCountsByChapter(chapters.map((c) => c.id)),
-    getExamYearRange(),
+    getExamSittings(),
   ]);
 
   return (
@@ -41,8 +41,7 @@ export default async function QuizSubjectPage(props: PageProps<"/quiz/[subjectId
         subjectId={params.subjectId}
         chapters={chapters}
         questionCounts={Object.fromEntries(counts)}
-        minYear={yearRange.minYear}
-        maxYear={yearRange.maxYear}
+        sittings={sittings}
       />
     </main>
   );

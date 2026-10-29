@@ -2,8 +2,8 @@ import { Fragment, jsx, jsxs } from "react/jsx-runtime";
 import Link from "next/link";
 import { toJsxRuntime, type Components } from "hast-util-to-jsx-runtime";
 import type { Root } from "hast";
+import { visit } from "unist-util-visit";
 import { AlertTriangle, BookMarked, Info, Lightbulb, ListChecks } from "lucide-react";
-import { QuestionCard } from "@/components/quiz/QuestionCard";
 import type { ChapterRef } from "@/lib/data";
 import { hrefFor, imageCredits, knowledgeIndex, previewFor } from "@/lib/knowledge";
 import type { FigureLabel, KnowledgeArticle, KnowledgeSection, KnowledgePreview } from "@/lib/knowledge/types";
@@ -14,6 +14,7 @@ import { BasicsBox } from "./BasicsBox";
 import { EmbedBadge } from "./EmbedBadge";
 import { KnowledgeLink } from "./KnowledgeLink";
 import { LabeledFigure } from "./LabeledFigure";
+import { QuestionList } from "./QuestionList";
 import { ScrollableTable } from "./ScrollableTable";
 import { ZoomableFigureImage } from "./ZoomableFigureImage";
 import { isMergedExamPoints } from "./toc";
@@ -30,6 +31,8 @@ export interface RenderContext {
   editSlug: string | null;
   /** 0 = 本文;>0 = 正在渲染嵌入內容 */
   embedDepth: number;
+  /** 段落內文裡的 ::questions 不就地顯示，改由 SectionView 收集到整個階層最後(見 SectionQuestions) */
+  hoistQuestions?: boolean;
 }
 
 // 巢狀嵌入超過這層就改成一般連結,避免內容無限展開
@@ -95,35 +98,72 @@ function Figure({ src, alt, labels }: { src: string; alt: string; labels?: strin
   );
 }
 
-function RelatedQuestions({ qkey, ctx }: { qkey: string; ctx: RenderContext }) {
+function questionKeysOf(root: Root): string[] {
+  const keys: string[] = [];
+  visit(root, "element", (n) => {
+    if (n.tagName === "k-questions") keys.push(String(n.properties.qkey));
+  });
+  return keys;
+}
+
+/** 一個段落(含合併進來的國考常考點)自己的考題，多個 ::questions 合併去重 */
+function sectionQuestions(section: KnowledgeSection, ctx: RenderContext): Question[] {
+  const roots = [section.content, ...section.children.filter((c) => isMergedExamPoints(section, c)).map((c) => c.content)];
+  const seen = new Set<string>();
+  return roots
+    .flatMap(questionKeysOf)
+    .flatMap((k) => ctx.questions.get(k) ?? [])
+    .filter((q) => !seen.has(q.id) && !!seen.add(q.id));
+}
+
+/** 段落考題區塊的錨點(標題旁的「N 題」跳到這裡) */
+export const questionsAnchor = (sectionId: string) => `${sectionId}--questions`;
+
+function QuestionBlock({
+  questions,
+  label,
+  anchor,
+  ctx,
+}: {
+  questions: Question[];
+  label: string;
+  anchor?: string;
+  ctx: RenderContext;
+}) {
   // 嵌入的內容不帶考題:考題屬於來源頁,放在嵌入處會讓疾病頁長到讀不完
-  if (ctx.embedDepth > 0) return null;
-  const questions = ctx.questions.get(qkey) ?? [];
-  if (questions.length === 0) return null;
+  if (ctx.embedDepth > 0 || questions.length === 0) return null;
+  const pick = <T,>(m: Map<string, T>) =>
+    Object.fromEntries(questions.flatMap((q) => (m.has(q.id) ? [[q.id, m.get(q.id) as T]] : [])));
   return (
-    <details className="kb-questions surface-white group my-4 rounded-card">
+    <details id={anchor} className="kb-questions surface-white group my-4 scroll-mt-4 rounded-card">
       <summary className="flex cursor-pointer list-none items-center gap-2 py-2.5 text-sm font-semibold text-deep md:px-4 select-none hover:bg-surface-hover [&::-webkit-details-marker]:hidden">
-        <ListChecks size={16} className="text-accent" />
-        相關考題 {questions.length} 題
-        <span className="ml-auto text-xs font-normal text-muted group-open:hidden">點開作答</span>
-        <span className="ml-auto hidden text-xs font-normal text-muted group-open:inline">收起</span>
+        <ListChecks size={16} className="shrink-0 text-accent" />
+        <span className="min-w-0">{label}</span>
+        <span className="ml-auto shrink-0 text-xs font-normal text-muted group-open:hidden">點開瀏覽</span>
+        <span className="ml-auto hidden shrink-0 text-xs font-normal text-muted group-open:inline">收起</span>
       </summary>
       <div className="border-t border-card-border pt-3 md:p-4">
-        {questions.map((q) => (
-          <QuestionCard
-            key={q.id}
-            question={q}
-            mode="learn"
-            isLoggedIn={ctx.isLoggedIn}
-            tables={ctx.tablesByQuestion.get(q.id)}
-            otherChapters={ctx.otherChaptersByQuestion.get(q.id)}
-            diseaseTags={ctx.diseaseTagsByQuestion.get(q.id)}
-            devMode={ctx.devMode}
-          />
-        ))}
+        <QuestionList
+          questions={questions}
+          isLoggedIn={ctx.isLoggedIn}
+          devMode={ctx.devMode}
+          // 比較表內容由 modal 按需載入，只傳 id 與標題給 client
+          tables={Object.fromEntries(
+            Object.entries(pick(ctx.tablesByQuestion)).map(([id, ts]) => [id, ts.map((t) => ({ id: t.id, title: t.title }))]),
+          )}
+          otherChapters={pick(ctx.otherChaptersByQuestion)}
+          diseaseTags={pick(ctx.diseaseTagsByQuestion)}
+        />
       </div>
     </details>
   );
+}
+
+/** 不在段落裡的 ::questions(開頭段、頁尾綜合考題)：就地顯示，只寫題數 */
+function RelatedQuestions({ qkey, ctx }: { qkey: string; ctx: RenderContext }) {
+  if (ctx.hoistQuestions) return null;
+  const questions = ctx.questions.get(qkey) ?? [];
+  return <QuestionBlock questions={questions} label={`${questions.length} 題`} ctx={ctx} />;
 }
 
 function EmbeddedBlock({ target, mode, ctx }: { target: string; mode?: string; ctx: RenderContext }) {
@@ -220,25 +260,38 @@ export function renderHast(root: Root, ctx: RenderContext) {
 
 export function SectionView({ section, ctx }: { section: KnowledgeSection; ctx: RenderContext }) {
   const slug = ctx.embedDepth === 0 ? ctx.editSlug : null;
+  // 頁尾綜合考題本身就是考題，維持就地顯示；其他段落的考題收到整個階層最後(讀完再測)，
+  // 標題旁顯示題數，點了跳到這裡
+  const hoist = ctx.embedDepth === 0 && section.id !== "questions";
+  const own = hoist ? sectionQuestions(section, ctx) : [];
+  const inner: RenderContext = hoist ? { ...ctx, hoistQuestions: true } : { ...ctx, hoistQuestions: false };
   return (
     <CollapsibleSection
       id={section.id}
       depth={section.depth}
       number={section.number}
       title={section.title}
+      questionCount={own.length}
+      questionsAnchor={questionsAnchor(section.id)}
       titleEditor={slug ? <SectionTitleEditor key={section.title} slug={slug} id={section.id} /> : undefined}    >
       {slug && <SectionBodyEditor slug={slug} id={section.id} />}
-      <div className="kb-prose">{renderHast(section.content, ctx)}</div>
+      <div className="kb-prose">{renderHast(section.content, inner)}</div>
       {section.children.map((c) =>
         isMergedExamPoints(section, c) ? (
           // 國考常考點也是重點:不顯示子標題,條列直接接在重點後面(錨點留著,舊連結還能跳到這裡)
           <div key={c.id} id={c.id} className="kb-prose kb-merged-points">
-            {renderHast(c.content, ctx)}
+            {renderHast(c.content, inner)}
           </div>
         ) : (
           <SectionView key={c.id} section={c} ctx={ctx} />
         ),
       )}
+      <QuestionBlock
+        questions={own}
+        label={`${section.number.trim()}${section.title}的考題 ${own.length} 題`}
+        anchor={questionsAnchor(section.id)}
+        ctx={ctx}
+      />
     </CollapsibleSection>
   );
 }

@@ -526,7 +526,7 @@ export function ChapterQuizRunner({
           ))}
         </select>
         <span>題，共 {questions.length} 題</span>
-        {recordedChoice(current) === null && <span className="text-incorrect">（未答）</span>}
+        {recordedChoice(current) === null && <span className="text-muted">（未答）</span>}
       </div>
       <p className="mt-2 hidden text-center text-xs text-muted md:block">
         快捷鍵：1–4 或 A–D 作答・← → 換題・Backspace 取消作答・Enter 下一題

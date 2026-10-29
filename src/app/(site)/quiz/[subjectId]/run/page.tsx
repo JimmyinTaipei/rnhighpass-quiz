@@ -13,6 +13,7 @@ import { getDevMode } from "@/lib/dev-mode";
 import { subjectGroup } from "@/lib/subject-groups";
 import { knowledgeForQuestions } from "@/lib/knowledge/exam";
 import { pillGray, pillSubject } from "@/lib/ui";
+import { parseSittingFilter } from "@/lib/sitting-filter";
 
 export default async function QuizRunPage(props: PageProps<"/quiz/[subjectId]/run">) {
   const [params, searchParams] = await Promise.all([props.params, props.searchParams]);
@@ -34,12 +35,16 @@ export default async function QuizRunPage(props: PageProps<"/quiz/[subjectId]/ru
 
   if (chapterIds.length === 0) notFound();
 
+  // 梯次區間 from=114-2&to=115-2(補考 106-2m)；舊連結的 from=110&to=115(只有年)照舊換成整年
   const fromYear = Number(str(searchParams.from));
   const toYear = Number(str(searchParams.to));
+  const sitting = parseSittingFilter(searchParams);
   const bounds =
-    Number.isFinite(fromYear) && Number.isFinite(toYear)
-      ? yearToSittingBounds(fromYear, toYear)
-      : {};
+    sitting.from || sitting.to
+      ? { sittingKeys: sitting }
+      : Number.isFinite(fromYear) && Number.isFinite(toYear)
+        ? yearToSittingBounds(fromYear, toYear)
+        : {};
   const count = Number(str(searchParams.count));
   const order = str(searchParams.order) === "original" ? "original" : "random";
   // 題目來源：all 全部 / new 沒做過 / wrong 曾答錯(任何一次答錯都算)

@@ -90,3 +90,30 @@ export function knowledgeForQuestions(ids: string[], exclude?: string): Record<s
   }
   return out;
 }
+
+export interface WeakArticle {
+  slug: string;
+  title: string;
+  /** 這篇的相關題裡，目前還在錯題本的題數 */
+  wrong: number;
+  /** 這篇的相關題數 */
+  total: number;
+}
+
+/**
+ * 錯題最多的知識頁(錯題本、統計頁的「先讀這幾篇」)。依錯題數排序，同數時錯題比例高的在前；
+ * 題數少於 2 的不列，避免一題錯就排上來。
+ */
+export function weakArticles(mistakeIds: string[], limit = 10): WeakArticle[] {
+  if (mistakeIds.length === 0) return [];
+  const wrongSet = new Set(mistakeIds);
+  const articles = (indexJson as unknown as { articles: Record<string, { title: string }> }).articles;
+  const out: WeakArticle[] = [];
+  for (const [slug, s] of Object.entries(stats)) {
+    const title = articles[slug]?.title;
+    if (!title) continue;
+    const wrong = s.ids.reduce((n, id) => n + (wrongSet.has(id) ? 1 : 0), 0);
+    if (wrong >= 2) out.push({ slug, title, wrong, total: s.total });
+  }
+  return out.sort((a, b) => b.wrong - a.wrong || b.wrong / b.total - a.wrong / a.total).slice(0, limit);
+}

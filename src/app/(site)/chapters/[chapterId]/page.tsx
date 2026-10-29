@@ -1,8 +1,7 @@
-import { Suspense } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BookOpen, ChevronRight, FileDown } from "lucide-react";
-import { KnowledgeSearchBox } from "@/components/learn/KnowledgeSearchBox";
+import { SearchBox } from "@/components/search/SearchBox";
 import { NoteCard } from "@/components/notes/NoteCard";
 import { ChapterMap } from "@/components/reading/ChapterMap";
 import { ReadingControls } from "@/components/reading/ReadingControls";
@@ -25,6 +24,8 @@ import { buildChapterContent, hasContent } from "@/lib/topic-tree";
 import { getDevMode } from "@/lib/dev-mode";
 import { subjectGroup } from "@/lib/subject-groups";
 import { parseViewMode } from "@/lib/view-mode";
+import { isFiltering, matchesSitting, parseSittingFilter, sittingsOf } from "@/lib/sitting-filter";
+import { SittingFilterBar } from "@/components/reading/SittingFilterBar";
 import { pillGray, pillSubject } from "@/lib/ui";
 import { chapterMapFor } from "@/lib/knowledge/chapter-map";
 import { knowledgeForQuestions } from "@/lib/knowledge/exam";
@@ -61,7 +62,11 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
   ]);
   const chapterTables = dedupeTables(tablesByQuestion);
   const knowledgeByQuestion = knowledgeForQuestions(questionIds);
-  const content = buildChapterContent(chapter, topics, questions, cards);
+  const sittingFilter = parseSittingFilter(searchParams);
+  const shownQuestions = isFiltering(sittingFilter)
+    ? questions.filter((q) => matchesSitting(q, sittingFilter))
+    : questions;
+  const content = buildChapterContent(chapter, topics, shownQuestions, cards);
   const visibleTopics = content.tree.filter(hasContent);
 
   const mapData = chapterMapFor(chapter.full_title);
@@ -75,9 +80,7 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
 
   return (
     <div data-group={group} className="min-w-0">
-      <Suspense fallback={<div className="mb-4 h-10 max-w-md" />}>
-        <KnowledgeSearchBox mode="submit" className="mb-4 max-w-md" />
-      </Suspense>
+      <SearchBox className="mb-4 max-w-md" />
       <p className="mb-1 text-sm text-muted">
         <Link href="/subjects" className="hover:text-subj-deep">
           科目
@@ -122,6 +125,10 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
           </Link>
         )}
       </div>
+
+      {view !== "map" && questions.length > 0 && (
+        <SittingFilterBar sittings={sittingsOf(questions)} shown={shownQuestions.length} total={questions.length} />
+      )}
 
       {view === "map" && mapData && (
         <ChapterMap chapterId={chapter.id} data={mapData} topics={topics} />

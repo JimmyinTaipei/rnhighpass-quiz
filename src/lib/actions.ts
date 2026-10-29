@@ -314,18 +314,47 @@ export async function setFavorite(
   return { ok: true };
 }
 
-/** 目前使用者收藏的題目 id(給 FavoritesProvider 在 client 掛載後抓一次) */
-export async function listFavoriteIds(): Promise<{ loggedIn: boolean; ids: string[] }> {
+/** 目前使用者收藏的題目 id 與知識頁(給 FavoritesProvider 在 client 掛載後抓一次) */
+export async function listFavoriteIds(): Promise<{ loggedIn: boolean; ids: string[]; knowledge: string[] }> {
   const supabase = await createClient();
   const { data: userData } = await supabase.auth.getUser();
-  if (!userData.user) return { loggedIn: false, ids: [] };
-  const { data, error } = await supabase
-    .from("user_favorites")
-    .select("question_id")
-    .eq("user_id", userData.user.id)
-    .limit(5000);
-  if (error) return { loggedIn: true, ids: [] };
-  return { loggedIn: true, ids: (data ?? []).map((r) => r.question_id) };
+  if (!userData.user) return { loggedIn: false, ids: [], knowledge: [] };
+  const [questions, knowledge] = await Promise.all([
+    supabase.from("user_favorites").select("question_id").eq("user_id", userData.user.id).limit(5000),
+    supabase.from("user_knowledge_favorites").select("target").eq("user_id", userData.user.id).limit(5000),
+  ]);
+  return {
+    loggedIn: true,
+    ids: questions.error ? [] : (questions.data ?? []).map((r) => r.question_id),
+    knowledge: knowledge.error ? [] : (knowledge.data ?? []).map((r) => r.target),
+  };
+}
+
+// ===== 知識頁收藏(migration 0014) =====
+
+/** "slug" 或 "slug#段落id" */
+const KNOWLEDGE_TARGET_RE = /^[a-z0-9-]{1,100}(#[\w~-]{1,90})?$/;
+
+/** 設定某知識頁或段落的收藏狀態(同 setFavorite，設成 on/off 而不是 toggle) */
+export async function setKnowledgeFavorite(
+  target: string,
+  on: boolean,
+): Promise<{ ok: boolean; reason?: string }> {
+  if (typeof target !== "string" || !KNOWLEDGE_TARGET_RE.test(target)) {
+    return { ok: false, reason: "格式錯誤" };
+  }
+  const supabase = await createClient();
+  const { data: userData } = await supabase.auth.getUser();
+  if (!userData.user) return { ok: false, reason: "not_logged_in" };
+  const userId = userData.user.id;
+
+  const { error } = on
+    ? await supabase
+        .from("user_knowledge_favorites")
+        .upsert({ user_id: userId, target }, { onConflict: "user_id,target", ignoreDuplicates: true })
+    : await supabase.from("user_knowledge_favorites").delete().eq("user_id", userId).eq("target", target);
+  if (error) return { ok: false, reason: error.message };
+  return { ok: true };
 }
 
 // ===== 錯誤回報(migration 0011) =====
@@ -419,11 +448,12 @@ export async function deleteMyData(confirmText: string): Promise<{ ok: boolean; 
   if (!userData.user) return { ok: false, reason: "not_logged_in" };
   const userId = userData.user.id;
 
-  const [answers, favorites] = await Promise.all([
+  const [answers, favorites, knowledge] = await Promise.all([
     supabase.from("user_answers").delete().eq("user_id", userId),
     supabase.from("user_favorites").delete().eq("user_id", userId),
+    supabase.from("user_knowledge_favorites").delete().eq("user_id", userId),
   ]);
-  const error = answers.error ?? favorites.error;
+  const error = answers.error ?? favorites.error ?? knowledge.error;
   if (error) return { ok: false, reason: error.message };
   refresh();
   return { ok: true };

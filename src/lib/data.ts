@@ -1,6 +1,8 @@
 import { buildTreeNodesFromRefs, type TreeNode } from "./reading-nav";
 import { createClient } from "./supabase-server";
 import type { ErrorReport, ReportStatus } from "./report-fields";
+import type { QuestionRef as QuestionNumberRef } from "./question-ref";
+import { matchesSitting, sittingsOf, type SittingFilter } from "./sitting-filter";
 import type {
   CardBullet,
   Chapter,
@@ -739,6 +741,27 @@ export async function searchContent(query: string): Promise<SearchResult> {
   };
 }
 
+/** 用題號查題(搜尋框輸入 ID 或 Source 時)。一整卷時依題號排序 */
+export async function searchQuestionsByRef(ref: QuestionNumberRef): Promise<QuestionHit[]> {
+  const supabase = await createClient();
+  const res =
+    ref.kind === "id"
+      ? await supabase.from("questions").select("*").eq("id", ref.id).limit(1)
+      : await supabase
+          .from("questions")
+          .select("*")
+          .like("source_text", `${ref.prefix}%`)
+          .order("question_no", { ascending: true })
+          .limit(100);
+  if (res.error) throw res.error;
+  const [chapters, subjects] = await Promise.all([getAllChapters(), getSubjects()]);
+  const chapterById = new Map(chapters.map((c) => [c.id, c]));
+  return (res.data ?? []).map((qq: Question) => {
+    const chapter = qq.primary_chapter_id != null ? (chapterById.get(qq.primary_chapter_id) ?? null) : null;
+    return { question: qq, chapter, subjectName: subjects.find((x) => x.id === chapter?.subject_id)?.name ?? "" };
+  });
+}
+
 // ===== 測驗出題範圍 =====
 
 export interface QuizScope {
@@ -746,6 +769,8 @@ export interface QuizScope {
   /** exam_sitting 下界，如 '105-1'；未指定則不限 */
   sittingFrom?: string;
   sittingTo?: string;
+  /** 梯次鍵區間(含頭尾，補考是 106-2m，見 sitting-filter.ts)；和 sittingFrom/To 同時給時兩者都要符合 */
+  sittingKeys?: SittingFilter;
   /** 題數上限；未指定或 0 代表全部 */
   limit?: number;
   order: "random" | "original";
@@ -778,6 +803,7 @@ export async function getQuestionsForScope(scope: QuizScope): Promise<Question[]
   if (error) throw error;
 
   let questions = (data ?? []) as Question[];
+  if (scope.sittingKeys) questions = questions.filter((q) => matchesSitting(q, scope.sittingKeys!));
   if (scope.include) questions = questions.filter((q) => scope.include!(q.id));
 
   if (scope.order === "random") {
@@ -794,34 +820,12 @@ export async function getQuestionsForScope(scope: QuizScope): Promise<Question[]
   return questions;
 }
 
-/**
- * 題庫涵蓋的民國年範圍，給年份區間選單用。
- *
- * 刻意只取 min/max 兩列，而不是撈全部 exam_sitting 再去重：
- * PostgREST 預設一次最多回 1000 列，配上 .order('exam_sitting') 會只拿到最早的
- * 1000 題，去重後的清單會缺掉後面的年份(本專案有 8960 題)。
- */
-export async function getExamYearRange(): Promise<{ minYear: number; maxYear: number }> {
+/** 題庫裡所有梯次鍵(舊到新，補考是 106-2m)，給測驗設定的區間選單。exam_papers view 一份考卷一列(migration 0007) */
+export async function getExamSittings(): Promise<string[]> {
   const supabase = await createClient();
-  const [minRes, maxRes] = await Promise.all([
-    supabase.from("questions").select("exam_sitting").order("exam_sitting").limit(1),
-    supabase
-      .from("questions")
-      .select("exam_sitting")
-      .order("exam_sitting", { ascending: false })
-      .limit(1),
-  ]);
-  if (minRes.error) throw minRes.error;
-  if (maxRes.error) throw maxRes.error;
-
-  const yearOf = (sitting: string | undefined, fallback: number) => {
-    const n = Number(sitting?.split("-")[0]);
-    return Number.isFinite(n) ? n : fallback;
-  };
-  return {
-    minYear: yearOf(minRes.data?.[0]?.exam_sitting, 105),
-    maxYear: yearOf(maxRes.data?.[0]?.exam_sitting, 115),
-  };
+  const { data, error } = await supabase.from("exam_papers").select("exam_sitting, is_makeup");
+  if (error) throw error;
+  return sittingsOf((data ?? []) as { exam_sitting: string; is_makeup: boolean }[]);
 }
 
 /**
@@ -904,6 +908,23 @@ export async function getFavorites(): Promise<FavoriteRow[]> {
   const { data, error } = await supabase
     .from("user_favorites")
     .select("question_id, created_at")
+    .eq("user_id", userData.user.id)
+    .order("created_at", { ascending: false })
+    .limit(5000);
+  if (error) return [];
+  return data ?? [];
+}
+
+// ===== 知識頁收藏(migration 0014) =====
+
+/** 目前使用者收藏的知識頁與段落(新到舊)。target = "slug" 或 "slug#段落id" */
+export async function getKnowledgeFavorites(): Promise<{ target: string; created_at: string }[]> {
+  const supabase = await createClient();
+  const { data: userData } = await supabase.auth.getUser();
+  if (!userData.user) return [];
+  const { data, error } = await supabase
+    .from("user_knowledge_favorites")
+    .select("target, created_at")
     .eq("user_id", userData.user.id)
     .order("created_at", { ascending: false })
     .limit(5000);

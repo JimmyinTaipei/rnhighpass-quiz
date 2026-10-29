@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Play } from "lucide-react";
 import type { Chapter } from "@/lib/types";
 import { setPreference, usePreferences } from "@/lib/preferences";
+import { SittingRangeSelect } from "@/components/reading/SittingControls";
 
 const POOL_OPTIONS = [
   { value: "all", label: "全部" },
@@ -17,8 +18,8 @@ interface QuizScopeFormProps {
   subjectId: string;
   chapters: Chapter[];
   questionCounts: Record<number, number>;
-  minYear: number;
-  maxYear: number;
+  /** 題庫所有梯次鍵(舊到新)，如 105-1 … 106-2m(補考) … 115-2 */
+  sittings: string[];
 }
 
 const COUNT_OPTIONS = [20, 50, 100, 0] as const; // 0 = 全部
@@ -27,19 +28,17 @@ export function QuizScopeForm({
   subjectId,
   chapters,
   questionCounts,
-  minYear,
-  maxYear,
+  sittings,
 }: QuizScopeFormProps) {
   const router = useRouter();
   const [selected, setSelected] = useState<Set<number>>(new Set());
-  const [fromYear, setFromYear] = useState(minYear);
-  const [toYear, setToYear] = useState(maxYear);
+  const [from, setFrom] = useState(sittings[0] ?? "");
+  const [to, setTo] = useState(sittings[sittings.length - 1] ?? "");
   const [count, setCount] = useState<number>(50);
   const [order, setOrder] = useState<"random" | "original">("random");
   const [pool, setPool] = useState<Pool>("all");
   const prefs = usePreferences();
 
-  const years = Array.from({ length: maxYear - minYear + 1 }, (_, i) => minYear + i);
   const toggle = (id: number) => {
     setSelected((prev) => {
       const next = new Set(prev);
@@ -53,8 +52,8 @@ export function QuizScopeForm({
   const submit = () => {
     const params = new URLSearchParams();
     params.set("chapters", [...selected].join(","));
-    params.set("from", String(fromYear));
-    params.set("to", String(toYear));
+    params.set("from", from);
+    params.set("to", to);
     if (count > 0) params.set("count", String(count));
     params.set("order", order);
     if (pool !== "all") params.set("pool", pool);
@@ -119,44 +118,20 @@ export function QuizScopeForm({
         </div>
       </section>
 
-      <section className="grid gap-4 md:grid-cols-3">
-        <div>
-          <h3 className="mb-2 text-sm font-bold text-subj-deep">年份區間（民國）</h3>
-          <div className="flex items-center gap-2">
-            <select
-              value={fromYear}
-              onChange={(e) => {
-                const v = Number(e.target.value);
-                setFromYear(v);
-                if (v > toYear) setToYear(v);
-              }}
-              className="rounded-btn bg-fill px-2 py-1.5 text-sm text-strong"
-            >
-              {years.map((y) => (
-                <option key={y} value={y}>
-                  {y}
-                </option>
-              ))}
-            </select>
-            <span className="text-muted">—</span>
-            <select
-              value={toYear}
-              onChange={(e) => {
-                const v = Number(e.target.value);
-                setToYear(v);
-                if (v < fromYear) setFromYear(v);
-              }}
-              className="rounded-btn bg-fill px-2 py-1.5 text-sm text-strong"
-            >
-              {years.map((y) => (
-                <option key={y} value={y}>
-                  {y}
-                </option>
-              ))}
-            </select>
-          </div>
-        </div>
+      <section>
+        <h3 className="mb-2 text-sm font-bold text-subj-deep">考試範圍</h3>
+        <SittingRangeSelect
+          sittings={sittings}
+          from={from}
+          to={to}
+          onChange={(f, t) => {
+            setFrom(f);
+            setTo(t);
+          }}
+        />
+      </section>
 
+      <section className="grid gap-4 md:grid-cols-3">
         <div>
           <h3 className="mb-2 text-sm font-bold text-subj-deep">題目數量</h3>
           <div className="segmented">

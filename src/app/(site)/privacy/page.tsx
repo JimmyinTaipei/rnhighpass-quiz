@@ -18,7 +18,7 @@ export default async function PrivacyPage() {
           <ul className="list-disc space-y-1 pl-5">
             <li>Google 帳號的名稱與 email：用來登入與辨識你的帳號。</li>
             <li>作答紀錄：用來產生錯題本、正確率與學習統計。</li>
-            <li>收藏的題目。</li>
+            <li>收藏的題目與知識頁。</li>
             <li>你送出的錯誤回報內容。</li>
           </ul>
 

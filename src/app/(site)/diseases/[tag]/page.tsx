@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { Library, Stethoscope } from "lucide-react";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import { ViewControls } from "@/components/reading/ViewControls";
+import { SittingFilterBar } from "@/components/reading/SittingFilterBar";
+import { isFiltering, matchesSitting, parseSittingFilter, sittingsOf } from "@/lib/sitting-filter";
 import {
   getCurrentUser,
   getDiseaseTagsForQuestions,
@@ -49,6 +51,10 @@ export default async function DiseaseTagPage(props: PageProps<"/diseases/[tag]">
   const kbOther = kbArticles.filter((a) => a.category !== "disease");
 
   const reveal = searchParams.reveal === "1";
+  const sittingFilter = parseSittingFilter(searchParams);
+  const shown = isFiltering(sittingFilter)
+    ? questions.filter((q) => matchesSitting(q, sittingFilter))
+    : questions;
 
   return (
     <div className="min-w-0">
@@ -85,10 +91,10 @@ export default async function DiseaseTagPage(props: PageProps<"/diseases/[tag]">
       <div className="mb-6 flex flex-wrap items-center gap-3">
         {/* 疾病頁只有題目瀏覽：只剩「直接顯示答案」開關 */}
         <ViewControls view="quiz" reveal={reveal} modes={["quiz"]} />
-        <span className="text-sm text-muted">{questions.length} 題</span>
       </div>
+      <SittingFilterBar sittings={sittingsOf(questions)} shown={shown.length} total={questions.length} />
 
-      {questions.map((q) => (
+      {shown.map((q) => (
         <QuestionCard
           key={q.id}
           question={q}

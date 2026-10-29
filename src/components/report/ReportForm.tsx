@@ -17,6 +17,10 @@ interface ReportFormProps {
   /** 題目/比較表的顯示名稱，只用來讓使用者確認自己在回報哪一個 */
   targetLabel?: string;
   defaultCategory?: ReportCategory;
+  /** 只顯示這些類型(知識頁不需要「答案有爭議」等題目專用類型) */
+  categories?: ReportCategory[];
+  /** 記錄的位置(預設目前網址)。知識頁段落傳 "/learn/slug#段落"，站長才知道是哪一段 */
+  pagePath?: string;
   /** null = 還不知道(載入中) */
   loggedIn: boolean | null;
   onDone?: () => void;
@@ -28,6 +32,8 @@ export function ReportForm({
   tableId,
   targetLabel,
   defaultCategory,
+  categories,
+  pagePath,
   loggedIn,
   onDone,
 }: ReportFormProps) {
@@ -79,7 +85,7 @@ export function ReportForm({
         message,
         questionId: questionId ?? null,
         tableId: tableId ?? null,
-        pagePath: window.location.pathname + window.location.search,
+        pagePath: pagePath ?? window.location.pathname + window.location.search,
       });
       setResult(
         res.ok
@@ -103,7 +109,7 @@ export function ReportForm({
       <fieldset className="mb-3">
         <legend className="mb-1.5 text-xs font-medium text-body">類型</legend>
         <div className="flex flex-wrap gap-1.5">
-          {(Object.keys(REPORT_CATEGORIES) as ReportCategory[]).map((key) => (
+          {(categories ?? (Object.keys(REPORT_CATEGORIES) as ReportCategory[])).map((key) => (
             <button
               key={key}
               type="button"
@@ -129,7 +135,7 @@ export function ReportForm({
         onChange={(e) => setMessage(e.target.value)}
         maxLength={REPORT_MESSAGE_MAX}
         rows={4}
-        placeholder="例如：答案應該是 C，依據是…"
+        placeholder={questionId ? "例如：答案應該是 C，依據是…" : "例如：這段的劑量和最新指引不同，依據是…"}
         className="w-full rounded-btn bg-fill px-3 py-2 leading-relaxed text-strong focus:outline-none focus:ring-2 focus:ring-subj-accent/40"
       />
       <div className="mt-1 mb-3 text-right text-xs text-muted">

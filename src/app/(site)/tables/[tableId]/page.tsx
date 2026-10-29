@@ -48,7 +48,7 @@ export default async function TablePage(props: PageProps<"/tables/[tableId]">) {
       </p>
       <div className="mb-6 flex flex-wrap items-start justify-between gap-3">
         <h1 className="text-3xl font-bold text-subj-deep">{table.title}</h1>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-5">
           <Link
             href={`/print/tables/${encodeURIComponent(table.id)}`}
             target="_blank"
@@ -57,7 +57,8 @@ export default async function TablePage(props: PageProps<"/tables/[tableId]">) {
             <FileDown size={12} />
             匯出 PDF
           </Link>
-          <ReportButton tableId={table.id} targetLabel={`比較表：${table.title}`} variant="text" />
+          {/* 全站同一規則：回報用旗子圖示，放在標題右邊 */}
+          <ReportButton tableId={table.id} targetLabel={`比較表：${table.title}`} />
         </div>
       </div>
 

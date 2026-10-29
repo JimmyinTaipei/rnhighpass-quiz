@@ -2,8 +2,9 @@
 // 寫成字串常數而不是元件：呼叫端可能是 <Link>、<button> 或 <a>，直接接 className 最簡單。
 
 // 字重不放在 pillBase：同一個元素上 font-medium 和 font-semibold 誰贏取決於 CSS 產生順序，不可靠。
+// 外觀高約 30px；::after 上下各擴 7px，可點範圍到 44px(HIG)，外觀不變
 const pillBase =
-  "inline-flex items-center justify-center gap-1.5 rounded-full px-3.5 py-1.5 text-[0.8125rem] whitespace-nowrap transition-colors";
+  "relative inline-flex items-center justify-center gap-1.5 rounded-full px-3.5 py-1.5 text-[0.8125rem] whitespace-nowrap transition-colors after:absolute after:inset-x-0 after:-inset-y-[7px] after:content-['']";
 
 /** 次要動作：灰底 */
 export const pillGray = `${pillBase} bg-fill font-medium text-body hover:bg-fill-strong`;
