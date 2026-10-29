@@ -29,22 +29,25 @@ export function ArticleRow({ article, typeLabel, note, related, showDraft = fals
         className="flex items-start gap-3 px-4 py-2.5 transition-colors duration-150 hover:bg-surface-hover motion-reduce:transition-none"
       >
         <span className="min-w-0 flex-1">
-          <span className="flex flex-wrap items-baseline gap-x-2 md:flex-nowrap">
-            <span className="font-semibold text-strong">{article.title}</span>
-            {/* 電腦版英文接在中文右側;手機在下一行 */}
-            {article.subtitle && (
-              <span className="hidden min-w-0 truncate text-sm text-body md:inline">{article.subtitle}</span>
-            )}
-            {peds && (
-              <span className="shrink-0 rounded-full bg-light px-1.5 text-xs font-medium text-deep" title="小兒專屬或含小兒段落">
-                小兒
-              </span>
-            )}
-            {tags.map((t) => (
-              <span key={t} className="shrink-0 rounded bg-sidebar px-1.5 text-xs text-muted">
-                {t}
-              </span>
-            ))}
+          {/* 電腦版：中文標題不換行;英文放得下就接在右側，放不下自動掉到第二行(手機一律在第二行) */}
+          <span className="flex flex-wrap items-baseline gap-x-2">
+            <span className="font-semibold text-strong md:min-w-0 md:max-w-full md:truncate">{article.title}</span>
+            {/* 小標籤跟英文綁在一起：放不下時一起掉到第二行，標籤不會自己佔一行 */}
+            <span className="flex min-w-0 max-w-full items-baseline gap-x-2">
+              {peds && (
+                <span className="shrink-0 rounded-full bg-light px-1.5 text-xs font-medium text-deep" title="小兒專屬或含小兒段落">
+                  小兒
+                </span>
+              )}
+              {tags.map((t) => (
+                <span key={t} className="shrink-0 rounded bg-sidebar px-1.5 text-xs text-muted">
+                  {t}
+                </span>
+              ))}
+              {article.subtitle && (
+                <span className="hidden min-w-0 truncate text-sm text-body md:block">{article.subtitle}</span>
+              )}
+            </span>
           </span>
           {article.subtitle && <span className="block truncate text-sm text-body md:hidden">{article.subtitle}</span>}
           {meta.length > 0 && <span className="block text-xs text-muted">{meta.join("・")}</span>}

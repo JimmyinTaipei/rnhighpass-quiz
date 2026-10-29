@@ -24,12 +24,12 @@ export function ArticleCard({
     <div className="rounded-card bg-card p-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)]">
       <div className="flex items-start gap-2">
         <Link href={`/learn/${article.slug}`} className="group min-w-0 flex-1">
-          <span className="block md:flex md:items-baseline md:gap-2">
-            <span className="block text-[1.0625rem] font-semibold text-strong group-hover:text-deep group-hover:underline">
+          {/* 電腦版：中文標題不換行;英文放得下就接在右側，放不下自動掉到第二行(手機一律在第二行) */}
+          <span className="block md:flex md:flex-wrap md:items-baseline md:gap-x-2">
+            <span className="block text-[1.0625rem] font-semibold text-strong group-hover:text-deep group-hover:underline md:min-w-0 md:max-w-full md:truncate">
               {article.title}
             </span>
-            {/* 電腦版英文接在中文右側;手機在下一行 */}
-            {article.subtitle && <span className="block min-w-0 text-sm text-body md:truncate">{article.subtitle}</span>}
+            {article.subtitle && <span className="block min-w-0 text-sm text-body md:max-w-full md:truncate">{article.subtitle}</span>}
           </span>
         </Link>
         <ExamPill count={article.examCount} />
