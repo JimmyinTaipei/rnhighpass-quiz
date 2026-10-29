@@ -7,7 +7,7 @@
 
 - **知識庫建完**：404 篇、題目涵蓋 8960/8960(11 科 100%)、chapters 對照涵蓋 660/660 個有題目的 H2
 - **收尾**：A 標點、B 補連結、C chapters 抽查、D 需確認總表、E 寫回 Supabase 與部署、F 合併 main 都完成，見 [wrap-up-plan.md](wrap-up-plan.md)
-- **線上版本**：workers.dev **132f64cf**(2026-10-28，含 Batch 審稿修正 262 條＋介面小修)。免費方案的 10 ms CPU 上限造成之前兩次 1102，**使用者 2026-10-28 改訂 Workers Paid(US$5/月)**；部署後 414 篇知識頁全部 200、前 8 分鐘 480 個請求 0 錯誤(CPU p50 14–26 ms)。可以之後降回免費，降之前要先把各頁 CPU 壓到 10 ms 以下(模擬考站 p90 約 230–420 ms 也要處理)
+- **線上版本**：workers.dev **e6cbcd11**(2026-10-29，段落考題分配、知識頁收藏、搜尋合併、梯次區間等，部署後 404 篇知識頁全部 200)；前一版 132f64cf(2026-10-28，含 Batch 審稿修正 262 條＋介面小修)。免費方案的 10 ms CPU 上限造成之前兩次 1102，**使用者 2026-10-28 改訂 Workers Paid(US$5/月)**；部署後 414 篇知識頁全部 200、前 8 分鐘 480 個請求 0 錯誤(CPU p50 14–26 ms)。可以之後降回免費，降之前要先把各頁 CPU 壓到 10 ms 以下(模擬考站 p90 約 230–420 ms 也要處理)
 - **Supabase**：questions 8960、question_tags 16674，與來源一致
 - **Batch 知識頁審稿完成**(2026-10-28)：549 個候選問題，改 262(162 頁)、誤報 282、待確認 5(4 項，已列入 review-checklist)；紀錄見 [archive/reviews/batch-knowledge-review-2026-10-28.md](archive/reviews/batch-knowledge-review-2026-10-28.md)，已上線(132f64cf)
 
@@ -15,7 +15,7 @@
 
 1. **收尾 A2**：題目 AI 詳解套用標點規則(使用者已同意)；詳解錯誤更正要**先給使用者看做法**
 2. **Batch 全面檢查**：2026-10-29 後醫物理用掉約 NT$1300，剩 **NT$437**(額度 2026-11-10 到期)。AI 詳解全量估 NT$380–560、不夠，**不做**；圖片 156 張估 NT$20 以內，使用者要做再做。用量見 [batch-usage-log.md](batch-usage-log.md)
-3. **功能**：見 [feature-backlog.md](feature-backlog.md)；「功能備忘錄」的項目要先跟使用者討論。2026-10-29 完成並 commit(未部署)：段落考題重新分配＋綜合考題(K7)、知識頁收藏(K1)與建議改進(K8)、搜尋合併(P5)、年度次別篩選(L7)、錯題連到知識頁(L1)、UI 小修(P6)。`database/migrations/0014_knowledge_favorites.sql` 已套用到 Supabase(新表 user_knowledge_favorites、回報類型加 content)
+3. **功能**：見 [feature-backlog.md](feature-backlog.md)；「功能備忘錄」的項目要先跟使用者討論。2026-10-29 完成、commit 並部署(e6cbcd11)：段落考題重新分配＋綜合考題(K7)、知識頁收藏(K1)與建議改進(K8)、搜尋合併(P5)、年度次別篩選(L7)、錯題連到知識頁(L1)、UI 小修(P6)。`database/migrations/0014_knowledge_favorites.sql` 已套用到 Supabase(新表 user_knowledge_favorites、回報類型加 content)
 4. **指引追蹤**：見 [guideline-watchlist.md](guideline-watchlist.md)，先查「優先」6 項有沒有新版，結果列給使用者決定
 5. **需確認項目**：見 [review-checklist.md](review-checklist.md)，「待核對」使用者之後再看
 
