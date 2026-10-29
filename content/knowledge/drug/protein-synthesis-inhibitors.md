@@ -58,7 +58,11 @@ references:
 
 巨環類與 clindamycin 的結合位置相近，細菌的 *erm* 基因甲基化核糖體後，**兩者會同時抗藥**
 
+::questions{ids="108-1_BM_052"}
+
 ## 四環黴素類 {#tetracyclines}
+
+::questions{ids="112-2_FA_018,108-2_MS_079"}
 
 ### 代表藥與用途 {#tetracycline-uses}
 
@@ -77,6 +81,8 @@ references:
 - tetracycline 最好空腹服用；doxycycline 可與食物一起服用以減少腸胃不適（但仍避開牛奶與制酸劑）
 - **過期**的 tetracycline 會分解成對腎臟有毒的物質（范可尼氏症候群），不可服用
 
+::questions{ids="109-2_BM_064"}
+
 ### 副作用與禁忌 {#tetracycline-adverse}
 
 | 副作用 | 說明 |
@@ -90,6 +96,8 @@ references:
 | 其他 | 顱內壓升高（假性腦瘤）；minocycline 眩暈 |
 
 ## 巨環類 {#macrolides}
+
+::questions{ids="114-2_BM_031"}
 
 ### 代表藥與用途 {#macrolide-uses}
 
@@ -135,6 +143,8 @@ references:
 - **灰嬰症候群**：新生兒（尤其早產兒）肝臟的葡萄糖醛酸轉移酶不足、腎排除差，藥物蓄積 → 腹脹、嘔吐、**皮膚灰白發紺**、低體溫、循環衰竭。所以**新生兒感染不選 chloramphenicol**，較安全的是 **penicillin G**（[[beta-lactams#indications]]）
 - 會抑制肝臟酵素（升高 phenytoin、warfarin 濃度）
 
+::questions{ids="113-1_BM_040"}
+
 ## Clindamycin {#clindamycin}
 
 - 用途
@@ -158,6 +168,8 @@ references:
 5. 服用四環黴素或巨環類期間出現口腔白斑、陰道分泌物增加（念珠菌）要回報
 6. **眼藥膏**（如 tetracycline oint.）：先點眼藥水，**間隔約 5 分鐘**再擦藥膏；藥膏由**內眥往外眥**塗在**下眼瞼結膜囊**，不直接擦在角膜上；O.D. 是右眼、O.S. 左眼、O.U. 雙眼
 
-## 相關考題 {#questions}
+::questions{ids="107-2_FA_016,106-2_makeup_OP_038,110-1_FA_019"}
 
-::questions{ids="112-1_BM_033,114-2_BM_031,105-2_BM_064,109-2_PC_011,107-1_BM_049,106-2_BM_062,108-1_BM_052,109-2_BM_064,112-2_FA_018,107-2_FA_016,106-2_makeup_OP_038,111-2_MS_070,108-2_MS_079,114-3_OP_038,114-1_OP_039,111-2_OP_063,108-2_OP_070,113-1_BM_040,111-2_OP_069,106-1_BM_071,115-2_FA_010,110-1_FA_019,110-2_FA_020"}
+## 綜合考題 {#questions}
+
+::questions{ids="112-1_BM_033,105-2_BM_064,109-2_PC_011,107-1_BM_049,106-2_BM_062,111-2_MS_070,114-3_OP_038,114-1_OP_039,111-2_OP_063,108-2_OP_070,111-2_OP_069,106-1_BM_071,115-2_FA_010,110-2_FA_020"}

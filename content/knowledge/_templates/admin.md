@@ -50,6 +50,6 @@ references:
 | 錯誤說法 | 正確說法 | 為什麼 |
 |---|---|---|
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{adm="標籤名稱" limit="10"}

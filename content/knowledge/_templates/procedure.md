@@ -73,6 +73,6 @@ references:
 | 錯誤說法 | 正確做法 | 為什麼 |
 |---|---|---|
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="dz 標籤" limit="10"}

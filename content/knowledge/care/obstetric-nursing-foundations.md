@@ -95,6 +95,8 @@ references:
 
 ::questions{ids="113-2_OP_001,111-1_OP_001,110-1_OP_001,109-2_OP_002,106-2_OP_001,106-2_makeup_OP_009"}
 
+::questions{ids="115-2_OP_035,115-1_OP_035,114-2_OP_013,114-1_OP_033,111-1_OP_045"}
+
 ## 溫柔生產與拉梅茲措施 {#gentle-birth}
 
 - **溫柔（友善、人性化）生產**的做法
@@ -116,6 +118,8 @@ references:
 - 拉梅茲呼吸法等減痛技巧見 [[pain-management]]
 
 ::questions{ids="112-3_OP_002,110-2_OP_001,108-1_OP_001,105-2_OP_011"}
+
+::questions{ids="115-1_OP_004"}
 
 ## 生產教育 {#childbirth-education}
 
@@ -170,6 +174,6 @@ references:
 
 ::questions{ids="113-3_OP_001"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="以家庭為中心|溫柔生產|友善生產|拉梅茲|產科護理" limit="10"}

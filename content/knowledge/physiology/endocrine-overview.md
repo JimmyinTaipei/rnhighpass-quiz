@@ -75,6 +75,8 @@ references:
 
 ::questions{ids="113-2_BM_015,112-3_BM_012,105-1_BM_022,105-1_BM_049"}
 
+::questions{ids="115-2_BM_001"}
+
 ## 主要內分泌腺與激素 {#glands}
 
 | 腺體 | 激素 | 主要作用 |
@@ -141,6 +143,8 @@ references:
 
 性激素藥物（避孕藥、荷爾蒙療法、抗雄性素）見 [[sex-hormones]]；生殖器官構造、配子生成與月經週期見 [[female-reproductive-system]]、[[male-reproductive-system]]
 
+::questions{ids="115-2_OP_017,115-1_OP_003"}
+
 ### 睪丸 {#testis}
 
 | 細胞 | 受哪個激素刺激 | 分泌或功能 |
@@ -191,6 +195,6 @@ references:
 
 ::questions{ids="111-2_OP_036,108-2_OP_040"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(激素|荷爾蒙|內分泌腺|類固醇激素|負回饋|正回饋|松果|褪黑|胎盤泌乳素|hPL|hCG|萊氏|塞氏|賽氏|芳香)" limit="8"}

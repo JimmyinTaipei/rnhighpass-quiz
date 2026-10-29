@@ -61,6 +61,6 @@ references:
 
 ## 易混淆比較 {#comparison}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{ids=""}

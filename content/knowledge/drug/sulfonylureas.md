@@ -39,6 +39,8 @@ references:
 
 因為作用點在 β 細胞，**第一型糖尿病或 β 細胞已衰竭者無效**
 
+::questions{ids="110-2_BM_051,109-1_MS_067,106-2_makeup_MS_068"}
+
 ## 代表藥物 {#agents}
 
 | 世代 | 藥物 | 特色 |
@@ -78,6 +80,6 @@ references:
 - 避免飲酒
 - 監測體重、血糖、腎功能
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(glyburide|glibenclamide|glipizide|glimepiride|gliclazide|sulfonylurea|sulphonylurea|磺醯脲|磺胺尿素)" limit="10"}

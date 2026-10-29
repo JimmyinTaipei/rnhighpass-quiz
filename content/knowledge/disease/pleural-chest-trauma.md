@@ -173,6 +173,8 @@ references:
 
 ::questions{ids="109-2_MS_053,110-1_MS_052,113-2_MS_048"}
 
+::questions{ids="115-2_MS_034,115-1_MS_033"}
+
 ## 血胸 {#hemothorax}
 
 1. 原因：**胸部外傷**（肋骨骨折、穿刺傷）最常見；胸腔手術後、抗凝血劑、腫瘤
@@ -225,6 +227,6 @@ references:
 
 ::questions{ids="112-2_MS_053"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="肋膜積水|膿胸|氣胸|張力性氣胸|氣血胸|肋骨骨折|連枷胸|肺挫傷" limit="8"}

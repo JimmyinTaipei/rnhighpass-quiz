@@ -73,6 +73,8 @@ references:
 - **≥ 200 mg/dL + 典型症狀（多渴、多尿、多食、體重減輕）或高血糖危象**即可診斷（來源：[ADA Standards of Care 2026 第 2 章](https://doi.org/10.2337/dc26-S002)）
 - 沒有症狀時，隨機 200 mg/dL 以上需再以空腹血糖、OGTT 或 [[hba1c]] 確認
 
+::questions{ids="113-3_MS_015"}
+
 ### 飯後血糖 {#postprandial}
 
 - 從**第一口**開始計時，1–2 小時後測量（糖尿病人餐後高峰多在此時，來源：[ADA Standards of Care 2026 第 6 章](https://doi.org/10.2337/dc26-S006) Table 6.3 註）
@@ -89,6 +91,8 @@ references:
 | 胰臟疾病 | 急慢性胰臟炎、胰臟癌、胰臟切除 |
 | 藥物 | **類固醇**、thiazide、第二代抗精神病藥、β 促效劑、tacrolimus、腎上腺素 |
 | 醫療處置 | **全靜脈營養(TPN)**、含葡萄糖點滴 |
+
+::questions{ids="113-1_MS_045"}
 
 ## 臨床意義：降低 {#decreased}
 
@@ -131,6 +135,6 @@ references:
 - [[ketones]]：血糖偏高且有不適症狀時（DAROC：第 1 型血糖 > 200 mg/dL 合併不適，來源：[2026 DAROC 第 1 型糖尿病照護指引](https://www.endo-dm.org.tw/) PDF 第 45 頁；教科書常寫 > 250）
 - 血漿滲透壓：懷疑 [[diabetes#hhs|HHS]] 時（公式見 [[abg#osmolality]]）
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(空腹血糖|飯前血糖|血糖值|血糖為|血糖檢查|飯後兩小時血糖|隨意抽血|血漿葡萄糖)" limit="10"}

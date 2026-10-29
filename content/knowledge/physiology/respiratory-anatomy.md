@@ -126,6 +126,8 @@ references:
 
 ::questions{ids="105-1_BM_011,106-1_BM_010,106-2_makeup_BM_011,107-2_BM_010,108-1_BM_001,110-1_BM_012,111-1_BM_006,111-1_MS_054"}
 
+::questions{ids="115-1_OP_034"}
+
 ## 肺 {#lungs}
 
 ::figure{src="/knowledge-images/servier-lung-lobes.svg" labels="lung-lobes" alt="肺葉拆開圖：右肺上、中、下三葉，左肺上、下兩葉(看圖者左邊是右肺)"}
@@ -169,6 +171,8 @@ references:
    1. 第二型肺泡細胞受損（例如 ARDS） → 表面張力素減少 → **肺擴張不全**
 
 ::questions{ids="108-1_BM_013,108-1_BM_022,108-2_BM_029,111-1_BM_004,114-2_MS_034"}
+
+::questions{ids="115-1_MS_036"}
 
 ## 胸膜 {#pleura}
 
@@ -214,6 +218,6 @@ references:
 
 ::questions{ids="106-2_OP_028,107-1_BM_030,111-1_BM_045"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(肺泡|支氣管|氣管|喉|會厭|胸膜|肺門|表面張力|肺葉)" limit="8"}

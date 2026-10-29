@@ -63,6 +63,8 @@ references:
 - 產後大量出血時先**按摩子宮底**、排空膀胱，再依醫囑給子宮收縮劑；出血時**不可暫停按摩**（見 [[postpartum-complications#uterine-atony]]）
 - 引產的評估與方法見 [[labor-complications#induction]]
 
+::questions{ids="114-3_OP_018,114-2_OP_023,114-1_OP_020,113-1_OP_009,110-2_OP_032,110-1_OP_033"}
+
 ## 安胎藥 {#tocolytics}
 
 - 目標是安胎約 **48 小時**，爭取時間給**產前類固醇**與轉送到有新生兒加護病房的醫院(ACOG PB 171)
@@ -77,6 +79,8 @@ references:
 
 - 安胎期間**不可灌腸**（刺激宮縮）；穩定返家後**不需絕對臥床**
 - 完整的早產照護見 [[labor-complications#preterm-labor]]，β2 致效劑藥理見 [[adrenergic-agonists#beta2-agonists]]
+
+::questions{ids="112-2_OP_032,112-1_OP_035,110-1_OP_032"}
 
 ## 產前類固醇 {#antenatal-corticosteroids}
 
@@ -111,6 +115,6 @@ references:
 - 「硫酸鎂中毒給 naloxone」錯：解毒劑是**葡萄糖酸鈣**
 - 安胎藥與子宮收縮劑作用相反，不要混淆
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{drug="子宮收縮劑|安胎藥物" limit="12"}

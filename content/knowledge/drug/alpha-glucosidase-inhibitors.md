@@ -27,6 +27,8 @@ references:
 
 澱粉與雙醣（蔗糖、麥芽糖）必須被小腸絨毛刷狀緣的 **α-葡萄糖苷酶**分解成單醣才能吸收。AGI 競爭性抑制這些酵素，使醣類吸收**延後、分散到小腸較遠端**，餐後血糖高峰變低變平。不影響胰島素分泌，單用不會低血糖
 
+::questions{ids="110-2_BM_051,109-1_MS_067,108-2_BM_054"}
+
 ## 代表藥物 {#agents}
 
 - **Acarbose**：幾乎不被吸收，作用在腸道
@@ -49,6 +51,6 @@ references:
 - 與[[sulfonylureas|磺醯脲類]]或[[insulin|胰島素]]併用時若低血糖，要吃**葡萄糖片**或含葡萄糖的飲料（或牛奶中的乳糖），蔗糖、方糖效果差
 - 說明腸胃症狀通常隨時間減輕
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(acarbose|miglitol|voglibose|glucosidase|糖苷酶|醣苷酶|減少糖分的吸收)" limit="4"}

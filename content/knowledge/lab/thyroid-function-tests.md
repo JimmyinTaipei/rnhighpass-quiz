@@ -94,6 +94,6 @@ references:
 4. 調整甲狀腺素劑量後，TSH 要幾週才穩定，通常 **6–8 週**後再複驗（教科書通則，**待核對**）
 5. **新生兒篩檢**：出生滿 **48 小時**後採腳跟血，篩檢先天性甲狀腺功能低下（衛福部）；詳細流程見 [[pediatric-endocrine#newborn-screening]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(TSH|甲狀腺刺激素|游離甲狀腺素|攝碘|甲狀腺掃描|甲狀腺球蛋白)" limit="8"}

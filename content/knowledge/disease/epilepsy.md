@@ -133,6 +133,6 @@ references:
 
 ::questions{ids="105-1_OP_078,113-2_OP_050,113-3_OP_049,109-1_OP_055"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(癲癇|重積|強直陣攣|tonic-clonic|大發作|小發作|失神發作|生酮)" limit="8"}

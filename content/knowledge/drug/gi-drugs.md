@@ -101,6 +101,8 @@ references:
 - 其他 H2 阻斷劑（famotidine、nizatidine）幾乎沒有 CYP450 抑制作用
 - **H1 阻斷劑**（抗過敏藥）**對胃酸沒有作用**，不用於潰瘍（見 [[antihistamines-autacoids]]）
 
+::questions{ids="115-2_BM_035"}
+
 ### 制酸劑 {#antacids}
 
 | 制酸劑 | 副作用與注意事項 |
@@ -112,6 +114,8 @@ references:
 
 - 鋁鎂合併使用可互相抵銷便秘與腹瀉；與其他藥物至少間隔 1–2 小時
 - 腎衰竭病人補鐵不要和制酸劑一起吃（會降低鐵吸收）
+
+::questions{ids="112-2_MS_059"}
 
 ### 黏膜保護劑與前列腺素 {#mucosal-protectants}
 
@@ -202,6 +206,6 @@ references:
 
 ::questions{ids="105-1_BM_061"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{drug="消化性潰瘍用藥|止吐劑|便秘用藥|止瀉劑|制酸劑" limit="10"}

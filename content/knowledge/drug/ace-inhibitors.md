@@ -60,6 +60,8 @@ references:
 
 ::questions{ids="107-2_MS_037"}
 
+::questions{ids="114-3_BM_017,114-2_BM_036,113-3_BM_035,112-3_BM_036,111-2_BM_035,111-1_BM_058"}
+
 ## 代表藥物 {#agents}
 
 字尾 **-pril**
@@ -104,6 +106,8 @@ ACEI 降低腎絲球內壓、減少蛋白尿，且**不影響血糖與血脂**�
 - 高血鉀
 - 與 **ARB 或 aliskiren 合併**（2025 AHA/ACC:ACEI、ARB、腎素抑制劑同時併用 COR 3：有害）（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e149）；與 **ARNI 需間隔 36 小時**
 
+::questions{ids="111-2_MS_060"}
+
 ## 交互作用 {#interactions}
 
 | 併用 | 結果 |
@@ -129,6 +133,6 @@ ACEI 降低腎絲球內壓、減少蛋白尿，且**不影響血糖與血脂**�
 - 大手術前：醫師可能請病人術前暫停 ACEI/ARB，以免麻醉中低血壓(2025 AHA/ACC COR 2b)（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e183）
 - 不自行服用 NSAIDs 止痛藥
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(pril|ACEI|ACE inhibitor|血管(收縮|張力|緊縮|加壓)素.{0,2}轉換)" limit="10"}

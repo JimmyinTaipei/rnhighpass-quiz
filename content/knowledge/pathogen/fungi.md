@@ -88,6 +88,8 @@ references:
 | 全身性（雙型性） | 組織胞漿菌、**球黴菌**、芽生菌 | 吸入孢子，特定地區流行 |
 | **伺機性** | **念珠菌**、**隱球菌**、**麴菌**、**毛黴菌**、**肺囊蟲** | 免疫低下者 |
 
+::questions{ids="114-3_BM_048,107-1_BM_076,112-2_BM_042,110-2_BM_065,114-2_BM_048"}
+
 ## 皮癬菌 Dermatophytes {#dermatophytes}
 
 - 三屬：**毛髮癬菌**(*Trichophyton*)、**小芽孢菌**(*Microsporum*)、**表皮癬菌**(*Epidermophyton*)；分解角質，侵犯皮膚、毛髮、指甲。**隱球菌**、絲孢酵母菌**不是**皮癬菌
@@ -95,11 +97,15 @@ references:
 - 頭癬（兒童）：口服 griseofulvin 或 terbinafine；**甲癬**：口服 terbinafine 數個月（[[antifungals#dermatophyte-drugs]]）
 - 糖尿病病人足部：保持乾燥，但不穿涼鞋外出（避免受傷）
 
+::questions{ids="113-1_BM_048,108-2_BM_078"}
+
 ## 馬拉色氏菌 Malassezia {#malassezia}
 
 - **嗜脂性**酵母菌，是健康人**皮膚正常菌叢**
 - **花斑癬**（汗斑）：胸背的淡色或褐色細屑斑，夏天、多汗時明顯；鏡檢可見**菌絲與酵母**（義大利麵加肉丸）
 - 也與脂漏性皮膚炎有關；不是造成血液感染的主要真菌
+
+::questions{ids="114-1_BM_047"}
 
 ## 新型隱球菌 Cryptococcus neoformans {#cryptococcus-neoformans}
 
@@ -109,6 +115,8 @@ references:
 - 主要發生在免疫低下者，但**免疫正常的人也可能感染**（尤其格特隱球菌）
 - 快速診斷：腦脊髓液或血清的**莢膜多醣體抗原**（乳膠凝集或側流檢驗）
 - 治療：amphotericin B＋flucytosine，之後 fluconazole 維持；反覆腰椎穿刺降顱內壓
+
+::questions{ids="110-2_BM_076,109-2_BM_067"}
 
 ## 麴菌 Aspergillus {#aspergillus}
 
@@ -120,11 +128,15 @@ references:
   - **侵襲性麴菌病**：**嗜中性白血球低下**、骨髓移植病人，致死率高；首選 **voriconazole**
 - **黃色麴菌**產生**黃麴毒素**（發霉花生、穀類） → **肝癌**
 
+::questions{ids="111-2_BM_047,110-1_BM_079"}
+
 ## 毛黴菌 Mucorales {#mucorales}
 
 - 接合菌（毛黴菌、根黴菌），寬大、少分隔的菌絲，會侵犯血管造成組織壞死
 - **鼻腦白黴菌症**（鼻腦接合菌症）：主要發生在**糖尿病**（尤其**酮酸中毒**）病人；鼻腔、上顎**黑色壞死**焦痂，快速侵犯眼眶與腦部
 - 治療：**緊急手術清創**＋amphotericin B，控制血糖與酸中毒
+
+::questions{ids="105-2_BM_077"}
 
 ## 肺囊蟲 Pneumocystis jirovecii {#pneumocystis-jirovecii}
 
@@ -133,11 +145,13 @@ references:
 - 初期**乾咳**、漸進性呼吸喘、發燒、低血氧；病理見肺泡內**泡沫狀嗜酸性物質**
 - 治療與預防：**TMP-SMX**（[[hiv-aids#opportunistic-infections]]）
 
+::questions{ids="109-1_MS_047,107-2_OP_038"}
+
 ## 雙型性真菌 Dimorphic fungi {#dimorphic-fungi}
 
 - **組織胞漿菌**（鳥糞、蝙蝠糞，美國中部）、**球黴菌**（美國西南部沙漠土壤；疾管署列為其他傳染病）、芽生菌：吸入孢子造成肺部感染，免疫低下者可擴散
 - **申克氏孢子絲菌**：被玫瑰刺、木片刺傷後的**皮下**感染，沿淋巴管出現一串結節
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="108-1_BM_079,114-3_BM_048,107-1_BM_076,112-2_BM_042,110-2_BM_065,106-2_makeup_BM_076,114-2_BM_048,111-2_BM_047,107-2_BM_076,113-1_BM_048,108-2_BM_078,109-1_MS_042,114-1_BM_047,112-3_BM_046,110-2_BM_076,109-2_BM_067,105-1_BM_076,110-1_BM_079,105-2_BM_077,108-2_BM_037,106-2_makeup_MS_047,109-1_MS_047,107-2_OP_038"}
+::questions{ids="108-1_BM_079,106-2_makeup_BM_076,107-2_BM_076,109-1_MS_042,112-3_BM_046,105-1_BM_076,108-2_BM_037,106-2_makeup_MS_047"}

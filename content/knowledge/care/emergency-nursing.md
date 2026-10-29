@@ -204,6 +204,8 @@ references:
 
 ## 溺水 {#drowning}
 
+::questions{ids="106-2_OP_078"}
+
 ### 名詞 {#drowning-terms}
 
 內外上冊書頁 467
@@ -269,7 +271,7 @@ references:
 
 ::questions{ids="106-2_MS_080,110-2_OP_042,105-2_OP_042"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="毒蛇咬傷|巴拉刈中毒|溺水" limit="12"}
 

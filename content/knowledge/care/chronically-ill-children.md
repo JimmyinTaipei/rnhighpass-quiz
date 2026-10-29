@@ -96,6 +96,6 @@ references:
 
 ::questions{ids="109-1_PC_072,105-2_PC_071,108-2_OP_061"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(慢性病|慢性疾病).*(兒童|病童|學童|家庭|父母)|(兒童|病童|學童).*(慢性病|慢性疾病)" limit="8"}

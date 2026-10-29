@@ -91,6 +91,8 @@ references:
 - 只有現血、腹輕感：通常還不用到院，可以在家觀察（真假陣痛見 [[labor-process#true-false-labor]]）
 - 生產包與生產計畫書見 [[prenatal-care#childbirth-preparation]]
 
+::questions{ids="114-3_OP_004"}
+
 ## 入院評估 {#admission}
 
 - 確認是否真的進入產程：宮縮型態、子宮頸變化
@@ -221,6 +223,8 @@ references:
 
 ::questions{ids="115-1_OP_007,109-2_OP_013,105-2_OP_012,113-2_OP_007,111-2_OP_012,106-2_OP_014,105-2_OP_015,106-2_makeup_OP_018,109-2_OP_012,112-1_OP_011,110-2_OP_016,106-2_makeup_OP_017,113-2_OP_011"}
 
+::questions{ids="114-2_OP_022,114-2_OP_011"}
+
 ### 破水的處理 {#rupture-of-membranes}
 
 1. **立即聽胎心音**（至少 1 分鐘）：破水時臍帶可能隨羊水滑出 → **臍帶脫垂**（見 [[labor-complications#cord-prolapse]]）
@@ -266,6 +270,8 @@ references:
 - 產前會陰按摩見 [[prenatal-care#perineal-massage]]
 
 ::questions{ids="110-2_OP_014,111-2_OP_016,109-1_OP_014,114-3_OP_010,113-3_OP_009,109-1_OP_012,108-2_OP_016,107-1_OP_016,108-1_OP_014,108-1_OP_017"}
+
+::questions{ids="115-2_OP_016,115-2_OP_009,115-1_OP_008,114-2_OP_008,112-3_OP_016"}
 
 ### 會陰切開術 {#episiotomy}
 
@@ -349,6 +355,6 @@ references:
 
 ::questions{ids="112-2_OP_012,107-2_OP_037"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="正常分娩|破水|會陰裂傷|羊水胎糞污染" limit="20"}

@@ -67,6 +67,8 @@ references:
 
 ::questions{ids="111-1_OP_069,105-2_MS_074,110-1_BM_062,111-1_BM_052"}
 
+::questions{ids="115-1_MS_044"}
+
 ## 多巴胺致效劑 {#dopamine-agonists}
 
 - 機轉：多巴胺是泌乳素的**抑制因子**，致效劑刺激前葉 D2 受體 → **泌乳素下降**
@@ -154,6 +156,8 @@ references:
 
 ::questions{ids="107-1_BM_062"}
 
-## 相關考題 {#questions}
+::questions{ids="113-3_OP_011"}
+
+## 綜合考題 {#questions}
 
 ::questions{keyword="(desmopressin|Desmopressin|DDAVP|vasopressin|Vasopressin|octreotide|Octreotide|bromocriptine|Bromocriptine|cabergoline|somatropin|生長素|生長激素注射|催產素|Pitocin|oxytocin|leuprolide|性腺激素)" limit="8"}

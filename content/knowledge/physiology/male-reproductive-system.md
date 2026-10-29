@@ -120,6 +120,8 @@ references:
 
 ## 精液與精液分析 {#semen-analysis}
 
+::questions{ids="115-2_BM_017"}
+
 ### 採檢衛教 {#semen-collection}
 
 | 項目 | 現行(WHO 2021) | 國考與課本常見寫法 |
@@ -174,6 +176,6 @@ WHO 2021 第 6 版的**參考下限**（第 5 百分位，低於這個值要再�
 
 ::questions{ids="114-1_BM_005,115-2_BM_006"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="男性不孕症" limit="6"}

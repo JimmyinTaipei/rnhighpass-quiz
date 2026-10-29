@@ -73,6 +73,8 @@ references:
 - 口訣：「**肝素看 aPTT、Warfarin 看 PT**」— 兩者常被互換當錯誤選項
 :::
 
+::questions{ids="113-2_BM_016"}
+
 ## 代表藥物 {#agents}
 
 ### Heparin（未分化肝素） {#heparin}
@@ -155,6 +157,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 
 ::questions{ids="112-1_MS_032,111-2_MS_026,109-1_MS_025,107-2_MS_027,110-2_MS_031,106-2_MS_029"}
 
+::questions{ids="113-3_BM_036"}
+
 ## 副作用與禁忌 {#adverse-effects}
 
 | 副作用 | 說明與處置 |
@@ -182,6 +186,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 | 人參、聖約翰草 | **酒精**（急性大量）、葡萄柚汁（部分） |
 | 維生素 K 補充劑、營養品 | 高劑量維生素 E |
 
+::questions{ids="115-2_FA_012"}
+
 ### Warfarin 與藥物 {#warfarin-drugs}
 
 | 增強效果（出血） | 減弱效果（血栓） |
@@ -199,6 +205,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 - **Heparin 不受維生素 K 影響** → 使用 heparin 的病人**不需要**限制深綠色蔬菜
 
 ## 護理重點與衛教 {#nursing}
+
+::questions{ids="114-3_MS_016"}
 
 ### 皮下注射（Heparin、LMWH） {#sc-injection}
 
@@ -266,7 +274,9 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 
 ::questions{ids="105-2_MS_033,107-2_MS_035,106-1_MS_033,109-2_MS_029,110-2_MS_033,115-2_MS_020,105-2_OP_022,107-2_OP_026,108-2_OP_023,112-2_OP_031,114-2_MS_018"}
 
-## 相關考題 {#questions}
+::questions{ids="115-2_MS_035,115-1_MS_017,114-3_MS_024,114-2_OP_021"}
+
+## 綜合考題 {#questions}
 
 ::questions{group="antithrombotics" keyword="(heparin|肝素|warfarin|coumadin|enoxaparin|clexane|protamine|rivaroxaban|apixaban|dabigatran|edoxaban|argatroban|抗凝血|INR|aPTT)" limit="12"}
 

@@ -115,6 +115,8 @@ references:
 
 ::questions{ids="115-1_BM_017,114-3_BM_007,114-1_BM_016,112-3_BM_006,112-2_BM_007,106-2_BM_010,105-2_BM_027,109-1_OP_007"}
 
+::questions{ids="114-3_OP_013"}
+
 ## 輸卵管 {#fallopian-tube}
 
 - 由外到內：**繖部**（接住卵） → 漏斗部 → **壺腹部**（最寬，**受精最常發生處**） → 峽部 → 子宮部
@@ -173,6 +175,8 @@ references:
 
 ::questions{ids="113-3_BM_015,113-2_BM_002,110-2_BM_026,109-1_BM_024,107-2_BM_024,106-1_BM_024"}
 
+::questions{ids="114-3_PC_012"}
+
 ### 排卵的徵象 {#ovulation-signs}
 
 | 方法 | 變化 | 判讀 |
@@ -213,6 +217,6 @@ references:
 
 ::questions{ids="112-3_BM_017,106-2_makeup_BM_026"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="月經週期|排卵|濾泡|黃體素|子宮內膜" limit="10"}

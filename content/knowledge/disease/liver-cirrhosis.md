@@ -119,6 +119,8 @@ references:
 
 ::questions{ids="105-2_MS_014,106-2_MS_015,110-2_MS_011,108-2_MS_011,113-1_MS_006,113-1_MS_007,106-1_MS_012,111-1_MS_010,112-3_MS_010,113-3_BM_027,115-1_FA_023"}
 
+::questions{ids="114-1_BM_011"}
+
 ## 食道靜脈曲張出血 {#varices}
 
 - 肝硬化病人**上消化道出血最主要的原因**；表現吐鮮血或咖啡渣、黑便、休克；上消化道出血的一般處置見 [[upper-gi-disorders#upper-gi-bleeding]]
@@ -173,6 +175,6 @@ references:
 
 ::questions{ids="106-1_BM_037,106-2_BM_034"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="肝硬化|腹水|食道靜脈曲張|肝性腦病變|門脈高壓|肝衰竭" limit="10"}

@@ -147,6 +147,8 @@ references:
 
 ::questions{ids="106-2_makeup_OP_035,113-3_BM_029,105-2_BM_045,105-1_BM_045"}
 
+::questions{ids="114-3_OP_025,113-3_OP_011"}
+
 ## 子宮脫垂與子宮移位 {#prolapse}
 
 - **子宮脫垂**：子宮沿陰道往下掉
@@ -222,6 +224,8 @@ references:
 
 ::questions{ids="106-2_BM_044"}
 
+::questions{ids="111-2_BM_029,110-2_BM_042,108-1_FA_012"}
+
 ## 乳房良性疾病 {#breast}
 
 | 疾病 | 重點 |
@@ -235,6 +239,6 @@ references:
 
 ::questions{ids="111-1_OP_040,114-3_BM_028"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="子宮肌瘤|子宮內膜異位症|子宮腺肌症|子宮脫垂|子宮移位|子宮後傾|子宮頸糜爛|陰道瘻管|性交疼痛|卵巢腫瘤|畸胎瘤|乳房纖維腺瘤|乳房良性腫瘤" limit="15"}

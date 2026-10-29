@@ -133,6 +133,8 @@ references:
 
 ::questions{ids="112-3_OP_024,112-2_OP_038"}
 
+::questions{ids="113-1_OP_024"}
+
 ### 試管嬰兒 {#art}
 
 | 步驟 | 內容 |
@@ -170,6 +172,8 @@ references:
 
 ::questions{ids="107-2_OP_001"}
 
+::questions{ids="115-2_OP_023"}
+
 ## 護理 {#nursing}
 
 - 心理反應：震驚、否認、憤怒、罪惡感、孤立、哀傷；治療期長、費用高、反覆失敗 → 焦慮、夫妻關係緊張、自尊受損
@@ -182,6 +186,6 @@ references:
 
 ::questions{ids="109-2_OP_034"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="不孕症|男性不孕症" limit="12"}

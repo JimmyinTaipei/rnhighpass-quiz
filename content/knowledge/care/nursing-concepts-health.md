@@ -286,6 +286,4 @@ references:
 | Henderson＝治療性人際關係 | Peplau |
 | 浪漫主義強調自主 | 浪漫主義強調順從；存在主義強調自主 |
 
-## 相關考題 {#questions}
-
-::questions{ids="105-1_FA_006,113-3_FA_002,115-1_FA_003,110-2_FA_016,107-2_FA_003" limit="10"}
+## 綜合考題 {#questions}

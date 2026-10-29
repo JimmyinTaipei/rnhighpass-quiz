@@ -156,6 +156,8 @@ references:
 
 ::questions{ids="109-1_OP_044,111-1_OP_060,113-2_OP_029,108-1_OP_072,107-1_OP_061"}
 
+::questions{ids="114-3_OP_029"}
+
 ## 處置與手術前的準備 {#procedure-preparation}
 
 1. **誠實**說明可能的感覺（「會有一點痛，護理師會幫你」），不說「不會痛」
@@ -200,6 +202,6 @@ references:
 
 ::questions{ids="105-2_OP_052,111-2_OP_057,107-1_OP_064"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="分離焦慮|抗議期|失望期|去依戀|治療性遊戲|住院壓力|住院兒童" limit="10"}

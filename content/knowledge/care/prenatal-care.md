@@ -69,6 +69,8 @@ references:
 
 ## 各孕期的不適與處理 {#discomforts}
 
+::questions{ids="115-1_OP_003"}
+
 ### 第一孕期 {#first-trimester}
 
 | 不適 | 原因 | 處理 |
@@ -203,6 +205,8 @@ references:
 
 ::questions{ids="112-2_OP_003,111-1_OP_007,109-1_OP_006,107-1_OP_006,112-3_OP_004,111-2_OP_002"}
 
+::questions{ids="111-2_FA_026"}
+
 ### 體重增加 {#weight-gain}
 
 依**孕前 BMI**（單胞胎，IOM 2009；國健署孕婦健康手冊沿用）
@@ -244,6 +248,6 @@ references:
 
 ::questions{ids="108-2_OP_005,109-2_OP_006,106-2_makeup_OP_006"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="妊娠水腫|下背痛|頻尿|妊娠嘔吐|體重不足|會陰裂傷" keyword="孕|妊娠|懷孕" limit="15"}

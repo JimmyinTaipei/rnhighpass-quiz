@@ -161,6 +161,8 @@ references:
 
 ## 石膏 {#cast}
 
+::questions{ids="114-2_FA_031"}
+
 ### 種類 {#cast-types}
 
 | 材質 | 特性 |
@@ -310,6 +312,8 @@ references:
 
 ::questions{ids="114-3_OP_048,110-1_OP_077,108-2_OP_076,108-1_OP_064"}
 
-## 相關考題 {#questions}
+::questions{ids="115-2_OP_030"}
+
+## 綜合考題 {#questions}
 
 ::questions{tag="骨折|腔室症候群|股骨骨折|髖關節骨折|鎖骨骨折|開放性骨折|病理性骨折|脫臼|截肢" limit="12"}

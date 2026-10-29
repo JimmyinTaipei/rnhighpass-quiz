@@ -92,6 +92,8 @@ references:
 
 ::questions{ids="112-1_PC_080,110-2_PC_079,114-2_PC_048,111-1_PC_073,112-2_PC_077,113-3_PC_050"}
 
+::questions{ids="113-3_PC_046"}
+
 ## 骨質疏鬆的社區防治 {#osteoporosis}
 
 骨質疏鬆的病理、分類、骨密度判讀與 2025 台灣指引的鈣與維生素 D 建議見 [[osteoporosis]]；藥物見 [[bone-calcium-drugs]]。本節只整理社區衛教考點
@@ -195,6 +197,6 @@ references:
 | 膽固醇每日 < 400 mg | < 300 mg | |
 | 高纖飲食降低蛋白質吸收 | 不會 | |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="衰弱症|慢性病" limit="6"}

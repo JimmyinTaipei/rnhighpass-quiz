@@ -77,6 +77,8 @@ references:
 - 神經叢與皮節見 [[spinal-cord-spinal-nerves#plexuses]] 與 [[spinal-cord-spinal-nerves#dermatomes]]
 - 頸椎與上胸椎損傷還會影響肋間肌與腹肌 → 咳嗽無力、痰咳不出
 
+::questions{ids="114-3_MS_002"}
+
 ### 完全與不完全損傷 {#complete-incomplete}
 
 - **完全損傷**：損傷平面以下，包括**最下端薦髓(S4–S5)**的感覺與運動**完全沒有**；**不完全損傷**：薦部仍保留部分感覺或肛門自主收縮
@@ -109,6 +111,8 @@ references:
 - 脊髓休克的基礎見 [[spinal-cord-spinal-nerves#spinal-shock]]
 
 ::questions{ids="109-1_MS_001,114-2_MS_005,112-2_MS_006,111-2_MS_002,111-1_MS_077,106-1_MS_004"}
+
+::questions{ids="112-3_MS_049"}
 
 ### 固定、牽引與治療 {#immobilization}
 
@@ -196,6 +200,6 @@ references:
 
 ::questions{ids="111-1_FA_033,108-2_FA_041,112-3_MS_004"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(脊髓損傷|脊椎損傷|頸椎損傷|脊髓休克|神經性休克|自主神經(反射|過度)|神經性膀胱|神經因性膀胱|四肢癱瘓|下半身癱瘓|圓滾木|Crede)" limit="8"}

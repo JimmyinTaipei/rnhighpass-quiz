@@ -120,6 +120,8 @@ references:
 
 ::questions{ids="106-2_makeup_OP_010,109-2_BM_039"}
 
-## 相關考題 {#questions}
+::questions{ids="113-1_OP_040"}
+
+## 綜合考題 {#questions}
 
 ::questions{keyword="(巴金森|帕金森|Parkinson|亨丁頓|亨汀頓|舞蹈症|靜止性顫抖|錳)" limit="8"}

@@ -49,6 +49,8 @@ references:
 - **Acetaminophen** 主要作用在**中樞**，周邊抗發炎作用很弱
 - 疼痛生理見 [[pain-management#nociception]]
 
+::questions{ids="112-3_BM_035,109-1_BM_058"}
+
 ## 代表藥物 {#agents}
 
 | 類別 | 藥物 | 重點 |
@@ -59,6 +61,8 @@ references:
 | 其他 | Mefenamic acid(Ponstan) | 經痛 |
 | **COX-2 抑制劑** | **Celecoxib**(Celebrex)、etoricoxib | **出血與腸胃潰瘍較少**；**不抑制血小板**；心血管風險；對磺胺類過敏者避免 celecoxib |
 | **解熱鎮痛劑** | **Acetaminophen**（普拿疼、Tinten、paracetamol） | 不是 NSAIDs；**兒童、孕婦、消化性潰瘍、出血傾向**時首選的解熱止痛藥 |
+
+::questions{ids="108-1_BM_059,107-2_BM_058,106-2_OP_058,112-2_OP_068"}
 
 ## 適應症 {#indications}
 
@@ -76,6 +80,8 @@ references:
 | **抗發炎** | **最高**（每天數公克） |
 
 - 「aspirin 的藥理作用」包括**止痛、解熱、抗發炎、抗血小板**；它**不是止血藥**（反而延長出血）
+
+::questions{ids="111-1_BM_057,107-2_BM_054"}
 
 ## 副作用 {#adverse-effects}
 
@@ -119,6 +125,8 @@ references:
 - 預防：**18 歲以下退燒止痛避免 aspirin**，改用 acetaminophen 或 ibuprofen
 - 例外：**川崎病**需要高劑量 aspirin，治療期間若接觸流感或水痘要告知醫師，並依建議接種流感疫苗
 
+::questions{ids="106-1_OP_045,112-2_OP_078"}
+
 ### 水楊酸中毒 {#salicylate-toxicity}
 
 - 早期：**耳鳴**、聽力下降、噁心**嘔吐**、頭暈
@@ -134,6 +142,8 @@ references:
 - 降低 probenecid 的排尿酸作用；低劑量 aspirin 會**升高尿酸**
 - **G-6-PD 缺乏症**：高劑量 aspirin 可能誘發**溶血**
 
+::questions{ids="106-2_makeup_BM_057"}
+
 ## Acetaminophen {#acetaminophen}
 
 | 項目 | 重點 |
@@ -148,6 +158,8 @@ references:
 - 例：醫囑 acetaminophen 500 mg QID（每天 2 g）在安全範圍內；給藥前應先了解病人有無**肝臟病史**、飲酒習慣
 - 長期大量使用也和**止痛劑腎病**有關
 
+::questions{ids="109-1_FA_009"}
+
 ## 護理重點 {#nursing}
 
 - 給藥前評估：**消化性潰瘍、出血傾向、腎功能、心衰竭、氣喘**、懷孕週數、是否使用抗凝血藥或鋰鹽
@@ -157,10 +169,12 @@ references:
 - 兒童退燒止痛**不用 aspirin**；使用 acetaminophen 或 ibuprofen 要依**體重**計算劑量
 - 衛教不要同時吃多種含 acetaminophen 或多種 NSAIDs 的藥
 
-## 相關考題 {#questions}
+::questions{ids="111-2_MS_032"}
 
-::questions{ids="112-3_BM_035,109-1_BM_058,108-1_BM_059,112-2_MS_048,111-1_BM_057,107-2_BM_054,110-1_BM_051,106-2_makeup_BM_057,106-2_BM_055,108-1_BM_037,107-2_BM_058,106-1_OP_045,112-2_OP_078,107-1_MS_080,106-1_OP_057,110-2_OP_068,109-2_OP_067,106-2_OP_058,109-1_FA_009,110-2_OP_062"}
+## 綜合考題 {#questions}
 
-::questions{ids="105-2_OP_066,110-2_OP_067,112-2_OP_068,114-3_OP_042,108-2_MS_017"}
+::questions{ids="112-2_MS_048,110-1_BM_051,106-2_BM_055,108-1_BM_037,107-1_MS_080,106-1_OP_057,110-2_OP_068,109-2_OP_067,110-2_OP_062"}
+
+::questions{ids="105-2_OP_066,110-2_OP_067,114-3_OP_042,108-2_MS_017"}
 
 ::questions{group="nsaids" keyword="aspirin|阿斯匹|NSAID|非類固醇|acetaminophen|乙醯胺酚|ibuprofen|celecoxib|COX" limit="10"}

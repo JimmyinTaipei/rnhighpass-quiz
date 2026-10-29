@@ -50,6 +50,8 @@ references:
 - 減少腸道吸收葡萄糖、增加腸道 GLP-1
 - **不作用在 β 細胞**，不增加胰島素分泌
 
+::questions{ids="110-2_BM_051,108-2_BM_054"}
+
 ## 代表藥物 {#agents}
 
 Metformin（常見商品名 Glucophage）；另有緩釋劑型（每日一次，腸胃副作用較少）與多種複方（合併 DPP-4i、SGLT2i 等）
@@ -76,6 +78,8 @@ Metformin（常見商品名 Glucophage）；另有緩釋劑型（每日一次，
 
 **禁忌/暫停**：eGFR < 30（來源：[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 表 9.2）、嚴重肝病、酗酒、急性缺氧或休克、急性代謝性酸中毒（包括 DKA）。穩定的心衰竭病人只要腎功能在可用範圍內仍可使用（來源：[ADA Standards of Care 2026 第 10 章](https://doi.org/10.2337/dc26-S010)）
 
+::questions{ids="106-2_MS_064"}
+
 ## 交互作用 {#interactions}
 
 - **含碘顯影劑**：可能造成急性腎損傷 → metformin 蓄積 → 乳酸中毒。**eGFR 30–60** 者**檢查當時或之前暫停**（來源：[ADA Standards of Care 2026 第 11 章](https://doi.org/10.2337/dc26-S011) 引述 FDA 指引）；另依仿單，肝病、酗酒、心衰竭或動脈注射顯影劑者也要暫停，檢查後 **48 小時**重新評估腎功能穩定再恢復（依 FDA 核准仿單；僅供參考，以醫囑為準）
@@ -90,6 +94,6 @@ Metformin（常見商品名 Glucophage）；另有緩釋劑型（每日一次，
 - 嘔吐、腹瀉、脫水等急性疾病時依醫囑暫停（見 [[diabetes#sick-day]]）
 - 安排顯影劑檢查時主動確認病人是否服用 metformin
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(metformin|雙胍|biguanide|glucophage)" limit="10"}

@@ -217,7 +217,7 @@ references:
 
 ::questions{ids="113-3_MS_048,105-2_OP_041,109-1_MS_073,111-1_OP_042,107-1_OP_059,108-1_OP_041"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="心肺停止|呼吸道異物阻塞" limit="12"}
 

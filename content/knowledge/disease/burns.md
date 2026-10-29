@@ -149,6 +149,8 @@ references:
 
 ::questions{ids="109-1_MS_041,113-3_MS_028"}
 
+::questions{ids="115-2_MS_029"}
+
 ## 急救與特殊燒傷 {#first-aid}
 
 ### 熱燒傷的急救：沖脫泡蓋送 {#five-steps}
@@ -197,6 +199,8 @@ references:
 ::questions{ids="108-2_MS_043"}
 
 ## 醫療與護理處置 {#management}
+
+::questions{ids="112-3_OP_026"}
 
 ### 急救期：呼吸道與輸液 {#resuscitation}
 
@@ -322,6 +326,6 @@ references:
 
 ::questions{ids="106-2_makeup_OP_044,106-2_makeup_OP_047"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="燒傷|化學性灼傷|電燒傷" limit="12"}

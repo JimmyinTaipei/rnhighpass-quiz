@@ -221,6 +221,6 @@ references:
 
 ::questions{ids="111-2_OP_030,108-1_OP_030,108-2_OP_027"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="新生兒假月經" limit="6"}

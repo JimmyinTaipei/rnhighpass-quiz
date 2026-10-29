@@ -84,6 +84,8 @@ references:
 
 ::questions{ids="115-2_OP_005,114-2_OP_002,106-1_OP_004"}
 
+::questions{ids="112-2_OP_009"}
+
 ### 驗孕 {#pregnancy-test}
 
 - 原理：**免疫分析**（驗孕棒是 ELISA 類的單株抗體法）測尿液或血液中的 **hCG**
@@ -122,6 +124,8 @@ references:
 - 舊式：受孕日 + 266 天；胎動初覺日推算（誤差大）
 
 ::questions{ids="108-2_OP_008,107-1_OP_003,106-2_OP_003,105-2_OP_005"}
+
+::questions{ids="114-1_OP_005"}
 
 ## 腹部檢查 {#abdominal-exam}
 
@@ -253,6 +257,8 @@ references:
 
 ## 唐氏症篩檢與產前遺傳診斷 {#genetic-screening}
 
+::questions{ids="115-1_OP_005,115-1_BM_023,112-3_BM_024,112-1_PC_067,111-2_BM_025"}
+
 ### 篩檢 {#screening}
 
 | 篩檢 | 時機 | 內容 | 偵測率（約） |
@@ -288,6 +294,6 @@ references:
 
 ::questions{ids="112-2_OP_005,109-1_OP_004,106-2_makeup_OP_004"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="妊娠|唐氏症|羊水過少|羊水過多|胎兒生長受限" limit="15"}

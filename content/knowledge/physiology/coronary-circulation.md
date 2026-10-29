@@ -108,6 +108,8 @@ references:
 - **抽菸**：尼古丁使心跳加快、血管收縮、血壓上升 → 需氧量增加；一氧化碳與血紅素結合 → 血液**攜氧能力下降**，供給減少
 - 等長運動（提重物、用力閉氣）使血壓陡升、壁張力大增，冠心病人應避免；性行為前可預防性含 NTG
 
+::questions{ids="108-1_MS_029,107-2_MS_029"}
+
 ### 抗心絞痛藥如何平衡供需 {#antianginal}
 
 | 藥物 | 降低需求 | 增加供給 |
@@ -160,6 +162,8 @@ references:
 
 **臨床對應**：[[coronary-artery-disease]]、[[heart-failure]]
 
-## 相關考題 {#questions}
+::questions{ids="109-1_BM_026"}
+
+## 綜合考題 {#questions}
 
 ::questions{keyword="(冠狀動脈|心肌梗塞|心絞痛).*(舒張期|耗氧|需氧|側枝|結締組織|下壁|前壁|側壁)" limit="8"}

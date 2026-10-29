@@ -94,6 +94,8 @@ references:
 
 ::questions{ids="106-1_MS_053,106-2_MS_054,106-2_makeup_BM_039,108-1_MS_057,107-1_MS_055"}
 
+::questions{ids="114-3_BM_023,114-1_BM_009"}
+
 ## 臨床表現與評估 {#manifestations}
 
 1. 症狀：**慢性咳嗽**、**咳痰**、**活動時呼吸困難**逐漸加重
@@ -155,6 +157,8 @@ references:
 - 茶鹼治療範圍窄，見 [[asthma-drugs]]
 
 ::questions{ids="112-2_MS_054"}
+
+::questions{ids="114-2_BM_034,113-1_BM_031"}
 
 ## 急性惡化 {#exacerbation}
 
@@ -222,6 +226,8 @@ references:
 
 ::questions{ids="111-2_MS_055,105-2_PC_059"}
 
+::questions{ids="115-2_PC_042"}
+
 ## 併發症 {#complications}
 
 - **肺心症**：長期缺氧 → 肺血管收縮 → 肺高壓 → 右心衰竭（頸靜脈怒張、下肢水腫、肝腫大），見 [[pulmonary-embolism-hypertension#pulmonary-hypertension]]
@@ -254,6 +260,6 @@ references:
 - 白人常見，亞洲人少見；遺傳模式與篩檢見 [[single-gene-disorders#cystic-fibrosis]]
 - 照護：胸腔物理治療、消化酶隨餐服用、高熱量飲食
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="慢性阻塞性肺病|肺氣腫|慢性支氣管炎|支氣管擴張症" limit="10"}

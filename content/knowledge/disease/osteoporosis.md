@@ -74,6 +74,8 @@ references:
 
 ::questions{ids="105-1_OP_040"}
 
+::questions{ids="114-2_MS_011,114-1_PC_043,113-2_MS_019"}
+
 ## 臨床表現 {#clinical}
 
 - **骨折前沒有症狀**，常在跌倒或輕微外力**骨折後才發現**
@@ -88,7 +90,11 @@ references:
 
 ::questions{ids="107-1_MS_020,106-1_MS_021,110-1_BM_040"}
 
+::questions{ids="113-3_PC_039"}
+
 ## 診斷與評估 {#diagnosis}
+
+::questions{ids="114-3_OP_003"}
 
 ### 骨密度(DXA) {#dxa}
 
@@ -116,6 +122,8 @@ references:
 - 抽血排除續發原因：血鈣磷、鹼性磷酸酶、副甲狀腺素、甲狀腺功能、維生素 D、腎功能
 
 ## 預防與治療 {#treatment}
+
+::questions{ids="114-1_MS_013,113-3_PC_043"}
 
 ### 鈣、維生素 D 與營養 {#calcium-vitamin-d}
 
@@ -159,6 +167,6 @@ references:
 5. 用藥指導：雙磷酸鹽服法、按時回診追蹤骨密度
 6. 社區：骨密度篩檢、高危險群衛教（見 [[older-adult-chronic-disease#osteoporosis]]）
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="骨質疏鬆症" limit="12"}

@@ -153,6 +153,8 @@ references:
 - 其他合併症：**尿滯留**（要評估膀胱）、皮膚癢與噁心（鴉片類）、發燒、下肢無力、高位阻斷造成呼吸困難、硬膜外血腫或感染（少見）
 - **評估**：麻醉平面、下肢感覺與運動恢復、血壓、膀胱；剖腹產後 2 小時內也要評估**子宮收縮**與出血（雙胞胎更要注意）
 
+::questions{ids="115-1_OP_014"}
+
 ### 減痛分娩 {#labor-analgesia}
 
 - 硬膜外減痛分娩常用**低濃度局部麻醉藥＋鴉片類**（**bupivacaine 或 ropivacaine 加 fentanyl**），阻斷傳導子宮收縮痛的 **T10–L1** 交感與感覺神經，第二產程才需要 **S2–S4**；盡量保留運動功能
@@ -172,6 +174,6 @@ references:
 
 ::questions{ids="112-1_OP_018,114-3_OP_011,109-1_OP_020,109-1_OP_016,112-2_OP_013,110-1_OP_002,107-1_OP_013,110-1_OP_014,111-1_OP_012,112-3_OP_012,111-1_OP_024,110-2_OP_025,105-2_OP_020,108-1_OP_025"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(麻醉|lidocaine|Xylocaine|bupivacaine|Marcaine|propofol|thiopental|ketamine|halothane|sevoflurane|笑氣|MAC|脊髓阻斷|硬膜外|硬脊膜外)" limit="8"}

@@ -84,6 +84,8 @@ references:
 
 ::questions{ids="113-2_BM_017,106-2_makeup_BM_028,111-1_BM_062,106-2_FA_030,110-2_BM_027,112-1_MS_069"}
 
+::questions{ids="115-1_BM_009"}
+
 ## 皮質醇 {#cortisol}
 
 - **分泌節律**：受 ACTH 控制，**清晨起床後 6–8 點最高**、傍晚下降、**午夜最低**；壓力時大量增加
@@ -116,6 +118,8 @@ references:
 
 ::questions{ids="113-2_MS_042,109-2_BM_024"}
 
+::questions{ids="115-1_MS_043"}
+
 ## 腎上腺髓質 {#medulla}
 
 - **腎上腺素**約 80%、正腎上腺素約 20%；受交感神經節前纖維（乙醯膽鹼）刺激直接釋放
@@ -143,6 +147,6 @@ references:
 
 ::questions{ids="107-2_MS_080,109-1_MS_069,108-2_PC_037"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(腎上腺|皮質醇|醛固酮|糖皮質|礦物皮質|絲球帶|束狀帶|網狀帶|嗜鉻|腎素|血管張力素)" limit="8"}

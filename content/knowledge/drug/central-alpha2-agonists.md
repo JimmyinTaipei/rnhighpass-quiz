@@ -48,6 +48,8 @@ references:
 | **Clonidine** | 直接作用的 α2 致效劑 |
 | **Methyldopa** | **前驅藥**：進入腦中的腎上腺素神經元，轉成 **α-methylnorepinephrine**（假性傳遞物質），再活化 α2 受體 |
 
+::questions{ids="114-3_BM_037,113-3_BM_035,113-3_BM_031,106-2_BM_050"}
+
 ### 為什麼 clonidine 驟停會反彈 {#rebound}
 
 長期抑制交感後，正腎上腺素的釋放被壓住、受體敏感度上調；一旦突然停藥，抑制消失 → **兒茶酚胺大量釋放** → 停藥後約 18–36 小時出現**焦慮、頭痛、盜汗、心悸、震顫與嚴重高血壓**（可達高血壓危象）。高劑量（> 0.6 mg/天）與同時服用 β 阻斷劑者最危險
@@ -101,6 +103,6 @@ references:
 - Methyldopa：追蹤**血球（Coombs、血色素）與肝功能**；出現黃疸、茶色尿、疲倦、發燒要回診；輸血前告知服用 methyldopa
 - 孕婦：監測血壓、胎兒狀況；產後與醫師討論換藥並注意情緒
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(clonidine|methyldopa|Aldomet|Catapres|α2)" limit="8"}

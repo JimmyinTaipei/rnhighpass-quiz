@@ -139,6 +139,8 @@ references:
    4. 誤食：稀釋、催吐、洗胃、**活性碳**、瀉劑或加速排泄、**解毒劑**
 5. 成人的中毒處置原則見 [[emergency-nursing#poisoning]]
 
+::questions{ids="115-2_MS_048,115-1_MS_049,114-3_MS_047"}
+
 ### 去除毒物的方法 {#decontamination}
 
 | 方法 | 用法 | 禁忌或注意 |
@@ -263,6 +265,6 @@ references:
 
 ::questions{ids="112-2_OP_043,111-1_OP_044"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="事故傷害|安全座椅|誤食|鉛中毒|鐵劑中毒|催吐|流鼻血|搖晃症候群" limit="10"}

@@ -83,6 +83,6 @@ references:
 6. 記錄：傷口狀況、使用的敷料、病人反應；傷口培養要先清洗再採檢
 - 換藥屬於**外科無菌技術**，見 [[asepsis-sterilization]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="傷口" limit="12"}

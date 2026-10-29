@@ -80,6 +80,8 @@ references:
 | Omega-3 | Icosapent ethyl（高純度 EPA） | 減少肝臟 TG 合成 | 降 TG | 心房顫動、出血稍增 |
 | Bempedoic acid | — | 抑制 ATP 檸檬酸裂解酶（statin 上游） | 降 LDL，不太引起肌痛 | 尿酸↑;statin 不耐受者 |
 
+::questions{ids="112-2_BM_036,112-1_BM_037"}
+
 ## 適應症 {#indications}
 
 依 2018 AHA/ACC 與 2019 ESC/EAS 指引，以下族群**應使用 statin**:
@@ -133,6 +135,8 @@ LDL 目標值與各國指引比較見 [[lipid-profile#targets]]
 - 定期追蹤：開始或調整劑量後 **4–12 週**驗血脂評估反應（2018 AHA/ACC;ACS 後為 **4–8 週**驗空腹血脂（來源：[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)）；台灣路徑為 6–8 週），之後每 3–12 個月（抽血準備見 [[lipid-profile#nursing]]）
 - 告訴所有醫師、藥師自己在吃 statin（交互作用多）
 
+::questions{ids="112-1_PC_061"}
+
 ### 生活型態（所有高血脂病人的基礎） {#lifestyle}
 
 - **飲食**：減少飽和脂肪（< 總熱量 7–10%，如肥肉、五花肉、豬皮、奶油、椰子油）與**反式脂肪**；烹調用清蒸、水煮、涼拌，**避免油炸油煎**；增加**高纖**（燕麥、大麥、豆類、蔬果；可溶性纖維結合膽酸，減少膽固醇吸收）；多吃魚與堅果
@@ -142,8 +146,10 @@ LDL 目標值與各國指引比較見 [[lipid-profile#targets]]
 - **減重、戒菸**（戒菸可使 HDL 上升）
 - 不要不吃早餐來減重；不要用「降膽固醇飲料」取代喝水
 
-## 相關考題 {#questions}
+::questions{ids="114-1_PC_049,112-2_PC_079"}
+
+## 綜合考題 {#questions}
 
 ::questions{group="lipid-lowering" limit="8"}
 
-::questions{ids="114-3_PC_049,114-1_PC_049,113-3_PC_045,113-3_MS_018,112-2_PC_079,112-2_FA_043,112-2_BM_036,112-1_PC_061,112-1_BM_037,111-2_PC_077"}
+::questions{ids="114-3_PC_049,113-3_PC_045,113-3_MS_018,112-2_FA_043,111-2_PC_077"}

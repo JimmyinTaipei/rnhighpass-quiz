@@ -107,6 +107,8 @@ references:
 
 ::questions{ids="107-2_MS_055,113-3_FA_012,114-2_FA_004"}
 
+::questions{ids="114-3_MS_008"}
+
 ## 氣切照護 {#tracheostomy}
 
 1. 床旁必備：**管芯**、**同尺寸與小一號的備用氣切管**、甦醒球、抽痰設備、氧氣
@@ -120,6 +122,8 @@ references:
 6. 說話：套囊放氣後接**說話瓣膜**才能說話；放氣前先抽口腔與套囊上方分泌物
 7. 居家照護：居家護理可提供氣切、鼻胃管、尿管照護（見 [[home-care-discharge-planning#home-nurse-role]]、[[long-term-care#home-based]]）
 8. 全喉切除後的造口是**永久**的，和鼻子不再相通，嗅覺喪失，見 [[head-neck-cancers#laryngectomy-care]]
+
+::questions{ids="115-2_MS_015"}
 
 ## 甦醒球（手壓式甦醒球面罩） {#bag-valve-mask}
 
@@ -145,6 +149,6 @@ references:
 1. 長期併發症：喉部潰瘍與水腫（插管超過 12 小時的病人過半有喉部損傷）、聲帶麻痺、**氣管狹窄**（多在拔除氣切管後 6 個月內出現）、氣管軟化、氣管食道瘻管(ICU Book 5e)
 2. 拔管後喘鳴音與脫離見 [[mechanical-ventilation#weaning]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(氣管內管|氣管內插管|氣管插管|氣切|氣管造口|套囊|甦醒球|Ambu)" limit="8"}

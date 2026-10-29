@@ -157,6 +157,8 @@ references:
 
 ::questions{ids="115-2_MS_045,112-3_OP_042,108-1_OP_076,108-2_BM_024"}
 
-## 相關考題 {#questions}
+::questions{ids="115-2_OP_046,115-1_OP_024,115-1_MS_042"}
+
+## 綜合考題 {#questions}
 
 ::questions{keyword="(甲狀腺|副甲狀腺|降鈣素|濾泡|膠體|T3|T4|PTH|骨化三醇|維生素 ?D)" limit="8"}

@@ -62,6 +62,8 @@ references:
 - **cAMP 是共同終點**：β₁ 促效劑增加 cAMP 的**生成**；**milrinone 抑制第三型磷酸二酯酶(PDE3)**，減少 cAMP 的**分解** → 心肌收縮力增加，**血管平滑肌 cAMP 增加則血管擴張**（「強心 + 擴血管」= inodilator）。因為不經過 β 受體，**正在使用 β 阻斷劑的病人仍有效**
 - Levosimendan：**鈣敏感劑**，增加肌鈣蛋白對鈣的敏感度並打開血管 K-ATP 通道，也是 inodilator
 
+::questions{ids="113-1_BM_037,112-3_MS_019,111-1_BM_049"}
+
 ## 代表藥物 {#agents}
 
 ### Dopamine（劑量依賴效應） {#dopamine}
@@ -126,6 +128,8 @@ references:
 - 沒有低血壓或低灌流的心衰竭**不應常規使用強心劑**（增加心律不整與死亡）；長期門診輸注僅作為**心臟移植/左心室輔助器的過渡**或安寧緩和
 - 常見組合：**norepinephrine（維持血壓）+ dobutamine（增加心輸出量）**；必要時加機械循環輔助
 
+::questions{ids="113-2_MS_048,113-1_BM_022,111-1_MS_034"}
+
 ### 其他休克與心跳停止後照護 {#other-shock}
 
 - **低血容積性休克**：首要是**補充體液/輸血**；升壓劑只作為補液後仍低血壓的輔助（國考選項「dopamine 可治療低血容積性休克」視為正確，前提是已補液）
@@ -170,6 +174,8 @@ references:
 
 ## 護理重點與衛教 {#nursing}
 
+::questions{ids="115-1_MS_019"}
+
 ### 給藥 {#administration}
 
 - **一定使用輸液幫浦**，以 mcg/kg/min 或 mcg/min 計算；醫囑須包含**濃度、劑量（速率）與調整目標**，不完整時**與醫師確認**
@@ -180,6 +186,8 @@ references:
 - 給升壓劑前先評估並**矯正低血容積**
 - 光敏感：dopamine、norepinephrine 溶液變色（粉紅、棕色）不可使用
 
+::questions{ids="111-1_MS_033"}
+
 ### 劑量計算範例 {#calculation}
 
 醫囑「Dopamine(200 mg/5 mL/amp)4 amp in NS 500 mL, IV drip, pump」：
@@ -187,6 +195,8 @@ references:
 - 總藥量 = 200 × 4 = **800 mg**（不是 1000 mg）；濃度 = 800 mg ÷ 500 mL = **1.6 mg/mL(1600 mcg/mL)**
 - 醫囑**沒有寫速率/劑量**(mcg/kg/min)→ **醫囑不完整，需與醫師確認**
 - 若體重 60 kg、要 5 mcg/kg/min:5 × 60 = 300 mcg/min = 18,000 mcg/h ÷ 1600 = **11.25 mL/h**
+
+::questions{ids="114-2_FA_007"}
 
 ### 監測 {#monitoring}
 
@@ -196,7 +206,7 @@ references:
 - 心因性休克病人**不要用電毯等加溫**（周邊血管擴張、回心血量下降）；維持正常體溫即可
 - 監測 K⁺、Mg²⁺（心律不整）、血糖(epinephrine)、肢端缺血、注射部位
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(多巴胺.*(劑量|休克|心衰竭)|dopamine.*(μg|ug|mcg|休克|心衰竭|低血壓|pump)|dobutamine|milrinone|norepinephrine|levophed|強心劑|升壓劑)" limit="10"}
 ::questions{keyword="(心因性休克|cardiogenic shock)" limit="6"}

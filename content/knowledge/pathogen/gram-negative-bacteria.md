@@ -171,6 +171,8 @@ references:
 
 - 奈瑟氏菌特別容易被**補體**最後形成的**膜攻擊複合體**（MAC，C5–C9）殺死；**缺乏 C5–C9 補體**的人容易反覆發生奈瑟氏菌感染
 
+::questions{ids="111-1_BM_077"}
+
 ### 腦膜炎雙球菌 Neisseria meningitidis {#neisseria-meningitidis}
 
 - 有**莢膜**（抗吞噬，也是疫苗成分）與大量內毒素；人是唯一宿主，**不是**人畜共通傳染病
@@ -185,6 +187,8 @@ references:
 兼性厭氧的**革蘭氏陰性桿菌**，多為**腸道正常菌叢**，能發酵葡萄糖、氧化酶陰性，都有內毒素。包括大腸桿菌、沙門氏菌、志賀氏菌、克雷白氏菌、變形桿菌、鼠疫桿菌等；**腸球菌不屬於**腸內桿菌科
 
 - **抗原**：**O 抗原**（細胞壁脂多醣）、**H 抗原**（鞭毛）、**K 抗原**（莢膜），用來做血清分型（例如 O157:H7）；沒有「E 抗原」
+
+::questions{ids="114-1_PC_037,112-3_PC_028,106-2_BM_071"}
 
 ### 大腸桿菌 Escherichia coli {#escherichia-coli}
 
@@ -206,6 +210,8 @@ references:
 
 - 小兒腸胃炎中，病原性大腸桿菌的糞便常為**綠色水樣便**，可能帶血絲與黏液
 
+::questions{ids="114-1_BM_046,106-2_makeup_BM_035,106-2_OP_037,109-1_OP_051,105-1_FA_039,114-3_MS_049,106-1_BM_073,110-1_BM_076,107-1_MS_009"}
+
 ### 沙門氏菌 Salmonella {#salmonella}
 
 | 項目 | **傷寒、副傷寒**（Typhi、Paratyphi） | **非傷寒沙門氏菌**（腸胃炎） |
@@ -220,6 +226,8 @@ references:
 
 - 阿米巴原蟲是**阿米巴痢疾**的病原，**不是**副傷寒
 
+::questions{ids="113-1_MS_048,106-1_OP_075,107-1_PC_044,109-2_BM_080,115-1_PC_037"}
+
 ### 志賀氏菌 Shigella {#shigella}
 
 - **桿菌性痢疾**屬**第二類法定傳染病**，須於 **24 小時內**通報（疾管署）
@@ -229,17 +237,23 @@ references:
 - 併發症：**反應性關節炎**、溶血性尿毒症候群（第一型痢疾志賀氏菌）
 - 治療：補充水分、抗生素可縮短病程與排菌期；**不用**止瀉劑；嚴格洗手與腸道隔離
 
+::questions{ids="106-2_makeup_BM_072"}
+
 ### 克雷白氏菌 Klebsiella pneumoniae {#klebsiella-pneumoniae}
 
 - 有厚**莢膜**、菌落黏稠；腸道與呼吸道正常菌叢
 - 疾病：**酗酒者、糖尿病人**的肺炎（黏稠似紅醋栗果醬痰）、**院內肺炎**、泌尿道感染、敗血症；台灣常見**社區型化膿性肝膿瘍**（糖尿病人為主，可併發**眼內炎**）
 - 不是只會造成呼吸道疾病；常見產生 **ESBL** 或 **carbapenemase**(CRE)的多重抗藥菌株，需接觸隔離
 
+::questions{ids="114-3_BM_046"}
+
 ### 變形桿菌 Proteus mirabilis {#proteus-mirabilis}
 
 - 鞭毛活動力強，在培養基上呈**游走現象**
 - 產生大量**尿素酶** → 尿素分解成氨、**尿液變鹼** → 磷酸銨鎂**結石**（鹿角狀結石）
 - 主要造成**泌尿道感染**（尤其長期導尿管、結石病人）；**不是**食物引起腹瀉的重要病菌
+
+::questions{ids="108-2_BM_068"}
 
 ### 鼠疫桿菌 Yersinia pestis {#yersinia-pestis}
 
@@ -257,6 +271,8 @@ references:
 - **天生抗藥性高**，需選**抗綠膿桿菌藥物**
   1. 可用：**piperacillin**(-tazobactam)、ceftazidime、cefepime、carbapenem（imipenem、meropenem，ertapenem 除外）、aminoglycoside、ciprofloxacin、colistin（[[beta-lactams]]）
   2. amoxicillin、ampicillin、oxacillin **無效**
+
+::questions{ids="112-2_BM_040"}
 
 ### 鮑氏不動桿菌 Acinetobacter baumannii {#acinetobacter-baumannii}
 
@@ -282,6 +298,8 @@ references:
 - 通常**不發燒**、**不痛**；嚴重脫水、**低血鉀**、**代謝性酸中毒**、休克
 - 治療關鍵是**補充水分與電解質**（口服電解質液或靜脈輸液）；**tetracycline** 或 doxycycline 可縮短病程與排菌；腸道隔離（接觸防護）
 - 霍亂是**細菌**感染，不是病毒；蒼蠅可機械性傳播
+
+::questions{ids="108-2_MS_079"}
 
 ### 腸炎弧菌 Vibrio parahaemolyticus {#vibrio-parahaemolyticus}
 
@@ -314,9 +332,13 @@ references:
   3. 檢查時**備妥插管與氣切急救設備**
   4. 不要讓病童躺下、不強迫進食
 
+::questions{ids="107-1_OP_068,110-1_OP_051"}
+
 ### 杜克氏嗜血桿菌 Haemophilus ducreyi {#haemophilus-ducreyi}
 
 - **軟性下疳**：生殖器**疼痛性**、邊緣不規則的軟潰瘍，合併腹股溝淋巴結化膿。梅毒的硬性下疳則是**無痛**的
+
+::questions{ids="112-3_BM_045"}
 
 ## 百日咳桿菌 Bordetella pertussis {#bordetella-pertussis}
 
@@ -332,6 +354,8 @@ references:
 - 治療：**macrolide**（azithromycin、erythromycin）；病人服用抗生素滿 **5 天**前避免接觸嬰幼兒；密切接觸者預防性投藥
 - 預防：**非細胞性百日咳疫苗**（五合一、入國小前的 DTaP-IPV）；孕婦每次懷孕於第 28–36 週接種 Tdap，讓胎兒獲得抗體（疾管署成人預防接種建議）
 
+::questions{ids="107-2_BM_071,105-2_BM_075"}
+
 ## 退伍軍人菌 Legionella pneumophila {#legionella-pneumophila}
 
 - 存在於**水系統**：**空調冷卻水塔**、熱水供應系統、蓮蓬頭、溫泉；可在自來水中存活數月，能在**阿米巴與巨噬細胞內**繁殖
@@ -342,6 +366,8 @@ references:
 - 診斷：**尿液抗原**檢驗；治療：levofloxacin 或 azithromycin（疾管署）；β-lactam 類無效
 - 屬於**非典型肺炎**的致病菌之一（另見 [[atypical-bacteria]]）
 
+::questions{ids="106-2_makeup_BM_073"}
+
 ## 人畜共通的革蘭氏陰性菌 Zoonotic bacteria {#zoonotic}
 
 ### 土倫桿菌 Francisella tularensis（兔熱病） {#francisella-tularensis}
@@ -350,11 +376,15 @@ references:
 - **細胞內寄生**：主要感染**巨噬細胞**，能**抑制吞噬體與溶酶體融合**而存活；清除細菌主要靠**細胞性免疫**
 - A 型菌（北美）比 B 型毒性強；治療用 streptomycin、gentamicin，**β-lactam 類無效**；它引起的是兔熱病，**不是**戰壕熱（戰壕熱是巴東氏菌）
 
+::questions{ids="110-2_BM_073,113-3_BM_045,112-1_BM_045"}
+
 ### 布氏桿菌 Brucella {#brucella}
 
 - **布氏桿菌病屬第四類法定傳染病**；接觸牛、羊、豬等家畜的組織、血液，或喝**未消毒的乳品**（私製乳酪）感染；屠宰、獸醫、實驗室人員是高風險職業
 - 細胞內寄生；**波狀熱**、盜汗、關節痛、肝脾腫大
 - 症狀不明顯時以**血清學**（病人血中的專一性**抗體**）診斷，血液培養慢且危險
+
+::questions{ids="108-2_BM_069"}
 
 ### 貓抓病與咬傷感染 Bartonella henselae {#bartonella-henselae}
 
@@ -363,6 +393,8 @@ references:
   2. 病原是巴東氏菌，貓本身沒有症狀；免疫正常者少有嚴重併發症
   3. 細菌很難培養，以**血清抗體**或 PCR 診斷
   4. 需要治療時用 azithromycin，不是 β-lactam
+
+::questions{ids="115-1_BM_046"}
 
 ### 鼠咬熱 Rat-bite fever {#rat-bite-fever}
 
@@ -374,11 +406,13 @@ references:
 | 未治療致死率 | 較高（約 10%） | 較低 |
 | 治療 | **青黴素** | **青黴素** |
 
+::questions{ids="107-1_BM_073"}
+
 ### 多殺性巴斯德桿菌 Pasteurella multocida {#pasteurella-multocida}
 
 - 貓狗口腔常在菌；**貓咬傷**後 24 小時內快速出現紅腫熱痛的蜂窩性組織炎
 - 咬傷處理：大量清水與肥皂**沖洗**、評估是否需要預防性抗生素(amoxicillin-clavulanate)、破傷風與狂犬病風險評估；衛教觀察傷口紅腫與發燒
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="114-1_BM_046,108-2_BM_043,106-2_makeup_BM_035,114-2_BM_046,110-1_BM_068,106-2_OP_037,109-1_OP_051,105-1_FA_039,114-3_MS_049,108-1_BM_068,112-1_PC_065,106-1_BM_073,110-1_BM_076,113-1_MS_048,106-1_OP_075,108-2_PC_069,107-1_PC_044,109-2_BM_080,115-1_PC_037,114-1_PC_037,107-1_MS_009,114-3_BM_046,106-2_makeup_BM_072,112-3_PC_028,108-2_BM_068,110-1_BM_034,112-2_BM_040,108-2_MS_079,110-1_PC_048,109-1_BM_065,113-1_BM_046,107-2_PC_045,106-2_PC_050,113-1_BM_047,106-1_BM_072,107-1_OP_068,110-1_OP_051,112-3_BM_045,107-2_BM_071,105-2_BM_075,106-2_makeup_BM_073,109-1_BM_069,110-2_BM_073,113-3_BM_045,112-1_BM_045,108-2_BM_069,111-2_OP_046,111-1_BM_077,106-2_BM_071,115-1_BM_046,107-1_BM_073"}
+::questions{ids="108-2_BM_043,114-2_BM_046,110-1_BM_068,108-1_BM_068,112-1_PC_065,108-2_PC_069,110-1_BM_034,110-1_PC_048,109-1_BM_065,113-1_BM_046,107-2_PC_045,106-2_PC_050,113-1_BM_047,106-1_BM_072,109-1_BM_069,111-2_OP_046"}

@@ -101,6 +101,8 @@ references:
 - 異常：**臍根部紅腫**、**膿性分泌物**、**臭味**、出血、肉芽組織；發燒或活動力差 → **臍炎**，要就醫
 - 細節見 [[perinatal-infections#neonatal-infections]]
 
+::questions{ids="110-2_OP_038"}
+
 ## 沐浴與皮膚護理 {#bathing-skin}
 
 ### 沐浴 {#bathing}
@@ -125,6 +127,8 @@ references:
 - 指甲：用嬰兒專用剪刀，睡著時修剪，剪平
 
 ::questions{ids="114-1_OP_017,111-1_OP_027"}
+
+::questions{ids="105-1_OP_028"}
 
 ## 餵食與體重 {#weight-feeding}
 
@@ -203,6 +207,6 @@ references:
 - 衛教內容：哺餵與尿便觀察、臍帶護理、沐浴、尿布疹、安全睡眠、預防接種時程（兒童健康手冊）、新生兒篩檢與聽力篩檢結果追蹤、兒童預防保健、**嬰兒安全座椅**（後向安裝）、避免**嬰兒搖晃症候群**
 - 母親與家人的照顧與心理支持見 [[postpartum-care#discharge-teaching]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="嬰兒猝死症候群|尿布疹|新生兒生理性體重流失|臍炎" limit="12"}

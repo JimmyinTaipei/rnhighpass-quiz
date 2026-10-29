@@ -124,6 +124,8 @@ references:
 
 ::questions{ids="111-1_MS_069,106-2_MS_066"}
 
-## 相關考題 {#questions}
+::questions{ids="109-2_MS_069"}
+
+## 綜合考題 {#questions}
 
 ::questions{tag="甲狀腺功能低下|黏液水腫|黏液水腫昏迷" limit="8"}

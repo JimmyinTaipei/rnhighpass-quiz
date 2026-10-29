@@ -68,6 +68,8 @@ references:
 
 ## 荷爾蒙避孕 {#contraceptives}
 
+::questions{ids="114-3_MS_016"}
+
 ### 種類與機轉 {#contraceptive-types}
 
 | 方法 | 成分 | 主要機轉 | 重點 |
@@ -189,6 +191,6 @@ references:
 
 ::questions{ids="105-1_OP_003,113-3_BM_038,113-1_OP_044"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(避孕|口服避孕藥|荷爾蒙補充|荷爾蒙替代|HRT|雌性素|動情素|黃體素|RU486|mifepristone|finasteride|clomiphene|tamoxifen|raloxifene)" limit="8"}

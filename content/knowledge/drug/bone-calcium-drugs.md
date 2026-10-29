@@ -152,6 +152,6 @@ references:
 - 低血鈣：靜脈**葡萄糖酸鈣**、口服鈣＋活性維生素 D（見 [[parathyroid-disorders#acute-hypocalcemia]]）
 - **會造成骨質流失的藥**：**類固醇**、**抗癲癇藥**（phenytoin 等）、過量甲狀腺素、**肝素**長期使用、芳香環酶抑制劑、GnRH 類似物、**DMPA** 避孕針、氫離子幫浦抑制劑長期使用
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(骨質疏鬆|雙磷酸鹽|bisphosphonate|alendronate|zoledronic|denosumab|teriparatide|calcitonin|碳酸鈣|鈣片|raloxifene)" limit="8"}

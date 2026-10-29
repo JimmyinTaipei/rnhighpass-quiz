@@ -102,6 +102,8 @@ references:
 
 ::questions{ids="108-2_MS_070,113-2_BM_038,109-1_BM_063,114-2_BM_039"}
 
+::questions{ids="114-3_FA_012"}
+
 ## 給藥原則與衛教 {#nursing}
 
 1. **早上**一次服用（約 8 點前），配合體內皮質醇的早晨高峰，較少抑制腎上腺、減少失眠
@@ -140,6 +142,6 @@ references:
 
 ::questions{ids="111-1_BM_062,107-2_BM_060,115-1_BM_039"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(類固醇|corticosteroid|Corticosteroid|prednisolone|Prednisolone|prednisone|dexamethasone|Dexamethasone|Decadron|hydrocortisone|methylprednisolone|betamethasone)" limit="8"}

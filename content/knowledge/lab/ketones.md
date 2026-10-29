@@ -75,6 +75,8 @@ references:
 
 ![[diabetes#dka-vs-hhs]]
 
+::questions{ids="113-3_FA_019"}
+
 ## 干擾與判讀陷阱 {#interference}
 
 - **尿酮試紙測不到 β-OHB**：酮酸中毒早期 β-OHB 為主，尿酮可能**低估**（來源：[2024 ADA/EASD/JBDS/AACE/DTS 高血糖危象共識](https://doi.org/10.2337/dci24-0032)）
@@ -102,6 +104,6 @@ references:
 - [[blood-glucose]]
 - 電解質（鉀）、陰離子間隙
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="糖尿病酮酸中毒|酮酸中毒|酮尿症" keyword="(酮體|尿酮|ketone|酮)" limit="8"}

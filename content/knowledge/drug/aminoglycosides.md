@@ -46,6 +46,8 @@ references:
 - 在**酸性環境**（膿瘍、支氣管分泌物）效果下降，**鹼性尿液**中較有效
 - 與 **β-lactam 或 vancomycin** 併用有**協同作用**：細胞壁受損後藥物更容易進入（例如腸球菌心內膜炎的 ampicillin＋gentamicin）（[[antibiotics-overview#combinations]]）
 
+::questions{ids="115-1_BM_032,105-2_BM_061,111-1_BM_053"}
+
 ## 代表藥物 {#agents}
 
 | 藥物 | 途徑 | 重點 |
@@ -79,6 +81,8 @@ references:
 
 （一天一次給法時，常在給藥後特定時間抽一次濃度，用圖表調整間隔；數值以各院藥劑部規範為準）
 
+::questions{ids="106-2_makeup_BM_064"}
+
 ## 副作用與禁忌 {#adverse-effects}
 
 | 副作用 | 說明 | 護理監測 |
@@ -90,6 +94,8 @@ references:
 
 高風險族群：**高齡**、腎功能不全、**脫水**、療程長、谷濃度高、併用其他腎毒性或耳毒性藥物
 
+::questions{ids="110-2_MS_047"}
+
 ## 交互作用 {#interactions}
 
 | 併用 | 結果 |
@@ -98,6 +104,8 @@ references:
 | **vancomycin**、amphotericin B、cisplatin、cyclosporine、NSAIDs、顯影劑 | **腎毒性增加** |
 | 神經肌肉阻斷劑、麻醉劑 | 神經肌肉阻斷、呼吸抑制 |
 | β-lactam | **協同**殺菌；但**不可在同一袋點滴或針筒混合**（會互相使對方失去活性），要分開給 |
+
+::questions{ids="107-2_BM_062"}
 
 ## 護理重點與衛教 {#nursing}
 
@@ -109,6 +117,8 @@ references:
 6. 出現呼吸變淺、肌肉無力時立即通知醫師
 7. 使用 neomycin 時，**酸化尿液沒有幫助**（胺基配醣體在鹼性環境才有效）；「需要酸性尿液才有效」的是泌尿道消毒劑 methenamine（[[fluoroquinolones-sulfonamides#urinary-antiseptics]]）
 
-## 相關考題 {#questions}
+::questions{ids="105-2_FA_028,112-1_MS_059"}
 
-::questions{ids="106-2_makeup_BM_064,105-1_BM_059,115-1_BM_032,105-2_BM_061,107-2_BM_062,111-1_BM_053,105-2_FA_028,112-1_MS_059,107-2_OP_064,110-2_MS_047,108-2_BM_064"}
+## 綜合考題 {#questions}
+
+::questions{ids="105-1_BM_059,107-2_OP_064,108-2_BM_064"}

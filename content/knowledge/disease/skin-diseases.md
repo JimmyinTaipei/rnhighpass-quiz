@@ -137,6 +137,6 @@ references:
 
 ::questions{ids="112-1_MS_045,111-2_MS_046"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="乾癬|皮膚癌|皮膚腫瘤|脂漏性角化症|皮膚病灶" limit="12"}

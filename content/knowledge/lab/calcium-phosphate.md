@@ -69,6 +69,8 @@ references:
 
 ## 偏低：低血鈣 {#low}
 
+::questions{ids="115-1_MS_042"}
+
 ### 原因 {#low-causes}
 
 | 類別 | 原因 |
@@ -154,6 +156,6 @@ references:
 
 ::questions{ids="109-1_MS_071,108-2_MS_064,111-1_MS_067,107-2_MS_068"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="低血鈣|高血鈣|高血磷症" limit="8"}

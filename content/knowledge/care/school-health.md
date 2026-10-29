@@ -165,6 +165,6 @@ references:
 | 照度越亮越好 | 足夠即可 | |
 | CPR 15 : 1 | **30 : 2** | |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="視力不良" limit="6"}

@@ -198,6 +198,6 @@ ARDS 或肺擴張不全時，很多肺泡在吐氣末塌陷，血流經過卻沒
 
 ::questions{ids="110-2_MS_052"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(呼吸器|機械通氣|機械性通氣|PEEP|BiPAP|CPAP|脫離|weaning)" limit="8"}

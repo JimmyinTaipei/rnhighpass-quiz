@@ -131,6 +131,6 @@ references:
 
 ::questions{ids="106-2_BM_061,112-3_BM_034,109-2_BM_050"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="甲狀腺機能亢進|甲狀腺功能低下|甲狀腺風暴" keyword="(levothyroxine|thyroxine|甲狀腺素|PTU|propylthiouracil|methimazole|碘化鉀|碘劑|放射性碘)" limit="8"}

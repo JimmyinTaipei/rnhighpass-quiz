@@ -194,6 +194,8 @@ references:
 
 ::questions{ids="109-2_OP_010,109-1_OP_005,108-2_OP_060"}
 
+::questions{ids="110-2_OP_008"}
+
 ### 肺的發育與成熟 {#lung-maturity}
 
 | 時期（妊娠週數） | 發育 |
@@ -223,6 +225,8 @@ references:
 
 - 多胞胎妊娠的分娩照護見 [[labor-complications#multiple-pregnancy]]
 
-## 相關考題 {#questions}
+::questions{ids="109-2_OP_003"}
+
+## 綜合考題 {#questions}
 
 ::questions{tag="妊娠" keyword="胚胎|胎盤|著床|受精|羊水|胎兒發育" limit="10"}

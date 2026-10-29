@@ -131,6 +131,6 @@ references:
 
 ::questions{ids="106-2_BM_059,112-2_OP_032,110-1_OP_032,110-2_PC_060"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(epinephrine|腎上腺素|dopamine|dobutamine|phenylephrine|terbutaline|salbutamol|ritodrine|Yutopar|擬交感|交感神經作用|瘦肉精|β2.{0,3}(致效|促效|agonist))" limit="8"}

@@ -53,6 +53,8 @@ references:
 - 非專一性（streptokinase、urokinase）會活化全身循環中的胞漿素原，全身性溶解狀態較明顯
 - 血栓越新鮮（纖維蛋白尚未交聯穩固）越容易溶，所以**越早給效果越好**：時間就是心肌、時間就是腦
 
+::questions{ids="110-1_BM_058"}
+
 ## 代表藥物 {#agents}
 
 | 藥物 | 特色 |
@@ -77,6 +79,8 @@ references:
 - 「**藥物-侵入策略**」：溶栓後**立即**轉到可做 PCI 的醫院，**2–24 小時內**做冠狀動脈攝影；若胸痛未改善、**ST 段回落不足（前壁導程 < 50%、下壁導程 < 70%）**、血行動力或電氣不穩 → 立即**救援性 PCI**（REACT 試驗以溶栓後 90 分鐘評估）（同上來源）
 - 心電圖判讀見 [[ecg#acs-ecg]]；整體流程見 [[coronary-artery-disease]]
 
+::questions{ids="114-3_MS_034,112-2_MS_028"}
+
 ### 急性缺血性中風（簡述） {#stroke}
 
 - 先做**頭部 CT**（非顯影）排除**出血性中風** — 出血性中風絕對不能溶栓
@@ -93,6 +97,8 @@ references:
 - 在心跳停止且高度懷疑肺栓塞時，AHA 指引認為可考慮給予血栓溶解劑（2025 版此建議在 Part 10 特殊情況，本次未取得全文核對）
 - 栓子的來源與去向見 [[thrombosis-embolism-infarction#embolism]]
 
+::questions{ids="111-1_MS_057,108-2_MS_051"}
+
 ## 副作用與禁忌 {#adverse-effects}
 
 | 副作用 | 說明與處置 |
@@ -102,6 +108,8 @@ references:
 | 再灌流心律不整 | 血流恢復時出現，見下方 [[thrombolytics#reperfusion]] |
 | 過敏、低血壓、發燒 | Streptokinase 常見 |
 | 血管性水腫 | Alteplase（尤其合用 ACEI 者）：觀察舌與嘴唇腫脹 |
+
+::questions{ids="113-3_MS_005"}
 
 ### 禁忌（STEMI 溶栓，依 ACC/AHA） {#contraindications}
 
@@ -157,6 +165,6 @@ references:
 
 未出現上述徵象 → 可能溶栓失敗，需安排救援性 PCI
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="114-3_MS_034,113-3_MS_005,112-2_MS_028,111-1_MS_057,110-1_BM_058,108-2_MS_051,108-1_MS_025"}
+::questions{ids="108-1_MS_025"}

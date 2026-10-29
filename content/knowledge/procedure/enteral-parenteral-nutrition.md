@@ -210,6 +210,6 @@ references:
 | TPN 管路可順便抽血給藥 | 專用 | 感染與交互作用 |
 | TPN 每袋可掛 48 小時 | 24 小時內 | 汙染風險 |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="110-2_FA_050,112-2_FA_045,107-2_FA_048,115-2_FA_030,106-1_OP_072" limit="10"}
+::questions{ids="110-2_FA_050,112-2_FA_045,106-1_OP_072" limit="10"}

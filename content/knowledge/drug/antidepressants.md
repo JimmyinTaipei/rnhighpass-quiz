@@ -99,6 +99,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+::questions{ids="114-2_OP_026,111-2_PC_009"}
+
 ### SSRI 與 SNRI {#ssri-effects}
 
 | 副作用 | 說明與護理 |
@@ -164,6 +166,8 @@ references:
 - **ECG**：**QRS > 100 毫秒**時癲癇與心室性心律不整的風險明顯增加（來源：[UpToDate：Tricyclic antidepressant poisoning](https://www.uptodate.com/contents/tricyclic-antidepressant-poisoning)）
 - 處置：維持呼吸道、心電圖監測、活性碳（意識清楚、呼吸道安全時）、QRS 變寬或心律不整給**碳酸氫鈉**(sodium bicarbonate)靜脈注射、癲癇用 BZD
 
+::questions{ids="111-2_PC_032"}
+
 ### 單胺氧化酶抑制劑(MAOI) {#maoi}
 
 - **酪胺**(tyramine)是食物中的單胺，正常會被腸道與肝臟的 MAO-A 分解；服用 MAOI 時大量酪胺進入循環，促使正腎上腺素釋放 → **高血壓危象**：劇烈**枕部頭痛**、頸部僵硬、心悸、胸痛、噁心嘔吐、大量出汗、血壓急遽上升，可能造成**顱內出血**
@@ -222,6 +226,6 @@ references:
 
 ::questions{ids="115-2_PC_004,114-3_PC_013,111-1_PC_024,110-1_PC_015,106-1_PC_013,106-1_PC_023,105-1_PC_009,113-2_PC_021,112-2_PC_033,105-1_PC_028,115-2_BM_034,115-1_BM_035,114-1_BM_034,112-2_BM_034,110-2_BM_055,106-2_makeup_BM_052,105-1_BM_053,109-2_BM_023"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{group="antidepressants" limit="12"}

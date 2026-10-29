@@ -186,6 +186,8 @@ references:
 
 ::questions{ids="106-2_makeup_MS_061,113-2_MS_037,113-3_MS_040,115-2_MS_038,110-1_MS_067,111-2_MS_067"}
 
+::questions{ids="108-2_MS_061"}
+
 ### 評估與檢查 {#bph-diagnosis}
 
 - **國際前列腺症狀指數**(IPSS)：7 題，每題 0–5 分，總分 35；**0–7 輕度、8–19 中度、20 以上重度**（《內外科護理學》下冊 p.935 表 20-14）
@@ -387,6 +389,6 @@ references:
 
 ::questions{ids="107-2_BM_025"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="110-2_MS_064,108-2_MS_061"}
+::questions{ids="110-2_MS_064"}

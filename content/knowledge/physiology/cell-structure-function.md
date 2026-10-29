@@ -106,6 +106,8 @@ references:
 
 ::questions{ids="114-3_BM_001,113-1_BM_001,111-1_BM_001,112-3_BM_002,109-1_BM_002,107-2_BM_017,115-2_BM_011,110-1_BM_065,106-1_BM_068,106-2_makeup_BM_017,114-2_BM_002"}
 
+::questions{ids="113-2_BM_011"}
+
 ## 細胞核與蛋白質合成 {#nucleus}
 
 1. **核仁**：沒有膜，製造 **rRNA** 並組裝核糖體
@@ -179,6 +181,8 @@ references:
 
 ::questions{ids="115-1_BM_012,108-2_BM_013,108-1_BM_001,106-2_BM_011,106-2_makeup_BM_001,105-1_BM_013"}
 
-## 相關考題 {#questions}
+::questions{ids="115-2_BM_002"}
+
+## 綜合考題 {#questions}
 
 ::questions{keyword="胞器|粒線體|高基氏體|溶小體|核糖體|主動運輸|有絲分裂|上皮組織" limit="10"}

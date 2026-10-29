@@ -47,6 +47,8 @@ references:
 - 前列腺、膀胱頸、尿道平滑肌有大量 α1（特別是 α1A）→ 放鬆後尿流改善
 - 對血脂中性或略有好處，不影響血糖
 
+::questions{ids="113-3_BM_031"}
+
 ## 代表藥物 {#agents}
 
 | 藥物 | 特色 |
@@ -83,6 +85,8 @@ references:
 
 **禁忌/小心**：對藥物過敏；姿勢性低血壓病史；心衰竭（非首選）；與 PDE5 抑制劑(sildenafil)併用小心
 
+::questions{ids="109-1_BM_049"}
+
 ## 交互作用 {#interactions}
 
 - **PDE5 抑制劑**（sildenafil、tadalafil）：加成低血壓，兩者間隔時間並從低劑量開始
@@ -99,7 +103,7 @@ references:
 - 白內障手術前主動告知醫師用藥
 - 使用 phentolamine 治療升壓劑外滲：於外滲部位皮下多點浸潤注射，越早越好（12 小時內）
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{ids="106-2_BM_058,108-2_BM_049,106-2_makeup_MS_073"}
 

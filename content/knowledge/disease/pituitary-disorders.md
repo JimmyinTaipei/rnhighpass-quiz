@@ -73,6 +73,8 @@ references:
 
 ::questions{ids="105-2_MS_072,109-1_BM_048,110-2_MS_003,105-2_MS_006"}
 
+::questions{ids="112-1_BM_001"}
+
 ## 生長激素過多：巨人症與肢端肥大症 {#gh-excess}
 
 | | 巨人症 | 肢端肥大症 |
@@ -95,6 +97,8 @@ references:
 - 外觀改變大多不會完全恢復，需給予身體心像的支持
 
 ::questions{ids="107-2_MS_076,106-2_MS_069,114-1_MS_044,105-2_MS_073,105-2_MS_074"}
+
+::questions{ids="112-1_BM_030"}
 
 ## 腦下垂體功能低下 {#hypopituitarism}
 
@@ -162,6 +166,6 @@ references:
 
 ::questions{ids="112-1_MS_001"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="腦下垂體腫瘤|肢端肥大症|巨人症|腦下垂體中風|席漢氏症候群|腦下垂體功能低下" limit="8"}

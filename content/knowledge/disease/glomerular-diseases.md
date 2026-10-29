@@ -85,6 +85,8 @@ references:
 
 ## 急性腎絲球腎炎 {#agn}
 
+::questions{ids="105-1_MS_062"}
+
 ### 病因與機轉 {#agn-pathophysiology}
 
 - 鏈球菌抗原與抗體形成**免疫複合體**，沉積在腎絲球 → 活化**補體** → 發炎 → 過濾膜受損，**紅血球與蛋白質漏到尿中**；過濾面積減少 → **GFR 下降**、鈉與水滯留 → **少尿、水腫、高血壓**（《實用兒科護理》p.594–595）
@@ -139,6 +141,8 @@ references:
 ::questions{ids="112-2_MS_061"}
 
 ## 腎病症候群 {#nephrotic}
+
+::questions{ids="108-1_MS_064,110-2_OP_076,108-2_OP_066,108-2_OP_077"}
 
 ### 病因與機轉 {#nephrotic-pathophysiology}
 
@@ -221,6 +225,4 @@ references:
 
 ::questions{ids="111-2_MS_066"}
 
-## 相關考題 {#questions}
-
-::questions{ids="105-1_MS_062,108-1_MS_064,110-2_OP_076,108-2_OP_066,108-2_OP_077"}
+## 綜合考題 {#questions}

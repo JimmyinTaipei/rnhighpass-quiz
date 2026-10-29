@@ -85,7 +85,11 @@ references:
 
 ::questions{ids="114-3_MS_033,106-2_makeup_MS_054"}
 
+::questions{ids="114-3_MS_048"}
+
 ## 急性呼吸窘迫症候群(ARDS) {#ards}
+
+::questions{ids="114-2_MS_034,113-2_MS_036,112-2_MS_056"}
 
 ### 原因 {#ards-causes}
 
@@ -183,6 +187,8 @@ references:
 
 ::questions{ids="107-2_OP_065,110-1_OP_009,108-1_OP_009,110-1_OP_072,111-1_OP_057,111-2_OP_054,112-3_OP_036"}
 
-## 相關考題 {#questions}
+::questions{ids="115-1_OP_034"}
+
+## 綜合考題 {#questions}
 
 ::questions{tag="呼吸衰竭|急性呼吸窘迫症候群|新生兒呼吸窘迫症候群" limit="10"}

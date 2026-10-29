@@ -48,6 +48,8 @@ references:
 
 ## B 細胞的發育 {#development}
 
+::questions{ids="109-2_BM_035"}
+
 ### 骨髓內的階段 {#bone-marrow}
 
 1. **前驅 B 細胞(pro-B)**：開始重組**重鏈基因**（V(D)J 重組，**RAG1／RAG2**、TdT 參與）
@@ -73,6 +75,8 @@ references:
 | **CD40** | 結合 T 細胞的 **CD40L**，T 依賴活化必要 |
 
 ## B 細胞的活化 {#activation}
+
+::questions{ids="113-1_BM_042"}
 
 ### T 依賴活化（蛋白質抗原） {#t-dependent}
 
@@ -113,6 +117,8 @@ references:
 2. **結合型疫苗**（把多醣接在**蛋白質載體**上，例如 Hib、結合型肺炎鏈球菌、腦膜炎雙球菌）讓這些抗原變成 **T 依賴**，嬰幼兒也能產生 IgG 與記憶（[[immunization#vaccine-types]]）
 3. 未結合的多醣疫苗（例如 23 價肺炎鏈球菌多醣疫苗）對 2 歲以下效果差
 
+::questions{ids="108-1_BM_074"}
+
 ## 初次與二次免疫反應 {#primary-secondary}
 
 | | **初次反應** | **二次（回憶）反應** |
@@ -148,6 +154,8 @@ references:
 3. **兩者合作**：Tfh 幫 B 細胞；Th1 提供 IFN-γ 讓 B 細胞轉換 IgG；NK 細胞以抗體的 **Fc 受體(CD16)** 做 ADCC
 4. **T 細胞需要 MHC**，B 細胞辨認抗原**不需要 MHC**；形成細胞性免疫反應所需的時間**比體液性免疫長**（108-1_MS 國考說法）
 
+::questions{ids="112-2_MS_047,106-1_BM_065,111-1_BM_043,108-1_MS_050,115-2_BM_043,109-2_BM_065"}
+
 ## B 細胞的臨床連結 {#clinical}
 
 1. **XLA、普通變異型免疫缺乏、選擇性 IgA 缺乏**等體液性缺陷：見 [[primary-immunodeficiency]]
@@ -156,6 +164,8 @@ references:
 4. **抗 CD20 單株抗體(rituximab)**清除 B 細胞，用於淋巴瘤與自體免疫病，詳見 [[monoclonal-antibodies]]
 5. 抗體的結構、五類 Ig 與血型：見 [[immunoglobulins-hla]]
 
-## 相關考題 {#questions}
+::questions{ids="110-2_BM_046"}
 
-::questions{ids="112-2_MS_047,110-2_MS_049,108-2_MS_046,106-1_BM_065,109-2_PC_060,108-1_BM_074,111-1_BM_065,112-2_BM_041,109-2_BM_035,111-1_BM_043,105-1_BM_070,113-1_BM_042,112-2_BM_022,105-1_BM_035,110-2_BM_046,108-1_MS_050,115-2_BM_043,109-2_BM_065,106-1_BM_078"}
+## 綜合考題 {#questions}
+
+::questions{ids="110-2_MS_049,108-2_MS_046,109-2_PC_060,111-1_BM_065,112-2_BM_041,105-1_BM_070,112-2_BM_022,105-1_BM_035,106-1_BM_078"}

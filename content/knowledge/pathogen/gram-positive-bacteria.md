@@ -104,6 +104,8 @@ references:
 - **抗萬古黴素腸球菌**(VRE)：長期住院、曾用 vancomycin 或廣效抗生素者；治療用 **linezolid**、**daptomycin**（[[glycopeptides]]、[[antibiotics-overview#mdro]]）
 - 感染管制：**接觸隔離**、環境清潔、專用器材、手部衛生
 
+::questions{ids="106-2_makeup_BM_071"}
+
 ## 白喉桿菌 Corynebacterium diphtheriae {#corynebacterium-diphtheriae}
 
 - **革蘭氏陽性桿菌**，呈棒狀、排列像**中文字**或柵欄狀；只有帶有噬菌體毒素基因的菌株才會產生**白喉毒素**
@@ -118,6 +120,8 @@ references:
 - 感染後**不一定**產生保護性免疫，康復後仍要接種疫苗
 - **預防**：**類毒素疫苗**（五合一疫苗，滿 5 歲至入國小前追加 DTaP-IPV）；台灣全面接種後已很少見
 
+::questions{ids="108-1_BM_067,108-1_BM_076,114-3_BM_045,108-2_BM_067"}
+
 ## 李斯特菌 Listeria monocytogenes {#listeria-monocytogenes}
 
 - 革蘭氏陽性短桿菌，具翻滾式運動；**細胞內寄生**，可在巨噬細胞內存活並直接在細胞間擴散
@@ -128,6 +132,8 @@ references:
 - 治療：**ampicillin**（常併用 gentamicin）；**頭孢菌素無效**
 - 李斯特菌**不是**非典型肺炎的致病菌（非典型肺炎是黴漿菌、披衣菌、退伍軍人菌）
 - 衛教孕婦：避免生食、未消毒乳品，即食肉品**充分加熱**再吃
+
+::questions{ids="105-1_BM_072,107-1_BM_070,111-1_BM_075"}
 
 ## 炭疽桿菌 Bacillus anthracis {#bacillus-anthracis}
 
@@ -143,6 +149,8 @@ references:
 
 - 治療：ciprofloxacin 或 doxycycline；暴露後預防加疫苗（高風險職業）
 
+::questions{ids="106-2_BM_070,112-2_BM_046"}
+
 ## 蠟樣桿菌 Bacillus cereus {#bacillus-cereus}
 
 - 需氧產芽孢；芽孢在烹煮後存活，食物（尤其**米飯、炒飯**）在**室溫放置**時萌發產毒
@@ -154,6 +162,8 @@ references:
 
 - 支持療法即可；本菌常產生 β-lactamase，**青黴素無效**
 - 眼外傷後的**眼內炎**進展快、**組織破壞嚴重**，可能失明
+
+::questions{ids="109-1_BM_068"}
 
 ## 痲瘋分枝桿菌與漢生病 Mycobacterium leprae {#mycobacterium-leprae}
 
@@ -177,6 +187,8 @@ references:
   - 病灶多無痛，護理目標不以「免於疼痛」為主
 - 漢生病**不是**人畜共通傳染病（極少數地區的犰狳除外），也**不是**主要侵犯腸胃道
 
-## 相關考題 {#questions}
+::questions{ids="109-2_BM_076,113-1_MS_050,106-2_makeup_MS_080"}
 
-::questions{ids="106-2_makeup_BM_071,108-1_BM_067,106-2_BM_070,108-1_BM_076,114-3_BM_045,108-2_BM_067,105-1_BM_072,107-1_BM_070,111-1_BM_075,109-2_BM_074,112-2_BM_046,109-1_BM_068,109-2_BM_076,113-1_MS_050,106-2_makeup_MS_080"}
+## 綜合考題 {#questions}
+
+::questions{ids="109-2_BM_074"}

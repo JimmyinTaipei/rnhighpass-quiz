@@ -58,6 +58,8 @@ references:
 
 心衰竭時 RAAS 長期活化，醛固酮促進**心肌與血管纖維化**、鈉水滯留、排鉀排鎂；MRA 阻斷這些作用，所以好處遠超過「利尿」（RAAS 見 [[blood-pressure-regulation#raas]]）
 
+::questions{ids="115-1_BM_039,115-1_BM_009,114-2_BM_033"}
+
 ## 代表藥物 {#agents}
 
 | 藥物 | 特色 |
@@ -102,6 +104,8 @@ references:
 
 **禁忌**：高血鉀(> 5.0)、**嚴重腎功能不全**（eGFR < 30 或無尿）、愛迪生氏病、同時使用鉀補充劑或兩種以上保鉀劑
 
+::questions{ids="114-2_OP_041"}
+
 ## 交互作用 {#interactions}
 
 | 併用藥物/食物 | 結果 |
@@ -125,6 +129,6 @@ references:
 - 每日量體重；肝硬化病人量腹圍
 - 兒童心臟病使用 spironolactone 時，同樣是**高血鉀**風險，不是低血鉀
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(spironolactone|aldactone|eplerenone|amiloride|triamterene|保鉀|醛固酮拮抗|醛固酮受體)" limit="10"}

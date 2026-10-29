@@ -64,6 +64,6 @@ references:
 - 多數每日一次（vildagliptin 每日 2 次，依仿單），與進食無關
 - 教導胰臟炎警訊
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(gliptin|DPP-? ?4)" limit="4"}

@@ -106,6 +106,8 @@ references:
 
 ::questions{ids="112-1_FA_046,108-2_MS_004,112-2_MS_005,114-3_MS_005,113-2_FA_025,110-1_FA_038,107-2_MS_002,106-2_makeup_FA_044"}
 
+::questions{ids="114-3_OP_045,114-3_FA_025"}
+
 ### 腦疝脫 {#herniation}
 
 | 類型 | 被擠到哪裡 | 表現 |
@@ -197,6 +199,6 @@ references:
 
 ::questions{ids="112-3_OP_049,113-1_OP_048,111-2_OP_080,109-1_OP_053,110-1_OP_078,110-1_OP_079,115-2_OP_049,110-1_OP_027"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(顱內壓|腦壓|IICP|腦水腫|腦疝|庫欣氏三|Cushing.?s triad|腦灌流|Mannitol|甘露醇)" limit="8"}

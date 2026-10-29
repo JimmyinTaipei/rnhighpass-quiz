@@ -54,6 +54,6 @@ references:
 
 ## 護理重點與衛教 {#nursing}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(代表藥英文名|類別名)" limit="8"}

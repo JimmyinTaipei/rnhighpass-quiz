@@ -120,6 +120,8 @@ references:
 
 ::questions{ids="106-2_MS_040,106-2_makeup_MS_042,112-1_MS_035,112-1_OP_033,107-2_MS_045"}
 
+::questions{ids="114-3_OP_023"}
+
 ## 栓塞 {#embolism}
 
 ![栓子的來源與去向：靜脈系統的栓子塞在肺，動脈系統的栓子塞在腦、腎、脾、腸、下肢；下方為脂肪、氣體、羊水等非血栓栓子](/knowledge-images/embolism-routes.svg)
@@ -175,6 +177,6 @@ references:
 
 ::questions{ids="108-1_BM_042"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="血栓形成|血栓栓塞|栓塞|梗塞|止血與凝血|瀰漫性血管內凝血|脂肪栓塞症候群|減壓症|羊水栓塞" limit="12"}

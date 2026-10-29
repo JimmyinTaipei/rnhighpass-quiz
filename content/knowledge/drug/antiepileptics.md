@@ -154,6 +154,8 @@ references:
 
 ::questions{ids="114-2_MS_004,111-2_OP_078,109-2_OP_077,107-1_OP_053,115-1_OP_048"}
 
+::questions{ids="114-1_MS_004"}
+
 ## 癲癇重積狀態 {#status-epilepticus}
 
 - **定義**：發作持續 **5 分鐘以上**，或反覆發作、**兩次之間意識沒有恢復**（5 分鐘後自行停止的機會變小，持續 30 分鐘以上可能造成永久腦傷）
@@ -167,6 +169,6 @@ references:
 
 ::questions{ids="114-3_MS_001,105-1_MS_007"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(抗癲癇|癲癇藥|Dilantin|phenytoin|carbamazepine|Tegretol|valpro|Depakine|phenobarbital|Luminal|ethosuximide|lamotrigine|levetiracetam|Keppra|gabapentin|重積)" limit="8"}

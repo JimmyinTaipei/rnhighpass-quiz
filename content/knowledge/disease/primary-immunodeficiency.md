@@ -110,6 +110,6 @@ references:
    3. **疫苗**注射 IVIG 後的活性疫苗要間隔，見 [[kawasaki-disease#nursing]]
 5. **家屬支持**：遺傳諮詢、**家族成員篩檢**、**學校與社交限制**的說明
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{ids="113-3_BM_043,109-2_BM_035,105-1_BM_070,111-1_BM_043,115-1_BM_022"}

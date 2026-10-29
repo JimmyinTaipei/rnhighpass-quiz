@@ -53,6 +53,8 @@ references:
 
 **Tirzepatide** 同時活化 **GIP 與 GLP-1 受體**（雙重促效劑），降血糖與減重效果更強
 
+::questions{ids="109-1_MS_067,108-1_BM_063"}
+
 ## 代表藥物 {#agents}
 
 | 藥物 | 給藥 |
@@ -105,6 +107,6 @@ references:
 - 安排手術、內視鏡或深度鎮靜前，主動確認是否使用 GLP-1 RA 或 tirzepatide 並通知麻醉團隊
 - 減重效果停藥後常會回升，需搭配生活型態調整
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(glutide|exenatide|GLP-? ?1|incretin|腸泌素)" limit="6"}

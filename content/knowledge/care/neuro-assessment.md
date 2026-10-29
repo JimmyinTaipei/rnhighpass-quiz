@@ -162,6 +162,8 @@ references:
 
 ::questions{ids="110-2_MS_005,110-2_MS_007,112-3_MS_006,112-2_FA_039"}
 
+::questions{ids="115-2_MS_048"}
+
 ## 運動、感覺與反射 {#motor-sensory}
 
 ### 肌力 {#muscle-strength}
@@ -189,6 +191,8 @@ references:
 - 新生兒反射見 [[spinal-cord-spinal-nerves#newborn-reflexes]]
 
 ::questions{ids="109-2_MS_005"}
+
+::questions{ids="115-1_MS_009"}
 
 ### 小腦與腦膜刺激徵象 {#cerebellum-meninges}
 
@@ -229,6 +233,8 @@ references:
 
 ::questions{ids="111-1_MS_007,108-1_MS_002,106-2_MS_006,113-3_MS_001,107-2_MS_008,108-2_MS_016,114-2_FA_022,109-1_OP_054,108-2_OP_080,105-2_MS_001,105-1_MS_004"}
 
-## 相關考題 {#questions}
+::questions{ids="115-1_MS_003,114-3_OP_042"}
+
+## 綜合考題 {#questions}
 
 ::questions{keyword="(GCS|昏迷量表|昏迷指數|Glasgow|意識程度|瞳孔|肌力|Babinski|巴賓斯基|Kernig|Brudzinski|Romberg|腦波|腰椎穿刺|腦血管攝影|脊髓攝影)" limit="8"}

@@ -56,6 +56,8 @@ references:
 - **沒有細胞壁**的尿漿菌、黴漿菌對 vancomycin 天然抗藥
 - **VRE**（抗萬古黴素腸球菌）把 D-Ala-D-Ala 改成 D-Ala-D-Lac，vancomycin 就結合不上
 
+::questions{ids="111-1_BM_053"}
+
 ## 代表藥物 {#agents}
 
 | 藥物 | 途徑 | 特色 |
@@ -99,6 +101,8 @@ references:
 | **linezolid** | 使用超過 2 週的**骨髓抑制**（血小板低下）；有弱的 **MAO 抑制作用**，與 SSRI 等併用可能**血清素症候群**，避免大量含**酪胺**食物；周邊與視神經病變、乳酸中毒 |
 | **daptomycin** | **肌肉病變**、CK 上升（每週監測 CK，暫停 statin）；嗜酸性肺炎 |
 
+::questions{ids="110-1_BM_054"}
+
 ## 交互作用 {#interactions}
 
 - vancomycin＋**胺基配醣體**：**腎毒性、耳毒性**相加
@@ -116,6 +120,8 @@ references:
 6. **MRSA、VRE** 病人採**接觸隔離**：穿戴手套與隔離衣，聽診器等器材專用；照護多位病人時**最後**才照護帶菌者
 7. 口服 vancomycin 治困難梭菌：告知病人藥物只在腸道作用，腹瀉期間接觸隔離、用**肥皂和水**洗手
 
-## 相關考題 {#questions}
+::questions{ids="106-2_makeup_FA_005"}
 
-::questions{ids="113-1_BM_045,111-1_BM_053,111-2_BM_042,110-1_BM_054,114-2_MS_050,111-2_BM_039,107-2_FA_019,108-1_FA_008,106-2_makeup_FA_005,107-1_BM_071"}
+## 綜合考題 {#questions}
+
+::questions{ids="113-1_BM_045,111-2_BM_042,114-2_MS_050,111-2_BM_039,107-2_FA_019,108-1_FA_008,107-1_BM_071"}

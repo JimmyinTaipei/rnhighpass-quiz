@@ -296,6 +296,8 @@ Green 等(1980)提出 PRECEDE，之後加上 PROCEED(policy, regulatory, and org
 
 ::questions{ids="106-1_PC_056,108-2_PC_056,112-3_PC_044,112-2_MS_035"}
 
+::questions{ids="113-3_PC_045,112-1_PC_038"}
+
 ## 常見錯誤選項 {#pitfalls}
 
 | 錯誤說法 | 正確 | 為什麼 |
@@ -315,6 +317,6 @@ Green 等(1980)提出 PRECEDE，之後加上 PROCEED(policy, regulatory, and org
 | 外在資源越多自我效能越高 | 自我效能是**內在信念** | |
 | 講腦中風危險因子可提升嚴重性認知 | 那是**罹患性**；講**後遺症**才是嚴重性 | |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="菸草使用障礙症|尼古丁戒斷症候群|代謝症候群" limit="10"}

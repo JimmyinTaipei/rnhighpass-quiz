@@ -60,6 +60,8 @@ references:
 
 ## 高膽紅素血症 {#hyperbilirubinemia}
 
+::questions{ids="114-1_OP_036,108-2_OP_064"}
+
 ### 生理性與病理性黃疸 {#jaundice-types}
 
 | | **生理性黃疸** | **病理性黃疸** |
@@ -76,6 +78,8 @@ references:
 
 ::questions{ids="106-2_OP_052"}
 
+::questions{ids="108-1_OP_027"}
+
 ### 溶血：Rh 與 ABO 不合 {#hemolytic-disease}
 
 | | **Rh 不合** | **ABO 不合** |
@@ -89,6 +93,8 @@ references:
 
 - 台灣 Rh 陰性少見（約 0.3%），**ABO 不合**較常見
 - 產前處置見 [[high-risk-pregnancy#rh]]；Rh 免疫球蛋白見 [[transfusion-reactions#rhig]]
+
+::questions{ids="110-2_BM_039"}
 
 ### 核黃疸 {#kernicterus}
 
@@ -123,6 +129,8 @@ references:
 
 ::questions{ids="115-2_OP_034,113-2_OP_036,112-2_OP_055,106-1_OP_051,105-1_OP_055"}
 
+::questions{ids="109-1_OP_028"}
+
 ### 換血 {#exchange-transfusion}
 
 - 適應症：膽紅素超過換血閾值或出現**急性膽紅素腦病變**徵象、嚴重溶血與貧血
@@ -156,6 +164,8 @@ references:
 
 ::questions{ids="106-1_OP_052,108-1_OP_043"}
 
+::questions{ids="109-1_OP_027"}
+
 ## 新生兒暫時性呼吸急促 {#ttn}
 
 - 又稱濕肺症；**肺液吸收延遲**
@@ -178,6 +188,8 @@ references:
 
 ::questions{ids="111-1_OP_055,106-1_OP_053,105-1_OP_054"}
 
+::questions{ids="114-3_OP_035,113-3_OP_036"}
+
 ## 產傷 {#birth-injuries}
 
 - 危險因子：**巨嬰**、**肩難產**、**臀位**、**器械生產**（真空吸引、產鉗）、急產、CPD
@@ -198,6 +210,6 @@ references:
 
 - 新生兒敗血症的表現**不典型**（體溫不穩、活動力差、吸吮差、呼吸暫停、黃疸）；B 族鏈球菌、大腸桿菌常見；見 [[perinatal-infections#neonatal-infections]]、[[perinatal-infections#group-b-streptococcus]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="新生兒黃疸|新生兒溶血症|核黃疸|新生兒低血糖|胎便吸入症候群|新生兒暫時性呼吸急促|臂神經叢損傷" limit="15"}

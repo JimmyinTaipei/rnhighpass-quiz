@@ -127,6 +127,6 @@ references:
 - 用途：等待心臟移植的橋梁，或不能移植者的長期治療
 - LVAD 是連續性血流，病人可能**摸不到脈搏、量不到一般血壓**；2025 AHA：LVAD 病人無反應且灌流不良時應開始胸部按壓（2025 AHA 摘要）
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(IABP|主動脈內氣球|主動脈氣球|葉克膜|ECMO|心室輔助器)" limit="8"}

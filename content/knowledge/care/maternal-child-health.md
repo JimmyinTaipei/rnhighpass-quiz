@@ -205,6 +205,6 @@ references:
 | 嬰兒安全座椅前向 | **後向** | 保護頸部 |
 | 兒童 BMI 標準 18–24 | 依年齡性別百分位 | |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="齲齒" limit="6"}

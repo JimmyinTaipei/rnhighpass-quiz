@@ -184,6 +184,8 @@ references:
 - 急性腎衰竭最常見的是**代謝性酸中毒**（H⁺ 排不掉）；矯正用 NaHCO₃，**不是** NH₄Cl（會更酸）、也不是紙袋重複呼吸或呼吸器
 - 利尿劑：acetazolamide 與 triamterene 等保鉀利尿劑可造成代謝性**酸**中毒；furosemide、thiazide 造成低血鉀與代謝性**鹼**中毒
 
+::questions{ids="110-2_MS_066"}
+
 ### 血氣判讀練習 {#metabolic-examples}
 
 | 題目數值 | 判讀 |
@@ -234,6 +236,8 @@ references:
 
 ![[diabetes#dka-vs-hhs]]
 
+::questions{ids="113-3_FA_025,111-2_MS_071,111-1_MS_074"}
+
 ## 血漿滲透壓 {#osmolality}
 
 - 計算：**2 × Na⁺ + 血糖/18 + BUN/2.8**(mOsm/kg)；有效滲透壓 = 2 × Na⁺ + 血糖/18
@@ -271,6 +275,6 @@ references:
 - [[ketones]]、[[blood-glucose]]
 - 電解質（Na⁺、K⁺、Cl⁻）、BUN/Cr、乳酸
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="糖尿病酮酸中毒" keyword="(pH|碳酸|動脈|滲透壓|酸中毒)" limit="6"}

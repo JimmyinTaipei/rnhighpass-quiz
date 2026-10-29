@@ -202,6 +202,6 @@ references:
 突然呼吸困難、SpO₂ 下降、患側呼吸音消失、氣管偏移、頸靜脈怒張或低血壓，要想到**張力性氣胸**（尤其胸管被夾住、阻塞或滑脫後）：立即通知醫師，打開不當的夾子、準備針刺減壓與重新放置胸管，見 [[pleural-chest-trauma#tension-pneumothorax]]
 :::
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(胸管|水封|胸腔水下引流|胸腔引流|胸腔閉鎖式引流|肺葉切除|全肺切除)" limit="8"}

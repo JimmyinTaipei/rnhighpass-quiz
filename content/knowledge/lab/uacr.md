@@ -87,6 +87,6 @@ UACR 分級切點來源：[ADA Standards of Care 2026 第 11 章](https://doi.or
 - 血清肌酸酐、eGFR、BUN
 - [[hba1c]]、[[blood-glucose]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(微量(白)?蛋白|白蛋白尿|尿蛋白|蛋白尿)" tag="糖尿病|糖尿病腎病變" limit="6"}

@@ -214,6 +214,4 @@ references:
 | 抗凝劑試管用力搖 | 輕輕倒轉 |
 | CBC 要禁食 | 不用禁食 |
 
-## 相關考題 {#questions}
-
-::questions{ids="115-2_FA_033,114-2_FA_032,112-2_FA_052,115-2_FA_034,112-2_FA_051" limit="10"}
+## 綜合考題 {#questions}

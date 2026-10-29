@@ -212,6 +212,8 @@ references:
 
 ::questions{ids="105-2_OP_013,106-2_makeup_OP_015,106-1_OP_015,113-1_OP_023,109-1_OP_013"}
 
-## 相關考題 {#questions}
+::questions{ids="112-1_OP_019,108-2_OP_032,108-1_OP_016"}
+
+## 綜合考題 {#questions}
 
 ::questions{tag="胎兒窘迫|早發性減速" limit="20"}

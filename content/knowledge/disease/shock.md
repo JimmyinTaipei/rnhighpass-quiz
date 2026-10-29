@@ -99,6 +99,8 @@ references:
 5. 大量輸液與輸血要**加溫**，預防低體溫（低體溫、酸中毒、凝血異常會互相惡化）
 6. 失血分級見 [[edema-shock#hemorrhage-class]]
 
+::questions{ids="112-3_MS_049"}
+
 ### 心因性休克 {#cardiogenic}
 
 內外上冊書頁 448–449
@@ -186,7 +188,7 @@ references:
 
 ::questions{ids="112-2_FA_040,115-2_FA_024,114-2_FA_026,108-2_MS_023"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="休克|低血容積性休克|出血性休克|心因性休克" limit="20"}
 

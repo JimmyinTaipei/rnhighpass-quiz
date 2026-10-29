@@ -84,6 +84,8 @@ references:
 
 （分級來源：[UpToDate：neutropenic fever](https://www.uptodate.com/contents/overview-of-neutropenic-fever-syndromes)；各機構的切點略有不同）
 
+::questions{ids="105-2_MS_037,115-1_OP_043,111-2_OP_071,114-2_OP_044,110-2_MS_042,110-2_OP_070,115-2_OP_044,108-1_MS_041,109-1_MS_035,110-1_MS_043"}
+
 ### 計算練習 {#anc-examples}
 
 | 題目數據 | 計算 | ANC |
@@ -124,11 +126,15 @@ references:
 - 海洋性貧血的遺傳、帶因篩檢與和缺鐵的區別見 [[single-gene-disorders#thalassemia]]
 - 各型貧血的表現與照護見 [[anemias]]
 
+::questions{ids="112-3_OP_022"}
+
 ### 血比容 {#hematocrit}
 
 - **體液不足**（脫水）：血液濃縮 → **Hct 上升**、BUN 上升、尿比重上升
 - **體液過量**：血液稀釋 → **Hct 下降**、BUN 下降
 - 紅血球增多症、長期缺氧（高山、慢性肺病）時 Hct 也上升
+
+::questions{ids="111-2_OP_009,113-3_MS_023,109-1_MS_063"}
 
 ### 血小板 {#platelets}
 
@@ -142,6 +148,8 @@ references:
 
 - 血小板增多：發炎、缺鐵、脾臟切除後、骨髓增生疾病；過高會增加血栓風險
 - 凝血功能（PT、aPTT、INR）不在 CBC 內，要另外檢驗
+
+::questions{ids="111-1_MS_041"}
 
 ## 化學治療前後的判讀 {#chemotherapy}
 
@@ -162,6 +170,8 @@ references:
 - 檢驗數值屬於**客觀資料**（例：「血紅素 8.8 g/dL」）；病人或家屬的陳述才是主觀資料
 - 白血球低下 → 感染預防；血小板低下 → 出血預防；血紅素低 → 活動耐受力、跌倒預防、依醫囑輸血
 
-## 相關考題 {#questions}
+::questions{ids="111-1_FA_014"}
 
-::questions{ids="106-2_BM_006,105-2_MS_037,115-1_OP_043,111-2_OP_071,114-2_OP_044,110-2_MS_042,110-2_OP_070,115-2_OP_044,108-1_MS_041,109-1_MS_035,111-1_MS_041,110-2_MS_037,110-1_MS_043,112-2_MS_040,106-2_BM_040,112-3_OP_022,111-2_OP_009,113-3_MS_023,109-1_MS_063,111-1_FA_014"}
+## 綜合考題 {#questions}
+
+::questions{ids="106-2_BM_006,110-2_MS_037,112-2_MS_040,106-2_BM_040"}

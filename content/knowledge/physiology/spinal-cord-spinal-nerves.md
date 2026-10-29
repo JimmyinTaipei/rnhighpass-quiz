@@ -80,6 +80,8 @@ references:
 
 ::questions{ids="114-1_BM_013,109-2_BM_002,105-1_MS_004,112-2_BM_010,110-2_BM_007,109-2_BM_015"}
 
+::questions{ids="115-1_MS_003"}
+
 ## 脊髓切面構造 {#cross-section}
 
 ::figure{src="/knowledge-images/servier-spinal-cord-section.svg" labels="spinal-cord-section" alt="脊髓橫切面(上為後側)；圖中沒有畫出背根神經節"}
@@ -115,6 +117,8 @@ references:
 
 1. **同側**、受傷以下：**運動**喪失（皮質脊髓徑已在延腦交叉過）、**震動覺與本體感覺**喪失（後柱還沒交叉）
 2. **對側**、受傷以下 1–2 節：**痛覺與溫度覺**喪失（脊髓視丘徑在受傷處以下已交叉到對側）
+
+::questions{ids="114-3_MS_002"}
 
 ### 上運動神經元與下運動神經元損傷 {#umn-lmn}
 
@@ -233,6 +237,8 @@ references:
 
 ::questions{ids="113-1_BM_003,111-1_BM_020,109-1_BM_022,112-3_FA_016,111-1_OP_030,107-2_MS_003,107-1_MS_003"}
 
-## 相關考題 {#questions}
+::questions{ids="115-1_MS_001,114-2_MS_005"}
+
+## 綜合考題 {#questions}
 
 ::questions{keyword="(脊髓|脊神經|椎間孔|腰椎穿刺|反射弧|膝反射|牽張反射|皮節|神經叢)" limit="8"}

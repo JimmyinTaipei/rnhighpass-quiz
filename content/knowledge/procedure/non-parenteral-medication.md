@@ -83,6 +83,8 @@ references:
 
 ::questions{ids="106-1_FA_019,107-2_FA_017,106-1_FA_017,110-2_FA_026,111-2_MS_039,111-1_MS_035,107-2_MS_042"}
 
+::questions{ids="115-1_OP_041"}
+
 ### 兒童口服給藥 {#pediatric-oral}
 
 1. 姿勢：**抱起或半坐臥**，不躺著餵（嗆到、吸入）
@@ -100,6 +102,8 @@ references:
 
 ::questions{ids="112-1_OP_050,108-1_OP_060,109-2_FA_022"}
 
+::questions{ids="115-1_OP_029"}
+
 ### 鼻胃管給藥 {#ng-tube-medication}
 
 - 鼻胃管放置、位置確認與灌食見 [[enteral-parenteral-nutrition]]
@@ -109,7 +113,11 @@ references:
 3. **不可磨粉**：持續性錠劑、**腸衣錠**、舌下錠、口含錠、軟膠囊、會膨脹的緩瀉劑
 4. 不確定時問藥師；鼻胃管位置與灌食技術見 [[enteral-parenteral-nutrition#ng-insertion]]
 
+::questions{ids="115-1_FA_012"}
+
 ## 栓劑給藥 {#suppository}
+
+::questions{ids="115-2_MS_014"}
 
 ### 肛門栓劑 {#rectal}
 
@@ -218,6 +226,6 @@ references:
 | 2 歲小孩點耳藥往上往後拉 | 3 歲以下往下往後 | 嬰幼兒耳道較直、朝上 |
 | Fentanyl 貼片洗熱水澡沒關係 | 避免熱 | 吸收加速 → 呼吸抑制 |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(口服|栓劑|塞劑|眼藥|耳藥|滴耳|滴鼻|貼片|舌下)" limit="10"}

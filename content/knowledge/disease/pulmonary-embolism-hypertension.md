@@ -58,6 +58,8 @@ references:
 
 ## 肺栓塞 {#pulmonary-embolism}
 
+::questions{ids="114-3_MS_036,114-2_OP_021"}
+
 ### 危險因子與機轉 {#pe-risk}
 
 1. 來源：大多數來自**下肢與骨盆的深部靜脈血栓**；血栓形成的三要素（血流停滯、內皮傷害、高凝血）見 [[thrombosis-embolism-infarction#venous-thrombosis]]
@@ -146,6 +148,8 @@ references:
 
 ::questions{ids="106-1_MS_052"}
 
+::questions{ids="115-2_MS_035"}
+
 ## 肺水腫 {#pulmonary-edema}
 
 | | 心因性 | 非心因性 |
@@ -158,6 +162,8 @@ references:
 - ARDS 的非心因性肺水腫見 [[ards-respiratory-failure#ards-pathophysiology]]；胸腔穿刺後的復張性肺水腫見 [[respiratory-assessment#thoracentesis]]
 
 ::questions{ids="106-1_MS_028"}
+
+::questions{ids="114-2_BM_022,111-2_MS_053"}
 
 ## 肺高壓與肺心症 {#pulmonary-hypertension}
 
@@ -188,6 +194,6 @@ references:
 
 ::questions{ids="107-1_MS_057,114-3_MS_035,112-1_FA_035,115-2_MS_037"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="肺栓塞|肺水腫|肺心症" limit="10"}

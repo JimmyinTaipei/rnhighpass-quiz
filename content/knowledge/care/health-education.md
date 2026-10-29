@@ -52,6 +52,8 @@ references:
 
 ::questions{ids="109-2_PC_069"}
 
+::questions{ids="113-3_PC_022"}
+
 ## 學習領域 {#domains}
 
 | 領域 | 內容 | 層次（低 → 高） | 目標動詞例子 |
@@ -197,6 +199,6 @@ references:
 | 總目標要量化可測量 | **具體目標**才要 | |
 | 改善學校廚房設備是衛教目的 | 是**環境改善** | 衛教針對知能、態度、行為 |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(衛生教育|教學法|行為目標|形成性評價|總結性評價)" limit="6"}

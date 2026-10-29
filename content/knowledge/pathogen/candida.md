@@ -67,6 +67,8 @@ references:
 
 ::questions{ids="107-2_BM_075"}
 
+::questions{ids="115-2_BM_048,110-1_BM_078,109-2_BM_077,109-1_BM_066,108-1_BM_078,106-2_BM_074"}
+
 
 ## 念珠菌引起的疾病 {#diseases}
 
@@ -82,6 +84,8 @@ references:
 
 - **最常造成真菌性腦膜炎**的是**隱球菌**，不是念珠菌（[[fungi#cryptococcus-neoformans]]）
 - 陰道炎鑑別（比較表見 [[sexually-transmitted-infections#vaginitis]]）：念珠菌是**白色乳酪狀**；**陰道滴蟲**是**黃綠色泡沫狀**、有異味、子宮頸**草莓狀**紅點（[[protozoa#trichomonas-vaginalis]]）；細菌性陰道炎是灰白色、**魚腥味**
+
+::questions{ids="115-1_BM_049,107-1_BM_075,109-1_OP_037,111-2_OP_039"}
 
 ## 非白色念珠菌 Non-albicans Candida {#non-albicans-candida}
 
@@ -101,6 +105,6 @@ references:
 - 念珠菌血症：**echinocandin** 為首選，**移除中心靜脈導管**、做**眼科檢查**，血液培養陰性後再治療至少 2 週（[[antifungals#echinocandins]]）
 - 預防：使用**吸入型類固醇後漱口**；化學與放射治療期間規則口腔護理；控制血糖；**合理使用抗生素**；保持皮膚皺褶與會陰乾燥、穿棉質透氣內褲
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="115-1_BM_049,115-2_BM_048,110-1_BM_078,109-2_BM_077,109-1_BM_066,108-1_BM_078,106-2_BM_074,107-1_BM_075,108-2_BM_079,114-3_FA_012,106-2_makeup_BM_061,112-2_FA_033,109-1_FA_030,109-2_FA_032,111-2_MS_037,113-3_OP_031,109-1_OP_037,111-2_OP_039,115-2_FA_035"}
+::questions{ids="108-2_BM_079,114-3_FA_012,106-2_makeup_BM_061,112-2_FA_033,109-1_FA_030,109-2_FA_032,111-2_MS_037,113-3_OP_031,115-2_FA_035"}

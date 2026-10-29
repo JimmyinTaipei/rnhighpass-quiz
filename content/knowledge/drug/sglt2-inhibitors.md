@@ -44,6 +44,8 @@ references:
 
 同時排出鈉 → 滲透性利尿、降低血壓與體液負荷；鈉到達緻密斑增加 → 恢復**管腎回饋**、降低腎絲球高過濾——這是腎臟保護的主要原因
 
+::questions{ids="113-1_BM_038,110-2_BM_051,108-1_BM_063"}
+
 ## 代表藥物 {#agents}
 
 **Empagliflozin**、**Dapagliflozin**、**Canagliflozin**、Ertugliflozin（字尾 **-gliflozin**）
@@ -81,6 +83,6 @@ references:
 - 教導酮酸中毒警訊，不能因為「血糖不高」就排除
 - 尿糖檢測會呈陽性，這是藥效，不能用尿糖監測血糖控制
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(gliflozin|SGLT|從尿液排除)" limit="6"}

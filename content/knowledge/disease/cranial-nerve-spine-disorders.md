@@ -71,6 +71,8 @@ references:
 
 ::questions{ids="106-2_MS_007,113-3_BM_034"}
 
+::questions{ids="115-2_MS_044,115-1_MS_004,114-3_PC_037,114-3_OP_045,114-2_OP_026"}
+
 ## 腦神經疾病 {#cranial-nerve-disorders}
 
 ### 三叉神經痛 {#trigeminal-neuralgia}
@@ -159,6 +161,6 @@ references:
 7. 兩次都符合即判定為**腦死**，由原診治醫師開立**死亡證明書**；之後可依家屬意願進行器官捐贈
 - 腦幹反射的做法見 [[cranial-nerves#brainstem-reflexes]]；深部肌腱反射是脊髓反射，腦死時仍可能存在
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(頭痛|偏頭痛|叢集|叢性|三叉神經痛|顏面神經麻痺|貝爾|椎間盤|坐骨神經|椎板|背架|腦死)" limit="8"}

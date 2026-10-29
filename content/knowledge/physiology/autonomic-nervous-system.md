@@ -83,6 +83,8 @@ references:
 | 分布範圍 | 全身（包括皮膚血管、汗腺、豎毛肌） | 頭部、胸腹腔與骨盆的內臟；**不支配**皮膚、大部分血管、汗腺、豎毛肌 |
 | 反應 | 一條節前纖維接觸很多節後神經元 → **廣泛、全身性** | 較**局部、個別** |
 
+::questions{ids="115-2_MS_008"}
+
 ### 交感神經的走法 {#sympathetic-route}
 
 - 節前纖維從脊髓**前根**出來 → 經**白交通枝**（節前纖維**有髓鞘**，所以是白色）進入交感神經鏈，之後有三種走法
@@ -204,6 +206,8 @@ references:
 
 - 脊髓休克期（數天到數週）所有反射消失，膀胱都是弛緩、尿滯留，需要導尿（見 [[spinal-cord-spinal-nerves#spinal-shock]]）
 
+::questions{ids="115-1_MS_001"}
+
 ### 自主神經反射異常 {#autonomic-dysreflexia}
 
 - 發生在 **T6 以上**的脊髓損傷、**脊髓休克期過後**
@@ -231,6 +235,6 @@ references:
 | α 阻斷劑 | 阻斷 α1 | prazosin、tamsulosin | [[alpha-blockers]] |
 | β 阻斷劑 | 阻斷 β | propranolol、atenolol、timolol | [[beta-blockers]] |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(自主神經|自律神經|交感神經|副交感|迷走神經|神經節|交通枝|蕈毒鹼|毒蕈鹼|菸鹼型|muscarinic|nicotinic)" limit="8"}

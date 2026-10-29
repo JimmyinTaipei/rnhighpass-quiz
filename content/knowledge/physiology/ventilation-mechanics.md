@@ -198,6 +198,6 @@ references:
 
 ::questions{ids="106-2_makeup_FA_030,111-2_FA_039,112-2_BM_019"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(潮氣|肺活量|餘氣|肺泡通氣|無效腔|死腔|FEV1|順應性|胸膜內壓|跨肺壓|肺間壓|肋間肌|橫膈)" limit="8"}

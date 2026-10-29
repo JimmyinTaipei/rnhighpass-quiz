@@ -65,6 +65,8 @@ references:
 
 ::questions{ids="112-3_BM_019"}
 
+::questions{ids="115-2_BM_013,114-2_PC_043"}
+
 ## 神經元 {#neuron}
 
 ::figure{src="/knowledge-images/servier-neuron.svg" labels="neuron" alt="多極神經元的構造"}
@@ -143,6 +145,8 @@ references:
    3. 血鉀與心電圖的關係見 [[potassium#function]]
 
 ::questions{ids="115-1_BM_006,110-1_BM_022"}
+
+::questions{ids="115-1_BM_004"}
 
 ## 動作電位 {#action-potential}
 
@@ -248,6 +252,6 @@ references:
 
 ::questions{ids="114-3_BM_020,106-1_BM_064,112-3_BM_014,113-1_BM_004,112-1_BM_011,106-2_BM_020,109-1_BM_014,109-2_BM_023"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(神經元|膠細胞|髓鞘|動作電位|膜電位|突觸|神經傳遞物質|乙醯膽鹼)" limit="8"}

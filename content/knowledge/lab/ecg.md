@@ -160,6 +160,8 @@ V1–V6 的正極就是胸前那顆電極，由右前(V1)排到左側(V6)。V1 �
 
 ![正常心電圖波形：P 波、PR 間期、QRS、ST 段、T 波與 QT 間期](/knowledge-images/ecg-normal-complex.svg)
 
+::questions{ids="108-1_MS_027"}
+
 ### 各波段代表什麼 {#components}
 
 | 波段 | 代表的電氣活動 | 正常值（1 小格 = 0.04 秒） |
@@ -427,6 +429,8 @@ MI 後最可能**永遠不會消失**的是**不正常 Q 波**；ST 上升與 T 
 - 焦慮的胸痛病人以解釋、陪伴為主；鎮靜劑（如 Lorazepam 靜注）不是急性冠心症的常規處置，可能掩蓋症狀、抑制呼吸
 - 再灌流藥物見 [[antiplatelets]]、[[anticoagulants]]、[[thrombolytics]];PCI 前後照護見 [[cardiac-catheterization]]
 
+::questions{ids="112-2_MS_029"}
+
 ## 心包膜炎與其他 ST 上升 {#pericarditis}
 
 不是所有 ST 上升都是 STEMI。最常要鑑別的是**急性心包膜炎**：
@@ -456,11 +460,11 @@ MI 後最可能**永遠不會消失**的是**不正常 Q 波**；ST 上升與 T 
 
 其他會造成 ST 上升的情況：左心室肥厚、LBBB、心室動脈瘤（陳舊 MI 後 ST 持續上升）、高血鉀、Brugada 症候群、變異型心絞痛
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="114-3_MS_034,113-3_BM_017,113-1_MS_019,112-2_MS_029,112-1_MS_026,111-2_FA_058,111-1_MS_028,110-2_MS_030,110-1_MS_032,110-1_MS_031"}
+::questions{ids="114-3_MS_034,113-3_BM_017,113-1_MS_019,111-1_MS_028,110-2_MS_030,110-1_MS_032,110-1_MS_031"}
 
-::questions{ids="113-3_MS_017,112-1_MS_026,110-2_MS_030,109-2_MS_034,108-1_MS_027,107-2_BM_053"}
+::questions{ids="113-3_MS_017,110-2_MS_030,109-2_MS_034,107-2_BM_053"}
 
 ## 相關頁面 {#related}
 

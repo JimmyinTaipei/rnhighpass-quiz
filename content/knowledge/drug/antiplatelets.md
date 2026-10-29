@@ -70,6 +70,8 @@ references:
 低劑量 aspirin 抑制的是 TXA₂；血管內皮的前列環素（prostacyclin，抑制凝集）因內皮細胞可再製造 COX 而較不受影響
 :::
 
+::questions{ids="114-1_BM_036,113-2_BM_036,113-1_MS_018,109-2_MS_006"}
+
 ## 代表藥物 {#agents}
 
 ### Aspirin {#aspirin}
@@ -110,6 +112,8 @@ references:
 - 冠狀動脈繞道手術(CABG)後：aspirin 維持血管橋通暢
 - **初級預防**（沒有心血管病）：近年指引**不再常規建議** — 出血風險常抵銷好處，僅在出血風險低的特定高風險者個別考慮；70 歲以上不建議
 - 生物性人工瓣膜、川崎氏症、預防子癇前症（低劑量）
+
+::questions{ids="113-3_BM_036"}
 
 ### 雙重抗血小板治療(DAPT) {#dapt}
 
@@ -161,6 +165,8 @@ references:
 | SSRI、類固醇、酒精 | 加重腸胃出血 |
 | 銀杏、魚油、大蒜、當歸、丹參 | 加重出血 |
 
+::questions{ids="110-1_BM_051"}
+
 ## 護理重點與衛教 {#nursing}
 
 - **疑似心肌梗塞胸痛**：在無禁忌下嚼碎 aspirin 162–325 mg（見 [[coronary-artery-disease]]）；已經長期服用低劑量者仍要給
@@ -187,7 +193,9 @@ references:
 - 心臟術後(CABG)發燒不要用 aspirin 退燒，以免加重引流出血，改用 acetaminophen
 - 腎臟切片、體外震波碎石等侵入性處置前需確認凝血功能並停用 aspirin
 
-## 相關考題 {#questions}
+::questions{ids="111-1_MS_038"}
+
+## 綜合考題 {#questions}
 
 ::questions{group="antithrombotics" keyword="(aspirin|阿斯匹|阿司匹|clopidogrel|ticagrelor|prasugrel|dipyridamole|cilostazol|abciximab|tirofiban|eptifibatide|血小板凝集)" limit="10"}
 

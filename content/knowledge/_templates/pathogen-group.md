@@ -46,6 +46,6 @@ references:
 
 2–3 行重點
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{ids=""}

@@ -83,6 +83,6 @@ references:
 
 ::questions{ids="111-1_MS_020,114-1_MS_011,110-1_MS_063,112-2_OP_070"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(痛風|尿酸|colchicine|秋水仙|allopurinol|febuxostat|probenecid|Benemid|benzbromarone)" limit="8"}

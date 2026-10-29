@@ -71,6 +71,8 @@ references:
 - **免疫低下**：愛滋病人最常見的肺部伺機性感染是**肺囊蟲肺炎**（乾咳、呼吸困難；組織切片見肺泡內充滿**泡沫狀嗜酸性物質**，見 [[fungi#pneumocystis-jirovecii]]、[[hiv-aids#opportunistic-infections]]）
 - 病毒性肺炎（流感、COVID-19、RSV）見 [[respiratory-viral-infections]]；結核見 [[tuberculosis]]
 
+::questions{ids="113-1_BM_025,111-1_BM_075"}
+
 ## 病理 {#pathology}
 
 | 型態 | 範圍 | 代表病原 |
@@ -87,6 +89,8 @@ references:
 4. **消解期**（第 8 天後）：酵素分解滲出物，**巨噬細胞**清除殘渣，**巨噬細胞最多**，肺組織可完全恢復（纖維芽細胞大量增生是不正常的機化）
 
 肺炎的肺實質變化包括**發炎反應**、肺泡被滲出液填滿（實質化）、局部**肺塌陷**與肋膜積液；**支氣管擴張症**是另一種慢性疾病，不是肺炎的急性病理變化
+
+::questions{ids="107-2_BM_040,105-1_BM_039,108-1_MS_051"}
 
 ## 臨床表現 {#manifestations}
 
@@ -105,6 +109,8 @@ references:
 | 胸部 X 光 | **肺浸潤**、實質化 | 肋膜橫膈角**變鈍** | 肺邊緣看不到肺紋 |
 
 - 患側胸廓擴張（呼吸離軌度）**減少**，不會增加
+
+::questions{ids="109-1_MS_047,109-2_FA_052,115-1_FA_025,110-2_MS_055,113-1_MS_035,114-3_MS_032,108-2_MS_050,114-3_OP_038"}
 
 ### 嚴重度評估 {#severity}
 
@@ -126,6 +132,8 @@ references:
 - 住院病人：**血液培養**、血液氣體或血氧、白血球、CRP 或 procalcitonin（[[inflammatory-markers]]）；依情況做尿液肺炎鏈球菌與退伍軍人菌抗原、流感與 COVID 快篩
 - **痰液檢體**：**清晨、漱口後深咳**，在**給抗生素前**採檢（[[culture-and-sensitivity#sputum-culture]]）
 
+::questions{ids="112-3_MS_038"}
+
 ## 治療 {#treatment}
 
 - **經驗性抗生素**：依社區型或院內型、嚴重度與抗藥性風險選藥；社區型常用 β-lactam（例如 ceftriaxone）＋macrolide，或呼吸道 fluoroquinolone（[[beta-lactams]]、[[protein-synthesis-inhibitors#macrolides]]、[[fluoroquinolones-sulfonamides#fluoroquinolones]]）
@@ -133,6 +141,8 @@ references:
 - **MRSA 肺炎**：用 vancomycin、linezolid 或 teicoplanin；**daptomycin 會被肺表面張力素破壞，不能治療肺炎**（[[glycopeptides]]）
 - **療效評估**：**體溫下降、濃痰減少**、血氧改善，代表抗生素有效；X 光實質化範圍擴大或血氧下降表示惡化。社區型肺炎用藥 72 小時內惡化為**早期治療失敗**，要重新評估
 - 給氧、補充水分、退燒止痛；嚴重者依呼吸衰竭處理
+
+::questions{ids="106-2_MS_057"}
 
 ## 併發症 {#complications}
 
@@ -159,6 +169,8 @@ references:
 - 台灣指引：因吸入性肺炎住院者，**避免不必要的禁食**，否則可能延長病程並降低吞嚥功能
 - **徵象**：出現呼吸窘迫，或**調高給氧後血氧仍持續下降(< 90%)**時，要**立即處理**
 
+::questions{ids="114-2_MS_033,113-3_FA_012,109-1_FA_044,111-2_OP_072,109-2_OP_046,113-2_OP_049,107-2_FA_045"}
+
 ## 呼吸器相關肺炎的預防 {#vap-prevention}
 
 - 組合式照護：**床頭抬高 30–45 度**、每日中斷鎮靜並評估脫離呼吸器、口腔護理、聲門下抽吸（[[infection-control#bundles]]）
@@ -177,6 +189,8 @@ references:
 7. **兒童**：採集中護理讓病童休息；**鼓勵家長參與照顧**，不因病童看到父母會哭就限制父母；監測尿量並補充體液
 8. **預防**：戒菸；接種**流感疫苗**與**肺炎鏈球菌疫苗**（[[immunization]]、[[streptococci#streptococcus-pneumoniae]]）
 
+::questions{ids="109-1_MS_050,106-2_makeup_MS_051,111-1_MS_056,111-1_OP_061,113-2_OP_039,110-1_OP_061,109-1_FA_038,113-3_FA_026"}
+
 ### 胸腔物理治療 {#chest-physiotherapy}
 
 | 項目 | 做法 |
@@ -190,6 +204,8 @@ references:
 
 - 完整步驟、姿位引流表與抽痰見 [[airway-clearance#chest-physiotherapy]]、[[airway-clearance#suctioning]]
 
-## 相關考題 {#questions}
+::questions{ids="106-1_OP_061,107-2_OP_044,106-2_makeup_OP_077"}
 
-::questions{ids="113-1_BM_025,111-1_BM_036,105-1_OP_060,111-1_BM_075,109-1_BM_069,107-2_BM_040,105-1_BM_039,111-1_MS_058,108-2_BM_037,107-2_OP_038,109-1_MS_047,109-2_FA_052,114-3_FA_032,115-1_FA_025,110-2_MS_055,106-2_MS_051,106-2_makeup_MS_053,113-1_MS_035,114-3_MS_032,108-2_MS_050,114-1_MS_036,108-1_MS_051,112-3_MS_038,109-2_MS_057,106-2_MS_057,111-2_BM_039,109-1_MS_050,106-2_makeup_MS_051,111-1_MS_056,111-1_OP_061,113-2_OP_039,112-2_OP_061,113-3_OP_039,114-3_OP_038,111-2_OP_063,110-1_OP_061,115-1_FA_029,109-1_FA_038,113-3_FA_026,109-2_MS_052,114-2_MS_033,113-3_FA_012,109-1_FA_044,111-2_OP_072,107-2_MS_055,109-2_OP_046,113-2_OP_049,105-1_OP_059,106-1_OP_061,107-2_OP_044,106-2_makeup_OP_077,107-2_FA_045"}
+## 綜合考題 {#questions}
+
+::questions{ids="111-1_BM_036,105-1_OP_060,109-1_BM_069,111-1_MS_058,108-2_BM_037,107-2_OP_038,114-3_FA_032,106-2_MS_051,106-2_makeup_MS_053,114-1_MS_036,109-2_MS_057,111-2_BM_039,112-2_OP_061,113-3_OP_039,111-2_OP_063,115-1_FA_029,109-2_MS_052,107-2_MS_055,105-1_OP_059"}

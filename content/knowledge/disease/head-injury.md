@@ -145,6 +145,6 @@ references:
 
 ::questions{ids="105-1_FA_008"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(頭部外傷|頭部創傷|顱底|浣熊眼|巴特爾|Battle|鼻漏|耳漏|腦震盪|腦挫傷|硬膜上|硬腦膜上|硬膜下|硬腦膜下|硬腦膜外)" limit="8"}

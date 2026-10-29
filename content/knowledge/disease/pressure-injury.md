@@ -183,6 +183,6 @@ references:
 2. 記錄部位、分期、大小（長 × 寬 × 深 cm）、傷口床、滲液、氣味、周圍皮膚；記錄要具體可量化
 3. 長期照護與居家：教家屬翻身、減壓與營養，見 [[long-term-care]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="109-1_FA_017,111-1_FA_047,114-1_FA_030,109-2_MS_045,110-1_FA_048" limit="10"}
+::questions{ids="109-2_MS_045" limit="10"}

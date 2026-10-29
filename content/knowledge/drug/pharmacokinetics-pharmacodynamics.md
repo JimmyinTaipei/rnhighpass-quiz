@@ -162,6 +162,8 @@ references:
 
 ::questions{ids="110-2_BM_054,105-2_BM_049,106-2_MS_074"}
 
+::questions{ids="114-3_BM_015,114-2_MS_004"}
+
 ## 藥物交互作用 {#interactions}
 
 | 組合 | 結果 |
@@ -189,6 +191,6 @@ references:
 
 ::questions{ids="110-2_OP_004"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="生體可用率|首渡效應|半衰期|治療指數|藥物動力學|藥效學|P450|拮抗" limit="10"}

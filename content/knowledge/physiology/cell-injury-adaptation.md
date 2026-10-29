@@ -147,6 +147,8 @@ references:
 
 ::questions{ids="111-1_BM_033"}
 
+::questions{ids="109-1_BM_040"}
+
 ### 凋亡 {#apoptosis}
 
 - 細胞**主動、耗能**的程式性死亡，由一群蛋白酶(caspase)執行
@@ -179,6 +181,6 @@ references:
 
 ::questions{ids="106-2_makeup_BM_018"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="細胞傷害|細胞凋亡|壞死|細胞適應|營養不良性鈣化|轉移性鈣化" limit="12"}

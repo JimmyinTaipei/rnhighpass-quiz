@@ -343,6 +343,6 @@ references:
 | 評值是最後一步 | 每一步都有評值 |
 | 目標沒達成表示措施不好 | 要再評估找原因 |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="113-3_FA_006,109-2_FA_018,112-1_FA_010,113-2_FA_008,114-2_FA_008" limit="10"}
+::questions{ids="114-2_FA_008" limit="10"}

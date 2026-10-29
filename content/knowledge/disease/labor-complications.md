@@ -104,6 +104,8 @@ references:
 
 ::questions{ids="112-3_OP_010,109-1_OP_031,113-1_OP_011"}
 
+::questions{ids="112-2_OP_034"}
+
 ### 急產 {#precipitate-labor}
 
 - 從規則宮縮到胎兒娩出 **< 3 小時**
@@ -122,6 +124,8 @@ references:
 
 ## 胎位與胎產式異常 {#malpresentation}
 
+::questions{ids="111-2_FA_034"}
+
 ### 枕後位 {#occiput-posterior}
 
 - 胎頭枕骨在母親骨盆**後方**（ROP 較常見）
@@ -136,6 +140,8 @@ references:
    3. 補充水分、排空膀胱、陪伴
 
 ::questions{ids="111-1_OP_016,106-2_OP_017"}
+
+::questions{ids="110-2_OP_011"}
 
 ### 臀產式 {#breech}
 
@@ -322,6 +328,8 @@ references:
    2. 胎兒：**胎死腹中**、胎兒生長受限、羊水過少、同種免疫
 - 禁忌：**前置胎盤**、血管前置、**橫位**、臍帶脫垂、**CPD**、**古典直式剖腹產**或子宮全層手術史、活動性生殖器疱疹
 
+::questions{ids="114-3_OP_018"}
+
 ### Bishop 分數 {#bishop-score}
 
 | 項目 | 0 | 1 | 2 | 3 |
@@ -399,6 +407,8 @@ references:
 
 ::questions{ids="112-1_OP_023,111-1_OP_015,108-1_OP_016"}
 
+::questions{ids="112-2_OP_026"}
+
 ### 剖腹產後陰道生產 {#vbac}
 
 - **剖腹產後不一定**下一胎都要剖腹；符合條件可嘗試陰道生產(TOLAC)，成功稱 VBAC(ACOG PB 205)
@@ -409,6 +419,8 @@ references:
 
 ::questions{ids="111-2_OP_027"}
 
-## 相關考題 {#questions}
+::questions{ids="112-3_OP_012"}
+
+## 綜合考題 {#questions}
 
 ::questions{tag="難產|產程延長|急產|子宮破裂|肩難產|臍帶脫垂|胎位不正|過期妊娠|剖腹產|胎死腹中" limit="20"}

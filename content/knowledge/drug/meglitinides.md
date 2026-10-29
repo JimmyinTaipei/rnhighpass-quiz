@@ -29,6 +29,8 @@ references:
 
 結合 β 細胞 K-ATP 通道上與 SU 不同的位置 → 通道關閉 → 胰島素分泌。起效約 15–30 分鐘、持續約 3–4 小時，模擬進食時的快速分泌（見 [[glucose-homeostasis#secretion-steps]]）
 
+::questions{ids="108-2_BM_054"}
+
 ## 代表藥物 {#agents}
 
 - **Repaglinide**：主要經肝臟 CYP2C8/3A4 代謝，腎功能不佳仍可使用（需小心）
@@ -49,6 +51,6 @@ references:
 - **每餐前 0–30 分鐘**服用；**跳過一餐就跳過該次藥**，多吃一餐就多一次
 - 低血糖衛教同 [[diabetes#hypoglycemia]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(repaglinide|nateglinide|meglitinide)" limit="4"}

@@ -134,6 +134,6 @@ references:
 
 ::questions{ids="109-2_MS_070,114-3_MS_042,105-1_OP_069,111-1_OP_070"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="副甲狀腺機能亢進|副甲狀腺功能低下" limit="8"}

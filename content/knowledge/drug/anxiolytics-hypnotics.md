@@ -66,7 +66,11 @@ references:
 5. **suvorexant、lemborexant、daridorexant**：**食慾素(orexin)受體拮抗劑**，降低覺醒驅動
 6. **buspirone**：**5-HT1A 部分促效劑**，不經 GABA
 
+::questions{ids="107-1_BM_051,106-1_BM_054,107-1_BM_053"}
+
 ## 代表藥物 {#agents}
+
+::questions{ids="111-2_PC_007,106-2_BM_054,107-1_BM_049,107-1_BM_052"}
 
 ### 苯二氮平類的分類 {#bzd-classes}
 
@@ -81,6 +85,8 @@ references:
 1. **抗焦慮為主**：diazepam、lorazepam、alprazolam、clonazepam
 2. **催眠為主**：triazolam、estazolam、flurazepam、temazepam、flunitrazepam
 3. 常見混淆藥名：diazepam 與 diltiazem、alprazolam 與 clonazepam 與 lorazepam、clonazepam 與 clozapine
+
+::questions{ids="108-1_BM_058,112-2_PC_010"}
 
 ### 其他抗焦慮藥 {#other-anxiolytics}
 
@@ -110,6 +116,8 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
 108-2_BM_051「何者不具抗痙攣或肌肉鬆弛特性，且長期使用較不易耐受」公布答案是 **zolpidem**；但 **ramelteon** 也沒有肌肉鬆弛作用且不易耐受，學理上選項有重疊。作答依公布答案，學習時記住：Z 類與 ramelteon 都**沒有肌肉鬆弛與抗痙攣**作用
 :::
 
+::questions{ids="110-1_BM_057,108-2_BM_051"}
+
 ### 巴比妥類 {#barbiturates}
 
 | 類別 | 代表藥 |
@@ -123,6 +131,8 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
 2. **phenobarbital** 是典型的**肝臟酵素誘導劑**(CYP450)，會降低併用藥物的血中濃度；其他誘導劑還有 rifampin、phenytoin、carbamazepine
 3. **amobarbital** 曾用於「藥物催眠會談」，協助轉化症病人的心理衝突表達（見 [[somatic-dissociative-disorders]]）
 
+::questions{ids="112-1_BM_032"}
+
 ### 台灣管制等級 {#controlled-class}
 
 依食藥署「管制藥品分級及品項」：
@@ -135,6 +145,8 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
 
 1. 第一到三級需要**專用處方箋**；第四級雖不用專用處方箋，仍是管制藥品，要依規定保存、記錄與點班（見 [[opioids#controlled-drugs]]）
 2. 「管制藥品」是醫療用藥的分級；被濫用時另依毒品危害防制條例分級，兩者是不同法律（見 [[substance-use-disorders#taiwan-law]]）
+
+::questions{ids="106-2_makeup_PC_005"}
 
 ## 適應症與用藥原則 {#indications}
 
@@ -154,6 +166,8 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
    4. **孕婦與哺乳**：避免，藥物會通過胎盤與乳汁
    5. 有**精神病史**者 BZD 可能使症狀惡化
 
+::questions{ids="108-2_PC_014"}
+
 ## 不良反應、依賴與戒斷 {#adverse-effects}
 
 | 面向 | 說明 |
@@ -162,6 +176,8 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
 | 嚴重 | **呼吸抑制**（與酒精、鴉片類併用風險最高）、反常興奮與攻擊（老人、兒童） |
 | 長期 | **耐受、生理與心理依賴**、認知受損 |
 | 禁忌與慎用 | 重症肌無力、**嚴重呼吸功能不全、睡眠呼吸中止**、嚴重肝功能不全、急性**狹角青光眼**、懷孕與哺乳 |
+
+::questions{ids="110-2_PC_012"}
 
 ### 戒斷與減量 {#withdrawal}
 
@@ -201,6 +217,8 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
 4. 避免與酒精、鴉片類併用；有睡眠呼吸中止、肝腎功能不全者要提醒醫師
 5. 觀察有無**依賴與濫用**的跡象，也要評估**自殺風險**（過量服用安眠藥）
 
+::questions{ids="108-2_FA_022"}
+
 ### 衛教 {#nursing-education}
 
 1. 服藥期間
@@ -219,6 +237,6 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
    2. **triazolam** 避免與葡萄柚、erythromycin 併用
    3. 老年人加強**防跌倒**與認知觀察
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="109-2_FA_044,111-2_PC_007,110-2_PC_012,109-2_PC_011,108-2_PC_014,108-1_BM_058,107-1_BM_051,106-2_BM_054,106-1_BM_054,108-2_FA_022,106-2_makeup_PC_005,113-3_BM_032,110-1_BM_057,108-2_BM_051,107-1_BM_049,112-1_BM_032,107-1_BM_052,107-1_BM_053,111-1_BM_055,109-1_PC_024,112-2_PC_010,114-3_PC_006"}
+::questions{ids="109-2_FA_044,109-2_PC_011,113-3_BM_032,111-1_BM_055,109-1_PC_024,114-3_PC_006"}

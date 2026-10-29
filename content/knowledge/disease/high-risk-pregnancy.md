@@ -109,6 +109,8 @@ references:
 
 ::questions{ids="114-3_OP_020,108-1_OP_031"}
 
+::questions{ids="115-2_OP_019"}
+
 ## 合併糖尿病 {#diabetes}
 
 - 診斷、篩檢（24–28 週 75 g 一階段）與血糖目標見 [[diabetes#gdm]]、[[ogtt#gdm-criteria]]
@@ -226,6 +228,8 @@ references:
 
 ::questions{ids="115-2_OP_020,115-1_OP_020,113-3_OP_016,107-1_OP_033,107-1_OP_034,111-2_OP_032,110-2_OP_031,110-1_OP_034,108-2_OP_033,108-1_OP_032"}
 
+::questions{ids="112-2_OP_011"}
+
 ## 妊娠高血壓疾病 {#hypertensive-disorders}
 
 分類、用藥、硫酸鎂監測、aspirin 預防與飲食見 [[hypertension#pregnancy]]；這裡整理重度表現、子癇與 HELLP
@@ -278,6 +282,6 @@ references:
 
 ::questions{ids="106-2_makeup_OP_034"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="高危險妊娠|妊娠合併心臟病|前置胎盤|胎盤早期剝離|流產|先兆性流產|習慣性流產|子宮頸閉鎖不全|子宮外孕|葡萄胎|HELLP症候群|子癇前症|子癇症|Rh血型不合|妊娠劇吐" limit="20"}

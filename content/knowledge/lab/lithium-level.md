@@ -76,6 +76,8 @@ references:
 
 ## 偏高：鋰中毒 {#high}
 
+::questions{ids="107-2_PC_018"}
+
 ### 原因 {#high-causes}
 
 | 類別 | 原因 |
@@ -97,6 +99,8 @@ references:
 
 - **濃度與症狀不一定相符**：急性大量服藥的人，鋰還沒進入腦部，可能濃度 > 4 卻沒什麼症狀；慢性中毒的老人，濃度只稍微偏高就可能意識混亂。所以判讀要**看症狀**，不能只看數字（來源：[UpToDate：Lithium poisoning](https://www.uptodate.com/contents/lithium-poisoning)）
 - 常見副作用（細微手抖、輕微噁心、多尿）和早期中毒很像；**原本穩定的症狀突然變嚴重**，或**新出現嘔吐、腹瀉、走路不穩**，就要抽血
+
+::questions{ids="106-1_PC_020"}
 
 ### 處理 {#high-management}
 
@@ -146,6 +150,6 @@ references:
 - [[potassium]]：同樣是需要密切監測的陽離子，並受利尿劑影響
 - 腎功能、甲狀腺功能(TSH)、血鈉、血鈣：鋰鹽的長期監測項目
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="109-1_PC_013,106-1_PC_019,106-1_PC_020,107-2_PC_018,112-2_PC_004,115-2_PC_012"}
+::questions{ids="109-1_PC_013,106-1_PC_019,112-2_PC_004,115-2_PC_012"}

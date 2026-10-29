@@ -64,6 +64,8 @@ references:
 
 ::questions{ids="109-1_MS_070,115-1_MS_046"}
 
+::questions{ids="112-3_FA_024"}
+
 ## 表現 {#manifestations}
 
 | 系統 | 表現 |
@@ -170,6 +172,6 @@ references:
 
 ::questions{ids="112-1_MS_071,112-1_MS_072,106-2_makeup_MS_069,108-2_MS_069,108-1_MS_071"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="甲狀腺機能亢進|葛瑞夫茲氏病|甲狀腺風暴" limit="8"}

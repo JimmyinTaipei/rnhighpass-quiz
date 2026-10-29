@@ -292,6 +292,4 @@ references:
 | 長期醫囑 7 日失效 | 到 D.C. 才停 |
 | R/O＝排除 | R/O＝疑似 |
 
-## 相關考題 {#questions}
-
-::questions{ids="111-1_FA_009,109-2_FA_007,108-1_FA_014,105-1_FA_014,110-2_FA_002" limit="10"}
+## 綜合考題 {#questions}

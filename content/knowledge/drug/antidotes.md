@@ -156,6 +156,6 @@ Dart 2018；華杏兒科書頁 850；各頁整理
 
 ::questions{ids="115-2_MS_048,106-2_makeup_MS_078,107-1_MS_073,106-1_MS_076"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{group="antidotes" limit="10"}

@@ -154,6 +154,6 @@ references:
 
 ::questions{ids="114-1_OP_041,115-2_OP_042"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{drug="貧血用藥|排鐵劑用藥" limit="10"}

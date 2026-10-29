@@ -280,6 +280,6 @@ references:
 
 ::questions{ids="113-1_MS_037,114-3_MS_038,112-2_MS_065,110-2_MS_067"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{ids="112-1_MS_058,107-1_MS_062,108-1_MS_080"}

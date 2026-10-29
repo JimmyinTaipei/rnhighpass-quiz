@@ -134,6 +134,8 @@ references:
 
 ::questions{ids="105-1_MS_053,111-2_MS_059,111-1_MS_055"}
 
-## 相關考題 {#questions}
+::questions{ids="114-2_MS_034,111-1_MS_059"}
+
+## 綜合考題 {#questions}
 
 ::questions{tag="限制性肺病|塵肺症|石棉肺|間皮瘤|肺擴張不全" limit="8"}

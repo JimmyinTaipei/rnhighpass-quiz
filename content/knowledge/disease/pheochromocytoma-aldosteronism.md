@@ -143,6 +143,6 @@ references:
 
 ::questions{ids="113-1_MS_042"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="嗜鉻細胞瘤|原發性醛固酮過多症" limit="8"}

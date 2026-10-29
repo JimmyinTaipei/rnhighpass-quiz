@@ -211,6 +211,6 @@ references:
 
 ::questions{ids="112-1_BM_031,107-1_BM_050,107-2_BM_070"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(atropine|scopolamine|pilocarpine|bethanechol|neostigmine|pyridostigmine|Mestinon|physostigmine|有機磷|巴拉松|PAM|pralidoxime|抗膽鹼|膽鹼性危象|膽鹼激性危象|succinylcholine|神經肌肉阻斷)" limit="8"}

@@ -58,6 +58,8 @@ references:
 
 ::questions{ids="108-1_BM_043"}
 
+::questions{ids="115-2_FA_029,114-3_FA_028,113-3_FA_030,113-3_BM_022"}
+
 ## 維生素缺乏 {#vitamins}
 
 ### 脂溶性維生素 {#fat-soluble}
@@ -90,12 +92,14 @@ references:
 
 ::questions{ids="113-1_BM_024,111-1_MS_014"}
 
+::questions{ids="115-2_FA_028"}
+
 ## 營養過度：肥胖 {#obesity}
 
 - 台灣成人（國健署）：BMI **24–27 過重**、**27 以上肥胖**；腹部肥胖：男性腰圍 **≥ 90 cm**、女性 **≥ 80 cm**
 - 相關疾病：第 2 型糖尿病、高血壓、血脂異常與冠心病、脂肪肝、阻塞型睡眠呼吸中止、退化性關節炎、膽結石、某些癌症（子宮內膜癌、大腸癌、停經後乳癌）
 - 代謝症候群判定見 [[lipid-profile#metabolic-syndrome]]；兒童肥胖見 [[pediatric-endocrine#childhood-obesity]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="營養不良|蛋白質營養不良|紅孩兒病|壞血病|維生素缺乏症" limit="10"}

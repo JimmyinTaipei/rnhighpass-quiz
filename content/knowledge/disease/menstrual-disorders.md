@@ -128,6 +128,8 @@ references:
 
 ::questions{ids="112-2_OP_039,110-1_OP_035"}
 
+::questions{ids="115-1_OP_024,112-1_BM_029"}
+
 ## 痛經 {#dysmenorrhea}
 
 | | **原發性** | **續發性** |
@@ -162,6 +164,8 @@ references:
 - **經期前情緒低落症**(PMDD)：情緒症狀嚴重、影響功能，是 DSM-5-TR 的憂鬱症類別診斷（見 [[depressive-disorder]]）
 
 ::questions{ids="111-1_OP_039,110-1_OP_037,106-1_OP_039,105-1_OP_039"}
+
+::questions{ids="111-1_PC_015"}
 
 ## 毒性休克症候群 {#tss}
 
@@ -202,6 +206,8 @@ references:
 
 ::questions{ids="114-2_OP_025,110-1_OP_021,109-1_OP_040"}
 
-## 相關考題 {#questions}
+::questions{ids="113-3_PC_043,112-3_PC_043,111-2_PC_067,111-2_OP_036,110-2_OP_037,110-2_OP_036"}
+
+## 綜合考題 {#questions}
 
 ::questions{tag="痛經|經前症候群|多囊性卵巢症候群|無月經|月經過多|不正常子宮出血|更年期症候群|經期前情緒低落症" limit="15"}

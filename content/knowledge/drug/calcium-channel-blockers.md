@@ -54,6 +54,8 @@ references:
 - DHP 類快速降壓 → 壓力感受器反射（見 [[blood-pressure-regulation#baroreceptor]]）→ **反射性心搏過速**；短效 nifedipine 最明顯，amlodipine 等長效者較少
 - 心肌耗氧量 ↓（後負荷 ↓；非 DHP 另有心跳 ↓、收縮力 ↓）→ 抗心絞痛（見 [[coronary-circulation#oxygen-demand]]）
 
+::questions{ids="113-3_BM_035,112-3_BM_036"}
+
 ## 代表藥物 {#agents}
 
 ### Dihydropyridine 類(DHP,-dipine) {#dhp}
@@ -107,6 +109,8 @@ references:
 - 短效 nifedipine：急性心肌梗塞、不穩定型心絞痛（反射性心搏過速增加耗氧）
 - DHP 在 HFrEF:amlodipine、felodipine 可安全用於降壓，但對心衰竭無益
 
+::questions{ids="112-1_BM_036"}
+
 ## 交互作用 {#interactions}
 
 | 併用 | 結果 |
@@ -133,6 +137,8 @@ references:
 - 靜脈 nicardipine：輸液幫浦給藥、密切監測血壓（急性期不可降太快，見 [[hypertension]]）、注意靜脈炎，輸注部位要常更換
 - 孕婦用 nifedipine 安胎或降壓：監測母親血壓、心跳與胎心音
 
-## 相關考題 {#questions}
+::questions{ids="113-2_FA_013"}
+
+## 綜合考題 {#questions}
 
 ::questions{keyword="(dipine|verapamil|diltiazem|Adalat|鈣離子(通道)?(阻斷|拮抗))" limit="10"}

@@ -284,6 +284,6 @@ references:
 
 ::questions{ids="107-2_OP_043"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="產瘤|頭血腫|新生兒頭部產傷|蒙古斑|新生兒毒性紅斑|粟粒疹|血管瘤" limit="12"}

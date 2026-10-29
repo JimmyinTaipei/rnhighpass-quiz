@@ -135,7 +135,11 @@ references:
 
 ::questions{ids="105-2_FA_040,109-1_FA_039,111-1_FA_007"}
 
+::questions{ids="114-3_FA_025"}
+
 ## 身體評估：視、觸、叩、聽 {#physical-exam}
+
+::questions{ids="114-3_MS_032"}
 
 ### 視診 {#inspection}
 
@@ -160,6 +164,8 @@ references:
 | 肺擴張不全 | 減弱 | 濁音 |
 
 - 叩診正常的肺是反響音；**肺部基底部反響音是正常**；胃泡處是鼓音
+
+::questions{ids="115-1_MS_010,115-1_FA_008"}
 
 ### 正常呼吸音 {#breath-sounds}
 
@@ -233,6 +239,8 @@ references:
 
 ::questions{ids="106-1_OP_059,114-2_MS_035,115-2_FA_026"}
 
+::questions{ids="115-1_OP_034,114-3_MS_033"}
+
 ## 痰液 {#sputum}
 
 | 痰液外觀 | 可能原因 |
@@ -277,6 +285,8 @@ references:
 
 ::questions{ids="112-1_MS_052"}
 
+::questions{ids="115-1_MS_032"}
+
 ## 胸腔穿刺（胸腔放液穿刺術） {#thoracentesis}
 
 1. 目的
@@ -318,6 +328,6 @@ references:
 
 ::questions{ids="107-2_MS_049,112-1_MS_043"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(呼吸音|囉音|爆裂音|哮鳴|喘鳴|叩診|語音|呼吸型態|陳施|庫斯|畢歐|喟嘆|脈衝式血氧|支氣管鏡|胸腔穿刺|放液)" limit="8"}

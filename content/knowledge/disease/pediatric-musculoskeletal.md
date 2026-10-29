@@ -193,6 +193,6 @@ references:
 - **成骨不全**（藍色鞏膜、易骨折）、**軟骨發育不全**（侏儒）：見 [[single-gene-disorders#osteogenesis-imperfecta]]、[[single-gene-disorders#achondroplasia]]
 - 兒童骨髓炎、化膿性關節炎：見 [[skin-bone-infections]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="發展性髖關節發育不良|脊柱側彎|扁平足|生長痛|幼年特發性關節炎|皮肌炎" limit="12"}

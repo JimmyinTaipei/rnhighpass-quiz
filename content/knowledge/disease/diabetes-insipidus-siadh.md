@@ -66,6 +66,8 @@ references:
 
 ## 尿崩症 {#diabetes-insipidus}
 
+::questions{ids="114-3_BM_039"}
+
 ### 原因 {#di-causes}
 
 | 類型 | 機轉 | 常見原因 |
@@ -154,6 +156,6 @@ references:
 
 ::questions{ids="115-2_MS_043,112-1_MS_063,111-1_MS_070,106-2_makeup_MS_074,113-1_MS_043,111-2_MS_070,108-1_MS_074,106-1_MS_040"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="尿崩症|抗利尿激素分泌不當症候群" limit="8"}

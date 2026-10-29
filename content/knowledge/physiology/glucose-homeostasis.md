@@ -170,6 +170,8 @@ references:
 
 ::questions{ids="112-1_BM_012,105-1_MS_068"}
 
+::questions{ids="114-3_MS_044,113-3_BM_014,113-2_BM_014,113-1_BM_005"}
+
 ### 肝臟的產糖 {#hepatic-glucose}
 
 - **肝醣分解**：空腹前約 12–24 小時的主要來源
@@ -184,6 +186,6 @@ references:
 - 懷孕時腎閾值下降，可能出現尿糖但血糖正常
 - **藥物對應**：[[sglt2-inhibitors|SGLT2 抑制劑]]刻意阻斷回收，把腎閾值降到約 40–120 mg/dL，讓葡萄糖從尿液排出
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="^(?=.*(血糖|葡萄糖|胰島素|糖尿)).*(糖質新生|升糖素|glucagon|皮質醇|生長激素|甲狀腺素|醛固酮|抑制素|最大運輸|transport maximum)" limit="8"}

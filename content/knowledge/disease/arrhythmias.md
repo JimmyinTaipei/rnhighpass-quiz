@@ -115,6 +115,8 @@ references:
 
 ![心房撲動](/knowledge-images/ecg-rhythm-afl.svg)
 
+::questions{ids="113-1_FA_024"}
+
 ### 心房顫動 {#af}
 
 - 心房各處亂放電（350–600 次/分） → **看不到 P 波**，只有細小 f 波；**RR 完全不規則**，QRS 窄
@@ -156,6 +158,8 @@ references:
 ![陣發性上心室頻脈](/knowledge-images/ecg-rhythm-psvt.svg)
 
 ::questions{ids="115-2_MS_019,112-1_MS_029"}
+
+::questions{ids="112-3_BM_037"}
 
 ## 心室來源 {#ventricular}
 
@@ -279,6 +283,8 @@ references:
 裝有節律器或 ICD 的病人心跳停止時**仍要用 AED**，貼片避開皮下裝置的位置即可；「裝有節律器就不能用 AED」是錯的（113-1_MS_049，AED 操作見 [[cpr#aed]]）
 :::
 
+::questions{ids="113-1_MS_049"}
+
 ## 護理重點 {#nursing}
 
 1. 評估
@@ -291,7 +297,7 @@ references:
    3. 安靜環境、減輕焦慮；檢查與治療前說明
 3. 衛教：認識誘因（咖啡因、酒、菸、壓力、電解質失衡）、按時服藥、**自測脈搏**；心跳突然變快、少於 50 次/分或變不規則、出現胸悶頭暈暈厥要就醫（內外上冊書頁 825）
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="心律不整|心房顫動|心室顫動|心室頻脈|房室傳導阻斷|心室上心搏過速" limit="12"}
 

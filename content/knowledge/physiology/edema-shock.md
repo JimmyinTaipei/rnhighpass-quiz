@@ -99,6 +99,8 @@ references:
 
 ::questions{ids="106-1_BM_034,109-2_MS_062,112-2_BM_021"}
 
+::questions{ids="114-3_BM_011"}
+
 ### 肝硬化的腹水與水腫 {#cirrhosis-ascites}
 
 1. **門脈高壓**：門脈系統的微血管靜水壓上升，液體漏到腹腔
@@ -127,10 +129,14 @@ references:
 
 ::questions{ids="108-1_BM_041,111-1_BM_042"}
 
+::questions{ids="114-3_FA_017"}
+
 ## 休克 {#shock}
 
 - **定義**：心輸出量或有效循環血量不足，使**組織灌流不足**、細胞缺氧，最後細胞傷害與死亡（見 [[cell-injury-adaptation#cell-injury]]）
 - 不是看血壓數字而已：早期血壓還能靠代償撐住，但組織已經缺氧
+
+::questions{ids="115-2_MS_050,115-1_MS_019,114-1_MS_019"}
 
 ### 分類 {#shock-types}
 
@@ -149,6 +155,8 @@ references:
 :::
 
 ::questions{ids="105-1_MS_076,105-1_MS_077,109-1_BM_033,105-2_MS_075,106-1_MS_026,109-2_MS_028,110-2_MS_076,110-1_OP_046"}
+
+::questions{ids="113-3_MS_050"}
 
 ### 代償機轉 {#compensation}
 
@@ -177,6 +185,8 @@ references:
 
 ::questions{ids="108-2_MS_075,110-2_MS_078"}
 
+::questions{ids="114-3_MS_037"}
+
 ### 出血性休克的失血分級 {#hemorrhage-class}
 
 成人依 ATLS 出血分級估計失血量（以 70 公斤成人、血量約 5 公升計）；下表的心跳、呼吸數值是國考與教科書沿用的第 9 版數字，第 10 版保留四級與失血百分比，但生命徵象改用「正常、上升、明顯上升」的趨勢描述
@@ -193,6 +203,8 @@ references:
 
 ::questions{ids="108-1_MS_075,108-1_MS_076,108-1_MS_077"}
 
-## 相關考題 {#questions}
+::questions{ids="114-2_FA_026"}
+
+## 綜合考題 {#questions}
 
 ::questions{tag="水腫|組織水腫|充血|休克|低血容積性休克|出血性休克|心因性休克" limit="12"}

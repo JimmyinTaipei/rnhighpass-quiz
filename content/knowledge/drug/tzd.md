@@ -37,6 +37,8 @@ TZD 是細胞核受體 **PPAR-γ**（過氧化體增殖活化受體 γ）的促�
 
 ![[glucose-homeostasis#glut4]]
 
+::questions{ids="108-2_BM_054"}
+
 ## 代表藥物 {#agents}
 
 - **Pioglitazone**（目前主要使用）
@@ -65,6 +67,6 @@ TZD 是細胞核受體 **PPAR-γ**（過氧化體增殖活化受體 γ）的促�
 - **每天量體重**，體重短期快速增加（如一週 > 2 公斤）、水腫、喘 → 就醫
 - 定期檢查肝功能
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(pioglitazone|rosiglitazone|thiazolidinedione|TZD)" limit="6"}

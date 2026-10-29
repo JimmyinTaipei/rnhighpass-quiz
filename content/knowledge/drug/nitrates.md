@@ -61,6 +61,8 @@ references:
 硝酸鹽是「**減少需求**」為主的藥：讓心臟少做功，而不是讓心臟更有力。它沒有正向收縮力作用，也不影響血小板（抗血小板是 [[antiplatelets]] 的工作）
 :::
 
+::questions{ids="115-1_BM_038,109-1_BM_056,108-1_MS_029,114-1_MS_019,111-2_MS_028"}
+
 ## 代表藥物 {#agents}
 
 | 藥物 / 劑型 | 起效 | 作用時間 | 用途與特色 |
@@ -75,6 +77,8 @@ references:
 ### 為什麼 NTG 要舌下或經皮 {#route}
 
 NTG 口服後在肝臟**首渡效應**(first-pass effect)極高，大部分在到達全身循環前就被破壞。**舌下黏膜**與**皮膚**吸收的藥物直接進入體循環，避開肝臟 → 起效快、劑量小。ISMN 本身不經首渡代謝，所以可以口服
+
+::questions{ids="110-1_BM_059"}
 
 ### 其他抗心絞痛藥 {#other-antianginals}
 
@@ -103,6 +107,8 @@ NTG 口服後在肝臟**首渡效應**(first-pass effect)極高，大部分在�
 | 反彈性心絞痛 | 長期使用後突然停藥；需逐漸減量 |
 | 變性血紅素血症（罕見） | 高劑量靜脈使用時 |
 
+::questions{ids="112-1_BM_036"}
+
 ### 禁忌與須暫緩 {#contraindications}
 
 :::warning[禁忌]
@@ -124,6 +130,8 @@ NTG 口服後在肝臟**首渡效應**(first-pass effect)極高，大部分在�
 
 ## 護理重點與衛教 {#nursing}
 
+::questions{ids="109-2_MS_031,110-2_MS_028,109-1_MS_048"}
+
 ### 給藥前後評估 {#assessment}
 
 - **血壓**（與心跳）：給藥前確認收縮壓 ≥ 90 mmHg；給藥後 5 分鐘再測
@@ -132,6 +140,8 @@ NTG 口服後在肝臟**首渡效應**(first-pass effect)極高，大部分在�
 - 瞳孔、體溫不是 NTG 的評估重點
 
 ::questions{ids="107-2_FA_020"}
+
+::questions{ids="111-2_FA_018"}
 
 ### 舌下 NTG 的使用步驟 {#sublingual}
 
@@ -175,7 +185,9 @@ NTG 口服後在肝臟**首渡效應**(first-pass effect)極高，大部分在�
 - 頭痛多會隨持續使用減輕，可用 acetaminophen；不可自行停用長效硝酸鹽
 - 避免飲酒；起身動作放慢；告知所有醫師（含泌尿科）自己在用硝酸鹽，**不可自行服用威而鋼類藥物**
 
-## 相關考題 {#questions}
+::questions{ids="113-1_MS_017"}
+
+## 綜合考題 {#questions}
 
 ::questions{group="antianginals" limit="8"}
 

@@ -132,7 +132,7 @@ references:
 6. Adenosine：快推快沖、事先告知短暫不適、準備急救設備
 7. 衛教按時服藥、不可自行停藥、自測脈搏，心跳過慢(< 50–60)或暈眩、暈厥要就醫
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{group="antiarrhythmics" limit="12"}
 

@@ -94,6 +94,8 @@ references:
 
 ::questions{ids="106-1_MS_077"}
 
+::questions{ids="115-2_PC_038,115-2_MS_048,114-3_PC_037,114-2_PC_037"}
+
 ## 格林-巴利症候群 {#guillain-barre}
 
 - **機轉**：感染後免疫反應攻擊**周邊神經**（分子相似）→ 髓鞘或軸突受損
@@ -169,6 +171,8 @@ references:
 
 ::questions{ids="110-2_MS_006,107-1_MS_007,109-1_MS_004,105-1_MS_001,113-1_MS_001,110-1_MS_002,114-1_MS_002,112-1_MS_003"}
 
-## 相關考題 {#questions}
+::questions{ids="115-2_BM_044"}
+
+## 綜合考題 {#questions}
 
 ::questions{keyword="(重症肌無力|肌無力症|格林|Guillain|漸凍|側索硬化|多發性硬化|脫髓鞘|肉毒)" limit="8"}

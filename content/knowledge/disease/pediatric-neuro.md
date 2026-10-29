@@ -165,6 +165,8 @@ references:
 
 ::questions{ids="106-2_OP_080,112-2_OP_078,112-1_OP_078,107-1_OP_054,106-1_OP_045"}
 
+::questions{ids="115-1_MS_046,113-2_MS_036"}
+
 ## 新生兒反射 {#newborn-reflexes}
 
 | 反射 | 做法與正常反應 | 約何時消失 |
@@ -185,6 +187,8 @@ references:
 
 ::questions{ids="105-2_OP_002,109-2_OP_029,114-1_OP_029"}
 
-## 相關考題 {#questions}
+::questions{ids="114-2_OP_019,113-1_OP_017"}
+
+## 綜合考題 {#questions}
 
 ::questions{keyword="(腦性麻痺|水腦|V-P shunt|分流|脊柱裂|脊髓膜膨出|神經管|腦室內出血|雷氏|新生兒反射|擁抱反射|巴賓斯基反射)" limit="8"}

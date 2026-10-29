@@ -141,6 +141,8 @@ references:
 
 ::questions{ids="115-1_OP_012,106-2_makeup_OP_026,105-1_OP_025"}
 
+::questions{ids="115-2_OP_015,115-1_OP_001,114-2_OP_013,113-2_OP_017"}
+
 ### 新生兒需要住院時 {#separated}
 
 - 嬰兒因黃疸照光、早產或生病住院 → 母親容易**自責、覺得自己不是好媽媽**
@@ -187,6 +189,6 @@ references:
 
 ::questions{ids="106-1_OP_029,112-2_OP_019"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="接受期|緊執期|放手期|親子同室|依附" limit="12"}

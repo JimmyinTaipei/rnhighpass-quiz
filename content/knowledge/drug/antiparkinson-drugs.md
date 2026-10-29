@@ -129,6 +129,6 @@ references:
 
 ::questions{ids="109-1_BM_061"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(巴金森|帕金森|levodopa|左多巴|Sinemet|carbidopa|pramipexole|ropinirole|selegiline|entacapone|amantadine|trihexyphenidyl|Artane|benztropine|riluzole|on-off)" limit="8"}

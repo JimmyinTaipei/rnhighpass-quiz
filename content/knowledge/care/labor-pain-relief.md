@@ -62,6 +62,8 @@ references:
 
 ::questions{ids="114-2_OP_010,110-1_OP_012"}
 
+::questions{ids="107-2_OP_014"}
+
 ## 非藥物減痛的理論 {#theories}
 
 | 理論 | 提出者與內容 | 應用 |
@@ -73,6 +75,8 @@ references:
 - 閘門控制理論的神經機轉見 [[pain-management#gate-control]]
 
 ::questions{ids="109-1_OP_010"}
+
+::questions{ids="107-1_OP_007"}
 
 ## 非藥物減痛方法 {#non-pharmacologic}
 
@@ -126,6 +130,8 @@ references:
 
 ::questions{ids="108-1_OP_012,106-2_makeup_OP_019"}
 
+::questions{ids="112-2_BM_019,111-2_FA_039,110-2_OP_012,110-1_FA_031"}
+
 ## 藥物減痛與產科麻醉 {#pharmacologic}
 
 | 方法 | 用在 | 護理重點 |
@@ -152,6 +158,8 @@ references:
 
 ::questions{ids="112-3_OP_011"}
 
-## 相關考題 {#questions}
+::questions{ids="114-3_OP_011,109-1_OP_020,107-2_OP_015,107-1_OP_013"}
+
+## 綜合考題 {#questions}
 
 ::questions{tag="生產疼痛|換氣過度" limit="20"}

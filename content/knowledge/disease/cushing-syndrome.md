@@ -130,6 +130,6 @@ references:
    4. **雙側**切除者需**終身**補充糖皮質素與礦物皮質素(fludrocortisone)，衛教壓力時加量
 - 腎臟根除性切除術可能一併切除同側腎上腺，術後也要觀察腎上腺功能不足
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="庫欣氏症候群|庫欣氏病" limit="8"}

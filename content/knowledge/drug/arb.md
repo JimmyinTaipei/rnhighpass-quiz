@@ -47,6 +47,8 @@ Angiotensin II 主要透過 **AT1 受體**造成：小動脈收縮、醛固酮�
 - 不論 angiotensin II 是經 ACE 或其他酵素（如 chymase）產生都能阻斷，阻斷較「完整」
 - 血中 angiotensin II 反而上升，可刺激未被阻斷的 AT2 受體（理論上有血管擴張作用）
 
+::questions{ids="114-3_BM_037,114-2_BM_033,113-3_BM_035,112-3_BM_036,111-2_BM_035,108-1_BM_061"}
+
 ### 與 ACEI 比較 {#vs-acei}
 
 | 項目 | ACEI(-pril) | ARB(-sartan) |
@@ -117,6 +119,6 @@ Angiotensin II 主要透過 **AT1 受體**造成：小動脈收縮、醛固酮�
 - 嘴唇、舌頭腫脹或呼吸困難立即就醫（雖然少見）
 - 可與或不與食物併服，每天固定時間服用
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(sartan|AT1|angiotensin II 受體|血管(收縮|張力)素 ?II 受體)" limit="8"}

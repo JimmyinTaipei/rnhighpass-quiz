@@ -269,6 +269,6 @@ references:
 | 坐浴水溫 50 ℃ | 37.8–46.1 ℃ | 會陰皮膚薄易燙傷 |
 | 手掌比頸部更怕燙 | 頸部較敏感 | 手掌皮膚厚 |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="113-1_FA_014,106-2_makeup_FA_029,109-2_FA_008,114-2_FA_016,108-1_FA_029" limit="10"}
+::questions{ids="106-2_makeup_FA_029" limit="10"}

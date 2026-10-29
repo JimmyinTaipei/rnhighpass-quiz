@@ -98,6 +98,8 @@ references:
 
 ::questions{ids="112-3_OP_028,112-1_OP_042,105-1_OP_046,114-1_OP_033,111-1_OP_046,111-1_OP_045,109-1_OP_055,106-1_OP_043,115-1_OP_035,110-1_OP_055"}
 
+::questions{ids="115-2_OP_035,114-2_OP_013,113-2_OP_001"}
+
 ## 無創傷性照護 {#atraumatic-care}
 
 1. 醫療科技可以治療疾病、延長生命，但過程常讓兒童痛苦、不安與害怕
@@ -129,6 +131,6 @@ references:
 
 ::questions{ids="107-1_OP_041,108-2_OP_054,107-1_OP_056"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="以家庭為中心|賦權|empowerment|兒科護理師的角色|兒科護理人員的角色" limit="10"}

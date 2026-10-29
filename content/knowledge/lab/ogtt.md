@@ -53,6 +53,8 @@ references:
 
 ## 妊娠糖尿病的判讀 {#gdm-criteria}
 
+::questions{ids="110-1_OP_031,110-1_MS_071"}
+
 ### 一階段法：75 g OGTT {#one-step}
 
 國健署自 **110 年 7 月 1 日**起補助，**懷孕 24–28 週**，需**空腹 ≥ 8 小時**，測 0、1、2 小時，**任一項**達標即診斷（來源：[國健署 妊娠糖尿病篩檢補助](https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=4576&pid=15683);[ADA Standards of Care 2026 第 2 章](https://doi.org/10.2337/dc26-S002),IADPSG 標準，國際多數採用的首選方式）：
@@ -109,11 +111,13 @@ references:
 5. 常見不適：噁心、頭暈、冒冷汗 → 觀察低血糖症狀；嘔吐則通知並重新安排
 6. 結束後進食，恢復原本用藥
 
+::questions{ids="112-1_PC_058"}
+
 ## 相關檢驗 {#related}
 
 - [[blood-glucose]]、[[hba1c]]
 - 糖尿病診斷全表見 [[diabetes#diagnosis]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(葡萄糖耐|OGTT|耐受試驗|耐量試驗|耐性試驗)" limit="8"}

@@ -87,6 +87,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+::questions{ids="114-2_OP_041"}
+
 ### 毛地黃中毒 {#toxicity}
 
 | 系統 | 表現 |
@@ -103,6 +105,8 @@ references:
 - **懷孕可以使用**：digoxin 不是致畸藥，臨床上甚至讓孕婦服用來治療胎兒心搏過速（來源：[AHA 2014 Diagnosis and Treatment of Fetal Cardiac Disease](https://doi.org/10.1161/01.cir.0000437597.44550.5d)）；「孕期應避免 digitalis 以免致畸」是錯的(108-2_OP_036)
 
 ::questions{ids="108-1_MS_030,106-2_MS_027,106-2_makeup_MS_025,105-1_BM_058,108-2_OP_036"}
+
+::questions{ids="114-1_BM_035,112-2_MS_059"}
 
 ### 中毒處理 {#toxicity-management}
 
@@ -129,6 +133,8 @@ references:
 
 ## 護理重點與衛教 {#nursing}
 
+::questions{ids="114-3_OP_040,114-1_OP_040,113-3_OP_040,113-2_FA_017,112-1_OP_065"}
+
 ### 給藥前評估 {#pre-administration}
 
 - **量心尖脈(apical pulse)滿 1 分鐘**：左鎖骨中線第五肋間，用聽診器**膜面**，注意速率、**規則性與強度**；不能用橈動脈代替，也不能只量 30 秒。量**之前**量，不是給藥後；心尖脈與脈搏短絀的測法見 [[pulse-blood-pressure]]
@@ -144,6 +150,8 @@ references:
 - 懷疑**脈搏短絀**（心尖脈 > 橈動脈脈搏，心房顫動或中毒時）：**兩位護理人員同時**各量心尖脈與橈動脈 **1 分鐘**
 - 確認最近的 **K⁺**、腎功能、digoxin 濃度；詢問噁心、食慾、視覺改變
 - 靜脈給藥：緩慢推注 5 分鐘以上，不可肌肉注射（疼痛、吸收不穩）
+
+::questions{ids="113-2_FA_024"}
 
 ### 兒童給藥 {#pediatric}
 
@@ -166,6 +174,6 @@ references:
 - 認識中毒警訊：食慾差、噁心嘔吐、腹瀉、**看東西黃綠色或有光暈**、意識混亂、心悸或脈搏變慢
 - 就醫時告知正在服用 digoxin（避免交互作用藥物）；定期抽血追蹤濃度、腎功能、血鉀
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(digoxin|毛地黃|lanoxin)" limit="12"}

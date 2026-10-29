@@ -87,6 +87,8 @@ references:
 
 ::questions{ids="105-2_OP_053,105-1_OP_056"}
 
+::questions{ids="113-3_OP_017"}
+
 ## 各系統不成熟與問題 {#systems}
 
 | 系統 | 不成熟 | 結果 |
@@ -111,6 +113,8 @@ references:
 
 - **表面張力素不足** → 肺泡塌陷、透明膜形成；出生後數小時內呼吸急促、**呻吟**、鼻翼搧動、肋間凹陷、發紺；X 光**毛玻璃狀**
 - 處置：**產前類固醇**（母親，促進肺成熟）、**CPAP**、**表面張力素經氣管內給予**、給氧與呼吸器；完整內容見 [[ards-respiratory-failure#neonatal-rds]]、[[oxygen-therapy]]
+
+::questions{ids="114-3_OP_033,113-2_OP_034"}
 
 ### 呼吸暫停 {#apnea}
 
@@ -216,6 +220,8 @@ references:
 
 ::questions{ids="112-1_OP_053,106-2_OP_056,110-1_OP_047,111-2_OP_053"}
 
+::questions{ids="112-2_OP_051"}
+
 ## 擺位與發展性照護 {#developmental-care}
 
 - **發展性照護**(developmental care)：調整環境與照護方式，讓早產兒的**生理與行為穩定**（統整化行為），促進腦部發育
@@ -246,6 +252,6 @@ references:
 
 ::questions{ids="114-1_OP_034"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="早產兒|早產兒呼吸暫停|壞死性腸炎|支氣管肺發育不良" limit="15"}

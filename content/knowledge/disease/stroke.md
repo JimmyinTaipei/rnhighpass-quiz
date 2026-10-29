@@ -114,6 +114,8 @@ references:
 
 ::questions{ids="113-3_MS_005,109-2_MS_006"}
 
+::questions{ids="114-3_MS_034"}
+
 ### 出血性中風 {#hemorrhagic}
 
 - **不可給溶栓劑**，**不可給 aspirin**（會加重出血；頭痛發燒用 acetaminophen）
@@ -130,6 +132,8 @@ references:
 ::questions{ids="106-2_MS_004,105-1_MS_005"}
 
 ## 護理與復健 {#nursing}
+
+::questions{ids="115-2_FA_029"}
 
 ### 吞嚥困難 {#dysphagia}
 
@@ -190,6 +194,6 @@ references:
 
 ::questions{ids="107-1_MS_006,115-1_FA_021"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(中風|腦血管意外|腦梗塞|TIA|暫時性(腦)?缺血|偏癱|單側忽略|rt-PA|血栓溶解|動脈瘤|蜘蛛膜下腔出血|蛛網膜下腔出血)" limit="8"}

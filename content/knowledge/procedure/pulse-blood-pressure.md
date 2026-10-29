@@ -164,6 +164,8 @@ references:
 
 ## 血壓 {#blood-pressure}
 
+::questions{ids="115-2_OP_012"}
+
 ### 定義與決定因素 {#bp-basics}
 
 1. **收縮壓**：左心室收縮、血液射入主動脈時對動脈壁的最高壓力
@@ -272,6 +274,8 @@ references:
 
 ::questions{ids="111-2_OP_048,110-1_OP_045,108-1_OP_058,107-2_OP_060,107-1_OP_060,106-1_FA_041,105-1_FA_043"}
 
+::questions{ids="115-2_OP_010"}
+
 ## 綜合判斷 {#integrated}
 
 1. 選測量部位
@@ -293,6 +297,8 @@ references:
 
 ::questions{ids="112-1_FA_042,108-1_FA_030,108-1_FA_041,111-2_FA_006"}
 
+::questions{ids="115-2_MS_024"}
+
 ## 常見錯誤 {#pitfalls}
 
 | 錯誤說法 | 正確做法 | 為什麼 |
@@ -307,6 +313,6 @@ references:
 | 重測馬上再打氣 | 隔 1–2 分鐘 | 靜脈充血使數值偏差 |
 | 兒童先量體溫 | 先呼吸、脈搏 | 先量會哭，數值不準 |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(脈搏|心尖脈|橈動脈|足背動脈|血壓|壓脈帶|柯氏音|聽診隙|平均動脈壓|生命徵象)" limit="10"}

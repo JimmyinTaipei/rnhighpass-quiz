@@ -52,6 +52,8 @@ references:
 
 Nitroprusside 分子含 5 個**氰根(CN⁻)**：釋放 NO 時氰根也被釋出，由肝臟的 rhodanese 酵素利用硫(thiosulfate)轉成**硫氰酸鹽(thiocyanate)**，再由腎臟排出。劑量高或時間長時，硫來源耗盡 → **氰化物中毒**；腎衰竭時排不掉 → **硫氰酸鹽中毒**
 
+::questions{ids="114-3_BM_037,111-2_MS_028"}
+
 ## 代表藥物 {#agents}
 
 | 藥物 | 劑型 | 特色 |
@@ -140,6 +142,8 @@ Nitroprusside 分子含 5 個**氰根(CN⁻)**：釋放 NO 時氰根也被釋出
 - 監測**動脈血氣體與乳酸**（代謝性酸中毒）、意識、腎功能；使用超過 2–3 天或腎功能不良者監測**硫氰酸鹽**濃度
 - 儘量短期使用，血壓穩定後轉口服藥
 
+::questions{ids="111-1_MS_033"}
+
 ### Hydralazine {#hydralazine-nursing}
 
 - 給藥前後量血壓與**心跳**；注意胸痛、心悸
@@ -152,6 +156,6 @@ Nitroprusside 分子含 5 個**氰根(CN⁻)**：釋放 NO 時氰根也被釋出
 - 事先告知**多毛症**（可除毛，停藥後會慢慢消退），避免病人自行停藥
 - 與 β 阻斷劑、利尿劑一起規則服用
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(hydralazine|minoxidil|nitroprusside|Nipride|diazoxide|Apresoline)" limit="8"}

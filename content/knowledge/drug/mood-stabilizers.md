@@ -57,6 +57,8 @@ references:
 
 ## 鋰鹽 {#lithium}
 
+::questions{ids="115-2_PC_012,112-3_PC_016"}
+
 ### 藥動 {#lithium-pharmacokinetics}
 
 - 口服**快速吸收**，一般劑型服藥後 **1–2 小時**達到**最高血中濃度**（此時最容易出現副作用），緩釋劑型約 4–5 小時；食物不影響吸收
@@ -174,6 +176,8 @@ references:
 
 ::questions{ids="114-2_PC_004,113-3_PC_004,112-2_PC_004,109-2_PC_003,109-1_PC_013,107-2_PC_018,106-1_PC_011,106-1_PC_019,106-1_PC_020,105-2_PC_019,112-1_PC_009,111-1_PC_016"}
 
+::questions{ids="109-2_PC_019"}
+
 ## Valproate {#valproate}
 
 - **機轉**：**增加 GABA**（促進合成、減少分解），並阻斷鈉通道
@@ -220,6 +224,6 @@ references:
 - 育齡女性：討論避孕與懷孕計畫（valproate、carbamazepine、鋰鹽都有致畸胎風險）
 - 躁期病人常因「覺得自己很好」而拒藥，先同理並了解原因，再提供資訊；反覆停藥復發者討論長效針劑
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{group="mood-stabilizers" limit="12"}

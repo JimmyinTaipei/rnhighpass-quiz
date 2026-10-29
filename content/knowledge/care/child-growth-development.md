@@ -73,6 +73,8 @@ references:
 
 ## 生理的發展 {#physical-growth}
 
+::questions{ids="115-1_OP_030"}
+
 ### 發展原則與生長型態 {#principles}
 
 1. 發展有一定的模式與順序、有方向性；早期發展是晚期的基礎；有個別差異與關鍵期（華杏書頁 18）
@@ -108,6 +110,8 @@ references:
 
 ::questions{ids="106-1_OP_058,115-1_OP_028,109-2_OP_047"}
 
+::questions{ids="114-2_OP_048"}
+
 ### 頭圍、胸圍、囟門與身體比例 {#head-proportions}
 
 1. **頭圍**：出生約 34 公分、1 歲約 47 公分、3 歲約 51 公分、5 歲約成人的 90%（華杏書頁 19）
@@ -122,6 +126,8 @@ references:
    3. 成人頭約占身長 1/8、下肢約 1/2
 
 ::questions{ids="112-3_OP_030,112-1_OP_044,110-1_OP_027"}
+
+::questions{ids="115-2_OP_049,114-3_OP_009"}
 
 ### 牙齒 {#teeth}
 
@@ -346,6 +352,6 @@ GFR：Glomerular Filtration Rate（腎絲球過濾率）
 
 ::questions{ids="109-1_OP_042,107-2_OP_041,106-2_OP_047,106-2_makeup_OP_049,106-1_OP_042,105-2_OP_045"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="皮亞傑|Piaget|艾瑞克森|Erikson|丹佛|DDST|氣質|平行遊戲|聯合遊戲|乳齒|囟門" limit="10"}

@@ -49,6 +49,8 @@ references:
 4. **都治**（直接觀察治療）：由都治關懷員每天看著病人把藥吃下去；抗藥性結核則有**進階都治**(DOTS-Plus)。WHO 推動的是 **DOTS**（直接觀察、短程治療）
 5. 服藥方式：抗結核藥**一天一次、同一時間一起服用**，不宜把同一種藥分散在一天中不同時間吃；國內指引認為**不必強調空腹**，腸胃不適可改在飯後服用（國考答案常寫 rifampin **空腹服用吸收較好**，兩者都成立）（[疾管署《結核病診治指引》第七版](https://www.cdc.gov.tw/InfectionReport/Info/SVtdjRgESOT_EwbAhjIJ4g?infoId=WntFbrMaP_QEYVFYkm11og)）
 
+::questions{ids="108-2_BM_077"}
+
 ### 標準處方 {#standard-regimen}
 
 新診斷、藥物敏感的肺結核：
@@ -77,12 +79,16 @@ references:
 - R＝**Red**（橘紅色體液）；E＝**Eye**（視力）；Z＝**尿酸**；H＝**B6、神經**
 :::
 
+::questions{ids="115-1_MS_035,106-1_MS_057,108-2_BM_056,115-1_BM_040,113-2_BM_044"}
+
 ### Rifampin 的交互作用 {#rifampin-interactions}
 
 rifampin 強力誘導肝臟 CYP 酵素，會**降低**許多併用藥物的濃度：
 - **口服避孕藥**：可能**避孕失敗**，改用其他避孕方法
 - **HIV 蛋白酶抑制劑**等抗愛滋藥：效果下降，須由專科醫師調整（或改用 rifabutin）
 - warfarin、口服降血糖藥、類固醇、phenytoin、azole 類抗黴菌藥、methadone（可能出現戒斷症狀）
+
+::questions{ids="113-1_BM_039"}
 
 ## 抗藥性結核 {#drug-resistant}
 
@@ -94,6 +100,8 @@ rifampin 強力誘導肝臟 CYP 酵素，會**降低**許多併用藥物的濃�
 
 - 使用二線藥（levofloxacin、moxifloxacin、bedaquiline、linezolid、delamanid、clofazimine 等），療程較長，轉介**疾管署指定的抗藥性結核病醫療照護體系**，並採**進階都治**(DOTS-Plus)全程監督
 - 通報：**多重抗藥性結核病**要在 **24 小時內**通報（一般結核病是**第三類**傳染病，1 週內通報）
+
+::questions{ids="112-1_MS_055,106-2_PC_042,108-1_PC_046"}
 
 ## 潛伏結核感染治療 {#ltbi}
 
@@ -111,6 +119,8 @@ rifampin 強力誘導肝臟 CYP 酵素，會**降低**許多併用藥物的濃�
 - 開始治療前一定要先**排除活動性結核**（胸部 X 光），否則單一或兩種藥物會造成抗藥
 - 新生兒接觸具傳染性的母親或家人：不必先做檢驗，**直接開始預防性治療**
 
+::questions{ids="110-1_PC_045,109-1_BM_055"}
+
 ## 抗痲瘋藥 {#leprosy-drugs}
 
 - 痲瘋（漢生病）以**多重藥物合併療法**(MDT)治療：**dapsone＋rifampin＋clofazimine**
@@ -127,6 +137,8 @@ rifampin 強力誘導肝臟 CYP 酵素，會**降低**許多併用藥物的濃�
 7. PZA：多喝水、少吃高普林食物；關節痛要回報
 8. 定期抽血追蹤肝功能與血球（有肝病、高齡、飲酒、HIV 者更密集）；追蹤痰液檢查與胸部 X 光
 
-## 相關考題 {#questions}
+::questions{ids="107-1_MS_059"}
 
-::questions{ids="112-1_MS_055,106-2_PC_042,107-1_MS_059,115-1_MS_035,106-1_MS_057,108-2_BM_056,108-2_BM_064,115-1_BM_040,113-1_BM_039,113-3_MS_035,113-2_BM_044,108-2_BM_077,110-1_PC_045,109-1_BM_055,108-1_MS_052,108-1_PC_046,106-2_FA_020,109-2_BM_076,106-2_makeup_MS_049"}
+## 綜合考題 {#questions}
+
+::questions{ids="108-2_BM_064,113-3_MS_035,108-1_MS_052,106-2_FA_020,109-2_BM_076,106-2_makeup_MS_049"}

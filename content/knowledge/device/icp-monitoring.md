@@ -124,6 +124,6 @@ references:
 
 ::questions{ids="115-2_MS_003,106-2_MS_001,109-2_MS_001,109-2_MS_002,110-2_OP_078"}
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(顱內壓監測|腦室外引流|EVD|external ventricular|零點|室間孔)" limit="8"}

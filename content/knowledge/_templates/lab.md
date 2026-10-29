@@ -60,6 +60,6 @@ references:
 
 - [[其他檢驗slug]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(檢驗名|縮寫)" limit="8"}

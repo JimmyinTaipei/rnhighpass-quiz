@@ -48,6 +48,8 @@ references:
 
 ## 奎諾酮類 {#fluoroquinolones}
 
+::questions{ids="107-2_BM_065"}
+
 ### 機轉與代表藥 {#fq-agents}
 
 抑制細菌 **DNA gyrase**（拓撲異構酶 II）與**拓撲異構酶 IV**，使 DNA 無法解旋與複製 → **殺菌**、濃度依賴型（[[antibiotics-overview#mechanism]]）
@@ -117,6 +119,8 @@ references:
 
 （[UpToDate：TMP-SMX](https://www.uptodate.com/contents/trimethoprim-sulfamethoxazole-an-overview)）
 
+::questions{ids="115-1_PC_043"}
+
 ### 燒傷外用藥 {#burn-topicals}
 
 | 藥物 | 重點 |
@@ -125,6 +129,8 @@ references:
 | **mafenide acetate**(Sulfamylon) | **穿透焦痂**能力強；抑制碳酸酐酶 → **代謝性酸中毒**；塗抹時**疼痛** |
 | 0.5% **silver nitrate** | 低張溶液會把電解質吸出：**低血鈉**、低血氯、低血鉀（不是高血鈉）；會把皮膚與床單染黑 |
 | gentamicin 乳膏 | 可用於臉部；大面積使用要**監測腎功能**（[[aminoglycosides]]） |
+
+::questions{ids="110-2_MS_047,106-1_MS_045"}
 
 ## Metronidazole {#metronidazole}
 
@@ -137,6 +143,8 @@ references:
 - **類戒酒反應**：服藥期間與停藥後**至少 72 小時**內**不可飲酒**（包括含酒精的藥水、漱口水），否則潮紅、心悸、噁心嘔吐、頭痛；部分頭孢菌素(cefoperazone)也有類似作用。治療酒癮的 **disulfiram** 是同一種原理的戒酒藥
 - 升高 warfarin 的作用
 - 陰道感染不需要做陰道沖洗，也不需要配合口服避孕藥
+
+::questions{ids="108-2_OP_037,105-1_OP_038"}
 
 ## 泌尿道消毒劑 {#urinary-antiseptics}
 
@@ -173,6 +181,6 @@ references:
 5. **nitrofurantoin**：與食物或牛奶同服；尿色變棕；出現咳嗽、呼吸困難、手腳麻木要回報
 6. 燒傷外用磺胺類：監測白血球(silver sulfadiazine)、酸鹼(mafenide)、電解質(silver nitrate)
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="107-2_BM_065,106-2_BM_063,115-1_PC_043,110-1_BM_064,108-2_OP_037,105-1_OP_038,110-2_MS_047,106-1_MS_045,109-2_FA_024,113-1_BM_040,105-2_BM_064"}
+::questions{ids="106-2_BM_063,110-1_BM_064,109-2_FA_024,113-1_BM_040,105-2_BM_064"}

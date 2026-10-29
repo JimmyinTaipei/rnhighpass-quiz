@@ -47,6 +47,6 @@ references:
 
 連到相關疾病頁：[[疾病頁slug#段落id]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="^(?=.*(主題關鍵字)).*(細項關鍵字)" limit="8"}

@@ -55,6 +55,8 @@ references:
 
 ## 急性發炎 {#acute-inflammation}
 
+::questions{ids="112-1_FA_026,111-2_FA_025,114-1_BM_021,113-2_BM_042"}
+
 ### 起因與過程 {#acute-process}
 
 1. 常見起因：感染（細菌、病毒等）、組織壞死（缺血、創傷、梗塞）、異物、免疫反應、物理與化學傷害（燒燙傷、輻射、毒素）
@@ -123,6 +125,8 @@ references:
 
 來源：Robbins Basic Pathology 第 9 版，第 2 章（發炎與修復）
 
+::questions{ids="107-1_BM_033,106-1_BM_042"}
+
 ### 發炎的細胞 {#inflammatory-cells}
 
 
@@ -169,6 +173,8 @@ references:
 3. **白三烯受體拮抗劑**（如 montelukast）只阻斷白三烯的受體，用在氣喘與過敏性鼻炎
 :::
 
+::questions{ids="114-3_BM_021,110-2_BM_033,109-1_BM_058"}
+
 ### 全身性反應 {#systemic-response}
 
 
@@ -181,6 +187,8 @@ references:
 - **TNF、IL-1、IL-6** 是急性期反應最重要的三個細胞激素
 
 來源：Robbins Basic Pathology 第 9 版，第 2 章（發炎與修復）
+
+::questions{ids="111-1_BM_070"}
 
 ### 發炎的結果 {#outcomes}
 
@@ -196,6 +204,8 @@ references:
 
 ## 發炎的種類 {#types}
 
+::questions{ids="106-1_BM_033"}
+
 ### 依滲出物的型態 {#morphology}
 
 | 型態 | 特徵 | 例子 |
@@ -207,6 +217,8 @@ references:
 | **潰瘍** | 發炎使**組織表面壞死**脫落，留下凹陷缺損；只發生在壞死與發炎靠近表面的地方 | **消化性潰瘍**（胃、十二指腸，急慢性發炎並存）、口腔、泌尿生殖道黏膜潰瘍，以及循環不良的老年人**下肢皮膚潰瘍** |
 
 - **膿瘍**是局部被包起來的膿；**膿胸**是膿積在胸膜腔；**蜂窩性組織炎**是沿組織間隙擴散的化膿性發炎（[[skin-bone-infections]]）
+
+::questions{ids="105-2_BM_033"}
 
 ### 急性與慢性發炎比較 {#acute-vs-chronic}
 
@@ -247,7 +259,11 @@ references:
 
 來源：Robbins Basic Pathology 第 9 版，第 2 章（發炎與修復）；Shah 2017 肉芽腫綜論
 
+::questions{ids="115-1_BM_022,112-2_BM_024,112-2_BM_025,108-2_BM_033,110-2_BM_038"}
+
 ## 再生與修復 {#repair}
+
+::questions{ids="106-2_makeup_BM_033,109-1_BM_026"}
 
 ### 再生與修復的差別 {#regeneration-vs-repair}
 
@@ -318,6 +334,8 @@ references:
 
 來源：Robbins Basic Pathology 第 9 版，第 2 章（發炎與修復）；OpenStax Medical-Surgical Nursing 第 28 章
 
+::questions{ids="114-3_MS_028,113-1_BM_021,108-1_BM_040"}
+
 ### 修復的併發症 {#repair-complications}
 
 
@@ -333,6 +351,6 @@ references:
 
 來源：Robbins Basic Pathology 第 9 版，第 2 章（發炎與修復）
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
-::questions{ids="112-1_FA_026,111-2_FA_025,105-2_MS_054,114-1_BM_021,107-1_BM_033,106-1_BM_042,113-2_BM_042,111-1_BM_070,110-2_BM_066,107-2_BM_067,106-1_BM_067,115-1_BM_022,114-3_BM_021,110-2_BM_033,110-2_BM_035,107-2_BM_033,106-1_BM_033,109-1_BM_058,112-2_BM_024,114-2_BM_021,112-2_BM_025,108-2_BM_033,105-2_BM_033,110-2_BM_038,114-3_MS_028,106-2_makeup_BM_033,113-1_BM_021,108-1_BM_040,109-1_BM_026,113-3_BM_025"}
+::questions{ids="105-2_MS_054,110-2_BM_066,107-2_BM_067,106-1_BM_067,110-2_BM_035,107-2_BM_033,114-2_BM_021,113-3_BM_025"}

@@ -115,6 +115,6 @@ references:
 - 類固醇造成的腎上腺功能不足只缺皮質醇，**不需要 fludrocortisone**（2024 指引）
 - 類固醇的副作用與給藥細節見 [[corticosteroids]]
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="愛迪生氏病|愛迪生氏危機|腎上腺皮質功能不全" limit="8"}

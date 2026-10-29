@@ -114,6 +114,8 @@ Ampicillin 500 mg/vial 加 5 mL 稀釋＝100 mg/mL；要 250 mg → 抽 2.5 mL�
 
 ## 肌肉注射 {#intramuscular}
 
+::questions{ids="115-1_OP_034,115-1_OP_029"}
+
 ### 注射部位 {#im-sites}
 
 ::figure{src="/knowledge-images/im-injection-sites.jpg" labels="im-injection-sites" alt="四個肌肉注射部位：左上三角肌、右上腹臀肌、左下背臀肌、右下股外側肌"}
@@ -131,6 +133,8 @@ Ampicillin 500 mg/vial 加 5 mL 稀釋＝100 mg/mL；要 250 mg → 抽 2.5 mL�
 - 國外指引多建議成人**優先腹臀肌**；課本與國考四個部位都考，並列優缺點
 
 ::questions{ids="115-1_BM_013,112-1_FA_017,109-2_FA_021,107-1_FA_037,106-2_FA_019,106-1_OP_046"}
+
+::questions{ids="114-2_OP_031"}
 
 ### 步驟 {#im-steps}
 
@@ -223,6 +227,8 @@ Ampicillin 500 mg/vial 加 5 mL 稀釋＝100 mg/mL；要 250 mg → 抽 2.5 mL�
    2. 課本：接種過卡介苗者 **≥ 10 mm** 為陽性；未接種、免疫功能不全或用免疫抑制劑者 **≥ 5 mm** 為陽性
    3. 結核感染的其他檢驗見 [[tuberculosis#infection-tests]]
 
+::questions{ids="115-2_FA_009"}
+
 ## 靜脈注射 {#intravenous}
 
 1. 小量推注叫 **IV push**（一般 ≤ 20 mL）；大量滴注見 [[iv-therapy]]
@@ -258,6 +264,6 @@ Ampicillin 500 mg/vial 加 5 mL 稀釋＝100 mg/mL；要 250 mg → 抽 2.5 mL�
 | 消瘦病人選背臀肌 | 選腹臀肌 | 背臀肌易傷坐骨神經 |
 | 皮內注射後按揉 | 不按不揉 | 影響判讀 |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{keyword="(肌肉注射|皮下注射|皮內注射|腹臀肌|背臀肌|股外側肌|三角肌|Z字|Z 字|反抽|回抽)" limit="10"}

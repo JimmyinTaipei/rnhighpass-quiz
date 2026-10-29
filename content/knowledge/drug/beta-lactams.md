@@ -57,6 +57,8 @@ references:
 - **沒有細胞壁的病原無效**：**黴漿菌**、尿漿菌(Ureaplasma)；**真菌**的細胞壁也不是胜肽聚醣
 - 人體細胞沒有細胞壁，所以安全範圍大
 
+::questions{ids="109-1_BM_080,109-1_BM_059,105-2_BM_061"}
+
 ### 抗藥機轉 {#resistance}
 
 | 機轉 | 代表 |
@@ -66,6 +68,8 @@ references:
 | 外膜通透性下降、排出幫浦 | 綠膿桿菌等 G− 菌 |
 
 對策：加上 **β-內醯胺酶抑制劑**（clavulanic acid、sulbactam、tazobactam），或改用 carbapenem；MRSA 則改用 vancomycin 等藥物（[[glycopeptides]]）
+
+::questions{ids="115-2_BM_041,107-1_BM_071"}
 
 ## 代表藥物 {#agents}
 
@@ -78,6 +82,8 @@ references:
 | **胺基青黴素**（廣效） | **ampicillin**、**amoxicillin** | 範圍擴大到部分 G−（大腸桿菌、嗜血桿菌）、**李斯特菌**、腸球菌；amoxicillin 用於中耳炎、鼻竇炎、**幽門螺旋桿菌**三合一療法 |
 | 抗綠膿桿菌青黴素 | **piperacillin**、ticarcillin | **綠膿桿菌**、院內感染 |
 | **合併 β-內醯胺酶抑制劑** | **amoxicillin＋clavulanic acid**(Augmentin)、ampicillin＋sulbactam(Unasyn)、**piperacillin＋tazobactam** | 抑制劑保護 β-lactam 不被分解，**合用效果比單獨使用好** |
+
+::questions{ids="112-2_BM_040,106-1_BM_063"}
 
 ### 頭孢菌素類 {#cephalosporins}
 
@@ -150,6 +156,8 @@ carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲�
 | 其他 | ceftriaxone 在膽囊形成沉積（膽泥）；新生兒**不可**與含鈣的靜脈輸液同時給 ceftriaxone（沉澱） |
 | **Jarisch–Herxheimer 反應** | 治療**梅毒**的第一劑後數小時內發燒、畏寒、頭痛、肌肉痛，是螺旋體大量死亡釋出物質造成，**不是過敏**，給予退燒止痛並安撫 |
 
+::questions{ids="113-1_BM_040"}
+
 ### 交叉過敏 {#cross-reactivity}
 
 - 自述青黴素過敏的人，**超過 90%** 經檢查後其實不過敏
@@ -163,6 +171,8 @@ carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲�
 - 注射後**不可搓揉按摩**（會影響判讀）；在注射處畫圈標示，依規定時間（常見 15–20 分鐘）觀察紅腫範圍
 - 盤尼西林試驗、貼布試驗、皮內試驗都是皮膚過敏試驗；伍氏燈(Wood's light)檢查是看黴菌感染，不是過敏試驗
 
+::questions{ids="110-2_FA_003,110-2_MS_044"}
+
 ## 交互作用 {#interactions}
 
 | 併用 | 結果 |
@@ -173,6 +183,8 @@ carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲�
 | carbapenem＋valproic acid | valproate 濃度下降，易癲癇 |
 | 抑菌劑（如 tetracycline） | 傳統上認為可能拮抗 |
 | warfarin | 部分頭孢菌素增加出血風險 |
+
+::questions{ids="107-2_BM_062"}
 
 ## 護理重點與衛教 {#nursing}
 
@@ -189,6 +201,8 @@ carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲�
    3. 出現皮疹、呼吸困難要立即就醫
    4. 治療梅毒後按時回診追蹤血清檢驗
 
-## 相關考題 {#questions}
+::questions{ids="112-3_OP_025,114-3_MS_031"}
 
-::questions{ids="115-2_BM_041,109-1_BM_080,107-1_BM_071,106-1_BM_071,112-1_OP_059,112-2_BM_040,109-1_BM_059,106-1_BM_063,113-2_BM_046,112-3_OP_025,113-1_BM_040,106-2_BM_062,109-2_BM_073,112-2_OP_022,107-2_BM_062,115-1_BM_032,105-2_BM_061,111-2_FA_017,106-2_FA_020,114-3_BM_044,110-2_FA_003,113-2_FA_019,110-2_MS_044,114-3_MS_031,112-2_BM_042"}
+## 綜合考題 {#questions}
+
+::questions{ids="106-1_BM_071,112-1_OP_059,113-2_BM_046,106-2_BM_062,109-2_BM_073,112-2_OP_022,115-1_BM_032,111-2_FA_017,106-2_FA_020,114-3_BM_044,113-2_FA_019,112-2_BM_042"}

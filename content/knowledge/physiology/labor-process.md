@@ -122,6 +122,8 @@ references:
 
 ## 影響分娩的因素 {#four-ps}
 
+::questions{ids="115-2_OP_001,115-1_OP_010,114-3_OP_012,113-3_OP_007,112-3_OP_009,112-2_OP_017"}
+
 ### 產道 {#passage}
 
 - **骨性骨盆**：兩塊髖骨、薦骨、尾骨；以**骨盆界線**（恥骨聯合上緣 → 髂恥線 → 薦骨岬）分成
@@ -214,6 +216,8 @@ references:
 - 胎心音聽診位置依胎位而不同，見 [[intrapartum-fetal-monitoring#auscultation-site]]
 
 ::questions{ids="113-2_OP_009,110-2_OP_009,110-2_OP_015,110-1_OP_008,109-2_OP_015"}
+
+::questions{ids="114-2_OP_008"}
 
 ### 產力 {#powers}
 
@@ -365,6 +369,6 @@ references:
    2. 經過產道擠壓排出肺內液體，有助於出生後呼吸
    3. 胎頭受壓可出現**產瘤**、塑形
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="正常分娩|真陣痛|假陣痛|胎頭下降" limit="20"}

@@ -237,6 +237,6 @@ references:
 | 粒線體（母系） | MELAS、Leber 遺傳性視神經病變 |
 | 多因子 | 第 2 型糖尿病、高血壓、唇顎裂、神經管缺陷、先天性心臟病、幽門狹窄、髖關節發育不良 |
 
-## 相關考題 {#questions}
+## 綜合考題 {#questions}
 
 ::questions{tag="遺傳性疾病|粒線體疾病" limit="8"}
