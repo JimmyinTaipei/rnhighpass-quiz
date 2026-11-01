@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { KnowledgePreview } from "@/lib/knowledge/types";
 import { useArticle } from "./ArticleShell";
+import { useTableReaderClose } from "./TableReader";
 
 const OPEN_DELAY = 250;
 const CLOSE_DELAY = 180;
@@ -66,9 +67,11 @@ interface KnowledgeLinkProps {
  */
 export function KnowledgeLink({ href, target, preview, children }: KnowledgeLinkProps) {
   const ctx = useArticle();
+  const closeReader = useTableReaderClose();
   const anchorRef = useRef<HTMLAnchorElement>(null);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [pos, setPos] = useState<Position | null>(null);
+  const [previewRoot, setPreviewRoot] = useState<Element | null>(null);
   const cardId = useId();
 
   const [slug, sectionId] = target.split("#");
@@ -79,7 +82,10 @@ export function KnowledgeLink({ href, target, preview, children }: KnowledgeLink
     timer.current = null;
   };
   const open = useCallback(() => {
-    if (anchorRef.current) setPos(place(anchorRef.current.getBoundingClientRect()));
+    if (anchorRef.current) {
+      setPreviewRoot(anchorRef.current.closest("dialog") ?? document.body);
+      setPos(place(anchorRef.current.getBoundingClientRect()));
+    }
   }, []);
   const close = useCallback(() => setPos(null), []);
 
@@ -108,6 +114,8 @@ export function KnowledgeLink({ href, target, preview, children }: KnowledgeLink
   useEffect(() => clear, []);
 
   const navigate = (e: React.MouseEvent) => {
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    closeReader?.();
     if (samePage && sectionId && ctx) {
       e.preventDefault();
       close();
@@ -187,7 +195,8 @@ export function KnowledgeLink({ href, target, preview, children }: KnowledgeLink
               前往 <ArrowRight size={14} />
             </Link>
           </div>,
-          document.body,
+          // A native modal makes the rest of the document inert. Keep previews inside it.
+          previewRoot ?? document.body,
         )}
     </>
   );

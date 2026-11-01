@@ -46,11 +46,15 @@ references:
 
 ## 作用機轉 {#mechanism}
 
+:::table{#kb-glycopeptides-mechanism-7eb1a168 title="醣胜肽類與其他抗 MRSA 藥物｜作用機轉：藥物／作用／抗菌範圍"}
+
 | 藥物 | 作用 | 抗菌範圍 |
 |---|---|---|
 | **vancomycin**、teicoplanin（醣胜肽類） | 與細胞壁前驅物 **D-丙胺酸-D-丙胺酸**結合，阻止胜肽聚醣延長與交聯 → 殺菌（較慢） | **只有 G+**：MRSA、凝固酶陰性葡萄球菌、腸球菌、困難梭菌；分子太大，**無法穿過 G− 外膜** |
 | daptomycin（脂胜肽類） | 插入**細胞膜**使膜去極化 → 快速殺菌 | G+，包括 MRSA、VRE |
 | linezolid（oxazolidinone 類） | 結合 **50S** 核糖體，阻止蛋白質合成起始 | G+，包括 MRSA、VRE |
+
+:::
 
 - vancomycin **不作用在核糖體**；gentamicin(30S)、erythromycin、clindamycin(50S)才是
 - **沒有細胞壁**的尿漿菌、黴漿菌對 vancomycin 天然抗藥
@@ -60,6 +64,8 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-glycopeptides-agents-aa761689 title="醣胜肽類與其他抗 MRSA 藥物｜代表藥物：藥物／途徑／特色"}
+
 | 藥物 | 途徑 | 特色 |
 |---|---|---|
 | **vancomycin** | **靜脈**（全身感染）；**口服**（只作用在腸道） | MRSA 首選之一；口服幾乎不吸收，所以只能治**困難梭狀桿菌腸炎**，靜脈注射則**不會**分泌到腸道 |
@@ -67,6 +73,8 @@ references:
 | **linezolid** | 口服或靜脈，**口服吸收接近 100%** | MRSA、VRE；可以口服出院 |
 | **daptomycin** | 靜脈 | MRSA 菌血症、心內膜炎、VRE；會被肺泡表面張力素破壞，**不能治肺炎** |
 | telavancin、quinupristin/dalfopristin、tigecycline、ceftaroline | 靜脈 | 其他可治 MRSA 的選擇 |
+
+:::
 
 ## 適應症 {#indications}
 
@@ -88,6 +96,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-glycopeptides-adverse-effects-d939edb9 title="醣胜肽類與其他抗 MRSA 藥物｜副作用與禁忌：副作用／說明與處置"}
+
 | 副作用 | 說明與處置 |
 |---|---|
 | **輸注反應**（紅人症候群） | 輸注**太快**使肥大細胞直接釋放組織胺：臉、頸、上半身**潮紅**、搔癢，嚴重時胸痛、低血壓。**不是真正的過敏**。處置：**停止輸注**，給抗組織胺，恢復後以**一半的速度**重新輸注。預防：每分鐘**不超過 10 mg**（1 g 至少輸 100 分鐘；台灣教材常寫「至少 60 分鐘」）（[UpToDate：vancomycin hypersensitivity](https://www.uptodate.com/contents/vancomycin-hypersensitivity)） |
@@ -96,10 +106,16 @@ references:
 | 靜脈炎 | 刺激性強，需充分稀釋、輪換注射部位 |
 | 其他 | 嗜中性白血球減少、藥物熱；罕見真正的過敏性休克（會喘、血管性水腫，要用 epinephrine） |
 
+:::
+
+:::table{#kb-glycopeptides-adverse-effects-c3075c4b title="醣胜肽類與其他抗 MRSA 藥物｜副作用與禁忌：藥物／特有副作用"}
+
 | 藥物 | 特有副作用 |
 |---|---|
 | **linezolid** | 使用超過 2 週的**骨髓抑制**（血小板低下）；有弱的 **MAO 抑制作用**，與 SSRI 等併用可能**血清素症候群**，避免大量含**酪胺**食物；周邊與視神經病變、乳酸中毒 |
 | **daptomycin** | **肌肉病變**、CK 上升（每週監測 CK，暫停 statin）；嗜酸性肺炎 |
+
+:::
 
 ::questions{ids="110-1_BM_054"}
 

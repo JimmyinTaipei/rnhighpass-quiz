@@ -41,6 +41,8 @@ references:
 
 結合 GLP-1 受體，放大腸泌素效應（生理見 [[glucose-homeostasis#incretin]]）：
 
+:::table{#kb-glp1-receptor-agonists-mechanism-bd94ed3d title="GLP-1 受體促效劑｜作用機轉：作用部位／效果"}
+
 | 作用部位 | 效果 |
 |---|---|
 | 胰臟 β 細胞 | 血糖高時 ↑胰島素分泌（血糖正常時作用減弱 → 單用少低血糖） |
@@ -48,6 +50,8 @@ references:
 | 胃 | **延緩胃排空** → 餐後血糖上升變慢（也是噁心的原因） |
 | 下視丘 | ↑飽足感、↓食慾 → **體重下降** |
 | 心血管、腎臟 | 部分藥物減少心血管事件、延緩腎病變 |
+
+:::
 
 與 [[dpp4-inhibitors|DPP-4 抑制劑]]相比：GLP-1 RA 的藥理濃度遠高於生理值，降血糖與減重效果**強很多**，但腸胃副作用也較多
 
@@ -57,6 +61,8 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-glp1-receptor-agonists-agents-fb951e73 title="GLP-1 受體促效劑｜代表藥物：藥物／給藥"}
+
 | 藥物 | 給藥 |
 |---|---|
 | Exenatide | 皮下，每天 2 次（另有每週劑型） |
@@ -64,6 +70,8 @@ references:
 | Dulaglutide | 皮下，每週 1 次 |
 | **Semaglutide** | 皮下每週 1 次；另有**口服**每天 1 次（空腹、少量水吞服，服後 30 分鐘再進食） |
 | Tirzepatide(GIP/GLP-1) | 皮下，每週 1 次 |
+
+:::
 
 （字尾多為 **-glutide**）
 
@@ -77,6 +85,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-glp1-receptor-agonists-adverse-effects-411cf928 title="GLP-1 受體促效劑｜副作用與禁忌：副作用／說明"}
+
 | 副作用 | 說明 |
 |---|---|
 | **噁心、嘔吐、腹瀉、便秘** | 最常見，通常在開始或加量時，數週後減輕；吃少量、吃慢、吃飽就停 |
@@ -89,6 +99,8 @@ references:
 | 腸阻塞(ileus)、胃輕癱 | 有通報；**胃輕癱者不建議使用**（同上來源） |
 | 注射部位反應 | 紅腫、搔癢 |
 | 心跳加快 | 輕度 |
+
+:::
 
 **懷孕**：應停藥。台灣肥胖指引依仿單：計畫懷孕者 **semaglutide 至少停藥 2 個月**、**tirzepatide 至少停藥 1 個月**，確認懷孕立即停用（來源：[台灣成人肥胖及肥胖相關併發症與疾病臨床照護指引](https://www.endo-dm.org.tw/) p.241）
 

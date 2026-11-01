@@ -60,12 +60,16 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-loop-diuretics-agents-b5cc030b title="亨利氏環利尿劑｜代表藥物：藥物／特色"}
+
 | 藥物 | 特色 |
 |---|---|
 | **Furosemide(Lasix®)** | 最常用；口服生體可用率變異大（約 10–90%，平均約 50%），**口服劑量約為靜脈的 2 倍**；名稱記法「Lasix = lasts six hours」 |
 | Bumetanide | 效價高(1 mg ≈ furosemide 40 mg)，口服吸收穩定 |
 | Torsemide | 作用時間長、口服吸收穩定，可一天一次 |
 | **Ethacrynic acid** | **不含磺胺結構**，磺胺過敏者的替代藥；耳毒性最強 |
+
+:::
 
 ## 適應症 {#indications}
 
@@ -78,15 +82,21 @@ references:
 
 ## 藥動重點 {#pharmacokinetics}
 
+:::table{#kb-loop-diuretics-pharmacokinetics-eda6f5be title="亨利氏環利尿劑｜藥動重點：途徑／起效／高峰／作用時間"}
+
 | 途徑 | 起效 | 高峰 | 作用時間 |
 |---|---|---|---|
 | 靜脈注射 | **約 5 分鐘** | 30 分鐘 | 約 2 小時 |
 | 口服 | 30–60 分鐘 | 1–2 小時 | **6–8 小時** |
 
+:::
+
 - 需被分泌到管腔才有效：低白蛋白、腎功能差時需要較高劑量
 - 半衰期短 → 一天一次給藥後會有「反彈性鈉滯留」，嚴重水腫常需一天兩次或持續輸注
 
 ## 副作用與禁忌 {#adverse-effects}
+
+:::table{#kb-loop-diuretics-adverse-effects-0e93daf4 title="亨利氏環利尿劑｜副作用與禁忌：副作用／說明與處置"}
 
 | 副作用 | 說明與處置 |
 |---|---|
@@ -101,11 +111,15 @@ references:
 | 磺胺過敏 | furosemide、bumetanide、torsemide 含磺胺基，可改用 ethacrynic acid |
 | 光敏感、皮疹 | 防曬 |
 
+:::
+
 **禁忌/慎用**：無尿、嚴重低血鉀/低血鈉或脫水未矯正、肝昏迷前期（電解質變化與低血鉀會使血氨上升）
 
 ::questions{ids="114-2_BM_037"}
 
 ## 交互作用 {#interactions}
+
+:::table{#kb-loop-diuretics-interactions-88979b71 title="亨利氏環利尿劑｜交互作用：併用藥物／結果與處置"}
 
 | 併用藥物 | 結果與處置 |
 |---|---|
@@ -118,6 +132,8 @@ references:
 | Cisplatin、vancomycin | 耳/腎毒性加成 |
 | 降血糖藥 | 血糖稍升 |
 | Milrinone | 同一條管路混合會產生沉澱，需分開管路 |
+
+:::
 
 ## 護理重點與衛教 {#nursing}
 

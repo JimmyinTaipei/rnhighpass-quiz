@@ -50,6 +50,8 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-aminoglycosides-agents-04dd4589 title="胺基配醣體類｜代表藥物：藥物／途徑／重點"}
+
 | 藥物 | 途徑 | 重點 |
 |---|---|---|
 | **gentamicin** | 靜脈、肌肉、外用（燒傷乳膏、眼藥） | 最常用；G− 桿菌、與 β-lactam 合併治心內膜炎 |
@@ -57,6 +59,8 @@ references:
 | **amikacin** | 靜脈、肌肉 | 對其他胺基配醣體抗藥的菌仍有效；**多重抗藥性結核**、非結核分枝桿菌 |
 | **streptomycin** | 肌肉 | **結核**（舊第一線）、**鼠疫**、**兔熱病**（土倫病） |
 | **neomycin** | **口服**、外用 | 毒性太大不做注射；口服不吸收，用於**腸道手術前**減菌、**肝性腦病變**減少產氨細菌；外用藥膏治**膿疱病**等皮膚感染 |
+
+:::
 
 ## 適應症 {#indications}
 
@@ -74,16 +78,22 @@ references:
 
 ### 血中濃度監測 {#monitoring}
 
+:::table{#kb-aminoglycosides-monitoring-25faaddb title="胺基配醣體類｜血中濃度監測：項目／抽血時間／意義"}
+
 | 項目 | 抽血時間 | 意義 |
 |---|---|---|
 | **峰濃度**(peak) | 靜脈輸注**結束後約 30 分鐘** | 太低 → 療效不足 |
 | **谷濃度**(trough) | **下一劑給藥前** | 太高 → **腎毒性、耳毒性**風險增加；gentamicin 目標多 < 1–2 μg/mL |
+
+:::
 
 （一天一次給法時，常在給藥後特定時間抽一次濃度，用圖表調整間隔；數值以各院藥劑部規範為準）
 
 ::questions{ids="106-2_makeup_BM_064"}
 
 ## 副作用與禁忌 {#adverse-effects}
+
+:::table{#kb-aminoglycosides-adverse-effects-e01f1117 title="胺基配醣體類｜副作用與禁忌：副作用／說明／護理監測"}
 
 | 副作用 | 說明 | 護理監測 |
 |---|---|---|
@@ -92,11 +102,15 @@ references:
 | **神經肌肉阻斷** | 抑制突觸前乙醯膽鹼釋放，可造成**呼吸肌麻痺**；重症肌無力、併用肌肉鬆弛劑或麻醉時風險高 | 觀察呼吸；解毒可給**鈣劑** |
 | 懷孕 | 可通過胎盤，造成**胎兒耳毒性**（streptomycin 最典型） | 孕婦避免 |
 
+:::
+
 高風險族群：**高齡**、腎功能不全、**脫水**、療程長、谷濃度高、併用其他腎毒性或耳毒性藥物
 
 ::questions{ids="110-2_MS_047"}
 
 ## 交互作用 {#interactions}
+
+:::table{#kb-aminoglycosides-interactions-b2dec20a title="胺基配醣體類｜交互作用：併用／結果"}
 
 | 併用 | 結果 |
 |---|---|
@@ -104,6 +118,8 @@ references:
 | **vancomycin**、amphotericin B、cisplatin、cyclosporine、NSAIDs、顯影劑 | **腎毒性增加** |
 | 神經肌肉阻斷劑、麻醉劑 | 神經肌肉阻斷、呼吸抑制 |
 | β-lactam | **協同**殺菌；但**不可在同一袋點滴或針筒混合**（會互相使對方失去活性），要分開給 |
+
+:::
 
 ::questions{ids="107-2_BM_062"}
 

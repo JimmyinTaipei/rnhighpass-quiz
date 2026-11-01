@@ -273,15 +273,9 @@ body {
 .kb-table-wrap th { background: var(--color-sidebar); color: var(--color-deep); font-weight: 600; text-align: left; white-space: nowrap; }
 .kb-table-wrap th, .kb-table-wrap td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-card-border); vertical-align: top; }
 .kb-table-wrap tr:last-child td { border-bottom: 0; }
-/* 第一欄(通常是項目名稱)固定在左邊，左右滑時還看得到在比哪一列；右側細線和內容分開 */
-.kb-table-wrap :is(th, td):first-child {
-  position: sticky;
-  left: 0;
-  z-index: 1;
-  background: var(--color-card);
-  box-shadow: inset -1px 0 0 var(--color-card-border);
-}
-.kb-table-wrap th:first-child { background: var(--color-sidebar); }
+.kb-table-wrap td { background: var(--color-card); }
+.kb-table-wrap [align="right"] { text-align: right; }
+.kb-table-wrap [align="center"] { text-align: center; }
 .kb-table-wrap td:first-child { font-weight: 500; }
 /* 每欄有最小寬度：欄位多或螢幕窄時表格撐出外框、改成左右滑，不把字擠成一字一行(手機、電腦版都一樣)。
    外框左右的陰影提示「還有內容可以滑」：捲到最邊邊時被同色的 local 背景蓋掉(Lea Verou 的 scrolling shadows) */
@@ -294,6 +288,57 @@ body {
     radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.14), transparent) left / 0.75rem 100% no-repeat scroll,
     radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.14), transparent) right / 0.75rem 100% no-repeat scroll;
   background-color: var(--color-card);
+}
+
+/* Controls sit on the tinted header, rather than above the table. */
+.kb-table-toolbar { position: absolute; right: 0.375rem; top: 0.375rem; z-index: 2; display: flex; align-items: center; gap: 0.25rem; }
+.kb-table-with-actions th:last-child { padding-inline-end: 3.75rem; }
+.kb-table-expand, .kb-table-icon-button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.375rem;
+  min-height: 2.75rem; min-width: 2.75rem; padding: 0.5rem;
+  border-radius: var(--radius-btn); color: var(--color-body); cursor: pointer;
+}
+.kb-table-expand { display: none; font-size: 0.75rem; }
+.kb-table-toolbar .kb-table-favorite {
+  min-height: 1.75rem; min-width: 1.75rem; padding: 0.25rem;
+  background: var(--color-page); border: 1px solid var(--color-card-border);
+}
+.kb-table-favorite { min-height: 2.75rem; min-width: 2.75rem; display: inline-flex; align-items: center; justify-content: center; }
+.kb-table-favorite::after { display: none; }
+.kb-table-toolbar .kb-table-favorite::after { display: block; inset: -0.5rem -0.25rem; }
+.favorite-button[data-active] { color: var(--color-warning); }
+.kb-table-inline-favorite { display: inline-flex; }
+.kb-table-expand:focus-visible, .kb-table-icon-button:focus-visible, .kb-table-favorite:focus-visible, .kb-table-wrap:focus-visible {
+  outline: 2px solid var(--color-accent); outline-offset: 2px;
+}
+@media (min-width: 48rem) and (hover: hover) and (pointer: fine) {
+  .kb-table-with-actions th:last-child { padding-inline-end: 9rem; }
+  .kb-table-expand { display: inline-flex; }
+  .kb-table-toolbar .kb-table-expand, .kb-table-toolbar .kb-table-favorite {
+    min-height: 1.75rem; min-width: 1.75rem; padding: 0.25rem;
+    background: var(--color-page); border: 1px solid var(--color-card-border);
+  }
+  .kb-table-expand { opacity: 0; pointer-events: none; }
+  .kb-table-block:hover .kb-table-expand, .kb-table-block:has(:focus-visible) .kb-table-expand { opacity: 1; pointer-events: auto; }
+  .kb-table-expand:hover, .kb-table-icon-button:hover { background: var(--color-fill); }
+  .kb-table-favorite:hover { background: var(--color-fill); }
+  .kb-table-toolbar .kb-table-favorite,
+  .kb-table-toolbar .kb-table-favorite:hover { background: transparent; border-color: transparent; }
+}
+.kb-table-reader {
+  position: fixed; inset: 0; margin: 0; width: 100%; max-width: none; height: 100dvh; max-height: 100dvh;
+  padding: 0; border: 0; background: var(--color-card); color: var(--color-strong);
+}
+.kb-table-reader::backdrop { background: rgb(0 0 0 / 40%); }
+.kb-table-reader-layout { display: flex; flex-direction: column; height: 100%; padding-bottom: env(safe-area-inset-bottom, 0px); }
+.kb-table-reader-header {
+  display: flex; flex-shrink: 0; align-items: center; gap: 0.5rem;
+  padding: calc(0.5rem + env(safe-area-inset-top, 0px)) max(1rem, env(safe-area-inset-right, 0px)) 0.5rem max(1rem, env(safe-area-inset-left, 0px));
+  border-bottom: 1px solid var(--color-card-border);
+}
+.kb-table-reader-content { flex: 1; min-height: 0; min-width: 0; overflow-y: auto; overscroll-behavior: contain; padding: 1rem max(1rem, env(safe-area-inset-right, 0px)) 1rem max(1rem, env(safe-area-inset-left, 0px)); }
+@media (min-width: 48rem) {
+  .kb-table-reader { inset: 0; margin: auto; width: min(72rem, calc(100% - 4rem)); height: min(52rem, calc(100dvh - 4rem)); border-radius: var(--radius-card); }
 }
 
 /* 行內知識點連結:點線底線,和一般外部連結區分 */
@@ -430,14 +475,6 @@ nav[aria-label="麵包屑"] a {
   border: 1px solid var(--color-card-border);
   --surface-inset: var(--color-page);
   --surface-row: var(--color-fill);
-}
-
-/* 只在 md 以上是白色容器(手機上閱讀頁不包面板，內容直接放在灰色頁面上) */
-@media (min-width: 48rem) {
-  [data-ui="apple"] .md-on-white {
-    --surface-inset: var(--color-page);
-    --surface-row: #FFFFFF;
-  }
 }
 
 /* 字距依字級：大標題略收、內文維持 0(中文字距收太多會擠，所以比英文收得少) */

@@ -76,11 +76,15 @@ references:
 
 依半衰期分類，半衰期約略值如下（教科書與仿單通則，待核對各品項）：
 
+:::table{#kb-anxiolytics-hypnotics-bzd-classes-91db0be6 title="抗焦慮與鎮靜安眠藥｜苯二氮平類的分類：類別／代表藥／半衰期（約）／臨床重點"}
+
 | 類別 | 代表藥 | 半衰期（約） | 臨床重點 |
 |---|---|---|---|
 | **超短效** | **triazolam**(Halcion)、midazolam | 數小時內 | 起效快，用於入睡困難；**停藥戒斷最嚴重**，反彈性失眠；midazolam 用於術前與手術鎮靜 |
 | **中效** | **lorazepam**(Ativan)、alprazolam(Xanax)、temazepam、estazolam | 約 6–24 小時 | **lorazepam** 常用於快速鎮靜躁動、抗焦慮；**alprazolam** 起效快，用於**恐慌發作**；**temazepam** 肝病與老人較常選 |
 | **長效** | **diazepam**(Valium)、clonazepam、chlordiazepoxide、clorazepate、**flurazepam** | 超過 24 小時，含活性代謝物 | 戒斷較輕但**蓄積**，易有**白天鎮靜**（flurazepam 典型）；diazepam 用於酒精戒斷、癲癇、肌肉痙攣 |
+
+:::
 
 1. **抗焦慮為主**：diazepam、lorazepam、alprazolam、clonazepam
 2. **催眠為主**：triazolam、estazolam、flurazepam、temazepam、flunitrazepam
@@ -90,6 +94,8 @@ references:
 
 ### 其他抗焦慮藥 {#other-anxiolytics}
 
+:::table{#kb-anxiolytics-hypnotics-other-anxiolytics-43edc181 title="抗焦慮與鎮靜安眠藥｜其他抗焦慮藥：藥物／機轉／特點"}
+
 | 藥物 | 機轉 | 特點 |
 |---|---|---|
 | **SSRI／SNRI** | 增加血清素或正腎上腺素 | **長期焦慮症、恐慌症、社交焦慮、強迫症的首選**；見 [[antidepressants]] |
@@ -97,7 +103,11 @@ references:
 | **hydroxyzine** | 抗組織胺 | 鎮靜與抗焦慮，抗膽鹼副作用 |
 | **propranolol** | β 阻斷劑 | 減輕**心悸、顫抖**等周邊症狀，常用於表演焦慮；氣喘者禁用 |
 
+:::
+
 ### 非苯二氮平安眠藥 {#non-bzd-hypnotics}
+
+:::table{#kb-anxiolytics-hypnotics-non-bzd-hypnotics-71bde01e title="抗焦慮與鎮靜安眠藥｜非苯二氮平安眠藥：藥物／重點"}
 
 | 藥物 | 重點 |
 |---|---|
@@ -107,6 +117,8 @@ references:
 | **ramelteon** | **褪黑激素受體**促效劑，降低入睡潛伏期；**不是管制藥品**、濫用風險低；高脂餐後會延遲起效 |
 | **suvorexant 等** | **orexin 受體拮抗劑**，睡前服用，需預留足夠睡眠時間；在台灣的可及性待核對 |
 | **低劑量 doxepin、鎮靜型抗憂鬱藥** | 少數情況下使用 |
+
+:::
 
 :::warning[複雜睡眠行為警語]
 Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中開車、夢中進食**等複雜睡眠行為的警語，發生後應停藥；使用時不要與酒精或其他中樞抑制劑併用
@@ -120,12 +132,16 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
 
 ### 巴比妥類 {#barbiturates}
 
+:::table{#kb-anxiolytics-hypnotics-barbiturates-6a97937e title="抗焦慮與鎮靜安眠藥｜巴比妥類：類別／代表藥"}
+
 | 類別 | 代表藥 |
 |---|---|
 | 超短效 | **thiopental**（麻醉誘導） |
 | 短效 | **pentobarbital、secobarbital** |
 | 中效 | amobarbital |
 | **長效** | **phenobarbital**（Luminal，半衰期約數天，用於抗癲癇） |
+
+:::
 
 1. 治療指數窄、**呼吸抑制**風險高、依賴與戒斷嚴重，所以**已很少用於安眠或焦慮**
 2. **phenobarbital** 是典型的**肝臟酵素誘導劑**(CYP450)，會降低併用藥物的血中濃度；其他誘導劑還有 rifampin、phenytoin、carbamazepine
@@ -137,11 +153,15 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
 
 依食藥署「管制藥品分級及品項」：
 
+:::table{#kb-anxiolytics-hypnotics-controlled-class-ba38a2e6 title="抗焦慮與鎮靜安眠藥｜台灣管制等級：級別／品項"}
+
 | 級別 | 品項 |
 |---|---|
 | **第三級** | **flunitrazepam**(FM2)、**triazolam**、**nimetazepam**（一粒眠，2010 年由第四級改列第三級）；短效巴比妥 **amobarbital、pentobarbital、secobarbital** |
 | **第四級** | 多數 BZD：**alprazolam**、**lorazepam**、**diazepam**、**clonazepam**、**chlordiazepoxide**、**midazolam**、**estazolam**、oxazepam、flurazepam、lormetazepam、brotizolam；Z 類 **zolpidem**、**zopiclone**（品項包含異構物，eszopiclone 一併列管）、**zaleplon**；**phenobarbital** |
 | 不列管 | **buspirone**、**ramelteon**、抗組織胺類安眠藥 |
+
+:::
 
 1. 第一到三級需要**專用處方箋**；第四級雖不用專用處方箋，仍是管制藥品，要依規定保存、記錄與點班（見 [[opioids#controlled-drugs]]）
 2. 「管制藥品」是醫療用藥的分級；被濫用時另依毒品危害防制條例分級，兩者是不同法律（見 [[substance-use-disorders#taiwan-law]]）
@@ -170,12 +190,16 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
 
 ## 不良反應、依賴與戒斷 {#adverse-effects}
 
+:::table{#kb-anxiolytics-hypnotics-adverse-effects-39577ac7 title="抗焦慮與鎮靜安眠藥｜不良反應、依賴與戒斷：面向／說明"}
+
 | 面向 | 說明 |
 |---|---|
 | 常見 | 嗜睡、頭暈、**共濟失調**、混亂、**順向性失憶**、肌肉無力、頭痛 |
 | 嚴重 | **呼吸抑制**（與酒精、鴉片類併用風險最高）、反常興奮與攻擊（老人、兒童） |
 | 長期 | **耐受、生理與心理依賴**、認知受損 |
 | 禁忌與慎用 | 重症肌無力、**嚴重呼吸功能不全、睡眠呼吸中止**、嚴重肝功能不全、急性**狹角青光眼**、懷孕與哺乳 |
+
+:::
 
 ::questions{ids="110-2_PC_012"}
 
@@ -200,12 +224,16 @@ Z 類安眠藥（zolpidem、zaleplon、eszopiclone）有出現**夢遊、夢中�
 
 ## 交互作用 {#interactions}
 
+:::table{#kb-anxiolytics-hypnotics-interactions-cdcf7549 title="抗焦慮與鎮靜安眠藥｜交互作用：交互作用／結果"}
+
 | 交互作用 | 結果 |
 |---|---|
 | **酒精、鴉片類、其他中樞抑制劑** | **相加**的中樞與呼吸抑制，鴉片類併用有嚴重警語 |
 | **CYP3A4 抑制劑**（葡萄柚、erythromycin、ketoconazole、鈣離子通道阻斷劑） | BZD 濃度上升，毒性增加（triazolam、alprazolam、midazolam 尤其明顯） |
 | **cimetidine、disulfiram** | 抑制代謝，作用增強 |
 | **酵素誘導劑**（phenobarbital 等） | 降低其他藥物濃度 |
+
+:::
 
 ## 護理重點與衛教 {#nursing}
 

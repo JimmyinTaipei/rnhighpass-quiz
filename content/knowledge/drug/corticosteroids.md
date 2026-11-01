@@ -46,6 +46,8 @@ references:
 
 ## 作用與用途 {#actions}
 
+:::table{#kb-corticosteroids-actions-9d3a6abc title="腎上腺皮質類固醇：效價、副作用、減量與壓力劑量｜作用與用途：作用／臨床用途"}
+
 | 作用 | 臨床用途 |
 |---|---|
 | **抗發炎** | 氣喘、慢性阻塞性肺病急性發作（見 [[asthma-drugs#ics]]）、類風濕性關節炎、皮膚炎、痛風急性發作 |
@@ -58,11 +60,15 @@ references:
 | 胎兒 | 早產前 **betamethasone** 或 dexamethasone 促進**胎兒肺成熟** |
 | 診斷 | **地塞米松抑制試驗**診斷庫欣氏症候群（見 [[cushing-syndrome#diagnosis]]） |
 
+:::
+
 - 類固醇抑制發炎也會**抑制傷口修復**，所以**不會增進傷口癒合**（見 [[inflammation-repair]]）
 
 ::questions{ids="108-2_BM_063,110-1_BM_061,113-2_OP_010,111-2_MS_007,114-2_MS_002,113-1_BM_021,108-1_MS_064"}
 
 ## 藥物與效價 {#potency}
+
+:::table{#kb-corticosteroids-potency-2e941656 title="腎上腺皮質類固醇：效價、副作用、減量與壓力劑量｜藥物與效價：藥物／等效劑量(mg)／抗發炎效價／鹽皮質效價（保鈉）／作用時間"}
 
 | 藥物 | 等效劑量(mg) | 抗發炎效價 | 鹽皮質效價（保鈉） | 作用時間 |
 |---|---:|---:|---:|---|
@@ -75,6 +81,8 @@ references:
 | **betamethasone** | 0.6 | 25–30 | 0 | 長 |
 | **fludrocortisone** | — | 10 | **很強** | 中 |
 
+:::
+
 - 數值為教科書通則，各書略有差異
 - **dexamethasone、betamethasone** 幾乎沒有保鈉作用 → 適合**腦水腫**與胎兒肺成熟
 - **hydrocortisone** 兩種作用都有 → 腎上腺功能不足的補充與**腎上腺危象**
@@ -83,6 +91,8 @@ references:
 - **劑型**：口服、靜脈（methylprednisolone 衝擊治療）、肌肉、關節內、**吸入**（見 [[asthma-drugs#ics]]）、**外用**（臉部與皺摺處用低效價，見 [[allergic-contact-dermatitis-latex#acd-treatment]]）、眼藥（長期可能**青光眼、白內障**）
 
 ## 副作用 {#adverse-effects}
+
+:::table{#kb-corticosteroids-adverse-effects-c200cd70 title="腎上腺皮質類固醇：效價、副作用、減量與壓力劑量｜副作用：系統／副作用／護理"}
 
 | 系統 | 副作用 | 護理 |
 |---|---|---|
@@ -96,6 +106,8 @@ references:
 | 精神 | 欣快、失眠、情緒不穩、憂鬱、精神病 | 早上服藥減少失眠；觀察情緒 |
 | 兒童 | **生長遲緩** | 追蹤身高體重；盡量用隔日療法或吸入、外用 |
 | 內分泌 | **下視丘–腦下垂體–腎上腺軸抑制**、腎上腺萎縮 | 不可突然停藥 |
+
+:::
 
 - 常見錯誤選項：**低血壓**、**低血鈉**、**高血鉀**、**低血糖**、**食慾減退**、**體重降低**都**不是**類固醇的副作用
 - 醣類**避免高醣**、蛋白質要**高蛋白**（對抗分解）
@@ -129,6 +141,8 @@ references:
 
 ## 類固醇的抑制劑與拮抗劑 {#inhibitors}
 
+:::table{#kb-corticosteroids-inhibitors-ab5fd93d title="腎上腺皮質類固醇：效價、副作用、減量與壓力劑量｜類固醇的抑制劑與拮抗劑：藥物／作用／用途"}
+
 | 藥物 | 作用 | 用途 |
 |---|---|---|
 | **metyrapone** | 抑制皮質醇合成的最後一步 | **庫欣氏症候群** |
@@ -137,6 +151,8 @@ references:
 | **mifepristone** | 阻斷**糖皮質素受體**與**黃體素受體** | 庫欣氏症候群的高血糖；終止早期妊娠 |
 | **spironolactone** | 阻斷**礦物皮質素受體**；也阻斷雄性素受體 | 原發性醛固酮症、心衰竭、水腫；副作用**男性女乳症** |
 | **eplerenone** | 選擇性阻斷礦物皮質素受體，**不影響性激素** | 高血壓、心衰竭 |
+
+:::
 
 - spironolactone 與 eplerenone 的利尿劑作用與高血鉀見 [[potassium-sparing-diuretics]]
 

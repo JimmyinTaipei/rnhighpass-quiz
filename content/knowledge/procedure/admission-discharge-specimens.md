@@ -68,6 +68,8 @@ references:
 
 ### 病房護理人員的職責 {#admission-duties}
 
+:::table{#kb-admission-discharge-specimens-admission-duties-05f19fed title="入院、轉出與出院護理；常規檢體收集與靜脈採血｜病房護理人員的職責：時機／要做的事"}
+
 | 時機 | 要做的事 |
 |---|---|
 | 入院前 | 準備病人單位與需要的設備 |
@@ -77,6 +79,8 @@ references:
 | 醫囑 | 依醫囑執行飲食、檢查與檢體收集；**飲食由醫師開立** |
 | 環境介紹 | 病室設施、叫人鈴、作息、探病規定 |
 | 財物 | 貴重物品請**家屬帶回**；代管時列清單、病人簽名；**昏迷**病人的財物由護理長或值班護理人員清點暫管，並由**護理人員以外的兩位證人**簽名 |
+
+:::
 
 - 不適宜的做法：提醒病人「住不習慣可以轉院」、介紹「可能得相同病」的病友、主動收集沒有醫囑的檢體
 - 入院同意書等文件見 [[medical-records-consent]]
@@ -88,12 +92,16 @@ references:
 
 ### 出院方式 {#discharge-types}
 
+:::table{#kb-admission-discharge-specimens-discharge-types-09193013 title="入院、轉出與出院護理；常規檢體收集與靜脈採血｜出院方式：方式／說明"}
+
 | 方式 | 說明 |
 |---|---|
 | **同意出院 MBD**(may be discharged) | 醫師評估可以出院並開醫囑 |
 | **自動出院 AAD**(against advice discharge) | 病人或家屬違反醫師建議要求出院，要**簽自動出院書** |
 | 轉院(referral) | 轉到其他醫院或照護機構繼續治療 |
 | 死亡 | 臨終與死後護理見 [[end-of-life-care]] |
+
+:::
 
 - 醫師已同意出院，病人自己再去他院要求住院 → 對原醫院仍是 **MBD**
 - 轉出（轉床、轉科）：通知接收單位、整理病歷與藥物、護送並交班
@@ -145,12 +153,16 @@ references:
 
 ### 全血球計數正常值 {#cbc-values}
 
+:::table{#kb-admission-discharge-specimens-cbc-values-a2b3f712 title="入院、轉出與出院護理；常規檢體收集與靜脈採血｜全血球計數正常值：項目／正常範圍（課本）"}
+
 | 項目 | 正常範圍（課本） |
 |---|---|
 | 紅血球 | 男 4.5–6.0×10⁶/mm³；女 4.0–5.0×10⁶/mm³ |
 | 白血球 | 5,000–10,000/mm³ |
 | 血小板 | 15–40×10⁴/mm³ |
 | 血紅素 | 男 14–17 g/dL；女 12–16 g/dL |
+
+:::
 
 - 各醫院參考值略有不同；臨床意義見 [[complete-blood-count#reference-range]]
 - 來源：同書 p.538
@@ -183,6 +195,8 @@ references:
 
 ### 溶血的原因 {#hemolysis}
 
+:::table{#kb-admission-discharge-specimens-hemolysis-f68109a0 title="入院、轉出與出院護理；常規檢體收集與靜脈採血｜溶血的原因：會溶血／不會溶血"}
+
 | 會溶血 | 不會溶血 |
 |---|---|
 | 試管內有**水分** | 沿試管壁**緩緩注入** |
@@ -192,11 +206,15 @@ references:
 | **止血帶綁太久** | |
 | 消毒的**酒精未乾**就穿刺 | |
 
+:::
+
 - 來源：同書 p.561
 
 ::questions{ids="112-2_FA_051,105-2_FA_023"}
 
 ## 常見錯誤 {#pitfalls}
+
+:::table{#kb-admission-discharge-specimens-pitfalls-98d83faa title="入院、轉出與出院護理；常規檢體收集與靜脈採血｜常見錯誤：錯誤說法／正確"}
 
 | 錯誤說法 | 正確 |
 |---|---|
@@ -213,5 +231,7 @@ references:
 | 抽完邊按揉邊壓 | 按壓不按揉 |
 | 抗凝劑試管用力搖 | 輕輕倒轉 |
 | CBC 要禁食 | 不用禁食 |
+
+:::
 
 ## 綜合考題 {#questions}

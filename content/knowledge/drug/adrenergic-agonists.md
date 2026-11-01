@@ -49,6 +49,8 @@ references:
 
 ## 受體選擇性與分類 {#classification}
 
+:::table{#kb-adrenergic-agonists-classification-eae61e80 title="擬交感神經藥物｜受體選擇性與分類：藥物／α1／α2／β1／β2／主要用途"}
+
 | 藥物 | α1 | α2 | β1 | β2 | 主要用途 |
 |---|---|---|---|---|---|
 | **Epinephrine** | ++ | ++ | ++ | ++ | 過敏性休克、心跳停止、局部止血與延長局部麻醉 |
@@ -63,6 +65,8 @@ references:
 | **Terbutaline**、**salbutamol**、fenoterol、metaproterenol | | | 少 | +++ | **氣喘**、COPD；terbutaline 也用於安胎 |
 | **Ritodrine** | | | 少 | +++ | **安胎** |
 | Ephedrine、pseudoephedrine | 間接＋直接 | | | | 鼻塞、低血壓（麻醉中） |
+
+:::
 
 - **兒茶酚胺**（epinephrine、norepinephrine、dopamine、dobutamine、isoproterenol）：口服會被腸道與肝臟的 COMT、MAO 分解，要**靜脈、肌肉或皮下**給；作用短
 - 生合成路徑：酪胺酸 → DOPA → **多巴胺** → **正腎上腺素** → **腎上腺素**（最後一步主要在**腎上腺髓質**）
@@ -92,11 +96,15 @@ references:
 
 ## 強心與升壓用的擬交感藥 {#pressors}
 
+:::table{#kb-adrenergic-agonists-pressors-701425ce title="擬交感神經藥物｜強心與升壓用的擬交感藥：Dopamine 劑量(mcg/kg/min)／主要受體／效果"}
+
 | Dopamine 劑量(mcg/kg/min) | 主要受體 | 效果 |
 |---|---|---|
 | 低劑量（約 < 3） | 多巴胺受體 | 腎與腸繫膜血管擴張 → **腎血流與尿量增加** |
 | 中劑量（約 3–10） | **β1** | 心肌收縮力與心輸出量增加，部分 α 作用使周邊阻力增加 |
 | 高劑量(> 10) | **α1** | **周邊血管收縮**、血壓上升；腎與肢端灌流下降 |
+
+:::
 
 - 由**低劑量開始**、依血壓與尿量調整，不能一開始就用高劑量
 - 低劑量雖然增加腎血流，但研究證實**沒有腎臟保護作用**，現在已不為此使用；休克時升壓劑首選是 norepinephrine（見 [[inotropes#dopamine]]）

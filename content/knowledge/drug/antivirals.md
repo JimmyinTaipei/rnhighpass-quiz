@@ -50,6 +50,8 @@ references:
 
 ## 抗病毒藥物概論 {#overview}
 
+:::table{#kb-antivirals-overview-dc622eea title="抗病毒藥物｜抗病毒藥物概論：病毒複製步驟（microbial-pathogenesis#replication）／藥物"}
+
 | 病毒複製步驟（[[microbial-pathogenesis#replication]]） | 藥物 |
 |---|---|
 | 附著、進入 | HIV 融合抑制劑、CCR5 拮抗劑；單株抗體(palivizumab) |
@@ -57,6 +59,8 @@ references:
 | 核酸複製 | acyclovir、ganciclovir、foscarnet（DNA 聚合酶）；反轉錄酶抑制劑；B 肝核苷類似物；sofosbuvir（HCV 聚合酶）；ribavirin |
 | 蛋白質加工 | HIV 與 HCV **蛋白酶抑制劑**；nirmatrelvir(COVID-19) |
 | 釋出 | **神經胺酸酶抑制劑**（oseltamivir、zanamivir、peramivir） |
+
+:::
 
 - 多數只能**抑制複製**，無法清除潛伏的病毒（疱疹、HIV、B 肝）
 - 病毒突變快，容易產生抗藥性（HIV 需要多藥合併）
@@ -66,6 +70,8 @@ references:
 
 ## 抗疱疹病毒藥物 {#anti-herpes}
 
+:::table{#kb-antivirals-anti-herpes-c4b8a59d title="抗病毒藥物｜抗疱疹病毒藥物：藥物／用途／重點"}
+
 | 藥物 | 用途 | 重點 |
 |---|---|---|
 | **acyclovir** | **單純疱疹**（唇疱疹、生殖器疱疹、**疱疹性齦口炎**、疱疹腦炎）、**水痘、帶狀疱疹** | 需先被**病毒的胸苷激酶**磷酸化才活化，所以**只在受感染細胞作用**；口服吸收差，重症（腦炎、免疫低下者散播性水痘）用**靜脈** |
@@ -73,6 +79,8 @@ references:
 | **ganciclovir**、valganciclovir | **巨細胞病毒**(CMV)：移植病人、愛滋病人 **CMV 視網膜炎** | 副作用：**骨髓抑制**（嗜中性白血球、血小板低下）；具致畸胎性，屬危害性藥品 |
 | **foscarnet** | CMV 視網膜炎、**對 acyclovir 抗藥**的單純疱疹 | 不需胸苷激酶活化；**腎毒性**、**電解質異常**（低血鈣、低血鎂、低血鉀）、癲癇 |
 | cidofovir | CMV 視網膜炎 | 腎毒性，併用 probenecid 與輸液 |
+
+:::
 
 **acyclovir 的使用與護理**：
 - **越早使用越好**：帶狀疱疹、生殖器疱疹在出疹 **72 小時內**開始；不是「症狀嚴重才用」
@@ -84,6 +92,8 @@ references:
 
 ## 抗流感病毒藥物 {#anti-influenza}
 
+:::table{#kb-antivirals-anti-influenza-1ae944d2 title="抗病毒藥物｜抗流感病毒藥物：藥物／機轉／途徑與重點"}
+
 | 藥物 | 機轉 | 途徑與重點 |
 |---|---|---|
 | **oseltamivir**（Tamiflu，克流感） | **神經胺酸酶抑制劑**：阻止新病毒從細胞**釋出**，A、B 型流感都有效 | **口服**，一天兩次、共 5 天；副作用噁心嘔吐（與食物同服可減輕），少數兒童出現神經精神症狀 |
@@ -91,6 +101,8 @@ references:
 | peramivir | 神經胺酸酶抑制劑 | **靜脈注射**一劑；無法口服或吸入者 |
 | **baloxavir**（紓伏效） | 抑制病毒的**帽依賴型核酸內切酶** | **單次口服**；重症與免疫低下者較少資料 |
 | amantadine、rimantadine | 抑制 A 型流感 **M2** 離子通道（去殼） | 目前流行株**普遍抗藥**，不再用於流感；amantadine 另用於**巴金森氏症** |
+
+:::
 
 **使用時機**（[UpToDate：influenza treatment](https://www.uptodate.com/contents/seasonal-influenza-in-nonpregnant-adults-treatment)）：
 - **住院**、病情惡化、**高風險族群**（65 歲以上、5 歲以下、孕婦、慢性病、免疫低下）：**不論發病多久都應治療**
@@ -111,11 +123,15 @@ references:
 
 ## 抗 B 型肝炎病毒藥物 {#anti-hbv}
 
+:::table{#kb-antivirals-anti-hbv-7b2f787b title="抗病毒藥物｜抗 B 型肝炎病毒藥物：藥物／重點"}
+
 | 藥物 | 重點 |
 |---|---|
 | **entecavir**、**tenofovir**（TDF、TAF） | **第一線**口服核苷（酸）類似物，抗藥性低；抑制病毒複製，降低肝硬化與肝癌風險；**通常需長期服用** |
 | lamivudine、adefovir、telbivudine | 舊藥，長期使用**容易抗藥**；**adefovir 用於 B 肝，不用於 HIV** |
 | **干擾素 α**(peginterferon) | 皮下注射、療程有限；**阻斷病毒複製並增強宿主免疫**；副作用見下方 |
+
+:::
 
 - **不可自行停藥**：停藥可能導致 B 肝**急性發作**甚至肝衰竭
 - **化學治療、免疫抑制劑、rituximab**前要篩檢 HBsAg，陽性者**預防性**使用抗病毒藥（如 entecavir、lamivudine），避免 B 肝再活化（[[lymphoma-myeloma]]）
@@ -145,11 +161,15 @@ references:
 
 ## 抗 COVID-19 藥物 {#anti-covid}
 
+:::table{#kb-antivirals-anti-covid-59e70bec title="抗病毒藥物｜抗 COVID-19 藥物：藥物／重點"}
+
 | 藥物 | 重點 |
 |---|---|
 | nirmatrelvir/ritonavir(Paxlovid) | 口服蛋白酶抑制劑，發病 5 天內給高風險者；ritonavir 強力抑制 CYP3A，**交互作用很多**（statin、抗心律不整藥、部分免疫抑制劑） |
 | molnupiravir | 口服，不適合孕婦 |
 | remdesivir | 靜脈注射，住院病人 |
+
+:::
 
 ## 護理重點與衛教 {#nursing}
 

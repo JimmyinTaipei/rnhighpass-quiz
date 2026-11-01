@@ -59,6 +59,8 @@ references:
 
 ## 呼吸衰竭 {#respiratory-failure}
 
+:::table{#kb-ards-respiratory-failure-respiratory-failure-3470495e title="呼吸衰竭與急性呼吸窘迫症候群｜呼吸衰竭：低血氧型（第一型）／高碳酸型（第二型）"}
+
 | | **低血氧型**（第一型） | **高碳酸型**（第二型） |
 |---|---|---|
 | 血氣 | **PaO₂ < 60 mmHg**；PaCO₂ 正常或偏低 | **PaCO₂ > 50 mmHg**、pH < 7.35；常合併低血氧 |
@@ -66,14 +68,20 @@ references:
 | 原因 | **ARDS**、肺炎、肺水腫、肺栓塞、肺擴張不全 | **COPD 惡化**、嚴重氣喘、**鴉片類與鎮靜劑**、神經肌肉疾病（重症肌無力、格林巴利、高位脊髓損傷）、胸壁外傷、肥胖 |
 | 給氧效果 | 分流多時效果有限 | 有效，但要控制濃度（COPD 目標 SpO₂ 88–92%） |
 
+:::
+
 切點為常用的臨床定義；PaO₂ 60 mmHg 約等於 SaO₂(Arterial oxygen saturation) 90%，見 [[abg#oxygenation]]
 
 - **徵象**
+
+:::table{#kb-ards-respiratory-failure-respiratory-failure-2db53426 title="呼吸衰竭與急性呼吸窘迫症候群｜呼吸衰竭：時期／表現"}
 
 | 時期 | 表現 |
 |---|---|
 | **早期** | **躁動不安**、焦慮、**意識混亂**、頭痛、心跳與呼吸加快、血壓上升、使用輔助肌 |
 | 晚期 | 發紺、嗜睡到昏迷（CO₂ 麻醉）、**心跳變慢**、**低血壓**、心律不整、呼吸變慢或停止 |
+
+:::
 
 - CO₂ 滯留時病人變得**嗜睡**是危險訊號（意識下降 → 通氣更差），見 [[abg#respiratory-acidosis-care]]
 - **評估**：動脈血氣最能同時看氧合與通氣；SpO₂ 只看氧合；呼吸型態、意識、輔助肌
@@ -93,9 +101,13 @@ references:
 
 ### 原因 {#ards-causes}
 
+:::table{#kb-ards-respiratory-failure-ards-causes-17e1e707 title="呼吸衰竭與急性呼吸窘迫症候群｜原因：直接傷害肺／間接（全身性）"}
+
 | 直接傷害肺 | 間接（全身性） |
 |---|---|
 | **肺炎**（最常見的直接原因）、**吸入胃內容物**、吸入煙霧或毒氣、**溺水**、肺挫傷 | **敗血症**（最常見）、嚴重創傷與休克、大量輸血（輸血相關急性肺損傷）、急性胰臟炎、燒傷 |
+
+:::
 
 - 敗血症見 [[sepsis]]；輸血相關急性肺損傷見 [[transfusion-reactions]]
 
@@ -112,6 +124,8 @@ references:
    3. 低氧性肺血管收縮與微血栓 → 肺高壓
 3. **增生期與纖維化期**：第二型細胞增生修補；部分病人留下**肺纖維化**
 
+:::table{#kb-ards-respiratory-failure-ards-pathophysiology-b184cc0b title="呼吸衰竭與急性呼吸窘迫症候群｜病理生理：ARDS／心因性肺水腫"}
+
 | | ARDS | 心因性肺水腫 |
 |---|---|---|
 | 機轉 | 微血管**通透性**增加 | 左心衰竭 → 肺微血管**靜水壓**上升 |
@@ -119,17 +133,23 @@ references:
 | 水腫液 | 蛋白質多 | 蛋白質少 |
 | 對利尿劑與強心治療 | 反應差 | 反應好 |
 
+:::
+
 - 心因性肺水腫見 [[heart-failure#acute-hf]]；水腫機轉見 [[edema-shock#starling]]
 
 ::questions{ids="111-2_MS_058,112-1_BM_013,114-1_MS_033"}
 
 ### 診斷 {#ards-diagnosis}
 
+:::table{#kb-ards-respiratory-failure-ards-diagnosis-3f619908 title="呼吸衰竭與急性呼吸窘迫症候群｜診斷：定義／主要條件"}
+
 | 定義 | 主要條件 |
 |---|---|
 | 美歐共識（1994，國考舊考點） | 急性發作；胸部 X 光**雙側浸潤**；**肺微血管楔壓 ≤ 18 mmHg**（排除左心衰竭）；**PaO₂/FiO₂ ≤ 200**（≤ 300 稱急性肺損傷） |
 | **Berlin 定義(2012)** | 已知傷害後 **1 週內**；**雙側浸潤**；不能完全用心衰竭或輸液過量解釋；插管且 **PEEP ≥ 5 cmH₂O** 時 **PaO₂/FiO₂ ≤ 300**：輕度 201–300、中度 101–200、重度 ≤ 100；取消「急性肺損傷」與楔壓條件（來源：[JAMA 2012](https://doi.org/10.1001/jama.2012.5669)） |
 | **全球定義（2023 共識）** | 保留 Berlin 條件，另外：用**高流量鼻導管 ≥ 30 L/min** 或非侵襲性呼吸器的病人也可診斷；可用 **SpO₂/FiO₂ ≤ 315**（SpO₂ ≤ 97% 時）取代血氣；**超音波**可取代 X 光（來源：[AJRCCM 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10870876)） |
+
+:::
 
 - 例：FiO₂(Fraction of inspired oxygen) 0.5、PaO₂ 75 → P/F＝150 → 中度 ARDS
 - 國考若問「肺微血管楔壓 ≤ 18」是舊定義的答案

@@ -39,6 +39,8 @@ references:
 
 ## 細菌性皮膚軟組織感染 {#bacterial-skin}
 
+:::table{#kb-skin-bone-infections-bacterial-skin-12f4f28d title="皮膚、軟組織與骨骼感染｜細菌性皮膚軟組織感染：疾病／深度／主要菌／特徵／處置"}
+
 | 疾病 | 深度 | 主要菌 | 特徵 | 處置 |
 |---|---|---|---|---|
 | **膿痂疹** | 表皮 | 金黃色葡萄球菌、A 群鏈球菌 | 幼兒臉部、口鼻周圍；**蜂蜜色痂皮**；大疱性多為金葡菌；**傳染性高** | 清潔、外用抗生素(mupirocin)，範圍大時口服 |
@@ -47,6 +49,8 @@ references:
 | **蜂窩性組織炎** | 真皮深層與皮下組織 | **A 群鏈球菌**、金黃色葡萄球菌 | 紅腫熱痛、**界線不清**、擴散；可發燒 | 抗生素、抬高患肢 |
 | **膿瘍** | 皮下 | **金黃色葡萄球菌**（含 MRSA） | 有波動感的膿腫 | **切開引流**為主 |
 | **壞死性筋膜炎** | **筋膜** | **A 群鏈球菌**（嗜肉菌）、混合菌、**創傷弧菌**、產氣莢膜梭菌 | **疼痛與外觀不成比例**、進展以小時計、皮膚變紫黑、水疱、**捻髮音**（產氣）、休克 | **急症**：**緊急手術清創**＋廣效抗生素 |
+
+:::
 
 - 細菌特性見 [[staphylococcus-aureus]]、[[streptococci#streptococcus-pyogenes]]、[[anaerobes#clostridium-perfringens]]；**創傷弧菌**經**傷口接觸海水或生食海產**感染，肝病患者容易敗血症（[[gram-negative-bacteria#vibrio-vulnificus]]）
 - **糖尿病足**感染與慢性傷口常是多種菌混合，要清創並控制血糖（[[diabetes]]）；平時衛教穿鞋前檢查鞋內異物、不用熱水袋保暖
@@ -91,6 +95,8 @@ references:
 
 ## 病毒、黴菌與寄生蟲皮膚病 {#other-skin-infections}
 
+:::table{#kb-skin-bone-infections-other-skin-infections-4da9428d title="皮膚、軟組織與骨骼感染｜病毒、黴菌與寄生蟲皮膚病：疾病／病原／重點／詳見"}
+
 | 疾病 | 病原 | 重點 | 詳見 |
 |---|---|---|---|
 | **帶狀疱疹** | 水痘帶狀疱疹病毒再活化 | 沿**單側皮節**分布的成簇水疱、**不超過身體中線**；**神經痛**（可持續成帶狀疱疹後神經痛）；不會終身免疫；acyclovir 在 72 小時內開始；**50 歲以上可接種疫苗**；水疱避免擠壓、可濕冷敷 | [[herpesviruses#varicella-zoster-virus]] |
@@ -100,6 +106,8 @@ references:
 | 鵝口瘡、念珠菌皮膚炎 | 白色念珠菌 | 尿布疹、皺褶處 | [[candida]] |
 | **疥瘡** | 人疥蟎 | **夜間劇癢**、指縫隧道；**接觸隔離**、同住者同時治療、頸部以下全身塗藥、衣物高溫清洗 | [[helminths-ectoparasites#sarcoptes-scabiei]] |
 | 頭蝨 | 頭蝨 | 學童、髮根蟲卵；permethrin 洗髮 | [[helminths-ectoparasites#pediculus]] |
+
+:::
 
 - 紅斑性狼瘡是自體免疫疾病，**不具傳染性**；鵝口瘡、帶狀疱疹、疥瘡都有傳染性
 

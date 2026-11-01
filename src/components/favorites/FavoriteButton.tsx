@@ -7,7 +7,7 @@ import { EASE_OUT } from "@/lib/motion";
 import { useFavorites, type FavoriteKind } from "./FavoritesProvider";
 
 interface FavoriteButtonProps {
-  /** 題目 id，或知識頁 "slug"／"slug#段落id"(kind="knowledge") */
+  /** 題目 id、知識頁 "slug"／"slug#段落id"，或 kind="table" 的 kb- 表格 id */
   questionId: string;
   kind?: FavoriteKind;
   /** 螢幕閱讀器與滑過提示用的對象名稱，例如「這一題」「這一頁」「這一段」 */
@@ -47,9 +47,10 @@ export function FavoriteButton({ questionId, kind = "question", label = "這一�
         type="button"
         onClick={onClick}
         aria-pressed={active}
+        disabled={favorites.loggedIn === null || favorites.isPending(questionId, kind)}
         aria-label={active ? `取消收藏${label}` : `收藏${label}`}
         title={active ? `取消收藏${label}` : `收藏${label}`}
-        className={`relative rounded-btn p-1 transition-colors after:absolute after:-inset-2.5 after:content-[''] ${
+        className={`favorite-button relative rounded-btn p-1 transition-colors after:absolute after:-inset-2.5 after:content-[''] ${
           active ? "text-warning" : "text-muted hover:text-warning"
         } ${className}`}
         data-active={active || undefined}

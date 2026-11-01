@@ -58,6 +58,8 @@ references:
 
 凝血因子瀑布最後都匯集到 **第十因子(Xa)→ 凝血酶(IIa)→ 纖維蛋白原變成纖維蛋白網**。靜脈血流慢，血栓以纖維蛋白網住紅血球為主（紅色血栓），所以靜脈血栓用抗凝血劑；動脈血栓以血小板為主，用 [[antiplatelets]]
 
+:::table{#kb-anticoagulants-mechanism-ae8a2f1b title="抗凝血劑｜作用機轉：藥物／作用點／監測"}
+
 | 藥物 | 作用點 | 監測 |
 |---|---|---|
 | **Heparin**（未分化肝素，UFH） | 結合**抗凝血酶（antithrombin,AT，舊稱 AT III）**，使它加速抑制 **IIa 與 Xa** | **aPTT**（或 anti-Xa） |
@@ -66,6 +68,8 @@ references:
 | **Warfarin** | 抑制**維生素 K 環氧化物還原酶(VKORC1)** → 肝臟無法活化**維生素 K 依賴性因子 II、VII、IX、X**（以及抗凝的 protein C、S） | **PT/INR** |
 | **DOAC:Xa 抑制劑** | 直接抑制 Xa:rivaroxaban、apixaban、edoxaban | 不需常規監測 |
 | **直接凝血酶抑制劑** | 直接抑制 IIa:dabigatran（口服）、argatroban、bivalirudin（靜脈） | argatroban 看 aPTT |
+
+:::
 
 :::note[補充]
 - **PT/INR** 反映外在與共同路徑（VII、X、V、II）→ 監測 **warfarin**（VII 半衰期最短，最早受影響）
@@ -79,6 +83,8 @@ references:
 
 ### Heparin（未分化肝素） {#heparin}
 
+:::table{#kb-anticoagulants-heparin-0ccc22b8 title="抗凝血劑｜Heparin（未分化肝素）：項目／內容"}
+
 | 項目 | 內容 |
 |---|---|
 | 途徑 | **靜脈**（持續滴注，治療血栓）或**皮下**（預防）；**不可口服**（腸道不吸收）、**不可肌肉注射**（血腫） |
@@ -88,6 +94,8 @@ references:
 | 懷孕 | **不通過胎盤**，懷孕期抗凝首選（與 LMWH） |
 | 其他用途 | 低濃度肝素生理食鹽水沖洗導管（如 Port-A）；動脈血氧分析(ABG)專用空針含肝素防凝 |
 | 高警訊藥物 | 單位(Unit)不可縮寫成 U，給藥前雙人核對 |
+
+:::
 
 ### 低分子量肝素(LMWH) {#lmwh}
 
@@ -101,6 +109,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 
 ### Warfarin(Coumadin) {#warfarin}
 
+:::table{#kb-anticoagulants-warfarin-b873d089 title="抗凝血劑｜Warfarin(Coumadin)：項目／內容"}
+
 | 項目 | 內容 |
 |---|---|
 | 途徑 | 口服，每天固定時間一次 |
@@ -111,11 +121,15 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 | 解毒 | **維生素 K₁(phytonadione)**:INR 過高無出血 → 暫停 1–2 劑，依醫囑口服小劑量維生素 K；**嚴重出血** → 停藥 + **靜脈維生素 K（緩慢）** + **凝血酶原複合物(4F-PCC)**或新鮮冷凍血漿（維生素 K 需數小時才見效） |
 | 懷孕 | **禁用**：通過胎盤，**致畸胎**（第 6–12 週，鼻骨發育不全、骨骼點狀鈣化）與胎兒出血；可哺乳 |
 
+:::
+
 :::tip[小技巧]
 病人拿到的 warfarin 常有不同顏色代表不同劑量（例如 1 mg、5 mg）；衛教病人**認清劑量與顏色**，並看懂醫囑的切半用法（例：「1# stat & q.d. × 3 天，then 0.5# q.d.」→ 第 4 天起每天半顆）
 :::
 
 ### 直接口服抗凝血劑(DOAC) {#doac}
+
+:::table{#kb-anticoagulants-doac-d80bf45b title="抗凝血劑｜直接口服抗凝血劑(DOAC)：藥物／作用／用法特色／解毒劑"}
 
 | 藥物 | 作用 | 用法特色 | 解毒劑 |
 |---|---|---|---|
@@ -123,6 +137,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 | **Rivaroxaban**(Xarelto) | **Xa** 抑制 | 每日一次；15、20 mg 需**與食物（晚餐）併服** | **Andexanet alfa**；或 4F-PCC |
 | **Apixaban**(Eliquis) | **Xa** 抑制 | 每日兩次；腎功能影響較小 | 同上 |
 | **Edoxaban**(Lixiana) | **Xa** 抑制 | 每日一次 | 同上（或 PCC） |
+
+:::
 
 - 優點：起效快（2–4 小時）、固定劑量、**不需常規驗 INR**、與食物交互作用少、顱內出血比 warfarin 少 → 心房顫動與 VTE 多數情況**優先於 warfarin**
 - 缺點：半衰期短，**漏吃一兩劑就失去保護**；腎功能不良需調整；有交互作用（強 CYP3A4/P-gp 抑制或誘導劑）
@@ -137,6 +153,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 
 ## 適應症 {#indications}
 
+:::table{#kb-anticoagulants-indications-06bc4407 title="抗凝血劑｜適應症：狀況／常用藥物"}
+
 | 狀況 | 常用藥物 |
 |---|---|
 | **深層靜脈血栓(DVT)、肺栓塞(PE)** 治療 | LMWH/UFH → warfarin；或直接用 DOAC；一般至少 3 個月 |
@@ -147,6 +165,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 | **急性冠心症** | 在抗血小板之外加注射型抗凝劑，持續到血管重建（住院急性期，見 [[coronary-artery-disease]]）：NSTE-ACS 用**靜脈 UFH**，不打算早期導管者可用 enoxaparin 或 fondaparinux;PCI 時用 UFH（STEMI 可用 bivalirudin）；**fondaparinux 不可用於支持 PCI**（導管內血栓）；接受血栓溶解劑者抗凝最多 8 天或到血管重建，不做導管者**首選 enoxaparin**（來源：[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)） |
 | 心導管、體外循環、血液透析 | UFH |
 | 腎病症候群 | 預防腎靜脈血栓（高凝狀態） |
+
+:::
 
 :::note[補充]
 **瓣膜選擇的考點**：機械瓣耐用但要**終身 warfarin** → 適合較年輕、無出血傾向、**沒有懷孕計畫**者（如 50 歲停經婦女）。**計畫懷孕的年輕女性、高齡者、出血傾向者**選生物瓣（warfarin 致畸胎，生物瓣不需終身抗凝）
@@ -161,6 +181,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-anticoagulants-adverse-effects-29cb3203 title="抗凝血劑｜副作用與禁忌：副作用／說明與處置"}
+
 | 副作用 | 說明與處置 |
 |---|---|
 | **出血**（所有抗凝劑） | 牙齦、鼻、注射處、血尿、**黑便/柏油便**、咖啡色嘔吐物、月經過多、大片瘀青；顱內出血（劇烈頭痛、意識改變）、後腹腔出血（背痛、腰側瘀斑）。處置：停藥、通知醫師、給解毒劑 |
@@ -172,6 +194,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 | **致畸胎** | Warfarin（懷孕禁用；改 heparin/LMWH） |
 | 消化不良 | Dabigatran |
 
+:::
+
 **禁用或慎用**：活動性出血、出血體質（血友病、嚴重血小板減少）、**主動脈剝離**、近期顱內出血或腦、脊髓、眼部手術、嚴重未控制高血壓、消化性潰瘍出血、嚴重肝病。Warfarin 另禁用於懷孕、無法配合監測者
 
 ## 交互作用 {#interactions}
@@ -180,15 +204,21 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 
 維生素 K 會**拮抗（降低）**warfarin 的效果。重點是**每天攝取量保持穩定**，不是完全不吃蔬菜（突然大量吃 → INR 下降、易血栓；突然不吃 → INR 上升、易出血）
 
+:::table{#kb-anticoagulants-warfarin-food-cf3006b5 title="抗凝血劑｜Warfarin 與食物：會降低 warfarin 效果(INR↓)／會增強 warfarin 效果（INR↑，出血）"}
+
 | 會**降低** warfarin 效果(INR↓) | 會**增強** warfarin 效果（INR↑，出血） |
 |---|---|
 | 富含維生素 K：**菠菜、青花菜、甘藍/高麗菜、芥藍、地瓜葉等深綠色蔬菜**、**納豆**、動物肝臟、蛋黃、綠茶（大量）、酪梨 | **銀杏、當歸、丹參**、大蒜、薑、魚油、**黑木耳**、大量蔓越莓汁 |
 | 人參、聖約翰草 | **酒精**（急性大量）、葡萄柚汁（部分） |
 | 維生素 K 補充劑、營養品 | 高劑量維生素 E |
 
+:::
+
 ::questions{ids="115-2_FA_012"}
 
 ### Warfarin 與藥物 {#warfarin-drugs}
+
+:::table{#kb-anticoagulants-warfarin-drugs-8c2cb620 title="抗凝血劑｜Warfarin 與藥物：增強效果（出血）／減弱效果（血栓）"}
 
 | 增強效果（出血） | 減弱效果（血栓） |
 |---|---|
@@ -197,6 +227,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 | Amiodarone、azole 類抗黴菌藥 | 口服避孕藥、雌激素 |
 | **甲狀腺素**（加速凝血因子分解）、高劑量 acetaminophen | 維生素 K |
 | Cimetidine、omeprazole、部分 statin、allopurinol | |
+
+:::
 
 ### 其他 {#other-interactions}
 
@@ -241,6 +273,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
 - 不要自行服用 aspirin、NSAID；止痛退燒用 acetaminophen（仍需告知劑量）
 - 拔牙、內視鏡、手術前告知醫師正在服用抗凝劑；**停藥時間由醫師依手術出血風險、血栓風險與腎功能決定**，高血栓風險者可能需要「橋接」肝素。參考時間（術前停用，手術當天不算）：
 
+  :::table{#kb-anticoagulants-bleeding-precautions-d2cdb5c4 title="抗凝血劑｜所有抗凝劑共通：出血預防與觀察：藥物／中低出血風險手術／高出血風險手術"}
+
   | 藥物 | 中低出血風險手術 | 高出血風險手術 |
   |---|---|---|
   | Warfarin | INR ≤ 2：術前 3–4 天；INR 2–3：術前 5 天；INR ≥ 3：至少 5 天；術前 24 小時驗 INR,**< 1.5** 才手術 | 同左 |
@@ -249,6 +283,8 @@ Enoxaparin(Clexane)、dalteparin、nadroparin(Fraxiparine)
   | Heparin（靜脈） | 4–6 小時 | 4–6 小時 |
   | Enoxaparin | 24 小時 | 24 小時 |
   | Fondaparinux | 24 小時 | 24 小時 |
+
+  :::
 
   術後止血良好後恢復：warfarin 中低出血風險手術可持續服用、高出血風險 ≤ 24 小時；DOAC 中低風險 24 小時、高風險 48–72 小時（來源：[臺中榮民總醫院埔里分院藥劑科：抗凝血藥與抗血小板藥手術前後停用時間建議表（2026.06.19 修訂）](https://www.pulivh.gov.tw/UploadFiles/WebFiles/WebPagesFiles/Files/0fb9c2db-631c-4590-9c69-929ac822d1e7/抗凝血藥與抗血小板藥手術前後停用時間建議表%2020260619.pdf)）
 - 隨身攜帶**抗凝血藥物識別卡**；不可自行停藥

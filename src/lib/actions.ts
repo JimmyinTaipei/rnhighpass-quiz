@@ -5,6 +5,7 @@ import { cookies } from "next/headers";
 import { createClient } from "./supabase-server";
 import { DEV_MODE_COOKIE } from "./dev-mode";
 import { validateTablePatch } from "./table-fields";
+import { KNOWLEDGE_TABLE_ID_RE, loadKnowledgeTableIndex } from "./knowledge/tables";
 import {
   REPORT_CATEGORIES,
   REPORT_MESSAGE_MAX,
@@ -315,19 +316,44 @@ export async function setFavorite(
 }
 
 /** 目前使用者收藏的題目 id 與知識頁(給 FavoritesProvider 在 client 掛載後抓一次) */
-export async function listFavoriteIds(): Promise<{ loggedIn: boolean; ids: string[]; knowledge: string[] }> {
+export async function listFavoriteIds(): Promise<{ loggedIn: boolean; ids: string[]; knowledge: string[]; tables: string[] }> {
   const supabase = await createClient();
   const { data: userData } = await supabase.auth.getUser();
-  if (!userData.user) return { loggedIn: false, ids: [], knowledge: [] };
-  const [questions, knowledge] = await Promise.all([
+  if (!userData.user) return { loggedIn: false, ids: [], knowledge: [], tables: [] };
+  const [questions, knowledge, tables] = await Promise.all([
     supabase.from("user_favorites").select("question_id").eq("user_id", userData.user.id).limit(5000),
     supabase.from("user_knowledge_favorites").select("target").eq("user_id", userData.user.id).limit(5000),
+    supabase.from("user_table_favorites").select("table_id").eq("user_id", userData.user.id).limit(5000),
   ]);
   return {
     loggedIn: true,
     ids: questions.error ? [] : (questions.data ?? []).map((r) => r.question_id),
     knowledge: knowledge.error ? [] : (knowledge.data ?? []).map((r) => r.target),
+    tables: tables.error ? [] : (tables.data ?? []).map((r) => r.table_id),
   };
+}
+
+/** Set rather than toggle, so retrying a request cannot invert the saved state. */
+export async function setTableFavorite(
+  tableId: string,
+  on: boolean,
+): Promise<{ ok: boolean; reason?: string }> {
+  if (typeof tableId !== "string" || !KNOWLEDGE_TABLE_ID_RE.test(tableId) || typeof on !== "boolean") {
+    return { ok: false, reason: "格式錯誤" };
+  }
+  const supabase = await createClient();
+  const { data: userData } = await supabase.auth.getUser();
+  if (!userData.user) return { ok: false, reason: "not_logged_in" };
+  // Deletion is allowed even if the original table has since been removed.
+  if (on && !(await loadKnowledgeTableIndex())?.[tableId]) return { ok: false, reason: "表格不存在" };
+  const userId = userData.user.id;
+  const { error } = on
+    ? await supabase.from("user_table_favorites").upsert({ user_id: userId, table_id: tableId }, { onConflict: "user_id,table_id", ignoreDuplicates: true })
+    : await supabase.from("user_table_favorites").delete().eq("user_id", userId).eq("table_id", tableId);
+  if (error) return { ok: false, reason: error.message };
+  // Refresh dynamic notebook data, including a previously visited favorites tab.
+  refresh();
+  return { ok: true };
 }
 
 // ===== 知識頁收藏(migration 0014) =====

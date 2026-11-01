@@ -43,6 +43,8 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-sulfonylureas-agents-ec9412cf title="磺醯脲類｜代表藥物：世代／藥物／特色"}
+
 | 世代 | 藥物 | 特色 |
 |---|---|---|
 | 第一代 | Chlorpropamide、Tolbutamide | 已少用；chlorpropamide 半衰期長、與酒精有戒酒劑樣反應 |
@@ -51,11 +53,15 @@ references:
 | | **Gliclazide** | 低血糖較少，有緩釋劑型 |
 | | **Glimepiride** | 每日一次；已證實心血管安全（來源：[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009)） |
 
+:::
+
 ## 適應症 {#indications}
 
 第二型糖尿病，metformin 單用控制不佳時的合併用藥（特別是考量費用時；ADA 將 SU 列為低成本選項之一，來源：[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 建議 9.30）。開始使用其他新降血糖藥時，應重新評估 SU 是否需要減量或停用，以減少低血糖（同上來源，建議 9.17）
 
 ## 副作用與禁忌 {#adverse-effects}
+
+:::table{#kb-sulfonylureas-adverse-effects-9ccb923f title="磺醯脲類｜副作用與禁忌：副作用／說明"}
 
 | 副作用 | 說明 |
 |---|---|
@@ -64,6 +70,8 @@ references:
 | 骨質流失、骨折 | 老人使用 SU 與骨折風險增加有關（來源：[ADA Standards of Care 2026 第 13 章](https://doi.org/10.2337/dc26-S013)） |
 | 腸胃不適、皮疹、光敏感 | 少見 |
 | 溶血 | G6PD 缺乏者 |
+
+:::
 
 **禁忌**：第一型糖尿病、DKA、嚴重肝腎功能不全、對磺胺類過敏（可能交叉過敏）。懷孕時一般以胰島素為優先
 

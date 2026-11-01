@@ -50,6 +50,8 @@ references:
 
 ## 參考值 {#reference-range}
 
+:::table{#kb-renal-function-tests-reference-range-bfff6acb title="腎功能檢驗：BUN、肌酸酐、清除率與 eGFR｜參考值：項目／成人參考值／備註"}
+
 | 項目 | 成人參考值 | 備註 |
 |---|---|---|
 | **BUN** | 5–25 mg/dL（《內外科護理學》下冊 p.780；各院約 7–20） | 兒童較低 |
@@ -57,6 +59,8 @@ references:
 | **BUN/Cr** | 10:1–20:1（同上） | |
 | **肌酸酐清除率** | 課本：男 90–139、女 80–125 mL/min（同上 p.783）；國考答案 95–135 mL/min | 24 小時尿液計算 |
 | **eGFR** | ≥ 90 mL/min/1.73 m² | 隨年齡下降 |
+
+:::
 
 - 參考值依各醫院檢驗室為準；國考 CCr 答案為 95–135 mL/min(109-2_MS_065)，和課本範圍大致重疊
 
@@ -78,6 +82,8 @@ references:
 
 - 來源：蛋白質分解 → 氨 → **肝臟**合成尿素 → 由腎臟排出；部分尿素在腎小管被再吸收（水分回收多時，尿素回收也多）
 
+:::table{#kb-renal-function-tests-bun-a6f8891c title="腎功能檢驗：BUN、肌酸酐、清除率與 eGFR｜尿素氮(BUN)：BUN 上升／BUN 下降"}
+
 | BUN 上升 | BUN 下降 |
 |---|---|
 | 腎功能下降（急、慢性腎衰竭） | **肝衰竭**（尿素合成減少） |
@@ -86,6 +92,8 @@ references:
 | 高蛋白飲食、管灌高蛋白 | |
 | 組織分解：燒傷、發燒、感染、類固醇 | |
 
+:::
+
 - 「BUN 升高可能是脫水，不一定表示腎臟功能不佳」是正確敘述（課本 p.780 同）
 - **氮血症**：BUN 與肌酸酐上升；合併尿毒症狀（噁心、意識改變、搔癢、出血傾向）稱**尿毒症**
 
@@ -93,11 +101,15 @@ references:
 
 ## BUN/Cr 比值 {#bun-cr-ratio}
 
+:::table{#kb-renal-function-tests-bun-cr-ratio-cffbaec4 title="腎功能檢驗：BUN、肌酸酐、清除率與 eGFR｜BUN/Cr 比值：比值／意義"}
+
 | 比值 | 意義 |
 |---|---|
 | **> 20:1** | **腎前性**（脫水、出血、心衰竭）、上腸胃道出血、高蛋白、組織分解 |
 | 10–20:1 | 正常，或腎因性（腎小管壞死時兩者同步上升） |
 | **< 10:1** | **肝衰竭**、低蛋白飲食、營養不良、橫紋肌溶解（肌酸酐升得多） |
+
+:::
 
 - 嚴重腹瀉與發燒會造成脫水與分解增加 → 比值**上升**，不是下降
 - 腎前性與腎性急性腎損傷的其他尿液指標（尿鈉、比重、滲透壓）見 [[acute-kidney-injury#diagnosis]]
@@ -122,6 +134,8 @@ references:
 - **eGFR** 用血清肌酸酐加上年齡、性別計算，以每 1.73 m² 體表面積表示；KDIGO(Kidney Disease: Improving Global Outcomes) 2024 建議使用 **CKD-EPI** 方程式，必要時合併 **cystatin C**（胱抑素 C，不受肌肉量影響）
 - 台灣健檢報告常用 MDRD(Modification of Diet in Renal Disease) 或 CKD-EPI 公式
 
+:::table{#kb-renal-function-tests-egfr-4089f172 title="腎功能檢驗：BUN、肌酸酐、清除率與 eGFR｜eGFR 與慢性腎臟病分期：GFR 分期／eGFR(mL/min/1.73 m²)／描述"}
+
 | GFR 分期 | eGFR(mL/min/1.73 m²) | 描述 |
 |---|---|---|
 | G1 | ≥ 90 | 正常或偏高（需有腎損傷證據才算 CKD） |
@@ -131,6 +145,8 @@ references:
 | G4 | 15–29 | 重度下降 |
 | G5 | < 15 | 腎衰竭 |
 
+:::
+
 - 分期數字依 KDIGO（2012 版提出、2024 版沿用）；白蛋白尿分級 A1–A3 見 [[uacr]]
 - 年齡增加 GFR 自然下降，但 eGFR < 60 持續 3 個月以上仍算 CKD 第 3 期，要評估水腫、倦怠與飲食
 - 112-1_PC_077：GFR 53 約是正常成人 GFR（約 100–125）的**一半**，說「約 70%」是錯的
@@ -139,6 +155,8 @@ references:
 
 ## 干擾因素 {#interference}
 
+:::table{#kb-renal-function-tests-interference-aed1ba2a title="腎功能檢驗：BUN、肌酸酐、清除率與 eGFR｜干擾因素：因素／影響"}
+
 | 因素 | 影響 |
 |---|---|
 | 肌肉量多、大量肉類 | 肌酸酐偏高 |
@@ -146,6 +164,8 @@ references:
 | 高蛋白、腸胃道出血、類固醇、tetracycline | BUN 上升 |
 | 大量輸液、妊娠 | BUN、肌酸酐下降（稀釋、GFR 上升） |
 | 腎毒性藥物（aminoglycoside、顯影劑、NSAIDs，nonsteroidal anti-inflammatory drugs） | 真的造成腎功能下降，用藥前後要追蹤 |
+
+:::
 
 ## 檢體採集與護理 {#nursing}
 

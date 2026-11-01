@@ -44,11 +44,15 @@ references:
 
 血管平滑肌與心肌收縮都需要鈣離子經 **L 型鈣通道**進入細胞；竇房結與房室結的去極化（動作電位第 0 期）也主要靠鈣離子內流（見 [[cardiac-output#conduction]]）。CCB 阻斷這些通道：
 
+:::table{#kb-calcium-channel-blockers-mechanism-0f9f5d24 title="鈣離子通道阻斷劑｜作用機轉：作用部位／效果／哪一類為主"}
+
 | 作用部位 | 效果 | 哪一類為主 |
 |---|---|---|
 | **小動脈平滑肌** | 血管擴張 → 周邊阻力（後負荷）↓、血壓 ↓；冠狀動脈擴張、**解除痙攣** | DHP（對血管選擇性高） |
 | 心肌 | 收縮力 ↓（負收縮） → 耗氧 ↓ | 非 DHP |
 | 竇房結、**房室結** | 心跳變慢、房室傳導變慢 → 控制心室速率 | 非 DHP(verapamil > diltiazem) |
+
+:::
 
 - CCB 主要擴張**動脈**，對靜脈影響小，因此姿勢性低血壓較少，但**微血管前小動脈擴張**會讓液體滲到組織 → 下肢水腫
 - DHP 類快速降壓 → 壓力感受器反射（見 [[blood-pressure-regulation#baroreceptor]]）→ **反射性心搏過速**；短效 nifedipine 最明顯，amlodipine 等長效者較少
@@ -60,6 +64,8 @@ references:
 
 ### Dihydropyridine 類(DHP,-dipine) {#dhp}
 
+:::table{#kb-calcium-channel-blockers-dhp-51356cb1 title="鈣離子通道阻斷劑｜Dihydropyridine 類(DHP,-dipine)：藥物／特色"}
+
 | 藥物 | 特色 |
 |---|---|
 | **Nifedipine**(Adalat) | 短效膠囊作用快、反射性心搏過速明顯；**長效錠**(GITS/OROS/XL)一天一次，**不可咬碎或剝半**；妊娠高血壓與**安胎**（抑制子宮收縮） |
@@ -69,12 +75,18 @@ references:
 | **Nimodipine** | 容易進入腦部；**蜘蛛網膜下腔出血後預防腦血管痙攣**（不是一般降壓藥） |
 | Clevidipine | 超短效靜脈劑型（台灣較少）；脂肪乳劑型，**對大豆、蛋過敏者禁用**（同上來源） |
 
+:::
+
 ### 非 DHP 類 {#non-dhp}
+
+:::table{#kb-calcium-channel-blockers-non-dhp-85f56d9e title="鈣離子通道阻斷劑｜非 DHP 類：藥物／特色"}
 
 | 藥物 | 特色 |
 |---|---|
 | **Verapamil**(Isoptin) | 對心臟作用最強；PSVT、心房顫動心率控制；**便秘最明顯**；會提高 digoxin 濃度 |
 | **Diltiazem**(Herbesser) | 介於兩者之間；心絞痛、心房顫動心率控制（有靜脈劑型） |
+
+:::
 
 ## 適應症 {#indications}
 
@@ -92,6 +104,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-calcium-channel-blockers-adverse-effects-cfe232da title="鈣離子通道阻斷劑｜副作用與禁忌：副作用／機轉/說明／哪一類"}
+
 | 副作用 | 機轉/說明 | 哪一類 |
 |---|---|---|
 | **頭痛、臉潮紅、頭暈** | 血管擴張 | DHP |
@@ -103,6 +117,8 @@ references:
 | **便秘** | 抑制腸道平滑肌收縮 | 非 DHP（**verapamil 最明顯**），DHP 也可發生 |
 | 低血壓 | 過量或併用其他降壓藥 | 兩類 |
 
+:::
+
 **禁忌或避免**
 
 - 非 DHP:**HFrEF**（2025 AHA/ACC：不可用）、病竇症候群、**二度以上房室傳導阻滯**（未裝節律器）、低血壓、心房顫動合併 **WPW 症候群**（加速旁路傳導）（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e150）
@@ -112,6 +128,8 @@ references:
 ::questions{ids="112-1_BM_036"}
 
 ## 交互作用 {#interactions}
+
+:::table{#kb-calcium-channel-blockers-interactions-724e225b title="鈣離子通道阻斷劑｜交互作用：併用／結果"}
 
 | 併用 | 結果 |
 |---|---|
@@ -123,6 +141,8 @@ references:
 | Verapamil/diltiazem 抑制 CYP3A4 | 使 simvastatin（肌肉病變）、cyclosporine 等濃度 ↑ |
 | **硫酸鎂 + nifedipine** | 孕婦同時使用可能加成低血壓與神經肌肉阻斷，需監測 |
 | 其他降壓藥、硝酸鹽、酒精 | 加成低血壓 |
+
+:::
 
 ## 護理重點與衛教 {#nursing}
 

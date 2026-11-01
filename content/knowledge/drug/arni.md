@@ -46,10 +46,14 @@ references:
 
 心衰竭時身體同時有兩套力量在拉扯（見 [[blood-pressure-regulation#raas]] 與 [[blood-pressure-regulation#natriuretic-peptides]]）：
 
+:::table{#kb-arni-mechanism-c37fdb19 title="血管收縮素受體-腦啡肽酶抑制劑｜作用機轉：系統／對心衰竭／ARNI 的作用"}
+
 | 系統 | 對心衰竭 | ARNI 的作用 |
 |---|---|---|
 | **RAAS**（血管收縮素 II、醛固酮） | 血管收縮、鈉水滯留、心肌纖維化、重塑 → **有害** | **Valsartan** 阻斷 AT1 受體 |
 | **利鈉胜肽**（ANP、BNP） | 利尿利鈉、血管擴張、抑制 RAAS 與交感、抗纖維化 → **有益** | **Sacubitril** 抑制分解它們的腦啡肽酶 → 濃度上升 |
+
+:::
 
 - 腦啡肽酶(neprilysin)也會分解**血管收縮素 II**，所以**單用 neprilysin 抑制劑會讓血管收縮素 II 增加**——必須搭配 ARB，這是做成複方的原因
 - 腦啡肽酶也分解**緩激肽(bradykinin)**；若再加上 ACEI（同樣阻止緩激肽分解），緩激肽大量堆積 → **血管性水腫**風險大增 → 所以 **ARNI 不能與 ACEI 併用**，改藥時要間隔 36 小時
@@ -59,9 +63,13 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-arni-agents-a94a9cf4 title="血管收縮素受體-腦啡肽酶抑制劑｜代表藥物：藥物／劑量"}
+
 | 藥物 | 劑量 |
 |---|---|
 | **Sacubitril/valsartan（Entresto®，健安心）** | 24/26 mg、49/51 mg、97/103 mg，**一天兩次**；一般起始 49/51 mg bid，每 2–4 週倍增至目標 **97/103 mg bid**（依血壓、血鉀、腎功能）（來源：[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.36） |
+
+:::
 
 低起始劑量(24/26 mg bid)用於：未曾用過 ACEI/ARB 或原本劑量低、eGFR 30–60(ESC)或 < 30（仿單）、中度肝功能不全、**老人**、曾有症狀性低血壓者（同上來源）。劑量僅供參考，以醫囑為準
 
@@ -76,6 +84,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-arni-adverse-effects-380883ab title="血管收縮素受體-腦啡肽酶抑制劑｜副作用與禁忌：副作用／說明與處置"}
+
 | 副作用 | 說明與處置 |
 |---|---|
 | **低血壓、頭暈** | 最常見（比 enalapril 多）；先減少利尿劑或其他降壓藥，再考慮減量 |
@@ -84,6 +94,8 @@ references:
 | **血管性水腫** | 臉、唇、舌、喉頭腫脹 → **立即停藥、維持呼吸道**；發生率比 ACEI 略高但比單純合用少 |
 | 咳嗽 | 比 ACEI 少 |
 
+:::
+
 **禁忌**：
 - **過去曾發生血管性水腫**（不論原因，尤其是 ACEI/ARB 相關）
 - **36 小時內使用過 ACEI**
@@ -91,6 +103,8 @@ references:
 - 糖尿病病人併用 aliskiren；嚴重肝功能不全
 
 ## 交互作用 {#interactions}
+
+:::table{#kb-arni-interactions-cb1cc864 title="血管收縮素受體-腦啡肽酶抑制劑｜交互作用：併用藥物／結果"}
 
 | 併用藥物 | 結果 |
 |---|---|
@@ -101,6 +115,8 @@ references:
 | NSAID | 腎功能惡化、高血鉀 |
 | 鋰鹽 | 血鋰上升 |
 | Statins（部分） | sacubitril 可能提高 atorvastatin 濃度（臨床意義小） |
+
+:::
 
 ## 護理重點與衛教 {#nursing}
 

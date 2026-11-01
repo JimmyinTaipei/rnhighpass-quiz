@@ -68,6 +68,8 @@ references:
 
 ### 吸入性麻醉劑 {#inhaled}
 
+:::table{#kb-anesthetics-inhaled-635ef980 title="麻醉藥｜吸入性麻醉劑：藥物／重點"}
+
 | 藥物 | 重點 |
 |---|---|
 | **一氧化二氮**（N₂O、笑氣） | 無色、略帶甜味；**MAC 很高（效價弱）**，止痛好、單獨用無法達到手術麻醉；產科可用於分娩止痛；關閉後要給 100% 氧氣數分鐘（擴散性缺氧） |
@@ -75,6 +77,8 @@ references:
 | Desflurane | 恢復最快；刺激呼吸道，不適合誘導 |
 | Isoflurane | 便宜，恢復較慢 |
 | **Halothane** | 舊藥；使心肌對**兒茶酚胺敏感 → 心律不整**；**肝炎**；現在很少用 |
+
+:::
 
 - **MAC**：在一大氣壓下使 **50% 病人**對切皮刺激**不動**所需的肺泡濃度；**MAC 越小 = 效價越強**；年齡增加、懷孕、低體溫、併用鴉片類會使 MAC 下降，長期飲酒者 MAC 較高
 - 吸入性麻醉劑**脂溶性高** → 很快進入腦部，也很容易**通過胎盤**，抑制新生兒的呼吸與神經行為
@@ -86,6 +90,8 @@ references:
 
 ### 靜脈麻醉劑 {#intravenous}
 
+:::table{#kb-anesthetics-intravenous-bed2670e title="麻醉藥｜靜脈麻醉劑：藥物／重點"}
+
 | 藥物 | 重點 |
 |---|---|
 | **Propofol** | 最常用的誘導藥與鎮靜藥；增強 GABA-A；**脂肪乳劑**（白色、不溶於水，開封後限時使用、無菌操作）；起效快、甦醒快、**止吐**；**沒有止痛作用**；副作用：**低血壓**、呼吸抑制、注射痛；長時間高劑量可能 propofol 輸注症候群 |
@@ -94,6 +100,8 @@ references:
 | Etomidate | 心血管穩定；抑制腎上腺皮質 |
 | Midazolam | Benzodiazepine，術前鎮靜與失憶，可用 flumazenil 拮抗（見 [[anxiolytics-hypnotics]]） |
 | Dexmedetomidine | 中樞 α2 致效劑，加護病房鎮靜，病人易喚醒、呼吸抑制少；心跳變慢（見 [[central-alpha2-agonists]]） |
+
+:::
 
 - 108-1 年剖腹產題：一般以**靜脈**麻醉劑誘導、吸入劑維持，所以「以吸入性麻醉藥物作為誘導」本身也不符合常規；考選部最後更正的答案是「全身麻醉常發生低血壓」為錯誤敘述
 
@@ -109,12 +117,18 @@ references:
 - 被阻斷的順序：**細、無髓鞘的纖維先被阻斷** → 痛覺與溫度覺 → 觸覺與壓覺 → 運動；恢復時順序相反
 - 併用 **epinephrine**：局部血管收縮 → 吸收變慢 → **作用時間延長、全身毒性降低**、出血減少（見 [[adrenergic-agonists#epinephrine]]）
 
+:::table{#kb-anesthetics-local-mechanism-6d223db9 title="麻醉藥｜機轉與特性：酯類(ester)／醯胺類(amide)"}
+
 | | 酯類(ester) | 醯胺類(amide) |
 |---|---|---|
 | 代表藥 | Procaine、tetracaine、benzocaine、cocaine | **Lidocaine**、**bupivacaine**、ropivacaine、mepivacaine |
 | 代謝 | 血漿**假性膽鹼酯酶** | **肝臟** |
 | 過敏 | 代謝產物 **PABA** 較常引起過敏 | 很少過敏 |
 | 記法 | 藥名只有一個「i」 | 藥名有兩個「i」（lidocaine、bupivacaine） |
+
+:::
+
+:::table{#kb-anesthetics-local-mechanism-bb530536 title="麻醉藥｜機轉與特性：藥物／用途與重點"}
 
 | 藥物 | 用途與重點 |
 |---|---|
@@ -123,6 +137,8 @@ references:
 | Ropivacaine | 長效、心臟毒性較低；硬膜外減痛分娩 |
 | Benzocaine、tetracaine | 表面麻醉；benzocaine 可能造成變性血紅素血症 |
 | Cocaine | 表面麻醉兼血管收縮（鼻腔）；成癮 |
+
+:::
 
 ::questions{ids="106-1_BM_052,105-2_BM_051,115-2_BM_037,114-1_BM_033,112-2_BM_033,113-3_MS_006"}
 
@@ -135,6 +151,8 @@ references:
 
 ## 脊髓麻醉與硬膜外麻醉 {#neuraxial}
 
+:::table{#kb-anesthetics-neuraxial-eb62b292 title="麻醉藥｜脊髓麻醉與硬膜外麻醉：脊髓麻醉（蜘蛛膜下腔麻醉）／硬膜外麻醉"}
+
 | | 脊髓麻醉（蜘蛛膜下腔麻醉） | 硬膜外麻醉 |
 |---|---|---|
 | 藥物位置 | 穿破硬腦膜，打進**蜘蛛膜下腔**的腦脊髓液 | **硬膜外腔**，**不穿破**硬腦膜 |
@@ -144,6 +162,8 @@ references:
 | 常用於 | **剖腹產**、下腹與下肢手術 | **減痛分娩**、剖腹產、術後止痛 |
 | 低血壓 | **常見且快** | 較緩和 |
 | 麻醉後頭痛 | 較常見（硬腦膜有洞） | 只有**意外穿破硬腦膜**時才會發生 |
+
+:::
 
 - 穿刺位置與脊髓下端的關係見 [[spinal-cord-spinal-nerves#lumbar-puncture-site]]
 - **低血壓**：交感神經被阻斷 → 血管擴張 → 血壓下降，也會減少胎盤灌流、**胎兒心跳變異性減少**

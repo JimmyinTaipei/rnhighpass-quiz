@@ -189,7 +189,7 @@ export function ArticleShell({
   return (
     <ArticleContext.Provider value={value}>
       {/* lg：目錄＋內文兩欄。xl 以上內文欄固定寬度、放在畫面正中央，目錄靠在內文左邊(第三欄留白與第一欄對稱) */}
-      <div className="mx-auto grid w-full max-w-6xl flex-1 gap-6 px-4 py-6 lg:grid-cols-[240px_minmax(0,1fr)] xl:max-w-none xl:grid-cols-[minmax(240px,1fr)_minmax(0,54rem)_minmax(0,1fr)]">
+      <div className="mx-auto grid w-full max-w-6xl flex-1 gap-6 bg-card px-4 py-6 md:bg-transparent lg:grid-cols-[240px_minmax(0,1fr)] xl:max-w-none xl:grid-cols-[minmax(240px,1fr)_minmax(0,54rem)_minmax(0,1fr)]">
         <aside className="hidden lg:block xl:w-[240px] xl:justify-self-end">
           <div className="sticky top-[calc(var(--desk-bar)+1rem)] max-h-[calc(100vh-2rem-var(--desk-bar))] overflow-y-auto pr-1">
             <DesktopBackLink className="-ml-1 mb-2" />

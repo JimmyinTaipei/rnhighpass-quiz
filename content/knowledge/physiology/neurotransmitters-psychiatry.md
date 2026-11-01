@@ -48,6 +48,8 @@ references:
 
 ## 神經傳導物質總覽 {#overview}
 
+:::table{#kb-neurotransmitters-psychiatry-overview-8fee9c9b title="精神疾病的神經傳導物質與腦區｜神經傳導物質總覽：物質／主要來源／主要功能／太多／太少／相關藥物"}
+
 | 物質 | 主要來源 | 主要功能 | 太多 | 太少 | 相關藥物 |
 |---|---|---|---|---|---|
 | **多巴胺**(DA) | 中腦**腹側被蓋區**(VTA)、**黑質** | 動機、獎賞、思考、動作協調、抑制泌乳素 | **思覺失調症正性症狀**、躁症 | **巴金森氏症**、負性症狀、憂鬱（缺乏動力與快樂） | 抗精神病藥擋 D2；levodopa 補多巴胺 |
@@ -57,6 +59,8 @@ references:
 | **麩胺酸**(Glutamate) | 大腦皮質、海馬 | 中樞**最主要的興奮性**物質、學習記憶 | 神經毒性（中風、癲癇後細胞死亡） | NMDA 受體功能低下 → 思覺失調症（含負性與認知症狀）的假說 | Ketamine（NMDA 拮抗劑）可快速抗憂鬱；memantine 治療失智 |
 | **乙醯膽鹼**(ACh) | 基底前腦（Meynert 基底核）、紋狀體中間神經元 | 記憶、注意力；在紋狀體與多巴胺互相平衡 | 紋狀體內相對過多 → 類巴金森症狀 | **阿茲海默症**的記憶衰退 | 抗膽鹼藥(biperiden)治 EPS；AChE 抑制劑治失智（見 [[anti-dementia-drugs]]） |
 | **組織胺**(H1) | 下視丘 | 清醒 | — | 被阻斷 → **嗜睡、體重增加** | 多數抗精神病藥與 TCA 的副作用來源 |
+
+:::
 
 - 胜肽類神經傳導物質的代表是 **P 物質**（substance P，痛覺傳遞）、腦內啡；胰島素是**激素**，不是神經傳導物質
 - 雙相情緒障礙症與單胺類（DA、5-HT、NE）失調有關，**與腦內啡沒有直接關係**
@@ -73,12 +77,16 @@ references:
 
 多巴胺路徑是思覺失調症的症狀、抗精神病藥的療效和副作用的共同答案。抗精神病藥（D2 拮抗劑）沒辦法只擋其中一條，所以「擋對地方 → 療效；擋錯地方 → 副作用」
 
+:::table{#kb-neurotransmitters-psychiatry-dopamine-pathways-a51106da title="精神疾病的神經傳導物質與腦區｜多巴胺四條路徑：路徑／起點 → 終點／正常功能／思覺失調症時／藥物擋 D2 後"}
+
 | 路徑 | 起點 → 終點 | 正常功能 | 思覺失調症時 | 藥物擋 D2 後 |
 |---|---|---|---|---|
 | **中腦邊緣**(mesolimbic) | VTA → 依核、邊緣系統 | 獎賞、情緒、動機 | **過度活躍** → **幻覺、妄想**（正性症狀） | ✔ **療效**：正性症狀改善 |
 | **中腦皮質**(mesocortical) | VTA → **前額葉皮質** | 思考、計畫、動機、情感表達 | **活性不足** → **負性症狀**（情感平淡、動機缺乏）與**認知障礙** | ✘ 可能使負性症狀更明顯（續發性負性症狀） |
 | **黑質紋狀體**(nigrostriatal) | **黑質** → 紋狀體（基底核） | 動作協調 | 通常正常 | ✘ **錐體外徑症候群**(EPS)、遲發性運動異常 |
 | **結節漏斗**(tuberoinfundibular) | 下視丘 → 腦下垂體前葉 | 多巴胺**抑制泌乳素** | 通常正常 | ✘ **高泌乳素血症**：溢乳、月經不規則、男性女乳症、性功能障礙 |
+
+:::
 
 - 另外，延腦的**化學感受器觸發區**(CTZ)也有 D2 受體，所以抗精神病藥大多**有止吐作用**（prochlorperazine、metoclopramide 的止吐原理相同），而這些止吐藥也會造成 EPS 與 NMS
 - **第二代抗精神病藥**比較少 EPS 的原因：對 **5-HT2A** 的阻斷大於 D2（5-HT2A 阻斷會讓黑質紋狀體釋出較多多巴胺）、與 D2 受體結合較「鬆」、較集中作用在邊緣系統與皮質（來源：[UpToDate：Second-generation antipsychotic medications](https://www.uptodate.com/contents/second-generation-antipsychotic-medications-pharmacology-administration-and-side-effects)）。Clozapine 對 D2 的親和力低，是 EPS 最少的抗精神病藥
@@ -95,6 +103,8 @@ references:
 
 精神科藥物的副作用大多可以從「它還擋了哪些受體」推出來。抗精神病藥與三環抗憂鬱劑(TCA)都同時擋很多受體
 
+:::table{#kb-neurotransmitters-psychiatry-receptor-side-effects-b259c689 title="精神疾病的神經傳導物質與腦區｜受體與副作用對照：被阻斷的受體／造成的副作用／代表藥物"}
+
 | 被阻斷的受體 | 造成的副作用 | 代表藥物 |
 |---|---|---|
 | **D2**（黑質紋狀體） | EPS、遲發性運動異常 | 高效價第一代：haloperidol |
@@ -104,6 +114,8 @@ references:
 | **H1 組織胺** | **嗜睡**、**體重增加** | chlorpromazine、clozapine、olanzapine、quetiapine、mirtazapine |
 | **5-HT2C** | 食慾增加、體重增加 | olanzapine、clozapine |
 | **5-HT2A** | （阻斷是好事）減少 EPS | 大多數第二代 |
+
+:::
 
 - 口訣：抗膽鹼作用就是「**乾、秘、尿、看不清**」，老人要注意譫妄、跌倒與尿滯留；**青光眼、攝護腺肥大**的人要小心使用
 - Clozapine 雖然抗膽鹼作用很強，卻常見**流口水**（不是口乾），原因與吞嚥反射變差有關（來源：[UpToDate：Second-generation antipsychotic medications](https://www.uptodate.com/contents/second-generation-antipsychotic-medications-pharmacology-administration-and-side-effects)）
@@ -134,6 +146,8 @@ references:
 
 ## 與精神疾病有關的腦區 {#brain-regions}
 
+:::table{#kb-neurotransmitters-psychiatry-brain-regions-0a43d5d9 title="精神疾病的神經傳導物質與腦區｜與精神疾病有關的腦區：腦區／功能／與精神疾病的關係"}
+
 | 腦區 | 功能 | 與精神疾病的關係 |
 |---|---|---|
 | **前額葉** | 計畫、判斷、解決問題、抑制衝動、工作記憶 | 思覺失調症「前額葉功能低下」→ 負性與認知症狀；額葉受損 → 人格改變、判斷力差、失去抑制 |
@@ -144,6 +158,8 @@ references:
 | **基底核**（紋狀體） | 動作的啟動與協調 | 受損或多巴胺不足 → 巴金森氏症；抗精神病藥 → EPS |
 | **黑質** | 製造多巴胺送往紋狀體 | 神經元退化 → **動作遲緩**、顫抖（巴金森氏症） |
 | **腦幹縫核 / 藍斑核** | 分別製造血清素 / 正腎上腺素 | 單胺假說的源頭 |
+
+:::
 
 - 思覺失調症病人的影像研究常見**側腦室擴大**、灰質減少（尤其前額葉與顳葉），但沒有一項可以用來診斷
 - 思考如何解決問題時，**額葉**活性最高；表達性失語症是額葉的**布洛卡區**受損

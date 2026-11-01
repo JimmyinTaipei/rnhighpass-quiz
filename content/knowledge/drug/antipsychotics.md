@@ -70,6 +70,8 @@ references:
 
 其他受體被阻斷造成的副作用見 [[neurotransmitters-psychiatry#receptor-side-effects]]
 
+:::table{#kb-antipsychotics-mechanism-f6aa5d18 title="抗精神病藥物｜作用機轉：第一代（典型，FGA）／第二代（非典型，SGA）"}
+
 | | 第一代（典型，FGA） | 第二代（非典型，SGA） |
 |---|---|---|
 | 主要機轉 | D2 拮抗 | D2 拮抗＋**5-HT2A 拮抗**（5-HT2A 親和力 > D2） |
@@ -79,11 +81,15 @@ references:
 | 泌乳素上升 | 多 | risperidone、paliperidone 最明顯；aripiprazole、quetiapine、clozapine 幾乎沒有 |
 | 代謝副作用 | 低效價(chlorpromazine)較多 | **clozapine、olanzapine 最多**；aripiprazole、lurasidone、ziprasidone 最少 |
 
+:::
+
 ## 代表藥物 {#agents}
 
 ### 第一代：高效價與低效價 {#fga}
 
 「效價」指的是對 D2 受體的親和力。高效價藥物只要幾毫克就有效，但幾乎只擋 D2；低效價藥物要上百毫克，而且同時擋很多其他受體
+
+:::table{#kb-antipsychotics-fga-c1182d67 title="抗精神病藥物｜第一代：高效價與低效價：高效價／低效價"}
 
 | | 高效價 | 低效價 |
 |---|---|---|
@@ -93,12 +99,16 @@ references:
 | 鎮靜、抗膽鹼、姿勢性低血壓 | 少 | **多** |
 | 特殊副作用 | 高劑量或靜脈注射 haloperidol 可能 QT 延長 | Chlorpromazine：**光敏感**、皮膚色素沉著、膽汁滯留性黃疸、顆粒性白血球缺乏（較其他第一代多）；**Thioridazine：QT 延長最嚴重**、色素性視網膜病變 |
 
+:::
+
 :::exam[國考重點]
 高效價 = **EPS 多、鎮靜與抗膽鹼少**；低效價 = **EPS 少、鎮靜、抗膽鹼、低血壓多**
 「EPS 最強」的標準答案是 **haloperidol**
 :::
 
 ### 第二代與部分致效劑 {#sga}
+
+:::table{#kb-antipsychotics-sga-208cab88 title="抗精神病藥物｜第二代與部分致效劑：藥物／特色與最常考的副作用"}
 
 | 藥物 | 特色與最常考的副作用 |
 |---|---|
@@ -110,6 +120,8 @@ references:
 | **Aripiprazole**(Abilify) | **D2 部分致效劑**：多巴胺太多時扮演拮抗劑、太少時扮演致效劑；代謝與泌乳素副作用少，但**靜坐不能**較常見 |
 | **Amisulpride**(Solian)、Sulpiride | 選擇性 **D2/D3 拮抗劑**，幾乎不作用在其他受體；泌乳素上升明顯 |
 | Ziprasidone、Lurasidone | 代謝副作用少；ziprasidone 有 QT 延長 |
+
+:::
 
 ::questions{ids="110-2_PC_008,115-2_BM_033"}
 
@@ -144,12 +156,16 @@ references:
 
 抗精神病藥擋住**黑質紋狀體**的 D2，使紋狀體內「多巴胺少、乙醯膽鹼相對多」，出現類似巴金森氏症的動作問題。第一代（尤其高效價）比第二代多很多
 
+:::table{#kb-antipsychotics-eps-e52e204f title="抗精神病藥物｜錐體外徑症候群(EPS)：類型／出現時間（典型）／表現／好發族群／處置"}
+
 | 類型 | 出現時間（典型） | 表現 | 好發族群 | 處置 |
 |---|---|---|---|---|
 | **急性肌張力異常**(acute dystonia) | **最早**：開始用藥或加量後數小時到數天 | 肌肉突然持續收縮：**斜頸**、頸部後仰、**動眼危象**（眼球上吊）、角弓反張、吐舌、牙關緊閉；**喉頭痙攣可能危及生命** | **年輕男性**、首次用藥、高效價藥物、肌肉注射 haloperidol | **抗膽鹼藥或抗組織胺**肌肉或靜脈注射（diphenhydramine、benztropine；台灣常用 biperiden 注射），通常幾分鐘內緩解，之後口服數天並評估換藥 |
 | **靜坐不能**(akathisia) | 數天到數週 | 主觀**坐立不安**、無法靜坐、來回踱步、原地踏步；**最常見**的 EPS；常被誤認為焦慮或精神症狀惡化，也與自殺與攻擊衝動有關 | aripiprazole、高效價藥物 | 先**減量或換藥**；藥物首選 **propranolol**（β 阻斷劑）或抗膽鹼藥（benztropine、biperiden），BZD 也有效但盡量短期 |
 | **類巴金森症狀**(parkinsonism) | 數週到數月（大多在**前 3 個月**內） | **面具臉**、動作遲緩、**齒輪狀僵硬**、靜止型顫抖、小碎步、流口水 | 老人、女性 | 先減量或換藥；藥物用**抗膽鹼藥**（benztropine、trihexyphenidyl、biperiden）或 amantadine；**不用 levodopa**（會加重精神症狀） |
 | **遲發性運動異常**（tardive dyskinesia，TD） | **最晚**：長期使用數月到數年（最早 1–6 個月） | 不自主的**口舌臉部動作**：咂嘴、舔唇、**吐舌**、咀嚼、扮鬼臉，也可能有肢體與軀幹扭動；**可能不可逆** | **老人**、女性、長期使用第一代、曾有 EPS | **不用抗膽鹼藥**（無效甚至加重）；由第一代換成第二代（或 clozapine）；中重度用 **VMAT2 抑制劑**（valbenazine、deutetrabenazine）；定期用 **AIMS** 量表篩檢 |
+
+:::
 
 （來源：[UpToDate：Schizophrenia in adults. Maintenance therapy and side effect management](https://www.uptodate.com/contents/schizophrenia-in-adults-maintenance-therapy-and-side-effect-management)；[UpToDate：Tardive dyskinesia. Prevention, treatment, and prognosis](https://www.uptodate.com/contents/tardive-dyskinesia-prevention-treatment-and-prognosis)）
 
@@ -184,6 +200,8 @@ references:
   4. 嚴重或不反應時可考慮 ECT
 - **預後**：多數在 2 週內恢復（平均 4–11 天，長效針劑引起者較久）；死亡率已由 1960 年代的 76% 下降到約 **5–10%**。恢復後至少等 2 週再從低劑量、低效價的藥物重新開始（來源：[UpToDate：Neuroleptic malignant syndrome](https://www.uptodate.com/contents/neuroleptic-malignant-syndrome)）
 
+:::table{#kb-antipsychotics-nms-9710f830 title="抗精神病藥物｜抗精神病藥物惡性症候群(NMS)：NMS／血清素症候群／惡性高熱"}
+
 | | NMS | 血清素症候群 | 惡性高熱 |
 |---|---|---|---|
 | 誘發藥物 | **多巴胺拮抗劑**（抗精神病藥、止吐藥） | 血清素藥物（SSRI、MAOI、tramadol 等併用） | 吸入性麻醉劑、succinylcholine |
@@ -191,6 +209,8 @@ references:
 | 肌肉 | **鉛管樣僵硬**、動作變少 | **反射亢進、陣攣**(clonus)，尤其下肢 | 僵硬（咀嚼肌） |
 | 其他 | 意識改變、自主神經不穩 | 腹瀉、瞳孔放大、躁動 | 高碳酸血症 |
 | 解藥方向 | 停藥、dantrolene、bromocriptine | 停藥、cyproheptadine | **dantrolene** |
+
+:::
 
 :::exam[國考重點]
 - 使用 haloperidol（尤其注射、高劑量）後出現**高燒、僵硬、意識改變、冒汗、生命徵象不穩、吞嚥困難** → NMS → **立即停藥**並給予支持療法
@@ -217,6 +237,8 @@ references:
 
 ### 其他副作用 {#other-effects}
 
+:::table{#kb-antipsychotics-other-effects-c856f737 title="抗精神病藥物｜其他副作用：副作用／重點"}
+
 | 副作用 | 重點 |
 |---|---|
 | **抗膽鹼作用** | 口乾、**便秘**、尿滯留、視力模糊、心跳加快；clozapine、chlorpromazine、olanzapine 最明顯。衛教多喝水、高纖飲食、無糖口香糖；注意尿滯留與腸阻塞 |
@@ -231,6 +253,8 @@ references:
 | **血液** | 顆粒性白血球缺乏：**clozapine** 最重要；第一代以 chlorpromazine 較多 |
 | **跌倒** | 嗜睡＋姿勢性低血壓＋EPS，老人要做跌倒風險評估 |
 | **懷孕與哺乳** | 不常規用於孕期，但需要時要評估利弊；停藥造成復發對母胎的風險可能更大，應由醫師決定 |
+
+:::
 
 ::questions{ids="111-2_PC_006,109-2_PC_006,107-2_BM_053,115-1_PC_006"}
 
@@ -247,6 +271,8 @@ Clozapine 是唯一證實對**頑固型思覺失調症**（兩種抗精神病藥
 
 ### 其他需要監測的副作用 {#clozapine-other}
 
+:::table{#kb-antipsychotics-clozapine-other-9d237872 title="抗精神病藥物｜其他需要監測的副作用：副作用／重點"}
+
 | 副作用 | 重點 |
 |---|---|
 | **心肌炎** | 多在開始用藥 **4–8 週內**（中位數約 16 天）；發燒、心跳快、胸痛、喘、疲倦；前 8 週每週監測症狀，並追蹤 troponin 與 CRP；確診要**立即停藥** |
@@ -255,6 +281,8 @@ Clozapine 是唯一證實對**頑固型思覺失調症**（兩種抗精神病藥
 | **流口水** | 約 30% 以上，夜間更明顯，有吸入性肺炎風險；枕頭墊毛巾、側睡 |
 | **代謝** | 體重平均增加明顯，可能產生糖尿病；INTEGRATE 建議開始時就**併用 metformin** |
 | 其他 | 嗜睡、姿勢性低血壓（尤其剛開始）、心跳過快、夜間**尿失禁**、發燒（開始時的良性發燒要與感染及心肌炎區分） |
+
+:::
 
 ### 交互作用 {#clozapine-interactions}
 
@@ -283,12 +311,16 @@ Clozapine 的「四大監測」：**白血球（顆粒性白血球缺乏）、�
 
 ### 劑型與注射技術 {#lai-technique}
 
+:::table{#kb-antipsychotics-lai-technique-622eb5f6 title="抗精神病藥物｜劑型與注射技術：類型／代表藥／劑型／注射"}
+
 | 類型 | 代表藥 | 劑型 | 注射 |
 |---|---|---|---|
 | 第一代 | **Haloperidol decanoate**、**Fluphenazine decanoate**、Flupentixol decanoate | 藥物接上脂肪酸（癸酸）後**溶在油裡**，**油性**、黏稠 | **深部肌肉注射**（臀肌或三角肌），用 **Z 字形注射法**防止藥液滲漏 |
 | 第二代 | **Risperidone** 微粒（Risperdal Consta，每 2 週） | 藥物包在可分解的聚合物**微粒**中，用專用溶劑配成**水性懸浮液** | 深部肌肉注射，**依產品**選臀肌或三角肌；第一次注射後約 3 週才釋放，口服需再併用 **3 週** |
 | 第二代 | **Paliperidone** palmitate（每月、每 3 個月、每 6 個月） | 結晶鹽的**水性懸浮液** | 起始兩劑打**三角肌**，之後可三角肌或臀肌 |
 | 第二代 | Aripiprazole、Olanzapine pamoate | 水性懸浮液 | Olanzapine 長效針劑有**注射後譫妄鎮靜症候群**(PDSS)，每次注射後需在醫療機構觀察至少 **3 小時** |
+
+:::
 
 （來源：[UpToDate：Pharmacotherapy with long-acting injectable antipsychotic medication](https://www.uptodate.com/contents/schizophrenia-in-adults-pharmacotherapy-with-long-acting-injectable-antipsychotic-medication)）
 

@@ -39,10 +39,14 @@ references:
 
 ## 作用機轉 {#mechanism}
 
+:::table{#kb-nsaids-acetaminophen-mechanism-76761ee0 title="非類固醇抗發炎藥與乙醯胺酚｜作用機轉：酵素／正常角色／被抑制的結果"}
+
 | 酵素 | 正常角色 | 被抑制的結果 |
 |---|---|---|
 | **COX-1**（持續存在） | 胃黏膜保護（黏液、碳酸氫根、血流）、**血小板 thromboxane A2**（凝集）、腎血流 | **胃潰瘍出血**、**抗血小板**（出血時間延長）、腎功能下降 |
 | **COX-2**（發炎時誘發） | 發炎部位的前列腺素 → 紅、腫、熱、痛、發燒 | **抗發炎、止痛、解熱** |
+
+:::
 
 - 非選擇性 NSAIDs 同時抑制 COX-1 與 COX-2；**celecoxib** 選擇性抑制 COX-2
 - **Aspirin** 以**乙醯化**不可逆抑制 COX → 血小板在其壽命（約 **7–10 天**）內都無法凝集，所以**手術前約 7 天停藥**（依醫囑）；其他 NSAIDs 是**可逆**的
@@ -53,6 +57,8 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-nsaids-acetaminophen-agents-e30a3992 title="非類固醇抗發炎藥與乙醯胺酚｜代表藥物：類別／藥物／重點"}
+
 | 類別 | 藥物 | 重點 |
 |---|---|---|
 | **水楊酸類** | **Aspirin** | 低劑量抗血小板（見 [[antiplatelets]]）；止痛解熱與抗發炎需較高劑量 |
@@ -61,6 +67,8 @@ references:
 | 其他 | Mefenamic acid(Ponstan) | 經痛 |
 | **COX-2 抑制劑** | **Celecoxib**(Celebrex)、etoricoxib | **出血與腸胃潰瘍較少**；**不抑制血小板**；心血管風險；對磺胺類過敏者避免 celecoxib |
 | **解熱鎮痛劑** | **Acetaminophen**（普拿疼、Tinten、paracetamol） | 不是 NSAIDs；**兒童、孕婦、消化性潰瘍、出血傾向**時首選的解熱止痛藥 |
+
+:::
 
 ::questions{ids="108-1_BM_059,107-2_BM_058,106-2_OP_058,112-2_OP_068"}
 
@@ -73,11 +81,15 @@ references:
 
 ### Aspirin 的劑量與作用 {#aspirin-dose}
 
+:::table{#kb-nsaids-acetaminophen-aspirin-dose-84c18050 title="非類固醇抗發炎藥與乙醯胺酚｜Aspirin 的劑量與作用：作用／劑量"}
+
 | 作用 | 劑量 |
 |---|---|
 | **抗血小板** | 最低（每天約 75–100 mg） |
 | 止痛、解熱 | 中等（每次 325–650 mg） |
 | **抗發炎** | **最高**（每天數公克） |
+
+:::
 
 - 「aspirin 的藥理作用」包括**止痛、解熱、抗發炎、抗血小板**；它**不是止血藥**（反而延長出血）
 
@@ -146,6 +158,8 @@ references:
 
 ## Acetaminophen {#acetaminophen}
 
+:::table{#kb-nsaids-acetaminophen-acetaminophen-a17197a9 title="非類固醇抗發炎藥與乙醯胺酚｜Acetaminophen：項目／重點"}
+
 | 項目 | 重點 |
 |---|---|
 | 作用 | **解熱、止痛**；抗發炎作用**很弱**；**不傷胃、不影響血小板、不會雷氏症候群** |
@@ -154,6 +168,8 @@ references:
 | **過量** | 代謝物 NAPQI 耗盡**麩胱甘肽** → **肝細胞壞死**；早期可能只有噁心，**1–3 天後**才出現肝衰竭 |
 | 解毒劑 | **N-acetylcysteine**(NAC)，愈早給愈好（8 小時內最有效） |
 | 注意 | 許多**綜合感冒藥、止痛複方**都含 acetaminophen，要**計算總量** |
+
+:::
 
 - 例：醫囑 acetaminophen 500 mg QID（每天 2 g）在安全範圍內；給藥前應先了解病人有無**肝臟病史**、飲酒習慣
 - 長期大量使用也和**止痛劑腎病**有關

@@ -53,6 +53,8 @@ references:
 
 ::figure{src="/knowledge-images/lynch-cranial-nerves.svg" labels="cranial-nerves" alt="腦底觀的 12 對腦神經(上為前)"}
 
+:::table{#kb-cranial-nerves-overview-770786f9 title="十二對腦神經｜腦神經的位置：出腦位置／腦神經"}
+
 | 出腦位置 | 腦神經 |
 |---|---|
 | 大腦（嗅球） | I |
@@ -62,9 +64,13 @@ references:
 | 橋腦與延腦交界 | VI（內側）、VII、VIII（外側，小腦橋腦角） |
 | **延腦** | IX、X、XI、XII（XII 從錐體與橄欖體之間） |
 
+:::
+
 - 記類型的口訣（依 I 到 XII 的順序，S 感覺、M 運動、B 混合）：S S M M B M B S B B M M
 
 ## 各對腦神經 {#each-nerve}
+
+:::table{#kb-cranial-nerves-each-nerve-35a903b6 title="十二對腦神經｜各對腦神經：編號與名稱／類型／功能／怎麼檢查／受損時"}
 
 | 編號與名稱 | 類型 | 功能 | 怎麼檢查 | 受損時 |
 |---|---|---|---|---|
@@ -81,7 +87,11 @@ references:
 | **XI 副神經** | 運動 | **胸鎖乳突肌**（轉頭）、**斜方肌**（聳肩） | 對抗阻力轉頭、聳肩 | 無法把頭轉向對側、**肩下垂、不能聳肩** |
 | **XII 舌下神經** | 運動 | **所有舌內在肌**與大部分舌外在肌（顎舌肌除外，由迷走神經支配） | 伸舌看是否置中 | 伸舌時舌尖**偏向患側**、構音困難 |
 
+:::
+
 ### 眼外肌整理 {#extraocular-muscles}
+
+:::table{#kb-cranial-nerves-extraocular-muscles-38dfc1eb title="十二對腦神經｜眼外肌整理：肌肉／主要動作／神經"}
 
 | 肌肉 | 主要動作 | 神經 |
 |---|---|---|
@@ -93,10 +103,14 @@ references:
 | 下斜肌 | 外旋、上轉 | III |
 | 上眼瞼提肌 | 張開眼瞼 | III |
 
+:::
+
 - 口訣：**LR6 SO4**，其餘是 III
 - 一條眼外肌麻痺時，往那條肌肉負責的方向看，兩眼對不齊，**複視最明顯**
 
 ### 腦神經與腺體（副交感） {#parasympathetic-glands}
+
+:::table{#kb-cranial-nerves-parasympathetic-glands-dab240c8 title="十二對腦神經｜腦神經與腺體（副交感）：腦神經／神經節／目標"}
 
 | 腦神經 | 神經節 | 目標 |
 |---|---|---|
@@ -105,6 +119,8 @@ references:
 | VII 顏面 | 下頷下神經節 | **下頷下腺**、**舌下腺** |
 | IX 舌咽 | 耳神經節 | **耳下腺** |
 | X 迷走 | 器官壁內 | 心、肺、胃腸、肝膽 |
+
+:::
 
 ### 舌頭：味覺與運動 {#tongue}
 
@@ -119,15 +135,21 @@ references:
 
 ### 吞嚥與腦神經 {#swallowing}
 
+:::table{#kb-cranial-nerves-swallowing-dc7ec360 title="十二對腦神經｜吞嚥與腦神經：階段／腦神經"}
+
 | 階段 | 腦神經 |
 |---|---|
 | 口腔期：咀嚼、唇頰閉合、舌頭推送 | V（咀嚼）、VII（唇頰）、XII（舌） |
 | 咽部期：咽部感覺、吞嚥反射 | **IX**（感覺）、**X**（咽喉肌肉） |
 | 食道期 | X |
 
+:::
+
 - 吞嚥中樞在**延腦**；腦幹中風、腦神經受損的病人要先做吞嚥篩檢再進食
 
 ## 腦幹反射 {#brainstem-reflexes}
+
+:::table{#kb-cranial-nerves-brainstem-reflexes-e3bc21f2 title="十二對腦神經｜腦幹反射：反射／做法／傳入 → 傳出／腦幹位置"}
 
 | 反射 | 做法 | 傳入 → 傳出 | 腦幹位置 |
 |---|---|---|---|
@@ -137,6 +159,8 @@ references:
 | 前庭動眼反射（冰水試驗） | 外耳道灌冰水，正常眼球偏向灌水側 | VIII → III、VI | 橋腦 |
 | **作嘔反射** | 壓舌板碰咽後壁 | **IX → X** | 延腦 |
 | 咳嗽反射 | 抽痰刺激氣管 | X → X | 延腦 |
+
+:::
 
 - **深部肌腱反射**（膝反射、肱二頭肌反射）與腹部反射、肛門反射都是**脊髓反射**，不屬於腦幹功能評估
 - 腦死判定要確認以上腦幹反射全部消失，再加上**無自行呼吸**測試；兩次判定間隔 3 歲以上至少 4 小時（來源：[腦死判定準則](https://6laws.net/6law/law3/腦死判定準則.htm)），先決條件與完整流程見 [[cranial-nerve-spine-disorders#brain-death]]

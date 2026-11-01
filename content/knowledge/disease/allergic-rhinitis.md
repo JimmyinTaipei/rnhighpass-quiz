@@ -88,6 +88,8 @@ references:
 
 ### 第一代與第二代抗組織胺 {#antihistamine-choice}
 
+:::table{#kb-allergic-rhinitis-antihistamine-choice-4d692bac title="過敏性鼻炎｜第一代與第二代抗組織胺：第一代／第二代"}
+
 | | **第一代** | **第二代** |
 |---|---|---|
 | 例子 | diphenhydramine、chlorpheniramine、hydroxyzine | loratadine、cetirizine、fexofenadine |
@@ -95,6 +97,8 @@ references:
 | **嗜睡、認知影響** | **明顯** | **輕微或無** |
 | **抗膽鹼副作用**（口乾、尿滯留、視力模糊） | **明顯** | **少** |
 | 建議 | 一般**不建議**用於鼻炎，**老年人避免** | **首選** |
+
+:::
 
 ::questions{ids="115-1_BM_037"}
 

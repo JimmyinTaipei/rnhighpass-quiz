@@ -85,6 +85,8 @@ references:
 
 ### 關節外表現 {#extra-articular}
 
+:::table{#kb-rheumatoid-arthritis-extra-articular-f0628e8a title="類風濕性關節炎｜關節外表現：系統／表現"}
+
 | 系統 | 表現 |
 |---|---|
 | **全身** | **疲倦、低燒、食慾不振、體重減輕** |
@@ -95,10 +97,14 @@ references:
 | **血液** | **慢性病貧血**；**Felty 症候群**（RA＋脾腫大＋嗜中性球低下） |
 | **骨骼** | **骨質疏鬆**（發炎與類固醇） |
 
+:::
+
 ## 診斷與檢驗 {#diagnosis}
 
 1. **2010 ACR／EULAR 分類標準**：依**受侵犯的關節**、**血清（RF、anti-CCP）**、**急性期反應（ESR、CRP）**、**症狀持續時間（≥ 6 週）**計分，**總分達 6 分以上**（滿分 10）分類為 RA；**不必**達到標準才能診斷(UpToDate)
 2. **檢驗**
+
+:::table{#kb-rheumatoid-arthritis-diagnosis-213eeb81 title="類風濕性關節炎｜診斷與檢驗：檢驗／意義"}
 
 | 檢驗 | 意義 |
 |---|---|
@@ -108,10 +114,14 @@ references:
 | **血球** | **貧血**（慢性病），血小板可上升 |
 | **關節液** | 發炎性（白血球增加），排除痛風與感染 |
 
+:::
+
 3. **影像**：X 光可見**關節周圍骨質疏鬆、關節間隙狹窄、骨侵蝕**；**超音波與 MRI** 可早期偵測滑膜炎
 4. **疾病活動度**：用 **DAS28**（壓痛與腫脹關節數、ESR 或 CRP、整體評估）評估；台灣健保對生物製劑的給付與 DAS28 有關，**細節待核對**
 
 ### 與退化性關節炎(OA)比較 {#ra-vs-oa}
+
+:::table{#kb-rheumatoid-arthritis-ra-vs-oa-ffadaf64 title="類風濕性關節炎｜與退化性關節炎(OA)比較：RA／OA（退化性）"}
 
 | | **RA** | **OA（退化性）** |
 |---|---|---|
@@ -123,6 +133,8 @@ references:
 | 實驗室 | **RF、anti-CCP**、ESR、CRP 上升 | 正常 |
 | X 光 | 骨質疏鬆、**間隙狹窄**、**侵蝕** | **骨刺**、間隙狹窄、硬化 |
 | 畸形 | **尺側偏斜、天鵝頸** | **Heberden 結節(DIP)**、Bouchard 結節(PIP) |
+
+:::
 
 與痛風、強直性脊椎炎（**HLA-B27**、年輕男性、**薦腸關節**）的區別，見 [[immunoglobulins-hla#hla-disease]]
 
@@ -145,6 +157,8 @@ references:
 
 ### DMARD 與生物製劑 {#dmards}
 
+:::table{#kb-rheumatoid-arthritis-dmards-025f3bbb title="類風濕性關節炎｜DMARD 與生物製劑：類別／藥物／重點"}
+
 | 類別 | 藥物 | 重點 |
 |---|---|---|
 | **傳統合成 DMARD(csDMARD)** | **methotrexate（MTX，首選）**、sulfasalazine、leflunomide、hydroxychloroquine | **MTX 每週一次**（最大約 **25 mg／週**），**合併葉酸**；副作用**肝毒性、骨髓抑制、口腔潰瘍**；**懷孕、肝病、酗酒、嚴重腎功能不全**避免 |
@@ -153,6 +167,8 @@ references:
 | **JAK 抑制劑** | **tofacitinib、baricitinib、upadacitinib** | **口服**；有**安全性疑慮**（心血管、血栓、感染、惡性腫瘤），限制使用 |
 | **類固醇** | prednisone | **短期低劑量橋接**；**長期副作用多**，**使疤痕與傷口變弱** |
 | **免疫抑制劑** | azathioprine、**cyclosporine**（**腎毒性、高血壓**） | 較少用 |
+
+:::
 
 1. **MTX 注意事項**：**每週**一次（不是每天，是常見的用藥錯誤）、**葉酸**、**定期驗血球與肝腎功能**、**避免酒精**、懷孕前停藥
 2. **生物製劑與 JAK 抑制劑**使用期間**避免活性減毒疫苗**，**感染徵象要提早就醫**（[[immunization]]）

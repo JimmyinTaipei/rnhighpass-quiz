@@ -61,11 +61,15 @@ references:
 
 ### 抗藥機轉 {#resistance}
 
+:::table{#kb-beta-lactams-resistance-8f0c505c title="β-內醯胺類抗生素｜抗藥機轉：機轉／代表"}
+
 | 機轉 | 代表 |
 |---|---|
 | **β-內醯胺酶**水解 β-內醯胺環 | 細菌對青黴素**最主要**的抗藥方式；葡萄球菌的青黴素酶、腸內菌的**廣效型 β-內醯胺酶**(ESBL)、carbapenem 分解酶 |
 | **青黴素結合蛋白構造改變** | **MRSA**（染色體 *mecA* 基因產生 PBP2a，對所有傳統 β-lactam 都有抗藥性）；抗青黴素的肺炎鏈球菌 |
 | 外膜通透性下降、排出幫浦 | 綠膿桿菌等 G− 菌 |
+
+:::
 
 對策：加上 **β-內醯胺酶抑制劑**（clavulanic acid、sulbactam、tazobactam），或改用 carbapenem；MRSA 則改用 vancomycin 等藥物（[[glycopeptides]]）
 
@@ -75,6 +79,8 @@ references:
 
 ### 青黴素類 {#penicillins}
 
+:::table{#kb-beta-lactams-penicillins-a8ed988d title="β-內醯胺類抗生素｜青黴素類：分類／代表藥／抗菌範圍與用途"}
+
 | 分類 | 代表藥 | 抗菌範圍與用途 |
 |---|---|---|
 | **天然青黴素** | **penicillin G**（靜脈、肌肉注射）、**benzathine penicillin G**（長效肌肉注射）、penicillin V（口服） | **G+ 球菌**、**A 族鏈球菌**（咽炎、**猩紅熱**、**風濕熱預防**）、**梅毒**（首選）、腦膜炎雙球菌、多數厭氧菌、螺旋體；會被青黴素酶分解 |
@@ -83,11 +89,15 @@ references:
 | 抗綠膿桿菌青黴素 | **piperacillin**、ticarcillin | **綠膿桿菌**、院內感染 |
 | **合併 β-內醯胺酶抑制劑** | **amoxicillin＋clavulanic acid**(Augmentin)、ampicillin＋sulbactam(Unasyn)、**piperacillin＋tazobactam** | 抑制劑保護 β-lactam 不被分解，**合用效果比單獨使用好** |
 
+:::
+
 ::questions{ids="112-2_BM_040,106-1_BM_063"}
 
 ### 頭孢菌素類 {#cephalosporins}
 
 代數越新，對 **G− 菌**的效果越好、越能通過血腦障壁；第一代對 G+ 最好
+
+:::table{#kb-beta-lactams-cephalosporins-a651a68b title="β-內醯胺類抗生素｜頭孢菌素類：代／代表藥／重點"}
 
 | 代 | 代表藥 | 重點 |
 |---|---|---|
@@ -96,6 +106,8 @@ references:
 | **第三代** | **ceftriaxone**、cefotaxime、**ceftazidime** | **腦膜炎**（能進入腦脊髓液）、社區型肺炎、**淋病**(ceftriaxone)；ceftazidime 可治**綠膿桿菌** |
 | 第四代 | **cefepime** | 綠膿桿菌、院內感染；腎功能不好未調整劑量會**神經毒性**（意識改變、癲癇） |
 | 第五代 | ceftaroline | 目前唯一能治 **MRSA** 的頭孢菌素 |
+
+:::
 
 **腸球菌**與**李斯特菌**對所有頭孢菌素都天然抗藥，這兩種菌要用 ampicillin
 
@@ -107,6 +119,8 @@ references:
 
 ### Carbapenems 與 monobactam {#carbapenems}
 
+:::table{#kb-beta-lactams-carbapenems-d27c6295 title="β-內醯胺類抗生素｜Carbapenems 與 monobactam：藥物／重點"}
+
 | 藥物 | 重點 |
 |---|---|
 | **imipenem**＋cilastatin | 抗菌範圍**最廣**的 β-lactam 之一；cilastatin 抑制腎臟酵素分解 imipenem；**大劑量或腎功能差時易引起癲癇** |
@@ -114,9 +128,13 @@ references:
 | ertapenem | 一天一次；**不涵蓋綠膿桿菌** |
 | **aztreonam**(monobactam) | **只對 G− 菌**有效；與青黴素**沒有交叉過敏**，可用於青黴素過敏者 |
 
+:::
+
 carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲癇，兩者不可併用。carbapenem 不是 β-內醯胺酶抑制劑，「併用 amoxicillin 與 carbapenem 以免 amoxicillin 被分解」是錯誤選項
 
 ## 適應症 {#indications}
+
+:::table{#kb-beta-lactams-indications-30167b91 title="β-內醯胺類抗生素｜適應症：感染／常用 β-lactam"}
 
 | 感染 | 常用 β-lactam |
 |---|---|
@@ -132,6 +150,8 @@ carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲�
 | 手術預防 | cefazolin，劃刀前 60 分鐘內 |
 | 乳腺炎 | 抗葡萄球菌青黴素或頭孢菌素，**可以持續哺乳**，用藥後 24–48 小時症狀多會改善 |
 
+:::
+
 **急性支氣管炎**多由病毒引起，不用 ampicillin 等抗生素
 
 ## 藥動重點 {#pharmacokinetics}
@@ -145,6 +165,8 @@ carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲�
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-beta-lactams-adverse-effects-8c0237d5 title="β-內醯胺類抗生素｜副作用與禁忌：副作用／說明與處置"}
+
 | 副作用 | 說明與處置 |
 |---|---|
 | **過敏反應** | **最常見也最危險**：蕁麻疹、血管性水腫、支氣管痙攣、**過敏性休克**（第 I 型，IgE 媒介）；也可能出現延遲型皮疹、血清病。立即停藥並處置（見[[antibiotics-overview#allergy]]） |
@@ -155,6 +177,8 @@ carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲�
 | 血液 | 溶血性貧血、白血球減少（長期大劑量） |
 | 其他 | ceftriaxone 在膽囊形成沉積（膽泥）；新生兒**不可**與含鈣的靜脈輸液同時給 ceftriaxone（沉澱） |
 | **Jarisch–Herxheimer 反應** | 治療**梅毒**的第一劑後數小時內發燒、畏寒、頭痛、肌肉痛，是螺旋體大量死亡釋出物質造成，**不是過敏**，給予退燒止痛並安撫 |
+
+:::
 
 ::questions{ids="113-1_BM_040"}
 
@@ -175,6 +199,8 @@ carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲�
 
 ## 交互作用 {#interactions}
 
+:::table{#kb-beta-lactams-interactions-36b5a989 title="β-內醯胺類抗生素｜交互作用：併用／結果"}
+
 | 併用 | 結果 |
 |---|---|
 | **胺基配醣體** | **協同作用**：β-lactam 破壞細胞壁，讓胺基配醣體容易進入菌體（但不可在同一袋點滴混合，會互相失去活性） |
@@ -183,6 +209,8 @@ carbapenem 會讓 **valproic acid 血中濃度大幅下降**，可能誘發癲�
 | carbapenem＋valproic acid | valproate 濃度下降，易癲癇 |
 | 抑菌劑（如 tetracycline） | 傳統上認為可能拮抗 |
 | warfarin | 部分頭孢菌素增加出血風險 |
+
+:::
 
 ::questions{ids="107-2_BM_062"}
 

@@ -57,6 +57,8 @@ Thiazide：**低鉀、低鈉、低鎂、高鈣、高尿酸、高血糖**。Loop�
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-thiazide-diuretics-agents-f1b3f55d title="Thiazide 類利尿劑｜代表藥物：藥物／類型／特色"}
+
 | 藥物 | 類型 | 特色 |
 |---|---|---|
 | **Hydrochlorothiazide(HCTZ)** | Thiazide 型 | 最常見，常做成複方（與 ACEI/ARB）；作用時間 6–12 小時 |
@@ -64,6 +66,8 @@ Thiazide：**低鉀、低鈉、低鎂、高鈣、高尿酸、高血糖**。Loop�
 | **Chlorthalidone** | Thiazide-like | 半衰期長（40–60 小時），降壓與心血管結果證據最多；CKD 第 4 期仍有降壓效果 |
 | **Indapamide** | Thiazide-like | 兼具血管擴張作用，對血糖、血脂影響較小 |
 | Metolazone | Thiazide-like | eGFR 低時仍有效；與 loop 併用做「**序列腎元阻斷**」，處理利尿劑阻抗 |
+
+:::
 
 Thiazide 型與 thiazide-like 化學結構不同，但作用位置相同。兩份指引怎麼說：
 
@@ -86,6 +90,8 @@ Thiazide 型與 thiazide-like 化學結構不同，但作用位置相同。兩�
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-thiazide-diuretics-adverse-effects-40c4e5a9 title="Thiazide 類利尿劑｜副作用與禁忌：副作用／機轉 / 說明與處置"}
+
 | 副作用 | 機轉 / 說明與處置 |
 |---|---|
 | **低血鉀** | 最重要；肌肉無力、腹脹便秘、心律不整、心電圖 U 波；**併用毛地黃易中毒**。監測血鉀，飲食補鉀或依醫囑補鉀，或與 ACEI/ARB、保鉀劑合用 |
@@ -100,9 +106,13 @@ Thiazide 型與 thiazide-like 化學結構不同，但作用位置相同。兩�
 | **光敏感**、皮疹 | 含磺胺結構；HCTZ 長期使用與非黑色素皮膚癌風險上升有關，外出防曬 |
 | 磺胺過敏 | 有交叉過敏的可能，須詢問過敏史（實際交叉率低） |
 
+:::
+
 **禁忌/慎用**：無尿、對磺胺類嚴重過敏、痛風發作中（2025 AHA/ACC：有急性痛風病史者除非已在用降尿酸藥，否則要監測）、嚴重低血鉀或低血鈉未矯正（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e150）。懷孕中不建議用來治療子癇前症的水腫；孕期用藥兩份指引寫法不同：2022 台灣指引把 **chlorothiazide 列為致畸**、應避免（來源：[2022 台灣高血壓治療指引](https://doi.org/10.6515/ACS.202205_38%283%29.20220321A),p.294），2025 AHA/ACC 引用 ACOG 表把 HCTZ 列為孕期**第二、三線**口服藥（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e175）——懷孕仍以 labetalol、nifedipine 為主
 
 ## 交互作用 {#interactions}
+
+:::table{#kb-thiazide-diuretics-interactions-45c8a2ef title="Thiazide 類利尿劑｜交互作用：併用藥物／結果"}
 
 | 併用藥物 | 結果 |
 |---|---|
@@ -114,6 +124,8 @@ Thiazide 型與 thiazide-like 化學結構不同，但作用位置相同。兩�
 | 降血糖藥 | 血糖上升，可能需調整劑量 |
 | 其他降壓藥、酒精 | 加重姿勢性低血壓 |
 | 鈣片、維生素 D | 高血鈣 |
+
+:::
 
 ## 護理重點與衛教 {#nursing}
 

@@ -64,6 +64,8 @@ references:
 
 ## 五型比較 {#comparison}
 
+:::table{#kb-viral-hepatitis-comparison-f04db569 title="病毒性肝炎｜五型比較：項目／A 型／B 型／C 型／D 型／E 型"}
+
 | 項目 | **A 型** | **B 型** | **C 型** | **D 型** | **E 型** |
 |---|---|---|---|---|---|
 | 核酸 | RNA（小 RNA 病毒科） | **DNA**（**唯一的 DNA 肝炎病毒**） | RNA（黃病毒科） | RNA（**缺陷病毒**） | RNA |
@@ -74,6 +76,8 @@ references:
 | 疫苗 | **有**（2 劑） | **有**（3 劑） | **沒有** | B 肝疫苗可預防 | 台灣沒有 |
 | 法定傳染病 | **第二類** | 第三類 | 第三類 | 第三類 | 第三類 |
 | 重點 | 可能 6 個月內復發，但不會慢性化；致死率約千分之三 | HBeAg 陽性傳染力高 | 可用口服藥治癒 | 需要 B 肝才能複製 | **孕婦**感染較易猛爆性肝炎 |
+
+:::
 
 資料來源：疾管署各型急性病毒性肝炎疾病介紹
 
@@ -111,6 +115,8 @@ references:
 
 #### B 肝血清標記判讀 {#hbv-serology}
 
+:::table{#kb-viral-hepatitis-hbv-serology-6a5a32db title="病毒性肝炎｜B 肝血清標記判讀：標記／陽性代表"}
+
 | 標記 | 陽性代表 |
 |---|---|
 | **HBsAg**（表面抗原） | **正在感染**（急性或慢性帶原） |
@@ -120,12 +126,18 @@ references:
 | anti-HBc（IgG 或總抗體） | **曾經或正在感染**（接種疫苗**不會**產生） |
 | anti-HBe | 複製與傳染力下降 |
 
+:::
+
+:::table{#kb-viral-hepatitis-hbv-serology-c0a3e2b9 title="病毒性肝炎｜B 肝血清標記判讀：組合／解讀"}
+
 | 組合 | 解讀 |
 |---|---|
 | HBsAg(+)、HBeAg(+)、anti-HBc(+) | 帶原且**高傳染力** |
 | HBsAg(−)、anti-HBs(+)、anti-HBc(+) | 過去感染、**已痊癒**並有免疫力 |
 | HBsAg(−)、anti-HBs(+)、anti-HBc(−) | **接種疫苗**產生的免疫力 |
 | 全部陰性 | 未感染、無免疫力，應接種疫苗 |
+
+:::
 
 #### 母嬰垂直傳染與新生兒 HBIG {#vertical-transmission}
 
@@ -174,6 +186,8 @@ references:
 
 ## 預防與篩檢 {#prevention}
 
+:::table{#kb-viral-hepatitis-prevention-285db77f title="病毒性肝炎｜預防與篩檢：措施／內容"}
+
 | 措施 | 內容 |
 |---|---|
 | 疫苗 | **A 肝**：18、27 個月各 1 劑；**B 肝**：0、1、6 個月；C 肝、E 肝台灣沒有疫苗 |
@@ -182,6 +196,8 @@ references:
 | 血液安全 | 捐血篩檢 HBsAg、anti-HCV 與核酸 |
 | 個人衛生 | A、E：洗手、食物煮熟、飲水煮沸；B、C、D：**不共用刮鬍刀、牙刷、指甲剪、針具**，安全性行為，刺青穿耳洞器具要滅菌 |
 | 職業暴露 | 針扎後依來源病人的 B、C 肝與 HIV 狀態處理，見 [[infection-control#mdro-occupational]]、[[hiv-aids#occupational-exposure]] |
+
+:::
 
 - 化學治療、免疫抑制劑前要篩檢 HBsAg，陽性者預防性服用抗病毒藥，避免 B 肝再活化；不要使用來路不明的「保肝偏方」
 - 學童常見健康問題是近視、齲齒、過重；**B 型肝炎帶原**在新生兒疫苗普及後已不是學童常見健康問題

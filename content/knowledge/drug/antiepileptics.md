@@ -62,6 +62,8 @@ references:
 
 ## 作用機轉 {#mechanism}
 
+:::table{#kb-antiepileptics-mechanism-d6c6d06b title="抗癲癇藥｜作用機轉：機轉／藥物／說明"}
+
 | 機轉 | 藥物 | 說明 |
 |---|---|---|
 | 阻斷**電位門控 Na⁺ 通道** | **Phenytoin**、**carbamazepine**、oxcarbazepine、**lamotrigine**、lacosamide；valproate 與 topiramate 也有部分作用 | 延長 Na⁺ 通道失活，減少**高頻反覆放電** |
@@ -73,11 +75,15 @@ references:
 | 減少**麩胺酸**作用 | Topiramate(AMPA)、perampanel(AMPA)、felbamate(NMDA) | |
 | 抑制碳酸酐酶 | Acetazolamide、topiramate | 輔助用藥 |
 
+:::
+
 - 膜電位與 Na⁺ 通道的基礎見 [[neuron-synapse#action-potential]]；GABA 與麩胺酸見 [[neuron-synapse#neurotransmitters]]
 
 ::questions{ids="110-1_BM_050,110-2_BM_050,111-2_BM_034,108-1_BM_050,107-2_BM_052"}
 
 ## 依發作類型選藥 {#drug-choice}
+
+:::table{#kb-antiepileptics-drug-choice-d267c5e4 title="抗癲癇藥｜依發作類型選藥：發作類型（舊稱）／常用藥／注意"}
 
 | 發作類型（舊稱） | 常用藥 | 注意 |
 |---|---|---|
@@ -87,6 +93,8 @@ references:
 | 肌躍發作 | Valproate、levetiracetam | |
 | 嬰兒點頭痙攣 | ACTH、vigabatrin | |
 | **癲癇重積狀態** | Benzodiazepine → fosphenytoin、valproate 或 levetiracetam | 見下方 |
+
+:::
 
 - 2025 年 ILAE 新分類把發作分成**局部、全身、不明、無法分類**四大類，以「意識」是否受影響細分；國考仍常用大發作、小發作、部分發作等舊稱（來源：[ILAE 2025 發作分類](https://www.ilae.org/updated-classification-epileptic-seizures-2025)）
 
@@ -115,6 +123,8 @@ references:
 
 ### 其他常用藥 {#other-agents}
 
+:::table{#kb-antiepileptics-other-agents-3e8f2ace title="抗癲癇藥｜其他常用藥：藥物／主要用途／重點副作用與注意事項"}
+
 | 藥物 | 主要用途 | 重點副作用與注意事項 |
 |---|---|---|
 | **Carbamazepine**(Tegretol) | 局部發作、**三叉神經痛**、雙極性疾患 | **HLA-B\*1502** 陽性者容易發生 SJS，台灣用藥前**先驗基因**（健保給付篩檢後 SJS 明顯減少）（來源：[Chen 等，NEJM 2011](https://doi.org/10.1056/NEJMoa1009717)）；**再生不良性貧血、白血球低下**、**低血鈉**(SIADH)、複視、頭暈；自我誘導代謝；治療濃度約 4–12 mcg/mL（教科書參考值） |
@@ -129,6 +139,8 @@ references:
 | Topiramate | 局部與全身發作、偏頭痛預防 | 體重減輕、**腎結石**、思考變慢、**急性閉角型青光眼**、代謝性酸中毒、少汗 |
 | Acetazolamide(Diamox) | 輔助用藥（月經性癲癇）、青光眼 | 手腳麻刺感、多尿、腎結石、代謝性酸中毒 |
 | Benzodiazepine | **重積狀態**第一線、急性發作 | 呼吸抑制、嗜睡（見 [[anxiolytics-hypnotics]]） |
+
+:::
 
 ::questions{ids="110-1_MS_008,108-1_OP_051"}
 

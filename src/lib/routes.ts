@@ -25,6 +25,8 @@ export function safeNextPath(raw: string | null | undefined): string {
   if (!raw.startsWith("/") || raw.startsWith("//")) return "/";
   // 反斜線在部分瀏覽器等同斜線，一併排除
   if (raw.includes("\\")) return "/";
+  // URL parsers strip tabs/newlines; reject them before they can turn /<tab>/host into //host.
+  if (/[\u0000-\u001f\u007f]/.test(raw)) return "/";
   return raw;
 }
 

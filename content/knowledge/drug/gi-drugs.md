@@ -71,12 +71,16 @@ references:
 
 ## 胃酸分泌與藥物作用點 {#acid-secretion}
 
+:::table{#kb-gi-drugs-acid-secretion-7f6cf3a2 title="消化系統用藥｜胃酸分泌與藥物作用點：刺激壁細胞的訊號／受體／阻斷的藥"}
+
 | 刺激壁細胞的訊號 | 受體 | 阻斷的藥 |
 |---|---|---|
 | 組織胺（類腸嗜鉻細胞） | **H2** | **H2 阻斷劑** |
 | 乙醯膽鹼（迷走神經） | M3 | 抗膽鹼藥（少用） |
 | 胃泌素 | CCK2 | — |
 | 最後共同路徑：**H⁺/K⁺-ATPase** 把 H⁺ 打進胃腔 | — | **PPI** |
+
+:::
 
 - 胃腺細胞與胃液分泌調節見 [[gi-anatomy-physiology#gastric-glands]]
 
@@ -105,12 +109,16 @@ references:
 
 ### 制酸劑 {#antacids}
 
+:::table{#kb-gi-drugs-antacids-b48114db title="消化系統用藥｜制酸劑：制酸劑／副作用與注意事項"}
+
 | 制酸劑 | 副作用與注意事項 |
 |---|---|
 | **氫氧化鎂**（胃乳、氧化鎂） | **腹瀉**；腎衰竭會**高血鎂**，要避免 |
 | **氫氧化鋁** | **便秘**、低血磷；會結合其他藥（**levothyroxine**、tetracycline、quinolone、鐵劑），要間隔服用 |
 | 碳酸鈣 | 便秘、胃酸反彈、高血鈣 |
 | 碳酸氫鈉 | 全身性鹼中毒、鈉負荷 |
+
+:::
 
 - 鋁鎂合併使用可互相抵銷便秘與腹瀉；與其他藥物至少間隔 1–2 小時
 - 腎衰竭病人補鐵不要和制酸劑一起吃（會降低鐵吸收）
@@ -127,6 +135,8 @@ references:
 
 ## 止吐劑與腸胃促動劑 {#antiemetics}
 
+:::table{#kb-gi-drugs-antiemetics-777cc2ce title="消化系統用藥｜止吐劑與腸胃促動劑：類別／藥物／用途與重點"}
+
 | 類別 | 藥物 | 用途與重點 |
 |---|---|---|
 | **5-HT3 拮抗劑** | **ondansetron**、granisetron、**palonosetron** | **化療與術後嘔吐**的強力止吐劑；palonosetron 作用時間長、心臟影響較小；副作用頭痛、便秘、QT 延長 |
@@ -134,6 +144,10 @@ references:
 | NK1 拮抗劑 | **aprepitant** | 化療**延遲性**嘔吐，常合併 5-HT3 拮抗劑與 dexamethasone |
 | 類固醇 | **dexamethasone** | 增強其他止吐藥（常與 metoclopramide 或 5-HT3 拮抗劑合用） |
 | 抗組織胺、抗膽鹼 | meclizine、dimenhydrinate、**scopolamine** | **動暈症** |
+
+:::
+
+:::table{#kb-gi-drugs-antiemetics-f82b93fb title="消化系統用藥｜止吐劑與腸胃促動劑：腸胃促動劑／機轉"}
 
 | 腸胃促動劑 | 機轉 |
 |---|---|
@@ -143,12 +157,16 @@ references:
 | neostigmine | 抑制膽鹼酯酶 |
 | prucalopride | 5-HT4 致效劑，治慢性便秘 |
 
+:::
+
 - 止吐劑通常在**飯前**或化療前給，不是飯後立即
 - 化療噁心嘔吐的護理見 [[cancer-treatment-toxicities]]
 
 ::questions{ids="111-1_BM_060,110-2_BM_057,110-1_BM_060,106-1_BM_061,113-3_BM_037,108-1_BM_052"}
 
 ## 瀉劑 {#laxatives}
+
+:::table{#kb-gi-drugs-laxatives-c6b3a6bc title="消化系統用藥｜瀉劑：類別／藥物／機轉／注意事項"}
 
 | 類別 | 藥物 | 機轉 | 注意事項 |
 |---|---|---|---|
@@ -159,6 +177,8 @@ references:
 | 潤滑性 | **mineral oil（礦物油）** | 潤滑腸道 | 減少**脂溶性維生素**吸收；吸入會造成類脂性肺炎 |
 | 氯離子通道活化劑 | **lubiprostone** | 活化氯離子通道，增加腸液分泌 | 慢性便秘、便秘型腸躁症 |
 
+:::
+
 - 神經損傷長期臥床病人（神經性腸道）：國考答案選**刺激性輕瀉劑**（容積性需要大量水分與活動）
 - 給藥時病人說腹瀉嚴重：**暫停給藥、報告醫師**
 - 塞劑的給法（左側臥、深度、留置時間）見 [[non-parenteral-medication]]；便秘護理與灌腸見 [[bowel-elimination#constipation]]
@@ -167,12 +187,16 @@ references:
 
 ## 止瀉劑 {#antidiarrheals}
 
+:::table{#kb-gi-drugs-antidiarrheals-51335de8 title="消化系統用藥｜止瀉劑：藥物／機轉與重點"}
+
 | 藥物 | 機轉與重點 |
 |---|---|
 | **Loperamide** | 作用在腸道的**類鴉片（μ 受體）**：抑制大腸蠕動、減少 acetylcholine 釋出、增加**分節收縮**與肛門括約肌張力；一般劑量**不進入中樞**；**不用於細菌性、血便或中毒性腹瀉**（會讓病原留在腸道） |
 | Diphenoxylate＋atropine | 類鴉片，加 atropine 防止濫用 |
 | **Bismuth subsalicylate** | 減少腸道水分分泌、抗菌；治療與預防**旅行者腹瀉**；糞便變黑；含水楊酸，兒童與 aspirin 過敏者小心 |
 | 吸附劑(kaolin-pectin) | 吸附毒素與水分；會吸附其他藥物，要間隔服用、**不與食物同服** |
+
+:::
 
 - 腹瀉的護理與補液見 [[bowel-elimination#diarrhea]]、[[infectious-diarrhea]]
 
@@ -194,6 +218,8 @@ references:
 
 ## 發炎性腸道疾病用藥 {#ibd-drugs}
 
+:::table{#kb-gi-drugs-ibd-drugs-224f808d title="消化系統用藥｜發炎性腸道疾病用藥：類別／藥物／用途"}
+
 | 類別 | 藥物 | 用途 |
 |---|---|---|
 | **5-ASA** | **mesalamine**、sulfasalazine | **輕度到中度潰瘍性結腸炎第一線**、維持緩解 |
@@ -201,6 +227,8 @@ references:
 | 免疫調節劑 | azathioprine、**methotrexate** | 減少類固醇用量 |
 | 生物製劑 | **infliximab**（抗 TNF-α）、vedolizumab、**natalizumab**（抗整合素，PML 風險） | 中重度；ACG 2025 建議中重度 Crohn 病早期使用 |
 | 小分子 | **tofacitinib**（JAK 抑制劑） | 中重度潰瘍性結腸炎 |
+
+:::
 
 - **Famotidine（H2 阻斷劑）不治 IBD**；疾病本身見 [[lower-gi-disorders#ibd]]；生物製劑見 [[monoclonal-antibodies]]
 

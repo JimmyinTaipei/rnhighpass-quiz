@@ -43,10 +43,14 @@ references:
 
 結果：周邊血管阻力 ↓、心跳與心輸出量 ↓、腎素分泌 ↓ → 血壓下降；腎血流大致維持
 
+:::table{#kb-central-alpha2-agonists-mechanism-428ad513 title="中樞 α2 致效劑｜作用機轉：藥物／如何作用"}
+
 | 藥物 | 如何作用 |
 |---|---|
 | **Clonidine** | 直接作用的 α2 致效劑 |
 | **Methyldopa** | **前驅藥**：進入腦中的腎上腺素神經元，轉成 **α-methylnorepinephrine**（假性傳遞物質），再活化 α2 受體 |
+
+:::
 
 ::questions{ids="114-3_BM_037,113-3_BM_035,113-3_BM_031,106-2_BM_050"}
 
@@ -56,12 +60,16 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-central-alpha2-agonists-agents-ee3f41ef title="中樞 α2 致效劑｜代表藥物：藥物／特色"}
+
 | 藥物 | 特色 |
 |---|---|
 | **Clonidine**(Catapres) | 口服一天 2–3 次；**經皮貼片每週更換一次**；亦用於鴉片類/酒精**戒斷症狀**、ADHD、更年期熱潮紅、疼痛輔助 |
 | **Methyldopa**(Aldomet) | 口服一天 2–4 次；**孕期高血壓**；不適合一般成人長期用藥（副作用多） |
 | Guanfacine | 半衰期較長；主要用於 ADHD |
 | Dexmedetomidine | 靜脈注射，**加護病房鎮靜**（可喚醒、呼吸抑制少），不是降壓藥 |
+
+:::
 
 ## 適應症 {#indications}
 
@@ -70,6 +78,8 @@ references:
 - Clonidine 其他用途：鴉片類與尼古丁戒斷、ADHD、Tourette 症候群
 
 ## 副作用與禁忌 {#adverse-effects}
+
+:::table{#kb-central-alpha2-agonists-adverse-effects-672c0bca title="中樞 α2 致效劑｜副作用與禁忌：副作用／說明"}
 
 | 副作用 | 說明 |
 |---|---|
@@ -82,6 +92,8 @@ references:
 | **直接 Coombs 試驗陽性**(methyldopa) | 約 10–20% 長期使用者出現紅血球表面抗體；**大多數沒有溶血**，少數(< 1%)發生**自體免疫溶血性貧血** → 停藥；配血（交叉試驗）可能困難，輸血前要告知血庫 |
 | **肝毒性**(methyldopa) | 肝炎、黃疸；用藥初期追蹤肝功能 |
 | 其他(methyldopa) | 發燒、類狼瘡、**尿液暴露空氣後變暗**（無害） |
+
+:::
 
 **禁忌**：methyldopa 禁用於活動性肝病、曾有 methyldopa 相關溶血或肝功能異常者、併用 MAO 抑制劑；clonidine 小心用於心搏過緩、傳導阻滯、憂鬱症
 

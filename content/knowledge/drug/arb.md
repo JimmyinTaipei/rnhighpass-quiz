@@ -51,6 +51,8 @@ Angiotensin II 主要透過 **AT1 受體**造成：小動脈收縮、醛固酮�
 
 ### 與 ACEI 比較 {#vs-acei}
 
+:::table{#kb-arb-vs-acei-123f98ec title="血管張力素 II 受體阻斷劑｜與 ACEI 比較：項目／ACEI(-pril)／ARB(-sartan)"}
+
 | 項目 | ACEI(-pril) | ARB(-sartan) |
 |---|---|---|
 | 作用點 | ACE 酵素(AI → AII) | AT1 受體 |
@@ -62,9 +64,13 @@ Angiotensin II 主要透過 **AT1 受體**造成：小動脈收縮、醛固酮�
 | 孕婦 | 禁用 | 禁用 |
 | 心衰竭/腎臟保護證據 | 有 | 有（兩者大致相當） |
 
+:::
+
 ## 代表藥物 {#agents}
 
 字尾 **-sartan**
+
+:::table{#kb-arb-agents-f4f7e7f9 title="血管張力素 II 受體阻斷劑｜代表藥物：藥物／特色"}
 
 | 藥物 | 特色 |
 |---|---|
@@ -72,6 +78,8 @@ Angiotensin II 主要透過 **AT1 受體**造成：小動脈收縮、醛固酮�
 | **Valsartan**(Diovan) | 與 sacubitril 組成 ARNI(Entresto) |
 | **Irbesartan**(Aprovel) | 糖尿病腎病變研究證據 |
 | Candesartan、Telmisartan(Micardis)、Olmesartan、Azilsartan | 一天一次；telmisartan 半衰期最長 |
+
+:::
 
 台灣常見與 amlodipine 或 hydrochlorothiazide 的**單一複方錠**(single-pill combination)，可提高遵從性
 
@@ -91,6 +99,8 @@ Angiotensin II 主要透過 **AT1 受體**造成：小動脈收縮、醛固酮�
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-arb-adverse-effects-7e65e41b title="血管張力素 II 受體阻斷劑｜副作用與禁忌：副作用／說明與處置"}
+
 | 副作用 | 說明與處置 |
 |---|---|
 | **高血鉀** | 醛固酮 ↓；腎功能差、糖尿病、併用保鉀藥時風險高（見 [[potassium]]） |
@@ -98,6 +108,8 @@ Angiotensin II 主要透過 **AT1 受體**造成：小動脈收縮、醛固酮�
 | 腎功能暫時下降 | eGFR 下降 ≤ 30% 屬預期，不必停藥（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e158）；雙側腎動脈狹窄者可致急性腎衰竭 |
 | 血管性水腫 | 罕見 |
 | **胎兒毒性** | 同 ACEI：羊水過少、胎兒腎衰竭、顱骨發育不全 |
+
+:::
 
 **禁忌**：懷孕（2025 AHA/ACC COR 3：有害）、雙側腎動脈狹窄、嚴重高血鉀；**與 ACEI 或 aliskiren 合併使用**（雙重 RAAS 阻斷增加高血鉀、低血壓、急性腎損傷，沒有額外好處；COR 3：有害）（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e149、e171）
 

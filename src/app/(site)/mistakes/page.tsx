@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { Flag } from "lucide-react";
-import { getKnowledgeFavorites, getQuestionsByIds } from "@/lib/data";
+import { getKnowledgeFavorites, getQuestionsByIds, getTableFavorites } from "@/lib/data";
+import { loadKnowledgeTableIndex } from "@/lib/knowledge/tables";
+import { TableFavoriteList } from "@/components/notebook/TableFavoriteList";
+import { FavoriteCount } from "@/components/favorites/FavoriteCount";
 import { hrefFor, knowledgeIndex, previewFor } from "@/lib/knowledge";
 import type { KnowledgePreview } from "@/lib/knowledge/types";
 import { weakArticles } from "@/lib/knowledge/exam";
@@ -48,13 +51,16 @@ export default async function NotebookPage(props: PageProps<"/mistakes">) {
   const searchParams = await props.searchParams;
   const rawTab = typeof searchParams.tab === "string" ? searchParams.tab : undefined;
   const showKnowledge = rawTab === "knowledge";
+  const showTables = rawTab === "tables";
   const source = parseNotebookSource(rawTab);
 
-  const [index, devMode, knowledgeRows, schedule] = await Promise.all([
+  const [index, devMode, knowledgeRows, schedule, tableRows, tableIndex] = await Promise.all([
     loadNotebookIndex(source),
     getDevMode(),
     getKnowledgeFavorites(),
     loadReviewSchedule(),
+    getTableFavorites(),
+    showTables ? loadKnowledgeTableIndex() : Promise.resolve(null),
   ]);
   const knowledgeGroups = groupKnowledgeFavorites(knowledgeRows);
   const { subjects, countsBySubject, totals } = index;
@@ -99,8 +105,9 @@ export default async function NotebookPage(props: PageProps<"/mistakes">) {
     { key: "mistakes", label: "錯題", count: totals.mistakes },
     { key: "favorites", label: "收藏", count: totals.favorites },
     { key: "knowledge", label: "知識頁", count: knowledgeRows.length },
+    { key: "tables", label: "表格", count: <FavoriteCount kind="table" initialCount={tableRows.length} /> },
   ];
-  const activeTab = showKnowledge ? "knowledge" : source;
+  const activeTab = showTables ? "tables" : showKnowledge ? "knowledge" : source;
 
   return (
     <main className="mx-auto flex w-full max-w-4xl flex-1 flex-col px-4 py-8">
@@ -129,14 +136,14 @@ export default async function NotebookPage(props: PageProps<"/mistakes">) {
           </Link>
         )}
 
-        <div role="tablist" className="mb-4 flex gap-1 border-b border-card-border">
+        <div role="tablist" className="mb-4 flex gap-1 overflow-x-auto border-b border-card-border">
           {tabs.map((t) => (
             <Link
               key={t.key}
               href={tabHref(t.key)}
               role="tab"
               aria-selected={activeTab === t.key}
-              className={`-mb-px border-b-2 px-4 py-2 text-sm transition-colors ${
+              className={`-mb-px shrink-0 border-b-2 px-3 py-3 text-sm transition-colors ${
                 activeTab === t.key
                   ? "border-accent font-bold text-deep"
                   : "border-transparent text-muted hover:text-body"
@@ -147,7 +154,12 @@ export default async function NotebookPage(props: PageProps<"/mistakes">) {
           ))}
         </div>
 
-        {showKnowledge ? (
+        {showTables ? (
+          <>
+            <p className="mb-4 text-sm text-muted">收藏常用的表格，方便隨時回來複習。手機可在「放大閱讀」中按星號收藏。</p>
+            <TableFavoriteList items={tableRows.map(({ table_id }) => ({ id: table_id, table: tableIndex?.[table_id] ?? null }))} />
+          </>
+        ) : showKnowledge ? (
           <>
             <p className="mb-4 text-sm text-muted">在知識頁標題右邊按星號收整頁，或按段落標題旁的星號收單一段。</p>
             {knowledgeGroups.length === 0 ? (

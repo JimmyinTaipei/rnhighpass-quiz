@@ -932,6 +932,17 @@ export async function getKnowledgeFavorites(): Promise<{ target: string; created
   return data ?? [];
 }
 
+export async function getTableFavorites(): Promise<{ table_id: string; created_at: string }[]> {
+  const supabase = await createClient();
+  const { data: userData } = await supabase.auth.getUser();
+  if (!userData.user) return [];
+  const { data, error } = await supabase.from("user_table_favorites")
+    .select("table_id, created_at").eq("user_id", userData.user.id)
+    .order("created_at", { ascending: false }).limit(5000);
+  if (error) return [];
+  return data ?? [];
+}
+
 /** topic_id -> chapter_id。統計頁的章節歸屬要和 chapter_question_counts 一樣走 topics */
 export async function getTopicChapterMap(topicIds: number[]): Promise<Map<number, number>> {
   const map = new Map<number, number>();

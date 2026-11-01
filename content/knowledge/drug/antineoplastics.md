@@ -51,6 +51,8 @@ references:
 
 ### 細胞週期 {#cell-cycle}
 
+:::table{#kb-antineoplastics-cell-cycle-bdb0647b title="抗腫瘤藥物｜細胞週期：時期／發生的事／作用在這期的藥"}
+
 | 時期 | 發生的事 | 作用在這期的藥 |
 |---|---|---|
 | **G0**（休止期） | 不分裂，**對化療最不敏感** | 幾乎沒有藥有效，所以癌細胞躲在 G0 就能逃過化療 |
@@ -58,6 +60,8 @@ references:
 | **S**（合成期） | **複製 DNA** | **抗代謝藥物**（methotrexate、5-FU、cytarabine）、etoposide、topotecan |
 | G2 | 準備分裂 | **bleomycin**、etoposide |
 | **M**（分裂期） | 有絲分裂，需要紡錘體（微管） | **長春花鹼**(vincristine)、**紫杉醇**(paclitaxel) |
+
+:::
 
 - **週期專一性**(cell cycle-specific)：只作用在某一期，例如抗代謝藥、長春花鹼、紫杉醇、etoposide、bleomycin。適合**分次或持續給藥**
 - **非週期專一性**：任何時期（G0 除外）都有效，例如**烷基化劑、鉑金類、蒽環類**。效果和**劑量**成正比
@@ -67,6 +71,8 @@ references:
 
 ### 為什麼正常組織會受傷 {#normal-tissue}
 
+:::table{#kb-antineoplastics-normal-tissue-8cfb80e4 title="抗腫瘤藥物｜為什麼正常組織會受傷：分裂快的組織／結果／出現時間"}
+
 | 分裂快的組織 | 結果 | 出現時間 |
 |---|---|---|
 | **骨髓** | 白血球、血小板、紅血球下降 | 最低點 **7–14 天** |
@@ -75,7 +81,11 @@ references:
 | 生殖細胞 | 不孕、月經停止；**致畸胎** | — |
 | **神經細胞**（永久細胞，不分裂） | 受影響最小；神經毒性是特定藥物（vincristine、oxaliplatin、紫杉醇）造成 | — |
 
+:::
+
 ### 治療目的與方式 {#intent}
+
+:::table{#kb-antineoplastics-intent-e09051d7 title="抗腫瘤藥物｜治療目的與方式：名稱／意義"}
 
 | 名稱 | 意義 |
 |---|---|
@@ -86,6 +96,8 @@ references:
 | **救援性**(salvage) | 第一線治療失敗或復發後的治療 |
 | **姑息性**(palliative) | 無法治癒時，以**緩解症狀、提升生活品質**為目標 |
 | **同步化學放射治療**(CCRT) | 化療與放療同時進行，化療同時有增加放療敏感度的作用 |
+
+:::
 
 - 能不能打化療要看**骨髓、肝、腎功能**與整體狀況；合併嚴重感染、肝腎功能不良時通常要先處理
 
@@ -108,6 +120,8 @@ references:
 
 ## 分類與代表藥物 {#classes}
 
+:::table{#kb-antineoplastics-classes-0c6764de title="抗腫瘤藥物｜分類與代表藥物：類別／代表藥／機轉／招牌毒性與保護劑"}
+
 | 類別 | 代表藥 | 機轉 | 招牌毒性與保護劑 |
 |---|---|---|---|
 | **烷基化劑** | **Cyclophosphamide**、ifosfamide、**carmustine**、busulfan、dacarbazine、temozolomide、thiotepa | 在 DNA 上加烷基，使雙股交叉鍵結 | **出血性膀胱炎**(→ **mesna**)、不孕、續發性白血病 |
@@ -120,6 +134,8 @@ references:
 | **標靶藥**（小分子，**-tinib**） | **Imatinib**、**gefitinib**、erlotinib、osimertinib、**sorafenib** | 抑制酪胺酸激酶等訊號 | 水腫、**皮疹**、腹瀉、**手足皮膚反應** |
 | **單株抗體**(**-mab**) | **Trastuzumab**、**rituximab**、**bevacizumab**、cetuximab、panitumumab | 結合腫瘤表面標記或生長因子 | **輸注反應**；trastuzumab **心臟毒性**；bevacizumab **高血壓、出血、傷口癒合差** |
 | **免疫檢查點抑制劑** | Pembrolizumab、nivolumab(PD-1)、atezolizumab(PD-L1)、ipilimumab(CTLA-4) | 解除 T 細胞的煞車 | **免疫相關不良反應**（腸炎、肺炎、肝炎、甲狀腺炎等） |
+
+:::
 
 ::questions{ids="111-1_MS_039,106-1_MS_035,105-1_MS_035,105-2_OP_070,108-1_BM_054,113-1_MS_021,109-1_BM_052,105-1_BM_064,108-1_OP_035,113-3_BM_039,112-3_BM_039,110-2_BM_064,110-1_BM_063,106-2_BM_060,105-1_BM_063,112-2_BM_039,108-2_BM_062,113-2_MS_026,111-1_OP_035,106-1_OP_070,108-2_MS_039"}
 
@@ -167,12 +183,16 @@ references:
 
 ### 微管抑制劑 {#microtubule}
 
+:::table{#kb-antineoplastics-microtubule-e5d31282 title="抗腫瘤藥物｜微管抑制劑：長春花鹼（vincristine、vinblastine、vinorelbine）／紫杉醇（paclitaxel、docetaxel）"}
+
 | | 長春花鹼（**vincristine**、vinblastine、vinorelbine） | 紫杉醇（**paclitaxel**、docetaxel） |
 |---|---|---|
 | 機轉 | **抑制微管聚合**，紡錘體無法形成 | **穩定微管、阻止解聚**，紡錘體無法拆解 |
 | 作用期 | **M 期** | **M 期** |
 | 主要毒性 | **vincristine**：**神經毒性**（手腳麻木、深部肌腱反射消失、下顎痛）、**便秘、麻痺性腸阻塞**；**骨髓抑制輕**。vinblastine、vinorelbine：骨髓抑制較明顯 | **過敏反應**（溶劑引起）、周邊神經病變、骨髓抑制、掉髮、肌肉關節痛；docetaxel：水腫 |
 | 護理 | **給軟便劑**、多喝水、多吃纖維；觀察神經症狀；**起疱劑** | 給藥前依醫囑用**類固醇、抗組織胺、H2 阻斷劑**預防過敏，給藥初期密切觀察 |
+
+:::
 
 :::warning[Vincristine 只能靜脈注射]
 Vincristine 等長春花鹼若誤打進**脊髓腔**（鞘內）會造成致命的神經損傷。藥品要標示「**只能靜脈注射，其他途徑可能致命**」，並建議以小袋點滴稀釋給藥，不和鞘內注射的藥放在一起送
@@ -187,6 +207,8 @@ Vincristine 等長春花鹼若誤打進**脊髓腔**（鞘內）會造成致命�
 
 腫瘤細胞帶有**荷爾蒙受體**時才有效；乳癌的**動情素受體(ER)與黃體素受體(PR)越多，反應越好**
 
+:::table{#kb-antineoplastics-hormonal-64d9564e title="抗腫瘤藥物｜荷爾蒙治療：藥物／機轉／對象／副作用與護理"}
+
 | 藥物 | 機轉 | 對象 | 副作用與護理 |
 |---|---|---|---|
 | **Tamoxifen**(Nolvadex) | **選擇性動情素受體調節劑**：在乳房**阻斷**雌激素，在子宮與骨頭有類似雌激素作用 | ER 陽性乳癌，**停經前後都可用** | **更年期症狀**（熱潮紅）、**噁心嘔吐**、**周邊水腫**、陰道分泌物；**靜脈血栓**、**子宮內膜癌**（異常陰道出血要就醫）、白內障；骨轉移病人初期可能**腫瘤暫時惡化與高血鈣** |
@@ -195,11 +217,15 @@ Vincristine 等長春花鹼若誤打進**脊髓腔**（鞘內）會造成致命�
 | 抗雄性素：bicalutamide、enzalutamide、abiraterone | 阻斷雄性素受體或合成 | 攝護腺癌 | 男性女乳、熱潮紅、肝功能異常 |
 | 類固醇（prednisolone、dexamethasone） | 使淋巴球凋亡 | 白血病、淋巴瘤、多發性骨髓瘤；也用於止吐與預防過敏 | 高血糖、感染、情緒改變 |
 
+:::
+
 ::questions{ids="113-2_MS_033,106-2_MS_034"}
 
 ### 標靶治療 {#targeted}
 
 標靶藥針對癌細胞特有的分子（見 [[neoplasia#key-genes]]），骨髓抑制通常比傳統化療輕，但有**各自獨特的副作用**
+
+:::table{#kb-antineoplastics-targeted-8859d91a title="抗腫瘤藥物｜標靶治療：藥物／標靶／主要用途／重點副作用與護理"}
 
 | 藥物 | 標靶 | 主要用途 | 重點副作用與護理 |
 |---|---|---|---|
@@ -210,6 +236,8 @@ Vincristine 等長春花鹼若誤打進**脊髓腔**（鞘內）會造成致命�
 | **Rituximab**(Mabthera) | **CD20**（B 細胞） | B 細胞淋巴瘤、慢性淋巴性白血病 | **輸注反應**（首次最常見，要慢速並預防用藥）；**B 型肝炎再活化**（用藥前驗 HBsAg，帶原者預防性抗病毒藥） |
 | **Bevacizumab**(Avastin) | **VEGF**（血管新生） | 大腸直腸癌、肺癌、卵巢癌等 | **高血壓**、**蛋白尿**、出血、**傷口癒合不良**與腸穿孔（手術前後要停藥） |
 | Cetuximab、**panitumumab** | **EGFR**（單株抗體） | **RAS 野生型**大腸直腸癌、頭頸癌 | **痤瘡樣皮疹**、低血鎂、輸注反應 |
+
+:::
 
 :::tip[手足皮膚反應與手足症候群的照顧]
 Sorafenib、capecitabine、5-FU、微脂體小紅莓常造成手掌腳掌紅、腫、痛、脫皮、龜裂
@@ -247,6 +275,8 @@ Sorafenib、capecitabine、5-FU、微脂體小紅莓常造成手掌腳掌紅、�
 
 ## 保護劑與支持性藥物 {#protectants}
 
+:::table{#kb-antineoplastics-protectants-888c844e title="抗腫瘤藥物｜保護劑與支持性藥物：藥物／用途"}
+
 | 藥物 | 用途 |
 |---|---|
 | **Leucovorin**(folinic acid) | 高劑量 **methotrexate** 後解救正常細胞；和 5-FU 併用則增強療效 |
@@ -258,13 +288,19 @@ Sorafenib、capecitabine、5-FU、微脂體小紅莓常造成手掌腳掌紅、�
 | 紅血球生成素 | 化療引起的貧血（依規定使用） |
 | 止吐藥 | 見 [[antineoplastics#antiemetics]] |
 
+:::
+
 ## 常見副作用總覽 {#adverse-effects}
+
+:::table{#kb-antineoplastics-adverse-effects-84fe1ec8 title="抗腫瘤藥物｜常見副作用總覽：出現時間／副作用"}
 
 | 出現時間 | 副作用 |
 |---|---|
 | 給藥當下到 24 小時內 | **噁心嘔吐**、**過敏或輸注反應**、**外滲**、發燒、**腫瘤溶解症候群**、irinotecan 早發性腹瀉、出血性膀胱炎(cyclophosphamide) |
 | 數天到數週 | **骨髓抑制**（最低點 7–14 天）、**口腔黏膜炎**、腹瀉、**掉髮**（2–3 週）、疲倦、延遲性嘔吐、便秘(vincristine) |
 | 數月到數年 | **心臟毒性**（蒽環類、trastuzumab）、**肺纖維化**(bleomycin)、神經病變、**不孕**、**續發性癌症**、認知改變 |
+
+:::
 
 - 各副作用的護理（感染與出血預防、口腔黏膜炎、掉髮、營養）與腫瘤急症見 [[cancer-treatment-toxicities]]
 - 「化療最常見的副作用」：**骨髓抑制（白血球、紅血球、血小板下降）、口腔黏膜破損、掉髮、噁心嘔吐**；白血球會**減少**，不會增加
@@ -281,12 +317,16 @@ Sorafenib、capecitabine、5-FU、微脂體小紅莓常造成手掌腳掌紅、�
 
 ### 化療引起的噁心嘔吐 {#cinv}
 
+:::table{#kb-antineoplastics-cinv-ebc9a334 title="抗腫瘤藥物｜化療引起的噁心嘔吐：類型／時間／處理重點"}
+
 | 類型 | 時間 | 處理重點 |
 |---|---|---|
 | **急性** | 給藥後 **24 小時內** | 給藥前**預防性**止吐藥 |
 | **延遲性** | **24 小時後**，可持續數天（cisplatin 最典型） | 依處方續用 dexamethasone、NK1 拮抗劑、olanzapine |
 | **預期性** | **給藥前**就吐（過去經驗形成的**條件反射**） | 最好的預防是**第一次就控制好嘔吐**；發生後用**行為治療**（放鬆、分散注意力）與 **benzodiazepine**(lorazepam) |
 | 突破性 | 已預防仍嘔吐 | 加上不同機轉的藥 |
+
+:::
 
 - **致吐風險**
   1. **高**：cisplatin、高劑量 cyclophosphamide、**蒽環類加 cyclophosphamide**（AC 療法）
@@ -298,6 +338,8 @@ Sorafenib、capecitabine、5-FU、微脂體小紅莓常造成手掌腳掌紅、�
 
 ### 止吐藥 {#antiemetic-drugs}
 
+:::table{#kb-antineoplastics-antiemetic-drugs-9de3d574 title="抗腫瘤藥物｜止吐藥：藥物／機轉／重點"}
+
 | 藥物 | 機轉 | 重點 |
 |---|---|---|
 | **Ondansetron**、granisetron | **5-HT3 受體拮抗劑** | 急性嘔吐主力；**便秘**、頭痛；ondansetron 有 **QT 延長**風險 |
@@ -307,6 +349,8 @@ Sorafenib、capecitabine、5-FU、微脂體小紅莓常造成手掌腳掌紅、�
 | **Olanzapine** | 抗精神病藥 | 高致吐化療的第四種藥；**嗜睡** |
 | Metoclopramide、prochlorperazine | 多巴胺拮抗劑 | 低致吐或突破性嘔吐；**錐體外症候群** |
 | Lorazepam | Benzodiazepine | **預期性嘔吐**、焦慮 |
+
+:::
 
 - **高致吐**化療：NK1 拮抗劑 + 5-HT3 拮抗劑 + dexamethasone + **olanzapine** 四合一；**中致吐**：5-HT3 拮抗劑 + dexamethasone（carboplatin 劑量高時加 NK1 拮抗劑）（來源：[UpToDate：CINV](https://www.uptodate.com/contents/prevention-of-chemotherapy-induced-nausea-and-vomiting-in-adults)；MASCC／ESMO 2023 與 ASCO 止吐指引的共同建議）
 - 護理
@@ -326,12 +370,16 @@ Sorafenib、capecitabine、5-FU、微脂體小紅莓常造成手掌腳掌紅、�
 
 ### 個人防護裝備 {#ppe}
 
+:::table{#kb-antineoplastics-ppe-4e9b4db0 title="抗腫瘤藥物｜個人防護裝備：裝備／要求"}
+
 | 裝備 | 要求 |
 |---|---|
 | **手套** | **經化療藥物滲透測試**的手套，**戴雙層**；外層手套**套住隔離衣袖口**；污染或破損立即更換，長時間操作定期更換 |
 | **隔離衣** | **拋棄式、低滲透、防水**，**背後開口**、長袖、袖口有彈性；不可穿出操作區 |
 | 眼與臉 | 有噴濺風險時戴**護目鏡或全臉面罩** |
 | 口罩 | 外科口罩**不能**防護吸入；潑灑、粉塵時戴 **N95** |
+
+:::
 
 - 口服抗癌藥：完整錠劑戴單層手套取藥，**不在病房磨粉、剝半或打開膠囊**（必須破壞劑型時在生物安全櫃內進行）
 
@@ -383,6 +431,8 @@ Doxorubicin 可能造成沿著靜脈的**紅色條紋與搔癢**，但**沒有�
 5. **標示範圍、拍照**、記錄（藥名、估計外滲量、處置），通知醫師
 6. **每天追蹤**外滲部位變化；持續疼痛或壞死時會診整形外科
 
+:::table{#kb-antineoplastics-extravasation-management-9ad40285 title="抗腫瘤藥物｜處理步驟：藥物／冷熱敷／解毒劑"}
+
 | 藥物 | 冷熱敷 | 解毒劑 |
 |---|---|---|
 | **蒽環類**（doxorubicin 等） | **冷敷**（**不可熱敷**） | **Dexrazoxane**（靜脈，6 小時內開始）；外用 DMSO 為替代 |
@@ -393,6 +443,8 @@ Doxorubicin 可能造成沿著靜脈的**紅色條紋與搔癢**，但**沒有�
 | **Cisplatin**、高濃度 dacarbazine、mechlorethamine | 冷敷 | **硫代硫酸鈉**(sodium thiosulfate)局部注射 |
 | Oxaliplatin | 各指引不一致，依院內規範 | 大量外滲時口服高劑量類固醇 |
 | 多數其他刺激劑（5-FU、cyclophosphamide 等） | 冷敷 | — |
+
+:::
 
 - 規則：會與 **DNA 結合**的（蒽環類、烷基化劑）→ **冷敷**，使血管收縮、藥物局限；**不與 DNA 結合**的（長春花鹼、紫杉醇、etoposide）→ **熱敷**，使藥物擴散吸收，並配合 hyaluronidase
 - 冷熱敷每次約 **15–20 分鐘**，每 **4–6 小時**一次，持續 **1–2 天**（依藥物與院內規範）

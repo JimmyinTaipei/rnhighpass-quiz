@@ -40,6 +40,8 @@ references:
 
 ## 怎麼分類 {#overview}
 
+:::table{#kb-obstetric-drugs-overview-2982c273 title="產科常用藥物總覽｜怎麼分類：類別／代表藥／用途／詳見"}
+
 | 類別 | 代表藥 | 用途 | 詳見 |
 |---|---|---|---|
 | 子宮收縮劑 | 催產素、麥角鹼、PGE2、PGF2α、misoprostol | 引產、加強產力、產後出血 | [[pituitary-hormones#oxytocin]]、[[pituitary-hormones#other-uterotonics]] |
@@ -50,7 +52,11 @@ references:
 | 免疫 | Rh 免疫球蛋白 | 預防 Rh 致敏 | [[transfusion-reactions#rhig]] |
 | 抗生素 | 青黴素、ampicillin | B 族鏈球菌（group B Streptococcus，GBS）陽性者待產時預防 | [[perinatal-infections#group-b-streptococcus]] |
 
+:::
+
 ## 子宮收縮劑 {#uterotonics}
+
+:::table{#kb-obstetric-drugs-uterotonics-aee950d9 title="產科常用藥物總覽｜子宮收縮劑：藥物／作用／使用時機／禁忌與護理"}
 
 | 藥物 | 作用 | 使用時機 | 禁忌與護理 |
 |---|---|---|---|
@@ -59,6 +65,8 @@ references:
 | **Dinoprostone**(PGE2) | 軟化子宮頸、引發宮縮 | 子宮頸未成熟時引產 | 子宮過度收縮、發燒、腸胃不適 |
 | **Carboprost**(15-methyl PGF2α) | 強力子宮收縮 | 產後出血 | **氣喘**禁用（支氣管收縮）；腹瀉、發燒 |
 | **Misoprostol**(PGE1) | 子宮收縮、軟化子宮頸 | 產後出血、藥物流產 | 發燒、寒顫、腹瀉 |
+
+:::
 
 - 產後大量出血時先**按摩子宮底**、排空膀胱，再依醫囑給子宮收縮劑；出血時**不可暫停按摩**（見 [[postpartum-complications#uterine-atony]]）
 - 引產的評估與方法見 [[labor-complications#induction]]
@@ -69,6 +77,8 @@ references:
 
 - 目標是安胎約 **48 小時**，爭取時間給**產前類固醇**與轉送到有新生兒加護病房的醫院(ACOG PB 171)
 
+:::table{#kb-obstetric-drugs-tocolytics-5f54997c title="產科常用藥物總覽｜安胎藥：藥物／機轉／副作用與監測"}
+
 | 藥物 | 機轉 | 副作用與監測 |
 |---|---|---|
 | **Ritodrine**(Yutopar) | **β2 致效劑** | 心悸、**心跳快**、手抖、**高血糖**、**低血鉀**、**肺水腫**；母親心跳 **> 120 次/分**、胸痛、呼吸困難、濕囉音 → **停藥**通知醫師 |
@@ -76,6 +86,8 @@ references:
 | **Atosiban**(Tractocile) | 催產素受體拮抗劑 | 副作用少，適合**心臟病**孕婦 |
 | **硫酸鎂**（magnesium sulfate，MgSO₄） | 與鈣競爭 | 安胎效果有限；**< 32 週**短期用做**胎兒神經保護**；毒性監測見下方 |
 | Indomethacin | 抑制前列腺素 | < 32 週短期；動脈導管提早關閉、羊水減少 |
+
+:::
 
 - 安胎期間**不可灌腸**（刺激宮縮）；穩定返家後**不需絕對臥床**
 - 完整的早產照護見 [[labor-complications#preterm-labor]]，β2 致效劑藥理見 [[adrenergic-agonists#beta2-agonists]]

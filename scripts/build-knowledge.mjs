@@ -30,6 +30,7 @@ import { toString as mdToString } from "mdast-util-to-string";
 import { toString as hastToString } from "hast-util-to-string";
 import { visit, SKIP } from "unist-util-visit";
 import YAML from "yaml";
+import { transformTableContainer, buildTableIndex } from "./lib/knowledge-tables.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT_DIR = path.join(ROOT, "content/knowledge");
@@ -181,6 +182,11 @@ function transformDirectives(file, tree) {
       return;
     }
     if (node.type === "containerDirective") {
+      if (node.name === "table") {
+        const table = transformTableContainer(node, (message) => fail(file, message));
+        if (table) parent.children[index] = table;
+        return;
+      }
       if (!CALLOUTS.includes(node.name)) {
         fail(file, `未知的提示框 :::${node.name}`);
         return;
@@ -1149,6 +1155,7 @@ function searchOutput(articles, index) {
 function main() {
   const files = listMarkdown(CONTENT_DIR);
   const articles = files.map(parseArticle);
+  const tableIndex = buildTableIndex(articles, fail);
   const taxonomy = loadTaxonomy();
   validateClassification(articles, taxonomy);
   validateField(articles);
@@ -1205,6 +1212,7 @@ function main() {
     fs.writeFileSync(path.join(DATA_DIR, "articles", `${slug}.json`), JSON.stringify(json));
   }
   fs.writeFileSync(path.join(OUT_DIR, "index.json"), JSON.stringify(index));
+  fs.writeFileSync(path.join(DATA_DIR, "table-index.json"), JSON.stringify(tableIndex));
   fs.writeFileSync(path.join(OUT_DIR, "question-slots.json"), JSON.stringify(slots, null, 2) + "\n");
   fs.writeFileSync(path.join(OUT_DIR, "credits.json"), JSON.stringify(credits));
   fs.writeFileSync(path.join(OUT_DIR, "taxonomy.json"), JSON.stringify(taxonomyOutput(taxonomy, articles)));

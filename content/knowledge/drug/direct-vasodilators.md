@@ -41,12 +41,16 @@ references:
 
 ## 作用機轉 {#mechanism}
 
+:::table{#kb-direct-vasodilators-mechanism-23ad7934 title="直接血管擴張劑｜作用機轉：藥物／作用／擴張部位"}
+
 | 藥物 | 作用 | 擴張部位 |
 |---|---|---|
 | **Hydralazine** | 機轉未完全明瞭（影響平滑肌細胞內鈣離子釋放） | **小動脈**為主 |
 | **Minoxidil** | 活性代謝物打開 **ATP 敏感性鉀通道** → 平滑肌過極化、放鬆 | **小動脈** |
 | **Nitroprusside** | 在血中釋放 **一氧化氮(NO)** → 活化鳥苷酸環化酶、cGMP ↑ → 平滑肌放鬆 | **小動脈 + 靜脈**（後負荷與前負荷都下降） |
 | Diazoxide | 打開鉀通道；同時抑制胰島素釋放 | 小動脈 |
+
+:::
 
 **只擴張小動脈的後果**（hydralazine、minoxidil）：血壓下降 → 壓力感受器反射（見 [[blood-pressure-regulation#baroreceptor]]）→ **交感興奮（反射性心搏過速、心輸出量 ↑、心肌耗氧 ↑）** 與 **腎素分泌 ↑ → 鈉水滯留**。所以單用效果會被代償抵銷，且可能誘發心絞痛——這就是要「三合一」併用 β 阻斷劑與利尿劑的原因
 
@@ -56,12 +60,16 @@ Nitroprusside 分子含 5 個**氰根(CN⁻)**：釋放 NO 時氰根也被釋出
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-direct-vasodilators-agents-44a8f620 title="直接血管擴張劑｜代表藥物：藥物／劑型／特色"}
+
 | 藥物 | 劑型 | 特色 |
 |---|---|---|
 | **Hydralazine**(Apresoline) | 口服、靜脈/肌肉注射 | 孕期重度高血壓（靜脈）；口服與硝酸鹽(isosorbide dinitrate)合用於 HFrEF（無法使用 ACEI/ARB/ARNI 者） |
 | **Minoxidil**（Loniten；外用 Regaine） | 口服；外用液 | 頑固型高血壓；**外用治療雄性禿**（利用多毛副作用） |
 | **Nitroprusside**(Nipride) | **只能連續靜脈滴注** | 高血壓急症；作用最快也最短 |
 | Diazoxide | 靜脈（舊）、口服 | 過去用於高血壓危象；口服用於胰島素瘤等**低血糖**（會升高血糖） |
+
+:::
 
 ## 適應症 {#indications}
 
@@ -72,6 +80,8 @@ Nitroprusside 分子含 5 個**氰根(CN⁻)**：釋放 NO 時氰根也被釋出
 - **HFrEF**:hydralazine + isosorbide dinitrate（見 [[nitrates]]）
 
 ### 常見靜脈降壓藥比較 {#iv-agents}
+
+:::table{#kb-direct-vasodilators-iv-agents-0d2e5fbb title="直接血管擴張劑｜常見靜脈降壓藥比較：藥物／類別／起效 / 作用時間／重點"}
 
 | 藥物 | 類別 | 起效 / 作用時間 | 重點 |
 |---|---|---|---|
@@ -85,11 +95,15 @@ Nitroprusside 分子含 5 個**氰根(CN⁻)**：釋放 NO 時氰根也被釋出
 | Clevidipine | DHP 類 CCB | 數分鐘 / 超短效 | 肺水腫、急性腎損傷、圍手術期可用；對大豆、蛋過敏禁用 |
 | Phentolamine | 非選擇性 α 阻斷 | 靜脈推注 | 兒茶酚胺過多（嗜鉻細胞瘤、古柯鹼、clonidine 戒斷） |
 
+:::
+
 2025 AHA/ACC 依共病建議的靜脈藥：主動脈剝離 esmolol、labetalol；急性肺水腫 clevidipine、nitroglycerin、nitroprusside（**β 阻斷劑禁用**）；急性冠心症 esmolol、labetalol、nicardipine、nitroglycerin；子癇前症/子癇 hydralazine、labetalol、nicardipine、nifedipine（**ACEI、ARB、腎素抑制劑、nitroprusside 禁用**）；嗜鉻細胞瘤 clevidipine、nicardipine、phentolamine（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e182–e183）。起效時間為概略值；劑量僅供參考，以醫囑為準
 
 ## 副作用與禁忌 {#adverse-effects}
 
 ### Hydralazine {#hydralazine-ae}
+
+:::table{#kb-direct-vasodilators-hydralazine-ae-e4a916a4 title="直接血管擴張劑｜Hydralazine：副作用／說明"}
 
 | 副作用 | 說明 |
 |---|---|
@@ -99,9 +113,13 @@ Nitroprusside 分子含 5 個**氰根(CN⁻)**：釋放 NO 時氰根也被釋出
 | **藥物誘發類狼瘡症候群** | 長期、高劑量（> 200 mg/天）、**慢乙醯化者**(acetylator)較常見（2025 AHA/ACC：高劑量時較常見）（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e152）；關節痛、發燒、皮疹、漿膜炎、**抗組織蛋白抗體(anti-histone)陽性**，停藥可恢復 |
 | 周邊神經炎 | 干擾維生素 B6(pyridoxine)，可補充 |
 
+:::
+
 **小心**：冠心病、僧帽瓣疾病、主動脈剝離（反射性心搏過速會加重）
 
 ### Minoxidil {#minoxidil-ae}
+
+:::table{#kb-direct-vasodilators-minoxidil-ae-5e73973c title="直接血管擴張劑｜Minoxidil：副作用／說明"}
 
 | 副作用 | 說明 |
 |---|---|
@@ -110,9 +128,13 @@ Nitroprusside 分子含 5 個**氰根(CN⁻)**：釋放 NO 時氰根也被釋出
 | 反射性心搏過速、心絞痛 | 必須併用 β 阻斷劑 |
 | **心包膜積液**、心包填塞 | 少見但嚴重（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e152） |
 
+:::
+
 **禁忌**：嗜鉻細胞瘤
 
 ### Nitroprusside {#nitroprusside-ae}
+
+:::table{#kb-direct-vasodilators-nitroprusside-ae-633d536d title="直接血管擴張劑｜Nitroprusside：副作用／說明"}
 
 | 副作用 | 說明 |
 |---|---|
@@ -121,6 +143,8 @@ Nitroprusside 分子含 5 個**氰根(CN⁻)**：釋放 NO 時氰根也被釋出
 | **硫氰酸鹽中毒** | **腎功能不良**（肌酸酐 > 3）、使用數天以上（同上來源）；耳鳴、視力模糊、**譫妄、意識混亂**、肌肉抽搐、癲癇；可測血中濃度，必要時透析 |
 | 反射性心搏過速、頭痛、噁心、冒汗 | 血壓下降過快 |
 | 甲狀腺功能低下 | 硫氰酸鹽抑制碘攝取（長期） |
+
+:::
 
 **禁忌/小心**：**懷孕**（可通過胎盤造成胎兒氰化物中毒；2025 AHA/ACC COR 3：有害）、**急性腦血管疾病**（死亡率上升，除非沒有其他藥可用）、代償性高血壓（如主動脈縮窄、動靜脈分流）、嚴重肝腎功能不良、Leber 視神經病變、維生素 B12 缺乏；顱內壓上升者小心（腦血管擴張）；老人需較低劑量（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e171、e174、e182）
 

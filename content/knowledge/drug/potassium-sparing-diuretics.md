@@ -51,16 +51,22 @@ references:
 
 ![利尿劑在腎元的作用部位](/knowledge-images/diuretic-sites-nephron.svg)
 
+:::table{#kb-potassium-sparing-diuretics-mechanism-2060e2f6 title="保鉀利尿劑｜作用機轉：類別／藥物／作用"}
+
 | 類別 | 藥物 | 作用 |
 |---|---|---|
 | **醛固酮受體拮抗劑(MRA)** | Spironolactone、Eplerenone、Finerenone | 與醛固酮競爭**礦物皮質素受體**（不是糖皮質素受體）→ 減少 ENaC 與鈉鉀幫浦的合成；**要有醛固酮存在才有效**，起效較慢（數天） |
 | **ENaC 阻斷劑** | Amiloride、Triamterene | 直接堵住鈉通道，不需經過醛固酮 |
+
+:::
 
 心衰竭時 RAAS 長期活化，醛固酮促進**心肌與血管纖維化**、鈉水滯留、排鉀排鎂；MRA 阻斷這些作用，所以好處遠超過「利尿」（RAAS 見 [[blood-pressure-regulation#raas]]）
 
 ::questions{ids="115-1_BM_039,115-1_BM_009,114-2_BM_033"}
 
 ## 代表藥物 {#agents}
+
+:::table{#kb-potassium-sparing-diuretics-agents-1dd4d71d title="保鉀利尿劑｜代表藥物：藥物／特色"}
 
 | 藥物 | 特色 |
 |---|---|
@@ -69,6 +75,8 @@ references:
 | Finerenone | 非類固醇 MRA；用於第二型糖尿病合併 CKD 以保護腎臟與心血管；FINEARTS-HF 試驗後，2026 ESC 將 MRA（含 finerenone）列為 **HFpEF 的 Class I**（來源：[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.37–38）；劑量依 eGFR:≤ 60 起始 10 mg、目標 20 mg;> 60 起始 20 mg、目標 40 mg（同上來源 p.37） |
 | **Amiloride** | ENaC 阻斷劑；常與 thiazide 做成複方；可治療鋰鹽引起的腎因性尿崩症 |
 | **Triamterene** | ENaC 阻斷劑；常與 HCTZ 複方；可能造成**腎結石**、干擾葉酸代謝、尿液呈藍色螢光 |
+
+:::
 
 ## 適應症 {#indications}
 
@@ -91,6 +99,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-potassium-sparing-diuretics-adverse-effects-a05913d3 title="保鉀利尿劑｜副作用與禁忌：副作用／說明與處置"}
+
 | 副作用 | 說明與處置 |
 |---|---|
 | **高血鉀** | 最危險：肌肉無力、感覺異常、心搏過緩、**T 波高尖**、心律不整。高危險：腎功能差、老人、糖尿病、併用 ACEI/ARB/ARNI、NSAID、鉀補充劑。ESC:K⁺ **> 5.5** 先複驗，考慮減量或暫停；**> 5.5–6.0** 暫時減量或停用 MRA 及 RAAS 抑制劑，血鉀恢復後再開始（來源：[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.32、35）。傳統教科書寫法「> 5.5 減半、> 6.0 停藥」 |
@@ -102,11 +112,15 @@ references:
 | 腸胃不適 | 隨餐服用 |
 | 腎結石、葉酸缺乏 | triamterene |
 
+:::
+
 **禁忌**：高血鉀(> 5.0)、**嚴重腎功能不全**（eGFR < 30 或無尿）、愛迪生氏病、同時使用鉀補充劑或兩種以上保鉀劑
 
 ::questions{ids="114-2_OP_041"}
 
 ## 交互作用 {#interactions}
+
+:::table{#kb-potassium-sparing-diuretics-interactions-5d736c38 title="保鉀利尿劑｜交互作用：併用藥物/食物／結果"}
 
 | 併用藥物/食物 | 結果 |
 |---|---|
@@ -117,6 +131,8 @@ references:
 | Digoxin | spironolactone 可能干擾部分 digoxin 濃度檢驗，並減少腎排泄；監測濃度 |
 | 鋰鹽 | 血鋰上升 |
 | 強效 CYP3A4 抑制劑 | eplerenone 濃度上升 → 高血鉀（禁忌併用） |
+
+:::
 
 ## 護理重點與衛教 {#nursing}
 

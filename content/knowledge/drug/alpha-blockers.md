@@ -51,6 +51,8 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-alpha-blockers-agents-e5f3a9b8 title="α1 阻斷劑｜代表藥物：藥物／特色"}
+
 | 藥物 | 特色 |
 |---|---|
 | **Prazosin**(Minipress) | 短效，一天 2–3 次；**首劑現象最明顯**；亦用於 PTSD 惡夢 |
@@ -59,6 +61,8 @@ references:
 | Tamsulosin(Harnalidge)、Silodosin | **α1A 選擇性**，主要作用在前列腺，**只用於 BPH、不當降壓藥**；較少低血壓，但會造成射精異常、白內障手術的「虹膜鬆弛症候群」 |
 | Phenoxybenzamine | **非選擇性、不可逆** α 阻斷；**嗜鉻細胞瘤術前**準備 |
 | Phentolamine | 非選擇性、可逆、靜脈注射；兒茶酚胺過多引起的高血壓急症（嗜鉻細胞瘤、MAO 抑制劑交互作用、古柯鹼/安非他命、clonidine 戒斷）（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e182）、**正腎上腺素等升壓劑外滲**時局部浸潤注射 |
+
+:::
 
 ## 適應症 {#indications}
 
@@ -73,6 +77,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-alpha-blockers-adverse-effects-1835ccac title="α1 阻斷劑｜副作用與禁忌：副作用／說明與處置"}
+
 | 副作用 | 說明與處置 |
 |---|---|
 | **首劑現象**(first-dose phenomenon) | 第一次服藥或加量後 30–90 分鐘內出現**姿勢性低血壓、頭暈、暈厥**；已用利尿劑、β 阻斷劑、脫水、**老人**風險較高（2025 AHA/ACC 特別提醒老人首劑血壓降幅較大）（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e151） → **低劑量開始、睡前服用**、起身慢 |
@@ -82,6 +88,8 @@ references:
 | 鈉水滯留、水腫 | 長期單用時腎臟代償；常併用利尿劑 |
 | 射精異常 | tamsulosin、silodosin 較常見 |
 | 虹膜鬆弛症候群 | 白內障手術前要告知眼科醫師曾服用 α1 阻斷劑 |
+
+:::
 
 **禁忌/小心**：對藥物過敏；姿勢性低血壓病史；心衰竭（非首選）；與 PDE5 抑制劑(sildenafil)併用小心
 

@@ -55,6 +55,8 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-statins-agents-e77fd1c2 title="Statin 類降血脂藥｜代表藥物：藥物／半衰期 / 服藥時間／代謝／強度（每日劑量）"}
+
 | 藥物 | 半衰期 / 服藥時間 | 代謝 | 強度（每日劑量） |
 |---|---|---|---|
 | **Atorvastatin**(Lipitor) | 長，任何時間 | CYP3A4 | 高強度 40–80 mg；中強度 10–20 mg |
@@ -65,10 +67,14 @@ references:
 | Fluvastatin | 短，睡前（長效錠任何時間） | CYP2C9 | 中強度 80 mg |
 | Pitavastatin | 長，任何時間 | 少經 CYP | 中強度 1–4 mg |
 
+:::
+
 - **高強度**：平均 LDL 降 **≥ 50%**；中強度：降 30–49%
 - 字尾都是 **-statin**
 
 ### 其他降血脂藥 {#other-lipid-drugs}
+
+:::table{#kb-statins-other-lipid-drugs-95bb250d title="Statin 類降血脂藥｜其他降血脂藥：類別／代表藥／機轉／主要作用／重點副作用 / 護理"}
 
 | 類別 | 代表藥 | 機轉 | 主要作用 | 重點副作用 / 護理 |
 |---|---|---|---|---|
@@ -79,6 +85,8 @@ references:
 | **膽酸結合樹脂** | Cholestyramine、colestipol、colesevelam | 在腸道結合膽酸 → 肝臟用膽固醇再造膽酸 | 降 LDL；**可能使 TG 上升** | **便秘**、腹脹；**干擾其他藥物吸收**（其他藥在前 1 小時或後 4–6 小時服）；影響脂溶性維生素 |
 | Omega-3 | Icosapent ethyl（高純度 EPA） | 減少肝臟 TG 合成 | 降 TG | 心房顫動、出血稍增 |
 | Bempedoic acid | — | 抑制 ATP 檸檬酸裂解酶（statin 上游） | 降 LDL，不太引起肌痛 | 尿酸↑;statin 不耐受者 |
+
+:::
 
 ::questions{ids="112-2_BM_036,112-1_BM_037"}
 
@@ -97,6 +105,8 @@ LDL 目標值與各國指引比較見 [[lipid-profile#targets]]
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-statins-adverse-effects-06f4a946 title="Statin 類降血脂藥｜副作用與禁忌：副作用／說明與處置"}
+
 | 副作用 | 說明與處置 |
 |---|---|
 | **肌肉症狀**（肌痛、無力） | 最常見（約 5–10% 自述）；多為對稱性大肌群痠痛 |
@@ -104,6 +114,8 @@ LDL 目標值與各國指引比較見 [[lipid-profile#targets]]
 | 肝指數上升 | 開始前驗肝功能；之後**有症狀**（黃疸、右上腹痛、茶色尿、倦怠）再驗；ALT 輕度上升常見且多可逆 |
 | 新發糖尿病 | 風險輕微增加（高強度者），心血管好處遠大於此風險 |
 | 腸胃不適、頭痛 | 輕微 |
+
+:::
 
 **肌病變危險因子**：高齡、女性、體型瘦小、甲狀腺功能低下、腎/肝功能不良、多重用藥、**高劑量 simvastatin**、併用 gemfibrozil 或強效 CYP3A4 抑制劑、大量飲酒、劇烈運動
 
@@ -114,6 +126,8 @@ LDL 目標值與各國指引比較見 [[lipid-profile#targets]]
 
 ## 交互作用 {#interactions}
 
+:::table{#kb-statins-interactions-df1364e3 title="Statin 類降血脂藥｜交互作用：併用／結果"}
+
 | 併用 | 結果 |
 |---|---|
 | **葡萄柚汁**（大量，每天 > 1 公升或大杯多次） | 抑制腸道 CYP3A4 → simvastatin、lovastatin（atorvastatin 較少）濃度大增 → 肌病變。Pravastatin、rosuvastatin、pitavastatin 幾乎不受影響 |
@@ -123,6 +137,8 @@ LDL 目標值與各國指引比較見 [[lipid-profile#targets]]
 | Warfarin | 部分 statin 輕度增強 INR，開始或調整時驗 INR |
 | 膽酸結合樹脂 | 減少 statin 吸收，需間隔服用 |
 | 酒精 | 加重肝毒性 |
+
+:::
 
 ## 護理重點與衛教 {#nursing}
 

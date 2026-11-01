@@ -47,6 +47,8 @@ references:
 
 ### 命名規則 {#naming-rules}
 
+:::table{#kb-monoclonal-antibodies-naming-rules-296f7807 title="單株抗體與生物製劑｜命名規則：字尾與中綴／意義／例子"}
+
 | 字尾與中綴 | 意義 | 例子 |
 |---|---|---|
 | **-mab** | 單株抗體 | — |
@@ -57,10 +59,14 @@ references:
 | **-cept** | **受體－Fc 融合蛋白**（不是抗體） | **etanercept、abatacept** |
 | 中間的標的詞 | 舊式命名：**-li-**（免疫）、**-tu-**（腫瘤）、**-ci-**（心血管）、**-vi-**（病毒） | |
 
+:::
+
 1. **越人源，免疫原性越低**：鼠源與嵌合抗體較易引起**抗藥抗體**與**輸注反應**，使**療效降低**
 2. **Fc 融合蛋白**利用 Fc 延長半衰期，但**沒有抗原結合區**
 
 ### 常見單株抗體與標的 {#targets}
+
+:::table{#kb-monoclonal-antibodies-targets-797c355c title="單株抗體與生物製劑｜常見單株抗體與標的：標的／藥物／用途"}
 
 | 標的 | 藥物 | 用途 |
 |---|---|---|
@@ -80,9 +86,13 @@ references:
 | **CD25／CD52** | **basiliximab**；**alemtuzumab** | **器官移植誘導**，見 [[immunosuppressants]] |
 | **RSV F 蛋白** | **palivizumab** | **早產兒預防**呼吸道融合病毒 |
 
+:::
+
 癌症的標靶治療與免疫治療見 [[antineoplastics]]；其他自體免疫與移植藥物見 [[immunosuppressants#biologics]]
 
 ## 共同的不良反應 {#adverse-effects}
+
+:::table{#kb-monoclonal-antibodies-adverse-effects-27a23c10 title="單株抗體與生物製劑｜共同的不良反應：不良反應／重點"}
 
 | 不良反應 | 重點 |
 |---|---|
@@ -93,6 +103,8 @@ references:
 | **心臟毒性** | **trastuzumab**（監測心臟功能） |
 | **其他** | **干擾輸血前血型檢驗**（例如抗 CD38 抗體），**要通知血庫** |
 | **抗藥抗體** | 療效下降 |
+
+:::
 
 ## 護理與用藥衛教 {#nursing}
 

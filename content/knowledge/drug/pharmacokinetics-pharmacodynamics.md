@@ -64,12 +64,16 @@ references:
 
 ### 受體與訊息傳遞 {#receptors}
 
+:::table{#kb-pharmacokinetics-pharmacodynamics-receptors-70736d3c title="藥物動力學與藥效學｜受體與訊息傳遞：受體類型／例子／起效"}
+
 | 受體類型 | 例子 | 起效 |
 |---|---|---|
 | 離子通道型 | 菸鹼受體、GABA-A | 毫秒，最快 |
 | **G 蛋白偶合受體** | 腎上腺素受體、蕈毒鹼受體、組織胺受體 | 秒 |
 | 酵素型（酪胺酸激酶） | 胰島素受體、生長因子受體 | 分鐘 |
 | **細胞內（核內）受體** | **類固醇**、甲狀腺素 | 小時到天，**最慢** |
+
+:::
 
 1. **G 蛋白**
    1. **Gs**：活化 **adenylyl cyclase** → cAMP 上升 → 蛋白激酶 A（β 受體）
@@ -93,6 +97,8 @@ references:
 
 ### 致效劑與拮抗劑 {#agonists-antagonists}
 
+:::table{#kb-pharmacokinetics-pharmacodynamics-agonists-antagonists-88a18ed5 title="藥物動力學與藥效學｜致效劑與拮抗劑：類型／意思／例子"}
+
 | 類型 | 意思 | 例子 |
 |---|---|---|
 | 完全致效劑 | 結合並產生最大反應 | Morphine 對 μ 受體 |
@@ -100,6 +106,8 @@ references:
 | **藥理性（競爭性）拮抗** | 和致效劑競爭**同一受體** | Naloxone 對抗 morphine、atropine 對抗乙醯膽鹼 |
 | **生理性（功能性）拮抗** | 作用在**不同受體**，產生**相反**效果 | 腎上腺素（β2 擴張）對抗組織胺（H1 收縮） |
 | 化學性拮抗 | 兩藥直接**化學結合**而失效 | Protamine 中和 heparin、螯合劑結合重金屬 |
+
+:::
 
 ::questions{ids="108-1_BM_049"}
 
@@ -138,10 +146,14 @@ references:
 5. **前驅藥**(prodrug)：要代謝後才有活性，例如 **clopidogrel**（CYP2C19，弱代謝者效果差）、enalapril、codeine(CYP2D6 → morphine)
 6. **酵素誘導與抑制**
 
+:::table{#kb-pharmacokinetics-pharmacodynamics-metabolism-548b477e title="藥物動力學與藥效學｜代謝：藥物／結果"}
+
 | | 藥物 | 結果 |
 |---|---|---|
 | **誘導劑** | **Phenobarbital**、phenytoin、carbamazepine、**rifampin**、吸菸、長期飲酒 | 其他藥代謝加快 → **濃度下降、效果變差**（例：口服避孕藥失效） |
 | **抑制劑** | **Cimetidine**、**erythromycin**、clarithromycin、ketoconazole、**葡萄柚汁** | 其他藥代謝變慢 → **濃度上升、毒性增加**（例：warfarin 出血、theophylline 中毒） |
+
+:::
 
 7. 肝功能差時主要經肝代謝的藥（例：erythromycin）容易蓄積
 8. 新生兒肝臟葡萄糖醛酸化能力不足 → chloramphenicol 造成灰嬰症候群
@@ -166,6 +178,8 @@ references:
 
 ## 藥物交互作用 {#interactions}
 
+:::table{#kb-pharmacokinetics-pharmacodynamics-interactions-a4f12c58 title="藥物動力學與藥效學｜藥物交互作用：組合／結果"}
+
 | 組合 | 結果 |
 |---|---|
 | **葡萄柚汁** ＋ 部分抗組織胺、statin、鈣離子阻斷劑 | 抑制 CYP3A4 → 血中濃度**上升** |
@@ -174,6 +188,8 @@ references:
 | 四環黴素 ＋ 牛奶、制酸劑、鐵劑 | 螯合 → 吸收**減少** |
 | MAOI ＋ 起司等高酪胺食物 | 高血壓危象 |
 | 酒精 ＋ 中樞抑制劑 | 加成的呼吸與中樞抑制 |
+
+:::
 
 1. **加成**(1＋1＝2)、**協同**(1＋1＞2)、**增強**（單獨無效的藥增加另一藥的效果）、**拮抗**
 2. 病人的期待心理（**安慰劑效應**）會影響藥效

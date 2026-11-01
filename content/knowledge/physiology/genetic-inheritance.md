@@ -57,6 +57,8 @@ references:
 
 ## 基本名詞 {#basics}
 
+:::table{#kb-genetic-inheritance-basics-b3cac30e title="遺傳模式與遺傳疾病總覽｜基本名詞：名詞／意思"}
+
 | 名詞 | 意思 |
 |---|---|
 | 對偶基因(allele) | 同一個基因位置上的不同版本，一個來自父親、一個來自母親 |
@@ -68,6 +70,8 @@ references:
 | **基因印記** | 同一段基因要看是從父親或母親遺傳而來才會表現；15 號染色體同一區缺失，來自父親是小胖威利症候群、來自母親是天使症候群 |
 | **預期現象** | 三核苷酸重複疾病一代傳一代時重複次數增加，發病更早更嚴重（亨丁頓舞蹈症、X 染色體脆折症） |
 | 新突變 | 父母都正常，孩子出現新的顯性突變（軟骨發育不全約八成是新突變，和父親年齡較大有關） |
+
+:::
 
 - 人類有 23 對染色體：**22 對體染色體**＋**1 對性染色體**（女 XX、男 XY）；粒線體另有自己的小段 DNA
 
@@ -128,6 +132,8 @@ references:
    3. 常有性別差異：**幽門狹窄男嬰多**，**髖關節發育不良女嬰多**
 - 常見例子
 
+:::table{#kb-genetic-inheritance-multifactorial-b0e131ab title="遺傳模式與遺傳疾病總覽｜多因子遺傳：疾病／重點／照護見"}
+
 | 疾病 | 重點 | 照護見 |
 |---|---|---|
 | 第 2 型糖尿病、高血壓、冠心病 | 家族史是危險因子，但生活型態影響更大 | [[diabetes]]、[[hypertension]] |
@@ -137,7 +143,11 @@ references:
 | 肥厚性幽門狹窄 | 男嬰多（尤其第一胎） | 照護見 [[pediatric-gi#pyloric-stenosis]] |
 | 發展性髖關節發育不良 | 女嬰、臀位產多 | [[pediatric-musculoskeletal#ddh]] |
 
+:::
+
 ## 遺傳性腫瘤症候群 {#hereditary-cancer}
+
+:::table{#kb-genetic-inheritance-hereditary-cancer-f1ec7af2 title="遺傳模式與遺傳疾病總覽｜遺傳性腫瘤症候群：症候群／基因／模式／主要癌症／詳見"}
 
 | 症候群 | 基因 | 模式 | 主要癌症 | 詳見 |
 |---|---|---|---|---|
@@ -146,6 +156,8 @@ references:
 | Lynch 症候群 | DNA 錯配修復基因 | AD | 大腸癌、子宮內膜癌 | [[colorectal-cancer]] |
 | 遺傳性視網膜母細胞瘤 | **RB1** | AD（雙重打擊） | 兒童雙眼視網膜母細胞瘤、日後骨肉瘤 | [[pediatric-cancers#retinoblastoma]] |
 | 多發性內分泌腫瘤 | MEN1、RET | AD | 副甲狀腺、腦下垂體、胰臟；甲狀腺髓質癌、嗜鉻細胞瘤 | [[pheochromocytoma-aldosteronism]] |
+
+:::
 
 - 腫瘤抑制基因的「雙重打擊理論」見 [[neoplasia#key-genes]]
 
@@ -177,6 +189,8 @@ references:
 
 ### 染色體異常 {#table-chromosomal}
 
+:::table{#kb-genetic-inheritance-table-chromosomal-81bd2bb7 title="遺傳模式與遺傳疾病總覽｜染色體異常：疾病／異常／關鍵字"}
+
 | 疾病 | 異常 | 關鍵字 |
 |---|---|---|
 | [[chromosomal-disorders#down-syndrome\|唐氏症]] | 三體 21 | 最常見；母親年齡；先天性心臟病、智能障礙、白血病與早發失智風險 |
@@ -188,7 +202,11 @@ references:
 | [[chromosomal-disorders#deletion-syndromes\|迪喬治症候群]] | 22q11.2 缺失 | 胸腺與副甲狀腺發育不全、心臟異常 |
 | [[chromosomal-disorders#deletion-syndromes\|小胖威利／天使症候群]] | 15q 缺失（基因印記） | 父源：貪食肥胖；母源：愛笑、癲癇 |
 
+:::
+
 ### 體染色體隱性 {#table-ar}
+
+:::table{#kb-genetic-inheritance-table-ar-14fa5787 title="遺傳模式與遺傳疾病總覽｜體染色體隱性：疾病／缺陷／關鍵字"}
 
 | 疾病 | 缺陷 | 關鍵字 |
 |---|---|---|
@@ -203,7 +221,11 @@ references:
 | [[single-gene-disorders#sma\|脊髓性肌肉萎縮症]] | SMN1 | 運動神經元退化；2026-07 納入新生兒篩檢 |
 | [[single-gene-disorders#pkd\|嬰兒型多囊腎]] | PKHD1 | 新生兒雙腎腫大 |
 
+:::
+
 ### 體染色體顯性 {#table-ad}
+
+:::table{#kb-genetic-inheritance-table-ad-40c31b7c title="遺傳模式與遺傳疾病總覽｜體染色體顯性：疾病／缺陷／關鍵字"}
 
 | 疾病 | 缺陷 | 關鍵字 |
 |---|---|---|
@@ -218,7 +240,11 @@ references:
 | [[single-gene-disorders#spherocytosis\|遺傳性球形紅血球症]] | 紅血球膜蛋白 | 溶血、脾腫大 |
 | 遺傳性腫瘤症候群 | 見上方 | BRCA、FAP、Lynch、RB1 |
 
+:::
+
 ### X 性聯 {#table-x-linked}
+
+:::table{#kb-genetic-inheritance-table-x-linked-97e38cad title="遺傳模式與遺傳疾病總覽｜X 性聯：疾病／模式／關鍵字"}
 
 | 疾病 | 模式 | 關鍵字 |
 |---|---|---|
@@ -230,12 +256,18 @@ references:
 | [[chromosomal-disorders#fragile-x\|X 染色體脆折症]] | X 性聯（CGG 重複） | 最常見的遺傳性智能障礙；男性較多較重 |
 | [[single-gene-disorders#rett\|雷特氏症]] | 顯性 | 女孩、退化、搓手 |
 
+:::
+
 ### 粒線體與多因子 {#table-other}
+
+:::table{#kb-genetic-inheritance-table-other-e80f4486 title="遺傳模式與遺傳疾病總覽｜粒線體與多因子：類別／疾病"}
 
 | 類別 | 疾病 |
 |---|---|
 | 粒線體（母系） | MELAS、Leber 遺傳性視神經病變 |
 | 多因子 | 第 2 型糖尿病、高血壓、唇顎裂、神經管缺陷、先天性心臟病、幽門狹窄、髖關節發育不良 |
+
+:::
 
 ## 綜合考題 {#questions}
 

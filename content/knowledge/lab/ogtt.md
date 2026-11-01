@@ -46,10 +46,14 @@ references:
 
 來源：[ADA Standards of Care 2026 第 2 章](https://doi.org/10.2337/dc26-S002) Table 2.1–2.2
 
+:::table{#kb-ogtt-reference-range-5f2a4bc1 title="口服葡萄糖耐受試驗｜參考值（非懷孕成人，75 g）：時間／正常／葡萄糖耐受不良(IGT)／糖尿病"}
+
 | 時間 | 正常 | 葡萄糖耐受不良(IGT) | 糖尿病 |
 |---|---|---|---|
 | 空腹 | < 100 mg/dL | （100–125 為 IFG） | ≥ 126 |
 | **第 2 小時** | **< 140 mg/dL** | **140–199** | **≥ 200** |
+
+:::
 
 ## 妊娠糖尿病的判讀 {#gdm-criteria}
 
@@ -59,11 +63,15 @@ references:
 
 國健署自 **110 年 7 月 1 日**起補助，**懷孕 24–28 週**，需**空腹 ≥ 8 小時**，測 0、1、2 小時，**任一項**達標即診斷（來源：[國健署 妊娠糖尿病篩檢補助](https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=4576&pid=15683);[ADA Standards of Care 2026 第 2 章](https://doi.org/10.2337/dc26-S002),IADPSG 標準，國際多數採用的首選方式）：
 
+:::table{#kb-ogtt-one-step-7c9dbd13 title="口服葡萄糖耐受試驗｜一階段法：75 g OGTT：時間／標準"}
+
 | 時間 | 標準 |
 |---|---|
 | 空腹 | **≥ 92 mg/dL** |
 | 1 小時 | **≥ 180 mg/dL** |
 | 2 小時 | **≥ 153 mg/dL** |
+
+:::
 
 ### 二階段法：50 g 篩檢 + 100 g 診斷 {#two-step}
 
@@ -72,12 +80,16 @@ references:
 1. **第一階段 50 g 葡萄糖負荷試驗(GCT/GLT)**：**不需空腹**，喝後 **1 小時**血糖 **≥ 140 mg/dL**（ACOG 認可 130、135 或 140 任一切點）→ 需做第二階段（來源：[ADA Standards of Care 2026 第 2 章](https://doi.org/10.2337/dc26-S002)）
 2. **第二階段 100 g、3 小時 OGTT**：需空腹；**兩項以上**達標即診斷（Carpenter–Coustan；國考答案「兩項」）。ACOG 另註明**一項異常也可診斷**（同上來源）
 
+:::table{#kb-ogtt-two-step-fd268009 title="口服葡萄糖耐受試驗｜二階段法：50 g 篩檢 + 100 g 診斷：時間／Carpenter–Coustan 標準"}
+
 | 時間 | Carpenter–Coustan 標準 |
 |---|---|
 | 空腹 | ≥ 95 mg/dL |
 | 1 小時 | ≥ 180 mg/dL |
 | 2 小時 | ≥ 155 mg/dL |
 | 3 小時 | ≥ 140 mg/dL |
+
+:::
 
 ### 篩檢時機 {#gdm-timing}
 

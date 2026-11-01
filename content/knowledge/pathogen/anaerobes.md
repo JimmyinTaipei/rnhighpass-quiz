@@ -63,6 +63,8 @@ references:
 
 ## 總覽比較表 {#overview}
 
+:::table{#kb-anaerobes-overview-6627d8bf title="厭氧菌｜總覽比較表：病原／特性／主要疾病／傳染途徑／治療與預防"}
+
 | 病原 | 特性 | 主要疾病 | 傳染途徑 | 治療與預防 |
 |---|---|---|---|---|
 | [[clostridium-botulinum-tetani#clostridium-botulinum\|肉毒桿菌]] | 產芽孢，神經毒素 | 肉毒桿菌中毒（弛緩性麻痺） | 吃進毒素、嬰兒吃進芽孢 | 抗毒素、呼吸支持 |
@@ -72,6 +74,8 @@ references:
 | 鬆脆類桿菌 | 不產芽孢，有莢膜 | 腹內與骨盆腔膿瘍 | 內生性（腸道菌） | metronidazole |
 | 放線菌 | 分枝絲狀，革蘭氏陽性 | 頸顏面放線菌病、**硫磺顆粒** | 內生性（口腔）、牙科處置 | 長期青黴素 |
 | 痤瘡丙酸桿菌 | 皮膚正常菌叢 | **痤瘡**、植入物感染 | 內生性 | 外用與口服痤瘡藥物 |
+
+:::
 
 ## 困難梭狀桿菌 Clostridioides difficile {#clostridioides-difficile}
 

@@ -71,6 +71,8 @@ references:
 
 ## 總覽比較表 {#overview}
 
+:::table{#kb-vector-borne-zoonotic-overview-fdf4866e title="病媒傳染病與人畜共通傳染病｜總覽比較表：疾病／病原／病媒或來源／法定傳染病／重點"}
+
 | 疾病 | 病原 | 病媒或來源 | 法定傳染病 | 重點 |
 |---|---|---|---|---|
 | **登革熱** | 登革病毒（4 型） | **埃及斑蚊、白線斑蚊**（白天叮咬） | 第二類 | 高燒、後眼窩痛、骨頭痛；重症出血與休克 |
@@ -84,6 +86,8 @@ references:
 | 發熱伴血小板減少綜合症 | SFTS 病毒 | **蜱**；也可接觸病人血液體液 | 第四類 | 發燒、血小板低下 |
 | [[atypical-bacteria#borrelia-burgdorferi\|萊姆病]] | 伯氏疏螺旋體 | 硬蜱 | 第四類 | 遊走性紅斑 |
 | [[gram-negative-bacteria#yersinia-pestis\|鼠疫]] | 鼠疫桿菌 | 鼠蚤 | 第一類 | 腺鼠疫、肺鼠疫 |
+
+:::
 
 **人畜共通傳染病**（不經蚊子）：[[rna-viruses#rabies-virus\|狂犬病]]（動物咬傷）、[[rna-viruses#hantavirus\|漢他病毒]]（鼠類排泄物）、[[atypical-bacteria#leptospira\|鉤端螺旋體病]]（鼠尿污染的水）、[[gram-negative-bacteria#brucella\|布氏桿菌病]]（牛羊、生乳）、[[atypical-bacteria#coxiella-burnetii\|Q 熱]]（牛羊）、[[atypical-bacteria#chlamydophila-psittaci\|鸚鵡熱]]（鳥類）、[[protozoa#toxoplasma-gondii\|弓形蟲]]（貓、生肉）、[[gram-positive-bacteria#bacillus-anthracis\|炭疽病]]、新型 A 型流感（禽鳥，見 [[respiratory-viral-infections#novel-influenza-a]]）、MERS（駱駝）
 

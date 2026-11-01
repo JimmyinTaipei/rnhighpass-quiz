@@ -58,12 +58,16 @@ references:
 
 ### 四次革新 {#revolutions}
 
+:::table{#kb-psychiatric-nursing-foundations-revolutions-1549467f title="精神衛生護理基礎｜四次革新：次／代表／重點"}
+
 | 次 | 代表 | 重點 |
 |---|---|---|
 | **第一次** | **Pinel（畢乃爾）**，18 世紀末法國 | **除去病人的鎖鍊**，以人道立場對待病人；英國 Tuke 的**道德治療**、美國 Dix 推動改善收容環境 |
 | **第二次** | **Freud（佛洛伊德）** | **精神分析**，重視潛意識與早期經驗，開啟心理治療 |
 | **第三次** | **Maxwell Jones** 等 | **社區精神醫學**：**治療性社區**、**去機構化**、社區心理衛生中心 |
 | **第四次** | 1950 年代起 | **生物精神醫學**：**chlorpromazine** 等精神藥物、神經傳導物質與腦科學研究 |
+
+:::
 
 - **Kraepelin（克雷佩林）**：精神疾病的描述與分類（早發性失智）；Bleuler 提出「精神分裂」一詞
 - 各教科書的分期略有不同，國考以上表為主
@@ -102,6 +106,8 @@ references:
 
 ## 精神衛生護理的理論模式 {#models}
 
+:::table{#kb-psychiatric-nursing-foundations-models-88ace31d title="精神衛生護理基礎｜精神衛生護理的理論模式：模式／重點"}
+
 | 模式 | 重點 |
 |---|---|
 | 醫療模式 | 疾病由生物因素造成，重視診斷與藥物 |
@@ -112,6 +118,8 @@ references:
 | 溝通模式 | Berne 的交流分析 |
 | 行為模式 | 學習理論、增強與行為修正 |
 | 護理模式 | 整體性評估與護理過程 |
+
+:::
 
 - 詳細內容見 [[psychodynamic-theories#nursing-models]]
 
@@ -133,6 +141,8 @@ references:
 
 ### 護理人員角色 {#nurse-roles}
 
+:::table{#kb-psychiatric-nursing-foundations-nurse-roles-77243612 title="精神衛生護理基礎｜護理人員角色：角色／例子"}
+
 | 角色 | 例子 |
 |---|---|
 | 直接照顧者 | 生活照顧、給藥、觀察、安全維護 |
@@ -144,6 +154,8 @@ references:
 | 策劃者 | 擬定照護與活動計畫 |
 | 研究者 | 參與研究、實證照護 |
 
+:::
+
 - 醫療疾病的**診斷**屬於醫師，不是護理人員的角色
 - 社區中的角色（個案發現者、疾病預防者等）見 [[community-mental-health#nursing-roles]]
 
@@ -151,11 +163,15 @@ references:
 
 ### 工作範圍 {#scope}
 
+:::table{#kb-psychiatric-nursing-foundations-scope-a78c6a61 title="精神衛生護理基礎｜工作範圍：性質／對應預防／例子"}
+
 | 性質 | 對應預防 | 例子 |
 |---|---|---|
 | **保健性** | 初級 | 心理健康促進、衛生教育 |
 | **治療性** | 次級 | 急性症狀照護、危機處置 |
 | **復健性** | 三級 | 出院後強化社交技巧、生活與職業訓練 |
+
+:::
 
 ### 精神衛生護理人員的條件 {#nurse-qualities}
 

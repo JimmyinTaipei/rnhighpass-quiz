@@ -2,6 +2,7 @@ import { createServerClient } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
 import { isProtectedPath, loginRedirectPath } from '@/lib/routes'
 import { isMockOnly } from '@/lib/site-mode'
+import { redirectFromProxy } from '@/lib/site-redirect'
 
 // Next.js 16 把 middleware.ts 改名為 proxy.ts(export 函式名稱也改成 proxy)。
 // 這裡負責每個請求前刷新 Supabase session,維持登入狀態。
@@ -13,7 +14,7 @@ export async function proxy(request: NextRequest) {
     if (pathname === '/mock-exam' || pathname.startsWith('/mock-exam/')) {
       return NextResponse.next({ request })
     }
-    return NextResponse.redirect(new URL('/mock-exam', request.url))
+    return redirectFromProxy('/mock-exam', request)
   }
 
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
@@ -55,9 +56,7 @@ export async function proxy(request: NextRequest) {
   // 真正的門檻在各頁的 requireUser()(見 src/lib/auth.ts)。
   const { pathname, search } = request.nextUrl
   if (!isLoggedIn && isProtectedPath(pathname)) {
-    const redirectResponse = NextResponse.redirect(
-      new URL(loginRedirectPath(pathname + search), request.url)
-    )
+    const redirectResponse = redirectFromProxy(loginRedirectPath(pathname + search), request)
     // 關鍵:上面 getClaims() 可能剛刷新了 token 並把新 cookie 寫在 response 上。
     // 導向會換一個 response 物件,必須把 cookie 帶過去,否則剛刷新的 session 會遺失。
     response.cookies.getAll().forEach((cookie) => {

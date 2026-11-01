@@ -60,6 +60,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-sglt2-inhibitors-adverse-effects-2bc26a44 title="SGLT2 抑制劑｜副作用與禁忌：副作用／機轉/說明"}
+
 | 副作用 | 機轉/說明 |
 |---|---|
 | **生殖器黴菌感染**、泌尿道感染 | 尿中含糖 → 利於微生物生長；女性較常見；可能發生腎盂腎炎、尿路敗血症；罕見嚴重的會陰部壞死性筋膜炎（Fournier 壞疽）（來源：[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 表 9.2） |
@@ -68,6 +70,8 @@ references:
 | 急性腎損傷 | 多與脫水有關；開始用藥 eGFR 可能短暫小幅下降，屬可預期 |
 | 低血糖 | 單用少；與胰島素、SU 併用時要減量 |
 | 下肢截肢、骨折 | 早期 canagliflozin 研究的疑慮，有足部潰瘍者小心 |
+
+:::
 
 ## 交互作用 {#interactions}
 

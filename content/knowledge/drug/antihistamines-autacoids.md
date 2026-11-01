@@ -52,12 +52,16 @@ references:
 1. 由**組胺酸**經**組胺酸脫羧酶**合成，主要儲存在**肥大細胞與嗜鹼性球**的顆粒；也存在於**胃的腸嗜鉻樣細胞**與神經元
 2. 受體
 
+:::table{#kb-antihistamines-autacoids-histamine-receptors-e747645b title="抗組織胺與自泌素藥物｜來源與受體：受體／位置／主要作用／藥物"}
+
 | 受體 | 位置 | 主要作用 | 藥物 |
 |---|---|---|---|
 | **H1** | 血管內皮與平滑肌、支氣管與腸道平滑肌、感覺神經、**中樞神經** | **血管擴張與通透性上升**（風疹塊、水腫、低血壓）、**支氣管與腸道平滑肌收縮**、**搔癢**、中樞維持**覺醒** | **H1 拮抗劑**（抗過敏用藥） |
 | **H2** | **胃壁細胞**、心臟 | **增加胃酸分泌**、心跳加快 | **H2 拮抗劑**（cimetidine、famotidine 等，消化道用藥） |
 | **H3** | 中樞神經突觸前 | 調節組織胺釋出 | — |
 | **H4** | 免疫細胞 | 趨化 | — |
+
+:::
 
 3. 過敏反應的組織胺作用由 **H1** 主導，所以治療用 **H1 拮抗劑**，見 [[hypersensitivity-reactions#type-1]]
 4. 組織胺**不能**被 H1 拮抗劑阻斷的作用：**H2 引起的胃酸分泌**
@@ -70,6 +74,8 @@ references:
 
 ### 第一代與第二代 {#generations}
 
+:::table{#kb-antihistamines-autacoids-generations-15fc6350 title="抗組織胺與自泌素藥物｜第一代與第二代：第一代／第二代"}
+
 | | **第一代** | **第二代** |
 |---|---|---|
 | 藥物 | **diphenhydramine**、**chlorpheniramine**、**brompheniramine**、**hydroxyzine**、**promethazine**、**dimenhydrinate**、**cyproheptadine** | **loratadine**、**desloratadine**、**cetirizine**、**levocetirizine**、**fexofenadine**、ebastine、bilastine |
@@ -78,6 +84,8 @@ references:
 | **抗膽鹼作用** | **明顯**（口乾、便秘、尿滯留、視力模糊、心搏過速） | **少** |
 | 作用時間 | 較短（4–6 小時，需多次給藥） | 較長（約 **12–24 小時**，每日一次） |
 | 選擇性 | 也阻斷毒蕈鹼、α、血清胺受體 | **對 H1 選擇性高** |
+
+:::
 
 1. **terfenadine、astemizole**（早期第二代）因**QT 延長與尖端扭轉型心室頻脈**已退出市場，說明第二代藥物仍要留意心臟副作用與藥物交互作用
 2. 臨床選擇
@@ -89,6 +97,8 @@ references:
 
 ### 治療用途 {#h1-uses}
 
+:::table{#kb-antihistamines-autacoids-h1-uses-ead6868f title="抗組織胺與自泌素藥物｜治療用途：用途／說明"}
+
 | 用途 | 說明 |
 |---|---|
 | **過敏性鼻炎、結膜炎** | 打噴嚏、流鼻水、搔癢，對鼻塞較差，見 [[allergic-rhinitis]] |
@@ -97,6 +107,8 @@ references:
 | **噁心嘔吐、眩暈** | promethazine 等，有止吐效果 |
 | **失眠、鎮靜** | 第一代（diphenhydramine、hydroxyzine）短期用於**助眠與焦慮**，不建議長期使用 |
 | **輔助** | 過敏性休克後殘餘症狀、輸血過敏反應的預防或治療 |
+
+:::
 
 **H1 拮抗劑不適用**：
 1. **胃潰瘍、胃酸過多**：那是 **H2 拮抗劑**與質子幫浦抑制劑的適應症
@@ -129,6 +141,8 @@ references:
    2. **脂氧合酶(5-LOX)**路徑 → **白三烯**（LTB4 趨化、**LTC4／D4／E4** 為半胱胺醯白三烯，**造成支氣管收縮與通透性上升**）
 2. 主要作用
 
+:::table{#kb-antihistamines-autacoids-eicosanoid-synthesis-f3743516 title="抗組織胺與自泌素藥物｜合成與作用：物質／主要作用"}
+
 | 物質 | 主要作用 |
 |---|---|
 | **PGE2** | 發炎、發燒、疼痛敏感化；**子宮頸成熟**；保護**胃黏膜**；**維持動脈導管開放** |
@@ -138,6 +152,8 @@ references:
 | **LTC4／D4／E4** | **支氣管收縮**、血管通透性上升（氣喘） |
 | **LTB4** | **趨化**嗜中性球 |
 
+:::
+
 3. **NSAID 與 aspirin** 抑制 COX（因此減少 PGE2 與 TXA2），見 [[nsaids-acetaminophen]]；**aspirin 低劑量**主要抑制血小板 **TXA2**，見 [[antiplatelets]]
 4. **Celecoxib** 選擇性抑制 **COX-2**
 5. **阿斯匹靈誘發氣喘**：COX 被抑制後，花生四烯酸偏向 **5-LOX** 路徑，**白三烯增加**
@@ -145,6 +161,8 @@ references:
 ::questions{ids="108-2_BM_053,106-1_BM_055"}
 
 ### 前列腺素類藥物 {#prostaglandin-drugs}
+
+:::table{#kb-antihistamines-autacoids-prostaglandin-drugs-48d51ea2 title="抗組織胺與自泌素藥物｜前列腺素類藥物：藥物／類型／用途與重點"}
 
 | 藥物 | 類型 | 用途與重點 |
 |---|---|---|
@@ -154,6 +172,8 @@ references:
 | **Carboprost**（PGF2α 衍生物） | 肌肉注射 | **產後出血**（子宮收縮乏力）；氣喘者慎用 |
 | **Epoprostenol**(PGI2) | 靜脈輸注 | **肺動脈高壓**，半衰期極短，**不可中斷** |
 | **Latanoprost**（PGF2α 類似物） | 眼藥水 | **青光眼降眼壓** |
+
+:::
 
 1. **NSAID（例如 indomethacin、ibuprofen）**用於**關閉動脈導管**（早產兒開放性動脈導管）；**PGE1 則是打開**，兩者作用相反
 2. 與 NSAID、aspirin 的作用與副作用相反，所以**PGE 與 NSAID 不是同類藥物**
@@ -166,6 +186,8 @@ references:
 1. **血清胺**作用於多種 5-HT 受體：**5-HT1B／1D**（腦血管收縮）、**5-HT2A**（血管與平滑肌、致幻）、**5-HT2C**（食慾抑制）、**5-HT3**（嘔吐中樞與腸道，**化療引起嘔吐**）、**5-HT4**（腸道蠕動）
 2. 藥物
 
+:::table{#kb-antihistamines-autacoids-serotonin-drugs-0291124d title="抗組織胺與自泌素藥物｜血清胺(5-HT)相關藥物：藥物／受體與作用／重點"}
+
 | 藥物 | 受體與作用 | 重點 |
 |---|---|---|
 | **Sumatriptan**(triptan) | **5-HT1B／1D 激動劑**，使腦血管收縮、抑制神經發炎 | **偏頭痛急性發作**；**冠心病、高血壓未控制者禁用**（血管收縮） |
@@ -173,6 +195,8 @@ references:
 | **Ondansetron** | **5-HT3 拮抗劑** | 化療與術後**噁心嘔吐**；**QT 延長**，見消化與腫瘤護理 |
 | **Lorcaserin** | **5-HT2C 激動劑** | 抑制食慾減重（已退出美國市場） |
 | **SSRI** | 抑制**血清胺再回收** | 憂鬱與焦慮，見 [[antidepressants]]；**血清胺症候群**要警覺 |
+
+:::
 
 ## 緩激肽 {#bradykinin}
 

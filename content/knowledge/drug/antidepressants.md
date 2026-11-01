@@ -47,6 +47,8 @@ references:
 
 單胺假說與受體副作用見 [[neurotransmitters-psychiatry#monoamine]] 與 [[neurotransmitters-psychiatry#receptor-side-effects]]
 
+:::table{#kb-antidepressants-mechanism-b77330dc title="抗憂鬱藥物｜作用機轉：類別／機轉／副作用來源"}
+
 | 類別 | 機轉 | 副作用來源 |
 |---|---|---|
 | **SSRI** | **選擇性**抑制**血清素**再回收 | 血清素過多：腸胃、失眠或嗜睡、性功能障礙 |
@@ -59,10 +61,14 @@ references:
 | Agomelatine | 褪黑激素受體致效劑＋5-HT2C 拮抗 | 需定期檢查**肝功能** |
 | Esketamine | **NMDA 拮抗劑**（鼻噴劑），用於難治型 | 解離感、血壓上升；需在醫療機構使用並觀察 |
 
+:::
+
 - 所有抗憂鬱劑**當天**就改變突觸間濃度，但情緒改善要 **2–4 週**，完整療效要 **6–8 週**以上；這與受體調整、神經可塑性有關
 - TCA 的作用機轉標準答案：**抑制血清素和正腎上腺素的回收**；抑制 MAO 是 MAOI 的機轉，不是 TCA
 
 ## 代表藥物 {#agents}
+
+:::table{#kb-antidepressants-agents-9a02805b title="抗憂鬱藥物｜代表藥物：類別／藥物（商品名）／特色"}
 
 | 類別 | 藥物（商品名） | 特色 |
 |---|---|---|
@@ -82,6 +88,8 @@ references:
 | 其他 | **Bupropion**(Wellbutrin) | **戒菸**（降低對尼古丁的渴求）；癲癇、暴食症或厭食症病人禁用 |
 | 其他 | **Mirtazapine**(Remeron) | 適合**失眠、食慾差、體重減輕**的病人（如老人）；睡前服用 |
 | 其他 | Trazodone | 失眠 |
+
+:::
 
 ## 適應症 {#indications}
 
@@ -103,6 +111,8 @@ references:
 
 ### SSRI 與 SNRI {#ssri-effects}
 
+:::table{#kb-antidepressants-ssri-effects-b62c7379 title="抗憂鬱藥物｜SSRI 與 SNRI：副作用／說明與護理"}
+
 | 副作用 | 說明與護理 |
 |---|---|
 | **腸胃不適**（噁心最常見）、腹瀉 | 多在頭 1–2 週，**飯後服用**、從低劑量開始 |
@@ -116,6 +126,8 @@ references:
 | 體重 | 短期多半不變；paroxetine、mirtazapine 較易增加 |
 | 血壓上升 | SNRI（venlafaxine 高劑量） |
 | 情緒轉躁 | 雙相病人 |
+
+:::
 
 :::exam[國考重點]
 - SSRI 常見副作用：**噁心、睡眠障礙、性慾降低**（體重增加不是典型）；「建議早飯後服用」是正確的衛教
@@ -149,6 +161,8 @@ references:
 
 ### 三環抗憂鬱劑(TCA) {#tca-effects}
 
+:::table{#kb-antidepressants-tca-effects-8f2d93da title="抗憂鬱藥物｜三環抗憂鬱劑(TCA)：副作用／原因／護理"}
+
 | 副作用 | 原因 | 護理 |
 |---|---|---|
 | **口乾、便秘、尿滯留、視力模糊**、心跳加快、意識混亂 | 阻斷**蕈毒鹼受體**（抗膽鹼） | 多喝水、高纖；**青光眼、攝護腺肥大**避免；老人注意譫妄 |
@@ -156,6 +170,8 @@ references:
 | 嗜睡、**體重增加** | 阻斷 H1 | 睡前服用 |
 | **心臟傳導延遲**（PR、**QRS**、QT 延長）、心律不整 | 阻斷**鈉離子通道** | 用藥前 ECG；**近期心肌梗塞**、傳導阻滯者禁用 |
 | 癲癇 | 降低癲癇閾值 | 有癲癇病史者小心 |
+
+:::
 
 - 老人、心臟病人**避免**使用 TCA；老年憂鬱以 SSRI 為第一線
 

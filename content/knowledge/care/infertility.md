@@ -64,6 +64,8 @@ references:
 
 ### 女性因素 {#female-factors}
 
+:::table{#kb-infertility-female-factors-9704d2ee title="不孕症與人工生殖｜女性因素：部位／原因／線索"}
+
 | 部位 | 原因 | 線索 |
 |---|---|---|
 | **排卵** | **多囊性卵巢症候群**（最常見）、高泌乳素血症、甲狀腺功能異常、體重過輕或過重、過度運動、早發性卵巢功能不全 | 月經不規則或無月經、基礎體溫單相 |
@@ -72,9 +74,13 @@ references:
 | 子宮頸 | 黏液不利精子通過、子宮頸手術後 | |
 | **年齡** | 35 歲後卵子數量與品質下降，40 歲後明顯 | AMH 低、FSH 高 |
 
+:::
+
 - 相關疾病：多囊性卵巢見 [[menstrual-disorders#pcos]]、子宮內膜異位與肌瘤見 [[benign-gynecologic-disorders]]、骨盆腔炎見 [[sexually-transmitted-infections]]
 
 ### 男性因素 {#male-factors}
+
+:::table{#kb-infertility-male-factors-4ece4e8d title="不孕症與人工生殖｜男性因素：類型／原因"}
 
 | 類型 | 原因 |
 |---|---|
@@ -84,11 +90,15 @@ references:
 | 射精與性功能 | 勃起功能障礙、**逆行性射精**（射進膀胱）、早洩 |
 | 染色體 | 柯林菲特症候群（見 [[chromosomal-disorders]]） |
 
+:::
+
 - **FSH 低於正常**（下視丘或腦下垂體問題）會讓精子生成不足(115-2_BM_017)；睪丸本身受損時 FSH 反而**升高**；精液分析判讀見 [[male-reproductive-system#semen-values]]
 
 ::questions{ids="115-2_BM_017"}
 
 ## 檢查 {#diagnosis}
+
+:::table{#kb-infertility-diagnosis-bd32101c title="不孕症與人工生殖｜檢查：對象／檢查／重點"}
 
 | 對象 | 檢查 | 重點 |
 |---|---|---|
@@ -100,6 +110,8 @@ references:
 | 女性 | 腹腔鏡、子宮鏡 | 子宮內膜異位、沾黏；子宮腔病灶 |
 | 男性 | **精液分析** | 第一線檢查；採檢衛教見 [[male-reproductive-system#semen-collection]] |
 | 夫妻 | 性交後試驗（舊） | 排卵期性交後數小時取子宮頸黏液看活動精子；現在少用 |
+
+:::
 
 ::questions{ids="112-2_OP_037"}
 
@@ -137,6 +149,8 @@ references:
 
 ### 試管嬰兒 {#art}
 
+:::table{#kb-infertility-art-57964d4e title="不孕症與人工生殖｜試管嬰兒：步驟／內容"}
+
 | 步驟 | 內容 |
 |---|---|
 | 1. **促排卵**（促卵泡成熟） | 每天注射性腺激素，讓多個濾泡同時發育；GnRH 類似物或拮抗劑防止提早排卵 |
@@ -147,6 +161,8 @@ references:
 | 6. **胚胎植入** | 國考答案：分裂到 **2–8 個細胞**（第 2–3 天）植入；現在常培養到第 5 天**囊胚**再植入，並限制植入數目（減少多胞胎）；其餘冷凍 |
 | 7. **黃體支持** | 給黃體素維持內膜，幫助著床 |
 | 8. 驗孕 | 植入後約 2 週抽血驗 hCG |
+
+:::
 
 - 已少用的方法：**禮物嬰兒**（GIFT，卵子與精子一起放回輸卵管）、ZIFT（受精卵放回輸卵管）；都需要至少一側輸卵管通暢
 - 植入胚胎在子宮內著床的過程見 [[fertilization-embryology#implantation]]

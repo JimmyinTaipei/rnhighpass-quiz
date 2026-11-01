@@ -48,11 +48,15 @@ references:
 
 ## 作用機轉 {#mechanism}
 
+:::table{#kb-opioids-mechanism-fb98e5fc title="鴉片類止痛藥｜作用機轉：受體／作用"}
+
 | 受體 | 作用 |
 |---|---|
 | **μ(mu)** | **止痛**（脊髓以上與脊髓）、**呼吸抑制**、**欣快感**、縮瞳、**便秘**、生理依賴 |
 | κ(kappa) | 脊髓止痛、鎮靜、**煩躁不安**、幻覺、利尿 |
 | δ(delta) | 止痛、調節情緒 |
+
+:::
 
 - **完全促效劑**：morphine、fentanyl、oxycodone、hydromorphone、methadone、pethidine
 - **部分促效劑**：buprenorphine（μ 部分促效）
@@ -63,6 +67,8 @@ references:
 ::questions{ids="114-3_BM_033,109-1_BM_060,105-1_BM_054"}
 
 ## 代表藥物 {#agents}
+
+:::table{#kb-opioids-agents-913a8bbd title="鴉片類止痛藥｜代表藥物：藥物／台灣管制等級／重點"}
 
 | 藥物 | 台灣管制等級 | 重點 |
 |---|---|---|
@@ -76,6 +82,8 @@ references:
 | Buprenorphine | 第三級 | 部分促效劑；舌下錠或貼片；用於疼痛與鴉片類成癮 |
 | **Pentazocine**（潘他唑新） | 第二級 | κ 促效為主；可能引起煩躁、幻覺 |
 
+:::
+
 （管制等級來源：[食藥署 管制藥品分級及品項](https://www.fda.gov.tw/tc/siteListContent.aspx?sid=50&id=2036)）
 
 :::note[「弱效」與「強效」]
@@ -86,6 +94,8 @@ WHO 最早把 codeine 列為第二階的「弱效」鴉片類，現在認為這�
 
 ### Fentanyl 貼片 {#fentanyl-patch}
 
+:::table{#kb-opioids-fentanyl-patch-9644fdbe title="鴉片類止痛藥｜Fentanyl 貼片：項目／做法"}
+
 | 項目 | 做法 |
 |---|---|
 | 適用 | **穩定的慢性疼痛**（已使用過鴉片類的病人）；**不適合急性或需快速調整**的疼痛 |
@@ -95,6 +105,8 @@ WHO 最早把 codeine 列為第二階的「弱效」鴉片類，現在認為這�
 | 更換 | **每次換不同部位**；**先撕掉舊貼片**再貼新的，**不可重疊或多貼一天**；舊貼片黏面**對折**後依管制藥品規定丟棄或繳回；在貼片或紀錄上**寫日期時間** |
 | **避免加熱** | 熱水澡、泡溫泉、烤燈、電熱毯、**發燒**都會**增加吸收** → 可能**呼吸抑制** |
 | 其他 | 做 **MRI 前要撕除**（含金屬可能灼傷）；惡病質病人吸收可能較差 |
+
+:::
 
 ::questions{ids="112-3_OP_031,111-1_FA_017"}
 
@@ -110,6 +122,8 @@ WHO 最早把 codeine 列為第二階的「弱效」鴉片類，現在認為這�
 
 ## 副作用 {#adverse-effects}
 
+:::table{#kb-opioids-adverse-effects-87172053 title="鴉片類止痛藥｜副作用：副作用／會不會耐受／處置"}
+
 | 副作用 | 會不會耐受 | 處置 |
 |---|---|---|
 | **便秘** | **不會** | 開始用鴉片類就**預防性**給**刺激性瀉劑**(senna)或**滲透性瀉劑**（PEG、lactulose），搭配水分與活動；只給纖維不夠 |
@@ -123,6 +137,8 @@ WHO 最早把 codeine 列為第二階的「弱效」鴉片類，現在認為這�
 | **欣快感** | — | 是成癮的原因之一 |
 | 膽道括約肌收縮 | — | 傳統教材：**morphine 可能加重膽道痙攣**，所以「morphine 可減輕膽道痙攣痛」是錯誤選項；膽絞痛用抗膽鹼劑（Buscopan、atropine）解痙 |
 | 肌陣攣、痛覺過敏 | — | 高劑量或腎功能差時；考慮換藥 |
+
+:::
 
 - 鴉片類**不會**造成**腹瀉**、**高血壓**、心跳過快
 - **合併 benzodiazepine、gabapentin、酒精**等中樞抑制劑，呼吸抑制風險大增（來源：[UpToDate](https://www.uptodate.com/contents/prevention-and-management-of-side-effects-in-patients-receiving-opioids-for-chronic-pain)）
@@ -148,6 +164,8 @@ WHO 最早把 codeine 列為第二階的「弱效」鴉片類，現在認為這�
 
 ### 戒斷症狀 {#withdrawal}
 
+:::table{#kb-opioids-withdrawal-d8eeab15 title="鴉片類止痛藥｜戒斷症狀：系統／表現"}
+
 | 系統 | 表現 |
 |---|---|
 | 類似感冒 | **打哈欠、流淚、流鼻水**、打噴嚏、盜汗、**起雞皮疙瘩** |
@@ -157,17 +175,23 @@ WHO 最早把 codeine 列為第二階的「弱效」鴉片類，現在認為這�
 | 自律神經 | 心跳加快、血壓上升、發燒（**不會體溫過低**） |
 | 精神 | 焦慮、易怒、失眠、**強烈渴求** |
 
+:::
+
 - 短效鴉片類約在最後一次使用後 **6–12 小時**出現；戒斷通常**不會致命**（和酒精、鎮靜安眠藥戒斷不同）
 
 ::questions{ids="113-1_BM_034"}
 
 ### 名詞區別 {#dependence-terms}
 
+:::table{#kb-opioids-dependence-terms-abc8e1cc title="鴉片類止痛藥｜名詞區別：名詞／意義"}
+
 | 名詞 | 意義 |
 |---|---|
 | **耐受性**(tolerance) | 同樣劑量效果變差，需要增加劑量；是**正常的藥理現象** |
 | **生理依賴**(physical dependence) | 突然停藥或給拮抗劑會出現戒斷；長期使用者都會發生，**不等於成癮** |
 | **成癮**（物質使用障礙症） | **失去控制**、強迫性使用、明知有害仍持續使用、渴求 |
+
+:::
 
 - 依醫囑用在疼痛上的病人**很少成癮**；**不能因為怕成癮而不給或少給**止痛藥
 - 「藥效時間變短」要先**重新評估疼痛**（疾病進展？劑量不足？），而不是直接說「你已經耐藥了」
@@ -182,12 +206,16 @@ WHO 最早把 codeine 列為第二階的「弱效」鴉片類，現在認為這�
 
 ## 交互作用 {#interactions}
 
+:::table{#kb-opioids-interactions-4d739119 title="鴉片類止痛藥｜交互作用：併用／結果"}
+
 | 併用 | 結果 |
 |---|---|
 | Benzodiazepine、安眠藥、酒精、gabapentinoid、抗組織胺 | 中樞抑制與**呼吸抑制**加重 |
 | **MAOI**、SSRI 等血清素藥物 + **pethidine、tramadol** | **血清素症候群**（見 [[antidepressants#serotonin-syndrome]]） |
 | 促效－拮抗劑(pentazocine)或 naltrexone + 完全促效劑 | 效果下降、誘發戒斷 |
 | 其他會便秘的藥：**鐵劑**、**抗膽鹼劑**、鈣離子阻斷劑、**含鋁或鈣的制酸劑** | 便秘更嚴重（含**鎂**的制酸劑反而會腹瀉） |
+
+:::
 
 ## 護理重點 {#nursing}
 

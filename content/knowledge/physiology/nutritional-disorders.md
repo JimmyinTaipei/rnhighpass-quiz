@@ -45,6 +45,8 @@ references:
 
 ## 蛋白質熱量營養不良 {#protein-energy-malnutrition}
 
+:::table{#kb-nutritional-disorders-protein-energy-malnutrition-24d5f888 title="營養疾病：蛋白質熱量營養不良與維生素缺乏｜蛋白質熱量營養不良：消瘦症(marasmus)／紅孩兒病(kwashiorkor)"}
+
 | | **消瘦症**(marasmus) | **紅孩兒病**(kwashiorkor) |
 |---|---|---|
 | 缺什麼 | 熱量＋蛋白質都不足 | **蛋白質不足為主**，熱量尚可（例：只吃澱粉） |
@@ -52,6 +54,8 @@ references:
 | 水腫 | **沒有** | **全身水腫、腹水**（低白蛋白 → 膠體滲透壓下降，見 [[edema-shock#edema]]） |
 | 白蛋白 | 大致正常 | **明顯下降** |
 | 其他 | 肌肉與皮下脂肪耗盡、老人臉、生長遲緩 | **脂肪肝**（肝腫大）、皮膚色素沉著與脫屑、**頭髮變色變細易脫落**、表情淡漠、易感染 |
+
+:::
 
 - 兩者都有免疫力下降、感染風險上升、生長發育遲緩
 - 成人住院病人與長者也常見蛋白質熱量營養不良；評估指標見 [[nutrition-assessment-diets#assessment]]，營養支持見 [[enteral-parenteral-nutrition]]
@@ -67,6 +71,8 @@ references:
 - 吸收需要**膽汁**：膽鹽把脂溶性維生素包進**微膠粒**，在**小腸**吸收，經乳糜微粒進入淋巴
 - 膽道阻塞（阻塞性黃疸）、囊性纖維化（見 [[single-gene-disorders#cystic-fibrosis]]）、脂肪吸收不良、長期服用礦物油會造成缺乏
 
+:::table{#kb-nutritional-disorders-fat-soluble-c573f7b5 title="營養疾病：蛋白質熱量營養不良與維生素缺乏｜脂溶性維生素：維生素／主要功能／缺乏／過量"}
+
 | 維生素 | 主要功能 | 缺乏 | 過量 |
 |---|---|---|---|
 | **A** | 視紫質（暗處視覺）、上皮細胞分化、免疫 | **夜盲症**、**乾眼症**與角膜軟化、皮膚與黏膜角化、易感染 | 頭痛、肝毒性；孕婦**致畸胎** |
@@ -74,9 +80,13 @@ references:
 | **E** | 抗氧化，保護細胞膜 | 早產兒**溶血性貧血**、周邊神經病變 | 少見 |
 | **K** | 肝臟製造凝血因子 II、VII、IX、X | **出血**；新生兒腸道細菌少、胎盤傳輸少 → **新生兒出血症**，出生後肌肉注射維生素 K1 預防 | 少見；會拮抗 **warfarin**（見 [[anticoagulants#warfarin-food]]） |
 
+:::
+
 ::questions{ids="110-1_BM_032,109-2_BM_044"}
 
 ### 水溶性維生素 {#water-soluble}
+
+:::table{#kb-nutritional-disorders-water-soluble-450ba55e title="營養疾病：蛋白質熱量營養不良與維生素缺乏｜水溶性維生素：維生素／主要功能／缺乏／常見原因或族群"}
 
 | 維生素 | 主要功能 | 缺乏 | 常見原因或族群 |
 |---|---|---|---|
@@ -87,6 +97,8 @@ references:
 | **葉酸**(B9) | DNA 合成 | **巨球性貧血**；孕早期缺乏 → **神經管缺陷** | 孕婦、酗酒、methotrexate、phenytoin |
 | **B12** | DNA 合成、神經髓鞘 | **巨球性貧血**＋**神經症狀**（手腳麻、步態不穩、亞急性聯合退化） | **惡性貧血**（缺內在因子）、**胃切除**、**全素食**；照護見 [[anemias#megaloblastic]] |
 | **C** | **膠原蛋白合成**（羥化反應）、抗氧化、幫助**鐵吸收** | **壞血病**：牙齦腫脹出血、皮下出血與瘀斑、傷口癒合差、骨骼與關節痛 | 長期缺乏蔬果、酗酒、長者 |
+
+:::
 
 - 口腔護理見 [[hygiene-comfort-care#oral-care]]，化療口腔黏膜炎見 [[cancer-treatment-toxicities#mucositis]]；口角炎多和 B2 有關，不是維生素 C
 

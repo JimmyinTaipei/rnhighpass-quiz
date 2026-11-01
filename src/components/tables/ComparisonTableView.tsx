@@ -35,7 +35,7 @@ export function ComparisonTableView({
           </thead>
           <tbody>
             {table.rows.map((row, ri) => (
-              <tr key={ri} className="break-inside-avoid align-top even:bg-page">
+              <tr key={ri} className="break-inside-avoid bg-card align-top">
                 {row.map((cell, ci) => (
                   <td
                     key={ci}

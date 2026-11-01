@@ -58,6 +58,8 @@ references:
 
 ## 作用機轉分類 {#mechanism}
 
+:::table{#kb-antibiotics-overview-mechanism-a87ce9c3 title="抗生素總論｜作用機轉分類：作用目標／藥物類別／代表藥／殺菌或抑菌"}
+
 | 作用目標 | 藥物類別 | 代表藥 | 殺菌或抑菌 |
 |---|---|---|---|
 | **細胞壁合成** | **[[beta-lactams|β-內醯胺類]]**：青黴素類、頭孢菌素類、carbapenems、monobactam | penicillin G、amoxicillin、cefazolin、ceftriaxone、imipenem、aztreonam | **殺菌** |
@@ -71,6 +73,8 @@ references:
 | DNA 破壞 | nitroimidazole | metronidazole（厭氧菌、原蟲） | 殺菌 |
 | **葉酸合成** | [[fluoroquinolones-sulfonamides#sulfonamides|磺胺類]]（與 **PABA 競爭**）、trimethoprim（抑制二氫葉酸還原酶） | sulfamethoxazole + trimethoprim(TMP-SMX) | 單獨抑菌、合併殺菌 |
 
+:::
+
 人體細胞沒有細胞壁、核糖體結構不同(80S)、直接從食物攝取葉酸，所以這些藥物對細菌有**選擇性毒性**
 
 ::questions{ids="107-2_BM_065,106-2_BM_063"}
@@ -83,10 +87,14 @@ references:
 
 ## 藥效動力：時間依賴與濃度依賴 {#pk-pd}
 
+:::table{#kb-antibiotics-overview-pk-pd-62a2e512 title="抗生素總論｜藥效動力：時間依賴與濃度依賴：類型／決定療效的因素／代表／給藥方式"}
+
 | 類型 | 決定療效的因素 | 代表 | 給藥方式 |
 |---|---|---|---|
 | **時間依賴型** | 血中濃度**高於 MIC 的時間**越長越好 | **β-lactam**、vancomycin、macrolides（部分） | 分次、**等間隔**給藥（如 q6h、q8h），重症可延長輸注 |
 | **濃度依賴型** | **峰濃度**越高殺菌越多，且有**抗生素後效應** | **胺基配醣體**、奎諾酮類 | 一天一次高劑量 |
+
+:::
 
 :::exam[國考重點]
 抗生素要**按時、等間隔給藥**以維持有效血中濃度，**不是配合三餐時間**給藥
@@ -144,6 +152,8 @@ CRP、ESR、D-dimer 只反映發炎或凝血，**不能**作為選擇抗生素�
 
 ### 特殊族群 {#special-populations}
 
+:::table{#kb-antibiotics-overview-special-populations-eed96040 title="抗生素總論｜特殊族群：族群／注意"}
+
 | 族群 | 注意 |
 |---|---|
 | **新生兒** | 避免 **chloramphenicol**（灰嬰症候群）、磺胺類（與膽紅素競爭白蛋白，**核黃疸**）、tetracycline（牙齒與骨骼）；**penicillin G** 等 β-lactam 較安全 |
@@ -152,9 +162,13 @@ CRP、ESR、D-dimer 只反映發炎或凝血，**不能**作為選擇抗生素�
 | **肝功能異常** | 經肝臟代謝的藥物（如 **erythromycin**、clindamycin、rifampin）可能蓄積 |
 | **腎功能異常** | 經腎排除的藥物（**胺基配醣體**、vancomycin、多數 β-lactam）要調整劑量或間隔 |
 
+:::
+
 ## 抗藥性 {#resistance}
 
 ### 抗藥機轉 {#resistance-mechanisms}
+
+:::table{#kb-antibiotics-overview-resistance-mechanisms-a30c1b34 title="抗生素總論｜抗藥機轉：機轉／例子"}
 
 | 機轉 | 例子 |
 |---|---|
@@ -163,9 +177,13 @@ CRP、ESR、D-dimer 只反映發炎或凝血，**不能**作為選擇抗生素�
 | 降低通透性 | G− 外膜孔蛋白減少 |
 | 主動排出 | 排出幫浦(efflux pump) |
 
+:::
+
 抗藥基因可經**接合作用**（質體）、導入作用、轉化作用在細菌之間傳遞（[[microbial-pathogenesis#gene-transfer]]）。與 PABA 有關的抗藥性是磺胺類，不是青黴素
 
 ### 常見多重抗藥性菌 {#mdro}
+
+:::table{#kb-antibiotics-overview-mdro-f7748db8 title="抗生素總論｜常見多重抗藥性菌：簡稱／全名／備註"}
 
 | 簡稱 | 全名 | 備註 |
 |---|---|---|
@@ -173,6 +191,8 @@ CRP、ESR、D-dimer 只反映發炎或凝血，**不能**作為選擇抗生素�
 | **VRE** | 抗 vancomycin 腸球菌 | 口服 vancomycin 使用增加與 VRE 帶菌有關 |
 | ESBL | 產生廣效型 β-內醯胺酶的腸內菌 | 如大腸桿菌、克雷白氏菌 |
 | CRE、CRAB、CRPA | 抗 carbapenem 腸內菌、鮑氏不動桿菌、綠膿桿菌 | 可用藥物極少 |
+
+:::
 
 多重抗藥性菌的病人採**接觸隔離**：照護時穿戴**手套與隔離衣**，不需要負壓病房或過濾式口罩
 
@@ -227,6 +247,8 @@ daptomycin 會被肺表面張力素(surfactant)破壞，**不能用來治療肺�
 
 ## 合併使用 {#combinations}
 
+:::table{#kb-antibiotics-overview-combinations-284a727b title="抗生素總論｜合併使用：組合／結果／原因"}
+
 | 組合 | 結果 | 原因 |
 |---|---|---|
 | **β-lactam＋胺基配醣體**（如 penicillin＋gentamicin、cefazolin＋gentamicin） | **協同作用** | β-lactam 破壞細胞壁，**使胺基配醣體更容易進入細菌**內 |
@@ -234,6 +256,8 @@ daptomycin 會被肺表面張力素(surfactant)破壞，**不能用來治療肺�
 | sulfamethoxazole＋trimethoprim | 協同 | 依序阻斷葉酸合成的兩個步驟 |
 | 胺基配醣體＋**環利尿劑**(furosemide) | **耳毒性增加** | 兩者都有耳毒性 |
 | 胺基配醣體＋vancomycin | 腎毒性增加 | 兩者都有腎毒性 |
+
+:::
 
 常見錯誤選項：「併用 amoxicillin 與 carbapenem 以避免 amoxicillin 被 β-內醯胺酶分解」（carbapenem 不是 β-內醯胺酶抑制劑）；「胺基配醣體**口服吸收好**」（幾乎不被腸胃吸收，全身感染要注射）
 

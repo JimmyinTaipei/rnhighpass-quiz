@@ -45,6 +45,8 @@ references:
 
 ## 判讀表 {#interpretation}
 
+:::table{#kb-thyroid-function-tests-interpretation-cfc4b91c title="甲狀腺功能檢驗｜判讀表：結果／最可能的狀況"}
+
 | 結果 | 最可能的狀況 |
 |---|---|
 | **TSH ↓、FT4 ↑** | **原發性甲亢**（Graves 病、毒性結節、甲狀腺炎早期）；**甲狀腺風暴** |
@@ -54,6 +56,8 @@ references:
 | TSH ↑、FT4 正常 | **次臨床甲低** |
 | TSH ↓ 或正常、FT4 ↓ | **次發性甲低**（腦下垂體功能低下，見 [[pituitary-disorders#hypopituitarism]]） |
 | TSH ↑ 或正常、FT4 ↑ | 少見：分泌 TSH 的腦下垂體腫瘤、甲狀腺素阻抗 |
+
+:::
 
 - 參考值依各院檢驗方法不同，常見範圍：TSH 約 0.4–4 mIU/L、游離 T4 約 0.8–1.8 ng/dL（**依各院**）
 - 重病、類固醇、多巴胺會暫時壓低 TSH；**biotin**（生物素）高劑量保健品會干擾部分免疫分析，檢驗前要詢問用藥
@@ -72,6 +76,8 @@ references:
 
 ## 找原因的檢查 {#etiology}
 
+:::table{#kb-thyroid-function-tests-etiology-d56e0095 title="甲狀腺功能檢驗｜找原因的檢查：檢查／用途"}
+
 | 檢查 | 用途 |
 |---|---|
 | **TSH 受體抗體**（TRAb、TSI） | **Graves 病**陽性；懷孕時可穿過胎盤造成新生兒甲亢 |
@@ -81,6 +87,8 @@ references:
 | **甲狀腺超音波** | 結節大小與惡性特徵、甲狀腺腫，決定是否**細針抽吸**（見 [[thyroid-nodules-cancer#nodules]]） |
 | **甲狀腺球蛋白** | 全切除與放射碘後應該很低，**再升高表示分化型甲狀腺癌復發** |
 | **降鈣素** | 甲狀腺**髓質癌**的腫瘤標記 |
+
+:::
 
 ## 檢驗護理 {#nursing}
 

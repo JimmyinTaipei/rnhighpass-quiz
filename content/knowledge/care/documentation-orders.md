@@ -60,6 +60,8 @@ references:
 
 ## 記錄的目的 {#purposes}
 
+:::table{#kb-documentation-orders-purposes-3e3068a0 title="護理記錄與醫囑：記錄原則、SOAPIE 與焦點記錄、TPR 單與醫囑處理｜記錄的目的：目的／說明"}
+
 | 目的 | 說明 |
 |---|---|
 | **溝通** | **最主要**；團隊閱讀彼此紀錄、交班，減少重複詢問與干擾病人 |
@@ -70,11 +72,15 @@ references:
 | 稽核 | 評鑑、人事考核 |
 | 費用 | 健保申報、保險理賠、職災認定 |
 
+:::
+
 - 來源：實用基本護理學上冊 p.125–126
 
 ::questions{ids="107-2_FA_011"}
 
 ## 記錄的原則 {#principles}
+
+:::table{#kb-documentation-orders-principles-5a9ff669 title="護理記錄與醫囑：記錄原則、SOAPIE 與焦點記錄、TPR 單與醫囑處理｜記錄的原則：原則／重點"}
 
 | 原則 | 重點 |
 |---|---|
@@ -84,6 +90,8 @@ references:
 | 統一格式 | 全院一致；護理記錄用敘述式或 SOAP、DART |
 | **時效性** | **執行後立刻記錄**，不拖延也不提早 |
 | **組織性** | **依時間先後順序** |
+
+:::
 
 - 主觀資料直接寫內容即可，不必冠上「病人主訴」；**家屬或親友提供的才寫出是誰說的**（如「案母說：…」）
 - 判斷違反哪個原則
@@ -126,11 +134,15 @@ references:
 
 ### 三種方法比較 {#methods-compare}
 
+:::table{#kb-documentation-orders-methods-compare-eeb4661d title="護理記錄與醫囑：記錄原則、SOAPIE 與焦點記錄、TPR 單與醫囑處理｜三種方法比較：方法／特點／內容"}
+
 | 方法 | 特點 | 內容 |
 |---|---|---|
 | **傳統式**（資料來源導向，SOR, source-oriented recording） | 依資料來源分開、依時間描述；較主觀、易重複、較無組織 | **系統記錄法**（依系統的評估表）、**敘述記錄法**、**行為過程記錄**（改良的敘述法，記錄護病間語言與非語言互動，用於發現問題與護理師自我分析） |
 | **以問題為導向**(POR, problem-oriented recording) | 1964 年 Weed 提出（醫療用 POMR, problem-oriented medical recording），1978 年 Henderson 推薦護理用 | 基本資料、問題列表、初步計畫、**病情進展記錄(SOAPIER)**、出院摘要 |
 | **護理焦點記錄**(focus charting) | 以病人為中心、一個焦點一個健康問題；易懂、彈性大 | **D.A.R.T.** |
+
+:::
 
 - 行為過程記錄屬於**傳統式**，不是問題導向
 - 來源：同書 p.129–132、表 4-1
@@ -138,6 +150,8 @@ references:
 ::questions{ids="105-2_FA_015"}
 
 ### SOAPIER {#soapier}
+
+:::table{#kb-documentation-orders-soapier-20757984 title="護理記錄與醫囑：記錄原則、SOAPIE 與焦點記錄、TPR 單與醫囑處理｜SOAPIER：項目／放什麼／例（腹腔鏡膽囊切除術後）"}
 
 | 項目 | 放什麼 | 例（腹腔鏡膽囊切除術後） |
 |---|---|---|
@@ -149,6 +163,8 @@ references:
 | **E** 評值 | 執行後的**成效** | 疼痛由 5 分降到 3 分；「有吞嚥反射但易嗆，需持續注意餵食」 |
 | **R** 修改或重新評估 | 未解決時找原因、修計畫 | — |
 
+:::
+
 - 「A」寫的是根據資料確立的護理問題；資料裡沒有證據的推論（例：「傷口**感染**引發疼痛」）是錯的
 - 來源：同書表 4-1 p.131、範例 p.133
 
@@ -156,12 +172,16 @@ references:
 
 ### 焦點記錄 DART {#dart}
 
+:::table{#kb-documentation-orders-dart-d8609bdf title="護理記錄與醫囑：記錄原則、SOAPIE 與焦點記錄、TPR 單與醫囑處理｜焦點記錄 DART：項目／放什麼／對應 SOAPIE"}
+
 | 項目 | 放什麼 | 對應 SOAPIE |
 |---|---|---|
 | **D** 資料(data) | 與焦點有關的**主觀與客觀資料** | **S＋O**（含 A 的問題，寫在「焦點」欄） |
 | **A** 護理行動(action) | 立即的護理活動或計畫，**含依醫囑給藥** | **P＋I** |
 | **R** 反應(response) | 病人接受照護後的結果 | **E** |
 | **T** 護理指導(teaching) | 與問題有關的衛教 | （屬措施的一部分） |
+
+:::
 
 - 焦點：病人最擔心的事、病況明顯改變、**護理診斷／健康問題**、重要事件（術後返室、放中心導管）；**不用醫學診斷**當焦點
 - 每次不一定四項都有：常先寫 D、A、T，**R 到下一個時間點**才寫
@@ -208,12 +228,16 @@ references:
 
 ### 醫囑的種類 {#order-types}
 
+:::table{#kb-documentation-orders-order-types-778dcf01 title="護理記錄與醫囑：記錄原則、SOAPIE 與焦點記錄、TPR 單與醫囑處理｜醫囑的種類：種類／定義／處理"}
+
 | 種類 | 定義 | 處理 |
 |---|---|---|
 | **長期醫囑**(standing order) | 自開立日起持續執行，**直到停止(D.C.)** | 紙本謄寫到 Kardex 與給藥單後打「/」並簽名；執行後再打勾、記時間簽名；**沒有 7 日期限** |
 | **p.r.n.** | **屬長期醫囑**；需要時給，醫師要註明**間隔**，可重複 | 護理師判斷需要才給；**每次給後記錄用藥情形並評值** |
 | **臨時醫囑**(stat order) | 開立後**立即執行、只執行一次** | 紙本先打半勾「\」，執行後完成全勾「/」並簽名 |
 | **S.O.S.** | **屬臨時醫囑**；如有需要給**一次** | **12 小時內**未執行就失效；**已給過一次也失效**，再需要要重開 |
+
+:::
 
 - 例：「Steam inhalation 15 min S.O.S.」：12 小時內有需要可給 15 分鐘蒸氣一次；12 小時後才出現需要，要請醫師重開；12 小時內已給過一次又有需要，**不能再給**
 - 來源：同書 p.159–160
@@ -235,6 +259,8 @@ references:
 
 ### 病歷常用縮寫 {#record-abbreviations}
 
+:::table{#kb-documentation-orders-record-abbreviations-4237fa2a title="護理記錄與醫囑：記錄原則、SOAPIE 與焦點記錄、TPR 單與醫囑處理｜病歷常用縮寫：縮寫／英文／中文"}
+
 | 縮寫 | 英文 | 中文 |
 |---|---|---|
 | **A.A.D.**(A.M.A.D.) | against(medical) advice discharge | **自動出院** |
@@ -251,6 +277,8 @@ references:
 | E.D.C. | expected date of confinement | 預產期 |
 | S.N.／R.N.／N.P. | student nurse／registered nurse／nurse practitioner | 護生／護理師／專科護理師 |
 | V.S. | visiting staff | 主治醫師 |
+
+:::
 
 - 給藥與檢查縮寫見 [[medication-administration-principles#abbreviations]]
 - 來源：同書 p.151–157
@@ -270,6 +298,8 @@ references:
 - 來源：同書 p.161–162、課後題 p.164
 
 ## 常見錯誤 {#pitfalls}
+
+:::table{#kb-documentation-orders-pitfalls-678770a3 title="護理記錄與醫囑：記錄原則、SOAPIE 與焦點記錄、TPR 單與醫囑處理｜常見錯誤：錯誤說法／正確"}
 
 | 錯誤說法 | 正確 |
 |---|---|
@@ -291,5 +321,7 @@ references:
 | 護生緊急時可接口頭醫囑 | 不行 |
 | 長期醫囑 7 日失效 | 到 D.C. 才停 |
 | R/O＝排除 | R/O＝疑似 |
+
+:::
 
 ## 綜合考題 {#questions}

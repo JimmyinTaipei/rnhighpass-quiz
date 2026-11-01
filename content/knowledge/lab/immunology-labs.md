@@ -52,6 +52,8 @@ references:
 
 ## 免疫球蛋白 {#immunoglobulins}
 
+:::table{#kb-immunology-labs-immunoglobulins-bc325e54 title="免疫檢驗｜免疫球蛋白：檢驗／意義"}
+
 | 檢驗 | 意義 |
 |---|---|
 | **血清 IgG、IgA、IgM** | **免疫缺陷**的第一步檢查；**全部低**見於 XLA、CVID；**IgA 單獨低**見選擇性 IgA 缺乏；**IgM 高、其他低**見高 IgM 症候群；見 [[primary-immunodeficiency]] |
@@ -60,9 +62,13 @@ references:
 | **血清蛋白電泳與免疫固定** | **單株 M 蛋白**見於**多發性骨髓瘤**（見 [[lymphoma-myeloma#myeloma]]）；**IgG 低**見腎病症候群 |
 | **新生兒 IgM** | 臍帶血 **IgM 升高** = **子宮內感染**，見 [[immune-system-basics#newborn]] |
 
+:::
+
 ::questions{ids="115-2_MS_030,106-2_makeup_OP_061"}
 
 ## 過敏相關檢查 {#allergy-tests}
+
+:::table{#kb-immunology-labs-allergy-tests-d9418a4c title="免疫檢驗｜過敏相關檢查：檢查／適用／重點"}
 
 | 檢查 | 適用 | 重點 |
 |---|---|---|
@@ -74,9 +80,13 @@ references:
 | **食物或藥物激發試驗** | 確認診斷 | **在有急救能力的場所**進行 |
 | **結核菌素試驗** | 結核感染 | **皮內注射 PPD，48–72 小時**看硬結（**第Ⅳ型**）；不能分辨潛伏與活動性；**干擾素 γ 釋放試驗(IGRA)**可補充，見 [[tuberculosis]] |
 
+:::
+
 ::questions{ids="115-1_MS_027"}
 
 ## 補體檢驗 {#complement-tests}
+
+:::table{#kb-immunology-labs-complement-tests-06f59793 title="免疫檢驗｜補體檢驗：檢驗／意義"}
 
 | 檢驗 | 意義 |
 |---|---|
@@ -84,6 +94,8 @@ references:
 | **CH50** | 評估**古典路徑與膜攻擊複合體**的整體功能；**任一成分缺乏**都下降 |
 | **AH50** | 評估**替代路徑** |
 | **C1 酯酶抑制劑濃度與功能** | **遺傳性血管性水腫**診斷 |
+
+:::
 
 詳細解讀與缺乏症見 [[complement-system#tests]]
 
@@ -104,6 +116,8 @@ references:
 
 ### 特定自體抗體 {#specific-antibodies}
 
+:::table{#kb-immunology-labs-specific-antibodies-430d16c1 title="免疫檢驗｜特定自體抗體：抗體／疾病／重點"}
+
 | 抗體 | 疾病 | 重點 |
 |---|---|---|
 | **Anti-dsDNA** | **SLE** | **特異**；**效價與疾病活動與狼瘡腎炎相關** |
@@ -122,11 +136,15 @@ references:
 | **抗內在因子／抗壁細胞抗體** | **惡性貧血** | |
 | **ASO** | **A 群鏈球菌感染後**（風濕熱、腎炎） | **抗鏈球菌溶血素 O**，表示近期感染 |
 
+:::
+
 詳見 [[sle]]、[[rheumatoid-arthritis]]、[[autoimmune-diseases]]
 
 ## 血球與血清學檢驗 {#blood-tests}
 
 ### 庫姆斯試驗(Coombs) {#coombs}
+
+:::table{#kb-immunology-labs-coombs-ff6b54f1 title="免疫檢驗｜庫姆斯試驗(Coombs)：直接庫姆斯(DAT)／間接庫姆斯(IAT)"}
 
 | | **直接庫姆斯(DAT)** | **間接庫姆斯(IAT)** |
 |---|---|---|
@@ -134,7 +152,11 @@ references:
 | 方法 | 病人紅血球加**抗人類球蛋白**，看是否**凝集** | 血清先與試劑紅血球反應，再加抗人類球蛋白 |
 | 臨床 | **自體免疫溶血性貧血**、**輸血溶血反應**（包括延遲）、**新生兒溶血症**、藥物性溶血 | **輸血前不規則抗體篩檢**、**交叉配合試驗**、**孕婦抗體篩檢** |
 
+:::
+
 ### 淋巴球與其他 {#lymphocytes}
+
+:::table{#kb-immunology-labs-lymphocytes-03397dc5 title="免疫檢驗｜淋巴球與其他：檢驗／意義"}
 
 | 檢驗 | 意義 |
 |---|---|
@@ -144,6 +166,8 @@ references:
 | **NBT／DHR 試驗** | **CGD**：吞噬細胞氧化爆發缺陷 |
 | **嗜中性球絕對值** | **< 500／μL** 保護性隔離，見 [[complete-blood-count]]、[[cancer-treatment-toxicities#neutropenia]] |
 | **ESR、CRP** | **發炎活動**，見 [[inflammatory-markers]]；**SLE 的 CRP 常不高** |
+
+:::
 
 ## 輸血與血型檢驗 {#transfusion-tests}
 

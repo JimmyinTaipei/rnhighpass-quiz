@@ -58,12 +58,16 @@ references:
 
 血小板活化的幾條訊號都可以被阻斷：
 
+:::table{#kb-antiplatelets-mechanism-25c3c49a title="抗血小板藥｜作用機轉：訊號／藥物／說明"}
+
 | 訊號 | 藥物 | 說明 |
 |---|---|---|
 | COX-1 → **TXA₂**（促凝集、血管收縮） | **Aspirin** | 將 COX-1 **乙醯化、不可逆**；血小板沒有細胞核，無法再製造酵素 → 效果持續到血小板壽命結束（**7–10 天**） |
 | ADP → **P2Y12 受體** | Clopidogrel、prasugrel、ticlopidine（不可逆）；**ticagrelor**、cangrelor（可逆） | 阻斷 ADP 誘導的活化 |
 | 磷酸雙酯酶(PDE)分解 cAMP | **Dipyridamole**、**cilostazol**(PDE3) | 血小板內 cAMP↑ → 抑制凝集，並擴張血管 |
 | **GP IIb/IIIa 受體**（纖維蛋白原把血小板連起來） | Abciximab、eptifibatide、tirofiban | 阻斷**凝集的最後共同路徑**，最強、只能靜脈 |
+
+:::
 
 :::note[補充]
 **Aspirin 的劑量決定作用**：低劑量（75–100 mg/日）只抑制血小板的 COX-1 → **抗血小板**；中劑量止痛、退燒；**抗發炎需要最高劑量**（每日 3–4 g 以上）
@@ -76,6 +80,8 @@ references:
 
 ### Aspirin {#aspirin}
 
+:::table{#kb-antiplatelets-aspirin-75b03407 title="抗血小板藥｜Aspirin：項目／內容"}
+
 | 項目 | 內容 |
 |---|---|
 | 懷疑 ACS 時 | **嚼碎** 162–325 mg（**非腸溶錠**，嚼碎吸收最快），不論之後採侵入或非侵入治療都儘快給；**已在服用 aspirin 者仍要給負荷劑量**；無法口服者可肛門塞劑或靜脈（來源：[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)）；無過敏、近期無腸胃出血者，EMS 或派遣員可指導先嚼服 |
@@ -84,9 +90,13 @@ references:
 | 腸溶錠 | 減少直接刺激胃，但**不能**完全避免潰瘍（抑制前列腺素是全身性的）；不可咬碎 |
 | 兒童 | 除**川崎氏症**等特殊醫囑外，**18 歲以下病毒感染（流感、水痘）發燒時不可使用** → Reye 症候群 |
 
+:::
+
 川崎氏症：急性期高劑量 aspirin（抗發炎、抗血小板），退燒後改**低劑量**持續數週（抗血小板，預防冠狀動脈瘤血栓）；服藥期間應接種流感疫苗，並避免水痘/流感感染（Reye 症候群）
 
 ### P2Y12 抑制劑 {#p2y12}
+
+:::table{#kb-antiplatelets-p2y12-ac22112a title="抗血小板藥｜P2Y12 抑制劑：藥物／特色"}
 
 | 藥物 | 特色 |
 |---|---|
@@ -95,6 +105,8 @@ references:
 | **Prasugrel**(Efient) | 前驅藥、不可逆、作用強；用於**要做 PCI** 的 ACS；負荷 60 mg，維持 10 mg 每日一次（≥ 75 歲或體重 < 60 kg 減為 5 mg 並小心）；**曾中風/TIA 者禁用**（淨臨床結果較差）（同上來源） |
 | Ticlopidine | 舊藥，嗜中性球減少、TTP，現已少用 |
 | Cangrelor | 靜脈、可逆、數分鐘內起效與消退，PCI 時使用 |
+
+:::
 
 ### 其他 {#others}
 
@@ -117,6 +129,8 @@ references:
 
 ### 雙重抗血小板治療(DAPT) {#dapt}
 
+:::table{#kb-antiplatelets-dapt-4f452e49 title="抗血小板藥｜雙重抗血小板治療(DAPT)：情境／建議時間（依 2025 AHA/ACC ACS 指引、2023 ESC）"}
+
 | 情境 | 建議時間（依 2025 AHA/ACC ACS 指引、2023 ESC） |
 |---|---|
 | **ACS**（不論是否放支架） | 非高出血風險者：aspirin + P2Y12 抑制劑**至少 12 個月**（第 1 級建議）（來源：[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)） |
@@ -125,6 +139,8 @@ references:
 | ACS 做 PCI | 1 個月後把 ticagrelor/prasugrel **降階**為 clopidogrel 可考慮（第 2b 級）；clopidogrel 單一治療個體反應差異大，可能增加事件（同上來源） |
 | 穩定冠心病放支架（選擇性 PCI） | 通常 **6 個月**（出血風險高者 1–3 個月） |
 | DAPT 結束後 | 單一抗血小板（aspirin 或 clopidogrel）**長期** |
+
+:::
 
 - ACS 時 P2Y12 抑制劑以 **ticagrelor 或 prasugrel** 優於 clopidogrel：要做 PCI 者兩者皆可；NSTE-ACS 不打算做導管者用 **ticagrelor**；**接受血栓溶解劑者用 clopidogrel**;ticagrelor/prasugrel 無法取得、不耐受或禁忌時用 clopidogrel（來源：[2025 ACC/AHA 急性冠心症指引](https://doi.org/10.1161/CIR.0000000000001309)）
 - 腸胃出血高風險者，DAPT 或合用抗凝劑時**加 PPI**（第 1 級，同上來源）
@@ -139,6 +155,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-antiplatelets-adverse-effects-939206e3 title="抗血小板藥｜副作用與禁忌：副作用／說明與處置"}
+
 | 副作用 | 說明與處置 |
 |---|---|
 | **出血** | 瘀青、牙齦出血、流鼻血、黑便、血尿；嚴重者腸胃道、顱內出血 |
@@ -151,9 +169,13 @@ references:
 | 呼吸困難、心跳過慢 | Ticagrelor 特有，多為輕度 |
 | 血小板減少 | GP IIb/IIIa 抑制劑；ticlopidine 有 TTP、嗜中性球減少 |
 
+:::
+
 **禁用或避免 aspirin 的狀況**：活動性出血、**血友病**、**ITP 與血小板過低**、**登革熱**（出血風險，退燒改用 acetaminophen）、**18 歲以下病毒感染**、消化性潰瘍急性期、aspirin 過敏或誘發氣喘、懷孕第三孕期（低劑量預防子癇前症除外）、**主動脈剝離**、出血性中風
 
 ## 交互作用 {#interactions}
+
+:::table{#kb-antiplatelets-interactions-3acb9912 title="抗血小板藥｜交互作用：併用／結果"}
 
 | 併用 | 結果 |
 |---|---|
@@ -165,6 +187,8 @@ references:
 | SSRI、類固醇、酒精 | 加重腸胃出血 |
 | 銀杏、魚油、大蒜、當歸、丹參 | 加重出血 |
 
+:::
+
 ::questions{ids="110-1_BM_051"}
 
 ## 護理重點與衛教 {#nursing}
@@ -175,6 +199,8 @@ references:
 - **不可自行停藥**（特別是支架後）；漏吃想起來盡快補，接近下一次就跳過，不要吃兩倍
 - 看牙、做侵入性檢查或手術前主動告知醫師；**是否停藥、停多久由開刀醫師與處方醫師共同決定**，先評估手術出血風險與停藥後的血栓風險（例如半年內放支架者）。參考時間（術前停用，手術當天不算）：
 
+  :::table{#kb-antiplatelets-nursing-d46b18da title="抗血小板藥｜護理重點與衛教：藥物／中低出血風險手術／高出血風險手術／術後止血良好後恢復"}
+
   | 藥物 | 中低出血風險手術 | 高出血風險手術 | 術後止血良好後恢復 |
   |---|---|---|---|
   | Aspirin | 3–7 天 | 7–10 天 | ≤ 48 小時 |
@@ -184,6 +210,8 @@ references:
   | Ticlopidine | 10–14 天 | 10–14 天 | 未有明確建議 |
   | Cilostazol | 2–3 天 | 2–3 天 | 未有明確建議 |
   | Dipyridamole | 2 天 | 2 天 | 未有明確建議 |
+
+  :::
 
   （來源：[臺中榮民總醫院埔里分院藥劑科：抗凝血藥與抗血小板藥手術前後停用時間建議表（2026.06.19 修訂）](https://www.pulivh.gov.tw/UploadFiles/WebFiles/WebPagesFiles/Files/0fb9c2db-631c-4590-9c69-929ac822d1e7/抗凝血藥與抗血小板藥手術前後停用時間建議表%2020260619.pdf)）
   - 極低出血風險處置（白內障、小型皮膚科或牙科處置）的高心血管風險病人，aspirin 可考慮**不停藥**（同上來源）

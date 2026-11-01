@@ -35,6 +35,8 @@ references:
 
 ## 代表藥物 {#agents}
 
+:::table{#kb-dpp4-inhibitors-agents-36f65b81 title="DPP-4 抑制劑｜代表藥物：藥物／腎功能不佳時"}
+
 | 藥物 | 腎功能不佳時 |
 |---|---|
 | Sitagliptin | 依 eGFR 減量（來源：[ADA Standards of Care 2026 第 9 章](https://doi.org/10.2337/dc26-S009) 表 9.2） |
@@ -42,6 +44,8 @@ references:
 | **Linagliptin** | **主要經膽汁排出，不需調整劑量**（同上來源） |
 | Alogliptin | 減量（同上來源） |
 | Vildagliptin | 減量；監測肝功能 |
+
+:::
 
 （字尾 **-gliptin**）
 

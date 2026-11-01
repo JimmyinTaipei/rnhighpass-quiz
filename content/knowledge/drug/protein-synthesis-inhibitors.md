@@ -48,6 +48,8 @@ references:
 
 ## 作用機轉 {#mechanism}
 
+:::table{#kb-protein-synthesis-inhibitors-mechanism-c3ac53c1 title="四環黴素、巨環類與其他蛋白質合成抑制劑｜作用機轉：類別／結合部位／效果"}
+
 | 類別 | 結合部位 | 效果 |
 |---|---|---|
 | **四環黴素類** | **30S**，阻止 tRNA 進入 | 抑菌；抗菌範圍廣 |
@@ -55,6 +57,8 @@ references:
 | chloramphenicol | 50S，抑制胜肽基轉移酶 | 抑菌（對部分腦膜炎病原殺菌） |
 | clindamycin | 50S | 抑菌；也能**抑制毒素產生** |
 | linezolid | 50S 起始複合體 | 見[[glycopeptides]] |
+
+:::
 
 巨環類與 clindamycin 的結合位置相近，細菌的 *erm* 基因甲基化核糖體後，**兩者會同時抗藥**
 
@@ -66,6 +70,8 @@ references:
 
 ### 代表藥與用途 {#tetracycline-uses}
 
+:::table{#kb-protein-synthesis-inhibitors-tetracycline-uses-20cb25ed title="四環黴素、巨環類與其他蛋白質合成抑制劑｜代表藥與用途：藥物／用途"}
+
 | 藥物 | 用途 |
 |---|---|
 | **doxycycline** | **恙蟲病**與其他**立克次體**、萊姆病、鉤端螺旋體、**披衣菌**、黴漿菌、**霍亂**（縮短病程、減少腹瀉）、瘧疾預防、痤瘡；吸收較不受食物影響 |
@@ -73,6 +79,8 @@ references:
 | minocycline | 痤瘡、MRSA 皮膚感染、多重抗藥性鮑氏不動桿菌 |
 | tigecycline | 靜脈注射，多重抗藥性菌的複雜感染 |
 | **demeclocycline** | 會造成**腎因性尿崩**，因此被拿來治療**抗利尿激素分泌不當症候群**(SIADH)，目的**不是**抗感染 |
+
+:::
 
 ### 服用方式 {#tetracycline-administration}
 
@@ -85,6 +93,8 @@ references:
 
 ### 副作用與禁忌 {#tetracycline-adverse}
 
+:::table{#kb-protein-synthesis-inhibitors-tetracycline-adverse-5e6103d4 title="四環黴素、巨環類與其他蛋白質合成抑制劑｜副作用與禁忌：副作用／說明"}
+
 | 副作用 | 說明 |
 |---|---|
 | 腸胃不適 | 最常見：上腹不適、噁心、腹瀉 |
@@ -95,17 +105,23 @@ references:
 | 重複感染 | 口腔與陰道**念珠菌**、困難梭菌 |
 | 其他 | 顱內壓升高（假性腦瘤）；minocycline 眩暈 |
 
+:::
+
 ## 巨環類 {#macrolides}
 
 ::questions{ids="114-2_BM_031"}
 
 ### 代表藥與用途 {#macrolide-uses}
 
+:::table{#kb-protein-synthesis-inhibitors-macrolide-uses-401fd18f title="四環黴素、巨環類與其他蛋白質合成抑制劑｜代表藥與用途：藥物／特色"}
+
 | 藥物 | 特色 |
 |---|---|
 | **erythromycin** | 最早的巨環類；胃酸不穩定、腸胃副作用多、一天多次；也是**胃動素受體促效劑**，可促進胃排空（但不是多巴胺拮抗劑） |
 | **clarithromycin** | **幽門桿菌三合一療法**(PPI＋amoxicillin＋clarithromycin)、黴漿菌、分枝桿菌(MAC) |
 | **azithromycin** | 半衰期很長，**療程短**（常見 3–5 天）、一天一次、副作用與交互作用較少；兒童**黴漿菌肺炎**首選、百日咳、披衣菌（單一劑量）、旅遊者腹瀉 |
+
+:::
 
 **適應症**：
 - **非典型肺炎**：**黴漿菌**（兒童常用 azithromycin）、披衣菌、退伍軍人菌
@@ -116,6 +132,8 @@ references:
 
 ### 副作用與禁忌 {#macrolide-adverse}
 
+:::table{#kb-protein-synthesis-inhibitors-macrolide-adverse-1cb29b7f title="四環黴素、巨環類與其他蛋白質合成抑制劑｜副作用與禁忌：副作用／說明"}
+
 | 副作用 | 說明 |
 |---|---|
 | **腸胃不適** | **最常見**：腹痛、噁心、腹瀉（erythromycin 最明顯） |
@@ -124,6 +142,8 @@ references:
 | **耳毒性** | 大劑量時可逆性聽力下降 |
 | 新生兒 | 出生 2 週內使用 erythromycin 與**肥厚性幽門狹窄**相關 |
 | 重症肌無力 | 可能惡化 |
+
+:::
 
 巨環類**不容易引起癲癇**
 

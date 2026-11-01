@@ -54,6 +54,8 @@ references:
 
 ### 經胸 vs 經食道 {#tte-tee}
 
+:::table{#kb-echocardiography-tte-tee-1f49f12f title="心臟超音波｜經胸 vs 經食道：經胸(TTE)／經食道(TEE)"}
+
 | | 經胸(TTE) | 經食道(TEE) |
 |---|---|---|
 | 做法 | 探頭放在胸壁，病人**左側臥** | 像胃鏡一樣把探頭放入**食道**，從心臟正後方掃描 |
@@ -61,6 +63,8 @@ references:
 | 優點 | 快速、床邊、可重複 | **左心房與心耳血栓**、人工瓣膜、感染性心內膜炎贅生物、主動脈剝離看得更清楚（沒有肋骨、肺、脂肪阻擋） |
 | 限制 | 肥胖、COPD 肺氣腫、胸壁術後影像差 | 需禁食、有吸入與食道損傷風險 |
 | 典型用途 | 心衰竭、EF、瓣膜、心包積液 | **心房顫動電擊整流前排除心耳血栓**、心內膜炎、術中監測 |
+
+:::
 
 ### 壓力超音波 {#stress-echo}
 
@@ -84,12 +88,16 @@ references:
 
 **LVEF = 每次收縮射出的血量 ÷ 舒張末期容積 × 100%**（詳見 [[cardiac-output#ejection-fraction]]）。正常約 **55–70%**（ASE：男 52–72%、女 54–74%）
 
+:::table{#kb-echocardiography-ef-f573b342 title="心臟超音波｜射出分率與心衰竭分類：分類／LVEF／說明"}
+
 | 分類 | LVEF | 說明 |
 |---|---|---|
 | **HFrEF**（射出分率降低） | **≤ 40%** | 收縮功能不良；藥物證據最完整（ARNI/ACEI/ARB、β 阻斷劑、MRA、SGLT2i） |
 | **HFmrEF**（輕度降低） | **41–49%** | 介於中間 |
 | **HFpEF**（射出分率保留） | **≥ 50%** | 舒張功能不良、心室僵硬；需有充填壓上升證據（如 BNP 升高、E/e′ 高） |
 | **HFimpEF**（射出分率改善） | 原本 **≤ 40%**，追蹤時 **> 40%**（ESC、台灣另要求上升 ≥ 10 個百分點） | 仍需持續原治療 |
+
+:::
 
 - 依據：2021 心衰竭通用定義、2022 AHA/ACC/HFSA（HFimpEF = 先前 ≤ 40%、追蹤 > 40%，經 [ACC Key Perspectives 摘要](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/03/29/19/53/2022-aha-acc-hfsa-heart-failure-guideline-gl-hf)核對）。舊教科書曾以 EF < 35–40% 為收縮性心衰竭、40–49% 為「灰色地帶」，國考以上表為準
 - **新分類不同處**：2023 台灣共識把 LVEF < 50% 都稱 HFrEF（再分 HFsrEF ≤ 40%、HFmrEF 41–49%），50–59% 為 HFpEF、≥ 60% 為 HFnEF（來源：[2023 台灣心臟學會慢性心衰竭藥物治療共識](https://doi.org/10.6515/ACS.202305_39%283%29.20230301A) p.4–5）；2026 ESC **取消 HFmrEF**，只分 HFrEF(< 50%)與 HFpEF(≥ 50%),HFimpEF 定義為 EF 上升 ≥ 10 個百分點且 > 40%（來源：[2026 ESC 心衰竭指引](https://doi.org/10.1093/eurheartj/ehag100) p.16）
@@ -106,6 +114,8 @@ references:
 
 ### 其他重要發現 {#other-findings}
 
+:::table{#kb-echocardiography-other-findings-501cec59 title="心臟超音波｜其他重要發現：發現／意義"}
+
 | 發現 | 意義 |
 |---|---|
 | **局部壁運動異常**（運動減弱、不動、反向運動） | 對應冠狀動脈供血區缺血或梗塞；**缺血時壁運動異常比心電圖變化更早出現**。可作為心肌梗塞定義中的「影像證據」 |
@@ -117,6 +127,8 @@ references:
 | 舒張功能 | E/A、E/e′ 比值，估計左心室充填壓 |
 | 肺動脈收縮壓 | 由三尖瓣逆流速度估算，評估肺高壓 |
 | 下腔靜脈直徑與塌陷度 | 估計右心房壓、容積狀態 |
+
+:::
 
 ## 檢查前準備 {#preparation}
 
@@ -147,6 +159,8 @@ references:
 
 ## 併發症 {#complications}
 
+:::table{#kb-echocardiography-complications-b99a740b title="心臟超音波｜併發症：檢查／可能併發症"}
+
 | 檢查 | 可能併發症 |
 |---|---|
 | TTE | **幾乎沒有** |
@@ -154,7 +168,11 @@ references:
 | 壓力超音波 | 胸痛、心律不整、血壓變化；dobutamine 可引起心悸、頭痛 |
 | 超音波顯影劑（微氣泡） | 罕見過敏反應 |
 
+:::
+
 ## 相關檢查比較 {#related}
+
+:::table{#kb-echocardiography-related-0d461a65 title="心臟超音波｜相關檢查比較：檢查／看什麼／備註"}
 
 | 檢查 | 看什麼 | 備註 |
 |---|---|---|
@@ -164,6 +182,8 @@ references:
 | 心臟 MUGA 掃描 | 精準測 EF | 放射性核種 |
 | 冠狀動脈電腦斷層 | 冠狀動脈狹窄、鈣化分數 | 需顯影劑 |
 | [[cardiac-catheterization]] | 冠狀動脈攝影、心內壓力 | 侵入性，可同時治療 |
+
+:::
 
 ::questions{keyword="(鉈|Tl-201|心輸出量)" limit="4"}
 

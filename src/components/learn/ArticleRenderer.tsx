@@ -20,6 +20,7 @@ import { ZoomableFigureImage } from "./ZoomableFigureImage";
 import { isMergedExamPoints } from "./toc";
 
 export interface RenderContext {
+  tableStandalone?: boolean;
   article: KnowledgeArticle;
   questions: Map<string, Question[]>;
   tablesByQuestion: Map<string, ComparisonTable[]>;
@@ -252,7 +253,8 @@ export function renderHast(root: Root, ctx: RenderContext) {
     "k-figure": ({ src, alt, labels }: { src: string; alt: string; labels?: string }) => (
       <Figure src={src} alt={alt} labels={labels} />
     ),
-    table: (props: React.ComponentProps<"table">) => <ScrollableTable {...props} />,
+    table: (props: React.ComponentProps<"table">) => <ScrollableTable {...props} standalone={ctx.tableStandalone} />,
+    th: (props: React.ComponentProps<"th">) => <th scope="col" {...props} />,
   } as unknown as Components;
 
   return toJsxRuntime(root, { Fragment, jsx, jsxs, components });

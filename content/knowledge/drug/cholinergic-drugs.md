@@ -67,6 +67,8 @@ references:
 
 ## 膽鹼性受體與藥物作用位置 {#overview}
 
+:::table{#kb-cholinergic-drugs-overview-d3bb70d4 title="膽鹼性與抗膽鹼藥物｜膽鹼性受體與藥物作用位置：類別／作用位置／結果"}
+
 | 類別 | 作用位置 | 結果 |
 |---|---|---|
 | 直接作用擬膽鹼藥 | 直接活化 **M 受體** | 副交感作用增強 |
@@ -75,10 +77,14 @@ references:
 | 神經肌肉阻斷劑 | 阻斷骨骼肌 **N_M 受體** | 骨骼肌鬆弛、麻痺 |
 | 肉毒桿菌毒素 | 阻止神經末梢**釋放 ACh** | 弛緩性麻痺 |
 
+:::
+
 - M 受體活化後的作用：**瞳孔縮小**、睫狀肌收縮（看近）、**分泌增加**（淚液、唾液、汗液、支氣管分泌）、**支氣管收縮**、**腸胃蠕動增加**、**逼尿肌收縮**、**心跳變慢**、血管擴張（血壓下降）
 - 記法 SLUDGE：流涎(Salivation)、流淚(Lacrimation)、排尿(Urination)、排便與腹瀉(Defecation)、腸胃絞痛(GI)、嘔吐(Emesis)，加上心跳變慢、支氣管收縮與分泌物多、瞳孔縮小
 
 ## 直接作用擬膽鹼藥 {#direct-agonists}
+
+:::table{#kb-cholinergic-drugs-direct-agonists-fdcd3a44 title="膽鹼性與抗膽鹼藥物｜直接作用擬膽鹼藥：藥物／用途／重點"}
 
 | 藥物 | 用途 | 重點 |
 |---|---|---|
@@ -86,12 +92,16 @@ references:
 | **Pilocarpine** | **青光眼**（點眼）；口乾症（Sjögren 症候群、頭頸部放療後） | 縮瞳、睫狀肌收縮 → 小樑網打開、**房水從許萊姆氏管排出增加**；副作用：看遠模糊、夜間視力差、眉弓痛 |
 | Carbachol | 青光眼、眼科手術縮瞳 | 同時作用 M 與 N |
 
+:::
+
 - 禁忌：氣喘（支氣管收縮）、消化性潰瘍、心搏過緩、甲狀腺亢進、腸道或膀胱阻塞
 - 過量時出現 SLUDGE 與心跳變慢，拮抗劑是 **atropine**
 
 ::questions{ids="108-1_BM_056,110-2_BM_049,106-1_BM_051,109-1_MS_007"}
 
 ## 抗膽鹼酯酶藥 {#anticholinesterases}
+
+:::table{#kb-cholinergic-drugs-anticholinesterases-d820f4cb title="膽鹼性與抗膽鹼藥物｜抗膽鹼酯酶藥：藥物／可逆性／進入中樞／用途"}
 
 | 藥物 | 可逆性 | 進入中樞 | 用途 |
 |---|---|---|---|
@@ -102,6 +112,8 @@ references:
 | Donepezil、rivastigmine、galantamine | 可逆 | 是 | **阿茲海默症**（見 [[anti-dementia-drugs#mechanism]]） |
 | Echothiophate | 不可逆 | 否 | 青光眼（少用） |
 | **有機磷**殺蟲劑（巴拉松）、**沙林**等神經毒氣 | **不可逆** | 是 | 毒物 |
+
+:::
 
 - 抗膽鹼酯酶藥使 M 與 N 受體都受刺激，所以除了 SLUDGE 以外，還有**肌肉顫動**，大量時骨骼肌與呼吸肌**無力、麻痺**
 
@@ -114,12 +126,16 @@ references:
 - 觀察過量徵象：**腹部絞痛、腹瀉、流涎、出汗、肌束顫動**，是**劑量過多**，不是不足
 - 疾病本身（自體抗體破壞 ACh 受體）與危象處理見 [[neuron-synapse#neuromuscular-junction]]；疾病的照護見 [[neuromuscular-demyelinating#myasthenia-gravis]]
 
+:::table{#kb-cholinergic-drugs-myasthenia-gravis-9de0f5e9 title="膽鹼性與抗膽鹼藥物｜重症肌無力的用藥護理：肌無力危象(myasthenic crisis)／膽鹼性危象(cholinergic crisis)"}
+
 | | 肌無力危象(myasthenic crisis) | 膽鹼性危象(cholinergic crisis) |
 |---|---|---|
 | 原因 | 藥物**不足**、感染、壓力、停藥 | 抗膽鹼酯酶藥**過量** |
 | 表現 | 肌肉無力、呼吸困難，**沒有** SLUDGE | 肌肉無力、呼吸困難，加上**瞳孔縮小、視力模糊、分泌物多、腹痛腹瀉、心搏過緩、血壓下降**、肌束顫動 |
 | Tensilon test | 症狀**改善** | 症狀**惡化**（要備好 atropine） |
 | 處置 | 維持呼吸道、**增加**抗膽鹼酯酶藥、血漿置換或 IVIG | 維持呼吸道、**停用** pyridostigmine、**靜脈注射 atropine** |
+
+:::
 
 - 現在診斷重症肌無力以**抗體檢驗**（抗 ACh 受體抗體等）與神經電生理檢查為主，Tensilon test 已少用，但國考仍考它是最具代表性的檢查
 
@@ -148,6 +164,8 @@ references:
 
 ## 抗膽鹼藥（M 受體阻斷劑） {#antimuscarinics}
 
+:::table{#kb-cholinergic-drugs-antimuscarinics-413f63c7 title="膽鹼性與抗膽鹼藥物｜抗膽鹼藥（M 受體阻斷劑）：藥物／用途"}
+
 | 藥物 | 用途 |
 |---|---|
 | **Atropine** | **症狀性心搏過緩**（包括毛地黃中毒的心搏過緩、房室阻斷）、術前或檢查前**減少唾液與呼吸道分泌**、**有機磷中毒**、散瞳 |
@@ -158,6 +176,8 @@ references:
 | **Oxybutynin**、tolterodine、solifenacin | **膀胱過動**、急迫性尿失禁、膀胱痙攣 |
 | **Trihexyphenidyl**(Artane)、benztropine | **巴金森氏症**的顫抖與僵硬、抗精神病藥引起的錐體外症狀（見 [[antipsychotics]]） |
 | **Cyclopentolate**、tropicamide | 眼科檢查**散瞳**與睫狀肌麻痺 |
+
+:::
 
 - **抗膽鹼副作用**（也是 atropine 中毒的表現）
   1. **口乾**、皮膚乾、**不出汗 → 體溫上升**、皮膚潮紅
@@ -176,6 +196,8 @@ references:
 
 ## 青光眼用藥與自主神經 {#glaucoma-drugs}
 
+:::table{#kb-cholinergic-drugs-glaucoma-drugs-00b557a0 title="膽鹼性與抗膽鹼藥物｜青光眼用藥與自主神經：類別／代表藥／機轉"}
+
 | 類別 | 代表藥 | 機轉 |
 |---|---|---|
 | 擬膽鹼藥（**縮瞳劑**） | **Pilocarpine**、carbachol | 睫狀肌收縮、小樑網打開 → **房水排出增加** |
@@ -186,12 +208,16 @@ references:
 | 前列腺素類似物 | Latanoprost | 增加葡萄膜鞏膜途徑的**排出**（不是抑制生成） |
 | 高張劑 | Mannitol | 急性青光眼時快速降眼壓 |
 
+:::
+
 - **抗膽鹼藥**（atropine、cyclopentolate）會散瞳、使房角變窄、房水排出受阻，**閉角型青光眼禁用**，也**不能**用來治療廣角性青光眼
 - 青光眼本身與點眼方法見 [[eye-disorders]]
 
 ::questions{ids="115-2_BM_032,112-3_BM_031,108-2_MS_008,107-2_MS_022"}
 
 ## 神經肌肉阻斷劑 {#neuromuscular-blockers}
+
+:::table{#kb-cholinergic-drugs-neuromuscular-blockers-07ecd306 title="膽鹼性與抗膽鹼藥物｜神經肌肉阻斷劑：去極化型／非去極化型（競爭型）"}
 
 | | 去極化型 | 非去極化型（競爭型） |
 |---|---|---|
@@ -200,6 +226,8 @@ references:
 | 作用時間 | 起效快、**短**（約 5–10 分鐘）；由血漿**假性膽鹼酯酶**分解 | 中到長效 |
 | 逆轉 | **不能**用抗膽鹼酯酶藥逆轉（反而加強） | **Neostigmine**（併用 atropine 或 glycopyrrolate 拮抗 M 作用）；rocuronium、vecuronium 可用 **sugammadex** |
 | 主要用途 | **快速插管** | 插管、手術中維持肌肉鬆弛、呼吸器病人 |
+
+:::
 
 - **Succinylcholine 的副作用**
   1. **呼吸暫停**（呼吸肌麻痺），假性膽鹼酯酶缺乏的人會延長

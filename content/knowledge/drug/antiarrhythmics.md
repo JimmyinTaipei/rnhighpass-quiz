@@ -52,6 +52,8 @@ references:
 
 心室肌動作電位：第 0 期 Na⁺ 流入去極化 → 第 1 期短暫 K⁺ 流出、初期再極化 → 第 2 期高原期（Ca²⁺ 流入） → 第 3 期 K⁺ 流出再極化 → 第 4 期靜止；竇房結與房室結的去極化靠 **Ca²⁺**，第 4 期緩慢自發去極化決定心跳快慢
 
+:::table{#kb-antiarrhythmics-mechanism-923e8196 title="抗心律不整藥｜作用機轉：四類分法：類別／擋什麼／對心電圖與電生理的影響／代表藥"}
+
 | 類別 | 擋什麼 | 對心電圖與電生理的影響 | 代表藥 |
 |---|---|---|---|
 | **I 鈉離子通道阻斷劑** | 第 0 期 Na⁺ | 傳導變慢、QRS 變寬 | 見下表 |
@@ -59,7 +61,11 @@ references:
 | **III 鉀離子通道阻斷劑** | 第 3 期 K⁺ 流出 | **延長動作電位與不反應期**、**QT 延長** | **amiodarone**、**sotalol**、dronedarone、ibutilide、dofetilide、bretylium |
 | **IV 鈣離子阻斷劑**（非 DHP 類） | L 型鈣通道 | 竇房結、**房室結**傳導變慢 | **verapamil**、**diltiazem** |
 
+:::
+
 第 I 類再分三小類（依對動作電位時間的影響）：
+
+:::table{#kb-antiarrhythmics-mechanism-8ccc7977 title="抗心律不整藥｜作用機轉：四類分法：小類／動作電位時間／藥物／重點"}
 
 | 小類 | 動作電位時間 | 藥物 | 重點 |
 |---|---|---|---|
@@ -67,7 +73,11 @@ references:
 | IB | 縮短 | **lidocaine**、mexiletine、tocainide、**phenytoin** | 作用在**心室**（缺血心肌）；lidocaine 只能靜脈（首渡效應大），也是**局部麻醉劑**；過量 → **中樞神經毒性**（嗜睡、口周麻木、抽搐） |
 | IC | 幾乎不變 | **flecainide**、propafenone | **最強烈抑制鈉通道** → 傳導過慢、QRS 變寬 → **促心律不整**；心肌梗塞後與結構性心臟病避免（CAST 試驗死亡率增加） |
 
+:::
+
 ## 代表藥物 {#agents}
+
+:::table{#kb-antiarrhythmics-agents-acb2b60c title="抗心律不整藥｜代表藥物：藥物／用途／重要副作用與注意"}
 
 | 藥物 | 用途 | 重要副作用與注意 |
 |---|---|---|
@@ -82,6 +92,8 @@ references:
 | **Digoxin** | AF 心率控制 | 見 [[digoxin]] |
 | **Atropine** | 有症狀的竇性心搏過緩、房室結阻斷 | 抗膽鹼：口乾、尿滯留、瞳孔放大；His 以下阻斷常無效；**不能治療 PSVT** |
 | **硫酸鎂** | **QT 延長造成的 TdP**；低血鎂 | 2025 AHA：QT 正常的多形性 VT 與一般心跳停止**不常規使用** |
+
+:::
 
 ### Adenosine {#adenosine}
 
@@ -99,6 +111,8 @@ references:
 
 依 2025 AHA 成人流程圖（心跳停止、有脈搏心搏過緩、有脈搏心搏過速）：
 
+:::table{#kb-antiarrhythmics-acls-drugs-7ea1c303 title="抗心律不整藥｜ACLS 急救用藥：藥物／用於／成人劑量"}
+
 | 藥物 | 用於 | 成人劑量 |
 |---|---|---|
 | **Epinephrine** | 心跳停止（所有節律）；心搏過緩 atropine 無效時滴注 | 心跳停止 **1 mg IV／IO 每 3–5 分鐘**（不可電擊節律**盡快給**；可電擊節律在前幾次電擊失敗後給）；滴注 2–10 mcg/min |
@@ -109,6 +123,8 @@ references:
 | **Adenosine** | 規則窄 QRS 心搏過速 | 6 mg → 12 mg |
 | **碳酸氫鈉** | **高血鉀、三環抗憂鬱劑中毒**、嚴重代謝性酸中毒 | 2025 AHA **不建議常規使用**；用來治療**酸中毒，不是鹼血症** |
 | 鈣、鎂 | 高血鉀、低血鈣、鈣離子阻斷劑過量；TdP | 不常規使用 |
+
+:::
 
 ::questions{ids="110-2_MS_079"}
 

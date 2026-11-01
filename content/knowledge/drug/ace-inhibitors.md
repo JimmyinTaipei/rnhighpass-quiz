@@ -45,12 +45,16 @@ references:
 
 腎素把肝臟製造的血管張力素原(angiotensinogen)切成 angiotensin I，再由主要位於**肺臟微血管內皮**的 ACE 轉成 **angiotensin II**（生理見 [[blood-pressure-regulation#raas]]）。ACEI 阻斷這一步：
 
+:::table{#kb-ace-inhibitors-mechanism-dfd56dbd title="ACE 抑制劑｜作用機轉：結果／效應"}
+
 | 結果 | 效應 |
 |---|---|
 | Angiotensin II ↓ | 小動脈與靜脈擴張 → 周邊阻力（後負荷）與前負荷下降；交感活性 ↓；抑制心臟與血管重塑(remodeling) |
 | **醛固酮 ↓** | 排鈉排水 ↑、**保鉀**（血鉀上升） |
 | **Bradykinin ↑** | ACE 同時是分解 bradykinin 的酵素(kininase II);bradykinin 堆積 → 額外的血管擴張，但也造成**乾咳、血管性水腫** |
 | 腎絲球出球小動脈擴張 | 腎絲球內壓 ↓ → **蛋白尿 ↓**、延緩腎病變；代價是 GFR 會小幅下降 |
+
+:::
 
 - 與 ARB 的差別：ARB 在受體端阻斷，**不影響 bradykinin**，所以乾咳少（見 [[arb#mechanism]]）
 - 與 aliskiren 的差別：aliskiren 是**直接腎素抑制劑**，阻斷 angiotensinogen → angiotensin I
@@ -66,12 +70,16 @@ references:
 
 字尾 **-pril**
 
+:::table{#kb-ace-inhibitors-agents-6b4ef697 title="ACE 抑制劑｜代表藥物：藥物／特色"}
+
 | 藥物 | 特色 |
 |---|---|
 | **Captopril**(Capoten) | 最早的 ACEI；作用快、半衰期短，**一天 2–3 次**；食物降低吸收，**飯前 1 小時空腹**服用；含硫氫基(-SH)，味覺改變、皮疹、白血球減少較常見；舊時用於高血壓急迫症舌下/口服 |
 | **Enalapril** | 前驅藥(prodrug)，經肝臟活化成 enalaprilat;enalaprilat 有靜脈劑型 |
 | **Lisinopril** | 非前驅藥、不經肝代謝，原型由腎排除；一天一次 |
 | Ramipril、Perindopril、Imidapril、Fosinopril | 一天一次；有心血管保護試驗證據（ramipril、perindopril） |
+
+:::
 
 除 captopril、lisinopril 外，多數為前驅藥；除 fosinopril 等少數外主要經腎排除，**腎功能差需調整劑量**
 
@@ -88,6 +96,8 @@ ACEI 降低腎絲球內壓、減少蛋白尿，且**不影響血糖與血脂**�
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-ace-inhibitors-adverse-effects-7b79186f title="ACE 抑制劑｜副作用與禁忌：副作用／機轉/說明與處置"}
+
 | 副作用 | 機轉/說明與處置 |
 |---|---|
 | **乾咳** | 最常見（約 5–20%）；**bradykinin 與 substance P 堆積**刺激呼吸道；持續性、無痰、夜間明顯；與劑量無關，**止咳藥效果差**，停藥後 1–4 週消失 → **改用 ARB** |
@@ -97,6 +107,8 @@ ACEI 降低腎絲球內壓、減少蛋白尿，且**不影響血糖與血脂**�
 | 腎功能下降 | 出球小動脈擴張 → GFR 小幅下降，**eGFR 下降（或肌酸酐上升）≤ 30% 屬預期**，不必停藥；持續下降 > 30% 要找原因（脫水、腎動脈狹窄）並考慮轉介腎臟科（來源：[2025 AHA/ACC 高血壓指引](https://doi.org/10.1161/CIR.0000000000001356),p.e158） |
 | 味覺改變、皮疹、白血球減少 | 多見於 captopril |
 | **胎兒毒性** | 懷孕中後期影響胎兒腎臟 → 胎兒腎衰竭、**羊水過少**、顱骨發育不全、肺發育不全、生長遲滯甚至死亡 |
+
+:::
 
 **禁忌**
 
@@ -110,6 +122,8 @@ ACEI 降低腎絲球內壓、減少蛋白尿，且**不影響血糖與血脂**�
 
 ## 交互作用 {#interactions}
 
+:::table{#kb-ace-inhibitors-interactions-cd01c0d5 title="ACE 抑制劑｜交互作用：併用／結果"}
+
 | 併用 | 結果 |
 |---|---|
 | 保鉀利尿劑（spironolactone、amiloride）、鉀補充劑、**低鈉鹽/代鹽**（含 KCl）、trimethoprim、heparin | **高血鉀** |
@@ -119,6 +133,8 @@ ACEI 降低腎絲球內壓、減少蛋白尿，且**不影響血糖與血脂**�
 | 利尿劑 | 加成降壓；首劑低血壓風險 ↑（可先減利尿劑劑量） |
 | **鋰鹽** | 鋰排除減少 → **血鋰上升、鋰中毒** |
 | 胰島素、口服降血糖藥 | ACEI 可能增加胰島素敏感性，偶有低血糖 |
+
+:::
 
 ## 護理重點與衛教 {#nursing}
 

@@ -54,6 +54,8 @@ references:
 
 抑制細菌 **DNA gyrase**（拓撲異構酶 II）與**拓撲異構酶 IV**，使 DNA 無法解旋與複製 → **殺菌**、濃度依賴型（[[antibiotics-overview#mechanism]]）
 
+:::table{#kb-fluoroquinolones-sulfonamides-fq-agents-750c8dfc title="奎諾酮類、磺胺類與其他抗菌藥｜機轉與代表藥：藥物／特色"}
+
 | 藥物 | 特色 |
 |---|---|
 | **ciprofloxacin** | 以 **G− 桿菌**為主，包括**綠膿桿菌**；泌尿道、腸道感染（傷寒、痢疾）、炭疽 |
@@ -61,9 +63,13 @@ references:
 | norfloxacin | 口服，泌尿道 |
 | **ofloxacin 滴耳液**、眼藥 | 局部使用不受全身性限制，**兒童中耳炎、外耳炎**常用 |
 
+:::
+
 **藥動**：口服生體可用率高、分布廣，常可由靜脈改為口服
 
 ### 副作用與警訊 {#fq-adverse}
+
+:::table{#kb-fluoroquinolones-sulfonamides-fq-adverse-4db55376 title="奎諾酮類、磺胺類與其他抗菌藥｜副作用與警訊：副作用／說明"}
 
 | 副作用 | 說明 |
 |---|---|
@@ -76,6 +82,8 @@ references:
 | 光敏感 | 避免日曬 |
 | 重症肌無力惡化、困難梭菌腸炎 | — |
 | **兒童、孕婦、哺乳** | 動物實驗造成**軟骨**與關節損傷，一般**避免**，除非沒有更安全的選擇 |
+
+:::
 
 衛福部與食藥署的安全資訊：全身性 fluoroquinolone 可能造成**失能、長期或不可逆**的肌肉骨骼、神經與精神不良反應；治療**急性非複雜性膀胱炎、急性鼻竇炎、慢性支氣管炎急性惡化**時，應**保留給沒有其他選擇**的病人（[衛福部用藥安全資訊](https://www.mohw.gov.tw/cp-3216-23003-1.html)、[馬偕醫院風險溝通表](https://www.mmh.org.tw/know_health_view.php?docid=1310)）
 
@@ -104,6 +112,8 @@ references:
 
 ### 副作用與禁忌 {#sulfa-adverse}
 
+:::table{#kb-fluoroquinolones-sulfonamides-sulfa-adverse-944e96b2 title="奎諾酮類、磺胺類與其他抗菌藥｜副作用與禁忌：副作用／說明與護理"}
+
 | 副作用 | 說明與護理 |
 |---|---|
 | 皮疹 | 最常見之一；**任何新出現的皮疹都要立即停藥回報** |
@@ -117,11 +127,15 @@ references:
 | 光敏感 | 避免日曬 |
 | 交互作用 | 增強 **warfarin**（出血）、**sulfonylurea**（低血糖）、methotrexate、phenytoin 的作用 |
 
+:::
+
 （[UpToDate：TMP-SMX](https://www.uptodate.com/contents/trimethoprim-sulfamethoxazole-an-overview)）
 
 ::questions{ids="115-1_PC_043"}
 
 ### 燒傷外用藥 {#burn-topicals}
+
+:::table{#kb-fluoroquinolones-sulfonamides-burn-topicals-7d8e1610 title="奎諾酮類、磺胺類與其他抗菌藥｜燒傷外用藥：藥物／重點"}
 
 | 藥物 | 重點 |
 |---|---|
@@ -129,6 +143,8 @@ references:
 | **mafenide acetate**(Sulfamylon) | **穿透焦痂**能力強；抑制碳酸酐酶 → **代謝性酸中毒**；塗抹時**疼痛** |
 | 0.5% **silver nitrate** | 低張溶液會把電解質吸出：**低血鈉**、低血氯、低血鉀（不是高血鈉）；會把皮膚與床單染黑 |
 | gentamicin 乳膏 | 可用於臉部；大面積使用要**監測腎功能**（[[aminoglycosides]]） |
+
+:::
 
 ::questions{ids="110-2_MS_047,106-1_MS_045"}
 
@@ -148,11 +164,15 @@ references:
 
 ## 泌尿道消毒劑 {#urinary-antiseptics}
 
+:::table{#kb-fluoroquinolones-sulfonamides-urinary-antiseptics-a21ba176 title="奎諾酮類、磺胺類與其他抗菌藥｜泌尿道消毒劑：藥物／重點"}
+
 | 藥物 | 重點 |
 |---|---|
 | **nitrofurantoin** | 只在**尿液**達到有效濃度 → **只治單純膀胱炎**，不能治腎盂腎炎或菌血症；**與食物或牛奶同服**可增加吸收、減少腸胃不適；尿液可能變**棕色**；副作用：**肺部反應**（急性過敏性肺炎、長期使用的肺纖維化）、周邊神經病變、肝毒性、G6PD 缺乏者溶血；腎功能差(CrCl < 30)效果差且毒性增加；**足月孕婦**避免 |
 | **methenamine** | 在**酸性尿**(pH < 5.5–6)分解成**甲醛**才能殺菌 → 這時才需要**酸化尿液**（如維生素 C）；用於預防反覆泌尿道感染 |
 | fosfomycin | 單次口服治療單純膀胱炎 |
+
+:::
 
 蔓越莓、酸性食物對預防泌尿道感染的效果有限；對一般抗生素（如 neomycin 等胺基配醣體）**酸化尿液反而降低效果**
 

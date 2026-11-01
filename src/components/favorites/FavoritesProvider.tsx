@@ -1,15 +1,17 @@
 "use client";
 
-import { createContext, useCallback, useContext, useEffect, useState } from "react";
-import { listFavoriteIds, setFavorite, setKnowledgeFavorite } from "@/lib/actions";
+import { createContext, useCallback, useContext, useEffect, useRef, useState } from "react";
+import { listFavoriteIds, setFavorite, setKnowledgeFavorite, setTableFavorite } from "@/lib/actions";
 
-/** question = 題目 id；knowledge = 知識頁 "slug" 或 "slug#段落id" */
-export type FavoriteKind = "question" | "knowledge";
+/** question = 題目 id；knowledge = "slug" / "slug#段落id"；table = 持久 kb- 表格 id */
+export type FavoriteKind = "question" | "knowledge" | "table";
 
 interface FavoritesContextValue {
   /** null = 還在載入 */
   loggedIn: boolean | null;
   isFavorite: (id: string, kind?: FavoriteKind) => boolean;
+  isPending: (id: string, kind?: FavoriteKind) => boolean;
+  count: (kind: FavoriteKind) => number;
   /** 成功回傳 null；失敗回傳原因(狀態已自動退回) */
   toggle: (id: string, kind?: FavoriteKind) => Promise<"not_logged_in" | "failed" | null>;
 }
@@ -28,6 +30,8 @@ const keyOf = (id: string, kind: FavoriteKind) => `${kind}:${id}`;
 export function FavoritesProvider({ children }: { children: React.ReactNode }) {
   const [loggedIn, setLoggedIn] = useState<boolean | null>(null);
   const [ids, setIds] = useState<Set<string>>(() => new Set());
+  const pendingRef = useRef(new Set<string>());
+  const [pending, setPending] = useState<Set<string>>(() => new Set());
 
   useEffect(() => {
     let cancelled = false;
@@ -39,6 +43,7 @@ export function FavoritesProvider({ children }: { children: React.ReactNode }) {
           new Set([
             ...res.ids.map((id) => keyOf(id, "question")),
             ...res.knowledge.map((t) => keyOf(t, "knowledge")),
+            ...res.tables.map((t) => keyOf(t, "table")),
           ]),
         );
       })
@@ -59,6 +64,9 @@ export function FavoritesProvider({ children }: { children: React.ReactNode }) {
     async (id: string, kind: FavoriteKind = "question") => {
       if (loggedIn === false) return "not_logged_in" as const;
       const key = keyOf(id, kind);
+      if (pendingRef.current.has(key)) return null;
+      pendingRef.current.add(key);
+      setPending(new Set(pendingRef.current));
       const next = !ids.has(key);
       const apply = (on: boolean) =>
         setIds((prev) => {
@@ -69,7 +77,9 @@ export function FavoritesProvider({ children }: { children: React.ReactNode }) {
         });
       apply(next); // optimistic
       try {
-        const res = kind === "knowledge" ? await setKnowledgeFavorite(id, next) : await setFavorite(id, next);
+        const res = kind === "table"
+          ? await setTableFavorite(id, next)
+          : kind === "knowledge" ? await setKnowledgeFavorite(id, next) : await setFavorite(id, next);
         if (!res.ok) {
           apply(!next);
           if (res.reason === "not_logged_in") {
@@ -82,13 +92,22 @@ export function FavoritesProvider({ children }: { children: React.ReactNode }) {
       } catch {
         apply(!next);
         return "failed" as const;
+      } finally {
+        pendingRef.current.delete(key);
+        setPending(new Set(pendingRef.current));
       }
     },
     [ids, loggedIn],
   );
 
   return (
-    <FavoritesContext.Provider value={{ loggedIn, isFavorite, toggle }}>
+    <FavoritesContext.Provider value={{
+      loggedIn,
+      isFavorite,
+      isPending: (id, kind = "question") => pending.has(keyOf(id, kind)),
+      count: (kind) => [...ids].filter((key) => key.startsWith(`${kind}:`)).length,
+      toggle,
+    }}>
       {children}
     </FavoritesContext.Provider>
   );

@@ -48,6 +48,8 @@ references:
 
 ## 作用位置 {#mechanism}
 
+:::table{#kb-antiparkinson-drugs-mechanism-6357cf9f title="巴金森氏症與神經退化疾病用藥｜作用位置：類別／代表藥／機轉"}
+
 | 類別 | 代表藥 | 機轉 |
 |---|---|---|
 | 多巴胺前驅物 | **Levodopa** | 進入腦內被多巴脫羧酶轉成多巴胺 |
@@ -57,6 +59,8 @@ references:
 | **COMT 抑制劑** | **Entacapone**、opicapone | 減少 levodopa 在周邊分解，延長每次藥效 |
 | NMDA 拮抗＋促多巴胺釋放 | **Amantadine** | 改善異動症；原本是抗 A 型流感病毒藥 |
 | **抗膽鹼藥** | **Trihexyphenidyl**(Artane)、benztropine | 降低相對過多的乙醯膽鹼作用，主要改善**顫抖** |
+
+:::
 
 - 多巴胺本身極性高，**不能通過血腦障壁**，所以補充的是 levodopa
 - 單用 levodopa 時大部分在腸道與肝臟就轉成多巴胺，進腦的很少，周邊多巴胺又造成噁心、嘔吐、低血壓、心律不整；加上 carbidopa 可以**減少 levodopa 用量**與周邊副作用
@@ -89,6 +93,8 @@ references:
 
 ## 其他巴金森用藥 {#other-agents}
 
+:::table{#kb-antiparkinson-drugs-other-agents-eb74c331 title="巴金森氏症與神經退化疾病用藥｜其他巴金森用藥：藥物／用途／重點副作用"}
+
 | 藥物 | 用途 | 重點副作用 |
 |---|---|---|
 | **多巴胺致效劑**（pramipexole、ropinirole、rotigotine） | 早期單用（較年輕者）、合併 levodopa 減少 off 期；不寧腿症候群 | **突發嗜睡**（不要開車）、**衝動控制障礙**（病態賭博、購物、暴食、性慾亢進）、幻覺、姿勢性低血壓、下肢水腫 |
@@ -97,6 +103,8 @@ references:
 | **COMT 抑制劑**(entacapone) | 與 levodopa 同服，改善 wearing-off | 加重異動症、**尿液變橘紅色**、腹瀉；tolcapone 有肝毒性 |
 | **Amantadine** | 改善**異動症**、早期輕症 | **網狀青斑**、**下肢水腫**、口乾、尿滯留、幻覺、意識混亂、**姿勢性低血壓**；腎功能差要減量 |
 | **抗膽鹼藥**（trihexyphenidyl、benztropine） | 年輕、以**顫抖**為主的病人；抗精神病藥引起的錐體外症狀 | **口乾、便秘、尿滯留、視力模糊、眼壓升高（青光眼禁用、要監測眼壓）**、意識混亂與記憶變差；**老人避免**（見 [[cholinergic-drugs#antimuscarinics]]） |
+
+:::
 
 ::questions{ids="111-2_BM_031,114-1_MS_001"}
 
@@ -118,12 +126,16 @@ references:
 
 ## 其他神經退化疾病用藥 {#other-neurodegenerative}
 
+:::table{#kb-antiparkinson-drugs-other-neurodegenerative-bc69f4f8 title="巴金森氏症與神經退化疾病用藥｜其他神經退化疾病用藥：疾病／藥物／重點"}
+
 | 疾病 | 藥物 | 重點 |
 |---|---|---|
 | **肌萎縮性側索硬化症**（ALS、漸凍人） | **Riluzole**（口服，抑制麩胺酸釋放） | 第一個核准、可延長存活的藥；副作用是疲倦、噁心、**肝指數上升**（要定期驗肝功能）、嗜中性白血球低下 |
 | | Edaravone（靜脈注射，清除自由基） | 後來核准，延緩功能退步；台灣已可使用（來源：[臺北榮總藥訊 113 年 8 月](https://wd.vghtpe.gov.tw/pharm/files/3.3_new/113/藥訊-11308.pdf)） |
 | **阿茲海默症** | Donepezil、rivastigmine、galantamine、memantine | 見 [[anti-dementia-drugs]] |
 | **重症肌無力** | Pyridostigmine 等 | 見 [[cholinergic-drugs#myasthenia-gravis]] |
+
+:::
 
 - 考題說 riluzole 是「目前唯一」可治療 ALS 的藥，是 edaravone 核准以前的說法
 

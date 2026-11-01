@@ -52,12 +52,16 @@ references:
 
 心輸出量 = 心跳 × 心搏量；血壓 ≈ 心輸出量 × 周邊血管阻力（見 [[cardiac-output#determinants]]、[[blood-pressure-regulation#determinants]]）。這類藥物依作用的受體決定它是「強心」還是「升壓」（受體見 [[blood-pressure-regulation#autonomic-receptors]]）：
 
+:::table{#kb-inotropes-mechanism-7fd4e2b9 title="強心劑與升壓劑｜作用機轉：受體／位置／被刺激時"}
+
 | 受體 | 位置 | 被刺激時 |
 |---|---|---|
 | **β₁** | 心臟 | 收縮力↑、心跳↑、傳導↑ → 心輸出量↑（也增加耗氧與心律不整） |
 | **β₂** | 血管、支氣管 | 血管擴張、支氣管擴張 |
 | **α₁** | 周邊血管 | **血管收縮** → 阻力↑、血壓↑（器官與肢端灌流可能↓） |
 | **D₁（多巴胺）** | 腎、腸繫膜血管 | 血管擴張 |
+
+:::
 
 - **cAMP 是共同終點**：β₁ 促效劑增加 cAMP 的**生成**；**milrinone 抑制第三型磷酸二酯酶(PDE3)**，減少 cAMP 的**分解** → 心肌收縮力增加，**血管平滑肌 cAMP 增加則血管擴張**（「強心 + 擴血管」= inodilator）。因為不經過 β 受體，**正在使用 β 阻斷劑的病人仍有效**
 - Levosimendan：**鈣敏感劑**，增加肌鈣蛋白對鈣的敏感度並打開血管 K-ATP 通道，也是 inodilator
@@ -68,11 +72,15 @@ references:
 
 ### Dopamine（劑量依賴效應） {#dopamine}
 
+:::table{#kb-inotropes-dopamine-f1377837 title="強心劑與升壓劑｜Dopamine（劑量依賴效應）：劑量(mcg/kg/min)／主要受體／效果"}
+
 | 劑量(mcg/kg/min) | 主要受體 | 效果 |
 |---|---|---|
 | **低劑量 < 3（約 0.5–2；教科書數值，僅供參考）** | 多巴胺受體 | 腎、腸繫膜血管擴張 → **腎血流與尿量增加**（但研究證實**沒有腎臟保護作用**，已不建議為此使用） |
 | **中劑量 3–10（約 5–10）** | **β₁** | **收縮力↑、心輸出量↑**、心跳↑；國考：6 mcg/kg/min 的目的 → **增加心肌收縮力** |
 | **高劑量 > 10** | **α₁** | **周邊血管收縮**、血壓↑；腎與肢端灌流下降 |
+
+:::
 
 - 劑量間有重疊、個體差異大；中劑量同時增加心輸出量與部分血管阻力
 - 心律不整比 norepinephrine 多；**心因性休克時 dopamine 的死亡率高於 norepinephrine**（SOAP II 次分析）→ 已不是休克首選升壓劑
@@ -140,6 +148,8 @@ references:
 
 ## 副作用與禁忌 {#adverse-effects}
 
+:::table{#kb-inotropes-adverse-effects-13e622d4 title="強心劑與升壓劑｜副作用與禁忌：副作用／說明與處置"}
+
 | 副作用 | 說明與處置 |
 |---|---|
 | **心搏過速、心律不整** | 所有 β 促效劑與 milrinone；持續心電圖監測，新發生心律不整時通報 |
@@ -149,6 +159,8 @@ references:
 | 低血壓 | milrinone、dobutamine（血管擴張） |
 | 高血糖、低血鉀、乳酸上升 | epinephrine |
 | 高血壓 | 劑量過高；依目標血壓下調 |
+
+:::
 
 **禁忌/注意**：**低血容積未矯正前**先補液；嗜鉻細胞瘤（升壓劑）；肥厚性阻塞性心肌病變（強心劑加重阻塞）；快速心律不整
 
@@ -162,6 +174,8 @@ references:
 
 ## 交互作用 {#interactions}
 
+:::table{#kb-inotropes-interactions-7437d47c title="強心劑與升壓劑｜交互作用：併用藥物／結果"}
+
 | 併用藥物 | 結果 |
 |---|---|
 | **β 阻斷劑** | 削弱 dobutamine、dopamine 的強心作用（milrinone 不受影響）；非選擇性 β 阻斷劑 + epinephrine → 無對抗的 α 作用 → 嚴重高血壓 |
@@ -171,6 +185,8 @@ references:
 | **碳酸氫鈉等鹼性溶液** | 使兒茶酚胺類失去活性 → 不可同管 |
 | Furosemide | 與 milrinone 同管沉澱 |
 | Oxytocin、麥角鹼 | 加成血管收縮 |
+
+:::
 
 ## 護理重點與衛教 {#nursing}
 
