@@ -87,3 +87,12 @@
    3. 登入狀態在頁面載入後才出現(先顯示骨架)
 7. 部署流程改為：`npx opennextjs-cloudflare build` → `npx opennextjs-cloudflare upload -- --tag=...`(預覽網址測試) → `npx wrangler versions deploy <id>@100`
 
+
+### 表格閱讀／收藏與手機登入發布（2026-11-02）
+
+- 程式 commit `f0f5385`，Worker `f7614464-4da9-49fb-87e7-e778ceffa957`，100% 流量；部署時間（台北）：2026-11-02T00:10:40.155633+08:00
+- 建置使用本機 Node 22.19.0，2,528 個靜態頁面（404 篇知識頁、2,097 個知識表格頁）；12 項測試、型別與修改檔案 ESLint 通過
+- handler 24.48 MiB；Wrangler 總上傳 34,760.40 KiB、gzip 6,824.87 KiB；靜態資產約 722 MiB／5,201 個異動檔，無單檔超過 25 MiB
+- 預覽與正式站各 443 項檢查通過：文章／表格 H1、既有入口、表格索引 2,097 筆、API 回應及未登入導向不指向 0.0.0.0
+- 題庫正式網址：https://rnhighpass-quiz.jimmyni312.workers.dev。`rnhighpass.com` 是另一個既有靜態分章題本網站，`/learn` 不屬於本 Worker；本輪未變更 DNS 或自訂網域
+- 前一正式版本 `eec4f4c9-4356-4df0-859d-5224265856d0` 保留，可在必要時以 versions deploy 回復
