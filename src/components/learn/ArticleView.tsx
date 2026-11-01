@@ -28,10 +28,11 @@ import {
   questionIdsFor,
   relatedGroupsFor,
   siblingArticles,
-  taxonomy,
   usedByFor,
 } from "@/lib/knowledge";
 import { examCountFor, examStatsFor } from "@/lib/knowledge/exam";
+import { isSummaryReference } from "@/lib/knowledge/references";
+import { groupByPrimarySystem } from "@/lib/knowledge/grouping";
 import {
   CATEGORY_LABELS,
   chipKeyOf,
@@ -65,6 +66,7 @@ function citingArticles(slug: string, sections: KnowledgeSection[]): CitingArtic
   const add = (sources: string[] | undefined, embedded: boolean) => {
     for (const src of sources ?? []) {
       if (src === slug || src.startsWith(`${slug}#`)) continue;
+      if (isSummaryReference(src, knowledgeIndex.sections)) continue;
       const prev = places.get(src);
       if (prev) {
         prev.embedded ||= embedded;
@@ -86,6 +88,11 @@ function citingArticles(slug: string, sections: KnowledgeSection[]): CitingArtic
     const entry = bySource.get(src) ?? {
       slug: src,
       title: p.articleTitle,
+      subtitle: knowledgeIndex.articles[src]?.subtitle ?? null,
+      field: knowledgeIndex.articles[src]?.field,
+      peds: knowledgeIndex.articles[src]?.peds,
+      pedsSections: knowledgeIndex.articles[src]?.pedsSections,
+      reviewed: knowledgeIndex.articles[src]?.reviewed ?? false,
       system: knowledgeIndex.articles[src]?.system ?? "",
       examCount: examCountFor(src),
       places: [],
@@ -101,17 +108,11 @@ function citingArticles(slug: string, sections: KnowledgeSection[]): CitingArtic
  * 讀者想知道的是「哪些疾病、哪個系統用到這頁」，所以先分系統，再把常考的放前面。
  */
 function groupCitingBySystem(citing: CitingArticle[]): CitingGroup[] {
-  const order = new Map(taxonomy.domains.map((d, i) => [d.id, i]));
-  const groups = new Map<string, CitingGroup>();
-  for (const c of citing) {
-    const g = groups.get(c.system) ?? { id: c.system, name: getDomain(c.system)?.name ?? "其他", articles: [] };
-    g.articles.push(c);
-    groups.set(c.system, g);
-  }
-  for (const g of groups.values()) {
+  const groups = groupByPrimarySystem(citing);
+  for (const g of groups) {
     g.articles.sort((a, b) => b.examCount - a.examCount || a.title.localeCompare(b.title, "zh-Hant"));
   }
-  return [...groups.values()].sort((a, b) => (order.get(a.id) ?? 999) - (order.get(b.id) ?? 999));
+  return groups;
 }
 
 interface ArticleViewProps {
@@ -179,6 +180,9 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
   const alsoIn = article.alsoIn.map(getDomain).filter((d): d is TaxonomyDomain => d !== undefined);
   const citing = citingArticles(slug, article.sections);
   const siblings = siblingArticles(article);
+  const relatedGroups = relatedGroupsFor(slug);
+  const relatedDiseases = usedByFor(slug);
+  const hasExtendedLearning = relatedGroups.length > 0 || relatedDiseases.length > 0 || citing.length > 0 || (!!group && siblings.length > 0) || alsoIn.length > 0;
   const summaryBits = [
     citing.length > 0 && `被 ${citing.length} 頁引用`,
     group && siblings.length > 0 && `其他${group.name} ${siblings.length} 頁`,
@@ -253,8 +257,8 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
         {summaryBits.length > 0 && (
           <p className="mt-2 text-sm text-muted">
             {summaryBits.join("・")}・
-            <a href="#see-also" className="font-medium text-accent hover:text-deep hover:underline">
-              參見 ↓
+            <a href={`#extended-learning-${variant}-${slug}`} className="font-medium text-accent hover:text-deep hover:underline">
+              延伸學習 ↓
             </a>
           </p>
         )}
@@ -293,9 +297,18 @@ export async function ArticleView({ slug, article, variant = "page" }: ArticleVi
         ))}
       </div>
 
-      <RelatedCards groups={relatedGroupsFor(slug)} usedBy={usedByFor(slug)} showDraft={admin} />
-
-      <SeeAlso citing={groupCitingBySystem(citing)} group={group} siblings={siblings} alsoIn={alsoIn} />
+      {hasExtendedLearning && (
+        <section
+          aria-labelledby={`extended-learning-${variant}-${slug}`}
+          className="mt-8 border-t-2 border-card-border pt-5"
+        >
+          <h2 id={`extended-learning-${variant}-${slug}`} className="mb-4 text-lg font-bold text-deep">延伸學習</h2>
+          <div className="space-y-4">
+            <RelatedCards groups={relatedGroups} usedBy={relatedDiseases} showDraft={admin} />
+            <SeeAlso citing={groupCitingBySystem(citing)} group={group} siblings={siblings} alsoIn={alsoIn} showDraft={admin} />
+          </div>
+        </section>
+      )}
 
       {article.references.length > 0 && (
         <footer className="mt-10 border-t border-card-border pt-5 text-sm text-body">

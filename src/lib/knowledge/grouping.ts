@@ -1,6 +1,18 @@
 import { getDomain, taxonomy } from "./index";
 import type { ArticleSummary, TaxonomyDomain } from "./types";
 
+/** 延伸學習依主系統分組，每篇只出現一次，組內維持傳入順序 */
+export function groupByPrimarySystem<T extends { system: string }>(articles: T[]): { id: string; name: string; articles: T[] }[] {
+  const order = new Map(taxonomy.domains.map((d, i) => [d.id, i]));
+  const groups = new Map<string, { id: string; name: string; articles: T[] }>();
+  for (const article of articles) {
+    const group = groups.get(article.system) ?? { id: article.system, name: getDomain(article.system)?.name ?? "其他", articles: [] };
+    group.articles.push(article);
+    groups.set(article.system, group);
+  }
+  return [...groups.values()].sort((a, b) => (order.get(a.id) ?? order.size) - (order.get(b.id) ?? order.size));
+}
+
 /** 「系統」組的 domain(順序同側欄);跨系統頁與速查頁依它分組 */
 export function organDomains(): TaxonomyDomain[] {
   return taxonomy.domains.filter((d) => d.kind === "system");

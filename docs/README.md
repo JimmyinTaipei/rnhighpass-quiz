@@ -21,6 +21,8 @@
 | [knowledge-roadmap.md](knowledge-roadmap.md) | 各輪範圍、跨輪移交清單、資料來源原則 |
 | [deploy-size-plan.md](deploy-size-plan.md) | 部署流程(免費方案 CPU 與大小限制) |
 | [new-sitting-import.md](new-sitting-import.md) | 新梯次考題匯入流程(PDF → 題庫 → 網站)、網頁修改拉回本地 |
+| [knowledge-question-alignment.md](knowledge-question-alignment.md) | 知識頁上下考題來源、題數差異與內容吻合問題，2026-11-01 決定暫緩處理 |
+| [hint-system.md](hint-system.md) | 共用操作提示、首批小測驗／看答案套用與驗收方式；網站教學延後 |
 | [spec.md](spec.md) | 網站最初的功能規格(2026-09) |
 
 ## 自動產生的報告

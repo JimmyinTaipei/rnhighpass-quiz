@@ -49,7 +49,7 @@ export function ExamPresence({ slug, stats, links }: ExamPresenceProps) {
             href={`/learn/${slug}/quiz`}
             className={pillTint}
           >
-            <ListChecks size={16} /> 練相關題
+            <ListChecks size={16} /> 練本篇相關考題
           </Link>
         )}
       </div>

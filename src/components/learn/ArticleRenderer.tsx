@@ -139,7 +139,7 @@ function QuestionBlock({
       <summary className="flex cursor-pointer list-none items-center gap-2 py-2.5 text-sm font-semibold text-deep md:px-4 select-none hover:bg-surface-hover [&::-webkit-details-marker]:hidden">
         <ListChecks size={16} className="shrink-0 text-accent" />
         <span className="min-w-0">{label}</span>
-        <span className="ml-auto shrink-0 text-xs font-normal text-muted group-open:hidden">點開瀏覽</span>
+        <span className="ml-auto shrink-0 text-xs font-normal text-muted group-open:hidden">展開練習</span>
         <span className="ml-auto hidden shrink-0 text-xs font-normal text-muted group-open:inline">收起</span>
       </summary>
       <div className="border-t border-card-border pt-3 md:p-4">
@@ -275,6 +275,9 @@ export function SectionView({ section, ctx }: { section: KnowledgeSection; ctx: 
       questionsAnchor={questionsAnchor(section.id)}
       titleEditor={slug ? <SectionTitleEditor key={section.title} slug={slug} id={section.id} /> : undefined}    >
       {slug && <SectionBodyEditor slug={slug} id={section.id} />}
+      {ctx.embedDepth === 0 && section.id === "questions" && (
+        <p className="mb-3 text-sm text-muted">尚未分配至個別段落的相關考題</p>
+      )}
       <div className="kb-prose">{renderHast(section.content, inner)}</div>
       {section.children.map((c) =>
         isMergedExamPoints(section, c) ? (
@@ -288,7 +291,7 @@ export function SectionView({ section, ctx }: { section: KnowledgeSection; ctx: 
       )}
       <QuestionBlock
         questions={own}
-        label={`${section.number.trim()}${section.title}的考題 ${own.length} 題`}
+        label={`本段練習・${own.length} 題`}
         anchor={questionsAnchor(section.id)}
         ctx={ctx}
       />

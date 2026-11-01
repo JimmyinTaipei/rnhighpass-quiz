@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Hint } from "@/components/ui/Hint";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import type { ChapterRef } from "@/lib/data";
 import type { ComparisonTable, Question } from "@/lib/types";
@@ -23,12 +24,12 @@ export function QuestionList({ questions, isLoggedIn, devMode, tables, otherChap
   return (
     <>
       <div className="segmented mb-3" role="group" aria-label="考題顯示方式">
-        <button type="button" aria-pressed={!browse} onClick={() => setBrowse(false)}>
+        <Hint content={isLoggedIn ? "選答後立即對答並記錄，答錯會納入錯題本" : "可練習，作答不會儲存"} aria-pressed={!browse} onClick={() => setBrowse(false)}>
           小測驗
-        </button>
-        <button type="button" aria-pressed={browse} onClick={() => setBrowse(true)}>
+        </Hint>
+        <Hint content="直接顯示答案與詳解，不新增作答紀錄" aria-pressed={browse} onClick={() => setBrowse(true)}>
           看答案
-        </button>
+        </Hint>
       </div>
       {questions.map((q) => (
         <QuestionCard
