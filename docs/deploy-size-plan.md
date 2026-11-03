@@ -96,3 +96,12 @@
 - 預覽與正式站各 443 項檢查通過：文章／表格 H1、既有入口、表格索引 2,097 筆、API 回應及未登入導向不指向 0.0.0.0
 - 題庫正式網址：https://rnhighpass-quiz.jimmyni312.workers.dev。`rnhighpass.com` 是另一個既有靜態分章題本網站，`/learn` 不屬於本 Worker；本輪未變更 DNS 或自訂網域
 - 前一正式版本 `eec4f4c9-4356-4df0-859d-5224265856d0` 保留，可在必要時以 versions deploy 回復
+
+
+### 搜尋範圍與閱讀操作發布（2026-11-03）
+
+- 程式 `73dedeb` 已推送 main；Worker `5ee175f7-2f83-4278-a82b-ee5b22af9986`，台北 10:52 切換 100% 流量
+- Node 22.19.0 建置 2,529 個靜態頁面；handler 約 25 MiB，Wrangler 上傳 34,884.00 KiB／gzip 6,851.57 KiB
+- 29 項回歸與修改檔案 ESLint 通過；預覽、正式各 451 項 HTTP 檢查通過，詳見 [搜尋紀錄](search-audit.md#發布2026-11-03)
+- 正式網址：https://rnhighpass-quiz.jimmyni312.workers.dev；前版 `f7614464-4da9-49fb-87e7-e778ceffa957` 保留，模擬考站未變更
+- 搜尋等待畫面、返回閱讀位置與手機手感仍待人工驗收；其他知識頁 UI 修改留在工作區，未納入本次產物
