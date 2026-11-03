@@ -80,7 +80,7 @@ export default async function ChapterPage(props: PageProps<"/chapters/[chapterId
 
   return (
     <div data-group={group} className="min-w-0">
-      <SearchBox className="mb-4 max-w-md" />
+      <SearchBox subject={chapter.subject_id} label={`搜尋範圍：${subject?.name ?? "本科"}（全科）`} className="mb-4 max-w-xl" />
       <p className="mb-1 text-sm text-muted">
         <Link href="/subjects" className="hover:text-subj-deep">
           科目

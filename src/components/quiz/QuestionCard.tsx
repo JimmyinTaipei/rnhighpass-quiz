@@ -173,7 +173,7 @@ export function QuestionCard({
 
   return (
     // 一律白底＋細框線(globals.css 的 .surface-white)，選項與詳解段落是卡裡的灰色列
-    <div className="surface-white mb-4 rounded-card p-4 sm:p-5">
+    <div id={mode === "chapter" ? `question-${question.id}` : undefined} className="surface-white mb-4 scroll-mt-4 rounded-card p-4 sm:p-5">
       <div className="mb-3 flex items-start justify-between gap-2">
         <span className="rounded-full bg-fill px-2.5 py-0.5 text-xs font-medium text-body">
           {question.source_text}

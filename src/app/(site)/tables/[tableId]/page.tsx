@@ -1,3 +1,5 @@
+import { Suspense } from "react";
+import { TableBackLink } from "@/components/search/TableBackLink";
 import Link from "next/link";
 import { FileDown } from "lucide-react";
 import { notFound } from "next/navigation";
@@ -40,6 +42,7 @@ export default async function TablePage(props: PageProps<"/tables/[tableId]">) {
   return (
     <main data-group={group} className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 flex flex-col">
       <Panel className="flex-1">
+      <Suspense fallback={<Link href="/search" className="mb-4 inline-flex min-h-11 items-center px-2 text-sm text-deep">← 返回搜尋結果</Link>}><TableBackLink /></Suspense>
       <p className="mb-1 text-sm text-muted">
         <Link href="/tables" className="hover:text-subj-deep">
           比較表

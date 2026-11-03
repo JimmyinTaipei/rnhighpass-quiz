@@ -1,4 +1,7 @@
 // 主站共用的按鈕樣式(Apple 風格：膠囊形、無外框，用填色區分層級)。
+/** 使用者選定的原生白底選單，與 UI 對照庫共用。 */
+export const nativeSelectClass = "min-h-11 w-full min-w-0 appearance-none rounded-btn border border-card-border bg-card py-2 pr-9 pl-3 text-base text-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:cursor-not-allowed disabled:opacity-50";
+
 // 寫成字串常數而不是元件：呼叫端可能是 <Link>、<button> 或 <a>，直接接 className 最簡單。
 
 // 字重不放在 pillBase：同一個元素上 font-medium 和 font-semibold 誰贏取決於 CSS 產生順序，不可靠。

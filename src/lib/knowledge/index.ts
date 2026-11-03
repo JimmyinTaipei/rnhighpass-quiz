@@ -4,6 +4,8 @@ import questionMapJson from "@/data/knowledge/question-map.json";
 import questionSlotsJson from "@/data/knowledge/question-slots.json";
 import taxonomyJson from "@/data/knowledge/taxonomy.json";
 import { ARTICLE_SLUGS } from "@/data/knowledge/article-slugs";
+import type { KnowledgeResultKind } from "../search";
+import { matchKnowledgeEntry } from "./search-matching";
 import { readKnowledgeData } from "./data-files";
 import { examCountFor, examStatsFor } from "./exam";
 import type {
@@ -78,9 +80,16 @@ let searchEntriesPromise: Promise<SearchEntry[] | null> | null = null;
 
 async function loadSearchEntries(): Promise<SearchEntry[]> {
   searchEntriesPromise ??= readKnowledgeData<SearchEntry[]>("search.json");
-  const entries = await searchEntriesPromise;
+  let entries: SearchEntry[] | null;
+  try {
+    entries = await searchEntriesPromise;
+  } catch (error) {
+    searchEntriesPromise = null;
+    throw error;
+  }
   if (!entries) searchEntriesPromise = null;
-  return entries ?? [];
+  if (!entries) throw new Error("知識庫搜尋索引暫時無法讀取");
+  return entries;
 }
 
 let summaries: ArticleSummary[] | null = null;
@@ -240,45 +249,20 @@ export function siblingArticles(article: { slug: string; group: string | null })
 // ===== 全文搜尋(server 端;內容成長到上千個知識點也不必把全文送到瀏覽器) =====
 
 const SEARCH_LIMIT = 60;
-const SNIPPET_RADIUS = 28;
-
-function snippetOf(text: string, pos: number, len: number): [string, string, string] {
-  const start = Math.max(0, pos - SNIPPET_RADIUS);
-  const end = Math.min(text.length, pos + len + SNIPPET_RADIUS);
-  return [
-    (start > 0 ? "…" : "") + text.slice(start, pos),
-    text.slice(pos, pos + len),
-    text.slice(pos + len, end) + (end < text.length ? "…" : ""),
-  ];
-}
-
-/**
- * 排序:標題開頭符合 < 標題包含 < 別名/麵包屑 < 只有內文符合;同分時整篇文章在前。
- */
-export async function searchKnowledge(query: string, type: KnowledgeCategory | null): Promise<SearchResult[]> {
+/** Match only an entry's own title/body, plus aliases on article entries. */
+export async function searchKnowledge(query: string, type: KnowledgeCategory | null, options?: { tablesOnly?: boolean; all?: boolean; resultKind?: KnowledgeResultKind }): Promise<SearchResult[]> {
   const q = query.trim().toLowerCase();
   if (!q) return [];
   const searchEntries = await loadSearchEntries();
   const hits: { rank: number; result: SearchResult }[] = [];
   for (const e of searchEntries) {
+    if (options?.tablesOnly && !e.tableId) continue;
     if (type && e.c !== type) continue;
-    const t = e.t.toLowerCase();
-    const bodyPos = e.b.toLowerCase().indexOf(q);
-    let rank: number;
-    if (t.startsWith(q)) rank = 0;
-    else if (t.includes(q)) rank = 1;
-    else if (e.s.toLowerCase().includes(q)) rank = 2;
-    else if (bodyPos >= 0) rank = 3;
-    else continue;
-    if (!e.k.includes("#")) rank -= 0.5;
-    const { b, ...rest } = e;
-    hits.push({
-      rank,
-      result: { ...rest, snippet: bodyPos >= 0 && rank >= 2 ? snippetOf(b, bodyPos, q.length) : null },
-    });
+    const hit = matchKnowledgeEntry(e, q, options?.resultKind);
+    if (hit) hits.push(hit);
   }
   return hits
     .sort((a, b) => a.rank - b.rank)
-    .slice(0, SEARCH_LIMIT)
+    .slice(0, options?.all ? undefined : SEARCH_LIMIT)
     .map((h) => h.result);
 }

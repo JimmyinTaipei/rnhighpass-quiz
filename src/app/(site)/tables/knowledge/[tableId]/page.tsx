@@ -1,3 +1,5 @@
+import { Suspense } from "react";
+import { TableBackLink } from "@/components/search/TableBackLink";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -31,6 +33,7 @@ export default async function KnowledgeTablePage({ params }: Props) {
 
   return (
     <main className="on-white mx-auto w-full min-w-0 max-w-6xl flex-1 px-4 py-8">
+      <Suspense fallback={<Link href="/search" className="mb-4 inline-flex min-h-11 items-center px-2 text-sm text-deep">← 返回搜尋結果</Link>}><TableBackLink /></Suspense>
       <div className="flex items-start justify-between gap-3">
         <h1 className="min-w-0 text-2xl font-bold text-deep">{ref.title}</h1>
         <FavoriteButton questionId={tableId} kind="table" label="這張表格" className="kb-table-favorite shrink-0" />

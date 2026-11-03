@@ -1,15 +1,16 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
-import { Link2, Search, Table2 } from "lucide-react";
+import { Link2, Table2 } from "lucide-react";
 import type { TableChapterSection } from "@/lib/table-placement";
+import { UNCATEGORIZED } from "@/lib/notebook";
+import { SearchBox } from "@/components/search/SearchBox";
 
 interface TablesBrowserProps {
   subjectId: string;
   sections: TableChapterSection[];
-  /** 全站所有表(搜尋用)，含主要歸屬的科目 */
-  allTables: { id: string; title: string; subjectId: string; subjectName: string }[];
+  subjectName: string;
 }
 
 /**
@@ -30,103 +31,71 @@ const anchorHref = (subjectId: string, id: string) =>
   `/tables?subject=${encodeURIComponent(subjectId)}#tbl-${id}`;
 
 /**
- * 比較表的章節分組清單 + 表名搜尋。
+ * 比較表的章節分組清單 + 共用的本科表格全文搜尋入口。
  * 主要章節顯示一般卡片；次要章節顯示同一張表的「連結卡」，點下去跳回主要章節那張(並高亮)。
  */
-export function TablesBrowser({ subjectId, sections, allTables }: TablesBrowserProps) {
-  const [query, setQuery] = useState("");
+export function TablesBrowser({ subjectId, sections, subjectName }: TablesBrowserProps) {
   // 從別科的連結卡跳過來：元件以 subjectId 為 key 重新掛載，這裡讀網址的 #tbl-xxx
   useEffect(() => {
     const hash = decodeURIComponent(window.location.hash);
     if (hash.startsWith("#tbl-")) return flashTable(hash.slice("#tbl-".length), "auto");
   }, []);
 
-  const q = query.trim().toLowerCase();
-  const matches = q ? allTables.filter((t) => t.title.toLowerCase().includes(q)).slice(0, 60) : [];
-
   return (
     <div>
-      <label className="mb-6 flex items-center gap-2 rounded-btn bg-fill px-3 py-2 focus-within:border-subj-accent">
-        <Search size={16} className="text-muted" />
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="搜尋所有比較表的名稱"
-          className="min-w-0 flex-1 bg-transparent text-sm outline-none"
-        />
-      </label>
-
-      {q ? (
-        matches.length === 0 ? (
-          <p className="text-sm text-muted">沒有符合的比較表。</p>
-        ) : (
-          <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-            {matches.map((t) => (
-              <Link
-                key={t.id}
-                href={tableHref(t.id)}
-                className="rounded-card bg-card p-3.5 text-sm shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow hover:shadow-md active:opacity-70"
-              >
-                <span className="block text-xs text-muted">{t.subjectName}</span>
-                <span className="font-medium text-subj-deep">{t.title}</span>
-              </Link>
-            ))}
-          </div>
-        )
-      ) : (
-        <div className="flex flex-col gap-8">
-          {sections.map((s) => (
-            <section key={s.chapterId ?? "none"} id={s.chapterId != null ? `ch-${s.chapterId}` : undefined} className="scroll-mt-4">
-              <div className="mb-3 flex flex-wrap items-center gap-3">
-                <span className="h-5 w-1.5 rounded-full bg-subj-accent" />
-                <h2 className="text-lg font-bold text-subj-deep">{s.label}</h2>
-                <span className="text-xs text-muted">
-                  {s.primary.length} 張{s.secondary.length > 0 && `・另有 ${s.secondary.length} 張相關`}
-                </span>
-                {s.chapterId != null && (
-                  <Link href={`/chapters/${s.chapterId}`} className="ml-auto text-xs text-subj-deep hover:underline">
-                    看章節
-                  </Link>
-                )}
-              </div>
-              <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-                {s.primary.map((t) => (
-                  <Link
-                    key={t.id}
-                    id={`tbl-${t.id}`}
-                    href={tableHref(t.id)}
-                    className="table-card flex scroll-mt-24 items-start gap-2 rounded-card bg-card p-3.5 text-sm font-medium text-subj-deep shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow hover:shadow-md active:opacity-70"
-                  >
-                    <Table2 size={16} className="mt-0.5 shrink-0 text-subj-accent" />
-                    <span className="min-w-0 flex-1">{t.title}</span>
-                    {t.count > 0 && <span className="shrink-0 text-xs font-normal text-muted">{t.count} 題</span>}
-                  </Link>
-                ))}
-                {s.secondary.map((t) => (
-                  <Link
-                    key={`sec-${t.id}`}
-                    href={anchorHref(t.primarySubjectId, t.id)}
-                    onClick={() => {
-                      // 同一科內跳轉不會重新掛載，直接在這裡觸發高亮與捲動
-                      if (t.primarySubjectId !== subjectId) return;
-                      flashTable(t.id, "smooth");
-                    }}
-                    title={`這張表主要放在 ${t.primaryLabel}`}
-                    className="flex items-start gap-2 rounded-card border border-dashed border-card-border bg-card p-3 text-sm text-body transition-colors hover:bg-surface-hover hover:text-subj-deep"
-                  >
-                    <Link2 size={16} className="mt-0.5 shrink-0 text-muted" />
-                    <span className="min-w-0 flex-1">
-                      {t.title}
-                      <span className="mt-0.5 block text-xs text-muted">主要在 {t.primaryLabel}</span>
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            </section>
-          ))}
-          {sections.length === 0 && subjectId && <p className="text-sm text-muted">這一科沒有比較表。</p>}
-        </div>
-      )}
+      <SearchBox scope="tables" subject={subjectId === UNCATEGORIZED ? undefined : subjectId} label={`搜尋範圍：${subjectId === UNCATEGORIZED ? "全站" : subjectName}比較表`} className="mb-6" />
+      <div className="flex flex-col gap-8">
+        {sections.map((s) => (
+          <section key={s.chapterId ?? "none"} id={s.chapterId != null ? `ch-${s.chapterId}` : undefined} className="scroll-mt-4">
+            <div className="mb-3 flex flex-wrap items-center gap-3">
+              <span className="h-5 w-1.5 rounded-full bg-subj-accent" />
+              <h2 className="text-lg font-bold text-subj-deep">{s.label}</h2>
+              <span className="text-xs text-muted">
+                {s.primary.length} 張{s.secondary.length > 0 && `・另有 ${s.secondary.length} 張相關`}
+              </span>
+              {s.chapterId != null && (
+                <Link href={`/chapters/${s.chapterId}`} className="ml-auto text-xs text-subj-deep hover:underline">
+                  看章節
+                </Link>
+              )}
+            </div>
+            <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+              {s.primary.map((t) => (
+                <Link
+                  key={t.id}
+                  id={`tbl-${t.id}`}
+                  href={tableHref(t.id)}
+                  className="table-card flex scroll-mt-24 items-start gap-2 rounded-card bg-card p-3.5 text-sm font-medium text-subj-deep shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow hover:shadow-md active:opacity-70"
+                >
+                  <Table2 size={16} className="mt-0.5 shrink-0 text-subj-accent" />
+                  <span className="min-w-0 flex-1">{t.title}</span>
+                  {t.count > 0 && <span className="shrink-0 text-xs font-normal text-muted">{t.count} 題</span>}
+                </Link>
+              ))}
+              {s.secondary.map((t) => (
+                <Link
+                  key={`sec-${t.id}`}
+                  href={anchorHref(t.primarySubjectId, t.id)}
+                  onClick={() => {
+                    // 同一科內跳轉不會重新掛載，直接在這裡觸發高亮與捲動
+                    if (t.primarySubjectId !== subjectId) return;
+                    flashTable(t.id, "smooth");
+                  }}
+                  title={`這張表主要放在 ${t.primaryLabel}`}
+                  className="flex items-start gap-2 rounded-card border border-dashed border-card-border bg-card p-3 text-sm text-body transition-colors hover:bg-surface-hover hover:text-subj-deep"
+                >
+                  <Link2 size={16} className="mt-0.5 shrink-0 text-muted" />
+                  <span className="min-w-0 flex-1">
+                    {t.title}
+                    <span className="mt-0.5 block text-xs text-muted">主要在 {t.primaryLabel}</span>
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        ))}
+        {sections.length === 0 && subjectId && <p className="text-sm text-muted">這一科沒有比較表。</p>}
+      </div>
     </div>
   );
 }

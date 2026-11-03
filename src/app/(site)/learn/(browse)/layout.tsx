@@ -11,7 +11,7 @@ export default function LearnBrowseLayout({ children }: { children: React.ReactN
     <div className="mx-auto grid w-full max-w-6xl flex-1 content-start gap-6 px-4 py-8 lg:grid-cols-[220px_minmax(0,1fr)]">
       <LearnSidebar groups={learnNavGroups()} />
       <div className="min-w-0">
-        <SearchBox scope="knowledge" className="mb-5 max-w-xl" />
+        <SearchBox scope="knowledge" className="mb-5 w-full" />
         {children}
       </div>
     </div>

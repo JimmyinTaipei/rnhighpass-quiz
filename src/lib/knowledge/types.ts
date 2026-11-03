@@ -290,6 +290,8 @@ export interface Taxonomy {
 
 /** 首頁搜尋索引的一筆:整篇文章(k = slug)或一個知識點(k = slug#id) */
 export interface SearchEntry {
+  /** 知識庫表格獨立結果；一般文章／段落不設定 */
+  tableId?: string;
   k: string;
   /** 標題 */
   t: string;

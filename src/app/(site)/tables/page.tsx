@@ -61,12 +61,7 @@ export default async function TablesPage(props: PageProps<"/tables">) {
             key={subjectId}
             subjectId={subjectId}
             sections={sectionsForSubject(placed, subjectId, chapters)}
-            allTables={placed.map((t) => ({
-              id: t.id,
-              title: t.title,
-              subjectId: t.subjectId,
-              subjectName: subjectName(t.subjectId),
-            }))}
+            subjectName={subjectName(subjectId)}
           />
         </div>
       </Panel>

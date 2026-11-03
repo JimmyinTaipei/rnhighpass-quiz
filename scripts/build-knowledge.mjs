@@ -1125,6 +1125,12 @@ function taxonomyOutput(taxonomy, articles) {
 function searchOutput(articles, index) {
   const out = [];
   for (const a of articles) {
+    const tables = (content) => visit(content, "element", (node) => {
+      if (node.tagName !== "table" || !node.properties["data-table-id"]) return;
+      const tableId = node.properties["data-table-id"];
+      out.push({ k: `${a.slug}#table-${tableId}`, tableId, t: node.properties["data-table-title"], s: a.title, c: a.category, d: a.system, b: plainText({ type: "root", children: [node] }) });
+    });
+    tables(a.intro);
     out.push({
       k: a.slug,
       t: a.title,
@@ -1134,6 +1140,7 @@ function searchOutput(articles, index) {
       b: plainText(a.intro),
     });
     walkSections(a.sections, (sec) => {
+      tables(sec.content);
       const key = `${a.slug}#${sec.id}`;
       const meta = index.sections[key];
       out.push({

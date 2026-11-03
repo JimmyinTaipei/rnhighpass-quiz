@@ -7,7 +7,7 @@ interface NoteCardProps {
 
 export function NoteCard({ card }: NoteCardProps) {
   return (
-    <div className="mb-3 rounded-card bg-(--surface-inset) p-4 sm:p-5">
+    <div id={`note-${encodeURIComponent(card.node_id)}`} className="scroll-mt-4 mb-3 rounded-card bg-(--surface-inset) p-4 sm:p-5">
       <p className="mb-1 flex items-center gap-1 text-xs font-semibold text-accent">
         <BookOpen size={13} />
         考點筆記
